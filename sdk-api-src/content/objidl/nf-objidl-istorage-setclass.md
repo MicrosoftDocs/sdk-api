@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IStorage.SetClass
 title: IStorage::SetClass (objidl.h)
-
 description: The SetClass method assigns the specified class identifier (CLSID) to this storage object.
 old-location: stg\istorage_setclass.htm
 tech.root: Stg
 ms.assetid: 02ab2708-fc8b-4941-939a-a819cf823108
-
 ms.date: 12/05/2018
 ms.keywords: IStorage interface [Structured Storage],SetClass method, IStorage.SetClass, IStorage::SetClass, SetClass, SetClass method [Structured Storage], SetClass method [Structured Storage],IStorage interface, _stg_istorage_setclass, objidl/IStorage::SetClass, stg.istorage_setclass
 ms.topic: method
-f1_keywords: 
- - "objidl/IStorage.SetClass"
+f1_keywords:
+- objidl/IStorage.SetClass
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IStorage.SetClass
+- IStorage.SetClass
 targetos: Windows
 req.typenames: 
 req.redist: 

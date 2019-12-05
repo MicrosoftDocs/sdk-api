@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncSessionState.GetForgottenKnowledgeRecoveryRangeStart
 title: ISyncSessionState::GetForgottenKnowledgeRecoveryRangeStart (winsync.h)
-
 description: Gets the lower bound of the recovery range when the session is performing forgotten knowledge recovery.
 old-location: winsync\isyncsessionstate_getforgottenknowledgerecoveryrangestart.htm
 tech.root: winsync
 ms.assetid: a6d6434a-d4cf-4b92-958c-5ff8022a9531
-
 ms.date: 12/05/2018
 ms.keywords: GetForgottenKnowledgeRecoveryRangeStart, GetForgottenKnowledgeRecoveryRangeStart method [Windows Sync], GetForgottenKnowledgeRecoveryRangeStart method [Windows Sync],ISyncSessionState interface, ISyncSessionState interface [Windows Sync],GetForgottenKnowledgeRecoveryRangeStart method, ISyncSessionState.GetForgottenKnowledgeRecoveryRangeStart, ISyncSessionState::GetForgottenKnowledgeRecoveryRangeStart, winsync.isyncsessionstate_getforgottenknowledgerecoveryrangestart, winsync/ISyncSessionState::GetForgottenKnowledgeRecoveryRangeStart
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncSessionState.GetForgottenKnowledgeRecoveryRangeStart"
+f1_keywords:
+- winsync/ISyncSessionState.GetForgottenKnowledgeRecoveryRangeStart
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncSessionState.GetForgottenKnowledgeRecoveryRangeStart
+- ISyncSessionState.GetForgottenKnowledgeRecoveryRangeStart
 targetos: Windows
 req.typenames: 
 req.redist: 

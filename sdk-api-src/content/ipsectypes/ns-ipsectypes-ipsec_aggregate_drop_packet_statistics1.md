@@ -1,19 +1,17 @@
 ---
 UID: NS:ipsectypes.IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1_
 title: IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1 (ipsectypes.h)
-
 description: Stores aggregate IPsec kernel packet drop statistics.
 old-location: fwp\ipsec_aggregate_drop_packet_statistics1_struct.htm
 tech.root: fwp
 ms.assetid: 8ee7150e-ac6e-4f8e-99af-1b92b4e54615
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1, IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1 structure [Filtering], fwp.ipsec_aggregate_drop_packet_statistics1_struct, ipsectypes/IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1"
+f1_keywords:
+- ipsectypes/IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1
+- IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1
 targetos: Windows
 req.typenames: IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1
 req.redist: 

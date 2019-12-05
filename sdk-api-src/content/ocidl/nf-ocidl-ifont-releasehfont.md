@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IFont.ReleaseHfont
 title: IFont::ReleaseHfont (ocidl.h)
-
 description: Notifies the font object that the caller that previously locked this font in the cache with IFont::AddRefHfont no longer requires the lock.
 old-location: com\ifont_releasehfont.htm
 tech.root: com
 ms.assetid: 2c2cf2e0-d0c8-4e4f-ba5a-6b08650aee68
-
 ms.date: 12/05/2018
 ms.keywords: IFont interface [COM],ReleaseHfont method, IFont.ReleaseHfont, IFont::ReleaseHfont, ReleaseHfont, ReleaseHfont method [COM], ReleaseHfont method [COM],IFont interface, _ctrl_ifont_releasehfont, com.ifont_releasehfont, ocidl/IFont::ReleaseHfont
 ms.topic: method
-f1_keywords: 
- - "ocidl/IFont.ReleaseHfont"
+f1_keywords:
+- ocidl/IFont.ReleaseHfont
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IFont.ReleaseHfont
+- IFont.ReleaseHfont
 targetos: Windows
 req.typenames: 
 req.redist: 

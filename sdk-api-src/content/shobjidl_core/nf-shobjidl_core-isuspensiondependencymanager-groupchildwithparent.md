@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ISuspensionDependencyManager.GroupChildWithParent
 title: ISuspensionDependencyManager::GroupChildWithParent (shobjidl_core.h)
-
 description: ISuspensionDependencyManager::GroupChildWithParent method
 old-location: shell\ISuspensionDependencyManager_GroupChildWithParent.htm
 tech.root: shell
 ms.assetid: E9E5FDCB-83AA-4EC1-9CE2-1EABDD7DF39C
-
 ms.date: 12/05/2018
 ms.keywords: GroupChildWithParent, GroupChildWithParent method [Windows Shell], GroupChildWithParent method [Windows Shell],ISuspensionDependencyManager interface, ISuspensionDependencyManager interface [Windows Shell],GroupChildWithParent method, ISuspensionDependencyManager.GroupChildWithParent, ISuspensionDependencyManager::GroupChildWithParent, shell.ISuspensionDependencyManager_GroupChildWithParent, shobjidl_core/ISuspensionDependencyManager::GroupChildWithParent
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ISuspensionDependencyManager.GroupChildWithParent"
+f1_keywords:
+- shobjidl_core/ISuspensionDependencyManager.GroupChildWithParent
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ISuspensionDependencyManager.GroupChildWithParent
+- ISuspensionDependencyManager.GroupChildWithParent
 targetos: Windows
 req.typenames: 
 req.redist: 

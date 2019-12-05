@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.CreateSettingByPath
 title: ISettingsItem::CreateSettingByPath (wcmconfig.h)
-
 description: Creates a setting object specified by the path.
 old-location: smi\isettingsitem_createsettingbypath.htm
 tech.root: SMI
 ms.assetid: 8b51329e-dc81-46dc-b174-0191e2eea44a
-
 ms.date: 12/05/2018
 ms.keywords: CreateSettingByPath, CreateSettingByPath method [SMI], CreateSettingByPath method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],CreateSettingByPath method, ISettingsItem.CreateSettingByPath, ISettingsItem::CreateSettingByPath, smi.isettingsitem_createsettingbypath, wcmconfig/ISettingsItem::CreateSettingByPath
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsItem.CreateSettingByPath"
+f1_keywords:
+- wcmconfig/ISettingsItem.CreateSettingByPath
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsItem.CreateSettingByPath
+- ISettingsItem.CreateSettingByPath
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.lineagententry_tag
 title: LINEAGENTENTRY (tapi.h)
-
 description: The LINEAGENTENTRY structure describes an individual ACD agent. The LINEAGENTLIST structure can contain an array of LINEAGENTENTRY structures.
 old-location: tapi2\lineagententry_str.htm
 tech.root: Tapi
 ms.assetid: 89feff58-3396-4999-be24-4d14839378e1
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLINEAGENTENTRY, LINEAGENTENTRY, LINEAGENTENTRY structure [TAPI 2.2], LPLINEAGENTENTRY, LPLINEAGENTENTRY structure pointer [TAPI 2.2], _tapi2_lineagententry_str, tapi/LINEAGENTENTRY, tapi/LPLINEAGENTENTRY, tapi2.lineagententry_str"
+ms.keywords: '*LPLINEAGENTENTRY, LINEAGENTENTRY, LINEAGENTENTRY structure [TAPI 2.2], LPLINEAGENTENTRY, LPLINEAGENTENTRY structure pointer [TAPI 2.2], _tapi2_lineagententry_str, tapi/LINEAGENTENTRY, tapi/LPLINEAGENTENTRY, tapi2.lineagententry_str'
 ms.topic: struct
-f1_keywords: 
- - "tapi/LINEAGENTENTRY"
+f1_keywords:
+- tapi/LINEAGENTENTRY
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - LINEAGENTENTRY
+- LINEAGENTENTRY
 targetos: Windows
 req.typenames: LINEAGENTENTRY, *LPLINEAGENTENTRY
 req.redist: 

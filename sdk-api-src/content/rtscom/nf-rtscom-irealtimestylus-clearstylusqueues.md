@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.ClearStylusQueues
 title: IRealTimeStylus::ClearStylusQueues (rtscom.h)
-
 description: Clears the RealTimeStylus Class input and output queues of data.
 old-location: tablet\irealtimestylus_clearstylusqueues.htm
 tech.root: tablet
 ms.assetid: 28270403-9d6d-4e57-9ec5-0d697f4df185
-
 ms.date: 12/05/2018
 ms.keywords: 28270403-9d6d-4e57-9ec5-0d697f4df185, ClearStylusQueues, ClearStylusQueues method [Tablet PC], ClearStylusQueues method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],ClearStylusQueues method, IRealTimeStylus.ClearStylusQueues, IRealTimeStylus::ClearStylusQueues, rtscom/IRealTimeStylus::ClearStylusQueues, tablet.irealtimestylus_clearstylusqueues
 ms.topic: method
-f1_keywords: 
- - "rtscom/IRealTimeStylus.ClearStylusQueues"
+f1_keywords:
+- rtscom/IRealTimeStylus.ClearStylusQueues
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IRealTimeStylus.ClearStylusQueues
+- IRealTimeStylus.ClearStylusQueues
 targetos: Windows
 req.typenames: 
 req.redist: 

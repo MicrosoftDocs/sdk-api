@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateCommandList
 title: ID3D12Device::CreateCommandList
-
 description: Creates a command list.
 old-location: direct3d12\id3d12device_createcommandlist.htm
 tech.root: direct3d12
 ms.assetid: 4C615D7D-6DBC-4EDA-8D72-271EC53047BF
-
 ms.date: 12/05/2018
 ms.keywords: CreateCommandList, CreateCommandList method, CreateCommandList method,ID3D12Device interface, ID3D12Device interface,CreateCommandList method, ID3D12Device.CreateCommandList, ID3D12Device::CreateCommandList, d3d12/ID3D12Device::CreateCommandList, direct3d12.id3d12device_createcommandlist
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Device.CreateCommandList"
+f1_keywords:
+- d3d12/ID3D12Device.CreateCommandList
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12Device.CreateCommandList
+- ID3D12Device.CreateCommandList
 targetos: Windows
 req.typenames: 
 req.redist: 

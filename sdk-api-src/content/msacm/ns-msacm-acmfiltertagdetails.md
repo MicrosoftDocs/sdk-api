@@ -1,19 +1,17 @@
 ---
 UID: NS:msacm.tACMFILTERTAGDETAILS
 title: ACMFILTERTAGDETAILS (msacm.h)
-
 description: The ACMFILTERTAGDETAILS structure details a waveform-audio filter tag for an ACM filter driver.
 old-location: multimedia\acmfiltertagdetails_struct.htm
 tech.root: Multimedia
 ms.assetid: 94b31090-74ed-42ac-b904-0a90f055e03a
-
 ms.date: 12/05/2018
-ms.keywords: "*LPACMFILTERTAGDETAILS, *PACMFILTERTAGDETAILS, ACMDRIVERDETAILS_SUPPORTF_ASYNC, ACMDRIVERDETAILS_SUPPORTF_CODEC, ACMDRIVERDETAILS_SUPPORTF_CONVERTER, ACMDRIVERDETAILS_SUPPORTF_FILTER, ACMDRIVERDETAILS_SUPPORTF_HARDWARE, ACMFILTERTAGDETAILS, ACMFILTERTAGDETAILS structure [Windows Multimedia], msacm/ACMFILTERTAGDETAILS, multimedia.acmfiltertagdetails_COLLISION761, multimedia.acmfiltertagdetails_struct"
+ms.keywords: '*LPACMFILTERTAGDETAILS, *PACMFILTERTAGDETAILS, ACMDRIVERDETAILS_SUPPORTF_ASYNC, ACMDRIVERDETAILS_SUPPORTF_CODEC, ACMDRIVERDETAILS_SUPPORTF_CONVERTER, ACMDRIVERDETAILS_SUPPORTF_FILTER, ACMDRIVERDETAILS_SUPPORTF_HARDWARE, ACMFILTERTAGDETAILS, ACMFILTERTAGDETAILS structure [Windows Multimedia], msacm/ACMFILTERTAGDETAILS, multimedia.acmfiltertagdetails_COLLISION761, multimedia.acmfiltertagdetails_struct'
 ms.topic: struct
-f1_keywords: 
- - "msacm/ACMFILTERTAGDETAILS"
+f1_keywords:
+- msacm/ACMFILTERTAGDETAILS
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msacm.h
+- Msacm.h
 api_name:
- - ACMFILTERTAGDETAILS
+- ACMFILTERTAGDETAILS
 targetos: Windows
 req.typenames: ACMFILTERTAGDETAILS, *PACMFILTERTAGDETAILS, *LPACMFILTERTAGDETAILS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspen.Pen.ResetTransform
 title: Pen::ResetTransform (gdipluspen.h)
-
 description: The Pen::ResetTransform method sets the world transformation matrix of this Pen object to the identity matrix.
 old-location: gdiplus\_gdiplus_CLASS_Pen_ResetTransform_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\resettransform_27.htm
-
 ms.date: 12/05/2018
 ms.keywords: Pen class [GDI+],ResetTransform method, Pen.ResetTransform, Pen::ResetTransform, ResetTransform, ResetTransform method [GDI+], ResetTransform method [GDI+],Pen class, _gdiplus_CLASS_Pen_ResetTransform_, gdiplus._gdiplus_CLASS_Pen_ResetTransform_
 ms.topic: method
-f1_keywords: 
- - "gdipluspen/Pen.ResetTransform"
+f1_keywords:
+- gdipluspen/Pen.ResetTransform
 dev_langs:
- - c++
+- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Pen.ResetTransform
+- Pen.ResetTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

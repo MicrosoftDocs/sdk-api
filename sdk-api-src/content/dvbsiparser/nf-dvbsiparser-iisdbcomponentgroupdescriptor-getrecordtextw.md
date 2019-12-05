@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbComponentGroupDescriptor.GetRecordTextW
 title: IIsdbComponentGroupDescriptor::GetRecordTextW (dvbsiparser.h)
-
 description: Gets the text that describes a component group from an Integrated Services Digital Broadcasting (ISDB) component group descriptor.
 old-location: mstv\iisdbcomponentgroupdescriptor_getrecordtextw.htm
 tech.root: mstv
 ms.assetid: 0aea8704-cda0-44d5-b06d-79db6ce0114e
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordTextW, GetRecordTextW method [Microsoft TV Technologies], GetRecordTextW method [Microsoft TV Technologies],IIsdbComponentGroupDescriptor interface, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],GetRecordTextW method, IIsdbComponentGroupDescriptor.GetRecordTextW, IIsdbComponentGroupDescriptor::GetRecordTextW, dvbsiparser/IIsdbComponentGroupDescriptor::GetRecordTextW, mstv.iisdbcomponentgroupdescriptor_getrecordtextw
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbComponentGroupDescriptor.GetRecordTextW"
+f1_keywords:
+- dvbsiparser/IIsdbComponentGroupDescriptor.GetRecordTextW
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbComponentGroupDescriptor.GetRecordTextW
+- IIsdbComponentGroupDescriptor.GetRecordTextW
 targetos: Windows
 req.typenames: 
 req.redist: 

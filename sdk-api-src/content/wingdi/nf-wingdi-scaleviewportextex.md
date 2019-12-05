@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.ScaleViewportExtEx
 title: ScaleViewportExtEx function (wingdi.h)
-
 description: The ScaleViewportExtEx function modifies the viewport for a device context using the ratios formed by the specified multiplicands and divisors.
 old-location: gdi\scaleviewportextex.htm
 tech.root: gdi
 ms.assetid: 8dde1322-82d7-4069-9655-a7bd3a324cb0
-
 ms.date: 12/05/2018
 ms.keywords: ScaleViewportExtEx, ScaleViewportExtEx function [Windows GDI], _win32_ScaleViewportExtEx, gdi.scaleviewportextex, wingdi/ScaleViewportExtEx
 ms.topic: function
-f1_keywords: 
- - "wingdi/ScaleViewportExtEx"
+f1_keywords:
+- wingdi/ScaleViewportExtEx
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - ScaleViewportExtEx
+- ScaleViewportExtEx
 targetos: Windows
 req.typenames: 
 req.redist: 

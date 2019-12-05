@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleCreateEmbeddingHelper
 title: OleCreateEmbeddingHelper function (ole2.h)
-
 description: Creates an OLE embedding helper object using application-supplied code aggregated with pieces of the OLE default object handler. This helper object can be created and used in a specific context and role, as determined by the caller.
 old-location: com\olecreateembeddinghelper.htm
 tech.root: com
 ms.assetid: 5c67b513-0692-4e0a-beab-8b514089699c
-
 ms.date: 12/05/2018
 ms.keywords: OleCreateEmbeddingHelper, OleCreateEmbeddingHelper function [COM], _ole_OleCreateEmbeddingHelper, com.olecreateembeddinghelper, ole2/OleCreateEmbeddingHelper
 ms.topic: function
-f1_keywords: 
- - "ole2/OleCreateEmbeddingHelper"
+f1_keywords:
+- ole2/OleCreateEmbeddingHelper
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - OleCreateEmbeddingHelper
+- OleCreateEmbeddingHelper
 targetos: Windows
 req.typenames: 
 req.redist: 

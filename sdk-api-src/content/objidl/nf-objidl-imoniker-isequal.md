@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IMoniker.IsEqual
 title: IMoniker::IsEqual (objidl.h)
-
 description: Determines whether this moniker is identical to the specified moniker.
 old-location: com\imoniker_isequal.htm
 tech.root: com
 ms.assetid: 0092e93e-d87d-4b3e-b8e1-40eeaf04c43b
-
 ms.date: 12/05/2018
 ms.keywords: IMoniker interface [COM],IsEqual method, IMoniker.IsEqual, IMoniker::IsEqual, IsEqual, IsEqual method [COM], IsEqual method [COM],IMoniker interface, _com_imoniker_isequal, com.imoniker_isequal, objidl/IMoniker::IsEqual
 ms.topic: method
-f1_keywords: 
- - "objidl/IMoniker.IsEqual"
+f1_keywords:
+- objidl/IMoniker.IsEqual
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IMoniker.IsEqual
+- IMoniker.IsEqual
 targetos: Windows
 req.typenames: 
 req.redist: 

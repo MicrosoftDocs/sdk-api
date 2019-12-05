@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.GopherOpenFileW
 title: GopherOpenFileW function (wininet.h)
-
 description: Begins reading a Gopher data file from a Gopher server.
 old-location: wininet\gopheropenfile.htm
 tech.root: wininet
 ms.assetid: 2731d573-f981-48ce-a306-bb7e295cefc6
-
 ms.date: 12/05/2018
 ms.keywords: GopherOpenFile, GopherOpenFile function [WinINet], GopherOpenFileA, GopherOpenFileW, _inet_gopheropenfile_function, wininet.gopheropenfile, wininet/GopherOpenFile, wininet/GopherOpenFileA, wininet/GopherOpenFileW
 ms.topic: function
-f1_keywords: 
- - "wininet/GopherOpenFile"
+f1_keywords:
+- wininet/GopherOpenFile
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - GopherOpenFile
- - GopherOpenFileA
- - GopherOpenFileW
+- GopherOpenFile
+- GopherOpenFileA
+- GopherOpenFileW
 targetos: Windows
 req.typenames: 
 req.redist: 

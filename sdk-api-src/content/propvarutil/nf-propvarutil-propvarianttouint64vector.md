@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToUInt64Vector
 title: PropVariantToUInt64Vector function (propvarutil.h)
-
 description: Extracts data from a PROPVARIANT structure into a ULONGLONG vector.
 old-location: properties\PropVariantToUInt64Vector.htm
 tech.root: properties
 ms.assetid: 596c7a35-6645-4f66-b924-b71278778776
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToUInt64Vector, PropVariantToUInt64Vector function [Windows Properties], _shell_PropVariantToUInt64Vector, properties.PropVariantToUInt64Vector, propvarutil/PropVariantToUInt64Vector, shell.PropVariantToUInt64Vector
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToUInt64Vector"
+f1_keywords:
+- propvarutil/PropVariantToUInt64Vector
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToUInt64Vector
+- PropVariantToUInt64Vector
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.CreateStreamPrioritization
 title: IMFASFProfile::CreateStreamPrioritization (wmcontainer.h)
-
 description: IMFASFProfile::CreateStreamPrioritization method
 old-location: mf\imfasfprofile_createstreamprioritization.htm
 tech.root: medfound
 ms.assetid: 1c3a5470-eba9-4233-8744-8630002d3fa0
-
 ms.date: 12/05/2018
 ms.keywords: 1c3a5470-eba9-4233-8744-8630002d3fa0, CreateStreamPrioritization, CreateStreamPrioritization method [Media Foundation], CreateStreamPrioritization method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],CreateStreamPrioritization method, IMFASFProfile.CreateStreamPrioritization, IMFASFProfile::CreateStreamPrioritization, mf.imfasfprofile_createstreamprioritization, wmcontainer/IMFASFProfile::CreateStreamPrioritization
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFProfile.CreateStreamPrioritization"
+f1_keywords:
+- wmcontainer/IMFASFProfile.CreateStreamPrioritization
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFProfile.CreateStreamPrioritization
+- IMFASFProfile.CreateStreamPrioritization
 targetos: Windows
 req.typenames: 
 req.redist: 

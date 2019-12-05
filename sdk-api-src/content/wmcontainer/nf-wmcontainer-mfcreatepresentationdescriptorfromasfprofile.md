@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.MFCreatePresentationDescriptorFromASFProfile
 title: MFCreatePresentationDescriptorFromASFProfile function (wmcontainer.h)
-
 description: Creates a presentation descriptor from an ASF profile object.
 old-location: mf\mfcreatepresentationdescriptorfromasfprofile.htm
 tech.root: medfound
 ms.assetid: e36ac685-4ebe-4fc6-a17a-f36b9d667add
-
 ms.date: 12/05/2018
 ms.keywords: MFCreatePresentationDescriptorFromASFProfile, MFCreatePresentationDescriptorFromASFProfile function [Media Foundation], e36ac685-4ebe-4fc6-a17a-f36b9d667add, mf.mfcreatepresentationdescriptorfromasfprofile, wmcontainer/MFCreatePresentationDescriptorFromASFProfile
 ms.topic: function
-f1_keywords: 
- - "wmcontainer/MFCreatePresentationDescriptorFromASFProfile"
+f1_keywords:
+- wmcontainer/MFCreatePresentationDescriptorFromASFProfile
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreatePresentationDescriptorFromASFProfile
+- MFCreatePresentationDescriptorFromASFProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

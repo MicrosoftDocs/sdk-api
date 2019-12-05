@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_XML_READER_INPUT
 title: WS_XML_READER_INPUT (webservices.h)
-
 description: Specifies where the reader should obtain the bytes that comprise the xml document.
 old-location: wsw\ws_xml_reader_input.htm
 tech.root: wsw
 ms.assetid: 1e7a708d-5dcf-44ec-b781-a34946cb2844
-
 ms.date: 12/05/2018
 ms.keywords: WS_XML_READER_INPUT, WS_XML_READER_INPUT structure [Web Services for Windows], webservices/WS_XML_READER_INPUT, wsw.ws_xml_reader_input
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_XML_READER_INPUT"
+f1_keywords:
+- webservices/WS_XML_READER_INPUT
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_XML_READER_INPUT
+- WS_XML_READER_INPUT
 targetos: Windows
 req.typenames: WS_XML_READER_INPUT
 req.redist: 

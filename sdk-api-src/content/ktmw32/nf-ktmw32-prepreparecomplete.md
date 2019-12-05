@@ -1,19 +1,17 @@
 ---
 UID: NF:ktmw32.PrePrepareComplete
 title: PrePrepareComplete function (ktmw32.h)
-
 description: Signals that this resource manager has completed its preprepare work, so that other resource managers can now begin their prepare operations.
 old-location: fs\prepreparecomplete.htm
 tech.root: ktm
 ms.assetid: b4a70a51-2c49-4626-9fca-9ca6e0d21a53
-
 ms.date: 12/05/2018
 ms.keywords: PrePrepareComplete, PrePrepareComplete function [Files], fs.prepreparecomplete, ktmw32/PrePrepareComplete
 ms.topic: function
-f1_keywords: 
- - "ktmw32/PrePrepareComplete"
+f1_keywords:
+- ktmw32/PrePrepareComplete
 dev_langs:
- - c++
+- c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ktmw32.lib
 req.dll: Ktmw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ktmw32.dll
+- Ktmw32.dll
 api_name:
- - PrePrepareComplete
+- PrePrepareComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

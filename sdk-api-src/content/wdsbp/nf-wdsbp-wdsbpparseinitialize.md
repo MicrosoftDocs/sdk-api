@@ -1,19 +1,17 @@
 ---
 UID: NF:wdsbp.WdsBpParseInitialize
 title: WdsBpParseInitialize function (wdsbp.h)
-
 description: Receives a handle to the packet sent by the network boot program.
 old-location: wds\wdsbpparseinitialize.htm
 tech.root: wds
 ms.assetid: dc6007ad-0dd5-477d-a49f-45820aa1b5f6
-
 ms.date: 12/05/2018
 ms.keywords: WDSBP_PK_TYPE_BCD, WDSBP_PK_TYPE_DHCP, WDSBP_PK_TYPE_WDSNBP, WdsBpParseInitialize, WdsBpParseInitialize function [Windows Deployment Services], wds.wdsbpparseinitialize, wdsbp/WdsBpParseInitialize
 ms.topic: function
-f1_keywords: 
- - "wdsbp/WdsBpParseInitialize"
+f1_keywords:
+- wdsbp/WdsBpParseInitialize
 dev_langs:
- - c++
+- c++
 req.header: wdsbp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wdsbp.lib
 req.dll: Wdsbp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wdsbp.dll
+- Wdsbp.dll
 api_name:
- - WdsBpParseInitialize
+- WdsBpParseInitialize
 targetos: Windows
 req.typenames: 
 req.redist: 

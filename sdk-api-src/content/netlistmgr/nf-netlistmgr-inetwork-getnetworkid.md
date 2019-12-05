@@ -1,19 +1,17 @@
 ---
 UID: NF:netlistmgr.INetwork.GetNetworkId
 title: INetwork::GetNetworkId (netlistmgr.h)
-
 description: The GetNetworkId method returns the unique identifier of a network.
 old-location: nla\inetwork_getnetworkid.htm
 tech.root: nla
 ms.assetid: f2012295-d443-434f-8fe8-b6e38e7cac74
-
 ms.date: 12/05/2018
 ms.keywords: GetNetworkId, GetNetworkId method [Network Awareness], GetNetworkId method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetNetworkId method, INetwork.GetNetworkId, INetwork::GetNetworkId, netlistmgr/INetwork::GetNetworkId, nla.inetwork_getnetworkid
 ms.topic: method
-f1_keywords: 
- - "netlistmgr/INetwork.GetNetworkId"
+f1_keywords:
+- netlistmgr/INetwork.GetNetworkId
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - INetwork.GetNetworkId
+- INetwork.GetNetworkId
 targetos: Windows
 req.typenames: 
 req.redist: 

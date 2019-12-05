@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMQuaternionSquad
 title: XMQuaternionSquad function (directxmath.h)
-
 description: Interpolates between four unit quaternions, using spherical quadrangle interpolation.
 old-location: dxmath\xmquaternionsquad.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionSquad(XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,float)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionSquad, XMQuaternionSquad, XMQuaternionSquad method [DirectX Math Support APIs], dxmath.xmquaternionsquad
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMQuaternionSquad"
+f1_keywords:
+- directxmath/XMQuaternionSquad
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMQuaternionSquad
+- XMQuaternionSquad
 targetos: Windows
 req.typenames: 
 req.redist: 

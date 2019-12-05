@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage.get_SubmissionId
 title: IFaxOutgoingMessage::get_SubmissionId (faxcomex.h)
-
 description: The IFaxOutgoingMessage::get_SubmissionId property is a null-terminated string that contains the unique identifier assigned to the fax message during the submission process.
 old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_submissionid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5nz8.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingMessage interface [Fax Service],SubmissionId property, IFaxOutgoingMessage.SubmissionId, IFaxOutgoingMessage.get_SubmissionId, IFaxOutgoingMessage::SubmissionId, IFaxOutgoingMessage::get_SubmissionId, SubmissionId property [Fax Service], SubmissionId property [Fax Service],IFaxOutgoingMessage interface, _mfax_faxoutgoingmessage.submissionid, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_submissionid_cpp, fax._mfax_faxoutgoingmessage_submissionid, faxcomex/IFaxOutgoingMessage::SubmissionId, faxcomex/IFaxOutgoingMessage::get_SubmissionId, get_SubmissionId
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingMessage.SubmissionId"
+f1_keywords:
+- faxcomex/IFaxOutgoingMessage.SubmissionId
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingMessage.SubmissionId
- - IFaxOutgoingMessage.get_SubmissionId
- - IFaxOutgoingMessage.get_SubmissionId
+- IFaxOutgoingMessage.SubmissionId
+- IFaxOutgoingMessage.get_SubmissionId
+- IFaxOutgoingMessage.get_SubmissionId
 targetos: Windows
 req.typenames: 
 req.redist: 

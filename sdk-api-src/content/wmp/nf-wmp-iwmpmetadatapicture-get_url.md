@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPMetadataPicture.get_URL
 title: IWMPMetadataPicture::get_URL (wmp.h)
-
 description: This method is for internal use only.
 old-location: wmp\iwmpmetadatapicture_get_url.htm
 tech.root: WMP
 ms.assetid: e61c9c1a-4ffc-4a71-83b7-ad3f9937e303
-
 ms.date: 12/05/2018
 ms.keywords: IWMPMetadataPicture interface [Windows Media Player],get_URL method, IWMPMetadataPicture.get_URL, IWMPMetadataPicture::get_URL, IWMPMetadataPictureget_URL, get_URL, get_URL method [Windows Media Player], get_URL method [Windows Media Player],IWMPMetadataPicture interface, wmp.iwmpmetadatapicture_get_url, wmp/IWMPMetadataPicture::get_URL
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPMetadataPicture.get_URL"
+f1_keywords:
+- wmp/IWMPMetadataPicture.get_URL
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPMetadataPicture.get_URL
+- IWMPMetadataPicture.get_URL
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IX509AttributeArchiveKeyHash
 title: IX509AttributeArchiveKeyHash (certenroll.h)
-
 description: Represents an attribute that contains a SHA-1 hash of the encrypted private key to be archived by a certification authority.
 old-location: security\ix509attributearchivekeyhash.htm
 tech.root: seccertenroll
 ms.assetid: 52c92629-4c9e-4996-80a2-30e2212b3009
-
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeArchiveKeyHash, IX509AttributeArchiveKeyHash interface [Security], IX509AttributeArchiveKeyHash interface [Security],described, certenroll/IX509AttributeArchiveKeyHash, security.ix509attributearchivekeyhash
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IX509AttributeArchiveKeyHash"
+f1_keywords:
+- certenroll/IX509AttributeArchiveKeyHash
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509AttributeArchiveKeyHash
+- IX509AttributeArchiveKeyHash
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnRegistrationEvents.OnRegisterModeAvailable
 title: IMbnRegistrationEvents::OnRegisterModeAvailable (mbnapi.h)
-
 description: Notification method called by the Mobile Broadband service to indicate that registration mode information is available.
 old-location: mbn\imbnregistrationevents_onregistermodeavailable.htm
 tech.root: mbn
 ms.assetid: 5c916f16-e8f5-4c8a-942c-3a9ae11905a7
-
 ms.date: 12/05/2018
 ms.keywords: IMbnRegistrationEvents interface [Microsoft Broadband Networks],OnRegisterModeAvailable method, IMbnRegistrationEvents.OnRegisterModeAvailable, IMbnRegistrationEvents::OnRegisterModeAvailable, OnRegisterModeAvailable, OnRegisterModeAvailable method [Microsoft Broadband Networks], OnRegisterModeAvailable method [Microsoft Broadband Networks],IMbnRegistrationEvents interface, mbn.imbnregistrationevents_onregistermodeavailable, mbnapi/IMbnRegistrationEvents::OnRegisterModeAvailable
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnRegistrationEvents.OnRegisterModeAvailable"
+f1_keywords:
+- mbnapi/IMbnRegistrationEvents.OnRegisterModeAvailable
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnRegistrationEvents.OnRegisterModeAvailable
+- IMbnRegistrationEvents.OnRegisterModeAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 

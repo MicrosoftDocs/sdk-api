@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateException.get_Message
 title: IUpdateException::get_Message (wuapi.h)
-
 description: Gets a message that describes the search results.
 old-location: wua\iupdateexception_message.htm
 tech.root: Wua_Sdk
 ms.assetid: 29dc3787-d646-4ebf-9a0e-c4fc42c39846
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateException interface [Windows Update Agent],Message property, IUpdateException.Message, IUpdateException.get_Message, IUpdateException::Message, IUpdateException::get_Message, Message property [Windows Update Agent], Message property [Windows Update Agent],IUpdateException interface, get_Message, wua.iupdateexception_message, wuapi/IUpdateException::Message, wuapi/IUpdateException::get_Message
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateException.Message"
+f1_keywords:
+- wuapi/IUpdateException.Message
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateException.Message
- - IUpdateException.get_Message
+- IUpdateException.Message
+- IUpdateException.get_Message
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComActivityEvents.OnActivityLeaveSame
 title: IComActivityEvents::OnActivityLeaveSame (comsvcs.h)
-
 description: Generated when an activity thread is left after being entered recursively.
 old-location: cos\icomactivityevents_onactivityleavesame.htm
 tech.root: cossdk
 ms.assetid: 5a82fba1-a7d8-48d6-aa54-2f1a28e1b3d9
-
 ms.date: 12/05/2018
 ms.keywords: IComActivityEvents interface [COM+],OnActivityLeaveSame method, IComActivityEvents.OnActivityLeaveSame, IComActivityEvents::OnActivityLeaveSame, OnActivityLeaveSame, OnActivityLeaveSame method [COM+], OnActivityLeaveSame method [COM+],IComActivityEvents interface, _dtc_IComActivityEvents_OnActivityLeaveSame, comsvcs/IComActivityEvents::OnActivityLeaveSame, cos.icomactivityevents_onactivityleavesame
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComActivityEvents.OnActivityLeaveSame"
+f1_keywords:
+- comsvcs/IComActivityEvents.OnActivityLeaveSame
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComActivityEvents.OnActivityLeaveSame
+- IComActivityEvents.OnActivityLeaveSame
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineGenerateDigits
 title: lineGenerateDigits function (tapi.h)
-
 description: Initiates the generation of the specified digits on the specified call as inband tones using the specified signaling mode.
 old-location: tapi2\linegeneratedigits.htm
 tech.root: Tapi
 ms.assetid: aa407269-06be-43e2-906e-20137e4bdb89
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linegeneratedigits, lineGenerateDigits, lineGenerateDigits function [TAPI 2.2], lineGenerateDigitsA, lineGenerateDigitsW, tapi/lineGenerateDigits, tapi/lineGenerateDigitsA, tapi/lineGenerateDigitsW, tapi2.linegeneratedigits"
+ms.keywords: _tapi2_linegeneratedigits, lineGenerateDigits, lineGenerateDigits function [TAPI 2.2], lineGenerateDigitsA, lineGenerateDigitsW, tapi/lineGenerateDigits, tapi/lineGenerateDigitsA, tapi/lineGenerateDigitsW, tapi2.linegeneratedigits
 ms.topic: function
-f1_keywords: 
- - "tapi/lineGenerateDigits"
+f1_keywords:
+- tapi/lineGenerateDigits
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineGenerateDigits
- - lineGenerateDigitsA
- - lineGenerateDigitsW
+- lineGenerateDigits
+- lineGenerateDigitsA
+- lineGenerateDigitsW
 targetos: Windows
 req.typenames: 
 req.redist: 

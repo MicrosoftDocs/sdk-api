@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusbrush.SolidBrush.GetColor
 title: SolidBrush::GetColor (gdiplusbrush.h)
-
 description: The SolidBrush::GetColor method gets the color of this solid brush.
 old-location: gdiplus\_gdiplus_CLASS_SolidBrush_GetColor_color_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\solidbrushclass\solidbrushmethods\getcolor_82color.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetColor, GetColor method [GDI+], GetColor method [GDI+],SolidBrush class, SolidBrush class [GDI+],GetColor method, SolidBrush.GetColor, SolidBrush::GetColor, _gdiplus_CLASS_SolidBrush_GetColor_color_, gdiplus._gdiplus_CLASS_SolidBrush_GetColor_color_
 ms.topic: method
-f1_keywords: 
- - "gdiplusbrush/SolidBrush.GetColor"
+f1_keywords:
+- gdiplusbrush/SolidBrush.GetColor
 dev_langs:
- - c++
+- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - SolidBrush.GetColor
+- SolidBrush.GetColor
 targetos: Windows
 req.typenames: 
 req.redist: 

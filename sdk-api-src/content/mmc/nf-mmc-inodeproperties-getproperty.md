@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.INodeProperties.GetProperty
 title: INodeProperties::GetProperty (mmc.h)
-
 description: The GetProperty method retrieves text-only property values for a node. Your implementation of the INodeProperties::GetProperty method is called when an application based on the MMC 2.0 Automation Object Model retrieves the Node.Property property.
 old-location: mmc\inodeproperties_getproperty.htm
 tech.root: mmc
 ms.assetid: e891428a-c0a1-4451-aa69-c0a4a3d09078
-
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [MMC], GetProperty method [MMC],INodeProperties interface, INodeProperties interface [MMC],GetProperty method, INodeProperties.GetProperty, INodeProperties::GetProperty, _slate_inodeproperties_getproperty, mmc.inodeproperties_getproperty, mmc/INodeProperties::GetProperty
 ms.topic: method
-f1_keywords: 
- - "mmc/INodeProperties.GetProperty"
+f1_keywords:
+- mmc/INodeProperties.GetProperty
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - INodeProperties.GetProperty
+- INodeProperties.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

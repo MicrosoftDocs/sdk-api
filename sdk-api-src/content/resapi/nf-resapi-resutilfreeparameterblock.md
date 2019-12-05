@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilFreeParameterBlock
 title: ResUtilFreeParameterBlock function (resapi.h)
-
 description: Deallocates memory that has been allocated for a parameter block by ResUtilDupParameterBlock.
 old-location: mscs\resutilfreeparameterblock.htm
 tech.root: MsCS
 ms.assetid: 2e884794-dbb7-47a8-8843-e9c030ce515d
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_FREE_PARAMETER_BLOCK, PRESUTIL_FREE_PARAMETER_BLOCK function [Failover Cluster], ResUtilFreeParameterBlock, ResUtilFreeParameterBlock function [Failover Cluster], _wolf_resutilfreeparameterblock, mscs.resutilfreeparameterblock, resapi/PRESUTIL_FREE_PARAMETER_BLOCK, resapi/ResUtilFreeParameterBlock
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilFreeParameterBlock"
+f1_keywords:
+- resapi/ResUtilFreeParameterBlock
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
- - Ext-MS-Win-Cluster-ResUtils-L1-1-1.dll
+- ResUtils.dll
+- Ext-MS-Win-Cluster-ResUtils-L1-1-1.dll
 api_name:
- - ResUtilFreeParameterBlock
+- ResUtilFreeParameterBlock
 targetos: Windows
 req.typenames: 
 req.redist: 

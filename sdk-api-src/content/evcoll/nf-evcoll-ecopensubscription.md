@@ -1,19 +1,17 @@
 ---
 UID: NF:evcoll.EcOpenSubscription
 title: EcOpenSubscription function (evcoll.h)
-
 description: Opens an existing subscription or creates a new subscription.
 old-location: wec\ecopensubscription.htm
 tech.root: WEC
 ms.assetid: 3b4ef765-b557-4142-ba7d-e2556bd067ec
-
 ms.date: 12/05/2018
 ms.keywords: EcOpenSubscription, EcOpenSubscription function, evcoll/EcOpenSubscription, wec.ecopensubscription, wes.ecopensubscription
 ms.topic: function
-f1_keywords: 
- - "evcoll/EcOpenSubscription"
+f1_keywords:
+- evcoll/EcOpenSubscription
 dev_langs:
- - c++
+- c++
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wecapi.lib
 req.dll: Wecapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wecapi.dll
+- Wecapi.dll
 api_name:
- - EcOpenSubscription
+- EcOpenSubscription
 targetos: Windows
 req.typenames: 
 req.redist: 

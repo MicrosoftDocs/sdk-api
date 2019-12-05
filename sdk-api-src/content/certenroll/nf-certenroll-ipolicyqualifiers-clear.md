@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IPolicyQualifiers.Clear
 title: IPolicyQualifiers::Clear (certenroll.h)
-
 description: Removes all objects from the collection.
 old-location: security\ipolicyqualifiers_clear_method.htm
 tech.root: seccertenroll
 ms.assetid: 96b36a6e-f67b-40fb-ab05-4782e7cb659f
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IPolicyQualifiers interface, IPolicyQualifiers interface [Security],Clear method, IPolicyQualifiers.Clear, IPolicyQualifiers::Clear, certenroll/IPolicyQualifiers::Clear, security.ipolicyqualifiers_clear_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IPolicyQualifiers.Clear"
+f1_keywords:
+- certenroll/IPolicyQualifiers.Clear
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IPolicyQualifiers.Clear
+- IPolicyQualifiers.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

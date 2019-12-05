@@ -1,19 +1,17 @@
 ---
 UID: NF:ntdsapi.DsQuerySitesFree
 title: DsQuerySitesFree function (ntdsapi.h)
-
 description: Frees the memory allocated by the DsQuerySitesByCost function.
 old-location: ad\dsquerysitesfree.htm
 tech.root: ad
 ms.assetid: 810caa4f-8275-4ad8-ad3e-72061fc073dd
-
 ms.date: 12/05/2018
 ms.keywords: DsQuerySitesFree, DsQuerySitesFree function [Active Directory], ad.dsquerysitesfree, ntdsapi/DsQuerySitesFree
 ms.topic: function
-f1_keywords: 
- - "ntdsapi/DsQuerySitesFree"
+f1_keywords:
+- ntdsapi/DsQuerySitesFree
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
+- Ntdsapi.dll
 api_name:
- - DsQuerySitesFree
+- DsQuerySitesFree
 targetos: Windows
 req.typenames: 
 req.redist: 

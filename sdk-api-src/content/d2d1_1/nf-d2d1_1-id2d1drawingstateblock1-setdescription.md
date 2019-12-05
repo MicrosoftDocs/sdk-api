@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1DrawingStateBlock1.SetDescription
 title: ID2D1DrawingStateBlock1::SetDescription (d2d1_1.h)
-
 description: Sets the D2D1_DRAWING_STATE_DESCRIPTION1 associated with this drawing state block.
 old-location: direct2d\id2d1drawingstateblock1_setdescription1.htm
 tech.root: Direct2D
 ms.assetid: B07A36E3-F351-439E-A085-A71E1A58DD45
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1DrawingStateBlock1 interface [Direct2D],SetDescription method, ID2D1DrawingStateBlock1.SetDescription, ID2D1DrawingStateBlock1::SetDescription, SetDescription, SetDescription method [Direct2D], SetDescription method [Direct2D],ID2D1DrawingStateBlock1 interface, d2d1_1/ID2D1DrawingStateBlock1::SetDescription, direct2d.id2d1drawingstateblock1_setdescription1
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1DrawingStateBlock1.SetDescription"
+f1_keywords:
+- d2d1_1/ID2D1DrawingStateBlock1.SetDescription
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1DrawingStateBlock1.SetDescription
+- ID2D1DrawingStateBlock1.SetDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

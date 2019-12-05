@@ -1,19 +1,17 @@
 ---
 UID: NF:locationapi.ICivicAddressReport.GetCity
 title: ICivicAddressReport::GetCity (locationapi.h)
-
 description: Retrieves the city name.
 old-location: winlocation_com_ref\icivicaddressreport_getcity.htm
 tech.root: locationapi
 ms.assetid: c87debb3-63ab-4d5b-85ff-0ee0653d6ffe
-
 ms.date: 12/05/2018
 ms.keywords: GetCity, GetCity method [WinLocation], GetCity method [WinLocation],ICivicAddressReport interface, ICivicAddressReport interface [WinLocation],GetCity method, ICivicAddressReport.GetCity, ICivicAddressReport::GetCity, WinLocation_COM_Ref.icivicaddressreport_getcity, locationapi/ICivicAddressReport::GetCity
 ms.topic: method
-f1_keywords: 
- - "locationapi/ICivicAddressReport.GetCity"
+f1_keywords:
+- locationapi/ICivicAddressReport.GetCity
 dev_langs:
- - c++
+- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: LocationAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - LocationAPI.dll
+- LocationAPI.dll
 api_name:
- - ICivicAddressReport.GetCity
+- ICivicAddressReport.GetCity
 targetos: Windows
 req.typenames: 
 req.redist: 

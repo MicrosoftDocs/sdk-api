@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiGetSummaryInformationW
 title: MsiGetSummaryInformationW function (msiquery.h)
-
 description: The MsiGetSummaryInformation function obtains a handle to the _SummaryInformation stream for an installer database. This function returns a handle that should be closed using MsiCloseHandle.
 old-location: setup\msigetsummaryinformation.htm
 tech.root: Msi
 ms.assetid: f3a6d7cc-83b2-45c6-bf86-c579b39c2c92
-
 ms.date: 12/05/2018
 ms.keywords: MsiGetSummaryInformation, MsiGetSummaryInformation function, MsiGetSummaryInformationA, MsiGetSummaryInformationW, _msi_msigetsummaryinformation, msiquery/MsiGetSummaryInformation, msiquery/MsiGetSummaryInformationA, msiquery/MsiGetSummaryInformationW, setup.msigetsummaryinformation
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiGetSummaryInformation"
+f1_keywords:
+- msiquery/MsiGetSummaryInformation
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
- - Ext-MS-Win-MSI-Misc-l1-1-0.dll
+- Msi.dll
+- Ext-MS-Win-MSI-Misc-l1-1-0.dll
 api_name:
- - MsiGetSummaryInformation
- - MsiGetSummaryInformationA
- - MsiGetSummaryInformationW
+- MsiGetSummaryInformation
+- MsiGetSummaryInformationA
+- MsiGetSummaryInformationW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0029
 title: MPEG_WINSOCK (mpeg2structs.h)
-
 description: The MPEG_WINSOCK structure is not supported.
 old-location: mstv\mpeg_winsock.htm
 tech.root: mstv
 ms.assetid: b8128811-dd8c-40e0-9010-8c473e253270
-
 ms.date: 12/05/2018
 ms.keywords: MPEG_WINSOCK, MPEG_WINSOCK structure [Microsoft TV Technologies], mpeg2structs/MPEG_WINSOCK, mstv.mpeg_winsock
 ms.topic: struct
-f1_keywords: 
- - "mpeg2structs/MPEG_WINSOCK"
+f1_keywords:
+- mpeg2structs/MPEG_WINSOCK
 dev_langs:
- - c++
+- c++
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mpeg2Structs.h
+- Mpeg2Structs.h
 api_name:
- - MPEG_WINSOCK
+- MPEG_WINSOCK
 targetos: Windows
 req.typenames: MPEG_WINSOCK
 req.redist: 

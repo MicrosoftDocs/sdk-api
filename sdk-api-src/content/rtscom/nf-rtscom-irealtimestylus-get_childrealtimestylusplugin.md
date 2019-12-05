@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.get_ChildRealTimeStylusPlugin
 title: IRealTimeStylus::get_ChildRealTimeStylusPlugin (rtscom.h)
-
 description: Gets or sets a RealTimeStylus object as an asynchronous plug-in of the current RealTimeStylus object.
 old-location: tablet\irealtimestylus_childrealtimestylusplugin.htm
 tech.root: tablet
 ms.assetid: 269c133c-6950-40e0-8de9-e38bfa06995e
-
 ms.date: 12/05/2018
 ms.keywords: 269c133c-6950-40e0-8de9-e38bfa06995e, ChildRealTimeStylusPlugin property [Tablet PC], ChildRealTimeStylusPlugin property [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],ChildRealTimeStylusPlugin property, IRealTimeStylus.ChildRealTimeStylusPlugin, IRealTimeStylus.get_ChildRealTimeStylusPlugin, IRealTimeStylus.put_ChildRealTimeStylusPlugin, IRealTimeStylus::ChildRealTimeStylusPlugin, IRealTimeStylus::get_ChildRealTimeStylusPlugin, IRealTimeStylus::put_ChildRealTimeStylusPlugin, get_ChildRealTimeStylusPlugin, rtscom/IRealTimeStylus::ChildRealTimeStylusPlugin, rtscom/IRealTimeStylus::get_ChildRealTimeStylusPlugin, rtscom/IRealTimeStylus::put_ChildRealTimeStylusPlugin, tablet.irealtimestylus_childrealtimestylusplugin
 ms.topic: method
-f1_keywords: 
- - "rtscom/IRealTimeStylus.ChildRealTimeStylusPlugin"
+f1_keywords:
+- rtscom/IRealTimeStylus.ChildRealTimeStylusPlugin
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IRealTimeStylus.ChildRealTimeStylusPlugin
- - IRealTimeStylus.get_ChildRealTimeStylusPlugin
- - IRealTimeStylus.put_ChildRealTimeStylusPlugin
- - IRealTimeStylus.get_ChildRealTimeStylusPlugin
- - IRealTimeStylus.put_ChildRealTimeStylusPlugin
+- IRealTimeStylus.ChildRealTimeStylusPlugin
+- IRealTimeStylus.get_ChildRealTimeStylusPlugin
+- IRealTimeStylus.put_ChildRealTimeStylusPlugin
+- IRealTimeStylus.get_ChildRealTimeStylusPlugin
+- IRealTimeStylus.put_ChildRealTimeStylusPlugin
 targetos: Windows
 req.typenames: 
 req.redist: 

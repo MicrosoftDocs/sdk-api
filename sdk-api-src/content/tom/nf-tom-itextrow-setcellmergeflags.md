@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.SetCellMergeFlags
 title: ITextRow::SetCellMergeFlags (tom.h)
-
 description: Sets the merge flags of the active cell.
 old-location: controls\itextrow_setcellmergeflags.htm
 tech.root: Controls
 ms.assetid: a60966cc-03c6-4cb9-b424-eb59f68d1fd1
-
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellMergeFlags method, ITextRow.SetCellMergeFlags, ITextRow::SetCellMergeFlags, SetCellMergeFlags, SetCellMergeFlags method [Windows Controls], SetCellMergeFlags method [Windows Controls],ITextRow interface, controls.itextrow_setcellmergeflags, tom/ITextRow::SetCellMergeFlags, tomHContCell, tomHStartCell, tomVLowCell, tomVTopCell
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.SetCellMergeFlags"
+f1_keywords:
+- tom/ITextRow.SetCellMergeFlags
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.SetCellMergeFlags
+- ITextRow.SetCellMergeFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

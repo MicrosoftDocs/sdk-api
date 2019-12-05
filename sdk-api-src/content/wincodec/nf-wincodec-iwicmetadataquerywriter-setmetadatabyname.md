@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICMetadataQueryWriter.SetMetadataByName
 title: IWICMetadataQueryWriter::SetMetadataByName (wincodec.h)
-
 description: Sets a metadata item to a specific location.
 old-location: wic\_wic_codec_iwicmetadataquerywriter_setmetadatabyname.htm
 tech.root: wic
 ms.assetid: fd3a9752-f13f-4f19-b2bd-04b5df1e0dd2
-
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataQueryWriter interface [Windows Imaging Component],SetMetadataByName method, IWICMetadataQueryWriter.SetMetadataByName, IWICMetadataQueryWriter::SetMetadataByName, SetMetadataByName, SetMetadataByName method [Windows Imaging Component], SetMetadataByName method [Windows Imaging Component],IWICMetadataQueryWriter interface, _wic_codec_iwicmetadataquerywriter_setmetadatabyname, wic._wic_codec_iwicmetadataquerywriter_setmetadatabyname, wincodec/IWICMetadataQueryWriter::SetMetadataByName
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICMetadataQueryWriter.SetMetadataByName"
+f1_keywords:
+- wincodec/IWICMetadataQueryWriter.SetMetadataByName
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICMetadataQueryWriter.SetMetadataByName
+- IWICMetadataQueryWriter.SetMetadataByName
 targetos: Windows
 req.typenames: 
 req.redist: 

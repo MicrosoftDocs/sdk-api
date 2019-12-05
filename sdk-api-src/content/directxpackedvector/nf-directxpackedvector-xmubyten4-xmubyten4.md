@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMUBYTEN4.XMUBYTEN4
 title: XMUBYTEN4::XMUBYTEN4 (directxpackedvector.h)
-
 description: Default constructor for XMUBYTEN4.
 old-location: dxmath\xmubyten4_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUBYTEN4.#ctor
-
 ms.date: 12/05/2018
 ms.keywords: XMUBYTEN4, XMUBYTEN4 constructor [DirectX Math Support APIs], XMUBYTEN4 constructor [DirectX Math Support APIs],XMUBYTEN4 structure, XMUBYTEN4 structure [DirectX Math Support APIs],XMUBYTEN4 constructor, XMUBYTEN4.XMUBYTEN4, XMUBYTEN4.XMUBYTEN4(), XMUBYTEN4::XMUBYTEN4, dxmath.xmubyten4_ctor_1
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMUBYTEN4.XMUBYTEN4"
+f1_keywords:
+- directxpackedvector/XMUBYTEN4.XMUBYTEN4
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMUBYTEN4.XMUBYTEN4
+- XMUBYTEN4.XMUBYTEN4
 targetos: Windows
 req.typenames: 
 req.redist: 

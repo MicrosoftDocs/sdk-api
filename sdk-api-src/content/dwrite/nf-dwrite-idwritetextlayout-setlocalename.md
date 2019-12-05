@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetLocaleName
 title: IDWriteTextLayout::SetLocaleName (dwrite.h)
-
 description: Sets the locale name for text within a specified text range.
 old-location: directwrite\IDWriteTextLayout_SetLocaleName.htm
 tech.root: DirectWrite
 ms.assetid: c00d28dc-5338-438f-9046-5ad54e845e9d
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetLocaleName method, IDWriteTextLayout.SetLocaleName, IDWriteTextLayout::SetLocaleName, SetLocaleName, SetLocaleName method [Direct Write], SetLocaleName method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetLocaleName, dwrite/IDWriteTextLayout::SetLocaleName
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextLayout.SetLocaleName"
+f1_keywords:
+- dwrite/IDWriteTextLayout.SetLocaleName
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout.SetLocaleName
+- IDWriteTextLayout.SetLocaleName
 targetos: Windows
 req.typenames: 
 req.redist: 

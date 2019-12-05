@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1StrokeStyle.GetStartCap
 title: ID2D1StrokeStyle::GetStartCap (d2d1.h)
-
 description: Retrieves the type of shape used at the beginning of a stroke.
 old-location: direct2d\ID2D1StrokeStyle_GetStartCap.htm
 tech.root: Direct2D
 ms.assetid: 8df80ac7-8dad-418f-bff5-14c39ad38fac
-
 ms.date: 12/05/2018
 ms.keywords: GetStartCap, GetStartCap method [Direct2D], GetStartCap method [Direct2D],ID2D1StrokeStyle interface, ID2D1StrokeStyle interface [Direct2D],GetStartCap method, ID2D1StrokeStyle.GetStartCap, ID2D1StrokeStyle::GetStartCap, d2d1/ID2D1StrokeStyle::GetStartCap, direct2d.ID2D1StrokeStyle_GetStartCap
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1StrokeStyle.GetStartCap"
+f1_keywords:
+- d2d1/ID2D1StrokeStyle.GetStartCap
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1StrokeStyle.GetStartCap
+- ID2D1StrokeStyle.GetStartCap
 targetos: Windows
 req.typenames: 
 req.redist: 

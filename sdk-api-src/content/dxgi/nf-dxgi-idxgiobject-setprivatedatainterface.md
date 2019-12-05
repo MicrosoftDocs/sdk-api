@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.IDXGIObject.SetPrivateDataInterface
 title: IDXGIObject::SetPrivateDataInterface (dxgi.h)
-
 description: Set an interface in the object's private data.
 old-location: direct3ddxgi\idxgiobject_setprivatedatainterface.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiobject_setprivatedatainterface.htm
-
 ms.date: 12/05/2018
 ms.keywords: 37e6a4f2-50a5-efad-af10-20e8f1d053e2, IDXGIObject interface [DXGI],SetPrivateDataInterface method, IDXGIObject.SetPrivateDataInterface, IDXGIObject::SetPrivateDataInterface, SetPrivateDataInterface, SetPrivateDataInterface method [DXGI], SetPrivateDataInterface method [DXGI],IDXGIObject interface, direct3ddxgi.idxgiobject_setprivatedatainterface, dxgi/IDXGIObject::SetPrivateDataInterface
 ms.topic: method
-f1_keywords: 
- - "dxgi/IDXGIObject.SetPrivateDataInterface"
+f1_keywords:
+- dxgi/IDXGIObject.SetPrivateDataInterface
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGIObject.SetPrivateDataInterface
+- IDXGIObject.SetPrivateDataInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

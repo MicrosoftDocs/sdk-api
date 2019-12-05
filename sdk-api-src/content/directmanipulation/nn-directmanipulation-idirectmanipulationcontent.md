@@ -1,19 +1,17 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationContent
 title: IDirectManipulationContent (directmanipulation.h)
-
 description: Encapsulates content inside a viewport, where content represents a visual surface clipped inside the viewport.
 old-location: directmanipulation\idirectmanipulationcontent.htm
 tech.root: directmanipulation
 ms.assetid: 4d69a503-f998-4197-824f-4df48825c941
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationContent, IDirectManipulationContent interface [Direct Manipulation], IDirectManipulationContent interface [Direct Manipulation],described, directmanipulation.idirectmanipulationcontent, directmanipulation/IDirectManipulationContent
 ms.topic: interface
-f1_keywords: 
- - "directmanipulation/IDirectManipulationContent"
+f1_keywords:
+- directmanipulation/IDirectManipulationContent
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationContent
+- IDirectManipulationContent
 targetos: Windows
 req.typenames: 
 req.redist: 

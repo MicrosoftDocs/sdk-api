@@ -1,19 +1,17 @@
 ---
 UID: NS:iketypes.IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0_
 title: IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0 (iketypes.h)
-
 description: Various statistics common to IKE and Authip.
 old-location: fwp\ikeext_ip_version_specific_common_statistics0.htm
 tech.root: fwp
 ms.assetid: 0cacb7de-9f20-47ac-b040-8d65ede3bef3
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0, IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0 structure [Filtering], fwp.ikeext_ip_version_specific_common_statistics0, iketypes/IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0
 ms.topic: struct
-f1_keywords: 
- - "iketypes/IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0"
+f1_keywords:
+- iketypes/IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iketypes.h
+- Iketypes.h
 api_name:
- - IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0
+- IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0
 targetos: Windows
 req.typenames: IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0
 req.redist: 

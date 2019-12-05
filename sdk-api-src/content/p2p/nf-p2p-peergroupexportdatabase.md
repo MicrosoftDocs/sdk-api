@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGroupExportDatabase
 title: PeerGroupExportDatabase function (p2p.h)
-
 description: The PeerGroupExportDatabase function exports a peer group database to a specific file, which can be transported to another computer and imported with the PeerGroupImportDatabase function.
 old-location: p2p\peergroupexportdatabase.htm
 tech.root: P2PSdk
 ms.assetid: ce448780-5a9b-4d2d-9dfb-192b4e6c1b22
-
 ms.date: 12/05/2018
 ms.keywords: PeerGroupExportDatabase, PeerGroupExportDatabase function [Peer Networking], p2p.peergroupexportdatabase, p2p/PeerGroupExportDatabase
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGroupExportDatabase"
+f1_keywords:
+- p2p/PeerGroupExportDatabase
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerGroupExportDatabase
+- PeerGroupExportDatabase
 targetos: Windows
 req.typenames: 
 req.redist: 

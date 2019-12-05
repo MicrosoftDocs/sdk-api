@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ImageList_Write
 title: ImageList_Write function (commctrl.h)
-
 description: Writes an image list to a stream.
 old-location: controls\ImageList_Write.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_write.htm
-
 ms.date: 12/05/2018
 ms.keywords: ImageList_Write, ImageList_Write function [Windows Controls], _win32_ImageList_Write, _win32_ImageList_Write_cpp, commctrl/ImageList_Write, controls.ImageList_Write, controls._win32_ImageList_Write
 ms.topic: function
-f1_keywords: 
- - "commctrl/ImageList_Write"
+f1_keywords:
+- commctrl/ImageList_Write
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - ImageList_Write
+- ImageList_Write
 targetos: Windows
 req.typenames: 
 req.redist: 

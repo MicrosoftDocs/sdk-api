@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.DefFrameProcW
 title: DefFrameProcW function (winuser.h)
-
 description: Provides default processing for any window messages that the window procedure of a multiple-document interface (MDI) frame window does not process.
 old-location: winmsg\defframeproc.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\multipledocumentinterface\multipledocumentinterfacereference\multipledocumentinterfacefunctions\defframeproc.htm
-
 ms.date: 12/05/2018
 ms.keywords: DefFrameProc, DefFrameProc function [Windows and Messages], DefFrameProcA, DefFrameProcW, _win32_DefFrameProc, _win32_defframeproc_cpp, winmsg.defframeproc, winui._win32_defframeproc, winuser/DefFrameProc, winuser/DefFrameProcA, winuser/DefFrameProcW
 ms.topic: function
-f1_keywords: 
- - "winuser/DefFrameProc"
+f1_keywords:
+- winuser/DefFrameProc
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - DefFrameProc
- - DefFrameProcA
- - DefFrameProcW
+- DefFrameProc
+- DefFrameProcA
+- DefFrameProcW
 targetos: Windows
 req.typenames: 
 req.redist: 

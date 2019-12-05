@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplications.Item
 title: INetFwAuthorizedApplications::Item (netfw.h)
-
 description: The Item method returns the specified application if it is in the collection.
 old-location: ics\inetfwauthorizedapplications_item.htm
 tech.root: ics
 ms.assetid: 3c9eac16-9ba5-43f6-b52e-4340598745d8
-
 ms.date: 12/05/2018
 ms.keywords: INetFwAuthorizedApplications interface [ICS/ICF],Item method, INetFwAuthorizedApplications.Item, INetFwAuthorizedApplications::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwAuthorizedApplications interface, ics.inetfwauthorizedapplications_item, netfw/INetFwAuthorizedApplications::Item
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwAuthorizedApplications.Item"
+f1_keywords:
+- netfw/INetFwAuthorizedApplications.Item
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwAuthorizedApplications.Item
+- INetFwAuthorizedApplications.Item
 targetos: Windows
 req.typenames: 
 req.redist: 

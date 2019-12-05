@@ -1,19 +1,17 @@
 ---
 UID: NE:ntsecapi._SECURITY_LOGON_TYPE
 title: SECURITY_LOGON_TYPE (ntsecapi.h)
-
 description: Indicates the type of logon requested by a logon process.
 old-location: security\security_logon_type.htm
 tech.root: SecAuthN
 ms.assetid: d775d782-9403-47b2-bb43-8f677db49eb9
-
 ms.date: 12/05/2018
-ms.keywords: "*PSECURITY_LOGON_TYPE, Batch, CachedInteractive, CachedRemoteInteractive, CachedUnlock, Interactive, Network, NetworkCleartext, NewCredentials, PSECURITY_LOGON_TYPE, PSECURITY_LOGON_TYPE enumeration pointer [Security], Proxy, RemoteInteractive, SECURITY_LOGON_TYPE, SECURITY_LOGON_TYPE enumeration [Security], Service, Unlock, _lsa_security_logon_type, ntsecapi/Batch, ntsecapi/CachedInteractive, ntsecapi/CachedRemoteInteractive, ntsecapi/CachedUnlock, ntsecapi/Interactive, ntsecapi/Network, ntsecapi/NetworkCleartext, ntsecapi/NewCredentials, ntsecapi/PSECURITY_LOGON_TYPE, ntsecapi/Proxy, ntsecapi/RemoteInteractive, ntsecapi/SECURITY_LOGON_TYPE, ntsecapi/Service, ntsecapi/Unlock, security.security_logon_type"
+ms.keywords: '*PSECURITY_LOGON_TYPE, Batch, CachedInteractive, CachedRemoteInteractive, CachedUnlock, Interactive, Network, NetworkCleartext, NewCredentials, PSECURITY_LOGON_TYPE, PSECURITY_LOGON_TYPE enumeration pointer [Security], Proxy, RemoteInteractive, SECURITY_LOGON_TYPE, SECURITY_LOGON_TYPE enumeration [Security], Service, Unlock, _lsa_security_logon_type, ntsecapi/Batch, ntsecapi/CachedInteractive, ntsecapi/CachedRemoteInteractive, ntsecapi/CachedUnlock, ntsecapi/Interactive, ntsecapi/Network, ntsecapi/NetworkCleartext, ntsecapi/NewCredentials, ntsecapi/PSECURITY_LOGON_TYPE, ntsecapi/Proxy, ntsecapi/RemoteInteractive, ntsecapi/SECURITY_LOGON_TYPE, ntsecapi/Service, ntsecapi/Unlock, security.security_logon_type'
 ms.topic: enum
-f1_keywords: 
- - "ntsecapi/SECURITY_LOGON_TYPE"
+f1_keywords:
+- ntsecapi/SECURITY_LOGON_TYPE
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - SECURITY_LOGON_TYPE
+- SECURITY_LOGON_TYPE
 targetos: Windows
 req.typenames: SECURITY_LOGON_TYPE, *PSECURITY_LOGON_TYPE
 req.redist: 

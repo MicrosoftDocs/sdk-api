@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_CurrentWriteSpeed
 title: IDiscFormat2TrackAtOnce::get_CurrentWriteSpeed (imapi2.h)
-
 description: Retrieves the drive's current write speed.
 old-location: imapi\idiscformat2trackatonce_get_currentwritespeed.htm
 tech.root: imapi
 ms.assetid: 8236dc3f-fe94-4dd5-908b-36ed74943ad4
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_CurrentWriteSpeed method, IDiscFormat2TrackAtOnce.get_CurrentWriteSpeed, IDiscFormat2TrackAtOnce::get_CurrentWriteSpeed, get_CurrentWriteSpeed, get_CurrentWriteSpeed method [IMAPI], get_CurrentWriteSpeed method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_currentwritespeed, imapi2/IDiscFormat2TrackAtOnce::get_CurrentWriteSpeed
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2TrackAtOnce.get_CurrentWriteSpeed"
+f1_keywords:
+- imapi2/IDiscFormat2TrackAtOnce.get_CurrentWriteSpeed
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnce.get_CurrentWriteSpeed
+- IDiscFormat2TrackAtOnce.get_CurrentWriteSpeed
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.DrawGeometry
 title: ID2D1RenderTarget::DrawGeometry (d2d1.h)
-
 description: Draws the outline of the specified geometry using the specified stroke style.
 old-location: direct2d\ID2D1RenderTarget_DrawGeometry.htm
 tech.root: Direct2D
 ms.assetid: 319b2680-34f8-4e00-985e-47ff87115794
-
 ms.date: 12/05/2018
 ms.keywords: DrawGeometry, DrawGeometry method [Direct2D], DrawGeometry method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],DrawGeometry method, ID2D1RenderTarget.DrawGeometry, ID2D1RenderTarget::DrawGeometry, d2d1/ID2D1RenderTarget::DrawGeometry, direct2d.ID2D1RenderTarget_DrawGeometry
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1RenderTarget.DrawGeometry"
+f1_keywords:
+- d2d1/ID2D1RenderTarget.DrawGeometry
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1RenderTarget.DrawGeometry
+- ID2D1RenderTarget.DrawGeometry
 targetos: Windows
 req.typenames: 
 req.redist: 

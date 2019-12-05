@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTracker.FindTrackerTargets
 title: IReferenceTracker::xaml (windows.ui.xaml.hosting.referencetracker.h)
-
 description: Finds out what reference tracker targets are reachable from a reference tracker source; must be called by a garbage collector between calls to ReferenceTrackingStarted and FindTrackerTargetsCompleted.
 old-location: winrt\ireferencetracker_findtrackertargets.htm
 tech.root: WinRT
 ms.assetid: ede8da3a-cef8-4741-950d-4303870ab10e
-
 ms.date: 12/05/2018
 ms.keywords: FindTrackerTargets, FindTrackerTargets method [Windows Runtime], FindTrackerTargets method [Windows Runtime],IReferenceTracker interface, IReferenceTracker interface [Windows Runtime],FindTrackerTargets method, IReferenceTracker.FindTrackerTargets, IReferenceTracker.xaml, IReferenceTracker::FindTrackerTargets, IReferenceTracker::xaml, windows/IReferenceTracker::FindTrackerTargets, winrt.ireferencetracker_findtrackertargets
 ms.topic: method
-f1_keywords: 
- - "windows.ui.xaml.hosting.referencetracker/IReferenceTracker.FindTrackerTargets"
+f1_keywords:
+- windows.ui.xaml.hosting.referencetracker/IReferenceTracker.FindTrackerTargets
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.ui.xaml.hosting.referencetracker.h
+- Windows.ui.xaml.hosting.referencetracker.h
 api_name:
- - IReferenceTracker.FindTrackerTargets
+- IReferenceTracker.FindTrackerTargets
 targetos: Windows
 req.typenames: 
 req.redist: 

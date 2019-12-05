@@ -1,19 +1,17 @@
 ---
 UID: NE:ndattrib.tagREPAIR_SCOPE
 title: REPAIR_SCOPE (ndattrib.h)
-
 description: The REPAIR_SCOPE enumeration describes the scope of modification for a given repair.
 old-location: ndf\repair_scope.htm
 tech.root: NDF
 ms.assetid: f9be87ae-82a1-4613-abeb-15ccba1bf360
-
 ms.date: 12/05/2018
-ms.keywords: "*PREPAIR_SCOPE, REPAIR_SCOPE, REPAIR_SCOPE enumeration [NDF], RS_APPLICATION, RS_PROCESS, RS_SYSTEM, RS_USER, ndattrib/REPAIR_SCOPE, ndattrib/RS_APPLICATION, ndattrib/RS_PROCESS, ndattrib/RS_SYSTEM, ndattrib/RS_USER, ndf.repair_scope"
+ms.keywords: '*PREPAIR_SCOPE, REPAIR_SCOPE, REPAIR_SCOPE enumeration [NDF], RS_APPLICATION, RS_PROCESS, RS_SYSTEM, RS_USER, ndattrib/REPAIR_SCOPE, ndattrib/RS_APPLICATION, ndattrib/RS_PROCESS, ndattrib/RS_SYSTEM, ndattrib/RS_USER, ndf.repair_scope'
 ms.topic: enum
-f1_keywords: 
- - "ndattrib/REPAIR_SCOPE"
+f1_keywords:
+- ndattrib/REPAIR_SCOPE
 dev_langs:
- - c++
+- c++
 req.header: ndattrib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ndattrib.h
+- Ndattrib.h
 api_name:
- - REPAIR_SCOPE
+- REPAIR_SCOPE
 targetos: Windows
 req.typenames: REPAIR_SCOPE, *PREPAIR_SCOPE
 req.redist: 

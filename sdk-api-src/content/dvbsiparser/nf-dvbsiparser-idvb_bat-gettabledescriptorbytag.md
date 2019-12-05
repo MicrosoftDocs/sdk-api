@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDVB_BAT.GetTableDescriptorByTag
 title: IDVB_BAT::GetTableDescriptorByTag (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_bat_gettabledescriptorbytag.htm
 tech.root: mstv
 ms.assetid: 9c989b8d-0cd0-4556-bc96-a464b95911d0
-
 ms.date: 12/05/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],IDVB_BAT interface, IDVB_BAT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, IDVB_BAT.GetTableDescriptorByTag, IDVB_BAT::GetTableDescriptorByTag, IDVB_BATGetTableDescriptorByTag, dvbsiparser/IDVB_BAT::GetTableDescriptorByTag, mstv.idvb_bat_gettabledescriptorbytag
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDVB_BAT.GetTableDescriptorByTag"
+f1_keywords:
+- dvbsiparser/IDVB_BAT.GetTableDescriptorByTag
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDVB_BAT.GetTableDescriptorByTag
+- IDVB_BAT.GetTableDescriptorByTag
 targetos: Windows
 req.typenames: 
 req.redist: 

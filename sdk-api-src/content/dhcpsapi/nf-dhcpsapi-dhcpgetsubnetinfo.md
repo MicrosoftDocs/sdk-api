@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpGetSubnetInfo
 title: DhcpGetSubnetInfo function (dhcpsapi.h)
-
 description: The DhcpGetSubnetInfo function returns information on a specific subnet.
 old-location: dhcp\dhcpgetsubnetinfo.htm
 tech.root: DHCP
 ms.assetid: 0e511993-a9c3-445b-bafc-3d66182ee32d
-
 ms.date: 12/05/2018
 ms.keywords: DhcpGetSubnetInfo, DhcpGetSubnetInfo function [DHCP], dhcp.dhcpgetsubnetinfo, dhcpsapi/DhcpGetSubnetInfo
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpGetSubnetInfo
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

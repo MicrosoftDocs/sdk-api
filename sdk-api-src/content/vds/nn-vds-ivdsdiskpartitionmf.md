@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsDiskPartitionMF
 title: IVdsDiskPartitionMF (vds.h)
-
 description: Provides methods to perform file system management operations on partitions.
 old-location: base\ivdsdiskpartitionmf.htm
 tech.root: VDS
 ms.assetid: 84d0918d-479f-4026-b120-11cc21a43233
-
 ms.date: 12/05/2018
 ms.keywords: IVdsDiskPartitionMF, IVdsDiskPartitionMF interface, IVdsDiskPartitionMF interface,described, base.ivdsdiskpartitionmf, vds/IVdsDiskPartitionMF
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsDiskPartitionMF"
+f1_keywords:
+- vds/IVdsDiskPartitionMF
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsDiskPartitionMF
+- IVdsDiskPartitionMF
 targetos: Windows
 req.typenames: 
 req.redist: 

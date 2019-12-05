@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStreamEvents.OnStreamClosed
 title: IRDPSRAPITransportStreamEvents::OnStreamClosed (rdpencomapi.h)
-
 description: Notifies the Remote Desktop Protocol (RDP) stack that the connection was closed.
 old-location: rdp\irdpsrapitransportstreamevents_onstreamclosed.htm
 tech.root: rdp
 ms.assetid: 98767b91-95c1-4883-b27c-16c20d1da507
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITransportStreamEvents interface [RDP],OnStreamClosed method, IRDPSRAPITransportStreamEvents.OnStreamClosed, IRDPSRAPITransportStreamEvents::OnStreamClosed, OnStreamClosed, OnStreamClosed method [RDP], OnStreamClosed method [RDP],IRDPSRAPITransportStreamEvents interface, rdp.irdpsrapitransportstreamevents_onstreamclosed, rdpencomapi/IRDPSRAPITransportStreamEvents::OnStreamClosed
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPITransportStreamEvents.OnStreamClosed"
+f1_keywords:
+- rdpencomapi/IRDPSRAPITransportStreamEvents.OnStreamClosed
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPITransportStreamEvents.OnStreamClosed
+- IRDPSRAPITransportStreamEvents.OnStreamClosed
 targetos: Windows
 req.typenames: 
 req.redist: 

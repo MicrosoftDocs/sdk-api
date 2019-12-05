@@ -1,19 +1,17 @@
 ---
 UID: NN:ocidl.IFont
 title: IFont (ocidl.h)
-
 description: Provides a wrapper around a Windows font object.
 old-location: com\ifont.htm
 tech.root: com
 ms.assetid: 3a04d2b7-b2eb-4c6c-8863-1e88321fa382
-
 ms.date: 12/05/2018
 ms.keywords: IFont, IFont interface [COM], IFont interface [COM],described, _ctrl_ifont, com.ifont, ocidl/IFont
 ms.topic: interface
-f1_keywords: 
- - "ocidl/IFont"
+f1_keywords:
+- ocidl/IFont
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IFont
+- IFont
 targetos: Windows
 req.typenames: 
 req.redist: 

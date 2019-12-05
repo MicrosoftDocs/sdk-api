@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IExtendPropertySheet2.GetWatermarks
 title: IExtendPropertySheet2::GetWatermarks (mmc.h)
-
 description: The IExtendPropertySheet2::GetWatermarks method gets the watermark bitmap and header bitmap for wizard sheets implemented as Wizard 97-style wizards.
 old-location: mmc\iextendpropertysheet2_getwatermarks.htm
 tech.root: mmc
 ms.assetid: caecb35a-3f59-4a04-af46-862ded9685cf
-
 ms.date: 12/05/2018
 ms.keywords: GetWatermarks, GetWatermarks method [MMC], GetWatermarks method [MMC],IExtendPropertySheet2 interface, IExtendPropertySheet2 interface [MMC],GetWatermarks method, IExtendPropertySheet2.GetWatermarks, IExtendPropertySheet2::GetWatermarks, _slate_iextendpropertysheet2_getwatermarks, mmc.iextendpropertysheet2_getwatermarks, mmc/IExtendPropertySheet2::GetWatermarks
 ms.topic: method
-f1_keywords: 
- - "mmc/IExtendPropertySheet2.GetWatermarks"
+f1_keywords:
+- mmc/IExtendPropertySheet2.GetWatermarks
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IExtendPropertySheet2.GetWatermarks
+- IExtendPropertySheet2.GetWatermarks
 targetos: Windows
 req.typenames: 
 req.redist: 

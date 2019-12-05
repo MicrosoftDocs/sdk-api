@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroupManager.CreateFileGroup
 title: IFsrmFileGroupManager::CreateFileGroup (fsrmscreen.h)
-
 description: Creates a file group object.
 old-location: fsrm\ifsrmfilegroupmanager_createfilegroup.htm
 tech.root: fsrm
 ms.assetid: 7e2c3672-fbb9-4da5-9e20-25c66213843c
-
 ms.date: 12/05/2018
 ms.keywords: CreateFileGroup, CreateFileGroup method [File Server Resource Manager], CreateFileGroup method [File Server Resource Manager],FsrmFileGroupManager class, CreateFileGroup method [File Server Resource Manager],IFsrmFileGroupManager interface, FsrmFileGroupManager class [File Server Resource Manager],CreateFileGroup method, IFsrmFileGroupManager interface [File Server Resource Manager],CreateFileGroup method, IFsrmFileGroupManager.CreateFileGroup, IFsrmFileGroupManager::CreateFileGroup, fs.ifsrmfilegroupmanager_createfilegroup, fsrm.ifsrmfilegroupmanager_createfilegroup, fsrmscreen/IFsrmFileGroupManager::CreateFileGroup
 ms.topic: method
-f1_keywords: 
- - "fsrmscreen/IFsrmFileGroupManager.CreateFileGroup"
+f1_keywords:
+- fsrmscreen/IFsrmFileGroupManager.CreateFileGroup
 dev_langs:
- - c++
+- c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileGroupManager.CreateFileGroup
- - FsrmFileGroupManager.CreateFileGroup
+- IFsrmFileGroupManager.CreateFileGroup
+- FsrmFileGroupManager.CreateFileGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

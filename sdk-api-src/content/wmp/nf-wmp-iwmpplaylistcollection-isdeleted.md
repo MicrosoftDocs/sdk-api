@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPPlaylistCollection.isDeleted
 title: IWMPPlaylistCollection::isDeleted (wmp.h)
-
 description: The isDeleted method retrieves a value indicating whether the specified playlist is in the deleted items folder.
 old-location: wmp\iwmpplaylistcollection_isdeleted.htm
 tech.root: WMP
 ms.assetid: ac3e3401-ac7e-44d2-9680-5abe69678fc7
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylistCollection interface [Windows Media Player],isDeleted method, IWMPPlaylistCollection.isDeleted, IWMPPlaylistCollection::isDeleted, IWMPPlaylistCollectionisDeleted, isDeleted, isDeleted method [Windows Media Player], isDeleted method [Windows Media Player],IWMPPlaylistCollection interface, wmp.iwmpplaylistcollection_isdeleted, wmp/IWMPPlaylistCollection::isDeleted
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPPlaylistCollection.isDeleted"
+f1_keywords:
+- wmp/IWMPPlaylistCollection.isDeleted
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPPlaylistCollection.isDeleted
+- IWMPPlaylistCollection.isDeleted
 targetos: Windows
 req.typenames: 
 req.redist: 

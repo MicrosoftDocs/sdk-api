@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.GetWindow
 title: IPhotoProgressDialog::GetWindow (photoacquire.h)
-
 description: The GetWindow method retrieves the handle to the progress dialog box.
 old-location: picacq\iphotoprogressdialog_getwindow.htm
 tech.root: acquisition
 ms.assetid: c407e0a6-676f-419d-ab9a-85f5d0dcc480
-
 ms.date: 12/05/2018
 ms.keywords: GetWindow, GetWindow method [Picture Acquisition], GetWindow method [Picture Acquisition],IPhotoProgressDialog interface, IPhotoProgressDialog interface [Picture Acquisition],GetWindow method, IPhotoProgressDialog.GetWindow, IPhotoProgressDialog::GetWindow, IPhotoProgressDialogGetWindow, photoacquire/IPhotoProgressDialog::GetWindow, picacq.iphotoprogressdialog_getwindow
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoProgressDialog.GetWindow"
+f1_keywords:
+- photoacquire/IPhotoProgressDialog.GetWindow
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoProgressDialog.GetWindow
+- IPhotoProgressDialog.GetWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFContentInfo.GetHeaderSize
 title: IMFASFContentInfo::GetHeaderSize (wmcontainer.h)
-
 description: Retrieves the size of the header section of an Advanced Systems Format (ASF) file.
 old-location: mf\imfasfcontentinfo_getheadersize.htm
 tech.root: medfound
 ms.assetid: c13ee7e6-df59-448f-80c4-04ac7c8c98ed
-
 ms.date: 12/05/2018
 ms.keywords: GetHeaderSize, GetHeaderSize method [Media Foundation], GetHeaderSize method [Media Foundation],IMFASFContentInfo interface, IMFASFContentInfo interface [Media Foundation],GetHeaderSize method, IMFASFContentInfo.GetHeaderSize, IMFASFContentInfo::GetHeaderSize, c13ee7e6-df59-448f-80c4-04ac7c8c98ed, mf.imfasfcontentinfo_getheadersize, wmcontainer/IMFASFContentInfo::GetHeaderSize
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFContentInfo.GetHeaderSize"
+f1_keywords:
+- wmcontainer/IMFASFContentInfo.GetHeaderSize
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFContentInfo.GetHeaderSize
+- IMFASFContentInfo.GetHeaderSize
 targetos: Windows
 req.typenames: 
 req.redist: 

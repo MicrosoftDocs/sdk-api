@@ -1,19 +1,17 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.GetConnectInfo
 title: IVPBaseConfig::GetConnectInfo (vpconfig.h)
-
 description: The GetConnectInfo method retrieves information about the connections supported by the VPE object.
 old-location: dshow\ivpbaseconfig_getconnectinfo.htm
 tech.root: DirectShow
 ms.assetid: b428e77a-83c3-42ce-95e4-1cdde4da066d
-
 ms.date: 12/05/2018
 ms.keywords: GetConnectInfo, GetConnectInfo method [DirectShow], GetConnectInfo method [DirectShow],IVPBaseConfig interface, IVPBaseConfig interface [DirectShow],GetConnectInfo method, IVPBaseConfig.GetConnectInfo, IVPBaseConfig::GetConnectInfo, IVPBaseConfigGetConnectInfo, dshow.ivpbaseconfig_getconnectinfo, vpconfig/IVPBaseConfig::GetConnectInfo
 ms.topic: method
-f1_keywords: 
- - "vpconfig/IVPBaseConfig.GetConnectInfo"
+f1_keywords:
+- vpconfig/IVPBaseConfig.GetConnectInfo
 dev_langs:
- - c++
+- c++
 req.header: vpconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vpconfig.h
+- Vpconfig.h
 api_name:
- - IVPBaseConfig.GetConnectInfo
+- IVPBaseConfig.GetConnectInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

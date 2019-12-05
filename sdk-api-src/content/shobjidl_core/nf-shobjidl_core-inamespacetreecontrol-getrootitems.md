@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.GetRootItems
 title: INameSpaceTreeControl::GetRootItems (shobjidl_core.h)
-
 description: Gets an array of the root items.
 old-location: shell\INameSpaceTreeControl_GetRootItems.htm
 tech.root: shell
 ms.assetid: ca957f8c-ac8e-472e-b762-ddc45e20462d
-
 ms.date: 12/05/2018
 ms.keywords: GetRootItems, GetRootItems method [Windows Shell], GetRootItems method [Windows Shell],INameSpaceTreeControl interface, INameSpaceTreeControl interface [Windows Shell],GetRootItems method, INameSpaceTreeControl.GetRootItems, INameSpaceTreeControl::GetRootItems, _shell_INameSpaceTreeControl_GetRootItems, shell.INameSpaceTreeControl_GetRootItems, shobjidl_core/INameSpaceTreeControl::GetRootItems
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/INameSpaceTreeControl.GetRootItems"
+f1_keywords:
+- shobjidl_core/INameSpaceTreeControl.GetRootItems
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - INameSpaceTreeControl.GetRootItems
+- INameSpaceTreeControl.GetRootItems
 targetos: Windows
 req.typenames: 
 req.redist: 

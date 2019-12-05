@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig2.GetEnableContentCaching
 title: IWMReaderNetworkConfig2::GetEnableContentCaching (wmsdkidl.h)
-
 description: The GetEnableContentCaching method queries whether content caching is enabled. If content caching is enabled, streaming content can be cached locally.
 old-location: wmformat\iwmreadernetworkconfig2_getenablecontentcaching.htm
 tech.root: wmformat
 ms.assetid: c8fdbb18-ba50-47e7-b7c9-858e6c452071
-
 ms.date: 12/05/2018
 ms.keywords: GetEnableContentCaching, GetEnableContentCaching method [windows Media Format], GetEnableContentCaching method [windows Media Format],IWMReaderNetworkConfig2 interface, IWMReaderNetworkConfig2 interface [windows Media Format],GetEnableContentCaching method, IWMReaderNetworkConfig2.GetEnableContentCaching, IWMReaderNetworkConfig2::GetEnableContentCaching, IWMReaderNetworkConfig2GetEnableContentCaching, wmformat.iwmreadernetworkconfig2_getenablecontentcaching, wmsdkidl/IWMReaderNetworkConfig2::GetEnableContentCaching
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderNetworkConfig2.GetEnableContentCaching"
+f1_keywords:
+- wmsdkidl/IWMReaderNetworkConfig2.GetEnableContentCaching
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig2.GetEnableContentCaching
+- IWMReaderNetworkConfig2.GetEnableContentCaching
 targetos: Windows
 req.typenames: 
 req.redist: 

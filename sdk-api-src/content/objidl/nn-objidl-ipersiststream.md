@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IPersistStream
 title: IPersistStream (objidl.h)
-
 description: Enables the saving and loading of objects that use a simple serial stream for their storage needs.
 old-location: com\ipersiststream.htm
 tech.root: com
 ms.assetid: 97ea64ee-d950-4872-add6-1f532a6eb33f
-
 ms.date: 12/05/2018
 ms.keywords: IPersistStream, IPersistStream interface [COM], IPersistStream interface [COM],described, _com_ipersiststream, com.ipersiststream, objidl/IPersistStream
 ms.topic: interface
-f1_keywords: 
- - "objidl/IPersistStream"
+f1_keywords:
+- objidl/IPersistStream
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IPersistStream
+- IPersistStream
 targetos: Windows
 req.typenames: 
 req.redist: 

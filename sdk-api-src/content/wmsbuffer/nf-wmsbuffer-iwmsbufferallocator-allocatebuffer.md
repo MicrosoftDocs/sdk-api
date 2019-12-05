@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsbuffer.IWMSBufferAllocator.AllocateBuffer
 title: IWMSBufferAllocator::AllocateBuffer (wmsbuffer.h)
-
 description: The AllocateBuffer method initializes a buffer.
 old-location: wmformat\iwmsbufferallocator_allocatebuffer.htm
 tech.root: wmformat
 ms.assetid: 857fb8fa-0e86-46f2-907d-a244d6c699ef
-
 ms.date: 12/05/2018
 ms.keywords: AllocateBuffer, AllocateBuffer method [windows Media Format], AllocateBuffer method [windows Media Format],IWMSBufferAllocator interface, IWMSBufferAllocator interface [windows Media Format],AllocateBuffer method, IWMSBufferAllocator.AllocateBuffer, IWMSBufferAllocator::AllocateBuffer, IWMSBufferAllocatorAllocateBuffer, wmformat.iwmsbufferallocator_allocatebuffer, wmsbuffer/IWMSBufferAllocator::AllocateBuffer
 ms.topic: method
-f1_keywords: 
- - "wmsbuffer/IWMSBufferAllocator.AllocateBuffer"
+f1_keywords:
+- wmsbuffer/IWMSBufferAllocator.AllocateBuffer
 dev_langs:
- - c++
+- c++
 req.header: wmsbuffer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmsbuffer.h
+- Wmsbuffer.h
 api_name:
- - IWMSBufferAllocator.AllocateBuffer
+- IWMSBufferAllocator.AllocateBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

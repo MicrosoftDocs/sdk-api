@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.Close
 title: ID3D12GraphicsCommandList::Close (d3d12.h)
-
 description: Indicates that recording to the command list has finished.
 old-location: direct3d12\id3d12graphicscommandlist_close.htm
 tech.root: direct3d12
 ms.assetid: EA9F00AD-8506-4F3C-871E-A51ED69005BB
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method, Close method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,Close method, ID3D12GraphicsCommandList.Close, ID3D12GraphicsCommandList::Close, d3d12/ID3D12GraphicsCommandList::Close, direct3d12.id3d12graphicscommandlist_close
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList.Close"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList.Close
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.Close
+- ID3D12GraphicsCommandList.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

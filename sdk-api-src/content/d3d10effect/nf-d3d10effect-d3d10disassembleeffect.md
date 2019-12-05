@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.D3D10DisassembleEffect
 title: D3D10DisassembleEffect function (d3d10effect.h)
-
 description: This function -- which disassembles a compiled effect into a text string that contains assembly instructions and register assignments -- has been deprecated. Instead, use D3DDisassemble10Effect.
 old-location: direct3d10\d3d10disassembleeffect.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10disassembleeffect.htm
-
 ms.date: 12/05/2018
 ms.keywords: 10ff0da2-3f88-22ec-7841-61c27051dfa6, D3D10DisassembleEffect, D3D10DisassembleEffect function [Direct3D 10], d3d10effect/D3D10DisassembleEffect, direct3d10.d3d10disassembleeffect
 ms.topic: function
-f1_keywords: 
- - "d3d10effect/D3D10DisassembleEffect"
+f1_keywords:
+- d3d10effect/D3D10DisassembleEffect
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D10.lib
 req.dll: D3D10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D3D10.dll
+- D3D10.dll
 api_name:
- - D3D10DisassembleEffect
+- D3D10DisassembleEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

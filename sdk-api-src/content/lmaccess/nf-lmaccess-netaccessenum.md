@@ -1,19 +1,17 @@
 ---
 UID: NF:lmaccess.NetAccessEnum
 title: NetAccessEnum function (lmaccess.h)
-
 description: Not supported.
 old-location: netmgmt\netaccessenum.htm
 tech.root: NetMgmt
 ms.assetid: 34ffea84-ff41-43c3-864c-957178e9d22a
-
 ms.date: 12/05/2018
 ms.keywords: 0, 1, NetAccessEnum, NetAccessEnum function [Network Management], _win32_netaccessenum, lmaccess/NetAccessEnum, netmgmt.netaccessenum
 ms.topic: function
-f1_keywords: 
- - "lmaccess/NetAccessEnum"
+f1_keywords:
+- lmaccess/NetAccessEnum
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: Lm.h, Lmaccess.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetAccessEnum
+- NetAccessEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

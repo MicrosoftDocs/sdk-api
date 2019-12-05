@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock2.WSACloseEvent
 title: WSACloseEvent function (winsock2.h)
-
 description: The WSACloseEvent function closes an open event object handle.
 old-location: winsock\wsacloseevent_2.htm
 tech.root: WinSock
 ms.assetid: 40cefe46-10a3-4b6a-8c89-3e16237fc685
-
 ms.date: 12/05/2018
 ms.keywords: WSACloseEvent, WSACloseEvent function [Winsock], _win32_wsacloseevent_2, winsock.wsacloseevent_2, winsock2/WSACloseEvent
 ms.topic: function
-f1_keywords: 
- - "winsock2/WSACloseEvent"
+f1_keywords:
+- winsock2/WSACloseEvent
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSACloseEvent
+- WSACloseEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

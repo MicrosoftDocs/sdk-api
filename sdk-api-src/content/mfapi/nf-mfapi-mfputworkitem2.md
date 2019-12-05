@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFPutWorkItem2
 title: MFPutWorkItem2 function (mfapi.h)
-
 description: Puts an asynchronous operation on a work queue, with a specified priority.
 old-location: mf\mfputworkitem2.htm
 tech.root: medfound
 ms.assetid: C49818B3-83FF-40CE-B68A-F60F3277F7B8
-
 ms.date: 12/05/2018
 ms.keywords: MFPutWorkItem2, MFPutWorkItem2 function [Media Foundation], mf.mfputworkitem2, mfapi/MFPutWorkItem2
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFPutWorkItem2"
+f1_keywords:
+- mfapi/MFPutWorkItem2
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFPutWorkItem2
+- MFPutWorkItem2
 targetos: Windows
 req.typenames: 
 req.redist: 

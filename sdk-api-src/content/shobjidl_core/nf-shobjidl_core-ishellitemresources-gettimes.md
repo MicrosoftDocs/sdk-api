@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellItemResources.GetTimes
 title: IShellItemResources::GetTimes (shobjidl_core.h)
-
 description: Gets file times.
 old-location: shell\IShellItemResources_GetTimes.htm
 tech.root: shell
 ms.assetid: 4857b824-2b58-4c26-bbab-8a799d20f584
-
 ms.date: 12/05/2018
 ms.keywords: GetTimes, GetTimes method [Windows Shell], GetTimes method [Windows Shell],IShellItemResources interface, IShellItemResources interface [Windows Shell],GetTimes method, IShellItemResources.GetTimes, IShellItemResources::GetTimes, _shell_IShellItemResources_GetTimes, shell.IShellItemResources_GetTimes, shobjidl_core/IShellItemResources::GetTimes
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellItemResources.GetTimes"
+f1_keywords:
+- shobjidl_core/IShellItemResources.GetTimes
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IShellItemResources.GetTimes
+- IShellItemResources.GetTimes
 targetos: Windows
 req.typenames: 
 req.redist: 

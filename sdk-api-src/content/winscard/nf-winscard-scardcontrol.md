@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardControl
 title: SCardControl function (winscard.h)
-
 description: Gives you direct control of the reader. You can call it any time after a successful call to SCardConnect and before a successful call to SCardDisconnect.
 old-location: security\scardcontrol.htm
 tech.root: SecAuthN
 ms.assetid: e8c69e61-4e5e-4385-a0f1-9b594c479984
-
 ms.date: 12/05/2018
 ms.keywords: SCardControl, SCardControl function [Security], _smart_scardcontrol, security.scardcontrol, winscard/SCardControl
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardControl"
+f1_keywords:
+- winscard/SCardControl
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winscard.dll
+- Winscard.dll
 api_name:
- - SCardControl
+- SCardControl
 targetos: Windows
 req.typenames: 
 req.redist: 

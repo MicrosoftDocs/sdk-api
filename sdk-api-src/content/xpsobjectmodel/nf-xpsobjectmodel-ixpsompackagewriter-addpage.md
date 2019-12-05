@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackageWriter.AddPage
 title: IXpsOMPackageWriter::AddPage (xpsobjectmodel.h)
-
 description: Writes a new FixedPage part to the currently open FixedDocument part in the package.
 old-location: xps\ixpsompackagewriter_addpage.htm
 tech.root: printdocs
 ms.assetid: d7ea638d-f95c-4d72-8f55-cbb6a7d1ae8d
-
 ms.date: 12/05/2018
 ms.keywords: AddPage, AddPage method [XPS Documents and Packaging], AddPage method [XPS Documents and Packaging],IXpsOMPackageWriter interface, AddPage method [XPS Documents and Packaging],IXpsOMPackageWriter3D interface, IXpsOMPackageWriter interface [XPS Documents and Packaging],AddPage method, IXpsOMPackageWriter.AddPage, IXpsOMPackageWriter3D interface [XPS Documents and Packaging],AddPage method, IXpsOMPackageWriter3D::AddPage, IXpsOMPackageWriter::AddPage, xps.ixpsompackagewriter_addpage, xpsobjectmodel/IXpsOMPackageWriter3D::AddPage, xpsobjectmodel/IXpsOMPackageWriter::AddPage
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPackageWriter.AddPage"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPackageWriter.AddPage
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPackageWriter.AddPage
- - IXpsOMPackageWriter3D.AddPage
+- IXpsOMPackageWriter.AddPage
+- IXpsOMPackageWriter3D.AddPage
 targetos: Windows
 req.typenames: 
 req.redist: 

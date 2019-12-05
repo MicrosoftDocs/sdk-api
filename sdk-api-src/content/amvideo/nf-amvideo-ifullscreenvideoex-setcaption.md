@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.SetCaption
 title: IFullScreenVideoEx::SetCaption (amvideo.h)
-
 description: The SetCaption method sets the caption associated with the full-screen window.
 old-location: dshow\ifullscreenvideoex_setcaption.htm
 tech.root: DirectShow
 ms.assetid: 6f520ab4-867f-4001-8f2f-25f0d8efe454
-
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],SetCaption method, IFullScreenVideoEx.SetCaption, IFullScreenVideoEx::SetCaption, IFullScreenVideoSetCaption, SetCaption, SetCaption method [DirectShow], SetCaption method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetCaption, dshow.ifullscreenvideoex_setcaption
 ms.topic: method
-f1_keywords: 
- - "amvideo/IFullScreenVideoEx.SetCaption"
+f1_keywords:
+- amvideo/IFullScreenVideoEx.SetCaption
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFullScreenVideoEx.SetCaption
+- IFullScreenVideoEx.SetCaption
 targetos: Windows
 req.typenames: 
 req.redist: 

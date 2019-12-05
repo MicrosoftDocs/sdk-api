@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IPersistIDList
 title: IPersistIDList (shobjidl_core.h)
-
 description: Exposes methods that are used to persist item identifier lists.
 old-location: shell\IPersistIDList.htm
 tech.root: shell
 ms.assetid: b367dc07-8a50-4562-bd73-57c73c781d81
-
 ms.date: 12/05/2018
 ms.keywords: IPersistIDList, IPersistIDList interface [Windows Shell], IPersistIDList interface [Windows Shell],described, inet_IPersistIDList, shell.IPersistIDList, shobjidl_core/IPersistIDList
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IPersistIDList"
+f1_keywords:
+- shobjidl_core/IPersistIDList
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IPersistIDList
+- IPersistIDList
 targetos: Windows
 req.typenames: 
 req.redist: 

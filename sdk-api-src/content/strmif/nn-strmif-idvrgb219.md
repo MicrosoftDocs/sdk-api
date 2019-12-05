@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IDVRGB219
 title: IDVRGB219 (strmif.h)
-
 description: The IDVRGB219 interface controls the dynamic range in the DV Video Encoder and DV Video Decoder filters.
 old-location: dshow\idvrgb219.htm
 tech.root: DirectShow
 ms.assetid: 6d346f0b-97c1-4f3c-aa79-b3bfab18c634
-
 ms.date: 12/05/2018
 ms.keywords: IDVRGB219, IDVRGB219 interface [DirectShow], IDVRGB219 interface [DirectShow],described, IDVRGB219Interface, dshow.idvrgb219, strmif/IDVRGB219
 ms.topic: interface
-f1_keywords: 
- - "strmif/IDVRGB219"
+f1_keywords:
+- strmif/IDVRGB219
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDVRGB219
+- IDVRGB219
 targetos: Windows
 req.typenames: 
 req.redist: 

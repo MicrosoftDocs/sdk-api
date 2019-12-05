@@ -1,19 +1,17 @@
 ---
 UID: NS:mmdeviceapi.tagDIRECTX_AUDIO_ACTIVATION_PARAMS
 title: DIRECTX_AUDIO_ACTIVATION_PARAMS (mmdeviceapi.h)
-
 description: The DIRECTX_AUDIO_ACTIVATION_PARAMS structure specifies the initialization parameters for a DirectSound stream.
 old-location: coreaudio\directx_audio_activation_params.htm
 tech.root: CoreAudio
 ms.assetid: d8d16c1c-5306-42a7-885b-4e1c5ee7634d
-
 ms.date: 12/05/2018
-ms.keywords: "*PDIRECTX_AUDIO_ACTIVATION_PARAMS, DIRECTX_AUDIO_ACTIVATION_PARAMS, DIRECTX_AUDIO_ACTIVATION_PARAMS structure [Core Audio], PDIRECTX_AUDIO_ACTIVATION_PARAMS, PDIRECTX_AUDIO_ACTIVATION_PARAMS structure pointer [Core Audio], coreaudio.directx_audio_activation_params, mmdeviceapi/DIRECTX_AUDIO_ACTIVATION_PARAMS, mmdeviceapi/PDIRECTX_AUDIO_ACTIVATION_PARAMS"
+ms.keywords: '*PDIRECTX_AUDIO_ACTIVATION_PARAMS, DIRECTX_AUDIO_ACTIVATION_PARAMS, DIRECTX_AUDIO_ACTIVATION_PARAMS structure [Core Audio], PDIRECTX_AUDIO_ACTIVATION_PARAMS, PDIRECTX_AUDIO_ACTIVATION_PARAMS structure pointer [Core Audio], coreaudio.directx_audio_activation_params, mmdeviceapi/DIRECTX_AUDIO_ACTIVATION_PARAMS, mmdeviceapi/PDIRECTX_AUDIO_ACTIVATION_PARAMS'
 ms.topic: struct
-f1_keywords: 
- - "mmdeviceapi/DIRECTX_AUDIO_ACTIVATION_PARAMS"
+f1_keywords:
+- mmdeviceapi/DIRECTX_AUDIO_ACTIVATION_PARAMS
 dev_langs:
- - c++
+- c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmdeviceapi.h
+- Mmdeviceapi.h
 api_name:
- - DIRECTX_AUDIO_ACTIVATION_PARAMS
+- DIRECTX_AUDIO_ACTIVATION_PARAMS
 targetos: Windows
 req.typenames: DIRECTX_AUDIO_ACTIVATION_PARAMS, *PDIRECTX_AUDIO_ACTIVATION_PARAMS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader2.TryNextLicense
 title: IWMDRMReader2::TryNextLicense (wmsdkidl.h)
-
 description: The TryNextLicense method sets the reader to evaluate the next applicable license (if present) for the file loaded in the reader.
 old-location: wmformat\iwmdrmreader2_trynextlicense.htm
 tech.root: wmformat
 ms.assetid: 2658abd7-61ca-452f-92ad-93ee5050603d
-
 ms.date: 12/05/2018
 ms.keywords: IWMDRMReader2 interface [windows Media Format],TryNextLicense method, IWMDRMReader2.TryNextLicense, IWMDRMReader2::TryNextLicense, IWMDRMReader2TryNextLicense, TryNextLicense, TryNextLicense method [windows Media Format], TryNextLicense method [windows Media Format],IWMDRMReader2 interface, wmformat.iwmdrmreader2_trynextlicense, wmsdkidl/IWMDRMReader2::TryNextLicense
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMDRMReader2.TryNextLicense"
+f1_keywords:
+- wmsdkidl/IWMDRMReader2.TryNextLicense
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMStubDRM.lib
- - WMStubDRM.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMDRMReader2.TryNextLicense
+- IWMDRMReader2.TryNextLicense
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsapi32.WTSVirtualChannelWrite
 title: WTSVirtualChannelWrite function (wtsapi32.h)
-
 description: Writes data to the server end of a virtual channel.
 old-location: termserv\wtsvirtualchannelwrite.htm
 tech.root: TermServ
 ms.assetid: cb999de8-74a1-4491-bffb-dc4d74a1fea3
-
 ms.date: 12/05/2018
 ms.keywords: WTSVirtualChannelWrite, WTSVirtualChannelWrite function [Remote Desktop Services], _win32_wtsvirtualchannelwrite, termserv.wtsvirtualchannelwrite, wtsapi32/WTSVirtualChannelWrite
 ms.topic: function
-f1_keywords: 
- - "wtsapi32/WTSVirtualChannelWrite"
+f1_keywords:
+- wtsapi32/WTSVirtualChannelWrite
 dev_langs:
- - c++
+- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.Dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wtsapi32.Dll
+- Wtsapi32.Dll
 api_name:
- - WTSVirtualChannelWrite
+- WTSVirtualChannelWrite
 targetos: Windows
 req.typenames: 
 req.redist: 

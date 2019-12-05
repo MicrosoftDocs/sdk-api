@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetLastUpdateTime
 title: IX509EnrollmentPolicyServer::GetLastUpdateTime (certenroll.h)
-
 description: Retrieves the date and time at which the policy was last downloaded.
 old-location: security\ix509enrollmentpolicyserver_getlastupdatetime.htm
 tech.root: seccertenroll
 ms.assetid: 6f0ec30a-9a93-47f9-8046-8eba6eb3b1da
-
 ms.date: 12/05/2018
 ms.keywords: GetLastUpdateTime, GetLastUpdateTime method [Security], GetLastUpdateTime method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetLastUpdateTime method, IX509EnrollmentPolicyServer.GetLastUpdateTime, IX509EnrollmentPolicyServer::GetLastUpdateTime, certenroll/IX509EnrollmentPolicyServer::GetLastUpdateTime, security.ix509enrollmentpolicyserver_getlastupdatetime
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509EnrollmentPolicyServer.GetLastUpdateTime"
+f1_keywords:
+- certenroll/IX509EnrollmentPolicyServer.GetLastUpdateTime
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - IX509EnrollmentPolicyServer.GetLastUpdateTime
+- IX509EnrollmentPolicyServer.GetLastUpdateTime
 targetos: Windows
 req.typenames: 
 req.redist: 

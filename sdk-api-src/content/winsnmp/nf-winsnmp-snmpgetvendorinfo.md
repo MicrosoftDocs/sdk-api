@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpGetVendorInfo
 title: SnmpGetVendorInfo function (winsnmp.h)
-
 description: A WinSNMP application calls the SnmpGetVendorInfo function to retrieve information about the Microsoft WinSNMP implementation.
 old-location: snmp\snmpgetvendorinfo.htm
 tech.root: SNMP
 ms.assetid: e5929fb9-5011-42b9-887e-db0ccdd79e2b
-
 ms.date: 12/05/2018
 ms.keywords: SnmpGetVendorInfo, SnmpGetVendorInfo function [SNMP], _snmp_snmpgetvendorinfo, snmp.snmpgetvendorinfo, winsnmp/SnmpGetVendorInfo
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpGetVendorInfo"
+f1_keywords:
+- winsnmp/SnmpGetVendorInfo
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpGetVendorInfo
+- SnmpGetVendorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

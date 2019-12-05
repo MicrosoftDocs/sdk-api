@@ -1,19 +1,17 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.SetMonitorRedGreenOrBlueDrive
 title: SetMonitorRedGreenOrBlueDrive function (highlevelmonitorconfigurationapi.h)
-
 description: Sets a monitor's red, green, or blue drive value.
 old-location: monitor\setmonitorredgreenorbluedrive.htm
 tech.root: Monitor
 ms.assetid: 9d000d86-02f8-442f-954c-c039c9dcc0cd
-
 ms.date: 12/05/2018
 ms.keywords: SetMonitorRedGreenOrBlueDrive, SetMonitorRedGreenOrBlueDrive function [Monitor Configuration], highlevelmonitorconfigurationapi/SetMonitorRedGreenOrBlueDrive, monitor.setmonitorredgreenorbluedrive
 ms.topic: function
-f1_keywords: 
- - "highlevelmonitorconfigurationapi/SetMonitorRedGreenOrBlueDrive"
+f1_keywords:
+- highlevelmonitorconfigurationapi/SetMonitorRedGreenOrBlueDrive
 dev_langs:
- - c++
+- c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dxva2.dll
+- dxva2.dll
 api_name:
- - SetMonitorRedGreenOrBlueDrive
+- SetMonitorRedGreenOrBlueDrive
 targetos: Windows
 req.typenames: 
 req.redist: 

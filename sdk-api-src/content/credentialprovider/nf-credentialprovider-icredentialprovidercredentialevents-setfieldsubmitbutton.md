@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents.SetFieldSubmitButton
 title: ICredentialProviderCredentialEvents::SetFieldSubmitButton (credentialprovider.h)
-
 description: Enables credentials to set the field that the submit button appears adjacent to.
 old-location: shell\ICredentialProviderCredentialEvents_SetFieldSubmitButton.htm
 tech.root: shell
 ms.assetid: a39d67d7-b34d-482b-bfe1-db1f9cdc8d30
-
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],SetFieldSubmitButton method, ICredentialProviderCredentialEvents.SetFieldSubmitButton, ICredentialProviderCredentialEvents::SetFieldSubmitButton, SetFieldSubmitButton, SetFieldSubmitButton method [Windows Shell], SetFieldSubmitButton method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_SetFieldSubmitButton, credentialprovider/ICredentialProviderCredentialEvents::SetFieldSubmitButton, shell.ICredentialProviderCredentialEvents_SetFieldSubmitButton
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderCredentialEvents.SetFieldSubmitButton"
+f1_keywords:
+- credentialprovider/ICredentialProviderCredentialEvents.SetFieldSubmitButton
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - ICredentialProviderCredentialEvents.SetFieldSubmitButton
+- ICredentialProviderCredentialEvents.SetFieldSubmitButton
 targetos: Windows
 req.typenames: 
 req.redist: 

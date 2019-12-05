@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxDocument.ConnectedSubmit
 title: IFaxDocument::ConnectedSubmit (faxcomex.h)
-
 description: The IFaxDocument::ConnectedSubmit method submits a single fax document to the connected IFaxServer. The method returns an array of fax job ID strings, one for each recipient of the fax.
 old-location: fax\_mfax_faxdocument_connectedsubmit_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5cfo_cpp.htm
-
 ms.date: 12/05/2018
 ms.keywords: ConnectedSubmit, ConnectedSubmit method [Fax Service], ConnectedSubmit method [Fax Service],IFaxDocument interface, IFaxDocument interface [Fax Service],ConnectedSubmit method, IFaxDocument.ConnectedSubmit, IFaxDocument::ConnectedSubmit, _mfax_faxdocument.connectedsubmit_cpp, fax._mfax_faxdocument_connectedsubmit_cpp, faxcomex/IFaxDocument::ConnectedSubmit
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxDocument.ConnectedSubmit"
+f1_keywords:
+- faxcomex/IFaxDocument.ConnectedSubmit
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxDocument.ConnectedSubmit
+- IFaxDocument.ConnectedSubmit
 targetos: Windows
 req.typenames: 
 req.redist: 

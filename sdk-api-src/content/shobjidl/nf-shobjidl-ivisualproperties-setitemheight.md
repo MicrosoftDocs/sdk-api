@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IVisualProperties.SetItemHeight
 title: IVisualProperties::SetItemHeight (shobjidl.h)
-
 description: Sets the specified item height.
 old-location: shell\IVisualProperties_SetItemHeight.htm
 tech.root: shell
 ms.assetid: ebd00a98-ea2b-4024-b911-7120d8307b54
-
 ms.date: 12/05/2018
 ms.keywords: IVisualProperties interface [Windows Shell],SetItemHeight method, IVisualProperties.SetItemHeight, IVisualProperties::SetItemHeight, SetItemHeight, SetItemHeight method [Windows Shell], SetItemHeight method [Windows Shell],IVisualProperties interface, _shell_IVisualProperties_SetItemHeight, shell.IVisualProperties_SetItemHeight, shobjidl/IVisualProperties::SetItemHeight
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IVisualProperties.SetItemHeight"
+f1_keywords:
+- shobjidl/IVisualProperties.SetItemHeight
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IVisualProperties.SetItemHeight
+- IVisualProperties.SetItemHeight
 targetos: Windows
 req.typenames: 
 req.redist: 

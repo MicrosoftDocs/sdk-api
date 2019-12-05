@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_GetEditControl
 title: TreeView_GetEditControl macro (commctrl.h)
-
 description: Retrieves the handle to the edit control being used to edit a tree-view item's text. You can use this macro or send the TVM_GETEDITCONTROL message explicitly.
 old-location: controls\TreeView_GetEditControl.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_geteditcontrol.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetEditControl, TreeView_GetEditControl macro [Windows Controls], _win32_TreeView_GetEditControl, _win32_TreeView_GetEditControl_cpp, commctrl/TreeView_GetEditControl, controls.TreeView_GetEditControl, controls._win32_TreeView_GetEditControl
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_GetEditControl"
+f1_keywords:
+- commctrl/TreeView_GetEditControl
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_GetEditControl
+- TreeView_GetEditControl
 targetos: Windows
 req.typenames: 
 req.redist: 

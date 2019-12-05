@@ -1,19 +1,17 @@
 ---
 UID: NE:webservices.__unnamed_enum_90
 title: WS_PARAMETER_TYPE (webservices.h)
-
 description: The different parameter types.
 old-location: wsw\ws_parameter_type.htm
 tech.root: wsw
 ms.assetid: c847940a-f97e-4605-a940-1d72de6a3695
-
 ms.date: 12/05/2018
 ms.keywords: WS_PARAMETER_TYPE, WS_PARAMETER_TYPE enumeration [Web Services for Windows], WS_PARAMETER_TYPE_ARRAY, WS_PARAMETER_TYPE_ARRAY_COUNT, WS_PARAMETER_TYPE_MESSAGES, WS_PARAMETER_TYPE_NORMAL, webservices/WS_PARAMETER_TYPE, webservices/WS_PARAMETER_TYPE_ARRAY, webservices/WS_PARAMETER_TYPE_ARRAY_COUNT, webservices/WS_PARAMETER_TYPE_MESSAGES, webservices/WS_PARAMETER_TYPE_NORMAL, wsw.ws_parameter_type
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_PARAMETER_TYPE"
+f1_keywords:
+- webservices/WS_PARAMETER_TYPE
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_PARAMETER_TYPE
+- WS_PARAMETER_TYPE
 targetos: Windows
 req.typenames: WS_PARAMETER_TYPE
 req.redist: 

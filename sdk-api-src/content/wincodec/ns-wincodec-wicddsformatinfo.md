@@ -1,19 +1,17 @@
 ---
 UID: NS:wincodec.WICDdsFormatInfo
 title: WICDdsFormatInfo (wincodec.h)
-
 description: Specifies the DXGI_FORMAT and block information of a DDS format.
 old-location: wic\wicddsformatinfo.htm
 tech.root: wic
 ms.assetid: C5F1DA49-EC11-4068-9DC6-D721894371F9
-
 ms.date: 12/05/2018
 ms.keywords: PWICDdsFormatInfo, PWICDdsFormatInfo structure pointer [Windows Imaging Component], WICDdsFormatInfo, WICDdsFormatInfo structure [Windows Imaging Component], wic.wicddsformatinfo, wincodec/PWICDdsFormatInfo, wincodec/WICDdsFormatInfo
 ms.topic: struct
-f1_keywords: 
- - "wincodec/WICDdsFormatInfo"
+f1_keywords:
+- wincodec/WICDdsFormatInfo
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICDdsFormatInfo
+- WICDdsFormatInfo
 targetos: Windows
 req.typenames: WICDdsFormatInfo
 req.redist: 

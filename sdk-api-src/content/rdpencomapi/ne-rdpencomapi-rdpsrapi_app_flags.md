@@ -1,19 +1,17 @@
 ---
 UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0000_0008
 title: RDPSRAPI_APP_FLAGS (rdpencomapi.h)
-
 description: Defines values for the type of application.
 old-location: rdp\rdpsrapi_app_flags.htm
 tech.root: rdp
 ms.assetid: fc7b6be3-3929-4b88-9899-3949706e8985
-
 ms.date: 12/05/2018
 ms.keywords: APP_FLAG_PRIVILEGED, RDPSRAPI_APP_FLAGS, RDPSRAPI_APP_FLAGS enumeration [RDP], rdp.rdpsrapi_app_flags, rdpencomapi/APP_FLAG_PRIVILEGED, rdpencomapi/RDPSRAPI_APP_FLAGS
 ms.topic: enum
-f1_keywords: 
- - "rdpencomapi/RDPSRAPI_APP_FLAGS"
+f1_keywords:
+- rdpencomapi/RDPSRAPI_APP_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rdpencomapi.h
+- Rdpencomapi.h
 api_name:
- - RDPSRAPI_APP_FLAGS
+- RDPSRAPI_APP_FLAGS
 targetos: Windows
 req.typenames: RDPSRAPI_APP_FLAGS
 req.redist: 

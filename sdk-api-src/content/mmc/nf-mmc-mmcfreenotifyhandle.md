@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.MMCFreeNotifyHandle
 title: MMCFreeNotifyHandle function (mmc.h)
-
 description: Called by a snap-in to free the handle to an MMCN_PROPERTY_CHANGE notification message sent to the snap-in by MMC in response to an MMCPropertyChangeNotify call made by a property sheet.
 old-location: mmc\mmcfreenotifyhandle.htm
 tech.root: mmc
 ms.assetid: 92802835-4324-4678-be9c-51dc9ca27576
-
 ms.date: 12/05/2018
 ms.keywords: MMCFreeNotifyHandle, MMCFreeNotifyHandle callback, MMCFreeNotifyHandle callback function [MMC], _slate_mmcfreenotifyhandle, mmc.mmcfreenotifyhandle, mmc/MMCFreeNotifyHandle
 ms.topic: function
-f1_keywords: 
- - "mmc/MMCFreeNotifyHandle"
+f1_keywords:
+- mmc/MMCFreeNotifyHandle
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - MMCFreeNotifyHandle
+- MMCFreeNotifyHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

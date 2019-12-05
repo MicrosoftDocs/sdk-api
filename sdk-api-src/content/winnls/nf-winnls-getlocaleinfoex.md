@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.GetLocaleInfoEx
 title: GetLocaleInfoEx function (winnls.h)
-
 description: Retrieves information about a locale specified by name.Note  The application should call this function in preference to GetLocaleInfo if designed to run only on Windows Vista and later. Note  This function can retrieve data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see Using Persistent Locale Data.
 old-location: intl\getlocaleinfoex.htm
 tech.root: Intl
 ms.assetid: 20294ff2-b783-41a2-92a8-41cd974a2ccb
-
 ms.date: 12/05/2018
 ms.keywords: GetLocaleInfoEx, GetLocaleInfoEx function [Internationalization for Windows Applications], _win32_GetLocaleInfoEx, intl.getlocaleinfoex, winnls/GetLocaleInfoEx
 ms.topic: function
-f1_keywords: 
- - "winnls/GetLocaleInfoEx"
+f1_keywords:
+- winnls/GetLocaleInfoEx
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-l1-2-0.dll
- - API-MS-Win-Core-Localization-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-l1-2-0.dll
+- API-MS-Win-Core-Localization-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
- - GetLocaleInfoEx
+- GetLocaleInfoEx
 targetos: Windows
 req.typenames: 
 req.redist: 

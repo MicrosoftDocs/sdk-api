@@ -1,19 +1,17 @@
 ---
 UID: NF:userenv.CreateEnvironmentBlock
 title: CreateEnvironmentBlock function (userenv.h)
-
 description: Retrieves the environment variables for the specified user. This block can then be passed to the CreateProcessAsUser function.
 old-location: shell\CreateEnvironmentBlock.htm
 tech.root: shell
 ms.assetid: bda8879d-d33a-48f4-8b08-e3a279126a07
-
 ms.date: 12/05/2018
 ms.keywords: CreateEnvironmentBlock, CreateEnvironmentBlock function [Windows Shell], _shell_CreateEnvironmentBlock, shell.CreateEnvironmentBlock, userenv/CreateEnvironmentBlock
 ms.topic: function
-f1_keywords: 
- - "userenv/CreateEnvironmentBlock"
+f1_keywords:
+- userenv/CreateEnvironmentBlock
 dev_langs:
- - c++
+- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Userenv.dll
+- Userenv.dll
 api_name:
- - CreateEnvironmentBlock
+- CreateEnvironmentBlock
 targetos: Windows
 req.typenames: 
 req.redist: 

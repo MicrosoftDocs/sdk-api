@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1helper.RoundedRect
 title: RoundedRect function (d2d1helper.h)
-
 description: Creates a D2D1_ROUNDED_RECT structure.
 old-location: direct2d\roundedrect.htm
 tech.root: Direct2D
 ms.assetid: 200119a2-941c-493f-9e56-c9f306dc5322
-
 ms.date: 12/05/2018
 ms.keywords: RoundedRect, RoundedRect function [Direct2D], d2d1helper/RoundedRect, direct2d.roundedrect
 ms.topic: function
-f1_keywords: 
- - "d2d1helper/RoundedRect"
+f1_keywords:
+- d2d1helper/RoundedRect
 dev_langs:
- - c++
+- c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - RoundedRect
+- RoundedRect
 targetos: Windows
 req.typenames: 
 req.redist: 

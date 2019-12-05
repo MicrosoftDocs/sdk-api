@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IMessageFilter.MessagePending
 title: IMessageFilter::MessagePending (objidl.h)
-
 description: Indicates that a message has arrived while COM is waiting to respond to a remote call.
 old-location: com\imessagefilter_messagepending.htm
 tech.root: com
 ms.assetid: f4aff53f-c344-4456-b53e-296d5a5b653a
-
 ms.date: 12/05/2018
 ms.keywords: IMessageFilter interface [COM],MessagePending method, IMessageFilter.MessagePending, IMessageFilter::MessagePending, MessagePending, MessagePending method [COM], MessagePending method [COM],IMessageFilter interface, _com_imessagefilter_messagepending, com.imessagefilter_messagepending, objidl/IMessageFilter::MessagePending
 ms.topic: method
-f1_keywords: 
- - "objidl/IMessageFilter.MessagePending"
+f1_keywords:
+- objidl/IMessageFilter.MessagePending
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IMessageFilter.MessagePending
+- IMessageFilter.MessagePending
 targetos: Windows
 req.typenames: 
 req.redist: 

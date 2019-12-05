@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsLocality
 title: IADsLocality (iads.h)
-
 description: The IADsLocality interface is a dual interface that inherits from IADs.
 old-location: adsi\iadslocality.htm
 tech.root: adsi
 ms.assetid: fec0c8c2-b17f-49a0-9c97-260c98e71604
-
 ms.date: 12/05/2018
 ms.keywords: IADsLocality, IADsLocality interface [ADSI], IADsLocality interface [ADSI],described, _ds_iadslocality, adsi.iadslocality, iads/IADsLocality
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsLocality"
+f1_keywords:
+- iads/IADsLocality
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsLocality
+- IADsLocality
 targetos: Windows
 req.typenames: 
 req.redist: 

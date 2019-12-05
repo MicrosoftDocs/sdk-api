@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl.RightButtonSelect
 title: IDvdControl::RightButtonSelect (strmif.h)
-
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Selects the right directional button from the displayed menu.
 old-location: dshow\idvdcontrol_rightbuttonselect.htm
 tech.root: DirectShow
 ms.assetid: 67ca86cd-37a7-48ce-80d9-585d345e83fc
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],RightButtonSelect method, IDvdControl.RightButtonSelect, IDvdControl::RightButtonSelect, IDvdControlRightButtonSelect, RightButtonSelect, RightButtonSelect method [DirectShow], RightButtonSelect method [DirectShow],IDvdControl interface, dshow.idvdcontrol_rightbuttonselect, strmif/IDvdControl::RightButtonSelect
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl.RightButtonSelect"
+f1_keywords:
+- strmif/IDvdControl.RightButtonSelect
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDvdControl.RightButtonSelect
+- IDvdControl.RightButtonSelect
 targetos: Windows
 req.typenames: 
 req.redist: 

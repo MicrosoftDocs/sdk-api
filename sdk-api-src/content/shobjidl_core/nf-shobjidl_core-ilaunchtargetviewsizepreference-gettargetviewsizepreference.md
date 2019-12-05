@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ILaunchTargetViewSizePreference.GetTargetViewSizePreference
 title: ILaunchTargetViewSizePreference::GetTargetViewSizePreference (shobjidl_core.h)
-
 description: Retrieves the preferred view size of the application being launched.
 old-location: shell\ILaunchTargetViewSizePreference_GetTargetViewSizePreference.htm
 tech.root: shell
 ms.assetid: 2C852FD1-09FD-45B6-A493-07DEE72BEA4C
-
 ms.date: 12/05/2018
 ms.keywords: GetTargetViewSizePreference, GetTargetViewSizePreference method [Windows Shell], GetTargetViewSizePreference method [Windows Shell],ILaunchTargetViewSizePreference interface, ILaunchTargetViewSizePreference interface [Windows Shell],GetTargetViewSizePreference method, ILaunchTargetViewSizePreference.GetTargetViewSizePreference, ILaunchTargetViewSizePreference::GetTargetViewSizePreference, shell.ILaunchTargetViewSizePreference_GetTargetViewSizePreference, shobjidl_core/ILaunchTargetViewSizePreference::GetTargetViewSizePreference
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ILaunchTargetViewSizePreference.GetTargetViewSizePreference"
+f1_keywords:
+- shobjidl_core/ILaunchTargetViewSizePreference.GetTargetViewSizePreference
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ILaunchTargetViewSizePreference.GetTargetViewSizePreference
+- ILaunchTargetViewSizePreference.GetTargetViewSizePreference
 targetos: Windows
 req.typenames: 
 req.redist: 

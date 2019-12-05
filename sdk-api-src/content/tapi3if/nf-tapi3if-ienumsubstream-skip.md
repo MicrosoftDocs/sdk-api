@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.IEnumSubStream.Skip
 title: IEnumSubStream::Skip (tapi3if.h)
-
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumsubstream_skip.htm
 tech.root: Tapi
 ms.assetid: dcf2fa1e-229a-4302-898c-f7a213584521
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSubStream interface [TAPI 2.2],Skip method, IEnumSubStream.Skip, IEnumSubStream::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumSubStream interface, _tapi3_ienumsubstream_skip, tapi3.ienumsubstream_skip, tapi3if/IEnumSubStream::Skip
 ms.topic: method
-f1_keywords: 
- - "tapi3if/IEnumSubStream.Skip"
+f1_keywords:
+- tapi3if/IEnumSubStream.Skip
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tapi3if.h
+- tapi3if.h
 api_name:
- - IEnumSubStream.Skip
+- IEnumSubStream.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

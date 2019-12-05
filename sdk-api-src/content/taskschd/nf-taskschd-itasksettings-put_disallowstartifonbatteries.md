@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_DisallowStartIfOnBatteries
 title: ITaskSettings::put_DisallowStartIfOnBatteries (taskschd.h)
-
 description: Gets or sets a Boolean value that indicates that the task will not be started if the computer is running on batteries.
 old-location: taskschd\itasksettings_disallowstartifonbatteries.htm
 tech.root: taskschd
 ms.assetid: 8f80bc2a-8b7d-4771-b773-55b8f50a4126
-
 ms.date: 12/05/2018
 ms.keywords: DisallowStartIfOnBatteries property [Task Scheduler], DisallowStartIfOnBatteries property [Task Scheduler],ITaskSettings interface, ITaskSettings interface [Task Scheduler],DisallowStartIfOnBatteries property, ITaskSettings.DisallowStartIfOnBatteries, ITaskSettings.put_DisallowStartIfOnBatteries, ITaskSettings::DisallowStartIfOnBatteries, ITaskSettings::get_DisallowStartIfOnBatteries, ITaskSettings::put_DisallowStartIfOnBatteries, put_DisallowStartIfOnBatteries, taskschd.itasksettings_disallowstartifonbatteries, taskschd/ITaskSettings::DisallowStartIfOnBatteries, taskschd/ITaskSettings::get_DisallowStartIfOnBatteries, taskschd/ITaskSettings::put_DisallowStartIfOnBatteries
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskSettings.DisallowStartIfOnBatteries"
+f1_keywords:
+- taskschd/ITaskSettings.DisallowStartIfOnBatteries
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskSettings.DisallowStartIfOnBatteries
- - ITaskSettings.get_DisallowStartIfOnBatteries
- - ITaskSettings.put_DisallowStartIfOnBatteries
+- ITaskSettings.DisallowStartIfOnBatteries
+- ITaskSettings.get_DisallowStartIfOnBatteries
+- ITaskSettings.put_DisallowStartIfOnBatteries
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imm.ImmUnregisterWordA
 title: ImmUnregisterWordA function (imm.h)
-
 description: Removes a register string from the dictionary of the IME associated with the specified input locale.
 old-location: intl\immunregisterword.htm
 tech.root: Intl
 ms.assetid: 1724d516-bc9d-418f-9fe1-5c82eccc73c5
-
 ms.date: 12/05/2018
 ms.keywords: Any value from IME_REGWORD_STYLE_USER_FIRST to IME_REGWORD_STYLE_USER_LAST, IME_REGWORD_STYLE_EUDC, ImmUnregisterWord, ImmUnregisterWord function [Internationalization for Windows Applications], ImmUnregisterWordA, ImmUnregisterWordW, _win32_ImmUnregisterWord, imm/ImmUnregisterWord, imm/ImmUnregisterWordA, imm/ImmUnregisterWordW, intl.immunregisterword
 ms.topic: function
-f1_keywords: 
- - "imm/ImmUnregisterWord"
+f1_keywords:
+- imm/ImmUnregisterWord
 dev_langs:
- - c++
+- c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imm32.dll
+- Imm32.dll
 api_name:
- - ImmUnregisterWord
- - ImmUnregisterWordA
- - ImmUnregisterWordW
+- ImmUnregisterWord
+- ImmUnregisterWordA
+- ImmUnregisterWordW
 targetos: Windows
 req.typenames: 
 req.redist: 

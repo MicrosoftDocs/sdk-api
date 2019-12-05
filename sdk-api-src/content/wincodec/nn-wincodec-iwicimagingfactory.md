@@ -1,19 +1,17 @@
 ---
 UID: NN:wincodec.IWICImagingFactory
 title: IWICImagingFactory (wincodec.h)
-
 description: Exposes methods used to create components for the Windows Imaging Component (WIC) such as decoders, encoders and pixel format converters.
 old-location: wic\_wic_codec_iwicimagingfactory.htm
 tech.root: wic
 ms.assetid: 30d155b1-a46c-46c4-9f8f-fb56dc6bf0a9
-
 ms.date: 12/05/2018
 ms.keywords: IWICImagingFactory, IWICImagingFactory interface [Windows Imaging Component], IWICImagingFactory interface [Windows Imaging Component],described, _wic_codec_iwicimagingfactory, wic._wic_codec_iwicimagingfactory, wincodec/IWICImagingFactory
 ms.topic: interface
-f1_keywords: 
- - "wincodec/IWICImagingFactory"
+f1_keywords:
+- wincodec/IWICImagingFactory
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICImagingFactory
+- IWICImagingFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

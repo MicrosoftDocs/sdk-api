@@ -1,19 +1,17 @@
 ---
 UID: NS:projectedfslib.PRJ_PLACEHOLDER_VERSION_INFO
 title: PRJ_PLACEHOLDER_VERSION_INFO (projectedfslib.h)
-
 description: Information that uniquely identifies the contents of a placeholder file.
 old-location: projfs\prj_placeholder_version_info.htm
 tech.root: ProjFS
 ms.assetid: 4F2156AC-087B-4FF6-8566-25D9DC2A8C06
-
 ms.date: 12/05/2018
 ms.keywords: PRJ_PLACEHOLDER_VERSION_INFO, PRJ_PLACEHOLDER_VERSION_INFO structure, ProjFS.prj_placeholder_version_info, projectedfslib/PRJ_PLACEHOLDER_VERSION_INFO
 ms.topic: struct
-f1_keywords: 
- - "projectedfslib/PRJ_PLACEHOLDER_VERSION_INFO"
+f1_keywords:
+- projectedfslib/PRJ_PLACEHOLDER_VERSION_INFO
 dev_langs:
- - c++
+- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - projectedfslib.h
+- projectedfslib.h
 api_name:
- - PRJ_PLACEHOLDER_VERSION_INFO
+- PRJ_PLACEHOLDER_VERSION_INFO
 targetos: Windows
 req.typenames: PRJ_PLACEHOLDER_VERSION_INFO
 req.redist: 

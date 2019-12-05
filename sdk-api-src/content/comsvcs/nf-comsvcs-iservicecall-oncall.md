@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IServiceCall.OnCall
 title: IServiceCall::OnCall (comsvcs.h)
-
 description: Triggers the execution of the batch work implemented in this method.
 old-location: cos\iservicecall_oncall.htm
 tech.root: cossdk
 ms.assetid: 0a2bb7ed-018f-4cb1-a1b2-27f6949dae39
-
 ms.date: 12/05/2018
 ms.keywords: IServiceCall interface [COM+],OnCall method, IServiceCall.OnCall, IServiceCall::OnCall, OnCall, OnCall method [COM+], OnCall method [COM+],IServiceCall interface, _cos_IServiceCall_OnCall, comsvcs/IServiceCall::OnCall, cos.iservicecall_oncall
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IServiceCall.OnCall"
+f1_keywords:
+- comsvcs/IServiceCall.OnCall
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServiceCall.OnCall
+- IServiceCall.OnCall
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchProtocolThreadContext.ThreadIdle
 title: ISearchProtocolThreadContext::ThreadIdle (searchapi.h)
-
 description: Notifies the protocol handler that the filtering thread is idle, so that the protocol handler can clean up any cache it might have built up.
 old-location: search\_search_ISearchProtocolThreadContext_ThreadIdle.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocolthreadcontext\threadidle.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchProtocolThreadContext interface [search],ThreadIdle method, ISearchProtocolThreadContext.ThreadIdle, ISearchProtocolThreadContext::ThreadIdle, ThreadIdle, ThreadIdle method [search], ThreadIdle method [search],ISearchProtocolThreadContext interface, _search_ISearchProtocolThreadContext_ThreadIdle, search._search_ISearchProtocolThreadContext_ThreadIdle, searchapi/ISearchProtocolThreadContext::ThreadIdle
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchProtocolThreadContext.ThreadIdle"
+f1_keywords:
+- searchapi/ISearchProtocolThreadContext.ThreadIdle
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchProtocolThreadContext.ThreadIdle
+- ISearchProtocolThreadContext.ThreadIdle
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

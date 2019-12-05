@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetTextExtentExPointW
 title: GetTextExtentExPointW function (wingdi.h)
-
 description: The GetTextExtentExPoint function retrieves the number of characters in a specified string that will fit within a specified space and fills an array with the text extent for each of those characters.
 old-location: gdi\gettextextentexpoint.htm
 tech.root: gdi
 ms.assetid: b873a059-5aa3-47d0-b109-7acd542c7d79
-
 ms.date: 12/05/2018
 ms.keywords: GetTextExtentExPoint, GetTextExtentExPoint function [Windows GDI], GetTextExtentExPointA, GetTextExtentExPointW, _win32_GetTextExtentExPoint, gdi.gettextextentexpoint, wingdi/GetTextExtentExPoint, wingdi/GetTextExtentExPointA, wingdi/GetTextExtentExPointW
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetTextExtentExPoint"
+f1_keywords:
+- wingdi/GetTextExtentExPoint
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Font-l1-1-1.dll
- - ext-ms-win-gdi-font-l1-1-2.dll
- - Ext-MS-Win-GDI-Font-L1-1-3.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Font-l1-1-1.dll
+- ext-ms-win-gdi-font-l1-1-2.dll
+- Ext-MS-Win-GDI-Font-L1-1-3.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - GetTextExtentExPoint
- - GetTextExtentExPointA
- - GetTextExtentExPointW
+- GetTextExtentExPoint
+- GetTextExtentExPointA
+- GetTextExtentExPointW
 targetos: Windows
 req.typenames: 
 req.redist: 

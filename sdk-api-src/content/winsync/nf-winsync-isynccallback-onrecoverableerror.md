@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncCallback.OnRecoverableError
 title: ISyncCallback::OnRecoverableError (winsync.h)
-
 description: Occurs when a synchronization provider sets a recoverable error when it is loading or saving an item.
 old-location: winsync\isynccallback_onrecoverableerror.htm
 tech.root: winsync
 ms.assetid: de496e83-cfa4-47c7-9b07-712e59737532
-
 ms.date: 12/05/2018
 ms.keywords: ISyncCallback interface [Windows Sync],OnRecoverableError method, ISyncCallback.OnRecoverableError, ISyncCallback::OnRecoverableError, OnRecoverableError, OnRecoverableError method [Windows Sync], OnRecoverableError method [Windows Sync],ISyncCallback interface, winsync.isynccallback_onrecoverableerror, winsync/ISyncCallback::OnRecoverableError
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncCallback.OnRecoverableError"
+f1_keywords:
+- winsync/ISyncCallback.OnRecoverableError
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncCallback.OnRecoverableError
+- ISyncCallback.OnRecoverableError
 targetos: Windows
 req.typenames: 
 req.redist: 

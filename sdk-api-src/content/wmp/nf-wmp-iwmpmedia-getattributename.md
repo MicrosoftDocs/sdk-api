@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPMedia.getAttributeName
 title: IWMPMedia::getAttributeName (wmp.h)
-
 description: The getAttributeName method retrieves the name of the attribute corresponding to the specified index.
 old-location: wmp\iwmpmedia_getattributename.htm
 tech.root: WMP
 ms.assetid: cb04e464-44dd-41ba-9296-f13aca9ef54e
-
 ms.date: 12/05/2018
 ms.keywords: IWMPMedia interface [Windows Media Player],getAttributeName method, IWMPMedia.getAttributeName, IWMPMedia2 interface [Windows Media Player],getAttributeName method, IWMPMedia2::getAttributeName, IWMPMedia3 interface [Windows Media Player],getAttributeName method, IWMPMedia3::getAttributeName, IWMPMedia::getAttributeName, IWMPMediagetAttributeName, getAttributeName, getAttributeName method [Windows Media Player], getAttributeName method [Windows Media Player],IWMPMedia interface, getAttributeName method [Windows Media Player],IWMPMedia2 interface, getAttributeName method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_getattributename, wmp/IWMPMedia2::getAttributeName, wmp/IWMPMedia3::getAttributeName, wmp/IWMPMedia::getAttributeName
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPMedia.getAttributeName"
+f1_keywords:
+- wmp/IWMPMedia.getAttributeName
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPMedia.getAttributeName
- - IWMPMedia2.getAttributeName
- - IWMPMedia3.getAttributeName
+- IWMPMedia.getAttributeName
+- IWMPMedia2.getAttributeName
+- IWMPMedia3.getAttributeName
 targetos: Windows
 req.typenames: 
 req.redist: 

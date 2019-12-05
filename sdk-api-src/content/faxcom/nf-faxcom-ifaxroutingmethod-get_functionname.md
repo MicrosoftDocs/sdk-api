@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxRoutingMethod.get_FunctionName
 title: IFaxRoutingMethod::get_FunctionName (faxcom.h)
-
 description: The IFaxRoutingMethod::get_FunctionName property is a null-terminated string that contains the name of the function that executes a specific fax routing procedure.
 old-location: fax\_mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_functionname_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1i5h.htm
-
 ms.date: 12/05/2018
 ms.keywords: FunctionName property [Fax Service], FunctionName property [Fax Service],IFaxRoutingMethod interface, IFaxRoutingMethod interface [Fax Service],FunctionName property, IFaxRoutingMethod.FunctionName, IFaxRoutingMethod.get_FunctionName, IFaxRoutingMethod::FunctionName, IFaxRoutingMethod::get_FunctionName, _mfax_ifaxroutingmethod_get_functionname, fax._mfax_ifaxroutingmethod_get_functionname, fax._mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_functionname_cpp, faxcom/IFaxRoutingMethod::FunctionName, faxcom/IFaxRoutingMethod::get_FunctionName, get_FunctionName
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxRoutingMethod.FunctionName"
+f1_keywords:
+- faxcom/IFaxRoutingMethod.FunctionName
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxRoutingMethod.FunctionName
- - IFaxRoutingMethod.get_FunctionName
+- IFaxRoutingMethod.FunctionName
+- IFaxRoutingMethod.get_FunctionName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ListBox_GetCount
 title: ListBox_GetCount macro (windowsx.h)
-
 description: Gets the number of items in a list box. You can use this macro or send the LB_GETCOUNT message explicitly.
 old-location: controls\ListBox_GetCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getcount.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListBox_GetCount, ListBox_GetCount macro [Windows Controls], _win32_ListBox_GetCount, _win32_ListBox_GetCount_cpp, controls.ListBox_GetCount, controls._win32_ListBox_GetCount, windowsx/ListBox_GetCount
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ListBox_GetCount"
+f1_keywords:
+- windowsx/ListBox_GetCount
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ListBox_GetCount
+- ListBox_GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

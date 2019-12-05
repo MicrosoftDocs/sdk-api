@@ -1,19 +1,17 @@
 ---
 UID: NS:imepad.tagAPPLETCFG
 title: IMEAPPLETCFG (imepad.h)
-
 description: Used to specify and set applet configuration in IImePad.
 old-location: intl\imeappletcfg.htm
 tech.root: Intl
 ms.assetid: 2680231A-0A9C-4723-8E7D-73184C209050
-
 ms.date: 12/05/2018
-ms.keywords: "*LPIMEAPPLETCFG, IMEAPPLETCFG, IMEAPPLETCFG structure [Internationalization for Windows Applications], IPACFG_CATEGORY, IPACFG_HELP, IPACFG_LANG, IPACFG_NONE, IPACFG_PROPERTY, IPACFG_TITLE, IPACFG_TITLEFONTFACE, PIMEAPPLETCFG, PIMEAPPLETCFG structure pointer [Internationalization for Windows Applications], imepad/IMEAPPLETCFG, imepad/PIMEAPPLETCFG, intl.imeappletcfg"
+ms.keywords: '*LPIMEAPPLETCFG, IMEAPPLETCFG, IMEAPPLETCFG structure [Internationalization for Windows Applications], IPACFG_CATEGORY, IPACFG_HELP, IPACFG_LANG, IPACFG_NONE, IPACFG_PROPERTY, IPACFG_TITLE, IPACFG_TITLEFONTFACE, PIMEAPPLETCFG, PIMEAPPLETCFG structure pointer [Internationalization for Windows Applications], imepad/IMEAPPLETCFG, imepad/PIMEAPPLETCFG, intl.imeappletcfg'
 ms.topic: struct
-f1_keywords: 
- - "imepad/IMEAPPLETCFG"
+f1_keywords:
+- imepad/IMEAPPLETCFG
 dev_langs:
- - c++
+- c++
 req.header: imepad.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Imepad.h
+- Imepad.h
 api_name:
- - IMEAPPLETCFG
+- IMEAPPLETCFG
 targetos: Windows
 req.typenames: IMEAPPLETCFG, *LPIMEAPPLETCFG
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:schannel._SecPkgContext_SupportedSignatures
 title: SecPkgContext_SupportedSignatures (schannel.h)
-
 description: Specifies the signature algorithms supported by an Schannel connection.
 old-location: security\secpkgcontext_supportedsignatures.htm
 tech.root: SecAuthN
 ms.assetid: b4b58175-1367-4c91-8680-523a4b125c76
-
 ms.date: 12/05/2018
-ms.keywords: "*PSecPkgContext_SupportedSignatures, PSecPkgContext_SupportedSignatures, PSecPkgContext_SupportedSignatures structure pointer [Security], SecPkgContext_SupportedSignatures, SecPkgContext_SupportedSignatures structure [Security], schannel/PSecPkgContext_SupportedSignatures, schannel/SecPkgContext_SupportedSignatures, security.secpkgcontext_supportedsignatures"
+ms.keywords: '*PSecPkgContext_SupportedSignatures, PSecPkgContext_SupportedSignatures, PSecPkgContext_SupportedSignatures structure pointer [Security], SecPkgContext_SupportedSignatures, SecPkgContext_SupportedSignatures structure [Security], schannel/PSecPkgContext_SupportedSignatures, schannel/SecPkgContext_SupportedSignatures, security.secpkgcontext_supportedsignatures'
 ms.topic: struct
-f1_keywords: 
- - "schannel/SecPkgContext_SupportedSignatures"
+f1_keywords:
+- schannel/SecPkgContext_SupportedSignatures
 dev_langs:
- - c++
+- c++
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Schannel.h
+- Schannel.h
 api_name:
- - SecPkgContext_SupportedSignatures
+- SecPkgContext_SupportedSignatures
 targetos: Windows
 req.typenames: SecPkgContext_SupportedSignatures, *PSecPkgContext_SupportedSignatures
 req.redist: 

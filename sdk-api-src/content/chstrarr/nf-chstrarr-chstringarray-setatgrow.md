@@ -1,19 +1,17 @@
 ---
 UID: NF:chstrarr.CHStringArray.SetAtGrow
 title: CHStringArray::SetAtGrow (chstrarr.h)
-
 description: Sets the array element at the specified index.
 old-location: wmi\chstringarray_setatgrow.htm
 tech.root: WmiSdk
 ms.assetid: 49cc7e6f-2d15-4756-bffd-e21f38b8ce8b
-
 ms.date: 12/05/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],SetAtGrow method, CHStringArray.SetAtGrow, CHStringArray::SetAtGrow, SetAtGrow, SetAtGrow method [Windows Management Instrumentation], SetAtGrow method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_setatgrow, chstrarr/CHStringArray::SetAtGrow, wmi.chstringarray_setatgrow
 ms.topic: method
-f1_keywords: 
- - "chstrarr/CHStringArray.SetAtGrow"
+f1_keywords:
+- chstrarr/CHStringArray.SetAtGrow
 dev_langs:
- - c++
+- c++
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHStringArray.SetAtGrow
+- CHStringArray.SetAtGrow
 targetos: Windows
 req.typenames: 
 req.redist: 

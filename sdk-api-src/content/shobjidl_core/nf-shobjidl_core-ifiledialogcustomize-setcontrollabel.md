@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.SetControlLabel
 title: IFileDialogCustomize::SetControlLabel (shobjidl_core.h)
-
 description: Sets the text associated with a control, such as button text or an edit box label.
 old-location: shell\IFileDialogCustomize_SetControlLabel.htm
 tech.root: shell
 ms.assetid: 369038ad-999b-425c-bd47-b6a06e5f6939
-
 ms.date: 12/05/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],SetControlLabel method, IFileDialogCustomize.SetControlLabel, IFileDialogCustomize::SetControlLabel, SetControlLabel, SetControlLabel method [Windows Shell], SetControlLabel method [Windows Shell],IFileDialogCustomize interface, shell.IFileDialogCustomize_SetControlLabel, shell_IFileDialogCustomize_SetControlLabel, shobjidl_core/IFileDialogCustomize::SetControlLabel
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialogCustomize.SetControlLabel"
+f1_keywords:
+- shobjidl_core/IFileDialogCustomize.SetControlLabel
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialogCustomize.SetControlLabel
+- IFileDialogCustomize.SetControlLabel
 targetos: Windows
 req.typenames: 
 req.redist: 

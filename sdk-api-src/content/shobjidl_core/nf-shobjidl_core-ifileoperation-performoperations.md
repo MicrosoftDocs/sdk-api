@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.PerformOperations
 title: IFileOperation::PerformOperations (shobjidl_core.h)
-
 description: Executes all selected operations.
 old-location: shell\IFileOperation_PerformOperations.htm
 tech.root: shell
 ms.assetid: eceb5f0a-ad9a-4b7a-9656-c10e0420a96a
-
 ms.date: 12/05/2018
 ms.keywords: IFileOperation interface [Windows Shell],PerformOperations method, IFileOperation.PerformOperations, IFileOperation::PerformOperations, PerformOperations, PerformOperations method [Windows Shell], PerformOperations method [Windows Shell],IFileOperation interface, _shell_IFileOperation_PerformOperations, shell.IFileOperation_PerformOperations, shobjidl_core/IFileOperation::PerformOperations
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileOperation.PerformOperations"
+f1_keywords:
+- shobjidl_core/IFileOperation.PerformOperations
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileOperation.PerformOperations
+- IFileOperation.PerformOperations
 targetos: Windows
 req.typenames: 
 req.redist: 

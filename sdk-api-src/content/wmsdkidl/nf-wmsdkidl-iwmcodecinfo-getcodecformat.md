@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMCodecInfo.GetCodecFormat
 title: IWMCodecInfo::GetCodecFormat (wmsdkidl.h)
-
 description: The GetCodecFormat method retrieves one format supported by a specified codec. This method retrieves a pointer to the IWMStreamConfig interface of a stream configuration object containing the stream settings for the supported format.
 old-location: wmformat\iwmcodecinfo_getcodecformat.htm
 tech.root: wmformat
 ms.assetid: dbfffc96-2286-4fdf-a76f-ad8e0ecd7aff
-
 ms.date: 12/05/2018
 ms.keywords: GetCodecFormat, GetCodecFormat method [windows Media Format], GetCodecFormat method [windows Media Format],IWMCodecInfo interface, IWMCodecInfo interface [windows Media Format],GetCodecFormat method, IWMCodecInfo.GetCodecFormat, IWMCodecInfo::GetCodecFormat, IWMCodecInfoGetCodecFormat, wmformat.iwmcodecinfo_getcodecformat, wmsdkidl/IWMCodecInfo::GetCodecFormat
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMCodecInfo.GetCodecFormat"
+f1_keywords:
+- wmsdkidl/IWMCodecInfo.GetCodecFormat
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMCodecInfo.GetCodecFormat
+- IWMCodecInfo.GetCodecFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

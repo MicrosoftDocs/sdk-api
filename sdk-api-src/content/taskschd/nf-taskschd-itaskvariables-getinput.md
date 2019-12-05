@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskVariables.GetInput
 title: ITaskVariables::GetInput (taskschd.h)
-
 description: Gets the input variables for a task.
 old-location: taskschd\itaskvariables_getinput.htm
 tech.root: taskschd
 ms.assetid: 7c38a633-b3f1-4894-9152-e01a083a54fc
-
 ms.date: 12/05/2018
 ms.keywords: GetInput, GetInput method [Task Scheduler], GetInput method [Task Scheduler],ITaskVariables interface, ITaskVariables interface [Task Scheduler],GetInput method, ITaskVariables.GetInput, ITaskVariables::GetInput, taskschd.itaskvariables_getinput, taskschd/ITaskVariables::GetInput
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskVariables.GetInput"
+f1_keywords:
+- taskschd/ITaskVariables.GetInput
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskVariables.GetInput
+- ITaskVariables.GetInput
 targetos: Windows
 req.typenames: 
 req.redist: 

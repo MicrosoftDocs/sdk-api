@@ -1,19 +1,17 @@
 ---
 UID: NN:msopc.IOpcSignatureRelationshipReferenceSet
 title: IOpcSignatureRelationshipReferenceSet (msopc.h)
-
 description: An unordered set of IOpcSignatureRelationshipReference interface pointers that represent references to Relationships parts that contain relationships to be signed.
 old-location: opc\iopcsignaturerelationshipreferenceset.htm
 tech.root: OPC
 ms.assetid: 89ea7243-54ee-487b-a58a-0721af9db8c3
-
 ms.date: 12/05/2018
 ms.keywords: IOpcSignatureRelationshipReferenceSet, IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions], IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions],described, msopc/IOpcSignatureRelationshipReferenceSet, opc.iopcsignaturerelationshipreferenceset
 ms.topic: interface
-f1_keywords: 
- - "msopc/IOpcSignatureRelationshipReferenceSet"
+f1_keywords:
+- msopc/IOpcSignatureRelationshipReferenceSet
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignatureRelationshipReferenceSet
+- IOpcSignatureRelationshipReferenceSet
 targetos: Windows
 req.typenames: 
 req.redist: 

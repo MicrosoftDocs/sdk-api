@@ -1,19 +1,17 @@
 ---
 UID: NF:propidl.IPropertySetStorage.Create
 title: IPropertySetStorage::Create (propidl.h)
-
 description: Creates and opens a new property set in the property set storage object.
 old-location: stg\ipropertysetstorage_create.htm
 tech.root: Stg
 ms.assetid: 9307788d-bce6-4025-8043-8b68e874a62b
-
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Structured Storage], Create method [Structured Storage],IPropertySetStorage interface, IPropertySetStorage interface [Structured Storage],Create method, IPropertySetStorage.Create, IPropertySetStorage::Create, _stg_ipropertysetstorage_create, propidl/IPropertySetStorage::Create, stg.ipropertysetstorage_create
 ms.topic: method
-f1_keywords: 
- - "propidl/IPropertySetStorage.Create"
+f1_keywords:
+- propidl/IPropertySetStorage.Create
 dev_langs:
- - c++
+- c++
 req.header: propidl.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IPropertySetStorage.Create
+- IPropertySetStorage.Create
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.GetMaximumPageAlignedTransferSize
 title: IDiscRecorder2Ex::GetMaximumPageAlignedTransferSize (imapi2.h)
-
 description: Retrieves the maximum page-aligned transfer size for the device.
 old-location: imapi\idiscrecorder2ex_getmaximumpagealignedtransfersize.htm
 tech.root: imapi
 ms.assetid: 6bf25c61-e87c-4ccf-a989-1c2715709d4a
-
 ms.date: 12/05/2018
 ms.keywords: GetMaximumPageAlignedTransferSize, GetMaximumPageAlignedTransferSize method [IMAPI], GetMaximumPageAlignedTransferSize method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetMaximumPageAlignedTransferSize method, IDiscRecorder2Ex.GetMaximumPageAlignedTransferSize, IDiscRecorder2Ex::GetMaximumPageAlignedTransferSize, imapi.idiscrecorder2ex_getmaximumpagealignedtransfersize, imapi2/IDiscRecorder2Ex::GetMaximumPageAlignedTransferSize
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscRecorder2Ex.GetMaximumPageAlignedTransferSize"
+f1_keywords:
+- imapi2/IDiscRecorder2Ex.GetMaximumPageAlignedTransferSize
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscRecorder2Ex.GetMaximumPageAlignedTransferSize
+- IDiscRecorder2Ex.GetMaximumPageAlignedTransferSize
 targetos: Windows
 req.typenames: 
 req.redist: 

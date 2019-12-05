@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateAndCondition
 title: IUIAutomation::CreateAndCondition (uiautomationclient.h)
-
 description: Creates a condition that selects elements that match both of two conditions.
 old-location: winauto\uiauto_IUIAutomation_CreateAndCondition.htm
 tech.root: WinAuto
 ms.assetid: 066476b4-586c-477c-82ee-de2f2074d63b
-
 ms.date: 12/05/2018
 ms.keywords: CreateAndCondition, CreateAndCondition method [Windows Accessibility], CreateAndCondition method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateAndCondition method, IUIAutomation.CreateAndCondition, IUIAutomation::CreateAndCondition, uiauto.uiauto_IUIAutomation_CreateAndCondition, uiauto_IUIAutomation_CreateAndCondition, uiautomationclient/IUIAutomation::CreateAndCondition, winauto.uiauto_IUIAutomation_CreateAndCondition
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation.CreateAndCondition"
+f1_keywords:
+- uiautomationclient/IUIAutomation.CreateAndCondition
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation.CreateAndCondition
+- IUIAutomation.CreateAndCondition
 targetos: Windows
 req.typenames: 
 req.redist: 

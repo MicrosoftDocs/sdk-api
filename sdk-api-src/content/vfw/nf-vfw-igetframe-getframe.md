@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.IGetFrame.GetFrame
 title: IGetFrame::GetFrame (vfw.h)
-
 description: The GetFrame method retrieves a decompressed copy of a frame from a stream. Called when an application uses the AVIStreamGetFrame function.
 old-location: multimedia\igetframe_getframe.htm
 tech.root: Multimedia
 ms.assetid: e2b76aad-e2db-4e04-be54-b697830e8644
-
 ms.date: 12/05/2018
 ms.keywords: GetFrame, GetFrame method [Windows Multimedia], GetFrame method [Windows Multimedia],IGetFrame interface, IGetFrame interface [Windows Multimedia],GetFrame method, IGetFrame.GetFrame, IGetFrame::GetFrame, _win32_IGetFrame_GetFrame, multimedia.igetframe_getframe, vfw/IGetFrame::GetFrame
 ms.topic: method
-f1_keywords: 
- - "vfw/IGetFrame.GetFrame"
+f1_keywords:
+- vfw/IGetFrame.GetFrame
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Vfw32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vfw32.lib
- - Vfw32.dll
+- Vfw32.lib
+- Vfw32.dll
 api_name:
- - IGetFrame.GetFrame
+- IGetFrame.GetFrame
 targetos: Windows
 req.typenames: 
 req.redist: 

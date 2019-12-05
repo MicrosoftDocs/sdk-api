@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxIncomingJob.get_JobType
 title: IFaxIncomingJob::get_JobType (faxcomex.h)
-
 description: Retrieves the JobType property of a FaxIncomingJob object. The JobType property describes the type of fax job; for example, the job can be a receive job, a send job, or a routing job.
 old-location: fax\_mfax_faxincomingjob_jobtype_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_965h_cpp.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingJob interface [Fax Service],get_JobType method, IFaxIncomingJob.get_JobType, IFaxIncomingJob::get_JobType, _mfax_faxincomingjob.jobtype_cpp, fax._mfax_faxincomingjob_jobtype_cpp, faxcomex/IFaxIncomingJob::get_JobType, get_JobType, get_JobType method [Fax Service], get_JobType method [Fax Service],IFaxIncomingJob interface
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxIncomingJob.get_JobType"
+f1_keywords:
+- faxcomex/IFaxIncomingJob.get_JobType
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxIncomingJob.get_JobType
+- IFaxIncomingJob.get_JobType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winnls._numberfmtA
 title: NUMBERFMTA (winnls.h)
-
 description: Contains information that defines the format of a number string. The GetNumberFormat function uses this information to customize a number string for a specified locale.
 old-location: intl\numberfmt.htm
 tech.root: Intl
 ms.assetid: cb8a7714-3777-41b4-894b-bb0c0797d51e
-
 ms.date: 12/05/2018
-ms.keywords: "*LPNUMBERFMTA, LPNUMBERFMT, LPNUMBERFMT structure pointer [Internationalization for Windows Applications], NUMBERFMT, NUMBERFMT structure [Internationalization for Windows Applications], NUMBERFMTA, _win32_NUMBERFMT_str, intl.numberfmt, winnls/LPNUMBERFMT, winnls/NUMBERFMT"
+ms.keywords: '*LPNUMBERFMTA, LPNUMBERFMT, LPNUMBERFMT structure pointer [Internationalization for Windows Applications], NUMBERFMT, NUMBERFMT structure [Internationalization for Windows Applications], NUMBERFMTA, _win32_NUMBERFMT_str, intl.numberfmt, winnls/LPNUMBERFMT, winnls/NUMBERFMT'
 ms.topic: struct
-f1_keywords: 
- - "winnls/NUMBERFMT"
+f1_keywords:
+- winnls/NUMBERFMT
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnls.h
+- Winnls.h
 api_name:
- - NUMBERFMT
+- NUMBERFMT
 targetos: Windows
 req.typenames: NUMBERFMTA, *LPNUMBERFMTA
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSaveJob.BeginSave
 title: IMFSaveJob::BeginSave (mfidl.h)
-
 description: Begins saving a Windows Media file to the application's byte stream.
 old-location: mf\imfsavejob_beginsave.htm
 tech.root: medfound
 ms.assetid: ff137b76-2a05-4e58-8d4f-d12cdd89656b
-
 ms.date: 12/05/2018
 ms.keywords: BeginSave, BeginSave method [Media Foundation], BeginSave method [Media Foundation],IMFSaveJob interface, IMFSaveJob interface [Media Foundation],BeginSave method, IMFSaveJob.BeginSave, IMFSaveJob::BeginSave, ff137b76-2a05-4e58-8d4f-d12cdd89656b, mf.imfsavejob_beginsave, mfidl/IMFSaveJob::BeginSave
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSaveJob.BeginSave"
+f1_keywords:
+- mfidl/IMFSaveJob.BeginSave
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSaveJob.BeginSave
+- IMFSaveJob.BeginSave
 targetos: Windows
 req.typenames: 
 req.redist: 

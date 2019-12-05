@@ -1,19 +1,17 @@
 ---
 UID: NF:aclapi.BuildSecurityDescriptorA
 title: BuildSecurityDescriptorA function (aclapi.h)
-
 description: Allocates and initializes a new security descriptor.
 old-location: security\buildsecuritydescriptor.htm
 tech.root: SecAuthZ
 ms.assetid: becc1218-5bc3-4ab2-86f8-3ebd10e16966
-
 ms.date: 12/05/2018
 ms.keywords: BuildSecurityDescriptor, BuildSecurityDescriptor function [Security], BuildSecurityDescriptorA, BuildSecurityDescriptorW, _win32_buildsecuritydescriptor, aclapi/BuildSecurityDescriptor, aclapi/BuildSecurityDescriptorA, aclapi/BuildSecurityDescriptorW, security.buildsecuritydescriptor
 ms.topic: function
 f1_keywords:
 - aclapi/BuildSecurityDescriptor
 dev_langs:
- - c++
+- c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NS:dsquery.__unnamed_struct_3
 title: DSQUERYCLASSLIST (dsquery.h)
-
 description: The DSQUERYCLASSLIST structure describes a list of classes against which a directory service query is made.
 old-location: ad\dsqueryclasslist.htm
 tech.root: ad
 ms.assetid: 96cc527f-490f-4701-b000-6a42db8715fc
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDSQUERYCLASSLIST, DSQUERYCLASSLIST, DSQUERYCLASSLIST structure [Active Directory], LPDSQUERYCLASSLIST, LPDSQUERYCLASSLIST structure pointer [Active Directory], _glines_dsqueryclasslist, ad.dsqueryclasslist, dsquery/DSQUERYCLASSLIST, dsquery/LPDSQUERYCLASSLIST"
+ms.keywords: '*LPDSQUERYCLASSLIST, DSQUERYCLASSLIST, DSQUERYCLASSLIST structure [Active Directory], LPDSQUERYCLASSLIST, LPDSQUERYCLASSLIST structure pointer [Active Directory], _glines_dsqueryclasslist, ad.dsqueryclasslist, dsquery/DSQUERYCLASSLIST, dsquery/LPDSQUERYCLASSLIST'
 ms.topic: struct
-f1_keywords: 
- - "dsquery/DSQUERYCLASSLIST"
+f1_keywords:
+- dsquery/DSQUERYCLASSLIST
 dev_langs:
- - c++
+- c++
 req.header: dsquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dsquery.h
+- Dsquery.h
 api_name:
- - DSQUERYCLASSLIST
+- DSQUERYCLASSLIST
 targetos: Windows
 req.typenames: DSQUERYCLASSLIST, *LPDSQUERYCLASSLIST
 req.redist: 

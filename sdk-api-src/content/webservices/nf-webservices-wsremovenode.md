@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsRemoveNode
 title: WsRemoveNode function (webservices.h)
-
 description: Removes the node at the specified position from the xml buffer. If positioned on an element it will remove the element including all of its children and its corresponding end element, otherwise it will remove a single node.
 old-location: wsw\wsremovenode.htm
 tech.root: wsw
 ms.assetid: 955fd0b3-b351-40db-a25f-dd1ed8b55550
-
 ms.date: 12/05/2018
 ms.keywords: WsRemoveNode, WsRemoveNode function [Web Services for Windows], webservices/WsRemoveNode, wsw.wsremovenode
 ms.topic: function
-f1_keywords: 
- - "webservices/WsRemoveNode"
+f1_keywords:
+- webservices/WsRemoveNode
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsRemoveNode
+- WsRemoveNode
 targetos: Windows
 req.typenames: 
 req.redist: 

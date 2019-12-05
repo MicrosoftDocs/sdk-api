@@ -1,19 +1,17 @@
 ---
 UID: NN:mbnapi.IMbnPinEvents
 title: IMbnPinEvents (mbnapi.h)
-
 description: This interface is a notification interface used to indicate when asynchronous PIN requests have completed.
 old-location: mbn\imbnpinevents.htm
 tech.root: mbn
 ms.assetid: 4bdaa4e5-880e-4d1f-aec1-36811a0f21c1
-
 ms.date: 12/05/2018
 ms.keywords: IMbnPinEvents, IMbnPinEvents interface [Microsoft Broadband Networks], IMbnPinEvents interface [Microsoft Broadband Networks],described, mbn.imbnpinevents, mbnapi/IMbnPinEvents
 ms.topic: interface
-f1_keywords: 
- - "mbnapi/IMbnPinEvents"
+f1_keywords:
+- mbnapi/IMbnPinEvents
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnPinEvents
+- IMbnPinEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

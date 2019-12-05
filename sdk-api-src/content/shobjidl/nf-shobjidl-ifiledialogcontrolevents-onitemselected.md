@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IFileDialogControlEvents.OnItemSelected
 title: IFileDialogControlEvents::OnItemSelected (shobjidl.h)
-
 description: Called when an item is selected in a combo box, when a user clicks an option button (also known as a radio button), or an item is chosen from the Tools menu.
 old-location: shell\IFileDialogControlEvents_OnItemSelected.htm
 tech.root: shell
 ms.assetid: 4c96d0b7-74d1-4f87-946d-beeaad517d91
-
 ms.date: 12/05/2018
 ms.keywords: IFileDialogControlEvents interface [Windows Shell],OnItemSelected method, IFileDialogControlEvents.OnItemSelected, IFileDialogControlEvents::OnItemSelected, OnItemSelected, OnItemSelected method [Windows Shell], OnItemSelected method [Windows Shell],IFileDialogControlEvents interface, shell.IFileDialogControlEvents_OnItemSelected, shell_IFileDialogControlEvents_OnItemSelected, shobjidl/IFileDialogControlEvents::OnItemSelected
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IFileDialogControlEvents.OnItemSelected"
+f1_keywords:
+- shobjidl/IFileDialogControlEvents.OnItemSelected
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IFileDialogControlEvents.OnItemSelected
+- IFileDialogControlEvents.OnItemSelected
 targetos: Windows
 req.typenames: 
 req.redist: 

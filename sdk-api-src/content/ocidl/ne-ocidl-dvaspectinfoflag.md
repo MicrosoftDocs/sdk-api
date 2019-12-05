@@ -1,19 +1,17 @@
 ---
 UID: NE:ocidl.tagAspectInfoFlag
 title: DVASPECTINFOFLAG (ocidl.h)
-
 description: Indicates whether an object can support optimized drawing of itself.
 old-location: com\dvaspectinfoflag.htm
 tech.root: com
 ms.assetid: 639871a6-85ab-41e2-92fa-7f1e72e9cb38
-
 ms.date: 12/05/2018
 ms.keywords: DVASPECTINFOFLAG, DVASPECTINFOFLAG enumeration [COM], DVASPECTINFOFLAG_CANOPTIMIZE, _ole_DVASPECTINFOFLAG, com.dvaspectinfoflag, ocidl/DVASPECTINFOFLAG, ocidl/DVASPECTINFOFLAG_CANOPTIMIZE
 ms.topic: enum
-f1_keywords: 
- - "ocidl/DVASPECTINFOFLAG"
+f1_keywords:
+- ocidl/DVASPECTINFOFLAG
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - DVASPECTINFOFLAG
+- DVASPECTINFOFLAG
 targetos: Windows
 req.typenames: DVASPECTINFOFLAG
 req.redist: 

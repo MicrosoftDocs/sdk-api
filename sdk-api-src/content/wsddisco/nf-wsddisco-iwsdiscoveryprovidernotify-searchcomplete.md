@@ -1,19 +1,17 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProviderNotify.SearchComplete
 title: IWSDiscoveryProviderNotify::SearchComplete (wsddisco.h)
-
 description: Called to indicate a user initiated search has successfully completed and no more matches for the search will be accepted.
 old-location: ncd\iwsdiscoveryprovidernotify_searchcomplete.htm
 tech.root: WsdApi
 ms.assetid: a125a7b3-6887-42e2-b421-d0e27973d8ee
-
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryProviderNotify interface,SearchComplete method, IWSDiscoveryProviderNotify.SearchComplete, IWSDiscoveryProviderNotify::SearchComplete, SearchComplete, SearchComplete method, SearchComplete method,IWSDiscoveryProviderNotify interface, ncd.iwsdiscoveryprovidernotify_searchcomplete, wsddisco/IWSDiscoveryProviderNotify::SearchComplete
 ms.topic: method
-f1_keywords: 
- - "wsddisco/IWSDiscoveryProviderNotify.SearchComplete"
+f1_keywords:
+- wsddisco/IWSDiscoveryProviderNotify.SearchComplete
 dev_langs:
- - c++
+- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDiscoveryProviderNotify.SearchComplete
+- IWSDiscoveryProviderNotify.SearchComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:identityprovider.IIdentityProvider.Delete
 title: IIdentityProvider::Delete (identityprovider.h)
-
 description: Removes the specified identity from the identity store or the specified properties from the identity.
 old-location: security\iidentityprovider_delete.htm
 tech.root: SecAuthN
 ms.assetid: a21aa2eb-2551-4920-a312-34fa327572ca
-
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [Security], Delete method [Security],IIdentityProvider interface, IIdentityProvider interface [Security],Delete method, IIdentityProvider.Delete, IIdentityProvider::Delete, identityprovider/IIdentityProvider::Delete, security.iidentityprovider_delete
 ms.topic: method
-f1_keywords: 
- - "identityprovider/IIdentityProvider.Delete"
+f1_keywords:
+- identityprovider/IIdentityProvider.Delete
 dev_langs:
- - c++
+- c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Identityprovider.h
+- Identityprovider.h
 api_name:
- - IIdentityProvider.Delete
+- IIdentityProvider.Delete
 targetos: Windows
 req.typenames: 
 req.redist: 

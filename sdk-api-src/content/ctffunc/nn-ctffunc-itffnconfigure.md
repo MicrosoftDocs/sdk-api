@@ -1,19 +1,17 @@
 ---
 UID: NN:ctffunc.ITfFnConfigure
 title: ITfFnConfigure (ctffunc.h)
-
 description: The ITfFnConfigure interface is implemented by a text service to enable the Text Services control panel application to allow the text service to display a configuration dialog box.
 old-location: tsf\itffnconfigure.htm
 tech.root: TSF
 ms.assetid: af23e668-9c00-4e53-89b6-c8be85ae961b
-
 ms.date: 12/05/2018
 ms.keywords: ITfFnConfigure, ITfFnConfigure interface [Text Services Framework], ITfFnConfigure interface [Text Services Framework],described, _tsf_itffnconfigure_ref, ctffunc/ITfFnConfigure, tsf.itffnconfigure
 ms.topic: interface
-f1_keywords: 
- - "ctffunc/ITfFnConfigure"
+f1_keywords:
+- ctffunc/ITfFnConfigure
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Imekrcic.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imekrcic.dll
+- imekrcic.dll
 api_name:
- - ITfFnConfigure
+- ITfFnConfigure
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

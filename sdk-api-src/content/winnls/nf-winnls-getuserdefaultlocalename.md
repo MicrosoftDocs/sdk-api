@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.GetUserDefaultLocaleName
 title: GetUserDefaultLocaleName function (winnls.h)
-
 description: Retrieves the user default locale name.Note  The application should call this function in preference to GetUserDefaultLCID if designed to run only on Windows Vista and later.
 old-location: intl\getuserdefaultlocalename.htm
 tech.root: Intl
 ms.assetid: 81b896de-1f06-4315-aa64-90806c0fed75
-
 ms.date: 12/05/2018
 ms.keywords: GetUserDefaultLocaleName, GetUserDefaultLocaleName function [Internationalization for Windows Applications], _win32_GetUserDefaultLocaleName, intl.getuserdefaultlocalename, winnls/GetUserDefaultLocaleName
 ms.topic: function
-f1_keywords: 
- - "winnls/GetUserDefaultLocaleName"
+f1_keywords:
+- winnls/GetUserDefaultLocaleName
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l1-2-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l1-2-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
- - GetUserDefaultLocaleName
+- GetUserDefaultLocaleName
 targetos: Windows
 req.typenames: 
 req.redist: 

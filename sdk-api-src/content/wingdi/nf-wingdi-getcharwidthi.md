@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetCharWidthI
 title: GetCharWidthI function (wingdi.h)
-
 description: The GetCharWidthI function retrieves the widths, in logical coordinates, of consecutive glyph indices in a specified range from the current font.
 old-location: gdi\getcharwidthi.htm
 tech.root: gdi
 ms.assetid: 5f532149-7c2f-4972-9900-68c2f185d255
-
 ms.date: 12/05/2018
 ms.keywords: GetCharWidthI, GetCharWidthI function [Windows GDI], _win32_GetCharWidthI, gdi.getcharwidthi, wingdi/GetCharWidthI
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetCharWidthI"
+f1_keywords:
+- wingdi/GetCharWidthI
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - GetCharWidthI
+- GetCharWidthI
 targetos: Windows
 req.typenames: 
 req.redist: 

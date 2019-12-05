@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfRange.GetText
 title: ITfRange::GetText (msctf.h)
-
 description: The ITfRange::GetText method obtains the content covered by this range of text.
 old-location: tsf\itfrange_gettext.htm
 tech.root: TSF
 ms.assetid: b38a8de3-947f-469c-9f0d-f0482ea86884
-
 ms.date: 12/05/2018
 ms.keywords: GetText, GetText method [Text Services Framework], GetText method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],GetText method, ITfRange.GetText, ITfRange::GetText, TF_TF_IGNOREEND, TF_TF_MOVESTART, _tsf_itfrange_gettext_ref, msctf/ITfRange::GetText, tsf.itfrange_gettext
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfRange.GetText"
+f1_keywords:
+- msctf/ITfRange.GetText
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfRange.GetText
+- ITfRange.GetText
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

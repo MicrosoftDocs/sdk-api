@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IServiceSxsConfig.SxsName
 title: IServiceSxsConfig::SxsName (comsvcs.h)
-
 description: Sets the file name of the side-by-side assembly for the enclosed work.
 old-location: cos\iservicesxsconfig_sxsname.htm
 tech.root: cossdk
 ms.assetid: 622632ba-1287-4303-a9dd-4fb870e43786
-
 ms.date: 12/05/2018
 ms.keywords: IServiceSxsConfig interface [COM+],SxsName method, IServiceSxsConfig.SxsName, IServiceSxsConfig::SxsName, SxsName, SxsName method [COM+], SxsName method [COM+],IServiceSxsConfig interface, _cos_IServiceSxsConfig_SxsName, comsvcs/IServiceSxsConfig::SxsName, cos.iservicesxsconfig_sxsname
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IServiceSxsConfig.SxsName"
+f1_keywords:
+- comsvcs/IServiceSxsConfig.SxsName
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServiceSxsConfig.SxsName
+- IServiceSxsConfig.SxsName
 targetos: Windows
 req.typenames: 
 req.redist: 

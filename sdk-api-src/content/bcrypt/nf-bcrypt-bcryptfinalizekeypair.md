@@ -1,19 +1,17 @@
 ---
 UID: NF:bcrypt.BCryptFinalizeKeyPair
 title: BCryptFinalizeKeyPair function (bcrypt.h)
-
 description: Completes a public/private key pair.
 old-location: security\bcryptfinalizekeypair_func.htm
 tech.root: SecCNG
 ms.assetid: bf0b90f1-6da8-464e-9271-ad60ea762653
-
 ms.date: 12/05/2018
 ms.keywords: BCryptFinalizeKeyPair, BCryptFinalizeKeyPair function [Security], bcrypt/BCryptFinalizeKeyPair, security.bcryptfinalizekeypair_func
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptFinalizeKeyPair"
+f1_keywords:
+- bcrypt/BCryptFinalizeKeyPair
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bcrypt.dll
- - Ksecdd.sys
+- Bcrypt.dll
+- Ksecdd.sys
 api_name:
- - BCryptFinalizeKeyPair
+- BCryptFinalizeKeyPair
 targetos: Windows
 req.typenames: 
 req.redist: 

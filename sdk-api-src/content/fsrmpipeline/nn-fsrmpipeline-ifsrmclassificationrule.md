@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrmpipeline.IFsrmClassificationRule
 title: IFsrmClassificationRule (fsrmpipeline.h)
-
 description: Defines a classification rule.
 old-location: fsrm\ifsrmclassificationrule.htm
 tech.root: fsrm
 ms.assetid: d76e4b07-66d6-426f-853d-f52ea08d9b81
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmClassificationRule, IFsrmClassificationRule interface [File Server Resource Manager], IFsrmClassificationRule interface [File Server Resource Manager],described, fs.ifsrmclassificationrule, fsrm.ifsrmclassificationrule, fsrm/IFsrmClassificationRule
 ms.topic: interface
-f1_keywords: 
- - "fsrmpipeline/IFsrmClassificationRule"
+f1_keywords:
+- fsrmpipeline/IFsrmClassificationRule
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmClassificationRule
+- IFsrmClassificationRule
 targetos: Windows
 req.typenames: 
 req.redist: 

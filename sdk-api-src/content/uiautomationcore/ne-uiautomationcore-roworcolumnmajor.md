@@ -1,19 +1,17 @@
 ---
 UID: NE:uiautomationcore.RowOrColumnMajor
 title: RowOrColumnMajor (uiautomationcore.h)
-
 description: Contains values that specify whether data in a table should be read primarily by row or by column.
 old-location: winauto\uiauto_RowOrColumnMajorEnum.htm
 tech.root: WinAuto
 ms.assetid: c1847da9-21ad-4751-bb17-5c54b4bebe77
-
 ms.date: 12/05/2018
 ms.keywords: RowOrColumnMajor, RowOrColumnMajor enumeration [Windows Accessibility], RowOrColumnMajor_ColumnMajor, RowOrColumnMajor_Indeterminate, RowOrColumnMajor_RowMajor, uiauto.uiauto_RowOrColumnMajorEnum, uiauto_RowOrColumnMajorEnum, uiautomationcore/RowOrColumnMajor, uiautomationcore/RowOrColumnMajor_ColumnMajor, uiautomationcore/RowOrColumnMajor_Indeterminate, uiautomationcore/RowOrColumnMajor_RowMajor, winauto.uiauto_RowOrColumnMajorEnum
 ms.topic: enum
-f1_keywords: 
- - "uiautomationcore/RowOrColumnMajor"
+f1_keywords:
+- uiautomationcore/RowOrColumnMajor
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - RowOrColumnMajor
+- RowOrColumnMajor
 targetos: Windows
 req.typenames: 
 req.redist: 

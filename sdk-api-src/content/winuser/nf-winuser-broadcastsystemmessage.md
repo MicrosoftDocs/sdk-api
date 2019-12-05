@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.BroadcastSystemMessage
 title: BroadcastSystemMessage function (winuser.h)
-
 description: Sends a message to the specified recipients.
 old-location: winmsg\broadcastsystemmessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\broadcastsystemmessage.htm
-
 ms.date: 12/05/2018
 ms.keywords: BSF_ALLOWSFW, BSF_FLUSHDISK, BSF_FORCEIFHUNG, BSF_IGNORECURRENTTASK, BSF_NOHANG, BSF_NOTIMEOUTIFNOTHUNG, BSF_POSTMESSAGE, BSF_QUERY, BSF_SENDNOTIFYMESSAGE, BSM_ALLCOMPONENTS, BSM_ALLDESKTOPS, BSM_APPLICATIONS, BroadcastSystemMessage, BroadcastSystemMessage function [Windows and Messages], BroadcastSystemMessageW, _win32_BroadcastSystemMessage, _win32_broadcastsystemmessage_cpp, winmsg.broadcastsystemmessage, winui._win32_broadcastsystemmessage, winuser/BroadcastSystemMessage, winuser/BroadcastSystemMessageW
 ms.topic: function
-f1_keywords: 
- - "winuser/BroadcastSystemMessage"
+f1_keywords:
+- winuser/BroadcastSystemMessage
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - BroadcastSystemMessage
- - BroadcastSystemMessageW
+- BroadcastSystemMessage
+- BroadcastSystemMessageW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPCdromRip.get_ripProgress
 title: IWMPCdromRip::get_ripProgress (wmp.h)
-
 description: The get_ripProgress method retrieves the CD ripping progress as percent complete.
 old-location: wmp\iwmpcdromrip_get_ripprogress.htm
 tech.root: WMP
 ms.assetid: d7140bc9-bf79-48f0-aaf0-155660c8b2c9
-
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromRip interface [Windows Media Player],get_ripProgress method, IWMPCdromRip.get_ripProgress, IWMPCdromRip::get_ripProgress, IWMPCdromRipget_ripProgress, get_ripProgress, get_ripProgress method [Windows Media Player], get_ripProgress method [Windows Media Player],IWMPCdromRip interface, wmp.iwmpcdromrip_get_ripprogress, wmp/IWMPCdromRip::get_ripProgress
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPCdromRip.get_ripProgress"
+f1_keywords:
+- wmp/IWMPCdromRip.get_ripProgress
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPCdromRip.get_ripProgress
+- IWMPCdromRip.get_ripProgress
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminPortReset
 title: MprAdminPortReset function (mprapi.h)
-
 description: The MprAdminPortReset function resets the communication device attached to the specified port.
 old-location: rras\mpradminportreset.htm
 tech.root: RRAS
 ms.assetid: 9fa58bec-ecec-4496-91fa-8c41da7961b3
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminPortReset, MprAdminPortReset function [RAS], _mpr_mpradminportreset, mprapi/MprAdminPortReset, rras.mpradminportreset
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminPortReset"
+f1_keywords:
+- mprapi/MprAdminPortReset
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminPortReset
+- MprAdminPortReset
 targetos: Windows
 req.typenames: 
 req.redist: 

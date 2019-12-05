@@ -1,19 +1,17 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.put_Stereo
 title: IMpegAudioDecoder::put_Stereo (mpegtype.h)
-
 description: Specifies whether the decoder will decode the encoded stream into stereo or mono PCM.
 old-location: dshow\impegaudiodecoder_put_stereo.htm
 tech.root: DirectShow
 ms.assetid: 238e33ba-f35c-423c-be5f-73d1ca14cebd
-
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],put_Stereo method, IMpegAudioDecoder.put_Stereo, IMpegAudioDecoder::put_Stereo, IMpegAudioDecoderputStereo, dshow.impegaudiodecoder_put_stereo, mpegtype/IMpegAudioDecoder::put_Stereo, put_Stereo, put_Stereo method [DirectShow], put_Stereo method [DirectShow],IMpegAudioDecoder interface
 ms.topic: method
-f1_keywords: 
- - "mpegtype/IMpegAudioDecoder.put_Stereo"
+f1_keywords:
+- mpegtype/IMpegAudioDecoder.put_Stereo
 dev_langs:
- - c++
+- c++
 req.header: mpegtype.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMpegAudioDecoder.put_Stereo
+- IMpegAudioDecoder.put_Stereo
 targetos: Windows
 req.typenames: 
 req.redist: 

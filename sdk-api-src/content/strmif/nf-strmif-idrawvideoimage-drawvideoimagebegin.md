@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDrawVideoImage.DrawVideoImageBegin
 title: IDrawVideoImage::DrawVideoImageBegin (strmif.h)
-
 description: Note  This interface has been deprecated. New applications should not use it. The DrawVideoImageBegin method turns off DirectDraw in preparation for a call to the DrawVideoImageDraw method.
 old-location: dshow\idrawvideoimage_drawvideoimagebegin.htm
 tech.root: DirectShow
 ms.assetid: a39125b3-15b1-428d-aa64-c1b2bccf616a
-
 ms.date: 12/05/2018
 ms.keywords: DrawVideoImageBegin, DrawVideoImageBegin method [DirectShow], DrawVideoImageBegin method [DirectShow],IDrawVideoImage interface, IDrawVideoImage interface [DirectShow],DrawVideoImageBegin method, IDrawVideoImage.DrawVideoImageBegin, IDrawVideoImage::DrawVideoImageBegin, IDrawVideoImageDrawVideoImageBegin, dshow.idrawvideoimage_drawvideoimagebegin, strmif/IDrawVideoImage::DrawVideoImageBegin
 ms.topic: method
-f1_keywords: 
- - "strmif/IDrawVideoImage.DrawVideoImageBegin"
+f1_keywords:
+- strmif/IDrawVideoImage.DrawVideoImageBegin
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDrawVideoImage.DrawVideoImageBegin
+- IDrawVideoImage.DrawVideoImageBegin
 targetos: Windows
 req.typenames: 
 req.redist: 

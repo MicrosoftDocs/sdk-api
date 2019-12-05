@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.HSGetShaderResources
 title: ID3D11DeviceContext::HSGetShaderResources (d3d11.h)
-
 description: Get the hull-shader resources.
 old-location: direct3d11\id3d11devicecontext_hsgetshaderresources.htm
 tech.root: direct3d11
 ms.assetid: 21956575-5f4b-48ca-944b-5cab57d02c7f
-
 ms.date: 12/05/2018
 ms.keywords: HSGetShaderResources, HSGetShaderResources method [Direct3D 11], HSGetShaderResources method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],HSGetShaderResources method, ID3D11DeviceContext.HSGetShaderResources, ID3D11DeviceContext::HSGetShaderResources, d3d11/ID3D11DeviceContext::HSGetShaderResources, da564466-b697-f908-c81d-dda7a85378db, direct3d11.id3d11devicecontext_hsgetshaderresources
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.HSGetShaderResources"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.HSGetShaderResources
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.HSGetShaderResources
+- ID3D11DeviceContext.HSGetShaderResources
 targetos: Windows
 req.typenames: 
 req.redist: 

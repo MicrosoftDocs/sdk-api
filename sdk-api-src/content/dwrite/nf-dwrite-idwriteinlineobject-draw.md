@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteInlineObject.Draw
 title: IDWriteInlineObject::Draw (dwrite.h)
-
 description: The application implemented rendering callback (IDWriteTextRenderer::DrawInlineObject) can use this to draw the inline object without needing to cast or query the object type. The text layout does not call this method directly.
 old-location: directwrite\IDWriteInlineObject_Draw.htm
 tech.root: DirectWrite
 ms.assetid: cbaa3341-e43a-4d3f-89c7-dda758a63e7d
-
 ms.date: 12/05/2018
 ms.keywords: Draw, Draw method [Direct Write], Draw method [Direct Write],IDWriteInlineObject interface, IDWriteInlineObject interface [Direct Write],Draw method, IDWriteInlineObject.Draw, IDWriteInlineObject::Draw, directwrite.IDWriteInlineObject_Draw, dwrite/IDWriteInlineObject::Draw
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteInlineObject.Draw"
+f1_keywords:
+- dwrite/IDWriteInlineObject.Draw
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteInlineObject.Draw
+- IDWriteInlineObject.Draw
 targetos: Windows
 req.typenames: 
 req.redist: 

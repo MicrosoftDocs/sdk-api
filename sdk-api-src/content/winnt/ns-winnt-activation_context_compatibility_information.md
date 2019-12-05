@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION
 title: ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION (winnt.h)
-
 description: The ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION structure is used by the QueryActCtxW function.
 old-location: setup\activation_context_compatibility_information.htm
 tech.root: SbsCs
 ms.assetid: d8c1ef4a-8e64-45bd-a185-b4af7932a0d2
-
 ms.date: 12/05/2018
 ms.keywords: '*PACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION, ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION, ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION structure [Setup API], PACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION, PACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION structure pointer [Setup API], _ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION, setup.activation_context_compatibility_information, winnt/ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION, winnt/PACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION'
 ms.topic: struct
 f1_keywords:
 - winnt/ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

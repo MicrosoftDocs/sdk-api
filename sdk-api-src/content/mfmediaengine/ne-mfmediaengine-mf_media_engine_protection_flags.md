@@ -1,19 +1,17 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_PROTECTION_FLAGS
 title: MF_MEDIA_ENGINE_PROTECTION_FLAGS (mfmediaengine.h)
-
 description: Contains flags that specify whether the Media Engine will play protected content, and whether the Media Engine will use the Protected Media Path (PMP).
 old-location: mf\mf_media_engine_protection_flags.htm
 tech.root: medfound
 ms.assetid: 02326325-F122-4D6A-8CA7-3B201378BC15
-
 ms.date: 12/05/2018
 ms.keywords: MF_MEDIA_ENGINE_ENABLE_PROTECTED_CONTENT, MF_MEDIA_ENGINE_PROTECTION_FLAGS, MF_MEDIA_ENGINE_PROTECTION_FLAGS enumeration [Media Foundation], MF_MEDIA_ENGINE_USE_PMP_FOR_ALL_CONTENT, MF_MEDIA_ENGINE_USE_UNPROTECTED_PMP, mf.mf_media_engine_protection_flags, mfmediaengine/MF_MEDIA_ENGINE_ENABLE_PROTECTED_CONTENT, mfmediaengine/MF_MEDIA_ENGINE_PROTECTION_FLAGS, mfmediaengine/MF_MEDIA_ENGINE_USE_PMP_FOR_ALL_CONTENT, mfmediaengine/MF_MEDIA_ENGINE_USE_UNPROTECTED_PMP
 ms.topic: enum
-f1_keywords: 
- - "mfmediaengine/MF_MEDIA_ENGINE_PROTECTION_FLAGS"
+f1_keywords:
+- mfmediaengine/MF_MEDIA_ENGINE_PROTECTION_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - MF_MEDIA_ENGINE_PROTECTION_FLAGS
+- MF_MEDIA_ENGINE_PROTECTION_FLAGS
 targetos: Windows
 req.typenames: MF_MEDIA_ENGINE_PROTECTION_FLAGS
 req.redist: 

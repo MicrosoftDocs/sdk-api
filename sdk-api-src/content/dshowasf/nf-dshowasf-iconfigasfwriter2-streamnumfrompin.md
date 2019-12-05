@@ -1,19 +1,17 @@
 ---
 UID: NF:dshowasf.IConfigAsfWriter2.StreamNumFromPin
 title: IConfigAsfWriter2::StreamNumFromPin (dshowasf.h)
-
 description: The StreamNumFromPin method retrieves the stream number associated with the specified input pin.
 old-location: dshow\iconfigasfwriter2_streamnumfrompin.htm
 tech.root: DirectShow
 ms.assetid: 374331ec-6665-4ed9-b4ee-6d33b1e2ef2c
-
 ms.date: 12/05/2018
 ms.keywords: IConfigAsfWriter2 interface [DirectShow],StreamNumFromPin method, IConfigAsfWriter2.StreamNumFromPin, IConfigAsfWriter2::StreamNumFromPin, IConfigAsfWriter2StreamNumFromPin, StreamNumFromPin, StreamNumFromPin method [DirectShow], StreamNumFromPin method [DirectShow],IConfigAsfWriter2 interface, dshow.iconfigasfwriter2_streamnumfrompin, dshowasf/IConfigAsfWriter2::StreamNumFromPin
 ms.topic: method
-f1_keywords: 
- - "dshowasf/IConfigAsfWriter2.StreamNumFromPin"
+f1_keywords:
+- dshowasf/IConfigAsfWriter2.StreamNumFromPin
 dev_langs:
- - c++
+- c++
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dshowasf.h
+- Dshowasf.h
 api_name:
- - IConfigAsfWriter2.StreamNumFromPin
+- IConfigAsfWriter2.StreamNumFromPin
 targetos: Windows
 req.typenames: 
 req.redist: 

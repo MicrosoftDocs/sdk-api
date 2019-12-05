@@ -1,19 +1,17 @@
 ---
 UID: NN:xamlom.IXamlDiagnostics
 title: IXamlDiagnostics (xamlom.h)
-
 description: Represents a XAML Diagnostics session.
 old-location: xaml_diagnostics\ixamldiagnostics.htm
 tech.root: xaml_diagnostics
 ms.assetid: 1BCE3EC3-8B48-4F16-8E91-78776C07F309
-
 ms.date: 12/05/2018
 ms.keywords: IXamlDiagnostics, IXamlDiagnostics interface, IXamlDiagnostics interface,described, xaml_diagnostics.ixamldiagnostics, xamlom/IXamlDiagnostics
 ms.topic: interface
-f1_keywords: 
- - "xamlom/IXamlDiagnostics"
+f1_keywords:
+- xamlom/IXamlDiagnostics
 dev_langs:
- - c++
+- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xamlom.h
+- xamlom.h
 api_name:
- - IXamlDiagnostics
+- IXamlDiagnostics
 targetos: Windows
 req.typenames: 
 req.redist: 

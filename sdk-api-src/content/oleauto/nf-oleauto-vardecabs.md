@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarDecAbs
 title: VarDecAbs function (oleauto.h)
-
 description: Retrieves the absolute value of a variant of type decimal.
 old-location: automat\vardecabs.htm
 tech.root: automat
 ms.assetid: edd11182-319f-4f7d-917e-b0fec57574d7
-
 ms.date: 12/05/2018
 ms.keywords: VarDecAbs, VarDecAbs function [Automation], _oa96_VarDecAbs, automat.vardecabs, oleauto/VarDecAbs
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarDecAbs"
+f1_keywords:
+- oleauto/VarDecAbs
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarDecAbs
+- VarDecAbs
 targetos: Windows
 req.typenames: 
 req.redist: 

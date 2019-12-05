@@ -1,19 +1,17 @@
 ---
 UID: NN:webapplication.IWebApplicationScriptEvents
 title: IWebApplicationScriptEvents (webapplication.h)
-
 description: Enables a debugging or authoring app to receive notification of scripting engine events.
 old-location: debug\iwebapplicationscriptevents.htm
 tech.root: debug_wwahost
 ms.assetid: a33f99a0-7c2d-45df-8a6a-d3257d537c9b
-
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationScriptEvents, IWebApplicationScriptEvents interface [Debugging Windows Store apps], IWebApplicationScriptEvents interface [Debugging Windows Store apps],described, debug.iwebapplicationscriptevents, webapplication/IWebApplicationScriptEvents
 ms.topic: interface
-f1_keywords: 
- - "webapplication/IWebApplicationScriptEvents"
+f1_keywords:
+- webapplication/IWebApplicationScriptEvents
 dev_langs:
- - c++
+- c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - webapplication.h
+- webapplication.h
 api_name:
- - IWebApplicationScriptEvents
+- IWebApplicationScriptEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

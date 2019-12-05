@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_CDT.GetDownloadDataId
 title: IISDB_CDT::GetDownloadDataId (dvbsiparser.h)
-
 description: Receives the download_data_id field value for a logo transmission descriptor from an Integrated Services Digital Broadcasting (ISDB) common data table (CDT). The download_data_id field identifies the data to be downloaded.
 old-location: mstv\iisdb_cdt_getdownloaddataid.htm
 tech.root: mstv
 ms.assetid: 87cd757e-ed10-4ad2-a9d5-4a92b8d48cd2
-
 ms.date: 12/05/2018
 ms.keywords: GetDownloadDataId, GetDownloadDataId method [Microsoft TV Technologies], GetDownloadDataId method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetDownloadDataId method, IISDB_CDT.GetDownloadDataId, IISDB_CDT::GetDownloadDataId, dvbsiparser/IISDB_CDT::GetDownloadDataId, mstv.iisdb_cdt_getdownloaddataid
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_CDT.GetDownloadDataId"
+f1_keywords:
+- dvbsiparser/IISDB_CDT.GetDownloadDataId
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_CDT.GetDownloadDataId
+- IISDB_CDT.GetDownloadDataId
 targetos: Windows
 req.typenames: 
 req.redist: 

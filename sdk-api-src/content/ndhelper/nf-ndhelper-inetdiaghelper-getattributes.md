@@ -1,19 +1,17 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetAttributes
 title: INetDiagHelper::GetAttributes (ndhelper.h)
-
 description: Retrieves additional information about a problem that the helper class extension has diagnosed.
 old-location: ndf\inetdiaghelpe_getattributes.htm
 tech.root: NDF
 ms.assetid: 4f1f371a-853f-4022-808b-eea01aee4a52
-
 ms.date: 12/05/2018
 ms.keywords: GetAttributes, GetAttributes method [NDF], GetAttributes method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetAttributes method, INetDiagHelper.GetAttributes, INetDiagHelper::GetAttributes, ndf.inetdiaghelpe_getattributes, ndhelper/INetDiagHelper::GetAttributes
 ms.topic: method
-f1_keywords: 
- - "ndhelper/INetDiagHelper.GetAttributes"
+f1_keywords:
+- ndhelper/INetDiagHelper.GetAttributes
 dev_langs:
- - c++
+- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ndhelper.h
+- ndhelper.h
 api_name:
- - INetDiagHelper.GetAttributes
+- INetDiagHelper.GetAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

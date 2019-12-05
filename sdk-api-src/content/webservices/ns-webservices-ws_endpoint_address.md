@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_ENDPOINT_ADDRESS
 title: WS_ENDPOINT_ADDRESS (webservices.h)
-
 description: Represents the network address of an endpoint.
 old-location: wsw\ws_endpoint_address.htm
 tech.root: wsw
 ms.assetid: 4e9b5f3e-849f-46aa-a94a-3cd6ae16275f
-
 ms.date: 12/05/2018
 ms.keywords: WS_ENDPOINT_ADDRESS, WS_ENDPOINT_ADDRESS structure [Web Services for Windows], webservices/WS_ENDPOINT_ADDRESS, wsw.ws_endpoint_address
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_ENDPOINT_ADDRESS"
+f1_keywords:
+- webservices/WS_ENDPOINT_ADDRESS
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_ENDPOINT_ADDRESS
+- WS_ENDPOINT_ADDRESS
 targetos: Windows
 req.typenames: WS_ENDPOINT_ADDRESS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:memoryapi.OpenFileMappingFromApp
 title: OpenFileMappingFromApp function (memoryapi.h)
-
 description: Opens a named file mapping object.
 old-location: base\openfilemappingfromapp.htm
 tech.root: Memory
 ms.assetid: 66BAB9A6-F983-49D8-8F87-69A3CCBBB1BC
-
 ms.date: 12/05/2018
 ms.keywords: OpenFileMappingFromApp, OpenFileMappingFromApp function, base.openfilemappingfromapp, memoryapi/OpenFileMappingFromApp
 ms.topic: function
-f1_keywords: 
- - "memoryapi/OpenFileMappingFromApp"
+f1_keywords:
+- memoryapi/OpenFileMappingFromApp
 dev_langs:
- - c++
+- c++
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-memory-l1-1-3.dll
- - KernelBase.dll
- - API-MS-Win-Core-Memory-L1-1-4.dll
+- Kernel32.dll
+- API-MS-Win-Core-memory-l1-1-3.dll
+- KernelBase.dll
+- API-MS-Win-Core-Memory-L1-1-4.dll
 api_name:
- - OpenFileMappingFromApp
+- OpenFileMappingFromApp
 targetos: Windows
 req.typenames: 
 req.redist: 

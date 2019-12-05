@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMConstants.get_SecurityFlags
 title: IGPMConstants::get_SecurityFlags (gpmgmt.h)
-
 description: Retrieves the value of the SecurityFlags property, which represents the portion of the security descriptor to retrieve or set for a GPO.
 old-location: gpmc\igpmconstants_get_securityflags.htm
 tech.root: gpmc
 ms.assetid: f9f950e1-b106-4907-a84a-ad20abfd02b1
-
 ms.date: 12/05/2018
 ms.keywords: GPMConstants object [GPMC],SecurityFlags property, IGPMConstants interface [GPMC],SecurityFlags property, IGPMConstants.SecurityFlags, IGPMConstants.get_SecurityFlags, IGPMConstants::SecurityFlags, IGPMConstants::get_SecurityFlags, SecurityFlags property [GPMC], SecurityFlags property [GPMC],GPMConstants object, SecurityFlags property [GPMC],IGPMConstants interface, get_SecurityFlags, gpmc.igpmconstants_get_securityflags, gpmgmt/IGPMConstants::SecurityFlags, gpmgmt/IGPMConstants::get_SecurityFlags
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMConstants.SecurityFlags"
+f1_keywords:
+- gpmgmt/IGPMConstants.SecurityFlags
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMConstants.SecurityFlags
- - IGPMConstants.get_SecurityFlags
- - GPMConstants.SecurityFlags
+- IGPMConstants.SecurityFlags
+- IGPMConstants.get_SecurityFlags
+- GPMConstants.SecurityFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

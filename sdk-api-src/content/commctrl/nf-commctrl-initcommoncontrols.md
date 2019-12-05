@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.InitCommonControls
 title: InitCommonControls function (commctrl.h)
-
 description: Registers and initializes certain common control window classes. This function is obsolete. New applications should use the InitCommonControlsEx function.
 old-location: controls\InitCommonControls.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\initcommoncontrols.htm
-
 ms.date: 12/05/2018
 ms.keywords: InitCommonControls, InitCommonControls function [Windows Controls], _win32_InitCommonControls, _win32_InitCommonControls_cpp, commctrl/InitCommonControls, controls.InitCommonControls, controls._win32_InitCommonControls
 ms.topic: function
-f1_keywords: 
- - "commctrl/InitCommonControls"
+f1_keywords:
+- commctrl/InitCommonControls
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
- - Ext-MS-Win-Shell-ComCtl32-Init-l1-1-0.dll
- - Ext-MS-Win-Shell-ComCtl32-Init-L1-1-1.dll
+- Comctl32.dll
+- Ext-MS-Win-Shell-ComCtl32-Init-l1-1-0.dll
+- Ext-MS-Win-Shell-ComCtl32-Init-L1-1-1.dll
 api_name:
- - InitCommonControls
+- InitCommonControls
 targetos: Windows
 req.typenames: 
 req.redist: 

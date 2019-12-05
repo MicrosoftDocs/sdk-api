@@ -1,19 +1,17 @@
 ---
 UID: NC:evr.MFCreateVideoRenderer
 title: MFCreateVideoRenderer (evr.h)
-
 description: Creates an instance of the enhanced video renderer (EVR) media sink.
 old-location: mf\mfcreatevideorenderer.htm
 tech.root: medfound
 ms.assetid: d0f90c42-8f08-44f4-b3da-b9f3ae4869e6
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateVideoRenderer, MFCreateVideoRenderer callback, MFCreateVideoRenderer callback function [Media Foundation], d0f90c42-8f08-44f4-b3da-b9f3ae4869e6, evr/MFCreateVideoRenderer, mf.mfcreatevideorenderer
 ms.topic: callback
-f1_keywords: 
- - "evr/MFCreateVideoRenderer"
+f1_keywords:
+- evr/MFCreateVideoRenderer
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - evr.h
+- evr.h
 api_name:
- - MFCreateVideoRenderer
+- MFCreateVideoRenderer
 targetos: Windows
 req.typenames: 
 req.redist: 

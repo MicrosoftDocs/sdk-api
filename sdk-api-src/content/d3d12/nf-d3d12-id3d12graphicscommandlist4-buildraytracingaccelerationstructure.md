@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList4.BuildRaytracingAccelerationStructure
 title: ID3D12GraphicsCommandList4::BuildRaytracingAccelerationStructure (d3d12.h)
-
 description: Performs a raytracing acceleration structure build on the GPU and optionally outputs post-build information immediately after the build.
 old-location: direct3d12\id3d12graphicscommandlist4_buildraytracingaccelerationstructure.htm
 tech.root: direct3d12
 ms.assetid: B714530C-40E6-4C67-8908-373BB26E6635
-
 ms.date: 12/05/2018
 ms.keywords: BuildRaytracingAccelerationStructure, BuildRaytracingAccelerationStructure method, BuildRaytracingAccelerationStructure method,ID3D12GraphicsCommandList4 interface, ID3D12GraphicsCommandList4 interface,BuildRaytracingAccelerationStructure method, ID3D12GraphicsCommandList4.BuildRaytracingAccelerationStructure, ID3D12GraphicsCommandList4::BuildRaytracingAccelerationStructure, d3d12/ID3D12GraphicsCommandList4::BuildRaytracingAccelerationStructure, direct3d12.id3d12graphicscommandlist4_buildraytracingaccelerationstructure
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList4.BuildRaytracingAccelerationStructure"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList4.BuildRaytracingAccelerationStructure
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12GraphicsCommandList4.BuildRaytracingAccelerationStructure
+- ID3D12GraphicsCommandList4.BuildRaytracingAccelerationStructure
 targetos: Windows
 req.typenames: 
 req.redist: 

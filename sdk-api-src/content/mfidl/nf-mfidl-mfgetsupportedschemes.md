@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFGetSupportedSchemes
 title: MFGetSupportedSchemes function (mfidl.h)
-
 description: Retrieves the URL schemes that are registered for the source resolver.
 old-location: mf\mfgetsupportedschemes.htm
 tech.root: medfound
 ms.assetid: b40315fc-7e2b-4573-a98f-840b6ce31dd3
-
 ms.date: 12/05/2018
 ms.keywords: MFGetSupportedSchemes, MFGetSupportedSchemes function [Media Foundation], b40315fc-7e2b-4573-a98f-840b6ce31dd3, mf.mfgetsupportedschemes, mfidl/MFGetSupportedSchemes
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFGetSupportedSchemes"
+f1_keywords:
+- mfidl/MFGetSupportedSchemes
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFGetSupportedSchemes
+- MFGetSupportedSchemes
 targetos: Windows
 req.typenames: 
 req.redist: 

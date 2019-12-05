@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.CreateTargetInfo
 title: ISettingsEngine::CreateTargetInfo (wcmconfig.h)
-
 description: Creates an empty target.
 old-location: smi\isettingsengine_createtargetinfo.htm
 tech.root: SMI
 ms.assetid: f3d31643-c606-4fc1-96a8-cf5cb26bcf3f
-
 ms.date: 12/05/2018
 ms.keywords: CreateTargetInfo, CreateTargetInfo method [SMI], CreateTargetInfo method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],CreateTargetInfo method, ISettingsEngine.CreateTargetInfo, ISettingsEngine::CreateTargetInfo, smi.isettingsengine_createtargetinfo, wcmconfig/ISettingsEngine::CreateTargetInfo
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsEngine.CreateTargetInfo"
+f1_keywords:
+- wcmconfig/ISettingsEngine.CreateTargetInfo
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsEngine.CreateTargetInfo
+- ISettingsEngine.CreateTargetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_SetTileViewInfo
 title: ListView_SetTileViewInfo macro (commctrl.h)
-
 description: Sets information that a list-view control uses in tile view. You can use this macro or send the LVM_SETTILEVIEWINFO message explicitly.
 old-location: controls\ListView_SetTileViewInfo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_settileviewinfo.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_SetTileViewInfo, ListView_SetTileViewInfo macro [Windows Controls], _win32_ListView_SetTileViewInfo, _win32_ListView_SetTileViewInfo_cpp, commctrl/ListView_SetTileViewInfo, controls.ListView_SetTileViewInfo, controls._win32_ListView_SetTileViewInfo
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_SetTileViewInfo"
+f1_keywords:
+- commctrl/ListView_SetTileViewInfo
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_SetTileViewInfo
+- ListView_SetTileViewInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

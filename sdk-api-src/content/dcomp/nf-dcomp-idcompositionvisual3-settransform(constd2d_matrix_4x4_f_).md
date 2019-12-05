@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionVisual3.SetTransform(const D2D_MATRIX_4X4_F &)
 title: IDCompositionVisual3::SetTransform (dcomp.h)
-
 description: Sets the Transform property of this visual to the specified 4-by-4 transform matrix.
 old-location: directcomp\idcompositionvisual3_settransform_1.htm
 tech.root: directcomp
 ms.assetid: 1deb9c84-1a5b-5dac-af0f-ae6b49a9c473
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual3 interface [DirectComposition],SetTransform method, IDCompositionVisual3.SetTransform, IDCompositionVisual3::SetTransform, IDCompositionVisual3::SetTransform(const D2D_MATRIX_4X4_F &), IDCompositionVisual3::SetTransform(const D2D_MATRIX_4X4_F&), SetTransform, SetTransform method [DirectComposition], SetTransform method [DirectComposition],IDCompositionVisual3 interface, dcomp/IDCompositionVisual3::SetTransform, directcomp.idcompositionvisual3_settransform_1
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionVisual3.SetTransform"
+f1_keywords:
+- dcomp/IDCompositionVisual3.SetTransform
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionVisual3.SetTransform
+- IDCompositionVisual3.SetTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

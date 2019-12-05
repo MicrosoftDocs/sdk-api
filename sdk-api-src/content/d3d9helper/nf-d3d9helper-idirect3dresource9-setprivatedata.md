@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9helper.IDirect3DResource9.SetPrivateData
 title: IDirect3DResource9::SetPrivateData (d3d9helper.h)
-
 description: Associates data with the resource that is intended for use by the application, not by Direct3D. Data is passed by value, and multiple sets of data can be associated with a single resource.
 old-location: direct3d9\idirect3dresource9__setprivatedata.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dresource9__setprivatedata.htm
-
 ms.date: 12/05/2018
 ms.keywords: 0424643d-f9ce-ea1d-5f27-9017b5eed4ea, IDirect3DResource9 interface [Direct3D 9],SetPrivateData method, IDirect3DResource9.SetPrivateData, IDirect3DResource9::SetPrivateData, SetPrivateData, SetPrivateData method [Direct3D 9], SetPrivateData method [Direct3D 9],IDirect3DResource9 interface, d3d9helper/IDirect3DResource9::SetPrivateData, direct3d9.idirect3dresource9__setprivatedata
 ms.topic: method
-f1_keywords: 
- - "d3d9helper/IDirect3DResource9.SetPrivateData"
+f1_keywords:
+- d3d9helper/IDirect3DResource9.SetPrivateData
 dev_langs:
- - c++
+- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DResource9.SetPrivateData
+- IDirect3DResource9.SetPrivateData
 targetos: Windows
 req.typenames: 
 req.redist: 

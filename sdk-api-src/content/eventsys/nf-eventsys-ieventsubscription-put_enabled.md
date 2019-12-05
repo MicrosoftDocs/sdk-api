@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_Enabled
 title: IEventSubscription::put_Enabled (eventsys.h)
-
 description: Indicates whether the subscription is enabled.
 old-location: cos\ieventsubscription_enabled.htm
 tech.root: cossdk
 ms.assetid: 02481b3d-1064-448f-955b-0dd02d90db46
-
 ms.date: 12/05/2018
 ms.keywords: Enabled property [COM+], Enabled property [COM+],IEventSubscription interface, IEventSubscription interface [COM+],Enabled property, IEventSubscription.Enabled, IEventSubscription.put_Enabled, IEventSubscription::Enabled, IEventSubscription::get_Enabled, IEventSubscription::put_Enabled, cos.ieventsubscription_enabled, eventsys/IEventSubscription::Enabled, eventsys/IEventSubscription::get_Enabled, eventsys/IEventSubscription::put_Enabled, put_Enabled
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventSubscription.Enabled"
+f1_keywords:
+- eventsys/IEventSubscription.Enabled
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IEventSubscription.Enabled
- - IEventSubscription.get_Enabled
- - IEventSubscription.put_Enabled
+- IEventSubscription.Enabled
+- IEventSubscription.get_Enabled
+- IEventSubscription.put_Enabled
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:sensorsapi.ISensor.SetEventInterest
 title: ISensor::SetEventInterest (sensorsapi.h)
-
 description: Specifies the list of sensor events to receive.
 old-location: winsensors_com_ref\isensor_seteventinterest.htm
 tech.root: SensorsAPI
 ms.assetid: d3c2d8b9-6511-41ff-9734-92f47825bbcd
-
 ms.date: 12/05/2018
 ms.keywords: ISensor interface,SetEventInterest method, ISensor.SetEventInterest, ISensor::SetEventInterest, SetEventInterest, SetEventInterest method, SetEventInterest method,ISensor interface, sensorsapi/ISensor::SetEventInterest, winsensors_com_ref.isensor_seteventinterest
 ms.topic: method
-f1_keywords: 
- - "sensorsapi/ISensor.SetEventInterest"
+f1_keywords:
+- sensorsapi/ISensor.SetEventInterest
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sensorsapi.dll
+- sensorsapi.dll
 api_name:
- - ISensor.SetEventInterest
+- ISensor.SetEventInterest
 targetos: Windows
 req.typenames: 
 req.redist: 

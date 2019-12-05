@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToInt16VectorAlloc
 title: PropVariantToInt16VectorAlloc function (propvarutil.h)
-
 description: Extracts data from a PROPVARIANT structure into a newly allocated Int16 vector.
 old-location: properties\PropVariantToInt16VectorAlloc.htm
 tech.root: properties
 ms.assetid: 489aff33-2faa-480a-a146-67f6ef4b8b93
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToInt16VectorAlloc, PropVariantToInt16VectorAlloc function [Windows Properties], _shell_PropVariantToInt16VectorAlloc, properties.PropVariantToInt16VectorAlloc, propvarutil/PropVariantToInt16VectorAlloc, shell.PropVariantToInt16VectorAlloc
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToInt16VectorAlloc"
+f1_keywords:
+- propvarutil/PropVariantToInt16VectorAlloc
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToInt16VectorAlloc
+- PropVariantToInt16VectorAlloc
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

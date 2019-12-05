@@ -1,19 +1,17 @@
 ---
 UID: NE:wingdi.DISPLAYCONFIG_TOPOLOGY_ID
 title: DISPLAYCONFIG_TOPOLOGY_ID (wingdi.h)
-
 description: The DISPLAYCONFIG_TOPOLOGY_ID enumeration specifies the type of display topology.
 old-location: display\displayconfig_topology_id.htm
 tech.root: display
 ms.assetid: 0018f137-7cdf-47b7-9ede-8685f9b073fb
-
 ms.date: 12/05/2018
 ms.keywords: CCD_Enumerations_a5eed051-186c-4a2e-8a8b-fd189d867fbd.xml, DISPLAYCONFIG_TOPOLOGY_CLONE, DISPLAYCONFIG_TOPOLOGY_EXTEND, DISPLAYCONFIG_TOPOLOGY_EXTERNAL, DISPLAYCONFIG_TOPOLOGY_FORCE_UINT32, DISPLAYCONFIG_TOPOLOGY_ID, DISPLAYCONFIG_TOPOLOGY_ID enumeration [Display Devices], DISPLAYCONFIG_TOPOLOGY_INTERNAL, display.displayconfig_topology_id, wingdi/DISPLAYCONFIG_TOPOLOGY_CLONE, wingdi/DISPLAYCONFIG_TOPOLOGY_EXTEND, wingdi/DISPLAYCONFIG_TOPOLOGY_EXTERNAL, wingdi/DISPLAYCONFIG_TOPOLOGY_FORCE_UINT32, wingdi/DISPLAYCONFIG_TOPOLOGY_ID, wingdi/DISPLAYCONFIG_TOPOLOGY_INTERNAL
 ms.topic: enum
-f1_keywords: 
- - "wingdi/DISPLAYCONFIG_TOPOLOGY_ID"
+f1_keywords:
+- wingdi/DISPLAYCONFIG_TOPOLOGY_ID
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wingdi.h
+- wingdi.h
 api_name:
- - DISPLAYCONFIG_TOPOLOGY_ID
+- DISPLAYCONFIG_TOPOLOGY_ID
 targetos: Windows
 req.typenames: DISPLAYCONFIG_TOPOLOGY_ID
 req.redist: 

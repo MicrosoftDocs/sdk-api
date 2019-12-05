@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplication.get_Roles
 title: IAzApplication::get_Roles (azroles.h)
-
 description: The Roles property of IAzApplication retrieves an IAzRoles object that is used to enumerate IAzRole objects from the policy data.
 old-location: security\iazapplication_roles.htm
 tech.root: SecAuthZ
 ms.assetid: 02acf473-b072-4814-92e1-47a32baae4fc
-
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],Roles property, IAzApplication interface [Security],Roles property, IAzApplication.Roles, IAzApplication.get_Roles, IAzApplication::Roles, IAzApplication::get_Roles, Roles property [Security], Roles property [Security],AzApplication object, Roles property [Security],IAzApplication interface, azroles/IAzApplication::Roles, azroles/IAzApplication::get_Roles, get_Roles, security.iazapplication_roles
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplication.Roles"
+f1_keywords:
+- azroles/IAzApplication.Roles
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplication.Roles
- - IAzApplication.get_Roles
- - AzApplication.Roles
+- IAzApplication.Roles
+- IAzApplication.get_Roles
+- AzApplication.Roles
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

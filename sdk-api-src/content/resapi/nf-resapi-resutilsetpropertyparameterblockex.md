@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilSetPropertyParameterBlockEx
 title: ResUtilSetPropertyParameterBlockEx function (resapi.h)
-
 description: Sets properties in the cluster database from a parameter block.
 old-location: mscs\resutilsetpropertyparameterblockex.htm
 tech.root: MsCS
 ms.assetid: aeb53528-56bf-4330-ad43-22f1381df109
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX, PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX function [Failover Cluster], ResUtilSetPropertyParameterBlockEx, ResUtilSetPropertyParameterBlockEx function [Failover Cluster], _wolf_resutilsetpropertyparameterblockex, mscs.resutilsetpropertyparameterblockex, resapi/PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX, resapi/ResUtilSetPropertyParameterBlockEx
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilSetPropertyParameterBlockEx"
+f1_keywords:
+- resapi/ResUtilSetPropertyParameterBlockEx
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilSetPropertyParameterBlockEx
+- ResUtilSetPropertyParameterBlockEx
 targetos: Windows
 req.typenames: 
 req.redist: 

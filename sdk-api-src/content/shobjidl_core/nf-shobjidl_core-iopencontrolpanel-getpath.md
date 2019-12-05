@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IOpenControlPanel.GetPath
 title: IOpenControlPanel::GetPath (shobjidl_core.h)
-
 description: Gets the path of a specified Control Panel item.
 old-location: shell\IOpenControlPanel_GetPath.htm
 tech.root: shell
 ms.assetid: 2043a56a-cc03-4b05-a746-de4d11ac02e7
-
 ms.date: 12/05/2018
 ms.keywords: GetPath, GetPath method [Windows Shell], GetPath method [Windows Shell],IOpenControlPanel interface, IOpenControlPanel interface [Windows Shell],GetPath method, IOpenControlPanel.GetPath, IOpenControlPanel::GetPath, _shell_IOpenControlPanel_GetPath, shell.IOpenControlPanel_GetPath, shobjidl_core/IOpenControlPanel::GetPath
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IOpenControlPanel.GetPath"
+f1_keywords:
+- shobjidl_core/IOpenControlPanel.GetPath
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IOpenControlPanel.GetPath
+- IOpenControlPanel.GetPath
 targetos: Windows
 req.typenames: 
 req.redist: 

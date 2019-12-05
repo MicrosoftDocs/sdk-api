@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToBooleanVector
 title: PropVariantToBooleanVector function (propvarutil.h)
-
 description: Extracts a Boolean vector from a PROPVARIANT structure.
 old-location: properties\PropVariantToBooleanVector.htm
 tech.root: properties
 ms.assetid: 93ccd129-4fa4-40f3-96f3-b87b50414b0a
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToBooleanVector, PropVariantToBooleanVector function [Windows Properties], _shell_PropVariantToBooleanVector, properties.PropVariantToBooleanVector, propvarutil/PropVariantToBooleanVector, shell.PropVariantToBooleanVector
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToBooleanVector"
+f1_keywords:
+- propvarutil/PropVariantToBooleanVector
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToBooleanVector
+- PropVariantToBooleanVector
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.EnumerateSyncProviders
 title: ISyncProviderRegistration::EnumerateSyncProviders (syncregistration.h)
-
 description: Returns an IEnumSyncProviderInfos enumeration interface that enumerates all registered ISyncProviderInfo objects for the specified criteria.
 old-location: winsync\isyncproviderregistration_enumeratesyncproviders.htm
 tech.root: winsync
 ms.assetid: 36a2b498-237e-418a-b5b8-5f9bcdfbe734
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateSyncProviders, EnumerateSyncProviders method [Windows Sync], EnumerateSyncProviders method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],EnumerateSyncProviders method, ISyncProviderRegistration.EnumerateSyncProviders, ISyncProviderRegistration::EnumerateSyncProviders, syncregistration/ISyncProviderRegistration::EnumerateSyncProviders, winsync.isyncproviderregistration_enumeratesyncproviders
 ms.topic: method
-f1_keywords: 
- - "syncregistration/ISyncProviderRegistration.EnumerateSyncProviders"
+f1_keywords:
+- syncregistration/ISyncProviderRegistration.EnumerateSyncProviders
 dev_langs:
- - c++
+- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncregistration.h
+- Syncregistration.h
 api_name:
- - ISyncProviderRegistration.EnumerateSyncProviders
+- ISyncProviderRegistration.EnumerateSyncProviders
 targetos: Windows
 req.typenames: 
 req.redist: 

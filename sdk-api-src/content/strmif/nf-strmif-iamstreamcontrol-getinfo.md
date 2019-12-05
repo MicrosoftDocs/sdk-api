@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMStreamControl.GetInfo
 title: IAMStreamControl::GetInfo (strmif.h)
-
 description: The GetInfo method retrieves information about the current stream-control settings, including the start and stop times.
 old-location: dshow\iamstreamcontrol_getinfo.htm
 tech.root: DirectShow
 ms.assetid: 9993534c-ec93-4c15-b977-6a0933d23a72
-
 ms.date: 12/05/2018
 ms.keywords: GetInfo, GetInfo method [DirectShow], GetInfo method [DirectShow],IAMStreamControl interface, IAMStreamControl interface [DirectShow],GetInfo method, IAMStreamControl.GetInfo, IAMStreamControl::GetInfo, IAMStreamControlGetInfo, dshow.iamstreamcontrol_getinfo, strmif/IAMStreamControl::GetInfo
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMStreamControl.GetInfo"
+f1_keywords:
+- strmif/IAMStreamControl.GetInfo
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMStreamControl.GetInfo
+- IAMStreamControl.GetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

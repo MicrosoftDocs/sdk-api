@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont.GetSuperscript
 title: ITextFont::GetSuperscript (tom.h)
-
 description: Gets whether characters are displayed as superscript.
 old-location: controls\ITextFont_GetSuperscript.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getsuperscript.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetSuperscript, GetSuperscript method [Windows Controls], GetSuperscript method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetSuperscript method, ITextFont.GetSuperscript, ITextFont::GetSuperscript, _win32_ITextFont_GetSuperscript, _win32_ITextFont_GetSuperscript_cpp, controls.ITextFont_GetSuperscript, controls._win32_ITextFont_GetSuperscript, tom/ITextFont::GetSuperscript
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont.GetSuperscript"
+f1_keywords:
+- tom/ITextFont.GetSuperscript
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont.GetSuperscript
+- ITextFont.GetSuperscript
 targetos: Windows
 req.typenames: 
 req.redist: 

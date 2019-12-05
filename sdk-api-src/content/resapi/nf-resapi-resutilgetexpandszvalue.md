@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilGetExpandSzValue
 title: ResUtilGetExpandSzValue function (resapi.h)
-
 description: Returns a expandable string value from the cluster database.
 old-location: mscs\resutilgetexpandszvalue.htm
 tech.root: MsCS
 ms.assetid: c0f1064c-d9ae-43af-9622-beae9aee0ce0
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_EXPAND_SZ_VALUE, PRESUTIL_GET_EXPAND_SZ_VALUE function [Failover Cluster], ResUtilGetExpandSzValue, ResUtilGetExpandSzValue function [Failover Cluster], _wolf_resutilgetexpandszvalue, mscs.resutilgetexpandszvalue, resapi/PRESUTIL_GET_EXPAND_SZ_VALUE, resapi/ResUtilGetExpandSzValue
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilGetExpandSzValue"
+f1_keywords:
+- resapi/ResUtilGetExpandSzValue
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilGetExpandSzValue
+- ResUtilGetExpandSzValue
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.TreeAdvise
 title: INameSpaceTreeControl::TreeAdvise (shobjidl_core.h)
-
 description: Enables a client to register with the control.
 old-location: shell\INameSpaceTreeControl_TreeAdvise.htm
 tech.root: shell
 ms.assetid: d59b9772-7061-4ea5-964a-75deb293b407
-
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControl interface [Windows Shell],TreeAdvise method, INameSpaceTreeControl.TreeAdvise, INameSpaceTreeControl::TreeAdvise, TreeAdvise, TreeAdvise method [Windows Shell], TreeAdvise method [Windows Shell],INameSpaceTreeControl interface, _shell_INameSpaceTreeControl_TreeAdvise, shell.INameSpaceTreeControl_TreeAdvise, shobjidl_core/INameSpaceTreeControl::TreeAdvise
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/INameSpaceTreeControl.TreeAdvise"
+f1_keywords:
+- shobjidl_core/INameSpaceTreeControl.TreeAdvise
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - INameSpaceTreeControl.TreeAdvise
+- INameSpaceTreeControl.TreeAdvise
 targetos: Windows
 req.typenames: 
 req.redist: 

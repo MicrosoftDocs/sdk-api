@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.put_EnableUDP
 title: IAMNetShowConfig::put_EnableUDP (qnetwork.h)
-
 description: The put_EnableUDP method enables or disablles UDP-based streaming.
 old-location: dshow\iamnetshowconfig_put_enableudp.htm
 tech.root: DirectShow
 ms.assetid: 2573573e-97e0-4ed4-b702-8c54ef47c5f4
-
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_EnableUDP method, IAMNetShowConfig.put_EnableUDP, IAMNetShowConfig::put_EnableUDP, IAMNetShowConfigput_EnableUDP, dshow.iamnetshowconfig_put_enableudp, put_EnableUDP, put_EnableUDP method [DirectShow], put_EnableUDP method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_EnableUDP
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMNetShowConfig.put_EnableUDP"
+f1_keywords:
+- qnetwork/IAMNetShowConfig.put_EnableUDP
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMNetShowConfig.put_EnableUDP
+- IAMNetShowConfig.put_EnableUDP
 targetos: Windows
 req.typenames: 
 req.redist: 

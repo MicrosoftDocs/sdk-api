@@ -1,19 +1,17 @@
 ---
 UID: NF:adshlp.ADsBuildVarArrayStr
 title: ADsBuildVarArrayStr function (adshlp.h)
-
 description: The ADsBuildVarArrayStr function builds a variant array from an array of Unicode strings.
 old-location: adsi\adsbuildvararraystr.htm
 tech.root: adsi
 ms.assetid: 7258a840-691a-4d9b-ab33-bcdf30fd1331
-
 ms.date: 12/05/2018
 ms.keywords: ADsBuildVarArrayStr, ADsBuildVarArrayStr function [ADSI], _ds_adsbuildvararraystr, adshlp/ADsBuildVarArrayStr, adsi.adsbuildvararraystr
 ms.topic: function
-f1_keywords: 
- - "adshlp/ADsBuildVarArrayStr"
+f1_keywords:
+- adshlp/ADsBuildVarArrayStr
 dev_langs:
- - c++
+- c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Activeds.lib
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - ADsBuildVarArrayStr
+- ADsBuildVarArrayStr
 targetos: Windows
 req.typenames: 
 req.redist: 

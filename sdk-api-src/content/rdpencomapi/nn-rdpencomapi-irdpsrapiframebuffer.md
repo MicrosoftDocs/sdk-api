@@ -1,19 +1,17 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIFrameBuffer
 title: IRDPSRAPIFrameBuffer (rdpencomapi.h)
-
 description: Provides data about the frame buffer size and format and allows the contents to be retrieved.
 old-location: rdp\irdpsrapiframebuffer.htm
 tech.root: rdp
 ms.assetid: ab40bdd2-448f-4867-aabd-d6b66add5247
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIFrameBuffer, IRDPSRAPIFrameBuffer interface [RDP], IRDPSRAPIFrameBuffer interface [RDP],described, rdp.irdpsrapiframebuffer, rdpencomapi/IRDPSRAPIFrameBuffer
 ms.topic: interface
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIFrameBuffer"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIFrameBuffer
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIFrameBuffer
+- IRDPSRAPIFrameBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

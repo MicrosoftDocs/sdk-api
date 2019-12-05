@@ -1,19 +1,17 @@
 ---
 UID: NS:bthdef._BTH_L2CAP_EVENT_INFO
 title: BTH_L2CAP_EVENT_INFO (bthdef.h)
-
 description: Contains data about events associated with an L2CAP channel.
 old-location: bluetooth\bth_l2cap_event_info.htm
 tech.root: bluetooth
 ms.assetid: fd16514c-7a7e-4da4-b506-71cb66ed1983
-
 ms.date: 12/05/2018
-ms.keywords: "*PBTH_L2CAP_EVENT_INFO, *PBTH_L2CAP_EVENT_INFO structure [Bluetooth], BTH_L2CAP_EVENT_INFO, BTH_L2CAP_EVENT_INFO structure [Bluetooth], bluetooth.bth_l2cap_event_info, bthdef/*PBTH_L2CAP_EVENT_INFO, bthdef/BTH_L2CAP_EVENT_INFO"
+ms.keywords: '*PBTH_L2CAP_EVENT_INFO, *PBTH_L2CAP_EVENT_INFO structure [Bluetooth], BTH_L2CAP_EVENT_INFO, BTH_L2CAP_EVENT_INFO structure [Bluetooth], bluetooth.bth_l2cap_event_info, bthdef/*PBTH_L2CAP_EVENT_INFO, bthdef/BTH_L2CAP_EVENT_INFO'
 ms.topic: struct
-f1_keywords: 
- - "bthdef/BTH_L2CAP_EVENT_INFO"
+f1_keywords:
+- bthdef/BTH_L2CAP_EVENT_INFO
 dev_langs:
- - c++
+- c++
 req.header: bthdef.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bthdef.h
+- Bthdef.h
 api_name:
- - BTH_L2CAP_EVENT_INFO
+- BTH_L2CAP_EVENT_INFO
 targetos: Windows
 req.typenames: BTH_L2CAP_EVENT_INFO, *PBTH_L2CAP_EVENT_INFO
 req.redist: 

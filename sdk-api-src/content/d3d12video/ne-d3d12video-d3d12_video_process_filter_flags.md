@@ -1,37 +1,35 @@
 ---
 UID: NE:d3d12video.D3D12_VIDEO_PROCESS_FILTER_FLAGS
 title: D3D12_VIDEO_PROCESS_FILTER_FLAGS
-
-description: Specifies support for the image filters defined by the D3D12_VIDEO_PROCESS_FILTER enumeration. 
+description: Specifies support for the image filters defined by the D3D12_VIDEO_PROCESS_FILTER enumeration.
 tech.root: mf
 ms.assetid: 5ed6a952-6333-41d5-ab6e-73332cf2f590
-
-ms.date: 05/28/2019 
+ms.date: 05/28/2019
 ms.topic: enum
 f1_keywords:
- - D3D12_VIDEO_PROCESS_FILTER_FLAGS
+- D3D12_VIDEO_PROCESS_FILTER_FLAGS
 dev_langs:
- - c++
-ms.keywords: D3D12_VIDEO_PROCESS_FILTER_FLAGS, D3D12_VIDEO_PROCESS_FILTER_FLAGS, 
+- c++
+ms.keywords: D3D12_VIDEO_PROCESS_FILTER_FLAGS, D3D12_VIDEO_PROCESS_FILTER_FLAGS,
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: D3D12_VIDEO_PROCESS_FILTER_FLAGS
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12video.h
-api_name: 
- - D3D12_VIDEO_PROCESS_FILTER_FLAGS
+topic_type:
+- apiref
+api_type:
+- HeaderDef
+api_location:
+- d3d12video.h
+api_name:
+- D3D12_VIDEO_PROCESS_FILTER_FLAGS
 targetos: Windows
 ---
 

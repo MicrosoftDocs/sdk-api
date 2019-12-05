@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfileMgr.RegisterProfile
 title: ITfInputProcessorProfileMgr::RegisterProfile (msctf.h)
-
 description: The ITfInputProcessorProfileMgr::RegisterProfile method registers the text service and the profile.
 old-location: tsf\itfinputprocessorprofilemgr_registerprofile.htm
 tech.root: TSF
 ms.assetid: b497409d-96b8-41d1-9512-5d79494c6287
-
 ms.date: 12/05/2018
 ms.keywords: ITfInputProcessorProfileMgr interface [Text Services Framework],RegisterProfile method, ITfInputProcessorProfileMgr.RegisterProfile, ITfInputProcessorProfileMgr::RegisterProfile, RegisterProfile, RegisterProfile method [Text Services Framework], RegisterProfile method [Text Services Framework],ITfInputProcessorProfileMgr interface, TF_RP_HIDDENINSETTINGUI, TF_RP_LOCALPROCESS, TF_RP_LOCALTHREAD, msctf/ITfInputProcessorProfileMgr::RegisterProfile, tsf.itfinputprocessorprofilemgr_registerprofile
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfInputProcessorProfileMgr.RegisterProfile"
+f1_keywords:
+- msctf/ITfInputProcessorProfileMgr.RegisterProfile
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfInputProcessorProfileMgr.RegisterProfile
+- ITfInputProcessorProfileMgr.RegisterProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

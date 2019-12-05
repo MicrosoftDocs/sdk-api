@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.INameSpaceTreeControlEvents
 title: INameSpaceTreeControlEvents (shobjidl.h)
-
 description: Exposes methods for handling INameSpaceTreeControl events.
 old-location: shell\INameSpaceTreeControlEvents.htm
 tech.root: shell
 ms.assetid: 496fa657-c27c-4f6c-a137-fb0d393aa284
-
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlEvents, INameSpaceTreeControlEvents interface [Windows Shell], INameSpaceTreeControlEvents interface [Windows Shell],described, _shell_INameSpaceTreeControlEvents, shell.INameSpaceTreeControlEvents, shobjidl/INameSpaceTreeControlEvents
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/INameSpaceTreeControlEvents"
+f1_keywords:
+- shobjidl/INameSpaceTreeControlEvents
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - INameSpaceTreeControlEvents
+- INameSpaceTreeControlEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

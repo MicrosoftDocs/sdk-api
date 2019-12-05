@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj.SHMultiFileProperties
 title: SHMultiFileProperties function (shlobj.h)
-
 description: Displays a merged property sheet for a set of files. Property values common to all the files are shown while those that differ display the string (multiple values).
 old-location: shell\SHMultiFileProperties.htm
 tech.root: shell
 ms.assetid: 7c66fd91-4f7a-45f3-b849-bf210c552511
-
 ms.date: 12/05/2018
 ms.keywords: SHMultiFileProperties, SHMultiFileProperties function [Windows Shell], _win32_SHMultiFileProperties, shell.SHMultiFileProperties, shlobj/SHMultiFileProperties
 ms.topic: function
-f1_keywords: 
- - "shlobj/SHMultiFileProperties"
+f1_keywords:
+- shlobj/SHMultiFileProperties
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHMultiFileProperties
+- SHMultiFileProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

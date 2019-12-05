@@ -1,19 +1,17 @@
 ---
 UID: NN:shlobj_core.IShellFolderViewCB
 title: IShellFolderViewCB (shlobj_core.h)
-
 description: Exposes a method that allows communication between Windows Explorer and a folder view implemented using the system folder view object (the IShellView object returned through SHCreateShellFolderView) so that the folder view can be notified of events and modify its view accordingly.
 old-location: shell\IShellFolderViewCB.htm
 tech.root: shell
 ms.assetid: 0cd2bce8-d77a-4140-869b-707aaa279796
-
 ms.date: 12/05/2018
 ms.keywords: IShellFolderViewCB, IShellFolderViewCB interface [Windows Shell], IShellFolderViewCB interface [Windows Shell],described, _win32_IShellFolderViewCB, shell.IShellFolderViewCB, shlobj_core/IShellFolderViewCB
 ms.topic: interface
-f1_keywords: 
- - "shlobj_core/IShellFolderViewCB"
+f1_keywords:
+- shlobj_core/IShellFolderViewCB
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellFolderViewCB
+- IShellFolderViewCB
 targetos: Windows
 req.typenames: 
 req.redist: 

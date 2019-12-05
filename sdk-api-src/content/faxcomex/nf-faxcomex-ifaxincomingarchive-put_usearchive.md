@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxIncomingArchive.put_UseArchive
 title: IFaxIncomingArchive::put_UseArchive (faxcomex.h)
-
 description: The UseArchive property is a Boolean value that indicates whether the fax service archives inbound fax messages.
 old-location: fax\_mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_usearchive_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9e5h.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingArchive interface [Fax Service],UseArchive property, IFaxIncomingArchive.UseArchive, IFaxIncomingArchive.get_UseArchive, IFaxIncomingArchive.put_UseArchive, IFaxIncomingArchive::UseArchive, IFaxIncomingArchive::get_UseArchive, IFaxIncomingArchive::put_UseArchive, UseArchive property [Fax Service], UseArchive property [Fax Service],IFaxIncomingArchive interface, _mfax_faxincomingarchive.usearchive, fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_usearchive_cpp, fax._mfax_faxincomingarchive_usearchive, faxcomex/IFaxIncomingArchive::UseArchive, faxcomex/IFaxIncomingArchive::get_UseArchive, faxcomex/IFaxIncomingArchive::put_UseArchive, put_UseArchive
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxIncomingArchive.UseArchive"
+f1_keywords:
+- faxcomex/IFaxIncomingArchive.UseArchive
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxIncomingArchive.UseArchive
- - IFaxIncomingArchive.get_UseArchive
- - IFaxIncomingArchive.put_UseArchive
- - IFaxIncomingArchive.get_UseArchive
- - IFaxIncomingArchive.put_UseArchive
+- IFaxIncomingArchive.UseArchive
+- IFaxIncomingArchive.get_UseArchive
+- IFaxIncomingArchive.put_UseArchive
+- IFaxIncomingArchive.get_UseArchive
+- IFaxIncomingArchive.put_UseArchive
 targetos: Windows
 req.typenames: 
 req.redist: 

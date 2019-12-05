@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectPrimitive.GetAffineMatrix
 title: IMILBitmapEffectPrimitive::GetAffineMatrix (mileffects.h)
-
 description: Retrieves the affine transormation matrix for the effect.
 old-location: wibe\_wibe_imilbitmapeffectprimitive_getaffinematrix.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitive\getaffinematrix.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetAffineMatrix, GetAffineMatrix method [WPF Bitmap Effects], GetAffineMatrix method [WPF Bitmap Effects],IMILBitmapEffectPrimitive interface, IMILBitmapEffectPrimitive interface [WPF Bitmap Effects],GetAffineMatrix method, IMILBitmapEffectPrimitive.GetAffineMatrix, IMILBitmapEffectPrimitive::GetAffineMatrix, _wibe_imilbitmapeffectprimitive_getaffinematrix, mileffects/IMILBitmapEffectPrimitive::GetAffineMatrix, wibe._wibe_imilbitmapeffectprimitive_getaffinematrix
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectPrimitive.GetAffineMatrix"
+f1_keywords:
+- mileffects/IMILBitmapEffectPrimitive.GetAffineMatrix
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.h
+- Mileffects.h
 api_name:
- - IMILBitmapEffectPrimitive.GetAffineMatrix
+- IMILBitmapEffectPrimitive.GetAffineMatrix
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

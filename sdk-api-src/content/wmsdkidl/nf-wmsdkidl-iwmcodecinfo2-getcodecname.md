@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMCodecInfo2.GetCodecName
 title: IWMCodecInfo2::GetCodecName (wmsdkidl.h)
-
 description: The GetCodecName method retrieves the name of a specified codec.
 old-location: wmformat\iwmcodecinfo2_getcodecname.htm
 tech.root: wmformat
 ms.assetid: 4ec4e242-9726-4fac-8867-cb4b13c4cbdc
-
 ms.date: 12/05/2018
 ms.keywords: GetCodecName, GetCodecName method [windows Media Format], GetCodecName method [windows Media Format],IWMCodecInfo2 interface, IWMCodecInfo2 interface [windows Media Format],GetCodecName method, IWMCodecInfo2.GetCodecName, IWMCodecInfo2::GetCodecName, IWMCodecInfo2GetCodecName, wmformat.iwmcodecinfo2_getcodecname, wmsdkidl/IWMCodecInfo2::GetCodecName
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMCodecInfo2.GetCodecName"
+f1_keywords:
+- wmsdkidl/IWMCodecInfo2.GetCodecName
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMCodecInfo2.GetCodecName
+- IWMCodecInfo2.GetCodecName
 targetos: Windows
 req.typenames: 
 req.redist: 

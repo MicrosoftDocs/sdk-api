@@ -1,19 +1,17 @@
 ---
 UID: NF:upnphost.IUPnPRemoteEndpointInfo.GetDwordValue
 title: IUPnPRemoteEndpointInfo::GetDwordValue (upnphost.h)
-
 description: The GetDwordValue method gets a 4-byte value that provides information about either a request or requester.
 old-location: upnp\iupnpremoteendpointinfo_getdwordvalue.htm
 tech.root: upnp
 ms.assetid: efbb0671-cb32-41e1-8405-1d145c247673
-
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, GetDwordValue, GetDwordValue method [UPnP APIs], GetDwordValue method [UPnP APIs],IUPnPRemoteEndpointInfo interface, IUPnPRemoteEndpointInfo interface [UPnP APIs],GetDwordValue method, IUPnPRemoteEndpointInfo.GetDwordValue, IUPnPRemoteEndpointInfo::GetDwordValue, upnp.iupnpremoteendpointinfo_getdwordvalue, upnphost/IUPnPRemoteEndpointInfo::GetDwordValue
 ms.topic: method
-f1_keywords: 
- - "upnphost/IUPnPRemoteEndpointInfo.GetDwordValue"
+f1_keywords:
+- upnphost/IUPnPRemoteEndpointInfo.GetDwordValue
 dev_langs:
- - c++
+- c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnphost.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnphost.dll
+- Upnphost.dll
 api_name:
- - IUPnPRemoteEndpointInfo.GetDwordValue
+- IUPnPRemoteEndpointInfo.GetDwordValue
 targetos: Windows
 req.typenames: 
 req.redist: 

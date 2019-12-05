@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngGetCurrentThreadId
 title: EngGetCurrentThreadId function (winddi.h)
-
 description: The EngGetCurrentThreadId function identifies an application's current thread.
 old-location: display\enggetcurrentthreadid.htm
 tech.root: display
 ms.assetid: f1fdb223-b649-4467-a4c4-56cce4f4d975
-
 ms.date: 12/05/2018
 ms.keywords: EngGetCurrentThreadId, EngGetCurrentThreadId function [Display Devices], display.enggetcurrentthreadid, gdifncs_f6b5f95d-aa1b-4ff9-8523-79f6e2baef9d.xml, winddi/EngGetCurrentThreadId
 ms.topic: function
-f1_keywords: 
- - "winddi/EngGetCurrentThreadId"
+f1_keywords:
+- winddi/EngGetCurrentThreadId
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: Any level
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngGetCurrentThreadId
+- EngGetCurrentThreadId
 targetos: Windows
 req.typenames: 
 req.redist: 

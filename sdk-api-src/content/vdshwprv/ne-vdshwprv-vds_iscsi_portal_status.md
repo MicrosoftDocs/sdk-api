@@ -1,19 +1,17 @@
 ---
 UID: NE:vdshwprv._VDS_ISCSI_PORTAL_STATUS
 title: VDS_ISCSI_PORTAL_STATUS (vdshwprv.h)
-
 description: Defines the set of valid status values for an iSCSI portal.
 old-location: base\vds_iscsi_portal_status.htm
 tech.root: VDS
 ms.assetid: ae39dfb8-6519-4307-8038-3af670553f51
-
 ms.date: 12/05/2018
 ms.keywords: VDS_IPS_FAILED, VDS_IPS_NOT_READY, VDS_IPS_OFFLINE, VDS_IPS_ONLINE, VDS_IPS_UNKNOWN, VDS_ISCSI_PORTAL_STATUS, VDS_ISCSI_PORTAL_STATUS enumeration [VDS], base.vds_iscsi_portal_status, vds/VDS_IPS_FAILED, vds/VDS_IPS_NOT_READY, vds/VDS_IPS_OFFLINE, vds/VDS_IPS_ONLINE, vds/VDS_IPS_UNKNOWN, vds/VDS_ISCSI_PORTAL_STATUS, vdshwprv/VDS_IPS_FAILED, vdshwprv/VDS_IPS_NOT_READY, vdshwprv/VDS_IPS_OFFLINE, vdshwprv/VDS_IPS_ONLINE, vdshwprv/VDS_IPS_UNKNOWN, vdshwprv/VDS_ISCSI_PORTAL_STATUS
 ms.topic: enum
 f1_keywords:
 - vdshwprv/VDS_ISCSI_PORTAL_STATUS
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

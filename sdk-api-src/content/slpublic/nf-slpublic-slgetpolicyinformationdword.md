@@ -1,19 +1,17 @@
 ---
 UID: NF:slpublic.SLGetPolicyInformationDWORD
 title: SLGetPolicyInformationDWORD function (slpublic.h)
-
 description: Gets the policy information after right has been consumed successfully.
 old-location: security\slgetpolicyinformationdword.htm
 tech.root: SecSLApi
 ms.assetid: 273e843d-94eb-405d-b7fa-43d49783282f
-
 ms.date: 12/05/2018
 ms.keywords: SLGetPolicyInformationDWORD, SLGetPolicyInformationDWORD function [Security], security.slgetpolicyinformationdword, slpublic/SLGetPolicyInformationDWORD
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLGetPolicyInformationDWORD"
+f1_keywords:
+- slpublic/SLGetPolicyInformationDWORD
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slc.dll
+- Slc.dll
 api_name:
- - SLGetPolicyInformationDWORD
+- SLGetPolicyInformationDWORD
 targetos: Windows
 req.typenames: 
 req.redist: 

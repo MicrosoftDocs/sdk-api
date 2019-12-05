@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IMultisessionRandomWrite.get_WriteUnitSize
 title: IMultisessionRandomWrite::get_WriteUnitSize (imapi2.h)
-
 description: Retrieves the size of a writeable unit on the media.
 old-location: imapi\imultisessionrandomwrite_get_writeunitsize.htm
 tech.root: imapi
 ms.assetid: fcf9f0ab-4095-4ff3-a72a-656ef74f04b8
-
 ms.date: 12/05/2018
 ms.keywords: IMultisessionRandomWrite interface [IMAPI],get_WriteUnitSize method, IMultisessionRandomWrite.get_WriteUnitSize, IMultisessionRandomWrite::get_WriteUnitSize, get_WriteUnitSize, get_WriteUnitSize method [IMAPI], get_WriteUnitSize method [IMAPI],IMultisessionRandomWrite interface, imapi.imultisessionrandomwrite_get_writeunitsize, imapi2/IMultisessionRandomWrite::get_WriteUnitSize
 ms.topic: method
-f1_keywords: 
- - "imapi2/IMultisessionRandomWrite.get_WriteUnitSize"
+f1_keywords:
+- imapi2/IMultisessionRandomWrite.get_WriteUnitSize
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IMultisessionRandomWrite.get_WriteUnitSize
+- IMultisessionRandomWrite.get_WriteUnitSize
 targetos: Windows
 req.typenames: 
 req.redist: 

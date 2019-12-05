@@ -1,19 +1,17 @@
 ---
 UID: NF:fibersapi.IsThreadAFiber
 title: IsThreadAFiber function
-
 description: Determines whether the current thread is a fiber.
 old-location: base\isthreadafiber.htm
 tech.root: ProcThread
 ms.assetid: 0d591343-84eb-410d-815b-b42850d3f2e1
-
 ms.date: 12/05/2018
 ms.keywords: IsThreadAFiber, IsThreadAFiber function, base.isthreadafiber, fibersapi/IsThreadAFiber, winbase/IsThreadAFiber
 ms.topic: function
-f1_keywords: 
- - "fibersapi/IsThreadAFiber"
+f1_keywords:
+- fibersapi/IsThreadAFiber
 dev_langs:
- - c++
+- c++
 req.header: fibersapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-fibers-l1-1-1.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-fibers-l1-1-1.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - IsThreadAFiber
+- IsThreadAFiber
 targetos: Windows
 req.typenames: 
 req.redist: 

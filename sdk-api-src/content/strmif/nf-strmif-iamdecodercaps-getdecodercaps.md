@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMDecoderCaps.GetDecoderCaps
 title: IAMDecoderCaps::GetDecoderCaps (strmif.h)
-
 description: The GetDecoderCaps method queries the decoder for its capabilities.
 old-location: dshow\iamdecodercaps_getdecodercaps.htm
 tech.root: DirectShow
 ms.assetid: 727db98f-96a1-4fe1-8315-0280541817c2
-
 ms.date: 12/05/2018
 ms.keywords: GetDecoderCaps, GetDecoderCaps method [DirectShow], GetDecoderCaps method [DirectShow],IAMDecoderCaps interface, IAMDecoderCaps interface [DirectShow],GetDecoderCaps method, IAMDecoderCaps.GetDecoderCaps, IAMDecoderCaps::GetDecoderCaps, IAMDecoderCapsGetDecoderCaps, dshow.iamdecodercaps_getdecodercaps, strmif/IAMDecoderCaps::GetDecoderCaps
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMDecoderCaps.GetDecoderCaps"
+f1_keywords:
+- strmif/IAMDecoderCaps.GetDecoderCaps
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMDecoderCaps.GetDecoderCaps
+- IAMDecoderCaps.GetDecoderCaps
 targetos: Windows
 req.typenames: 
 req.redist: 

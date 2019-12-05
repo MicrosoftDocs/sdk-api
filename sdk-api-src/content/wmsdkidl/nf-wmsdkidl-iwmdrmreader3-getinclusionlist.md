@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader3.GetInclusionList
 title: IWMDRMReader3::GetInclusionList (wmsdkidl.h)
-
 description: The GetInclusionList method retrieves a list of identifiers specifying approved protection systems.
 old-location: wmformat\iwmdrmreader3_getinclusionlist.htm
 tech.root: wmformat
 ms.assetid: ac6f2ced-d60d-4472-8549-c52314375ac6
-
 ms.date: 12/05/2018
 ms.keywords: GetInclusionList, GetInclusionList method [windows Media Format], GetInclusionList method [windows Media Format],IWMDRMReader3 interface, IWMDRMReader3 interface [windows Media Format],GetInclusionList method, IWMDRMReader3.GetInclusionList, IWMDRMReader3::GetInclusionList, IWMDRMReader3GetInclusionList, wmformat.iwmdrmreader3_getinclusionlist, wmsdkidl/IWMDRMReader3::GetInclusionList
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMDRMReader3.GetInclusionList"
+f1_keywords:
+- wmsdkidl/IWMDRMReader3.GetInclusionList
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMStubDRM.lib
- - WMStubDRM.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMDRMReader3.GetInclusionList
+- IWMDRMReader3.GetInclusionList
 targetos: Windows
 req.typenames: 
 req.redist: 

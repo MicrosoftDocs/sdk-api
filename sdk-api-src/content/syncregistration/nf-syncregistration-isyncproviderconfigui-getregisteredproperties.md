@@ -1,19 +1,17 @@
 ---
 UID: NF:syncregistration.ISyncProviderConfigUI.GetRegisteredProperties
 title: ISyncProviderConfigUI::GetRegisteredProperties (syncregistration.h)
-
 description: Obtains configuration UI properties for reading and writing.
 old-location: winsync\isyncproviderconfigui_getregisteredproperties.htm
 tech.root: winsync
 ms.assetid: c96091d7-4b80-445b-911a-fde612eafce9
-
 ms.date: 12/05/2018
 ms.keywords: GetRegisteredProperties, GetRegisteredProperties method [Windows Sync], GetRegisteredProperties method [Windows Sync],ISyncProviderConfigUI interface, ISyncProviderConfigUI interface [Windows Sync],GetRegisteredProperties method, ISyncProviderConfigUI.GetRegisteredProperties, ISyncProviderConfigUI::GetRegisteredProperties, syncregistration/ISyncProviderConfigUI::GetRegisteredProperties, winsync.isyncproviderconfigui_getregisteredproperties
 ms.topic: method
-f1_keywords: 
- - "syncregistration/ISyncProviderConfigUI.GetRegisteredProperties"
+f1_keywords:
+- syncregistration/ISyncProviderConfigUI.GetRegisteredProperties
 dev_langs:
- - c++
+- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncregistration.h
+- Syncregistration.h
 api_name:
- - ISyncProviderConfigUI.GetRegisteredProperties
+- ISyncProviderConfigUI.GetRegisteredProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

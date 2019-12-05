@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellBrowser.EnableModelessSB
 title: IShellBrowser::EnableModelessSB (shobjidl_core.h)
-
 description: Tells Windows Explorer to enable or disable its modeless dialog boxes.
 old-location: shell\IShellBrowser_EnableModelessSB.htm
 tech.root: shell
 ms.assetid: 6bf39e3f-8b17-4307-ba57-7363c006c34b
-
 ms.date: 12/05/2018
 ms.keywords: EnableModelessSB, EnableModelessSB method [Windows Shell], EnableModelessSB method [Windows Shell],IShellBrowser interface, IShellBrowser interface [Windows Shell],EnableModelessSB method, IShellBrowser.EnableModelessSB, IShellBrowser::EnableModelessSB, _win32_IShellBrowser_EnableModelessSB, shell.IShellBrowser_EnableModelessSB, shobjidl_core/IShellBrowser::EnableModelessSB
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellBrowser.EnableModelessSB"
+f1_keywords:
+- shobjidl_core/IShellBrowser.EnableModelessSB
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellBrowser.EnableModelessSB
+- IShellBrowser.EnableModelessSB
 targetos: Windows
 req.typenames: 
 req.redist: 

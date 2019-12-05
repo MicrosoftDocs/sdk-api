@@ -1,19 +1,17 @@
 ---
 UID: NN:gpmgmt.IGPMStarterGPOCollection
 title: IGPMStarterGPOCollection (gpmgmt.h)
-
 description: The IGPMStarterGPOCollection interface contains methods that enable applications to access a collection of Group Policy Objects (GPOs) when using the Group Policy Management Console (GPMC) interfaces.
 old-location: gpmc\igpmstartergpocollection.htm
 tech.root: gpmc
 ms.assetid: b650b1c6-0597-468a-afdc-a21d61f1a8a0
-
 ms.date: 12/05/2018
 ms.keywords: GPMStarterGPOCollection, IGPMStarterGPOCollection, IGPMStarterGPOCollection interface [GPMC], IGPMStarterGPOCollection interface [GPMC],described, gpmc.igpmstartergpocollection, gpmgmt/IGPMStarterGPOCollection
 ms.topic: interface
-f1_keywords: 
- - "gpmgmt/IGPMStarterGPOCollection"
+f1_keywords:
+- gpmgmt/IGPMStarterGPOCollection
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMStarterGPOCollection
- - IGPMStarterGPOCollection.Count
- - IGPMStarterGPOCollection.get_Count
- - IGPMStarterGPOCollection.Item
- - IGPMStarterGPOCollection.get_Item
- - GPMStarterGPOCollection
+- IGPMStarterGPOCollection
+- IGPMStarterGPOCollection.Count
+- IGPMStarterGPOCollection.get_Count
+- IGPMStarterGPOCollection.Item
+- IGPMStarterGPOCollection.get_Item
+- GPMStarterGPOCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

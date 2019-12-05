@@ -1,19 +1,17 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectGroup
 title: IMILBitmapEffectGroup (mileffects.h)
-
 description: Exposes methods used to access a group of effects.
 old-location: wibe\_wibe_imilbitmapeffectgroup.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectgroup\imilbitmapeffectgroup.htm
-
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectGroup, IMILBitmapEffectGroup interface [WPF Bitmap Effects], IMILBitmapEffectGroup interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectgroup, mileffects/IMILBitmapEffectGroup, wibe._wibe_imilbitmapeffectgroup
 ms.topic: interface
-f1_keywords: 
- - "mileffects/IMILBitmapEffectGroup"
+f1_keywords:
+- mileffects/IMILBitmapEffectGroup
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.h
+- Mileffects.h
 api_name:
- - IMILBitmapEffectGroup
+- IMILBitmapEffectGroup
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

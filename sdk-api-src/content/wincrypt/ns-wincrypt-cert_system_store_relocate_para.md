@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CERT_SYSTEM_STORE_RELOCATE_PARA
 title: CERT_SYSTEM_STORE_RELOCATE_PARA (wincrypt.h)
-
 description: The CERT_SYSTEM_STORE_RELOCATE_PARA structure contains data to be passed to CertOpenStore when that function's dwFlags parameter is set to CERT_SYSTEM_STORE_RELOCATE_FLAG.
 old-location: security\cert_system_store_relocate_para.htm
 tech.root: SecCrypto
 ms.assetid: 3bcb9b64-b9cf-48b2-bfd1-0836b3d221af
-
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_SYSTEM_STORE_RELOCATE_PARA, CERT_SYSTEM_STORE_RELOCATE_PARA, CERT_SYSTEM_STORE_RELOCATE_PARA structure [Security], PCERT_SYSTEM_STORE_RELOCATE_PARA, PCERT_SYSTEM_STORE_RELOCATE_PARA structure pointer [Security], _crypto2_cert_system_store_relocate_para, security.cert_system_store_relocate_para, wincrypt/CERT_SYSTEM_STORE_RELOCATE_PARA, wincrypt/PCERT_SYSTEM_STORE_RELOCATE_PARA"
+ms.keywords: '*PCERT_SYSTEM_STORE_RELOCATE_PARA, CERT_SYSTEM_STORE_RELOCATE_PARA, CERT_SYSTEM_STORE_RELOCATE_PARA structure [Security], PCERT_SYSTEM_STORE_RELOCATE_PARA, PCERT_SYSTEM_STORE_RELOCATE_PARA structure pointer [Security], _crypto2_cert_system_store_relocate_para, security.cert_system_store_relocate_para, wincrypt/CERT_SYSTEM_STORE_RELOCATE_PARA, wincrypt/PCERT_SYSTEM_STORE_RELOCATE_PARA'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_SYSTEM_STORE_RELOCATE_PARA"
+f1_keywords:
+- wincrypt/CERT_SYSTEM_STORE_RELOCATE_PARA
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_SYSTEM_STORE_RELOCATE_PARA
+- CERT_SYSTEM_STORE_RELOCATE_PARA
 targetos: Windows
 req.typenames: CERT_SYSTEM_STORE_RELOCATE_PARA, *PCERT_SYSTEM_STORE_RELOCATE_PARA
 req.redist: 

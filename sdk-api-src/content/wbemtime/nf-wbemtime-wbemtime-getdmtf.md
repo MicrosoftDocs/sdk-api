@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemtime.WBEMTime.GetDMTF
 title: WBEMTime::GetDMTF (wbemtime.h)
-
 description: The GetDMTF method converts a BSTR value to CIM Date and Time Format.
 old-location: wmi\wbemtime_getdmtf.htm
 tech.root: WmiSdk
 ms.assetid: 3bfcf7f8-0b0c-4a3f-83c7-be4c37753a7a
-
 ms.date: 12/05/2018
-ms.keywords: "?GetDMTF@WBEMTime@@QBEPAGH@Z, ?GetDMTF@WBEMTime@@QEBAPEAGH@Z, GetDMTF, GetDMTF method [Windows Management Instrumentation], GetDMTF method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetDMTF method, WBEMTime.GetDMTF, WBEMTime::GetDMTF, _hmm_wbemtime_getdmtf, wbemtime/WBEMTime::GetDMTF, wmi.wbemtime_getdmtf"
+ms.keywords: ?GetDMTF@WBEMTime@@QBEPAGH@Z, ?GetDMTF@WBEMTime@@QEBAPEAGH@Z, GetDMTF, GetDMTF method [Windows Management Instrumentation], GetDMTF method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetDMTF method, WBEMTime.GetDMTF, WBEMTime::GetDMTF, _hmm_wbemtime_getdmtf, wbemtime/WBEMTime::GetDMTF, wmi.wbemtime_getdmtf
 ms.topic: method
-f1_keywords: 
- - "wbemtime/WBEMTime.GetDMTF"
+f1_keywords:
+- wbemtime/WBEMTime.GetDMTF
 dev_langs:
- - c++
+- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - WBEMTime.GetDMTF
- - ?GetDMTF@WBEMTime@@QBEPAGH@Z
- - ?GetDMTF@WBEMTime@@QEBAPEAGH@Z
+- WBEMTime.GetDMTF
+- ?GetDMTF@WBEMTime@@QBEPAGH@Z
+- ?GetDMTF@WBEMTime@@QEBAPEAGH@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiSummaryInfoGetPropertyA
 title: MsiSummaryInfoGetPropertyA function (msiquery.h)
-
 description: The MsiSummaryInfoGetProperty function gets a single property from the summary information stream.
 old-location: setup\msisummaryinfogetproperty.htm
 tech.root: Msi
 ms.assetid: 7df4bd31-85a7-4b61-beaf-5c1f2117e6f5
-
 ms.date: 12/05/2018
 ms.keywords: MsiSummaryInfoGetProperty, MsiSummaryInfoGetProperty function, MsiSummaryInfoGetPropertyA, MsiSummaryInfoGetPropertyW, _msi_msisummaryinfogetproperty, msiquery/MsiSummaryInfoGetProperty, msiquery/MsiSummaryInfoGetPropertyA, msiquery/MsiSummaryInfoGetPropertyW, setup.msisummaryinfogetproperty
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiSummaryInfoGetProperty"
+f1_keywords:
+- msiquery/MsiSummaryInfoGetProperty
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
- - Ext-MS-Win-MSI-Misc-l1-1-0.dll
+- Msi.dll
+- Ext-MS-Win-MSI-Misc-l1-1-0.dll
 api_name:
- - MsiSummaryInfoGetProperty
- - MsiSummaryInfoGetPropertyA
- - MsiSummaryInfoGetPropertyW
+- MsiSummaryInfoGetProperty
+- MsiSummaryInfoGetPropertyA
+- MsiSummaryInfoGetPropertyW
 targetos: Windows
 req.typenames: 
 req.redist: 

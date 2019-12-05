@@ -1,19 +1,17 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolSettings
 title: IWRdsProtocolSettings (wtsprotocol.h)
-
 description: Exposes methods for retrieving and adding policy-related settings.
 old-location: termserv\iwrdsprotocolsettings.htm
 tech.root: TermServ
 ms.assetid: 3680a001-e162-4930-985f-5c50c2e8a8b9
-
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolSettings, IWRdsProtocolSettings interface [Remote Desktop Services], IWRdsProtocolSettings interface [Remote Desktop Services],described, termserv.iwrdsprotocolsettings, wtsprotocol/IWRdsProtocolSettings
 ms.topic: interface
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolSettings"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolSettings
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolSettings
+- IWRdsProtocolSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

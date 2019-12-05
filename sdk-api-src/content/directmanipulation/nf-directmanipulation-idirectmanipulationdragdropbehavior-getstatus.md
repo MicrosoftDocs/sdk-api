@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationDragDropBehavior.GetStatus
 title: IDirectManipulationDragDropBehavior::GetStatus (directmanipulation.h)
-
 description: Gets the status of the drag-drop interaction for the viewport this behavior is attached to.
 old-location: directmanipulation\idirectmanipulationdragdropbehavior_getstatus.htm
 tech.root: directmanipulation
 ms.assetid: 40D706B0-E396-436C-BD0B-66B8F6EFA5B1
-
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [Direct Manipulation], GetStatus method [Direct Manipulation],IDirectManipulationDragDropBehavior interface, IDirectManipulationDragDropBehavior interface [Direct Manipulation],GetStatus method, IDirectManipulationDragDropBehavior.GetStatus, IDirectManipulationDragDropBehavior::GetStatus, directmanipulation.idirectmanipulationdragdropbehavior_getstatus, directmanipulation/IDirectManipulationDragDropBehavior::GetStatus
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationDragDropBehavior.GetStatus"
+f1_keywords:
+- directmanipulation/IDirectManipulationDragDropBehavior.GetStatus
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationDragDropBehavior.GetStatus
+- IDirectManipulationDragDropBehavior.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

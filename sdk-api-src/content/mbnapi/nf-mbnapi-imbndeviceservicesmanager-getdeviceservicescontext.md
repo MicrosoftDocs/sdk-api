@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesManager.GetDeviceServicesContext
 title: IMbnDeviceServicesManager::GetDeviceServicesContext (mbnapi.h)
-
 description: Gets the IMbnDeviceServicesContext interface for a specific Mobile Broadband device.
 old-location: mbn\imbndeviceservicesmanager_getdeviceservicescontext.htm
 tech.root: mbn
 ms.assetid: 20AD207B-6FC3-4493-81F7-41619CA703DB
-
 ms.date: 12/05/2018
 ms.keywords: GetDeviceServicesContext, GetDeviceServicesContext method [Microsoft Broadband Networks], GetDeviceServicesContext method [Microsoft Broadband Networks],IMbnDeviceServicesManager interface, IMbnDeviceServicesManager interface [Microsoft Broadband Networks],GetDeviceServicesContext method, IMbnDeviceServicesManager.GetDeviceServicesContext, IMbnDeviceServicesManager::GetDeviceServicesContext, mbn.imbndeviceservicesmanager_getdeviceservicescontext, mbnapi/IMbnDeviceServicesManager::GetDeviceServicesContext
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnDeviceServicesManager.GetDeviceServicesContext"
+f1_keywords:
+- mbnapi/IMbnDeviceServicesManager.GetDeviceServicesContext
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnDeviceServicesManager.GetDeviceServicesContext
+- IMbnDeviceServicesManager.GetDeviceServicesContext
 targetos: Windows
 req.typenames: 
 req.redist: 

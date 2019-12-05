@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMExtendedSeeking.get_CurrentMarker
 title: IAMExtendedSeeking::get_CurrentMarker (qnetwork.h)
-
 description: The get_CurrentMarker method retrieves the current marker.
 old-location: dshow\iamextendedseeking_get_currentmarker.htm
 tech.root: DirectShow
 ms.assetid: dd2d2054-0f92-4ba5-8913-24278e01775e
-
 ms.date: 12/05/2018
 ms.keywords: IAMExtendedSeeking interface [DirectShow],get_CurrentMarker method, IAMExtendedSeeking.get_CurrentMarker, IAMExtendedSeeking::get_CurrentMarker, IAMExtendedSeekingget_CurrentMarker, dshow.iamextendedseeking_get_currentmarker, get_CurrentMarker, get_CurrentMarker method [DirectShow], get_CurrentMarker method [DirectShow],IAMExtendedSeeking interface, qnetwork/IAMExtendedSeeking::get_CurrentMarker
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMExtendedSeeking.get_CurrentMarker"
+f1_keywords:
+- qnetwork/IAMExtendedSeeking.get_CurrentMarker
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMExtendedSeeking.get_CurrentMarker
+- IAMExtendedSeeking.get_CurrentMarker
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITAddressTranslation.EnumerateLocations
 title: ITAddressTranslation::EnumerateLocations (tapi3if.h)
-
 description: The EnumerateLocations method enumerates the currently available address locations. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get_Locations method.
 old-location: tapi3\itaddresstranslation_enumeratelocations.htm
 tech.root: Tapi
 ms.assetid: b286c738-1037-4a11-8c71-192b050d1502
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateLocations, EnumerateLocations method [TAPI 2.2], EnumerateLocations method [TAPI 2.2],ITAddressTranslation interface, ITAddressTranslation interface [TAPI 2.2],EnumerateLocations method, ITAddressTranslation.EnumerateLocations, ITAddressTranslation::EnumerateLocations, _tapi3_itaddresstranslation_enumeratelocations, tapi3.itaddresstranslation_enumeratelocations, tapi3if/ITAddressTranslation::EnumerateLocations
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITAddressTranslation.EnumerateLocations"
+f1_keywords:
+- tapi3if/ITAddressTranslation.EnumerateLocations
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAddressTranslation.EnumerateLocations
+- ITAddressTranslation.EnumerateLocations
 targetos: Windows
 req.typenames: 
 req.redist: 

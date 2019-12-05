@@ -1,19 +1,17 @@
 ---
 UID: NF:pathcch.PathCchAppendEx
 title: PathCchAppendEx function (pathcch.h)
-
 description: Appends one path to the end of another.This function differs from PathCchAppend in that it allows for a longer final path to be constructed.This function differs from PathAppend in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
 old-location: shell\PathCchAppendEx.htm
 tech.root: shell
 ms.assetid: 5421c666-1c8a-4ae8-baba-9e6f69c877df
-
 ms.date: 12/05/2018
 ms.keywords: PATHCCH_ALLOW_LONG_PATHS, PATHCCH_DO_NOT_NORMALIZE_SEGMENTS, PATHCCH_ENSURE_IS_EXTENDED_LENGTH_PATH, PATHCCH_FORCE_DISABLE_LONG_NAME_PROCESS, PATHCCH_FORCE_ENABLE_LONG_NAME_PROCESS, PATHCCH_NONE, PathCchAppendEx, PathCchAppendEx function [Windows Shell], pathcch/PathCchAppendEx, shell.PathCchAppendEx
 ms.topic: function
-f1_keywords: 
- - "pathcch/PathCchAppendEx"
+f1_keywords:
+- pathcch/PathCchAppendEx
 dev_langs:
- - c++
+- c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - pathcch.lib
- - API-MS-Win-Core-Path-l1-1-0.dll
- - KernelBase.dll
+- pathcch.lib
+- API-MS-Win-Core-Path-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - PathCchAppendEx
+- PathCchAppendEx
 targetos: Windows
 req.typenames: 
 req.redist: 

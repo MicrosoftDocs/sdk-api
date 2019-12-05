@@ -1,19 +1,17 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.GetOutputStreamAttributes
 title: IMFDeviceTransform::GetOutputStreamAttributes (mftransform.h)
-
 description: The GetOutputStreamAttributes method gets the attribute store for an output stream on this Media Foundation transform (MFT).
 old-location: stream\imfdevicetransform_getoutputstreamattributes.htm
 tech.root: stream
 ms.assetid: ABC8699B-0DFB-401B-9DB2-F3EBA5A64C8B
-
 ms.date: 12/05/2018
 ms.keywords: GetOutputStreamAttributes, GetOutputStreamAttributes method [Streaming Media Devices], GetOutputStreamAttributes method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetOutputStreamAttributes method, IMFDeviceTransform.GetOutputStreamAttributes, IMFDeviceTransform::GetOutputStreamAttributes, mftransform/IMFDeviceTransform::GetOutputStreamAttributes, stream.imfdevicetransform_getoutputstreamattributes
 ms.topic: method
-f1_keywords: 
- - "mftransform/IMFDeviceTransform.GetOutputStreamAttributes"
+f1_keywords:
+- mftransform/IMFDeviceTransform.GetOutputStreamAttributes
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mftransform.h
+- mftransform.h
 api_name:
- - IMFDeviceTransform.GetOutputStreamAttributes
+- IMFDeviceTransform.GetOutputStreamAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

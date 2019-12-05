@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcnsi.RpcNsEntryExpandNameW
 title: RpcNsEntryExpandNameW function (rpcnsi.h)
-
 description: The RpcNsEntryExpandName function expands a name-service entry name. This function is supported by Active Directory.
 old-location: rpc\rpcnsentryexpandname.htm
 tech.root: Rpc
 ms.assetid: a93052c2-3fb1-448a-b4bf-70b9676de69a
-
 ms.date: 12/05/2018
 ms.keywords: RpcNsEntryExpandName, RpcNsEntryExpandName function [RPC], RpcNsEntryExpandNameA, RpcNsEntryExpandNameW, _rpc_rpcnsentryexpandname, rpc.rpcnsentryexpandname, rpcnsi/RpcNsEntryExpandName, rpcnsi/RpcNsEntryExpandNameA, rpcnsi/RpcNsEntryExpandNameW
 ms.topic: function
-f1_keywords: 
- - "rpcnsi/RpcNsEntryExpandName"
+f1_keywords:
+- rpcnsi/RpcNsEntryExpandName
 dev_langs:
- - c++
+- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcns4.dll
+- Rpcns4.dll
 api_name:
- - RpcNsEntryExpandName
- - RpcNsEntryExpandNameA
- - RpcNsEntryExpandNameW
+- RpcNsEntryExpandName
+- RpcNsEntryExpandNameA
+- RpcNsEntryExpandNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IPropertyPage.Show
 title: IPropertyPage::Show (ocidl.h)
-
 description: Makes the property page dialog box visible or invisible. If the page is made visible, the page should set the focus to itself, specifically to the first property on the page.
 old-location: com\ipropertypage_show.htm
 tech.root: com
 ms.assetid: f89aa820-a3d3-4a41-b2b2-9ee48354fbeb
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyPage interface [COM],Show method, IPropertyPage.Show, IPropertyPage::Show, Show, Show method [COM], Show method [COM],IPropertyPage interface, _ctrl_ipropertypage_show, com.ipropertypage_show, ocidl/IPropertyPage::Show
 ms.topic: method
-f1_keywords: 
- - "ocidl/IPropertyPage.Show"
+f1_keywords:
+- ocidl/IPropertyPage.Show
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPropertyPage.Show
+- IPropertyPage.Show
 targetos: Windows
 req.typenames: 
 req.redist: 

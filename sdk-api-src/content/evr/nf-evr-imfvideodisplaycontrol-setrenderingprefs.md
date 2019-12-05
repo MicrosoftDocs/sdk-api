@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.SetRenderingPrefs
 title: IMFVideoDisplayControl::SetRenderingPrefs (evr.h)
-
 description: Sets various preferences related to video rendering.
 old-location: mf\imfvideodisplaycontrol_setrenderingprefs.htm
 tech.root: medfound
 ms.assetid: 7603aaf8-1671-4b35-bee5-335f656de3c5
-
 ms.date: 12/05/2018
 ms.keywords: 7603aaf8-1671-4b35-bee5-335f656de3c5, IMFVideoDisplayControl interface [Media Foundation],SetRenderingPrefs method, IMFVideoDisplayControl.SetRenderingPrefs, IMFVideoDisplayControl::SetRenderingPrefs, SetRenderingPrefs, SetRenderingPrefs method [Media Foundation], SetRenderingPrefs method [Media Foundation],IMFVideoDisplayControl interface, evr/IMFVideoDisplayControl::SetRenderingPrefs, mf.imfvideodisplaycontrol_setrenderingprefs
 ms.topic: method
-f1_keywords: 
- - "evr/IMFVideoDisplayControl.SetRenderingPrefs"
+f1_keywords:
+- evr/IMFVideoDisplayControl.SetRenderingPrefs
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoDisplayControl.SetRenderingPrefs
+- IMFVideoDisplayControl.SetRenderingPrefs
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupGetStringFieldA
 title: SetupGetStringFieldA function (setupapi.h)
-
 description: The SetupGetStringField function retrieves a string from the specified field of a line in an INF file.
 old-location: setup\setupgetstringfield.htm
 tech.root: SetupApi
 ms.assetid: fc735827-37ae-4d77-a0d4-4d31f0225d69
-
 ms.date: 12/05/2018
 ms.keywords: SetupGetStringField, SetupGetStringField function [Setup API], SetupGetStringFieldA, SetupGetStringFieldW, _setupapi_setupgetstringfield, setup.setupgetstringfield, setupapi/SetupGetStringField, setupapi/SetupGetStringFieldA, setupapi/SetupGetStringFieldW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupGetStringField"
+f1_keywords:
+- setupapi/SetupGetStringField
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
- - Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
+- Setupapi.dll
+- Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
 api_name:
- - SetupGetStringField
- - SetupGetStringFieldA
- - SetupGetStringFieldW
+- SetupGetStringField
+- SetupGetStringFieldA
+- SetupGetStringFieldW
 targetos: Windows
 req.typenames: 
 req.redist: 

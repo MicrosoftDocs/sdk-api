@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleLoad
 title: OleLoad function (ole2.h)
-
 description: Loads into memory an object nested within a specified storage object.
 old-location: com\oleload.htm
 tech.root: com
 ms.assetid: f2d8bb2e-5bd1-4991-a80c-ed06bfd5c9f9
-
 ms.date: 12/05/2018
 ms.keywords: OleLoad, OleLoad function [COM], _ole_OleLoad, com.oleload, ole2/OleLoad
 ms.topic: function
-f1_keywords: 
- - "ole2/OleLoad"
+f1_keywords:
+- ole2/OleLoad
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - OleLoad
+- OleLoad
 targetos: Windows
 req.typenames: 
 req.redist: 

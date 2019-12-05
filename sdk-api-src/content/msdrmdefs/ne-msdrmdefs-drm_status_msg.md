@@ -1,19 +1,17 @@
 ---
 UID: NE:msdrmdefs._DRM_STATUS_MSG
 title: DRM_STATUS_MSG (msdrmdefs.h)
-
 description: Used by the custom callback function to specify why the callback function is being called.
 old-location: rm\drm_status_msg.htm
 tech.root: AdRms_Sdk
 ms.assetid: 9420c415-09ef-43a0-b458-bfaae9857314
-
 ms.date: 12/05/2018
 ms.keywords: DRM_MSG_ACQUIRE_ADVISORY, DRM_MSG_ACQUIRE_CLIENTLICENSOR, DRM_MSG_ACQUIRE_ISSUANCE_LICENSE_TEMPLATE, DRM_MSG_ACQUIRE_LICENSE, DRM_MSG_ACTIVATE_GROUPIDENTITY, DRM_MSG_ACTIVATE_MACHINE, DRM_MSG_SIGN_ISSUANCE_LICENSE, DRM_STATUS_MSG, DRM_STATUS_MSG enumeration [Active Directory Rights Management Services SDK 1.0], msdrmdefs/DRM_MSG_ACQUIRE_ADVISORY, msdrmdefs/DRM_MSG_ACQUIRE_CLIENTLICENSOR, msdrmdefs/DRM_MSG_ACQUIRE_ISSUANCE_LICENSE_TEMPLATE, msdrmdefs/DRM_MSG_ACQUIRE_LICENSE, msdrmdefs/DRM_MSG_ACTIVATE_GROUPIDENTITY, msdrmdefs/DRM_MSG_ACTIVATE_MACHINE, msdrmdefs/DRM_MSG_SIGN_ISSUANCE_LICENSE, msdrmdefs/DRM_STATUS_MSG, rm.drm_status_msg
 ms.topic: enum
-f1_keywords: 
- - "msdrmdefs/DRM_STATUS_MSG"
+f1_keywords:
+- msdrmdefs/DRM_STATUS_MSG
 dev_langs:
- - c++
+- c++
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msdrmdefs.h
+- Msdrmdefs.h
 api_name:
- - DRM_STATUS_MSG
+- DRM_STATUS_MSG
 targetos: Windows
 req.typenames: DRM_STATUS_MSG
 req.redist: 

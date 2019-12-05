@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFStreamDescriptor
 title: IMFStreamDescriptor (mfidl.h)
-
 description: Gets information about one stream in a media source.
 old-location: mf\imfstreamdescriptor.htm
 tech.root: medfound
 ms.assetid: a076dc6e-d9cb-4f7e-8cc2-b66292da295f
-
 ms.date: 12/05/2018
 ms.keywords: IMFStreamDescriptor, IMFStreamDescriptor interface [Media Foundation], IMFStreamDescriptor interface [Media Foundation],described, a076dc6e-d9cb-4f7e-8cc2-b66292da295f, mf.imfstreamdescriptor, mfidl/IMFStreamDescriptor
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFStreamDescriptor"
+f1_keywords:
+- mfidl/IMFStreamDescriptor
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFStreamDescriptor
+- IMFStreamDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

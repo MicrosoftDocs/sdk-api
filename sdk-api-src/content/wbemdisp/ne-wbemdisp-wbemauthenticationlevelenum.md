@@ -1,19 +1,17 @@
 ---
 UID: NE:wbemdisp.WbemAuthenticationLevelEnum
 title: WbemAuthenticationLevelEnum (wbemdisp.h)
-
 description: Define the security authentication levels.
 old-location: wmi\wbemauthenticationlevelenum.htm
 tech.root: WmiSdk
 ms.assetid: 1789b25a-e9a0-42a3-97c2-077e902a2f41
-
 ms.date: 12/05/2018
 ms.keywords: WbemAuthenticationLevelCall, WbemAuthenticationLevelConnect, WbemAuthenticationLevelDefault, WbemAuthenticationLevelEnum, WbemAuthenticationLevelEnum enumeration [Windows Management Instrumentation], WbemAuthenticationLevelNone, WbemAuthenticationLevelPkt, WbemAuthenticationLevelPktIntegrity, WbemAuthenticationLevelPktPrivacy, _hmm_wbemauthenticationlevelenum, wbemdisp/WbemAuthenticationLevelCall, wbemdisp/WbemAuthenticationLevelConnect, wbemdisp/WbemAuthenticationLevelDefault, wbemdisp/WbemAuthenticationLevelEnum, wbemdisp/WbemAuthenticationLevelNone, wbemdisp/WbemAuthenticationLevelPkt, wbemdisp/WbemAuthenticationLevelPktIntegrity, wbemdisp/WbemAuthenticationLevelPktPrivacy, wmi.wbemauthenticationlevelenum
 ms.topic: enum
-f1_keywords: 
- - "wbemdisp/WbemAuthenticationLevelEnum"
+f1_keywords:
+- wbemdisp/WbemAuthenticationLevelEnum
 dev_langs:
- - c++
+- c++
 req.header: wbemdisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wbemdisp.h
+- Wbemdisp.h
 api_name:
- - WbemAuthenticationLevelEnum
+- WbemAuthenticationLevelEnum
 targetos: Windows
 req.typenames: WbemAuthenticationLevelEnum
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wdspxe.PxeDhcpv6ParseRelayForw
 title: PxeDhcpv6ParseRelayForw function (wdspxe.h)
-
 description: This function can be used by a provider to parse RELAY-FORW messages and their nested OPTION_RELAY_MSG messages.
 old-location: wds\pxedhcpv6parserelayforw.htm
 tech.root: wds
 ms.assetid: 1D9F1FFF-3ABB-4580-A5F2-C74B5E7EEAC9
-
 ms.date: 12/05/2018
 ms.keywords: PxeDhcpv6ParseRelayForw, PxeDhcpv6ParseRelayForw function [Windows Deployment Services], wds.pxedhcpv6parserelayforw, wdspxe/PxeDhcpv6ParseRelayForw
 ms.topic: function
-f1_keywords: 
- - "wdspxe/PxeDhcpv6ParseRelayForw"
+f1_keywords:
+- wdspxe/PxeDhcpv6ParseRelayForw
 dev_langs:
- - c++
+- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsPxe.lib
 req.dll: WdsPxe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsPxe.dll
+- WdsPxe.dll
 api_name:
- - PxeDhcpv6ParseRelayForw
+- PxeDhcpv6ParseRelayForw
 targetos: Windows
 req.typenames: 
 req.redist: 

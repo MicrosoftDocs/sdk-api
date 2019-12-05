@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.ISurfaceImageSourceNative.SetDevice
 title: ISurfaceImageSourceNative::xaml (windows.ui.xaml.media.dxinterop.h)
-
 description: Sets the DXGI device, created with D3D11_CREATE_DEVICE_BGRA_SUPPORT, that will draw the surface.
 old-location: winrt\isurfaceimagesourcenative_setdevice.htm
 tech.root: WinRT
 ms.assetid: 24DF51D3-3438-4AB4-BCA9-D5E2051B3CEA
-
 ms.date: 12/05/2018
 ms.keywords: ISurfaceImageSourceNative interface [Windows Runtime],SetDevice method, ISurfaceImageSourceNative.SetDevice, ISurfaceImageSourceNative.xaml, ISurfaceImageSourceNative::SetDevice, ISurfaceImageSourceNative::xaml, SetDevice, SetDevice method [Windows Runtime], SetDevice method [Windows Runtime],ISurfaceImageSourceNative interface, windows/ISurfaceImageSourceNative::SetDevice, winrt.isurfaceimagesourcenative_setdevice
 ms.topic: method
-f1_keywords: 
- - "windows.ui.xaml.media.dxinterop/ISurfaceImageSourceNative.SetDevice"
+f1_keywords:
+- windows.ui.xaml.media.dxinterop/ISurfaceImageSourceNative.SetDevice
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Windows.UI.Xaml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.UI.Xaml.dll
+- Windows.UI.Xaml.dll
 api_name:
- - ISurfaceImageSourceNative.SetDevice
+- ISurfaceImageSourceNative.SetDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

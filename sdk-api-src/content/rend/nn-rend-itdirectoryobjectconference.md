@@ -1,19 +1,17 @@
 ---
 UID: NN:rend.ITDirectoryObjectConference
 title: ITDirectoryObjectConference (rend.h)
-
 description: The ITDirectoryObjectConference interface provides methods that allow an application to set and get conference details. The ITDirectoryObjectConference interface is created by calling QueryInterface on ITDirectoryObject.
 old-location: tapi3\itdirectoryobjectconference.htm
 tech.root: Tapi
 ms.assetid: bab167cf-2726-4423-87b3-69227404bddc
-
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference, ITDirectoryObjectConference interface [TAPI 2.2], ITDirectoryObjectConference interface [TAPI 2.2],described, _tapi3_itdirectoryobjectconference, rend/ITDirectoryObjectConference, tapi3.itdirectoryobjectconference
 ms.topic: interface
-f1_keywords: 
- - "rend/ITDirectoryObjectConference"
+f1_keywords:
+- rend/ITDirectoryObjectConference
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - ITDirectoryObjectConference
+- ITDirectoryObjectConference
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ITransactionProxy.CreateVoter
 title: ITransactionProxy::CreateVoter (comsvcs.h)
-
 description: Provides a ballot so that a COM+ transaction context can vote on the transaction.
 old-location: cos\itransactionproxy_createvoter.htm
 tech.root: cossdk
 ms.assetid: dd837082-881e-4f7e-b71e-c0f6068e3cdb
-
 ms.date: 12/05/2018
 ms.keywords: CreateVoter, CreateVoter method [COM+], CreateVoter method [COM+],ITransactionProxy interface, ITransactionProxy interface [COM+],CreateVoter method, ITransactionProxy.CreateVoter, ITransactionProxy::CreateVoter, comsvcs/ITransactionProxy::CreateVoter, cos.itransactionproxy_createvoter
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ITransactionProxy.CreateVoter"
+f1_keywords:
+- comsvcs/ITransactionProxy.CreateVoter
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ITransactionProxy.CreateVoter
+- ITransactionProxy.CreateVoter
 targetos: Windows
 req.typenames: 
 req.redist: 

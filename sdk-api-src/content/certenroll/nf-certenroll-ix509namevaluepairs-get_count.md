@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509NameValuePairs.get_Count
 title: IX509NameValuePairs::get_Count (certenroll.h)
-
 description: Retrieves the number of IX509NameValuePair objects in the collection.
 old-location: security\ix509namevaluepairs_count_property.htm
 tech.root: seccertenroll
 ms.assetid: 52bbd5af-4bd7-4520-b4cd-6a3d92485322
-
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],IX509NameValuePairs interface, IX509NameValuePairs interface [Security],Count property, IX509NameValuePairs.Count, IX509NameValuePairs.get_Count, IX509NameValuePairs::Count, IX509NameValuePairs::get_Count, certenroll/IX509NameValuePairs::Count, certenroll/IX509NameValuePairs::get_Count, get_Count, security.ix509namevaluepairs_count_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509NameValuePairs.Count"
+f1_keywords:
+- certenroll/IX509NameValuePairs.Count
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509NameValuePairs.Count
- - IX509NameValuePairs.get_Count
+- IX509NameValuePairs.Count
+- IX509NameValuePairs.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:termmgr.ITTerminalManager2.GetPluggableTerminalClasses
 title: ITTerminalManager2::GetPluggableTerminalClasses (termmgr.h)
-
 description: The GetPluggableTerminalClasses method lists the terminal classes for all pluggable terminals registered under a terminal superclass.
 old-location: tapi3\itterminalmanager2_getpluggableterminalclasses.htm
 tech.root: Tapi
 ms.assetid: 7f967958-fc32-4336-aae5-bea180ba86d1
-
 ms.date: 12/05/2018
 ms.keywords: GetPluggableTerminalClasses, GetPluggableTerminalClasses method [TAPI 2.2], GetPluggableTerminalClasses method [TAPI 2.2],ITTerminalManager2 interface, ITTerminalManager2 interface [TAPI 2.2],GetPluggableTerminalClasses method, ITTerminalManager2.GetPluggableTerminalClasses, ITTerminalManager2::GetPluggableTerminalClasses, _tapi3_itterminalmanager2_getpluggableterminalclasses, tapi3.itterminalmanager2_getpluggableterminalclasses, termmgr/ITTerminalManager2::GetPluggableTerminalClasses
 ms.topic: method
-f1_keywords: 
- - "termmgr/ITTerminalManager2.GetPluggableTerminalClasses"
+f1_keywords:
+- termmgr/ITTerminalManager2.GetPluggableTerminalClasses
 dev_langs:
- - c++
+- c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Termmgr.h
+- Termmgr.h
 api_name:
- - ITTerminalManager2.GetPluggableTerminalClasses
+- ITTerminalManager2.GetPluggableTerminalClasses
 targetos: Windows
 req.typenames: 
 req.redist: 

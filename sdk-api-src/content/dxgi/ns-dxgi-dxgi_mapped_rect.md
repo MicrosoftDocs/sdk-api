@@ -1,19 +1,17 @@
 ---
 UID: NS:dxgi.DXGI_MAPPED_RECT
 title: DXGI_MAPPED_RECT (dxgi.h)
-
 description: Describes a mapped rectangle that is used to access a surface.
 old-location: direct3ddxgi\dxgi_mapped_rect.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_mapped_rect.htm
-
 ms.date: 12/05/2018
 ms.keywords: 44004772-851a-9ebf-10ab-60178c7e35c5, DXGI_MAPPED_RECT, DXGI_MAPPED_RECT structure [DXGI], direct3ddxgi.dxgi_mapped_rect, dxgi/DXGI_MAPPED_RECT
 ms.topic: struct
-f1_keywords: 
- - "dxgi/DXGI_MAPPED_RECT"
+f1_keywords:
+- dxgi/DXGI_MAPPED_RECT
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DXGI.h
+- DXGI.h
 api_name:
- - DXGI_MAPPED_RECT
+- DXGI_MAPPED_RECT
 targetos: Windows
 req.typenames: DXGI_MAPPED_RECT
 req.redist: 

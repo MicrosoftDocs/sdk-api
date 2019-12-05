@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkPicture.SetWindowInputRectangle
 title: IInkPicture::SetWindowInputRectangle (msinkaut.h)
-
 description: Modifies the window rectangle, in pixels, within which ink is drawn.
 old-location: tablet\inkpicture_setwindowinputrectangle.htm
 tech.root: tablet
 ms.assetid: 3602a550-d37b-4a78-b949-04f5e3cb923a
-
 ms.date: 12/05/2018
 ms.keywords: IInkPicture interface [Tablet PC],SetWindowInputRectangle method, IInkPicture.SetWindowInputRectangle, IInkPicture::SetWindowInputRectangle, SetWindowInputRectangle, SetWindowInputRectangle method [Tablet PC], SetWindowInputRectangle method [Tablet PC],IInkPicture interface, b46139db-0473-4cd3-8f1b-d303f3430470, msinkaut/IInkPicture::SetWindowInputRectangle, tablet.inkpicture_setwindowinputrectangle
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkPicture.SetWindowInputRectangle"
+f1_keywords:
+- msinkaut/IInkPicture.SetWindowInputRectangle
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkPicture.SetWindowInputRectangle
+- IInkPicture.SetWindowInputRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 

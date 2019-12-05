@@ -1,19 +1,17 @@
 ---
 UID: NC:wingdi.GOBJENUMPROC
 title: GOBJENUMPROC (wingdi.h)
-
 description: The EnumObjectsProc function is an application-defined callback function used with the EnumObjects function.
 old-location: gdi\enumobjectsproc.htm
 tech.root: gdi
 ms.assetid: 05a0f329-add9-4e92-9a9a-e2cf0ba5a1c3
-
 ms.date: 12/05/2018
 ms.keywords: GOBJENUMPROC, GOBJENUMPROC callback, GOBJENUMPROC callback function [Windows GDI], _win32_EnumObjectsProc, gdi.enumobjectsproc, wingdi/GOBJENUMPROC
 ms.topic: callback
-f1_keywords: 
- - "wingdi/GOBJENUMPROC"
+f1_keywords:
+- wingdi/GOBJENUMPROC
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - GOBJENUMPROC
+- GOBJENUMPROC
 targetos: Windows
 req.typenames: 
 req.redist: 

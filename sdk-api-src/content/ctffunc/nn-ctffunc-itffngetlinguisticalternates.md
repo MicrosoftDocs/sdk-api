@@ -1,19 +1,17 @@
 ---
 UID: NN:ctffunc.ITfFnGetLinguisticAlternates
 title: ITfFnGetLinguisticAlternates (ctffunc.h)
-
 description: The ITfFnGetLinguisticAlternates interface is implemented by a text service and/or by the TSF manager to provide linguistic alternates for the text within a given range passed as a parameter.
 old-location: tsf\itffngetlinguisticalternates.htm
 tech.root: TSF
 ms.assetid: 854FB6EC-CEF1-4FB6-AA5F-34B26B46A3CA
-
 ms.date: 12/05/2018
 ms.keywords: ITfFnGetLinguisticAlternates, ITfFnGetLinguisticAlternates interface [Text Services Framework], ITfFnGetLinguisticAlternates interface [Text Services Framework],described, ctffunc/ITfFnGetLinguisticAlternates, tsf.itffngetlinguisticalternates
 ms.topic: interface
-f1_keywords: 
- - "ctffunc/ITfFnGetLinguisticAlternates"
+f1_keywords:
+- ctffunc/ITfFnGetLinguisticAlternates
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ctffunc.h
+- Ctffunc.h
 api_name:
- - ITfFnGetLinguisticAlternates
+- ITfFnGetLinguisticAlternates
 targetos: Windows
 req.typenames: 
 req.redist: 

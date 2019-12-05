@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IPBDAEntitlementDescriptor.GetToken
 title: IPBDAEntitlementDescriptor::GetToken (dvbsiparser.h)
-
 description: Gets the entitlement token from the entitlement descriptor in a Protected Broadcast Driver Architecture (PBDA) transport stream.
 old-location: mstv\ipbdaentitlementdescriptor_gettoken.htm
 tech.root: mstv
 ms.assetid: 3fc73b0c-cacb-491b-b25b-49eb57154a37
-
 ms.date: 12/05/2018
 ms.keywords: GetToken, GetToken method [Microsoft TV Technologies], GetToken method [Microsoft TV Technologies],IPBDAEntitlementDescriptor interface, IPBDAEntitlementDescriptor interface [Microsoft TV Technologies],GetToken method, IPBDAEntitlementDescriptor.GetToken, IPBDAEntitlementDescriptor::GetToken, dvbsiparser/IPBDAEntitlementDescriptor::GetToken, mstv.ipbdaentitlementdescriptor_gettoken
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IPBDAEntitlementDescriptor.GetToken"
+f1_keywords:
+- dvbsiparser/IPBDAEntitlementDescriptor.GetToken
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IPBDAEntitlementDescriptor.GetToken
+- IPBDAEntitlementDescriptor.GetToken
 targetos: Windows
 req.typenames: 
 req.redist: 

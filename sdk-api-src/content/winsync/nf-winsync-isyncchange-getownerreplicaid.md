@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncChange.GetOwnerReplicaId
 title: ISyncChange::GetOwnerReplicaId (winsync.h)
-
 description: Gets the ID of the replica that originated this change.
 old-location: winsync\isyncchange_getownerreplicaid.htm
 tech.root: winsync
 ms.assetid: c65dc19e-e11a-4bd1-b10f-f2af75294d48
-
 ms.date: 12/05/2018
 ms.keywords: GetOwnerReplicaId, GetOwnerReplicaId method [Windows Sync], GetOwnerReplicaId method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetOwnerReplicaId method, ISyncChange.GetOwnerReplicaId, ISyncChange::GetOwnerReplicaId, winsync.isyncchange_getownerreplicaid, winsync/ISyncChange::GetOwnerReplicaId
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncChange.GetOwnerReplicaId"
+f1_keywords:
+- winsync/ISyncChange.GetOwnerReplicaId
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChange.GetOwnerReplicaId
+- ISyncChange.GetOwnerReplicaId
 targetos: Windows
 req.typenames: 
 req.redist: 

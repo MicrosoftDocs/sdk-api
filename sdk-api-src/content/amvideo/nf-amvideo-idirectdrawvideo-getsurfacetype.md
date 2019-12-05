@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.GetSurfaceType
 title: IDirectDrawVideo::GetSurfaceType (amvideo.h)
-
 description: The GetSurfaceType method retrieves the actual surface type as a DirectShow DirectDraw Surface (AMDDS) definition.
 old-location: dshow\idirectdrawvideo_getsurfacetype.htm
 tech.root: DirectShow
 ms.assetid: f5d5c608-1890-43f8-bdf3-3fcb0c6a2f5e
-
 ms.date: 12/05/2018
 ms.keywords: GetSurfaceType, GetSurfaceType method [DirectShow], GetSurfaceType method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],GetSurfaceType method, IDirectDrawVideo.GetSurfaceType, IDirectDrawVideo::GetSurfaceType, IDirectDrawVideoGetSurfaceType, amvideo/IDirectDrawVideo::GetSurfaceType, dshow.idirectdrawvideo_getsurfacetype
 ms.topic: method
-f1_keywords: 
- - "amvideo/IDirectDrawVideo.GetSurfaceType"
+f1_keywords:
+- amvideo/IDirectDrawVideo.GetSurfaceType
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDirectDrawVideo.GetSurfaceType
+- IDirectDrawVideo.GetSurfaceType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetAlphaDisable
 title: IDCompositionTableTransferEffect::SetAlphaDisable (dcomp.h)
-
 description: Specifies whether to apply the transfer function to the Alpha channel.
 old-location: directcomp\idcompositiontabletransfereffect_setalphadisable.htm
 tech.root: directcomp
 ms.assetid: BC05E32A-787C-4472-8C18-D21D32324373
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetAlphaDisable method, IDCompositionTableTransferEffect.SetAlphaDisable, IDCompositionTableTransferEffect::SetAlphaDisable, SetAlphaDisable, SetAlphaDisable method [DirectComposition], SetAlphaDisable method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetAlphaDisable, directcomp.idcompositiontabletransfereffect_setalphadisable
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionTableTransferEffect.SetAlphaDisable"
+f1_keywords:
+- dcomp/IDCompositionTableTransferEffect.SetAlphaDisable
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionTableTransferEffect.SetAlphaDisable
+- IDCompositionTableTransferEffect.SetAlphaDisable
 targetos: Windows
 req.typenames: 
 req.redist: 

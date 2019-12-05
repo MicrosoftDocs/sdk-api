@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif.tagDVD_TitleMainAttributes
 title: DVD_TitleAttributes (strmif.h)
-
 description: The DVD_TitleAttributes structure contains information about a DVD title.
 old-location: dshow\dvd_titleattributes.htm
 tech.root: DirectShow
 ms.assetid: e80baf09-93b7-4285-ac9a-af72cae137de
-
 ms.date: 12/05/2018
 ms.keywords: DVD_TitleAttributes, DVD_TitleAttributes structure [DirectShow], DVD_TitleAttributesStructure, dshow.dvd_titleattributes, strmif/DVD_TitleAttributes
 ms.topic: struct
-f1_keywords: 
- - "strmif/DVD_TitleAttributes"
+f1_keywords:
+- strmif/DVD_TitleAttributes
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - DVD_TitleAttributes
+- DVD_TitleAttributes
 targetos: Windows
 req.typenames: DVD_TitleAttributes
 req.redist: 

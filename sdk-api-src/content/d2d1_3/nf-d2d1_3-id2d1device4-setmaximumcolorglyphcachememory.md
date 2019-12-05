@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1Device4.SetMaximumColorGlyphCacheMemory
 title: ID2D1Device4::SetMaximumColorGlyphCacheMemory (d2d1_3.h)
-
 description: Sets the maximum capacity of the color glyph cache.
 old-location: direct2d\id2d1device4_setmaximumcolorglyphcachememory.htm
 tech.root: Direct2D
 ms.assetid: 477386A0-0EED-489A-BBFD-8371153D5BA1
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1Device4 interface [Direct2D],SetMaximumColorGlyphCacheMemory method, ID2D1Device4.SetMaximumColorGlyphCacheMemory, ID2D1Device4::SetMaximumColorGlyphCacheMemory, SetMaximumColorGlyphCacheMemory, SetMaximumColorGlyphCacheMemory method [Direct2D], SetMaximumColorGlyphCacheMemory method [Direct2D],ID2D1Device4 interface, d2d1_3/ID2D1Device4::SetMaximumColorGlyphCacheMemory, direct2d.id2d1device4_setmaximumcolorglyphcachememory
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1Device4.SetMaximumColorGlyphCacheMemory"
+f1_keywords:
+- d2d1_3/ID2D1Device4.SetMaximumColorGlyphCacheMemory
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Device4.SetMaximumColorGlyphCacheMemory
+- ID2D1Device4.SetMaximumColorGlyphCacheMemory
 targetos: Windows
 req.typenames: 
 req.redist: 

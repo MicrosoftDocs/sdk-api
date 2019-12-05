@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IEventTrigger.put_Delay
 title: IEventTrigger::put_Delay (taskschd.h)
-
 description: Gets or sets a value that indicates the amount of time between when the event occurs and when the task is started.
 old-location: taskschd\ieventtrigger_delay.htm
 tech.root: taskschd
 ms.assetid: 2731ad62-6384-4c66-b66f-b159a5b15cb1
-
 ms.date: 12/05/2018
 ms.keywords: Delay property [Task Scheduler], Delay property [Task Scheduler],IEventTrigger interface, IEventTrigger interface [Task Scheduler],Delay property, IEventTrigger.Delay, IEventTrigger.put_Delay, IEventTrigger::Delay, IEventTrigger::get_Delay, IEventTrigger::put_Delay, put_Delay, taskschd.ieventtrigger_delay, taskschd/IEventTrigger::Delay, taskschd/IEventTrigger::get_Delay, taskschd/IEventTrigger::put_Delay
 ms.topic: method
-f1_keywords: 
- - "taskschd/IEventTrigger.Delay"
+f1_keywords:
+- taskschd/IEventTrigger.Delay
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IEventTrigger.Delay
- - IEventTrigger.get_Delay
- - IEventTrigger.put_Delay
+- IEventTrigger.Delay
+- IEventTrigger.get_Delay
+- IEventTrigger.put_Delay
 targetos: Windows
 req.typenames: 
 req.redist: 

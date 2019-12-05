@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IMtsEventInfo
 title: IMtsEventInfo (comsvcs.h)
-
 description: Describes user-defined events.
 old-location: cos\imtseventinfo.htm
 tech.root: cossdk
 ms.assetid: 9508df6d-281b-4a02-bb95-233b369b8279
-
 ms.date: 12/05/2018
 ms.keywords: IMtsEventInfo, IMtsEventInfo interface [COM+], IMtsEventInfo interface [COM+],described, _dtc_IMtsEventInfo_Interface, comsvcs/IMtsEventInfo, cos.imtseventinfo
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IMtsEventInfo"
+f1_keywords:
+- comsvcs/IMtsEventInfo
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IMtsEventInfo
+- IMtsEventInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetInputState
 title: GetInputState function (winuser.h)
-
 description: Determines whether there are mouse-button or keyboard messages in the calling thread's message queue.
 old-location: winmsg\getinputstate.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\getinputstate.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetInputState, GetInputState function [Windows and Messages], _win32_GetInputState, _win32_getinputstate_cpp, winmsg.getinputstate, winui._win32_getinputstate, winuser/GetInputState
 ms.topic: function
-f1_keywords: 
- - "winuser/GetInputState"
+f1_keywords:
+- winuser/GetInputState
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - GetInputState
+- GetInputState
 targetos: Windows
 req.typenames: 
 req.redist: 

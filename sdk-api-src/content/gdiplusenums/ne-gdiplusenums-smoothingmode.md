@@ -1,19 +1,17 @@
 ---
 UID: NE:gdiplusenums.SmoothingMode
 title: SmoothingMode (gdiplusenums.h)
-
 description: The SmoothingMode enumeration specifies the type of smoothing (antialiasing) that is applied to lines and curves. This enumeration is used by the Graphics::GetSmoothingMode and Graphics::SetSmoothingMode methods of the Graphics class.
 old-location: gdiplus\_gdiplus_ENUM_SmoothingMode.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\smoothingmode.htm
-
 ms.date: 12/05/2018
 ms.keywords: SmoothingMode, SmoothingMode enumeration [GDI+], SmoothingModeAntiAlias, SmoothingModeAntiAlias8x4, SmoothingModeAntiAlias8x8, SmoothingModeDefault, SmoothingModeHighQuality, SmoothingModeHighSpeed, SmoothingModeInvalid, SmoothingModeNone, _gdiplus_ENUM_SmoothingMode, gdiplus._gdiplus_ENUM_SmoothingMode, gdiplusenums/SmoothingMode, gdiplusenums/SmoothingModeAntiAlias, gdiplusenums/SmoothingModeAntiAlias8x4, gdiplusenums/SmoothingModeAntiAlias8x8, gdiplusenums/SmoothingModeDefault, gdiplusenums/SmoothingModeHighQuality, gdiplusenums/SmoothingModeHighSpeed, gdiplusenums/SmoothingModeInvalid, gdiplusenums/SmoothingModeNone
 ms.topic: enum
-f1_keywords: 
- - "gdiplusenums/SmoothingMode"
+f1_keywords:
+- gdiplusenums/SmoothingMode
 dev_langs:
- - c++
+- c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdiplusenums.h
+- Gdiplusenums.h
 api_name:
- - SmoothingMode
+- SmoothingMode
 targetos: Windows
 req.typenames: 
 req.redist: 

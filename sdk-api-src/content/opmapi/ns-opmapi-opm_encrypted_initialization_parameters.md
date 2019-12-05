@@ -1,19 +1,17 @@
 ---
 UID: NS:opmapi._OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
 title: OPM_ENCRYPTED_INITIALIZATION_PARAMETERS (opmapi.h)
-
 description: Contains initialization parameters for an Output Protection Manager (OPM) session.
 old-location: mf\opm_encrypted_initialization_parameters.htm
 tech.root: medfound
 ms.assetid: abcf0b84-7370-48da-b4dd-4faded6be343
-
 ms.date: 12/05/2018
 ms.keywords: OPM_ENCRYPTED_INITIALIZATION_PARAMETERS, OPM_ENCRYPTED_INITIALIZATION_PARAMETERS structure [Media Foundation], _OPM_ENCRYPTED_INITIALIZATION_PARAMETERS, ksopmapi/OPM_ENCRYPTED_INITIALIZATION_PARAMETERS, mf.opm_encrypted_initialization_parameters
 ms.topic: struct
-f1_keywords: 
- - "opmapi/OPM_ENCRYPTED_INITIALIZATION_PARAMETERS"
+f1_keywords:
+- opmapi/OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
 dev_langs:
- - c++
+- c++
 req.header: opmapi.h
 req.include-header: Opmapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ksopmapi.h
+- ksopmapi.h
 api_name:
- - OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
+- OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
 targetos: Windows
 req.typenames: OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetSmoothingMode
 title: Graphics::GetSmoothingMode (gdiplusgraphics.h)
-
 description: The Graphics::GetSmoothingMode method determines whether smoothing (antialiasing) is applied to the Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetSmoothingMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getsmoothingmode.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetSmoothingMode, GetSmoothingMode method [GDI+], GetSmoothingMode method [GDI+],Graphics class, Graphics class [GDI+],GetSmoothingMode method, Graphics.GetSmoothingMode, Graphics::GetSmoothingMode, _gdiplus_CLASS_Graphics_GetSmoothingMode_, gdiplus._gdiplus_CLASS_Graphics_GetSmoothingMode_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.GetSmoothingMode"
+f1_keywords:
+- gdiplusgraphics/Graphics.GetSmoothingMode
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.GetSmoothingMode
+- Graphics.GetSmoothingMode
 targetos: Windows
 req.typenames: 
 req.redist: 

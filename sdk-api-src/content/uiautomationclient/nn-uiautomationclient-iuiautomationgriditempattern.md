@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationGridItemPattern
 title: IUIAutomationGridItemPattern (uiautomationclient.h)
-
 description: Provides access to a child control in a grid-style container that supports the IUIAutomationGridPattern interface.
 old-location: winauto\uiauto_IUIAutomationGridItemPattern.htm
 tech.root: WinAuto
 ms.assetid: 03b284de-3079-4543-ac5a-a8504da0d755
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationGridItemPattern, IUIAutomationGridItemPattern interface [Windows Accessibility], IUIAutomationGridItemPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationGridItemPattern, uiauto_IUIAutomationGridItemPattern, uiautomationclient/IUIAutomationGridItemPattern, winauto.uiauto_IUIAutomationGridItemPattern
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationGridItemPattern"
+f1_keywords:
+- uiautomationclient/IUIAutomationGridItemPattern
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationGridItemPattern
+- IUIAutomationGridItemPattern
 targetos: Windows
 req.typenames: 
 req.redist: 

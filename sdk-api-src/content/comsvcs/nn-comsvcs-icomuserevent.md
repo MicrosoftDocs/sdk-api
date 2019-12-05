@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IComUserEvent
 title: IComUserEvent (comsvcs.h)
-
 description: Notifies the subscriber of the specified user-defined metrics.
 old-location: cos\icomuserevent.htm
 tech.root: cossdk
 ms.assetid: a443b54a-018f-48a0-b61c-9e18e9567a22
-
 ms.date: 12/05/2018
 ms.keywords: IComUserEvent, IComUserEvent interface [COM+], IComUserEvent interface [COM+],described, _dtc_IComUserEvent, comsvcs/IComUserEvent, cos.icomuserevent
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IComUserEvent"
+f1_keywords:
+- comsvcs/IComUserEvent
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComUserEvent
+- IComUserEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

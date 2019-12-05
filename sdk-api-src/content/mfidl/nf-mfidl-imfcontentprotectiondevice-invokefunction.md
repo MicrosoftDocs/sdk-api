@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFContentProtectionDevice.InvokeFunction
 title: IMFContentProtectionDevice::InvokeFunction (mfidl.h)
-
 description: Calls into the implementation of the protection system in the security processor.
 old-location: mf\imfcontentprotectiondevice_invokefunction.htm
 tech.root: medfound
 ms.assetid: 1BEC7122-1DFB-49D7-BE60-7CE9D83A64F5
-
 ms.date: 12/05/2018
 ms.keywords: IMFContentProtectionDevice interface [Media Foundation],InvokeFunction method, IMFContentProtectionDevice.InvokeFunction, IMFContentProtectionDevice::InvokeFunction, InvokeFunction, InvokeFunction method [Media Foundation], InvokeFunction method [Media Foundation],IMFContentProtectionDevice interface, mf.imfcontentprotectiondevice_invokefunction, mfidl/IMFContentProtectionDevice::InvokeFunction
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFContentProtectionDevice.InvokeFunction"
+f1_keywords:
+- mfidl/IMFContentProtectionDevice.InvokeFunction
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - IMFContentProtectionDevice.InvokeFunction
+- IMFContentProtectionDevice.InvokeFunction
 targetos: Windows
 req.typenames: 
 req.redist: 

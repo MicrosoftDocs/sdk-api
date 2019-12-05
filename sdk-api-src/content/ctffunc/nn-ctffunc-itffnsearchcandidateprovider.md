@@ -1,19 +1,17 @@
 ---
 UID: NN:ctffunc.ITfFnSearchCandidateProvider
 title: ITfFnSearchCandidateProvider (ctffunc.h)
-
 description: Enables an integrated search experience in an Input Method Editor (IME).
 old-location: tsf\itffnsearchcandidateprovider.htm
 tech.root: TSF
 ms.assetid: 5DD99E0A-42A2-4EA5-B24F-5C439F5D7EEF
-
 ms.date: 12/05/2018
 ms.keywords: ITfFnSearchCandidateProvider, ITfFnSearchCandidateProvider interface [Text Services Framework], ITfFnSearchCandidateProvider interface [Text Services Framework],described, ctffunc/ITfFnSearchCandidateProvider, tsf.itffnsearchcandidateprovider
 ms.topic: interface
-f1_keywords: 
- - "ctffunc/ITfFnSearchCandidateProvider"
+f1_keywords:
+- ctffunc/ITfFnSearchCandidateProvider
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ctffunc.h
+- Ctffunc.h
 api_name:
- - ITfFnSearchCandidateProvider
+- ITfFnSearchCandidateProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkCursors.Item
 title: IInkCursors::Item (msinkaut.h)
-
 description: Returns the IInkCursor object at the specified index within the IInkCursors collection.
 old-location: tablet\iinkcursors_item.htm
 tech.root: tablet
 ms.assetid: 59174954-4994-4773-acee-a3db363cb8fe
-
 ms.date: 12/05/2018
 ms.keywords: 59174954-4994-4773-acee-a3db363cb8fe, IInkCursors interface [Tablet PC],Item method, IInkCursors.Item, IInkCursors::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkCursors interface, msinkaut/IInkCursors::Item, tablet.iinkcursors_item
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkCursors.Item"
+f1_keywords:
+- msinkaut/IInkCursors.Item
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkCursors.Item
+- IInkCursors.Item
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.GetClusterNodeId
 title: GetClusterNodeId function (clusapi.h)
-
 description: Returns the unique identifier of a cluster node.
 old-location: mscs\getclusternodeid.htm
 tech.root: MsCS
 ms.assetid: 976ca079-10f7-4e12-9033-07ea83e8c92a
-
 ms.date: 12/05/2018
 ms.keywords: GetClusterNodeId, GetClusterNodeId function [Failover Cluster], PCLUSAPI_GET_CLUSTER_NODE_ID, PCLUSAPI_GET_CLUSTER_NODE_ID function [Failover Cluster], _wolf_getclusternodeid, clusapi/GetClusterNodeId, clusapi/PCLUSAPI_GET_CLUSTER_NODE_ID, mscs.getclusternodeid
 ms.topic: function
-f1_keywords: 
- - "clusapi/GetClusterNodeId"
+f1_keywords:
+- clusapi/GetClusterNodeId
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
- - ext-ms-win-cluster-clusapi-l1-1-3.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ext-ms-win-cluster-clusapi-l1-1-3.dll
 api_name:
- - GetClusterNodeId
+- GetClusterNodeId
 targetos: Windows
 req.typenames: 
 req.redist: 

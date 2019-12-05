@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IClockVectorElement.GetTickCount
 title: IClockVectorElement::GetTickCount (winsync.h)
-
 description: Gets the tick count that defines the upper bound on the range of tick counts that are contained in this clock vector element.
 old-location: winsync\iclockvectorelement_gettickcount.htm
 tech.root: winsync
 ms.assetid: 927d769b-c100-4f5f-a243-c5ca53b4d528
-
 ms.date: 12/05/2018
 ms.keywords: GetTickCount, GetTickCount method [Windows Sync], GetTickCount method [Windows Sync],IClockVectorElement interface, IClockVectorElement interface [Windows Sync],GetTickCount method, IClockVectorElement.GetTickCount, IClockVectorElement::GetTickCount, winsync.iclockvectorelement_gettickcount, winsync/IClockVectorElement::GetTickCount
 ms.topic: method
-f1_keywords: 
- - "winsync/IClockVectorElement.GetTickCount"
+f1_keywords:
+- winsync/IClockVectorElement.GetTickCount
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IClockVectorElement.GetTickCount
+- IClockVectorElement.GetTickCount
 targetos: Windows
 req.typenames: 
 req.redist: 

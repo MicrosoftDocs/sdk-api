@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectScalarVariable.SetIntArray
 title: ID3D10EffectScalarVariable::SetIntArray (d3d10effect.h)
-
 description: Set an array of integer variables.
 old-location: direct3d10\id3d10effectscalarvariable_setintarray.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectscalarvariable_setintarray.htm
-
 ms.date: 12/05/2018
 ms.keywords: 557a34dc-1dce-4cb2-5269-cebf5fc86f76, ID3D10EffectScalarVariable interface [Direct3D 10],SetIntArray method, ID3D10EffectScalarVariable.SetIntArray, ID3D10EffectScalarVariable::SetIntArray, SetIntArray, SetIntArray method [Direct3D 10], SetIntArray method [Direct3D 10],ID3D10EffectScalarVariable interface, d3d10effect/ID3D10EffectScalarVariable::SetIntArray, direct3d10.id3d10effectscalarvariable_setintarray
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectScalarVariable.SetIntArray"
+f1_keywords:
+- d3d10effect/ID3D10EffectScalarVariable.SetIntArray
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectScalarVariable.SetIntArray
+- ID3D10EffectScalarVariable.SetIntArray
 targetos: Windows
 req.typenames: 
 req.redist: 

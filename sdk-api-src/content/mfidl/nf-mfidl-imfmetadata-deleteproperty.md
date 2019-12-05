@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMetadata.DeleteProperty
 title: IMFMetadata::DeleteProperty (mfidl.h)
-
 description: Deletes a metadata property.
 old-location: mf\imfmetadata_deleteproperty.htm
 tech.root: medfound
 ms.assetid: 7c9a406d-6144-4e9c-b62c-1d9c691391f0
-
 ms.date: 12/05/2018
 ms.keywords: 7c9a406d-6144-4e9c-b62c-1d9c691391f0, DeleteProperty, DeleteProperty method [Media Foundation], DeleteProperty method [Media Foundation],IMFMetadata interface, IMFMetadata interface [Media Foundation],DeleteProperty method, IMFMetadata.DeleteProperty, IMFMetadata::DeleteProperty, mf.imfmetadata_deleteproperty, mfidl/IMFMetadata::DeleteProperty
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMetadata.DeleteProperty"
+f1_keywords:
+- mfidl/IMFMetadata.DeleteProperty
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMetadata.DeleteProperty
+- IMFMetadata.DeleteProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

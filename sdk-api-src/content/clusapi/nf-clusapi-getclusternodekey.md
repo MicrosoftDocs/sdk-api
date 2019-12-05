@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.GetClusterNodeKey
 title: GetClusterNodeKey function (clusapi.h)
-
 description: Opens the root of the cluster database subtree for a node.
 old-location: mscs\getclusternodekey.htm
 tech.root: MsCS
 ms.assetid: 8c943e86-aacc-4340-a26a-1d1916150344
-
 ms.date: 12/05/2018
 ms.keywords: GetClusterNodeKey, GetClusterNodeKey function [Failover Cluster], _wolf_getclusternodekey, clusapi/GetClusterNodeKey, mscs.getclusternodekey
 ms.topic: function
-f1_keywords: 
- - "clusapi/GetClusterNodeKey"
+f1_keywords:
+- clusapi/GetClusterNodeKey
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - GetClusterNodeKey
+- GetClusterNodeKey
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:ocidl.tagPOINTERINACTIVE
 title: POINTERINACTIVE (ocidl.h)
-
 description: Indicate the activation policy of the object and are used in the IPointerInactive::GetActivationPolicy method.
 old-location: com\pointerinactive.htm
 tech.root: com
 ms.assetid: b955af46-14bd-45b0-a4ef-b705e5d45a38
-
 ms.date: 12/05/2018
 ms.keywords: POINTERINACTIVE, POINTERINACTIVE enumeration [COM], POINTERINACTIVE_ACTIVATEONDRAG, POINTERINACTIVE_ACTIVATEONENTRY, POINTERINACTIVE_DEACTIVATEONLEAVE, _ctrl_POINTERINACTIVE, com.pointerinactive, ocidl/POINTERINACTIVE, ocidl/POINTERINACTIVE_ACTIVATEONDRAG, ocidl/POINTERINACTIVE_ACTIVATEONENTRY, ocidl/POINTERINACTIVE_DEACTIVATEONLEAVE
 ms.topic: enum
-f1_keywords: 
- - "ocidl/POINTERINACTIVE"
+f1_keywords:
+- ocidl/POINTERINACTIVE
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - POINTERINACTIVE
+- POINTERINACTIVE
 targetos: Windows
 req.typenames: POINTERINACTIVE
 req.redist: 

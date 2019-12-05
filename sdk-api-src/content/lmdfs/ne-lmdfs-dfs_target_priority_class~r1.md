@@ -4,10 +4,10 @@ title: DFS_TARGET_PRIORITY_CLASS
 ms.date: 01/30/19
 ms.keywords: _DFS_TARGET_PRIORITY_CLASS, DFS_TARGET_PRIORITY_CLASS
 ms.topic: language-reference
-f1_keywords: 
- - "lmdfs/_DFS_TARGET_PRIORITY_CLASS"
+f1_keywords:
+- lmdfs/_DFS_TARGET_PRIORITY_CLASS
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -21,14 +21,14 @@ req.target-type:
 req.typenames: 
 req.umdf-ver: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - lmdfs.h
+- lmdfs.h
 api_name:
- - _DFS_TARGET_PRIORITY_CLASS
- - DFS_TARGET_PRIORITY_CLASS
+- _DFS_TARGET_PRIORITY_CLASS
+- DFS_TARGET_PRIORITY_CLASS
 ---
 
 # DFS_TARGET_PRIORITY_CLASS enumeration

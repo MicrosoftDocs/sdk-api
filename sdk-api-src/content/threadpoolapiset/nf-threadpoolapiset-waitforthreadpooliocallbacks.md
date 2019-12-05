@@ -1,19 +1,17 @@
 ---
 UID: NF:threadpoolapiset.WaitForThreadpoolIoCallbacks
 title: WaitForThreadpoolIoCallbacks function (threadpoolapiset.h)
-
 description: Waits for outstanding I/O completion callbacks to complete and optionally cancels pending callbacks that have not yet started to execute.
 old-location: base\waitforthreadpooliocallbacks.htm
 tech.root: ProcThread
 ms.assetid: 68dc640d-8678-441d-88bd-01284d98a251
-
 ms.date: 12/05/2018
 ms.keywords: WaitForThreadpoolIoCallbacks, WaitForThreadpoolIoCallbacks function, base.waitforthreadpooliocallbacks, threadpoolapiset/WaitForThreadpoolIoCallbacks, winbase/WaitForThreadpoolIoCallbacks
 ms.topic: function
 f1_keywords:
 - threadpoolapiset/WaitForThreadpoolIoCallbacks
 dev_langs:
- - c++
+- c++
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows

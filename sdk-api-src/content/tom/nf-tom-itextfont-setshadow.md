@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont.SetShadow
 title: ITextFont::SetShadow (tom.h)
-
 description: Sets whether characters are displayed as shadowed characters.
 old-location: controls\ITextFont_SetShadow.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setshadow.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetShadow method, ITextFont.SetShadow, ITextFont::SetShadow, SetShadow, SetShadow method [Windows Controls], SetShadow method [Windows Controls],ITextFont interface, _win32_ITextFont_SetShadow, _win32_ITextFont_SetShadow_cpp, controls.ITextFont_SetShadow, controls._win32_ITextFont_SetShadow, tom/ITextFont::SetShadow
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont.SetShadow"
+f1_keywords:
+- tom/ITextFont.SetShadow
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont.SetShadow
+- ITextFont.SetShadow
 targetos: Windows
 req.typenames: 
 req.redist: 

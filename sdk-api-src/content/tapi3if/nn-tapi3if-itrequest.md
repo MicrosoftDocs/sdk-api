@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITRequest
 title: ITRequest (tapi3if.h)
-
 description: The ITRequest interface allows an application to use Assisted Telephony. Assisted Telephony provides telephony-enabled applications with a simple mechanism for making phone calls without requiring the developer to become fully literate in telephony.
 old-location: tapi3\itrequest.htm
 tech.root: Tapi
 ms.assetid: 2b6d4f99-3ffe-44ce-9cb5-3fdd565085db
-
 ms.date: 12/05/2018
 ms.keywords: ITRequest, ITRequest interface [TAPI 2.2], ITRequest interface [TAPI 2.2],described, _tapi3_itrequest, tapi3.itrequest, tapi3if/ITRequest
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITRequest"
+f1_keywords:
+- tapi3if/ITRequest
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITRequest
+- ITRequest
 targetos: Windows
 req.typenames: 
 req.redist: 

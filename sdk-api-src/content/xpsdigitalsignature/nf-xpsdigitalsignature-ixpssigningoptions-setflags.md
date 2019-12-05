@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.SetFlags
 title: IXpsSigningOptions::SetFlags (xpsdigitalsignature.h)
-
 description: Sets the XPS_SIGN_FLAGS value that specifies the signing flags to use for this signature.
 old-location: xps\ixpssigningoptions_setflags.htm
 tech.root: printdocs
 ms.assetid: 59467fd5-c462-4827-a4f8-e152df981ace
-
 ms.date: 12/05/2018
 ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetFlags method, IXpsSigningOptions.SetFlags, IXpsSigningOptions::SetFlags, SetFlags, SetFlags method [XPS Documents and Packaging], SetFlags method [XPS Documents and Packaging],IXpsSigningOptions interface, xps.ixpssigningoptions_setflags, xpsdigitalsignature/IXpsSigningOptions::SetFlags
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSigningOptions.SetFlags"
+f1_keywords:
+- xpsdigitalsignature/IXpsSigningOptions.SetFlags
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSigningOptions.SetFlags
+- IXpsSigningOptions.SetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

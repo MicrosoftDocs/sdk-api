@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsFreeWriter
 title: WsFreeWriter function (webservices.h)
-
 description: Releases the memory resource associated with an XML Writer object.
 old-location: wsw\wsfreewriter.htm
 tech.root: wsw
 ms.assetid: eb1eb835-838a-41e4-9e7d-c5c805237f65
-
 ms.date: 12/05/2018
 ms.keywords: WsFreeWriter, WsFreeWriter function [Web Services for Windows], webservices/WsFreeWriter, wsw.wsfreewriter
 ms.topic: function
-f1_keywords: 
- - "webservices/WsFreeWriter"
+f1_keywords:
+- webservices/WsFreeWriter
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsFreeWriter
+- WsFreeWriter
 targetos: Windows
 req.typenames: 
 req.redist: 

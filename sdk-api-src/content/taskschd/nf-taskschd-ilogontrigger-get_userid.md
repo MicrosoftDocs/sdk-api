@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ILogonTrigger.get_UserId
 title: ILogonTrigger::get_UserId (taskschd.h)
-
 description: Gets or sets the identifier of the user.
 old-location: taskschd\ilogontrigger_userid.htm
 tech.root: taskschd
 ms.assetid: 22d69609-1400-41eb-ae25-4ca05c4733ba
-
 ms.date: 12/05/2018
 ms.keywords: ILogonTrigger interface [Task Scheduler],UserId property, ILogonTrigger.UserId, ILogonTrigger.get_UserId, ILogonTrigger::UserId, ILogonTrigger::get_UserId, ILogonTrigger::put_UserId, UserId property [Task Scheduler], UserId property [Task Scheduler],ILogonTrigger interface, get_UserId, taskschd.ilogontrigger_userid, taskschd/ILogonTrigger::UserId, taskschd/ILogonTrigger::get_UserId, taskschd/ILogonTrigger::put_UserId
 ms.topic: method
-f1_keywords: 
- - "taskschd/ILogonTrigger.UserId"
+f1_keywords:
+- taskschd/ILogonTrigger.UserId
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ILogonTrigger.UserId
- - ILogonTrigger.get_UserId
- - ILogonTrigger.put_UserId
+- ILogonTrigger.UserId
+- ILogonTrigger.get_UserId
+- ILogonTrigger.put_UserId
 targetos: Windows
 req.typenames: 
 req.redist: 

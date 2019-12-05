@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12sdklayers.D3D12_GPU_BASED_VALIDATION_FLAGS
 title: D3D12_GPU_BASED_VALIDATION_FLAGS (d3d12sdklayers.h)
-
 description: Describes the level of GPU-based validation to perform at runtime.
 old-location: direct3d12\d3d12_gpu_based_validation_flags.htm
 tech.root: direct3d12
 ms.assetid: D9FA7F77-8DE8-4630-A9C7-E95B9E997E23
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_GPU_BASED_VALIDATION_FLAGS, D3D12_GPU_BASED_VALIDATION_FLAGS enumeration, D3D12_GPU_BASED_VALIDATION_FLAGS_DISABLE_STATE_TRACKING, D3D12_GPU_BASED_VALIDATION_FLAGS_NONE, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_FLAGS, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_FLAGS_DISABLE_STATE_TRACKING, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_FLAGS_NONE, direct3d12.d3d12_gpu_based_validation_flags
 ms.topic: enum
-f1_keywords: 
- - "d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_FLAGS"
+f1_keywords:
+- d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12sdklayers.h
+- d3d12sdklayers.h
 api_name:
- - D3D12_GPU_BASED_VALIDATION_FLAGS
+- D3D12_GPU_BASED_VALIDATION_FLAGS
 targetos: Windows
 req.typenames: D3D12_GPU_BASED_VALIDATION_FLAGS
 req.redist: 

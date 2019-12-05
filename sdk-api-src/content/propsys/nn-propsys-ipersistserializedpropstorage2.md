@@ -1,19 +1,17 @@
 ---
 UID: NN:propsys.IPersistSerializedPropStorage2
 title: IPersistSerializedPropStorage2 (propsys.h)
-
 description: Exposes methods to persist serialized property storage data for later use and to restore persisted data to a new property store instance.
 old-location: shell\IPersistSerializedPropStorage2.htm
 tech.root: shell
 ms.assetid: 7483b51e-d71d-4570-8b76-64e344c2227e
-
 ms.date: 12/05/2018
 ms.keywords: IPersistSerializedPropStorage2, IPersistSerializedPropStorage2 interface [Windows Shell], IPersistSerializedPropStorage2 interface [Windows Shell],described, _shell_IPersistSerializedPropStorage2, propsys/IPersistSerializedPropStorage2, shell.IPersistSerializedPropStorage2
 ms.topic: interface
-f1_keywords: 
- - "propsys/IPersistSerializedPropStorage2"
+f1_keywords:
+- propsys/IPersistSerializedPropStorage2
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Propsys.dll (version 6.0.6001 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - IPersistSerializedPropStorage2
+- IPersistSerializedPropStorage2
 targetos: Windows
 req.typenames: 
 req.redist: 

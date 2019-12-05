@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkDrawingAttributes.Clone
 title: IInkDrawingAttributes::Clone (msinkaut.h)
-
 description: Creates a duplicate InkDrawingAttributes object.
 old-location: tablet\inkdrawingattributes_clone.htm
 tech.root: tablet
 ms.assetid: 97facd95-af49-459e-82fc-12534d466786
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Tablet PC], Clone method [Tablet PC],IInkDrawingAttributes interface, IInkDrawingAttributes interface [Tablet PC],Clone method, IInkDrawingAttributes.Clone, IInkDrawingAttributes::Clone, f3ec6b42-2b5d-459e-ba09-88c27b125c40, msinkaut/IInkDrawingAttributes::Clone, tablet.inkdrawingattributes_clone
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkDrawingAttributes.Clone"
+f1_keywords:
+- msinkaut/IInkDrawingAttributes.Clone
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkDrawingAttributes.Clone
+- IInkDrawingAttributes.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

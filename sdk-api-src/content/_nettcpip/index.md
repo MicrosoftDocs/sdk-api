@@ -1,7 +1,6 @@
 ---
 UID: TP:nettcpip
 ms.assetid: 2348df63-9db2-3337-8eeb-cca3926e009e
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

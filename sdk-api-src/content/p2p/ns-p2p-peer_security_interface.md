@@ -1,19 +1,17 @@
 ---
 UID: NS:p2p.peer_security_interface_tag
 title: PEER_SECURITY_INTERFACE (p2p.h)
-
 description: The PEER_SECURITY_INTERFACE structure specifies the security interfaces that calls to Peer Graphing APIs use to validate, secure, and free records.
 old-location: p2p\peer_security_interface.htm
 tech.root: P2PSdk
 ms.assetid: b4331cfc-dc1a-490b-b21d-0550f1d3fe33
-
 ms.date: 12/05/2018
-ms.keywords: "*PPEER_SECURITY_INTERFACE, PEER_SECURITY_INTERFACE, PEER_SECURITY_INTERFACE structure [Peer Networking], PPEER_SECURITY_INTERFACE, PPEER_SECURITY_INTERFACE structure pointer [Peer Networking], p2p.peer_security_interface, p2p/PPEER_SECURITY_INTERFACE, p2p/peer_security_interface_tag"
+ms.keywords: '*PPEER_SECURITY_INTERFACE, PEER_SECURITY_INTERFACE, PEER_SECURITY_INTERFACE structure [Peer Networking], PPEER_SECURITY_INTERFACE, PPEER_SECURITY_INTERFACE structure pointer [Peer Networking], p2p.peer_security_interface, p2p/PPEER_SECURITY_INTERFACE, p2p/peer_security_interface_tag'
 ms.topic: struct
-f1_keywords: 
- - "p2p/PEER_SECURITY_INTERFACE"
+f1_keywords:
+- p2p/PEER_SECURITY_INTERFACE
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - P2P.h
+- P2P.h
 api_name:
- - PEER_SECURITY_INTERFACE
+- PEER_SECURITY_INTERFACE
 targetos: Windows
 req.typenames: PEER_SECURITY_INTERFACE, *PPEER_SECURITY_INTERFACE
 req.redist: 

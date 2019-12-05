@@ -1,19 +1,17 @@
 ---
 UID: NF:ntdsapi.DsBindWithSpnW
 title: DsBindWithSpnW function (ntdsapi.h)
-
 description: Binds to a domain controller using the specified credentials and a specific service principal name (SPN) for mutual authentication.
 old-location: ad\dsbindwithspn.htm
 tech.root: ad
 ms.assetid: 9a149654-fd94-4b0c-b712-07fb827bef2f
-
 ms.date: 12/05/2018
 ms.keywords: DsBindWithSpn, DsBindWithSpn function [Active Directory], DsBindWithSpnA, DsBindWithSpnW, _glines_dsbindwithspn, ad.dsbindwithspn, ntdsapi/DsBindWithSpn, ntdsapi/DsBindWithSpnA, ntdsapi/DsBindWithSpnW
 ms.topic: function
-f1_keywords: 
- - "ntdsapi/DsBindWithSpn"
+f1_keywords:
+- ntdsapi/DsBindWithSpn
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
+- Ntdsapi.dll
 api_name:
- - DsBindWithSpn
- - DsBindWithSpnA
- - DsBindWithSpnW
+- DsBindWithSpn
+- DsBindWithSpnA
+- DsBindWithSpnW
 targetos: Windows
 req.typenames: 
 req.redist: 

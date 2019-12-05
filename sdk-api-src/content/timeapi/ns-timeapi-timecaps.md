@@ -1,19 +1,17 @@
 ---
 UID: NS:timeapi.timecaps_tag
 title: TIMECAPS (timeapi.h)
-
 description: The TIMECAPS structure contains information about the resolution of the timer.
 old-location: multimedia\timecaps.htm
 tech.root: Multimedia
 ms.assetid: 64a5c4ba-d340-4abc-8da3-766f3a2d7ec8
-
 ms.date: 12/05/2018
-ms.keywords: "*LPTIMECAPS, *NPTIMECAPS, *PTIMECAPS, LPTIMECAPS, LPTIMECAPS structure pointer [Windows Multimedia], NPTIMECAPS, NPTIMECAPS structure pointer [Windows Multimedia], PTIMECAPS, PTIMECAPS structure pointer [Windows Multimedia], TIMECAPS, TIMECAPS structure [Windows Multimedia], _win32_TIMECAPS_str, mmsystem/LPTIMECAPS, mmsystem/NPTIMECAPS, mmsystem/PTIMECAPS, mmsystem/TIMECAPS, multimedia.timecaps, timeapi/LPTIMECAPS, timeapi/NPTIMECAPS, timeapi/PTIMECAPS, timeapi/TIMECAPS"
+ms.keywords: '*LPTIMECAPS, *NPTIMECAPS, *PTIMECAPS, LPTIMECAPS, LPTIMECAPS structure pointer [Windows Multimedia], NPTIMECAPS, NPTIMECAPS structure pointer [Windows Multimedia], PTIMECAPS, PTIMECAPS structure pointer [Windows Multimedia], TIMECAPS, TIMECAPS structure [Windows Multimedia], _win32_TIMECAPS_str, mmsystem/LPTIMECAPS, mmsystem/NPTIMECAPS, mmsystem/PTIMECAPS, mmsystem/TIMECAPS, multimedia.timecaps, timeapi/LPTIMECAPS, timeapi/NPTIMECAPS, timeapi/PTIMECAPS, timeapi/TIMECAPS'
 ms.topic: struct
-f1_keywords: 
- - "timeapi/TIMECAPS"
+f1_keywords:
+- timeapi/TIMECAPS
 dev_langs:
- - c++
+- c++
 req.header: timeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - TimeAPI.h
- - Mmsystem.h
+- TimeAPI.h
+- Mmsystem.h
 api_name:
- - TIMECAPS
+- TIMECAPS
 targetos: Windows
 req.typenames: TIMECAPS, *PTIMECAPS, *NPTIMECAPS, *LPTIMECAPS
 req.redist: 

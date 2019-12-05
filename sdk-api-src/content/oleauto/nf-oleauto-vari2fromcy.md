@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarI2FromCy
 title: VarI2FromCy function (oleauto.h)
-
 description: Converts a currency value to a short value.
 old-location: automat\vari2fromcy.htm
 tech.root: automat
 ms.assetid: 37721ece-f02b-486a-a11d-289956294815
-
 ms.date: 12/05/2018
 ms.keywords: VarI2FromCy, VarI2FromCy function [Automation], _oa96_VarI2FromCy, automat.vari2fromcy, oleauto/VarI2FromCy
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarI2FromCy"
+f1_keywords:
+- oleauto/VarI2FromCy
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarI2FromCy
+- VarI2FromCy
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings.put_ScheduledInstallationDay
 title: IAutomaticUpdatesSettings::put_ScheduledInstallationDay (wuapi.h)
-
 description: Gets and sets the days of the week on which Automatic Updates installs or uninstalls updates.
 old-location: wua\iautomaticupdatessettings_scheduledinstallationday.htm
 tech.root: Wua_Sdk
 ms.assetid: 057498ad-d329-4fda-b3fe-95bdc27d62a4
-
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdatesSettings interface [Windows Update Agent],ScheduledInstallationDay property, IAutomaticUpdatesSettings.ScheduledInstallationDay, IAutomaticUpdatesSettings.put_ScheduledInstallationDay, IAutomaticUpdatesSettings::ScheduledInstallationDay, IAutomaticUpdatesSettings::get_ScheduledInstallationDay, IAutomaticUpdatesSettings::put_ScheduledInstallationDay, ScheduledInstallationDay property [Windows Update Agent], ScheduledInstallationDay property [Windows Update Agent],IAutomaticUpdatesSettings interface, put_ScheduledInstallationDay, wua.iautomaticupdatessettings_scheduledinstallationday, wuapi/IAutomaticUpdatesSettings::ScheduledInstallationDay, wuapi/IAutomaticUpdatesSettings::get_ScheduledInstallationDay, wuapi/IAutomaticUpdatesSettings::put_ScheduledInstallationDay
 ms.topic: method
-f1_keywords: 
- - "wuapi/IAutomaticUpdatesSettings.ScheduledInstallationDay"
+f1_keywords:
+- wuapi/IAutomaticUpdatesSettings.ScheduledInstallationDay
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IAutomaticUpdatesSettings.ScheduledInstallationDay
- - IAutomaticUpdatesSettings.get_ScheduledInstallationDay
- - IAutomaticUpdatesSettings.put_ScheduledInstallationDay
+- IAutomaticUpdatesSettings.ScheduledInstallationDay
+- IAutomaticUpdatesSettings.get_ScheduledInstallationDay
+- IAutomaticUpdatesSettings.put_ScheduledInstallationDay
 targetos: Windows
 req.typenames: 
 req.redist: 

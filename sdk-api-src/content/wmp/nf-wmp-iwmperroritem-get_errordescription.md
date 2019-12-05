@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPErrorItem.get_errorDescription
 title: IWMPErrorItem::get_errorDescription (wmp.h)
-
 description: The get_errorDescription method retrieves a description of the error.
 old-location: wmp\iwmperroritem_get_errordescription.htm
 tech.root: WMP
 ms.assetid: eb322580-2cc6-4094-9da3-9b8d78a5cb48
-
 ms.date: 12/05/2018
 ms.keywords: IWMPErrorItem interface [Windows Media Player],get_errorDescription method, IWMPErrorItem.get_errorDescription, IWMPErrorItem::get_errorDescription, IWMPErrorItemget_errorDescription, get_errorDescription, get_errorDescription method [Windows Media Player], get_errorDescription method [Windows Media Player],IWMPErrorItem interface, wmp.iwmperroritem_get_errordescription, wmp/IWMPErrorItem::get_errorDescription
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPErrorItem.get_errorDescription"
+f1_keywords:
+- wmp/IWMPErrorItem.get_errorDescription
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPErrorItem.get_errorDescription
+- IWMPErrorItem.get_errorDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.get_ClientId
 title: IX509CertificateRequest::get_ClientId (certenroll.h)
-
 description: Specifies and retrieves a value that identifies the executable that created the request.
 old-location: security\ix509certificaterequest_clientid_property.htm
 tech.root: seccertenroll
 ms.assetid: 728dba16-cda8-4eca-8cf0-4e6139e3808b
-
 ms.date: 12/05/2018
 ms.keywords: ClientId property [Security], ClientId property [Security],IX509CertificateRequest interface, IX509CertificateRequest interface [Security],ClientId property, IX509CertificateRequest.ClientId, IX509CertificateRequest.get_ClientId, IX509CertificateRequest::ClientId, IX509CertificateRequest::get_ClientId, IX509CertificateRequest::put_ClientId, certenroll/IX509CertificateRequest::ClientId, certenroll/IX509CertificateRequest::get_ClientId, certenroll/IX509CertificateRequest::put_ClientId, get_ClientId, security.ix509certificaterequest_clientid_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequest.ClientId"
+f1_keywords:
+- certenroll/IX509CertificateRequest.ClientId
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequest.ClientId
- - IX509CertificateRequest.get_ClientId
- - IX509CertificateRequest.put_ClientId
+- IX509CertificateRequest.ClientId
+- IX509CertificateRequest.get_ClientId
+- IX509CertificateRequest.put_ClientId
 targetos: Windows
 req.typenames: 
 req.redist: 

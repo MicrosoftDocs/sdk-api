@@ -1,19 +1,17 @@
 ---
 UID: NS:appmodel.PACKAGE_ID
 title: PACKAGE_ID (appmodel.h)
-
 description: Represents package identification information, such as name, version, and publisher.
 old-location: appxpkg\package_id.htm
 tech.root: appxpkg
 ms.assetid: 4B15281A-2227-47B7-A750-0A01DB8543FC
-
 ms.date: 12/05/2018
 ms.keywords: PACKAGE_ID, PACKAGE_ID structure [App packaging and management], appmodel/PACKAGE_IDW, appxpkg.package_id
 ms.topic: struct
-f1_keywords: 
- - "appmodel/PACKAGE_ID"
+f1_keywords:
+- appmodel/PACKAGE_ID
 dev_langs:
- - c++
+- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AppModel.h
+- AppModel.h
 api_name:
- - PACKAGE_ID
+- PACKAGE_ID
 targetos: Windows
 req.typenames: PACKAGE_ID
 req.redist: 

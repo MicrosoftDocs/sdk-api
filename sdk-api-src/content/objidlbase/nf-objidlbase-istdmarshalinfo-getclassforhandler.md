@@ -1,19 +1,17 @@
 ---
 UID: NF:objidlbase.IStdMarshalInfo.GetClassForHandler
 title: IStdMarshalInfo::GetClassForHandler (objidlbase.h)
-
 description: Retrieves the CLSID of the object handler to be used in the destination process during standard marshaling.
 old-location: com\istdmarshalinfo_getclassforhandler.htm
 tech.root: com
 ms.assetid: ab68f292-851d-4908-b545-4df2931fceae
-
 ms.date: 12/05/2018
 ms.keywords: GetClassForHandler, GetClassForHandler method [COM], GetClassForHandler method [COM],IStdMarshalInfo interface, IStdMarshalInfo interface [COM],GetClassForHandler method, IStdMarshalInfo.GetClassForHandler, IStdMarshalInfo::GetClassForHandler, _com_istdmarshalinfo_getclassforhandler, com.istdmarshalinfo_getclassforhandler, objidlbase/IStdMarshalInfo::GetClassForHandler
 ms.topic: method
-f1_keywords: 
- - "objidlbase/IStdMarshalInfo.GetClassForHandler"
+f1_keywords:
+- objidlbase/IStdMarshalInfo.GetClassForHandler
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IStdMarshalInfo.GetClassForHandler
+- IStdMarshalInfo.GetClassForHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.StgSerializePropVariant
 title: StgSerializePropVariant function (propvarutil.h)
-
 description: The StgSerializePropVariant function converts a PROPVARIANT data type to a SERIALIZEDPROPERTYVALUE data type.
 old-location: stg\StgSerializePropVariant.htm
 tech.root: Stg
 ms.assetid: e1382c1e-3f9e-41a2-8e95-fc3702e516d3
-
 ms.date: 12/05/2018
 ms.keywords: StgSerializePropVariant, StgSerializePropVariant function [Structured Storage], propvarutil/StgSerializePropVariant, stg.StgSerializePropVariant
 ms.topic: function
-f1_keywords: 
- - "propvarutil/StgSerializePropVariant"
+f1_keywords:
+- propvarutil/StgSerializePropVariant
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - StgSerializePropVariant
+- StgSerializePropVariant
 targetos: Windows
 req.typenames: 
 req.redist: 

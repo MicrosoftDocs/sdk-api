@@ -1,19 +1,17 @@
 ---
 UID: NF:iscsidsc.RemoveIScsiStaticTargetA
 title: RemoveIScsiStaticTargetA function (iscsidsc.h)
-
 description: RemoveIscsiStaticTarget function removes a target from the list of static targets made available to the machine.
 old-location: iscsidisc\removeiscsistatictarget.htm
 tech.root: iSCSIDisc
 ms.assetid: 7927d414-929e-4f01-b6bf-e6d571486aed
-
 ms.date: 12/05/2018
 ms.keywords: RemoveIScsiStaticTargetA, RemoveIscsiStaticTarget, RemoveIscsiStaticTarget function [iSCSI Discovery Library API], RemoveIscsiStaticTargetA, RemoveIscsiStaticTargetW, iscsidisc.removeiscsistatictarget, iscsidsc/RemoveIscsiStaticTarget, iscsidsc/RemoveIscsiStaticTargetA, iscsidsc/RemoveIscsiStaticTargetW
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/RemoveIscsiStaticTarget"
+f1_keywords:
+- iscsidsc/RemoveIscsiStaticTarget
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - RemoveIscsiStaticTarget
- - RemoveIscsiStaticTargetA
- - RemoveIscsiStaticTargetW
+- RemoveIscsiStaticTarget
+- RemoveIscsiStaticTargetA
+- RemoveIscsiStaticTargetW
 targetos: Windows
 req.typenames: 
 req.redist: 

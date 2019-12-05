@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngGetFilePath
 title: EngGetFilePath function (winddi.h)
-
 description: The EngGetFilePath function determines the file path associated with the specified font file.
 old-location: display\enggetfilepath.htm
 tech.root: display
 ms.assetid: 751a9bef-f1ee-43a0-958b-f90ac63b2f37
-
 ms.date: 12/05/2018
 ms.keywords: EngGetFilePath, EngGetFilePath function [Display Devices], display.enggetfilepath, gdifncs_219a84bc-93a3-4a5f-bf0e-d0087737fdb0.xml, winddi/EngGetFilePath
 ms.topic: function
-f1_keywords: 
- - "winddi/EngGetFilePath"
+f1_keywords:
+- winddi/EngGetFilePath
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngGetFilePath
+- EngGetFilePath
 targetos: Windows
 req.typenames: 
 req.redist: 

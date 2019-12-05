@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.Select
 title: ITextRange::Select (tom.h)
-
 description: Sets the start and end positions, and story values of the active selection, to those of this range.
 old-location: controls\ITextRange_Select.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\select.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],Select method, ITextRange.Select, ITextRange::Select, Select, Select method [Windows Controls], Select method [Windows Controls],ITextRange interface, _win32_ITextRange_Select, _win32_ITextRange_Select_cpp, controls.ITextRange_Select, controls._win32_ITextRange_Select, tom/ITextRange::Select
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.Select"
+f1_keywords:
+- tom/ITextRange.Select
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.Select
+- ITextRange.Select
 targetos: Windows
 req.typenames: 
 req.redist: 

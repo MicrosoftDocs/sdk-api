@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbParentalRatingDescriptor.GetTag
 title: IDvbParentalRatingDescriptor::GetTag (dvbsiparser.h)
-
 description: Gets the tag that describes a Digital Video Broadcast (DVB) parental rating descriptor.
 old-location: mstv\idvbparentalratingdescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 30689876-39be-44dd-a480-c660dcf3ddd1
-
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbParentalRatingDescriptor interface, IDvbParentalRatingDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbParentalRatingDescriptor.GetTag, IDvbParentalRatingDescriptor::GetTag, dvbsiparser/IDvbParentalRatingDescriptor::GetTag, mstv.idvbparentalratingdescriptor_gettag
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbParentalRatingDescriptor.GetTag"
+f1_keywords:
+- dvbsiparser/IDvbParentalRatingDescriptor.GetTag
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbParentalRatingDescriptor.GetTag
+- IDvbParentalRatingDescriptor.GetTag
 targetos: Windows
 req.typenames: 
 req.redist: 

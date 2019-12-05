@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMGetIssuanceLicenseTemplate
 title: DRMGetIssuanceLicenseTemplate function (msdrm.h)
-
 description: Obtains an issuance license template from an existing issuance license.
 old-location: rm\drmgetissuancelicensetemplate.htm
 tech.root: AdRms_Sdk
 ms.assetid: 6667bab3-5022-4279-846a-61a0a37e9d33
-
 ms.date: 12/05/2018
 ms.keywords: DRMGetIssuanceLicenseTemplate, DRMGetIssuanceLicenseTemplate function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetIssuanceLicenseTemplate, rm.drmgetissuancelicensetemplate
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMGetIssuanceLicenseTemplate"
+f1_keywords:
+- msdrm/DRMGetIssuanceLicenseTemplate
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMGetIssuanceLicenseTemplate
+- DRMGetIssuanceLicenseTemplate
 targetos: Windows
 req.typenames: 
 req.redist: 

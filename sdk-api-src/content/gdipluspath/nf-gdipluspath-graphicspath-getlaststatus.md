@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.GetLastStatus
 title: GraphicsPath::GetLastStatus (gdipluspath.h)
-
 description: The GraphicsPath::GetLastStatus method returns a value that indicates the nature of this GraphicsPath object's most recent method failure.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GetLastStatus_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\getlaststatus_91.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],GetLastStatus method, GraphicsPath.GetLastStatus, GraphicsPath::GetLastStatus, _gdiplus_CLASS_GraphicsPath_GetLastStatus_, gdiplus._gdiplus_CLASS_GraphicsPath_GetLastStatus_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPath.GetLastStatus"
+f1_keywords:
+- gdipluspath/GraphicsPath.GetLastStatus
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPath.GetLastStatus
+- GraphicsPath.GetLastStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

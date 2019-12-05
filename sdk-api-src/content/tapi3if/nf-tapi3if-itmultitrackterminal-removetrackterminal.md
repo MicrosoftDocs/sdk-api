@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITMultiTrackTerminal.RemoveTrackTerminal
 title: ITMultiTrackTerminal::RemoveTrackTerminal (tapi3if.h)
-
 description: The RemoveTrackTerminal method removes the specified terminal from the collection of track terminals that belong to the multitrack terminal on which the method was called.
 old-location: tapi3\itmultitrackterminal_removetrackterminal.htm
 tech.root: Tapi
 ms.assetid: 59f257ef-9e52-40fb-a72c-732105262016
-
 ms.date: 12/05/2018
 ms.keywords: ITMultiTrackTerminal interface [TAPI 2.2],RemoveTrackTerminal method, ITMultiTrackTerminal.RemoveTrackTerminal, ITMultiTrackTerminal::RemoveTrackTerminal, RemoveTrackTerminal, RemoveTrackTerminal method [TAPI 2.2], RemoveTrackTerminal method [TAPI 2.2],ITMultiTrackTerminal interface, _tapi3_itmultitrackterminal_removetrackterminal, tapi3.itmultitrackterminal_removetrackterminal, tapi3if/ITMultiTrackTerminal::RemoveTrackTerminal
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITMultiTrackTerminal.RemoveTrackTerminal"
+f1_keywords:
+- tapi3if/ITMultiTrackTerminal.RemoveTrackTerminal
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITMultiTrackTerminal.RemoveTrackTerminal
+- ITMultiTrackTerminal.RemoveTrackTerminal
 targetos: Windows
 req.typenames: 
 req.redist: 

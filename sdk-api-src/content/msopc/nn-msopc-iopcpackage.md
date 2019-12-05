@@ -1,19 +1,17 @@
 ---
 UID: NN:msopc.IOpcPackage
 title: IOpcPackage (msopc.h)
-
 description: Represents a package and provides methods to access the package's parts and relationships.
 old-location: opc\iopcpackage.htm
 tech.root: OPC
 ms.assetid: e7052dd2-c910-41d8-a58a-8f3e68e09dd0
-
 ms.date: 12/05/2018
 ms.keywords: IOpcPackage, IOpcPackage interface [Open Packaging Conventions], IOpcPackage interface [Open Packaging Conventions],described, msopc/IOpcPackage, opc.iopcpackage
 ms.topic: interface
-f1_keywords: 
- - "msopc/IOpcPackage"
+f1_keywords:
+- msopc/IOpcPackage
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcPackage
+- IOpcPackage
 targetos: Windows
 req.typenames: 
 req.redist: 

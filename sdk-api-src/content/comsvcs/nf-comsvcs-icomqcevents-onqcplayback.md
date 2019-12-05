@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComQCEvents.OnQCPlayback
 title: IComQCEvents::OnQCPlayback (comsvcs.h)
-
 description: Generated when a messages contents are replayed.
 old-location: cos\icomqcevents_onqcplayback.htm
 tech.root: cossdk
 ms.assetid: 7cd9daf8-cc4d-4d48-b547-95b370f5a927
-
 ms.date: 12/05/2018
 ms.keywords: IComQCEvents interface [COM+],OnQCPlayback method, IComQCEvents.OnQCPlayback, IComQCEvents::OnQCPlayback, OnQCPlayback, OnQCPlayback method [COM+], OnQCPlayback method [COM+],IComQCEvents interface, _dtc_IComQCEvents_OnQCPlayback, comsvcs/IComQCEvents::OnQCPlayback, cos.icomqcevents_onqcplayback
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComQCEvents.OnQCPlayback"
+f1_keywords:
+- comsvcs/IComQCEvents.OnQCPlayback
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComQCEvents.OnQCPlayback
+- IComQCEvents.OnQCPlayback
 targetos: Windows
 req.typenames: 
 req.redist: 

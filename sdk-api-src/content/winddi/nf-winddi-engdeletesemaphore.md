@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngDeleteSemaphore
 title: EngDeleteSemaphore function (winddi.h)
-
 description: The EngDeleteSemaphore function deletes a semaphore object from the system's resource list.
 old-location: display\engdeletesemaphore.htm
 tech.root: display
 ms.assetid: 6855017c-8919-496b-b82c-d65dea7ad5f0
-
 ms.date: 12/05/2018
 ms.keywords: EngDeleteSemaphore, EngDeleteSemaphore function [Display Devices], display.engdeletesemaphore, gdifncs_a669ceb3-f9b3-4940-b1f8-17c55ee42f59.xml, winddi/EngDeleteSemaphore
 ms.topic: function
-f1_keywords: 
- - "winddi/EngDeleteSemaphore"
+f1_keywords:
+- winddi/EngDeleteSemaphore
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,17 +30,17 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Win32k.sys
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - EngDeleteSemaphore
+- EngDeleteSemaphore
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:wbemdisp.WbemTimeout
 title: WbemTimeout (wbemdisp.h)
-
 description: Defines the time-out constants. This constant is used by SWbemEventSource.NextEvent.
 old-location: wmi\wbemtimeout.htm
 tech.root: WmiSdk
 ms.assetid: 1dfe8412-0b6a-40be-94b7-c993851a9205
-
 ms.date: 12/05/2018
 ms.keywords: WbemTimeout, WbemTimeout enumeration [Windows Management Instrumentation], _hmm_wbemtimeout, wbemTimeoutInfinite, wbemdisp/WbemTimeout, wbemdisp/wbemTimeoutInfinite, wmi.wbemtimeout
 ms.topic: enum
-f1_keywords: 
- - "wbemdisp/WbemTimeout"
+f1_keywords:
+- wbemdisp/WbemTimeout
 dev_langs:
- - c++
+- c++
 req.header: wbemdisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wbemdisp.h
+- Wbemdisp.h
 api_name:
- - WbemTimeout
+- WbemTimeout
 targetos: Windows
 req.typenames: WbemTimeout
 req.redist: 

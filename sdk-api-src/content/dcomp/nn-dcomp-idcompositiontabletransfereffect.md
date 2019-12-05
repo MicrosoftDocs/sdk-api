@@ -1,19 +1,17 @@
 ---
 UID: NN:dcomp.IDCompositionTableTransferEffect
 title: IDCompositionTableTransferEffect (dcomp.h)
-
 description: The table transfer effect is used to map the color intensities of an image using a transfer function created from interpolating a list of values you provide.
 old-location: directcomp\idcompositiontabletransfereffect.htm
 tech.root: directcomp
 ms.assetid: 147E15B8-C529-4BC6-85AA-FB069B892C6C
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTableTransferEffect, IDCompositionTableTransferEffect interface [DirectComposition], IDCompositionTableTransferEffect interface [DirectComposition],described, dcomp/IDCompositionTableTransferEffect, directcomp.idcompositiontabletransfereffect
 ms.topic: interface
-f1_keywords: 
- - "dcomp/IDCompositionTableTransferEffect"
+f1_keywords:
+- dcomp/IDCompositionTableTransferEffect
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionTableTransferEffect
+- IDCompositionTableTransferEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

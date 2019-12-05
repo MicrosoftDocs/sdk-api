@@ -1,19 +1,17 @@
 ---
 UID: NN:bdaiface.IEnumPIDMap
 title: IEnumPIDMap (bdaiface.h)
-
 description: The IEnumPIDMap interface enumerates a collection of Packet ID (PID) maps.
 old-location: dshow\ienumpidmap.htm
 tech.root: DirectShow
 ms.assetid: d46010c4-0f16-4c97-ad10-16f7ac250390
-
 ms.date: 12/05/2018
 ms.keywords: IEnumPIDMap, IEnumPIDMap interface [DirectShow], IEnumPIDMap interface [DirectShow],described, IEnumPIDMapInterface, bdaiface/IEnumPIDMap, dshow.ienumpidmap
 ms.topic: interface
-f1_keywords: 
- - "bdaiface/IEnumPIDMap"
+f1_keywords:
+- bdaiface/IEnumPIDMap
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IEnumPIDMap
+- IEnumPIDMap
 targetos: Windows
 req.typenames: 
 req.redist: 

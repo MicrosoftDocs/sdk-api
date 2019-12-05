@@ -1,19 +1,17 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_CONTROL_UNIT_FN
 title: PIBIO_SENSOR_CONTROL_UNIT_FN (winbio_adapter.h)
-
 description: Performs a vendor-defined control operation that does not require elevated privilege.
 old-location: secbiomet\sensoradaptercontrolunit.htm
 tech.root: SecBioMet
 ms.assetid: cc37b9a0-bea8-4413-a2fe-30a92db74604
-
 ms.date: 12/05/2018
 ms.keywords: PIBIO_SENSOR_CONTROL_UNIT_FN, PIBIO_SENSOR_CONTROL_UNIT_FN callback, SensorAdapterControlUnit, SensorAdapterControlUnit callback function [Windows Biometric Framework API], secbiomet.sensoradaptercontrolunit, winbio_adapter/SensorAdapterControlUnit
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/SensorAdapterControlUnit
 dev_langs:
- - c++
+- c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

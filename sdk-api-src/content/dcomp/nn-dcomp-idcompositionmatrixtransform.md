@@ -1,19 +1,17 @@
 ---
 UID: NN:dcomp.IDCompositionMatrixTransform
 title: IDCompositionMatrixTransform (dcomp.h)
-
 description: Represents an arbitrary affine 2D transformation defined by a 3-by-2 matrix.
 old-location: directcomp\idcompositionmatrixtransform.htm
 tech.root: directcomp
 ms.assetid: 150e33f2-3d76-44a8-b2fe-5a2b4a532c3c
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionMatrixTransform, IDCompositionMatrixTransform interface [DirectComposition], IDCompositionMatrixTransform interface [DirectComposition],described, dcomp/IDCompositionMatrixTransform, directcomp.idcompositionmatrixtransform
 ms.topic: interface
-f1_keywords: 
- - "dcomp/IDCompositionMatrixTransform"
+f1_keywords:
+- dcomp/IDCompositionMatrixTransform
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionMatrixTransform
+- IDCompositionMatrixTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

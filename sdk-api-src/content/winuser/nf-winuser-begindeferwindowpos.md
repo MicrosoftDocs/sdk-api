@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.BeginDeferWindowPos
 title: BeginDeferWindowPos function (winuser.h)
-
 description: Allocates memory for a multiple-window- position structure and returns the handle to the structure.
 old-location: winmsg\begindeferwindowpos.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\begindeferwindowpos.htm
-
 ms.date: 12/05/2018
 ms.keywords: BeginDeferWindowPos, BeginDeferWindowPos function [Windows and Messages], _win32_BeginDeferWindowPos, _win32_begindeferwindowpos_cpp, winmsg.begindeferwindowpos, winui._win32_begindeferwindowpos, winuser/BeginDeferWindowPos
 ms.topic: function
-f1_keywords: 
- - "winuser/BeginDeferWindowPos"
+f1_keywords:
+- winuser/BeginDeferWindowPos
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
- - ie_shims.dll
- - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+- User32.dll
+- API-MS-Win-NTUser-IE-Window-l1-1-0.dll
+- ie_shims.dll
+- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
 api_name:
- - BeginDeferWindowPos
+- BeginDeferWindowPos
 targetos: Windows
 req.typenames: 
 req.redist: 

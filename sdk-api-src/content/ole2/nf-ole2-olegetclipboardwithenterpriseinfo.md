@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleGetClipboardWithEnterpriseInfo
 title: OleGetClipboardWithEnterpriseInfo function (ole2.h)
-
 description: Enables Windows Information Protection enlightened applications to retrieve an IDataObject from the OLE Clipboard accompanied by Windows Information Protection information about the data and the source application.
 old-location: com\olegetclipboardwithenterpriseinfo.htm
 tech.root: com
 ms.assetid: 1DAD2A9A-EDA2-49D2-90F7-2A9022988177
-
 ms.date: 12/05/2018
 ms.keywords: OleGetClipboardWithEnterpriseInfo, OleGetClipboardWithEnterpriseInfo function [COM], com.olegetclipboardwithenterpriseinfo, ole2/OleGetClipboardWithEnterpriseInfo
 ms.topic: function
-f1_keywords: 
- - "ole2/OleGetClipboardWithEnterpriseInfo"
+f1_keywords:
+- ole2/OleGetClipboardWithEnterpriseInfo
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-RTCore-OLE32-clipboard-l1-1-0.dll
- - ie_shims.dll
- - ext-ms-win-ole32-clipboard-ie-l1-1-0.dll
- - API-MS-Win-RTCore-Ole32-Clipboard-L1-1-1.dll
+- Ole32.dll
+- API-MS-Win-RTCore-OLE32-clipboard-l1-1-0.dll
+- ie_shims.dll
+- ext-ms-win-ole32-clipboard-ie-l1-1-0.dll
+- API-MS-Win-RTCore-Ole32-Clipboard-L1-1-1.dll
 api_name:
- - OleGetClipboardWithEnterpriseInfo
+- OleGetClipboardWithEnterpriseInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

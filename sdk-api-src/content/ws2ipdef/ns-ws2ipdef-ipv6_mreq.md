@@ -1,19 +1,17 @@
 ---
 UID: NS:ws2ipdef.ipv6_mreq
 title: IPV6_MREQ (ws2ipdef.h)
-
 description: The ipv6_mreq structure provides multicast group information for IPv6 addresses.
 old-location: winsock\ipv6_mreq.htm
 tech.root: WinSock
 ms.assetid: 672ce465-357c-450c-83a2-3cbdb28e018c
-
 ms.date: 12/05/2018
-ms.keywords: "*PIPV6_MREQ, IP6_MREQ [Winsock], IPV6_MREQ, IPV6_MREQ structure [Winsock], PIPV6_MREQ, PIPV6_MREQ structure pointer [Winsock], ipv6_mreq, ipv6_mreq structure [Winsock], winsock.ipv6_mreq, ws2ipdef/PIPV6_MREQ, ws2ipdef/ipv6_mreq, ws2tcpip/PIPV6_MREQ, ws2tcpip/ipv6_mreq"
+ms.keywords: '*PIPV6_MREQ, IP6_MREQ [Winsock], IPV6_MREQ, IPV6_MREQ structure [Winsock], PIPV6_MREQ, PIPV6_MREQ structure pointer [Winsock], ipv6_mreq, ipv6_mreq structure [Winsock], winsock.ipv6_mreq, ws2ipdef/PIPV6_MREQ, ws2ipdef/ipv6_mreq, ws2tcpip/PIPV6_MREQ, ws2tcpip/ipv6_mreq'
 ms.topic: struct
-f1_keywords: 
- - "ws2ipdef/IPV6_MREQ"
+f1_keywords:
+- ws2ipdef/IPV6_MREQ
 dev_langs:
- - c++
+- c++
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ws2ipdef.h
- - Ws2tcpip.h
+- Ws2ipdef.h
+- Ws2tcpip.h
 api_name:
- - IPV6_MREQ
+- IPV6_MREQ
 targetos: Windows
 req.typenames: IPV6_MREQ, *PIPV6_MREQ
 req.redist: 

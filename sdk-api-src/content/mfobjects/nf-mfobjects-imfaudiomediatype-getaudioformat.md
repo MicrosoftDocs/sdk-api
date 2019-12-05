@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFAudioMediaType.GetAudioFormat
 title: IMFAudioMediaType::GetAudioFormat (mfobjects.h)
-
 description: GetAudioFormat is no longer available for use as of Windows 7.
 old-location: mf\imfaudiomediatype_getaudioformat.htm
 tech.root: medfound
 ms.assetid: 6a874e7b-9358-45e1-85be-7207bf46d93e
-
 ms.date: 12/05/2018
 ms.keywords: 6a874e7b-9358-45e1-85be-7207bf46d93e, GetAudioFormat, GetAudioFormat method [Media Foundation], GetAudioFormat method [Media Foundation],IMFAudioMediaType interface, IMFAudioMediaType interface [Media Foundation],GetAudioFormat method, IMFAudioMediaType.GetAudioFormat, IMFAudioMediaType::GetAudioFormat, mf.imfaudiomediatype_getaudioformat, mfobjects/IMFAudioMediaType::GetAudioFormat
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFAudioMediaType.GetAudioFormat"
+f1_keywords:
+- mfobjects/IMFAudioMediaType.GetAudioFormat
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFAudioMediaType.GetAudioFormat
+- IMFAudioMediaType.GetAudioFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

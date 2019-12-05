@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymSrvDeltaNameW
 title: SymSrvDeltaNameW function (dbghelp.h)
-
 description: Generates the name for a file that describes the relationship between two different versions of the same symbol or image file. Using this feature prevents applications from having to regenerate such information every time they analyze two files.
 old-location: base\symsrvdeltaname.htm
 tech.root: Debug
 ms.assetid: 35be6aff-efc7-4ed9-bfe7-3d0f798acbd9
-
 ms.date: 12/05/2018
 ms.keywords: SymSrvDeltaName, SymSrvDeltaName function, SymSrvDeltaNameW, base.symsrvdeltaname, dbghelp/SymSrvDeltaName, dbghelp/SymSrvDeltaNameW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymSrvDeltaName"
+f1_keywords:
+- dbghelp/SymSrvDeltaName
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymSrvDeltaName
- - SymSrvDeltaName
- - SymSrvDeltaNameW
+- SymSrvDeltaName
+- SymSrvDeltaName
+- SymSrvDeltaNameW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.3 or later

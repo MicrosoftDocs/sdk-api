@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.SetSequenceZeroPadding
 title: IPhotoAcquireSettings::SetSequenceZeroPadding (photoacquire.h)
-
 description: The SetSequenceZeroPadding method sets a value indicating whether zeros or spaces are used to pad sequential file names.
 old-location: picacq\iphotoacquiresettings_setsequencezeropadding.htm
 tech.root: acquisition
 ms.assetid: 5010a61f-a01c-4dd9-850e-581a62b31ab4
-
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireSettings interface [Picture Acquisition],SetSequenceZeroPadding method, IPhotoAcquireSettings.SetSequenceZeroPadding, IPhotoAcquireSettings::SetSequenceZeroPadding, IPhotoAcquireSettingsSetSequenceZeroPadding, SetSequenceZeroPadding, SetSequenceZeroPadding method [Picture Acquisition], SetSequenceZeroPadding method [Picture Acquisition],IPhotoAcquireSettings interface, photoacquire/IPhotoAcquireSettings::SetSequenceZeroPadding, picacq.iphotoacquiresettings_setsequencezeropadding
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquireSettings.SetSequenceZeroPadding"
+f1_keywords:
+- photoacquire/IPhotoAcquireSettings.SetSequenceZeroPadding
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireSettings.SetSequenceZeroPadding
+- IPhotoAcquireSettings.SetSequenceZeroPadding
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSensorDevice.GetStreamAttributes
 title: IMFSensorDevice::GetStreamAttributes (mfidl.h)
-
 description: Gets the stream attribute store with the specified index.
 old-location: mf\imfsensordevice_getstreamattributes.htm
 tech.root: medfound
 ms.assetid: DDBEB335-E6E3-4185-B7EF-90FABA9CDCE5
-
 ms.date: 12/05/2018
 ms.keywords: GetStreamAttributes, GetStreamAttributes method [Media Foundation], GetStreamAttributes method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetStreamAttributes method, IMFSensorDevice.GetStreamAttributes, IMFSensorDevice::GetStreamAttributes, mf.imfsensordevice_getstreamattributes, mfidl/IMFSensorDevice::GetStreamAttributes
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSensorDevice.GetStreamAttributes"
+f1_keywords:
+- mfidl/IMFSensorDevice.GetStreamAttributes
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFSensorDevice.GetStreamAttributes
+- IMFSensorDevice.GetStreamAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

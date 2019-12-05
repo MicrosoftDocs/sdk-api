@@ -1,19 +1,17 @@
 ---
 UID: NN:gpmgmt.IGPMStatusMsgCollection
 title: IGPMStatusMsgCollection (gpmgmt.h)
-
 description: The IGPMStatusMsgCollection interface contains methods that enable applications to access a collection of status messages when using the Group Policy Management Console (GPMC) interfaces.
 old-location: gpmc\igpmstatusmsgcollection.htm
 tech.root: gpmc
 ms.assetid: 774dd1b0-e5ea-4fef-b3bc-743870793db5
-
 ms.date: 12/05/2018
 ms.keywords: GPMStatusMsgCollection, IGPMStatusMsgCollection, IGPMStatusMsgCollection interface [GPMC], IGPMStatusMsgCollection interface [GPMC],described, _win32_igpmstatusmsgcollection, gpmc.igpmstatusmsgcollection, gpmgmt/IGPMStatusMsgCollection
 ms.topic: interface
-f1_keywords: 
- - "gpmgmt/IGPMStatusMsgCollection"
+f1_keywords:
+- gpmgmt/IGPMStatusMsgCollection
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMStatusMsgCollection
- - IGPMStatusMsgCollection.Count
- - IGPMStatusMsgCollection.get_Count
- - IGPMStatusMsgCollection.Item
- - IGPMStatusMsgCollection.get_Item
- - GPMStatusMsgCollection
+- IGPMStatusMsgCollection
+- IGPMStatusMsgCollection.Count
+- IGPMStatusMsgCollection.get_Count
+- IGPMStatusMsgCollection.Item
+- IGPMStatusMsgCollection.get_Item
+- GPMStatusMsgCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IAMDeviceRemoval
 title: IAMDeviceRemoval (strmif.h)
-
 description: The IAMDeviceRemoval interface provides a way for the Filter Graph Manager to register for device removal events for a capture device.
 old-location: dshow\iamdeviceremoval.htm
 tech.root: DirectShow
 ms.assetid: 3d67f577-9d85-47ca-b887-f259e9acc964
-
 ms.date: 12/05/2018
 ms.keywords: IAMDeviceRemoval, IAMDeviceRemoval interface [DirectShow], IAMDeviceRemoval interface [DirectShow],described, IAMDeviceRemovalInterface, dshow.iamdeviceremoval, strmif/IAMDeviceRemoval
 ms.topic: interface
-f1_keywords: 
- - "strmif/IAMDeviceRemoval"
+f1_keywords:
+- strmif/IAMDeviceRemoval
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMDeviceRemoval
+- IAMDeviceRemoval
 targetos: Windows
 req.typenames: 
 req.redist: 

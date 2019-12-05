@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationManager.GetUpdateManager
 title: IDirectManipulationManager::GetUpdateManager (directmanipulation.h)
-
 description: Gets a pointer to an IDirectManipulationUpdateManager object that receives compositor updates.
 old-location: directmanipulation\idirectmanipulationmanager_getupdatemanager.htm
 tech.root: directmanipulation
 ms.assetid: f3080fcb-3bbe-492b-a94e-322f93781cf5
-
 ms.date: 12/05/2018
 ms.keywords: GetUpdateManager, GetUpdateManager method [Direct Manipulation], GetUpdateManager method [Direct Manipulation],IDirectManipulationManager interface, IDirectManipulationManager interface [Direct Manipulation],GetUpdateManager method, IDirectManipulationManager.GetUpdateManager, IDirectManipulationManager::GetUpdateManager, directmanipulation.idirectmanipulationmanager_getupdatemanager, directmanipulation/IDirectManipulationManager::GetUpdateManager
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationManager.GetUpdateManager"
+f1_keywords:
+- directmanipulation/IDirectManipulationManager.GetUpdateManager
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationManager.GetUpdateManager
+- IDirectManipulationManager.GetUpdateManager
 targetos: Windows
 req.typenames: 
 req.redist: 

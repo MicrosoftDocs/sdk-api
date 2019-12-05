@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineForwardW
 title: lineForwardW function (tapi.h)
-
 description: The lineForward function forwards calls destined for the specified address on the specified line, according to the specified forwarding instructions.
 old-location: tapi2\lineforward.htm
 tech.root: Tapi
 ms.assetid: 68dc99c5-1158-4e18-8e32-08216ff3567b
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_lineforward, lineForward, lineForward function [TAPI 2.2], lineForwardA, lineForwardW, tapi/lineForward, tapi/lineForwardA, tapi/lineForwardW, tapi2.lineforward"
+ms.keywords: _tapi2_lineforward, lineForward, lineForward function [TAPI 2.2], lineForwardA, lineForwardW, tapi/lineForward, tapi/lineForwardA, tapi/lineForwardW, tapi2.lineforward
 ms.topic: function
-f1_keywords: 
- - "tapi/lineForward"
+f1_keywords:
+- tapi/lineForward
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineForward
- - lineForwardA
- - lineForwardW
+- lineForward
+- lineForwardA
+- lineForwardW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2psiparser.ITSDT.RegisterForNextTable
 title: ITSDT::RegisterForNextTable (mpeg2psiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\itsdt_registerfornexttable.htm
 tech.root: mstv
 ms.assetid: 36d597e2-0a65-48f3-8220-bb3481185af7
-
 ms.date: 12/05/2018
 ms.keywords: ITSDT interface [Microsoft TV Technologies],RegisterForNextTable method, ITSDT.RegisterForNextTable, ITSDT::RegisterForNextTable, ITSDTRegisterForNextTable, RegisterForNextTable, RegisterForNextTable method [Microsoft TV Technologies], RegisterForNextTable method [Microsoft TV Technologies],ITSDT interface, mpeg2psiparser/ITSDT::RegisterForNextTable, mstv.itsdt_registerfornexttable
 ms.topic: method
-f1_keywords: 
- - "mpeg2psiparser/ITSDT.RegisterForNextTable"
+f1_keywords:
+- mpeg2psiparser/ITSDT.RegisterForNextTable
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2PsiParser.h
+- Mpeg2PsiParser.h
 api_name:
- - ITSDT.RegisterForNextTable
+- ITSDT.RegisterForNextTable
 targetos: Windows
 req.typenames: 
 req.redist: 

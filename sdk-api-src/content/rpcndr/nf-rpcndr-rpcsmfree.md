@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcndr.RpcSmFree
 title: RpcSmFree function (rpcndr.h)
-
 description: The RpcSmFree function releases memory allocated by RpcSmAllocate.
 old-location: rpc\rpcsmfree.htm
 tech.root: Rpc
 ms.assetid: d8f7fae4-4d91-4f91-9018-c4bcdb4d6c65
-
 ms.date: 12/05/2018
 ms.keywords: RpcSmFree, RpcSmFree function [RPC], _rpc_rpcsmfree, rpc.rpcsmfree, rpcndr/RpcSmFree
 ms.topic: function
-f1_keywords: 
- - "rpcndr/RpcSmFree"
+f1_keywords:
+- rpcndr/RpcSmFree
 dev_langs:
- - c++
+- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcSmFree
+- RpcSmFree
 targetos: Windows
 req.typenames: 
 req.redist: 

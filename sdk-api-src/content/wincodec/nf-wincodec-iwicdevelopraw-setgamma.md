@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetGamma
 title: IWICDevelopRaw::SetGamma (wincodec.h)
-
 description: Sets the desired gamma value.
 old-location: wic\_wic_codec_iwicdevelopraw_setgamma.htm
 tech.root: wic
 ms.assetid: 14d3b34c-1628-4e49-b07c-141f2933c86e
-
 ms.date: 12/05/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetGamma method, IWICDevelopRaw.SetGamma, IWICDevelopRaw::SetGamma, SetGamma, SetGamma method [Windows Imaging Component], SetGamma method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setgamma, wic._wic_codec_iwicdevelopraw_setgamma, wincodec/IWICDevelopRaw::SetGamma
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICDevelopRaw.SetGamma"
+f1_keywords:
+- wincodec/IWICDevelopRaw.SetGamma
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICDevelopRaw.SetGamma
+- IWICDevelopRaw.SetGamma
 targetos: Windows
 req.typenames: 
 req.redist: 

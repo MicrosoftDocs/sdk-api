@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwProducts.Item
 title: INetFwProducts::Item (netfw.h)
-
 description: The Item method returns the product with the specified index if it is in the collection.
 old-location: ics\inetfwproducts_item.htm
 tech.root: ics
 ms.assetid: 091d53bc-3c5e-4960-9bc9-34343fd352ce
-
 ms.date: 12/05/2018
 ms.keywords: INetFwProducts interface [ICS/ICF],Item method, INetFwProducts.Item, INetFwProducts::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwProducts interface, ics.inetfwproducts_item, netfw/INetFwProducts::Item
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwProducts.Item"
+f1_keywords:
+- netfw/INetFwProducts.Item
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwProducts.Item
+- INetFwProducts.Item
 targetos: Windows
 req.typenames: 
 req.redist: 

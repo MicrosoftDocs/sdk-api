@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardListReaderGroupsW
 title: SCardListReaderGroupsW function (winscard.h)
-
 description: Provides the list of reader groups that have previously been introduced to the system.
 old-location: security\scardlistreadergroups.htm
 tech.root: SecAuthN
 ms.assetid: df01fa4b-8053-4d3a-ae2e-66eeb6583225
-
 ms.date: 12/05/2018
 ms.keywords: SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCARD_SYSTEM_READERS, SCardListReaderGroups, SCardListReaderGroups function [Security], SCardListReaderGroupsA, SCardListReaderGroupsW, _smart_scardlistreadergroups, security.scardlistreadergroups, winscard/SCardListReaderGroups, winscard/SCardListReaderGroupsA, winscard/SCardListReaderGroupsW
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardListReaderGroups"
+f1_keywords:
+- winscard/SCardListReaderGroups
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winscard.dll
+- Winscard.dll
 api_name:
- - SCardListReaderGroups
- - SCardListReaderGroupsA
- - SCardListReaderGroupsW
+- SCardListReaderGroups
+- SCardListReaderGroupsA
+- SCardListReaderGroupsW
 targetos: Windows
 req.typenames: 
 req.redist: 

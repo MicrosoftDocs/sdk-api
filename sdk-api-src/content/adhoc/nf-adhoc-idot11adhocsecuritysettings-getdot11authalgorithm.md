@@ -1,19 +1,17 @@
 ---
 UID: NF:adhoc.IDot11AdHocSecuritySettings.GetDot11AuthAlgorithm
 title: IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm (adhoc.h)
-
 description: Gets the authentication algorithm associated with the security settings.
 old-location: nwifi\idot11adhocsecuritysettings_getdot11authalgorithm.htm
 tech.root: NativeWiFi
 ms.assetid: 87ba445a-1ad7-49da-aa61-ed72d118e517
-
 ms.date: 12/05/2018
 ms.keywords: GetDot11AuthAlgorithm, GetDot11AuthAlgorithm method [NativeWIFI], GetDot11AuthAlgorithm method [NativeWIFI],IDot11AdHocSecuritySettings interface, IDot11AdHocSecuritySettings interface [NativeWIFI],GetDot11AuthAlgorithm method, IDot11AdHocSecuritySettings.GetDot11AuthAlgorithm, IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm, adhoc/IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm, nwifi.idot11adhocsecuritysettings_getdot11authalgorithm
 ms.topic: method
-f1_keywords: 
- - "adhoc/IDot11AdHocSecuritySettings.GetDot11AuthAlgorithm"
+f1_keywords:
+- adhoc/IDot11AdHocSecuritySettings.GetDot11AuthAlgorithm
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IDot11AdHocSecuritySettings.GetDot11AuthAlgorithm
+- IDot11AdHocSecuritySettings.GetDot11AuthAlgorithm
 targetos: Windows
 req.typenames: 
 req.redist: 

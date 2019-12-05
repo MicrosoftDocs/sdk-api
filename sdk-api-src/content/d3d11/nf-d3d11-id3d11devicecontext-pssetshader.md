@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.PSSetShader
 title: ID3D11DeviceContext::PSSetShader (d3d11.h)
-
 description: Sets a pixel shader to the device.
 old-location: direct3d11\id3d11devicecontext_pssetshader.htm
 tech.root: direct3d11
 ms.assetid: 2ee5c946-10bd-40b0-90b2-015aff2377aa
-
 ms.date: 12/05/2018
 ms.keywords: 4cf3d515-f3f8-76b0-407a-e411a6589c75, ID3D11DeviceContext interface [Direct3D 11],PSSetShader method, ID3D11DeviceContext.PSSetShader, ID3D11DeviceContext::PSSetShader, PSSetShader, PSSetShader method [Direct3D 11], PSSetShader method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::PSSetShader, direct3d11.id3d11devicecontext_pssetshader
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.PSSetShader"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.PSSetShader
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.PSSetShader
+- ID3D11DeviceContext.PSSetShader
 targetos: Windows
 req.typenames: 
 req.redist: 

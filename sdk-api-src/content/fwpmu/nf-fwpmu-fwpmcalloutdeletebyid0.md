@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmCalloutDeleteById0
 title: FwpmCalloutDeleteById0 function (fwpmu.h)
-
 description: Removes a callout object from the system.
 old-location: fwp\fwpmcalloutdeletebyid0_func.htm
 tech.root: fwp
 ms.assetid: fcd591c3-0d3d-48af-933f-ebf02a447b41
-
 ms.date: 12/05/2018
 ms.keywords: FwpmCalloutDeleteById0, FwpmCalloutDeleteById0 function [Filtering], fwp.fwpmcalloutdeletebyid0_func, fwpmu/FwpmCalloutDeleteById0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmCalloutDeleteById0"
+f1_keywords:
+- fwpmu/FwpmCalloutDeleteById0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmCalloutDeleteById0
+- FwpmCalloutDeleteById0
 targetos: Windows
 req.typenames: 
 req.redist: 

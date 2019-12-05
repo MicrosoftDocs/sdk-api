@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateTypeLib.SetDocString
 title: ICreateTypeLib::SetDocString (oaidl.h)
-
 description: Sets the documentation string associated with the library.
 old-location: automat\icreatetypelib_setdocstring.htm
 tech.root: automat
 ms.assetid: 5fe93ad2-f3c2-4559-a64a-cbbc17448e05
-
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetDocString method, ICreateTypeLib.SetDocString, ICreateTypeLib::SetDocString, SetDocString, SetDocString method [Automation], SetDocString method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetDocString, automat.icreatetypelib_setdocstring, oaidl/ICreateTypeLib::SetDocString
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateTypeLib.SetDocString"
+f1_keywords:
+- oaidl/ICreateTypeLib.SetDocString
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateTypeLib.SetDocString
+- ICreateTypeLib.SetDocString
 targetos: Windows
 req.typenames: 
 req.redist: 

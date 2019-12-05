@@ -1,19 +1,17 @@
 ---
 UID: NN:hrtfapoapi.IXAPOHrtfParameters
 title: IXAPOHrtfParameters (hrtfapoapi.h)
-
 description: The interface used to set parameters that control how head-related transfer function (HRTF) is applied to a sound.
 old-location: xaudio2\ixapohrtfparameters.htm
 tech.root: xaudio2
 ms.assetid: EDA29173-84B5-4D2F-90B0-546EEEC49539
-
 ms.date: 12/05/2018
 ms.keywords: IXAPOHrtfParameters, IXAPOHrtfParameters interface [XAudio2 Audio Mixing APIs], IXAPOHrtfParameters interface [XAudio2 Audio Mixing APIs],described, hrtfapoapi/IXAPOHrtfParameters, xaudio2.ixapohrtfparameters
 ms.topic: interface
-f1_keywords: 
- - "hrtfapoapi/IXAPOHrtfParameters"
+f1_keywords:
+- hrtfapoapi/IXAPOHrtfParameters
 dev_langs:
- - c++
+- c++
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: HrtfApo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - HrtfApo.dll
+- HrtfApo.dll
 api_name:
- - IXAPOHrtfParameters
+- IXAPOHrtfParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

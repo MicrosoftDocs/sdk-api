@@ -1,19 +1,17 @@
 ---
 UID: NF:libloaderapi.GetProcAddress
 title: GetProcAddress function (libloaderapi.h)
-
 description: Retrieves the address of an exported function or variable from the specified dynamic-link library (DLL).
 old-location: base\getprocaddress.htm
 tech.root: Dlls
 ms.assetid: a0d7fc09-f888-4f46-a571-d3719a627597
-
 ms.date: 12/05/2018
 ms.keywords: GetProcAddress, GetProcAddress function, _win32_getprocaddress, base.getprocaddress, libloaderapi/GetProcAddress, winbase/GetProcAddress
 ms.topic: function
-f1_keywords: 
- - "libloaderapi/GetProcAddress"
+f1_keywords:
+- libloaderapi/GetProcAddress
 dev_langs:
- - c++
+- c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-LibraryLoader-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-LibraryLoader-l1-1-1.dll
- - API-MS-Win-Core-LibraryLoader-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Libraryloader-l1-2-1.dll
- - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
- - vertdll.dll
+- Kernel32.dll
+- API-MS-Win-Core-LibraryLoader-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-LibraryLoader-l1-1-1.dll
+- API-MS-Win-Core-LibraryLoader-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Libraryloader-l1-2-1.dll
+- API-MS-Win-Core-LibraryLoader-L1-2-2.dll
+- vertdll.dll
 api_name:
- - GetProcAddress
+- GetProcAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

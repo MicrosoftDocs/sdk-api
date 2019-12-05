@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.SetCharSplat(LPCWSTR,LPCSTR)
 title: CInstance::SetCharSplat(LPCWSTR,LPCSTR) (instance.h)
-
 description: The SetCharSplat(LPCWSTR, LPCSTR) method sets a string property.
 old-location: wmi\cinstance_setcharsplat_lpcwstr__lpcstr_.htm
 tech.root: WmiSdk
 ms.assetid: cdd54a63-749e-47bb-8c92-2678577d8096
-
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],SetCharSplat method, CInstance.SetCharSplat, CInstance.SetCharSplat(LPCWSTR,LPCSTR), CInstance::SetCharSplat, CInstance::SetCharSplat(LPCWSTR,LPCSTR), SetCharSplat, SetCharSplat method [Windows Management Instrumentation], SetCharSplat method [Windows Management Instrumentation],CInstance interface, instance/CInstance::SetCharSplat, wmi.cinstance_setcharsplat_lpcwstr__lpcstr_
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.SetCharSplat"
+f1_keywords:
+- instance/CInstance.SetCharSplat
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.SetCharSplat
+- CInstance.SetCharSplat
 targetos: Windows
 req.typenames: 
 req.redist: 

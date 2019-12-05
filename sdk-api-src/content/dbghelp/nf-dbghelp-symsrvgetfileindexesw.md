@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymSrvGetFileIndexesW
 title: SymSrvGetFileIndexesW function (dbghelp.h)
-
 description: Retrieves the indexes for the specified .pdb, .dbg, or image file that would be used to store the file. The combination of these values uniquely identifies the file in the symbol server.
 old-location: base\symsrvgetfileindexes.htm
 tech.root: Debug
 ms.assetid: 9a6c6949-1ba2-4ed9-a038-68c57560454a
-
 ms.date: 12/05/2018
 ms.keywords: SymSrvGetFileIndexes, SymSrvGetFileIndexes function, SymSrvGetFileIndexesW, base.symsrvgetfileindexes, dbghelp/SymSrvGetFileIndexes, dbghelp/SymSrvGetFileIndexesW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymSrvGetFileIndexes"
+f1_keywords:
+- dbghelp/SymSrvGetFileIndexes
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymSrvGetFileIndexes
- - SymSrvGetFileIndexes
- - SymSrvGetFileIndexesW
+- SymSrvGetFileIndexes
+- SymSrvGetFileIndexes
+- SymSrvGetFileIndexesW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.3 or later

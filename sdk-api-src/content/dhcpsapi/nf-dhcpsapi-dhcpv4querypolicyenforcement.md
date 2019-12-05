@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpV4QueryPolicyEnforcement
 title: DhcpV4QueryPolicyEnforcement function (dhcpsapi.h)
-
 description: Retrieves the policy enforcement state on the server or the specified IPv4 subnet from the DHCP Server.
 old-location: dhcp\dhcpv4querypolicyenforcement.htm
 tech.root: DHCP
 ms.assetid: a622d83c-bb18-4482-be8d-fdd96382a5e1
-
 ms.date: 12/05/2018
 ms.keywords: DhcpV4QueryPolicyEnforcement, DhcpV4QueryPolicyEnforcement function [DHCP], dhcp.dhcpv4querypolicyenforcement, dhcpsapi/DhcpV4QueryPolicyEnforcement
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpV4QueryPolicyEnforcement"
+f1_keywords:
+- dhcpsapi/DhcpV4QueryPolicyEnforcement
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpV4QueryPolicyEnforcement
+- DhcpV4QueryPolicyEnforcement
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SwitchToThisWindow
 title: SwitchToThisWindow function (winuser.h)
-
 description: Switches focus to the specified window and brings it to the foreground.
 old-location: winmsg\switchtothiswindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\switchtothiswindow.htm
-
 ms.date: 12/05/2018
 ms.keywords: SwitchToThisWindow, SwitchToThisWindow function [Windows and Messages], _win32_SwitchToThisWindow, _win32_switchtothiswindow_cpp, winmsg.switchtothiswindow, winui._win32_switchtothiswindow, winuser/SwitchToThisWindow
 ms.topic: function
-f1_keywords: 
- - "winuser/SwitchToThisWindow"
+f1_keywords:
+- winuser/SwitchToThisWindow
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
- - SwitchToThisWindow
+- SwitchToThisWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

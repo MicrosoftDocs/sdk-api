@@ -1,19 +1,17 @@
 ---
 UID: NS:dbghelp._SRCCODEINFOW
 title: SRCCODEINFOW (dbghelp.h)
-
 description: Contains line information.
 old-location: base\srccodeinfo_str.htm
 tech.root: Debug
 ms.assetid: 8a2ee743-d2e8-402a-b659-0c0b75052d1d
-
 ms.date: 12/05/2018
-ms.keywords: "*PSRCCODEINFOW, PSRCCODEINFO, PSRCCODEINFO structure pointer, SRCCODEINFO, SRCCODEINFO structure, SRCCODEINFOW, _SRCCODEINFO, _SRCCODEINFOW, base.srccodeinfo_str, dbghelp/PSRCCODEINFO, dbghelp/SRCCODEINFO, dbghelp/SRCCODEINFOW"
+ms.keywords: '*PSRCCODEINFOW, PSRCCODEINFO, PSRCCODEINFO structure pointer, SRCCODEINFO, SRCCODEINFO structure, SRCCODEINFOW, _SRCCODEINFO, _SRCCODEINFOW, base.srccodeinfo_str, dbghelp/PSRCCODEINFO, dbghelp/SRCCODEINFO, dbghelp/SRCCODEINFOW'
 ms.topic: struct
-f1_keywords: 
- - "dbghelp/SRCCODEINFO"
+f1_keywords:
+- dbghelp/SRCCODEINFO
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - SRCCODEINFO
- - SRCCODEINFO
- - SRCCODEINFOW
+- SRCCODEINFO
+- SRCCODEINFO
+- SRCCODEINFOW
 targetos: Windows
 req.typenames: SRCCODEINFOW, *PSRCCODEINFOW
 req.redist: DbgHelp.dll 6.1 or later

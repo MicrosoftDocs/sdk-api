@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetLoop
 title: IMFMediaEngine::SetLoop (mfmediaengine.h)
-
 description: Specifies whether the Media Engine loops playback.
 old-location: mf\imfmediaengine_setloop.htm
 tech.root: medfound
 ms.assetid: 0B8890EA-9207-428B-8EC2-18B51E1D8365
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetLoop method, IMFMediaEngine.SetLoop, IMFMediaEngine::SetLoop, SetLoop, SetLoop method [Media Foundation], SetLoop method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setloop, mfmediaengine/IMFMediaEngine::SetLoop
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngine.SetLoop"
+f1_keywords:
+- mfmediaengine/IMFMediaEngine.SetLoop
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngine.SetLoop
+- IMFMediaEngine.SetLoop
 targetos: Windows
 req.typenames: 
 req.redist: 

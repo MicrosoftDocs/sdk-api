@@ -1,19 +1,17 @@
 ---
 UID: NN:searchapi.ISearchProtocol2
 title: ISearchProtocol2 (searchapi.h)
-
 description: Provides methods for invoking, initializing, and managing IUrlAccessor objects.
 old-location: search\_search_ISearchProtocol2.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocol2\isearchprotocol2.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchProtocol2, ISearchProtocol2 interface [search], ISearchProtocol2 interface [search],described, _search_ISearchProtocol2, search._search_ISearchProtocol2, searchapi/ISearchProtocol2
 ms.topic: interface
-f1_keywords: 
- - "searchapi/ISearchProtocol2"
+f1_keywords:
+- searchapi/ISearchProtocol2
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchProtocol2
+- ISearchProtocol2
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

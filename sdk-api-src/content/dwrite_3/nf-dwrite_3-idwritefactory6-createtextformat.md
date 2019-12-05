@@ -1,17 +1,15 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory6.CreateTextFormat
 title: IDWriteFactory6::CreateTextFormat
-
 description: Creates a text format object used for text layout.
 tech.root: DirectWrite
-
 ms.date: 09/10/2019
 ms.keywords: IDWriteFactory6 interface [Direct Write],CreateTextFormat method, IDWriteFactory6.CreateTextFormat, IDWriteFactory6::CreateTextFormat, CreateTextFormat, CreateTextFormat method [Direct Write], CreateTextFormat method [Direct Write],IDWriteFactory6 interface, directwrite.idwritefactory6_createtextformat, dwrite_3/IDWriteFactory6::CreateTextFormat
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFactory6.CreateTextFormat"
+f1_keywords:
+- dwrite_3/IDWriteFactory6.CreateTextFormat
 dev_langs:
- - c++
+- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,15 +29,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFactory6::CreateFontSetBuilder
+- IDWriteFactory6::CreateFontSetBuilder
 targetos: Windows
 req.typenames: 
 req.redist: 

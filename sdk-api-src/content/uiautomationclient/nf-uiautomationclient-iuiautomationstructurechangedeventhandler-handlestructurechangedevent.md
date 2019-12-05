@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationStructureChangedEventHandler.HandleStructureChangedEvent
 title: IUIAutomationStructureChangedEventHandler::HandleStructureChangedEvent (uiautomationclient.h)
-
 description: Handles an event that is raised when the Microsoft UI Automation tree structure has changed.
 old-location: winauto\uiauto_IUIAutomationStructureChangedEventHandler_HandleStructureChangedEvent.htm
 tech.root: WinAuto
 ms.assetid: 0fdaf2d3-cfd1-4c93-a7cd-94ec83b3e812
-
 ms.date: 12/05/2018
 ms.keywords: HandleStructureChangedEvent, HandleStructureChangedEvent method [Windows Accessibility], HandleStructureChangedEvent method [Windows Accessibility],IUIAutomationStructureChangedEventHandler interface, IUIAutomationStructureChangedEventHandler interface [Windows Accessibility],HandleStructureChangedEvent method, IUIAutomationStructureChangedEventHandler.HandleStructureChangedEvent, IUIAutomationStructureChangedEventHandler::HandleStructureChangedEvent, uiauto.uiauto_IUIAutomationStructureChangedEventHandler_HandleStructureChangedEvent, uiauto_IUIAutomationStructureChangedEventHandler_HandleStructureChangedEvent, uiautomationclient/IUIAutomationStructureChangedEventHandler::HandleStructureChangedEvent, winauto.uiauto_IUIAutomationStructureChangedEventHandler_HandleStructureChangedEvent
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationStructureChangedEventHandler.HandleStructureChangedEvent"
+f1_keywords:
+- uiautomationclient/IUIAutomationStructureChangedEventHandler.HandleStructureChangedEvent
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationStructureChangedEventHandler.HandleStructureChangedEvent
+- IUIAutomationStructureChangedEventHandler.HandleStructureChangedEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

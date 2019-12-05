@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IConditionGenerator.DefaultPhrase
 title: IConditionGenerator::DefaultPhrase (structuredquery.h)
-
 description: This method attempts to produce a phrase that, when recognized by this instance of IConditionGenerator, represents the type and value pair for an entity, relationship, or named entity.
 old-location: search\_search_IConditionGenerator_DefaultPhrase.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditiongenerator\defaultphrase.htm
-
 ms.date: 12/05/2018
 ms.keywords: DefaultPhrase, DefaultPhrase method [search], DefaultPhrase method [search],IConditionGenerator interface, IConditionGenerator interface [search],DefaultPhrase method, IConditionGenerator.DefaultPhrase, IConditionGenerator::DefaultPhrase, _search_IConditionGenerator_DefaultPhrase, search._search_IConditionGenerator_DefaultPhrase, structuredquery/IConditionGenerator::DefaultPhrase
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IConditionGenerator.DefaultPhrase"
+f1_keywords:
+- structuredquery/IConditionGenerator.DefaultPhrase
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IConditionGenerator.DefaultPhrase
+- IConditionGenerator.DefaultPhrase
 targetos: Windows
 req.typenames: 
 req.redist: 

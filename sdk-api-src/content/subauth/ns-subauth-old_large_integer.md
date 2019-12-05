@@ -1,19 +1,17 @@
 ---
 UID: NS:subauth._OLD_LARGE_INTEGER
 title: OLD_LARGE_INTEGER (subauth.h)
-
 description: Is used to represent a 64-bit signed integer value as two 32-bit integers.
 old-location: security\old_large_integer.htm
 tech.root: SecAuthN
 ms.assetid: d2becc03-10ed-4741-97a4-53f900f0e675
-
 ms.date: 12/05/2018
-ms.keywords: "*POLD_LARGE_INTEGER, OLD_LARGE_INTEGER, OLD_LARGE_INTEGER structure [Security], POLD_LARGE_INTEGER, POLD_LARGE_INTEGER structure pointer [Security], security.old_large_integer, subauth/OLD_LARGE_INTEGER, subauth/POLD_LARGE_INTEGER"
+ms.keywords: '*POLD_LARGE_INTEGER, OLD_LARGE_INTEGER, OLD_LARGE_INTEGER structure [Security], POLD_LARGE_INTEGER, POLD_LARGE_INTEGER structure pointer [Security], security.old_large_integer, subauth/OLD_LARGE_INTEGER, subauth/POLD_LARGE_INTEGER'
 ms.topic: struct
-f1_keywords: 
- - "subauth/OLD_LARGE_INTEGER"
+f1_keywords:
+- subauth/OLD_LARGE_INTEGER
 dev_langs:
- - c++
+- c++
 req.header: subauth.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Subauth.h
+- Subauth.h
 api_name:
- - OLD_LARGE_INTEGER
+- OLD_LARGE_INTEGER
 targetos: Windows
 req.typenames: OLD_LARGE_INTEGER, *POLD_LARGE_INTEGER
 req.redist: 

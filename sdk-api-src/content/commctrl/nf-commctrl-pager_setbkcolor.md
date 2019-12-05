@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.Pager_SetBkColor
 title: Pager_SetBkColor macro (commctrl.h)
-
 description: Sets the current background color for the pager control. You can use this macro or send the PGM_SETBKCOLOR message explicitly.
 old-location: controls\Pager_SetBkColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_setbkcolor.htm
-
 ms.date: 12/05/2018
 ms.keywords: Pager_SetBkColor, Pager_SetBkColor macro [Windows Controls], _win32_Pager_SetBkColor, _win32_Pager_SetBkColor_cpp, commctrl/Pager_SetBkColor, controls.Pager_SetBkColor, controls._win32_Pager_SetBkColor
 ms.topic: macro
-f1_keywords: 
- - "commctrl/Pager_SetBkColor"
+f1_keywords:
+- commctrl/Pager_SetBkColor
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - Pager_SetBkColor
+- Pager_SetBkColor
 targetos: Windows
 req.typenames: 
 req.redist: 

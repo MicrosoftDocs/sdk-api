@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.EndInstall
 title: IUpdateInstaller::EndInstall (wuapi.h)
-
 description: Completes an asynchronous installation of the updates.
 old-location: wua\iupdateinstaller_endinstall.htm
 tech.root: Wua_Sdk
 ms.assetid: 7137164c-2b82-48dc-8488-6c8872896a39
-
 ms.date: 12/05/2018
 ms.keywords: EndInstall, EndInstall method [Windows Update Agent], EndInstall method [Windows Update Agent],IUpdateInstaller interface, IUpdateInstaller interface [Windows Update Agent],EndInstall method, IUpdateInstaller.EndInstall, IUpdateInstaller::EndInstall, wua.iupdateinstaller_endinstall, wuapi/IUpdateInstaller::EndInstall
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateInstaller.EndInstall"
+f1_keywords:
+- wuapi/IUpdateInstaller.EndInstall
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateInstaller.EndInstall
+- IUpdateInstaller.EndInstall
 targetos: Windows
 req.typenames: 
 req.redist: 

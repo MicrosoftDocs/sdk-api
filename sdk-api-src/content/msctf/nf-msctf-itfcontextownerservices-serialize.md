@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfContextOwnerServices.Serialize
 title: ITfContextOwnerServices::Serialize (msctf.h)
-
 description: The ITfContextOwnerServices::Serialize method obtains a property from a range of text and writes the property data into a stream object. This enables an application to store property data, for example, when writing the data to a file.
 old-location: tsf\itfcontextownerservices_serialize.htm
 tech.root: TSF
 ms.assetid: e67b6fa7-610d-426f-a290-36c0da4068f4
-
 ms.date: 12/05/2018
 ms.keywords: ITfContextOwnerServices interface [Text Services Framework],Serialize method, ITfContextOwnerServices.Serialize, ITfContextOwnerServices::Serialize, Serialize, Serialize method [Text Services Framework], Serialize method [Text Services Framework],ITfContextOwnerServices interface, _tsf_itfcontextownerservices_serialize_ref, msctf/ITfContextOwnerServices::Serialize, tsf.itfcontextownerservices_serialize
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfContextOwnerServices.Serialize"
+f1_keywords:
+- msctf/ITfContextOwnerServices.Serialize
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfContextOwnerServices.Serialize
+- ITfContextOwnerServices.Serialize
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

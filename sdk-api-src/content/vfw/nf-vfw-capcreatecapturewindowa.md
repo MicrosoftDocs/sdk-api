@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.capCreateCaptureWindowA
 title: capCreateCaptureWindowA function (vfw.h)
-
 description: The capCreateCaptureWindow function creates a capture window.
 old-location: multimedia\capcreatecapturewindow.htm
 tech.root: Multimedia
 ms.assetid: b08785f8-9850-4d3b-acbf-b065f45910e1
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_capCreateCaptureWindow, capCreateCaptureWindow, capCreateCaptureWindow function [Windows Multimedia], capCreateCaptureWindowA, capCreateCaptureWindowW, multimedia.capcreatecapturewindow, vfw/capCreateCaptureWindow, vfw/capCreateCaptureWindowA, vfw/capCreateCaptureWindowW"
+ms.keywords: _win32_capCreateCaptureWindow, capCreateCaptureWindow, capCreateCaptureWindow function [Windows Multimedia], capCreateCaptureWindowA, capCreateCaptureWindowW, multimedia.capcreatecapturewindow, vfw/capCreateCaptureWindow, vfw/capCreateCaptureWindowA, vfw/capCreateCaptureWindowW
 ms.topic: function
-f1_keywords: 
- - "vfw/capCreateCaptureWindow"
+f1_keywords:
+- vfw/capCreateCaptureWindow
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Vfw32.lib
 req.dll: Avicap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avicap32.dll
+- Avicap32.dll
 api_name:
- - capCreateCaptureWindow
- - capCreateCaptureWindowA
- - capCreateCaptureWindowW
+- capCreateCaptureWindow
+- capCreateCaptureWindowA
+- capCreateCaptureWindowW
 targetos: Windows
 req.typenames: 
 req.redist: 

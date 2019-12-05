@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CRYPT_X942_OTHER_INFO
 title: CRYPT_X942_OTHER_INFO (wincrypt.h)
-
 description: The CRYPT_X942_OTHER_INFO structure contains additional key generation information.
 old-location: security\crypt_x942_other_info.htm
 tech.root: SecCrypto
 ms.assetid: 7761af36-ad16-4628-86cb-16cbded6fb69
-
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_X942_OTHER_INFO, CRYPT_X942_OTHER_INFO, CRYPT_X942_OTHER_INFO structure [Security], PCRYPT_X942_OTHER_INFO, PCRYPT_X942_OTHER_INFO structure pointer [Security], _crypto2_crypt_x942_other_info, security.crypt_x942_other_info, wincrypt/CRYPT_X942_OTHER_INFO, wincrypt/PCRYPT_X942_OTHER_INFO"
+ms.keywords: '*PCRYPT_X942_OTHER_INFO, CRYPT_X942_OTHER_INFO, CRYPT_X942_OTHER_INFO structure [Security], PCRYPT_X942_OTHER_INFO, PCRYPT_X942_OTHER_INFO structure pointer [Security], _crypto2_crypt_x942_other_info, security.crypt_x942_other_info, wincrypt/CRYPT_X942_OTHER_INFO, wincrypt/PCRYPT_X942_OTHER_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRYPT_X942_OTHER_INFO"
+f1_keywords:
+- wincrypt/CRYPT_X942_OTHER_INFO
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_X942_OTHER_INFO
+- CRYPT_X942_OTHER_INFO
 targetos: Windows
 req.typenames: CRYPT_X942_OTHER_INFO, *PCRYPT_X942_OTHER_INFO
 req.redist: 

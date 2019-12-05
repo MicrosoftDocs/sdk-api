@@ -1,19 +1,17 @@
 ---
 UID: NF:wmiutils.IWbemPathKeyList.RemoveKey
 title: IWbemPathKeyList::RemoveKey (wmiutils.h)
-
 description: The IWbemPathKeyList::RemoveKey method removes the key that matches the wszName parameter.
 old-location: wmi\iwbempathkeylist_removekey.htm
 tech.root: WmiSdk
 ms.assetid: 07166023-2945-49d5-9d2d-8cac12053ed9
-
 ms.date: 12/05/2018
 ms.keywords: IWbemPathKeyList interface [Windows Management Instrumentation],RemoveKey method, IWbemPathKeyList.RemoveKey, IWbemPathKeyList::RemoveKey, RemoveKey, RemoveKey method [Windows Management Instrumentation], RemoveKey method [Windows Management Instrumentation],IWbemPathKeyList interface, _hmm_iwbempathkeylist_removekey, wmi.iwbempathkeylist_removekey, wmiutils/IWbemPathKeyList::RemoveKey
 ms.topic: method
-f1_keywords: 
- - "wmiutils/IWbemPathKeyList.RemoveKey"
+f1_keywords:
+- wmiutils/IWbemPathKeyList.RemoveKey
 dev_langs:
- - c++
+- c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Wmiutils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmiutils.dll
+- Wmiutils.dll
 api_name:
- - IWbemPathKeyList.RemoveKey
+- IWbemPathKeyList.RemoveKey
 targetos: Windows
 req.typenames: 
 req.redist: 

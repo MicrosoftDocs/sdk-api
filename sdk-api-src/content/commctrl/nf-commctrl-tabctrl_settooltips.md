@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TabCtrl_SetToolTips
 title: TabCtrl_SetToolTips macro (commctrl.h)
-
 description: Assigns a tooltip control to a tab control. You can use this macro or send the TCM_SETTOOLTIPS message explicitly.
 old-location: controls\TabCtrl_SetToolTips.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_settooltips.htm
-
 ms.date: 12/05/2018
 ms.keywords: TabCtrl_SetToolTips, TabCtrl_SetToolTips macro [Windows Controls], _win32_TabCtrl_SetToolTips, _win32_TabCtrl_SetToolTips_cpp, commctrl/TabCtrl_SetToolTips, controls.TabCtrl_SetToolTips, controls._win32_TabCtrl_SetToolTips
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TabCtrl_SetToolTips"
+f1_keywords:
+- commctrl/TabCtrl_SetToolTips
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TabCtrl_SetToolTips
+- TabCtrl_SetToolTips
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnPinEvents.OnChangeComplete
 title: IMbnPinEvents::OnChangeComplete (mbnapi.h)
-
 description: Notification method called by the Mobile Broadband service to indicate that a PIN change operation has completed.
 old-location: mbn\imbnpinevents_onchangecomplete.htm
 tech.root: mbn
 ms.assetid: 0aa9944f-2a5c-4589-a109-bc0214b03d04
-
 ms.date: 12/05/2018
 ms.keywords: E_FAIL, E_MBN_BAD_SIM, E_MBN_PIN_DISABLED, E_MBN_PIN_REQUIRED, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnPinEvents interface [Microsoft Broadband Networks],OnChangeComplete method, IMbnPinEvents.OnChangeComplete, IMbnPinEvents::OnChangeComplete, OnChangeComplete, OnChangeComplete method [Microsoft Broadband Networks], OnChangeComplete method [Microsoft Broadband Networks],IMbnPinEvents interface, S_OK, mbn.imbnpinevents_onchangecomplete, mbnapi/IMbnPinEvents::OnChangeComplete
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnPinEvents.OnChangeComplete"
+f1_keywords:
+- mbnapi/IMbnPinEvents.OnChangeComplete
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnPinEvents.OnChangeComplete
+- IMbnPinEvents.OnChangeComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

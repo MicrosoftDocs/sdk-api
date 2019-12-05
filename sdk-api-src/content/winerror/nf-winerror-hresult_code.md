@@ -1,19 +1,17 @@
 ---
 UID: NF:winerror.HRESULT_CODE
 title: HRESULT_CODE macro (winerror.h)
-
 description: Extracts the code portion of the specified HRESULT.
 old-location: com\hresult_code_macro.htm
 tech.root: com
 ms.assetid: 20f3b51d-38b6-4989-b9c2-5b08012a7352
-
 ms.date: 12/05/2018
 ms.keywords: HRESULT_CODE, HRESULT_CODE macro [COM], _com_HRESULT_CODE, com.hresult_code, com.hresult_code_macro, winerror/HRESULT_CODE
 ms.topic: macro
-f1_keywords: 
- - "winerror/HRESULT_CODE"
+f1_keywords:
+- winerror/HRESULT_CODE
 dev_langs:
- - c++
+- c++
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winerror.h
+- Winerror.h
 api_name:
- - HRESULT_CODE
+- HRESULT_CODE
 targetos: Windows
 req.typenames: 
 req.redist: 

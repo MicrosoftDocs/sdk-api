@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IShellFolderViewCB.MessageSFVCB
 title: IShellFolderViewCB::MessageSFVCB (shlobj_core.h)
-
 description: Allows communication between the system folder view object and a system folder view callback object.
 old-location: shell\IShellFolderViewCB_MessageSFVCB.htm
 tech.root: shell
 ms.assetid: 1678dd76-6ed4-4625-9170-22dcd3d7e8d2
-
 ms.date: 12/05/2018
 ms.keywords: IShellFolderViewCB interface [Windows Shell],MessageSFVCB method, IShellFolderViewCB.MessageSFVCB, IShellFolderViewCB::MessageSFVCB, MessageSFVCB, MessageSFVCB method [Windows Shell], MessageSFVCB method [Windows Shell],IShellFolderViewCB interface, _win32_IShellFolderViewCB_MessageSFVCB, shell.IShellFolderViewCB_MessageSFVCB, shlobj_core/IShellFolderViewCB::MessageSFVCB
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IShellFolderViewCB.MessageSFVCB"
+f1_keywords:
+- shlobj_core/IShellFolderViewCB.MessageSFVCB
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellFolderViewCB.MessageSFVCB
+- IShellFolderViewCB.MessageSFVCB
 targetos: Windows
 req.typenames: 
 req.redist: 

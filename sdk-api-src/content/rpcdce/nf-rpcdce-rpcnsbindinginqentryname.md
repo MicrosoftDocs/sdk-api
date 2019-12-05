@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcNsBindingInqEntryName
 title: RpcNsBindingInqEntryName function (rpcdce.h)
-
 description: The RpcNsBindingInqEntryName function returns the entry name from which the binding handle came.
 old-location: rpc\rpcnsbindinginqentryname.htm
 tech.root: Rpc
 ms.assetid: fff87506-4c3f-47cb-8130-78e46e906bf0
-
 ms.date: 12/05/2018
 ms.keywords: RpcNsBindingInqEntryName, RpcNsBindingInqEntryName function [RPC], RpcNsBindingInqEntryNameA, RpcNsBindingInqEntryNameW, _rpc_rpcnsbindinginqentryname, rpc.rpcnsbindinginqentryname, rpcdce/RpcNsBindingInqEntryName, rpcdce/RpcNsBindingInqEntryNameA, rpcdce/RpcNsBindingInqEntryNameW
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcNsBindingInqEntryName"
+f1_keywords:
+- rpcdce/RpcNsBindingInqEntryName
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcNsBindingInqEntryName
- - RpcNsBindingInqEntryNameA
- - RpcNsBindingInqEntryNameW
+- RpcNsBindingInqEntryName
+- RpcNsBindingInqEntryNameA
+- RpcNsBindingInqEntryNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

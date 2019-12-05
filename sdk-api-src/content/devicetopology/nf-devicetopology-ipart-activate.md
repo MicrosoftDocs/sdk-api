@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IPart.Activate
 title: IPart::Activate (devicetopology.h)
-
 description: The Activate method activates a function-specific interface on a connector or subunit.
 old-location: coreaudio\ipart_activate.htm
 tech.root: CoreAudio
 ms.assetid: 72e08a30-65c0-437b-9932-110ba48a2376
-
 ms.date: 12/05/2018
 ms.keywords: Activate, Activate method [Core Audio], Activate method [Core Audio],IPart interface, IPart interface [Core Audio],Activate method, IPart.Activate, IPart::Activate, IPartActivate, coreaudio.ipart_activate, devicetopology/IPart::Activate
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IPart.Activate"
+f1_keywords:
+- devicetopology/IPart.Activate
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IPart.Activate
+- IPart.Activate
 targetos: Windows
 req.typenames: 
 req.redist: 

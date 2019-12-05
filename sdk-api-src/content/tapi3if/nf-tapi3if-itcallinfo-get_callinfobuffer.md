@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITCallInfo.get_CallInfoBuffer
 title: ITCallInfo::get_CallInfoBuffer (tapi3if.h)
-
 description: The get_CallInfoBuffer method gets call information items which require a buffer, such as user-user information.
 old-location: tapi3\itcallinfo_get_callinfobuffer.htm
 tech.root: Tapi
 ms.assetid: cda9d577-7230-42d9-8063-5ca94e0400dc
-
 ms.date: 12/05/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],get_CallInfoBuffer method, ITCallInfo.get_CallInfoBuffer, ITCallInfo::get_CallInfoBuffer, _tapi3_itcallinfo_get_callinfobuffer, get_CallInfoBuffer, get_CallInfoBuffer method [TAPI 2.2], get_CallInfoBuffer method [TAPI 2.2],ITCallInfo interface, tapi3.itcallinfo_get_callinfobuffer, tapi3if/ITCallInfo::get_CallInfoBuffer
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITCallInfo.get_CallInfoBuffer"
+f1_keywords:
+- tapi3if/ITCallInfo.get_CallInfoBuffer
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITCallInfo.get_CallInfoBuffer
+- ITCallInfo.get_CallInfoBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

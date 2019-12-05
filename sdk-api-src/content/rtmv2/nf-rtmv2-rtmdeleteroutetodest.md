@@ -1,19 +1,17 @@
 ---
 UID: NF:rtmv2.RtmDeleteRouteToDest
 title: RtmDeleteRouteToDest function (rtmv2.h)
-
 description: The RtmDeleteRouteToDest function deletes a route from the routing table and updates the best-route information for the corresponding destination, if the best route changed. If the best route changes, a change notification is generated.
 old-location: rras\rtmdeleteroutetodest.htm
 tech.root: RRAS
 ms.assetid: d82e68b4-aff4-4872-b719-d9354f35024c
-
 ms.date: 12/05/2018
 ms.keywords: RtmDeleteRouteToDest, RtmDeleteRouteToDest function [RAS], _rtmv2ref_rtmdeleteroutetodest, rras.rtmdeleteroutetodest, rtmv2/RtmDeleteRouteToDest
 ms.topic: function
-f1_keywords: 
- - "rtmv2/RtmDeleteRouteToDest"
+f1_keywords:
+- rtmv2/RtmDeleteRouteToDest
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rtm.dll
+- Rtm.dll
 api_name:
- - RtmDeleteRouteToDest
+- RtmDeleteRouteToDest
 targetos: Windows
 req.typenames: 
 req.redist: 

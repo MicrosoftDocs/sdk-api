@@ -1,19 +1,17 @@
 ---
 UID: NF:wdspxe.PxeProviderEnumNext
 title: PxeProviderEnumNext function (wdspxe.h)
-
 description: Enumerates registered providers.
 old-location: wds\pxeproviderenumnext.htm
 tech.root: wds
 ms.assetid: a76f2d7a-daf4-4258-9c6d-fd0d562f7efe
-
 ms.date: 12/05/2018
 ms.keywords: PxeProviderEnumNext, PxeProviderEnumNext function [Windows Deployment Services], wds.pxeproviderenumnext, wdspxe/PxeProviderEnumNext
 ms.topic: function
-f1_keywords: 
- - "wdspxe/PxeProviderEnumNext"
+f1_keywords:
+- wdspxe/PxeProviderEnumNext
 dev_langs:
- - c++
+- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsPxe.lib
 req.dll: WdsPxe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsPxe.dll
+- WdsPxe.dll
 api_name:
- - PxeProviderEnumNext
+- PxeProviderEnumNext
 targetos: Windows
 req.typenames: 
 req.redist: 

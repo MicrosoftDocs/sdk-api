@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.MAKELRESULT
 title: MAKELRESULT macro (winuser.h)
-
 description: Creates a value for use as a return value from a window procedure. The macro concatenates the specified values.
 old-location: winmsg\makelresult.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowmacros\makelresult.htm
-
 ms.date: 12/05/2018
 ms.keywords: MAKELRESULT, MAKELRESULT macro [Windows and Messages], _win32_MAKELRESULT, _win32_makelresult_cpp, winmsg.makelresult, winui._win32_makelresult, winuser/MAKELRESULT
 ms.topic: macro
-f1_keywords: 
- - "winuser/MAKELRESULT"
+f1_keywords:
+- winuser/MAKELRESULT
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - MAKELRESULT
+- MAKELRESULT
 targetos: Windows
 req.typenames: 
 req.redist: 

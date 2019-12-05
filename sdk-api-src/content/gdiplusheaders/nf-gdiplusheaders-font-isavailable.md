@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Font.IsAvailable
 title: Font::IsAvailable (gdiplusheaders.h)
-
 description: The Font::IsAvailable method determines whether this Font object was created successfully.
 old-location: gdiplus\_gdiplus_CLASS_Font_IsAvailable_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\isavailable.htm
-
 ms.date: 12/05/2018
 ms.keywords: Font class [GDI+],IsAvailable method, Font.IsAvailable, Font::IsAvailable, IsAvailable, IsAvailable method [GDI+], IsAvailable method [GDI+],Font class, _gdiplus_CLASS_Font_IsAvailable_, gdiplus._gdiplus_CLASS_Font_IsAvailable_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Font.IsAvailable"
+f1_keywords:
+- gdiplusheaders/Font.IsAvailable
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Font.IsAvailable
+- Font.IsAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:mprapi._RAS_CONNECTION_2
 title: RAS_CONNECTION_2 (mprapi.h)
-
 description: The RAS_CONNECTION_2 structure contains information for a connection, including the Globally Unique Identifier (GUID) that identifies the connection.
 old-location: rras\ras_connection_2.htm
 tech.root: RRAS
 ms.assetid: 5dcc20f0-7447-4256-9dde-18a4a3c95816
-
 ms.date: 12/05/2018
 ms.keywords: '*PRAS_CONNECTION_2, PRAS_CONNECTION_2, PRAS_CONNECTION_2 structure pointer [RAS], RAS_CONNECTION_2, RAS_CONNECTION_2 structure [RAS], _mpr_ras_connection_2, mprapi/PRAS_CONNECTION_2, mprapi/RAS_CONNECTION_2, rras.ras_connection_2'
 ms.topic: struct
 f1_keywords:
 - mprapi/RAS_CONNECTION_2
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

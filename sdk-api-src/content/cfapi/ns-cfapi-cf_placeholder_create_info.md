@@ -1,19 +1,17 @@
 ---
 UID: NS:cfapi.CF_PLACEHOLDER_CREATE_INFO
 title: CF_PLACEHOLDER_CREATE_INFO (cfapi.h)
-
 description: Contains placeholder information for creating new placeholder files or directories.
 old-location: cloudapi\cf_placeholder_create_info.htm
 tech.root: cfApi
 ms.assetid: 2DC1FF5F-FBFD-45CA-8CD5-B2F586C22778
-
 ms.date: 12/05/2018
 ms.keywords: CF_PLACEHOLDER_CREATE_INFO, CF_PLACEHOLDER_CREATE_INFO structure, cfapi/CF_PLACEHOLDER_CREATE_INFO, cloudApi.cf_placeholder_create_info
 ms.topic: struct
-f1_keywords: 
- - "cfapi/CF_PLACEHOLDER_CREATE_INFO"
+f1_keywords:
+- cfapi/CF_PLACEHOLDER_CREATE_INFO
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CfApi.h
+- CfApi.h
 api_name:
- - CF_PLACEHOLDER_CREATE_INFO
+- CF_PLACEHOLDER_CREATE_INFO
 targetos: Windows
 req.typenames: CF_PLACEHOLDER_CREATE_INFO
 req.redist: 

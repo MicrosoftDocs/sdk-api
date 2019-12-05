@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleCreateDefaultHandler
 title: OleCreateDefaultHandler function (ole2.h)
-
 description: Creates a new instance of the default embedding handler. This instance is initialized so it creates a local server when the embedded object enters the running state.
 old-location: com\olecreatedefaulthandler.htm
 tech.root: com
 ms.assetid: ffe87012-b000-4ed7-b0b2-78ffdc794d3b
-
 ms.date: 12/05/2018
 ms.keywords: OleCreateDefaultHandler, OleCreateDefaultHandler function [COM], _ole_OleCreateDefaultHandler, com.olecreatedefaulthandler, ole2/OleCreateDefaultHandler
 ms.topic: function
-f1_keywords: 
- - "ole2/OleCreateDefaultHandler"
+f1_keywords:
+- ole2/OleCreateDefaultHandler
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - OleCreateDefaultHandler
+- OleCreateDefaultHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

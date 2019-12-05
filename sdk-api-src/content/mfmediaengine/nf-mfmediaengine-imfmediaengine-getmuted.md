@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetMuted
 title: IMFMediaEngine::GetMuted (mfmediaengine.h)
-
 description: Queries whether the audio is muted.
 old-location: mf\imfmediaengine_getmuted.htm
 tech.root: medfound
 ms.assetid: 6EDDE60A-1571-4021-B56F-4185694B0911
-
 ms.date: 12/05/2018
 ms.keywords: GetMuted, GetMuted method [Media Foundation], GetMuted method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetMuted method, IMFMediaEngine.GetMuted, IMFMediaEngine::GetMuted, mf.imfmediaengine_getmuted, mfmediaengine/IMFMediaEngine::GetMuted
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngine.GetMuted"
+f1_keywords:
+- mfmediaengine/IMFMediaEngine.GetMuted
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngine.GetMuted
+- IMFMediaEngine.GetMuted
 targetos: Windows
 req.typenames: 
 req.redist: 

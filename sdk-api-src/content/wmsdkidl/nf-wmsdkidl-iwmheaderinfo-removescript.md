@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo.RemoveScript
 title: IWMHeaderInfo::RemoveScript (wmsdkidl.h)
-
 description: The RemoveScript method enables the object to remove a script from the header section of the ASF file.
 old-location: wmformat\iwmheaderinfo_removescript.htm
 tech.root: wmformat
 ms.assetid: c66e808d-25f9-4745-8bcc-731f2556f470
-
 ms.date: 12/05/2018
 ms.keywords: IWMHeaderInfo interface [windows Media Format],RemoveScript method, IWMHeaderInfo.RemoveScript, IWMHeaderInfo::RemoveScript, IWMHeaderInfoRemoveScript, RemoveScript, RemoveScript method [windows Media Format], RemoveScript method [windows Media Format],IWMHeaderInfo interface, wmformat.iwmheaderinfo_removescript, wmsdkidl/IWMHeaderInfo::RemoveScript
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMHeaderInfo.RemoveScript"
+f1_keywords:
+- wmsdkidl/IWMHeaderInfo.RemoveScript
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMHeaderInfo.RemoveScript
+- IWMHeaderInfo.RemoveScript
 targetos: Windows
 req.typenames: 
 req.redist: 

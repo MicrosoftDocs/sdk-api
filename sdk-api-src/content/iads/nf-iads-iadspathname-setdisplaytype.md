@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsPathname.SetDisplayType
 title: IADsPathname::SetDisplayType (iads.h)
-
 description: Specifies how to display the path of an object.
 old-location: adsi\iadspathname_setdisplaytype.htm
 tech.root: adsi
 ms.assetid: 2d975482-74f6-4ffa-a243-baa5f6a8d200
-
 ms.date: 12/05/2018
 ms.keywords: IADsPathname interface [ADSI],SetDisplayType method, IADsPathname.SetDisplayType, IADsPathname::SetDisplayType, SetDisplayType, SetDisplayType method [ADSI], SetDisplayType method [ADSI],IADsPathname interface, _ds_iadspathname_setdisplaytype, adsi.iadspathname__setdisplaytype, adsi.iadspathname_setdisplaytype, iads/IADsPathname::SetDisplayType
 ms.topic: method
-f1_keywords: 
- - "iads/IADsPathname.SetDisplayType"
+f1_keywords:
+- iads/IADsPathname.SetDisplayType
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsPathname.SetDisplayType
+- IADsPathname.SetDisplayType
 targetos: Windows
 req.typenames: 
 req.redist: 

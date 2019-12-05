@@ -1,40 +1,38 @@
 ---
 UID: NS:d3d12video.D3D12_FEATURE_DATA_VIDEO_DECODE_HISTOGRAM
 title: D3D12_FEATURE_DATA_VIDEO_DECODE_HISTOGRAM
-
 description: Provides data for calls to ID3D12VideoDevice::CheckFeatureSupport when the feature specified is D3D12_FEATURE_VIDEO_DECODE_HISTOGRAM.
 tech.root: mf
 ms.assetid: 052bfdcb-a6f6-4027-811f-9af11b1975b4
-
 ms.date: 11/14/2019
 ms.topic: struct
 f1_keywords:
- - D3D12_FEATURE_DATA_VIDEO_DECODE_HISTOGRAM
+- D3D12_FEATURE_DATA_VIDEO_DECODE_HISTOGRAM
 dev_langs:
- - c++
-ms.keywords: D3D12_FEATURE_DATA_VIDEO_DECODE_HISTOGRAM, D3D12_FEATURE_DATA_VIDEO_DECODE_HISTOGRAM, 
+- c++
+ms.keywords: D3D12_FEATURE_DATA_VIDEO_DECODE_HISTOGRAM, D3D12_FEATURE_DATA_VIDEO_DECODE_HISTOGRAM,
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12_FEATURE_DATA_VIDEO_DECODE_HISTOGRAM
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12video.h
-api_name: 
- - D3D12_FEATURE_DATA_VIDEO_DECODE_HISTOGRAM
+topic_type:
+- apiref
+api_type:
+- HeaderDef
+api_location:
+- d3d12video.h
+api_name:
+- D3D12_FEATURE_DATA_VIDEO_DECODE_HISTOGRAM
 targetos: Windows
 ---
 

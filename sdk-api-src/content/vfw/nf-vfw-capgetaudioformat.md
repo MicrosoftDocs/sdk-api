@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.capGetAudioFormat
 title: capGetAudioFormat macro (vfw.h)
-
 description: The capGetAudioFormat macro obtains the audio format. You can use this macro or explicitly call the WM_CAP_GET_AUDIOFORMAT message.
 old-location: multimedia\capgetaudioformat.htm
 tech.root: Multimedia
 ms.assetid: 11a91da3-dd22-4828-9845-dc29e73c4526
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_capGetAudioFormat, capGetAudioFormat, capGetAudioFormat macro [Windows Multimedia], multimedia.capgetaudioformat, vfw/capGetAudioFormat"
+ms.keywords: _win32_capGetAudioFormat, capGetAudioFormat, capGetAudioFormat macro [Windows Multimedia], multimedia.capgetaudioformat, vfw/capGetAudioFormat
 ms.topic: macro
-f1_keywords: 
- - "vfw/capGetAudioFormat"
+f1_keywords:
+- vfw/capGetAudioFormat
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - capGetAudioFormat
+- capGetAudioFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

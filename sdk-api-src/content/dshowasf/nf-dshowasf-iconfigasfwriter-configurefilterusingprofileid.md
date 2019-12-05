@@ -1,19 +1,17 @@
 ---
 UID: NF:dshowasf.IConfigAsfWriter.ConfigureFilterUsingProfileId
 title: IConfigAsfWriter::ConfigureFilterUsingProfileId (dshowasf.h)
-
 description: The ConfigureFilterUsingProfileId method sets a Windows Media Format 4.0 profile on the WM ASF Writer filter. This method is deprecated. Applications should use the IConfigAsfWriter::ConfigureFilterUsingProfile method to set the profile.
 old-location: dshow\iconfigasfwriter_configurefilterusingprofileid.htm
 tech.root: DirectShow
 ms.assetid: e532001a-e2ff-4ad4-8fef-2fa5b051d1f5
-
 ms.date: 12/05/2018
 ms.keywords: ConfigureFilterUsingProfileId, ConfigureFilterUsingProfileId method [DirectShow], ConfigureFilterUsingProfileId method [DirectShow],IConfigAsfWriter interface, IConfigAsfWriter interface [DirectShow],ConfigureFilterUsingProfileId method, IConfigAsfWriter.ConfigureFilterUsingProfileId, IConfigAsfWriter::ConfigureFilterUsingProfileId, IConfigAsfWriterConfigureFilterUsingProfileId, dshow.iconfigasfwriter_configurefilterusingprofileid, dshowasf/IConfigAsfWriter::ConfigureFilterUsingProfileId
 ms.topic: method
-f1_keywords: 
- - "dshowasf/IConfigAsfWriter.ConfigureFilterUsingProfileId"
+f1_keywords:
+- dshowasf/IConfigAsfWriter.ConfigureFilterUsingProfileId
 dev_langs:
- - c++
+- c++
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dshowasf.h
+- Dshowasf.h
 api_name:
- - IConfigAsfWriter.ConfigureFilterUsingProfileId
+- IConfigAsfWriter.ConfigureFilterUsingProfileId
 targetos: Windows
 req.typenames: 
 req.redist: 

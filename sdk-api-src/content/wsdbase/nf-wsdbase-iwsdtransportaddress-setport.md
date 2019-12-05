@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdbase.IWSDTransportAddress.SetPort
 title: IWSDTransportAddress::SetPort (wsdbase.h)
-
 description: Sets only the IP port number for this transport address.
 old-location: ncd\iwsdtransportaddress_setport.htm
 tech.root: WsdApi
 ms.assetid: 0959e6f9-82cf-4634-9547-682df1965efa
-
 ms.date: 12/05/2018
 ms.keywords: IWSDTransportAddress interface,SetPort method, IWSDTransportAddress.SetPort, IWSDTransportAddress::SetPort, SetPort, SetPort method, SetPort method,IWSDTransportAddress interface, ncd.iwsdtransportaddress_setport, wsdbase/IWSDTransportAddress::SetPort
 ms.topic: method
-f1_keywords: 
- - "wsdbase/IWSDTransportAddress.SetPort"
+f1_keywords:
+- wsdbase/IWSDTransportAddress.SetPort
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wsdapi.dll
+- wsdapi.dll
 api_name:
- - IWSDTransportAddress.SetPort
+- IWSDTransportAddress.SetPort
 targetos: Windows
 req.typenames: 
 req.redist: 

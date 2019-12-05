@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IPrincipal.get_UserId
 title: IPrincipal::get_UserId (taskschd.h)
-
 description: Gets or sets the user identifier that is required to run the tasks that are associated with the principal.
 old-location: taskschd\iprincipal_userid.htm
 tech.root: taskschd
 ms.assetid: b85a1f05-acb0-4b3c-bea0-393ad7c6a43d
-
 ms.date: 12/05/2018
 ms.keywords: IPrincipal interface [Task Scheduler],UserId property, IPrincipal.UserId, IPrincipal.get_UserId, IPrincipal::UserId, IPrincipal::get_UserId, IPrincipal::put_UserId, UserId property [Task Scheduler], UserId property [Task Scheduler],IPrincipal interface, get_UserId, taskschd.iprincipal_userid, taskschd/IPrincipal::UserId, taskschd/IPrincipal::get_UserId, taskschd/IPrincipal::put_UserId
 ms.topic: method
-f1_keywords: 
- - "taskschd/IPrincipal.UserId"
+f1_keywords:
+- taskschd/IPrincipal.UserId
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IPrincipal.UserId
- - IPrincipal.get_UserId
- - IPrincipal.put_UserId
+- IPrincipal.UserId
+- IPrincipal.get_UserId
+- IPrincipal.put_UserId
 targetos: Windows
 req.typenames: 
 req.redist: 

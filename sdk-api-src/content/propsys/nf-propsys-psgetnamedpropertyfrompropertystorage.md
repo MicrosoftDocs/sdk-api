@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSGetNamedPropertyFromPropertyStorage
 title: PSGetNamedPropertyFromPropertyStorage function (propsys.h)
-
 description: Gets a value from serialized property storage by property name.
 old-location: properties\PSGetNamedPropertyFromPropertyStorage.htm
 tech.root: properties
 ms.assetid: bb4eedc0-9ef5-46f2-83e5-340b77b3d876
-
 ms.date: 12/05/2018
 ms.keywords: PSGetNamedPropertyFromPropertyStorage, PSGetNamedPropertyFromPropertyStorage function [Windows Properties], _shell_PSGetNamedPropertyFromPropertyStorage, properties.PSGetNamedPropertyFromPropertyStorage, propsys/PSGetNamedPropertyFromPropertyStorage, shell.PSGetNamedPropertyFromPropertyStorage
 ms.topic: function
-f1_keywords: 
- - "propsys/PSGetNamedPropertyFromPropertyStorage"
+f1_keywords:
+- propsys/PSGetNamedPropertyFromPropertyStorage
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSGetNamedPropertyFromPropertyStorage
+- PSGetNamedPropertyFromPropertyStorage
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

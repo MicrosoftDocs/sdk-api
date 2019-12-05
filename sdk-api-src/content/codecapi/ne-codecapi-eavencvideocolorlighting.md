@@ -1,19 +1,17 @@
 ---
 UID: NE:codecapi.eAVEncVideoColorLighting
 title: eAVEncVideoColorLighting (codecapi.h)
-
 description: Specifies the intended lighting conditions for viewing a video source. This enumeration is used with the AVEncVideoInputColorLighting and AVEncVideoOutputColorLighting properties.
 old-location: dshow\eavencvideocolorlighting.htm
 tech.root: DirectShow
 ms.assetid: d2e85b3e-b458-4148-b9d7-0ed3d4213838
-
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncVideoColorLighting, codecapi/eAVEncVideoColorLighting_Bright, codecapi/eAVEncVideoColorLighting_Dark, codecapi/eAVEncVideoColorLighting_Dim, codecapi/eAVEncVideoColorLighting_Office, codecapi/eAVEncVideoColorLighting_SameAsSource, codecapi/eAVEncVideoColorLighting_Unknown, dshow.eavencvideocolorlighting, eAVEncVideoColorLighting, eAVEncVideoColorLighting enumeration [DirectShow], eAVEncVideoColorLightingEnumeration, eAVEncVideoColorLighting_Bright, eAVEncVideoColorLighting_Dark, eAVEncVideoColorLighting_Dim, eAVEncVideoColorLighting_Office, eAVEncVideoColorLighting_SameAsSource, eAVEncVideoColorLighting_Unknown
 ms.topic: enum
-f1_keywords: 
- - "codecapi/eAVEncVideoColorLighting"
+f1_keywords:
+- codecapi/eAVEncVideoColorLighting
 dev_langs:
- - c++
+- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - codecapi.h
+- codecapi.h
 api_name:
- - eAVEncVideoColorLighting
+- eAVEncVideoColorLighting
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:ocidl.tagAspectInfo
 title: DVASPECTINFO (ocidl.h)
-
 description: Contains information that is used by the IViewObject::Draw method to optimize rendering of an inactive object by making more efficient use of the GDI.
 old-location: com\dvaspectinfo.htm
 tech.root: com
 ms.assetid: c9375b9d-c822-4322-ba6f-967792257672
-
 ms.date: 12/05/2018
 ms.keywords: DVASPECTINFO, DVASPECTINFO structure [COM], _ole_DVASPECTINFO, com.dvaspectinfo, ocidl/DVASPECTINFO
 ms.topic: struct
-f1_keywords: 
- - "ocidl/DVASPECTINFO"
+f1_keywords:
+- ocidl/DVASPECTINFO
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - DVASPECTINFO
+- DVASPECTINFO
 targetos: Windows
 req.typenames: DVASPECTINFO
 req.redist: 

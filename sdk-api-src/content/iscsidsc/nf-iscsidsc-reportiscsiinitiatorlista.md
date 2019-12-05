@@ -1,19 +1,17 @@
 ---
 UID: NF:iscsidsc.ReportIScsiInitiatorListA
 title: ReportIScsiInitiatorListA function (iscsidsc.h)
-
 description: ReportIscsiInitiatorList function retrieves the list of initiator Host Bus Adapters that are running on the machine.
 old-location: iscsidisc\reportiscsiinitiatorlist.htm
 tech.root: iSCSIDisc
 ms.assetid: 7039fab5-ac76-4420-994b-b8c18196b022
-
 ms.date: 12/05/2018
 ms.keywords: ReportIScsiInitiatorListA, ReportIscsiInitiatorList, ReportIscsiInitiatorList function [iSCSI Discovery Library API], ReportIscsiInitiatorListA, ReportIscsiInitiatorListW, iscsidisc.reportiscsiinitiatorlist, iscsidsc/ReportIscsiInitiatorList, iscsidsc/ReportIscsiInitiatorListA, iscsidsc/ReportIscsiInitiatorListW
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/ReportIscsiInitiatorList"
+f1_keywords:
+- iscsidsc/ReportIscsiInitiatorList
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - ReportIscsiInitiatorList
- - ReportIscsiInitiatorListA
- - ReportIscsiInitiatorListW
+- ReportIscsiInitiatorList
+- ReportIscsiInitiatorListA
+- ReportIscsiInitiatorListW
 targetos: Windows
 req.typenames: 
 req.redist: 

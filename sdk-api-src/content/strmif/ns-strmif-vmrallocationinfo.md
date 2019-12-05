@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif.tagVMRALLOCATIONINFO
 title: VMRALLOCATIONINFO (strmif.h)
-
 description: The VMRALLOCATIONINFO structure is used in the VMR-7 filter's IVMRSurfaceAllocator::AllocateSurface method.
 old-location: dshow\vmrallocationinfo.htm
 tech.root: DirectShow
 ms.assetid: 3908f9d1-5120-413b-a142-08cd9005c401
-
 ms.date: 12/05/2018
 ms.keywords: VMRALLOCATIONINFO, VMRALLOCATIONINFO structure [DirectShow], VMRALLOCATIONINFOStructure, dshow.vmrallocationinfo, strmif/VMRALLOCATIONINFO
 ms.topic: struct
-f1_keywords: 
- - "strmif/VMRALLOCATIONINFO"
+f1_keywords:
+- strmif/VMRALLOCATIONINFO
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - VMRALLOCATIONINFO
+- VMRALLOCATIONINFO
 targetos: Windows
 req.typenames: VMRALLOCATIONINFO
 req.redist: 

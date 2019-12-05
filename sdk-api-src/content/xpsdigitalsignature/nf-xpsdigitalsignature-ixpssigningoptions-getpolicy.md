@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetPolicy
 title: IXpsSigningOptions::GetPolicy (xpsdigitalsignature.h)
-
 description: Gets the XPS_SIGN_POLICY value that specifies the signing policy.
 old-location: xps\ixpssigningoptions_getpolicy.htm
 tech.root: printdocs
 ms.assetid: 0643ee4d-7991-4570-8dce-8166f007abc8
-
 ms.date: 12/05/2018
 ms.keywords: GetPolicy, GetPolicy method [XPS Documents and Packaging], GetPolicy method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetPolicy method, IXpsSigningOptions.GetPolicy, IXpsSigningOptions::GetPolicy, xps.ixpssigningoptions_getpolicy, xpsdigitalsignature/IXpsSigningOptions::GetPolicy
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSigningOptions.GetPolicy"
+f1_keywords:
+- xpsdigitalsignature/IXpsSigningOptions.GetPolicy
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSigningOptions.GetPolicy
+- IXpsSigningOptions.GetPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 

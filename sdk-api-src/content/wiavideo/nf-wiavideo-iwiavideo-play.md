@@ -1,19 +1,17 @@
 ---
 UID: NF:wiavideo.IWiaVideo.Play
 title: IWiaVideo::Play (wiavideo.h)
-
 description: Begins playback of streaming video.
 old-location: wia\_wia_IWiaVideo_Play.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\play.htm
-
 ms.date: 12/05/2018
 ms.keywords: IWiaVideo interface [WIA],Play method, IWiaVideo.Play, IWiaVideo::Play, Play, Play method [WIA], Play method [WIA],IWiaVideo interface, _wia_IWiaVideo_Play, wia._wia_IWiaVideo_Play, wiavideo/IWiaVideo::Play
 ms.topic: method
-f1_keywords: 
- - "wiavideo/IWiaVideo.Play"
+f1_keywords:
+- wiavideo/IWiaVideo.Play
 dev_langs:
- - c++
+- c++
 req.header: wiavideo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wiavideo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiavideo.dll
+- Wiavideo.dll
 api_name:
- - IWiaVideo.Play
+- IWiaVideo.Play
 targetos: Windows
 req.typenames: 
 req.redist: 

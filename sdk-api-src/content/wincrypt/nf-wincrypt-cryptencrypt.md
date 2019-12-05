@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptEncrypt
 title: CryptEncrypt function (wincrypt.h)
-
 description: Encrypts data. The algorithm used to encrypt the data is designated by the key held by the CSP module and is referenced by the hKey parameter.
 old-location: security\cryptencrypt.htm
 tech.root: SecCrypto
 ms.assetid: 697c4960-552b-4c3a-95cf-4632af56945b
-
 ms.date: 12/05/2018
 ms.keywords: CRYPT_OAEP, CryptEncrypt, CryptEncrypt function [Security], _crypto2_cryptencrypt, security.cryptencrypt, wincrypt/CryptEncrypt
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptEncrypt"
+f1_keywords:
+- wincrypt/CryptEncrypt
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-cryptoapi-l1-1-0.dll
- - cryptsp.dll
+- Advapi32.dll
+- API-MS-Win-Security-cryptoapi-l1-1-0.dll
+- cryptsp.dll
 api_name:
- - CryptEncrypt
+- CryptEncrypt
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.ICDBurnExt
 title: ICDBurnExt (shobjidl.h)
-
 description: ICDBurnExt may be altered or unavailable.
 old-location: shell\ICDBurnExt.htm
 tech.root: shell
 ms.assetid: e87a635b-9614-49e1-8633-f7cbb5050b9a
-
 ms.date: 12/05/2018
 ms.keywords: ICDBurnExt, ICDBurnExt interface [Windows Shell], ICDBurnExt interface [Windows Shell],described, _shell_ICDBurnExt, shell.ICDBurnExt, shobjidl/ICDBurnExt
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/ICDBurnExt"
+f1_keywords:
+- shobjidl/ICDBurnExt
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - ICDBurnExt
+- ICDBurnExt
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextStory.SetProperty
 title: ITextStory::SetProperty (tom.h)
-
 description: Sets the value of the specified property.
 old-location: controls\itextstory_setproperty.htm
 tech.root: Controls
 ms.assetid: 432afe58-a1ed-45aa-b018-bf608bbb7e2a
-
 ms.date: 12/05/2018
 ms.keywords: ITextStory interface [Windows Controls],SetProperty method, ITextStory.SetProperty, ITextStory::SetProperty, SetProperty, SetProperty method [Windows Controls], SetProperty method [Windows Controls],ITextStory interface, controls.itextstory_setproperty, tom/ITextStory::SetProperty
 ms.topic: method
-f1_keywords: 
- - "tom/ITextStory.SetProperty"
+f1_keywords:
+- tom/ITextStory.SetProperty
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tom.h
+- tom.h
 api_name:
- - ITextStory.SetProperty
+- ITextStory.SetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsUser.SetPassword
 title: IADsUser::SetPassword (iads.h)
-
 description: Sets the user password to a specified value.
 old-location: adsi\iadsuser_setpassword.htm
 tech.root: adsi
 ms.assetid: cad38632-9f0a-4707-9086-b1248d6f31a6
-
 ms.date: 12/05/2018
 ms.keywords: IADsUser interface [ADSI],SetPassword method, IADsUser.SetPassword, IADsUser::SetPassword, SetPassword, SetPassword method [ADSI], SetPassword method [ADSI],IADsUser interface, _ds_iadsuser_setpassword, adsi.iadsuser__setpassword, adsi.iadsuser_setpassword, iads/IADsUser::SetPassword
 ms.topic: method
-f1_keywords: 
- - "iads/IADsUser.SetPassword"
+f1_keywords:
+- iads/IADsUser.SetPassword
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsUser.SetPassword
+- IADsUser.SetPassword
 targetos: Windows
 req.typenames: 
 req.redist: 

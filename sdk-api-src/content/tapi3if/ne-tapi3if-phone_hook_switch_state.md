@@ -1,19 +1,17 @@
 ---
 UID: NE:tapi3if.PHONE_HOOK_SWITCH_STATE
 title: PHONE_HOOK_SWITCH_STATE (tapi3if.h)
-
 description: The PHONE_HOOK_SWITCH_STATE enum provides indicators of the phone hookswitch status.
 old-location: tapi3\phone_hook_switch_state.htm
 tech.root: Tapi
 ms.assetid: c9501a3f-1aaa-4d58-aca1-5ef00c31d195
-
 ms.date: 12/05/2018
 ms.keywords: PHONE_HOOK_SWITCH_STATE, PHONE_HOOK_SWITCH_STATE enumeration [TAPI 2.2], PHSS_OFFHOOK, PHSS_OFFHOOK_MIC_ONLY, PHSS_OFFHOOK_SPEAKER_ONLY, PHSS_ONHOOK, _tapi3_phone_hook_switch_state, tapi3.phone_hook_switch_state, tapi3if/PHONE_HOOK_SWITCH_STATE, tapi3if/PHSS_OFFHOOK, tapi3if/PHSS_OFFHOOK_MIC_ONLY, tapi3if/PHSS_OFFHOOK_SPEAKER_ONLY, tapi3if/PHSS_ONHOOK
 ms.topic: enum
-f1_keywords: 
- - "tapi3if/PHONE_HOOK_SWITCH_STATE"
+f1_keywords:
+- tapi3if/PHONE_HOOK_SWITCH_STATE
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi3if.h
+- Tapi3if.h
 api_name:
- - PHONE_HOOK_SWITCH_STATE
+- PHONE_HOOK_SWITCH_STATE
 targetos: Windows
 req.typenames: PHONE_HOOK_SWITCH_STATE
 req.redist: 

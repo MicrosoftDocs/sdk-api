@@ -1,19 +1,17 @@
 ---
 UID: NS:winddi._BLENDOBJ
 title: BLENDOBJ (winddi.h)
-
 description: The BLENDOBJ structure controls blending by specifying the blending functions for source and destination bitmaps.
 old-location: display\blendobj.htm
 tech.root: display
 ms.assetid: 1bbe5cb6-8722-45bb-ae43-01bc4460f08d
-
 ms.date: 12/05/2018
-ms.keywords: "*PBLENDOBJ, BLENDOBJ, BLENDOBJ structure [Display Devices], PBLENDOBJ, PBLENDOBJ structure pointer [Display Devices], display.blendobj, grstrcts_0d4470ae-12b0-41f4-8209-49b346e4829d.xml, winddi/BLENDOBJ, winddi/PBLENDOBJ"
+ms.keywords: '*PBLENDOBJ, BLENDOBJ, BLENDOBJ structure [Display Devices], PBLENDOBJ, PBLENDOBJ structure pointer [Display Devices], display.blendobj, grstrcts_0d4470ae-12b0-41f4-8209-49b346e4829d.xml, winddi/BLENDOBJ, winddi/PBLENDOBJ'
 ms.topic: struct
-f1_keywords: 
- - "winddi/BLENDOBJ"
+f1_keywords:
+- winddi/BLENDOBJ
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - BLENDOBJ
+- BLENDOBJ
 targetos: Windows
 req.typenames: BLENDOBJ, *PBLENDOBJ
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.GetDirectDraw
 title: IDirectDrawVideo::GetDirectDraw (amvideo.h)
-
 description: The GetDirectDraw method retrieves the IDirectDraw interface.
 old-location: dshow\idirectdrawvideo_getdirectdraw.htm
 tech.root: DirectShow
 ms.assetid: 25c64d6e-fd49-430a-9f9b-3c2b3d43d3a1
-
 ms.date: 12/05/2018
 ms.keywords: GetDirectDraw, GetDirectDraw method [DirectShow], GetDirectDraw method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],GetDirectDraw method, IDirectDrawVideo.GetDirectDraw, IDirectDrawVideo::GetDirectDraw, IDirectDrawVideoGetDirectDraw, amvideo/IDirectDrawVideo::GetDirectDraw, dshow.idirectdrawvideo_getdirectdraw
 ms.topic: method
-f1_keywords: 
- - "amvideo/IDirectDrawVideo.GetDirectDraw"
+f1_keywords:
+- amvideo/IDirectDrawVideo.GetDirectDraw
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDirectDrawVideo.GetDirectDraw
+- IDirectDrawVideo.GetDirectDraw
 targetos: Windows
 req.typenames: 
 req.redist: 

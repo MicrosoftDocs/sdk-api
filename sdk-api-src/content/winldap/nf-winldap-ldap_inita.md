@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_initA
 title: ldap_initA function (winldap.h)
-
 description: Initializes a session with an LDAP server.
 old-location: ldap\ldap_init.htm
 tech.root: ldap
 ms.assetid: c0aa5a9e-ed46-42fb-9c02-728afea51505
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_init, ldap.ldap__init, ldap.ldap_init, ldap_init, ldap_init function [LDAP], ldap_initA, ldap_initW, winldap/ldap_init, winldap/ldap_initA, winldap/ldap_initW"
+ms.keywords: _ldap_ldap_init, ldap.ldap__init, ldap.ldap_init, ldap_init, ldap_init function [LDAP], ldap_initA, ldap_initW, winldap/ldap_init, winldap/ldap_initA, winldap/ldap_initW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_init"
+f1_keywords:
+- winldap/ldap_init
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_init
- - ldap_initA
- - ldap_initW
+- ldap_init
+- ldap_initA
+- ldap_initW
 targetos: Windows
 req.typenames: 
 req.redist: 

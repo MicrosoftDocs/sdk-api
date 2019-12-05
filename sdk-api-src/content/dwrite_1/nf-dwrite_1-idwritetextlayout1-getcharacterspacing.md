@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_1.IDWriteTextLayout1.GetCharacterSpacing
 title: IDWriteTextLayout1::GetCharacterSpacing (dwrite_1.h)
-
 description: Gets the spacing between characters.
 old-location: directwrite\idwritetextlayout1_getcharacterspacing.htm
 tech.root: DirectWrite
 ms.assetid: A546DCB4-8068-4300-94FB-A5B314536869
-
 ms.date: 12/05/2018
 ms.keywords: GetCharacterSpacing, GetCharacterSpacing method [Direct Write], GetCharacterSpacing method [Direct Write],IDWriteTextLayout1 interface, IDWriteTextLayout1 interface [Direct Write],GetCharacterSpacing method, IDWriteTextLayout1.GetCharacterSpacing, IDWriteTextLayout1::GetCharacterSpacing, directwrite.idwritetextlayout1_getcharacterspacing, dwrite_1/IDWriteTextLayout1::GetCharacterSpacing
 ms.topic: method
-f1_keywords: 
- - "dwrite_1/IDWriteTextLayout1.GetCharacterSpacing"
+f1_keywords:
+- dwrite_1/IDWriteTextLayout1.GetCharacterSpacing
 dev_langs:
- - c++
+- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout1.GetCharacterSpacing
+- IDWriteTextLayout1.GetCharacterSpacing
 targetos: Windows
 req.typenames: 
 req.redist: 

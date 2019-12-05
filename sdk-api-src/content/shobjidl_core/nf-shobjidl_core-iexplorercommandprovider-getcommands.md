@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IExplorerCommandProvider.GetCommands
 title: IExplorerCommandProvider::GetCommands (shobjidl_core.h)
-
 description: Gets a specified Explorer command enumerator instance.
 old-location: shell\IExplorerCommandProvider_GetCommands.htm
 tech.root: shell
 ms.assetid: df300219-e717-4f79-8996-62726092c3c7
-
 ms.date: 12/05/2018
 ms.keywords: GetCommands, GetCommands method [Windows Shell], GetCommands method [Windows Shell],IExplorerCommandProvider interface, IExplorerCommandProvider interface [Windows Shell],GetCommands method, IExplorerCommandProvider.GetCommands, IExplorerCommandProvider::GetCommands, _shell_IExplorerCommandProvider_GetCommands, shell.IExplorerCommandProvider_GetCommands, shobjidl_core/IExplorerCommandProvider::GetCommands
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IExplorerCommandProvider.GetCommands"
+f1_keywords:
+- shobjidl_core/IExplorerCommandProvider.GetCommands
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExplorerCommandProvider.GetCommands
+- IExplorerCommandProvider.GetCommands
 targetos: Windows
 req.typenames: 
 req.redist: 

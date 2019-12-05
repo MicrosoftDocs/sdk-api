@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.MonitorFromPoint
 title: MonitorFromPoint function (winuser.h)
-
 description: The MonitorFromPoint function retrieves a handle to the display monitor that contains a specified point.
 old-location: gdi\monitorfrompoint.htm
 tech.root: gdi
 ms.assetid: c46281bf-7e45-4628-be92-736850225a9e
-
 ms.date: 12/05/2018
 ms.keywords: MONITOR_DEFAULTTONEAREST, MONITOR_DEFAULTTONULL, MONITOR_DEFAULTTOPRIMARY, MonitorFromPoint, MonitorFromPoint function [Windows GDI], _win32_MonitorFromPoint, gdi.monitorfrompoint, winuser/MonitorFromPoint
 ms.topic: function
-f1_keywords: 
- - "winuser/MonitorFromPoint"
+f1_keywords:
+- winuser/MonitorFromPoint
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-NTUser-Misc-l1-1-0.dll
- - Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
- - minuser.dll
+- user32.dll
+- Ext-MS-Win-NTUser-Misc-l1-1-0.dll
+- Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
+- minuser.dll
 api_name:
- - MonitorFromPoint
+- MonitorFromPoint
 targetos: Windows
 req.typenames: 
 req.redist: 

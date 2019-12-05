@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_DISALLOWED_USER_AGENT_SUBSTRINGS
 title: WS_DISALLOWED_USER_AGENT_SUBSTRINGS (webservices.h)
-
 description: Specifies the list of blocked UserAgent sub-string's. This is used with the WS_LISTENER_PROPERTY_DISALLOWED_USER_AGENT listener property.
 old-location: wsw\ws_disallowed_user_agent_substrings.htm
 tech.root: wsw
 ms.assetid: 3a37275b-11e6-484a-adc2-1e9503d1b309
-
 ms.date: 12/05/2018
 ms.keywords: WS_DISALLOWED_USER_AGENT_SUBSTRINGS, WS_DISALLOWED_USER_AGENT_SUBSTRINGS structure [Web Services for Windows], webservices/WS_DISALLOWED_USER_AGENT_SUBSTRINGS, wsw.ws_disallowed_user_agent_substrings
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_DISALLOWED_USER_AGENT_SUBSTRINGS"
+f1_keywords:
+- webservices/WS_DISALLOWED_USER_AGENT_SUBSTRINGS
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_DISALLOWED_USER_AGENT_SUBSTRINGS
+- WS_DISALLOWED_USER_AGENT_SUBSTRINGS
 targetos: Windows
 req.typenames: WS_DISALLOWED_USER_AGENT_SUBSTRINGS
 req.redist: 

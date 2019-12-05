@@ -1,19 +1,17 @@
 ---
 UID: NS:rtmv2._RTM_ROUTE_INFO
 title: RTM_ROUTE_INFO (rtmv2.h)
-
 description: The RTM_ROUTE_INFO structure is used to exchange route information with the routing table manager. Do not change the read-only information.
 old-location: rras\rtm_route_info.htm
 tech.root: RRAS
 ms.assetid: 7d9bf8c0-dc09-440a-b60d-97463c70a745
-
 ms.date: 12/05/2018
 ms.keywords: '*PRTM_ROUTE_INFO, PRTM_ROUTE_INFO, PRTM_ROUTE_INFO structure pointer [RAS], RTM_ROUTE_FLAGS_ANY_BCAST, RTM_ROUTE_FLAGS_ANY_MCAST, RTM_ROUTE_FLAGS_ANY_UNICAST, RTM_ROUTE_FLAGS_LIMITED_BC, RTM_ROUTE_FLAGS_LOCAL, RTM_ROUTE_FLAGS_LOCAL_MCAST, RTM_ROUTE_FLAGS_MCAST, RTM_ROUTE_FLAGS_MYSELF, RTM_ROUTE_FLAGS_NET_BCAST, RTM_ROUTE_FLAGS_ONES_NETBC, RTM_ROUTE_FLAGS_ONES_SUBNETBC, RTM_ROUTE_FLAGS_REMOTE, RTM_ROUTE_FLAGS_ZEROS_NETBC, RTM_ROUTE_FLAGS_ZEROS_SUBNETBC, RTM_ROUTE_INFO, RTM_ROUTE_INFO structure [RAS], RTM_ROUTE_STATE_CREATED, RTM_ROUTE_STATE_DELETED, RTM_ROUTE_STATE_DELETING, _rtmv2ref_rtm_route_info, rras.rtm_route_info, rtmv2/PRTM_ROUTE_INFO, rtmv2/RTM_ROUTE_INFO'
 ms.topic: struct
 f1_keywords:
 - rtmv2/RTM_ROUTE_INFO
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

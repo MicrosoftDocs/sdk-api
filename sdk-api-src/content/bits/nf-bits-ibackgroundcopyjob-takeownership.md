@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.TakeOwnership
 title: IBackgroundCopyJob::TakeOwnership (bits.h)
-
 description: Changes ownership of the job to the current user.
 old-location: bits\ibackgroundcopyjob_takeownership.htm
 tech.root: Bits
 ms.assetid: 12ac2dd8-516b-4b5d-a2bf-0abb55d18ee0
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],TakeOwnership method, IBackgroundCopyJob.TakeOwnership, IBackgroundCopyJob::TakeOwnership, TakeOwnership, TakeOwnership method [BITS], TakeOwnership method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_takeownership, bits.ibackgroundcopyjob_takeownership, bits/IBackgroundCopyJob::TakeOwnership
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyJob.TakeOwnership"
+f1_keywords:
+- bits/IBackgroundCopyJob.TakeOwnership
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.TakeOwnership
+- IBackgroundCopyJob.TakeOwnership
 targetos: Windows
 req.typenames: 
 req.redist: 

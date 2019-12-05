@@ -1,19 +1,17 @@
 ---
 UID: NF:mergemod.IMsmConfigurableItem.get_Context
 title: IMsmConfigurableItem::get_Context (mergemod.h)
-
 description: The get_Context method retrieves the Context property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_context.htm
 tech.root: Msi
 ms.assetid: 90aa0ee2-a7eb-464c-8a8f-ed4bdf46990e
-
 ms.date: 12/05/2018
 ms.keywords: IMsmConfigurableItem interface,get_Context method, IMsmConfigurableItem.get_Context, IMsmConfigurableItem::get_Context, _msi_get_context_function, get_Context, get_Context method, get_Context method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_Context, setup.imsmconfigurableitem_get_context
 ms.topic: method
-f1_keywords: 
- - "mergemod/IMsmConfigurableItem.get_Context"
+f1_keywords:
+- mergemod/IMsmConfigurableItem.get_Context
 dev_langs:
- - c++
+- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mergemod.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mergemod.dll
+- Mergemod.dll
 api_name:
- - IMsmConfigurableItem.get_Context
+- IMsmConfigurableItem.get_Context
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMStorage4.SetReferences
 title: IWMDMStorage4::SetReferences (mswmdm.h)
-
 description: The SetReferences method sets the references contained in a storage that has references (such as a playlist or album), overwriting any previously existing references held by the storage.
 old-location: wmdm\iwmdmstorage4_setreferences.htm
 tech.root: WMDM
 ms.assetid: f61b8c4e-6ea1-49a3-8b61-c3ea8bfe2714
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorage4 interface [windows Media Device Manager],SetReferences method, IWMDMStorage4.SetReferences, IWMDMStorage4::SetReferences, IWMDMStorage4SetReferences, SetReferences, SetReferences method [windows Media Device Manager], SetReferences method [windows Media Device Manager],IWMDMStorage4 interface, mswmdm/IWMDMStorage4::SetReferences, wmdm.iwmdmstorage4_setreferences
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMStorage4.SetReferences"
+f1_keywords:
+- mswmdm/IWMDMStorage4.SetReferences
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMStorage4.SetReferences
+- IWMDMStorage4.SetReferences
 targetos: Windows
 req.typenames: 
 req.redist: 

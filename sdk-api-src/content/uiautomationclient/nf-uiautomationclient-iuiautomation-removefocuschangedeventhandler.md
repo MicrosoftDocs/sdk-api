@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.RemoveFocusChangedEventHandler
 title: IUIAutomation::RemoveFocusChangedEventHandler (uiautomationclient.h)
-
 description: Removes a focus-changed event handler.
 old-location: winauto\uiauto_IUIAutomation_RemoveFocusChangedEventHandler.htm
 tech.root: WinAuto
 ms.assetid: 96913631-76e0-405a-888d-ac7f6485a18e
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],RemoveFocusChangedEventHandler method, IUIAutomation.RemoveFocusChangedEventHandler, IUIAutomation::RemoveFocusChangedEventHandler, RemoveFocusChangedEventHandler, RemoveFocusChangedEventHandler method [Windows Accessibility], RemoveFocusChangedEventHandler method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_RemoveFocusChangedEventHandler, uiauto_IUIAutomation_RemoveFocusChangedEventHandler, uiautomationclient/IUIAutomation::RemoveFocusChangedEventHandler, winauto.uiauto_IUIAutomation_RemoveFocusChangedEventHandler
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation.RemoveFocusChangedEventHandler"
+f1_keywords:
+- uiautomationclient/IUIAutomation.RemoveFocusChangedEventHandler
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation.RemoveFocusChangedEventHandler
+- IUIAutomation.RemoveFocusChangedEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

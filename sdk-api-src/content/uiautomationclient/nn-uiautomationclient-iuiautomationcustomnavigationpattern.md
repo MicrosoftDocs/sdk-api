@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationCustomNavigationPattern
 title: IUIAutomationCustomNavigationPattern (uiautomationclient.h)
-
 description: Exposes a method to support access by a Microsoft UI Automation client to controls that support a custom navigation order.
 old-location: winauto\uiauto_IUIAutomationCustomNavigationPattern.htm
 tech.root: WinAuto
 ms.assetid: 0FF8604E-DD0E-4243-9B7E-219A26ACAC9C
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationCustomNavigationPattern, IUIAutomationCustomNavigationPattern interface [Windows Accessibility], IUIAutomationCustomNavigationPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationCustomNavigationPattern, winauto.uiauto_IUIAutomationCustomNavigationPattern
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationCustomNavigationPattern"
+f1_keywords:
+- uiautomationclient/IUIAutomationCustomNavigationPattern
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationCustomNavigationPattern
+- IUIAutomationCustomNavigationPattern
 targetos: Windows
 req.typenames: 
 req.redist: 

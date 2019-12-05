@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.NhpAllocateAndGetInterfaceInfoFromStack
 title: NhpAllocateAndGetInterfaceInfoFromStack function (iphlpapi.h)
-
 description: The NhpAllocateAndGetInterfaceInfoFromStack function obtains adapter information about the local computer.
 old-location: iphlp\nhpallocateandgetinterfaceinfofromstack.htm
 tech.root: IpHlp
 ms.assetid: a5ba8b28-4c15-4646-91d0-b6ef9e0f1e89
-
 ms.date: 12/05/2018
 ms.keywords: NhpAllocateAndGetInterfaceInfoFromStack, NhpAllocateAndGetInterfaceInfoFromStack function [IP Helper], iphlp.nhpallocateandgetinterfaceinfofromstack, iphlpapi/NhpAllocateAndGetInterfaceInfoFromStack
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/NhpAllocateAndGetInterfaceInfoFromStack"
+f1_keywords:
+- iphlpapi/NhpAllocateAndGetInterfaceInfoFromStack
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - NhpAllocateAndGetInterfaceInfoFromStack
+- NhpAllocateAndGetInterfaceInfoFromStack
 targetos: Windows
 req.typenames: 
 req.redist: 

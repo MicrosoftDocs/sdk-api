@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj.IShellFolderBand.GetBandInfoSFB
 title: IShellFolderBand::GetBandInfoSFB (shlobj.h)
-
 description: Gets information concerning an IShellFolderBand object and places it in a BANDINFOSFB structure.
 old-location: shell\IShellFolderBand_GetBandInfoSFB.htm
 tech.root: shell
 ms.assetid: 7a42ba12-987a-4b43-9d95-085a5e896245
-
 ms.date: 12/05/2018
 ms.keywords: GetBandInfoSFB, GetBandInfoSFB method [Windows Shell], GetBandInfoSFB method [Windows Shell],IShellFolderBand interface, IShellFolderBand interface [Windows Shell],GetBandInfoSFB method, IShellFolderBand.GetBandInfoSFB, IShellFolderBand::GetBandInfoSFB, _win32_IShellFolderBand_GetBandInfoSFB, shell.IShellFolderBand_GetBandInfoSFB, shlobj/IShellFolderBand::GetBandInfoSFB
 ms.topic: method
-f1_keywords: 
- - "shlobj/IShellFolderBand.GetBandInfoSFB"
+f1_keywords:
+- shlobj/IShellFolderBand.GetBandInfoSFB
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.00 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellFolderBand.GetBandInfoSFB
+- IShellFolderBand.GetBandInfoSFB
 targetos: Windows
 req.typenames: 
 req.redist: 

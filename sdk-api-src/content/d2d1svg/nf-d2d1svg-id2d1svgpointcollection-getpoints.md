@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPointCollection.GetPoints
 title: ID2D1SvgPointCollection::GetPoints (d2d1svg.h)
-
 description: Gets points from the points array.
 old-location: direct2d\id2d1svgpointcollection_getpoints.htm
 tech.root: Direct2D
 ms.assetid: 886039FB-0640-4B20-84E2-4B3EC2AFA234
-
 ms.date: 12/05/2018
 ms.keywords: GetPoints, GetPoints method [Direct2D], GetPoints method [Direct2D],ID2D1SvgPointCollection interface, ID2D1SvgPointCollection interface [Direct2D],GetPoints method, ID2D1SvgPointCollection.GetPoints, ID2D1SvgPointCollection::GetPoints, d2d1svg/ID2D1SvgPointCollection::GetPoints, direct2d.id2d1svgpointcollection_getpoints
 ms.topic: method
-f1_keywords: 
- - "d2d1svg/ID2D1SvgPointCollection.GetPoints"
+f1_keywords:
+- d2d1svg/ID2D1SvgPointCollection.GetPoints
 dev_langs:
- - c++
+- c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Direct2d.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - direct2d.dll
+- direct2d.dll
 api_name:
- - ID2D1SvgPointCollection.GetPoints
+- ID2D1SvgPointCollection.GetPoints
 targetos: Windows
 req.typenames: 
 req.redist: 

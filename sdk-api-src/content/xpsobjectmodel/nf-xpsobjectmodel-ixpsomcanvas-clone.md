@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.Clone
 title: IXpsOMCanvas::Clone (xpsobjectmodel.h)
-
 description: Makes a deep copy of the interface.
 old-location: xps\ixpsomcanvas_clone.htm
 tech.root: printdocs
 ms.assetid: 2411fca6-2d36-4704-83a6-0086c6be0e2a
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],Clone method, IXpsOMCanvas.Clone, IXpsOMCanvas::Clone, xps.ixpsomcanvas_clone, xpsobjectmodel/IXpsOMCanvas::Clone
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMCanvas.Clone"
+f1_keywords:
+- xpsobjectmodel/IXpsOMCanvas.Clone
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMCanvas.Clone
+- IXpsOMCanvas.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

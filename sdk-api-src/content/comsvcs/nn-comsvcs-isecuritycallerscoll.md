@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.ISecurityCallersColl
 title: ISecurityCallersColl (comsvcs.h)
-
 description: Provides access to information about individual callers in a collection of callers.
 old-location: cos\isecuritycallerscoll.htm
 tech.root: cossdk
 ms.assetid: b9b16d2e-92fd-40d2-b33d-8a82a1291794
-
 ms.date: 12/05/2018
 ms.keywords: ISecurityCallersColl, ISecurityCallersColl interface [COM+], ISecurityCallersColl interface [COM+],described, _cos_ISecurityCallersColl, comsvcs/ISecurityCallersColl, cos.isecuritycallerscoll
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/ISecurityCallersColl"
+f1_keywords:
+- comsvcs/ISecurityCallersColl
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISecurityCallersColl
+- ISecurityCallersColl
 targetos: Windows
 req.typenames: 
 req.redist: 

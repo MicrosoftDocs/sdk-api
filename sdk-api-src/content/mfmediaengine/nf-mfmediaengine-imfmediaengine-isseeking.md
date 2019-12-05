@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.IsSeeking
 title: IMFMediaEngine::IsSeeking (mfmediaengine.h)
-
 description: Queries whether the Media Engine is currently seeking to a new playback position.
 old-location: mf\imfmediaengine_isseeking.htm
 tech.root: medfound
 ms.assetid: B314D5E7-EBD4-42CF-9E86-206ABC3027A0
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],IsSeeking method, IMFMediaEngine.IsSeeking, IMFMediaEngine::IsSeeking, IsSeeking, IsSeeking method [Media Foundation], IsSeeking method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_isseeking, mfmediaengine/IMFMediaEngine::IsSeeking
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngine.IsSeeking"
+f1_keywords:
+- mfmediaengine/IMFMediaEngine.IsSeeking
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngine.IsSeeking
+- IMFMediaEngine.IsSeeking
 targetos: Windows
 req.typenames: 
 req.redist: 

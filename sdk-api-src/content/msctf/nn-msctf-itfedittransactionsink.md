@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfEditTransactionSink
 title: ITfEditTransactionSink (msctf.h)
-
 description: The ITfEditTransactionSink interface is implemented by a text service and used by the TSF manager to support edit transactions.
 old-location: tsf\itfedittransactionsink.htm
 tech.root: TSF
 ms.assetid: d5393459-8bd6-4daf-830a-aa08d76c6347
-
 ms.date: 12/05/2018
 ms.keywords: ITfEditTransactionSink, ITfEditTransactionSink interface [Text Services Framework], ITfEditTransactionSink interface [Text Services Framework],described, _tsf_itfedittransactionsink_ref, msctf/ITfEditTransactionSink, tsf.itfedittransactionsink
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfEditTransactionSink"
+f1_keywords:
+- msctf/ITfEditTransactionSink
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Imekrcic.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imekrcic.dll
+- imekrcic.dll
 api_name:
- - ITfEditTransactionSink
+- ITfEditTransactionSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

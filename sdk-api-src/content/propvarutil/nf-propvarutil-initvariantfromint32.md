@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.InitVariantFromInt32
 title: InitVariantFromInt32 function (propvarutil.h)
-
 description: Initializes a VARIANT structure with a 32-bit integer value.
 old-location: properties\InitVariantFromInt32.htm
 tech.root: properties
 ms.assetid: b754149e-09e3-4420-b0e6-6e14ccbd9cff
-
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromInt32, InitVariantFromInt32 function [Windows Properties], _shell_InitVariantFromInt32, properties.InitVariantFromInt32, propvarutil/InitVariantFromInt32, shell.InitVariantFromInt32
 ms.topic: function
-f1_keywords: 
- - "propvarutil/InitVariantFromInt32"
+f1_keywords:
+- propvarutil/InitVariantFromInt32
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Propvarutil.h
+- Propvarutil.h
 api_name:
- - InitVariantFromInt32
+- InitVariantFromInt32
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

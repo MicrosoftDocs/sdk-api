@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Is_Dock_Station_Present
 title: CM_Is_Dock_Station_Present function (cfgmgr32.h)
-
 description: The CM_Is_Dock_Station_Present function identifies whether a docking station is present in a local machine.
 old-location: devinst\cm_is_dock_station_present.htm
 tech.root: devinst
 ms.assetid: 1c07dca9-5209-46d5-a0a3-87a615e3d40a
-
 ms.date: 12/05/2018
 ms.keywords: CM_Is_Dock_Station_Present, CM_Is_Dock_Station_Present function [Device and Driver Installation], cfgmgr32/CM_Is_Dock_Station_Present, cfgmgrfn_ad4a7b33-0c70-4f03-91e2-c4707c83656e.xml, devinst.cm_is_dock_station_present
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Is_Dock_Station_Present"
+f1_keywords:
+- cfgmgr32/CM_Is_Dock_Station_Present
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib: Cfgmgr32.lib
 req.dll: Cfgmgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.dll
+- Cfgmgr32.dll
 api_name:
- - CM_Is_Dock_Station_Present
+- CM_Is_Dock_Station_Present
 targetos: Windows
 req.typenames: 
 req.redist: 

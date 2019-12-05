@@ -1,19 +1,17 @@
 ---
 UID: NF:richole.IRichEditOleCallback.QueryAcceptData
 title: IRichEditOleCallback::QueryAcceptData (richole.h)
-
 description: During a paste operation or a drag event, determines if the data that is pasted or dragged should be accepted.
 old-location: controls\IRichEditOleCallback_QueryAcceptData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackqueryacceptdata.htm
-
 ms.date: 12/05/2018
 ms.keywords: IRichEditOleCallback interface [Windows Controls],QueryAcceptData method, IRichEditOleCallback.QueryAcceptData, IRichEditOleCallback::QueryAcceptData, QueryAcceptData, QueryAcceptData method [Windows Controls], QueryAcceptData method [Windows Controls],IRichEditOleCallback interface, RECO_DROP, RECO_PASTE, _win32_IRichEditOleCallback_QueryAcceptData, _win32_IRichEditOleCallback_QueryAcceptData_cpp, controls.IRichEditOleCallback_QueryAcceptData, controls._win32_IRichEditOleCallback_QueryAcceptData, richole/IRichEditOleCallback::QueryAcceptData
 ms.topic: method
-f1_keywords: 
- - "richole/IRichEditOleCallback.QueryAcceptData"
+f1_keywords:
+- richole/IRichEditOleCallback.QueryAcceptData
 dev_langs:
- - c++
+- c++
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - IRichEditOleCallback.QueryAcceptData
+- IRichEditOleCallback.QueryAcceptData
 targetos: Windows
 req.typenames: 
 req.redist: 

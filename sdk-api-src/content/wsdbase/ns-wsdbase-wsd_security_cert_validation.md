@@ -1,19 +1,17 @@
 ---
 UID: NS:wsdbase._WSD_SECURITY_CERT_VALIDATION
 title: WSD_SECURITY_CERT_VALIDATION (wsdbase.h)
-
 description: Represents the criteria for matching client certificates against those of an HTTPS server.
 old-location: ncd\wsd_security_cert_validation.htm
 tech.root: WsdApi
 ms.assetid: 1bc157c2-f3c2-4b67-a6ae-251ba1cb0379
-
 ms.date: 12/05/2018
 ms.keywords: '*PWSD_SECURITY_CERT_VALIDATION, WSDAPI_SSL_CERT_DEFAULT_CHECKS, WSDAPI_SSL_CERT_IGNORE_EXPIRY, WSDAPI_SSL_CERT_IGNORE_INVALID_CN, WSDAPI_SSL_CERT_IGNORE_REVOCATION, WSDAPI_SSL_CERT_IGNORE_UNKNOWN_CA, WSDAPI_SSL_CERT_IGNORE_WRONG_USAGE, WSD_SECURITY_CERT_VALIDATION, WSD_SECURITY_CERT_VALIDATION structure, _WSD_SECURITY_CERT_VALIDATION, ncd.wsd_security_cert_validation, wsdbase/WSD_SECURITY_CERT_VALIDATION'
 ms.topic: struct
 f1_keywords:
 - wsdbase/WSD_SECURITY_CERT_VALIDATION
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:chstrarr.CHStringArray.GetData
 title: CHStringArray::GetData (chstrarr.h)
-
 description: The GetData method gains direct access to the elements in the array.
 old-location: wmi\chstringarray_getdata.htm
 tech.root: WmiSdk
 ms.assetid: b59a0c42-e753-43ff-bf39-279f0a8b9d2b
-
 ms.date: 12/05/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],GetData method, CHStringArray.GetData, CHStringArray::GetData, GetData, GetData method [Windows Management Instrumentation], GetData method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_getdata, chstrarr/CHStringArray::GetData, wmi.chstringarray_getdata
 ms.topic: method
-f1_keywords: 
- - "chstrarr/CHStringArray.GetData"
+f1_keywords:
+- chstrarr/CHStringArray.GetData
 dev_langs:
- - c++
+- c++
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHStringArray.GetData
+- CHStringArray.GetData
 targetos: Windows
 req.typenames: 
 req.redist: 

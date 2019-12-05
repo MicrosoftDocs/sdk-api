@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetCountOfTableDescriptors
 title: ISCTE_EAS::GetCountOfTableDescriptors (atscpsipparser.h)
-
 description: The GetCountOfTableDescriptors method returns the number of descriptors in the EAS table.
 old-location: mstv\iscte_eas_getcountoftabledescriptors.htm
 tech.root: mstv
 ms.assetid: 1d6cae55-233f-49e0-8ced-9dd21b0aa32b
-
 ms.date: 12/05/2018
 ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, ISCTE_EAS.GetCountOfTableDescriptors, ISCTE_EAS::GetCountOfTableDescriptors, ISCTE_EASGetCountOfTableDescriptors, atscpsipparser/ISCTE_EAS::GetCountOfTableDescriptors, mstv.iscte_eas_getcountoftabledescriptors
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/ISCTE_EAS.GetCountOfTableDescriptors"
+f1_keywords:
+- atscpsipparser/ISCTE_EAS.GetCountOfTableDescriptors
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - ISCTE_EAS.GetCountOfTableDescriptors
+- ISCTE_EAS.GetCountOfTableDescriptors
 targetos: Windows
 req.typenames: 
 req.redist: 

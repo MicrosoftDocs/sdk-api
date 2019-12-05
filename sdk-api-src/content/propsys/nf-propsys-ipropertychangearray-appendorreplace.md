@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyChangeArray.AppendOrReplace
 title: IPropertyChangeArray::AppendOrReplace (propsys.h)
-
 description: Replaces the first occurrence of a change that affects the same property key as the provided change. If the property key is not already in the array, this method appends the change to the end of the array.
 old-location: properties\IPropertyChangeArray_AppendOrReplace.htm
 tech.root: properties
 ms.assetid: e4006738-d986-4fcb-899c-bbc4853ec6c1
-
 ms.date: 12/05/2018
 ms.keywords: AppendOrReplace, AppendOrReplace method [Windows Properties], AppendOrReplace method [Windows Properties],IPropertyChangeArray interface, IPropertyChangeArray interface [Windows Properties],AppendOrReplace method, IPropertyChangeArray.AppendOrReplace, IPropertyChangeArray::AppendOrReplace, _shell_IPropertyChangeArray_AppendOrReplace, properties.IPropertyChangeArray_AppendOrReplace, propsys/IPropertyChangeArray::AppendOrReplace, shell.IPropertyChangeArray_AppendOrReplace
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertyChangeArray.AppendOrReplace"
+f1_keywords:
+- propsys/IPropertyChangeArray.AppendOrReplace
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyChangeArray.AppendOrReplace
+- IPropertyChangeArray.AppendOrReplace
 targetos: Windows
 req.typenames: 
 req.redist: 

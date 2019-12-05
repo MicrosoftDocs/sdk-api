@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.DoesSupportAnimation
 title: IWICBitmapCodecInfo::DoesSupportAnimation (wincodec.h)
-
 description: Retrieves a value indicating whether the codec supports animation.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_doessupportanimation.htm
 tech.root: wic
 ms.assetid: 17635459-e067-4fdb-a801-4ad6cc622215
-
 ms.date: 12/05/2018
 ms.keywords: DoesSupportAnimation, DoesSupportAnimation method [Windows Imaging Component], DoesSupportAnimation method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],DoesSupportAnimation method, IWICBitmapCodecInfo.DoesSupportAnimation, IWICBitmapCodecInfo::DoesSupportAnimation, _wic_codec_iwicbitmapcodecinfo_doessupportanimation, wic._wic_codec_iwicbitmapcodecinfo_doessupportanimation, wincodec/IWICBitmapCodecInfo::DoesSupportAnimation
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapCodecInfo.DoesSupportAnimation"
+f1_keywords:
+- wincodec/IWICBitmapCodecInfo.DoesSupportAnimation
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapCodecInfo.DoesSupportAnimation
+- IWICBitmapCodecInfo.DoesSupportAnimation
 targetos: Windows
 req.typenames: 
 req.redist: 

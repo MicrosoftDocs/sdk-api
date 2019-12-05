@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolLogonErrorRedirector.OnBeginPainting
 title: IWTSProtocolLogonErrorRedirector::OnBeginPainting (wtsprotocol.h)
-
 description: IWTSProtocolLogonErrorRedirector::OnBeginPainting is no longer available. Instead, use IWRdsProtocolLogonErrorRedirector::OnBeginPainting.
 old-location: termserv\iwtsprotocollogonerrorredirector_onbeginpainting.htm
 tech.root: TermServ
 ms.assetid: 1356deeb-ac4a-4877-95be-9df09f4b0210
-
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services],OnBeginPainting method, IWTSProtocolLogonErrorRedirector.OnBeginPainting, IWTSProtocolLogonErrorRedirector::OnBeginPainting, OnBeginPainting, OnBeginPainting method [Remote Desktop Services], OnBeginPainting method [Remote Desktop Services],IWTSProtocolLogonErrorRedirector interface, termserv.iwtsprotocollogonerrorredirector_onbeginpainting, wtsprotocol/IWTSProtocolLogonErrorRedirector::OnBeginPainting
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWTSProtocolLogonErrorRedirector.OnBeginPainting"
+f1_keywords:
+- wtsprotocol/IWTSProtocolLogonErrorRedirector.OnBeginPainting
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wtsprotocol.h
+- Wtsprotocol.h
 api_name:
- - IWTSProtocolLogonErrorRedirector.OnBeginPainting
+- IWTSProtocolLogonErrorRedirector.OnBeginPainting
 targetos: Windows
 req.typenames: 
 req.redist: 

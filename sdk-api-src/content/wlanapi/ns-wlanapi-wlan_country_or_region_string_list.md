@@ -1,19 +1,17 @@
 ---
 UID: NS:wlanapi._WLAN_COUNTRY_OR_REGION_STRING_LIST
 title: WLAN_COUNTRY_OR_REGION_STRING_LIST (wlanapi.h)
-
 description: Contains a list of supported country or region strings.
 old-location: nwifi\wlan_country_or_region_string_list.htm
 tech.root: NativeWiFi
 ms.assetid: 64343c1f-3543-406f-a64c-94196b8aa17e
-
 ms.date: 12/05/2018
-ms.keywords: "*PWLAN_COUNTRY_OR_REGION_STRING_LIST, PWLAN_COUNTRY_OR_REGION_STRING_LIST, PWLAN_COUNTRY_OR_REGION_STRING_LIST structure pointer [NativeWIFI], WLAN_COUNTRY_OR_REGION_STRING_LIST, WLAN_COUNTRY_OR_REGION_STRING_LIST structure [NativeWIFI], nwifi.wlan_country_or_region_string_list, wlanapi/PWLAN_COUNTRY_OR_REGION_STRING_LIST, wlanapi/WLAN_COUNTRY_OR_REGION_STRING_LIST"
+ms.keywords: '*PWLAN_COUNTRY_OR_REGION_STRING_LIST, PWLAN_COUNTRY_OR_REGION_STRING_LIST, PWLAN_COUNTRY_OR_REGION_STRING_LIST structure pointer [NativeWIFI], WLAN_COUNTRY_OR_REGION_STRING_LIST, WLAN_COUNTRY_OR_REGION_STRING_LIST structure [NativeWIFI], nwifi.wlan_country_or_region_string_list, wlanapi/PWLAN_COUNTRY_OR_REGION_STRING_LIST, wlanapi/WLAN_COUNTRY_OR_REGION_STRING_LIST'
 ms.topic: struct
-f1_keywords: 
- - "wlanapi/WLAN_COUNTRY_OR_REGION_STRING_LIST"
+f1_keywords:
+- wlanapi/WLAN_COUNTRY_OR_REGION_STRING_LIST
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wlanapi.h
+- wlanapi.h
 api_name:
- - WLAN_COUNTRY_OR_REGION_STRING_LIST
+- WLAN_COUNTRY_OR_REGION_STRING_LIST
 targetos: Windows
 req.typenames: WLAN_COUNTRY_OR_REGION_STRING_LIST, *PWLAN_COUNTRY_OR_REGION_STRING_LIST
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.GetNamespaceConnection(LPCWSTR)
 title: CWbemProviderGlue::GetNamespaceConnection (wbemglue.h)
-
 description: The GetNameSpaceConnection method is used to retrieve a namespace connection.
 old-location: wmi\cwbemproviderglue_getnamespaceconnection.htm
 tech.root: WmiSdk
 ms.assetid: abbc7099-400d-47a0-9673-3d102effa897
-
 ms.date: 12/05/2018
-ms.keywords: "?GetNamespaceConnection@CWbemProviderGlue@@SAPEAUIWbemServices@@PEBG@Z, ?GetNamespaceConnection@CWbemProviderGlue@@SGPAUIWbemServices@@PBG@Z, CWbemProviderGlue interface [Windows Management Instrumentation],GetNameSpaceConnection method, CWbemProviderGlue.GetNamespaceConnection, CWbemProviderGlue::GetNameSpaceConnection, CWbemProviderGlue::GetNamespaceConnection, GetNameSpaceConnection method [Windows Management Instrumentation], GetNameSpaceConnection method [Windows Management Instrumentation],CWbemProviderGlue interface, GetNamespaceConnection, _hmm_cwbemproviderglue_getnamespaceconnection, wbemglue/CWbemProviderGlue::GetNameSpaceConnection, wmi.cwbemproviderglue_getnamespaceconnection"
+ms.keywords: ?GetNamespaceConnection@CWbemProviderGlue@@SAPEAUIWbemServices@@PEBG@Z, ?GetNamespaceConnection@CWbemProviderGlue@@SGPAUIWbemServices@@PBG@Z, CWbemProviderGlue interface [Windows Management Instrumentation],GetNameSpaceConnection method, CWbemProviderGlue.GetNamespaceConnection, CWbemProviderGlue::GetNameSpaceConnection, CWbemProviderGlue::GetNamespaceConnection, GetNameSpaceConnection method [Windows Management Instrumentation], GetNameSpaceConnection method [Windows Management Instrumentation],CWbemProviderGlue interface, GetNamespaceConnection, _hmm_cwbemproviderglue_getnamespaceconnection, wbemglue/CWbemProviderGlue::GetNameSpaceConnection, wmi.cwbemproviderglue_getnamespaceconnection
 ms.topic: method
-f1_keywords: 
- - "wbemglue/CWbemProviderGlue.GetNameSpaceConnection"
+f1_keywords:
+- wbemglue/CWbemProviderGlue.GetNameSpaceConnection
 dev_langs:
- - c++
+- c++
 req.header: wbemglue.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CWbemProviderGlue.GetNameSpaceConnection
- - ?GetNamespaceConnection@CWbemProviderGlue@@SAPEAUIWbemServices@@PEBG@Z
- - ?GetNamespaceConnection@CWbemProviderGlue@@SGPAUIWbemServices@@PBG@Z
+- CWbemProviderGlue.GetNameSpaceConnection
+- ?GetNamespaceConnection@CWbemProviderGlue@@SAPEAUIWbemServices@@PEBG@Z
+- ?GetNamespaceConnection@CWbemProviderGlue@@SGPAUIWbemServices@@PBG@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

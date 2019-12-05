@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetNumTables
 title: IMetaDataTables::GetNumTables (rometadataapi.h)
-
 description: Gets the number of tables in the scope of the current IMetaDataTables instance.
 old-location: winrt\imetadatatables_getnumtables.htm
 tech.root: WinRT
 ms.assetid: b5748a90-1ee1-4f76-93c0-2da2fd5d55c1
-
 ms.date: 12/05/2018
 ms.keywords: GetNumTables, GetNumTables method [Windows Runtime], GetNumTables method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetNumTables method, IMetaDataTables.GetNumTables, IMetaDataTables::GetNumTables, rometadataapi/IMetaDataTables::GetNumTables, winrt.imetadatatables_getnumtables
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataTables.GetNumTables"
+f1_keywords:
+- rometadataapi/IMetaDataTables.GetNumTables
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataTables.GetNumTables
+- IMetaDataTables.GetNumTables
 targetos: Windows
 req.typenames: 
 req.redist: 

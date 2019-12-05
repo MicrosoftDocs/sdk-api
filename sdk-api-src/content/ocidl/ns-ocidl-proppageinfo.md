@@ -1,19 +1,17 @@
 ---
 UID: NS:ocidl.tagPROPPAGEINFO
 title: PROPPAGEINFO (ocidl.h)
-
 description: Contains parameters used to describe a property page to a property frame. A property page fills a caller-provided structure in the IPropertyPage::GetPageInfo method.
 old-location: com\proppageinfo.htm
 tech.root: com
 ms.assetid: 363fd45f-fb36-41f0-9d72-dc9c018859ec
-
 ms.date: 12/05/2018
-ms.keywords: "*LPPROPPAGEINFO, LPPROPPAGEINFO, LPPROPPAGEINFO structure pointer [COM], PROPPAGEINFO, PROPPAGEINFO structure [COM], _ctrl_PROPPAGEINFO, com.proppageinfo, ocidl/LPPROPPAGEINFO, ocidl/PROPPAGEINFO"
+ms.keywords: '*LPPROPPAGEINFO, LPPROPPAGEINFO, LPPROPPAGEINFO structure pointer [COM], PROPPAGEINFO, PROPPAGEINFO structure [COM], _ctrl_PROPPAGEINFO, com.proppageinfo, ocidl/LPPROPPAGEINFO, ocidl/PROPPAGEINFO'
 ms.topic: struct
-f1_keywords: 
- - "ocidl/PROPPAGEINFO"
+f1_keywords:
+- ocidl/PROPPAGEINFO
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - PROPPAGEINFO
+- PROPPAGEINFO
 targetos: Windows
 req.typenames: PROPPAGEINFO, *LPPROPPAGEINFO
 req.redist: 

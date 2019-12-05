@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataHandlerInfo.GetMetadataFormat
 title: IWICMetadataHandlerInfo::GetMetadataFormat (wincodecsdk.h)
-
 description: Retrieves the metadata format of the metadata handler.
 old-location: wic\_wic_codec_iwicmetadatahandlerinfo_getmetadataformat.htm
 tech.root: wic
 ms.assetid: 0a54d59a-3fe4-4636-94a0-5ee449d1d5c3
-
 ms.date: 12/05/2018
 ms.keywords: GetMetadataFormat, GetMetadataFormat method [Windows Imaging Component], GetMetadataFormat method [Windows Imaging Component],IWICMetadataHandlerInfo interface, IWICMetadataHandlerInfo interface [Windows Imaging Component],GetMetadataFormat method, IWICMetadataHandlerInfo.GetMetadataFormat, IWICMetadataHandlerInfo::GetMetadataFormat, _wic_codec_iwicmetadatahandlerinfo_getmetadataformat, wic._wic_codec_iwicmetadatahandlerinfo_getmetadataformat, wincodecsdk/IWICMetadataHandlerInfo::GetMetadataFormat
 ms.topic: method
-f1_keywords: 
- - "wincodecsdk/IWICMetadataHandlerInfo.GetMetadataFormat"
+f1_keywords:
+- wincodecsdk/IWICMetadataHandlerInfo.GetMetadataFormat
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICMetadataHandlerInfo.GetMetadataFormat
+- IWICMetadataHandlerInfo.GetMetadataFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

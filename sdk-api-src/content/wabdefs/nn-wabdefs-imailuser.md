@@ -1,19 +1,17 @@
 ---
 UID: NN:wabdefs.IMailUser
 title: IMailUser (wabdefs.h)
-
 description: Do not use. This interface provides access to a mail user object.
 old-location: wab\_wab_IMailUser.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\imailuser\imailuser.htm
-
 ms.date: 12/05/2018
 ms.keywords: IMailUser, IMailUser interface [Windows Address Book], IMailUser interface [Windows Address Book],described, _wab_IMailUser, wab._wab_IMailUser, wabdefs/IMailUser
 ms.topic: interface
-f1_keywords: 
- - "wabdefs/IMailUser"
+f1_keywords:
+- wabdefs/IMailUser
 dev_langs:
- - c++
+- c++
 req.header: wabdefs.h
 req.include-header: Wabtmp.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IMailUser
+- IMailUser
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComAppEvents.OnAppActivation
 title: IComAppEvents::OnAppActivation (comsvcs.h)
-
 description: Generated when an application server starts.
 old-location: cos\icomappevents_onappactivation.htm
 tech.root: cossdk
 ms.assetid: 4561d15a-6c1b-48e7-9697-87dfb51f877c
-
 ms.date: 12/05/2018
 ms.keywords: IComAppEvents interface [COM+],OnAppActivation method, IComAppEvents.OnAppActivation, IComAppEvents::OnAppActivation, OnAppActivation, OnAppActivation method [COM+], OnAppActivation method [COM+],IComAppEvents interface, _dtc_IComAppEvents_OnAppActivation, comsvcs/IComAppEvents::OnAppActivation, cos.icomappevents_onappactivation
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComAppEvents.OnAppActivation"
+f1_keywords:
+- comsvcs/IComAppEvents.OnAppActivation
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComAppEvents.OnAppActivation
+- IComAppEvents.OnAppActivation
 targetos: Windows
 req.typenames: 
 req.redist: 

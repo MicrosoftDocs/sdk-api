@@ -1,19 +1,17 @@
 ---
 UID: NN:ocidl.IConnectionPointContainer
 title: IConnectionPointContainer (ocidl.h)
-
 description: Supports connection points for connectable objects.
 old-location: com\iconnectionpointcontainer.htm
 tech.root: com
 ms.assetid: 5e2be055-7baa-4c42-bd20-b338da296ab0
-
 ms.date: 12/05/2018
 ms.keywords: IConnectionPointContainer, IConnectionPointContainer interface [COM], IConnectionPointContainer interface [COM],described, _com_iconnectionpointcontainer, com.iconnectionpointcontainer, ocidl/IConnectionPointContainer
 ms.topic: interface
-f1_keywords: 
- - "ocidl/IConnectionPointContainer"
+f1_keywords:
+- ocidl/IConnectionPointContainer
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IConnectionPointContainer
+- IConnectionPointContainer
 targetos: Windows
 req.typenames: 
 req.redist: 

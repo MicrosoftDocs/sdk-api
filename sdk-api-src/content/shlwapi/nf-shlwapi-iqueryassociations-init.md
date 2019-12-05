@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.IQueryAssociations.Init
 title: IQueryAssociations::Init (shlwapi.h)
-
 description: Initializes the IQueryAssociations interface and sets the root key to the appropriate ProgID.
 old-location: shell\IQueryAssociations_Init.htm
 tech.root: shell
 ms.assetid: cb1bcfc1-dbaa-48f8-8547-408f6560753e
-
 ms.date: 12/05/2018
 ms.keywords: CLSID, Executable name, File name extension, IQueryAssociations interface [Windows Shell],Init method, IQueryAssociations.Init, IQueryAssociations::Init, Init, Init method [Windows Shell], Init method [Windows Shell],IQueryAssociations interface, ProgID, _win32_IQueryAssociations_Init, shell.IQueryAssociations_Init, shlwapi/IQueryAssociations::Init
 ms.topic: method
-f1_keywords: 
- - "shlwapi/IQueryAssociations.Init"
+f1_keywords:
+- shlwapi/IQueryAssociations.Init
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shlwapi.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IQueryAssociations.Init
+- IQueryAssociations.Init
 targetos: Windows
 req.typenames: 
 req.redist: 

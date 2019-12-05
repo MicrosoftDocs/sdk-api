@@ -1,19 +1,17 @@
 ---
 UID: NF:dmoimpl.IMediaObjectImpl.OutputTypeSet
 title: IMediaObjectImpl::OutputTypeSet (dmoimpl.h)
-
 description: The OutputType method queries whether the media type was set on an output stream.
 old-location: dshow\imediaobjectimpl_outputtypeset.htm
 tech.root: DirectShow
 ms.assetid: 4a2a2944-79ff-4173-b938-7b8a1203ec36
-
 ms.date: 12/05/2018
 ms.keywords: IMediaObjectImpl interface [DirectShow],OutputTypeSet method, IMediaObjectImpl.OutputTypeSet, IMediaObjectImpl::OutputTypeSet, IMediaObjectImplOutputTypeSet, OutputTypeSet, OutputTypeSet method [DirectShow], OutputTypeSet method [DirectShow],IMediaObjectImpl interface, dmoimpl/IMediaObjectImpl::OutputTypeSet, dshow.imediaobjectimpl_outputtypeset
 ms.topic: method
-f1_keywords: 
- - "dmoimpl/IMediaObjectImpl.OutputTypeSet"
+f1_keywords:
+- dmoimpl/IMediaObjectImpl.OutputTypeSet
 dev_langs:
- - c++
+- c++
 req.header: dmoimpl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Dmoguids.lib; Msdmo.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
- - Msdmo.lib
- - Msdmo.dll
+- Dmoguids.lib
+- Dmoguids.dll
+- Msdmo.lib
+- Msdmo.dll
 api_name:
- - IMediaObjectImpl.OutputTypeSet
+- IMediaObjectImpl.OutputTypeSet
 targetos: Windows
 req.typenames: 
 req.redist: 

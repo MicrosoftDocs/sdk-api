@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.GetDeviceStreamCategory
 title: IMFCaptureSource::GetDeviceStreamCategory (mfcaptureengine.h)
-
 description: Gets the stream category for the specified source stream index.
 old-location: mf\imfcapturesource_getdevicestreamcategory.htm
 tech.root: medfound
 ms.assetid: f3caa002-8676-44d3-9696-da5b0db09d9e
-
 ms.date: 12/05/2018
 ms.keywords: GetDeviceStreamCategory, GetDeviceStreamCategory method [Media Foundation], GetDeviceStreamCategory method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetDeviceStreamCategory method, IMFCaptureSource.GetDeviceStreamCategory, IMFCaptureSource::GetDeviceStreamCategory, mf.imfcapturesource_getdevicestreamcategory, mfcaptureengine/IMFCaptureSource::GetDeviceStreamCategory
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureSource.GetDeviceStreamCategory"
+f1_keywords:
+- mfcaptureengine/IMFCaptureSource.GetDeviceStreamCategory
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureSource.GetDeviceStreamCategory
+- IMFCaptureSource.GetDeviceStreamCategory
 targetos: Windows
 req.typenames: 
 req.redist: 

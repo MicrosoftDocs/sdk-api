@@ -1,19 +1,17 @@
 ---
 UID: NC:winwlx.PWLX_DIALOG_BOX_PARAM
 title: PWLX_DIALOG_BOX_PARAM (winwlx.h)
-
 description: Called by GINA to initialize dialog box controls and then create a modal dialog box from a dialog box template resource.
 old-location: security\wlxdialogboxparam.htm
 tech.root: SecAuthN
 ms.assetid: 0b4543e1-066b-4d19-9b15-90d966d25154
-
 ms.date: 12/05/2018
 ms.keywords: PWLX_DIALOG_BOX_PARAM, PWLX_DIALOG_BOX_PARAM callback, WlxDialogBoxParam, WlxDialogBoxParam callback function [Security], _gina_wlxdialogboxparam, security.wlxdialogboxparam, winwlx/WlxDialogBoxParam
 ms.topic: callback
-f1_keywords: 
- - "winwlx/WlxDialogBoxParam"
+f1_keywords:
+- winwlx/WlxDialogBoxParam
 dev_langs:
- - c++
+- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - winwlx.h
+- winwlx.h
 api_name:
- - WlxDialogBoxParam
+- WlxDialogBoxParam
 targetos: Windows
 req.typenames: 
 req.redist: 

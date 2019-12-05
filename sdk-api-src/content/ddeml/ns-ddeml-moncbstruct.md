@@ -1,19 +1,17 @@
 ---
 UID: NS:ddeml.tagMONCBSTRUCT
 title: MONCBSTRUCT (ddeml.h)
-
 description: Contains information about the current Dynamic Data Exchange (DDE) transaction. A DDE debugging application can use this structure when monitoring transactions that the system passes to the DDE callback functions of other applications.
 old-location: dataxchg\moncbstruct_str.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementstructures\moncbstruct.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PMONCBSTRUCT, MONCBSTRUCT, MONCBSTRUCT structure [Data Exchange], PMONCBSTRUCT, PMONCBSTRUCT structure pointer [Data Exchange], _win32_MONCBSTRUCT_str, _win32_moncbstruct_str_cpp, dataxchg.moncbstruct_str, ddeml/MONCBSTRUCT, ddeml/PMONCBSTRUCT, winui._win32_moncbstruct_str"
+ms.keywords: '*PMONCBSTRUCT, MONCBSTRUCT, MONCBSTRUCT structure [Data Exchange], PMONCBSTRUCT, PMONCBSTRUCT structure pointer [Data Exchange], _win32_MONCBSTRUCT_str, _win32_moncbstruct_str_cpp, dataxchg.moncbstruct_str, ddeml/MONCBSTRUCT, ddeml/PMONCBSTRUCT, winui._win32_moncbstruct_str'
 ms.topic: struct
-f1_keywords: 
- - "ddeml/MONCBSTRUCT"
+f1_keywords:
+- ddeml/MONCBSTRUCT
 dev_langs:
- - c++
+- c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ddeml.h
+- Ddeml.h
 api_name:
- - MONCBSTRUCT
+- MONCBSTRUCT
 targetos: Windows
 req.typenames: MONCBSTRUCT, *PMONCBSTRUCT
 req.redist: 

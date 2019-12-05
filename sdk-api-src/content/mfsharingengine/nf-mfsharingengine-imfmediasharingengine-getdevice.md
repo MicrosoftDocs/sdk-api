@@ -1,19 +1,17 @@
 ---
 UID: NF:mfsharingengine.IMFMediaSharingEngine.GetDevice
 title: IMFMediaSharingEngine::GetDevice (mfsharingengine.h)
-
 description: Gets information about the media sharing device.
 old-location: mf\imfmediasharingengine_getdevice.htm
 tech.root: medfound
 ms.assetid: 29E536F3-E886-4DB6-8863-B4C0144FB693
-
 ms.date: 12/05/2018
 ms.keywords: GetDevice, GetDevice method [Media Foundation], GetDevice method [Media Foundation],IMFMediaSharingEngine interface, IMFMediaSharingEngine interface [Media Foundation],GetDevice method, IMFMediaSharingEngine.GetDevice, IMFMediaSharingEngine::GetDevice, mf.imfmediasharingengine_getdevice, mfsharingengine/IMFMediaSharingEngine::GetDevice
 ms.topic: method
-f1_keywords: 
- - "mfsharingengine/IMFMediaSharingEngine.GetDevice"
+f1_keywords:
+- mfsharingengine/IMFMediaSharingEngine.GetDevice
 dev_langs:
- - c++
+- c++
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfsharingengine.h
+- mfsharingengine.h
 api_name:
- - IMFMediaSharingEngine.GetDevice
+- IMFMediaSharingEngine.GetDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:mmeapi.midistrmbuffver_tag
 title: MIDISTRMBUFFVER (mmeapi.h)
-
 description: The MIDISTRMBUFFVER structure contains version information for a long MIDI event of the MEVT_VERSION type.
 old-location: multimedia\midistrmbuffver.htm
 tech.root: Multimedia
 ms.assetid: 15ab90b0-2ef2-45c8-b1a8-aa52a549c772
-
 ms.date: 12/05/2018
 ms.keywords: MIDISTRMBUFFVER, MIDISTRMBUFFVER structure [Windows Multimedia], _win32_MIDISTRMBUFFVER_str, midistrmbuffver_tag, mmeapi/MIDISTRMBUFFVER, multimedia.midistrmbuffver
 ms.topic: struct
-f1_keywords: 
- - "mmeapi/MIDISTRMBUFFVER"
+f1_keywords:
+- mmeapi/MIDISTRMBUFFVER
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mmeapi.h
+- mmeapi.h
 api_name:
- - MIDISTRMBUFFVER
+- MIDISTRMBUFFVER
 targetos: Windows
 req.typenames: MIDISTRMBUFFVER
 req.redist: 

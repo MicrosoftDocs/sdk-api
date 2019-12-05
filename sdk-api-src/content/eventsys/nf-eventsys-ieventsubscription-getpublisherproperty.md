@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventSubscription.GetPublisherProperty
 title: IEventSubscription::GetPublisherProperty (eventsys.h)
-
 description: Retrieves the value of a property stored in the property bag to define publisher context.
 old-location: cos\ieventsubscription_getpublisherproperty.htm
 tech.root: cossdk
 ms.assetid: 7d0c2467-0ab8-4daf-b4ed-befe28d33757
-
 ms.date: 12/05/2018
 ms.keywords: GetPublisherProperty, GetPublisherProperty method [COM+], GetPublisherProperty method [COM+],IEventSubscription interface, IEventSubscription interface [COM+],GetPublisherProperty method, IEventSubscription.GetPublisherProperty, IEventSubscription::GetPublisherProperty, _cos_IEventSubscription_GetPublisherProperty, cos.ieventsubscription_getpublisherproperty, eventsys/IEventSubscription::GetPublisherProperty
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventSubscription.GetPublisherProperty"
+f1_keywords:
+- eventsys/IEventSubscription.GetPublisherProperty
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IEventSubscription.GetPublisherProperty
+- IEventSubscription.GetPublisherProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

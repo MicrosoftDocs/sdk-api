@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoderInfo.GetPatterns
 title: IWICBitmapDecoderInfo::GetPatterns (wincodec.h)
-
 description: Retrieves the file pattern signatures supported by the decoder.
 old-location: wic\_wic_codec_iwicbitmapdecoderinfo_getpatterns.htm
 tech.root: wic
 ms.assetid: 6143a431-cea6-4ced-adf5-2aa4d90d622f
-
 ms.date: 12/05/2018
 ms.keywords: GetPatterns, GetPatterns method [Windows Imaging Component], GetPatterns method [Windows Imaging Component],IWICBitmapDecoderInfo interface, IWICBitmapDecoderInfo interface [Windows Imaging Component],GetPatterns method, IWICBitmapDecoderInfo.GetPatterns, IWICBitmapDecoderInfo::GetPatterns, _wic_codec_iwicbitmapdecoderinfo_getpatterns, wic._wic_codec_iwicbitmapdecoderinfo_getpatterns, wincodec/IWICBitmapDecoderInfo::GetPatterns
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapDecoderInfo.GetPatterns"
+f1_keywords:
+- wincodec/IWICBitmapDecoderInfo.GetPatterns
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapDecoderInfo.GetPatterns
+- IWICBitmapDecoderInfo.GetPatterns
 targetos: Windows
 req.typenames: 
 req.redist: 

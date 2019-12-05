@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetInputMode
 title: IDirectManipulationViewport::SetInputMode (directmanipulation.h)
-
 description: Specifies if input is visible to the UI thread.
 old-location: directmanipulation\idirectmanipulationviewport_setinputmode.htm
 tech.root: directmanipulation
 ms.assetid: 2be1c8a1-a729-4851-b103-b108b9a96e2d
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetInputMode method, IDirectManipulationViewport.SetInputMode, IDirectManipulationViewport::SetInputMode, SetInputMode, SetInputMode method [Direct Manipulation], SetInputMode method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setinputmode, directmanipulation/IDirectManipulationViewport::SetInputMode
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationViewport.SetInputMode"
+f1_keywords:
+- directmanipulation/IDirectManipulationViewport.SetInputMode
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.SetInputMode
+- IDirectManipulationViewport.SetInputMode
 targetos: Windows
 req.typenames: 
 req.redist: 

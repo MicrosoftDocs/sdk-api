@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.ContextInfo2
 title: ContextInfo2 (comsvcs.h)
-
 description: Provides additional information about an object's context, supplementing the information that is available through the ContextInfo interface.
 old-location: cos\contextinfo2.htm
 tech.root: cossdk
 ms.assetid: 06954cc5-19a7-4bae-ac30-94dcdc35d15d
-
 ms.date: 12/05/2018
 ms.keywords: ContextInfo2, ContextInfo2 interface [COM+], ContextInfo2 interface [COM+],described, _cos_ContextInfo2, comsvcs/ContextInfo2, cos.contextinfo2
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/ContextInfo2"
+f1_keywords:
+- comsvcs/ContextInfo2
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ContextInfo2
+- ContextInfo2
 targetos: Windows
 req.typenames: 
 req.redist: 

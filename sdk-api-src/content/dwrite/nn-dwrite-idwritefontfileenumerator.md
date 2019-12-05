@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite.IDWriteFontFileEnumerator
 title: IDWriteFontFileEnumerator (dwrite.h)
-
 description: Encapsulates a collection of font files. The font system uses this interface to enumerate font files when building a font collection.
 old-location: directwrite\IDWriteFontFileEnumerator.htm
 tech.root: DirectWrite
 ms.assetid: d89efffd-ccda-4d55-8419-de142b0f9652
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFileEnumerator, IDWriteFontFileEnumerator interface [Direct Write], IDWriteFontFileEnumerator interface [Direct Write],described, directwrite.IDWriteFontFileEnumerator, dwrite/IDWriteFontFileEnumerator
 ms.topic: interface
-f1_keywords: 
- - "dwrite/IDWriteFontFileEnumerator"
+f1_keywords:
+- dwrite/IDWriteFontFileEnumerator
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFileEnumerator
+- IDWriteFontFileEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

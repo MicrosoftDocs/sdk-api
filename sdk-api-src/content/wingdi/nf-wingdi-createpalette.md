@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CreatePalette
 title: CreatePalette function (wingdi.h)
-
 description: The CreatePalette function creates a logical palette.
 old-location: gdi\createpalette.htm
 tech.root: gdi
 ms.assetid: f3462198-9360-4b77-ac62-9fe21ec666be
-
 ms.date: 12/05/2018
 ms.keywords: CreatePalette, CreatePalette function [Windows GDI], _win32_CreatePalette, gdi.createpalette, wingdi/CreatePalette
 ms.topic: function
-f1_keywords: 
- - "wingdi/CreatePalette"
+f1_keywords:
+- wingdi/CreatePalette
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-DC-l1-2-0.dll
- - ext-ms-win-gdi-dc-l1-1-0.dll
- - ext-ms-win-gdi-dc-l1-2-1.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-DC-l1-2-0.dll
+- ext-ms-win-gdi-dc-l1-1-0.dll
+- ext-ms-win-gdi-dc-l1-2-1.dll
+- GDI32Full.dll
 api_name:
- - CreatePalette
+- CreatePalette
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:userenv.DestroyEnvironmentBlock
 title: DestroyEnvironmentBlock function (userenv.h)
-
 description: Frees environment variables created by the CreateEnvironmentBlock function.
 old-location: shell\DestroyEnvironmentBlock.htm
 tech.root: shell
 ms.assetid: 8d03e102-3f8a-4aa7-b175-0a6781eedea7
-
 ms.date: 12/05/2018
 ms.keywords: DestroyEnvironmentBlock, DestroyEnvironmentBlock function [Windows Shell], _shell_DestroyEnvironmentBlock, shell.DestroyEnvironmentBlock, userenv/DestroyEnvironmentBlock
 ms.topic: function
-f1_keywords: 
- - "userenv/DestroyEnvironmentBlock"
+f1_keywords:
+- userenv/DestroyEnvironmentBlock
 dev_langs:
- - c++
+- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Userenv.dll
+- Userenv.dll
 api_name:
- - DestroyEnvironmentBlock
+- DestroyEnvironmentBlock
 targetos: Windows
 req.typenames: 
 req.redist: 

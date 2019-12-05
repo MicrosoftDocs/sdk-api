@@ -1,19 +1,17 @@
 ---
 UID: NN:wsdattachment.IWSDInboundAttachment
 title: IWSDInboundAttachment (wsdattachment.h)
-
 description: Allows applications to read MIME-encoded attachment data from an incoming message.
 old-location: ncd\iwsdinboundattachment.htm
 tech.root: WsdApi
 ms.assetid: 1bacbf20-2eb2-4aa1-ba37-e14dc0d955b0
-
 ms.date: 12/05/2018
 ms.keywords: IWSDInboundAttachment, IWSDInboundAttachment interface, IWSDInboundAttachment interface,described, ncd.iwsdinboundattachment, wsdattachment/IWSDInboundAttachment
 ms.topic: interface
-f1_keywords: 
- - "wsdattachment/IWSDInboundAttachment"
+f1_keywords:
+- wsdattachment/IWSDInboundAttachment
 dev_langs:
- - c++
+- c++
 req.header: wsdattachment.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDInboundAttachment
+- IWSDInboundAttachment
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.LIBRARYSAVEFLAGS
 title: LIBRARYSAVEFLAGS (shobjidl_core.h)
-
 description: Specifies the options for handling a name collision when saving a library.
 old-location: shell\LIBRARYSAVEFLAGS.htm
 tech.root: shell
 ms.assetid: cae52226-0030-457b-aebf-00aaf860243d
-
 ms.date: 12/05/2018
 ms.keywords: LIBRARYSAVEFLAGS, LIBRARYSAVEFLAGS enumeration [Windows Shell], LSF_FAILIFTHERE, LSF_MAKEUNIQUENAME, LSF_OVERRIDEEXISTING, _shell_LIBRARYSAVEFLAGS, shell.LIBRARYSAVEFLAGS, shobjidl_core/LIBRARYSAVEFLAGS, shobjidl_core/LSF_FAILIFTHERE, shobjidl_core/LSF_MAKEUNIQUENAME, shobjidl_core/LSF_OVERRIDEEXISTING
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/LIBRARYSAVEFLAGS"
+f1_keywords:
+- shobjidl_core/LIBRARYSAVEFLAGS
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - LIBRARYSAVEFLAGS
+- LIBRARYSAVEFLAGS
 targetos: Windows
 req.typenames: LIBRARYSAVEFLAGS
 req.redist: 

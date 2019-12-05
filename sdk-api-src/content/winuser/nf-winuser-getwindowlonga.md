@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetWindowLongA
 title: GetWindowLongA function (winuser.h)
-
 description: Retrieves information about the specified window.
 old-location: winmsg\getwindowlong.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getwindowlong.htm
-
 ms.date: 12/05/2018
 ms.keywords: DWL_DLGPROC, DWL_MSGRESULT, DWL_USER, GWL_EXSTYLE, GWL_HINSTANCE, GWL_HWNDPARENT, GWL_ID, GWL_STYLE, GWL_USERDATA, GWL_WNDPROC, GetWindowLong, GetWindowLong function [Windows and Messages], GetWindowLongA, GetWindowLongW, _win32_GetWindowLong, _win32_getwindowlong_cpp, winmsg.getwindowlong, winui._win32_getwindowlong, winuser/GetWindowLong, winuser/GetWindowLongA, winuser/GetWindowLongW
 ms.topic: function
-f1_keywords: 
- - "winuser/GetWindowLong"
+f1_keywords:
+- winuser/GetWindowLong
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,24 +30,24 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
- - ie_shims.dll
- - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-Windowclass-l1-1-0.dll
- - Ext-MS-Win-NTUser-Windowclass-l1-1-1.dll
- - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
- - ext-ms-win-ntuser-windowclass-l1-1-2.dll
+- User32.dll
+- API-MS-Win-NTUser-IE-Window-l1-1-0.dll
+- ie_shims.dll
+- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-Windowclass-l1-1-0.dll
+- Ext-MS-Win-NTUser-Windowclass-l1-1-1.dll
+- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+- ext-ms-win-ntuser-windowclass-l1-1-2.dll
 api_name:
- - GetWindowLong
- - GetWindowLongA
- - GetWindowLongW
+- GetWindowLong
+- GetWindowLongA
+- GetWindowLongW
 targetos: Windows
 req.typenames: 
 req.redist: 

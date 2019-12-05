@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSPropertyBag_WriteBSTR
 title: PSPropertyBag_WriteBSTR function (propsys.h)
-
 description: Sets the BSTR value of a property in a property bag.
 old-location: properties\PSPropertyBag_WriteBSTR.htm
 tech.root: properties
 ms.assetid: 9C2DBD1F-6760-4812-A33E-9A71C5A421A9
-
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_WriteBSTR, PSPropertyBag_WriteBSTR function [Windows Properties], properties.PSPropertyBag_WriteBSTR, propsys/PSPropertyBag_WriteBSTR, shell.PSPropertyBag_WriteBSTR, shell_PSPropertyBag_WriteBSTR
 ms.topic: function
-f1_keywords: 
- - "propsys/PSPropertyBag_WriteBSTR"
+f1_keywords:
+- propsys/PSPropertyBag_WriteBSTR
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSPropertyBag_WriteBSTR
+- PSPropertyBag_WriteBSTR
 targetos: Windows
 req.typenames: 
 req.redist: 

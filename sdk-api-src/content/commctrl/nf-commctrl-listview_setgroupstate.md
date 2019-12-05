@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_SetGroupState
 title: ListView_SetGroupState macro (commctrl.h)
-
 description: Sets the state for a specified group.
 old-location: controls\ListView_SetGroupState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setgroupstate.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_SetGroupState, ListView_SetGroupState macro [Windows Controls], _shell_ListView_SetGroupState, _shell_ListView_SetGroupState_cpp, commctrl/ListView_SetGroupState, controls.ListView_SetGroupState, controls._shell_ListView_SetGroupState
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_SetGroupState"
+f1_keywords:
+- commctrl/ListView_SetGroupState
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_SetGroupState
+- ListView_SetGroupState
 targetos: Windows
 req.typenames: 
 req.redist: 

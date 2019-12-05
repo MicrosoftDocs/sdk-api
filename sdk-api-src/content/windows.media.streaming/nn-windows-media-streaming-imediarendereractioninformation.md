@@ -1,19 +1,17 @@
 ---
 UID: NN:windows.media.streaming.IMediaRendererActionInformation
 title: IMediaRendererActionInformation (windows.media.streaming.h)
-
 description: Encapsulates the methods needed to provide information about what methods can currently be invoked on the DMR.
 old-location: mediastreaming\imediarendereractioninformation.htm
 tech.root: mediastreaming
 ms.assetid: 854C7024-D582-405D-8A5F-C152DE8BE0BE
-
 ms.date: 12/05/2018
 ms.keywords: IMediaRendererActionInformation, IMediaRendererActionInformation interface [Media Streaming API], IMediaRendererActionInformation interface [Media Streaming API],described, mediastreaming.imediarendereractioninformation, windows/IMediaRendererActionInformation
 ms.topic: interface
-f1_keywords: 
- - "windows.media.streaming/IMediaRendererActionInformation"
+f1_keywords:
+- windows.media.streaming/IMediaRendererActionInformation
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.media.streaming.h
+- windows.media.streaming.h
 api_name:
- - IMediaRendererActionInformation
+- IMediaRendererActionInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

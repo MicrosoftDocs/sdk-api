@@ -1,19 +1,17 @@
 ---
 UID: NF:filehc.ReleaseNameCache
 title: ReleaseNameCache function (filehc.h)
-
 description: Releases a name cache.
 old-location: winprog\_releasenamecache.htm
 tech.root: DevNotes
 ms.assetid: 3abab799-4f55-40e4-9b2c-f40e92dc9af5
-
 ms.date: 12/05/2018
 ms.keywords: ReleaseNameCache, ReleaseNameCache function [Windows API], filehc/ReleaseNameCache, winprog._releasenamecache
 ms.topic: function
-f1_keywords: 
- - "filehc/ReleaseNameCache"
+f1_keywords:
+- filehc/ReleaseNameCache
 dev_langs:
- - c++
+- c++
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fcachdll.lib
 req.dll: Fcachdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fcachdll.dll
+- Fcachdll.dll
 api_name:
- - ReleaseNameCache
+- ReleaseNameCache
 targetos: Windows
 req.typenames: 
 req.redist: 

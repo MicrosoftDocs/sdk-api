@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12CommandQueue.EndEvent
 title: ID3D12CommandQueue::EndEvent (d3d12.h)
-
 description: Not intended to be called directly.  Use the PIX event runtime to insert events into a command queue.
 old-location: direct3d12\id3d12commandqueue_endevent.htm
 tech.root: direct3d12
 ms.assetid: CA45061A-3DD6-4FFB-9723-ED33343052F3
-
 ms.date: 12/05/2018
 ms.keywords: EndEvent, EndEvent method, EndEvent method,ID3D12CommandQueue interface, ID3D12CommandQueue interface,EndEvent method, ID3D12CommandQueue.EndEvent, ID3D12CommandQueue::EndEvent, d3d12/ID3D12CommandQueue::EndEvent, direct3d12.id3d12commandqueue_endevent
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12CommandQueue.EndEvent"
+f1_keywords:
+- d3d12/ID3D12CommandQueue.EndEvent
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - ID3D12CommandQueue.EndEvent
+- ID3D12CommandQueue.EndEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

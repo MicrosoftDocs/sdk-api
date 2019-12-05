@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IX509ExtensionSmimeCapabilities
 title: IX509ExtensionSmimeCapabilities (certenroll.h)
-
 description: Can be used to report the decryption capabilities of an email recipient to an email sender so that the sender can choose the most secure algorithm supported by both parties.
 old-location: security\ix509extensionsmimecapabilities.htm
 tech.root: seccertenroll
 ms.assetid: 06dca62d-282b-4bdd-bc8d-4d2e6eb226b5
-
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionSmimeCapabilities, IX509ExtensionSmimeCapabilities interface [Security], IX509ExtensionSmimeCapabilities interface [Security],described, certenroll/IX509ExtensionSmimeCapabilities, security.ix509extensionsmimecapabilities
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IX509ExtensionSmimeCapabilities"
+f1_keywords:
+- certenroll/IX509ExtensionSmimeCapabilities
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509ExtensionSmimeCapabilities
+- IX509ExtensionSmimeCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 

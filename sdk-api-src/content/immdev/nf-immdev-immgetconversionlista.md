@@ -1,19 +1,17 @@
 ---
 UID: NF:immdev.ImmGetConversionListA
 title: ImmGetConversionListA function (immdev.h)
-
 description: Retrieves the conversion result list of characters or words without generating any IME-related messages.
 old-location: intl\immgetconversionlist.htm
 tech.root: Intl
 ms.assetid: c38547fa-b9d8-41a0-8d73-21056212b775
-
 ms.date: 12/05/2018
 ms.keywords: GCL_CONVERSION, GCL_REVERSECONVERSION, GCL_REVERSE_LENGTH, ImmGetConversionList, ImmGetConversionList function [Internationalization for Windows Applications], ImmGetConversionListA, ImmGetConversionListW, _win32_ImmGetConversionList, imm/ImmGetConversionList, imm/ImmGetConversionListA, imm/ImmGetConversionListW, intl.immgetconversionlist
 ms.topic: function
-f1_keywords: 
- - "immdev/ImmGetConversionList"
+f1_keywords:
+- immdev/ImmGetConversionList
 dev_langs:
- - c++
+- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imm32.dll
+- Imm32.dll
 api_name:
- - ImmGetConversionList
- - ImmGetConversionListA
- - ImmGetConversionListW
+- ImmGetConversionList
+- ImmGetConversionListA
+- ImmGetConversionListW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IEnumSTATDATA
 title: IEnumSTATDATA (objidl.h)
-
 description: Enumerates the advisory connection information for a data object.
 old-location: com\ienumstatdata.htm
 tech.root: com
 ms.assetid: 8e2f6655-4a09-4868-a909-18999104b3ff
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSTATDATA, IEnumSTATDATA interface [COM], IEnumSTATDATA interface [COM],described, _ole_ienumstatdata, com.ienumstatdata, objidl/IEnumSTATDATA
 ms.topic: interface
-f1_keywords: 
- - "objidl/IEnumSTATDATA"
+f1_keywords:
+- objidl/IEnumSTATDATA
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IEnumSTATDATA
+- IEnumSTATDATA
 targetos: Windows
 req.typenames: 
 req.redist: 

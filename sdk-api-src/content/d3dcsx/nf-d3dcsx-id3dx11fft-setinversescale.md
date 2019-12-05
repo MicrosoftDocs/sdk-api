@@ -1,19 +1,17 @@
 ---
 UID: NF:d3dcsx.ID3DX11FFT.SetInverseScale
 title: ID3DX11FFT::SetInverseScale (d3dcsx.h)
-
 description: Sets the scale used for inverse transforms.
 old-location: direct3d11\id3dx11fft_setinversescale.htm
 tech.root: direct3d11
 ms.assetid: db29b6f8-ee36-48b6-8e28-f4bbaa6b0a7f
-
 ms.date: 12/05/2018
 ms.keywords: ID3DX11FFT interface [Direct3D 11],SetInverseScale method, ID3DX11FFT.SetInverseScale, ID3DX11FFT::SetInverseScale, SetInverseScale, SetInverseScale method [Direct3D 11], SetInverseScale method [Direct3D 11],ID3DX11FFT interface, d3dcsx/ID3DX11FFT::SetInverseScale, direct3d11.id3dx11fft_setinversescale, e2fd7d2b-bce2-191f-6387-e478c2a535fb
 ms.topic: method
-f1_keywords: 
- - "d3dcsx/ID3DX11FFT.SetInverseScale"
+f1_keywords:
+- d3dcsx/ID3DX11FFT.SetInverseScale
 dev_langs:
- - c++
+- c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3dcsx.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3dcsx.lib
- - d3dcsx.dll
+- d3dcsx.lib
+- d3dcsx.dll
 api_name:
- - ID3DX11FFT.SetInverseScale
+- ID3DX11FFT.SetInverseScale
 targetos: Windows
 req.typenames: 
 req.redist: 

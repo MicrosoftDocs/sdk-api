@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarI2FromI4
 title: VarI2FromI4 function (oleauto.h)
-
 description: Converts a long value to a short value.
 old-location: automat\vari2fromi4.htm
 tech.root: automat
 ms.assetid: f3b8ff7f-9531-4403-9532-7c165eb0dd09
-
 ms.date: 12/05/2018
 ms.keywords: VarI2FromI4, VarI2FromI4 function [Automation], _oa96_VarI2FromI4, automat.vari2fromi4, oleauto/VarI2FromI4
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarI2FromI4"
+f1_keywords:
+- oleauto/VarI2FromI4
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarI2FromI4
+- VarI2FromI4
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.SspiEncryptAuthIdentity
 title: SspiEncryptAuthIdentity function (sspi.h)
-
 description: Encrypts the specified identity structure.
 old-location: security\sspiencryptauthidentity.htm
 tech.root: SecAuthN
 ms.assetid: 4460f7ec-35fd-4ad1-8c20-dda9f4d3477a
-
 ms.date: 12/05/2018
 ms.keywords: SspiEncryptAuthIdentity, SspiEncryptAuthIdentity function [Security], security.sspiencryptauthidentity, sspi/SspiEncryptAuthIdentity
 ms.topic: function
-f1_keywords: 
- - "sspi/SspiEncryptAuthIdentity"
+f1_keywords:
+- sspi/SspiEncryptAuthIdentity
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - SspiCli.dll
+- SspiCli.dll
 api_name:
- - SspiEncryptAuthIdentity
+- SspiEncryptAuthIdentity
 targetos: Windows
 req.typenames: 
 req.redist: 

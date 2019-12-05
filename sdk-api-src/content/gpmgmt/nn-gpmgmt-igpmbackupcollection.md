@@ -1,19 +1,17 @@
 ---
 UID: NN:gpmgmt.IGPMBackupCollection
 title: IGPMBackupCollection (gpmgmt.h)
-
 description: The IGPMBackupCollection interface contains methods that enable applications to access a collection of GPMBackup objects when using the Group Policy Management Console (GPMC) interfaces.
 old-location: gpmc\igpmbackupcollection.htm
 tech.root: gpmc
 ms.assetid: cd9e6b58-6fbc-449a-9941-b33761797199
-
 ms.date: 12/05/2018
 ms.keywords: GPMBackupCollection, IGPMBackupCollection, IGPMBackupCollection interface [GPMC], IGPMBackupCollection interface [GPMC],described, _win32_igpmbackupcollection, gpmc.igpmbackupcollection, gpmgmt/IGPMBackupCollection
 ms.topic: interface
-f1_keywords: 
- - "gpmgmt/IGPMBackupCollection"
+f1_keywords:
+- gpmgmt/IGPMBackupCollection
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMBackupCollection
- - IGPMBackupCollection.Count
- - IGPMBackupCollection.get_Count
- - IGPMBackupCollection.Item
- - IGPMBackupCollection.get_Item
- - GPMBackupCollection
+- IGPMBackupCollection
+- IGPMBackupCollection.Count
+- IGPMBackupCollection.get_Count
+- IGPMBackupCollection.Item
+- IGPMBackupCollection.get_Item
+- GPMBackupCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

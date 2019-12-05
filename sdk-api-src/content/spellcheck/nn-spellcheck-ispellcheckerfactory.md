@@ -1,19 +1,17 @@
 ---
 UID: NN:spellcheck.ISpellCheckerFactory
 title: ISpellCheckerFactory (spellcheck.h)
-
 description: A factory for instantiating a spell checker (ISpellChecker) as well as providing functionality for determining which languages are supported.
 old-location: intl\ispellcheckerfactory.htm
 tech.root: Intl
 ms.assetid: 7febbb7e-c557-4698-bf58-6e6e7f61b071
-
 ms.date: 12/05/2018
 ms.keywords: ISpellCheckerFactory, ISpellCheckerFactory interface [Internationalization for Windows Applications], ISpellCheckerFactory interface [Internationalization for Windows Applications],described, intl.ispellcheckerfactory, spellcheck/ISpellCheckerFactory
 ms.topic: interface
-f1_keywords: 
- - "spellcheck/ISpellCheckerFactory"
+f1_keywords:
+- spellcheck/ISpellCheckerFactory
 dev_langs:
- - c++
+- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Spellcheck.h
+- Spellcheck.h
 api_name:
- - ISpellCheckerFactory
+- ISpellCheckerFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

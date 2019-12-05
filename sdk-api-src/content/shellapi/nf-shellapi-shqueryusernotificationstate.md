@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.SHQueryUserNotificationState
 title: SHQueryUserNotificationState function (shellapi.h)
-
 description: Checks the state of the computer for the current user to determine whether sending a notification is appropriate.
 old-location: shell\SHQueryUserNotificationState.htm
 tech.root: shell
 ms.assetid: da6b3915-f4fe-4bab-9bae-9bff0b97b5a0
-
 ms.date: 12/05/2018
 ms.keywords: SHQueryUserNotificationState, SHQueryUserNotificationState function [Windows Shell], _shell_SHQueryUserNotificationState, shell.SHQueryUserNotificationState, shellapi/SHQueryUserNotificationState
 ms.topic: function
-f1_keywords: 
- - "shellapi/SHQueryUserNotificationState"
+f1_keywords:
+- shellapi/SHQueryUserNotificationState
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - Ext-MS-Win-shell-shell32-l1-2-0.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Shell32.dll
+- Ext-MS-Win-shell-shell32-l1-2-0.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - SHQueryUserNotificationState
+- SHQueryUserNotificationState
 targetos: Windows
 req.typenames: 
 req.redist: 

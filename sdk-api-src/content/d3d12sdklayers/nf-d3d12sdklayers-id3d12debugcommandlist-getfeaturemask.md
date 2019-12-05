@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12DebugCommandList.GetFeatureMask
 title: ID3D12DebugCommandList::GetFeatureMask (d3d12sdklayers.h)
-
 description: Returns the debug feature flags that have been set on a command list.
 old-location: direct3d12\id3d12debugcommandlist_getfeaturemask.htm
 tech.root: direct3d12
 ms.assetid: 98FE1D2C-648B-4689-BE52-A53C969D9281
-
 ms.date: 12/05/2018
 ms.keywords: GetFeatureMask, GetFeatureMask method, GetFeatureMask method,ID3D12DebugCommandList interface, ID3D12DebugCommandList interface,GetFeatureMask method, ID3D12DebugCommandList.GetFeatureMask, ID3D12DebugCommandList::GetFeatureMask, d3d12sdklayers/ID3D12DebugCommandList::GetFeatureMask, direct3d12.id3d12debugcommandlist_getfeaturemask
 ms.topic: method
-f1_keywords: 
- - "d3d12sdklayers/ID3D12DebugCommandList.GetFeatureMask"
+f1_keywords:
+- d3d12sdklayers/ID3D12DebugCommandList.GetFeatureMask
 dev_langs:
- - c++
+- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12sdklayers.h
+- d3d12sdklayers.h
 api_name:
- - ID3D12DebugCommandList.GetFeatureMask
+- ID3D12DebugCommandList.GetFeatureMask
 targetos: Windows
 req.typenames: 
 req.redist: 

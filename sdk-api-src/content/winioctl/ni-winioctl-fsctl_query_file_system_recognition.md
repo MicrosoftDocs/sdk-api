@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.FSCTL_QUERY_FILE_SYSTEM_RECOGNITION
 title: FSCTL_QUERY_FILE_SYSTEM_RECOGNITION
-
 description: Queries for file system recognition information on a volume.
 old-location: fs\fsctl_query_file_system_recognition.htm
 tech.root: FileIO
 ms.assetid: 0b2ff131-a659-4bd0-b329-41fb60edbe13
-
 ms.date: 12/05/2018
 ms.keywords: FSCTL_QUERY_FILE_SYSTEM_RECOGNITION, FSCTL_QUERY_FILE_SYSTEM_RECOGNITION control, FSCTL_QUERY_FILE_SYSTEM_RECOGNITION control code [Files], fs.fsctl_query_file_system_recognition, winioctl/FSCTL_QUERY_FILE_SYSTEM_RECOGNITION
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_QUERY_FILE_SYSTEM_RECOGNITION"
+f1_keywords:
+- winioctl/FSCTL_QUERY_FILE_SYSTEM_RECOGNITION
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_QUERY_FILE_SYSTEM_RECOGNITION
+- FSCTL_QUERY_FILE_SYSTEM_RECOGNITION
 targetos: Windows
 req.typenames: 
 req.redist: 

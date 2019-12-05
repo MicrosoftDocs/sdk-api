@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITDigitGenerationEvent.get_TickCount
 title: ITDigitGenerationEvent::get_TickCount (tapi3if.h)
-
 description: The get_TickCount method gets the &#0034;tick count&#0034; (number of milliseconds since Windows started) at which the digit generation completed.
 old-location: tapi3\itdigitgenerationevent_get_tickcount.htm
 tech.root: Tapi
 ms.assetid: daae0ae5-0eaf-4ca7-b08a-1c46b9ebfcab
-
 ms.date: 12/05/2018
 ms.keywords: ITDigitGenerationEvent interface [TAPI 2.2],get_TickCount method, ITDigitGenerationEvent.get_TickCount, ITDigitGenerationEvent::get_TickCount, _tapi3_itdigitgenerationevent_get_tickcount, get_TickCount, get_TickCount method [TAPI 2.2], get_TickCount method [TAPI 2.2],ITDigitGenerationEvent interface, tapi3.itdigitgenerationevent_get_tickcount, tapi3if/ITDigitGenerationEvent::get_TickCount
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITDigitGenerationEvent.get_TickCount"
+f1_keywords:
+- tapi3if/ITDigitGenerationEvent.get_TickCount
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITDigitGenerationEvent.get_TickCount
+- ITDigitGenerationEvent.get_TickCount
 targetos: Windows
 req.typenames: 
 req.redist: 

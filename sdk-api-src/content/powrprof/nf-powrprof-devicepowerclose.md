@@ -1,19 +1,17 @@
 ---
 UID: NF:powrprof.DevicePowerClose
 title: DevicePowerClose function (powrprof.h)
-
 description: Frees all nodes in the device list and destroys the device list.
 old-location: base\devicepowerclose.htm
 tech.root: power
 ms.assetid: 60f871bc-08b7-41d1-ba37-688ab68fb9b3
-
 ms.date: 12/05/2018
 ms.keywords: DevicePowerClose, DevicePowerClose function, base.devicepowerclose, powrprof/DevicePowerClose
 ms.topic: function
-f1_keywords: 
- - "powrprof/DevicePowerClose"
+f1_keywords:
+- powrprof/DevicePowerClose
 dev_langs:
- - c++
+- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - DevicePowerClose
+- DevicePowerClose
 targetos: Windows
 req.typenames: 
 req.redist: 

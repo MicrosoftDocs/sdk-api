@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.QueryInsertEmbedded
 title: ITextStoreAnchor::QueryInsertEmbedded (textstor.h)
-
 description: ITextStoreAnchor::QueryInsertEmbedded method
 old-location: tsf\itextstoreanchor_queryinsertembedded.htm
 tech.root: TSF
 ms.assetid: 722506fa-db83-49d3-9434-a4ad7b797ce2
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],QueryInsertEmbedded method, ITextStoreAnchor.QueryInsertEmbedded, ITextStoreAnchor::QueryInsertEmbedded, QueryInsertEmbedded, QueryInsertEmbedded method [Text Services Framework], QueryInsertEmbedded method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::QueryInsertEmbedded, tsf.itextstoreanchor_queryinsertembedded
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreAnchor.QueryInsertEmbedded"
+f1_keywords:
+- textstor/ITextStoreAnchor.QueryInsertEmbedded
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreAnchor.QueryInsertEmbedded
+- ITextStoreAnchor.QueryInsertEmbedded
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

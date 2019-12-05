@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.Terminate
 title: IScheduledWorkItem::Terminate (mstask.h)
-
 description: This method ends the execution of the work item.
 old-location: taskschd\ischeduledworkitem_terminate.htm
 tech.root: taskschd
 ms.assetid: 8ea2144b-4f51-41db-8eaf-50da83967ea5
-
 ms.date: 12/05/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],Terminate method, IScheduledWorkItem.Terminate, IScheduledWorkItem::Terminate, Terminate, Terminate method [Task Scheduler], Terminate method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_terminate, mstask/IScheduledWorkItem::Terminate, taskschd.ischeduledworkitem_terminate
 ms.topic: method
-f1_keywords: 
- - "mstask/IScheduledWorkItem.Terminate"
+f1_keywords:
+- mstask/IScheduledWorkItem.Terminate
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - IScheduledWorkItem.Terminate
+- IScheduledWorkItem.Terminate
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

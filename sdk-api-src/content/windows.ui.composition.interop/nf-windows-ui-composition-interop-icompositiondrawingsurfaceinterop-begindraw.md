@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.ui.composition.interop.ICompositionDrawingSurfaceInterop.BeginDraw
 title: ICompositionDrawingSurfaceInterop::composition (windows.ui.composition.interop.h)
-
 description: Initiates drawing on the surface.
 old-location: w_ui_comp\icompositiondrawingsurfaceinterop_begindraw.htm
 tech.root: w_ui_comp
 ms.assetid: 01273B2A-0305-4F1E-8461-7956EDD651A7
-
 ms.date: 12/05/2018
 ms.keywords: BeginDraw, BeginDraw method, BeginDraw method,ICompositionDrawingSurfaceInterop interface, ICompositionDrawingSurfaceInterop interface,BeginDraw method, ICompositionDrawingSurfaceInterop.BeginDraw, ICompositionDrawingSurfaceInterop.composition, ICompositionDrawingSurfaceInterop::BeginDraw, ICompositionDrawingSurfaceInterop::composition, w_ui_comp.icompositiondrawingsurfaceinterop_begindraw, windows/ICompositionDrawingSurfaceInterop::BeginDraw
 ms.topic: method
-f1_keywords: 
- - "windows.ui.composition.interop/ICompositionDrawingSurfaceInterop.BeginDraw"
+f1_keywords:
+- windows.ui.composition.interop/ICompositionDrawingSurfaceInterop.BeginDraw
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.composition.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.ui.composition.interop.h
+- windows.ui.composition.interop.h
 api_name:
- - ICompositionDrawingSurfaceInterop.BeginDraw
+- ICompositionDrawingSurfaceInterop.BeginDraw
 targetos: Windows
 req.typenames: 
 req.redist: 

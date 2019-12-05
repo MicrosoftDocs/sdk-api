@@ -1,19 +1,17 @@
 ---
 UID: NE:winevt._EVT_QUERY_FLAGS
 title: EVT_QUERY_FLAGS (winevt.h)
-
 description: Defines the values that specify how to return the query results and whether you are query against a channel or log file.
 old-location: wes\evt_query_flags.htm
 tech.root: wes
 ms.assetid: e4499356-f749-4cf9-9f5d-f6a701611f42
-
 ms.date: 12/05/2018
 ms.keywords: EVT_QUERY_FLAGS, EVT_QUERY_FLAGS enumeration [EventLog], EvtQueryChannelPath, EvtQueryFilePath, EvtQueryForwardDirection, EvtQueryReverseDirection, EvtQueryTolerateQueryErrors, wes.evt_query_flags, winevt/EVT_QUERY_FLAGS, winevt/EvtQueryChannelPath, winevt/EvtQueryFilePath, winevt/EvtQueryForwardDirection, winevt/EvtQueryReverseDirection, winevt/EvtQueryTolerateQueryErrors
 ms.topic: enum
-f1_keywords: 
- - "winevt/EVT_QUERY_FLAGS"
+f1_keywords:
+- winevt/EVT_QUERY_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinEvt.h
+- WinEvt.h
 api_name:
- - EVT_QUERY_FLAGS
+- EVT_QUERY_FLAGS
 targetos: Windows
 req.typenames: EVT_QUERY_FLAGS
 req.redist: 

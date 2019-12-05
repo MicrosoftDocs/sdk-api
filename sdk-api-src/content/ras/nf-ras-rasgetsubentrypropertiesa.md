@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasGetSubEntryPropertiesA
 title: RasGetSubEntryPropertiesA function (ras.h)
-
 description: The RasGetSubEntryProperties function retrieves information about a subentry for a specified phone-book entry.
 old-location: rras\rasgetsubentryproperties.htm
 tech.root: RRAS
 ms.assetid: 6efe7824-54a1-491c-a568-21e23e98ed46
-
 ms.date: 12/05/2018
 ms.keywords: RasGetSubEntryProperties, RasGetSubEntryProperties function [RAS], RasGetSubEntryPropertiesA, RasGetSubEntryPropertiesW, _ras_rasgetsubentryproperties, ras/RasGetSubEntryProperties, ras/RasGetSubEntryPropertiesA, ras/RasGetSubEntryPropertiesW, rras.rasgetsubentryproperties
 ms.topic: function
-f1_keywords: 
- - "ras/RasGetSubEntryProperties"
+f1_keywords:
+- ras/RasGetSubEntryProperties
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
+- Rasapi32.dll
 api_name:
- - RasGetSubEntryProperties
- - RasGetSubEntryPropertiesA
- - RasGetSubEntryPropertiesW
+- RasGetSubEntryProperties
+- RasGetSubEntryPropertiesA
+- RasGetSubEntryPropertiesW
 targetos: Windows
 req.typenames: 
 req.redist: 

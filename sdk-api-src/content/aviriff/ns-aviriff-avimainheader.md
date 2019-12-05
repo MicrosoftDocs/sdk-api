@@ -1,19 +1,17 @@
 ---
 UID: NS:aviriff._avimainheader
 title: AVIMAINHEADER (aviriff.h)
-
 description: The AVIMAINHEADER structure defines global information in an AVI file.
 old-location: dshow\avimainheader.htm
 tech.root: DirectShow
 ms.assetid: 3b8a326c-ebb2-4fb7-a167-7382d2e78ec2
-
 ms.date: 12/05/2018
 ms.keywords: AVIF_COPYRIGHTED, AVIF_HASINDEX, AVIF_ISINTERLEAVED, AVIF_MUSTUSEINDEX, AVIF_WASCAPTUREFILE, AVIMAINHEADER, AVIMAINHEADER structure [DirectShow], AVIMAINHEADERStructure, aviriff/AVIMAINHEADER, dshow.avimainheader
 ms.topic: struct
-f1_keywords: 
- - "aviriff/AVIMAINHEADER"
+f1_keywords:
+- aviriff/AVIMAINHEADER
 dev_langs:
- - c++
+- c++
 req.header: aviriff.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Aviriff.h
+- Aviriff.h
 api_name:
- - AVIMAINHEADER
+- AVIMAINHEADER
 targetos: Windows
 req.typenames: AVIMAINHEADER
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_BacklightCompensation
 title: IVideoProcAmp::getRange_BacklightCompensation (vidcap.h)
-
 description: The getRange_BacklightCompensation method returns the range of backlight compensation settings supported by the camera.
 old-location: dshow\ivideoprocamp_getrange_backlightcompensation.htm
 tech.root: DirectShow
 ms.assetid: 4527e7e9-372c-4883-a068-1ce53eb2256a
-
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_BacklightCompensation method, IVideoProcAmp.getRange_BacklightCompensation, IVideoProcAmp::getRange_BacklightCompensation, IVideoProcAmpgetRange_BacklightCompensation, dshow.ivideoprocamp_getrange_backlightcompensation, getRange_BacklightCompensation, getRange_BacklightCompensation method [DirectShow], getRange_BacklightCompensation method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_BacklightCompensation
 ms.topic: method
-f1_keywords: 
- - "vidcap/IVideoProcAmp.getRange_BacklightCompensation"
+f1_keywords:
+- vidcap/IVideoProcAmp.getRange_BacklightCompensation
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vidcap.h
+- Vidcap.h
 api_name:
- - IVideoProcAmp.getRange_BacklightCompensation
+- IVideoProcAmp.getRange_BacklightCompensation
 targetos: Windows
 req.typenames: 
 req.redist: 

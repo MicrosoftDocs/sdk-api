@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_Task
 title: IDataCollectorSet::put_Task (pla.h)
-
 description: Retrieves or sets the name of a Task Scheduler job to start each time the data collector set stops, including between segments.
 old-location: pla\idatacollectorset_get_task.htm
 tech.root: PLA
 ms.assetid: 8a89ebb9-2396-43f9-81ee-bfc2cdff18fa
-
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],Task property, IDataCollectorSet.Task, IDataCollectorSet.put_Task, IDataCollectorSet::Task, IDataCollectorSet::get_Task, IDataCollectorSet::put_Task, Task property [PLA], Task property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_task, pla.idatacollectorset_get_task, pla/IDataCollectorSet::Task, pla/IDataCollectorSet::get_Task, pla/IDataCollectorSet::put_Task, put_Task
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollectorSet.Task"
+f1_keywords:
+- pla/IDataCollectorSet.Task
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollectorSet.Task
- - IDataCollectorSet.get_Task
- - IDataCollectorSet.put_Task
+- IDataCollectorSet.Task
+- IDataCollectorSet.get_Task
+- IDataCollectorSet.put_Task
 targetos: Windows
 req.typenames: 
 req.redist: 

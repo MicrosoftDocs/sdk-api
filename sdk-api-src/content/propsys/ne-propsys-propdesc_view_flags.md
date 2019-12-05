@@ -1,19 +1,17 @@
 ---
 UID: NE:propsys.PROPDESC_VIEW_FLAGS
 title: PROPDESC_VIEW_FLAGS (propsys.h)
-
 description: These flags describe properties in property description list strings.
 old-location: properties\PROPDESC_VIEW_FLAGS.htm
 tech.root: properties
 ms.assetid: 8b38d085-180b-47c1-b703-8c4feaaa9ccb
-
 ms.date: 12/05/2018
 ms.keywords: PDVF_BEGINNEWGROUP, PDVF_CANWRAP, PDVF_CENTERALIGN, PDVF_DEFAULT, PDVF_FILLAREA, PDVF_HIDDEN, PDVF_HIDELABEL, PDVF_MASK_ALL, PDVF_RIGHTALIGN, PDVF_SHOWBYDEFAULT, PDVF_SHOWINPRIMARYLIST, PDVF_SHOWINSECONDARYLIST, PDVF_SHOWONLYIFPRESENT, PDVF_SORTDESCENDING, PROPDESC_VIEW_FLAGS, PROPDESC_VIEW_FLAGS enumeration [Windows Properties], properties.PROPDESC_VIEW_FLAGS, propsys/PDVF_BEGINNEWGROUP, propsys/PDVF_CANWRAP, propsys/PDVF_CENTERALIGN, propsys/PDVF_DEFAULT, propsys/PDVF_FILLAREA, propsys/PDVF_HIDDEN, propsys/PDVF_HIDELABEL, propsys/PDVF_MASK_ALL, propsys/PDVF_RIGHTALIGN, propsys/PDVF_SHOWBYDEFAULT, propsys/PDVF_SHOWINPRIMARYLIST, propsys/PDVF_SHOWINSECONDARYLIST, propsys/PDVF_SHOWONLYIFPRESENT, propsys/PDVF_SORTDESCENDING, propsys/PROPDESC_VIEW_FLAGS, shell.PROPDESC_VIEW_FLAGS, shell_PROPDESC_VIEW_FLAGS
 ms.topic: enum
-f1_keywords: 
- - "propsys/PROPDESC_VIEW_FLAGS"
+f1_keywords:
+- propsys/PROPDESC_VIEW_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - PROPDESC_VIEW_FLAGS
+- PROPDESC_VIEW_FLAGS
 targetos: Windows
 req.typenames: PROPDESC_VIEW_FLAGS
 req.redist: 

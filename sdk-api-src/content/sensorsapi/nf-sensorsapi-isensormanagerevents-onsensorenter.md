@@ -1,19 +1,17 @@
 ---
 UID: NF:sensorsapi.ISensorManagerEvents.OnSensorEnter
 title: ISensorManagerEvents::OnSensorEnter (sensorsapi.h)
-
 description: Provides notification when a sensor device is connected.
 old-location: winsensors_com_ref\isensormanagerevents_onsensorenter.htm
 tech.root: SensorsAPI
 ms.assetid: 1316e3b0-9677-4575-a3b8-53fa57295987
-
 ms.date: 12/05/2018
 ms.keywords: ISensorManagerEvents interface,OnSensorEnter method, ISensorManagerEvents.OnSensorEnter, ISensorManagerEvents::OnSensorEnter, OnSensorEnter, OnSensorEnter method, OnSensorEnter method,ISensorManagerEvents interface, sensorsapi/ISensorManagerEvents::OnSensorEnter, winsensors_com_ref.isensormanagerevents_onsensorenter, winsensors_com_ref.isensormanagerevents_sensorenter
 ms.topic: method
-f1_keywords: 
- - "sensorsapi/ISensorManagerEvents.OnSensorEnter"
+f1_keywords:
+- sensorsapi/ISensorManagerEvents.OnSensorEnter
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sensorsapi.dll
+- sensorsapi.dll
 api_name:
- - ISensorManagerEvents.OnSensorEnter
+- ISensorManagerEvents.OnSensorEnter
 targetos: Windows
 req.typenames: 
 req.redist: 

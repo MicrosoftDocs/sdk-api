@@ -1,19 +1,17 @@
 ---
 UID: NC:perflib.PERF_MEM_FREE
 title: PERF_MEM_FREE (perflib.h)
-
 description: Providers implement this function to provide custom memory management for PERFLIB.
 old-location: perf\freememory.htm
 tech.root: perfctrs
 ms.assetid: 3b2f9f68-131a-4e17-8b43-6c3a20871dad
-
 ms.date: 12/05/2018
 ms.keywords: FreeMemory, FreeMemory callback function [Perf], PERF_MEM_FREE, PERF_MEM_FREE callback, perf.freememory, perflib/FreeMemory
 ms.topic: callback
-f1_keywords: 
- - "perflib/FreeMemory"
+f1_keywords:
+- perflib/FreeMemory
 dev_langs:
- - c++
+- c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Perflib.h
+- Perflib.h
 api_name:
- - FreeMemory
+- FreeMemory
 targetos: Windows
 req.typenames: 
 req.redist: 

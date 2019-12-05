@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IChangeUnitException.GetChangeUnitId
 title: IChangeUnitException::GetChangeUnitId (winsync.h)
-
 description: Gets the change unit ID for the change unit that is associated with the exception.
 old-location: winsync\ichangeunitexception_getchangeunitid.htm
 tech.root: winsync
 ms.assetid: 25a6eed2-6851-4a24-afd2-91982dc2bb8e
-
 ms.date: 12/05/2018
 ms.keywords: GetChangeUnitId, GetChangeUnitId method [Windows Sync], GetChangeUnitId method [Windows Sync],IChangeUnitException interface, IChangeUnitException interface [Windows Sync],GetChangeUnitId method, IChangeUnitException.GetChangeUnitId, IChangeUnitException::GetChangeUnitId, winsync.ichangeunitexception_getchangeunitid, winsync/IChangeUnitException::GetChangeUnitId
 ms.topic: method
-f1_keywords: 
- - "winsync/IChangeUnitException.GetChangeUnitId"
+f1_keywords:
+- winsync/IChangeUnitException.GetChangeUnitId
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IChangeUnitException.GetChangeUnitId
+- IChangeUnitException.GetChangeUnitId
 targetos: Windows
 req.typenames: 
 req.redist: 

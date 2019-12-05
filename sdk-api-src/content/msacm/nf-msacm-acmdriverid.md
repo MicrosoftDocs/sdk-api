@@ -1,19 +1,17 @@
 ---
 UID: NF:msacm.acmDriverID
 title: acmDriverID function (msacm.h)
-
 description: The acmDriverID function returns the handle of an ACM driver identifier associated with an open ACM driver instance or stream handle.
 old-location: multimedia\acmdriverid.htm
 tech.root: Multimedia
 ms.assetid: d88ec472-80b7-4563-a09d-65e0e829c14e
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_acmDriverID, acmDriverID, acmDriverID function [Windows Multimedia], msacm/acmDriverID, multimedia.acmdriverid"
+ms.keywords: _win32_acmDriverID, acmDriverID, acmDriverID function [Windows Multimedia], msacm/acmDriverID, multimedia.acmdriverid
 ms.topic: function
-f1_keywords: 
- - "msacm/acmDriverID"
+f1_keywords:
+- msacm/acmDriverID
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msacm32.dll
- - Ext-MS-Win-mm-msacm-l1-1-0.dll
+- Msacm32.dll
+- Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
- - acmDriverID
+- acmDriverID
 targetos: Windows
 req.typenames: 
 req.redist: 

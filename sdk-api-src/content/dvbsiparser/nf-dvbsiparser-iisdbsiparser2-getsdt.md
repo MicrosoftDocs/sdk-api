@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbSiParser2.GetSDT
 title: IIsdbSiParser2::GetSDT (dvbsiparser.h)
-
 description: Gets a service description table (SDT) from an Integrated Services Digital Broadcast (ISDB) transport stream. An SDT lists the names and other parameters of the services in an MPEG-2 transport stream.
 old-location: mstv\iisdbsiparser2_getsdt.htm
 tech.root: mstv
 ms.assetid: d15d1b6a-5b53-4962-89a3-9bd06e00d366
-
 ms.date: 12/05/2018
 ms.keywords: GetSDT, GetSDT method [Microsoft TV Technologies], GetSDT method [Microsoft TV Technologies],IIsdbSiParser2 interface, IIsdbSiParser2 interface [Microsoft TV Technologies],GetSDT method, IIsdbSiParser2.GetSDT, IIsdbSiParser2::GetSDT, dvbsiparser/IIsdbSiParser2::GetSDT, mstv.iisdbsiparser2_getsdt
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbSiParser2.GetSDT"
+f1_keywords:
+- dvbsiparser/IIsdbSiParser2.GetSDT
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbSiParser2.GetSDT
+- IIsdbSiParser2.GetSDT
 targetos: Windows
 req.typenames: 
 req.redist: 

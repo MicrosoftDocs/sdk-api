@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ResumeClusterNodeEx
 title: ResumeClusterNodeEx function (clusapi.h)
-
 description: Initiates the specified failback operation, and then requests that a paused node resumes cluster activity.
 old-location: mscs\resumeclusternodeex.htm
 tech.root: MsCS
 ms.assetid: 6111AA77-8542-4183-98B2-A505889B0B87
-
 ms.date: 12/05/2018
 ms.keywords: PCLUSAPI_RESUME_CLUSTER_NODE_EX, PCLUSAPI_RESUME_CLUSTER_NODE_EX function [Failover Cluster], ResumeClusterNodeEx, ResumeClusterNodeEx function [Failover Cluster], clusapi/PCLUSAPI_RESUME_CLUSTER_NODE_EX, clusapi/ResumeClusterNodeEx, mscs.resumeclusternodeex
 ms.topic: function
-f1_keywords: 
- - "clusapi/ResumeClusterNodeEx"
+f1_keywords:
+- clusapi/ResumeClusterNodeEx
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - ResumeClusterNodeEx
+- ResumeClusterNodeEx
 targetos: Windows
 req.typenames: 
 req.redist: 

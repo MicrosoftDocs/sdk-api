@@ -1,19 +1,17 @@
 ---
 UID: NF:bdatif.IEnumTuneRequests.Clone
 title: IEnumTuneRequests::Clone (bdatif.h)
-
 description: The Clone method creates a copy of the collection.
 old-location: mstv\ienumtunerequests_clone.htm
 tech.root: mstv
 ms.assetid: 9910d646-c98e-479a-8abd-5d5427ef11b5
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],IEnumTuneRequests interface, IEnumTuneRequests interface [Microsoft TV Technologies],Clone method, IEnumTuneRequests.Clone, IEnumTuneRequests::Clone, IEnumTuneRequestsClone, bdatif/IEnumTuneRequests::Clone, mstv.ienumtunerequests_clone
 ms.topic: method
-f1_keywords: 
- - "bdatif/IEnumTuneRequests.Clone"
+f1_keywords:
+- bdatif/IEnumTuneRequests.Clone
 dev_langs:
- - c++
+- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdatif.h
+- bdatif.h
 api_name:
- - IEnumTuneRequests.Clone
+- IEnumTuneRequests.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

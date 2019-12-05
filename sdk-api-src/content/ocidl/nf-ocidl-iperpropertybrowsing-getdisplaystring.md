@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IPerPropertyBrowsing.GetDisplayString
 title: IPerPropertyBrowsing::GetDisplayString (ocidl.h)
-
 description: Retrieves a text string describing the specified property.
 old-location: com\iperpropertybrowsing_getdisplaystring.htm
 tech.root: com
 ms.assetid: 949d7d12-de59-441d-ac0f-e18f050d005d
-
 ms.date: 12/05/2018
 ms.keywords: GetDisplayString, GetDisplayString method [COM], GetDisplayString method [COM],IPerPropertyBrowsing interface, IPerPropertyBrowsing interface [COM],GetDisplayString method, IPerPropertyBrowsing.GetDisplayString, IPerPropertyBrowsing::GetDisplayString, _ctrl_iperpropertybrowsing_getdisplaystring, com.iperpropertybrowsing_getdisplaystring, ocidl/IPerPropertyBrowsing::GetDisplayString
 ms.topic: method
-f1_keywords: 
- - "ocidl/IPerPropertyBrowsing.GetDisplayString"
+f1_keywords:
+- ocidl/IPerPropertyBrowsing.GetDisplayString
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPerPropertyBrowsing.GetDisplayString
+- IPerPropertyBrowsing.GetDisplayString
 targetos: Windows
 req.typenames: 
 req.redist: 

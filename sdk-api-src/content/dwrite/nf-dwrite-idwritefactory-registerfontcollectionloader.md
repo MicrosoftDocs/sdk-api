@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteFactory.RegisterFontCollectionLoader
 title: IDWriteFactory::RegisterFontCollectionLoader (dwrite.h)
-
 description: Registers a custom font collection loader with the factory object.
 old-location: directwrite\IDWriteFactory_RegisterFontCollectionLoader.htm
 tech.root: DirectWrite
 ms.assetid: 495f8f56-42b6-4731-a26e-5da2c56a28ed
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteFactory interface [Direct Write],RegisterFontCollectionLoader method, IDWriteFactory.RegisterFontCollectionLoader, IDWriteFactory::RegisterFontCollectionLoader, RegisterFontCollectionLoader, RegisterFontCollectionLoader method [Direct Write], RegisterFontCollectionLoader method [Direct Write],IDWriteFactory interface, directwrite.IDWriteFactory_RegisterFontCollectionLoader, dwrite/IDWriteFactory::RegisterFontCollectionLoader
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteFactory.RegisterFontCollectionLoader"
+f1_keywords:
+- dwrite/IDWriteFactory.RegisterFontCollectionLoader
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFactory.RegisterFontCollectionLoader
+- IDWriteFactory.RegisterFontCollectionLoader
 targetos: Windows
 req.typenames: 
 req.redist: 

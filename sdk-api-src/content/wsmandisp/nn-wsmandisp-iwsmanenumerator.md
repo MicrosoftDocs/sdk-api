@@ -1,19 +1,17 @@
 ---
 UID: NN:wsmandisp.IWSManEnumerator
 title: IWSManEnumerator (wsmandisp.h)
-
 description: Represents a stream of results returned from operations such as a WS-Management protocol WS-Enumeration:Enumerate operation.
 old-location: winrm\iwsmanenumerator.htm
 tech.root: winrm
 ms.assetid: c7afac5d-946f-49ec-a7d0-de558ed2144b
-
 ms.date: 12/05/2018
 ms.keywords: IWSManEnumerator, IWSManEnumerator interface [Windows Remote Management], IWSManEnumerator interface [Windows Remote Management],described, winrm.iwsmanenumerator, wsmandisp/IWSManEnumerator
 ms.topic: interface
-f1_keywords: 
- - "wsmandisp/IWSManEnumerator"
+f1_keywords:
+- wsmandisp/IWSManEnumerator
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManEnumerator
+- IWSManEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

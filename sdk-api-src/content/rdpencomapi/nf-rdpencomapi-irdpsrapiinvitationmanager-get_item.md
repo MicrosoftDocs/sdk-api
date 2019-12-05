@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitationManager.get_Item
 title: IRDPSRAPIInvitationManager::get_Item (rdpencomapi.h)
-
 description: An item in the invitation collection.
 old-location: rdp\irdpsrapiinvitationmanager_item.htm
 tech.root: rdp
 ms.assetid: 0a6acaec-0051-4753-8926-c708e75c3e07
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIInvitationManager interface [RDP],Item property, IRDPSRAPIInvitationManager.Item, IRDPSRAPIInvitationManager.get_Item, IRDPSRAPIInvitationManager::Item, IRDPSRAPIInvitationManager::get_Item, Item property [RDP], Item property [RDP],IRDPSRAPIInvitationManager interface, Item property [RDP],RDPSRAPIInvitationManager object, RDPSRAPIInvitationManager object [RDP],Item property, get_Item, rdp.irdpsrapiinvitationmanager_item, rdpencomapi/IRDPSRAPIInvitationManager::Item, rdpencomapi/IRDPSRAPIInvitationManager::get_Item
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIInvitationManager.Item"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIInvitationManager.Item
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIInvitationManager.Item
- - IRDPSRAPIInvitationManager.get_Item
- - RDPSRAPIInvitationManager.Item
+- IRDPSRAPIInvitationManager.Item
+- IRDPSRAPIInvitationManager.get_Item
+- RDPSRAPIInvitationManager.Item
 targetos: Windows
 req.typenames: 
 req.redist: 

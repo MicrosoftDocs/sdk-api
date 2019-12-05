@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IStorage.MoveElementTo
 title: IStorage::MoveElementTo (objidl.h)
-
 description: The MoveElementTo method copies or moves a substorage or stream from this storage object to another storage object.
 old-location: stg\istorage_moveelementto.htm
 tech.root: Stg
 ms.assetid: d9d33c64-edac-480f-b295-b2a06e51af2e
-
 ms.date: 12/05/2018
 ms.keywords: IStorage interface [Structured Storage],MoveElementTo method, IStorage.MoveElementTo, IStorage::MoveElementTo, MoveElementTo, MoveElementTo method [Structured Storage], MoveElementTo method [Structured Storage],IStorage interface, _stg_istorage_moveelementto, objidl/IStorage::MoveElementTo, stg.istorage_moveelementto
 ms.topic: method
-f1_keywords: 
- - "objidl/IStorage.MoveElementTo"
+f1_keywords:
+- objidl/IStorage.MoveElementTo
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IStorage.MoveElementTo
+- IStorage.MoveElementTo
 targetos: Windows
 req.typenames: 
 req.redist: 

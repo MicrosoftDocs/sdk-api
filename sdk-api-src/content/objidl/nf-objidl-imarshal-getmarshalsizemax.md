@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IMarshal.GetMarshalSizeMax
 title: IMarshal::GetMarshalSizeMax (objidl.h)
-
 description: Retrieves the maximum size of the buffer that will be needed during marshaling.
 old-location: com\imarshal_getmarshalsizemax.htm
 tech.root: com
 ms.assetid: 25ec060a-ec46-4857-8d66-8f8bb58d6d31
-
 ms.date: 12/05/2018
 ms.keywords: GetMarshalSizeMax, GetMarshalSizeMax method [COM], GetMarshalSizeMax method [COM],IMarshal interface, IMarshal interface [COM],GetMarshalSizeMax method, IMarshal.GetMarshalSizeMax, IMarshal::GetMarshalSizeMax, _com_imarshal_getmarshalsizemax, com.imarshal_getmarshalsizemax, objidl/IMarshal::GetMarshalSizeMax
 ms.topic: method
-f1_keywords: 
- - "objidl/IMarshal.GetMarshalSizeMax"
+f1_keywords:
+- objidl/IMarshal.GetMarshalSizeMax
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IMarshal.GetMarshalSizeMax
+- IMarshal.GetMarshalSizeMax
 targetos: Windows
 req.typenames: 
 req.redist: 

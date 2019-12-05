@@ -1,19 +1,17 @@
 ---
 UID: NE:iketypes.IKEEXT_CERT_CRITERIA_NAME_TYPE_
 title: IKEEXT_CERT_CRITERIA_NAME_TYPE (iketypes.h)
-
 description: Specifies the type of NAME fields possible for a certificate selection &#0034;subject&#0034; criteria.
 old-location: fwp\ikeext_cert_criteria_name_type.htm
 tech.root: fwp
 ms.assetid: ec59d6b2-3bfc-4e5b-9222-609d3141db5c
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_CERT_CRITERIA_CN, IKEEXT_CERT_CRITERIA_DC, IKEEXT_CERT_CRITERIA_DNS, IKEEXT_CERT_CRITERIA_NAME_TYPE, IKEEXT_CERT_CRITERIA_NAME_TYPE enumeration [Filtering], IKEEXT_CERT_CRITERIA_NAME_TYPE_MAX, IKEEXT_CERT_CRITERIA_O, IKEEXT_CERT_CRITERIA_OU, IKEEXT_CERT_CRITERIA_RFC822, IKEEXT_CERT_CRITERIA_UPN, fwp.ikeext_cert_criteria_name_type, iketypes/IKEEXT_CERT_CRITERIA_CN, iketypes/IKEEXT_CERT_CRITERIA_DC, iketypes/IKEEXT_CERT_CRITERIA_DNS, iketypes/IKEEXT_CERT_CRITERIA_NAME_TYPE, iketypes/IKEEXT_CERT_CRITERIA_NAME_TYPE_MAX, iketypes/IKEEXT_CERT_CRITERIA_O, iketypes/IKEEXT_CERT_CRITERIA_OU, iketypes/IKEEXT_CERT_CRITERIA_RFC822, iketypes/IKEEXT_CERT_CRITERIA_UPN
 ms.topic: enum
-f1_keywords: 
- - "iketypes/IKEEXT_CERT_CRITERIA_NAME_TYPE"
+f1_keywords:
+- iketypes/IKEEXT_CERT_CRITERIA_NAME_TYPE
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - iketypes.h
+- iketypes.h
 api_name:
- - IKEEXT_CERT_CRITERIA_NAME_TYPE
+- IKEEXT_CERT_CRITERIA_NAME_TYPE
 targetos: Windows
 req.typenames: IKEEXT_CERT_CRITERIA_NAME_TYPE
 req.redist: 

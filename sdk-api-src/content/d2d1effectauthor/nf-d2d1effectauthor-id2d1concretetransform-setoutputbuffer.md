@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1ConcreteTransform.SetOutputBuffer
 title: ID2D1ConcreteTransform::SetOutputBuffer (d2d1effectauthor.h)
-
 description: Sets the properties of the output buffer of the specified transform node.
 old-location: direct2d\id2d1concretetransform_setoutputbuffer.htm
 tech.root: Direct2D
 ms.assetid: DCA691ED-B9DF-4B1A-8662-0981BFB359CE
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1ConcreteTransform interface [Direct2D],SetOutputBuffer method, ID2D1ConcreteTransform.SetOutputBuffer, ID2D1ConcreteTransform::SetOutputBuffer, SetOutputBuffer, SetOutputBuffer method [Direct2D], SetOutputBuffer method [Direct2D],ID2D1ConcreteTransform interface, d2d1effectauthor/ID2D1ConcreteTransform::SetOutputBuffer, direct2d.id2d1concretetransform_setoutputbuffer
 ms.topic: method
-f1_keywords: 
- - "d2d1effectauthor/ID2D1ConcreteTransform.SetOutputBuffer"
+f1_keywords:
+- d2d1effectauthor/ID2D1ConcreteTransform.SetOutputBuffer
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.lib
- - d2d1.dll
+- d2d1.lib
+- d2d1.dll
 api_name:
- - ID2D1ConcreteTransform.SetOutputBuffer
+- ID2D1ConcreteTransform.SetOutputBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

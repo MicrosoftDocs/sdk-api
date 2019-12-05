@@ -1,19 +1,17 @@
 ---
 UID: NF:sbe.IEnumStreamBufferRecordingAttrib.Next
 title: IEnumStreamBufferRecordingAttrib::Next (sbe.h)
-
 description: The Next method returns a specified number of attributes in the enumeration sequence.
 old-location: mstv\ienumstreambufferrecordingattrib_next.htm
 tech.root: mstv
 ms.assetid: 760b2e2c-799d-45e5-9dbd-2407e7431918
-
 ms.date: 12/05/2018
 ms.keywords: IEnumStreamBufferRecordingAttrib interface [Microsoft TV Technologies],Next method, IEnumStreamBufferRecordingAttrib.Next, IEnumStreamBufferRecordingAttrib::Next, IEnumStreamBufferRecordingAttribNext, Next, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies],IEnumStreamBufferRecordingAttrib interface, mstv.ienumstreambufferrecordingattrib_next, sbe/IEnumStreamBufferRecordingAttrib::Next
 ms.topic: method
-f1_keywords: 
- - "sbe/IEnumStreamBufferRecordingAttrib.Next"
+f1_keywords:
+- sbe/IEnumStreamBufferRecordingAttrib.Next
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sbe.h
+- Sbe.h
 api_name:
- - IEnumStreamBufferRecordingAttrib.Next
+- IEnumStreamBufferRecordingAttrib.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

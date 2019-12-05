@@ -1,19 +1,17 @@
 ---
 UID: NS:winnetwk._NETCONNECTINFOSTRUCT
 title: NETCONNECTINFOSTRUCT (winnetwk.h)
-
 description: The NETCONNECTINFOSTRUCT structure contains information about the performance of a network. It is used by the NPGetConnectionPerformance function.
 old-location: security\netconnectinfostruct.htm
 tech.root: SecAuthN
 ms.assetid: 0309667e-cb6c-406f-bb48-ed16602d38b2
-
 ms.date: 12/05/2018
-ms.keywords: "*LPNETCONNECTINFOSTRUCT, LPNETCONNECTINFOSTRUCT, LPNETCONNECTINFOSTRUCT structure pointer [Security], NETCONNECTINFOSTRUCT, NETCONNECTINFOSTRUCT structure [Security], WNCON_DYNAMIC, WNCON_FORNETCARD, WNCON_NOTROUTED, WNCON_SLOWLINK, _mnp_netconnectinfostruct, security.netconnectinfostruct, winnetwk/LPNETCONNECTINFOSTRUCT, winnetwk/NETCONNECTINFOSTRUCT"
+ms.keywords: '*LPNETCONNECTINFOSTRUCT, LPNETCONNECTINFOSTRUCT, LPNETCONNECTINFOSTRUCT structure pointer [Security], NETCONNECTINFOSTRUCT, NETCONNECTINFOSTRUCT structure [Security], WNCON_DYNAMIC, WNCON_FORNETCARD, WNCON_NOTROUTED, WNCON_SLOWLINK, _mnp_netconnectinfostruct, security.netconnectinfostruct, winnetwk/LPNETCONNECTINFOSTRUCT, winnetwk/NETCONNECTINFOSTRUCT'
 ms.topic: struct
-f1_keywords: 
- - "winnetwk/NETCONNECTINFOSTRUCT"
+f1_keywords:
+- winnetwk/NETCONNECTINFOSTRUCT
 dev_langs:
- - c++
+- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnetwk.h
+- Winnetwk.h
 api_name:
- - NETCONNECTINFOSTRUCT
+- NETCONNECTINFOSTRUCT
 targetos: Windows
 req.typenames: NETCONNECTINFOSTRUCT, *LPNETCONNECTINFOSTRUCT
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mbnapi.IMbnInterfaceManager
 title: IMbnInterfaceManager (mbnapi.h)
-
 description: Provides access to IMbnInterface objects and notifications.
 old-location: mbn\imbninterfacemanager.htm
 tech.root: mbn
 ms.assetid: a998381e-47de-4352-bc84-b6edca2f3fcc
-
 ms.date: 12/05/2018
 ms.keywords: IMbnInterfaceManager, IMbnInterfaceManager interface [Microsoft Broadband Networks], IMbnInterfaceManager interface [Microsoft Broadband Networks],described, mbn.imbninterfacemanager, mbnapi/IMbnInterfaceManager
 ms.topic: interface
-f1_keywords: 
- - "mbnapi/IMbnInterfaceManager"
+f1_keywords:
+- mbnapi/IMbnInterfaceManager
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnInterfaceManager
+- IMbnInterfaceManager
 targetos: Windows
 req.typenames: 
 req.redist: 

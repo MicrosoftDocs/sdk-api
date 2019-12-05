@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._OCSP_RESPONSE_INFO
 title: OCSP_RESPONSE_INFO (wincrypt.h)
-
 description: Indicates the success or failure of the corresponding online certificate status protocol (OCSP) request. For successful requests, it contains the type and value of response information.
 old-location: security\ocsp_response_info.htm
 tech.root: SecCrypto
 ms.assetid: e3829739-dd10-4886-8048-cd1b1b712d56
-
 ms.date: 12/05/2018
 ms.keywords: '*POCSP_RESPONSE_INFO, OCSP_INTERNAL_ERROR_RESPONSE, OCSP_MALFORMED_REQUEST_RESPONSE, OCSP_RESPONSE_INFO, OCSP_RESPONSE_INFO structure [Security], OCSP_SIG_REQUIRED_RESPONSE, OCSP_SUCCESSFUL_RESPONSE, OCSP_TRY_LATER_RESPONSE, OCSP_UNAUTHORIZED_RESPONSE, POCSP_RESPONSE_INFO, POCSP_RESPONSE_INFO structure pointer [Security], security.ocsp_response_info, szOID_PKIX_OCSP_BASIC_SIGNED_RESPONSE, wincrypt/OCSP_RESPONSE_INFO, wincrypt/POCSP_RESPONSE_INFO'
 ms.topic: struct
 f1_keywords:
 - wincrypt/OCSP_RESPONSE_INFO
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

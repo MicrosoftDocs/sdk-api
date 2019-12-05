@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3.ITAgentSession.get_ACDGroup
 title: ITAgentSession::get_ACDGroup (tapi3.h)
-
 description: The get_ACDGroup method gets the ACD group associated with this session.
 old-location: tapi3\itagentsession_get_acdgroup.htm
 tech.root: Tapi
 ms.assetid: ec80092d-ceff-432c-ba0a-695718b890af
-
 ms.date: 12/05/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_ACDGroup method, ITAgentSession.get_ACDGroup, ITAgentSession::get_ACDGroup, _tapi3_itagentsession_get_acdgroup, get_ACDGroup, get_ACDGroup method [TAPI 2.2], get_ACDGroup method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_acdgroup, tapi3cc/ITAgentSession::get_ACDGroup
 ms.topic: method
-f1_keywords: 
- - "tapi3/ITAgentSession.get_ACDGroup"
+f1_keywords:
+- tapi3/ITAgentSession.get_ACDGroup
 dev_langs:
- - c++
+- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAgentSession.get_ACDGroup
+- ITAgentSession.get_ACDGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

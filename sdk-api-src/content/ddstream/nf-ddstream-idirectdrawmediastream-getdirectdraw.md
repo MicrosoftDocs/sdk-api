@@ -1,19 +1,17 @@
 ---
 UID: NF:ddstream.IDirectDrawMediaStream.GetDirectDraw
 title: IDirectDrawMediaStream::GetDirectDraw (ddstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. Retrieves a pointer to the DirectDraw object used by the current media stream.
 old-location: dshow\idirectdrawmediastream_getdirectdraw.htm
 tech.root: DirectShow
 ms.assetid: 44c505fe-70d9-49bd-9135-8a6dc2c72e98
-
 ms.date: 12/05/2018
 ms.keywords: GetDirectDraw, GetDirectDraw method [DirectShow], GetDirectDraw method [DirectShow],IDirectDrawMediaStream interface, IDirectDrawMediaStream interface [DirectShow],GetDirectDraw method, IDirectDrawMediaStream.GetDirectDraw, IDirectDrawMediaStream::GetDirectDraw, IDirectDrawMediaStreamGetDirectDraw, ddstream/IDirectDrawMediaStream::GetDirectDraw, dshow.idirectdrawmediastream_getdirectdraw
 ms.topic: method
-f1_keywords: 
- - "ddstream/IDirectDrawMediaStream.GetDirectDraw"
+f1_keywords:
+- ddstream/IDirectDrawMediaStream.GetDirectDraw
 dev_langs:
- - c++
+- c++
 req.header: ddstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ddstream.h
+- ddstream.h
 api_name:
- - IDirectDrawMediaStream.GetDirectDraw
+- IDirectDrawMediaStream.GetDirectDraw
 targetos: Windows
 req.typenames: 
 req.redist: 

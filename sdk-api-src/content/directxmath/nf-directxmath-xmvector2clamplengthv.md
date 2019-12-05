@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector2ClampLengthV
 title: XMVector2ClampLengthV function (directxmath.h)
-
 description: Clamps the length of a 2D vector to a given range.
 old-location: dxmath\xmvector2clamplengthv.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2ClampLengthV(XMVECTOR,XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2ClampLengthV, XMVector2ClampLengthV, XMVector2ClampLengthV method [DirectX Math Support APIs], dxmath.xmvector2clamplengthv
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector2ClampLengthV"
+f1_keywords:
+- directxmath/XMVector2ClampLengthV
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector2ClampLengthV
+- XMVector2ClampLengthV
 targetos: Windows
 req.typenames: 
 req.redist: 

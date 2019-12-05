@@ -1,19 +1,17 @@
 ---
 UID: NF:ws2spi.WPUQuerySocketHandleContext
 title: WPUQuerySocketHandleContext function (ws2spi.h)
-
 description: The WPUQuerySocketHandleContext function queries the context value associated with the specified socket handle.
 old-location: winsock\wpuquerysockethandlecontext_2.htm
 tech.root: WinSock
 ms.assetid: 661ddff0-b80c-4e24-84b3-b444ef1c2ad6
-
 ms.date: 12/05/2018
 ms.keywords: WPUQuerySocketHandleContext, WPUQuerySocketHandleContext function [Winsock], _win32_wpuquerysockethandlecontext_2, winsock.wpuquerysockethandlecontext_2, ws2spi/WPUQuerySocketHandleContext
 ms.topic: function
-f1_keywords: 
- - "ws2spi/WPUQuerySocketHandleContext"
+f1_keywords:
+- ws2spi/WPUQuerySocketHandleContext
 dev_langs:
- - c++
+- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ws2spi.h
+- Ws2spi.h
 api_name:
- - WPUQuerySocketHandleContext
+- WPUQuerySocketHandleContext
 targetos: Windows
 req.typenames: 
 req.redist: 

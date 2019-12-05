@@ -1,19 +1,17 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingCustom
 title: TraceLoggingCustom macro (traceloggingprovider.h)
-
 description: Wrapper macro for an event field packed using a custom serializer.
 old-location: tracelogging\traceloggingcustom.htm
 tech.root: tracelogging
 ms.assetid: 617B5EFF-DB4F-493E-841B-14BBA312E26B
-
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingCustom, TraceLoggingCustom macro, tracelogging.traceloggingcustom, traceloggingprovider/TraceLoggingCustom
 ms.topic: macro
-f1_keywords: 
- - "traceloggingprovider/TraceLoggingCustom"
+f1_keywords:
+- traceloggingprovider/TraceLoggingCustom
 dev_langs:
- - c++
+- c++
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - traceloggingprovider.h
+- traceloggingprovider.h
 api_name:
- - TraceLoggingCustom
+- TraceLoggingCustom
 targetos: Windows
 req.typenames: 
 req.redist: 

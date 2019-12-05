@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsVDisk.GetDeviceName
 title: IVdsVDisk::GetDeviceName (vds.h)
-
 description: Returns the device name for the volume where the virtual disk resides.
 old-location: base\ivdsvdisk_getdevicename.htm
 tech.root: VDS
 ms.assetid: 4ce60f7f-a7f2-4e1e-aae0-bd082b62480f
-
 ms.date: 12/05/2018
 ms.keywords: GetDeviceName, GetDeviceName method, GetDeviceName method,IVdsVDisk interface, IVdsVDisk interface,GetDeviceName method, IVdsVDisk.GetDeviceName, IVdsVDisk::GetDeviceName, base.ivdsvdisk_getdevicename, vds/IVdsVDisk::GetDeviceName
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsVDisk.GetDeviceName"
+f1_keywords:
+- vds/IVdsVDisk.GetDeviceName
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsVDisk.GetDeviceName
+- IVdsVDisk.GetDeviceName
 targetos: Windows
 req.typenames: 
 req.redist: 

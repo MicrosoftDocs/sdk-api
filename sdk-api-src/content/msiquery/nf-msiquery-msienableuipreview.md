@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiEnableUIPreview
 title: MsiEnableUIPreview function (msiquery.h)
-
 description: The MsiEnableUIPreview function enables preview mode of the user interface to facilitate authoring of user-interface dialog boxes. This function returns a handle that should be closed using MsiCloseHandle.
 old-location: setup\msienableuipreview.htm
 tech.root: Msi
 ms.assetid: 77df6829-119d-4fe6-96b0-c75381b9de6c
-
 ms.date: 12/05/2018
 ms.keywords: MsiEnableUIPreview, MsiEnableUIPreview function, _msi_msienableuipreview, msiquery/MsiEnableUIPreview, setup.msienableuipreview
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiEnableUIPreview"
+f1_keywords:
+- msiquery/MsiEnableUIPreview
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiEnableUIPreview
+- MsiEnableUIPreview
 targetos: Windows
 req.typenames: 
 req.redist: 

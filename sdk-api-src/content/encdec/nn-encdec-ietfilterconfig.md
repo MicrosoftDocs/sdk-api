@@ -1,19 +1,17 @@
 ---
 UID: NN:encdec.IETFilterConfig
 title: IETFilterConfig (encdec.h)
-
 description: The IETFilterConfig interface configures the Encrypter/Tagger filter. Most applications will not have to use this interface.
 old-location: mstv\ietfilterconfig.htm
 tech.root: mstv
 ms.assetid: 6fa3da1b-863b-4ed7-b5ef-4ed1c05d2456
-
 ms.date: 12/05/2018
 ms.keywords: IETFilterConfig, IETFilterConfig interface [Microsoft TV Technologies], IETFilterConfig interface [Microsoft TV Technologies],described, IETFilterConfigInterface, encdec/IETFilterConfig, mstv.ietfilterconfig
 ms.topic: interface
-f1_keywords: 
- - "encdec/IETFilterConfig"
+f1_keywords:
+- encdec/IETFilterConfig
 dev_langs:
- - c++
+- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EncDec.h
+- EncDec.h
 api_name:
- - IETFilterConfig
+- IETFilterConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

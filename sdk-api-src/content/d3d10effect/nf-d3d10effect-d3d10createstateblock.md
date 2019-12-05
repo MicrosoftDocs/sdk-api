@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.D3D10CreateStateBlock
 title: D3D10CreateStateBlock function (d3d10effect.h)
-
 description: Create a state block.
 old-location: direct3d10\d3d10createstateblock.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10createstateblock.htm
-
 ms.date: 12/05/2018
 ms.keywords: 8f57946f-10b9-397f-8aa5-63df2e9ef7df, D3D10CreateStateBlock, D3D10CreateStateBlock function [Direct3D 10], d3d10effect/D3D10CreateStateBlock, direct3d10.d3d10createstateblock
 ms.topic: function
 f1_keywords:
 - d3d10effect/D3D10CreateStateBlock
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

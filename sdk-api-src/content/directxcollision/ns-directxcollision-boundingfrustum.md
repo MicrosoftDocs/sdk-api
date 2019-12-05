@@ -1,19 +1,17 @@
 ---
 UID: NS:directxcollision.BoundingFrustum
 title: BoundingFrustum
-
 description: A bounding frustum object.
 old-location: dxmath\boundingfrustum.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.directxmath.BoundingFrustum
-
 ms.date: 12/05/2018
 ms.keywords: BoundingFrustum, BoundingFrustum structure [DirectX Math Support APIs], directxcollision/BoundingFrustum, dxmath.boundingfrustum
 ms.topic: struct
-f1_keywords: 
- - "directxcollision/BoundingFrustum"
+f1_keywords:
+- directxcollision/BoundingFrustum
 dev_langs:
- - c++
+- c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectXCollision.h
+- DirectXCollision.h
 api_name:
- - BoundingFrustum
+- BoundingFrustum
 targetos: Windows
 req.typenames: 
 req.redist: 

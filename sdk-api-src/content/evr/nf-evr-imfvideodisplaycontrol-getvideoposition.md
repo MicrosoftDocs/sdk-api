@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.GetVideoPosition
 title: IMFVideoDisplayControl::GetVideoPosition (evr.h)
-
 description: Gets the source and destination rectangles for the video.
 old-location: mf\imfvideodisplaycontrol_getvideoposition.htm
 tech.root: medfound
 ms.assetid: 59c2e914-cc15-4534-976c-a760ff97f6ae
-
 ms.date: 12/05/2018
 ms.keywords: 59c2e914-cc15-4534-976c-a760ff97f6ae, GetVideoPosition, GetVideoPosition method [Media Foundation], GetVideoPosition method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetVideoPosition method, IMFVideoDisplayControl.GetVideoPosition, IMFVideoDisplayControl::GetVideoPosition, evr/IMFVideoDisplayControl::GetVideoPosition, mf.imfvideodisplaycontrol_getvideoposition
 ms.topic: method
-f1_keywords: 
- - "evr/IMFVideoDisplayControl.GetVideoPosition"
+f1_keywords:
+- evr/IMFVideoDisplayControl.GetVideoPosition
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoDisplayControl.GetVideoPosition
+- IMFVideoDisplayControl.GetVideoPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

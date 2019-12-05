@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.ITextServices.TxGetDropTarget
 title: ITextServices::TxGetDropTarget (textserv.h)
-
 description: Gets the drop target for the text control.
 old-location: controls\ITextServices_TxGetDropTarget.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetdroptarget.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextServices interface [Windows Controls],TxGetDropTarget method, ITextServices.TxGetDropTarget, ITextServices::TxGetDropTarget, TxGetDropTarget, TxGetDropTarget method [Windows Controls], TxGetDropTarget method [Windows Controls],ITextServices interface, _win32_ITextServices_TxGetDropTarget, _win32_ITextServices_TxGetDropTarget_cpp, controls.ITextServices_TxGetDropTarget, controls._win32_ITextServices_TxGetDropTarget, textserv/ITextServices::TxGetDropTarget
 ms.topic: method
-f1_keywords: 
- - "textserv/ITextServices.TxGetDropTarget"
+f1_keywords:
+- textserv/ITextServices.TxGetDropTarget
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextServices.TxGetDropTarget
+- ITextServices.TxGetDropTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICProgressNotification
 title: WICProgressNotification (wincodec.h)
-
 description: Specifies when the progress notification callback should be called.
 old-location: wic\_wic_codec_wicprogressnotification.htm
 tech.root: wic
 ms.assetid: 6d7ef6f1-2024-4de5-9c2e-8edc6359f79b
-
 ms.date: 12/05/2018
 ms.keywords: WICProgressNotification, WICProgressNotification enumeration [Windows Imaging Component], WICProgressNotificationAll, WICProgressNotificationBegin, WICProgressNotificationEnd, WICProgressNotificationFrequent, _wic_codec_wicprogressnotification, wic._wic_codec_wicprogressnotification, wincodec/WICProgressNotification, wincodec/WICProgressNotificationAll, wincodec/WICProgressNotificationBegin, wincodec/WICProgressNotificationEnd, wincodec/WICProgressNotificationFrequent
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICProgressNotification"
+f1_keywords:
+- wincodec/WICProgressNotification
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICProgressNotification
+- WICProgressNotification
 targetos: Windows
 req.typenames: WICProgressNotification
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupQueryFileLogW
 title: SetupQueryFileLogW function (setupapi.h)
-
 description: The SetupQueryFileLog function returns information from a setup file log.
 old-location: setup\setupqueryfilelog.htm
 tech.root: SetupApi
 ms.assetid: c01233ee-4e3a-454b-b2e2-032937c874c9
-
 ms.date: 12/05/2018
 ms.keywords: SetupFileLogChecksum, SetupFileLogDiskDescription, SetupFileLogDiskTagfile, SetupFileLogOtherInfo, SetupFileLogSourceFile name, SetupQueryFileLog, SetupQueryFileLog function [Setup API], SetupQueryFileLogA, SetupQueryFileLogW, _setupapi_setupqueryfilelog, setup.setupqueryfilelog, setupapi/SetupQueryFileLog, setupapi/SetupQueryFileLogA, setupapi/SetupQueryFileLogW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupQueryFileLog"
+f1_keywords:
+- setupapi/SetupQueryFileLog
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupQueryFileLog
- - SetupQueryFileLogA
- - SetupQueryFileLogW
+- SetupQueryFileLog
+- SetupQueryFileLogA
+- SetupQueryFileLogW
 targetos: Windows
 req.typenames: 
 req.redist: 

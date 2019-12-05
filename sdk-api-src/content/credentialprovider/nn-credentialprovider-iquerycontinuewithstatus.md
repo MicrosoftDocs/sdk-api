@@ -1,19 +1,17 @@
 ---
 UID: NN:credentialprovider.IQueryContinueWithStatus
 title: IQueryContinueWithStatus (credentialprovider.h)
-
 description: Exposes methods that provide a standard mechanism for credential providers to call QueryContinue while attempting to connect to the network to determine if they should continue these attempts.
 old-location: shell\IQueryContinueWithStatus.htm
 tech.root: shell
 ms.assetid: 3f41714e-d8f6-46ea-aea4-19dca4723ca5
-
 ms.date: 12/05/2018
 ms.keywords: IQueryContinueWithStatus, IQueryContinueWithStatus interface [Windows Shell], IQueryContinueWithStatus interface [Windows Shell],described, _shell_IQueryContinueWithStatus, credentialprovider/IQueryContinueWithStatus, shell.IQueryContinueWithStatus
 ms.topic: interface
-f1_keywords: 
- - "credentialprovider/IQueryContinueWithStatus"
+f1_keywords:
+- credentialprovider/IQueryContinueWithStatus
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - IQueryContinueWithStatus
+- IQueryContinueWithStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

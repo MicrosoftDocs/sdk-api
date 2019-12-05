@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddArc(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL)
 title: GraphicsPath::AddArc(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL) (gdipluspath.h)
-
 description: The GraphicsPath::AddArc method adds an elliptical arc to the current figure of this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddArc_REAL_x_REAL_y_REAL_width_REAL_height_REAL_startAngle_REAL_sweepAn.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddarcmethods\addarc_3realx_realy_realwidth_realheight_realst.htm
-
 ms.date: 12/05/2018
 ms.keywords: AddArc, AddArc method [GDI+], AddArc method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddArc method, GraphicsPath.AddArc, GraphicsPath.AddArc(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL), GraphicsPath.AddArc(REAL,REAL,REAL,REAL,REAL,REAL), GraphicsPath::AddArc, GraphicsPath::AddArc(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL), _gdiplus_CLASS_GraphicsPath_AddArc_REAL_x_REAL_y_REAL_width_REAL_height_REAL_startAngle_REAL_sweepAn, gdiplus._gdiplus_CLASS_GraphicsPath_AddArc_REAL_x_REAL_y_REAL_width_REAL_height_REAL_startAngle_REAL_sweepAn
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPath.AddArc"
+f1_keywords:
+- gdipluspath/GraphicsPath.AddArc
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPath.AddArc
+- GraphicsPath.AddArc
 targetos: Windows
 req.typenames: 
 req.redist: 

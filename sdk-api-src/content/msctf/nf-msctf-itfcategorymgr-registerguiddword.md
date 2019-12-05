@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.RegisterGUIDDWORD
 title: ITfCategoryMgr::RegisterGUIDDWORD (msctf.h)
-
 description: ITfCategoryMgr::RegisterGUIDDWORD method
 old-location: tsf\itfcategorymgr_registerguiddword.htm
 tech.root: TSF
 ms.assetid: 674165f4-1624-46fa-b3c6-ee5242fa457b
-
 ms.date: 12/05/2018
 ms.keywords: ITfCategoryMgr interface [Text Services Framework],RegisterGUIDDWORD method, ITfCategoryMgr.RegisterGUIDDWORD, ITfCategoryMgr::RegisterGUIDDWORD, RegisterGUIDDWORD, RegisterGUIDDWORD method [Text Services Framework], RegisterGUIDDWORD method [Text Services Framework],ITfCategoryMgr interface, _tsf_itfcategorymgr_registerguiddword_ref, msctf/ITfCategoryMgr::RegisterGUIDDWORD, tsf.itfcategorymgr_registerguiddword
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfCategoryMgr.RegisterGUIDDWORD"
+f1_keywords:
+- msctf/ITfCategoryMgr.RegisterGUIDDWORD
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfCategoryMgr.RegisterGUIDDWORD
+- ITfCategoryMgr.RegisterGUIDDWORD
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

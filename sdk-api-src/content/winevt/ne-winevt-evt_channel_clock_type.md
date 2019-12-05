@@ -1,19 +1,17 @@
 ---
 UID: NE:winevt._EVT_CHANNEL_CLOCK_TYPE
 title: EVT_CHANNEL_CLOCK_TYPE (winevt.h)
-
 description: Defines the values that specify the type of time stamp to use when logging events channel.
 old-location: wes\evt_channel_clock_type.htm
 tech.root: wes
 ms.assetid: 575a6667-b832-46e8-8704-0612e04b8669
-
 ms.date: 12/05/2018
 ms.keywords: EVT_CHANNEL_CLOCK_TYPE, EVT_CHANNEL_CLOCK_TYPE enumeration [EventLog], EvtChannelClockTypeQPC, EvtChannelClockTypeSystemTime, wes.evt_channel_clock_type, winevt/EVT_CHANNEL_CLOCK_TYPE, winevt/EvtChannelClockTypeQPC, winevt/EvtChannelClockTypeSystemTime
 ms.topic: enum
 f1_keywords:
 - winevt/EVT_CHANNEL_CLOCK_TYPE
 dev_langs:
- - c++
+- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_TEXCUBE_SRV
 title: D3D11_TEXCUBE_SRV (d3d11.h)
-
 description: Specifies the subresource from a cube texture to use in a shader-resource view.
 old-location: direct3d11\d3d11_texcube_srv.htm
 tech.root: direct3d11
 ms.assetid: ca320e06-699f-44f9-9a66-93746935b4cd
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_TEXCUBE_SRV, D3D11_TEXCUBE_SRV structure [Direct3D 11], a217170b-8039-8202-2646-a617e73d0023, d3d11/D3D11_TEXCUBE_SRV, direct3d11.d3d11_texcube_srv
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_TEXCUBE_SRV"
+f1_keywords:
+- d3d11/D3D11_TEXCUBE_SRV
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_TEXCUBE_SRV
+- D3D11_TEXCUBE_SRV
 targetos: Windows
 req.typenames: D3D11_TEXCUBE_SRV
 req.redist: 

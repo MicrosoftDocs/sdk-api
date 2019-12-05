@@ -1,19 +1,17 @@
 ---
 UID: NS:virtdisk._COMPACT_VIRTUAL_DISK_PARAMETERS
 title: COMPACT_VIRTUAL_DISK_PARAMETERS (virtdisk.h)
-
 description: Contains virtual hard disk (VHD) compacting parameters.
 old-location: vhd\compact_virtual_disk_parameters.htm
 tech.root: VStor
 ms.assetid: 3e58101c-c8a9-432e-99c4-9e418a887b9e
-
 ms.date: 12/05/2018
-ms.keywords: "*PCOMPACT_VIRTUAL_DISK_PARAMETERS, COMPACT_VIRTUAL_DISK_PARAMETERS, COMPACT_VIRTUAL_DISK_PARAMETERS structure [VHD], PCOMPACT_VIRTUAL_DISK_PARAMETERS, PCOMPACT_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _COMPACT_VIRTUAL_DISK_PARAMETERS, vdssys/COMPACT_VIRTUAL_DISK_PARAMETERS, vdssys/PCOMPACT_VIRTUAL_DISK_PARAMETERS, vhd.compact_virtual_disk_parameters, virtdisk/COMPACT_VIRTUAL_DISK_PARAMETERS, virtdisk/PCOMPACT_VIRTUAL_DISK_PARAMETERS"
+ms.keywords: '*PCOMPACT_VIRTUAL_DISK_PARAMETERS, COMPACT_VIRTUAL_DISK_PARAMETERS, COMPACT_VIRTUAL_DISK_PARAMETERS structure [VHD], PCOMPACT_VIRTUAL_DISK_PARAMETERS, PCOMPACT_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _COMPACT_VIRTUAL_DISK_PARAMETERS, vdssys/COMPACT_VIRTUAL_DISK_PARAMETERS, vdssys/PCOMPACT_VIRTUAL_DISK_PARAMETERS, vhd.compact_virtual_disk_parameters, virtdisk/COMPACT_VIRTUAL_DISK_PARAMETERS, virtdisk/PCOMPACT_VIRTUAL_DISK_PARAMETERS'
 ms.topic: struct
-f1_keywords: 
- - "virtdisk/COMPACT_VIRTUAL_DISK_PARAMETERS"
+f1_keywords:
+- virtdisk/COMPACT_VIRTUAL_DISK_PARAMETERS
 dev_langs:
- - c++
+- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VirtDisk.h
- - vdssys.h
+- VirtDisk.h
+- vdssys.h
 api_name:
- - COMPACT_VIRTUAL_DISK_PARAMETERS
+- COMPACT_VIRTUAL_DISK_PARAMETERS
 targetos: Windows
 req.typenames: COMPACT_VIRTUAL_DISK_PARAMETERS, *PCOMPACT_VIRTUAL_DISK_PARAMETERS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IX509MachineEnrollmentFactory
 title: IX509MachineEnrollmentFactory (certenroll.h)
-
 description: Can be used to create an IX509EnrollmentHelper object on a webpage.
 old-location: security\ix509machineenrollmentfactory.htm
 tech.root: seccertenroll
 ms.assetid: 2f97fdd7-13ca-4427-8ec5-24302d245fdb
-
 ms.date: 12/05/2018
 ms.keywords: IX509MachineEnrollmentFactory, IX509MachineEnrollmentFactory interface [Security], IX509MachineEnrollmentFactory interface [Security],described, certenroll/IX509MachineEnrollmentFactory, security.ix509machineenrollmentfactory
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IX509MachineEnrollmentFactory"
+f1_keywords:
+- certenroll/IX509MachineEnrollmentFactory
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509MachineEnrollmentFactory
+- IX509MachineEnrollmentFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

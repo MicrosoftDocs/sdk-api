@@ -1,19 +1,17 @@
 ---
 UID: NN:austream.IAudioStreamSample
 title: IAudioStreamSample (austream.h)
-
 description: Note  This interface is deprecated.
 old-location: dshow\iaudiostreamsample.htm
 tech.root: DirectShow
 ms.assetid: 53deec43-30ca-472e-9a82-750049686d2a
-
 ms.date: 12/05/2018
 ms.keywords: IAudioStreamSample, IAudioStreamSample interface [DirectShow], IAudioStreamSample interface [DirectShow],described, IAudioStreamSampleInterface, austream/IAudioStreamSample, dshow.iaudiostreamsample
 ms.topic: interface
-f1_keywords: 
- - "austream/IAudioStreamSample"
+f1_keywords:
+- austream/IAudioStreamSample
 dev_langs:
- - c++
+- c++
 req.header: austream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - austream.h
+- austream.h
 api_name:
- - IAudioStreamSample
+- IAudioStreamSample
 targetos: Windows
 req.typenames: 
 req.redist: 

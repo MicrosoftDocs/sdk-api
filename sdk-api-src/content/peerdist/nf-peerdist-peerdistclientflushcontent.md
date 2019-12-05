@@ -1,19 +1,17 @@
 ---
 UID: NF:peerdist.PeerDistClientFlushContent
 title: PeerDistClientFlushContent function (peerdist.h)
-
 description: The PeerDistClientFlushContent function allows a client to remove content added to the local cache with the PeerDistClientAddData function using the associated PEERDIST_CONTENT_TAG.
 old-location: p2p\peerdistclientflushcontent.htm
 tech.root: P2PSdk
 ms.assetid: bb77499b-520b-4def-97d8-504983953d4b
-
 ms.date: 12/05/2018
 ms.keywords: PeerDistClientFlushContent, PeerDistClientFlushContent function [Peer Networking], p2p.peerdistclientflushcontent, peerdist/PeerDistClientFlushContent
 ms.topic: function
-f1_keywords: 
- - "peerdist/PeerDistClientFlushContent"
+f1_keywords:
+- peerdist/PeerDistClientFlushContent
 dev_langs:
- - c++
+- c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PeerDist.lib
 req.dll: PeerDist.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PeerDist.dll
+- PeerDist.dll
 api_name:
- - PeerDistClientFlushContent
+- PeerDistClientFlushContent
 targetos: Windows
 req.typenames: 
 req.redist: 

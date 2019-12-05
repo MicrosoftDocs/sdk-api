@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite.IDWriteTextAnalyzer
 title: IDWriteTextAnalyzer (dwrite.h)
-
 description: Analyzes various text properties for complex script processing such as bidirectional (bidi) support for languages like Arabic, determination of line break opportunities, glyph placement, and number substitution.
 old-location: directwrite\IDWriteTextAnalyzer.htm
 tech.root: DirectWrite
 ms.assetid: e832ffc4-31db-41b1-a008-04696d9a975e
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextAnalyzer, IDWriteTextAnalyzer interface [Direct Write], IDWriteTextAnalyzer interface [Direct Write],described, directwrite.IDWriteTextAnalyzer, dwrite/IDWriteTextAnalyzer
 ms.topic: interface
-f1_keywords: 
- - "dwrite/IDWriteTextAnalyzer"
+f1_keywords:
+- dwrite/IDWriteTextAnalyzer
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextAnalyzer
+- IDWriteTextAnalyzer
 targetos: Windows
 req.typenames: 
 req.redist: 

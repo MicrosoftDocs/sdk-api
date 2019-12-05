@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._EXCEPTION_POINTERS
 title: EXCEPTION_POINTERS (winnt.h)
-
 description: Contains an exception record with a machine-independent description of an exception and a context record with a machine-dependent description of the processor context at the time of the exception.
 old-location: base\exception_pointers_str.htm
 tech.root: Debug
 ms.assetid: 57e8cb3a-1b11-45b9-9676-3b6dc600d225
-
 ms.date: 12/05/2018
 ms.keywords: '*PEXCEPTION_POINTERS, EXCEPTION_POINTERS, EXCEPTION_POINTERS structure, PEXCEPTION_POINTERS, PEXCEPTION_POINTERS structure pointer, _EXCEPTION_POINTERS, _win32_exception_pointers_str, base.exception_pointers_str, winnt/EXCEPTION_POINTERS, winnt/PEXCEPTION_POINTERS'
 ms.topic: struct
 f1_keywords:
 - winnt/EXCEPTION_POINTERS
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

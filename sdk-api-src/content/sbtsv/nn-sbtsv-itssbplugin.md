@@ -1,19 +1,17 @@
 ---
 UID: NN:sbtsv.ITsSbPlugin
 title: ITsSbPlugin (sbtsv.h)
-
 description: Exposes methods that initialize and terminate plug-ins.
 old-location: termserv\itssbplugin.htm
 tech.root: TermServ
 ms.assetid: db3d3ee7-9e53-4bac-9711-4e85f1016db9
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbPlugin, ITsSbPlugin interface [Remote Desktop Services], ITsSbPlugin interface [Remote Desktop Services],described, sbtsv/ITsSbPlugin, termserv.itssbplugin
 ms.topic: interface
-f1_keywords: 
- - "sbtsv/ITsSbPlugin"
+f1_keywords:
+- sbtsv/ITsSbPlugin
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbPlugin
+- ITsSbPlugin
 targetos: Windows
 req.typenames: 
 req.redist: 

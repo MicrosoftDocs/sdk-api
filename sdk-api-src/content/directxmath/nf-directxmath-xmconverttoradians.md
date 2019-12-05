@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMConvertToRadians
 title: XMConvertToRadians function (directxmath.h)
-
 description: Converts an angle measured in degrees into one measured in radians.
 old-location: dxmath\xmconverttoradians.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.conversion.XMConvertToRadians(float)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMConvertToRadians, XMConvertToRadians, XMConvertToRadians method [DirectX Math Support APIs], dxmath.xmconverttoradians
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMConvertToRadians"
+f1_keywords:
+- directxmath/XMConvertToRadians
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMConvertToRadians
+- XMConvertToRadians
 targetos: Windows
 req.typenames: 
 req.redist: 

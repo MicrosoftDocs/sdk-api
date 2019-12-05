@@ -1,19 +1,17 @@
 ---
 UID: NS:iketypes.IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0_
 title: IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0 (iketypes.h)
-
 description: Various statistics specific to the keying module and IP version.
 old-location: fwp\ikeext_ip_version_specific_keymodule_statistics0.htm
 tech.root: fwp
 ms.assetid: 5b5bb140-ca44-4a46-bb96-aba0b499e94f
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0, IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0 structure [Filtering], fwp.ikeext_ip_version_specific_keymodule_statistics0, iketypes/IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0
 ms.topic: struct
-f1_keywords: 
- - "iketypes/IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0"
+f1_keywords:
+- iketypes/IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iketypes.h
+- Iketypes.h
 api_name:
- - IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0
+- IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0
 targetos: Windows
 req.typenames: IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0
 req.redist: 

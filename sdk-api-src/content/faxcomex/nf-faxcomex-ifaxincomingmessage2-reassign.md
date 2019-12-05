@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage2.ReAssign
 title: IFaxIncomingMessage2::ReAssign (faxcomex.h)
-
 description: Reassign the fax to one or more recipients. It also commits changes to the IFaxIncomingMessage2::Subject, IFaxIncomingMessage2::SenderName, IFaxIncomingMessage2::SenderFaxNumber, and IFaxIncomingMessage2::HasCoverPage properties.
 old-location: fax\_mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_reassign_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxincomingmessage2\reassign.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessage2 interface [Fax Service],Reassign method, IFaxIncomingMessage2.ReAssign, IFaxIncomingMessage2.Reassign, IFaxIncomingMessage2::ReAssign, IFaxIncomingMessage2::Reassign, ReAssign, Reassign method [Fax Service], Reassign method [Fax Service],IFaxIncomingMessage2 interface, _mfax_faxincomingmessage.reassign, fax._mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_reassign_cpp, fax._mfax_faxincomingmessage_reassign, faxcomex/IFaxIncomingMessage2::Reassign
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxIncomingMessage2.Reassign"
+f1_keywords:
+- faxcomex/IFaxIncomingMessage2.Reassign
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxIncomingMessage2.Reassign
- - IFaxIncomingMessage2.Reassign
+- IFaxIncomingMessage2.Reassign
+- IFaxIncomingMessage2.Reassign
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1helper.Matrix3x2F.operator-mult
 title: Matrix3x2F::operator-mult (d2d1helper.h)
-
 description: Multiplies this matrix with the specified matrix and returns the result.
 old-location: direct2d\matrix3x2f_operator_.htm
 tech.root: Direct2D
 ms.assetid: cc7eba3e-f97c-4d03-8a83-0c4fd25ef4ce
-
 ms.date: 12/05/2018
 ms.keywords: D2D1.Matrix3x2F.operator*, D2D1::Matrix3x2F::operator*, Matrix3x2F interface [Direct2D],operator* method, Matrix3x2F.operator*, Matrix3x2F.operator-mult, Matrix3x2F::operator*, Matrix3x2F::operator-mult, d2d1helper/Matrix3x2F::operator*, direct2d.matrix3x2f_operator_, operator*, operator* method [Direct2D], operator* method [Direct2D],Matrix3x2F interface
 ms.topic: method
-f1_keywords: 
- - "d2d1helper/Matrix3x2F.operator*"
+f1_keywords:
+- d2d1helper/Matrix3x2F.operator*
 dev_langs:
- - c++
+- c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - Matrix3x2F.operator*
+- Matrix3x2F.operator*
 targetos: Windows
 req.typenames: 
 req.redist: 

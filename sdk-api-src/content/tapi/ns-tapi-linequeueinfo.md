@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.linequeueinfo_tag
 title: LINEQUEUEINFO (tapi.h)
-
 description: The LINEQUEUEINFO structure provides information about a queue on a line device. The lineGetQueueInfo function returns the LINEQUEUEINFO structure. This structure requires TAPI 3.0 version negotiation.
 old-location: tapi2\linequeueinfo.htm
 tech.root: Tapi
 ms.assetid: ba49404f-eb84-485f-be27-60760986d489
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLINEQUEUEINFO, LINEQUEUEINFO, LINEQUEUEINFO structure [TAPI 2.2], LPLINEQUEUEINFO, LPLINEQUEUEINFO structure pointer [TAPI 2.2], _tapi2_linequeueinfo, tapi/LINEQUEUEINFO, tapi/LPLINEQUEUEINFO, tapi2.linequeueinfo"
+ms.keywords: '*LPLINEQUEUEINFO, LINEQUEUEINFO, LINEQUEUEINFO structure [TAPI 2.2], LPLINEQUEUEINFO, LPLINEQUEUEINFO structure pointer [TAPI 2.2], _tapi2_linequeueinfo, tapi/LINEQUEUEINFO, tapi/LPLINEQUEUEINFO, tapi2.linequeueinfo'
 ms.topic: struct
-f1_keywords: 
- - "tapi/LINEQUEUEINFO"
+f1_keywords:
+- tapi/LINEQUEUEINFO
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - LINEQUEUEINFO
+- LINEQUEUEINFO
 targetos: Windows
 req.typenames: LINEQUEUEINFO, *LPLINEQUEUEINFO
 req.redist: 

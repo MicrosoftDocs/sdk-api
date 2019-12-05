@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.ITrayDeskBand.IsDeskBandShown
 title: ITrayDeskBand::IsDeskBandShown (shobjidl.h)
-
 description: Indicates whether a deskband is shown.
 old-location: shell\ITrayDeskBand_IsDeskBandShown.htm
 tech.root: shell
 ms.assetid: 969b8a91-6685-4fd8-95a1-bb9f0bfc88b5
-
 ms.date: 12/05/2018
 ms.keywords: ITrayDeskBand interface [Windows Shell],IsDeskBandShown method, ITrayDeskBand.IsDeskBandShown, ITrayDeskBand::IsDeskBandShown, IsDeskBandShown, IsDeskBandShown method [Windows Shell], IsDeskBandShown method [Windows Shell],ITrayDeskBand interface, _shell_ITrayDeskBand_IsDeskBandShown, shell.ITrayDeskBand_IsDeskBandShown, shobjidl/ITrayDeskBand::IsDeskBandShown
 ms.topic: method
-f1_keywords: 
- - "shobjidl/ITrayDeskBand.IsDeskBandShown"
+f1_keywords:
+- shobjidl/ITrayDeskBand.IsDeskBandShown
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - ITrayDeskBand.IsDeskBandShown
+- ITrayDeskBand.IsDeskBandShown
 targetos: Windows
 req.typenames: 
 req.redist: 

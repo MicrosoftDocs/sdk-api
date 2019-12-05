@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IIsdbEmergencyInformationDescriptor
 title: IIsdbEmergencyInformationDescriptor (dvbsiparser.h)
-
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) emergency information descriptor.
 old-location: mstv\iisdbemergencyinformationdescriptor.htm
 tech.root: mstv
 ms.assetid: 1d098415-1e64-4b49-aa48-654b0d0da5df
-
 ms.date: 12/05/2018
 ms.keywords: IIsdbEmergencyInformationDescriptor, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies], IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbEmergencyInformationDescriptor, mstv.iisdbemergencyinformationdescriptor
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IIsdbEmergencyInformationDescriptor"
+f1_keywords:
+- dvbsiparser/IIsdbEmergencyInformationDescriptor
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbEmergencyInformationDescriptor
+- IIsdbEmergencyInformationDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

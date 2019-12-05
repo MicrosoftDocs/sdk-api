@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionDesktopDevice.CreateSurfaceFromHandle
 title: IDCompositionDesktopDevice::CreateSurfaceFromHandle (dcomp.h)
-
 description: Creates a new composition surface object that wraps an existing composition surface.
 old-location: directcomp\idcompositiondesktopdevice_createsurfacefromhandle.htm
 tech.root: directcomp
 ms.assetid: BB0F8F27-16D8-42EB-874B-C16E8511B0B5
-
 ms.date: 12/05/2018
 ms.keywords: CreateSurfaceFromHandle, CreateSurfaceFromHandle method [DirectComposition], CreateSurfaceFromHandle method [DirectComposition],IDCompositionDesktopDevice interface, IDCompositionDesktopDevice interface [DirectComposition],CreateSurfaceFromHandle method, IDCompositionDesktopDevice.CreateSurfaceFromHandle, IDCompositionDesktopDevice::CreateSurfaceFromHandle, dcomp/IDCompositionDesktopDevice::CreateSurfaceFromHandle, directcomp.idcompositiondesktopdevice_createsurfacefromhandle
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionDesktopDevice.CreateSurfaceFromHandle"
+f1_keywords:
+- dcomp/IDCompositionDesktopDevice.CreateSurfaceFromHandle
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dcomp.h
+- dcomp.h
 api_name:
- - IDCompositionDesktopDevice.CreateSurfaceFromHandle
+- IDCompositionDesktopDevice.CreateSurfaceFromHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

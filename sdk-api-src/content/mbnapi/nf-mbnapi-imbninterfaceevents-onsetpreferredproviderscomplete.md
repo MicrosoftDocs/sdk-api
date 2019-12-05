@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceEvents.OnSetPreferredProvidersComplete
 title: IMbnInterfaceEvents::OnSetPreferredProvidersComplete (mbnapi.h)
-
 description: This notification method is called by the Mobile Broadband service to indicate the completion of a SetPreferredProviders operation.
 old-location: mbn\imbninterfaceevents_onsetpreferredproviderscomplete.htm
 tech.root: mbn
 ms.assetid: 9cd5d185-ff0f-45f4-91fc-da601d256914
-
 ms.date: 12/05/2018
 ms.keywords: E_MBN_BAD_SIM, E_MBN_PIN_REQUIRED, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnSetPreferredProvidersComplete method, IMbnInterfaceEvents.OnSetPreferredProvidersComplete, IMbnInterfaceEvents::OnSetPreferredProvidersComplete, OnSetPreferredProvidersComplete, OnSetPreferredProvidersComplete method [Microsoft Broadband Networks], OnSetPreferredProvidersComplete method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, S_OK, mbn.imbninterfaceevents_onsetpreferredproviderscomplete, mbnapi/IMbnInterfaceEvents::OnSetPreferredProvidersComplete
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnInterfaceEvents.OnSetPreferredProvidersComplete"
+f1_keywords:
+- mbnapi/IMbnInterfaceEvents.OnSetPreferredProvidersComplete
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnInterfaceEvents.OnSetPreferredProvidersComplete
+- IMbnInterfaceEvents.OnSetPreferredProvidersComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

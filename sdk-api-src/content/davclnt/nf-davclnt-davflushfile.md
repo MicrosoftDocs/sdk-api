@@ -1,19 +1,17 @@
 ---
 UID: NF:davclnt.DavFlushFile
 title: DavFlushFile function (davclnt.h)
-
 description: Flushes the data from the local version of a remote file to the WebDAV server.
 old-location: webdav\davflushfile.htm
 tech.root: WebDAV
 ms.assetid: 0022a5ba-a4b2-4289-91be-db7f52e62f91
-
 ms.date: 12/05/2018
 ms.keywords: DavFlushFile, DavFlushFile function [WebDAV], davclnt/DavFlushFile, webdav.davflushfile
 ms.topic: function
-f1_keywords: 
- - "davclnt/DavFlushFile"
+f1_keywords:
+- davclnt/DavFlushFile
 dev_langs:
- - c++
+- c++
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - netapi32.dll
- - DavHlpr.dll
- - Ext-MS-Win-Rdr-DavHlpr-L1-1-0.dll
+- netapi32.dll
+- DavHlpr.dll
+- Ext-MS-Win-Rdr-DavHlpr-L1-1-0.dll
 api_name:
- - DavFlushFile
+- DavFlushFile
 targetos: Windows
 req.typenames: 
 req.redist: 

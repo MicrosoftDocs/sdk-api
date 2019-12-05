@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.NotifyCommandProcessCreated
 title: IWRdsProtocolConnection::NotifyCommandProcessCreated (wtsprotocol.h)
-
 description: Notifies the protocol that the Winlogon.exe process has been created and initialized.
 old-location: termserv\iwrdsprotocolconnection_notifycommandprocesscreated.htm
 tech.root: TermServ
 ms.assetid: B2A9CC5A-6E6E-418D-9C03-FDF207AFB683
-
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],NotifyCommandProcessCreated method, IWRdsProtocolConnection.NotifyCommandProcessCreated, IWRdsProtocolConnection::NotifyCommandProcessCreated, NotifyCommandProcessCreated, NotifyCommandProcessCreated method [Remote Desktop Services], NotifyCommandProcessCreated method [Remote Desktop Services],IWRdsProtocolConnection interface, termserv.iwrdsprotocolconnection_notifycommandprocesscreated, wtsprotocol/IWRdsProtocolConnection::NotifyCommandProcessCreated
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolConnection.NotifyCommandProcessCreated"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolConnection.NotifyCommandProcessCreated
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolConnection.NotifyCommandProcessCreated
+- IWRdsProtocolConnection.NotifyCommandProcessCreated
 targetos: Windows
 req.typenames: 
 req.redist: 

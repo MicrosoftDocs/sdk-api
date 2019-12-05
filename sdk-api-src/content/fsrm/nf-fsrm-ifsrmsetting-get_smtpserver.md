@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrm.IFsrmSetting.get_SmtpServer
 title: IFsrmSetting::get_SmtpServer (fsrm.h)
-
 description: Retrieves or sets the SMTP server that FSRM uses to send email.
 old-location: fsrm\ifsrmsetting_smtpserver.htm
 tech.root: fsrm
 ms.assetid: 3d16e478-6e53-44d4-85ca-a4c508d138de
-
 ms.date: 12/05/2018
 ms.keywords: FsrmSetting class [File Server Resource Manager],SmtpServer property, IFsrmSetting interface [File Server Resource Manager],SmtpServer property, IFsrmSetting.SmtpServer, IFsrmSetting.get_SmtpServer, IFsrmSetting::SmtpServer, IFsrmSetting::get_SmtpServer, IFsrmSetting::put_SmtpServer, SmtpServer property [File Server Resource Manager], SmtpServer property [File Server Resource Manager],FsrmSetting class, SmtpServer property [File Server Resource Manager],IFsrmSetting interface, fs.ifsrmsetting_smtpserver, fsrm.ifsrmsetting_smtpserver, fsrm/IFsrmSetting::SmtpServer, fsrm/IFsrmSetting::get_SmtpServer, fsrm/IFsrmSetting::put_SmtpServer, get_SmtpServer
 ms.topic: method
-f1_keywords: 
- - "fsrm/IFsrmSetting.SmtpServer"
+f1_keywords:
+- fsrm/IFsrmSetting.SmtpServer
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmSetting.SmtpServer
- - IFsrmSetting.get_SmtpServer
- - IFsrmSetting.put_SmtpServer
- - FsrmSetting.SmtpServer
+- IFsrmSetting.SmtpServer
+- IFsrmSetting.get_SmtpServer
+- IFsrmSetting.put_SmtpServer
+- FsrmSetting.SmtpServer
 targetos: Windows
 req.typenames: 
 req.redist: 

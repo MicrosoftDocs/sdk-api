@@ -1,19 +1,17 @@
 ---
 UID: NS:ncrypt.NCRYPT_ALLOC_PARA
 title: NCRYPT_ALLOC_PARA (ncrypt.h)
-
 description: Enables you to specify custom functions that can be used to allocate and free data.
 old-location: security\ncrypt_alloc_para.htm
 tech.root: SecCNG
 ms.assetid: 4F546F51-E4DE-4703-B1D1-F84165C3C31B
-
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_ALLOC_PARA, NCRYPT_ALLOC_PARA structure [Security], PNCRYPT_ALLOC_PARA, PNCRYPT_ALLOC_PARA structure pointer [Security], ncrypt/NCRYPT_ALLOC_PARA, ncrypt/PNCRYPT_ALLOC_PARA, security.ncrypt_alloc_para
 ms.topic: struct
-f1_keywords: 
- - "ncrypt/NCRYPT_ALLOC_PARA"
+f1_keywords:
+- ncrypt/NCRYPT_ALLOC_PARA
 dev_langs:
- - c++
+- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ncrypt.h
+- Ncrypt.h
 api_name:
- - NCRYPT_ALLOC_PARA
+- NCRYPT_ALLOC_PARA
 targetos: Windows
 req.typenames: NCRYPT_ALLOC_PARA
 req.redist: 

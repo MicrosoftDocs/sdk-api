@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.FSCTL_CSV_CONTROL
 title: FSCTL_CSV_CONTROL
-
 description: Retrieves the results of a CSV control operation.
 old-location: fs\fsctl_csv_control.htm
 tech.root: FileIO
 ms.assetid: 6CCCD5CA-FF29-41D4-B687-E403CADABF84
-
 ms.date: 12/05/2018
 ms.keywords: FSCTL_CSV_CONTROL, FSCTL_CSV_CONTROL control, FSCTL_CSV_CONTROL control code [Files], fs.fsctl_csv_control, winioctl/FSCTL_CSV_CONTROL
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_CSV_CONTROL
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

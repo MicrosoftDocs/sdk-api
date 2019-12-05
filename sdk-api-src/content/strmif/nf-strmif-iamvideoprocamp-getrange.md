@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMVideoProcAmp.GetRange
 title: IAMVideoProcAmp::GetRange (strmif.h)
-
 description: The GetRange method gets the range and default value of a specified video property.
 old-location: dshow\iamvideoprocamp_getrange.htm
 tech.root: DirectShow
 ms.assetid: 54e462a8-bb65-43e2-acf1-f0d64db2bf24
-
 ms.date: 12/05/2018
 ms.keywords: GetRange, GetRange method [DirectShow], GetRange method [DirectShow],IAMVideoProcAmp interface, IAMVideoProcAmp interface [DirectShow],GetRange method, IAMVideoProcAmp.GetRange, IAMVideoProcAmp::GetRange, IAMVideoProcAmpGetRange, dshow.iamvideoprocamp_getrange, strmif/IAMVideoProcAmp::GetRange
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMVideoProcAmp.GetRange"
+f1_keywords:
+- strmif/IAMVideoProcAmp.GetRange
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVideoProcAmp.GetRange
+- IAMVideoProcAmp.GetRange
 targetos: Windows
 req.typenames: 
 req.redist: 

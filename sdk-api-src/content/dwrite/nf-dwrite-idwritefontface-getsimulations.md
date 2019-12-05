@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.GetSimulations
 title: IDWriteFontFace::GetSimulations (dwrite.h)
-
 description: Obtains the algorithmic style simulation flags of a font face.
 old-location: directwrite\idwritefontface_getsimulations.htm
 tech.root: DirectWrite
 ms.assetid: 409f5e6e-af3c-4d31-968c-d26a89aa1e9d
-
 ms.date: 12/05/2018
 ms.keywords: GetSimulations, GetSimulations method [Direct Write], GetSimulations method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetSimulations method, IDWriteFontFace.GetSimulations, IDWriteFontFace::GetSimulations, directwrite.idwritefontface_getsimulations, dwrite/IDWriteFontFace::GetSimulations
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteFontFace.GetSimulations"
+f1_keywords:
+- dwrite/IDWriteFontFace.GetSimulations
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFace.GetSimulations
+- IDWriteFontFace.GetSimulations
 targetos: Windows
 req.typenames: 
 req.redist: 

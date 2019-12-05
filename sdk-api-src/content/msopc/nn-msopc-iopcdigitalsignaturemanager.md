@@ -1,19 +1,17 @@
 ---
 UID: NN:msopc.IOpcDigitalSignatureManager
 title: IOpcDigitalSignatureManager (msopc.h)
-
 description: Provides access to Packaging Digital Signature Interfaces for a package that is represented by Packaging API objects.
 old-location: opc\iopcdigitalsignaturemanager.htm
 tech.root: OPC
 ms.assetid: 13e8a7b9-1d25-421b-bc81-adc495e6d9c7
-
 ms.date: 12/05/2018
 ms.keywords: IOpcDigitalSignatureManager, IOpcDigitalSignatureManager interface [Open Packaging Conventions], IOpcDigitalSignatureManager interface [Open Packaging Conventions],described, msopc/IOpcDigitalSignatureManager, opc.iopcdigitalsignaturemanager
 ms.topic: interface
-f1_keywords: 
- - "msopc/IOpcDigitalSignatureManager"
+f1_keywords:
+- msopc/IOpcDigitalSignatureManager
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcDigitalSignatureManager
+- IOpcDigitalSignatureManager
 targetos: Windows
 req.typenames: 
 req.redist: 

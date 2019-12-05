@@ -1,19 +1,17 @@
 ---
 UID: NN:oaidl.ITypeLib2
 title: ITypeLib2 (oaidl.h)
-
 description: Represents a type library, the data that describes a set of objects.
 old-location: automat\itypelib2.htm
 tech.root: automat
 ms.assetid: 47561b53-3f7b-4939-8b86-5acb5eaeea5a
-
 ms.date: 12/05/2018
 ms.keywords: ITypeLib2, ITypeLib2 interface [Automation], ITypeLib2 interface [Automation],described, _oa96_ITypeLib2_Interface, automat.itypelib2, oaidl/ITypeLib2
 ms.topic: interface
-f1_keywords: 
- - "oaidl/ITypeLib2"
+f1_keywords:
+- oaidl/ITypeLib2
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeLib2
+- ITypeLib2
 targetos: Windows
 req.typenames: 
 req.redist: 

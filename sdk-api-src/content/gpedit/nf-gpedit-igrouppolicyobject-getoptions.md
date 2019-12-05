@@ -1,19 +1,17 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.GetOptions
 title: IGroupPolicyObject::GetOptions (gpedit.h)
-
 description: The GetOptions method retrieves the options for the GPO.
 old-location: policy\igrouppolicyobject_getoptions.htm
 tech.root: Policy
 ms.assetid: a4b86196-04c8-4ec1-bf26-2a33e44020d2
-
 ms.date: 12/05/2018
 ms.keywords: GPO_OPTION_DISABLE_MACHINE, GPO_OPTION_DISABLE_USER, GetOptions, GetOptions method [Group Policy], GetOptions method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetOptions method, IGroupPolicyObject.GetOptions, IGroupPolicyObject::GetOptions, _win32_igrouppolicyobject_getoptions, gpedit/IGroupPolicyObject::GetOptions, policy.igrouppolicyobject_getoptions
 ms.topic: method
-f1_keywords: 
- - "gpedit/IGroupPolicyObject.GetOptions"
+f1_keywords:
+- gpedit/IGroupPolicyObject.GetOptions
 dev_langs:
- - c++
+- c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpedit.dll
+- Gpedit.dll
 api_name:
- - IGroupPolicyObject.GetOptions
+- IGroupPolicyObject.GetOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

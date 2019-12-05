@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ImageList_AddIcon
 title: ImageList_AddIcon macro (commctrl.h)
-
 description: Adds an icon or cursor to an image list. ImageList_AddIcon calls the ImageList_ReplaceIcon function.
 old-location: controls\ImageList_AddIcon.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\macros\imagelist_addicon.htm
-
 ms.date: 12/05/2018
 ms.keywords: ImageList_AddIcon, ImageList_AddIcon macro [Windows Controls], _win32_ImageList_AddIcon, _win32_ImageList_AddIcon_cpp, commctrl/ImageList_AddIcon, controls.ImageList_AddIcon, controls._win32_ImageList_AddIcon
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ImageList_AddIcon"
+f1_keywords:
+- commctrl/ImageList_AddIcon
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ImageList_AddIcon
+- ImageList_AddIcon
 targetos: Windows
 req.typenames: 
 req.redist: 

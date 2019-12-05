@@ -1,19 +1,17 @@
 ---
 UID: NF:dsparse.DsUnquoteRdnValueW
 title: DsUnquoteRdnValueW function (dsparse.h)
-
 description: The DsUnquoteRdnValue function is a client call that converts a quoted RDN value back to an unquoted RDN value.
 old-location: ad\dsunquoterdnvalue.htm
 tech.root: ad
 ms.assetid: 6e3dd220-ba98-46b5-8522-93cbe2029aa4
-
 ms.date: 12/05/2018
 ms.keywords: DsUnquoteRdnValue, DsUnquoteRdnValue function [Active Directory], DsUnquoteRdnValueA, DsUnquoteRdnValueW, ERROR_BUFFER_OVERFLOW, ERROR_SUCCESS, _glines_dsunquoterdnvalue, ad.dsunquoterdnvalue, dsparse/DsUnquoteRdnValue, dsparse/DsUnquoteRdnValueA, dsparse/DsUnquoteRdnValueW
 ms.topic: function
-f1_keywords: 
- - "dsparse/DsUnquoteRdnValue"
+f1_keywords:
+- dsparse/DsUnquoteRdnValue
 dev_langs:
- - c++
+- c++
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
+- Ntdsapi.dll
 api_name:
- - DsUnquoteRdnValue
- - DsUnquoteRdnValueA
- - DsUnquoteRdnValueW
+- DsUnquoteRdnValue
+- DsUnquoteRdnValueA
+- DsUnquoteRdnValueW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:codecapi.eAVDecVideoSWPowerLevel
 title: eAVDecVideoSWPowerLevel (codecapi.h)
-
 description: Specifies the power-saving level of a video decoder.
 old-location: dshow\eavdecvideoswpowerlevel.htm
 tech.root: DirectShow
 ms.assetid: bf1c4c79-8e45-43ac-a203-444a00240eed
-
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVDecVideoSWPowerLevel, codecapi/eAVDecVideoSWPowerLevel_Balanced, codecapi/eAVDecVideoSWPowerLevel_BatteryLife, codecapi/eAVDecVideoSWPowerLevel_VideoQuality, dshow.eavdecvideoswpowerlevel, eAVDecVideoSWPowerLevel, eAVDecVideoSWPowerLevel enumeration [DirectShow], eAVDecVideoSWPowerLevel_Balanced, eAVDecVideoSWPowerLevel_BatteryLife, eAVDecVideoSWPowerLevel_VideoQuality
 ms.topic: enum
-f1_keywords: 
- - "codecapi/eAVDecVideoSWPowerLevel"
+f1_keywords:
+- codecapi/eAVDecVideoSWPowerLevel
 dev_langs:
- - c++
+- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - codecapi.h
+- codecapi.h
 api_name:
- - eAVDecVideoSWPowerLevel
+- eAVDecVideoSWPowerLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

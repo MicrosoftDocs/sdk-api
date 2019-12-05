@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiGetCustomDevicePropertyA
 title: SetupDiGetCustomDevicePropertyA function (setupapi.h)
-
 description: The SetupDiGetCustomDeviceProperty function retrieves a specified custom device property from the registry.
 old-location: devinst\setupdigetcustomdeviceproperty.htm
 tech.root: devinst
 ms.assetid: 5b8f58ce-0f6f-4de3-82c8-6cfa7c842edc
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetCustomDeviceProperty, SetupDiGetCustomDeviceProperty function [Device and Driver Installation], SetupDiGetCustomDevicePropertyA, SetupDiGetCustomDevicePropertyW, devinst.setupdigetcustomdeviceproperty, di-rtns_ec69099c-ea3f-47f8-bc14-c10dbd7cba0e.xml, setupapi/SetupDiGetCustomDeviceProperty, setupapi/SetupDiGetCustomDevicePropertyA, setupapi/SetupDiGetCustomDevicePropertyW
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetCustomDeviceProperty
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

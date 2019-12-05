@@ -1,19 +1,17 @@
 ---
 UID: NF:interactioncontext.SetPropertyInteractionContext
 title: SetPropertyInteractionContext function (interactioncontext.h)
-
 description: Sets Interaction Context object properties.
 old-location: input_intcontext\setpropertyinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: da24831e-9f9f-4a9f-92bf-60e1c5338554
-
 ms.date: 12/05/2018
 ms.keywords: SetPropertyInteractionContext, SetPropertyInteractionContext function, input_intcontext.setpropertyinteractioncontext, interactioncontext.setpropertyinteractioncontext, interactioncontext/SetPropertyInteractionContext
 ms.topic: function
-f1_keywords: 
- - "interactioncontext/SetPropertyInteractionContext"
+f1_keywords:
+- interactioncontext/SetPropertyInteractionContext
 dev_langs:
- - c++
+- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ninput.lib
 req.dll: Ninput.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ninput.dll
- - API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
- - IE_Shims.dll
+- ninput.dll
+- API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
+- IE_Shims.dll
 api_name:
- - SetPropertyInteractionContext
+- SetPropertyInteractionContext
 targetos: Windows
 req.typenames: 
 req.redist: 

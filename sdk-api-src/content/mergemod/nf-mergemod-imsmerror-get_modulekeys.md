@@ -1,19 +1,17 @@
 ---
 UID: NF:mergemod.IMsmError.get_ModuleKeys
 title: IMsmError::get_ModuleKeys (mergemod.h)
-
 description: The get_ModuleKeys method retrieves the ModuleKeys property of the Error object. This method returns a pointer to a string collection that contains the primary keys of the row in the module causing the error, one key per entry in the collection.
 old-location: setup\imsmerror_get_modulekeys.htm
 tech.root: Msi
 ms.assetid: f2f483c7-8d38-416e-af92-fd7ab6aef459
-
 ms.date: 12/05/2018
 ms.keywords: IMsmError interface,get_ModuleKeys method, IMsmError.get_ModuleKeys, IMsmError::get_ModuleKeys, _msi_get_modulekeys_function, get_ModuleKeys, get_ModuleKeys method, get_ModuleKeys method,IMsmError interface, mergemod/IMsmError::get_ModuleKeys, setup.imsmerror_get_modulekeys
 ms.topic: method
-f1_keywords: 
- - "mergemod/IMsmError.get_ModuleKeys"
+f1_keywords:
+- mergemod/IMsmError.get_ModuleKeys
 dev_langs:
- - c++
+- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mergemod.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mergemod.dll
+- Mergemod.dll
 api_name:
- - IMsmError.get_ModuleKeys
+- IMsmError.get_ModuleKeys
 targetos: Windows
 req.typenames: 
 req.redist: 

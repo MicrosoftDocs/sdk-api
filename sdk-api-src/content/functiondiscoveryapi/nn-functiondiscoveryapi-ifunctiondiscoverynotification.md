@@ -1,19 +1,17 @@
 ---
 UID: NN:functiondiscoveryapi.IFunctionDiscoveryNotification
 title: IFunctionDiscoveryNotification (functiondiscoveryapi.h)
-
 description: This interface is implemented by the client program to support asynchronous queries and is called by Function Discovery to notify the client program when a function instance that meets the query parameters has been added or removed.
 old-location: ncd\ifunctiondiscoverynotification.htm
 tech.root: FunDisc
 ms.assetid: 1819fe08-b151-482d-8e2c-1d599fd15609
-
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryNotification, IFunctionDiscoveryNotification interface, IFunctionDiscoveryNotification interface,described, functiondiscoveryapi/IFunctionDiscoveryNotification, ncd.ifunctiondiscoverynotification
 ms.topic: interface
-f1_keywords: 
- - "functiondiscoveryapi/IFunctionDiscoveryNotification"
+f1_keywords:
+- functiondiscoveryapi/IFunctionDiscoveryNotification
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - functiondiscoveryapi.h
+- functiondiscoveryapi.h
 api_name:
- - IFunctionDiscoveryNotification
+- IFunctionDiscoveryNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

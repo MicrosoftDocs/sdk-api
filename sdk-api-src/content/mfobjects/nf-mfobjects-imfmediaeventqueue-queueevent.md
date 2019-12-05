@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFMediaEventQueue.QueueEvent
 title: IMFMediaEventQueue::QueueEvent (mfobjects.h)
-
 description: Puts an event in the queue.
 old-location: mf\imfmediaeventqueue_queueevent.htm
 tech.root: medfound
 ms.assetid: eb04ce9f-fb64-438f-ad4d-ba1fb849d59c
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEventQueue interface [Media Foundation],QueueEvent method, IMFMediaEventQueue.QueueEvent, IMFMediaEventQueue::QueueEvent, QueueEvent, QueueEvent method [Media Foundation], QueueEvent method [Media Foundation],IMFMediaEventQueue interface, eb04ce9f-fb64-438f-ad4d-ba1fb849d59c, mf.imfmediaeventqueue_queueevent, mfobjects/IMFMediaEventQueue::QueueEvent
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFMediaEventQueue.QueueEvent"
+f1_keywords:
+- mfobjects/IMFMediaEventQueue.QueueEvent
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaEventQueue.QueueEvent
+- IMFMediaEventQueue.QueueEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

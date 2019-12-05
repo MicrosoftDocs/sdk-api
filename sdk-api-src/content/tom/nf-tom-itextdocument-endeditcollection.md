@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextDocument.EndEditCollection
 title: ITextDocument::EndEditCollection (tom.h)
-
 description: Turns off edit collection (also called undo grouping).
 old-location: controls\ITextDocument_EndEditCollection.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\endeditcollection.htm
-
 ms.date: 12/05/2018
 ms.keywords: EndEditCollection, EndEditCollection method [Windows Controls], EndEditCollection method [Windows Controls],ITextDocument interface, ITextDocument interface [Windows Controls],EndEditCollection method, ITextDocument.EndEditCollection, ITextDocument::EndEditCollection, _win32_ITextDocument_EndEditCollection, _win32_ITextDocument_EndEditCollection_cpp, controls.ITextDocument_EndEditCollection, controls._win32_ITextDocument_EndEditCollection, tom/ITextDocument::EndEditCollection
 ms.topic: method
-f1_keywords: 
- - "tom/ITextDocument.EndEditCollection"
+f1_keywords:
+- tom/ITextDocument.EndEditCollection
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextDocument.EndEditCollection
+- ITextDocument.EndEditCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

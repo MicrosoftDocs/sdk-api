@@ -1,19 +1,17 @@
 ---
 UID: NE:mprapi._RAS_PORT_CONDITION
 title: RAS_PORT_CONDITION (mprapi.h)
-
 description: The RAS_PORT_CONDITION enumerated type specifies information regarding the connection condition of a given RAS port.
 old-location: rras\ras_port_condition.htm
 tech.root: RRAS
 ms.assetid: 86bcca08-97c5-404c-b5d9-a90d93f26e00
-
 ms.date: 12/05/2018
 ms.keywords: RAS_PORT_AUTHENTICATED, RAS_PORT_AUTHENTICATING, RAS_PORT_CALLING_BACK, RAS_PORT_CONDITION, RAS_PORT_CONDITION enumeration [RAS], RAS_PORT_DISCONNECTED, RAS_PORT_INITIALIZING, RAS_PORT_LISTENING, RAS_PORT_NON_OPERATIONAL, _mpr_ras_port_condition, mprapi/RAS_PORT_AUTHENTICATED, mprapi/RAS_PORT_AUTHENTICATING, mprapi/RAS_PORT_CALLING_BACK, mprapi/RAS_PORT_CONDITION, mprapi/RAS_PORT_DISCONNECTED, mprapi/RAS_PORT_INITIALIZING, mprapi/RAS_PORT_LISTENING, mprapi/RAS_PORT_NON_OPERATIONAL, rras.ras_port_condition
 ms.topic: enum
-f1_keywords: 
- - "mprapi/RAS_PORT_CONDITION"
+f1_keywords:
+- mprapi/RAS_PORT_CONDITION
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - RAS_PORT_CONDITION
+- RAS_PORT_CONDITION
 targetos: Windows
 req.typenames: RAS_PORT_CONDITION
 req.redist: 

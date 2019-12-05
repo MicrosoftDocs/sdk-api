@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1.D2D1_DRAW_TEXT_OPTIONS
 title: D2D1_DRAW_TEXT_OPTIONS (d2d1.h)
-
 description: Specifies whether text snapping is suppressed or clipping to the layout rectangle is enabled. This enumeration allows a bitwise combination of its member values.
 old-location: direct2d\D2D1_DRAW_TEXT_OPTIONS.htm
 tech.root: Direct2D
 ms.assetid: 30f5be4a-83c2-4039-8e09-00e842fc5eb2
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_DRAW_TEXT_OPTIONS, D2D1_DRAW_TEXT_OPTIONS enumeration [Direct2D], D2D1_DRAW_TEXT_OPTIONS_CLIP, D2D1_DRAW_TEXT_OPTIONS_DISABLE_COLOR_BITMAP_SNAPPING, D2D1_DRAW_TEXT_OPTIONS_ENABLE_COLOR_FONT, D2D1_DRAW_TEXT_OPTIONS_NONE, D2D1_DRAW_TEXT_OPTIONS_NO_SNAP, d2d1/D2D1_DRAW_TEXT_OPTIONS, d2d1/D2D1_DRAW_TEXT_OPTIONS_CLIP, d2d1/D2D1_DRAW_TEXT_OPTIONS_DISABLE_COLOR_BITMAP_SNAPPING, d2d1/D2D1_DRAW_TEXT_OPTIONS_ENABLE_COLOR_FONT, d2d1/D2D1_DRAW_TEXT_OPTIONS_NONE, d2d1/D2D1_DRAW_TEXT_OPTIONS_NO_SNAP, direct2d.D2D1_DRAW_TEXT_OPTIONS
 ms.topic: enum
-f1_keywords: 
- - "d2d1/D2D1_DRAW_TEXT_OPTIONS"
+f1_keywords:
+- d2d1/D2D1_DRAW_TEXT_OPTIONS
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1.h
+- d2d1.h
 api_name:
- - D2D1_DRAW_TEXT_OPTIONS
+- D2D1_DRAW_TEXT_OPTIONS
 targetos: Windows
 req.typenames: D2D1_DRAW_TEXT_OPTIONS
 req.redist: 

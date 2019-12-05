@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsFreeHeap
 title: WsFreeHeap function (webservices.h)
-
 description: This frees the heap object, and the memory associated with any allocations made on it using WsAlloc.
 old-location: wsw\wsfreeheap.htm
 tech.root: wsw
 ms.assetid: ec643915-8c4b-4916-b390-d6ca043350db
-
 ms.date: 12/05/2018
 ms.keywords: WsFreeHeap, WsFreeHeap function [Web Services for Windows], webservices/WsFreeHeap, wsw.wsfreeheap
 ms.topic: function
-f1_keywords: 
- - "webservices/WsFreeHeap"
+f1_keywords:
+- webservices/WsFreeHeap
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsFreeHeap
+- WsFreeHeap
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.MCIWndValidateMedia
 title: MCIWndValidateMedia macro (vfw.h)
-
 description: The MCIWndValidateMedia macro updates the starting and ending locations of the content, the current position in the content, and the trackbar according to the current time format.
 old-location: multimedia\mciwndvalidatemedia.htm
 tech.root: Multimedia
 ms.assetid: 25dc3d0c-6718-4155-9a60-e140da0473e8
-
 ms.date: 12/05/2018
 ms.keywords: MCIWndValidateMedia, MCIWndValidateMedia macro [Windows Multimedia], _win32_MCIWndValidateMedia, multimedia.mciwndvalidatemedia, vfw/MCIWndValidateMedia
 ms.topic: macro
-f1_keywords: 
- - "vfw/MCIWndValidateMedia"
+f1_keywords:
+- vfw/MCIWndValidateMedia
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - MCIWndValidateMedia
+- MCIWndValidateMedia
 targetos: Windows
 req.typenames: 
 req.redist: 

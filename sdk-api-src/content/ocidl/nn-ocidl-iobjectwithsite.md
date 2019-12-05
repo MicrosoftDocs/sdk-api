@@ -1,19 +1,17 @@
 ---
 UID: NN:ocidl.IObjectWithSite
 title: IObjectWithSite (ocidl.h)
-
 description: Provides a simple way to support communication between an object and its site in the container.
 old-location: com\iobjectwithsite.htm
 tech.root: com
 ms.assetid: e688136e-e06b-46ba-bec9-b8db2f9c468d
-
 ms.date: 12/05/2018
 ms.keywords: IObjectWithSite, IObjectWithSite interface [COM], IObjectWithSite interface [COM],described, _ole_iobjectwithsite, com.iobjectwithsite, ocidl/IObjectWithSite
 ms.topic: interface
-f1_keywords: 
- - "ocidl/IObjectWithSite"
+f1_keywords:
+- ocidl/IObjectWithSite
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IObjectWithSite
+- IObjectWithSite
 targetos: Windows
 req.typenames: 
 req.redist: 

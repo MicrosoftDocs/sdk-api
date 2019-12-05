@@ -1,19 +1,17 @@
 ---
 UID: NF:objidlbase.IGlobalOptions.Set
 title: IGlobalOptions::Set (objidlbase.h)
-
 description: Sets the specified global property of the COM runtime.
 old-location: com\iglobaloptions_set.htm
 tech.root: com
 ms.assetid: 5a59c862-64a4-45b5-8b6b-dacbfb4d170b
-
 ms.date: 12/05/2018
 ms.keywords: IGlobalOptions interface [COM],Set method, IGlobalOptions.Set, IGlobalOptions::Set, Set, Set method [COM], Set method [COM],IGlobalOptions interface, _com_iglobaloptions_set, com.iglobaloptions_set, objidlbase/IGlobalOptions::Set
 ms.topic: method
-f1_keywords: 
- - "objidlbase/IGlobalOptions.Set"
+f1_keywords:
+- objidlbase/IGlobalOptions.Set
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IGlobalOptions.Set
+- IGlobalOptions.Set
 targetos: Windows
 req.typenames: 
 req.redist: 

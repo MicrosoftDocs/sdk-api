@@ -1,19 +1,17 @@
 ---
 UID: NS:ocidl.tagQACONTROL
 title: QACONTROL (ocidl.h)
-
 description: Specifies control information for IQuickActivate::QuickActivate.
 old-location: com\qacontrol.htm
 tech.root: com
 ms.assetid: dd7ee4b1-2ad9-4ceb-b569-9988696760e8
-
 ms.date: 12/05/2018
 ms.keywords: QACONTROL, QACONTROL structure [COM], _ctrl_QACONTROL, com.qacontrol, ocidl/QACONTROL
 ms.topic: struct
-f1_keywords: 
- - "ocidl/QACONTROL"
+f1_keywords:
+- ocidl/QACONTROL
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - QACONTROL
+- QACONTROL
 targetos: Windows
 req.typenames: QACONTROL
 req.redist: 

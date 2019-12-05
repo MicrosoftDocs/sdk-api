@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d12.ID3D12DescriptorHeap
 title: ID3D12DescriptorHeap (d3d12.h)
-
 description: A descriptor heap is a collection of contiguous allocations of descriptors, one allocation for every descriptor.
 old-location: direct3d12\id3d12descriptorheap.htm
 tech.root: direct3d12
 ms.assetid: B6FF011B-3FED-425B-B9D5-A823E6915FD5
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12DescriptorHeap, ID3D12DescriptorHeap interface, ID3D12DescriptorHeap interface,described, d3d12/ID3D12DescriptorHeap, direct3d12.id3d12descriptorheap
 ms.topic: interface
-f1_keywords: 
- - "d3d12/ID3D12DescriptorHeap"
+f1_keywords:
+- d3d12/ID3D12DescriptorHeap
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12DescriptorHeap
+- ID3D12DescriptorHeap
 targetos: Windows
 req.typenames: 
 req.redist: 

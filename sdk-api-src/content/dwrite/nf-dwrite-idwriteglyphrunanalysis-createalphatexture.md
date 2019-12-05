@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteGlyphRunAnalysis.CreateAlphaTexture
 title: IDWriteGlyphRunAnalysis::CreateAlphaTexture (dwrite.h)
-
 description: Creates an alpha texture of the specified type for glyphs within a specified bounding rectangle.
 old-location: directwrite\IDWriteGlyphRunAnalysis_CreateAlphaTexture.htm
 tech.root: DirectWrite
 ms.assetid: a3a28efa-b235-4608-8410-15cc0ebfe38e
-
 ms.date: 12/05/2018
 ms.keywords: CreateAlphaTexture, CreateAlphaTexture method [Direct Write], CreateAlphaTexture method [Direct Write],IDWriteGlyphRunAnalysis interface, IDWriteGlyphRunAnalysis interface [Direct Write],CreateAlphaTexture method, IDWriteGlyphRunAnalysis.CreateAlphaTexture, IDWriteGlyphRunAnalysis::CreateAlphaTexture, directwrite.IDWriteGlyphRunAnalysis_CreateAlphaTexture, dwrite/IDWriteGlyphRunAnalysis::CreateAlphaTexture
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteGlyphRunAnalysis.CreateAlphaTexture"
+f1_keywords:
+- dwrite/IDWriteGlyphRunAnalysis.CreateAlphaTexture
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteGlyphRunAnalysis.CreateAlphaTexture
+- IDWriteGlyphRunAnalysis.CreateAlphaTexture
 targetos: Windows
 req.typenames: 
 req.redist: 

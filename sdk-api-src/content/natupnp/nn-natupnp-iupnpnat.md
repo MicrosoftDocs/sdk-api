@@ -1,19 +1,17 @@
 ---
 UID: NN:natupnp.IUPnPNAT
 title: IUPnPNAT (natupnp.h)
-
 description: The IUPnPNAT interface is the primary interface for managing Network Address Translation (NAT) with UPnP. The IUPnPNAT interface provides access directly or indirectly to all the other interfaces in the NAT API with UPnP technology.
 old-location: ics\iupnpnat.htm
 tech.root: ics
 ms.assetid: bfd93967-a514-4301-9b1e-0fee8794d929
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPNAT, IUPnPNAT interface [ICS/ICF], IUPnPNAT interface [ICS/ICF],described, _ics_iupnpnat, ics.iupnpnat, natupnp/IUPnPNAT
 ms.topic: interface
-f1_keywords: 
- - "natupnp/IUPnPNAT"
+f1_keywords:
+- natupnp/IUPnPNAT
 dev_langs:
- - c++
+- c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - IUPnPNAT
- - IUPnPNAT.get_DynamicPortMappingCollection
+- IUPnPNAT
+- IUPnPNAT.get_DynamicPortMappingCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

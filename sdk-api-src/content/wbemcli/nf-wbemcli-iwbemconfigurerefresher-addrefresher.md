@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemConfigureRefresher.AddRefresher
 title: IWbemConfigureRefresher::AddRefresher (wbemcli.h)
-
 description: The IWbemConfigureRefresher::AddRefresher method adds a refresher to a refresher.
 old-location: wmi\iwbemconfigurerefresher_addrefresher.htm
 tech.root: WmiSdk
 ms.assetid: 17eaf6b0-e2e1-4a23-952d-2439da89f765
-
 ms.date: 12/05/2018
 ms.keywords: AddRefresher, AddRefresher method [Windows Management Instrumentation], AddRefresher method [Windows Management Instrumentation],IWbemConfigureRefresher interface, IWbemConfigureRefresher interface [Windows Management Instrumentation],AddRefresher method, IWbemConfigureRefresher.AddRefresher, IWbemConfigureRefresher::AddRefresher, _hmm_iwbemconfigurerefresher_addrefresher, wbemcli/IWbemConfigureRefresher::AddRefresher, wmi.iwbemconfigurerefresher_addrefresher
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemConfigureRefresher.AddRefresher"
+f1_keywords:
+- wbemcli/IWbemConfigureRefresher.AddRefresher
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wbemuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wbemuuid.lib
- - Wbemuuid.dll
+- Wbemuuid.lib
+- Wbemuuid.dll
 api_name:
- - IWbemConfigureRefresher.AddRefresher
+- IWbemConfigureRefresher.AddRefresher
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ktmw32.OpenTransactionManagerById
 title: OpenTransactionManagerById function (ktmw32.h)
-
 description: Opens an existing transaction manager.
 old-location: fs\opentransactionmanagerbyid.htm
 tech.root: ktm
 ms.assetid: 4724383d-8ecf-40cb-8159-15a6d5ddfd1b
-
 ms.date: 12/05/2018
 ms.keywords: OpenTransactionManagerById, OpenTransactionManagerById function [Files], fs.opentransactionmanagerbyid, ktmw32/OpenTransactionManagerById
 ms.topic: function
-f1_keywords: 
- - "ktmw32/OpenTransactionManagerById"
+f1_keywords:
+- ktmw32/OpenTransactionManagerById
 dev_langs:
- - c++
+- c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ktmw32.lib
 req.dll: Ktmw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ktmw32.dll
+- Ktmw32.dll
 api_name:
- - OpenTransactionManagerById
+- OpenTransactionManagerById
 targetos: Windows
 req.typenames: 
 req.redist: 

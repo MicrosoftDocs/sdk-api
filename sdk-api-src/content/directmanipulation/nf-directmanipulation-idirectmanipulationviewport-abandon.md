@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.Abandon
 title: IDirectManipulationViewport::Abandon (directmanipulation.h)
-
 description: Releases all resources that are used by the viewport and prepares it for destruction from memory.
 old-location: directmanipulation\idirectmanipulationviewport_abandon.htm
 tech.root: directmanipulation
 ms.assetid: 83d0bcde-03d2-4eba-991a-399b5307c8bd
-
 ms.date: 12/05/2018
 ms.keywords: Abandon, Abandon method [Direct Manipulation], Abandon method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],Abandon method, IDirectManipulationViewport.Abandon, IDirectManipulationViewport::Abandon, directmanipulation.idirectmanipulationviewport_abandon, directmanipulation/IDirectManipulationViewport::Abandon
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationViewport.Abandon"
+f1_keywords:
+- directmanipulation/IDirectManipulationViewport.Abandon
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.Abandon
+- IDirectManipulationViewport.Abandon
 targetos: Windows
 req.typenames: 
 req.redist: 

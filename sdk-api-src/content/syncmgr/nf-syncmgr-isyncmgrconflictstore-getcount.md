@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictStore.GetCount
 title: ISyncMgrConflictStore::GetCount (syncmgr.h)
-
 description: Gets the number of conflicts in the store.
 old-location: shell\ISyncMgrConflictStore_GetCount.htm
 tech.root: shell
 ms.assetid: 1a41bc9a-6f5d-47bf-9186-711292d8be07
-
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Windows Shell], GetCount method [Windows Shell],ISyncMgrConflictStore interface, ISyncMgrConflictStore interface [Windows Shell],GetCount method, ISyncMgrConflictStore.GetCount, ISyncMgrConflictStore::GetCount, _shell_ISyncMgrConflictStore_GetCount, shell.ISyncMgrConflictStore_GetCount, syncmgr/ISyncMgrConflictStore::GetCount
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrConflictStore.GetCount"
+f1_keywords:
+- syncmgr/ISyncMgrConflictStore.GetCount
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrConflictStore.GetCount
+- ISyncMgrConflictStore.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

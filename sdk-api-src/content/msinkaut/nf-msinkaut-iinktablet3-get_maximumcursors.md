@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkTablet3.get_MaximumCursors
 title: IInkTablet3::get_MaximumCursors (msinkaut.h)
-
 description: Gets the maximum number of cursors that a tablet device supports.
 old-location: tablet\iinktablet3_maximumcursors.htm
 tech.root: tablet
 ms.assetid: 03587956-82d4-41fb-99d1-ecbe9677cca6
-
 ms.date: 12/05/2018
 ms.keywords: IInkTablet3 interface [Tablet PC],MaximumCursors property, IInkTablet3.MaximumCursors, IInkTablet3.get_MaximumCursors, IInkTablet3::MaximumCursors, IInkTablet3::get_MaximumCursors, MaximumCursors property [Tablet PC], MaximumCursors property [Tablet PC],IInkTablet3 interface, get_MaximumCursors, msinkaut/IInkTablet3::MaximumCursors, msinkaut/IInkTablet3::get_MaximumCursors, tablet.iinktablet3_maximumcursors
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkTablet3.MaximumCursors"
+f1_keywords:
+- msinkaut/IInkTablet3.MaximumCursors
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkTablet3.MaximumCursors
- - IInkTablet3.get_MaximumCursors
- - IInkTablet3.get_MaximumCursors
+- IInkTablet3.MaximumCursors
+- IInkTablet3.get_MaximumCursors
+- IInkTablet3.get_MaximumCursors
 targetos: Windows
 req.typenames: 
 req.redist: 

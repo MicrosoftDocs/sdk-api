@@ -1,19 +1,17 @@
 ---
 UID: NN:upnphost.IUPnPDeviceControl
 title: IUPnPDeviceControl (upnphost.h)
-
 description: The IUPnPDeviceControl interface is the central point of management for a device and its service objects.
 old-location: upnp\iupnpdevicecontrol.htm
 tech.root: upnp
 ms.assetid: c5d68459-f4ba-4df1-a00c-be86e24ce29f
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPDeviceControl, IUPnPDeviceControl interface [UPnP APIs], IUPnPDeviceControl interface [UPnP APIs],described, _upnp_iupnpdevicecontrol, upnp.iupnpdevicecontrol, upnphost/IUPnPDeviceControl
 ms.topic: interface
-f1_keywords: 
- - "upnphost/IUPnPDeviceControl"
+f1_keywords:
+- upnphost/IUPnPDeviceControl
 dev_langs:
- - c++
+- c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnphost.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnphost.dll
+- Upnphost.dll
 api_name:
- - IUPnPDeviceControl
+- IUPnPDeviceControl
 targetos: Windows
 req.typenames: 
 req.redist: 

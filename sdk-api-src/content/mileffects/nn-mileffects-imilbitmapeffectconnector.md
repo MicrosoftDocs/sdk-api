@@ -1,19 +1,17 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectConnector
 title: IMILBitmapEffectConnector (mileffects.h)
-
 description: Exposes methods that define an effect output pin.
 old-location: wibe\_wibe_imilbitmapeffectconnector.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnector\imilbitmapeffectconnector.htm
-
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectConnector, IMILBitmapEffectConnector interface [WPF Bitmap Effects], IMILBitmapEffectConnector interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectconnector, mileffects/IMILBitmapEffectConnector, wibe._wibe_imilbitmapeffectconnector
 ms.topic: interface
-f1_keywords: 
- - "mileffects/IMILBitmapEffectConnector"
+f1_keywords:
+- mileffects/IMILBitmapEffectConnector
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mileffects.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.dll
+- Mileffects.dll
 api_name:
- - IMILBitmapEffectConnector
+- IMILBitmapEffectConnector
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

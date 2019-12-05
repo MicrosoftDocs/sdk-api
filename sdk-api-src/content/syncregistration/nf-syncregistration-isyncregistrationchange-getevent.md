@@ -1,19 +1,17 @@
 ---
 UID: NF:syncregistration.ISyncRegistrationChange.GetEvent
 title: ISyncRegistrationChange::GetEvent (syncregistration.h)
-
 description: Gets the next pending registration event.
 old-location: winsync\isyncregistrationchange_getevent.htm
 tech.root: winsync
 ms.assetid: 7c96c6ad-13ca-4e00-8e6e-61898206001f
-
 ms.date: 12/05/2018
 ms.keywords: GetEvent, GetEvent method [Windows Sync], GetEvent method [Windows Sync],ISyncRegistrationChange interface, ISyncRegistrationChange interface [Windows Sync],GetEvent method, ISyncRegistrationChange.GetEvent, ISyncRegistrationChange::GetEvent, syncregistration/ISyncRegistrationChange::GetEvent, winsync.isyncregistrationchange_getevent
 ms.topic: method
-f1_keywords: 
- - "syncregistration/ISyncRegistrationChange.GetEvent"
+f1_keywords:
+- syncregistration/ISyncRegistrationChange.GetEvent
 dev_langs:
- - c++
+- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncregistration.h
+- Syncregistration.h
 api_name:
- - ISyncRegistrationChange.GetEvent
+- ISyncRegistrationChange.GetEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

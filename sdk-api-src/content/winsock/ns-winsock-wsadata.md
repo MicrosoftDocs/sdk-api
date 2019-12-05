@@ -1,19 +1,17 @@
 ---
 UID: NS:winsock.WSAData
 title: WSADATA (winsock.h)
-
 description: Contains information about the Windows Sockets implementation.
 old-location: winsock\wsadata_2.htm
 tech.root: WinSock
 ms.assetid: c3c4c0d6-c8b3-4991-bedb-f45816cc8160
-
 ms.date: 12/05/2018
-ms.keywords: "*LPWSADATA, LPWSADATA, LPWSADATA structure pointer [Winsock], WSADATA, WSADATA structure [Winsock], _win32_wsadata_2, winsock.wsadata_2, winsock/LPWSADATA, winsock/WSADATA"
+ms.keywords: '*LPWSADATA, LPWSADATA, LPWSADATA structure pointer [Winsock], WSADATA, WSADATA structure [Winsock], _win32_wsadata_2, winsock.wsadata_2, winsock/LPWSADATA, winsock/WSADATA'
 ms.topic: struct
-f1_keywords: 
- - "winsock/WSADATA"
+f1_keywords:
+- winsock/WSADATA
 dev_langs:
- - c++
+- c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winsock.h
+- winsock.h
 api_name:
- - WSADATA
+- WSADATA
 targetos: Windows
 req.typenames: WSADATA
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdbase.IWSDMessageParameters.GetRemoteAddress
 title: IWSDMessageParameters::GetRemoteAddress (wsdbase.h)
-
 description: Retrieves the generic address object representing the remote address from which the message was sent.
 old-location: ncd\iwsdmessageparameters_getremoteaddress.htm
 tech.root: WsdApi
 ms.assetid: 483306d4-9672-4f30-a318-df5c7afbf583
-
 ms.date: 12/05/2018
 ms.keywords: GetRemoteAddress, GetRemoteAddress method, GetRemoteAddress method,IWSDMessageParameters interface, IWSDMessageParameters interface,GetRemoteAddress method, IWSDMessageParameters.GetRemoteAddress, IWSDMessageParameters::GetRemoteAddress, ncd.iwsdmessageparameters_getremoteaddress, wsdbase/IWSDMessageParameters::GetRemoteAddress
 ms.topic: method
-f1_keywords: 
- - "wsdbase/IWSDMessageParameters.GetRemoteAddress"
+f1_keywords:
+- wsdbase/IWSDMessageParameters.GetRemoteAddress
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wsdapi.dll
+- wsdapi.dll
 api_name:
- - IWSDMessageParameters.GetRemoteAddress
+- IWSDMessageParameters.GetRemoteAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

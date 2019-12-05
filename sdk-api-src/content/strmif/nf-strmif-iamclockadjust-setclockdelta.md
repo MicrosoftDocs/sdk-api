@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMClockAdjust.SetClockDelta
 title: IAMClockAdjust::SetClockDelta (strmif.h)
-
 description: The SetClockDelta method adjusts the clock time.
 old-location: dshow\iamclockadjust_setclockdelta.htm
 tech.root: DirectShow
 ms.assetid: f9bd4e69-343f-4150-ab12-b5ce405a3ac3
-
 ms.date: 12/05/2018
 ms.keywords: IAMClockAdjust interface [DirectShow],SetClockDelta method, IAMClockAdjust.SetClockDelta, IAMClockAdjust::SetClockDelta, IAMClockAdjustSetClockDelta, SetClockDelta, SetClockDelta method [DirectShow], SetClockDelta method [DirectShow],IAMClockAdjust interface, dshow.iamclockadjust_setclockdelta, strmif/IAMClockAdjust::SetClockDelta
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMClockAdjust.SetClockDelta"
+f1_keywords:
+- strmif/IAMClockAdjust.SetClockDelta
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMClockAdjust.SetClockDelta
+- IAMClockAdjust.SetClockDelta
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsVdProvider.AddVDisk
 title: IVdsVdProvider::AddVDisk (vds.h)
-
 description: Creates a virtual disk object for an existing virtual disk file.
 old-location: base\ivdsvdprovider_addvdisk.htm
 tech.root: VDS
 ms.assetid: ef154bf3-ad30-4e6e-8292-af2037eced02
-
 ms.date: 12/05/2018
 ms.keywords: AddVDisk, AddVDisk method, AddVDisk method,IVdsVdProvider interface, IVdsVdProvider interface,AddVDisk method, IVdsVdProvider.AddVDisk, IVdsVdProvider::AddVDisk, base.ivdsvdprovider_addvdisk, vds/IVdsVdProvider::AddVDisk
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsVdProvider.AddVDisk"
+f1_keywords:
+- vds/IVdsVdProvider.AddVDisk
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsVdProvider.AddVDisk
+- IVdsVdProvider.AddVDisk
 targetos: Windows
 req.typenames: 
 req.redist: 

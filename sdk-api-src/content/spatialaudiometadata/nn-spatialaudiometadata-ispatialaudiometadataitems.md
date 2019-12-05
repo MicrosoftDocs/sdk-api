@@ -1,19 +1,17 @@
 ---
 UID: NN:spatialaudiometadata.ISpatialAudioMetadataItems
 title: ISpatialAudioMetadataItems (spatialaudiometadata.h)
-
 description: Represents a buffer of spatial audio metadata items.
 old-location: coreaudio\ispatialaudiometadataitems.htm
 tech.root: CoreAudio
 ms.assetid: 54A6B7DE-A41E-4214-AF02-CC19250B9037
-
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioMetadataItems, ISpatialAudioMetadataItems interface [Core Audio], ISpatialAudioMetadataItems interface [Core Audio],described, coreaudio.ispatialaudiometadataitems, spatialaudiometadata/ISpatialAudioMetadataItems
 ms.topic: interface
-f1_keywords: 
- - "spatialaudiometadata/ISpatialAudioMetadataItems"
+f1_keywords:
+- spatialaudiometadata/ISpatialAudioMetadataItems
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SpatialAudioMetadata.h
+- SpatialAudioMetadata.h
 api_name:
- - ISpatialAudioMetadataItems
+- ISpatialAudioMetadataItems
 targetos: Windows
 req.typenames: 
 req.redist: 

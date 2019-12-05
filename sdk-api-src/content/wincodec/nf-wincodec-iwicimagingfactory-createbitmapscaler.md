@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateBitmapScaler
 title: IWICImagingFactory::CreateBitmapScaler (wincodec.h)
-
 description: Creates a new instance of an IWICBitmapScaler.
 old-location: wic\_wic_codec_iwicimagingfactory_createbitmapscaler.htm
 tech.root: wic
 ms.assetid: 4da6b185-4a94-4032-a1d6-e64b96a5da97
-
 ms.date: 12/05/2018
 ms.keywords: CreateBitmapScaler, CreateBitmapScaler method [Windows Imaging Component], CreateBitmapScaler method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateBitmapScaler method, IWICImagingFactory.CreateBitmapScaler, IWICImagingFactory::CreateBitmapScaler, _wic_codec_iwicimagingfactory_createbitmapscaler, wic._wic_codec_iwicimagingfactory_createbitmapscaler, wincodec/IWICImagingFactory::CreateBitmapScaler
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICImagingFactory.CreateBitmapScaler"
+f1_keywords:
+- wincodec/IWICImagingFactory.CreateBitmapScaler
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICImagingFactory.CreateBitmapScaler
+- IWICImagingFactory.CreateBitmapScaler
 targetos: Windows
 req.typenames: 
 req.redist: 

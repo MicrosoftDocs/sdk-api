@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpGetThreadOptions
 title: DhcpGetThreadOptions function (dhcpsapi.h)
-
 description: The DhcpGetThreadOptions function retrieves the current thread options as set by DhcpSetThreadOptions.
 old-location: dhcp\dhcpgetthreadoptions.htm
 tech.root: DHCP
 ms.assetid: 2ba4b971-467c-47a6-8c4d-8e41b7874c80
-
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_DONT_ACCESS_DS, DhcpGetThreadOptions, DhcpGetThreadOptions function [DHCP], dhcp.dhcpgetthreadoptions, dhcpsapi/DhcpGetThreadOptions
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpGetThreadOptions"
+f1_keywords:
+- dhcpsapi/DhcpGetThreadOptions
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpGetThreadOptions
+- DhcpGetThreadOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetNumberOfSwapChains
 title: IDirect3DDevice9::GetNumberOfSwapChains (d3d9helper.h)
-
 description: Gets the number of implicit swap chains.
 old-location: direct3d9\idirect3ddevice9__getnumberofswapchains.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getnumberofswapchains.htm
-
 ms.date: 12/05/2018
 ms.keywords: 84771686-c1f5-0be3-b170-1de4e0c8acc9, GetNumberOfSwapChains, GetNumberOfSwapChains method [Direct3D 9], GetNumberOfSwapChains method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetNumberOfSwapChains method, IDirect3DDevice9.GetNumberOfSwapChains, IDirect3DDevice9::GetNumberOfSwapChains, d3d9helper/IDirect3DDevice9::GetNumberOfSwapChains, direct3d9.idirect3ddevice9__getnumberofswapchains
 ms.topic: method
-f1_keywords: 
- - "d3d9helper/IDirect3DDevice9.GetNumberOfSwapChains"
+f1_keywords:
+- d3d9helper/IDirect3DDevice9.GetNumberOfSwapChains
 dev_langs:
- - c++
+- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DDevice9.GetNumberOfSwapChains
+- IDirect3DDevice9.GetNumberOfSwapChains
 targetos: Windows
 req.typenames: 
 req.redist: 

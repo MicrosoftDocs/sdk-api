@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IMultiInterfaceEventControl.SetDefaultQuery
 title: IMultiInterfaceEventControl::SetDefaultQuery (eventsys.h)
-
 description: Establishes a default query to be used when a publisher filter is not associated with an event method.
 old-location: cos\imultiinterfaceeventcontrol_setdefaultquery.htm
 tech.root: cossdk
 ms.assetid: 31d544d4-8cac-46ae-9db7-c5b366ac6b2f
-
 ms.date: 12/05/2018
 ms.keywords: IMultiInterfaceEventControl interface [COM+],SetDefaultQuery method, IMultiInterfaceEventControl.SetDefaultQuery, IMultiInterfaceEventControl::SetDefaultQuery, SetDefaultQuery, SetDefaultQuery method [COM+], SetDefaultQuery method [COM+],IMultiInterfaceEventControl interface, _cos_IMultiInterfaceEventControl_SetDefaultQuery, cos.imultiinterfaceeventcontrol_setdefaultquery, eventsys/IMultiInterfaceEventControl::SetDefaultQuery
 ms.topic: method
-f1_keywords: 
- - "eventsys/IMultiInterfaceEventControl.SetDefaultQuery"
+f1_keywords:
+- eventsys/IMultiInterfaceEventControl.SetDefaultQuery
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IMultiInterfaceEventControl.SetDefaultQuery
+- IMultiInterfaceEventControl.SetDefaultQuery
 targetos: Windows
 req.typenames: 
 req.redist: 

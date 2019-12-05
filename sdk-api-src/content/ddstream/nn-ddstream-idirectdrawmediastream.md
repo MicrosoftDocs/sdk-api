@@ -1,19 +1,17 @@
 ---
 UID: NN:ddstream.IDirectDrawMediaStream
 title: IDirectDrawMediaStream (ddstream.h)
-
 description: Note  This interface is deprecated.
 old-location: dshow\idirectdrawmediastream.htm
 tech.root: DirectShow
 ms.assetid: 858af0c3-9e22-45d8-ab08-307eb39a8977
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawMediaStream, IDirectDrawMediaStream interface [DirectShow], IDirectDrawMediaStream interface [DirectShow],described, IDirectDrawMediaStreamInterface, ddstream/IDirectDrawMediaStream, dshow.idirectdrawmediastream
 ms.topic: interface
-f1_keywords: 
- - "ddstream/IDirectDrawMediaStream"
+f1_keywords:
+- ddstream/IDirectDrawMediaStream
 dev_langs:
- - c++
+- c++
 req.header: ddstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ddstream.h
+- ddstream.h
 api_name:
- - IDirectDrawMediaStream
+- IDirectDrawMediaStream
 targetos: Windows
 req.typenames: 
 req.redist: 

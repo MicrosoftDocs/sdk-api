@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcnsi.RpcNsGroupMbrRemoveW
 title: RpcNsGroupMbrRemoveW function (rpcnsi.h)
-
 description: The RpcNsGroupMbrRemove function removes an entry name from a group.
 old-location: rpc\rpcnsgroupmbrremove.htm
 tech.root: Rpc
 ms.assetid: 0301b570-9a03-4f50-89df-3c15d8de246f
-
 ms.date: 12/05/2018
 ms.keywords: RpcNsGroupMbrRemove, RpcNsGroupMbrRemove function [RPC], RpcNsGroupMbrRemoveA, RpcNsGroupMbrRemoveW, _rpc_rpcnsgroupmbrremove, rpc.rpcnsgroupmbrremove, rpcnsi/RpcNsGroupMbrRemove, rpcnsi/RpcNsGroupMbrRemoveA, rpcnsi/RpcNsGroupMbrRemoveW
 ms.topic: function
-f1_keywords: 
- - "rpcnsi/RpcNsGroupMbrRemove"
+f1_keywords:
+- rpcnsi/RpcNsGroupMbrRemove
 dev_langs:
- - c++
+- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcns4.dll
+- Rpcns4.dll
 api_name:
- - RpcNsGroupMbrRemove
- - RpcNsGroupMbrRemoveA
- - RpcNsGroupMbrRemoveW
+- RpcNsGroupMbrRemove
+- RpcNsGroupMbrRemoveA
+- RpcNsGroupMbrRemoveW
 targetos: Windows
 req.typenames: 
 req.redist: 

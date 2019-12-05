@@ -1,19 +1,17 @@
 ---
 UID: NN:commdlg.IPrintDialogServices
 title: IPrintDialogServices (commdlg.h)
-
 description: Provides methods that enable an application using the PrintDlgEx function to retrieve information about the currently selected printer.
 old-location: dlgbox\iprintdialogservices.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxinterfaces\iprintdialogservices.htm
-
 ms.date: 12/05/2018
 ms.keywords: IPrintDialogServices, IPrintDialogServices interface [Dialog Boxes], IPrintDialogServices interface [Dialog Boxes],described, _win32_IPrintDialogServices, _win32_iprintdialogservices_cpp, commdlg/IPrintDialogServices, dlgbox.iprintdialogservices, winui._win32_iprintdialogservices
 ms.topic: interface
-f1_keywords: 
- - "commdlg/IPrintDialogServices"
+f1_keywords:
+- commdlg/IPrintDialogServices
 dev_langs:
- - c++
+- c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comdlg32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comdlg32.dll
+- Comdlg32.dll
 api_name:
- - IPrintDialogServices
+- IPrintDialogServices
 targetos: Windows
 req.typenames: 
 req.redist: 

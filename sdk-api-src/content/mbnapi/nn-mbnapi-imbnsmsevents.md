@@ -1,19 +1,17 @@
 ---
 UID: NN:mbnapi.IMbnSmsEvents
 title: IMbnSmsEvents (mbnapi.h)
-
 description: This notification interface signals an application with the completion status of SMS operations and changes in the device SMS status.
 old-location: mbn\imbnsmsevents.htm
 tech.root: mbn
 ms.assetid: 06dfb631-fe5a-45d9-89f9-1f13990500ee
-
 ms.date: 12/05/2018
 ms.keywords: IMbnSmsEvents, IMbnSmsEvents interface [Microsoft Broadband Networks], IMbnSmsEvents interface [Microsoft Broadband Networks],described, mbn.imbnsmsevents, mbnapi/IMbnSmsEvents
 ms.topic: interface
-f1_keywords: 
- - "mbnapi/IMbnSmsEvents"
+f1_keywords:
+- mbnapi/IMbnSmsEvents
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnSmsEvents
+- IMbnSmsEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

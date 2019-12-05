@@ -1,19 +1,17 @@
 ---
 UID: NE:cfapi.CF_CONNECT_FLAGS
 title: CF_CONNECT_FLAGS (cfapi.h)
-
 description: Additional information that can be requested by a sync provider when its callbacks are invoked.
 old-location: cloudapi\cf_connect_flags.htm
 tech.root: cfApi
 ms.assetid: C1CAC75C-9CB6-4172-A437-AE366D99DA9F
-
 ms.date: 12/05/2018
 ms.keywords: CF_CONNECT_FLAGS, CF_CONNECT_FLAGS enumeration, CF_CONNECT_FLAG_BLOCK_SELF_IMPLICIT_HYDRATION, CF_CONNECT_FLAG_NONE, CF_CONNECT_FLAG_REQUIRE_FULL_FILE_PATH, CF_CONNECT_FLAG_REQUIRE_PROCESS_INFO, cfapi/ CF_CONNECT_FLAG_BLOCK_SELF_IMPLICIT_HYDRATION, cfapi/CF_CONNECT_FLAGS, cfapi/CF_CONNECT_FLAG_NONE, cfapi/CF_CONNECT_FLAG_REQUIRE_FULL_FILE_PATH, cfapi/CF_CONNECT_FLAG_REQUIRE_PROCESS_INFO, cloudApi.cf_connect_flags
 ms.topic: enum
-f1_keywords: 
- - "cfapi/CF_CONNECT_FLAGS"
+f1_keywords:
+- cfapi/CF_CONNECT_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CfApi.h
+- CfApi.h
 api_name:
- - CF_CONNECT_FLAGS
+- CF_CONNECT_FLAGS
 targetos: Windows
 req.typenames: CF_CONNECT_FLAGS
 req.redist: 

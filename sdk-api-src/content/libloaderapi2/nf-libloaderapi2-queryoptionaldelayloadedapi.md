@@ -1,19 +1,17 @@
 ---
 UID: NF:libloaderapi2.QueryOptionalDelayLoadedAPI
 title: QueryOptionalDelayLoadedAPI function (libloaderapi2.h)
-
 description: Determines whether the specified function in a delay-loaded DLL is available on the system.
 old-location: base\queryoptionaldelayloadedapi.htm
 tech.root: Dlls
 ms.assetid: 43690689-4372-48ae-ac6d-230250f05f7c
-
 ms.date: 12/05/2018
 ms.keywords: QueryOptionalDelayLoadedAPI, QueryOptionalDelayLoadedAPI function, base.queryoptionaldelayloadedapi, libloaderapi2/QueryOptionalDelayLoadedAPI
 ms.topic: function
-f1_keywords: 
- - "libloaderapi2/QueryOptionalDelayLoadedAPI"
+f1_keywords:
+- libloaderapi2/QueryOptionalDelayLoadedAPI
 dev_langs:
- - c++
+- c++
 req.header: libloaderapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: WindowsApp.lib
 req.dll: Api-ms-win-core-libraryloader-l1-1-1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-core-libraryloader-l1-1-1.dll
- - kernelbase.dll
- - api-ms-win-core-libraryloader-l2-1-0.dll
- - API-MS-Win-Core-LibraryLoader-Private-L1-1-0.dll
+- api-ms-win-core-libraryloader-l1-1-1.dll
+- kernelbase.dll
+- api-ms-win-core-libraryloader-l2-1-0.dll
+- API-MS-Win-Core-LibraryLoader-Private-L1-1-0.dll
 api_name:
- - QueryOptionalDelayLoadedAPI
+- QueryOptionalDelayLoadedAPI
 targetos: Windows
 req.typenames: 
 req.redist: 

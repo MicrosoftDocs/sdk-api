@@ -1,19 +1,17 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0078_0003
 title: ADS_DISPLAY_ENUM (iads.h)
-
 description: The ADS_DISPLAY_ENUM enumeration specifies how a path is to be displayed.
 old-location: adsi\ads_display_enum.htm
 tech.root: adsi
 ms.assetid: bc57aa4d-99f6-483f-b027-9b66b0c3bad1
-
 ms.date: 12/05/2018
 ms.keywords: ADS_DISPLAY_ENUM, ADS_DISPLAY_ENUM enumeration [ADSI], ADS_DISPLAY_FULL, ADS_DISPLAY_VALUE_ONLY, _ds_ads_display_enum, adsi.ads__display__enum, adsi.ads_display_enum, iads/ADS_DISPLAY_ENUM, iads/ADS_DISPLAY_FULL, iads/ADS_DISPLAY_VALUE_ONLY
 ms.topic: enum
-f1_keywords: 
- - "iads/ADS_DISPLAY_ENUM"
+f1_keywords:
+- iads/ADS_DISPLAY_ENUM
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_DISPLAY_ENUM
+- ADS_DISPLAY_ENUM
 targetos: Windows
 req.typenames: ADS_DISPLAY_ENUM
 req.redist: 

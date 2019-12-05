@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbLogoTransmissionDescriptor.GetLogoCharW
 title: IIsdbLogoTransmissionDescriptor::GetLogoCharW (dvbsiparser.h)
-
 description: Gets the character string for a simple logo from an Integrated Services Digital Broadcasting (ISDB) logo transmission descriptor.
 old-location: mstv\iisdblogotransmissiondescriptor_getlogocharw.htm
 tech.root: mstv
 ms.assetid: bb4ba9f1-f633-4cb4-adc4-6671bb5fc239
-
 ms.date: 12/05/2018
 ms.keywords: GetLogoCharW, GetLogoCharW method [Microsoft TV Technologies], GetLogoCharW method [Microsoft TV Technologies],IIsdbLogoTransmissionDescriptor interface, IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies],GetLogoCharW method, IIsdbLogoTransmissionDescriptor.GetLogoCharW, IIsdbLogoTransmissionDescriptor::GetLogoCharW, dvbsiparser/IIsdbLogoTransmissionDescriptor::GetLogoCharW, mstv.iisdblogotransmissiondescriptor_getlogocharw
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbLogoTransmissionDescriptor.GetLogoCharW"
+f1_keywords:
+- dvbsiparser/IIsdbLogoTransmissionDescriptor.GetLogoCharW
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbLogoTransmissionDescriptor.GetLogoCharW
+- IIsdbLogoTransmissionDescriptor.GetLogoCharW
 targetos: Windows
 req.typenames: 
 req.redist: 

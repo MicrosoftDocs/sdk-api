@@ -1,19 +1,17 @@
 ---
 UID: NE:imapi2fs.PlatformId
 title: PlatformId (imapi2fs.h)
-
 description: Defines values for the operating system architecture that the boot image supports.
 old-location: imapi\platformid.htm
 tech.root: imapi
 ms.assetid: 296f9da1-99be-4d20-8961-f99cf220404a
-
 ms.date: 12/05/2018
 ms.keywords: PlatformEFI, PlatformId, PlatformId enumeration [IMAPI], PlatformMac, PlatformPowerPC, PlatformX86, imapi.platformid, imapi2fs/PlatformEFI, imapi2fs/PlatformId, imapi2fs/PlatformMac, imapi2fs/PlatformPowerPC, imapi2fs/PlatformX86
 ms.topic: enum
-f1_keywords: 
- - "imapi2fs/PlatformId"
+f1_keywords:
+- imapi2fs/PlatformId
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - PlatformId
+- PlatformId
 targetos: Windows
 req.typenames: PlatformId
 req.redist: 

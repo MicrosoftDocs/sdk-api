@@ -1,19 +1,17 @@
 ---
 UID: NF:sensorsapi.ISensorManager.GetSensorByID
 title: ISensorManager::GetSensorByID (sensorsapi.h)
-
 description: Retrieves a pointer to the specified sensor.
 old-location: winsensors_com_ref\isensormanager_getsensorbyid.htm
 tech.root: SensorsAPI
 ms.assetid: 453f46f3-43e1-466d-9f46-165b7d2bcd56
-
 ms.date: 12/05/2018
 ms.keywords: GetSensorByID, GetSensorByID method, GetSensorByID method,ISensorManager interface, ISensorManager interface,GetSensorByID method, ISensorManager.GetSensorByID, ISensorManager::GetSensorByID, sensorsapi/ISensorManager::GetSensorByID, winsensors_com_ref.isensormanager_getsensorbyid
 ms.topic: method
-f1_keywords: 
- - "sensorsapi/ISensorManager.GetSensorByID"
+f1_keywords:
+- sensorsapi/ISensorManager.GetSensorByID
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sensorsapi.dll
+- sensorsapi.dll
 api_name:
- - ISensorManager.GetSensorByID
+- ISensorManager.GetSensorByID
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:gamingtcui.PlayerPickerUICompletionRoutine
 title: PlayerPickerUICompletionRoutine (gamingtcui.h)
-
 description: Do not use. This API is only supported for Xbox developers.
 old-location: tcui\playerpickeruicompletionroutine.htm
 tech.root: tcui
 ms.assetid: 301AB1B0-BABA-4971-A301-5AEDD2F32B31
-
 ms.date: 12/05/2018
 ms.keywords: PlayerPickerUICompletionRoutine, PlayerPickerUICompletionRoutine callback, PlayerPickerUICompletionRoutine callback function, gamingtcui/PlayerPickerUICompletionRoutine, tcui.playerpickeruicompletionroutine
 ms.topic: callback
-f1_keywords: 
- - "gamingtcui/PlayerPickerUICompletionRoutine"
+f1_keywords:
+- gamingtcui/PlayerPickerUICompletionRoutine
 dev_langs:
- - c++
+- c++
 req.header: gamingtcui.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - gamingtcui.h
+- gamingtcui.h
 api_name:
- - PlayerPickerUICompletionRoutine
+- PlayerPickerUICompletionRoutine
 targetos: Windows
 req.typenames: 
 req.redist: 

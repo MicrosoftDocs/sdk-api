@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IsUserAnAdmin
 title: IsUserAnAdmin function (shlobj_core.h)
-
 description: IsUserAnAdmin may be altered or unavailable.
 old-location: shell\IsUserAnAdmin.htm
 tech.root: shell
 ms.assetid: fe698d32-32f6-4b2b-ad0c-5d9ec815177f
-
 ms.date: 12/05/2018
 ms.keywords: IsUserAnAdmin, IsUserAnAdmin function [Windows Shell], _win32_IsUserAnAdmin, shell.IsUserAnAdmin, shlobj_core/IsUserAnAdmin
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/IsUserAnAdmin"
+f1_keywords:
+- shlobj_core/IsUserAnAdmin
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - IsUserAnAdmin
+- IsUserAnAdmin
 targetos: Windows
 req.typenames: 
 req.redist: 

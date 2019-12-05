@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateStream
 title: IWICImagingFactory::CreateStream (wincodec.h)
-
 description: Creates a new instance of the IWICStream class.
 old-location: wic\_wic_codec_iwicimagingfactory_createstream.htm
 tech.root: wic
 ms.assetid: 1c2ecaf0-5222-4f9b-96fb-5d2da72d11d4
-
 ms.date: 12/05/2018
 ms.keywords: CreateStream, CreateStream method [Windows Imaging Component], CreateStream method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateStream method, IWICImagingFactory.CreateStream, IWICImagingFactory::CreateStream, _wic_codec_iwicimagingfactory_createstream, wic._wic_codec_iwicimagingfactory_createstream, wincodec/IWICImagingFactory::CreateStream
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICImagingFactory.CreateStream"
+f1_keywords:
+- wincodec/IWICImagingFactory.CreateStream
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICImagingFactory.CreateStream
+- IWICImagingFactory.CreateStream
 targetos: Windows
 req.typenames: 
 req.redist: 

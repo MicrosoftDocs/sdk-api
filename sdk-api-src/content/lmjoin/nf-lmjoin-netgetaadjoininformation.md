@@ -1,19 +1,17 @@
 ---
 UID: NF:lmjoin.NetGetAadJoinInformation
 title: NetGetAadJoinInformation function (lmjoin.h)
-
 description: Retrieves the join information for the specified tenant. This function examines the join information for Microsoft Azure Active Directory and the work account that the current user added.
 old-location: netmgmt\netgetaadjoininformation.htm
 tech.root: NetMgmt
 ms.assetid: C63B3AA7-FC7E-4CB9-9318-BD25560591AB
-
 ms.date: 12/05/2018
 ms.keywords: NetGetAadJoinInformation, NetGetAadJoinInformation function [Network Management], lmjoin/NetGetAadJoinInformation, netmgmt.netgetaadjoininformation
 ms.topic: function
-f1_keywords: 
- - "lmjoin/NetGetAadJoinInformation"
+f1_keywords:
+- lmjoin/NetGetAadJoinInformation
 dev_langs:
- - c++
+- c++
 req.header: lmjoin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - netapi32.dll
+- netapi32.dll
 api_name:
- - NetGetAadJoinInformation
+- NetGetAadJoinInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

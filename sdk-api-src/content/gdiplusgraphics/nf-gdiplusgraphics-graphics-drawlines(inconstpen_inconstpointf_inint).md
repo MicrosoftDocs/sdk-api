@@ -3,14 +3,13 @@ UID: NF:gdiplusgraphics.Graphics.DrawLines(IN const Pen,IN const PointF,IN INT)
 title: Graphics::DrawLines
 description: The Graphics::DrawLines method draws a sequence of connected lines.
 ms.assetid: ea0d1b7b-f278-4a44-a99f-77801031d51e
-
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawLines
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusgraphics/Graphics::DrawLines"
+f1_keywords:
+- gdiplusgraphics/Graphics::DrawLines
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusgraphics.h
+- gdiplusgraphics.h
 api_name:
- - Graphics::DrawLines
+- Graphics::DrawLines
 ---
 
 # DrawLines(Pen*,PointF*,INT)

@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.GetDuplicate
 title: ITextRange::GetDuplicate (tom.h)
-
 description: Gets a duplicate of this range object.
 old-location: controls\ITextRange_GetDuplicate.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextrange\itextrangegetduplicate.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetDuplicate, GetDuplicate method [Windows Controls], GetDuplicate method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetDuplicate method, ITextRange.GetDuplicate, ITextRange::GetDuplicate, _win32_ITextRange_GetDuplicate, _win32_ITextRange_GetDuplicate_cpp, controls.ITextRange_GetDuplicate, controls._win32_ITextRange_GetDuplicate, tom/ITextRange::GetDuplicate
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.GetDuplicate"
+f1_keywords:
+- tom/ITextRange.GetDuplicate
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.GetDuplicate
+- ITextRange.GetDuplicate
 targetos: Windows
 req.typenames: 
 req.redist: 

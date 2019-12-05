@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.IsVarTypeSignedInteger
 title: IsVarTypeSignedInteger function (propvarutil.h)
-
 description: Returns whether a VARTYPE is a signed integer.
 old-location: properties\IsVarTypeSignedInteger.htm
 tech.root: properties
 ms.assetid: 8d5510c6-6c1c-4cc5-85a6-00514278029d
-
 ms.date: 12/05/2018
 ms.keywords: IsVarTypeSignedInteger, IsVarTypeSignedInteger function [Windows Properties], _shell_IsVarTypeSignedInteger, properties.IsVarTypeSignedInteger, propvarutil/IsVarTypeSignedInteger, shell.IsVarTypeSignedInteger
 ms.topic: function
-f1_keywords: 
- - "propvarutil/IsVarTypeSignedInteger"
+f1_keywords:
+- propvarutil/IsVarTypeSignedInteger
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Propvarutil.h
+- Propvarutil.h
 api_name:
- - IsVarTypeSignedInteger
+- IsVarTypeSignedInteger
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

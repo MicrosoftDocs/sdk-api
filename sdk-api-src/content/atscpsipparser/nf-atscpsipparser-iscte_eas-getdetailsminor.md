@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetDetailsMinor
 title: ISCTE_EAS::GetDetailsMinor (atscpsipparser.h)
-
 description: The GetDetailsMinor method returns the minor channel number for the details channel.
 old-location: mstv\iscte_eas_getdetailsminor.htm
 tech.root: mstv
 ms.assetid: 59d43d84-2120-4200-b1e7-4603c1693018
-
 ms.date: 12/05/2018
 ms.keywords: GetDetailsMinor, GetDetailsMinor method [Microsoft TV Technologies], GetDetailsMinor method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetDetailsMinor method, ISCTE_EAS.GetDetailsMinor, ISCTE_EAS::GetDetailsMinor, ISCTE_EASGetDetailsMinor, atscpsipparser/ISCTE_EAS::GetDetailsMinor, mstv.iscte_eas_getdetailsminor
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/ISCTE_EAS.GetDetailsMinor"
+f1_keywords:
+- atscpsipparser/ISCTE_EAS.GetDetailsMinor
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - ISCTE_EAS.GetDetailsMinor
+- ISCTE_EAS.GetDetailsMinor
 targetos: Windows
 req.typenames: 
 req.redist: 

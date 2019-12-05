@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbDataContentDescriptor.GetSelectorBytes
 title: IIsdbDataContentDescriptor::GetSelectorBytes (dvbsiparser.h)
-
 description: Gets the selector data from an Integrated Services Digital Broadcasting (ISDB) data content descriptor. The contents of the selector depend on the type of data transmitted in the data component.
 old-location: mstv\iisdbdatacontentdescriptor_getselectorbytes.htm
 tech.root: mstv
 ms.assetid: b02c315e-322d-478e-8be1-c833df49ed56
-
 ms.date: 12/05/2018
 ms.keywords: GetSelectorBytes, GetSelectorBytes method [Microsoft TV Technologies], GetSelectorBytes method [Microsoft TV Technologies],IIsdbDataContentDescriptor interface, IIsdbDataContentDescriptor interface [Microsoft TV Technologies],GetSelectorBytes method, IIsdbDataContentDescriptor.GetSelectorBytes, IIsdbDataContentDescriptor::GetSelectorBytes, dvbsiparser/IIsdbDataContentDescriptor::GetSelectorBytes, mstv.iisdbdatacontentdescriptor_getselectorbytes
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbDataContentDescriptor.GetSelectorBytes"
+f1_keywords:
+- dvbsiparser/IIsdbDataContentDescriptor.GetSelectorBytes
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbDataContentDescriptor.GetSelectorBytes
+- IIsdbDataContentDescriptor.GetSelectorBytes
 targetos: Windows
 req.typenames: 
 req.redist: 

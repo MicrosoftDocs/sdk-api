@@ -1,19 +1,17 @@
 ---
 UID: NS:winsock2._WSANETWORKEVENTS
 title: WSANETWORKEVENTS (winsock2.h)
-
 description: The WSANETWORKEVENTS structure is used to store a socket's internal information about network events.
 old-location: winsock\wsanetworkevents_2.htm
 tech.root: WinSock
 ms.assetid: 72ae4aa8-4e15-4215-8dcb-45e394ac1313
-
 ms.date: 12/05/2018
-ms.keywords: "*LPWSANETWORKEVENTS, LPWSANETWORKEVENTS, LPWSANETWORKEVENTS structure pointer [Winsock], WSANETWORKEVENTS, WSANETWORKEVENTS structure [Winsock], _win32_wsanetworkevents_2, winsock.wsanetworkevents_2, winsock2/LPWSANETWORKEVENTS, winsock2/WSANETWORKEVENTS"
+ms.keywords: '*LPWSANETWORKEVENTS, LPWSANETWORKEVENTS, LPWSANETWORKEVENTS structure pointer [Winsock], WSANETWORKEVENTS, WSANETWORKEVENTS structure [Winsock], _win32_wsanetworkevents_2, winsock.wsanetworkevents_2, winsock2/LPWSANETWORKEVENTS, winsock2/WSANETWORKEVENTS'
 ms.topic: struct
-f1_keywords: 
- - "winsock2/WSANETWORKEVENTS"
+f1_keywords:
+- winsock2/WSANETWORKEVENTS
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winsock2.h
+- Winsock2.h
 api_name:
- - WSANETWORKEVENTS
+- WSANETWORKEVENTS
 targetos: Windows
 req.typenames: WSANETWORKEVENTS, *LPWSANETWORKEVENTS
 req.redist: 

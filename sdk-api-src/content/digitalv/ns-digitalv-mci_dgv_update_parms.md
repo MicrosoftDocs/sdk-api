@@ -1,19 +1,17 @@
 ---
 UID: NS:digitalv.__unnamed_struct_33
 title: MCI_DGV_UPDATE_PARMS (digitalv.h)
-
 description: The MCI_DGV_UPDATE_PARMS structure contains parameters for the MCI_UPDATE command.
 old-location: multimedia\mci_dgv_update_parms.htm
 tech.root: Multimedia
 ms.assetid: 66289ff2-0e8c-4320-997c-b5078fc6db12
-
 ms.date: 12/05/2018
-ms.keywords: "*LPMCI_DGV_UPDATE_PARMS, MCI_DGV_UPDATE_PARMS, MCI_DGV_UPDATE_PARMS structure [Windows Multimedia], _win32_MCI_DGV_UPDATE_PARMS_str, digitalv/MCI_DGV_UPDATE_PARMS, multimedia.mci_dgv_update_parms"
+ms.keywords: '*LPMCI_DGV_UPDATE_PARMS, MCI_DGV_UPDATE_PARMS, MCI_DGV_UPDATE_PARMS structure [Windows Multimedia], _win32_MCI_DGV_UPDATE_PARMS_str, digitalv/MCI_DGV_UPDATE_PARMS, multimedia.mci_dgv_update_parms'
 ms.topic: struct
-f1_keywords: 
- - "digitalv/MCI_DGV_UPDATE_PARMS"
+f1_keywords:
+- digitalv/MCI_DGV_UPDATE_PARMS
 dev_langs:
- - c++
+- c++
 req.header: digitalv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Digitalv.h
+- Digitalv.h
 api_name:
- - MCI_DGV_UPDATE_PARMS
+- MCI_DGV_UPDATE_PARMS
 targetos: Windows
 req.typenames: MCI_DGV_UPDATE_PARMS
 req.redist: 

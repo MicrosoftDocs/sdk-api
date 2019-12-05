@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.put_AllowOutboundParameterProblem
 title: INetFwIcmpSettings::put_AllowOutboundParameterProblem (netfw.h)
-
 description: Indicates whether this is allowed.
 old-location: ics\inetfwicmpsettings_allowoutboundparameterproblem.htm
 tech.root: ics
 ms.assetid: 496374e7-9f89-43e3-bb59-184ba4c611be
-
 ms.date: 12/05/2018
 ms.keywords: AllowOutboundParameterProblem property [ICS/ICF], AllowOutboundParameterProblem property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowOutboundParameterProblem property, INetFwIcmpSettings.AllowOutboundParameterProblem, INetFwIcmpSettings.put_AllowOutboundParameterProblem, INetFwIcmpSettings::AllowOutboundParameterProblem, INetFwIcmpSettings::get_AllowOutboundParameterProblem, INetFwIcmpSettings::put_AllowOutboundParameterProblem, ics.inetfwicmpsettings_allowoutboundparameterproblem, netfw/INetFwIcmpSettings::AllowOutboundParameterProblem, netfw/INetFwIcmpSettings::get_AllowOutboundParameterProblem, netfw/INetFwIcmpSettings::put_AllowOutboundParameterProblem, put_AllowOutboundParameterProblem
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwIcmpSettings.AllowOutboundParameterProblem"
+f1_keywords:
+- netfw/INetFwIcmpSettings.AllowOutboundParameterProblem
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwIcmpSettings.AllowOutboundParameterProblem
- - INetFwIcmpSettings.get_AllowOutboundParameterProblem
- - INetFwIcmpSettings.put_AllowOutboundParameterProblem
+- INetFwIcmpSettings.AllowOutboundParameterProblem
+- INetFwIcmpSettings.get_AllowOutboundParameterProblem
+- INetFwIcmpSettings.put_AllowOutboundParameterProblem
 targetos: Windows
 req.typenames: 
 req.redist: 

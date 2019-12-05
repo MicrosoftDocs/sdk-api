@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrEventStore.GetEventEnumerator
 title: ISyncMgrEventStore::GetEventEnumerator (syncmgr.h)
-
 description: Gets an enumerator for a handler's events.
 old-location: shell\ISyncMgrEventStore_GetEventEnumerator.htm
 tech.root: shell
 ms.assetid: 8b634811-cb6d-47b2-b534-1baea23a5297
-
 ms.date: 12/05/2018
 ms.keywords: GetEventEnumerator, GetEventEnumerator method [Windows Shell], GetEventEnumerator method [Windows Shell],ISyncMgrEventStore interface, ISyncMgrEventStore interface [Windows Shell],GetEventEnumerator method, ISyncMgrEventStore.GetEventEnumerator, ISyncMgrEventStore::GetEventEnumerator, _shell_ISyncMgrEventStore_GetEventEnumerator, shell.ISyncMgrEventStore_GetEventEnumerator, syncmgr/ISyncMgrEventStore::GetEventEnumerator
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrEventStore.GetEventEnumerator"
+f1_keywords:
+- syncmgr/ISyncMgrEventStore.GetEventEnumerator
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrEventStore.GetEventEnumerator
+- ISyncMgrEventStore.GetEventEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

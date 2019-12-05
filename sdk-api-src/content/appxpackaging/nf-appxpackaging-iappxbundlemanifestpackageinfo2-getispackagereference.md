@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfo2.GetIsPackageReference
 title: IAppxBundleManifestPackageInfo2::GetIsPackageReference (appxpackaging.h)
-
 description: Determines whether a package is stored inside an app bundle, or if it's a reference to a package.
 old-location: appxpkg\iappxbundlemanifestpackageinfo2_getispackagereference.htm
 tech.root: appxpkg
 ms.assetid: 0EAE15E9-5B23-43F4-B4C6-D75EC8D8F281
-
 ms.date: 12/05/2018
 ms.keywords: GetIsPackageReference, GetIsPackageReference method [App packaging and management], GetIsPackageReference method [App packaging and management],IAppxBundleManifestPackageInfo2 interface, IAppxBundleManifestPackageInfo2 interface [App packaging and management],GetIsPackageReference method, IAppxBundleManifestPackageInfo2.GetIsPackageReference, IAppxBundleManifestPackageInfo2::GetIsPackageReference, appxpackaging/IAppxBundleManifestPackageInfo2::GetIsPackageReference, appxpkg.iappxbundlemanifestpackageinfo2_getispackagereference
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxBundleManifestPackageInfo2.GetIsPackageReference"
+f1_keywords:
+- appxpackaging/IAppxBundleManifestPackageInfo2.GetIsPackageReference
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBundleManifestPackageInfo2.GetIsPackageReference
+- IAppxBundleManifestPackageInfo2.GetIsPackageReference
 targetos: Windows
 req.typenames: 
 req.redist: 

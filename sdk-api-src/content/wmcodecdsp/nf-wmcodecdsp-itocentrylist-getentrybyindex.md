@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.ITocEntryList.GetEntryByIndex
 title: ITocEntryList::GetEntryByIndex (wmcodecdsp.h)
-
 description: The GetEntryByIndex method retrieves an entry, specified by an index, from the list.
 old-location: mf\itocentrylist_getentrybyindex.htm
 tech.root: medfound
 ms.assetid: cf2171c9-67ce-4acb-97cc-af17203e815b
-
 ms.date: 12/05/2018
 ms.keywords: GetEntryByIndex, GetEntryByIndex method [Media Foundation], GetEntryByIndex method [Media Foundation],ITocEntryList interface, ITocEntryList interface [Media Foundation],GetEntryByIndex method, ITocEntryList.GetEntryByIndex, ITocEntryList::GetEntryByIndex, codecapi.itocentrylist_getentrybyindex, mf.itocentrylist_getentrybyindex, wmcodecdsp/ITocEntryList::GetEntryByIndex
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/ITocEntryList.GetEntryByIndex"
+f1_keywords:
+- wmcodecdsp/ITocEntryList.GetEntryByIndex
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmvdspa.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmvdspa.dll
+- wmvdspa.dll
 api_name:
- - ITocEntryList.GetEntryByIndex
+- ITocEntryList.GetEntryByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

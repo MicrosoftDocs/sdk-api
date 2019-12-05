@@ -1,19 +1,17 @@
 ---
 UID: NN:vmr9.IVMRMixerControl9
 title: IVMRMixerControl9 (vmr9.h)
-
 description: The IVMRMixerControl9 interface enables an application to manipulate the incoming video streams on the Video Mixing Renderer Filter 9 (VMR-9). This interface is intended for use by applications only; it should not be used by upstream filters.
 old-location: dshow\ivmrmixercontrol9.htm
 tech.root: DirectShow
 ms.assetid: f311303a-8270-40b6-8153-e0bd8b232c69
-
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl9, IVMRMixerControl9 interface [DirectShow], IVMRMixerControl9 interface [DirectShow],described, IVMRMixerControl9Interface, dshow.ivmrmixercontrol9, vmr9/IVMRMixerControl9
 ms.topic: interface
-f1_keywords: 
- - "vmr9/IVMRMixerControl9"
+f1_keywords:
+- vmr9/IVMRMixerControl9
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRMixerControl9
+- IVMRMixerControl9
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationcore.IRawElementProviderSimple
 title: IRawElementProviderSimple (uiautomationcore.h)
-
 description: Defines methods and properties that expose simple UI elements.
 old-location: winauto\uiauto_IRawElementProviderSimple.htm
 tech.root: WinAuto
 ms.assetid: f0ec6185-acd0-4df7-88f4-fd00747f98bf
-
 ms.date: 12/05/2018
 ms.keywords: IRawElementProviderSimple, IRawElementProviderSimple interface [Windows Accessibility], IRawElementProviderSimple interface [Windows Accessibility],described, uiauto.uiauto_IRawElementProviderSimple, uiauto_IRawElementProviderSimple, uiautomationcore/IRawElementProviderSimple, winauto.uiauto_IRawElementProviderSimple
 ms.topic: interface
-f1_keywords: 
- - "uiautomationcore/IRawElementProviderSimple"
+f1_keywords:
+- uiautomationcore/IRawElementProviderSimple
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IRawElementProviderSimple
+- IRawElementProviderSimple
 targetos: Windows
 req.typenames: 
 req.redist: 

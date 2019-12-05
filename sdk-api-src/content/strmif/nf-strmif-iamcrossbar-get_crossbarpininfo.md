@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMCrossbar.get_CrossbarPinInfo
 title: IAMCrossbar::get_CrossbarPinInfo (strmif.h)
-
 description: The get_CrossbarPinInfo method retrieves information about a specified pin.
 old-location: dshow\iamcrossbar_get_crossbarpininfo.htm
 tech.root: DirectShow
 ms.assetid: 29cda12e-a731-4995-8e0c-69dfcda6f158
-
 ms.date: 12/05/2018
 ms.keywords: FALSE, IAMCrossbar interface [DirectShow],get_CrossbarPinInfo method, IAMCrossbar.get_CrossbarPinInfo, IAMCrossbar::get_CrossbarPinInfo, IAMCrossbarget_CrossbarPinInfo, TRUE, dshow.iamcrossbar_get_crossbarpininfo, get_CrossbarPinInfo, get_CrossbarPinInfo method [DirectShow], get_CrossbarPinInfo method [DirectShow],IAMCrossbar interface, strmif/IAMCrossbar::get_CrossbarPinInfo
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMCrossbar.get_CrossbarPinInfo"
+f1_keywords:
+- strmif/IAMCrossbar.get_CrossbarPinInfo
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMCrossbar.get_CrossbarPinInfo
+- IAMCrossbar.get_CrossbarPinInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

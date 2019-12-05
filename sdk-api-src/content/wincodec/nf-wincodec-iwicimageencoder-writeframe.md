@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICImageEncoder.WriteFrame
 title: IWICImageEncoder::WriteFrame (wincodec.h)
-
 description: Encodes the image to the frame given by the IWICBitmapFrameEncode.
 old-location: wic\iwicimageencoder_writeframe.htm
 tech.root: wic
 ms.assetid: 08CD0CE4-5948-4A8F-AA96-9A2BF43EC6D3
-
 ms.date: 12/05/2018
 ms.keywords: IWICImageEncoder interface [Windows Imaging Component],WriteFrame method, IWICImageEncoder.WriteFrame, IWICImageEncoder::WriteFrame, WriteFrame, WriteFrame method [Windows Imaging Component], WriteFrame method [Windows Imaging Component],IWICImageEncoder interface, wic.iwicimageencoder_writeframe, wincodec/IWICImageEncoder::WriteFrame
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICImageEncoder.WriteFrame"
+f1_keywords:
+- wincodec/IWICImageEncoder.WriteFrame
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICImageEncoder.WriteFrame
+- IWICImageEncoder.WriteFrame
 targetos: Windows
 req.typenames: 
 req.redist: 

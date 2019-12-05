@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextDocument.GetStoryCount
 title: ITextDocument::GetStoryCount (tom.h)
-
 description: Gets the count of stories in this document.
 old-location: controls\ITextDocument_GetStoryCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getstorycount.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetStoryCount, GetStoryCount method [Windows Controls], GetStoryCount method [Windows Controls],ITextDocument interface, ITextDocument interface [Windows Controls],GetStoryCount method, ITextDocument.GetStoryCount, ITextDocument::GetStoryCount, _win32_ITextDocument_GetStoryCount, _win32_ITextDocument_GetStoryCount_cpp, controls.ITextDocument_GetStoryCount, controls._win32_ITextDocument_GetStoryCount, tom/ITextDocument::GetStoryCount
 ms.topic: method
-f1_keywords: 
- - "tom/ITextDocument.GetStoryCount"
+f1_keywords:
+- tom/ITextDocument.GetStoryCount
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextDocument.GetStoryCount
+- ITextDocument.GetStoryCount
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.SetBlendTriangularShape
 title: LinearGradientBrush::SetBlendTriangularShape (gdiplusbrush.h)
-
 description: The LinearGradientBrush::SetBlendTriangularShape method sets the blend shape of this linear gradient brush to create a custom blend based on a triangular shape.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_SetBlendTriangularShape_focus_scale_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\setblendtriangularshape.htm
-
 ms.date: 12/05/2018
 ms.keywords: LinearGradientBrush class [GDI+],SetBlendTriangularShape method, LinearGradientBrush.SetBlendTriangularShape, LinearGradientBrush::SetBlendTriangularShape, SetBlendTriangularShape, SetBlendTriangularShape method [GDI+], SetBlendTriangularShape method [GDI+],LinearGradientBrush class, _gdiplus_CLASS_LinearGradientBrush_SetBlendTriangularShape_focus_scale_, gdiplus._gdiplus_CLASS_LinearGradientBrush_SetBlendTriangularShape_focus_scale_
 ms.topic: method
-f1_keywords: 
- - "gdiplusbrush/LinearGradientBrush.SetBlendTriangularShape"
+f1_keywords:
+- gdiplusbrush/LinearGradientBrush.SetBlendTriangularShape
 dev_langs:
- - c++
+- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - LinearGradientBrush.SetBlendTriangularShape
+- LinearGradientBrush.SetBlendTriangularShape
 targetos: Windows
 req.typenames: 
 req.redist: 

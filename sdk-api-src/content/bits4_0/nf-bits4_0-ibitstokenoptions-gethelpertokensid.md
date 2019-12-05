@@ -1,19 +1,17 @@
 ---
 UID: NF:bits4_0.IBitsTokenOptions.GetHelperTokenSid
 title: IBitsTokenOptions::GetHelperTokenSid (bits4_0.h)
-
 description: Returns the SID of the helper token if one is set.
 old-location: bits\ibitstokenoptions_gethelpertokensid.htm
 tech.root: Bits
 ms.assetid: 724614af-cae8-47d7-888d-ed1504a9bc12
-
 ms.date: 12/05/2018
 ms.keywords: GetHelperTokenSid, GetHelperTokenSid method [BITS], GetHelperTokenSid method [BITS],IBitsTokenOptions interface, IBitsTokenOptions interface [BITS],GetHelperTokenSid method, IBitsTokenOptions.GetHelperTokenSid, IBitsTokenOptions::GetHelperTokenSid, bits.ibitstokenoptions_gethelpertokensid, bits4_0/IBitsTokenOptions::GetHelperTokenSid
 ms.topic: method
-f1_keywords: 
- - "bits4_0/IBitsTokenOptions.GetHelperTokenSid"
+f1_keywords:
+- bits4_0/IBitsTokenOptions.GetHelperTokenSid
 dev_langs:
- - c++
+- c++
 req.header: bits4_0.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits4_0.h
+- Bits4_0.h
 api_name:
- - IBitsTokenOptions.GetHelperTokenSid
+- IBitsTokenOptions.GetHelperTokenSid
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on  Windows Vista with SP1,  Windows Vista with SP2, and  Windows Server 2008 with SP2

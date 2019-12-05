@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll.put_ContainerNameWStr
 title: IEnroll::put_ContainerNameWStr (xenroll.h)
-
 description: Sets or retrieves the name of the key container to use.
 old-location: security\ienroll4_containernamewstr.htm
 tech.root: SecCrypto
 ms.assetid: 6740378a-342b-4520-89c7-32d44e23cfca
-
 ms.date: 12/05/2018
 ms.keywords: ContainerNameWStr property [Security], ContainerNameWStr property [Security],IEnroll interface, IEnroll interface [Security],ContainerNameWStr property, IEnroll.ContainerNameWStr, IEnroll.put_ContainerNameWStr, IEnroll::ContainerNameWStr, IEnroll::get_ContainerNameWStr, IEnroll::put_ContainerNameWStr, put_ContainerNameWStr, security.ienroll4_containernamewstr, xenroll/IEnroll::ContainerNameWStr, xenroll/IEnroll::get_ContainerNameWStr, xenroll/IEnroll::put_ContainerNameWStr
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll.ContainerNameWStr"
+f1_keywords:
+- xenroll/IEnroll.ContainerNameWStr
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll.ContainerNameWStr
- - IEnroll.get_ContainerNameWStr
- - IEnroll.put_ContainerNameWStr
+- IEnroll.ContainerNameWStr
+- IEnroll.get_ContainerNameWStr
+- IEnroll.put_ContainerNameWStr
 targetos: Windows
 req.typenames: 
 req.redist: 

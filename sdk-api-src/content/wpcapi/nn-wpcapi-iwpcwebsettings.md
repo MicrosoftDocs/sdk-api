@@ -1,19 +1,17 @@
 ---
 UID: NN:wpcapi.IWPCWebSettings
 title: IWPCWebSettings (wpcapi.h)
-
 description: Accesses web restrictions settings for the user.
 old-location: parcon\iwpcwebsettings.htm
 tech.root: parcon
 ms.assetid: 80629db8-0040-4545-a313-5cf7aa3d7f8b
-
 ms.date: 12/05/2018
 ms.keywords: IWPCWebSettings, IWPCWebSettings interface, IWPCWebSettings interface,described, parcon.iwpcwebsettings, wpcapi/IWPCWebSettings
 ms.topic: interface
-f1_keywords: 
- - "wpcapi/IWPCWebSettings"
+f1_keywords:
+- wpcapi/IWPCWebSettings
 dev_langs:
- - c++
+- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wpcapi.h
+- Wpcapi.h
 api_name:
- - IWPCWebSettings
+- IWPCWebSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

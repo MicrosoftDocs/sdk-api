@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.ClearUnorderedAccessViewUint
 title: ID3D11DeviceContext::ClearUnorderedAccessViewUint (d3d11.h)
-
 description: Clears an unordered access resource with bit-precise values.
 old-location: direct3d11\id3d11devicecontext_clearunorderedaccessviewuint.htm
 tech.root: direct3d11
 ms.assetid: 73e70330-63cb-4ba6-b6e5-fc9707fb9f31
-
 ms.date: 12/05/2018
 ms.keywords: 6de62b79-ec47-d4cc-7834-5acc4c87fa8d, ClearUnorderedAccessViewUint, ClearUnorderedAccessViewUint method [Direct3D 11], ClearUnorderedAccessViewUint method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],ClearUnorderedAccessViewUint method, ID3D11DeviceContext.ClearUnorderedAccessViewUint, ID3D11DeviceContext::ClearUnorderedAccessViewUint, d3d11/ID3D11DeviceContext::ClearUnorderedAccessViewUint, direct3d11.id3d11devicecontext_clearunorderedaccessviewuint
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.ClearUnorderedAccessViewUint"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.ClearUnorderedAccessViewUint
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.ClearUnorderedAccessViewUint
+- ID3D11DeviceContext.ClearUnorderedAccessViewUint
 targetos: Windows
 req.typenames: 
 req.redist: 

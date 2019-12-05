@@ -1,19 +1,17 @@
 ---
 UID: NS:wia_xp._WIA_DATA_TRANSFER_INFO
 title: WIA_DATA_TRANSFER_INFO (wia_xp.h)
-
 description: The WIA_DATA_TRANSFER_INFO structure is used by applications to describe the buffer used to retrieve bands of data from Windows Image Acquisition (WIA) devices. It is primarily used in conjunction with the methods of the IWiaDataTransfer interface.
 old-location: wia\_wia_WIA_DATA_TRANSFER_INFO.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\structs\wia_data_transfer_info.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PWIA_DATA_TRANSFER_INFO, PWIA_DATA_TRANSFER_INFO, PWIA_DATA_TRANSFER_INFO structure pointer [WIA], WIA_DATA_TRANSFER_INFO, WIA_DATA_TRANSFER_INFO structure [WIA], _wia_WIA_DATA_TRANSFER_INFO, wia._wia_WIA_DATA_TRANSFER_INFO, wia_xp/PWIA_DATA_TRANSFER_INFO, wia_xp/WIA_DATA_TRANSFER_INFO"
+ms.keywords: '*PWIA_DATA_TRANSFER_INFO, PWIA_DATA_TRANSFER_INFO, PWIA_DATA_TRANSFER_INFO structure pointer [WIA], WIA_DATA_TRANSFER_INFO, WIA_DATA_TRANSFER_INFO structure [WIA], _wia_WIA_DATA_TRANSFER_INFO, wia._wia_WIA_DATA_TRANSFER_INFO, wia_xp/PWIA_DATA_TRANSFER_INFO, wia_xp/WIA_DATA_TRANSFER_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wia_xp/WIA_DATA_TRANSFER_INFO"
+f1_keywords:
+- wia_xp/WIA_DATA_TRANSFER_INFO
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wia_xp.h
+- wia_xp.h
 api_name:
- - WIA_DATA_TRANSFER_INFO
+- WIA_DATA_TRANSFER_INFO
 targetos: Windows
 req.typenames: WIA_DATA_TRANSFER_INFO, *PWIA_DATA_TRANSFER_INFO
 req.redist: 

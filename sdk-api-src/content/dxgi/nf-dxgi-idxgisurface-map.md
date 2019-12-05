@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.IDXGISurface.Map
 title: IDXGISurface::Map (dxgi.h)
-
 description: Get a pointer to the data contained in the surface, and deny GPU access to the surface.
 old-location: direct3ddxgi\idxgisurface_map.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgisurface_map.htm
-
 ms.date: 12/05/2018
 ms.keywords: 2353661a-8e73-6878-2899-79d0afdc2901, IDXGISurface interface [DXGI],Map method, IDXGISurface.Map, IDXGISurface::Map, Map, Map method [DXGI], Map method [DXGI],IDXGISurface interface, direct3ddxgi.idxgisurface_map, dxgi/IDXGISurface::Map
 ms.topic: method
-f1_keywords: 
- - "dxgi/IDXGISurface.Map"
+f1_keywords:
+- dxgi/IDXGISurface.Map
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGISurface.Map
+- IDXGISurface.Map
 targetos: Windows
 req.typenames: 
 req.redist: 

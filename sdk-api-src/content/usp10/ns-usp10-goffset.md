@@ -1,19 +1,17 @@
 ---
 UID: NS:usp10.tagGOFFSET
 title: GOFFSET (usp10.h)
-
 description: Contains the x and y offsets of the combining glyph.
 old-location: intl\goffset.htm
 tech.root: Intl
 ms.assetid: 63fa8741-c8c8-480d-9702-2f4eb13bc01c
-
 ms.date: 12/05/2018
 ms.keywords: GOFFSET, GOFFSET structure [Internationalization for Windows Applications], _win32_GOFFSET_str, intl.goffset, usp10/GOFFSET
 ms.topic: struct
-f1_keywords: 
- - "usp10/GOFFSET"
+f1_keywords:
+- usp10/GOFFSET
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Usp10.h
+- Usp10.h
 api_name:
- - GOFFSET
+- GOFFSET
 targetos: Windows
 req.typenames: GOFFSET
 req.redist: Internet Explorer 5 or later onWindows Me/98/95

@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_search_abandon_page
 title: ldap_search_abandon_page function (winldap.h)
-
 description: The ldap_search_abandon_page function terminates a paged-results search.
 old-location: ldap\ldap_search_abandon_page.htm
 tech.root: ldap
 ms.assetid: 0c434611-b4d0-46e4-8e81-fc221e63de9f
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_search_abandon_page, ldap.ldap__search__abandon__page, ldap.ldap_search_abandon_page, ldap_search_abandon_page, ldap_search_abandon_page function [LDAP], winldap/ldap_search_abandon_page"
+ms.keywords: _ldap_ldap_search_abandon_page, ldap.ldap__search__abandon__page, ldap.ldap_search_abandon_page, ldap_search_abandon_page, ldap_search_abandon_page function [LDAP], winldap/ldap_search_abandon_page
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_search_abandon_page"
+f1_keywords:
+- winldap/ldap_search_abandon_page
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_search_abandon_page
+- ldap_search_abandon_page
 targetos: Windows
 req.typenames: 
 req.redist: 

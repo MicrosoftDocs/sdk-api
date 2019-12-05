@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMINT4.operator-assign
 title: XMINT4::operator-assign
-
 description: Assigns the vector component data from one instance of XMINT4 to the current instance of XMINT4.
 old-location: dxmath\xmint4_operator_eq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMINT4.operator = (const XMINT4)
-
 ms.date: 05/13/2019
 ms.keywords: Use DirectX..XMINT4.operator =, Use DirectX::::XMINT4::operator =, XMINT4 structure [DirectX Math Support APIs],operator = method, XMINT4.operator =, XMINT4.operator-assign, XMINT4.operator=, XMINT4::operator-assign, XMINT4::operator=, dxmath.xmint4_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMINT4 structure, operator=
 ms.topic: method
-f1_keywords: 
- - "directxmath/XMINT4.operator ="
+f1_keywords:
+- directxmath/XMINT4.operator =
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMINT4.operator =
+- XMINT4.operator =
 targetos: Windows
 req.typenames: 
 req.redist: 

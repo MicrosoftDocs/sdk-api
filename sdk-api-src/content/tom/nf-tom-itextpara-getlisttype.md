@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara.GetListType
 title: ITextPara::GetListType (tom.h)
-
 description: Retrieves the kind of numbering to use with paragraphs.
 old-location: controls\ITextPara_GetListType.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlisttype.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetListType, GetListType method [Windows Controls], GetListType method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetListType method, ITextPara.GetListType, ITextPara::GetListType, _win32_ITextPara_GetListType, _win32_ITextPara_GetListType_cpp, controls.ITextPara_GetListType, controls._win32_ITextPara_GetListType, tom/ITextPara::GetListType, tomListBullet, tomListMinus, tomListNone, tomListNumberAsArabic, tomListNumberAsLCLetter, tomListNumberAsLCRoman, tomListNumberAsSequence, tomListNumberAsUCLetter, tomListNumberAsUCRoman, tomListNumberedArabic1, tomListNumberedArabic2, tomListNumberedArabicWide, tomListNumberedBlackCircleWingding, tomListNumberedChS, tomListNumberedChT, tomListNumberedCircle, tomListNumberedHebrew, tomListNumberedHindiAlpha, tomListNumberedHindiAlpha1, tomListNumberedHindiNum, tomListNumberedJpnChs, tomListNumberedJpnKor, tomListNumberedThaiAlpha, tomListNumberedThaiNum, tomListNumberedWhiteCircleWingding, tomListParentheses, tomListPeriod, tomListPlain
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara.GetListType"
+f1_keywords:
+- tom/ITextPara.GetListType
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara.GetListType
+- ITextPara.GetListType
 targetos: Windows
 req.typenames: 
 req.redist: 

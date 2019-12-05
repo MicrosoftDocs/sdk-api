@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont.GetOutline
 title: ITextFont::GetOutline (tom.h)
-
 description: Gets whether characters are displayed as outlined characters.
 old-location: controls\ITextFont_GetOutline.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getoutline.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetOutline, GetOutline method [Windows Controls], GetOutline method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetOutline method, ITextFont.GetOutline, ITextFont::GetOutline, _win32_ITextFont_GetOutline, _win32_ITextFont_GetOutline_cpp, controls.ITextFont_GetOutline, controls._win32_ITextFont_GetOutline, tom/ITextFont::GetOutline
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont.GetOutline"
+f1_keywords:
+- tom/ITextFont.GetOutline
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont.GetOutline
+- ITextFont.GetOutline
 targetos: Windows
 req.typenames: 
 req.redist: 

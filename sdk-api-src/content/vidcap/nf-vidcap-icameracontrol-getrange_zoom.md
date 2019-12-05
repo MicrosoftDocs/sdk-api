@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.ICameraControl.getRange_Zoom
 title: ICameraControl::getRange_Zoom (vidcap.h)
-
 description: The getRange_Zoom method returns the range of zoom levels supported by the camera.
 old-location: dshow\icameracontrol_getrange_zoom.htm
 tech.root: DirectShow
 ms.assetid: 93a81b65-4b63-45c9-b065-f4aa5cf2e4ae
-
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_Zoom method, ICameraControl.getRange_Zoom, ICameraControl::getRange_Zoom, ICameraControlgetRange_Zoom, dshow.icameracontrol_getrange_zoom, getRange_Zoom, getRange_Zoom method [DirectShow], getRange_Zoom method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_Zoom
 ms.topic: method
-f1_keywords: 
- - "vidcap/ICameraControl.getRange_Zoom"
+f1_keywords:
+- vidcap/ICameraControl.getRange_Zoom
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICameraControl.getRange_Zoom
+- ICameraControl.getRange_Zoom
 targetos: Windows
 req.typenames: 
 req.redist: 

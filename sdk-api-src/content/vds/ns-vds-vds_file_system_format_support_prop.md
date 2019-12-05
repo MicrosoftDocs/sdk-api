@@ -1,19 +1,17 @@
 ---
 UID: NS:vds._VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP
 title: VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP (vds.h)
-
 description: Provides information about file systems that are supported for formatting volumes.
 old-location: base\vds_file_system_format_support_prop.htm
 tech.root: VDS
 ms.assetid: 0a0863d3-a97f-4be5-bba4-15d6bbbf03a5
-
 ms.date: 12/05/2018
 ms.keywords: '*PVDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP, PVDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP, PVDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP structure pointer, VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP, VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP structure, base.vds_file_system_format_support_prop, vds/PVDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP, vds/VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP'
 ms.topic: struct
 f1_keywords:
 - vds/VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

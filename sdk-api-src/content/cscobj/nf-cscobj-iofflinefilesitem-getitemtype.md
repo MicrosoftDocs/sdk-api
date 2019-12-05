@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesItem.GetItemType
 title: IOfflineFilesItem::GetItemType (cscobj.h)
-
 description: Returns a type code identifying the type of the item:\_server, share, directory, or file.
 old-location: of\iofflinefilesitem_getitemtype.htm
 tech.root: offlinefiles
 ms.assetid: 87fbf63a-d103-4c80-b6a7-60784c7350bc
-
 ms.date: 12/05/2018
 ms.keywords: GetItemType, GetItemType method [Offline Files], GetItemType method [Offline Files],IOfflineFilesItem interface, IOfflineFilesItem interface [Offline Files],GetItemType method, IOfflineFilesItem.GetItemType, IOfflineFilesItem::GetItemType, cscobj/IOfflineFilesItem::GetItemType, of.iofflinefilesitem_getitemtype
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesItem.GetItemType"
+f1_keywords:
+- cscobj/IOfflineFilesItem.GetItemType
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesItem.GetItemType
+- IOfflineFilesItem.GetItemType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:codecapi.eAVFastDecodeMode
 title: eAVFastDecodeMode (codecapi.h)
-
 description: Specifies the video decoding speed. This enumeration is used with the AVDecVideoFastDecodeMode property.
 old-location: dshow\eavfastdecodemode.htm
 tech.root: DirectShow
 ms.assetid: 526A52A8-4B48-43AE-A8B2-EE800C6BAE8F
-
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVFastDecodeMode, codecapi/eVideoDecodeCompliant, codecapi/eVideoDecodeDisableLF, codecapi/eVideoDecodeFastest, codecapi/eVideoDecodeOptimalLF, dshow.eavfastdecodemode, eAVFastDecodeMode, eAVFastDecodeMode enumeration [DirectShow], eVideoDecodeCompliant, eVideoDecodeDisableLF, eVideoDecodeFastest, eVideoDecodeOptimalLF
 ms.topic: enum
-f1_keywords: 
- - "codecapi/eAVFastDecodeMode"
+f1_keywords:
+- codecapi/eAVFastDecodeMode
 dev_langs:
- - c++
+- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - codecapi.h
+- codecapi.h
 api_name:
- - eAVFastDecodeMode
+- eAVFastDecodeMode
 targetos: Windows
 req.typenames: 
 req.redist: 

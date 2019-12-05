@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.GetSignatureOriginPartName
 title: IXpsSignatureManager::GetSignatureOriginPartName (xpsdigitalsignature.h)
-
 description: Gets the part name of the signature origin part.
 old-location: xps\ixpssignaturemanager_getsignatureoriginpartname.htm
 tech.root: printdocs
 ms.assetid: 0d70e6bc-1101-40fa-b91c-69facc3ca195
-
 ms.date: 12/05/2018
 ms.keywords: GetSignatureOriginPartName, GetSignatureOriginPartName method [XPS Documents and Packaging], GetSignatureOriginPartName method [XPS Documents and Packaging],IXpsSignatureManager interface, IXpsSignatureManager interface [XPS Documents and Packaging],GetSignatureOriginPartName method, IXpsSignatureManager.GetSignatureOriginPartName, IXpsSignatureManager::GetSignatureOriginPartName, xps.ixpssignaturemanager_getsignatureoriginpartname, xpsdigitalsignature/IXpsSignatureManager::GetSignatureOriginPartName
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSignatureManager.GetSignatureOriginPartName"
+f1_keywords:
+- xpsdigitalsignature/IXpsSignatureManager.GetSignatureOriginPartName
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSignatureManager.GetSignatureOriginPartName
+- IXpsSignatureManager.GetSignatureOriginPartName
 targetos: Windows
 req.typenames: 
 req.redist: 

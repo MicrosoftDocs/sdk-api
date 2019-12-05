@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpStartup
 title: SnmpStartup function (winsnmp.h)
-
 description: The SnmpStartup function notifies the Microsoft WinSNMP implementation that the WinSNMP application requires the implementation's services.
 old-location: snmp\snmpstartup.htm
 tech.root: SNMP
 ms.assetid: 7b8a4a1e-871f-424b-8bcb-c0b3bfaae9ce
-
 ms.date: 12/05/2018
 ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SNMPAPI_TRANSLATED, SNMPAPI_UNTRANSLATED_V1, SNMPAPI_UNTRANSLATED_V2, SnmpStartup, SnmpStartup function [SNMP], _snmp_snmpstartup, snmp.snmpstartup, winsnmp/SnmpStartup
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpStartup"
+f1_keywords:
+- winsnmp/SnmpStartup
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpStartup
+- SnmpStartup
 targetos: Windows
 req.typenames: 
 req.redist: 

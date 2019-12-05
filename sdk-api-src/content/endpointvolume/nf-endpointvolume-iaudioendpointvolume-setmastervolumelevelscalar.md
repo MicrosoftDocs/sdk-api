@@ -1,19 +1,17 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.SetMasterVolumeLevelScalar
 title: IAudioEndpointVolume::SetMasterVolumeLevelScalar (endpointvolume.h)
-
 description: The SetMasterVolumeLevelScalar method sets the master volume level of the audio stream that enters or leaves the audio endpoint device. The volume level is expressed as a normalized, audio-tapered value in the range from 0.0 to 1.0.
 old-location: coreaudio\iaudioendpointvolume_setmastervolumelevelscalar.htm
 tech.root: CoreAudio
 ms.assetid: d592c197-32fc-4a48-8f37-1cd140895c5e
-
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],SetMasterVolumeLevelScalar method, IAudioEndpointVolume.SetMasterVolumeLevelScalar, IAudioEndpointVolume::SetMasterVolumeLevelScalar, IAudioEndpointVolumeSetMasterVolumeLevelScalar, SetMasterVolumeLevelScalar, SetMasterVolumeLevelScalar method [Core Audio], SetMasterVolumeLevelScalar method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_setmastervolumelevelscalar, endpointvolume/IAudioEndpointVolume::SetMasterVolumeLevelScalar
 ms.topic: method
-f1_keywords: 
- - "endpointvolume/IAudioEndpointVolume.SetMasterVolumeLevelScalar"
+f1_keywords:
+- endpointvolume/IAudioEndpointVolume.SetMasterVolumeLevelScalar
 dev_langs:
- - c++
+- c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Endpointvolume.h
+- Endpointvolume.h
 api_name:
- - IAudioEndpointVolume.SetMasterVolumeLevelScalar
+- IAudioEndpointVolume.SetMasterVolumeLevelScalar
 targetos: Windows
 req.typenames: 
 req.redist: 

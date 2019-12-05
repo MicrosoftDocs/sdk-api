@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMColorYUVToRGB
 title: XMColorYUVToRGB function (directxmath.h)
-
 description: Converts YUV color values to RGB color values.
 old-location: dxmath\xmcoloryuvtorgb.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorYUVToRGB(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMColorYUVToRGB, XMColorYUVToRGB, XMColorYUVToRGB method [DirectX Math Support APIs], dxmath.xmcoloryuvtorgb
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMColorYUVToRGB"
+f1_keywords:
+- directxmath/XMColorYUVToRGB
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMColorYUVToRGB
+- XMColorYUVToRGB
 targetos: Windows
 req.typenames: 
 req.redist: 

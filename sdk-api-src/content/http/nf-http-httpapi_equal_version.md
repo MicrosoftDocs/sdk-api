@@ -1,19 +1,17 @@
 ---
 UID: NF:http.HTTPAPI_EQUAL_VERSION
 title: HTTPAPI_EQUAL_VERSION macro (http.h)
-
 description: Returns a non-zero value if an HTTPAPI_VERSION structure is exactly equal to a specified major/minor version combination, or zero otherwise.
 old-location: http\httpapi_equal_version.htm
 tech.root: http
 ms.assetid: e6af7b3a-2e2f-4a50-bef6-9e5b6503cd71
-
 ms.date: 12/05/2018
 ms.keywords: HTTPAPI_EQUAL_VERSION, HTTPAPI_EQUAL_VERSION macro [HTTP], http.httpapi_equal_version, http/HTTPAPI_EQUAL_VERSION
 ms.topic: macro
 f1_keywords:
 - http/HTTP_EQUAL_VERSION
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

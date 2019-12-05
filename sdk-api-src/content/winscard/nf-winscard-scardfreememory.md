@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardFreeMemory
 title: SCardFreeMemory function (winscard.h)
-
 description: Releases memory that has been returned from the resource manager using the SCARD_AUTOALLOCATE length designator.
 old-location: security\scardfreememory.htm
 tech.root: SecAuthN
 ms.assetid: d41d3891-671b-4129-8034-b251af983830
-
 ms.date: 12/05/2018
 ms.keywords: SCardFreeMemory, SCardFreeMemory function [Security], _smart_scardfreememory, security.scardfreememory, winscard/SCardFreeMemory
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardFreeMemory"
+f1_keywords:
+- winscard/SCardFreeMemory
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winscard.dll
- - Ext-MS-Win-wlan-scard-l1-1-0.dll
- - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
+- Winscard.dll
+- Ext-MS-Win-wlan-scard-l1-1-0.dll
+- Ext-MS-Win-Security-WinSCard-L1-1-0.dll
 api_name:
- - SCardFreeMemory
+- SCardFreeMemory
 targetos: Windows
 req.typenames: 
 req.redist: 

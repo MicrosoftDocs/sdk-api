@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetPointerPenInfoHistory
 title: GetPointerPenInfoHistory function (winuser.h)
-
 description: Gets the pen-based information associated with the individual inputs, if any, that were coalesced into the current message for the specified pointer (of type PT_PEN).
 old-location: inputmsg\getpointerpeninfohistory.htm
 tech.root: InputMsg
 ms.assetid: 90082327-b242-4f5d-8cd7-fd8ef9340395
-
 ms.date: 12/05/2018
 ms.keywords: GetPointerPenInfoHistory, GetPointerPenInfoHistory function [Input Messages and Notifications], inputmsg.getpointerpeninfohistory, winuser/GetPointerPenInfoHistory
 ms.topic: function
-f1_keywords: 
- - "winuser/GetPointerPenInfoHistory"
+f1_keywords:
+- winuser/GetPointerPenInfoHistory
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
- - MinUser.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
- - API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
+- MinUser.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
+- API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
 api_name:
- - GetPointerPenInfoHistory
+- GetPointerPenInfoHistory
 targetos: Windows
 req.typenames: 
 req.redist: 

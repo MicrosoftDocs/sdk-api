@@ -1,19 +1,17 @@
 ---
 UID: NF:frquery.CFrameworkQuery.AllPropertiesAreRequired
 title: CFrameworkQuery::AllPropertiesAreRequired (frquery.h)
-
 description: The AllPropertiesAreRequired method indicates whether all of the properties for the instance are requested.
 old-location: wmi\cframeworkquery_allpropertiesarerequired.htm
 tech.root: WmiSdk
 ms.assetid: 5c17cae5-c68b-41a3-80ca-88d56be4ab74
-
 ms.date: 12/05/2018
 ms.keywords: AllPropertiesAreRequired, AllPropertiesAreRequired method [Windows Management Instrumentation], AllPropertiesAreRequired method [Windows Management Instrumentation],CFrameworkQuery interface, CFrameworkQuery interface [Windows Management Instrumentation],AllPropertiesAreRequired method, CFrameworkQuery.AllPropertiesAreRequired, CFrameworkQuery::AllPropertiesAreRequired, _hmm_cframeworkquery_allpropertiesarerequired, frquery/CFrameworkQuery::AllPropertiesAreRequired, wmi.cframeworkquery_allpropertiesarerequired
 ms.topic: method
-f1_keywords: 
- - "frquery/CFrameworkQuery.AllPropertiesAreRequired"
+f1_keywords:
+- frquery/CFrameworkQuery.AllPropertiesAreRequired
 dev_langs:
- - c++
+- c++
 req.header: frquery.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CFrameworkQuery.AllPropertiesAreRequired
+- CFrameworkQuery.AllPropertiesAreRequired
 targetos: Windows
 req.typenames: 
 req.redist: 

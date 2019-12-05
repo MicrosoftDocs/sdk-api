@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.IntPtrToUInt8
 title: IntPtrToUInt8 function (intsafe.h)
-
 description: Converts a value of type INT_PTR to a value of type UINT8.
 old-location: shell\IntPtrToUInt8.htm
 tech.root: shell
 ms.assetid: d1337a8a-0a7a-41a1-b57b-f20d8a616113
-
 ms.date: 12/05/2018
 ms.keywords: IntPtrToUInt8, IntPtrToUInt8 function [Windows Shell], intsafe/IntPtrToUInt8, shell.IntPtrToUInt8
 ms.topic: function
-f1_keywords: 
- - "intsafe/IntPtrToUInt8"
+f1_keywords:
+- intsafe/IntPtrToUInt8
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - IntPtrToUInt8
+- IntPtrToUInt8
 targetos: Windows
 req.typenames: 
 req.redist: 

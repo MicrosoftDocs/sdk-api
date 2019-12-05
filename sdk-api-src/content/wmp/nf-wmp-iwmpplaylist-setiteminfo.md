@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPPlaylist.setItemInfo
 title: IWMPPlaylist::setItemInfo (wmp.h)
-
 description: The setItemInfo method specifies the value of an attribute of the current playlist. .
 old-location: wmp\iwmpplaylist_setiteminfo.htm
 tech.root: WMP
 ms.assetid: fd812af6-0bdf-4da4-a066-4411d0d9e259
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],setItemInfo method, IWMPPlaylist.setItemInfo, IWMPPlaylist::setItemInfo, IWMPPlaylistsetItemInfo, setItemInfo, setItemInfo method [Windows Media Player], setItemInfo method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_setiteminfo, wmp/IWMPPlaylist::setItemInfo
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPPlaylist.setItemInfo"
+f1_keywords:
+- wmp/IWMPPlaylist.setItemInfo
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPPlaylist.setItemInfo
+- IWMPPlaylist.setItemInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

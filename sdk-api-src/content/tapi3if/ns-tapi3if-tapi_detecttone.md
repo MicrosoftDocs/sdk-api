@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi3if.TAPI_DETECTTONE
 title: TAPI_DETECTTONE (tapi3if.h)
-
 description: The TAPI_DETECTTONE structure describes a tone to be monitored. This is used as an entry in an array.
 old-location: tapi3\tapi_detecttone_str.htm
 tech.root: Tapi
 ms.assetid: c0e311e8-67b5-4dae-848e-589f306191fa
-
 ms.date: 12/05/2018
-ms.keywords: "*LPTAPI_DETECTTONE, TAPI_DETECTTONE, TAPI_DETECTTONE structure [TAPI 2.2], _tapi3_tapi_detecttone_str, tapi3.tapi_detecttone_str, tapi3if/TAPI_DETECTTONE"
+ms.keywords: '*LPTAPI_DETECTTONE, TAPI_DETECTTONE, TAPI_DETECTTONE structure [TAPI 2.2], _tapi3_tapi_detecttone_str, tapi3.tapi_detecttone_str, tapi3if/TAPI_DETECTTONE'
 ms.topic: struct
-f1_keywords: 
- - "tapi3if/TAPI_DETECTTONE"
+f1_keywords:
+- tapi3if/TAPI_DETECTTONE
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi3if.h
+- Tapi3if.h
 api_name:
- - TAPI_DETECTTONE
+- TAPI_DETECTTONE
 targetos: Windows
 req.typenames: TAPI_DETECTTONE, *LPTAPI_DETECTTONE
 req.redist: 

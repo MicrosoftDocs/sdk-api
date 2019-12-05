@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ISelectionItemProvider.RemoveFromSelection
 title: ISelectionItemProvider::RemoveFromSelection (uiautomationcore.h)
-
 description: Removes the current element from the collection of selected items.
 old-location: winauto\uiauto_ISelectionItemProvider_RemoveFromSelection.htm
 tech.root: WinAuto
 ms.assetid: fcbf452e-5827-4368-b601-a6eeabb15d53
-
 ms.date: 12/05/2018
 ms.keywords: ISelectionItemProvider interface [Windows Accessibility],RemoveFromSelection method, ISelectionItemProvider.RemoveFromSelection, ISelectionItemProvider::RemoveFromSelection, RemoveFromSelection, RemoveFromSelection method [Windows Accessibility], RemoveFromSelection method [Windows Accessibility],ISelectionItemProvider interface, uiauto.uiauto_ISelectionItemProvider_RemoveFromSelection, uiauto_ISelectionItemProvider_RemoveFromSelection, uiautomationcore/ISelectionItemProvider::RemoveFromSelection, winauto.uiauto_ISelectionItemProvider_RemoveFromSelection
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ISelectionItemProvider.RemoveFromSelection"
+f1_keywords:
+- uiautomationcore/ISelectionItemProvider.RemoveFromSelection
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ISelectionItemProvider.RemoveFromSelection
+- ISelectionItemProvider.RemoveFromSelection
 targetos: Windows
 req.typenames: 
 req.redist: 

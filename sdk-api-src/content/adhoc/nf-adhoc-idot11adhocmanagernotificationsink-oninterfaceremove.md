@@ -1,19 +1,17 @@
 ---
 UID: NF:adhoc.IDot11AdHocManagerNotificationSink.OnInterfaceRemove
 title: IDot11AdHocManagerNotificationSink::OnInterfaceRemove (adhoc.h)
-
 description: Notifies the client that a network interface card (NIC) has become inactive.
 old-location: nwifi\idot11adhocmanagernotificationsink_oninterfaceremove.htm
 tech.root: NativeWiFi
 ms.assetid: ac62c211-9886-4c09-8867-32ce9763c2fc
-
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocManagerNotificationSink interface [NativeWIFI],OnInterfaceRemove method, IDot11AdHocManagerNotificationSink.OnInterfaceRemove, IDot11AdHocManagerNotificationSink::OnInterfaceRemove, OnInterfaceRemove, OnInterfaceRemove method [NativeWIFI], OnInterfaceRemove method [NativeWIFI],IDot11AdHocManagerNotificationSink interface, adhoc/IDot11AdHocManagerNotificationSink::OnInterfaceRemove, nwifi.idot11adhocmanagernotificationsink_oninterfaceremove
 ms.topic: method
-f1_keywords: 
- - "adhoc/IDot11AdHocManagerNotificationSink.OnInterfaceRemove"
+f1_keywords:
+- adhoc/IDot11AdHocManagerNotificationSink.OnInterfaceRemove
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IDot11AdHocManagerNotificationSink.OnInterfaceRemove
+- IDot11AdHocManagerNotificationSink.OnInterfaceRemove
 targetos: Windows
 req.typenames: 
 req.redist: 

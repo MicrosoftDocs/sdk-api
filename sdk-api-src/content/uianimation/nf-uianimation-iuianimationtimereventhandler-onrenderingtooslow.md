@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTimerEventHandler.OnRenderingTooSlow
 title: IUIAnimationTimerEventHandler::OnRenderingTooSlow (uianimation.h)
-
 description: Handles events that occur when the rendering frame rate for an animation falls below a minimum desirable frame rate.
 old-location: uianimation\iuianimationtimereventhandler_onrenderingtooslow.htm
 tech.root: UIAnimation
 ms.assetid: 79986646-2d82-41a3-bff7-b2f0492c7a1b
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTimerEventHandler interface [Windows Animation],OnRenderingTooSlow method, IUIAnimationTimerEventHandler.OnRenderingTooSlow, IUIAnimationTimerEventHandler::OnRenderingTooSlow, OnRenderingTooSlow, OnRenderingTooSlow method [Windows Animation], OnRenderingTooSlow method [Windows Animation],IUIAnimationTimerEventHandler interface, uianimation.iuianimationtimereventhandler_onrenderingtooslow, uianimation/IUIAnimationTimerEventHandler::OnRenderingTooSlow
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTimerEventHandler.OnRenderingTooSlow"
+f1_keywords:
+- uianimation/IUIAnimationTimerEventHandler.OnRenderingTooSlow
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTimerEventHandler.OnRenderingTooSlow
+- IUIAnimationTimerEventHandler.OnRenderingTooSlow
 targetos: Windows
 req.typenames: 
 req.redist: 

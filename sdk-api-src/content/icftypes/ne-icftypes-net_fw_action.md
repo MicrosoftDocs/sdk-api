@@ -1,19 +1,17 @@
 ---
 UID: NE:icftypes.NET_FW_ACTION_
 title: NET_FW_ACTION (icftypes.h)
-
 description: Specifies the action for a rule or default setting.
 old-location: ics\net_fw_action.htm
 tech.root: ics
 ms.assetid: 1120e802-9159-450b-bee2-700e49d4fa61
-
 ms.date: 12/05/2018
 ms.keywords: NET_FW_ACTION, NET_FW_ACTION enumeration [ICS/ICF], NET_FW_ACTION_ALLOW, NET_FW_ACTION_BLOCK, NET_FW_ACTION_MAX, icftypes/NET_FW_ACTION, icftypes/NET_FW_ACTION_ALLOW, icftypes/NET_FW_ACTION_BLOCK, icftypes/NET_FW_ACTION_MAX, ics.net_fw_action
 ms.topic: enum
-f1_keywords: 
- - "icftypes/NET_FW_ACTION"
+f1_keywords:
+- icftypes/NET_FW_ACTION
 dev_langs:
- - c++
+- c++
 req.header: icftypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Icftypes.h
+- Icftypes.h
 api_name:
- - NET_FW_ACTION
+- NET_FW_ACTION
 targetos: Windows
 req.typenames: NET_FW_ACTION
 req.redist: 

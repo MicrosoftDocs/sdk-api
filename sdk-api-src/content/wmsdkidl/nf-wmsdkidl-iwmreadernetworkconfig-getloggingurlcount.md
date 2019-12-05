@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetLoggingUrlCount
 title: IWMReaderNetworkConfig::GetLoggingUrlCount (wmsdkidl.h)
-
 description: The GetLoggingUrlCount method retrieves the number of URLs in the current list of logging URLs.
 old-location: wmformat\iwmreadernetworkconfig_getloggingurlcount.htm
 tech.root: wmformat
 ms.assetid: 869e093f-8936-4b60-8818-ee2c57924d11
-
 ms.date: 12/05/2018
 ms.keywords: GetLoggingUrlCount, GetLoggingUrlCount method [windows Media Format], GetLoggingUrlCount method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetLoggingUrlCount method, IWMReaderNetworkConfig.GetLoggingUrlCount, IWMReaderNetworkConfig::GetLoggingUrlCount, IWMReaderNetworkConfigGetLoggingUrlCount, wmformat.iwmreadernetworkconfig_getloggingurlcount, wmsdkidl/IWMReaderNetworkConfig::GetLoggingUrlCount
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderNetworkConfig.GetLoggingUrlCount"
+f1_keywords:
+- wmsdkidl/IWMReaderNetworkConfig.GetLoggingUrlCount
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig.GetLoggingUrlCount
+- IWMReaderNetworkConfig.GetLoggingUrlCount
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextStrings.DeleteRange
 title: ITextStrings::DeleteRange (tom.h)
-
 description: Deletes the contents of a given range.
 old-location: controls\itextstrings_deleterange.htm
 tech.root: Controls
 ms.assetid: 2dd6312a-77ab-4538-a51b-7de49a5457ff
-
 ms.date: 12/05/2018
 ms.keywords: DeleteRange, DeleteRange method [Windows Controls], DeleteRange method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],DeleteRange method, ITextStrings.DeleteRange, ITextStrings::DeleteRange, controls.itextstrings_deleterange, tom/ITextStrings::DeleteRange
 ms.topic: method
-f1_keywords: 
- - "tom/ITextStrings.DeleteRange"
+f1_keywords:
+- tom/ITextStrings.DeleteRange
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextStrings.DeleteRange
+- ITextStrings.DeleteRange
 targetos: Windows
 req.typenames: 
 req.redist: 

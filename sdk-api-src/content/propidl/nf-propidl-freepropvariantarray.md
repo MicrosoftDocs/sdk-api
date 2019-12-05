@@ -1,19 +1,17 @@
 ---
 UID: NF:propidl.FreePropVariantArray
 title: FreePropVariantArray function (propidl.h)
-
 description: Frees the memory and references used by an array of PROPVARIANT structures.
 old-location: properties\FreePropVariantArray.htm
 tech.root: properties
 ms.assetid: 5033557c-d43c-42b1-ae4e-0fb0569d697a
-
 ms.date: 12/05/2018
 ms.keywords: FreePropVariantArray, FreePropVariantArray function [Windows Properties], _shell_FreePropVariantArray, properties.FreePropVariantArray, propidl/FreePropVariantArray, shell.FreePropVariantArray
 ms.topic: function
-f1_keywords: 
- - "propidl/FreePropVariantArray"
+f1_keywords:
+- propidl/FreePropVariantArray
 dev_langs:
- - c++
+- c++
 req.header: propidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - FreePropVariantArray
+- FreePropVariantArray
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

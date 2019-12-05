@@ -1,19 +1,17 @@
 ---
 UID: NS:ddrawint._DD_ADDATTACHEDSURFACEDATA
 title: DD_ADDATTACHEDSURFACEDATA (ddrawint.h)
-
 description: The DD_ADDATTACHEDSURFACEDATA structure contains information necessary to attach a surface to another surface.
 old-location: display\dd_addattachedsurfacedata.htm
 tech.root: display
 ms.assetid: d00120d9-5825-4998-a1ef-ccc5654b91b9
-
 ms.date: 12/05/2018
 ms.keywords: '*PDD_ADDATTACHEDSURFACEDATA, DD_ADDATTACHEDSURFACEDATA, DD_ADDATTACHEDSURFACEDATA structure [Display Devices], ddrawint/DD_ADDATTACHEDSURFACEDATA, ddstrcts_2697c197-c588-4f30-8f96-db7d835f3929.xml, display.dd_addattachedsurfacedata'
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_ADDATTACHEDSURFACEDATA
 dev_langs:
- - c++
+- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

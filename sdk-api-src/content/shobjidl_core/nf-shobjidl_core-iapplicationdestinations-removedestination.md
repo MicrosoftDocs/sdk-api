@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IApplicationDestinations.RemoveDestination
 title: IApplicationDestinations::RemoveDestination (shobjidl_core.h)
-
 description: Removes a single destination from the Recent and Frequent categories in a Jump List.
 old-location: shell\IApplicationDestinations_RemoveDestination.htm
 tech.root: shell
 ms.assetid: d1c33908-8450-4baf-8598-535a1941820c
-
 ms.date: 12/05/2018
 ms.keywords: IApplicationDestinations interface [Windows Shell],RemoveDestination method, IApplicationDestinations.RemoveDestination, IApplicationDestinations::RemoveDestination, RemoveDestination, RemoveDestination method [Windows Shell], RemoveDestination method [Windows Shell],IApplicationDestinations interface, _shell_IApplicationDestinations_RemoveDestination, shell.IApplicationDestinations_RemoveDestination, shobjidl_core/IApplicationDestinations::RemoveDestination
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IApplicationDestinations.RemoveDestination"
+f1_keywords:
+- shobjidl_core/IApplicationDestinations.RemoveDestination
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IApplicationDestinations.RemoveDestination
+- IApplicationDestinations.RemoveDestination
 targetos: Windows
 req.typenames: 
 req.redist: 

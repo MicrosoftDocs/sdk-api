@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_1.IDWriteTextAnalysisSink1.SetGlyphOrientation
 title: IDWriteTextAnalysisSink1::SetGlyphOrientation (dwrite_1.h)
-
 description: The text analyzer calls back to this to report the actual orientation of each character for shaping and drawing.
 old-location: directwrite\idwritetextanalysissink1_setglyphorientation.htm
 tech.root: DirectWrite
 ms.assetid: 81BD4C36-273B-4C28-A89E-88BABCAD511A
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextAnalysisSink1 interface [Direct Write],SetGlyphOrientation method, IDWriteTextAnalysisSink1.SetGlyphOrientation, IDWriteTextAnalysisSink1::SetGlyphOrientation, SetGlyphOrientation, SetGlyphOrientation method [Direct Write], SetGlyphOrientation method [Direct Write],IDWriteTextAnalysisSink1 interface, directwrite.idwritetextanalysissink1_setglyphorientation, dwrite_1/IDWriteTextAnalysisSink1::SetGlyphOrientation
 ms.topic: method
-f1_keywords: 
- - "dwrite_1/IDWriteTextAnalysisSink1.SetGlyphOrientation"
+f1_keywords:
+- dwrite_1/IDWriteTextAnalysisSink1.SetGlyphOrientation
 dev_langs:
- - c++
+- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextAnalysisSink1.SetGlyphOrientation
+- IDWriteTextAnalysisSink1.SetGlyphOrientation
 targetos: Windows
 req.typenames: 
 req.redist: 

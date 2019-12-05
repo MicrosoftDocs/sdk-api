@@ -1,19 +1,17 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.GetTemplate
 title: IWMPContentPartner::GetTemplate (contentpartner.h)
-
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartner_gettemplate.htm
 tech.root: WMP
 ms.assetid: 4bfe7d84-9f65-4bd4-867a-65c96291397d
-
 ms.date: 12/05/2018
 ms.keywords: GetTemplate, GetTemplate method [Windows Media Player], GetTemplate method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetTemplate method, IWMPContentPartner.GetTemplate, IWMPContentPartner::GetTemplate, IWMPContentPartnerGetTemplate, contentpartner/IWMPContentPartner::GetTemplate, wmp.iwmpcontentpartner_gettemplate
 ms.topic: method
-f1_keywords: 
- - "contentpartner/IWMPContentPartner.GetTemplate"
+f1_keywords:
+- contentpartner/IWMPContentPartner.GetTemplate
 dev_langs:
- - c++
+- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - contentpartner.h
+- contentpartner.h
 api_name:
- - IWMPContentPartner.GetTemplate
+- IWMPContentPartner.GetTemplate
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITPhone.put_LampMode
 title: ITPhone::put_LampMode (tapi3if.h)
-
 description: The put_LampMode method sets the current lamp mode for the given lamp.
 old-location: tapi3\itphone_put_lampmode.htm
 tech.root: Tapi
 ms.assetid: 0445cf2c-1b00-4136-bdab-3c6e0669ef11
-
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],put_LampMode method, ITPhone.put_LampMode, ITPhone::put_LampMode, _tapi3_itphone_put_lampmode, put_LampMode, put_LampMode method [TAPI 2.2], put_LampMode method [TAPI 2.2],ITPhone interface, tapi3.itphone_put_lampmode, tapi3if/ITPhone::put_LampMode
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITPhone.put_LampMode"
+f1_keywords:
+- tapi3if/ITPhone.put_LampMode
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPhone.put_LampMode
+- ITPhone.put_LampMode
 targetos: Windows
 req.typenames: 
 req.redist: 

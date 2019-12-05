@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmTransactionBegin0
 title: FwpmTransactionBegin0 function (fwpmu.h)
-
 description: Begins an explicit transaction within the current session.
 old-location: fwp\fwpmtransactionbegin0_func.htm
 tech.root: fwp
 ms.assetid: 9eaf1101-7cf3-4eb2-9ca0-47108a5c80c7
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_TXN_READ_ONLY, FwpmTransactionBegin0, FwpmTransactionBegin0 function [Filtering], fwp.fwpmtransactionbegin0_func, fwpmu/FwpmTransactionBegin0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmTransactionBegin0"
+f1_keywords:
+- fwpmu/FwpmTransactionBegin0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmTransactionBegin0
+- FwpmTransactionBegin0
 targetos: Windows
 req.typenames: 
 req.redist: 

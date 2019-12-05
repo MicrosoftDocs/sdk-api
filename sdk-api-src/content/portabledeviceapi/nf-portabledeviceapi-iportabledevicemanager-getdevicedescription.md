@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceManager.GetDeviceDescription
 title: IPortableDeviceManager::GetDeviceDescription (portabledeviceapi.h)
-
 description: Retrieves the description of a device.
 old-location: wpdsdk\iportabledevicemanager_getdevicedescription.htm
 tech.root: wpd_sdk
 ms.assetid: 16c08c8a-9ce7-455a-9859-6b0be406f642
-
 ms.date: 12/05/2018
 ms.keywords: GetDeviceDescription, GetDeviceDescription method [Windows Portable Devices SDK], GetDeviceDescription method [Windows Portable Devices SDK],IPortableDeviceManager interface, IPortableDeviceManager interface [Windows Portable Devices SDK],GetDeviceDescription method, IPortableDeviceManager.GetDeviceDescription, IPortableDeviceManager::GetDeviceDescription, IPortableDeviceManagerGetDeviceDescription, portabledeviceapi/IPortableDeviceManager::GetDeviceDescription, wpdsdk.iportabledevicemanager_getdevicedescription
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceManager.GetDeviceDescription"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceManager.GetDeviceDescription
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceManager.GetDeviceDescription
+- IPortableDeviceManager.GetDeviceDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

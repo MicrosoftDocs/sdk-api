@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellMenu.InvalidateItem
 title: IShellMenu::InvalidateItem (shobjidl_core.h)
-
 description: Redraws an item in a menu band.
 old-location: shell\IShellMenu_InvalidateItem.htm
 tech.root: shell
 ms.assetid: 694722f2-2030-4c85-bcc4-70f8a8b70161
-
 ms.date: 12/05/2018
 ms.keywords: IShellMenu interface [Windows Shell],InvalidateItem method, IShellMenu.InvalidateItem, IShellMenu::InvalidateItem, InvalidateItem, InvalidateItem method [Windows Shell], InvalidateItem method [Windows Shell],IShellMenu interface, _shell_IShellMenu_InvalidateItem, shell.IShellMenu_InvalidateItem, shobjidl_core/IShellMenu::InvalidateItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellMenu.InvalidateItem"
+f1_keywords:
+- shobjidl_core/IShellMenu.InvalidateItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellMenu.InvalidateItem
+- IShellMenu.InvalidateItem
 targetos: Windows
 req.typenames: 
 req.redist: 

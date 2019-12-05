@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.ITextHost.TxGetPasswordChar
 title: ITextHost::TxGetPasswordChar (textserv.h)
-
 description: Requests the text host's password character.
 old-location: controls\ITextHost_TxGetPasswordChar.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxgetpasswordchar.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetPasswordChar method, ITextHost.TxGetPasswordChar, ITextHost::TxGetPasswordChar, TxGetPasswordChar, TxGetPasswordChar method [Windows Controls], TxGetPasswordChar method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetPasswordChar, _win32_ITextHost_TxGetPasswordChar_cpp, controls.ITextHost_TxGetPasswordChar, controls._win32_ITextHost_TxGetPasswordChar, textserv/ITextHost::TxGetPasswordChar
 ms.topic: method
-f1_keywords: 
- - "textserv/ITextHost.TxGetPasswordChar"
+f1_keywords:
+- textserv/ITextHost.TxGetPasswordChar
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextHost.TxGetPasswordChar
+- ITextHost.TxGetPasswordChar
 targetos: Windows
 req.typenames: 
 req.redist: 

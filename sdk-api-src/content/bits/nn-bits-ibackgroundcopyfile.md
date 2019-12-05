@@ -1,19 +1,17 @@
 ---
 UID: NN:bits.IBackgroundCopyFile
 title: IBackgroundCopyFile (bits.h)
-
 description: IBackgroundCopyFile contains information about a file that is part of a job. For example, you can use IBackgroundCopyFile methods to retrieve the local and remote names of the file and transfer progress information.
 old-location: bits\ibackgroundcopyfile.htm
 tech.root: Bits
 ms.assetid: fae9cf56-c211-445b-b962-9a9d7d67c59c
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyFile, IBackgroundCopyFile interface [BITS], IBackgroundCopyFile interface [BITS],described, _drz_ibackgroundcopyfile, bits.ibackgroundcopyfile, bits/IBackgroundCopyFile
 ms.topic: interface
-f1_keywords: 
- - "bits/IBackgroundCopyFile"
+f1_keywords:
+- bits/IBackgroundCopyFile
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyFile
+- IBackgroundCopyFile
 targetos: Windows
 req.typenames: 
 req.redist: 

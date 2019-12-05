@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMemAllocatorCallbackTemp.GetFreeCount
 title: IMemAllocatorCallbackTemp::GetFreeCount (strmif.h)
-
 description: The GetFreeCount method returns the number of free media samples. This number equals the total number of media samples minus the number of samples that are currently held by filters.
 old-location: dshow\imemallocatorcallbacktemp_getfreecount.htm
 tech.root: DirectShow
 ms.assetid: 2dd0cdb3-664a-4022-b8bb-fda759172dd6
-
 ms.date: 12/05/2018
 ms.keywords: GetFreeCount, GetFreeCount method [DirectShow], GetFreeCount method [DirectShow],IMemAllocatorCallbackTemp interface, IMemAllocatorCallbackTemp interface [DirectShow],GetFreeCount method, IMemAllocatorCallbackTemp.GetFreeCount, IMemAllocatorCallbackTemp::GetFreeCount, IMemAllocatorCallbackTempGetFreeCount, dshow.imemallocatorcallbacktemp_getfreecount, strmif/IMemAllocatorCallbackTemp::GetFreeCount
 ms.topic: method
-f1_keywords: 
- - "strmif/IMemAllocatorCallbackTemp.GetFreeCount"
+f1_keywords:
+- strmif/IMemAllocatorCallbackTemp.GetFreeCount
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMemAllocatorCallbackTemp.GetFreeCount
+- IMemAllocatorCallbackTemp.GetFreeCount
 targetos: Windows
 req.typenames: 
 req.redist: 

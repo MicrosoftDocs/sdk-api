@@ -1,19 +1,17 @@
 ---
 UID: NF:processsnapshot.PssWalkSnapshot
 title: PssWalkSnapshot function (processsnapshot.h)
-
 description: Returns information from the current walk position and advanced the walk marker to the next position.
 old-location: proc_snap\psswalksnapshot.htm
 tech.root: proc_snap
 ms.assetid: C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0
-
 ms.date: 12/05/2018
 ms.keywords: PssWalkSnapshot, PssWalkSnapshot function, proc_snap.psswalksnapshot, processsnapshot/PssWalkSnapshot
 ms.topic: function
-f1_keywords: 
- - "processsnapshot/PssWalkSnapshot"
+f1_keywords:
+- processsnapshot/PssWalkSnapshot
 dev_langs:
- - c++
+- c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-Processsnapshot-l1-1-0.dll
- - KernelBase.dll
+- kernel32.dll
+- API-MS-Win-Core-Processsnapshot-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - PssWalkSnapshot
+- PssWalkSnapshot
 targetos: Windows
 req.typenames: 
 req.redist: 

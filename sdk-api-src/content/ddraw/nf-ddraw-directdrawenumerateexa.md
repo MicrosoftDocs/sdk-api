@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.DirectDrawEnumerateExA
 title: DirectDrawEnumerateExA function (ddraw.h)
-
 description: Enumerates all DirectDraw devices that are installed on the computer. The NULL entry always identifies the primary display device that is shared with GDI.
 old-location: directdraw\directdrawenumerateex.htm
 tech.root: directdraw
 ms.assetid: 38edfaaf-2c19-4836-b662-343312220032
-
 ms.date: 12/05/2018
 ms.keywords: DDENUM_ATTACHEDSECONDARYDEVICES, DDENUM_DETACHEDSECONDARYDEVICES, DDENUM_NONDISPLAYDEVICES, DirectDrawEnumerateEx, DirectDrawEnumerateEx function [DirectDraw], DirectDrawEnumerateExA, DirectDrawEnumerateExW, ddraw/DirectDrawEnumerateEx, ddraw/DirectDrawEnumerateExA, ddraw/DirectDrawEnumerateExW, directdraw.directdrawenumerateex
 ms.topic: function
-f1_keywords: 
- - "ddraw/DirectDrawEnumerateEx"
+f1_keywords:
+- ddraw/DirectDrawEnumerateEx
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ddraw.dll
- - Ext-MS-Win-DX-DDraw-L1-1-0.dll
+- Ddraw.dll
+- Ext-MS-Win-DX-DDraw-L1-1-0.dll
 api_name:
- - DirectDrawEnumerateEx
- - DirectDrawEnumerateExA
- - DirectDrawEnumerateExW
+- DirectDrawEnumerateEx
+- DirectDrawEnumerateExA
+- DirectDrawEnumerateExW
 targetos: Windows
 req.typenames: 
 req.redist: 

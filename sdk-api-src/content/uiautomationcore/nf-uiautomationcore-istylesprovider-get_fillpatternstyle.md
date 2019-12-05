@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IStylesProvider.get_FillPatternStyle
 title: IStylesProvider::get_FillPatternStyle (uiautomationcore.h)
-
 description: Specifies the fill pattern style of an element in a document.
 old-location: winauto\uiauto_istylesprovider_fillpatternstyle.htm
 tech.root: WinAuto
 ms.assetid: 0ED4635C-8327-45B6-B546-D529C3EE6C8B
-
 ms.date: 12/05/2018
 ms.keywords: FillPatternStyle property [Windows Accessibility], FillPatternStyle property [Windows Accessibility],IStylesProvider interface, IStylesProvider interface [Windows Accessibility],FillPatternStyle property, IStylesProvider.FillPatternStyle, IStylesProvider.get_FillPatternStyle, IStylesProvider::FillPatternStyle, IStylesProvider::get_FillPatternStyle, get_FillPatternStyle, uiautomationcore/IStylesProvider::FillPatternStyle, uiautomationcore/IStylesProvider::get_FillPatternStyle, winauto.uiauto_istylesprovider_fillpatternstyle
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IStylesProvider.FillPatternStyle"
+f1_keywords:
+- uiautomationcore/IStylesProvider.FillPatternStyle
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IStylesProvider.FillPatternStyle
- - IStylesProvider.get_FillPatternStyle
+- IStylesProvider.FillPatternStyle
+- IStylesProvider.get_FillPatternStyle
 targetos: Windows
 req.typenames: 
 req.redist: 

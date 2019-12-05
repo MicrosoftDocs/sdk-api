@@ -1,19 +1,17 @@
 ---
 UID: NS:dwmapi._DWM_PRESENT_PARAMETERS
 title: DWM_PRESENT_PARAMETERS (dwmapi.h)
-
 description: Specifies Desktop Window Manager (DWM) video frame parameters for frame composition. Used by the DwmSetPresentParameters function.
 old-location: dwm\dwm_present_parameters.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\structures\dwm_present_parameters.htm
-
 ms.date: 12/05/2018
 ms.keywords: DWM_PRESENT_PARAMETERS, DWM_PRESENT_PARAMETERS structure [Desktop Window Manager], _udwm_dwm_present_parameters, _udwm_dwm_present_parameters_cpp, dwm.dwm_present_parameters, dwmapi/DWM_PRESENT_PARAMETERS, winui._udwm_dwm_present_parameters
 ms.topic: struct
-f1_keywords: 
- - "dwmapi/DWM_PRESENT_PARAMETERS"
+f1_keywords:
+- dwmapi/DWM_PRESENT_PARAMETERS
 dev_langs:
- - c++
+- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dwmapi.h
+- Dwmapi.h
 api_name:
- - DWM_PRESENT_PARAMETERS
+- DWM_PRESENT_PARAMETERS
 targetos: Windows
 req.typenames: DWM_PRESENT_PARAMETERS
 req.redist: 

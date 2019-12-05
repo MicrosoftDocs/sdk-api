@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendeeManager.get__NewEnum
 title: IRDPSRAPIAttendeeManager::get__NewEnum (rdpencomapi.h)
-
 description: An enumerator interface for the attendee collection.
 old-location: rdp\irdpsrapiattendeemanager__newenum.htm
 tech.root: rdp
 ms.assetid: f79bfd9c-b9f9-4da4-977c-cae8f11ba239
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIAttendeeManager interface [RDP],_NewEnum property, IRDPSRAPIAttendeeManager._NewEnum, IRDPSRAPIAttendeeManager.get__NewEnum, IRDPSRAPIAttendeeManager::_NewEnum, IRDPSRAPIAttendeeManager::get__NewEnum, RDPSRAPIAttendeeManager object [RDP],_NewEnum property, _NewEnum property [RDP], _NewEnum property [RDP],IRDPSRAPIAttendeeManager interface, _NewEnum property [RDP],RDPSRAPIAttendeeManager object, get__NewEnum, rdp.irdpsrapiattendeemanager__newenum, rdpencomapi/IRDPSRAPIAttendeeManager::_NewEnum, rdpencomapi/IRDPSRAPIAttendeeManager::get__NewEnum
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIAttendeeManager._NewEnum"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIAttendeeManager._NewEnum
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIAttendeeManager._NewEnum
- - IRDPSRAPIAttendeeManager.get__NewEnum
- - RDPSRAPIAttendeeManager._NewEnum
+- IRDPSRAPIAttendeeManager._NewEnum
+- IRDPSRAPIAttendeeManager.get__NewEnum
+- RDPSRAPIAttendeeManager._NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

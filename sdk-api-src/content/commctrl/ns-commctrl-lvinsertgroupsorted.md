@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagLVINSERTGROUPSORTED
 title: LVINSERTGROUPSORTED (commctrl.h)
-
 description: Used to sort groups. It is used with LVM_INSERTGROUPSORTED.
 old-location: controls\LVINSERTGROUPSORTED.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvinsertgroupsorted.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PLVINSERTGROUPSORTED, LVINSERTGROUPSORTED, LVINSERTGROUPSORTED structure [Windows Controls], PLVINSERTGROUPSORTED, PLVINSERTGROUPSORTED structure pointer [Windows Controls], commctrl/LVINSERTGROUPSORTED, commctrl/PLVINSERTGROUPSORTED, controls.LVINSERTGROUPSORTED, controls.inet_LVINSERTGROUPSORTED, inet_LVINSERTGROUPSORTED, inet_LVINSERTGROUPSORTED_cpp"
+ms.keywords: '*PLVINSERTGROUPSORTED, LVINSERTGROUPSORTED, LVINSERTGROUPSORTED structure [Windows Controls], PLVINSERTGROUPSORTED, PLVINSERTGROUPSORTED structure pointer [Windows Controls], commctrl/LVINSERTGROUPSORTED, commctrl/PLVINSERTGROUPSORTED, controls.LVINSERTGROUPSORTED, controls.inet_LVINSERTGROUPSORTED, inet_LVINSERTGROUPSORTED, inet_LVINSERTGROUPSORTED_cpp'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/LVINSERTGROUPSORTED"
+f1_keywords:
+- commctrl/LVINSERTGROUPSORTED
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - LVINSERTGROUPSORTED
+- LVINSERTGROUPSORTED
 targetos: Windows
 req.typenames: LVINSERTGROUPSORTED, *PLVINSERTGROUPSORTED
 req.redist: 

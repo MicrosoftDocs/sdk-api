@@ -1,19 +1,17 @@
 ---
 UID: NF:npapi.NPCloseEnum
 title: NPCloseEnum function (npapi.h)
-
 description: Closes an enumeration.
 old-location: security\npcloseenum.htm
 tech.root: SecAuthN
 ms.assetid: fc6d5fe1-0953-4912-bdbd-b1372597f61d
-
 ms.date: 12/05/2018
 ms.keywords: NPCloseEnum, NPCloseEnum function [Security], _mnp_npcloseenum, npapi/NPCloseEnum, security.npcloseenum
 ms.topic: function
-f1_keywords: 
- - "npapi/NPCloseEnum"
+f1_keywords:
+- npapi/NPCloseEnum
 dev_langs:
- - c++
+- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Npapi.h
+- Npapi.h
 api_name:
- - NPCloseEnum
+- NPCloseEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFBeginRegisterWorkQueueWithMMCSSEx
 title: MFBeginRegisterWorkQueueWithMMCSSEx function (mfapi.h)
-
 description: Associates a work queue with a Multimedia Class Scheduler Service (MMCSS) task.
 old-location: mf\mfbeginregisterworkqueuewithmmcssex.htm
 tech.root: medfound
 ms.assetid: D27E2B51-857D-48E5-8D25-A26917FCF959
-
 ms.date: 12/05/2018
 ms.keywords: MFBeginRegisterWorkQueueWithMMCSSEx, MFBeginRegisterWorkQueueWithMMCSSEx function [Media Foundation], mf.mfbeginregisterworkqueuewithmmcssex, mfapi/MFBeginRegisterWorkQueueWithMMCSSEx
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFBeginRegisterWorkQueueWithMMCSSEx"
+f1_keywords:
+- mfapi/MFBeginRegisterWorkQueueWithMMCSSEx
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFBeginRegisterWorkQueueWithMMCSSEx
+- MFBeginRegisterWorkQueueWithMMCSSEx
 targetos: Windows
 req.typenames: 
 req.redist: 

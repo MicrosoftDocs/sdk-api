@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzClientContext2.AddStringSids
 title: IAzClientContext2::AddStringSids (azroles.h)
-
 description: Adds an array of string representations of security identifiers (SIDs) to the client context.
 old-location: security\iazclientcontext2_addstringsids.htm
 tech.root: SecAuthZ
 ms.assetid: ac437686-fefb-413e-9f53-eed6c1df5798
-
 ms.date: 12/05/2018
 ms.keywords: AddStringSids, AddStringSids method [Security], AddStringSids method [Security],IAzClientContext2 interface, IAzClientContext2 interface [Security],AddStringSids method, IAzClientContext2.AddStringSids, IAzClientContext2::AddStringSids, azroles/IAzClientContext2::AddStringSids, security.iazclientcontext2_addstringsids
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzClientContext2.AddStringSids"
+f1_keywords:
+- azroles/IAzClientContext2.AddStringSids
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzClientContext2.AddStringSids
+- IAzClientContext2.AddStringSids
 targetos: Windows
 req.typenames: 
 req.redist: 

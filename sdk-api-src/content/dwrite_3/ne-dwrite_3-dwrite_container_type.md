@@ -1,19 +1,17 @@
 ---
 UID: NE:dwrite_3.DWRITE_CONTAINER_TYPE
 title: DWRITE_CONTAINER_TYPE (dwrite_3.h)
-
 description: Specifies the container format of a font resource. A container format is distinct from a font file format (DWRITE_FONT_FILE_TYPE) because the container describes the container in which the underlying font file is packaged.
 old-location: directwrite\dwrite_container_type.htm
 tech.root: DirectWrite
 ms.assetid: 93275F1D-A25C-4BDD-B278-DA56ADB3436D
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_CONTAINER_TYPE, DWRITE_CONTAINER_TYPE enumeration [Direct Write], DWRITE_CONTAINER_TYPE_UNKNOWN, DWRITE_CONTAINER_TYPE_WOFF, DWRITE_CONTAINER_TYPE_WOFF2, directwrite.dwrite_container_type, dwrite_3/DWRITE_CONTAINER_TYPE, dwrite_3/DWRITE_CONTAINER_TYPE_UNKNOWN, dwrite_3/DWRITE_CONTAINER_TYPE_WOFF, dwrite_3/DWRITE_CONTAINER_TYPE_WOFF2
 ms.topic: enum
-f1_keywords: 
- - "dwrite_3/DWRITE_CONTAINER_TYPE"
+f1_keywords:
+- dwrite_3/DWRITE_CONTAINER_TYPE
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite_3.h
+- dwrite_3.h
 api_name:
- - DWRITE_CONTAINER_TYPE
+- DWRITE_CONTAINER_TYPE
 targetos: Windows
 req.typenames: 
 req.redist: 

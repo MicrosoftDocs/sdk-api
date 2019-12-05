@@ -1,19 +1,17 @@
 ---
 UID: NF:shimgdata.IShellImageData.IsEditable
 title: IShellImageData::IsEditable (shimgdata.h)
-
 description: Determines whether the image can be edited.
 old-location: shell\IShellImageData_IsEditable.htm
 tech.root: shell
 ms.assetid: 81dbb486-0b35-44ff-9aa2-2e449995591e
-
 ms.date: 12/05/2018
 ms.keywords: IShellImageData interface [Windows Shell],IsEditable method, IShellImageData.IsEditable, IShellImageData::IsEditable, IsEditable, IsEditable method [Windows Shell], IsEditable method [Windows Shell],IShellImageData interface, _shell_IShellImageData_IsEditable, shell.IShellImageData_IsEditable, shimgdata/IShellImageData::IsEditable
 ms.topic: method
-f1_keywords: 
- - "shimgdata/IShellImageData.IsEditable"
+f1_keywords:
+- shimgdata/IShellImageData.IsEditable
 dev_langs:
- - c++
+- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellImageData.IsEditable
+- IShellImageData.IsEditable
 targetos: Windows
 req.typenames: 
 req.redist: 

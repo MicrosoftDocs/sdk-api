@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IPerChannelDbLevel.GetLevel
 title: IPerChannelDbLevel::GetLevel (devicetopology.h)
-
 description: The GetLevel method gets the volume level, in decibels, of the specified channel.
 old-location: coreaudio\iperchanneldblevel_getlevel.htm
 tech.root: CoreAudio
 ms.assetid: afc76c80-1656-4f06-8024-c9b041f52e64
-
 ms.date: 12/05/2018
 ms.keywords: GetLevel, GetLevel method [Core Audio], GetLevel method [Core Audio],IPerChannelDbLevel interface, IPerChannelDbLevel interface [Core Audio],GetLevel method, IPerChannelDbLevel.GetLevel, IPerChannelDbLevel::GetLevel, IPerChannelDbLevelGetLevel, coreaudio.iperchanneldblevel_getlevel, devicetopology/IPerChannelDbLevel::GetLevel
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IPerChannelDbLevel.GetLevel"
+f1_keywords:
+- devicetopology/IPerChannelDbLevel.GetLevel
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IPerChannelDbLevel.GetLevel
+- IPerChannelDbLevel.GetLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

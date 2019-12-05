@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.IAnalogRadioTuningSpace2
 title: IAnalogRadioTuningSpace2 (tuner.h)
-
 description: This topic applies to Windows XP Media Center Edition 2004 and later.
 old-location: mstv\ianalogradiotuningspace2.htm
 tech.root: mstv
 ms.assetid: 66e631cb-2ae8-40b0-8ec8-3a02764284bf
-
 ms.date: 12/05/2018
 ms.keywords: IAnalogRadioTuningSpace2, IAnalogRadioTuningSpace2 interface [Microsoft TV Technologies], IAnalogRadioTuningSpace2 interface [Microsoft TV Technologies],described, IAnalogRadioTuningSpace2Interface, mstv.ianalogradiotuningspace2, tuner/IAnalogRadioTuningSpace2
 ms.topic: interface
-f1_keywords: 
- - "tuner/IAnalogRadioTuningSpace2"
+f1_keywords:
+- tuner/IAnalogRadioTuningSpace2
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IAnalogRadioTuningSpace2
+- IAnalogRadioTuningSpace2
 targetos: Windows
 req.typenames: 
 req.redist: 

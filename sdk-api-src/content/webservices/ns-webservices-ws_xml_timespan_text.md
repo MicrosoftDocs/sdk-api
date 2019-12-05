@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_XML_TIMESPAN_TEXT
 title: WS_XML_TIMESPAN_TEXT (webservices.h)
-
 description: Represents a time span formatted as the text &#0034;[+|-][d?.]HH:mm:ss[.fffffff]&#0034; d is a series of digits representing the day.
 old-location: wsw\ws_xml_timespan_text.htm
 tech.root: wsw
 ms.assetid: 6b502748-bfe1-4a8c-97e9-f8ae97c96b01
-
 ms.date: 12/05/2018
 ms.keywords: WS_XML_TIMESPAN_TEXT, WS_XML_TIMESPAN_TEXT structure [Web Services for Windows], webservices/WS_XML_TIMESPAN_TEXT, wsw.ws_xml_timespan_text
 ms.topic: struct
 f1_keywords:
 - webservices/WS_XML_TIMESPAN_TEXT
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

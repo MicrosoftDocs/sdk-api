@@ -1,19 +1,17 @@
 ---
 UID: NF:indexsrv.ISimpleCommandCreator.VerifyCatalog
 title: ISimpleCommandCreator::VerifyCatalog (indexsrv.h)
-
 description: Validates the catalog location.
 old-location: search\isimplecommandcreator_verifycatalog.htm
 tech.root: search
 ms.assetid: F4B1558D-F244-40ED-92C2-F5CC0B63AD50
-
 ms.date: 12/05/2018
 ms.keywords: ISimpleCommandCreator interface [search],VerifyCatalog method, ISimpleCommandCreator.VerifyCatalog, ISimpleCommandCreator::VerifyCatalog, VerifyCatalog, VerifyCatalog method [search], VerifyCatalog method [search],ISimpleCommandCreator interface, indexsrv/ISimpleCommandCreator::VerifyCatalog, search.isimplecommandcreator_verifycatalog
 ms.topic: method
-f1_keywords: 
- - "indexsrv/ISimpleCommandCreator.VerifyCatalog"
+f1_keywords:
+- indexsrv/ISimpleCommandCreator.VerifyCatalog
 dev_langs:
- - c++
+- c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Indexsrv.h
+- Indexsrv.h
 api_name:
- - ISimpleCommandCreator.VerifyCatalog
+- ISimpleCommandCreator.VerifyCatalog
 targetos: Windows
 req.typenames: 
 req.redist: Windows NT 4.0 Option Pack

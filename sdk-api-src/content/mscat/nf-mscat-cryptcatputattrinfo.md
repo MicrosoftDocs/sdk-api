@@ -1,19 +1,17 @@
 ---
 UID: NF:mscat.CryptCATPutAttrInfo
 title: CryptCATPutAttrInfo function (mscat.h)
-
 description: Allocates memory for an attribute and adds it to a catalog member.
 old-location: security\cryptcatputattrinfo.htm
 tech.root: SecCrypto
 ms.assetid: 13d5cdb4-2a15-4442-9e11-c3f76ca03f7e
-
 ms.date: 12/05/2018
 ms.keywords: CRYPTCAT_ATTR_AUTHENTICATED, CRYPTCAT_ATTR_DATAASCII, CRYPTCAT_ATTR_DATABASE64, CRYPTCAT_ATTR_DATAREPLACE, CRYPTCAT_ATTR_NAMEASCII, CRYPTCAT_ATTR_NAMEOBJID, CRYPTCAT_ATTR_UNAUTHENTICATED, CryptCATPutAttrInfo, CryptCATPutAttrInfo function [Security], mscat/CryptCATPutAttrInfo, security.cryptcatputattrinfo
 ms.topic: function
-f1_keywords: 
- - "mscat/CryptCATPutAttrInfo"
+f1_keywords:
+- mscat/CryptCATPutAttrInfo
 dev_langs:
- - c++
+- c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wintrust.lib
 req.dll: Wintrust.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wintrust.dll
+- Wintrust.dll
 api_name:
- - CryptCATPutAttrInfo
+- CryptCATPutAttrInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

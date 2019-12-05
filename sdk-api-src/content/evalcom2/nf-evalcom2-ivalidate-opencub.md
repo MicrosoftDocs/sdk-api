@@ -1,19 +1,17 @@
 ---
 UID: NF:evalcom2.IValidate.OpenCUB
 title: IValidate::OpenCUB (evalcom2.h)
-
 description: The OpenCUB method opens an Internal Consistency Evaluator (ICE) file that is to be used for validation.
 old-location: setup\ivalidate_opencub.htm
 tech.root: Msi
 ms.assetid: cadf3c6e-6fbb-4d46-b9a8-4f2508f1e8bc
-
 ms.date: 12/05/2018
 ms.keywords: IValidate interface,OpenCUB method, IValidate.OpenCUB, IValidate::OpenCUB, OpenCUB, OpenCUB method, OpenCUB method,IValidate interface, evalcom2/IValidate::OpenCUB, setup.ivalidate_opencub
 ms.topic: method
-f1_keywords: 
- - "evalcom2/IValidate.OpenCUB"
+f1_keywords:
+- evalcom2/IValidate.OpenCUB
 dev_langs:
- - c++
+- c++
 req.header: evalcom2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Evalcom2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Evalcom2.dll
+- Evalcom2.dll
 api_name:
- - IValidate.OpenCUB
+- IValidate.OpenCUB
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbComponentGroupDescriptor.GetRecordCAUnitComponentTag
 title: IIsdbComponentGroupDescriptor::GetRecordCAUnitComponentTag (dvbsiparser.h)
-
 description: Gets the tag that identifies a component record in an Integrated Services Digital Broadcasting (ISDB) component group descriptor.
 old-location: mstv\iisdbcomponentgroupdescriptor_getrecordcaunitcomponenttag.htm
 tech.root: mstv
 ms.assetid: e6588a58-d6df-4f54-ab09-3e938d45f8c4
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordCAUnitComponentTag, GetRecordCAUnitComponentTag method [Microsoft TV Technologies], GetRecordCAUnitComponentTag method [Microsoft TV Technologies],IIsdbComponentGroupDescriptor interface, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],GetRecordCAUnitComponentTag method, IIsdbComponentGroupDescriptor.GetRecordCAUnitComponentTag, IIsdbComponentGroupDescriptor::GetRecordCAUnitComponentTag, dvbsiparser/IIsdbComponentGroupDescriptor::GetRecordCAUnitComponentTag, mstv.iisdbcomponentgroupdescriptor_getrecordcaunitcomponenttag
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbComponentGroupDescriptor.GetRecordCAUnitComponentTag"
+f1_keywords:
+- dvbsiparser/IIsdbComponentGroupDescriptor.GetRecordCAUnitComponentTag
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbComponentGroupDescriptor.GetRecordCAUnitComponentTag
+- IIsdbComponentGroupDescriptor.GetRecordCAUnitComponentTag
 targetos: Windows
 req.typenames: 
 req.redist: 

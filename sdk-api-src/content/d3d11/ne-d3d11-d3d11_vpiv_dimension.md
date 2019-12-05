@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11.D3D11_VPIV_DIMENSION
 title: D3D11_VPIV_DIMENSION (d3d11.h)
-
 description: Specifies how to access a resource that is used in a video processor input view.
 old-location: mf\d3d11_vpiv_dimension.htm
 tech.root: medfound
 ms.assetid: 65003974-F86E-4604-BA8D-262CA2674D53
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_VPIV_DIMENSION, D3D11_VPIV_DIMENSION enumeration [Media Foundation], D3D11_VPIV_DIMENSION_TEXTURE2D, D3D11_VPIV_DIMENSION_UNKNOWN, d3d11/D3D11_VPIV_DIMENSION, d3d11/D3D11_VPIV_DIMENSION_TEXTURE2D, d3d11/D3D11_VPIV_DIMENSION_UNKNOWN, mf.d3d11_vpiv_dimension
 ms.topic: enum
-f1_keywords: 
- - "d3d11/D3D11_VPIV_DIMENSION"
+f1_keywords:
+- d3d11/D3D11_VPIV_DIMENSION
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_VPIV_DIMENSION
+- D3D11_VPIV_DIMENSION
 targetos: Windows
 req.typenames: D3D11_VPIV_DIMENSION
 req.redist: 

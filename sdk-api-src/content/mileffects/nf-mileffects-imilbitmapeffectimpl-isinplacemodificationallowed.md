@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectImpl.IsInPlaceModificationAllowed
 title: IMILBitmapEffectImpl::IsInPlaceModificationAllowed (mileffects.h)
-
 description: Determines whether the effect allows in-place modifications.
 old-location: wibe\_wibe_imilbitmapeffectimpl_isinplacemodificationallowed.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectimpl\isinplacemodificationallowed.htm
-
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectImpl interface [WPF Bitmap Effects],IsInPlaceModificationAllowed method, IMILBitmapEffectImpl.IsInPlaceModificationAllowed, IMILBitmapEffectImpl::IsInPlaceModificationAllowed, IsInPlaceModificationAllowed, IsInPlaceModificationAllowed method [WPF Bitmap Effects], IsInPlaceModificationAllowed method [WPF Bitmap Effects],IMILBitmapEffectImpl interface, _wibe_imilbitmapeffectimpl_isinplacemodificationallowed, mileffects/IMILBitmapEffectImpl::IsInPlaceModificationAllowed, wibe._wibe_imilbitmapeffectimpl_isinplacemodificationallowed
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectImpl.IsInPlaceModificationAllowed"
+f1_keywords:
+- mileffects/IMILBitmapEffectImpl.IsInPlaceModificationAllowed
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.h
+- Mileffects.h
 api_name:
- - IMILBitmapEffectImpl.IsInPlaceModificationAllowed
+- IMILBitmapEffectImpl.IsInPlaceModificationAllowed
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

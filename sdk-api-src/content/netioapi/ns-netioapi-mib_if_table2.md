@@ -1,19 +1,17 @@
 ---
 UID: NS:netioapi._MIB_IF_TABLE2
 title: MIB_IF_TABLE2 (netioapi.h)
-
 description: Contains a table of logical and physical interface entries.
 old-location: mib\mib_if_table2.htm
 tech.root: MIB
 ms.assetid: 334078c6-afd0-4c53-838c-28bc3e1e8484
-
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_IF_TABLE2, MIB_IF_TABLE2, MIB_IF_TABLE2 structure [MIB], PMIB_IF_TABLE2, PMIB_IF_TABLE2 structure pointer [MIB], _MIB_IF_TABLE2, mib.mib_if_table2, netioapi/MIB_IF_TABLE2, netioapi/PMIB_IF_TABLE2"
+ms.keywords: '*PMIB_IF_TABLE2, MIB_IF_TABLE2, MIB_IF_TABLE2 structure [MIB], PMIB_IF_TABLE2, PMIB_IF_TABLE2 structure pointer [MIB], _MIB_IF_TABLE2, mib.mib_if_table2, netioapi/MIB_IF_TABLE2, netioapi/PMIB_IF_TABLE2'
 ms.topic: struct
-f1_keywords: 
- - "netioapi/MIB_IF_TABLE2"
+f1_keywords:
+- netioapi/MIB_IF_TABLE2
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Netioapi.h
+- Netioapi.h
 api_name:
- - MIB_IF_TABLE2
+- MIB_IF_TABLE2
 targetos: Windows
 req.typenames: MIB_IF_TABLE2, *PMIB_IF_TABLE2
 req.redist: 

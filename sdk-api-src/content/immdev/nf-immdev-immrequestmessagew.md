@@ -1,19 +1,17 @@
 ---
 UID: NF:immdev.ImmRequestMessageW
 title: ImmRequestMessageW function (immdev.h)
-
 description: Generates a WM_IME_REQUEST message.
 old-location: intl\immrequestmessage.htm
 tech.root: Intl
 ms.assetid: 70c90851-b6a4-41ce-a048-c828adcd4ed8
-
 ms.date: 12/05/2018
 ms.keywords: ImmRequestMessage, ImmRequestMessage function [Internationalization for Windows Applications], ImmRequestMessageA, ImmRequestMessageW, immdev/ImmRequestMessage, immdev/ImmRequestMessageA, immdev/ImmRequestMessageW, intl.immrequestmessage
 ms.topic: function
-f1_keywords: 
- - "immdev/ImmRequestMessage"
+f1_keywords:
+- immdev/ImmRequestMessage
 dev_langs:
- - c++
+- c++
 req.header: immdev.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imm32.dll
+- Imm32.dll
 api_name:
- - ImmRequestMessage
- - ImmRequestMessageA
- - ImmRequestMessageW
+- ImmRequestMessage
+- ImmRequestMessageA
+- ImmRequestMessageW
 targetos: Windows
 req.typenames: 
 req.redist: 

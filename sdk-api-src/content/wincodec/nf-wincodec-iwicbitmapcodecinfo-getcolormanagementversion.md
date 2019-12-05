@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.GetColorManagementVersion
 title: IWICBitmapCodecInfo::GetColorManagementVersion (wincodec.h)
-
 description: Retrieves the color manangement version number the codec supports.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_getcolormanagementversion.htm
 tech.root: wic
 ms.assetid: 3d115306-615a-403b-95f8-3e2850928928
-
 ms.date: 12/05/2018
 ms.keywords: GetColorManagementVersion, GetColorManagementVersion method [Windows Imaging Component], GetColorManagementVersion method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],GetColorManagementVersion method, IWICBitmapCodecInfo.GetColorManagementVersion, IWICBitmapCodecInfo::GetColorManagementVersion, _wic_codec_iwicbitmapcodecinfo_getcolormanagementversion, wic._wic_codec_iwicbitmapcodecinfo_getcolormanagementversion, wincodec/IWICBitmapCodecInfo::GetColorManagementVersion
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapCodecInfo.GetColorManagementVersion"
+f1_keywords:
+- wincodec/IWICBitmapCodecInfo.GetColorManagementVersion
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapCodecInfo.GetColorManagementVersion
+- IWICBitmapCodecInfo.GetColorManagementVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

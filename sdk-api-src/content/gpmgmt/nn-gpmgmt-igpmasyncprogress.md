@@ -1,19 +1,17 @@
 ---
 UID: NN:gpmgmt.IGPMAsyncProgress
 title: IGPMAsyncProgress (gpmgmt.h)
-
 description: The IGPMAsyncProgress interface can be implemented by the client and passed as an input parameter to the Group Policy Management Console (GPMC) methods that can execute asynchronously.
 old-location: gpmc\igpmasyncprogress.htm
 tech.root: gpmc
 ms.assetid: f48b90db-5984-4ea7-826b-6fbbf3c33788
-
 ms.date: 12/05/2018
 ms.keywords: IGPMAsyncProgress, IGPMAsyncProgress interface [GPMC], IGPMAsyncProgress interface [GPMC],described, _win32_igpmasyncprogress, gpmc.igpmasyncprogress, gpmgmt/IGPMAsyncProgress
 ms.topic: interface
-f1_keywords: 
- - "gpmgmt/IGPMAsyncProgress"
+f1_keywords:
+- gpmgmt/IGPMAsyncProgress
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMAsyncProgress
+- IGPMAsyncProgress
 targetos: Windows
 req.typenames: 
 req.redist: 

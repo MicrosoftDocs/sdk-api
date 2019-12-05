@@ -1,19 +1,17 @@
 ---
 UID: NS:iscsidsc.__unnamed_struct_2
 title: IKE_AUTHENTICATION_INFORMATION (iscsidsc.h)
-
 description: IKE_AUTHENTICATION_INFORMATION structure contains Internet Key Exchange (IKE) authentication information used to establish a secure channel between two key management daemons.
 old-location: iscsidisc\ike_authentication_information.htm
 tech.root: iSCSIDisc
 ms.assetid: d61036f5-a5e8-4c1a-8f99-57fe8e5c5bd0
-
 ms.date: 12/05/2018
-ms.keywords: "*PIKE_AUTHENTICATION_INFORMATION, IKE_AUTHENTICATION_INFORMATION, IKE_AUTHENTICATION_INFORMATION structure [iSCSI Discovery Library API], PIKE_AUTHENTICATION_INFORMATION, PIKE_AUTHENTICATION_INFORMATION structure pointer [iSCSI Discovery Library API], iscsidisc.ike_authentication_information, iscsidsc/IKE_AUTHENTICATION_INFORMATION, iscsidsc/PIKE_AUTHENTICATION_INFORMATION"
+ms.keywords: '*PIKE_AUTHENTICATION_INFORMATION, IKE_AUTHENTICATION_INFORMATION, IKE_AUTHENTICATION_INFORMATION structure [iSCSI Discovery Library API], PIKE_AUTHENTICATION_INFORMATION, PIKE_AUTHENTICATION_INFORMATION structure pointer [iSCSI Discovery Library API], iscsidisc.ike_authentication_information, iscsidsc/IKE_AUTHENTICATION_INFORMATION, iscsidsc/PIKE_AUTHENTICATION_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "iscsidsc/IKE_AUTHENTICATION_INFORMATION"
+f1_keywords:
+- iscsidsc/IKE_AUTHENTICATION_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iscsidsc.h
+- Iscsidsc.h
 api_name:
- - IKE_AUTHENTICATION_INFORMATION
+- IKE_AUTHENTICATION_INFORMATION
 targetos: Windows
 req.typenames: IKE_AUTHENTICATION_INFORMATION, *PIKE_AUTHENTICATION_INFORMATION
 req.redist: 

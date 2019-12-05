@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsExtension.PrivateGetIDsOfNames
 title: IADsExtension::PrivateGetIDsOfNames (iads.h)
-
 description: The IADsExtension::PrivateGetIDsOfNames method is called by the aggregator, ADSI, after ADSI determines that the extension is used to support a dual or dispatch interface. The method can use the type data to get DISPID using IDispatch::GetIDsOfNames.
 old-location: adsi\iadsextension_privategetidsofnames.htm
 tech.root: adsi
 ms.assetid: 533faef7-d504-443c-83e7-7eaf461ce550
-
 ms.date: 12/05/2018
 ms.keywords: IADsExtension interface [ADSI],PrivateGetIDsOfNames method, IADsExtension.PrivateGetIDsOfNames, IADsExtension::PrivateGetIDsOfNames, PrivateGetIDsOfNames, PrivateGetIDsOfNames method [ADSI], PrivateGetIDsOfNames method [ADSI],IADsExtension interface, _ds_iadsextension_privategetidsofnames, adsi.iadsextension__privategetidsofnames, adsi.iadsextension_privategetidsofnames, iads/IADsExtension::PrivateGetIDsOfNames
 ms.topic: method
-f1_keywords: 
- - "iads/IADsExtension.PrivateGetIDsOfNames"
+f1_keywords:
+- iads/IADsExtension.PrivateGetIDsOfNames
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsExtension.PrivateGetIDsOfNames
+- IADsExtension.PrivateGetIDsOfNames
 targetos: Windows
 req.typenames: 
 req.redist: 

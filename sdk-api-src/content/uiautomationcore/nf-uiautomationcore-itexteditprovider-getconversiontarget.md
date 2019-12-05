@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ITextEditProvider.GetConversionTarget
 title: ITextEditProvider::GetConversionTarget (uiautomationcore.h)
-
 description: Returns the current conversion target range.
 old-location: winauto\uiauto_ITextEditProvider_GetConversionTarget.htm
 tech.root: WinAuto
 ms.assetid: C05DC0F6-FB24-2D06-C2D8-43ADF2C110F9
-
 ms.date: 12/05/2018
 ms.keywords: GetConversionTarget, GetConversionTarget method [Windows Accessibility], GetConversionTarget method [Windows Accessibility],ITextEditProvider interface, ITextEditProvider interface [Windows Accessibility],GetConversionTarget method, ITextEditProvider.GetConversionTarget, ITextEditProvider::GetConversionTarget, uiautomationcore/ITextEditProvider::GetConversionTarget, winauto.uiauto_ITextEditProvider_GetConversionTarget
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ITextEditProvider.GetConversionTarget"
+f1_keywords:
+- uiautomationcore/ITextEditProvider.GetConversionTarget
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ITextEditProvider.GetConversionTarget
+- ITextEditProvider.GetConversionTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

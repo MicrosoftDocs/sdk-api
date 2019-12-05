@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.ColorCorrectPalette
 title: ColorCorrectPalette function (wingdi.h)
-
 description: The ColorCorrectPalette function corrects the entries of a palette using the WCS 1.0 parameters in the specified device context.
 old-location: wcs\colorcorrectpalette.htm
 tech.root: WCS
 ms.assetid: e7680521-fb1e-4292-945f-867964dac1ab
-
 ms.date: 12/05/2018
 ms.keywords: ColorCorrectPalette, ColorCorrectPalette function [Windows Color System], _color_ColorCorrectPalette, wcs.colorcorrectpalette, wingdi/ColorCorrectPalette
 ms.topic: function
-f1_keywords: 
- - "wingdi/ColorCorrectPalette"
+f1_keywords:
+- wingdi/ColorCorrectPalette
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - ColorCorrectPalette
+- ColorCorrectPalette
 targetos: Windows
 req.typenames: 
 req.redist: 

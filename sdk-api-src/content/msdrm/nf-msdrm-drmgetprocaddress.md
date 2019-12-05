@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMGetProcAddress
 title: DRMGetProcAddress function (msdrm.h)
-
 description: Returns the address of a function in a library. It is the secure version of the GetProcAddress function.
 old-location: rm\drmgetprocaddress.htm
 tech.root: AdRms_Sdk
 ms.assetid: 4ce2adac-f6d3-4760-984e-08a0d11a30d1
-
 ms.date: 12/05/2018
 ms.keywords: DRMGetProcAddress, DRMGetProcAddress function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetProcAddress, rm.drmgetprocaddress
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMGetProcAddress"
+f1_keywords:
+- msdrm/DRMGetProcAddress
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMGetProcAddress
+- DRMGetProcAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineGenerateTone
 title: lineGenerateTone function (tapi.h)
-
 description: The lineGenerateTone function generates the specified inband tone over the specified call.
 old-location: tapi2\linegeneratetone.htm
 tech.root: Tapi
 ms.assetid: d5975bd0-2406-45a8-9631-80f40a860204
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linegeneratetone, lineGenerateTone, lineGenerateTone function [TAPI 2.2], tapi/lineGenerateTone, tapi2.linegeneratetone"
+ms.keywords: _tapi2_linegeneratetone, lineGenerateTone, lineGenerateTone function [TAPI 2.2], tapi/lineGenerateTone, tapi2.linegeneratetone
 ms.topic: function
-f1_keywords: 
- - "tapi/lineGenerateTone"
+f1_keywords:
+- tapi/lineGenerateTone
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineGenerateTone
+- lineGenerateTone
 targetos: Windows
 req.typenames: 
 req.redist: 

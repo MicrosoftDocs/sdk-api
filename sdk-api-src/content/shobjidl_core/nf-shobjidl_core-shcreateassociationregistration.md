@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.SHCreateAssociationRegistration
 title: SHCreateAssociationRegistration function (shobjidl_core.h)
-
 description: Creates an IApplicationAssociationRegistration object based on the stock implementation of the interface provided by Windows.
 old-location: shell\SHCreateAssociationRegistration.htm
 tech.root: shell
 ms.assetid: 7998f49d-2515-4c77-991e-62c0fefa43df
-
 ms.date: 12/05/2018
 ms.keywords: SHCreateAssociationRegistration, SHCreateAssociationRegistration function [Windows Shell], _shell_SHCreateAssociationRegistration, shell.SHCreateAssociationRegistration, shobjidl_core/SHCreateAssociationRegistration
 ms.topic: function
-f1_keywords: 
- - "shobjidl_core/SHCreateAssociationRegistration"
+f1_keywords:
+- shobjidl_core/SHCreateAssociationRegistration
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - Ext-MS-Win-shell-shell32-l1-2-0.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Shell32.dll
+- Ext-MS-Win-shell-shell32-l1-2-0.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - SHCreateAssociationRegistration
+- SHCreateAssociationRegistration
 targetos: Windows
 req.typenames: 
 req.redist: 

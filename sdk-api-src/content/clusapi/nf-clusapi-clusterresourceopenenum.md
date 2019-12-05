@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterResourceOpenEnum
 title: ClusterResourceOpenEnum function (clusapi.h)
-
 description: Opens an enumerator for iterating through a resource's dependencies and nodes.
 old-location: mscs\clusterresourceopenenum.htm
 tech.root: MsCS
 ms.assetid: f801401f-f49d-41de-b88b-b832330eeccf
-
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_RESOURCE_ENUM_DEPENDS, CLUSTER_RESOURCE_ENUM_NODES, CLUSTER_RESOURCE_ENUM_PROVIDES, ClusterResourceOpenEnum, ClusterResourceOpenEnum function [Failover Cluster], PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM, PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM function [Failover Cluster], _wolf_clusterresourceopenenum, clusapi/ClusterResourceOpenEnum, clusapi/PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM, mscs.clusterresourceopenenum
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterResourceOpenEnum"
+f1_keywords:
+- clusapi/ClusterResourceOpenEnum
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-L1-1-2.dll
- - ext-ms-win-cluster-clusapi-l1-1-3.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-L1-1-2.dll
+- ext-ms-win-cluster-clusapi-l1-1-3.dll
 api_name:
- - ClusterResourceOpenEnum
+- ClusterResourceOpenEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

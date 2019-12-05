@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPDeviceControl.GetDCStatus
 title: IMDSPDeviceControl::GetDCStatus (mswmdm.h)
-
 description: The GetDCStatus method retrieves the control status of the device.
 old-location: wmdm\imdspdevicecontrol_getdcstatus.htm
 tech.root: WMDM
 ms.assetid: 6fc51100-3052-4d26-8786-a7b1e9fe0529
-
 ms.date: 12/05/2018
 ms.keywords: GetDCStatus, GetDCStatus method [windows Media Device Manager], GetDCStatus method [windows Media Device Manager],IMDSPDeviceControl interface, IMDSPDeviceControl interface [windows Media Device Manager],GetDCStatus method, IMDSPDeviceControl.GetDCStatus, IMDSPDeviceControl::GetDCStatus, IMDSPDeviceControlGetDCStatus, mswmdm/IMDSPDeviceControl::GetDCStatus, wmdm.imdspdevicecontrol_getdcstatus
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPDeviceControl.GetDCStatus"
+f1_keywords:
+- mswmdm/IMDSPDeviceControl.GetDCStatus
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPDeviceControl.GetDCStatus
+- IMDSPDeviceControl.GetDCStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

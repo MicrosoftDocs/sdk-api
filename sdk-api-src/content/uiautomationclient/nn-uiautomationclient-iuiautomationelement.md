@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationElement
 title: IUIAutomationElement (uiautomationclient.h)
-
 description: Exposes methods and properties for a UI Automation element, which represents a UI item.
 old-location: winauto\uiauto_IUIAutomationElement.htm
 tech.root: WinAuto
 ms.assetid: 9e1f87b1-a204-4ca9-acf2-a40277012207
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], IUIAutomationElement interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationElement, uiauto_IUIAutomationElement, uiautomationclient/IUIAutomationElement, winauto.uiauto_IUIAutomationElement
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationElement
+- IUIAutomationElement
 targetos: Windows
 req.typenames: 
 req.redist: 

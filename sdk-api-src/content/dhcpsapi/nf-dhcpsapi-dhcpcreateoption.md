@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpCreateOption
 title: DhcpCreateOption function (dhcpsapi.h)
-
 description: Creates an option definition for the default user and vendor class at the default option level.
 old-location: dhcp\dhcpcreateoption.htm
 tech.root: DHCP
 ms.assetid: 2a77467e-12e8-4a8e-a6ab-e3783a7492da
-
 ms.date: 12/05/2018
 ms.keywords: DhcpCreateOption, DhcpCreateOption function [DHCP], dhcp.dhcpcreateoption, dhcpsapi/DhcpCreateOption
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpCreateOption
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

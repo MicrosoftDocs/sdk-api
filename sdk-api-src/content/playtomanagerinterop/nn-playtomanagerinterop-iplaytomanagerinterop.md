@@ -1,19 +1,17 @@
 ---
 UID: NN:playtomanagerinterop.IPlayToManagerInterop
 title: IPlayToManagerInterop (playtomanagerinterop.h)
-
 description: Enables access to PlayToManager methods in a Windows Store app that manages multiple windows.
 old-location: winrt\iplaytomanagerinterop.htm
 tech.root: WinRT
 ms.assetid: e7a8df61-e5ae-4eff-a4eb-e0a5cdae3b7f
-
 ms.date: 12/05/2018
 ms.keywords: IPlayToManagerInterop, IPlayToManagerInterop interface [Windows Runtime], IPlayToManagerInterop interface [Windows Runtime],described, playtomanagerinterop/IPlayToManagerInterop, winrt.iplaytomanagerinterop
 ms.topic: interface
-f1_keywords: 
- - "playtomanagerinterop/IPlayToManagerInterop"
+f1_keywords:
+- playtomanagerinterop/IPlayToManagerInterop
 dev_langs:
- - c++
+- c++
 req.header: playtomanagerinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - playtomanagerinterop.h
+- playtomanagerinterop.h
 api_name:
- - IPlayToManagerInterop
+- IPlayToManagerInterop
 targetos: Windows
 req.typenames: 
 req.redist: 

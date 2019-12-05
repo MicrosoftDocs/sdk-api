@@ -1,19 +1,17 @@
 ---
 UID: NS:fwpmtypes.FWPM_FIELD0_
 title: FWPM_FIELD0 (fwpmtypes.h)
-
 description: Specifies schema information for a field.
 old-location: fwp\fwpm_field0_struct.htm
 tech.root: fwp
 ms.assetid: 30d68d48-156e-440b-8607-8b64cfa25049
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_FIELD0, FWPM_FIELD0 structure [Filtering], FWPM_FIELD0_, fwp.fwpm_field0_struct, fwpmtypes/FWPM_FIELD0
 ms.topic: struct
-f1_keywords: 
- - "fwpmtypes/FWPM_FIELD0"
+f1_keywords:
+- fwpmtypes/FWPM_FIELD0
 dev_langs:
- - c++
+- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwpmtypes.h
+- Fwpmtypes.h
 api_name:
- - FWPM_FIELD0
+- FWPM_FIELD0
 targetos: Windows
 req.typenames: FWPM_FIELD0
 req.redist: 

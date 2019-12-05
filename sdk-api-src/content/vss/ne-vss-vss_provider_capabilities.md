@@ -1,19 +1,17 @@
 ---
 UID: NE:vss._VSS_PROVIDER_CAPABILITIES
 title: VSS_PROVIDER_CAPABILITIES (vss.h)
-
 description: This enumeration is reserved for future use.
 old-location: base\_vss_provider_capabilities.htm
 tech.root: VSS
 ms.assetid: 933d7567-d3d3-49cd-970b-f1355702f290
-
 ms.date: 12/05/2018
-ms.keywords: "*PVSS_PROVIDER_CAPABILITIES, VSS_PROVIDER_CAPABILITIES, _VSS_PROVIDER_CAPABILITIES, _VSS_PROVIDER_CAPABILITIES enumeration, base._vss_provider_capabilities, vss/, vss/_VSS_PROVIDER_CAPABILITIES"
+ms.keywords: '*PVSS_PROVIDER_CAPABILITIES, VSS_PROVIDER_CAPABILITIES, _VSS_PROVIDER_CAPABILITIES, _VSS_PROVIDER_CAPABILITIES enumeration, base._vss_provider_capabilities, vss/, vss/_VSS_PROVIDER_CAPABILITIES'
 ms.topic: enum
-f1_keywords: 
- - "vss/_VSS_PROVIDER_CAPABILITIES"
+f1_keywords:
+- vss/_VSS_PROVIDER_CAPABILITIES
 dev_langs:
- - c++
+- c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - vss.h
+- vss.h
 api_name:
- - _VSS_PROVIDER_CAPABILITIES
+- _VSS_PROVIDER_CAPABILITIES
 targetos: Windows
 req.typenames: VSS_PROVIDER_CAPABILITIES, *PVSS_PROVIDER_CAPABILITIES
 req.redist: 

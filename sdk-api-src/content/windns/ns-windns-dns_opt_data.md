@@ -1,19 +1,17 @@
 ---
 UID: NS:windns.__unnamed_struct_26
 title: DNS_OPT_DATA (windns.h)
-
 description: Represents a DNS Option (OPT) resource record (RR) as specified in section 4 of RFC 2671.
 old-location: dns\dns_opt_data.htm
 tech.root: DNS
 ms.assetid: a8e23127-a625-4206-abe8-0787b4ac0f30
-
 ms.date: 12/05/2018
-ms.keywords: "*PDNS_OPT_DATA, DNS_OPT_DATA, DNS_OPT_DATA structure [DNS], PDNS_OPT_DATA, PDNS_OPT_DATA structure pointer [DNS], dns.dns_opt_data, windns/DNS_OPT_DATA, windns/PDNS_OPT_DATA"
+ms.keywords: '*PDNS_OPT_DATA, DNS_OPT_DATA, DNS_OPT_DATA structure [DNS], PDNS_OPT_DATA, PDNS_OPT_DATA structure pointer [DNS], dns.dns_opt_data, windns/DNS_OPT_DATA, windns/PDNS_OPT_DATA'
 ms.topic: struct
-f1_keywords: 
- - "windns/DNS_OPT_DATA"
+f1_keywords:
+- windns/DNS_OPT_DATA
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - DNS_OPT_DATA
+- DNS_OPT_DATA
 targetos: Windows
 req.typenames: DNS_OPT_DATA, *PDNS_OPT_DATA
 req.redist: 

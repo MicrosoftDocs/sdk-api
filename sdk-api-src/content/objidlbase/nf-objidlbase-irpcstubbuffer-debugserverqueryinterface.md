@@ -1,19 +1,17 @@
 ---
 UID: NF:objidlbase.IRpcStubBuffer.DebugServerQueryInterface
 title: IRpcStubBuffer::DebugServerQueryInterface (objidlbase.h)
-
 description: Retrieves a pointer to the interface that a stub represents.
 old-location: com\irpcstubbuffer_debugserverqueryinterface.htm
 tech.root: com
 ms.assetid: c735a99f-c67a-44eb-ae60-950dc4e68e74
-
 ms.date: 12/05/2018
 ms.keywords: DebugServerQueryInterface, DebugServerQueryInterface method [COM], DebugServerQueryInterface method [COM],IRpcStubBuffer interface, IRpcStubBuffer interface [COM],DebugServerQueryInterface method, IRpcStubBuffer.DebugServerQueryInterface, IRpcStubBuffer::DebugServerQueryInterface, _com_irpcstubbuffer_debugserverqueryinterface, com.irpcstubbuffer_debugserverqueryinterface, objidlbase/IRpcStubBuffer::DebugServerQueryInterface
 ms.topic: method
-f1_keywords: 
- - "objidlbase/IRpcStubBuffer.DebugServerQueryInterface"
+f1_keywords:
+- objidlbase/IRpcStubBuffer.DebugServerQueryInterface
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IRpcStubBuffer.DebugServerQueryInterface
+- IRpcStubBuffer.DebugServerQueryInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

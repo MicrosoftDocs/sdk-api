@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._DEVICE_POWER_DESCRIPTOR
 title: DEVICE_POWER_DESCRIPTOR
-
 description: The DEVICE_POWER_DESCRIPTOR structure describes the power capabilities of a storage device.
 old-location: fs\device_power_descriptor.htm
 tech.root: FileIO
 ms.assetid: 63e51485-db3f-45ed-925e-0abf105c8aef
-
 ms.date: 12/05/2018
 ms.keywords: '*PDEVICE_POWER_DESCRIPTOR, DEVICE_POWER_DESCRIPTOR, DEVICE_POWER_DESCRIPTOR structure [Storage Devices], PDEVICE_POWER_DESCRIPTOR, PDEVICE_POWER_DESCRIPTOR structure pointer [Storage Devices], fs.device_power_descriptor, fs.device_zero_power_odd_descriptor, winioctl/DEVICE_POWER_DESCRIPTOR, winioctl/PDEVICE_POWER_DESCRIPTOR'
 ms.topic: struct
 f1_keywords:
 - winioctl/DEVICE_POWER_DESCRIPTOR
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

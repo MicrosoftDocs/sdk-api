@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.LocalUnlock
 title: LocalUnlock function (winbase.h)
-
 description: Decrements the lock count associated with a memory object that was allocated with LMEM_MOVEABLE.
 old-location: base\localunlock.htm
 tech.root: Memory
 ms.assetid: eac40b69-5fb6-4523-826d-a012f6f4e5ce
-
 ms.date: 12/05/2018
 ms.keywords: LocalUnlock, LocalUnlock function, _win32_localunlock, base.localunlock, winbase/LocalUnlock
 ms.topic: function
-f1_keywords: 
- - "winbase/LocalUnlock"
+f1_keywords:
+- winbase/LocalUnlock
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Core-misc-l1-1-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - API-Ms-Win-Core-Heap-L2-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Core-misc-l1-1-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- API-Ms-Win-Core-Heap-L2-1-0.dll
 api_name:
- - LocalUnlock
+- LocalUnlock
 targetos: Windows
 req.typenames: 
 req.redist: 

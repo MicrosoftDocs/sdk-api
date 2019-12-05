@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.UpdateTransferPercent
 title: IPhotoAcquireProgressCB::UpdateTransferPercent (photoacquire.h)
-
 description: The UpdateTransferPercent method provides extended functionality when the percentage of items transferred changes. The application provides the implementation of the UpdateTransferPercent method.
 old-location: picacq\iphotoacquireprogresscb_updatetransferpercent.htm
 tech.root: acquisition
 ms.assetid: a868663d-f926-4b29-9e1f-7df4ec36687b
-
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireProgressCB interface [Picture Acquisition],UpdateTransferPercent method, IPhotoAcquireProgressCB.UpdateTransferPercent, IPhotoAcquireProgressCB::UpdateTransferPercent, IPhotoAcquireProgressCBUpdateTransferPercent, UpdateTransferPercent, UpdateTransferPercent method [Picture Acquisition], UpdateTransferPercent method [Picture Acquisition],IPhotoAcquireProgressCB interface, photoacquire/IPhotoAcquireProgressCB::UpdateTransferPercent, picacq.iphotoacquireprogresscb_updatetransferpercent
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquireProgressCB.UpdateTransferPercent"
+f1_keywords:
+- photoacquire/IPhotoAcquireProgressCB.UpdateTransferPercent
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireProgressCB.UpdateTransferPercent
+- IPhotoAcquireProgressCB.UpdateTransferPercent
 targetos: Windows
 req.typenames: 
 req.redist: 

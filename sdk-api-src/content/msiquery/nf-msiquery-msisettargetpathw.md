@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiSetTargetPathW
 title: MsiSetTargetPathW function (msiquery.h)
-
 description: The MsiSetTargetPath function sets the full target path for a folder in the Directory table.
 old-location: setup\msisettargetpath.htm
 tech.root: Msi
 ms.assetid: bfd39656-4901-442f-940d-424d440caf70
-
 ms.date: 12/05/2018
 ms.keywords: MsiSetTargetPath, MsiSetTargetPath function, MsiSetTargetPathA, MsiSetTargetPathW, _msi_msisettargetpath, msiquery/MsiSetTargetPath, msiquery/MsiSetTargetPathA, msiquery/MsiSetTargetPathW, setup.msisettargetpath
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiSetTargetPath"
+f1_keywords:
+- msiquery/MsiSetTargetPath
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiSetTargetPath
- - MsiSetTargetPathA
- - MsiSetTargetPathW
+- MsiSetTargetPath
+- MsiSetTargetPathA
+- MsiSetTargetPathW
 targetos: Windows
 req.typenames: 
 req.redist: 

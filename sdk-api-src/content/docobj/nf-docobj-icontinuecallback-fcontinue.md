@@ -1,19 +1,17 @@
 ---
 UID: NF:docobj.IContinueCallback.FContinue
 title: IContinueCallback::FContinue (docobj.h)
-
 description: Indicates whether a generic operation should continue.
 old-location: com\icontinuecallback_fcontinue.htm
 tech.root: com
 ms.assetid: c84899df-fef1-473d-8278-d715a8ab8ee5
-
 ms.date: 12/05/2018
 ms.keywords: FContinue, FContinue method [COM], FContinue method [COM],IContinueCallback interface, IContinueCallback interface [COM],FContinue method, IContinueCallback.FContinue, IContinueCallback::FContinue, _com_icontinuecallback_fcontinue, com.icontinuecallback_fcontinue, docobj/IContinueCallback::FContinue
 ms.topic: method
-f1_keywords: 
- - "docobj/IContinueCallback.FContinue"
+f1_keywords:
+- docobj/IContinueCallback.FContinue
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - IContinueCallback.FContinue
+- IContinueCallback.FContinue
 targetos: Windows
 req.typenames: 
 req.redist: 

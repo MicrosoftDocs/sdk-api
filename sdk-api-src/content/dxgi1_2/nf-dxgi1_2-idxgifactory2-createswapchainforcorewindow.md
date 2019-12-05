@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_2.IDXGIFactory2.CreateSwapChainForCoreWindow
 title: IDXGIFactory2::CreateSwapChainForCoreWindow (dxgi1_2.h)
-
 description: Creates a swap chain that is associated with the CoreWindow object for the output window for the swap chain.
 old-location: direct3ddxgi\idxgifactory2_createswapchainforimmersivewindow.htm
 tech.root: direct3ddxgi
 ms.assetid: B3AC3AEB-3449-4444-9FD3-866A3795C41F
-
 ms.date: 12/05/2018
 ms.keywords: CreateSwapChainForCoreWindow, CreateSwapChainForCoreWindow method [DXGI], CreateSwapChainForCoreWindow method [DXGI],IDXGIFactory2 interface, IDXGIFactory2 interface [DXGI],CreateSwapChainForCoreWindow method, IDXGIFactory2.CreateSwapChainForCoreWindow, IDXGIFactory2::CreateSwapChainForCoreWindow, direct3ddxgi.idxgifactory2_createswapchainforimmersivewindow, dxgi1_2/IDXGIFactory2::CreateSwapChainForCoreWindow
 ms.topic: method
-f1_keywords: 
- - "dxgi1_2/IDXGIFactory2.CreateSwapChainForCoreWindow"
+f1_keywords:
+- dxgi1_2/IDXGIFactory2.CreateSwapChainForCoreWindow
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGIFactory2.CreateSwapChainForCoreWindow
+- IDXGIFactory2.CreateSwapChainForCoreWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplication.put_Scope
 title: INetFwAuthorizedApplication::put_Scope (netfw.h)
-
 description: Controls the network scope from which the port can listen.
 old-location: ics\inetfwauthorizedapplication_scope.htm
 tech.root: ics
 ms.assetid: f9784736-2af0-4bd4-980c-2365a1cdc20b
-
 ms.date: 12/05/2018
 ms.keywords: INetFwAuthorizedApplication interface [ICS/ICF],Scope property, INetFwAuthorizedApplication.Scope, INetFwAuthorizedApplication.put_Scope, INetFwAuthorizedApplication::Scope, INetFwAuthorizedApplication::get_Scope, INetFwAuthorizedApplication::put_Scope, Scope property [ICS/ICF], Scope property [ICS/ICF],INetFwAuthorizedApplication interface, ics.inetfwauthorizedapplication_scope, netfw/INetFwAuthorizedApplication::Scope, netfw/INetFwAuthorizedApplication::get_Scope, netfw/INetFwAuthorizedApplication::put_Scope, put_Scope
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwAuthorizedApplication.Scope"
+f1_keywords:
+- netfw/INetFwAuthorizedApplication.Scope
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: FirewallAPI.dll; Wfapi.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - wfapi.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- wfapi.dll
+- Hnetcfg.dll
 api_name:
- - INetFwAuthorizedApplication.Scope
- - INetFwAuthorizedApplication.get_Scope
- - INetFwAuthorizedApplication.put_Scope
+- INetFwAuthorizedApplication.Scope
+- INetFwAuthorizedApplication.get_Scope
+- INetFwAuthorizedApplication.put_Scope
 targetos: Windows
 req.typenames: 
 req.redist: 

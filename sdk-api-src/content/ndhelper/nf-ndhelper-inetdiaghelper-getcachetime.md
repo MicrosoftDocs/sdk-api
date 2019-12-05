@@ -1,19 +1,17 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetCacheTime
 title: INetDiagHelper::GetCacheTime (ndhelper.h)
-
 description: Specifies the time when cached results of a diagnosis and repair operation have expired.
 old-location: ndf\inetdiaghelpe_getcachetime.htm
 tech.root: NDF
 ms.assetid: 0298bf84-374e-438f-8141-3298e1004c1b
-
 ms.date: 12/05/2018
 ms.keywords: GetCacheTime, GetCacheTime method [NDF], GetCacheTime method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetCacheTime method, INetDiagHelper.GetCacheTime, INetDiagHelper::GetCacheTime, ndf.inetdiaghelpe_getcachetime, ndhelper/INetDiagHelper::GetCacheTime
 ms.topic: method
-f1_keywords: 
- - "ndhelper/INetDiagHelper.GetCacheTime"
+f1_keywords:
+- ndhelper/INetDiagHelper.GetCacheTime
 dev_langs:
- - c++
+- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ndhelper.h
+- ndhelper.h
 api_name:
- - INetDiagHelper.GetCacheTime
+- INetDiagHelper.GetCacheTime
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IX509CertificateTemplate
 title: IX509CertificateTemplate (certenroll.h)
-
 description: The IX509CertificateTemplate interface represents a certificate request template. It can be used to initialize an IX509CertificateTemplateWritable interface.
 old-location: security\ix509certificatetemplate.htm
 tech.root: seccertenroll
 ms.assetid: 56122d92-7e38-4eaa-b2f5-713adc81e68e
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateTemplate, IX509CertificateTemplate interface [Security], IX509CertificateTemplate interface [Security],described, certenroll/IX509CertificateTemplate, security.ix509certificatetemplate
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IX509CertificateTemplate"
+f1_keywords:
+- certenroll/IX509CertificateTemplate
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateTemplate
+- IX509CertificateTemplate
 targetos: Windows
 req.typenames: 
 req.redist: 

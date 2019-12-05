@@ -1,19 +1,17 @@
 ---
 UID: NE:winnls.SYSGEOTYPE
 title: SYSGEOTYPE (winnls.h)
-
 description: Defines the type of geographical location information requested in the GetGeoInfo or GetGeoInfoEx function.
 old-location: intl\sysgeotype.htm
 tech.root: Intl
 ms.assetid: f72f5cc5-4709-408f-a50c-b4b3092c4419
-
 ms.date: 12/05/2018
 ms.keywords: GEO_CURRENCYCODE, GEO_CURRENCYSYMBOL, GEO_DIALINGCODE, GEO_FRIENDLYNAME, GEO_ID, GEO_ISO2, GEO_ISO3, GEO_ISO_UN_NUMBER, GEO_LATITUDE, GEO_LCID, GEO_LONGITUDE, GEO_NAME, GEO_NATION, GEO_OFFICIALLANGUAGES, GEO_OFFICIALNAME, GEO_PARENT, GEO_RFC1766, GEO_TIMEZONES, SYSGEOTYPE, SYSGEOTYPE enumeration [Internationalization for Windows Applications], _win32_SYSGEOTYPE, intl.sysgeotype, winnls/GEO_CURRENCYCODE, winnls/GEO_CURRENCYSYMBOL, winnls/GEO_DIALINGCODE, winnls/GEO_FRIENDLYNAME, winnls/GEO_ID, winnls/GEO_ISO2, winnls/GEO_ISO3, winnls/GEO_ISO_UN_NUMBER, winnls/GEO_LATITUDE, winnls/GEO_LCID, winnls/GEO_LONGITUDE, winnls/GEO_NAME, winnls/GEO_NATION, winnls/GEO_OFFICIALLANGUAGES, winnls/GEO_OFFICIALNAME, winnls/GEO_PARENT, winnls/GEO_RFC1766, winnls/GEO_TIMEZONES, winnls/SYSGEOTYPE
 ms.topic: enum
-f1_keywords: 
- - "winnls/SYSGEOTYPE"
+f1_keywords:
+- winnls/SYSGEOTYPE
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnls.h
+- Winnls.h
 api_name:
- - SYSGEOTYPE
+- SYSGEOTYPE
 targetos: Windows
 req.typenames: 
 req.redist: 

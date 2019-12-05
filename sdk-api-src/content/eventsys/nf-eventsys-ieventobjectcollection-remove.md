@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventObjectCollection.Remove
 title: IEventObjectCollection::Remove (eventsys.h)
-
 description: Removes an event object from the collection.
 old-location: cos\ieventobjectcollection_remove.htm
 tech.root: cossdk
 ms.assetid: 5092b1e1-bbf2-493c-92be-41196b43d4f2
-
 ms.date: 12/05/2018
 ms.keywords: IEventObjectCollection interface [COM+],Remove method, IEventObjectCollection.Remove, IEventObjectCollection::Remove, Remove, Remove method [COM+], Remove method [COM+],IEventObjectCollection interface, _cos_IEventObjectCollection_Remove, cos.ieventobjectcollection_remove, eventsys/IEventObjectCollection::Remove
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventObjectCollection.Remove"
+f1_keywords:
+- eventsys/IEventObjectCollection.Remove
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Eventsys.h
+- Eventsys.h
 api_name:
- - IEventObjectCollection.Remove
+- IEventObjectCollection.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

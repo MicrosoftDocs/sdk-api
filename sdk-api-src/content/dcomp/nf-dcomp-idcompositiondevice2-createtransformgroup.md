@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionDevice2.CreateTransformGroup
 title: IDCompositionDevice2::CreateTransformGroup (dcomp.h)
-
 description: Creates a 2D transform group object that holds an array of 2D transform objects.
 old-location: directcomp\idcompositiondevice2_createtransformgroup.htm
 tech.root: directcomp
 ms.assetid: D71C813E-1660-4BA6-961D-A0EB77D16FC2
-
 ms.date: 12/05/2018
 ms.keywords: CreateTransformGroup, CreateTransformGroup method [DirectComposition], CreateTransformGroup method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],CreateTransformGroup method, IDCompositionDevice2.CreateTransformGroup, IDCompositionDevice2::CreateTransformGroup, dcomp/IDCompositionDevice2::CreateTransformGroup, directcomp.idcompositiondevice2_createtransformgroup
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionDevice2.CreateTransformGroup"
+f1_keywords:
+- dcomp/IDCompositionDevice2.CreateTransformGroup
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionDevice2.CreateTransformGroup
+- IDCompositionDevice2.CreateTransformGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

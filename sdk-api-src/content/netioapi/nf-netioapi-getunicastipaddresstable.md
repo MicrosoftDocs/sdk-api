@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.GetUnicastIpAddressTable
 title: GetUnicastIpAddressTable function (netioapi.h)
-
 description: Retrieves the unicast IP address table on the local computer.
 old-location: iphlp\getunicastipaddresstable.htm
 tech.root: IpHlp
 ms.assetid: bdafc4a4-5f3c-4dd5-ba9b-4f6045a82652
-
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetUnicastIpAddressTable, GetUnicastIpAddressTable function [IP Helper], iphlp.getunicastipaddresstable, netioapi/GetUnicastIpAddressTable
 ms.topic: function
-f1_keywords: 
- - "netioapi/GetUnicastIpAddressTable"
+f1_keywords:
+- netioapi/GetUnicastIpAddressTable
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - GetUnicastIpAddressTable
+- GetUnicastIpAddressTable
 targetos: Windows
 req.typenames: 
 req.redist: 

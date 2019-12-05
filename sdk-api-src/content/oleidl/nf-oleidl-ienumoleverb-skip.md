@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IEnumOLEVERB.Skip
 title: IEnumOLEVERB::Skip (oleidl.h)
-
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: com\ienumoleverb_skip.htm
 tech.root: com
 ms.assetid: f949f993-1c4c-4d42-ba23-93330f0e9967
-
 ms.date: 12/05/2018
 ms.keywords: IEnumOLEVERB interface [COM],Skip method, IEnumOLEVERB.Skip, IEnumOLEVERB::Skip, Skip, Skip method [COM], Skip method [COM],IEnumOLEVERB interface, _ole_ienumoleverb_skip, com.ienumoleverb_skip, oleidl/IEnumOLEVERB::Skip
 ms.topic: method
-f1_keywords: 
- - "oleidl/IEnumOLEVERB.Skip"
+f1_keywords:
+- oleidl/IEnumOLEVERB.Skip
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IEnumOLEVERB.Skip
+- IEnumOLEVERB.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

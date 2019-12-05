@@ -1,19 +1,17 @@
 ---
 UID: NC:vfw.CAPERRORCALLBACKA
 title: CAPERRORCALLBACKA (vfw.h)
-
 description: The capErrorCallback function is the error callback function used with video capture. The name capErrorCallback is a placeholder for the application-supplied function name.
 old-location: multimedia\caperrorcallback.htm
 tech.root: Multimedia
 ms.assetid: 3dc41a0e-1fed-423d-b05b-c42f361a3fb3
-
 ms.date: 12/05/2018
 ms.keywords: CAPERRORCALLBACKA, CAPERRORCALLBACKW, _win32_capErrorCallback, capErrorCallback, capErrorCallback callback, capErrorCallback callback function [Windows Multimedia], multimedia.caperrorcallback, vfw/CAPERRORCALLBACKA, vfw/CAPERRORCALLBACKW, vfw/capErrorCallback
 ms.topic: callback
-f1_keywords: 
- - "vfw/capErrorCallback"
+f1_keywords:
+- vfw/capErrorCallback
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - capErrorCallback
- - CAPERRORCALLBACKA
- - CAPERRORCALLBACKW
+- capErrorCallback
+- CAPERRORCALLBACKA
+- CAPERRORCALLBACKW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.IEnumSearchRoots.Next
 title: IEnumSearchRoots::Next (searchapi.h)
-
 description: Retrieves the specified number of ISearchRoot elements.
 old-location: search\_search_IEnumSearchRoots_Next.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchroots\next.htm
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSearchRoots interface [search],Next method, IEnumSearchRoots.Next, IEnumSearchRoots::Next, Next, Next method [search], Next method [search],IEnumSearchRoots interface, _search_IEnumSearchRoots_Next, search._search_IEnumSearchRoots_Next, searchapi/IEnumSearchRoots::Next
 ms.topic: method
-f1_keywords: 
- - "searchapi/IEnumSearchRoots.Next"
+f1_keywords:
+- searchapi/IEnumSearchRoots.Next
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IEnumSearchRoots.Next
+- IEnumSearchRoots.Next
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

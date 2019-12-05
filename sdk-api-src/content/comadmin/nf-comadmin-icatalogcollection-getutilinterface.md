@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICatalogCollection.GetUtilInterface
 title: ICatalogCollection::GetUtilInterface (comadmin.h)
-
 description: Retrieves the utility interface for the collection.
 old-location: cos\icatalogcollection_getutilinterface.htm
 tech.root: cossdk
 ms.assetid: bac2153d-253b-4be1-be14-2c1207799ada
-
 ms.date: 12/05/2018
 ms.keywords: GetUtilInterface, GetUtilInterface method [COM+], GetUtilInterface method [COM+],ICatalogCollection interface, ICatalogCollection interface [COM+],GetUtilInterface method, ICatalogCollection.GetUtilInterface, ICatalogCollection::GetUtilInterface, _cos_ICatalogCollection_GetUtilInterface, comadmin/ICatalogCollection::GetUtilInterface, cos.icatalogcollection_getutilinterface
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICatalogCollection.GetUtilInterface"
+f1_keywords:
+- comadmin/ICatalogCollection.GetUtilInterface
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICatalogCollection.GetUtilInterface
+- ICatalogCollection.GetUtilInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

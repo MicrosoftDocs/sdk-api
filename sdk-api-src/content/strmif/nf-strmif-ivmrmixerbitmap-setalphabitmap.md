@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRMixerBitmap.SetAlphaBitmap
 title: IVMRMixerBitmap::SetAlphaBitmap (strmif.h)
-
 description: The SetAlphaBitmap method specifies a new bitmap image and the source location of the bitmap and how and where it should be rendered on the destination rectangle.
 old-location: dshow\ivmrmixerbitmap_setalphabitmap.htm
 tech.root: DirectShow
 ms.assetid: 92e57c3a-6761-4a54-83f5-0ea0ce80d60b
-
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerBitmap interface [DirectShow],SetAlphaBitmap method, IVMRMixerBitmap.SetAlphaBitmap, IVMRMixerBitmap::SetAlphaBitmap, IVMRMixerBitmapSetAlphaBitmap, SetAlphaBitmap, SetAlphaBitmap method [DirectShow], SetAlphaBitmap method [DirectShow],IVMRMixerBitmap interface, dshow.ivmrmixerbitmap_setalphabitmap, strmif/IVMRMixerBitmap::SetAlphaBitmap
 ms.topic: method
 f1_keywords:
 - strmif/IVMRMixerBitmap.SetAlphaBitmap
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

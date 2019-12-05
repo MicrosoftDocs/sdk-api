@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ImageList_GetIcon
 title: ImageList_GetIcon function (commctrl.h)
-
 description: Creates an icon from an image and mask in an image list.
 old-location: controls\ImageList_GetIcon.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_geticon.htm
-
 ms.date: 12/05/2018
 ms.keywords: ImageList_GetIcon, ImageList_GetIcon function [Windows Controls], _win32_ImageList_GetIcon, _win32_ImageList_GetIcon_cpp, commctrl/ImageList_GetIcon, controls.ImageList_GetIcon, controls._win32_ImageList_GetIcon
 ms.topic: function
-f1_keywords: 
- - "commctrl/ImageList_GetIcon"
+f1_keywords:
+- commctrl/ImageList_GetIcon
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - ImageList_GetIcon
+- ImageList_GetIcon
 targetos: Windows
 req.typenames: 
 req.redist: 

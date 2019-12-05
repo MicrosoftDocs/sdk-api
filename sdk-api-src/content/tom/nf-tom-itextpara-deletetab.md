@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara.DeleteTab
 title: ITextPara::DeleteTab (tom.h)
-
 description: Deletes a tab at a specified displacement.
 old-location: controls\ITextPara_DeleteTab.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\deletetab.htm
-
 ms.date: 12/05/2018
 ms.keywords: DeleteTab, DeleteTab method [Windows Controls], DeleteTab method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],DeleteTab method, ITextPara.DeleteTab, ITextPara::DeleteTab, _win32_ITextPara_DeleteTab, _win32_ITextPara_DeleteTab_cpp, controls.ITextPara_DeleteTab, controls._win32_ITextPara_DeleteTab, tom/ITextPara::DeleteTab
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara.DeleteTab"
+f1_keywords:
+- tom/ITextPara.DeleteTab
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara.DeleteTab
+- ITextPara.DeleteTab
 targetos: Windows
 req.typenames: 
 req.redist: 

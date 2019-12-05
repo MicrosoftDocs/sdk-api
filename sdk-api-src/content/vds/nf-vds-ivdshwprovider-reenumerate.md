@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsHwProvider.Reenumerate
 title: IVdsHwProvider::Reenumerate (vds.h)
-
 description: Discovers newly connected and disconnected subsystems.
 old-location: base\ivdshwprovider_reenumerate.htm
 tech.root: VDS
 ms.assetid: aeb06a98-8896-446f-abd5-ea40be0bea40
-
 ms.date: 12/05/2018
 ms.keywords: IVdsHwProvider interface [VDS],Reenumerate method, IVdsHwProvider.Reenumerate, IVdsHwProvider::Reenumerate, Reenumerate, Reenumerate method [VDS], Reenumerate method [VDS],IVdsHwProvider interface, base.ivdshwprovider_reenumerate, vds/IVdsHwProvider::Reenumerate, vdshwprv/IVdsHwProvider::Reenumerate
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsHwProvider.Reenumerate"
+f1_keywords:
+- vds/IVdsHwProvider.Reenumerate
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsHwProvider.Reenumerate
+- IVdsHwProvider.Reenumerate
 targetos: Windows
 req.typenames: 
 req.redist: 

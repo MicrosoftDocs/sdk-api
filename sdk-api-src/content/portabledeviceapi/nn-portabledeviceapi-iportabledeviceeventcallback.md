@@ -1,19 +1,17 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceEventCallback
 title: IPortableDeviceEventCallback (portabledeviceapi.h)
-
 description: The IPortableDeviceEventCallback interface implemented by the application to receive asynchronous callbacks if an application has registered to receive them by calling IPortableDevice::Advise.
 old-location: wpdsdk\iportabledeviceeventcallback.htm
 tech.root: wpd_sdk
 ms.assetid: 1fb2d5d8-82b8-4c51-a086-bdcad33da190
-
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceEventCallback, IPortableDeviceEventCallback interface [Windows Portable Devices SDK], IPortableDeviceEventCallback interface [Windows Portable Devices SDK],described, IPortableDeviceEventCallbackInterface, portabledeviceapi/IPortableDeviceEventCallback, wpdsdk.iportabledeviceeventcallback
 ms.topic: interface
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceEventCallback"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceEventCallback
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceEventCallback
+- IPortableDeviceEventCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

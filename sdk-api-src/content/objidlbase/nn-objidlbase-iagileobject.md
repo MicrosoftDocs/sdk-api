@@ -1,19 +1,17 @@
 ---
 UID: NN:objidlbase.IAgileObject
 title: IAgileObject (objidlbase.h)
-
 description: Marks an interface as agile across apartments.
 old-location: com\iagileobject.htm
 tech.root: com
 ms.assetid: 787A22DE-AEAB-4570-BB97-C49D656E5D40
-
 ms.date: 12/05/2018
 ms.keywords: IAgileObject, IAgileObject interface [COM], IAgileObject interface [COM],described, com.iagileobject, objidl/IAgileObject
 ms.topic: interface
-f1_keywords: 
- - "objidlbase/IAgileObject"
+f1_keywords:
+- objidlbase/IAgileObject
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: Objidlbase.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidl.h
+- objidl.h
 api_name:
- - IAgileObject
+- IAgileObject
 targetos: Windows
 req.typenames: 
 req.redist: 

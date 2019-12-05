@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.SetComment
 title: IScheduledWorkItem::SetComment (mstask.h)
-
 description: Sets the comment for the work item.
 old-location: taskschd\ischeduledworkitem_setcomment.htm
 tech.root: taskschd
 ms.assetid: c6017aa1-8860-454c-a402-becbc1a4ee5c
-
 ms.date: 12/05/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetComment method, IScheduledWorkItem.SetComment, IScheduledWorkItem::SetComment, SetComment, SetComment method [Task Scheduler], SetComment method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setcomment, mstask/IScheduledWorkItem::SetComment, taskschd.ischeduledworkitem_setcomment
 ms.topic: method
-f1_keywords: 
- - "mstask/IScheduledWorkItem.SetComment"
+f1_keywords:
+- mstask/IScheduledWorkItem.SetComment
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - IScheduledWorkItem.SetComment
+- IScheduledWorkItem.SetComment
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

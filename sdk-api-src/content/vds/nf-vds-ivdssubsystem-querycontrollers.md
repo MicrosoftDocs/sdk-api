@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsSubSystem.QueryControllers
 title: IVdsSubSystem::QueryControllers (vds.h)
-
 description: Returns an object that enumerates the online and offline controllers managed by the subsystem.
 old-location: base\ivdssubsystem_querycontrollers.htm
 tech.root: VDS
 ms.assetid: 61f32915-c616-477e-b0f0-4a7f92aca0e2
-
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystem interface [VDS],QueryControllers method, IVdsSubSystem.QueryControllers, IVdsSubSystem::QueryControllers, QueryControllers, QueryControllers method [VDS], QueryControllers method [VDS],IVdsSubSystem interface, base.ivdssubsystem_querycontrollers, vds/IVdsSubSystem::QueryControllers, vdshwprv/IVdsSubSystem::QueryControllers
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsSubSystem.QueryControllers"
+f1_keywords:
+- vds/IVdsSubSystem.QueryControllers
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsSubSystem.QueryControllers
+- IVdsSubSystem.QueryControllers
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_UNIQUE_ID
 title: WS_UNIQUE_ID (webservices.h)
-
 description: Represents a unique ID URI.
 old-location: wsw\ws_unique_id.htm
 tech.root: wsw
 ms.assetid: b9fd4497-153f-45f9-8f23-0771ffc47830
-
 ms.date: 12/05/2018
 ms.keywords: WS_UNIQUE_ID, WS_UNIQUE_ID structure [Web Services for Windows], webservices/WS_UNIQUE_ID, wsw.ws_unique_id
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_UNIQUE_ID"
+f1_keywords:
+- webservices/WS_UNIQUE_ID
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_UNIQUE_ID
+- WS_UNIQUE_ID
 targetos: Windows
 req.typenames: WS_UNIQUE_ID
 req.redist: 

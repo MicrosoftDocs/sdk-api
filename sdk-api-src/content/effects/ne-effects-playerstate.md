@@ -1,19 +1,17 @@
 ---
 UID: NE:effects.PlayerState
 title: PlayerState (effects.h)
-
 description: The PlayerState enumeration type provides some basic states of Windows Media Player.
 old-location: wmp\playerstate.htm
 tech.root: WMP
 ms.assetid: 7cd17639-e491-4066-838a-236554733874
-
 ms.date: 12/05/2018
 ms.keywords: PlayerState, PlayerState enumeration [Windows Media Player], effects/PlayerState, effects/pause_state, effects/play_state, effects/stop_state, enumeration [Windows Media Player], pause_state, play_state, stop_state, typedefenumPlayerState, wmp.playerstate
 ms.topic: enum
-f1_keywords: 
- - "effects/PlayerState"
+f1_keywords:
+- effects/PlayerState
 dev_langs:
- - c++
+- c++
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - effects.h
+- effects.h
 api_name:
- - PlayerState
+- PlayerState
 targetos: Windows
 req.typenames: 
 req.redist: 

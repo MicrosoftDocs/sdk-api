@@ -1,19 +1,17 @@
 ---
 UID: NF:imm.ImmSetCandidateWindow
 title: ImmSetCandidateWindow function (imm.h)
-
 description: Sets information about the candidates window.
 old-location: intl\immsetcandidatewindow.htm
 tech.root: Intl
 ms.assetid: 4b82a5a3-1e31-4d50-9a0f-890e94d12201
-
 ms.date: 12/05/2018
 ms.keywords: ImmSetCandidateWindow, ImmSetCandidateWindow function [Internationalization for Windows Applications], _win32_ImmSetCandidateWindow, imm/ImmSetCandidateWindow, intl.immsetcandidatewindow
 ms.topic: function
-f1_keywords: 
- - "imm/ImmSetCandidateWindow"
+f1_keywords:
+- imm/ImmSetCandidateWindow
 dev_langs:
- - c++
+- c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imm32.dll
- - Ext-MS-Win-imm-l1-1-0.dll
- - ext-ms-win-imm-l1-1-1.dll
+- Imm32.dll
+- Ext-MS-Win-imm-l1-1-0.dll
+- ext-ms-win-imm-l1-1-1.dll
 api_name:
- - ImmSetCandidateWindow
+- ImmSetCandidateWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsapi32.WTSTerminateProcess
 title: WTSTerminateProcess function (wtsapi32.h)
-
 description: Terminates the specified process on the specified Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtsterminateprocess.htm
 tech.root: TermServ
 ms.assetid: 38036657-4e65-4100-893a-e35cf0b71e0d
-
 ms.date: 12/05/2018
 ms.keywords: WTSTerminateProcess, WTSTerminateProcess function [Remote Desktop Services], _win32_wtsterminateprocess, termserv.wtsterminateprocess, wtsapi32/WTSTerminateProcess
 ms.topic: function
-f1_keywords: 
- - "wtsapi32/WTSTerminateProcess"
+f1_keywords:
+- wtsapi32/WTSTerminateProcess
 dev_langs:
- - c++
+- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wtsapi32.dll
+- Wtsapi32.dll
 api_name:
- - WTSTerminateProcess
+- WTSTerminateProcess
 targetos: Windows
 req.typenames: 
 req.redist: 

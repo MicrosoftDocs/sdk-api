@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IHeaderCtrl.DeleteColumn
 title: IHeaderCtrl::DeleteColumn (mmc.h)
-
 description: Removes a column from the header of the result view.
 old-location: mmc\iheaderctrl_deletecolumn.htm
 tech.root: mmc
 ms.assetid: 85A4D929-E98B-4C84-9E5C-EA5E41BD0D07
-
 ms.date: 12/05/2018
 ms.keywords: DeleteColumn, DeleteColumn method [MMC], DeleteColumn method [MMC],IHeaderCtrl interface, IHeaderCtrl interface [MMC],DeleteColumn method, IHeaderCtrl.DeleteColumn, IHeaderCtrl::DeleteColumn, mmc.iheaderctrl_deletecolumn, mmc/IHeaderCtrl::DeleteColumn
 ms.topic: method
-f1_keywords: 
- - "mmc/IHeaderCtrl.DeleteColumn"
+f1_keywords:
+- mmc/IHeaderCtrl.DeleteColumn
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IHeaderCtrl.DeleteColumn
+- IHeaderCtrl.DeleteColumn
 targetos: Windows
 req.typenames: 
 req.redist: 

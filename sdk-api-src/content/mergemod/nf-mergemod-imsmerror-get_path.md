@@ -1,19 +1,17 @@
 ---
 UID: NF:mergemod.IMsmError.get_Path
 title: IMsmError::get_Path (mergemod.h)
-
 description: The get_Path method retrieves the Path property of the Error object.
 old-location: setup\imsmerror_get_path.htm
 tech.root: Msi
 ms.assetid: a431f0c6-6551-4983-8638-0a76cada822d
-
 ms.date: 12/05/2018
 ms.keywords: IMsmError interface,get_Path method, IMsmError.get_Path, IMsmError::get_Path, _msi_get_path_function, get_Path, get_Path method, get_Path method,IMsmError interface, mergemod/IMsmError::get_Path, setup.imsmerror_get_path
 ms.topic: method
-f1_keywords: 
- - "mergemod/IMsmError.get_Path"
+f1_keywords:
+- mergemod/IMsmError.get_Path
 dev_langs:
- - c++
+- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mergemod.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mergemod.dll
+- Mergemod.dll
 api_name:
- - IMsmError.get_Path
+- IMsmError.get_Path
 targetos: Windows
 req.typenames: 
 req.redist: 

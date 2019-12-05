@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.IAnalogTVTuningSpace
 title: IAnalogTVTuningSpace (tuner.h)
-
 description: The IAnalogTVTuningSpace interface provides methods for getting and setting parameters associated with analog TV tuning spaces. The Video Control uses these methods when building and controlling a WDM Analog TV filter graph.
 old-location: mstv\ianalogtvtuningspace.htm
 tech.root: mstv
 ms.assetid: 2b531f09-bf2e-4eb2-abcf-60f64cbee17b
-
 ms.date: 12/05/2018
 ms.keywords: IAnalogTVTuningSpace, IAnalogTVTuningSpace interface [Microsoft TV Technologies], IAnalogTVTuningSpace interface [Microsoft TV Technologies],described, IAnalogTVTuningSpaceInterface, mstv.ianalogtvtuningspace, tuner/IAnalogTVTuningSpace
 ms.topic: interface
-f1_keywords: 
- - "tuner/IAnalogTVTuningSpace"
+f1_keywords:
+- tuner/IAnalogTVTuningSpace
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IAnalogTVTuningSpace
+- IAnalogTVTuningSpace
 targetos: Windows
 req.typenames: 
 req.redist: 

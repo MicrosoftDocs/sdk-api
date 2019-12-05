@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITFileTerminalEvent
 title: ITFileTerminalEvent (tapi3if.h)
-
 description: The ITFileTerminalEvent interface contains methods that retrieve the description of file terminal events that have occurred.
 old-location: tapi3\itfileterminalevent.htm
 tech.root: Tapi
 ms.assetid: cb6f2869-ec31-49ac-873b-35a0dcd2c8d7
-
 ms.date: 12/05/2018
 ms.keywords: ITFileTerminalEvent, ITFileTerminalEvent interface [TAPI 2.2], ITFileTerminalEvent interface [TAPI 2.2],described, _tapi3_itfileterminalevent, tapi3.itfileterminalevent, tapi3if/ITFileTerminalEvent
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITFileTerminalEvent"
+f1_keywords:
+- tapi3if/ITFileTerminalEvent
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITFileTerminalEvent
+- ITFileTerminalEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

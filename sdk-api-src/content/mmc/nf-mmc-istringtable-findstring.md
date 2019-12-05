@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IStringTable.FindString
 title: IStringTable::FindString (mmc.h)
-
 description: Enables a snap-in to search for a string in the snap-in string table.
 old-location: mmc\istringtable_findstring.htm
 tech.root: mmc
 ms.assetid: c239618d-ed27-4d73-9e88-7323960a0e68
-
 ms.date: 12/05/2018
 ms.keywords: FindString, FindString method [MMC], FindString method [MMC],IStringTable interface, IStringTable interface [MMC],FindString method, IStringTable.FindString, IStringTable::FindString, _slate_istringtable_findstring, mmc.istringtable_findstring, mmc/IStringTable::FindString
 ms.topic: method
-f1_keywords: 
- - "mmc/IStringTable.FindString"
+f1_keywords:
+- mmc/IStringTable.FindString
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IStringTable.FindString
+- IStringTable.FindString
 targetos: Windows
 req.typenames: 
 req.redist: 

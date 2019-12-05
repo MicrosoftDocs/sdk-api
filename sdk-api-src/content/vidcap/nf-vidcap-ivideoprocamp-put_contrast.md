@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_Contrast
 title: IVideoProcAmp::put_Contrast (vidcap.h)
-
 description: The put_Contrast method sets the camera's contrast setting.
 old-location: dshow\ivideoprocamp_put_contrast.htm
 tech.root: DirectShow
 ms.assetid: a03ab735-2258-49c6-a66a-fabe38f88532
-
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_Contrast method, IVideoProcAmp.put_Contrast, IVideoProcAmp::put_Contrast, IVideoProcAmpput_Contrast, dshow.ivideoprocamp_put_contrast, put_Contrast, put_Contrast method [DirectShow], put_Contrast method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_Contrast
 ms.topic: method
-f1_keywords: 
- - "vidcap/IVideoProcAmp.put_Contrast"
+f1_keywords:
+- vidcap/IVideoProcAmp.put_Contrast
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vidcap.h
+- Vidcap.h
 api_name:
- - IVideoProcAmp.put_Contrast
+- IVideoProcAmp.put_Contrast
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrmpipeline.IFsrmPipelineModuleImplementation
 title: IFsrmPipelineModuleImplementation (fsrmpipeline.h)
-
 description: Abstract interface for IFsrmClassifierModuleImplementation and IFsrmStorageModuleImplementation.
 old-location: fsrm\ifsrmpipelinemoduleimplementation.htm
 tech.root: fsrm
 ms.assetid: a4420b1e-e2e5-460c-948c-3c5f97d7a0e7
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmPipelineModuleImplementation, IFsrmPipelineModuleImplementation interface [File Server Resource Manager], IFsrmPipelineModuleImplementation interface [File Server Resource Manager],described, fs.ifsrmpipelinemoduleimplementation, fsrm.ifsrmpipelinemoduleimplementation, fsrm/IFsrmPipelineModuleImplementation
 ms.topic: interface
-f1_keywords: 
- - "fsrmpipeline/IFsrmPipelineModuleImplementation"
+f1_keywords:
+- fsrmpipeline/IFsrmPipelineModuleImplementation
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPipelineModuleImplementation
+- IFsrmPipelineModuleImplementation
 targetos: Windows
 req.typenames: 
 req.redist: 

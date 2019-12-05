@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICPngIccpProperties
 title: WICPngIccpProperties (wincodec.h)
-
 description: Specifies the Portable Network Graphics (PNG) iCCP chunk metadata properties.
 old-location: wic\_wic_codec_wicpngiccpproperties.htm
 tech.root: wic
 ms.assetid: 2c28a4f1-40c2-4886-be5f-0a2e6feb487a
-
 ms.date: 12/05/2018
 ms.keywords: WICPngIccpProfileData, WICPngIccpProfileName, WICPngIccpProperties, WICPngIccpProperties enumeration [Windows Imaging Component], _wic_codec_wicpngiccpproperties, wic._wic_codec_wicpngiccpproperties, wincodec/WICPngIccpProfileData, wincodec/WICPngIccpProfileName, wincodec/WICPngIccpProperties
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICPngIccpProperties"
+f1_keywords:
+- wincodec/WICPngIccpProperties
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICPngIccpProperties
+- WICPngIccpProperties
 targetos: Windows
 req.typenames: WICPngIccpProperties
 req.redist: 

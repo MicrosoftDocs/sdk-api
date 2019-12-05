@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetDefaultDigestMethod
 title: IOpcSigningOptions::GetDefaultDigestMethod (msopc.h)
-
 description: Gets the default digest method that will be used to compute digest values for objects to be signed.
 old-location: opc\iopcsigningoptions_getdefaultdigestmethod.htm
 tech.root: OPC
 ms.assetid: c8ec81e6-7807-4a1e-9e0c-f5512bd605fa
-
 ms.date: 12/05/2018
 ms.keywords: GetDefaultDigestMethod, GetDefaultDigestMethod method [Open Packaging Conventions], GetDefaultDigestMethod method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetDefaultDigestMethod method, IOpcSigningOptions.GetDefaultDigestMethod, IOpcSigningOptions::GetDefaultDigestMethod, msopc/IOpcSigningOptions::GetDefaultDigestMethod, opc.iopcsigningoptions_getdefaultdigestmethod
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSigningOptions.GetDefaultDigestMethod"
+f1_keywords:
+- msopc/IOpcSigningOptions.GetDefaultDigestMethod
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSigningOptions.GetDefaultDigestMethod
+- IOpcSigningOptions.GetDefaultDigestMethod
 targetos: Windows
 req.typenames: 
 req.redist: 

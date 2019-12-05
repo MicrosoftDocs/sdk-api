@@ -1,19 +1,17 @@
 ---
 UID: NF:recapis.GetRecoAttributes
 title: GetRecoAttributes function (recapis.h)
-
 description: Retrieves the attributes of the recognizer.
 old-location: tablet\getrecoattributes.htm
 tech.root: tablet
 ms.assetid: 45683203-1886-4542-8b66-84861862cb6a
-
 ms.date: 12/05/2018
 ms.keywords: 45683203-1886-4542-8b66-84861862cb6a, GetRecoAttributes, GetRecoAttributes function [Tablet PC], recapis/GetRecoAttributes, tablet.getrecoattributes
 ms.topic: function
-f1_keywords: 
- - "recapis/GetRecoAttributes"
+f1_keywords:
+- recapis/GetRecoAttributes
 dev_langs:
- - c++
+- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - recapis.h
+- recapis.h
 api_name:
- - GetRecoAttributes
+- GetRecoAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

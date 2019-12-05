@@ -1,19 +1,17 @@
 ---
 UID: NS:ddpbackup._DEDUP_CONTAINER_EXTENT
 title: DEDUP_CONTAINER_EXTENT (ddpbackup.h)
-
 description: A logical container file may be stored in a single segment or multiple segments in the backup store.
 old-location: dedup\dedup_container_extent.htm
 tech.root: dedup
 ms.assetid: D7CEC0C4-0472-467C-87F1-1496C9F08296
-
 ms.date: 12/05/2018
 ms.keywords: DEDUP_CONTAINER_EXTENT, DEDUP_CONTAINER_EXTENT structure [Data Deduplication API], PDEDUP_CONTAINER_EXTENT, PDEDUP_CONTAINER_EXTENT structure pointer [Data Deduplication API], ddpbackup/DEDUP_CONTAINER_EXTENT, ddpbackup/PDEDUP_CONTAINER_EXTENT, dedup.dedup_container_extent
 ms.topic: struct
-f1_keywords: 
- - "ddpbackup/DEDUP_CONTAINER_EXTENT"
+f1_keywords:
+- ddpbackup/DEDUP_CONTAINER_EXTENT
 dev_langs:
- - c++
+- c++
 req.header: ddpbackup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DdpBackup.h
+- DdpBackup.h
 api_name:
- - DEDUP_CONTAINER_EXTENT
+- DEDUP_CONTAINER_EXTENT
 targetos: Windows
 req.typenames: DEDUP_CONTAINER_EXTENT
 req.redist: 

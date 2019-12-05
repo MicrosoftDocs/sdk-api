@@ -1,19 +1,17 @@
 ---
 UID: NS:ntsecpkg._SECPKG_NEGO2_INFO
 title: SECPKG_NEGO2_INFO (ntsecpkg.h)
-
 description: Contains extended package information used for NEGO2 negotiations.
 old-location: security\secpkg_nego2_info.htm
 tech.root: SecAuthN
 ms.assetid: 8B093B74-DBF2-4DBD-9FDC-72FD6CC3CCA6
-
 ms.date: 12/05/2018
-ms.keywords: "*PSECPKG_NEGO2_INFO, PSECPKG_NEGO2_INFO, PSECPKG_NEGO2_INFO structure pointer [Security], SECPKG_NEGO2_INFO, SECPKG_NEGO2_INFO structure [Security], ntsecpkg/PSECPKG_NEGO2_INFO, ntsecpkg/SECPKG_NEGO2_INFO, security.secpkg_nego2_info"
+ms.keywords: '*PSECPKG_NEGO2_INFO, PSECPKG_NEGO2_INFO, PSECPKG_NEGO2_INFO structure pointer [Security], SECPKG_NEGO2_INFO, SECPKG_NEGO2_INFO structure [Security], ntsecpkg/PSECPKG_NEGO2_INFO, ntsecpkg/SECPKG_NEGO2_INFO, security.secpkg_nego2_info'
 ms.topic: struct
-f1_keywords: 
- - "ntsecpkg/SECPKG_NEGO2_INFO"
+f1_keywords:
+- ntsecpkg/SECPKG_NEGO2_INFO
 dev_langs:
- - c++
+- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SECPKG_NEGO2_INFO
+- SECPKG_NEGO2_INFO
 targetos: Windows
 req.typenames: SECPKG_NEGO2_INFO, *PSECPKG_NEGO2_INFO
 req.redist: 

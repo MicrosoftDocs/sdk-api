@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet.GetFontCount
 title: IDWriteFontSet::GetFontCount (dwrite_3.h)
-
 description: Get the number of total fonts in the set.
 old-location: directwrite\idwritefontset_getfontcount.htm
 tech.root: DirectWrite
 ms.assetid: 15231d40-9de2-54e4-f4ad-0f1ef9b35c47
-
 ms.date: 12/05/2018
 ms.keywords: GetFontCount, GetFontCount method [Direct Write], GetFontCount method [Direct Write],IDWriteFontSet interface, IDWriteFontSet interface [Direct Write],GetFontCount method, IDWriteFontSet.GetFontCount, IDWriteFontSet::GetFontCount, directwrite.idwritefontset_getfontcount, dwrite_3/IDWriteFontSet::GetFontCount
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontSet.GetFontCount"
+f1_keywords:
+- dwrite_3/IDWriteFontSet.GetFontCount
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontSet.GetFontCount
+- IDWriteFontSet.GetFontCount
 targetos: Windows
 req.typenames: 
 req.redist: 

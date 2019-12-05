@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.AddText
 title: IFileDialogCustomize::AddText (shobjidl_core.h)
-
 description: Adds text content to the dialog.
 old-location: shell\IFileDialogCustomize_AddText.htm
 tech.root: shell
 ms.assetid: efea2fdb-4006-4567-b53c-faa891d18c7e
-
 ms.date: 12/05/2018
 ms.keywords: AddText, AddText method [Windows Shell], AddText method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddText method, IFileDialogCustomize.AddText, IFileDialogCustomize::AddText, shell.IFileDialogCustomize_AddText, shell_IFileDialogCustomize_AddText, shobjidl_core/IFileDialogCustomize::AddText
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialogCustomize.AddText"
+f1_keywords:
+- shobjidl_core/IFileDialogCustomize.AddText
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialogCustomize.AddText
+- IFileDialogCustomize.AddText
 targetos: Windows
 req.typenames: 
 req.redist: 

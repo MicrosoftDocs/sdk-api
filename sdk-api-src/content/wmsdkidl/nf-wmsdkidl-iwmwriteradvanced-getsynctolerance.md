@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.GetSyncTolerance
 title: IWMWriterAdvanced::GetSyncTolerance (wmsdkidl.h)
-
 description: The GetSyncTolerance method retrieves the amount of time during which the inputs can fall out of synchronization before the samples are discarded.
 old-location: wmformat\iwmwriteradvanced_getsynctolerance.htm
 tech.root: wmformat
 ms.assetid: f62d3405-3125-4df6-bd06-fa70358560ad
-
 ms.date: 12/05/2018
 ms.keywords: GetSyncTolerance, GetSyncTolerance method [windows Media Format], GetSyncTolerance method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],GetSyncTolerance method, IWMWriterAdvanced.GetSyncTolerance, IWMWriterAdvanced::GetSyncTolerance, IWMWriterAdvancedGetSyncTolerance, wmformat.iwmwriteradvanced_getsynctolerance, wmsdkidl/IWMWriterAdvanced::GetSyncTolerance
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterAdvanced.GetSyncTolerance"
+f1_keywords:
+- wmsdkidl/IWMWriterAdvanced.GetSyncTolerance
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterAdvanced.GetSyncTolerance
+- IWMWriterAdvanced.GetSyncTolerance
 targetos: Windows
 req.typenames: 
 req.redist: 

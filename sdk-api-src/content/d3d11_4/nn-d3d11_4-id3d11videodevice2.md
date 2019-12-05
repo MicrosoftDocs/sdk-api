@@ -6,9 +6,9 @@ ms.date: 4/26/2019
 ms.keywords: ID3D11VideoDevice2
 ms.topic: language-reference
 f1_keywords:
- - ID3D11VideoDevice2
+- ID3D11VideoDevice2
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface
@@ -24,13 +24,13 @@ req.target-min-winversvr:
 req.target-type: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - d3d11_4.h
+- d3d11_4.h
 api_name:
- - ID3D11VideoDevice2
+- ID3D11VideoDevice2
 ---
 
 ## -inheritance

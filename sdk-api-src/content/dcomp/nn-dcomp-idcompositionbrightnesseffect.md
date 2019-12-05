@@ -1,19 +1,17 @@
 ---
 UID: NN:dcomp.IDCompositionBrightnessEffect
 title: IDCompositionBrightnessEffect (dcomp.h)
-
 description: The brightness effect controls the brightness of the image.
 old-location: directcomp\idcompositionbrightnesseffect.htm
 tech.root: directcomp
 ms.assetid: 22503D7B-A359-4877-A437-6A97D8835BC7
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionBrightnessEffect, IDCompositionBrightnessEffect interface [DirectComposition], IDCompositionBrightnessEffect interface [DirectComposition],described, dcomp/IDCompositionBrightnessEffect, directcomp.idcompositionbrightnesseffect
 ms.topic: interface
-f1_keywords: 
- - "dcomp/IDCompositionBrightnessEffect"
+f1_keywords:
+- dcomp/IDCompositionBrightnessEffect
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionBrightnessEffect
+- IDCompositionBrightnessEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

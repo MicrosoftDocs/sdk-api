@@ -1,19 +1,17 @@
 ---
 UID: NF:winml.IWinMLRuntime.EvaluateModel
 title: IWinMLRuntime::EvaluateModel (winml.h)
-
 description: Evaluates a WinML model.
 old-location: machinelearning\iwinmlruntime_evaluatemodel.htm
 tech.root: MachineLearning
 ms.assetid: F96A1CCD-02BD-4E93-830D-9975A03658E2
-
 ms.date: 12/05/2018
 ms.keywords: EvaluateModel, EvaluateModel method, EvaluateModel method,IWinMLRuntime interface, IWinMLRuntime interface,EvaluateModel method, IWinMLRuntime.EvaluateModel, IWinMLRuntime::EvaluateModel, MachineLearning.iwinmlruntime_evaluatemodel, winml/IWinMLRuntime::EvaluateModel
 ms.topic: method
-f1_keywords: 
- - "winml/IWinMLRuntime.EvaluateModel"
+f1_keywords:
+- winml/IWinMLRuntime.EvaluateModel
 dev_langs:
- - c++
+- c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winml.lib
 req.dll: Winml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winml.dll
+- winml.dll
 api_name:
- - IWinMLRuntime.EvaluateModel
+- IWinMLRuntime.EvaluateModel
 targetos: Windows
 req.typenames: 
 req.redist: 

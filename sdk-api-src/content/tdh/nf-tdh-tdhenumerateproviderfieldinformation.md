@@ -1,19 +1,17 @@
 ---
 UID: NF:tdh.TdhEnumerateProviderFieldInformation
 title: TdhEnumerateProviderFieldInformation function (tdh.h)
-
 description: Retrieves the specified field metadata for a given provider.
 old-location: etw\tdhenumerateproviderfieldinformation_func.htm
 tech.root: ETW
 ms.assetid: ab34a433-b641-4408-81d5-c93609204d24
-
 ms.date: 12/05/2018
 ms.keywords: TdhEnumerateProviderFieldInformation, TdhEnumerateProviderFieldInformation function [ETW], etw.tdhenumerateproviderfieldinformation_func, tdh.tdhenumerateproviderfieldinformation_func, tdh/TdhEnumerateProviderFieldInformation
 ms.topic: function
 f1_keywords:
 - tdh/TdhEnumerateProviderFieldInformation
 dev_langs:
- - c++
+- c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

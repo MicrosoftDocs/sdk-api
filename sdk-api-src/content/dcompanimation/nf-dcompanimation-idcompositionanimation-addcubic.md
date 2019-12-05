@@ -1,19 +1,17 @@
 ---
 UID: NF:dcompanimation.IDCompositionAnimation.AddCubic
 title: IDCompositionAnimation::AddCubic (dcompanimation.h)
-
 description: Adds a cubic polynomial segment to the animation function.
 old-location: directcomp\idcompositionanimation_addcubic.htm
 tech.root: directcomp
 ms.assetid: d80ab2db-0d88-46ed-a40d-4408bf315a85
-
 ms.date: 12/05/2018
 ms.keywords: AddCubic, AddCubic method [DirectComposition], AddCubic method [DirectComposition],IDCompositionAnimation interface, IDCompositionAnimation interface [DirectComposition],AddCubic method, IDCompositionAnimation.AddCubic, IDCompositionAnimation::AddCubic, dcompanimation/IDCompositionAnimation::AddCubic, directcomp.idcompositionanimation_addcubic
 ms.topic: method
-f1_keywords: 
- - "dcompanimation/IDCompositionAnimation.AddCubic"
+f1_keywords:
+- dcompanimation/IDCompositionAnimation.AddCubic
 dev_langs:
- - c++
+- c++
 req.header: dcompanimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionAnimation.AddCubic
+- IDCompositionAnimation.AddCubic
 targetos: Windows
 req.typenames: 
 req.redist: 

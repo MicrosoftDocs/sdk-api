@@ -1,19 +1,17 @@
 ---
 UID: NN:netfw.INetFwRemoteAdminSettings
 title: INetFwRemoteAdminSettings (netfw.h)
-
 description: The INetFwRemoteAdminSettings interface provides access to the settings that control remote administration.
 old-location: ics\inetfwremoteadminsettings.htm
 tech.root: ics
 ms.assetid: 35f34a53-e73b-48be-ac79-9b7ab825c6ad
-
 ms.date: 12/05/2018
 ms.keywords: INetFwRemoteAdminSettings, INetFwRemoteAdminSettings interface [ICS/ICF], INetFwRemoteAdminSettings interface [ICS/ICF],described, ics.inetfwremoteadminsettings, netfw/INetFwRemoteAdminSettings
 ms.topic: interface
-f1_keywords: 
- - "netfw/INetFwRemoteAdminSettings"
+f1_keywords:
+- netfw/INetFwRemoteAdminSettings
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwRemoteAdminSettings
+- INetFwRemoteAdminSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

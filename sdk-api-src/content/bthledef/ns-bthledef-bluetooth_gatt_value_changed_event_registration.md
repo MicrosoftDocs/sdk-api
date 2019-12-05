@@ -1,19 +1,17 @@
 ---
 UID: NS:bthledef._BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION
 title: BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION (bthledef.h)
-
 description: The BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION structure describes one or more characteristics that have changed.
 old-location: bltooth\bluetooth_gatt_value_changed_event_registration.htm
 tech.root: bltooth
 ms.assetid: 97EB32A7-87BF-4DBA-9480-4BB7DFCBFB23
-
 ms.date: 12/05/2018
 ms.keywords: '*PBLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION, BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION, BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION structure [Bluetooth Devices], PBLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION, PBLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION structure pointer [Bluetooth Devices], bltooth.bluetooth_gatt_value_changed_event_registration, bthledef/BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION, bthledef/PBLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION'
 ms.topic: struct
 f1_keywords:
 - bthledef/BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION
 dev_langs:
- - c++
+- c++
 req.header: bthledef.h
 req.include-header: BthLEDef.h
 req.target-type: Windows

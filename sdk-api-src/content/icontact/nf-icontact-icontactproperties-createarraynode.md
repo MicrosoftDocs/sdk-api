@@ -1,19 +1,17 @@
 ---
 UID: NF:icontact.IContactProperties.CreateArrayNode
 title: IContactProperties::CreateArrayNode (icontact.h)
-
 description: Creates a new array node in a multi-value property.
 old-location: wincontacts\_wincontacts_IContactProperties_CreateArrayNode.htm
 tech.root: wincontacts
 ms.assetid: 422b9991-c8ac-4e8b-9432-1ccba02f7cfd
-
 ms.date: 12/05/2018
 ms.keywords: CreateArrayNode, CreateArrayNode method [Windows Contacts], CreateArrayNode method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],CreateArrayNode method, IContactProperties.CreateArrayNode, IContactProperties::CreateArrayNode, _wincontacts_IContactProperties_CreateArrayNode, icontact/IContactProperties::CreateArrayNode, wincontacts._wincontacts_IContactProperties_CreateArrayNode
 ms.topic: method
-f1_keywords: 
- - "icontact/IContactProperties.CreateArrayNode"
+f1_keywords:
+- icontact/IContactProperties.CreateArrayNode
 dev_langs:
- - c++
+- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IContactProperties.CreateArrayNode
+- IContactProperties.CreateArrayNode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.CreateColorContextFromFilename
 title: ID2D1EffectContext::CreateColorContextFromFilename (d2d1effectauthor.h)
-
 description: Creates a color context by loading it from the specified filename. The profile bytes are the contents of the file specified by filename.
 old-location: direct2d\id2d1contextinternal_createcolorcontextfromfilename.htm
 tech.root: Direct2D
 ms.assetid: 84B12901-48B1-4FA9-8C81-1CEA70CF2824
-
 ms.date: 12/05/2018
 ms.keywords: CreateColorContextFromFilename, CreateColorContextFromFilename method [Direct2D], CreateColorContextFromFilename method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],CreateColorContextFromFilename method, ID2D1EffectContext.CreateColorContextFromFilename, ID2D1EffectContext::CreateColorContextFromFilename, d2d1effectauthor/ID2D1EffectContext::CreateColorContextFromFilename, direct2d.id2d1contextinternal_createcolorcontextfromfilename
 ms.topic: method
-f1_keywords: 
- - "d2d1effectauthor/ID2D1EffectContext.CreateColorContextFromFilename"
+f1_keywords:
+- d2d1effectauthor/ID2D1EffectContext.CreateColorContextFromFilename
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.dll
+- d2d1.dll
 api_name:
- - ID2D1EffectContext.CreateColorContextFromFilename
+- ID2D1EffectContext.CreateColorContextFromFilename
 targetos: Windows
 req.typenames: 
 req.redist: 

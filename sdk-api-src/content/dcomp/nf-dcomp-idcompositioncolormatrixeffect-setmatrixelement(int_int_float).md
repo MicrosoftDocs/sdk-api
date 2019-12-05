@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionColorMatrixEffect.SetMatrixElement(int,int,float)
 title: IDCompositionColorMatrixEffect::SetMatrixElement(int,int,float) (dcomp.h)
-
 description: Sets an element of the color matrix.
 old-location: directcomp\idcompositioncolormatrixeffect_setmatrixelement.htm
 tech.root: directcomp
 ms.assetid: 4F78FA9F-8115-4D60-B119-F60968AAB1D4
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionColorMatrixEffect interface [DirectComposition],SetMatrixElement method, IDCompositionColorMatrixEffect.SetMatrixElement, IDCompositionColorMatrixEffect.SetMatrixElement(int,int,float), IDCompositionColorMatrixEffect::SetMatrixElement, IDCompositionColorMatrixEffect::SetMatrixElement(int,int,float), SetMatrixElement, SetMatrixElement method [DirectComposition], SetMatrixElement method [DirectComposition],IDCompositionColorMatrixEffect interface, dcomp/IDCompositionColorMatrixEffect::SetMatrixElement, directcomp.idcompositioncolormatrixeffect_setmatrixelement
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionColorMatrixEffect.SetMatrixElement"
+f1_keywords:
+- dcomp/IDCompositionColorMatrixEffect.SetMatrixElement
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionColorMatrixEffect.SetMatrixElement
+- IDCompositionColorMatrixEffect.SetMatrixElement
 targetos: Windows
 req.typenames: 
 req.redist: 

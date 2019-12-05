@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetKeyState
 title: GetKeyState function (winuser.h)
-
 description: Retrieves the status of the specified virtual key. The status specifies whether the key is up, down, or toggled (on, off&#8212;alternating each time the key is pressed).
 old-location: inputdev\getkeystate.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getkeystate.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetKeyState, GetKeyState function [Keyboard and Mouse Input], _win32_GetKeyState, _win32_getkeystate_cpp, inputdev.getkeystate, winui._win32_getkeystate, winuser/GetKeyState
 ms.topic: function
-f1_keywords: 
- - "winuser/GetKeyState"
+f1_keywords:
+- winuser/GetKeyState
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
- - Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
- - api-ms-win-ntuser-ie-keyboard-l1-1-0.dll
- - ie_stubs.dll
- - ext-ms-win-ntuser-keyboard-l1-1-2.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
+- Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
+- api-ms-win-ntuser-ie-keyboard-l1-1-0.dll
+- ie_stubs.dll
+- ext-ms-win-ntuser-keyboard-l1-1-2.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
 api_name:
- - GetKeyState
+- GetKeyState
 targetos: Windows
 req.typenames: 
 req.redist: 

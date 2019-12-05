@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellBrowser.SendControlMsg
 title: IShellBrowser::SendControlMsg (shobjidl_core.h)
-
 description: Sends control messages to either the toolbar or the status bar in a Windows Explorer window.
 old-location: shell\IShellBrowser_SendControlMsg.htm
 tech.root: shell
 ms.assetid: 4494870b-45a8-478a-807a-7ed3674f69f3
-
 ms.date: 12/05/2018
 ms.keywords: IShellBrowser interface [Windows Shell],SendControlMsg method, IShellBrowser.SendControlMsg, IShellBrowser::SendControlMsg, SendControlMsg, SendControlMsg method [Windows Shell], SendControlMsg method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_SendControlMsg, shell.IShellBrowser_SendControlMsg, shobjidl_core/IShellBrowser::SendControlMsg
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellBrowser.SendControlMsg"
+f1_keywords:
+- shobjidl_core/IShellBrowser.SendControlMsg
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellBrowser.SendControlMsg
+- IShellBrowser.SendControlMsg
 targetos: Windows
 req.typenames: 
 req.redist: 

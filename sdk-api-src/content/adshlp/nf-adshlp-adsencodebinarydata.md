@@ -1,19 +1,17 @@
 ---
 UID: NF:adshlp.ADsEncodeBinaryData
 title: ADsEncodeBinaryData function (adshlp.h)
-
 description: The ADsEncodeBinaryData function converts a binary large object (BLOB) to the Unicode format suitable to be embedded in a search filter.
 old-location: adsi\adsencodebinarydata.htm
 tech.root: adsi
 ms.assetid: b7bdf16c-7533-4db6-9bc4-06bc57d864ec
-
 ms.date: 12/05/2018
 ms.keywords: ADsEncodeBinaryData, ADsEncodeBinaryData function [ADSI], _ds_adsencodebinarydata, adshlp/ADsEncodeBinaryData, adsi.adsencodebinarydata
 ms.topic: function
-f1_keywords: 
- - "adshlp/ADsEncodeBinaryData"
+f1_keywords:
+- adshlp/ADsEncodeBinaryData
 dev_langs:
- - c++
+- c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Activeds.lib
 req.dll: Activeds.dll; AdsLdpc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Activeds.dll
- - AdsLdpc.dll
+- Activeds.dll
+- AdsLdpc.dll
 api_name:
- - ADsEncodeBinaryData
+- ADsEncodeBinaryData
 targetos: Windows
 req.typenames: 
 req.redist: 

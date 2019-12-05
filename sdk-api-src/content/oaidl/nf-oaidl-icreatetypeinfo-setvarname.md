@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetVarName
 title: ICreateTypeInfo::SetVarName (oaidl.h)
-
 description: Sets the name of a variable.
 old-location: automat\icreatetypeinfo_setvarname.htm
 tech.root: automat
 ms.assetid: 9f51fc2a-74cc-4aab-89b7-0237c14ff7f5
-
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetVarName method, ICreateTypeInfo.SetVarName, ICreateTypeInfo::SetVarName, SetVarName, SetVarName method [Automation], SetVarName method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetVarName, automat.icreatetypeinfo_setvarname, oaidl/ICreateTypeInfo::SetVarName
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateTypeInfo.SetVarName"
+f1_keywords:
+- oaidl/ICreateTypeInfo.SetVarName
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateTypeInfo.SetVarName
+- ICreateTypeInfo.SetVarName
 targetos: Windows
 req.typenames: 
 req.redist: 

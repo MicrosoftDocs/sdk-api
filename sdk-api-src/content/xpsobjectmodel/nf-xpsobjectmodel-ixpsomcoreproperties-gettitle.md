@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetTitle
 title: IXpsOMCoreProperties::GetTitle (xpsobjectmodel.h)
-
 description: Gets the title property.
 old-location: xps\ixpsomcoreproperties_gettitle.htm
 tech.root: printdocs
 ms.assetid: 32551dd2-2d6e-4aaa-864b-4c922a90fc27
-
 ms.date: 12/05/2018
 ms.keywords: GetTitle, GetTitle method [XPS Documents and Packaging], GetTitle method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetTitle method, IXpsOMCoreProperties.GetTitle, IXpsOMCoreProperties::GetTitle, xps.ixpsomcoreproperties_gettitle, xpsobjectmodel/IXpsOMCoreProperties::GetTitle
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMCoreProperties.GetTitle"
+f1_keywords:
+- xpsobjectmodel/IXpsOMCoreProperties.GetTitle
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMCoreProperties.GetTitle
+- IXpsOMCoreProperties.GetTitle
 targetos: Windows
 req.typenames: 
 req.redist: 

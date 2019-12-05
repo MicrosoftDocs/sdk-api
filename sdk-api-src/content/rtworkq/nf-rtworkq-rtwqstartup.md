@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.RtwqStartup
 title: RtwqStartup function (rtworkq.h)
-
 description: Initializes the platform.
 old-location: base\rtwqstartup.htm
 tech.root: ProcThread
 ms.assetid: 101e73ec-34ec-49af-999d-5410f46ff319
-
 ms.date: 12/05/2018
 ms.keywords: RtwqStartup, RtwqStartup function, base.rtwqstartup, rtworkq/RtwqStartup
 ms.topic: function
-f1_keywords: 
- - "rtworkq/RtwqStartup"
+f1_keywords:
+- rtworkq/RtwqStartup
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - RtwqStartup
+- RtwqStartup
 targetos: Windows
 req.typenames: 
 req.redist: 

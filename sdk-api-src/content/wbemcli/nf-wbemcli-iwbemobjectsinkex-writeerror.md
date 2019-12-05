@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemObjectSinkEx.WriteError
 title: IWbemObjectSinkEx::WriteError (wbemcli.h)
-
 description: TBD
 old-location: wmi\iwbemobjectsinkex_writeerror.htm
 tech.root: WmiSdk
 ms.assetid: 908b46de-a64e-4db0-957f-6aeb4870ad46
-
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectSinkEx interface [Windows Management Instrumentation],WriteError method, IWbemObjectSinkEx.WriteError, IWbemObjectSinkEx::WriteError, WriteError, WriteError method [Windows Management Instrumentation], WriteError method [Windows Management Instrumentation],IWbemObjectSinkEx interface, wbemcli/IWbemObjectSinkEx::WriteError, wmi.iwbemobjectsinkex_writeerror
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemObjectSinkEx.WriteError"
+f1_keywords:
+- wbemcli/IWbemObjectSinkEx.WriteError
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fastprox.dll
+- Fastprox.dll
 api_name:
- - IWbemObjectSinkEx.WriteError
+- IWbemObjectSinkEx.WriteError
 targetos: Windows
 req.typenames: 
 req.redist: 

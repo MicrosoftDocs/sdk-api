@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.DeleteObject
 title: DeleteObject function (wingdi.h)
-
 description: The DeleteObject function deletes a logical pen, brush, font, bitmap, region, or palette, freeing all system resources associated with the object. After the object is deleted, the specified handle is no longer valid.
 old-location: gdi\deleteobject.htm
 tech.root: gdi
 ms.assetid: cc679af0-6839-4c83-9c42-39d7ededda40
-
 ms.date: 12/05/2018
 ms.keywords: DeleteObject, DeleteObject function [Windows GDI], DeleteObjectW, _win32_DeleteObject, gdi.deleteobject, wingdi/DeleteObject, wingdi/DeleteObjectW
 ms.topic: function
-f1_keywords: 
- - "wingdi/DeleteObject"
+f1_keywords:
+- wingdi/DeleteObject
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-RTCore-GDI-object-l1-1-0.dll
- - api-ms-win-gdi-ie-rgn-l1-1-0.dll
- - ie_shims.dll
- - ext-ms-win-gdi-dc-l1-1-0.dll
+- gdi32.dll
+- Ext-MS-Win-RTCore-GDI-object-l1-1-0.dll
+- api-ms-win-gdi-ie-rgn-l1-1-0.dll
+- ie_shims.dll
+- ext-ms-win-gdi-dc-l1-1-0.dll
 api_name:
- - DeleteObject
- - DeleteObjectW
+- DeleteObject
+- DeleteObjectW
 targetos: Windows
 req.typenames: 
 req.redist: 

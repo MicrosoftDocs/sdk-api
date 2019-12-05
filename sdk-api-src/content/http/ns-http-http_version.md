@@ -1,19 +1,17 @@
 ---
 UID: NS:http._HTTP_VERSION
 title: HTTP_VERSION (http.h)
-
 description: Defines a version of the HTTP protocol that a request requires or a response provides.
 old-location: http\http_version.htm
 tech.root: http
 ms.assetid: 8f97410c-27b5-4225-849e-ee55e4c5f762
-
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_VERSION, HTTP_VERSION, HTTP_VERSION structure [HTTP], PHTTP_VERSION, PHTTP_VERSION structure pointer [HTTP], _http_http_version, http.http_version, http/HTTP_VERSION, http/PHTTP_VERSION'
 ms.topic: struct
 f1_keywords:
 - http/HTTP_VERSION
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

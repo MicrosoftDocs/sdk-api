@@ -1,19 +1,17 @@
 ---
 UID: NF:mmiscapi.mmioFlush
 title: mmioFlush function (mmiscapi.h)
-
 description: The mmioFlush function writes the I/O buffer of a file to disk if the buffer has been written to.
 old-location: multimedia\mmioflush.htm
 tech.root: Multimedia
 ms.assetid: 78c2740b-c4fa-4dad-ae4f-0d5b41557669
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_mmioFlush, mmioFlush, mmioFlush function [Windows Multimedia], mmsystem/mmioFlush, multimedia.mmioflush"
+ms.keywords: _win32_mmioFlush, mmioFlush, mmioFlush function [Windows Multimedia], mmsystem/mmioFlush, multimedia.mmioflush
 ms.topic: function
-f1_keywords: 
- - "mmiscapi/mmioFlush"
+f1_keywords:
+- mmiscapi/mmioFlush
 dev_langs:
- - c++
+- c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-misc-l1-1-0.dll
- - winmmbase.dll
- - API-MS-Win-mm-misc-l1-1-1.dll
+- Winmm.dll
+- API-MS-Win-mm-misc-l1-1-0.dll
+- winmmbase.dll
+- API-MS-Win-mm-misc-l1-1-1.dll
 api_name:
- - mmioFlush
+- mmioFlush
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenTemplateManager.ExportTemplates
 title: IFsrmFileScreenTemplateManager::ExportTemplates (fsrmscreen.h)
-
 description: Exports the templates as an XML string.
 old-location: fsrm\ifsrmfilescreentemplatemanager_exporttemplates.htm
 tech.root: fsrm
 ms.assetid: 27a0141d-0906-400e-bd5f-81da67a3c501
-
 ms.date: 12/05/2018
 ms.keywords: ExportTemplates, ExportTemplates method [File Server Resource Manager], ExportTemplates method [File Server Resource Manager],FsrmFileScreenTemplateManager class, ExportTemplates method [File Server Resource Manager],IFsrmFileScreenTemplateManager interface, FsrmFileScreenTemplateManager class [File Server Resource Manager],ExportTemplates method, IFsrmFileScreenTemplateManager interface [File Server Resource Manager],ExportTemplates method, IFsrmFileScreenTemplateManager.ExportTemplates, IFsrmFileScreenTemplateManager::ExportTemplates, fs.ifsrmfilescreentemplatemanager_exporttemplates, fsrm.ifsrmfilescreentemplatemanager_exporttemplates, fsrmscreen/IFsrmFileScreenTemplateManager::ExportTemplates
 ms.topic: method
-f1_keywords: 
- - "fsrmscreen/IFsrmFileScreenTemplateManager.ExportTemplates"
+f1_keywords:
+- fsrmscreen/IFsrmFileScreenTemplateManager.ExportTemplates
 dev_langs:
- - c++
+- c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileScreenTemplateManager.ExportTemplates
- - FsrmFileScreenTemplateManager.ExportTemplates
+- IFsrmFileScreenTemplateManager.ExportTemplates
+- FsrmFileScreenTemplateManager.ExportTemplates
 targetos: Windows
 req.typenames: 
 req.redist: 

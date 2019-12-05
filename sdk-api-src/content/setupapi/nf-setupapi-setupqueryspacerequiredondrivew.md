@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupQuerySpaceRequiredOnDriveW
 title: SetupQuerySpaceRequiredOnDriveW function (setupapi.h)
-
 description: The SetupQuerySpaceRequiredOnDrive function examines a disk space list to determine the space that is required to perform all the file operations listed for a specific drive.
 old-location: setup\setupqueryspacerequiredondrive.htm
 tech.root: SetupApi
 ms.assetid: 529e04e2-671a-4aad-bb1c-2b24cf2e5cd1
-
 ms.date: 12/05/2018
 ms.keywords: SetupQuerySpaceRequiredOnDrive, SetupQuerySpaceRequiredOnDrive function [Setup API], SetupQuerySpaceRequiredOnDriveA, SetupQuerySpaceRequiredOnDriveW, _setupapi_setupqueryspacerequiredondrive, setup.setupqueryspacerequiredondrive, setupapi/SetupQuerySpaceRequiredOnDrive, setupapi/SetupQuerySpaceRequiredOnDriveA, setupapi/SetupQuerySpaceRequiredOnDriveW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupQuerySpaceRequiredOnDrive"
+f1_keywords:
+- setupapi/SetupQuerySpaceRequiredOnDrive
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupQuerySpaceRequiredOnDrive
- - SetupQuerySpaceRequiredOnDriveA
- - SetupQuerySpaceRequiredOnDriveW
+- SetupQuerySpaceRequiredOnDrive
+- SetupQuerySpaceRequiredOnDriveA
+- SetupQuerySpaceRequiredOnDriveW
 targetos: Windows
 req.typenames: 
 req.redist: 

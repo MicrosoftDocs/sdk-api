@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRVideoStreamControl.GetColorKey
 title: IVMRVideoStreamControl::GetColorKey (strmif.h)
-
 description: The GetColorKey method retrieves the source color key currently set for this stream.
 old-location: dshow\ivmrvideostreamcontrol_getcolorkey.htm
 tech.root: DirectShow
 ms.assetid: 2075ac12-c799-4716-994f-46ff6928e670
-
 ms.date: 12/05/2018
 ms.keywords: GetColorKey, GetColorKey method [DirectShow], GetColorKey method [DirectShow],IVMRVideoStreamControl interface, IVMRVideoStreamControl interface [DirectShow],GetColorKey method, IVMRVideoStreamControl.GetColorKey, IVMRVideoStreamControl::GetColorKey, IVMRVideoStreamControlGetColorKey, dshow.ivmrvideostreamcontrol_getcolorkey, strmif/IVMRVideoStreamControl::GetColorKey
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRVideoStreamControl.GetColorKey"
+f1_keywords:
+- strmif/IVMRVideoStreamControl.GetColorKey
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRVideoStreamControl.GetColorKey
+- IVMRVideoStreamControl.GetColorKey
 targetos: Windows
 req.typenames: 
 req.redist: 

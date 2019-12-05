@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetMenuStringA
 title: GetMenuStringA function (winuser.h)
-
 description: Copies the text string of the specified menu item into the specified buffer.
 old-location: menurc\getmenustring.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenustring.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetMenuString, GetMenuString function [Menus and Other Resources], GetMenuStringA, GetMenuStringW, MF_BYCOMMAND, MF_BYPOSITION, _win32_GetMenuString, _win32_getmenustring_cpp, menurc.getmenustring, winui._win32_getmenustring, winuser/GetMenuString, winuser/GetMenuStringA, winuser/GetMenuStringW
 ms.topic: function
-f1_keywords: 
- - "winuser/GetMenuString"
+f1_keywords:
+- winuser/GetMenuString
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Menu-l1-1-0.dll
- - Ext-MS-Win-NTUser-Menu-l1-1-1.dll
- - ext-ms-win-ntuser-menu-l1-1-2.dll
- - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Menu-l1-1-0.dll
+- Ext-MS-Win-NTUser-Menu-l1-1-1.dll
+- ext-ms-win-ntuser-menu-l1-1-2.dll
+- Ext-MS-Win-NTUser-Menu-L1-1-3.dll
 api_name:
- - GetMenuString
- - GetMenuStringA
- - GetMenuStringW
+- GetMenuString
+- GetMenuStringA
+- GetMenuStringW
 targetos: Windows
 req.typenames: 
 req.redist: 

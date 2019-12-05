@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMStreamPrioritization.SetPriorityRecords
 title: IWMStreamPrioritization::SetPriorityRecords (wmsdkidl.h)
-
 description: The SetPriorityRecords method assigns the members of an array as the stream priority list in the stream prioritization object.
 old-location: wmformat\iwmstreamprioritization_setpriorityrecords.htm
 tech.root: wmformat
 ms.assetid: 9bd42132-b391-4941-87db-5ce2254e19cf
-
 ms.date: 12/05/2018
 ms.keywords: IWMStreamPrioritization interface [windows Media Format],SetPriorityRecords method, IWMStreamPrioritization.SetPriorityRecords, IWMStreamPrioritization::SetPriorityRecords, IWMStreamPrioritizationSetPriorityRecords, SetPriorityRecords, SetPriorityRecords method [windows Media Format], SetPriorityRecords method [windows Media Format],IWMStreamPrioritization interface, wmformat.iwmstreamprioritization_setpriorityrecords, wmsdkidl/IWMStreamPrioritization::SetPriorityRecords
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMStreamPrioritization.SetPriorityRecords"
+f1_keywords:
+- wmsdkidl/IWMStreamPrioritization.SetPriorityRecords
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMStreamPrioritization.SetPriorityRecords
+- IWMStreamPrioritization.SetPriorityRecords
 targetos: Windows
 req.typenames: 
 req.redist: 

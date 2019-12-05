@@ -1,19 +1,17 @@
 ---
 UID: NF:bcrypt.BCryptGenerateSymmetricKey
 title: BCryptGenerateSymmetricKey function (bcrypt.h)
-
 description: Creates a key object for use with a symmetrical key encryption algorithm from a supplied key.
 old-location: security\bcryptgeneratesymmetrickey_func.htm
 tech.root: SecCNG
 ms.assetid: c55d714f-f47e-4ddf-97b9-985c0441bb2d
-
 ms.date: 12/05/2018
 ms.keywords: BCryptGenerateSymmetricKey, BCryptGenerateSymmetricKey function [Security], bcrypt/BCryptGenerateSymmetricKey, security.bcryptgeneratesymmetrickey_func
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptGenerateSymmetricKey"
+f1_keywords:
+- bcrypt/BCryptGenerateSymmetricKey
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bcrypt.dll
- - Ksecdd.sys
+- Bcrypt.dll
+- Ksecdd.sys
 api_name:
- - BCryptGenerateSymmetricKey
+- BCryptGenerateSymmetricKey
 targetos: Windows
 req.typenames: 
 req.redist: 

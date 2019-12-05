@@ -1,19 +1,17 @@
 ---
 UID: NS:ipexport._IP_INTERFACE_INFO
 title: IP_INTERFACE_INFO (ipexport.h)
-
 description: The IP_INTERFACE_INFO structure contains a list of the network interface adapters with IPv4 enabled on the local system.
 old-location: iphlp\ip_interface_info.htm
 tech.root: IpHlp
 ms.assetid: 287a4574-0a0f-4f20-932b-22bb6f40401d
-
 ms.date: 12/05/2018
-ms.keywords: "*PIP_INTERFACE_INFO, IP_INTERFACE_INFO, IP_INTERFACE_INFO structure [IP Helper], PIP_INTERFACE_INFO, PIP_INTERFACE_INFO structure pointer [IP Helper], _iphlp_ip_interface_info, ipexport/IP_INTERFACE_INFO, ipexport/PIP_INTERFACE_INFO, iphlp.ip_interface_info"
+ms.keywords: '*PIP_INTERFACE_INFO, IP_INTERFACE_INFO, IP_INTERFACE_INFO structure [IP Helper], PIP_INTERFACE_INFO, PIP_INTERFACE_INFO structure pointer [IP Helper], _iphlp_ip_interface_info, ipexport/IP_INTERFACE_INFO, ipexport/PIP_INTERFACE_INFO, iphlp.ip_interface_info'
 ms.topic: struct
-f1_keywords: 
- - "ipexport/IP_INTERFACE_INFO"
+f1_keywords:
+- ipexport/IP_INTERFACE_INFO
 dev_langs:
- - c++
+- c++
 req.header: ipexport.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipexport.h
+- Ipexport.h
 api_name:
- - IP_INTERFACE_INFO
+- IP_INTERFACE_INFO
 targetos: Windows
 req.typenames: IP_INTERFACE_INFO, *PIP_INTERFACE_INFO
 req.redist: 

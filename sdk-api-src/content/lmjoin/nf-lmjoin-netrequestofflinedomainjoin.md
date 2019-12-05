@@ -1,19 +1,17 @@
 ---
 UID: NF:lmjoin.NetRequestOfflineDomainJoin
 title: NetRequestOfflineDomainJoin function (lmjoin.h)
-
 description: Executes locally on a machine to modify a Windows operating system image mounted on a volume.
 old-location: netmgmt\netrequestofflinedomainjoin.htm
 tech.root: NetMgmt
 ms.assetid: f3f8fe00-d6f7-4d59-a4e7-6aef7f507e1a
-
 ms.date: 12/05/2018
 ms.keywords: NETSETUP_PROVISION_ONLINE_CALLER, NetRequestOfflineDomainJoin, NetRequestOfflineDomainJoin function [Network Management], lmjoin/NetRequestOfflineDomainJoin, netmgmt.netrequestofflinedomainjoin
 ms.topic: function
-f1_keywords: 
- - "lmjoin/NetRequestOfflineDomainJoin"
+f1_keywords:
+- lmjoin/NetRequestOfflineDomainJoin
 dev_langs:
- - c++
+- c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetRequestOfflineDomainJoin
+- NetRequestOfflineDomainJoin
 targetos: Windows
 req.typenames: 
 req.redist: 

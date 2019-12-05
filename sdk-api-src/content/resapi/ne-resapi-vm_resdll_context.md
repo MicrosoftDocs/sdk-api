@@ -1,19 +1,17 @@
 ---
 UID: NE:resapi.VM_RESDLL_CONTEXT
 title: VM_RESDLL_CONTEXT (resapi.h)
-
 description: Contains actions for a virtual machine to perform.
 old-location: mscs\vm_resdll_context.htm
 tech.root: MsCS
 ms.assetid: F01306D5-9D46-4489-AB38-67029EEFE6D0
-
 ms.date: 12/05/2018
-ms.keywords: "*PVM_RESDLL_CONTEXT, PVM_RESDLL_CONTEXT, PVM_RESDLL_CONTEXT enumeration pointer [Failover Cluster], VM_RESDLL_CONTEXT, VM_RESDLL_CONTEXT enumeration [Failover Cluster], VmResdllContextLiveMigration, VmResdllContextSave, VmResdllContextShutdown, VmResdllContextShutdownForce, VmResdllContextTurnOff, mscs.vm_resdll_context, resapi/PVM_RESDLL_CONTEXT, resapi/VM_RESDLL_CONTEXT, resapi/VmResdllContextLiveMigration, resapi/VmResdllContextSave, resapi/VmResdllContextShutdown, resapi/VmResdllContextShutdownForce, resapi/VmResdllContextTurnOff"
+ms.keywords: '*PVM_RESDLL_CONTEXT, PVM_RESDLL_CONTEXT, PVM_RESDLL_CONTEXT enumeration pointer [Failover Cluster], VM_RESDLL_CONTEXT, VM_RESDLL_CONTEXT enumeration [Failover Cluster], VmResdllContextLiveMigration, VmResdllContextSave, VmResdllContextShutdown, VmResdllContextShutdownForce, VmResdllContextTurnOff, mscs.vm_resdll_context, resapi/PVM_RESDLL_CONTEXT, resapi/VM_RESDLL_CONTEXT, resapi/VmResdllContextLiveMigration, resapi/VmResdllContextSave, resapi/VmResdllContextShutdown, resapi/VmResdllContextShutdownForce, resapi/VmResdllContextTurnOff'
 ms.topic: enum
-f1_keywords: 
- - "resapi/VM_RESDLL_CONTEXT"
+f1_keywords:
+- resapi/VM_RESDLL_CONTEXT
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - VM_RESDLL_CONTEXT
+- VM_RESDLL_CONTEXT
 targetos: Windows
 req.typenames: VM_RESDLL_CONTEXT, *PVM_RESDLL_CONTEXT
 req.redist: 

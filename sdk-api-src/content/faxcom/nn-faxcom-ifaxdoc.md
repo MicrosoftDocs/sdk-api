@@ -1,19 +1,17 @@
 ---
 UID: NN:faxcom.IFaxDoc
 title: IFaxDoc (faxcom.h)
-
 description: The IFaxDoc dual interface is used by a fax client application to transmit fax documents and cover pages.
 old-location: fax\_mfax_ifaxdoc.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6mub.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxDoc, IFaxDoc interface [Fax Service], IFaxDoc interface [Fax Service],described, _mfax_ifaxdoc, fax._mfax_ifaxdoc, faxcom/IFaxDoc
 ms.topic: interface
-f1_keywords: 
- - "faxcom/IFaxDoc"
+f1_keywords:
+- faxcom/IFaxDoc
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxDoc
+- IFaxDoc
 targetos: Windows
 req.typenames: 
 req.redist: 

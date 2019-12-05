@@ -1,19 +1,17 @@
 ---
 UID: NF:methodco.MethodContext.GetStatusObject
 title: MethodContext::GetStatusObject (methodco.h)
-
 description: The GetStatusObject method gets an internal pointer to IWbemClassObject information. WMI does not implement any functionality based on the pointer.
 old-location: wmi\methodcontext_getstatusobject.htm
 tech.root: WmiSdk
 ms.assetid: dc68eddb-7991-42bd-bc0e-4f5d890ca468
-
 ms.date: 12/05/2018
-ms.keywords: "?GetStatusObject@MethodContext@@QAEPAUIWbemClassObject@@XZ, GetStatusObject, GetStatusObject method [Windows Management Instrumentation], GetStatusObject method [Windows Management Instrumentation],MethodContext interface, MethodContext interface [Windows Management Instrumentation],GetStatusObject method, MethodContext.GetStatusObject, MethodContext::GetStatusObject, methodco/MethodContext::GetStatusObject, wmi.methodcontext_getstatusobject"
+ms.keywords: ?GetStatusObject@MethodContext@@QAEPAUIWbemClassObject@@XZ, GetStatusObject, GetStatusObject method [Windows Management Instrumentation], GetStatusObject method [Windows Management Instrumentation],MethodContext interface, MethodContext interface [Windows Management Instrumentation],GetStatusObject method, MethodContext.GetStatusObject, MethodContext::GetStatusObject, methodco/MethodContext::GetStatusObject, wmi.methodcontext_getstatusobject
 ms.topic: method
-f1_keywords: 
- - "methodco/MethodContext.GetStatusObject"
+f1_keywords:
+- methodco/MethodContext.GetStatusObject
 dev_langs:
- - c++
+- c++
 req.header: methodco.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - framedynos.dll
+- framedynos.dll
 api_name:
- - MethodContext.GetStatusObject
- - ?GetStatusObject@MethodContext@@QAEPAUIWbemClassObject@@XZ
+- MethodContext.GetStatusObject
+- ?GetStatusObject@MethodContext@@QAEPAUIWbemClassObject@@XZ
 targetos: Windows
 req.typenames: 
 req.redist: 

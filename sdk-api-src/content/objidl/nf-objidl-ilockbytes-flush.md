@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.ILockBytes.Flush
 title: ILockBytes::Flush (objidl.h)
-
 description: The Flush method ensures that any internal buffers maintained by the ILockBytes implementation are written out to the underlying physical storage.
 old-location: stg\ilockbytes_flush.htm
 tech.root: Stg
 ms.assetid: 9396c44f-ad76-49f4-9796-d29570466a27
-
 ms.date: 12/05/2018
 ms.keywords: Flush, Flush method [Structured Storage], Flush method [Structured Storage],ILockBytes interface, ILockBytes interface [Structured Storage],Flush method, ILockBytes.Flush, ILockBytes::Flush, _stg_ilockbytes_flush, objidl/ILockBytes::Flush, stg.ilockbytes_flush
 ms.topic: method
-f1_keywords: 
- - "objidl/ILockBytes.Flush"
+f1_keywords:
+- objidl/ILockBytes.Flush
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - ILockBytes.Flush
+- ILockBytes.Flush
 targetos: Windows
 req.typenames: 
 req.redist: 

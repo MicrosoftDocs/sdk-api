@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidStreamBufferSinkEvent2
 title: IMSVidStreamBufferSinkEvent2 (segment.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005. The IMSVidStreamBufferSinkEvent2 interface is used to receive events from the MSVidStreamBufferSink object.
 old-location: mstv\imsvidstreambuffersinkevent2.htm
 tech.root: mstv
 ms.assetid: 9e44b248-fc8a-44c1-9da6-8afb7649f6f4
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSinkEvent2, IMSVidStreamBufferSinkEvent2 interface [Microsoft TV Technologies], IMSVidStreamBufferSinkEvent2 interface [Microsoft TV Technologies],described, IMSVidStreamBufferSinkEvent2Interface, mstv.imsvidstreambuffersinkevent2, segment/IMSVidStreamBufferSinkEvent2
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidStreamBufferSinkEvent2"
+f1_keywords:
+- segment/IMSVidStreamBufferSinkEvent2
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferSinkEvent2
+- IMSVidStreamBufferSinkEvent2
 targetos: Windows
 req.typenames: 
 req.redist: 

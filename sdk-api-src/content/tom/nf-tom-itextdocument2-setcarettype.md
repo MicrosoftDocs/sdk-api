@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextDocument2.SetCaretType
 title: ITextDocument2::SetCaretType (tom.h)
-
 description: Sets the caret type.
 old-location: controls\itextdocument2_setcarettype.htm
 tech.root: Controls
 ms.assetid: 40d34482-cf07-4401-ad02-f5d1b0184976
-
 ms.date: 12/05/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SetCaretType method, ITextDocument2.SetCaretType, ITextDocument2::SetCaretType, SetCaretType, SetCaretType method [Windows Controls], SetCaretType method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_setcarettype, tom/ITextDocument2::SetCaretType, tomKoreanBlockCaret, tomNormalCaret, tomNullCaret
 ms.topic: method
-f1_keywords: 
- - "tom/ITextDocument2.SetCaretType"
+f1_keywords:
+- tom/ITextDocument2.SetCaretType
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextDocument2.SetCaretType
+- ITextDocument2.SetCaretType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_1.IDWriteTextAnalyzer1.GetScriptProperties
 title: IDWriteTextAnalyzer1::GetScriptProperties (dwrite_1.h)
-
 description: Retrieves the properties for a given script.
 old-location: directwrite\idwritetextanalyzer1_getscriptproperties.htm
 tech.root: DirectWrite
 ms.assetid: CBC1DA09-6D3D-42D8-8E77-CFDBA733C228
-
 ms.date: 12/05/2018
 ms.keywords: GetScriptProperties, GetScriptProperties method [Direct Write], GetScriptProperties method [Direct Write],IDWriteTextAnalyzer1 interface, IDWriteTextAnalyzer1 interface [Direct Write],GetScriptProperties method, IDWriteTextAnalyzer1.GetScriptProperties, IDWriteTextAnalyzer1::GetScriptProperties, directwrite.idwritetextanalyzer1_getscriptproperties, dwrite_1/IDWriteTextAnalyzer1::GetScriptProperties
 ms.topic: method
-f1_keywords: 
- - "dwrite_1/IDWriteTextAnalyzer1.GetScriptProperties"
+f1_keywords:
+- dwrite_1/IDWriteTextAnalyzer1.GetScriptProperties
 dev_langs:
- - c++
+- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite_1.lib
 req.dll: Dwrite_1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite_1.dll
+- dwrite_1.dll
 api_name:
- - IDWriteTextAnalyzer1.GetScriptProperties
+- IDWriteTextAnalyzer1.GetScriptProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

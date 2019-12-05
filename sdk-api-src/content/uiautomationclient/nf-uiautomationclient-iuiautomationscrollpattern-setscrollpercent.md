@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollPattern.SetScrollPercent
 title: IUIAutomationScrollPattern::SetScrollPercent (uiautomationclient.h)
-
 description: Sets the horizontal and vertical scroll positions as a percentage of the total content area within the UI Automation element.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_SetScrollPercent.htm
 tech.root: WinAuto
 ms.assetid: 2f31445d-6198-430a-8f31-3ff25b72581c
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationScrollPattern interface [Windows Accessibility],SetScrollPercent method, IUIAutomationScrollPattern.SetScrollPercent, IUIAutomationScrollPattern::SetScrollPercent, SetScrollPercent, SetScrollPercent method [Windows Accessibility], SetScrollPercent method [Windows Accessibility],IUIAutomationScrollPattern interface, uiauto.uiauto_IUIAutomationScrollPattern_SetScrollPercent, uiauto_IUIAutomationScrollPattern_SetScrollPercent, uiautomationclient/IUIAutomationScrollPattern::SetScrollPercent, winauto.uiauto_IUIAutomationScrollPattern_SetScrollPercent
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationScrollPattern.SetScrollPercent"
+f1_keywords:
+- uiautomationclient/IUIAutomationScrollPattern.SetScrollPercent
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationScrollPattern.SetScrollPercent
+- IUIAutomationScrollPattern.SetScrollPercent
 targetos: Windows
 req.typenames: 
 req.redist: 

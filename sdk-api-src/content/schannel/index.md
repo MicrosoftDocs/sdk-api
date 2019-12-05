@@ -1,7 +1,6 @@
 ---
 UID: NA:schannel
 ms.assetid: 6912723a-a7f4-344c-a6c9-4aa8ce684bbe
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

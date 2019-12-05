@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.DateTime_GetMonthCal
 title: DateTime_GetMonthCal macro (commctrl.h)
-
 description: Gets the handle to a date and time picker's (DTP) child month calendar control. You can use this macro or send the DTM_GETMONTHCAL message explicitly.
 old-location: controls\DateTime_GetMonthCal.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getmonthcal.htm
-
 ms.date: 12/05/2018
 ms.keywords: DateTime_GetMonthCal, DateTime_GetMonthCal macro [Windows Controls], _win32_DateTime_GetMonthCal, _win32_DateTime_GetMonthCal_cpp, commctrl/DateTime_GetMonthCal, controls.DateTime_GetMonthCal, controls._win32_DateTime_GetMonthCal
 ms.topic: macro
-f1_keywords: 
- - "commctrl/DateTime_GetMonthCal"
+f1_keywords:
+- commctrl/DateTime_GetMonthCal
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - DateTime_GetMonthCal
+- DateTime_GetMonthCal
 targetos: Windows
 req.typenames: 
 req.redist: 

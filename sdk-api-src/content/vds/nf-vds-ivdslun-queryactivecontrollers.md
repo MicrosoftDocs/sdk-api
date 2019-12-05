@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsLun.QueryActiveControllers
 title: IVdsLun::QueryActiveControllers (vds.h)
-
 description: Returns an enumeration of currently active controllers&#8212;the controllers through which the LUN is accessible.
 old-location: base\ivdslun_queryactivecontrollers.htm
 tech.root: VDS
 ms.assetid: 82561e4a-f2c2-46da-96bb-fbd50d4f7c39
-
 ms.date: 12/05/2018
 ms.keywords: IVdsLun interface [VDS],QueryActiveControllers method, IVdsLun.QueryActiveControllers, IVdsLun::QueryActiveControllers, QueryActiveControllers, QueryActiveControllers method [VDS], QueryActiveControllers method [VDS],IVdsLun interface, base.ivdslun_queryactivecontrollers, vds/IVdsLun::QueryActiveControllers, vdshwprv/IVdsLun::QueryActiveControllers
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsLun.QueryActiveControllers"
+f1_keywords:
+- vds/IVdsLun.QueryActiveControllers
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsLun.QueryActiveControllers
+- IVdsLun.QueryActiveControllers
 targetos: Windows
 req.typenames: 
 req.redist: 

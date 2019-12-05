@@ -1,19 +1,17 @@
 ---
 UID: NN:pnpxassoc.IPNPXDeviceAssociation
 title: IPNPXDeviceAssociation (pnpxassoc.h)
-
 description: Defines methods to manage the association database entries for PnP-X devices. These methods send notifications when the corresponding PnP devnode changes.
 old-location: ncd\ipnpxdeviceassociation.htm
 tech.root: FunDisc
 ms.assetid: 52669dec-2fd7-4f3e-b322-e93d9da5984d
-
 ms.date: 12/05/2018
 ms.keywords: IPNPXDeviceAssociation, IPNPXDeviceAssociation interface, IPNPXDeviceAssociation interface,described, ncd.ipnpxdeviceassociation, pnpxassoc/IPNPXDeviceAssociation
 ms.topic: interface
-f1_keywords: 
- - "pnpxassoc/IPNPXDeviceAssociation"
+f1_keywords:
+- pnpxassoc/IPNPXDeviceAssociation
 dev_langs:
- - c++
+- c++
 req.header: pnpxassoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - pnpxassoc.h
+- pnpxassoc.h
 api_name:
- - IPNPXDeviceAssociation
+- IPNPXDeviceAssociation
 targetos: Windows
 req.typenames: 
 req.redist: 

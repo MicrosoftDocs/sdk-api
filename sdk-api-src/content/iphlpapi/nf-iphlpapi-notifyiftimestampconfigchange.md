@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.NotifyIfTimestampConfigChange
 title: NotifyIfTimestampConfigChange function (iphlpapi.h)
-
 description: This function is reserved for system use, and you should not call it from your code.
 old-location: iphlp\notifyiftimestampconfigchange.htm
 tech.root: IpHlp
 ms.assetid: ABBEEEB6-4D9C-47E3-A030-8F85B5197B09
-
 ms.date: 12/05/2018
 ms.keywords: NotifyIfTimestampConfigChange, NotifyIfTimestampConfigChange function [IP Helper], iphlp.notifyiftimestampconfigchange, iphlpapi/NotifyIfTimestampConfigChange
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/NotifyIfTimestampConfigChange"
+f1_keywords:
+- iphlpapi/NotifyIfTimestampConfigChange
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - NotifyIfTimestampConfigChange
+- NotifyIfTimestampConfigChange
 targetos: Windows
 req.typenames: 
 req.redist: 

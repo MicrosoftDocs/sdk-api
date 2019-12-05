@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.GetDisconnectedSession
 title: ITsSbClientConnection::GetDisconnectedSession (sbtsv.h)
-
 description: Gets a disconnected session.
 old-location: termserv\itssbclientconnection_getdisconnectedsession.htm
 tech.root: TermServ
 ms.assetid: 3fb6d2af-a60c-4173-a2c0-9d9ce5d26811
-
 ms.date: 12/05/2018
 ms.keywords: GetDisconnectedSession, GetDisconnectedSession method [Remote Desktop Services], GetDisconnectedSession method [Remote Desktop Services],ITsSbClientConnection interface, ITsSbClientConnection interface [Remote Desktop Services],GetDisconnectedSession method, ITsSbClientConnection.GetDisconnectedSession, ITsSbClientConnection::GetDisconnectedSession, sbtsv/ITsSbClientConnection::GetDisconnectedSession, termserv.itssbclientconnection_getdisconnectedsession
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbClientConnection.GetDisconnectedSession"
+f1_keywords:
+- sbtsv/ITsSbClientConnection.GetDisconnectedSession
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbClientConnection.GetDisconnectedSession
+- ITsSbClientConnection.GetDisconnectedSession
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.UpdateDevice
 title: IWMPContentPartner::UpdateDevice (contentpartner.h)
-
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartner_updatedevice.htm
 tech.root: WMP
 ms.assetid: 893beb65-048f-4496-88e6-b0e0b8db0205
-
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],UpdateDevice method, IWMPContentPartner.UpdateDevice, IWMPContentPartner::UpdateDevice, IWMPContentPartnerUpdateDevice, UpdateDevice, UpdateDevice method [Windows Media Player], UpdateDevice method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::UpdateDevice, wmp.iwmpcontentpartner_updatedevice
 ms.topic: method
-f1_keywords: 
- - "contentpartner/IWMPContentPartner.UpdateDevice"
+f1_keywords:
+- contentpartner/IWMPContentPartner.UpdateDevice
 dev_langs:
- - c++
+- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - contentpartner.h
+- contentpartner.h
 api_name:
- - IWMPContentPartner.UpdateDevice
+- IWMPContentPartner.UpdateDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

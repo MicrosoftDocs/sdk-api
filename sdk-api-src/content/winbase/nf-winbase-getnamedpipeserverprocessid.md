@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetNamedPipeServerProcessId
 title: GetNamedPipeServerProcessId function (winbase.h)
-
 description: Retrieves the server process identifier for the specified named pipe.
 old-location: base\getnamedpipeserverprocessid.htm
 tech.root: ipc
 ms.assetid: 1ee33a66-a71c-4c34-b907-aab7860294c4
-
 ms.date: 12/05/2018
 ms.keywords: GetNamedPipeServerProcessId, GetNamedPipeServerProcessId function, base.getnamedpipeserverprocessid, winbase/GetNamedPipeServerProcessId
 ms.topic: function
-f1_keywords: 
- - "winbase/GetNamedPipeServerProcessId"
+f1_keywords:
+- winbase/GetNamedPipeServerProcessId
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - GetNamedPipeServerProcessId
+- GetNamedPipeServerProcessId
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:objectarray.IObjectArray
 title: IObjectArray (objectarray.h)
-
 description: Exposes methods that enable clients to access items in a collection of objects that support IUnknown.
 old-location: shell\IObjectArray.htm
 tech.root: shell
 ms.assetid: ab0bb213-dc9c-4853-98d7-668e7ca76583
-
 ms.date: 12/05/2018
 ms.keywords: IObjectArray, IObjectArray interface [Windows Shell], IObjectArray interface [Windows Shell],described, _shell_IObjectArray, objectarray/IObjectArray, shell.IObjectArray
 ms.topic: interface
-f1_keywords: 
- - "objectarray/IObjectArray"
+f1_keywords:
+- objectarray/IObjectArray
 dev_langs:
- - c++
+- c++
 req.header: objectarray.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IObjectArray
+- IObjectArray
 targetos: Windows
 req.typenames: 
 req.redist: 

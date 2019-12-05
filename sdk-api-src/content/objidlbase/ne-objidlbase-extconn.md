@@ -1,19 +1,17 @@
 ---
 UID: NE:objidlbase.tagEXTCONN
 title: EXTCONN (objidlbase.h)
-
 description: Specifies the type of external connection existing on an embedded object.
 old-location: com\extconn.htm
 tech.root: com
 ms.assetid: 95c7de47-9f81-4316-99b8-0f5f0aa54d65
-
 ms.date: 12/05/2018
 ms.keywords: EXTCONN, EXTCONN enumeration [COM], EXTCONN_CALLABLE, EXTCONN_STRONG, EXTCONN_WEAK, _com_EXTCONN, com.extconn, objidlbase/EXTCONN, objidlbase/EXTCONN_CALLABLE, objidlbase/EXTCONN_STRONG, objidlbase/EXTCONN_WEAK
 ms.topic: enum
-f1_keywords: 
- - "objidlbase/EXTCONN"
+f1_keywords:
+- objidlbase/EXTCONN
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: Objidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - EXTCONN
+- EXTCONN
 targetos: Windows
 req.typenames: EXTCONN
 req.redist: 

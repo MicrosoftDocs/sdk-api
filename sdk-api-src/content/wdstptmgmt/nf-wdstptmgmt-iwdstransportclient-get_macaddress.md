@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.get_MacAddress
 title: IWdsTransportClient::get_MacAddress (wdstptmgmt.h)
-
 description: Receives the MAC address of the WDS client.
 old-location: wds\iwdstransportclient_macaddress.htm
 tech.root: wds
 ms.assetid: cc05d24a-54c8-40e7-85e4-640813538116
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportClient interface [Windows Deployment Services],MacAddress property, IWdsTransportClient.MacAddress, IWdsTransportClient.get_MacAddress, IWdsTransportClient::MacAddress, IWdsTransportClient::get_MacAddress, MacAddress property [Windows Deployment Services], MacAddress property [Windows Deployment Services],IWdsTransportClient interface, get_MacAddress, wds.iwdstransportclient_macaddress, wdstptmgmt/IWdsTransportClient::MacAddress, wdstptmgmt/IWdsTransportClient::get_MacAddress
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportClient.MacAddress"
+f1_keywords:
+- wdstptmgmt/IWdsTransportClient.MacAddress
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportClient.MacAddress
- - IWdsTransportClient.get_MacAddress
+- IWdsTransportClient.MacAddress
+- IWdsTransportClient.get_MacAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.InitVariantFromDosDateTime
 title: InitVariantFromDosDateTime function (propvarutil.h)
-
 description: Initializes a VARIANT structure with a date and time given in the format used by Microsoft MS-DOS. The date and time values are converted to the format used to store date and time in a VARIANT.
 old-location: properties\InitVariantFromDosDateTime.htm
 tech.root: properties
 ms.assetid: deb1b3e6-4e7b-49c2-a4dc-e3dfaa2727a0
-
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromDosDateTime, InitVariantFromDosDateTime function [Windows Properties], _shell_InitVariantFromDosDateTime, properties.InitVariantFromDosDateTime, propvarutil/InitVariantFromDosDateTime, shell.InitVariantFromDosDateTime
 ms.topic: function
-f1_keywords: 
- - "propvarutil/InitVariantFromDosDateTime"
+f1_keywords:
+- propvarutil/InitVariantFromDosDateTime
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Propvarutil.h
+- Propvarutil.h
 api_name:
- - InitVariantFromDosDateTime
+- InitVariantFromDosDateTime
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NS:mprapi._RAS_CONNECTION_4
 title: RAS_CONNECTION_4 (mprapi.h)
-
 description: Contains specific information for the connection that includes:\_the user name, domain, Globally Unique Identifier (GUID) associated with the connection, Network Access Protection (NAP) quarantine state, packet statistics, as well as its Point-to-Point (PPP) and Internet Key Exchange version 2 (IKEv2) related information.
 old-location: rras\ras_connection_4.htm
 tech.root: RRAS
 ms.assetid: b7cd637d-45ad-4e4c-b5b2-e85b142375ff
-
 ms.date: 12/05/2018
 ms.keywords: '*PRAS_CONNECTION_4, PRAS_CONNECTION_4, PRAS_CONNECTION_4 structure pointer [RAS], RAS_CONNECTION_4, RAS_CONNECTION_4 structure [RAS], RAS_FLAGS_ARAP_CONNECTION, RAS_FLAGS_DORMANT, RAS_FLAGS_IKEV2_CONNECTION, RAS_FLAGS_MESSENGER_PRESENT, RAS_FLAGS_PPP_CONNECTION, RAS_FLAGS_QUARANTINE_PRESENT, RDT_Tunnel_IKev2, RDT_Tunnel_L2tp, RDT_Tunnel_Pptp, RDT_Tunnel_Sstp, mprapi/PRAS_CONNECTION_4, mprapi/RAS_CONNECTION_4, rras.ras_connection_4'
 ms.topic: struct
 f1_keywords:
 - mprapi/RAS_CONNECTION_4
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

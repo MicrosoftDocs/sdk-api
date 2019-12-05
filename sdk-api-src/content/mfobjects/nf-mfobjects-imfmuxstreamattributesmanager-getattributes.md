@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFMuxStreamAttributesManager.GetAttributes
 title: IMFMuxStreamAttributesManager::GetAttributes (mfobjects.h)
-
 description: Gets the IMFAttributes for the substream with the specified index.
 old-location: mf\imfmuxstreamattributesmanager_getattributes.htm
 tech.root: medfound
 ms.assetid: 1C00900F-BD8B-4AF7-82E0-37AC370A90E3
-
 ms.date: 12/05/2018
 ms.keywords: GetAttributes, GetAttributes method [Media Foundation], GetAttributes method [Media Foundation],IMFMuxStreamAttributesManager interface, IMFMuxStreamAttributesManager interface [Media Foundation],GetAttributes method, IMFMuxStreamAttributesManager.GetAttributes, IMFMuxStreamAttributesManager::GetAttributes, mf.imfmuxstreamattributesmanager_getattributes, mfobjects/IMFMuxStreamAttributesManager::GetAttributes
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFMuxStreamAttributesManager.GetAttributes"
+f1_keywords:
+- mfobjects/IMFMuxStreamAttributesManager.GetAttributes
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFMuxStreamAttributesManager.GetAttributes
+- IMFMuxStreamAttributesManager.GetAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

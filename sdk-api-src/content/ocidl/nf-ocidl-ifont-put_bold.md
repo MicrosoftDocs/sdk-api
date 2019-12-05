@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IFont.put_Bold
 title: IFont::put_Bold (ocidl.h)
-
 description: Sets the font's Bold property.
 old-location: com\ifont_put_bold.htm
 tech.root: com
 ms.assetid: c25738fe-daf4-4eac-b4b0-354950e29f27
-
 ms.date: 12/05/2018
 ms.keywords: IFont interface [COM],put_Bold method, IFont.put_Bold, IFont::put_Bold, _ctrl_ifont_put_bold, com.ifont_put_bold, ocidl/IFont::put_Bold, put_Bold, put_Bold method [COM], put_Bold method [COM],IFont interface
 ms.topic: method
-f1_keywords: 
- - "ocidl/IFont.put_Bold"
+f1_keywords:
+- ocidl/IFont.put_Bold
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IFont.put_Bold
+- IFont.put_Bold
 targetos: Windows
 req.typenames: 
 req.redist: 

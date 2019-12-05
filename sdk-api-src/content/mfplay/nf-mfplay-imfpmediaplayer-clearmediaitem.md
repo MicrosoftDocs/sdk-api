@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.ClearMediaItem
 title: IMFPMediaPlayer::ClearMediaItem (mfplay.h)
-
 description: Clears the current media item.
 old-location: mf\imfpmediaplayer_clearmediaitem.htm
 tech.root: medfound
 ms.assetid: 2c2b23ab-b282-445f-a5a0-4291ee6f22ba
-
 ms.date: 12/05/2018
 ms.keywords: ClearMediaItem, ClearMediaItem method [Media Foundation], ClearMediaItem method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],ClearMediaItem method, IMFPMediaPlayer.ClearMediaItem, IMFPMediaPlayer::ClearMediaItem, mf.imfpmediaplayer_clearmediaitem, mfplay/IMFPMediaPlayer::ClearMediaItem
 ms.topic: method
-f1_keywords: 
- - "mfplay/IMFPMediaPlayer.ClearMediaItem"
+f1_keywords:
+- mfplay/IMFPMediaPlayer.ClearMediaItem
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaPlayer.ClearMediaItem
+- IMFPMediaPlayer.ClearMediaItem
 targetos: Windows
 req.typenames: 
 req.redist: 

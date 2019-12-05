@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IFrequencyMap.put_CountryCode
 title: IFrequencyMap::put_CountryCode (bdaiface.h)
-
 description: The put_CountryCode method sets the country/region code on the Network Provider filter.
 old-location: mstv\ifrequencymap_put_countrycode.htm
 tech.root: mstv
 ms.assetid: 8473e292-b47b-4c1a-b45e-b8acf0e36263
-
 ms.date: 12/05/2018
 ms.keywords: IFrequencyMap interface [Microsoft TV Technologies],put_CountryCode method, IFrequencyMap.put_CountryCode, IFrequencyMap::put_CountryCode, IFrequencyMapput_CountryCode, bdaiface/IFrequencyMap::put_CountryCode, mstv.ifrequencymap_put_countrycode, put_CountryCode, put_CountryCode method [Microsoft TV Technologies], put_CountryCode method [Microsoft TV Technologies],IFrequencyMap interface
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IFrequencyMap.put_CountryCode"
+f1_keywords:
+- bdaiface/IFrequencyMap.put_CountryCode
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IFrequencyMap.put_CountryCode
+- IFrequencyMap.put_CountryCode
 targetos: Windows
 req.typenames: 
 req.redist: 

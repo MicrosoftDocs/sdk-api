@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecProps.GetCodecProp
 title: IWMCodecProps::GetCodecProp (wmcodecdsp.h)
-
 description: Retrieves a codec property specific to an output format.
 old-location: mf\iwmcodecpropsgetcodecprop.htm
 tech.root: medfound
 ms.assetid: 380c0beb-47a7-46e2-bf5a-cf901d7e0719
-
 ms.date: 12/05/2018
 ms.keywords: GetCodecProp, GetCodecProp method [Media Foundation], GetCodecProp method [Media Foundation],IWMCodecProps interface, IWMCodecProps interface [Media Foundation],GetCodecProp method, IWMCodecProps.GetCodecProp, IWMCodecProps::GetCodecProp, codecapi.iwmcodecpropsgetcodecprop, g_wszWMCPCodecName, g_wszWMCPSupportedVBRModes, mf.iwmcodecpropsgetcodecprop, wmcodecdsp/IWMCodecProps::GetCodecProp
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/IWMCodecProps.GetCodecProp"
+f1_keywords:
+- wmcodecdsp/IWMCodecProps.GetCodecProp
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - IWMCodecProps.GetCodecProp
+- IWMCodecProps.GetCodecProp
 targetos: Windows
 req.typenames: 
 req.redist: 

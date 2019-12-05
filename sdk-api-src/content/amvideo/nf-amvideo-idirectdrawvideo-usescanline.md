@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.UseScanLine
 title: IDirectDrawVideo::UseScanLine (amvideo.h)
-
 description: The UseScanLine method determines whether the renderer should check the current scan line when drawing a video.
 old-location: dshow\idirectdrawvideo_usescanline.htm
 tech.root: DirectShow
 ms.assetid: 8378582d-ef82-47ff-a801-934c900ac328
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],UseScanLine method, IDirectDrawVideo.UseScanLine, IDirectDrawVideo::UseScanLine, IDirectDrawVideoUseScanLine, UseScanLine, UseScanLine method [DirectShow], UseScanLine method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::UseScanLine, dshow.idirectdrawvideo_usescanline
 ms.topic: method
-f1_keywords: 
- - "amvideo/IDirectDrawVideo.UseScanLine"
+f1_keywords:
+- amvideo/IDirectDrawVideo.UseScanLine
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDirectDrawVideo.UseScanLine
+- IDirectDrawVideo.UseScanLine
 targetos: Windows
 req.typenames: 
 req.redist: 

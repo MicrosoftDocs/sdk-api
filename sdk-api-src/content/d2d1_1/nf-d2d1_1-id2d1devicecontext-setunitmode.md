@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.SetUnitMode
 title: ID2D1DeviceContext::SetUnitMode (d2d1_1.h)
-
 description: Sets what units will be used to interpret values passed into the device context.
 old-location: direct2d\id2d1devicecontext_setunitmode.htm
 tech.root: Direct2D
 ms.assetid: a5774b9a-4458-47e7-821a-4ac4b70468e3
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1DeviceContext interface [Direct2D],SetUnitMode method, ID2D1DeviceContext.SetUnitMode, ID2D1DeviceContext::SetUnitMode, SetUnitMode, SetUnitMode method [Direct2D], SetUnitMode method [Direct2D],ID2D1DeviceContext interface, d2d1_1/ID2D1DeviceContext::SetUnitMode, direct2d.id2d1devicecontext_setunitmode
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1DeviceContext.SetUnitMode"
+f1_keywords:
+- d2d1_1/ID2D1DeviceContext.SetUnitMode
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1DeviceContext.SetUnitMode
+- ID2D1DeviceContext.SetUnitMode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.WNDOBJ_vSetConsumer
 title: WNDOBJ_vSetConsumer function (winddi.h)
-
 description: The WNDOBJ_vSetConsumer function sets a driver-defined value in the pvConsumer field of the specified WNDOBJ structure.
 old-location: display\wndobj_vsetconsumer.htm
 tech.root: display
 ms.assetid: c7b550b8-1a3f-4d69-93d1-241044cb4bbd
-
 ms.date: 12/05/2018
 ms.keywords: WNDOBJ_vSetConsumer, WNDOBJ_vSetConsumer function [Display Devices], display.wndobj_vsetconsumer, gdifncs_759188da-41cc-45c8-845f-80d23e60e88b.xml, winddi/WNDOBJ_vSetConsumer
 ms.topic: function
 f1_keywords:
 - winddi/WNDOBJ_vSetConsumer
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -1,19 +1,17 @@
 ---
 UID: NE:uiautomationcore.NotificationProcessing
 title: NotificationProcessing (uiautomationcore.h)
-
 description: Defines values that indicate how a notification should be processed.
 old-location: winauto\uiauto_NotificationProcessing.htm
 tech.root: WinAuto
 ms.assetid: 5A6969E1-2350-4418-B02A-0C92D8A246A1
-
 ms.date: 12/05/2018
 ms.keywords: NotificationProcessing, NotificationProcessing enumeration [Windows Accessibility], NotificationProcessing_All, NotificationProcessing_CurrentThenMostRecent, NotificationProcessing_ImportantAll, NotificationProcessing_ImportantMostRecent, NotificationProcessing_MostRecent, uiautomationclient/NotificationProcessing, uiautomationclient/NotificationProcessing_All, uiautomationclient/NotificationProcessing_CurrentThenMostRecent, uiautomationclient/NotificationProcessing_ImportantAll, uiautomationclient/NotificationProcessing_ImportantMostRecent, uiautomationclient/NotificationProcessing_MostRecent, winauto.uiauto_NotificationProcessing
 ms.topic: enum
-f1_keywords: 
- - "uiautomationcore/NotificationProcessing"
+f1_keywords:
+- uiautomationcore/NotificationProcessing
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h, Uiautomationcore.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - NotificationProcessing
+- NotificationProcessing
 targetos: Windows
 req.typenames: 
 req.redist: 

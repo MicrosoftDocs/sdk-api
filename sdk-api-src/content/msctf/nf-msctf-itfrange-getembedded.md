@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfRange.GetEmbedded
 title: ITfRange::GetEmbedded (msctf.h)
-
 description: The ITfRange::GetEmbedded method obtains content that corresponds to a TS_CHAR_EMBEDDED character in the text stream. The start anchor of the range of text is positioned just before the character of interest.
 old-location: tsf\itfrange_getembedded.htm
 tech.root: TSF
 ms.assetid: ff8c4f60-76d5-422d-9d23-584e8eb5f1a1
-
 ms.date: 12/05/2018
 ms.keywords: Caller-defined, GUID_TS_SERVICE_ACCESSIBLE, GUID_TS_SERVICE_ACTIVEX, GUID_TS_SERVICE_DATAOBJECT, GetEmbedded, GetEmbedded method [Text Services Framework], GetEmbedded method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],GetEmbedded method, ITfRange.GetEmbedded, ITfRange::GetEmbedded, _tsf_itfrange_getembedded_ref, msctf/ITfRange::GetEmbedded, tsf.itfrange_getembedded
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfRange.GetEmbedded"
+f1_keywords:
+- msctf/ITfRange.GetEmbedded
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfRange.GetEmbedded
+- ITfRange.GetEmbedded
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

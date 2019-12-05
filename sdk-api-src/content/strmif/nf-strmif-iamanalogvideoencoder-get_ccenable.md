@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMAnalogVideoEncoder.get_CCEnable
 title: IAMAnalogVideoEncoder::get_CCEnable (strmif.h)
-
 description: Note  The IAMAnalogVideoEncoder interface is deprecated. The get_CCEnable determines whether closed captioning on the encoder is currently enabled.
 old-location: dshow\iamanalogvideoencoder_get_ccenable.htm
 tech.root: DirectShow
 ms.assetid: 0dab4b3a-f139-4ac5-ab30-f223e9120c44
-
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoEncoder interface [DirectShow],get_CCEnable method, IAMAnalogVideoEncoder.get_CCEnable, IAMAnalogVideoEncoder::get_CCEnable, IAMAnalogVideoEncoderget_CCEnable, dshow.iamanalogvideoencoder_get_ccenable, get_CCEnable, get_CCEnable method [DirectShow], get_CCEnable method [DirectShow],IAMAnalogVideoEncoder interface, strmif/IAMAnalogVideoEncoder::get_CCEnable
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMAnalogVideoEncoder.get_CCEnable"
+f1_keywords:
+- strmif/IAMAnalogVideoEncoder.get_CCEnable
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IAMAnalogVideoEncoder.get_CCEnable
+- IAMAnalogVideoEncoder.get_CCEnable
 targetos: Windows
 req.typenames: 
 req.redist: 

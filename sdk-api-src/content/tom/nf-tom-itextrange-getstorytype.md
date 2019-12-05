@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.GetStoryType
 title: ITextRange::GetStoryType (tom.h)
-
 description: Get the type of the range's story.
 old-location: controls\ITextRange_GetStoryType.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getstorytype.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetStoryType, GetStoryType method [Windows Controls], GetStoryType method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetStoryType method, ITextRange.GetStoryType, ITextRange::GetStoryType, _win32_ITextRange_GetStoryType, _win32_ITextRange_GetStoryType_cpp, controls.ITextRange_GetStoryType, controls._win32_ITextRange_GetStoryType, tom/ITextRange::GetStoryType
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.GetStoryType"
+f1_keywords:
+- tom/ITextRange.GetStoryType
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.GetStoryType
+- ITextRange.GetStoryType
 targetos: Windows
 req.typenames: 
 req.redist: 

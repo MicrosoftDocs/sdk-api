@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmFormatLogRecords.GetColumnHeaders
 title: ICrmFormatLogRecords::GetColumnHeaders (comsvcs.h)
-
 description: Retrieves the names of the fields (columns) so that they can be used as column headings when the information is presented.
 old-location: cos\icrmformatlogrecords_getcolumnheaders.htm
 tech.root: cossdk
 ms.assetid: b7ca50f9-7e42-4cde-9985-0501ae34f040
-
 ms.date: 12/05/2018
 ms.keywords: GetColumnHeaders, GetColumnHeaders method [COM+], GetColumnHeaders method [COM+],ICrmFormatLogRecords interface, ICrmFormatLogRecords interface [COM+],GetColumnHeaders method, ICrmFormatLogRecords.GetColumnHeaders, ICrmFormatLogRecords::GetColumnHeaders, _dtc_ICrmFormatLogRecords_GetColumnHeaders, comsvcs/ICrmFormatLogRecords::GetColumnHeaders, cos.icrmformatlogrecords_getcolumnheaders
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmFormatLogRecords.GetColumnHeaders"
+f1_keywords:
+- comsvcs/ICrmFormatLogRecords.GetColumnHeaders
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmFormatLogRecords.GetColumnHeaders
+- ICrmFormatLogRecords.GetColumnHeaders
 targetos: Windows
 req.typenames: 
 req.redist: 

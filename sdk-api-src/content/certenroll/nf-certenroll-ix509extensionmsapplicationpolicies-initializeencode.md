@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509ExtensionMSApplicationPolicies.InitializeEncode
 title: IX509ExtensionMSApplicationPolicies::InitializeEncode (certenroll.h)
-
 description: Initializes the extension from an ICertificatePolicies collection.
 old-location: security\ix509extensionmsapplicationpolicies_initializeencode_method.htm
 tech.root: seccertenroll
 ms.assetid: 2b79c295-5260-4708-9a20-2ac41052a171
-
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionMSApplicationPolicies interface [Security],InitializeEncode method, IX509ExtensionMSApplicationPolicies.InitializeEncode, IX509ExtensionMSApplicationPolicies::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionMSApplicationPolicies interface, certenroll/IX509ExtensionMSApplicationPolicies::InitializeEncode, security.ix509extensionmsapplicationpolicies_initializeencode_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509ExtensionMSApplicationPolicies.InitializeEncode"
+f1_keywords:
+- certenroll/IX509ExtensionMSApplicationPolicies.InitializeEncode
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509ExtensionMSApplicationPolicies.InitializeEncode
+- IX509ExtensionMSApplicationPolicies.InitializeEncode
 targetos: Windows
 req.typenames: 
 req.redist: 

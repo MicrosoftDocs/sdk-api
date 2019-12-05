@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.ExpandCollapsePattern_Collapse
 title: ExpandCollapsePattern_Collapse function (uiautomationcoreapi.h)
-
 description: Hides all descendant nodes, controls, or content of the UI Automation element.
 old-location: winauto\uiauto_ExpandCollapsePattern_CollapseConPat.htm
 tech.root: WinAuto
 ms.assetid: 71423347-bfae-4223-8215-d4f8d9226b63
-
 ms.date: 12/05/2018
 ms.keywords: ExpandCollapsePattern_Collapse, ExpandCollapsePattern_Collapse function [Windows Accessibility], uiauto.uiauto_ExpandCollapsePattern_CollapseConPat, uiauto_ExpandCollapsePattern_CollapseConPat, uiautomationcoreapi/ExpandCollapsePattern_Collapse, winauto.uiauto_ExpandCollapsePattern_CollapseConPat
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/ExpandCollapsePattern_Collapse"
+f1_keywords:
+- uiautomationcoreapi/ExpandCollapsePattern_Collapse
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - ExpandCollapsePattern_Collapse
+- ExpandCollapsePattern_Collapse
 targetos: Windows
 req.typenames: 
 req.redist: 

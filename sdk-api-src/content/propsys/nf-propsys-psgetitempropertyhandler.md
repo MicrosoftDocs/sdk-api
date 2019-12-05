@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSGetItemPropertyHandler
 title: PSGetItemPropertyHandler function (propsys.h)
-
 description: Retrieves a property handler for a Shell item.
 old-location: properties\PSGetItemPropertyHandler.htm
 tech.root: properties
 ms.assetid: 7b7fd260-c863-41f7-8594-4ee435090228
-
 ms.date: 12/05/2018
 ms.keywords: PSGetItemPropertyHandler, PSGetItemPropertyHandler function [Windows Properties], _shell_PSGetItemPropertyHandler, properties.PSGetItemPropertyHandler, propsys/PSGetItemPropertyHandler, shell.PSGetItemPropertyHandler
 ms.topic: function
-f1_keywords: 
- - "propsys/PSGetItemPropertyHandler"
+f1_keywords:
+- propsys/PSGetItemPropertyHandler
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSGetItemPropertyHandler
+- PSGetItemPropertyHandler
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

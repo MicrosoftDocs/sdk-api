@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.OpenClipboard
 title: OpenClipboard function (winuser.h)
-
 description: Opens the clipboard for examination and prevents other applications from modifying the clipboard content.
 old-location: dataxchg\openclipboard.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\openclipboard.htm
-
 ms.date: 12/05/2018
 ms.keywords: OpenClipboard, OpenClipboard function [Data Exchange], _win32_OpenClipboard, _win32_openclipboard_cpp, dataxchg.openclipboard, winui._win32_openclipboard, winuser/OpenClipboard
 ms.topic: function
-f1_keywords: 
- - "winuser/OpenClipboard"
+f1_keywords:
+- winuser/OpenClipboard
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,24 +30,24 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-clipboard-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
- - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
- - api-ms-win-ntuser-ie-clipboard-l1-1-0.dll
- - ie_stubs.dll
- - ext-ms-win-ntuser-misc-l1-3-1.dll
- - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
- - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
- - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-clipboard-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+- Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+- api-ms-win-ntuser-ie-clipboard-l1-1-0.dll
+- ie_stubs.dll
+- ext-ms-win-ntuser-misc-l1-3-1.dll
+- Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+- Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
- - OpenClipboard
+- OpenClipboard
 targetos: Windows
 req.typenames: 
 req.redist: 

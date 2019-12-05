@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1SimplifiedGeometrySink.SetSegmentFlags
 title: ID2D1SimplifiedGeometrySink::SetSegmentFlags (d2d1.h)
-
 description: Specifies stroke and join options to be applied to new segments added to the geometry sink.
 old-location: direct2d\ID2D1SimplifiedGeometrySink_SetSegmentFlags.htm
 tech.root: Direct2D
 ms.assetid: e1162564-a39b-4c16-887e-ec06dd37301c
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1SimplifiedGeometrySink interface [Direct2D],SetSegmentFlags method, ID2D1SimplifiedGeometrySink.SetSegmentFlags, ID2D1SimplifiedGeometrySink::SetSegmentFlags, SetSegmentFlags, SetSegmentFlags method [Direct2D], SetSegmentFlags method [Direct2D],ID2D1SimplifiedGeometrySink interface, d2d1/ID2D1SimplifiedGeometrySink::SetSegmentFlags, direct2d.ID2D1SimplifiedGeometrySink_SetSegmentFlags
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1SimplifiedGeometrySink.SetSegmentFlags"
+f1_keywords:
+- d2d1/ID2D1SimplifiedGeometrySink.SetSegmentFlags
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1SimplifiedGeometrySink.SetSegmentFlags
+- ID2D1SimplifiedGeometrySink.SetSegmentFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

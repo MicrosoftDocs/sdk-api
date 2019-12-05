@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManConnectionOptions.put_Password
 title: IWSManConnectionOptions::put_Password (wsmandisp.h)
-
 description: Sets the password of a local or a domain account on the remote computer.
 old-location: winrm\iwsmanconnectionoptions_password.htm
 tech.root: winrm
 ms.assetid: 864279c0-1bb5-43dc-9636-35619199beb4
-
 ms.date: 12/05/2018
 ms.keywords: IWSManConnectionOptions interface [Windows Remote Management],Password property, IWSManConnectionOptions.Password, IWSManConnectionOptions.put_Password, IWSManConnectionOptions::Password, IWSManConnectionOptions::put_Password, Password property [Windows Remote Management], Password property [Windows Remote Management],IWSManConnectionOptions interface, put_Password, winrm.iwsmanconnectionoptions_password, wsmandisp/IWSManConnectionOptions::Password, wsmandisp/IWSManConnectionOptions::put_Password
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManConnectionOptions.Password"
+f1_keywords:
+- wsmandisp/IWSManConnectionOptions.Password
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManConnectionOptions.Password
- - IWSManConnectionOptions.put_Password
+- IWSManConnectionOptions.Password
+- IWSManConnectionOptions.put_Password
 targetos: Windows
 req.typenames: 
 req.redist: 

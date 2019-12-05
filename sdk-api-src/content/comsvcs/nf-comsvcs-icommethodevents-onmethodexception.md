@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComMethodEvents.OnMethodException
 title: IComMethodEvents::OnMethodException (comsvcs.h)
-
 description: Generated when an object's method generates an exception.
 old-location: cos\icommethodevents_onmethodexception.htm
 tech.root: cossdk
 ms.assetid: b504a2db-0d18-42f1-8572-dc066c3e7740
-
 ms.date: 12/05/2018
 ms.keywords: IComMethodEvents interface [COM+],OnMethodException method, IComMethodEvents.OnMethodException, IComMethodEvents::OnMethodException, OnMethodException, OnMethodException method [COM+], OnMethodException method [COM+],IComMethodEvents interface, _dtc_IComMethodEvents_OnMethodException, comsvcs/IComMethodEvents::OnMethodException, cos.icommethodevents_onmethodexception
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComMethodEvents.OnMethodException"
+f1_keywords:
+- comsvcs/IComMethodEvents.OnMethodException
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComMethodEvents.OnMethodException
+- IComMethodEvents.OnMethodException
 targetos: Windows
 req.typenames: 
 req.redist: 

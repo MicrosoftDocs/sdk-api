@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspixelformats.IsIndexedPixelFormat
 title: IsIndexedPixelFormat function (gdipluspixelformats.h)
-
 description: The IsIndexedPixelFormat method determines whether a specified pixel format is an indexed format.
 old-location: gdiplus\_gdiplus_FUNC_IsIndexedPixelFormat_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\isindexedpixelformat.htm
-
 ms.date: 12/05/2018
 ms.keywords: IsIndexedPixelFormat, IsIndexedPixelFormat function [GDI+], _gdiplus_FUNC_IsIndexedPixelFormat_, gdiplus._gdiplus_FUNC_IsIndexedPixelFormat_, gdipluspixelformats/IsIndexedPixelFormat
 ms.topic: function
-f1_keywords: 
- - "gdipluspixelformats/IsIndexedPixelFormat"
+f1_keywords:
+- gdipluspixelformats/IsIndexedPixelFormat
 dev_langs:
- - c++
+- c++
 req.header: gdipluspixelformats.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Gdiplus.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Gdiplus.lib
- - Gdiplus.dll
+- Gdiplus.lib
+- Gdiplus.dll
 api_name:
- - IsIndexedPixelFormat
+- IsIndexedPixelFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

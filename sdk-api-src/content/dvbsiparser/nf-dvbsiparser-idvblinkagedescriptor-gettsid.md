@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbLinkageDescriptor.GetTSId
 title: IDvbLinkageDescriptor::GetTSId (dvbsiparser.h)
-
 description: Gets the identifier of the transport stream containing the information service from a DVB linkage descriptor.
 old-location: mstv\idvblinkagedescriptor_gettsid.htm
 tech.root: mstv
 ms.assetid: 263f3ff1-33a6-4c40-bcdf-049c4dbaf2ef
-
 ms.date: 12/05/2018
 ms.keywords: GetTSId, GetTSId method [Microsoft TV Technologies], GetTSId method [Microsoft TV Technologies],IDvbLinkageDescriptor interface, IDvbLinkageDescriptor interface [Microsoft TV Technologies],GetTSId method, IDvbLinkageDescriptor.GetTSId, IDvbLinkageDescriptor::GetTSId, dvbsiparser/IDvbLinkageDescriptor::GetTSId, mstv.idvblinkagedescriptor_gettsid
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbLinkageDescriptor.GetTSId"
+f1_keywords:
+- dvbsiparser/IDvbLinkageDescriptor.GetTSId
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbLinkageDescriptor.GetTSId
+- IDvbLinkageDescriptor.GetTSId
 targetos: Windows
 req.typenames: 
 req.redist: 

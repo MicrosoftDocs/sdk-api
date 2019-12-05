@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IScanningTunerEx.GetTunerScanningCapability
 title: IScanningTunerEx::GetTunerScanningCapability (tuner.h)
-
 description: This topic applies to Windows Vista and later.
 old-location: mstv\iscanningtunerex_gettunerscanningcapability.htm
 tech.root: mstv
 ms.assetid: 7dc7aeec-2a9d-4dfb-9f67-36d8131cc130
-
 ms.date: 12/05/2018
 ms.keywords: GetTunerScanningCapability, GetTunerScanningCapability method [Microsoft TV Technologies], GetTunerScanningCapability method [Microsoft TV Technologies],IScanningTunerEx interface, IScanningTunerEx interface [Microsoft TV Technologies],GetTunerScanningCapability method, IScanningTunerEx.GetTunerScanningCapability, IScanningTunerEx::GetTunerScanningCapability, IScanningTunerExGetTunerScanningCapability, mstv.iscanningtunerex_gettunerscanningcapability, tuner/IScanningTunerEx::GetTunerScanningCapability
 ms.topic: method
-f1_keywords: 
- - "tuner/IScanningTunerEx.GetTunerScanningCapability"
+f1_keywords:
+- tuner/IScanningTunerEx.GetTunerScanningCapability
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tuner.h
+- Tuner.h
 api_name:
- - IScanningTunerEx.GetTunerScanningCapability
+- IScanningTunerEx.GetTunerScanningCapability
 targetos: Windows
 req.typenames: 
 req.redist: 

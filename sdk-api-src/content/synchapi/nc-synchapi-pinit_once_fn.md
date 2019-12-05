@@ -1,19 +1,17 @@
 ---
 UID: NC:synchapi.PINIT_ONCE_FN
 title: PINIT_ONCE_FN (synchapi.h)
-
 description: An application-defined callback function. Specify a pointer to this function when calling the InitOnceExecuteOnce function.
 old-location: base\initoncecallback.htm
 tech.root: Sync
 ms.assetid: e4a73572-e477-4518-87fe-b9b74234e8ec
-
 ms.date: 12/05/2018
 ms.keywords: PINIT_ONCE_FN, PINIT_ONCE_FN callback, PINIT_ONCE_FN callback function, base.initoncecallback, synchapi/PINIT_ONCE_FN
 ms.topic: callback
-f1_keywords: 
- - "synchapi/PINIT_ONCE_FN"
+f1_keywords:
+- synchapi/PINIT_ONCE_FN
 dev_langs:
- - c++
+- c++
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - synchapi.h
+- synchapi.h
 api_name:
- - PINIT_ONCE_FN
+- PINIT_ONCE_FN
 targetos: Windows
 req.typenames: 
 req.redist: 

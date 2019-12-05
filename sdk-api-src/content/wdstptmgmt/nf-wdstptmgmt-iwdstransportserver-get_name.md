@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServer.get_Name
 title: IWdsTransportServer::get_Name (wdstptmgmt.h)
-
 description: Returns the name of the server represented by this object.
 old-location: wds\iwdstransportserver_name.htm
 tech.root: wds
 ms.assetid: d638f1f5-e74a-4ef6-a3ab-7ed6e11f863f
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportServer interface [Windows Deployment Services],Name property, IWdsTransportServer.Name, IWdsTransportServer.get_Name, IWdsTransportServer::Name, IWdsTransportServer::get_Name, Name property [Windows Deployment Services], Name property [Windows Deployment Services],IWdsTransportServer interface, get_Name, wds.iwdstransportserver_name, wdstptmgmt/IWdsTransportServer::Name, wdstptmgmt/IWdsTransportServer::get_Name
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportServer.Name"
+f1_keywords:
+- wdstptmgmt/IWdsTransportServer.Name
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportServer.Name
- - IWdsTransportServer.get_Name
+- IWdsTransportServer.Name
+- IWdsTransportServer.get_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

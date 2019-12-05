@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DSurface9.ReleaseDC
 title: IDirect3DSurface9::ReleaseDC (d3d9.h)
-
 description: Release a device context handle.
 old-location: direct3d9\idirect3dsurface9__releasedc.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dsurface9__releasedc.htm
-
 ms.date: 12/05/2018
 ms.keywords: IDirect3DSurface9 interface [Direct3D 9],ReleaseDC method, IDirect3DSurface9.ReleaseDC, IDirect3DSurface9::ReleaseDC, ReleaseDC, ReleaseDC method [Direct3D 9], ReleaseDC method [Direct3D 9],IDirect3DSurface9 interface, c9032355-5437-491b-97b3-727d5c94fbfa, d3d9helper/IDirect3DSurface9::ReleaseDC, direct3d9.idirect3dsurface9__releasedc
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DSurface9.ReleaseDC"
+f1_keywords:
+- d3d9/IDirect3DSurface9.ReleaseDC
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DSurface9.ReleaseDC
+- IDirect3DSurface9.ReleaseDC
 targetos: Windows
 req.typenames: 
 req.redist: 

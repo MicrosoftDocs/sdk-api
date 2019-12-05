@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFMuxStreamMediaTypeManager.AddStreamConfiguration
 title: IMFMuxStreamMediaTypeManager::AddStreamConfiguration (mfobjects.h)
-
 description: Registers a stream configuration, which defines a set of substreams that can be included the multiplexed output.
 old-location: mf\imfmuxstreammediatypemanager_addstreamconfiguration.htm
 tech.root: medfound
 ms.assetid: 9A647B60-ACA0-4878-A75B-54CA093DEDD0
-
 ms.date: 12/05/2018
 ms.keywords: AddStreamConfiguration, AddStreamConfiguration method [Media Foundation], AddStreamConfiguration method [Media Foundation],IMFMuxStreamMediaTypeManager interface, IMFMuxStreamMediaTypeManager interface [Media Foundation],AddStreamConfiguration method, IMFMuxStreamMediaTypeManager.AddStreamConfiguration, IMFMuxStreamMediaTypeManager::AddStreamConfiguration, mf.imfmuxstreammediatypemanager_addstreamconfiguration, mfobjects/IMFMuxStreamMediaTypeManager::AddStreamConfiguration
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFMuxStreamMediaTypeManager.AddStreamConfiguration"
+f1_keywords:
+- mfobjects/IMFMuxStreamMediaTypeManager.AddStreamConfiguration
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFMuxStreamMediaTypeManager.AddStreamConfiguration
+- IMFMuxStreamMediaTypeManager.AddStreamConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 

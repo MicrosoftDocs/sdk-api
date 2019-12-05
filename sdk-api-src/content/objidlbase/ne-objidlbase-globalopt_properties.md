@@ -1,19 +1,17 @@
 ---
 UID: NE:objidlbase.tagGLOBALOPT_PROPERTIES
 title: GLOBALOPT_PROPERTIES (objidlbase.h)
-
 description: Identifies process-global options that you can set or query by using the IGlobalOptions interface.
 old-location: com\globalopt_properties.htm
 tech.root: com
 ms.assetid: 210BAEAF-D6FF-46E0-A187-D89EBB655B9C
-
 ms.date: 12/05/2018
 ms.keywords: COMGLB_APPID, COMGLB_EXCEPTION_HANDLING, COMGLB_RO_SETTINGS, COMGLB_RPC_THREADPOOL_SETTING, COMGLB_UNMARSHALING_POLICY, GLOBALOPT_PROPERTIES, GLOBALOPT_PROPERTIES enumeration [COM], com.globalopt_properties, objidl/COMGLB_APPID, objidl/COMGLB_EXCEPTION_HANDLING, objidl/COMGLB_RO_SETTINGS, objidl/COMGLB_RPC_THREADPOOL_SETTING, objidl/COMGLB_UNMARSHALING_POLICY, objidl/GLOBALOPT_PROPERTIES
 ms.topic: enum
-f1_keywords: 
- - "objidlbase/GLOBALOPT_PROPERTIES"
+f1_keywords:
+- objidlbase/GLOBALOPT_PROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: Objidlbase.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - objidl.h
+- objidl.h
 api_name:
- - GLOBALOPT_PROPERTIES
+- GLOBALOPT_PROPERTIES
 targetos: Windows
 req.typenames: GLOBALOPT_PROPERTIES
 req.redist: 

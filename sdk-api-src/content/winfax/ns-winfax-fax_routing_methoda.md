@@ -1,19 +1,17 @@
 ---
 UID: NS:winfax._FAX_ROUTING_METHODA
 title: FAX_ROUTING_METHODA (winfax.h)
-
 description: The FAX_ROUTING_METHOD structure contains information about one fax routing method, as it pertains to one fax device.
 old-location: fax\_mfax_fax_routing_method_str.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7w1e.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PFAX_ROUTING_METHODA, FAX_ROUTING_METHOD, FAX_ROUTING_METHOD structure [Fax Service], FAX_ROUTING_METHODA, FAX_ROUTING_METHODW, PFAX_ROUTING_METHOD, PFAX_ROUTING_METHOD structure pointer [Fax Service], _mfax_fax_routing_method_str, fax._mfax_fax_routing_method_str, winfax/FAX_ROUTING_METHOD, winfax/FAX_ROUTING_METHODA, winfax/FAX_ROUTING_METHODW, winfax/PFAX_ROUTING_METHOD"
+ms.keywords: '*PFAX_ROUTING_METHODA, FAX_ROUTING_METHOD, FAX_ROUTING_METHOD structure [Fax Service], FAX_ROUTING_METHODA, FAX_ROUTING_METHODW, PFAX_ROUTING_METHOD, PFAX_ROUTING_METHOD structure pointer [Fax Service], _mfax_fax_routing_method_str, fax._mfax_fax_routing_method_str, winfax/FAX_ROUTING_METHOD, winfax/FAX_ROUTING_METHODA, winfax/FAX_ROUTING_METHODW, winfax/PFAX_ROUTING_METHOD'
 ms.topic: struct
-f1_keywords: 
- - "winfax/FAX_ROUTING_METHOD"
+f1_keywords:
+- winfax/FAX_ROUTING_METHOD
 dev_langs:
- - c++
+- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winfax.h
+- Winfax.h
 api_name:
- - FAX_ROUTING_METHOD
- - FAX_ROUTING_METHODA
- - FAX_ROUTING_METHODW
+- FAX_ROUTING_METHOD
+- FAX_ROUTING_METHODA
+- FAX_ROUTING_METHODW
 targetos: Windows
 req.typenames: FAX_ROUTING_METHODA, *PFAX_ROUTING_METHODA
 req.redist: 

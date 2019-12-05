@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IEnumWiaItem.Reset
 title: IEnumWiaItem::Reset (wia_xp.h)
-
 description: The IEnumWiaItem::Reset method is used by applications to restart the enumeration of item information.
 old-location: wia\_wia_IEnumWiaItem_Reset.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwiaitem\reset.htm
-
 ms.date: 12/05/2018
 ms.keywords: IEnumWiaItem interface [WIA],Reset method, IEnumWiaItem.Reset, IEnumWiaItem::Reset, Reset, Reset method [WIA], Reset method [WIA],IEnumWiaItem interface, _wia_IEnumWiaItem_Reset, wia._wia_IEnumWiaItem_Reset, wia_xp/IEnumWiaItem::Reset
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IEnumWiaItem.Reset"
+f1_keywords:
+- wia_xp/IEnumWiaItem.Reset
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wiaguid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaguid.lib
- - Wiaguid.dll
+- Wiaguid.lib
+- Wiaguid.dll
 api_name:
- - IEnumWiaItem.Reset
+- IEnumWiaItem.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

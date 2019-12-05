@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderFragmentRoot.ElementProviderFromPoint
 title: IRawElementProviderFragmentRoot::ElementProviderFromPoint (uiautomationcore.h)
-
 description: Retrieves the provider of the element that is at the specified point in this fragment.
 old-location: winauto\uiauto_IRawElementProviderFragmentRoot_ElementProviderFromPoint.htm
 tech.root: WinAuto
 ms.assetid: 469149c7-8c2c-468c-b7cc-6d849de427f1
-
 ms.date: 12/05/2018
 ms.keywords: ElementProviderFromPoint, ElementProviderFromPoint method [Windows Accessibility], ElementProviderFromPoint method [Windows Accessibility],IRawElementProviderFragmentRoot interface, IRawElementProviderFragmentRoot interface [Windows Accessibility],ElementProviderFromPoint method, IRawElementProviderFragmentRoot.ElementProviderFromPoint, IRawElementProviderFragmentRoot::ElementProviderFromPoint, uiauto.uiauto_IRawElementProviderFragmentRoot_ElementProviderFromPoint, uiauto_IRawElementProviderFragmentRoot_ElementProviderFromPoint, uiautomationcore/IRawElementProviderFragmentRoot::ElementProviderFromPoint, winauto.uiauto_IRawElementProviderFragmentRoot_ElementProviderFromPoint
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IRawElementProviderFragmentRoot.ElementProviderFromPoint"
+f1_keywords:
+- uiautomationcore/IRawElementProviderFragmentRoot.ElementProviderFromPoint
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IRawElementProviderFragmentRoot.ElementProviderFromPoint
+- IRawElementProviderFragmentRoot.ElementProviderFromPoint
 targetos: Windows
 req.typenames: 
 req.redist: 

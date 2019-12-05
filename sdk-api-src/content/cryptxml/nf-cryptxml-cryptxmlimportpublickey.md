@@ -1,19 +1,17 @@
 ---
 UID: NF:cryptxml.CryptXmlImportPublicKey
 title: CryptXmlImportPublicKey function (cryptxml.h)
-
 description: Imports the public key specified by the supplied handle.
 old-location: security\cryptxmlimportpublickey.htm
 tech.root: SecCrypto
 ms.assetid: 599e8bbd-a41f-4781-850d-6590d22d9c3c
-
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CryptXmlImportPublicKey, CryptXmlImportPublicKey function [Security], cryptxml/CryptXmlImportPublicKey, security.cryptxmlimportpublickey
 ms.topic: function
 f1_keywords:
 - cryptxml/CryptXmlImportPublicKey
 dev_langs:
- - c++
+- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

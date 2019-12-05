@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_bufferingProgress
 title: IWMPNetwork::get_bufferingProgress (wmp.h)
-
 description: The get_bufferingProgress method retrieves the percentage of buffering completed.
 old-location: wmp\iwmpnetwork_get_bufferingprogress.htm
 tech.root: WMP
 ms.assetid: 5c8cc541-3fc2-49b8-8a1a-f4959989aafe
-
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_bufferingProgress method, IWMPNetwork.get_bufferingProgress, IWMPNetwork::get_bufferingProgress, IWMPNetworkget_bufferingProgress, get_bufferingProgress, get_bufferingProgress method [Windows Media Player], get_bufferingProgress method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_bufferingprogress, wmp/IWMPNetwork::get_bufferingProgress
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPNetwork.get_bufferingProgress"
+f1_keywords:
+- wmp/IWMPNetwork.get_bufferingProgress
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPNetwork.get_bufferingProgress
+- IWMPNetwork.get_bufferingProgress
 targetos: Windows
 req.typenames: 
 req.redist: 

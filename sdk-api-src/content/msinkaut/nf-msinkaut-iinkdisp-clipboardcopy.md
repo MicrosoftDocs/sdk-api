@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkDisp.ClipboardCopy
 title: IInkDisp::ClipboardCopy (msinkaut.h)
-
 description: Copies the InkStrokes collection to the Clipboard.
 old-location: tablet\inkdisp_clipboardcopy.htm
 tech.root: tablet
 ms.assetid: ad62c9b3-6df6-445b-9085-7cd5c4b6b31f
-
 ms.date: 12/05/2018
 ms.keywords: ClipboardCopy, ClipboardCopy method [Tablet PC], ClipboardCopy method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],ClipboardCopy method, IInkDisp.ClipboardCopy, IInkDisp::ClipboardCopy, ad62c9b3-6df6-445b-9085-7cd5c4b6b31f, msinkaut/IInkDisp::ClipboardCopy, tablet.inkdisp_clipboardcopy
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkDisp.ClipboardCopy"
+f1_keywords:
+- msinkaut/IInkDisp.ClipboardCopy
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkDisp.ClipboardCopy
+- IInkDisp.ClipboardCopy
 targetos: Windows
 req.typenames: 
 req.redist: 

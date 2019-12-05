@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendee.get_Invitation
 title: IRDPSRAPIAttendee::get_Invitation (rdpencomapi.h)
-
 description: The invitation used to grant the attendee access to the conference.
 old-location: rdp\irdpsrapiattendee_invitation.htm
 tech.root: rdp
 ms.assetid: 71fed876-8b9d-4b19-a278-45ab620fb61e
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIAttendee interface [RDP],Invitation property, IRDPSRAPIAttendee.Invitation, IRDPSRAPIAttendee.get_Invitation, IRDPSRAPIAttendee::Invitation, IRDPSRAPIAttendee::get_Invitation, Invitation property [RDP], Invitation property [RDP],IRDPSRAPIAttendee interface, Invitation property [RDP],RDPSRAPIAttendee object, RDPSRAPIAttendee object [RDP],Invitation property, get_Invitation, rdp.irdpsrapiattendee_invitation, rdpencomapi/IRDPSRAPIAttendee::Invitation, rdpencomapi/IRDPSRAPIAttendee::get_Invitation
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIAttendee.Invitation"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIAttendee.Invitation
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIAttendee.Invitation
- - IRDPSRAPIAttendee.get_Invitation
- - RDPSRAPIAttendee.Invitation
+- IRDPSRAPIAttendee.Invitation
+- IRDPSRAPIAttendee.get_Invitation
+- RDPSRAPIAttendee.Invitation
 targetos: Windows
 req.typenames: 
 req.redist: 

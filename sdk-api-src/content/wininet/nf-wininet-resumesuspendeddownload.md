@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.ResumeSuspendedDownload
 title: ResumeSuspendedDownload function (wininet.h)
-
 description: The ResumeSuspendedDownload function resumes a request that is suspended by a user interface dialog box.
 old-location: wininet\resumesuspendeddownload.htm
 tech.root: wininet
 ms.assetid: 72b5511a-872d-4058-9f38-9b1bdf6784c3
-
 ms.date: 12/05/2018
 ms.keywords: ResumeSuspendedDownload, ResumeSuspendedDownload function [WinINet], wininet.resumesuspendeddownload, wininet/ResumeSuspendedDownload
 ms.topic: function
-f1_keywords: 
- - "wininet/ResumeSuspendedDownload"
+f1_keywords:
+- wininet/ResumeSuspendedDownload
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - ResumeSuspendedDownload
+- ResumeSuspendedDownload
 targetos: Windows
 req.typenames: 
 req.redist: 

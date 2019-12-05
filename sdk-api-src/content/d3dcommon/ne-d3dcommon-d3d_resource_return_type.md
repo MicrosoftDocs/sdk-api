@@ -1,19 +1,17 @@
 ---
 UID: NE:d3dcommon.D3D_RESOURCE_RETURN_TYPE
 title: D3D_RESOURCE_RETURN_TYPE (d3dcommon.h)
-
 description: Indicates return value type.
 old-location: direct3d11\d3d11_resource_return_type.htm
 tech.root: direct3d11
 ms.assetid: 272f39ae-dc6a-4214-a22f-544764f5b470
-
 ms.date: 12/05/2018
 ms.keywords: 59063810-740f-d058-3bed-3f66c58da731, D3D11_RESOURCE_RETURN_TYPE, D3D11_RESOURCE_RETURN_TYPE enumeration [Direct3D 11], D3D11_RETURN_TYPE_CONTINUED, D3D11_RETURN_TYPE_DOUBLE, D3D11_RETURN_TYPE_FLOAT, D3D11_RETURN_TYPE_MIXED, D3D11_RETURN_TYPE_SINT, D3D11_RETURN_TYPE_SNORM, D3D11_RETURN_TYPE_UINT, D3D11_RETURN_TYPE_UNORM, D3D_RESOURCE_RETURN_TYPE, d3d11shader/D3D11_RESOURCE_RETURN_TYPE, d3d11shader/D3D11_RETURN_TYPE_CONTINUED, d3d11shader/D3D11_RETURN_TYPE_DOUBLE, d3d11shader/D3D11_RETURN_TYPE_FLOAT, d3d11shader/D3D11_RETURN_TYPE_MIXED, d3d11shader/D3D11_RETURN_TYPE_SINT, d3d11shader/D3D11_RETURN_TYPE_SNORM, d3d11shader/D3D11_RETURN_TYPE_UINT, d3d11shader/D3D11_RETURN_TYPE_UNORM, d3dcommon/D3D11_RESOURCE_RETURN_TYPE, d3dcommon/D3D11_RETURN_TYPE_CONTINUED, d3dcommon/D3D11_RETURN_TYPE_DOUBLE, d3dcommon/D3D11_RETURN_TYPE_FLOAT, d3dcommon/D3D11_RETURN_TYPE_MIXED, d3dcommon/D3D11_RETURN_TYPE_SINT, d3dcommon/D3D11_RETURN_TYPE_SNORM, d3dcommon/D3D11_RETURN_TYPE_UINT, d3dcommon/D3D11_RETURN_TYPE_UNORM, direct3d11.d3d11_resource_return_type
 ms.topic: enum
-f1_keywords: 
- - "d3dcommon/D3D11_RESOURCE_RETURN_TYPE"
+f1_keywords:
+- d3dcommon/D3D11_RESOURCE_RETURN_TYPE
 dev_langs:
- - c++
+- c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11shader.h
- - d3dcommon.h
+- d3d11shader.h
+- d3dcommon.h
 api_name:
- - D3D11_RESOURCE_RETURN_TYPE
+- D3D11_RESOURCE_RETURN_TYPE
 targetos: Windows
 req.typenames: D3D_RESOURCE_RETURN_TYPE
 req.redist: 

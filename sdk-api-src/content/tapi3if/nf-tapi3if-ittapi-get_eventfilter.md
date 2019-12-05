@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITTAPI.get_EventFilter
 title: ITTAPI::get_EventFilter (tapi3if.h)
-
 description: The get_EventFilter method gets the current event filter mask. The mask is a series of ORed members of the TAPI_EVENT enumeration.
 old-location: tapi3\ittapi_get_eventfilter.htm
 tech.root: Tapi
 ms.assetid: c0544e9f-0bfc-43ab-bcf0-800afb0ebfcf
-
 ms.date: 12/05/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],get_EventFilter method, ITTAPI.get_EventFilter, ITTAPI::get_EventFilter, _tapi3_ittapi_get_eventfilter, get_EventFilter, get_EventFilter method [TAPI 2.2], get_EventFilter method [TAPI 2.2],ITTAPI interface, tapi3.ittapi_get_eventfilter, tapi3if/ITTAPI::get_EventFilter
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITTAPI.get_EventFilter"
+f1_keywords:
+- tapi3if/ITTAPI.get_EventFilter
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITTAPI.get_EventFilter
+- ITTAPI.get_EventFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

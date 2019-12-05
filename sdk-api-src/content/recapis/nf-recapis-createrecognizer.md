@@ -1,19 +1,17 @@
 ---
 UID: NF:recapis.CreateRecognizer
 title: CreateRecognizer function (recapis.h)
-
 description: Creates a recognizer.
 old-location: tablet\createrecognizer.htm
 tech.root: tablet
 ms.assetid: b4a5517e-d818-4d4d-a06f-3e0dcbcc52c6
-
 ms.date: 12/05/2018
 ms.keywords: CreateRecognizer, CreateRecognizer function [Tablet PC], b4a5517e-d818-4d4d-a06f-3e0dcbcc52c6, recapis/CreateRecognizer, tablet.createrecognizer
 ms.topic: function
-f1_keywords: 
- - "recapis/CreateRecognizer"
+f1_keywords:
+- recapis/CreateRecognizer
 dev_langs:
- - c++
+- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - recapis.h
+- recapis.h
 api_name:
- - CreateRecognizer
+- CreateRecognizer
 targetos: Windows
 req.typenames: 
 req.redist: 

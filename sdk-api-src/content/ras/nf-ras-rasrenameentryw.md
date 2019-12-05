@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasRenameEntryW
 title: RasRenameEntryW function (ras.h)
-
 description: The RasRenameEntry function changes the name of an entry in a phone book.
 old-location: rras\rasrenameentry.htm
 tech.root: RRAS
 ms.assetid: 95c63e58-c96d-43ad-8878-ba9e29f53f6e
-
 ms.date: 12/05/2018
 ms.keywords: RasRenameEntry, RasRenameEntry function [RAS], RasRenameEntryA, RasRenameEntryW, _ras_rasrenameentry, ras/RasRenameEntry, ras/RasRenameEntryA, ras/RasRenameEntryW, rras.rasrenameentry
 ms.topic: function
-f1_keywords: 
- - "ras/RasRenameEntry"
+f1_keywords:
+- ras/RasRenameEntry
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
+- Rasapi32.dll
 api_name:
- - RasRenameEntry
- - RasRenameEntryA
- - RasRenameEntryW
+- RasRenameEntry
+- RasRenameEntryA
+- RasRenameEntryW
 targetos: Windows
 req.typenames: 
 req.redist: 

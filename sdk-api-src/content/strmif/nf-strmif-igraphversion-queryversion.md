@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IGraphVersion.QueryVersion
 title: IGraphVersion::QueryVersion (strmif.h)
-
 description: The QueryVersion method retrieves the current graph version number.
 old-location: dshow\igraphversion_queryversion.htm
 tech.root: DirectShow
 ms.assetid: 297e19fd-91b5-4756-9b33-6b301c74e470
-
 ms.date: 12/05/2018
 ms.keywords: IGraphVersion interface [DirectShow],QueryVersion method, IGraphVersion.QueryVersion, IGraphVersion::QueryVersion, IGraphVersionQueryVersion, QueryVersion, QueryVersion method [DirectShow], QueryVersion method [DirectShow],IGraphVersion interface, dshow.igraphversion_queryversion, strmif/IGraphVersion::QueryVersion
 ms.topic: method
-f1_keywords: 
- - "strmif/IGraphVersion.QueryVersion"
+f1_keywords:
+- strmif/IGraphVersion.QueryVersion
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IGraphVersion.QueryVersion
+- IGraphVersion.QueryVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

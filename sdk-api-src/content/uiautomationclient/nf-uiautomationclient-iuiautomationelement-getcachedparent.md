@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.GetCachedParent
 title: IUIAutomationElement::GetCachedParent (uiautomationclient.h)
-
 description: Retrieves from the cache the parent of this UI Automation element.
 old-location: winauto\uiauto_IUIAutomationElement_GetCachedParent.htm
 tech.root: WinAuto
 ms.assetid: 10ca955b-416a-47c0-9970-940d98132b38
-
 ms.date: 12/05/2018
 ms.keywords: GetCachedParent, GetCachedParent method [Windows Accessibility], GetCachedParent method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetCachedParent method, IUIAutomationElement.GetCachedParent, IUIAutomationElement::GetCachedParent, uiauto.uiauto_IUIAutomationElement_GetCachedParent, uiauto_IUIAutomationElement_GetCachedParent, uiautomationclient/IUIAutomationElement::GetCachedParent, winauto.uiauto_IUIAutomationElement_GetCachedParent
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.GetCachedParent"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.GetCachedParent
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.GetCachedParent
+- IUIAutomationElement.GetCachedParent
 targetos: Windows
 req.typenames: 
 req.redist: 

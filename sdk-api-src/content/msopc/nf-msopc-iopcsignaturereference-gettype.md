@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSignatureReference.GetType
 title: IOpcSignatureReference::GetType (msopc.h)
-
 description: Gets a string that indicates the type of the referenced XML element.
 old-location: opc\iopcsignaturereference_gettype.htm
 tech.root: OPC
 ms.assetid: 7402f031-b06c-4fc6-bb54-ad9fc28600b3
-
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Open Packaging Conventions], GetType method [Open Packaging Conventions],IOpcSignatureReference interface, IOpcSignatureReference interface [Open Packaging Conventions],GetType method, IOpcSignatureReference.GetType, IOpcSignatureReference::GetType, msopc/IOpcSignatureReference::GetType, opc.iopcsignaturereference_gettype
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSignatureReference.GetType"
+f1_keywords:
+- msopc/IOpcSignatureReference.GetType
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignatureReference.GetType
+- IOpcSignatureReference.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 

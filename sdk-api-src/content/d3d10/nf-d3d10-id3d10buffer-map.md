@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Buffer.Map
 title: ID3D10Buffer::Map (d3d10.h)
-
 description: Get a pointer to the data contained in the resource and deny GPU access to the resource.
 old-location: direct3d10\id3d10buffer_map.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10buffer_map.htm
-
 ms.date: 12/05/2018
 ms.keywords: 7d41a2a2-1ba6-cc42-c30b-821d5734b5c3, ID3D10Buffer interface [Direct3D 10],Map method, ID3D10Buffer.Map, ID3D10Buffer::Map, Map, Map method [Direct3D 10], Map method [Direct3D 10],ID3D10Buffer interface, d3d10/ID3D10Buffer::Map, direct3d10.id3d10buffer_map
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Buffer.Map"
+f1_keywords:
+- d3d10/ID3D10Buffer.Map
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Buffer.Map
+- ID3D10Buffer.Map
 targetos: Windows
 req.typenames: 
 req.redist: 

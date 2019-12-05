@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll.put_ProviderType
 title: IEnroll::put_ProviderType (xenroll.h)
-
 description: Sets or retrieves the type of provider.
 old-location: security\ienroll4_providertype.htm
 tech.root: SecCrypto
 ms.assetid: d4ab2b0e-127f-4ec0-9e4a-4314561912e3
-
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],ProviderType property, IEnroll.ProviderType, IEnroll.put_ProviderType, IEnroll::ProviderType, IEnroll::get_ProviderType, IEnroll::put_ProviderType, ProviderType property [Security], ProviderType property [Security],IEnroll interface, put_ProviderType, security.ienroll4_providertype, xenroll/IEnroll::ProviderType, xenroll/IEnroll::get_ProviderType, xenroll/IEnroll::put_ProviderType
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll.ProviderType"
+f1_keywords:
+- xenroll/IEnroll.ProviderType
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll.ProviderType
- - IEnroll.get_ProviderType
- - IEnroll.put_ProviderType
+- IEnroll.ProviderType
+- IEnroll.get_ProviderType
+- IEnroll.put_ProviderType
 targetos: Windows
 req.typenames: 
 req.redist: 

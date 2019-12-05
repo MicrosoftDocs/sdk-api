@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.get_ClassificationLastError
 title: IFsrmClassificationManager::get_ClassificationLastError (fsrmpipeline.h)
-
 description: The error message from the last time that classification was run.
 old-location: fsrm\ifsrmclassificationmanager_classificationlasterror.htm
 tech.root: fsrm
 ms.assetid: 02c62b7d-a128-432a-a15a-51de092b5bab
-
 ms.date: 12/05/2018
 ms.keywords: ClassificationLastError property [File Server Resource Manager], ClassificationLastError property [File Server Resource Manager],FsrmClassificationManager class, ClassificationLastError property [File Server Resource Manager],IFsrmClassificationManager interface, ClassificationLastError property [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],ClassificationLastError property, IFsrmClassificationManager interface [File Server Resource Manager],ClassificationLastError property, IFsrmClassificationManager.ClassificationLastError, IFsrmClassificationManager.get_ClassificationLastError, IFsrmClassificationManager2 interface [File Server Resource Manager],ClassificationLastError property, IFsrmClassificationManager2.ClassificationLastError, IFsrmClassificationManager2::get_ClassificationLastError, IFsrmClassificationManager::ClassificationLastError, IFsrmClassificationManager::get_ClassificationLastError, fs.ifsrmclassificationmanager_classificationlasterror, fsrm.ifsrmclassificationmanager_classificationlasterror, fsrmpipeline/IFsrmClassificationManager2::ClassificationLastError, fsrmpipeline/IFsrmClassificationManager2::get_ClassificationLastError, fsrmpipeline/IFsrmClassificationManager::ClassificationLastError, fsrmpipeline/IFsrmClassificationManager::get_ClassificationLastError, get_ClassificationLastError
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmClassificationManager.ClassificationLastError"
+f1_keywords:
+- fsrmpipeline/IFsrmClassificationManager.ClassificationLastError
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmClassificationManager.ClassificationLastError
- - IFsrmClassificationManager.get_ClassificationLastError
- - IFsrmClassificationManager2.ClassificationLastError
- - IFsrmClassificationManager2.get_ClassificationLastError
- - FsrmClassificationManager.ClassificationLastError
+- IFsrmClassificationManager.ClassificationLastError
+- IFsrmClassificationManager.get_ClassificationLastError
+- IFsrmClassificationManager2.ClassificationLastError
+- IFsrmClassificationManager2.get_ClassificationLastError
+- FsrmClassificationManager.ClassificationLastError
 targetos: Windows
 req.typenames: 
 req.redist: 

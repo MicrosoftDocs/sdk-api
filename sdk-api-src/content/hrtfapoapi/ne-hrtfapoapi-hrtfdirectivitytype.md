@@ -1,19 +1,17 @@
 ---
 UID: NE:hrtfapoapi.HrtfDirectivityType
 title: HrtfDirectivityType (hrtfapoapi.h)
-
 description: Indicates one of several stock directivity patterns.
 old-location: xaudio2\hrtfdirectivitytype.htm
 tech.root: xaudio2
 ms.assetid: 7E094590-993D-4DA2-9955-A07E23B2604E
-
 ms.date: 12/05/2018
 ms.keywords: Cardioid, Cone, HrtfDirectivityType, HrtfDirectivityType enumeration [XAudio2 Audio Mixing APIs], OmniDirectional, hrtfapoapi/ Cardioid, hrtfapoapi/ OmniDirectional, hrtfapoapi/Cone, hrtfapoapi/HrtfDirectivityType, xaudio2.hrtfdirectivitytype
 ms.topic: enum
-f1_keywords: 
- - "hrtfapoapi/HrtfDirectivityType"
+f1_keywords:
+- hrtfapoapi/HrtfDirectivityType
 dev_langs:
- - c++
+- c++
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - HrtfApoApi.h
+- HrtfApoApi.h
 api_name:
- - HrtfDirectivityType
+- HrtfDirectivityType
 targetos: Windows
 req.typenames: HrtfDirectivityType
 req.redist: 

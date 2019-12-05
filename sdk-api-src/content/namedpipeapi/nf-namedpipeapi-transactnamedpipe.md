@@ -1,19 +1,17 @@
 ---
 UID: NF:namedpipeapi.TransactNamedPipe
 title: TransactNamedPipe function (namedpipeapi.h)
-
 description: Combines the functions that write a message to and read a message from the specified named pipe into a single network operation.
 old-location: base\transactnamedpipe.htm
 tech.root: ipc
 ms.assetid: 79afcb18-babb-453e-8618-81b43ecb24c4
-
 ms.date: 12/05/2018
 ms.keywords: TransactNamedPipe, TransactNamedPipe function, _win32_transactnamedpipe, base.transactnamedpipe, namedpipeapi/TransactNamedPipe
 ms.topic: function
 f1_keywords:
 - namedpipeapi/TransactNamedPipe
 dev_langs:
- - c++
+- c++
 req.header: namedpipeapi.h
 req.include-header: 
 req.target-type: Windows

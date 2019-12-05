@@ -1,19 +1,17 @@
 ---
 UID: NF:wintrust.WintrustRemoveActionID
 title: WintrustRemoveActionID function (wintrust.h)
-
 description: Removes an action added by the WintrustAddActionID function. This function has no associated import library.
 old-location: security\wintrustremoveactionid.htm
 tech.root: SecCrypto
 ms.assetid: d1c84b69-4886-4cb4-99c5-294bd9d8228b
-
 ms.date: 12/05/2018
 ms.keywords: HTTPSPROV_ACTION, WINTRUST_ACTION_GENERIC_VERIFY, WINTRUST_ACTION_GENERIC_VERIFY_V2, WintrustRemoveActionID, WintrustRemoveActionID function [Security], security.wintrustremoveactionid, wintrust/WintrustRemoveActionID
 ms.topic: function
-f1_keywords: 
- - "wintrust/WintrustRemoveActionID"
+f1_keywords:
+- wintrust/WintrustRemoveActionID
 dev_langs:
- - c++
+- c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wintrust.lib
 req.dll: Wintrust.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wintrust.dll
+- Wintrust.dll
 api_name:
- - WintrustRemoveActionID
+- WintrustRemoveActionID
 targetos: Windows
 req.typenames: 
 req.redist: 

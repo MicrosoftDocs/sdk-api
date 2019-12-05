@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.IComponents
 title: IComponents (tuner.h)
-
 description: The IComponents interface represents a collection of components.
 old-location: mstv\icomponents.htm
 tech.root: mstv
 ms.assetid: 670b47ba-bcbd-4281-95e3-a5d784f0610b
-
 ms.date: 12/05/2018
 ms.keywords: IComponents, IComponents interface [Microsoft TV Technologies], IComponents interface [Microsoft TV Technologies],described, IComponentsInterface, mstv.icomponents, tuner/IComponents
 ms.topic: interface
-f1_keywords: 
- - "tuner/IComponents"
+f1_keywords:
+- tuner/IComponents
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IComponents
+- IComponents
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngFreeModule
 title: EngFreeModule function (winddi.h)
-
 description: The EngFreeModule function unmaps a file from system memory.
 old-location: display\engfreemodule.htm
 tech.root: display
 ms.assetid: f5520aec-5747-4970-ba2f-06b39e4f43f2
-
 ms.date: 12/05/2018
 ms.keywords: EngFreeModule, EngFreeModule function [Display Devices], display.engfreemodule, gdifncs_23d84e6d-60e7-43a4-af20-3234c8581190.xml, winddi/EngFreeModule
 ms.topic: function
-f1_keywords: 
- - "winddi/EngFreeModule"
+f1_keywords:
+- winddi/EngFreeModule
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,20 +30,20 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
- - Ext-MS-Win-moderncore-Win32k-base-ntgdi-l1-1-0.dll
- - win32kfull.sys
- - win32kmin.sys
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Win32k.sys
+- Ext-MS-Win-moderncore-Win32k-base-ntgdi-l1-1-0.dll
+- win32kfull.sys
+- win32kmin.sys
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - EngFreeModule
+- EngFreeModule
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:inkpresenterdesktop.IInkDesktopHost
 title: IInkDesktopHost (inkpresenterdesktop.h)
-
 description: An IInkDesktopHost object enables ink input, processing, and rendering through the creation of an app thread to host an IInkPresenterDesktop object and insert it into the app's DirectComposition visual tree.
 old-location: input_ink\iinkdesktophost.htm
 tech.root: input_ink
 ms.assetid: 7a577536-405b-400d-89bc-c3b3894b448d
-
 ms.date: 12/05/2018
 ms.keywords: IInkDesktopHost, IInkDesktopHost interface, IInkDesktopHost interface,described, InkPresenterDesktop.iinkdesktophost, inkpresenterdesktop/IInkDesktopHost, input_ink.iinkdesktophost
 ms.topic: interface
-f1_keywords: 
- - "inkpresenterdesktop/IInkDesktopHost"
+f1_keywords:
+- inkpresenterdesktop/IInkDesktopHost
 dev_langs:
- - c++
+- c++
 req.header: inkpresenterdesktop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkPresenterDesktop.h
+- InkPresenterDesktop.h
 api_name:
- - IInkDesktopHost
+- IInkDesktopHost
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcPartSet.CreatePart
 title: IOpcPartSet::CreatePart (msopc.h)
-
 description: Creates a part object that represents a part and adds a pointer to the object's IOpcPart interface to the set.
 old-location: opc\iopcpartset_createpart.htm
 tech.root: OPC
 ms.assetid: 8c5de7ac-f51c-42f2-9068-8e9ede86ad97
-
 ms.date: 12/05/2018
 ms.keywords: CreatePart, CreatePart method [Open Packaging Conventions], CreatePart method [Open Packaging Conventions],IOpcPartSet interface, IOpcPartSet interface [Open Packaging Conventions],CreatePart method, IOpcPartSet.CreatePart, IOpcPartSet::CreatePart, msopc/IOpcPartSet::CreatePart, opc.iopcpartset_createpart
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcPartSet.CreatePart"
+f1_keywords:
+- msopc/IOpcPartSet.CreatePart
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcPartSet.CreatePart
+- IOpcPartSet.CreatePart
 targetos: Windows
 req.typenames: 
 req.redist: 

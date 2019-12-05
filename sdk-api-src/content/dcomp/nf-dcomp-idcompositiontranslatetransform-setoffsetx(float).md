@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionTranslateTransform.SetOffsetX(float)
 title: IDCompositionTranslateTransform::SetOffsetX(float) (dcomp.h)
-
 description: Changes the value of the OffsetX property of a 2D translation transform.
 old-location: directcomp\idcompositiontranslatetransform_setoffsetx_float.htm
 tech.root: directcomp
 ms.assetid: F5D96E02-2FB0-45AD-8F4A-8FB955A40C3F
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTranslateTransform interface [DirectComposition],SetOffsetX method, IDCompositionTranslateTransform.SetOffsetX, IDCompositionTranslateTransform.SetOffsetX(float), IDCompositionTranslateTransform::SetOffsetX, IDCompositionTranslateTransform::SetOffsetX(float), SetOffsetX, SetOffsetX method [DirectComposition], SetOffsetX method [DirectComposition],IDCompositionTranslateTransform interface, dcomp/IDCompositionTranslateTransform::SetOffsetX, directcomp.idcompositiontranslatetransform_setoffsetx_float
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionTranslateTransform.SetOffsetX"
+f1_keywords:
+- dcomp/IDCompositionTranslateTransform.SetOffsetX
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionTranslateTransform.SetOffsetX
+- IDCompositionTranslateTransform.SetOffsetX
 targetos: Windows
 req.typenames: 
 req.redist: 

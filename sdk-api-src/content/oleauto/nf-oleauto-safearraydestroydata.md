@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.SafeArrayDestroyData
 title: SafeArrayDestroyData function (oleauto.h)
-
 description: Destroys all the data in the specified safe array.
 old-location: automat\safearraydestroydata.htm
 tech.root: automat
 ms.assetid: aa9c62ba-79b5-4fcf-b3ed-664016486dfc
-
 ms.date: 12/05/2018
 ms.keywords: SafeArrayDestroyData, SafeArrayDestroyData function [Automation], _oa96_SafeArrayDestroyData, automat.safearraydestroydata, oleauto/SafeArrayDestroyData
 ms.topic: function
-f1_keywords: 
- - "oleauto/SafeArrayDestroyData"
+f1_keywords:
+- oleauto/SafeArrayDestroyData
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - SafeArrayDestroyData
+- SafeArrayDestroyData
 targetos: Windows
 req.typenames: 
 req.redist: 

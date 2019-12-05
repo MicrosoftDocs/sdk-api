@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.ISCPSecureExchange2.TransferContainerData2
 title: ISCPSecureExchange2::TransferContainerData2 (mswmdm.h)
-
 description: The TransferContainerData2 method transfers container file data to the secure content provider.
 old-location: wmdm\iscpsecureexchange2_transfercontainerdata2.htm
 tech.root: WMDM
 ms.assetid: 7e130da3-2bef-4ff0-870c-31ac4c3767e5
-
 ms.date: 12/05/2018
 ms.keywords: ISCPSecureExchange2 interface [windows Media Device Manager],TransferContainerData2 method, ISCPSecureExchange2.TransferContainerData2, ISCPSecureExchange2::TransferContainerData2, ISCPSecureExchange2TransferContainerData2, TransferContainerData2, TransferContainerData2 method [windows Media Device Manager], TransferContainerData2 method [windows Media Device Manager],ISCPSecureExchange2 interface, mswmdm/ISCPSecureExchange2::TransferContainerData2, wmdm.iscpsecureexchange2_transfercontainerdata2
 ms.topic: method
-f1_keywords: 
- - "mswmdm/ISCPSecureExchange2.TransferContainerData2"
+f1_keywords:
+- mswmdm/ISCPSecureExchange2.TransferContainerData2
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - ISCPSecureExchange2.TransferContainerData2
+- ISCPSecureExchange2.TransferContainerData2
 targetos: Windows
 req.typenames: 
 req.redist: 

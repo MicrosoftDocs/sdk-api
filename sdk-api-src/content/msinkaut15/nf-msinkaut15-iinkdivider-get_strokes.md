@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut15.IInkDivider.get_Strokes
 title: IInkDivider::get_Strokes (msinkaut15.h)
-
 description: Gets or sets the InkStrokes collection on which the InkDivider object performs layout analysis.
 old-location: tablet\inkdivider_strokes.htm
 tech.root: tablet
 ms.assetid: 611ccce9-7acb-4138-9655-938efcaa4c75
-
 ms.date: 12/05/2018
 ms.keywords: 611ccce9-7acb-4138-9655-938efcaa4c75, IInkDivider interface [Tablet PC],Strokes property, IInkDivider.Strokes, IInkDivider.get_Strokes, IInkDivider::Strokes, IInkDivider::get_Strokes, IInkDivider::putref_Strokes, InkDivider.get_Strokes, Strokes property [Tablet PC], Strokes property [Tablet PC],IInkDivider interface, get_Strokes, msinkaut15/IInkDivider::Strokes, msinkaut15/IInkDivider::get_Strokes, msinkaut15/IInkDivider::putref_Strokes, tablet.inkdivider_strokes
 ms.topic: method
-f1_keywords: 
- - "msinkaut15/IInkDivider.Strokes"
+f1_keywords:
+- msinkaut15/IInkDivider.Strokes
 dev_langs:
- - c++
+- c++
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Inkdiv.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Inkdiv.dll
- - Inkdiv.dll.dll
+- Inkdiv.dll
+- Inkdiv.dll.dll
 api_name:
- - IInkDivider.Strokes
- - IInkDivider.get_Strokes
- - InkDivider.get_Strokes
+- IInkDivider.Strokes
+- IInkDivider.get_Strokes
+- InkDivider.get_Strokes
 targetos: Windows
 req.typenames: 
 req.redist: 

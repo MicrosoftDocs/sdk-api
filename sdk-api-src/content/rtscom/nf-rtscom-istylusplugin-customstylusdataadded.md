@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IStylusPlugin.CustomStylusDataAdded
 title: IStylusPlugin::CustomStylusDataAdded (rtscom.h)
-
 description: Notifies the implementing plug-in that custom stylus data is available.
 old-location: tablet\istylusplugin_customstylusdataadded.htm
 tech.root: tablet
 ms.assetid: 0d3f556c-b0a8-4346-b7da-82f1a3c2603c
-
 ms.date: 12/05/2018
 ms.keywords: 0d3f556c-b0a8-4346-b7da-82f1a3c2603c, CustomStylusDataAdded, CustomStylusDataAdded method [Tablet PC], CustomStylusDataAdded method [Tablet PC],IStylusPlugin interface, IStylusPlugin interface [Tablet PC],CustomStylusDataAdded method, IStylusPlugin.CustomStylusDataAdded, IStylusPlugin::CustomStylusDataAdded, rtscom/IStylusPlugin::CustomStylusDataAdded, tablet.istylusplugin_customstylusdataadded
 ms.topic: method
-f1_keywords: 
- - "rtscom/IStylusPlugin.CustomStylusDataAdded"
+f1_keywords:
+- rtscom/IStylusPlugin.CustomStylusDataAdded
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IStylusPlugin.CustomStylusDataAdded
+- IStylusPlugin.CustomStylusDataAdded
 targetos: Windows
 req.typenames: 
 req.redist: 

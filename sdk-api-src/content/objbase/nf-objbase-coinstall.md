@@ -1,19 +1,17 @@
 ---
 UID: NF:objbase.CoInstall
 title: CoInstall function (objbase.h)
-
 description: Installs the requested COM server application.
 old-location: winprog\coinstall.htm
 tech.root: DevNotes
 ms.assetid: 92b290a5-0923-42fc-8231-1decca26adc1
-
 ms.date: 12/05/2018
 ms.keywords: CoInstall, CoInstall function [Windows API], objbase/CoInstall, winprog.coinstall
 ms.topic: function
-f1_keywords: 
- - "objbase/CoInstall"
+f1_keywords:
+- objbase/CoInstall
 dev_langs:
- - c++
+- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - CoInstall
+- CoInstall
 targetos: Windows
 req.typenames: 
 req.redist: 

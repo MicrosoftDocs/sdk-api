@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsStartWriterCanonicalization
 title: WsStartWriterCanonicalization function (webservices.h)
-
 description: Starts canonicalization on the specified XML writer.
 old-location: wsw\wsstartwritercanonicalization.htm
 tech.root: wsw
 ms.assetid: e9ea26d6-a136-4103-ac67-42e943ea67b5
-
 ms.date: 12/05/2018
 ms.keywords: WsStartWriterCanonicalization, WsStartWriterCanonicalization function [Web Services for Windows], webservices/WsStartWriterCanonicalization, wsw.wsstartwritercanonicalization
 ms.topic: function
-f1_keywords: 
- - "webservices/WsStartWriterCanonicalization"
+f1_keywords:
+- webservices/WsStartWriterCanonicalization
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsStartWriterCanonicalization
+- WsStartWriterCanonicalization
 targetos: Windows
 req.typenames: 
 req.redist: 

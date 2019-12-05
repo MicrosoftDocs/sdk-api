@@ -1,19 +1,17 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.put_FrequencyDivider
 title: IMpegAudioDecoder::put_FrequencyDivider (mpegtype.h)
-
 description: Specifies the frequency divider as a three-level setting corresponding to the quality of CD Audio, FM Radio, or AM Radio.
 old-location: dshow\impegaudiodecoder_put_frequencydivider.htm
 tech.root: DirectShow
 ms.assetid: 96e5d8f3-b658-408d-a615-e681d8731442
-
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],put_FrequencyDivider method, IMpegAudioDecoder.put_FrequencyDivider, IMpegAudioDecoder::put_FrequencyDivider, IMpegAudioDecoderputFrequencyDivider, dshow.impegaudiodecoder_put_frequencydivider, mpegtype/IMpegAudioDecoder::put_FrequencyDivider, put_FrequencyDivider, put_FrequencyDivider method [DirectShow], put_FrequencyDivider method [DirectShow],IMpegAudioDecoder interface
 ms.topic: method
-f1_keywords: 
- - "mpegtype/IMpegAudioDecoder.put_FrequencyDivider"
+f1_keywords:
+- mpegtype/IMpegAudioDecoder.put_FrequencyDivider
 dev_langs:
- - c++
+- c++
 req.header: mpegtype.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMpegAudioDecoder.put_FrequencyDivider
+- IMpegAudioDecoder.put_FrequencyDivider
 targetos: Windows
 req.typenames: 
 req.redist: 

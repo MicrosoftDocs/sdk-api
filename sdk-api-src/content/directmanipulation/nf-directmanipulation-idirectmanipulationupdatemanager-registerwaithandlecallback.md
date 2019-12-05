@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationUpdateManager.RegisterWaitHandleCallback
 title: IDirectManipulationUpdateManager::RegisterWaitHandleCallback (directmanipulation.h)
-
 description: Registers a callback that is triggered by a handle.
 old-location: directmanipulation\idirectmanipulationupdatemanager_registerwaithandlecallback.htm
 tech.root: directmanipulation
 ms.assetid: bc0e22b8-ec27-478f-9c4b-ca192d8d52d0
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationUpdateManager interface [Direct Manipulation],RegisterWaitHandleCallback method, IDirectManipulationUpdateManager.RegisterWaitHandleCallback, IDirectManipulationUpdateManager::RegisterWaitHandleCallback, RegisterWaitHandleCallback, RegisterWaitHandleCallback method [Direct Manipulation], RegisterWaitHandleCallback method [Direct Manipulation],IDirectManipulationUpdateManager interface, directmanipulation.idirectmanipulationupdatemanager_registerwaithandlecallback, directmanipulation/IDirectManipulationUpdateManager::RegisterWaitHandleCallback
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationUpdateManager.RegisterWaitHandleCallback"
+f1_keywords:
+- directmanipulation/IDirectManipulationUpdateManager.RegisterWaitHandleCallback
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationUpdateManager.RegisterWaitHandleCallback
+- IDirectManipulationUpdateManager.RegisterWaitHandleCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

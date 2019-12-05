@@ -1,19 +1,17 @@
 ---
 UID: NF:commoncontrols.ImageList_CoCreateInstance
 title: ImageList_CoCreateInstance function (commoncontrols.h)
-
 description: Creates a single instance of an imagelist and returns an interface pointer to it.
 old-location: controls\ImageList_CoCreateInstance.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_cocreateinstance.htm
-
 ms.date: 12/05/2018
 ms.keywords: ImageList_CoCreateInstance, ImageList_CoCreateInstance function [Windows Controls], _shell_ImageList_CoCreateInstance, _shell_ImageList_CoCreateInstance_cpp, commoncontrols/ImageList_CoCreateInstance, controls.ImageList_CoCreateInstance, controls._shell_ImageList_CoCreateInstance
 ms.topic: function
-f1_keywords: 
- - "commoncontrols/ImageList_CoCreateInstance"
+f1_keywords:
+- commoncontrols/ImageList_CoCreateInstance
 dev_langs:
- - c++
+- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - ImageList_CoCreateInstance
+- ImageList_CoCreateInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

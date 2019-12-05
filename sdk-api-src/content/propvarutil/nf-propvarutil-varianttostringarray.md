@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.VariantToStringArray
 title: VariantToStringArray function (propvarutil.h)
-
 description: Extracts data from a vector structure into a String array.
 old-location: properties\VariantToStringArray.htm
 tech.root: properties
 ms.assetid: d19b12ad-408c-4502-ad59-49386784bd69
-
 ms.date: 12/05/2018
 ms.keywords: VariantToStringArray, VariantToStringArray function [Windows Properties], _shell_VariantToStringArray, properties.VariantToStringArray, propvarutil/VariantToStringArray, shell.VariantToStringArray
 ms.topic: function
-f1_keywords: 
- - "propvarutil/VariantToStringArray"
+f1_keywords:
+- propvarutil/VariantToStringArray
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - VariantToStringArray
+- VariantToStringArray
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

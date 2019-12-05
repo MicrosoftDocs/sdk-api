@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.CreateLinearGradientBrush(const D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES,const D2D1_BRUSH_PROPERTIES,ID2D1GradientStopCollection,ID2D1LinearGradientBrush)
 title: ID2D1RenderTarget::CreateLinearGradientBrush (d2d1.h)
-
 description: Creates an ID2D1LinearGradientBrush object for painting areas with a linear gradient.
 old-location: direct2d\id2d1rendertarget_createlineargradientbrush.htm
 tech.root: Direct2D
 ms.assetid: dc07113f-ff93-4b0f-8328-02dd481dccb0
-
 ms.date: 12/05/2018
 ms.keywords: CreateLinearGradientBrush, CreateLinearGradientBrush methods [Direct2D], ID2D1RenderTarget.CreateLinearGradientBrush, ID2D1RenderTarget::CreateLinearGradientBrush, d2d1/CreateLinearGradientBrush, direct2d.id2d1rendertarget_createlineargradientbrush
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1RenderTarget::CreateLinearGradientBrush"
+f1_keywords:
+- d2d1/ID2D1RenderTarget::CreateLinearGradientBrush
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1RenderTarget::CreateLinearGradientBrush
+- ID2D1RenderTarget::CreateLinearGradientBrush
 targetos: Windows
 req.typenames: 
 req.redist: 

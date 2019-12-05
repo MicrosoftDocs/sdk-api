@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.GetPathTypes
 title: GraphicsPath::GetPathTypes (gdipluspath.h)
-
 description: The GraphicsPath::GetPathTypes method gets this path's array of point types.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GetPathTypes_types_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\getpathtypes.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetPathTypes, GetPathTypes method [GDI+], GetPathTypes method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],GetPathTypes method, GraphicsPath.GetPathTypes, GraphicsPath::GetPathTypes, _gdiplus_CLASS_GraphicsPath_GetPathTypes_types_count_, gdiplus._gdiplus_CLASS_GraphicsPath_GetPathTypes_types_count_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPath.GetPathTypes"
+f1_keywords:
+- gdipluspath/GraphicsPath.GetPathTypes
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPath.GetPathTypes
+- GraphicsPath.GetPathTypes
 targetos: Windows
 req.typenames: 
 req.redist: 

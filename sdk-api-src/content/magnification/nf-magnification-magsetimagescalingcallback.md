@@ -1,19 +1,17 @@
 ---
 UID: NF:magnification.MagSetImageScalingCallback
 title: MagSetImageScalingCallback function (magnification.h)
-
 description: Sets the callback function for external image filtering and scaling.
 old-location: magapi\magapi_MagSetImageScalingCallback.htm
 tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\magsetimagescalingcallback.htm
-
 ms.date: 12/05/2018
 ms.keywords: MagSetImageScalingCallback, MagSetImageScalingCallback function [Magnification API], magapi.magapi_MagSetImageScalingCallback, magapi_MagSetImageScalingCallback, magnification/MagSetImageScalingCallback
 ms.topic: function
-f1_keywords: 
- - "magnification/MagSetImageScalingCallback"
+f1_keywords:
+- magnification/MagSetImageScalingCallback
 dev_langs:
- - c++
+- c++
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Magnification.lib
 req.dll: Magnification.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Magnification.dll
+- Magnification.dll
 api_name:
- - MagSetImageScalingCallback
+- MagSetImageScalingCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

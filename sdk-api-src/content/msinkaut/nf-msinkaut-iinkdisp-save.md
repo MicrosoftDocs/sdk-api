@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkDisp.Save
 title: IInkDisp::Save (msinkaut.h)
-
 description: Converts the ink to the specified InkPersistenceFormat, saves the ink by using the specified InkPersistenceCompressionMode, and returns the binary data in an array of bytes.
 old-location: tablet\inkdisp_save.htm
 tech.root: tablet
 ms.assetid: 31da19a7-207f-4f11-9b0f-7402e9727f59
-
 ms.date: 12/05/2018
 ms.keywords: 31da19a7-207f-4f11-9b0f-7402e9727f59, Base64Gif, Base64InkSerializedFormat, Gif, IInkDisp interface [Tablet PC],Save method, IInkDisp.Save, IInkDisp::Save, IPCM_Default, IPCM_MaximumCompression, IPCM_NoCompression, InkSerializedFormat, Save, Save method [Tablet PC], Save method [Tablet PC],IInkDisp interface, msinkaut/IInkDisp::Save, tablet.inkdisp_save
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkDisp.Save"
+f1_keywords:
+- msinkaut/IInkDisp.Save
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkDisp.Save
+- IInkDisp.Save
 targetos: Windows
 req.typenames: 
 req.redist: 

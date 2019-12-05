@@ -1,19 +1,17 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.get_Originator
 title: ITDirectoryObjectConference::get_Originator (rend.h)
-
 description: The get_Originator method gets the originator's user name.
 old-location: tapi3\itdirectoryobjectconference_get_originator.htm
 tech.root: Tapi
 ms.assetid: b17be92c-eee6-43ec-bec0-75d4c30ad22f
-
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_Originator method, ITDirectoryObjectConference.get_Originator, ITDirectoryObjectConference::get_Originator, _tapi3_itdirectoryobjectconference_get_originator, get_Originator, get_Originator method [TAPI 2.2], get_Originator method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_Originator, tapi3.itdirectoryobjectconference_get_originator
 ms.topic: method
-f1_keywords: 
- - "rend/ITDirectoryObjectConference.get_Originator"
+f1_keywords:
+- rend/ITDirectoryObjectConference.get_Originator
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - ITDirectoryObjectConference.get_Originator
+- ITDirectoryObjectConference.get_Originator
 targetos: Windows
 req.typenames: 
 req.redist: 

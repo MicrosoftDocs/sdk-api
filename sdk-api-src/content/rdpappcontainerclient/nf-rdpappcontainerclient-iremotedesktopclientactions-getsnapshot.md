@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientActions.GetSnapshot
 title: IRemoteDesktopClientActions::GetSnapshot (rdpappcontainerclient.h)
-
 description: Causes a snapshot of the Remote Desktop Protocol (RDP) app container client's in-session desktop to be taken.
 old-location: termserv\iremotedesktopclientactions_getsnapshot.htm
 tech.root: TermServ
 ms.assetid: c80fe6e3-6ca7-4595-aa0e-c1ed0f6632a5
-
 ms.date: 12/05/2018
 ms.keywords: GetSnapshot, GetSnapshot method [Remote Desktop Services], GetSnapshot method [Remote Desktop Services],IRemoteDesktopClientActions interface, IRemoteDesktopClientActions interface [Remote Desktop Services],GetSnapshot method, IRemoteDesktopClientActions.GetSnapshot, IRemoteDesktopClientActions::GetSnapshot, rdpappcontainerclient/IRemoteDesktopClientActions::GetSnapshot, termserv.iremotedesktopclientactions_getsnapshot
 ms.topic: method
-f1_keywords: 
- - "rdpappcontainerclient/IRemoteDesktopClientActions.GetSnapshot"
+f1_keywords:
+- rdpappcontainerclient/IRemoteDesktopClientActions.GetSnapshot
 dev_langs:
- - c++
+- c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsTscAx.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsTscAx.dll
+- MsTscAx.dll
 api_name:
- - IRemoteDesktopClientActions.GetSnapshot
+- IRemoteDesktopClientActions.GetSnapshot
 targetos: Windows
 req.typenames: 
 req.redist: 

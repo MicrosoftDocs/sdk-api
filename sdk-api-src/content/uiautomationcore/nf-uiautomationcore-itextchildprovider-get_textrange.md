@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ITextChildProvider.get_TextRange
 title: ITextChildProvider::get_TextRange (uiautomationcore.h)
-
 description: Retrieves a text range that encloses this child element.
 old-location: winauto\uiauto_ITextChildProvider_TextRange.htm
 tech.root: WinAuto
 ms.assetid: 7BF4999C-901A-4007-AA93-CDE32D666CBF
-
 ms.date: 12/05/2018
 ms.keywords: ITextChildProvider interface [Windows Accessibility],TextRange property, ITextChildProvider.TextRange, ITextChildProvider.get_TextRange, ITextChildProvider::TextRange, ITextChildProvider::get_TextRange, TextRange property [Windows Accessibility], TextRange property [Windows Accessibility],ITextChildProvider interface, get_TextRange, uiautomationcore/ITextChildProvider::TextRange, uiautomationcore/ITextChildProvider::get_TextRange, winauto.uiauto_ITextChildProvider_TextRange
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ITextChildProvider.TextRange"
+f1_keywords:
+- uiautomationcore/ITextChildProvider.TextRange
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - ITextChildProvider.TextRange
- - ITextChildProvider.get_TextRange
+- ITextChildProvider.TextRange
+- ITextChildProvider.get_TextRange
 targetos: Windows
 req.typenames: 
 req.redist: 

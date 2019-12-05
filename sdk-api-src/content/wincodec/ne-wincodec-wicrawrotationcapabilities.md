@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICRawRotationCapabilities
 title: WICRawRotationCapabilities (wincodec.h)
-
 description: Specifies the rotation capabilities of the codec.
 old-location: wic\_wic_codec_wicrawrotationcapabilities.htm
 tech.root: wic
 ms.assetid: f6713652-7d38-4ac6-80d8-fd53095c50a2
-
 ms.date: 12/05/2018
 ms.keywords: WICRawRotationCapabilities, WICRawRotationCapabilities enumeration [Windows Imaging Component], WICRawRotationCapabilityFullySupported, WICRawRotationCapabilityGetSupported, WICRawRotationCapabilityNinetyDegreesSupported, WICRawRotationCapabilityNotSupported, _wic_codec_wicrawrotationcapabilities, wic._wic_codec_wicrawrotationcapabilities, wincodec/WICRawRotationCapabilities, wincodec/WICRawRotationCapabilityFullySupported, wincodec/WICRawRotationCapabilityGetSupported, wincodec/WICRawRotationCapabilityNinetyDegreesSupported, wincodec/WICRawRotationCapabilityNotSupported
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICRawRotationCapabilities"
+f1_keywords:
+- wincodec/WICRawRotationCapabilities
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICRawRotationCapabilities
+- WICRawRotationCapabilities
 targetos: Windows
 req.typenames: WICRawRotationCapabilities
 req.redist: 

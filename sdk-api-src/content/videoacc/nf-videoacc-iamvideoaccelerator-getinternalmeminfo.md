@@ -1,19 +1,17 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.GetInternalMemInfo
 title: IAMVideoAccelerator::GetInternalMemInfo (videoacc.h)
-
 description: The GetInternalMemInfo method queries for the amount of scratch memory the hardware abstraction layer (HAL) will allocate for its private use.
 old-location: dshow\iamvideoaccelerator_getinternalmeminfo.htm
 tech.root: DirectShow
 ms.assetid: 64b6371c-4baf-4ec1-bd0d-6413f053e2fa
-
 ms.date: 12/05/2018
 ms.keywords: GetInternalMemInfo, GetInternalMemInfo method [DirectShow], GetInternalMemInfo method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],GetInternalMemInfo method, IAMVideoAccelerator.GetInternalMemInfo, IAMVideoAccelerator::GetInternalMemInfo, IAMVideoAcceleratorGetInternalMemInfo, dshow.iamvideoaccelerator_getinternalmeminfo, videoacc/IAMVideoAccelerator::GetInternalMemInfo
 ms.topic: method
 f1_keywords:
 - videoacc/IAMVideoAccelerator.GetInternalMemInfo
 dev_langs:
- - c++
+- c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows

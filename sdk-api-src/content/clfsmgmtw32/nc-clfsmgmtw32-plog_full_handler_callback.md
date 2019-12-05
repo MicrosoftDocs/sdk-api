@@ -1,19 +1,17 @@
 ---
 UID: NC:clfsmgmtw32.PLOG_FULL_HANDLER_CALLBACK
 title: PLOG_FULL_HANDLER_CALLBACK (clfsmgmtw32.h)
-
 description: The LOG_FULL_HANDLER_CALLBACK function is an application-defined callback function that receives notification that the call to HandleLogFull is complete.
 old-location: fs\log_full_handler_callback.htm
 tech.root: Clfs
 ms.assetid: 7b8d3b94-2b2e-427e-9b89-530310ecc6fe
-
 ms.date: 12/05/2018
 ms.keywords: LOG_FULL_HANDLER_CALLBACK, LOG_FULL_HANDLER_CALLBACK callback function [Files], PLOG_FULL_HANDLER_CALLBACK, PLOG_FULL_HANDLER_CALLBACK callback, clfsmgmtw32/ LOG_FULL_HANDLER_CALLBACK, fs.log_full_handler_callback
 ms.topic: callback
-f1_keywords: 
- - "clfsmgmtw32/LOG_FULL_HANDLER_CALLBACK"
+f1_keywords:
+- clfsmgmtw32/LOG_FULL_HANDLER_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Clfsmgmtw32.h
+- Clfsmgmtw32.h
 api_name:
- - LOG_FULL_HANDLER_CALLBACK
+- LOG_FULL_HANDLER_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:cfapi.CF_UPDATE_FLAGS
 title: CF_UPDATE_FLAGS (cfapi.h)
-
 description: Flags for updating a placeholder file or directory.
 old-location: cloudapi\cf_update_flags.htm
 tech.root: cfApi
 ms.assetid: 83EBEF22-9EAE-4B51-AA23-325FA96EB070
-
 ms.date: 12/05/2018
 ms.keywords: CF_UPDATE_FLAGS, CF_UPDATE_FLAGS enumeration, CF_UPDATE_FLAG_CLEAR_IN_SYNC, CF_UPDATE_FLAG_DEHYDRATE, CF_UPDATE_FLAG_DISABLE_ON_DEMAND_POPULATION, CF_UPDATE_FLAG_ENABLE_ON_DEMAND_POPULATION, CF_UPDATE_FLAG_MARK_IN_SYNC, CF_UPDATE_FLAG_NONE, CF_UPDATE_FLAG_PASSTHROUGH_FS_METADATA, CF_UPDATE_FLAG_REMOVE_FILE_IDENTITY, CF_UPDATE_FLAG_REMOVE_PROPERTY, CF_UPDATE_FLAG_VERIFY_IN_SYNC, cfapi/ CF_UPDATE_FLAG_PASSTHROUGH_FS_METADATA, cfapi/ CF_UPDATE_FLAG_REMOVE_PROPERTY, cfapi/CF_UPDATE_FLAGS, cfapi/CF_UPDATE_FLAG_CLEAR_IN_SYNC, cfapi/CF_UPDATE_FLAG_DEHYDRATE, cfapi/CF_UPDATE_FLAG_DISABLE_ON_DEMAND_POPULATION, cfapi/CF_UPDATE_FLAG_ENABLE_ON_DEMAND_POPULATION, cfapi/CF_UPDATE_FLAG_MARK_IN_SYNC, cfapi/CF_UPDATE_FLAG_NONE, cfapi/CF_UPDATE_FLAG_REMOVE_FILE_IDENTITY, cfapi/CF_UPDATE_FLAG_VERIFY_IN_SYNC, cloudApi.cf_update_flags
 ms.topic: enum
-f1_keywords: 
- - "cfapi/CF_UPDATE_FLAGS"
+f1_keywords:
+- cfapi/CF_UPDATE_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CfApi.h
+- CfApi.h
 api_name:
- - CF_UPDATE_FLAGS
+- CF_UPDATE_FLAGS
 targetos: Windows
 req.typenames: CF_UPDATE_FLAGS
 req.redist: 

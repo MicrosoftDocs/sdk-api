@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwProduct.put_RuleCategories
 title: INetFwProduct::put_RuleCategories (netfw.h)
-
 description: For a third-party firewall product registration, indicates the rule categories for which the third-party firewall wishes to take ownership from Windows Firewall.
 old-location: ics\inetfwproduct_rulecategories.htm
 tech.root: ics
 ms.assetid: 77e16df3-aab6-4e5f-b0e5-c203379fc6e8
-
 ms.date: 12/05/2018
 ms.keywords: INetFwProduct interface [ICS/ICF],RuleCategories property, INetFwProduct.RuleCategories, INetFwProduct.put_RuleCategories, INetFwProduct::RuleCategories, INetFwProduct::get_RuleCategories, INetFwProduct::put_RuleCategories, RuleCategories property [ICS/ICF], RuleCategories property [ICS/ICF],INetFwProduct interface, ics.inetfwproduct_rulecategories, netfw/INetFwProduct::RuleCategories, netfw/INetFwProduct::get_RuleCategories, netfw/INetFwProduct::put_RuleCategories, put_RuleCategories
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwProduct.RuleCategories"
+f1_keywords:
+- netfw/INetFwProduct.RuleCategories
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwProduct.RuleCategories
- - INetFwProduct.get_RuleCategories
- - INetFwProduct.put_RuleCategories
+- INetFwProduct.RuleCategories
+- INetFwProduct.get_RuleCategories
+- INetFwProduct.put_RuleCategories
 targetos: Windows
 req.typenames: 
 req.redist: 

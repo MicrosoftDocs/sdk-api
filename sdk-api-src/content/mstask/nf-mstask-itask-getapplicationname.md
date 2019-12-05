@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.ITask.GetApplicationName
 title: ITask::GetApplicationName (mstask.h)
-
 description: This method retrieves the name of the application that the task is associated with.
 old-location: taskschd\itask_getapplicationname.htm
 tech.root: taskschd
 ms.assetid: 79a8c324-1191-412b-be2b-eb5935337925
-
 ms.date: 12/05/2018
 ms.keywords: GetApplicationName, GetApplicationName method [Task Scheduler], GetApplicationName method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetApplicationName method, ITask.GetApplicationName, ITask::GetApplicationName, _msb_itask_getapplicationname, mstask/ITask::GetApplicationName, taskschd.itask_getapplicationname
 ms.topic: method
-f1_keywords: 
- - "mstask/ITask.GetApplicationName"
+f1_keywords:
+- mstask/ITask.GetApplicationName
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - ITask.GetApplicationName
+- ITask.GetApplicationName
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

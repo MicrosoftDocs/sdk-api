@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.GenerateMips
 title: ID3D10Device::GenerateMips (d3d10.h)
-
 description: Generates mipmaps for the given shader resource.
 old-location: direct3d10\id3d10device_generatemips.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_generatemips.htm
-
 ms.date: 12/05/2018
 ms.keywords: 46ad9ad3-37a7-33c9-7829-0dbf6d4b348a, GenerateMips, GenerateMips method [Direct3D 10], GenerateMips method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GenerateMips method, ID3D10Device.GenerateMips, ID3D10Device::GenerateMips, d3d10/ID3D10Device::GenerateMips, direct3d10.id3d10device_generatemips
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.GenerateMips"
+f1_keywords:
+- d3d10/ID3D10Device.GenerateMips
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.GenerateMips
+- ID3D10Device.GenerateMips
 targetos: Windows
 req.typenames: 
 req.redist: 

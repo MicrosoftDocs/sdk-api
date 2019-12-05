@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetSystemPaletteUse
 title: GetSystemPaletteUse function (wingdi.h)
-
 description: The GetSystemPaletteUse function retrieves the current state of the system (physical) palette for the specified device context (DC).
 old-location: gdi\getsystempaletteuse.htm
 tech.root: gdi
 ms.assetid: 0a9e7906-2f81-4fda-b03d-86feb0755327
-
 ms.date: 12/05/2018
 ms.keywords: GetSystemPaletteUse, GetSystemPaletteUse function [Windows GDI], _win32_GetSystemPaletteUse, gdi.getsystempaletteuse, wingdi/GetSystemPaletteUse
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetSystemPaletteUse"
+f1_keywords:
+- wingdi/GetSystemPaletteUse
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - GetSystemPaletteUse
+- GetSystemPaletteUse
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfReverseConversionList.GetString
 title: ITfReverseConversionList::GetString (msctf.h)
-
 description: Retrieves the keystroke sequence at the specified index.
 old-location: tsf\itfreverseconversionlist_getstring.htm
 tech.root: TSF
 ms.assetid: 5a8cc79f-d348-4fe8-b005-aeabd6db43c5
-
 ms.date: 12/05/2018
 ms.keywords: GetString, GetString method [Text Services Framework], GetString method [Text Services Framework],ITfReverseConversionList interface, ITfReverseConversionList interface [Text Services Framework],GetString method, ITfReverseConversionList.GetString, ITfReverseConversionList::GetString, msctf/ITfReverseConversionList::GetString, tsf.itfreverseconversionlist_getstring
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfReverseConversionList.GetString"
+f1_keywords:
+- msctf/ITfReverseConversionList.GetString
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfReverseConversionList.GetString
+- ITfReverseConversionList.GetString
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange2.GetCch
 title: ITextRange2::GetCch (tom.h)
-
 description: Gets the count of characters in a range.
 old-location: controls\itextrange2_getcch.htm
 tech.root: Controls
 ms.assetid: a6f06062-3c8f-40c0-9b5d-6c22a647bfbc
-
 ms.date: 12/05/2018
 ms.keywords: GetCch, GetCch method [Windows Controls], GetCch method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetCch method, ITextRange2.GetCch, ITextRange2::GetCch, controls.itextrange2_getcch, tom/ITextRange2::GetCch
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange2.GetCch"
+f1_keywords:
+- tom/ITextRange2.GetCch
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange2.GetCch
+- ITextRange2.GetCch
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CreateDIBitmap
 title: CreateDIBitmap function (wingdi.h)
-
 description: The CreateDIBitmap function creates a compatible bitmap (DDB) from a DIB and, optionally, sets the bitmap bits.
 old-location: gdi\createdibitmap.htm
 tech.root: gdi
 ms.assetid: e9a5b525-a6b6-4309-9e53-69d274b85783
-
 ms.date: 12/05/2018
 ms.keywords: CBM_INIT, CreateDIBitmap, CreateDIBitmap function [Windows GDI], DIB_PAL_COLORS, DIB_RGB_COLORS, _win32_CreateDIBitmap, gdi.createdibitmap, wingdi/CreateDIBitmap
 ms.topic: function
-f1_keywords: 
- - "wingdi/CreateDIBitmap"
+f1_keywords:
+- wingdi/CreateDIBitmap
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Draw-l1-1-1.dll
- - ext-ms-win-gdi-draw-l1-1-2.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Draw-l1-1-1.dll
+- ext-ms-win-gdi-draw-l1-1-2.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - CreateDIBitmap
+- CreateDIBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetXAddrs
 title: IWSDiscoveredService::GetXAddrs (wsddisco.h)
-
 description: Retrieves a list of WS-Discovery XAddrs.
 old-location: ncd\iwsdiscoveredservice_getxaddrs.htm
 tech.root: WsdApi
 ms.assetid: a861374e-fee4-486b-8e23-f4a4a8203b28
-
 ms.date: 12/05/2018
 ms.keywords: GetXAddrs, GetXAddrs method, GetXAddrs method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetXAddrs method, IWSDiscoveredService.GetXAddrs, IWSDiscoveredService::GetXAddrs, ncd.iwsdiscoveredservice_getxaddrs, wsddisco/IWSDiscoveredService::GetXAddrs
 ms.topic: method
 f1_keywords:
 - wsddisco/IWSDiscoveredService.GetXAddrs
 dev_langs:
- - c++
+- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

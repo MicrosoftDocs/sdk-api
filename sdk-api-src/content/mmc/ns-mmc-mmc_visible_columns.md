@@ -1,19 +1,17 @@
 ---
 UID: NS:mmc._MMC_VISIBLE_COLUMNS
 title: MMC_VISIBLE_COLUMNS (mmc.h)
-
 description: Used by MMC with the MMCN_COLUMNS_CHANGED notification to inform the snap-in which columns in a column set are visible.
 old-location: mmc\mmc_visible_columns.htm
 tech.root: mmc
 ms.assetid: b2f54c36-a446-4c16-8595-ab7e3411eb88
-
 ms.date: 12/05/2018
 ms.keywords: MMC_VISIBLE_COLUMNS, MMC_VISIBLE_COLUMNS structure [MMC], _slate_mmc_visible_columns, mmc.mmc_visible_columns, mmc/MMC_VISIBLE_COLUMNS
 ms.topic: struct
-f1_keywords: 
- - "mmc/MMC_VISIBLE_COLUMNS"
+f1_keywords:
+- mmc/MMC_VISIBLE_COLUMNS
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - MMC_VISIBLE_COLUMNS
+- MMC_VISIBLE_COLUMNS
 targetos: Windows
 req.typenames: MMC_VISIBLE_COLUMNS
 req.redist: 

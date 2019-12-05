@@ -1,19 +1,17 @@
 ---
 UID: NF:commdlg.GetOpenFileNameA
 title: GetOpenFileNameA function (commdlg.h)
-
 description: Creates an Open dialog box that lets the user specify the drive, directory, and the name of a file or set of files to be opened.
 old-location: dlgbox\getopenfilename.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\getopenfilename.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetOpenFileName, GetOpenFileName function [Dialog Boxes], GetOpenFileNameA, GetOpenFileNameW, _win32_GetOpenFileName, _win32_getopenfilename_cpp, commdlg/GetOpenFileName, commdlg/GetOpenFileNameA, commdlg/GetOpenFileNameW, dlgbox.getopenfilename, winui._win32_getopenfilename
 ms.topic: function
-f1_keywords: 
- - "commdlg/GetOpenFileName"
+f1_keywords:
+- commdlg/GetOpenFileName
 dev_langs:
- - c++
+- c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Comdlg32.lib
 req.dll: Comdlg32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comdlg32.dll
- - ext-ms-win-shell-comdlg32-l1-1-0.dll
- - ext-ms-win-shell-comdlg32-l1-1-1.dll
+- Comdlg32.dll
+- ext-ms-win-shell-comdlg32-l1-1-0.dll
+- ext-ms-win-shell-comdlg32-l1-1-1.dll
 api_name:
- - GetOpenFileName
- - GetOpenFileNameA
- - GetOpenFileNameW
+- GetOpenFileName
+- GetOpenFileNameA
+- GetOpenFileNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

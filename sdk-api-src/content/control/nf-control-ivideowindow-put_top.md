@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IVideoWindow.put_Top
 title: IVideoWindow::put_Top (control.h)
-
 description: The put_Top method specifies the y-coordinate of the video window.
 old-location: dshow\ivideowindow_put_top.htm
 tech.root: DirectShow
 ms.assetid: 1a5df1f1-3867-4956-8e1b-090aa8d8ff3a
-
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_Top method, IVideoWindow.put_Top, IVideoWindow::put_Top, IVideoWindowput_Top, control/IVideoWindow::put_Top, dshow.ivideowindow_put_top, put_Top, put_Top method [DirectShow], put_Top method [DirectShow],IVideoWindow interface
 ms.topic: method
-f1_keywords: 
- - "control/IVideoWindow.put_Top"
+f1_keywords:
+- control/IVideoWindow.put_Top
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVideoWindow.put_Top
+- IVideoWindow.put_Top
 targetos: Windows
 req.typenames: 
 req.redist: 

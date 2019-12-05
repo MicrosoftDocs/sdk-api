@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiGetUserInfoW
 title: MsiGetUserInfoW function (msi.h)
-
 description: The MsiGetUserInfo function returns the registered user information for an installed product.
 old-location: setup\msigetuserinfo.htm
 tech.root: Msi
 ms.assetid: c05580c6-9be3-410a-aa97-be15c2980ba8
-
 ms.date: 12/05/2018
 ms.keywords: MsiGetUserInfo, MsiGetUserInfo function, MsiGetUserInfoA, MsiGetUserInfoW, _msi_msigetuserinfo, msi/MsiGetUserInfo, msi/MsiGetUserInfoA, msi/MsiGetUserInfoW, setup.msigetuserinfo
 ms.topic: function
-f1_keywords: 
- - "msi/MsiGetUserInfo"
+f1_keywords:
+- msi/MsiGetUserInfo
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiGetUserInfo
- - MsiGetUserInfoA
- - MsiGetUserInfoW
+- MsiGetUserInfo
+- MsiGetUserInfoA
+- MsiGetUserInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 

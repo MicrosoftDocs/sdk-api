@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceManager.GetDevices
 title: IPortableDeviceManager::GetDevices (portabledeviceapi.h)
-
 description: Retrieves a list of portable devices connected to the computer.
 old-location: wpdsdk\iportabledevicemanager_getdevices.htm
 tech.root: wpd_sdk
 ms.assetid: 5061b3c0-8b93-480d-b1c6-0a6b616a2c8d
-
 ms.date: 12/05/2018
 ms.keywords: GetDevices, GetDevices method [Windows Portable Devices SDK], GetDevices method [Windows Portable Devices SDK],IPortableDeviceManager interface, IPortableDeviceManager interface [Windows Portable Devices SDK],GetDevices method, IPortableDeviceManager.GetDevices, IPortableDeviceManager::GetDevices, IPortableDeviceManagerGetDevices, portabledeviceapi/IPortableDeviceManager::GetDevices, wpdsdk.iportabledevicemanager_getdevices
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceManager.GetDevices"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceManager.GetDevices
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceManager.GetDevices
+- IPortableDeviceManager.GetDevices
 targetos: Windows
 req.typenames: 
 req.redist: 

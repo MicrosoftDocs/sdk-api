@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePartResources
 title: IXpsOMObjectFactory::CreatePartResources (xpsobjectmodel.h)
-
 description: Creates an IXpsOMPartResources interface that can contain part-based resources.
 old-location: xps\ixpsomobjectfactory_createpartresources.htm
 tech.root: printdocs
 ms.assetid: f525139b-a94f-41ee-966f-408079a9e676
-
 ms.date: 12/05/2018
 ms.keywords: CreatePartResources, CreatePartResources method [XPS Documents and Packaging], CreatePartResources method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePartResources method, IXpsOMObjectFactory.CreatePartResources, IXpsOMObjectFactory::CreatePartResources, xps.ixpsomobjectfactory_createpartresources, xpsobjectmodel/IXpsOMObjectFactory::CreatePartResources
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMObjectFactory.CreatePartResources"
+f1_keywords:
+- xpsobjectmodel/IXpsOMObjectFactory.CreatePartResources
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreatePartResources
+- IXpsOMObjectFactory.CreatePartResources
 targetos: Windows
 req.typenames: 
 req.redist: 

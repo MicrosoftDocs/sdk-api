@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFRateControl.GetRate
 title: IMFRateControl::GetRate (mfidl.h)
-
 description: Gets the current playback rate.
 old-location: mf\imfratecontrol_getrate.htm
 tech.root: medfound
 ms.assetid: fb970d06-0f82-4e35-8e03-68044c7f12cd
-
 ms.date: 12/05/2018
 ms.keywords: GetRate, GetRate method [Media Foundation], GetRate method [Media Foundation],IMFRateControl interface, IMFRateControl interface [Media Foundation],GetRate method, IMFRateControl.GetRate, IMFRateControl::GetRate, fb970d06-0f82-4e35-8e03-68044c7f12cd, mf.imfratecontrol_getrate, mfidl/IMFRateControl::GetRate
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFRateControl.GetRate"
+f1_keywords:
+- mfidl/IMFRateControl.GetRate
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFRateControl.GetRate
+- IMFRateControl.GetRate
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11Debug.SetSwapChain
 title: ID3D11Debug::SetSwapChain (d3d11sdklayers.h)
-
 description: Sets a swap chain that the runtime will use for automatically calling IDXGISwapChain::Present.
 old-location: direct3d11\id3d11debug_setswapchain.htm
 tech.root: direct3d11
 ms.assetid: 554d56e7-8901-4b39-bc1e-6db6496263c8
-
 ms.date: 12/05/2018
 ms.keywords: 93f55103-9ea2-645a-a17a-4dc52160d41b, ID3D11Debug interface [Direct3D 11],SetSwapChain method, ID3D11Debug.SetSwapChain, ID3D11Debug::SetSwapChain, SetSwapChain, SetSwapChain method [Direct3D 11], SetSwapChain method [Direct3D 11],ID3D11Debug interface, d3d11sdklayers/ID3D11Debug::SetSwapChain, direct3d11.id3d11debug_setswapchain
 ms.topic: method
-f1_keywords: 
- - "d3d11sdklayers/ID3D11Debug.SetSwapChain"
+f1_keywords:
+- d3d11sdklayers/ID3D11Debug.SetSwapChain
 dev_langs:
- - c++
+- c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Debug.SetSwapChain
+- ID3D11Debug.SetSwapChain
 targetos: Windows
 req.typenames: 
 req.redist: 

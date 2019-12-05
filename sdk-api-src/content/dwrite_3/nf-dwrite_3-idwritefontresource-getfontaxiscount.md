@@ -1,17 +1,15 @@
 ---
 UID: NF:dwrite_3.IDWriteFontResource.GetFontAxisCount
 title: IDWriteFontResource::GetFontAxisCount
-
 description: Retrieves the number of axes supported by the font resource.
 tech.root: DirectWrite
-
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],GetFontAxisCount method, IDWriteFontResource.GetFontAxisCount, IDWriteFontResource::GetFontAxisCount, GetFontAxisCount, GetFontAxisCount method [Direct Write], GetFontAxisCount method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getfontaxiscount, dwrite_3/IDWriteFontResource::GetFontAxisCount
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontResource.GetFontAxisCount"
+f1_keywords:
+- dwrite_3/IDWriteFontResource.GetFontAxisCount
 dev_langs:
- - c++
+- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,15 +29,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFontResource::GetFontAxisCount
+- IDWriteFontResource::GetFontAxisCount
 targetos: Windows
 req.typenames: 
 req.redist: 

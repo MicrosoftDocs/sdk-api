@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagRID_DEVICE_INFO_HID
 title: RID_DEVICE_INFO_HID (winuser.h)
-
 description: Defines the raw input data coming from the specified Human Interface Device (HID).
 old-location: inputdev\rid_device_info_hid.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputstructures\rid_device_info_hid.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PRID_DEVICE_INFO_HID, PRID_DEVICE_INFO_HID, PRID_DEVICE_INFO_HID structure pointer [Keyboard and Mouse Input], RID_DEVICE_INFO_HID, RID_DEVICE_INFO_HID structure [Keyboard and Mouse Input], _win32_RID_DEVICE_INFO_HID_str, _win32_rid_device_info_hid_str_cpp, inputdev.rid_device_info_hid, winui._win32_rid_device_info_hid_str, winuser/PRID_DEVICE_INFO_HID, winuser/RID_DEVICE_INFO_HID"
+ms.keywords: '*PRID_DEVICE_INFO_HID, PRID_DEVICE_INFO_HID, PRID_DEVICE_INFO_HID structure pointer [Keyboard and Mouse Input], RID_DEVICE_INFO_HID, RID_DEVICE_INFO_HID structure [Keyboard and Mouse Input], _win32_RID_DEVICE_INFO_HID_str, _win32_rid_device_info_hid_str_cpp, inputdev.rid_device_info_hid, winui._win32_rid_device_info_hid_str, winuser/PRID_DEVICE_INFO_HID, winuser/RID_DEVICE_INFO_HID'
 ms.topic: struct
-f1_keywords: 
- - "winuser/RID_DEVICE_INFO_HID"
+f1_keywords:
+- winuser/RID_DEVICE_INFO_HID
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - RID_DEVICE_INFO_HID
+- RID_DEVICE_INFO_HID
 targetos: Windows
 req.typenames: RID_DEVICE_INFO_HID, *PRID_DEVICE_INFO_HID
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:icontentprefetchertasktrigger.IContentPrefetcherTaskTrigger.TriggerContentPrefetcherTask
 title: IContentPrefetcherTaskTrigger::TriggerContentPrefetcherTask (icontentprefetchertasktrigger.h)
-
 description: Triggers a content prefetch background task for the specified app package.
 old-location: wsw\icontentprefetchertasktrigger_triggercontentprefetchertask.htm
 tech.root: wsw
 ms.assetid: F7AC2CA1-3726-4685-ABA8-5F9EE8FD54FF
-
 ms.date: 12/05/2018
 ms.keywords: IContentPrefetcherTaskTrigger interface [Web Services for Windows],TriggerContentPrefetcherTask method, IContentPrefetcherTaskTrigger.TriggerContentPrefetcherTask, IContentPrefetcherTaskTrigger::TriggerContentPrefetcherTask, TriggerContentPrefetcherTask, TriggerContentPrefetcherTask method [Web Services for Windows], TriggerContentPrefetcherTask method [Web Services for Windows],IContentPrefetcherTaskTrigger interface, icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger::TriggerContentPrefetcherTask, wsw.icontentprefetchertasktrigger_triggercontentprefetchertask
 ms.topic: method
-f1_keywords: 
- - "icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger.TriggerContentPrefetcherTask"
+f1_keywords:
+- icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger.TriggerContentPrefetcherTask
 dev_langs:
- - c++
+- c++
 req.header: icontentprefetchertasktrigger.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - IContentPrefetcherTaskTrigger.h
+- IContentPrefetcherTaskTrigger.h
 api_name:
- - IContentPrefetcherTaskTrigger.TriggerContentPrefetcherTask
+- IContentPrefetcherTaskTrigger.TriggerContentPrefetcherTask
 targetos: Windows
 req.typenames: 
 req.redist: 

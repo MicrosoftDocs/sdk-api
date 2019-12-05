@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.GetTag
 title: IDirectManipulationViewport::GetTag (directmanipulation.h)
-
 description: Gets the tag value of a viewport.
 old-location: directmanipulation\idirectmanipulationviewport_gettag.htm
 tech.root: directmanipulation
 ms.assetid: 7523a99b-de43-4efe-ae22-6632167c039a
-
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Direct Manipulation], GetTag method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],GetTag method, IDirectManipulationViewport.GetTag, IDirectManipulationViewport::GetTag, directmanipulation.idirectmanipulationviewport_gettag, directmanipulation/IDirectManipulationViewport::GetTag
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationViewport.GetTag"
+f1_keywords:
+- directmanipulation/IDirectManipulationViewport.GetTag
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.GetTag
+- IDirectManipulationViewport.GetTag
 targetos: Windows
 req.typenames: 
 req.redist: 

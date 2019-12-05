@@ -1,19 +1,17 @@
 ---
 UID: NS:p2p.peer_record_tag
 title: PEER_RECORD (p2p.h)
-
 description: The PEER_RECORD structure contains the record object that an application uses.
 old-location: p2p\peer_record.htm
 tech.root: P2PSdk
 ms.assetid: 4e0a1c44-e5a4-42d6-bb56-9bdcf7f9e6f1
-
 ms.date: 12/05/2018
-ms.keywords: "*PPEER_RECORD, PEER_RECORD, PEER_RECORD structure [Peer Networking], PPEER_RECORD, PPEER_RECORD structure pointer [Peer Networking], p2p.peer_record, p2p/PPEER_RECORD, p2p/peer_record_tag"
+ms.keywords: '*PPEER_RECORD, PEER_RECORD, PEER_RECORD structure [Peer Networking], PPEER_RECORD, PPEER_RECORD structure pointer [Peer Networking], p2p.peer_record, p2p/PPEER_RECORD, p2p/peer_record_tag'
 ms.topic: struct
-f1_keywords: 
- - "p2p/PEER_RECORD"
+f1_keywords:
+- p2p/PEER_RECORD
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - P2P.h
+- P2P.h
 api_name:
- - PEER_RECORD
+- PEER_RECORD
 targetos: Windows
 req.typenames: PEER_RECORD, *PPEER_RECORD
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IPart.GetGlobalId
 title: IPart::GetGlobalId (devicetopology.h)
-
 description: The GetGlobalId method gets the global ID of this part.
 old-location: coreaudio\ipart_getglobalid.htm
 tech.root: CoreAudio
 ms.assetid: 07825373-3ab2-42d3-8c4b-4eaf2c45eb95
-
 ms.date: 12/05/2018
 ms.keywords: GetGlobalId, GetGlobalId method [Core Audio], GetGlobalId method [Core Audio],IPart interface, IPart interface [Core Audio],GetGlobalId method, IPart.GetGlobalId, IPart::GetGlobalId, IPartGetGlobalId, coreaudio.ipart_getglobalid, devicetopology/IPart::GetGlobalId
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IPart.GetGlobalId"
+f1_keywords:
+- devicetopology/IPart.GetGlobalId
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IPart.GetGlobalId
+- IPart.GetGlobalId
 targetos: Windows
 req.typenames: 
 req.redist: 

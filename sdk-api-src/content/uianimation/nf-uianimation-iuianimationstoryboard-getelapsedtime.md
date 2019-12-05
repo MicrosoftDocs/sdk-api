@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.GetElapsedTime
 title: IUIAnimationStoryboard::GetElapsedTime (uianimation.h)
-
 description: Gets the time that has elapsed since the storyboard started playing.
 old-location: uianimation\iuianimationstoryboard_getelapsedtime.htm
 tech.root: UIAnimation
 ms.assetid: 901afd34-03cc-4421-a467-9d096e1458fe
-
 ms.date: 12/05/2018
 ms.keywords: GetElapsedTime, GetElapsedTime method [Windows Animation], GetElapsedTime method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],GetElapsedTime method, IUIAnimationStoryboard.GetElapsedTime, IUIAnimationStoryboard::GetElapsedTime, uianimation.iuianimationstoryboard_getelapsedtime, uianimation/IUIAnimationStoryboard::GetElapsedTime
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationStoryboard.GetElapsedTime"
+f1_keywords:
+- uianimation/IUIAnimationStoryboard.GetElapsedTime
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard.GetElapsedTime
+- IUIAnimationStoryboard.GetElapsedTime
 targetos: Windows
 req.typenames: 
 req.redist: 

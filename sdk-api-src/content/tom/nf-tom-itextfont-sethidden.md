@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont.SetHidden
 title: ITextFont::SetHidden (tom.h)
-
 description: Sets whether characters are hidden.
 old-location: controls\ITextFont_SetHidden.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\sethidden.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetHidden method, ITextFont.SetHidden, ITextFont::SetHidden, SetHidden, SetHidden method [Windows Controls], SetHidden method [Windows Controls],ITextFont interface, _win32_ITextFont_SetHidden, _win32_ITextFont_SetHidden_cpp, controls.ITextFont_SetHidden, controls._win32_ITextFont_SetHidden, tom/ITextFont::SetHidden
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont.SetHidden"
+f1_keywords:
+- tom/ITextFont.SetHidden
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont.SetHidden
+- ITextFont.SetHidden
 targetos: Windows
 req.typenames: 
 req.redist: 

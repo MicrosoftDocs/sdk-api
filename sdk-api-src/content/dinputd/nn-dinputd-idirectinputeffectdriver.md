@@ -1,19 +1,17 @@
 ---
 UID: NN:dinputd.IDirectInputEffectDriver
 title: IDirectInputEffectDriver (dinputd.h)
-
 description: These three methods allow additional interfaces to be added to the DirectInputEffectDriver object without affecting the functionality of the original interface.
 old-location: hid\idirectinputeffectdriver.htm
 tech.root: hid
 ms.assetid: 8071dcc8-21e3-4157-827c-18e4f2abf303
-
 ms.date: 12/05/2018
 ms.keywords: IDirectInputEffectDriver, IDirectInputEffectDriver interface [Human Input Devices], IDirectInputEffectDriver interface [Human Input Devices],described, di_ref_298f3a98-21fc-407e-8a6a-a50249fe6a12.xml, dinputd/IDirectInputEffectDriver, hid.idirectinputeffectdriver
 ms.topic: interface
-f1_keywords: 
- - "dinputd/IDirectInputEffectDriver"
+f1_keywords:
+- dinputd/IDirectInputEffectDriver
 dev_langs:
- - c++
+- c++
 req.header: dinputd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dinputd.h
+- Dinputd.h
 api_name:
- - IDirectInputEffectDriver
+- IDirectInputEffectDriver
 targetos: Windows
 req.typenames: 
 req.redist: 

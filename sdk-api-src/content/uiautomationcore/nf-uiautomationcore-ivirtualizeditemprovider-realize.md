@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IVirtualizedItemProvider.Realize
 title: IVirtualizedItemProvider::Realize (uiautomationcore.h)
-
 description: Makes the virtual item fully accessible as a UI Automation element.
 old-location: winauto\uiauto_IVirtualizedItemProvider_Realize.htm
 tech.root: WinAuto
 ms.assetid: ec69f0d2-a643-4f1b-892a-0d90f79afe72
-
 ms.date: 12/05/2018
 ms.keywords: IVirtualizedItemProvider interface [Windows Accessibility],Realize method, IVirtualizedItemProvider.Realize, IVirtualizedItemProvider::Realize, Realize, Realize method [Windows Accessibility], Realize method [Windows Accessibility],IVirtualizedItemProvider interface, uiauto.uiauto_IVirtualizedItemProvider_Realize, uiauto_IVirtualizedItemProvider_Realize, uiautomationcore/IVirtualizedItemProvider::Realize, winauto.uiauto_IVirtualizedItemProvider_Realize
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IVirtualizedItemProvider.Realize"
+f1_keywords:
+- uiautomationcore/IVirtualizedItemProvider.Realize
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IVirtualizedItemProvider.Realize
+- IVirtualizedItemProvider.Realize
 targetos: Windows
 req.typenames: 
 req.redist: 

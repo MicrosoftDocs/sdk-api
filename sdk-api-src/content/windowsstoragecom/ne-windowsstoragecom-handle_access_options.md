@@ -1,19 +1,17 @@
 ---
 UID: NE:windowsstoragecom.HANDLE_ACCESS_OPTIONS
 title: HANDLE_ACCESS_OPTIONS (windowsstoragecom.h)
-
 description: Defines the level of access that a handle has on files.
 old-location: winrt\handle_access_options.htm
 tech.root: WinRT
 ms.assetid: C0B140E6-B950-45A9-97BF-5A069BED31FD
-
 ms.date: 12/05/2018
 ms.keywords: HANDLE_ACCESS_OPTIONS, HANDLE_ACCESS_OPTIONS enumeration [Windows Runtime], HAO_DELETE, HAO_NONE, HAO_READ, HAO_READ_ATTRIBUTES, HAO_WRITE, windowsstoragecom/HANDLE_ACCESS_OPTIONS, windowsstoragecom/HAO_DELETE, windowsstoragecom/HAO_NONE, windowsstoragecom/HAO_READ, windowsstoragecom/HAO_READ_ATTRIBUTES, windowsstoragecom/HAO_WRITE, winrt.handle_access_options
 ms.topic: enum
-f1_keywords: 
- - "windowsstoragecom/HANDLE_ACCESS_OPTIONS"
+f1_keywords:
+- windowsstoragecom/HANDLE_ACCESS_OPTIONS
 dev_langs:
- - c++
+- c++
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - windowsstoragecom.h
+- windowsstoragecom.h
 api_name:
- - HANDLE_ACCESS_OPTIONS
+- HANDLE_ACCESS_OPTIONS
 targetos: Windows
 req.typenames: HANDLE_ACCESS_OPTIONS
 req.redist: 

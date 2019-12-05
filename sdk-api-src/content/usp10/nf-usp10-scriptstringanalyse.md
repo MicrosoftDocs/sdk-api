@@ -1,19 +1,17 @@
 ---
 UID: NF:usp10.ScriptStringAnalyse
 title: ScriptStringAnalyse function (usp10.h)
-
 description: Analyzes a plain text string.
 old-location: intl\scriptstringanalyse.htm
 tech.root: Intl
 ms.assetid: 6d0e7070-159e-436b-85b5-cabb3da83f5e
-
 ms.date: 12/05/2018
 ms.keywords: SSA_BREAK, SSA_CLIP, SSA_DZWG, SSA_FALLBACK, SSA_FIT, SSA_GCP, SSA_GLYPHS, SSA_HIDEHOTKEY, SSA_HOTKEY, SSA_HOTKEYONLY, SSA_LINK, SSA_METAFILE, SSA_PASSWORD, SSA_RTL, SSA_TAB, ScriptStringAnalyse, ScriptStringAnalyse function [Internationalization for Windows Applications], _win32_ScriptStringAnalyse, intl.scriptstringanalyse, usp10/ScriptStringAnalyse
 ms.topic: function
-f1_keywords: 
- - "usp10/ScriptStringAnalyse"
+f1_keywords:
+- usp10/ScriptStringAnalyse
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Usp10.dll
- - Ext-MS-Win-usp10-l1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Usp10.dll
+- Ext-MS-Win-usp10-l1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - ScriptStringAnalyse
+- ScriptStringAnalyse
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95

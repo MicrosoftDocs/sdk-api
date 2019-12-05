@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.EnumDisplayMonitors
 title: EnumDisplayMonitors function (winuser.h)
-
 description: The EnumDisplayMonitors function enumerates display monitors (including invisible pseudo-monitors associated with the mirroring drivers) that intersect a region formed by the intersection of a specified clipping rectangle and the visible region of a device context. EnumDisplayMonitors calls an application-defined MonitorEnumProc callback function once for each monitor that is enumerated. Note that GetSystemMetrics (SM_CMONITORS) counts only the display monitors.
 old-location: gdi\enumdisplaymonitors.htm
 tech.root: gdi
 ms.assetid: a7668c28-77c9-4373-ae1a-eab3cb98f866
-
 ms.date: 12/05/2018
 ms.keywords: EnumDisplayMonitors, EnumDisplayMonitors function [Windows GDI], _win32_EnumDisplayMonitors, gdi.enumdisplaymonitors, winuser/EnumDisplayMonitors
 ms.topic: function
-f1_keywords: 
- - "winuser/EnumDisplayMonitors"
+f1_keywords:
+- winuser/EnumDisplayMonitors
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
- - minuser.dll
- - api-ms-win-ntuser-sysparams-l1-1-0.dll
- - Ext-MS-Win-NTUser-SysParams-Ext-L1-1-0.dll
+- user32.dll
+- Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
+- minuser.dll
+- api-ms-win-ntuser-sysparams-l1-1-0.dll
+- Ext-MS-Win-NTUser-SysParams-Ext-L1-1-0.dll
 api_name:
- - EnumDisplayMonitors
+- EnumDisplayMonitors
 targetos: Windows
 req.typenames: 
 req.redist: 

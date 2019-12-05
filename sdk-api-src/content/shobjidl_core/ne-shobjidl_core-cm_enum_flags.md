@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.CM_ENUM_FLAGS
 title: CM_ENUM_FLAGS (shobjidl_core.h)
-
 description: Used by members of the IColumnManager interface to specify which set of columns are being requested, either all or only those currently visible.
 old-location: shell\CM_ENUM_FLAGS.htm
 tech.root: shell
 ms.assetid: 9706ae59-d172-4518-8090-375b1a0ff4fb
-
 ms.date: 12/05/2018
 ms.keywords: CM_ENUM_ALL, CM_ENUM_FLAGS, CM_ENUM_FLAGS enumeration [Windows Shell], CM_ENUM_VISIBLE, shell.CM_ENUM_FLAGS, shell_CM_ENUM_FLAGS, shobjidl_core/CM_ENUM_ALL, shobjidl_core/CM_ENUM_FLAGS, shobjidl_core/CM_ENUM_VISIBLE
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/CM_ENUM_FLAGS"
+f1_keywords:
+- shobjidl_core/CM_ENUM_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - CM_ENUM_FLAGS
+- CM_ENUM_FLAGS
 targetos: Windows
 req.typenames: CM_ENUM_FLAGS
 req.redist: 

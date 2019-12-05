@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxDocument.Submit
 title: IFaxDocument::Submit (faxcomex.h)
-
 description: The IFaxDocument::Submit method submits a single fax document to the fax service for processing.
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_submit_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_97w4.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxDocument interface [Fax Service],Submit method, IFaxDocument.Submit, IFaxDocument::Submit, Submit, Submit method [Fax Service], Submit method [Fax Service],IFaxDocument interface, _mfax_faxdocument.submit, fax._mfax_faxdocument_cpp_mfax_faxdocument_submit_cpp, fax._mfax_faxdocument_submit, faxcomex/IFaxDocument::Submit
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxDocument.Submit"
+f1_keywords:
+- faxcomex/IFaxDocument.Submit
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxDocument.Submit
- - IFaxDocument.Submit
+- IFaxDocument.Submit
+- IFaxDocument.Submit
 targetos: Windows
 req.typenames: 
 req.redist: 

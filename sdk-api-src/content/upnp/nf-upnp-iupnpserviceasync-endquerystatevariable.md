@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPServiceAsync.EndQueryStateVariable
 title: IUPnPServiceAsync::EndQueryStateVariable (upnp.h)
-
 description: EndQueryStateVariable method retrieves the results of a previous BeginQueryStateVariable operation and retrieves the resultant service-specific state variable value.
 old-location: upnp\iupnpserviceasync_endquerystatevariable.htm
 tech.root: upnp
 ms.assetid: 82AAB2C4-46A9-4545-95E1-887841735815
-
 ms.date: 12/05/2018
 ms.keywords: EndQueryStateVariable, EndQueryStateVariable method [UPnP APIs], EndQueryStateVariable method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],EndQueryStateVariable method, IUPnPServiceAsync.EndQueryStateVariable, IUPnPServiceAsync::EndQueryStateVariable, upnp.iupnpserviceasync_endquerystatevariable, upnp/IUPnPServiceAsync::EndQueryStateVariable
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPServiceAsync.EndQueryStateVariable"
+f1_keywords:
+- upnp/IUPnPServiceAsync.EndQueryStateVariable
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPServiceAsync.EndQueryStateVariable
+- IUPnPServiceAsync.EndQueryStateVariable
 targetos: Windows
 req.typenames: 
 req.redist: 

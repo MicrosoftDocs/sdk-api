@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.capPaletteOpen
 title: capPaletteOpen macro (vfw.h)
-
 description: The capPaletteOpen macro loads a new palette from a palette file and passes it to a capture driver.
 old-location: multimedia\cappaletteopen.htm
 tech.root: Multimedia
 ms.assetid: 1d50795e-c414-4bf5-a255-76532a34d944
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_capPaletteOpen, capPaletteOpen, capPaletteOpen macro [Windows Multimedia], multimedia.cappaletteopen, vfw/capPaletteOpen"
+ms.keywords: _win32_capPaletteOpen, capPaletteOpen, capPaletteOpen macro [Windows Multimedia], multimedia.cappaletteopen, vfw/capPaletteOpen
 ms.topic: macro
-f1_keywords: 
- - "vfw/capPaletteOpen"
+f1_keywords:
+- vfw/capPaletteOpen
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - capPaletteOpen
+- capPaletteOpen
 targetos: Windows
 req.typenames: 
 req.redist: 

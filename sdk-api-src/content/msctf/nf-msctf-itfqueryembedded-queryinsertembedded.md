@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfQueryEmbedded.QueryInsertEmbedded
 title: ITfQueryEmbedded::QueryInsertEmbedded (msctf.h)
-
 description: ITfQueryEmbedded::QueryInsertEmbedded method
 old-location: tsf\itfqueryembedded_queryinsertembedded.htm
 tech.root: TSF
 ms.assetid: 52f9465f-725e-493b-89ee-1b3db3cef696
-
 ms.date: 12/05/2018
 ms.keywords: ITfQueryEmbedded interface [Text Services Framework],QueryInsertEmbedded method, ITfQueryEmbedded.QueryInsertEmbedded, ITfQueryEmbedded::QueryInsertEmbedded, QueryInsertEmbedded, QueryInsertEmbedded method [Text Services Framework], QueryInsertEmbedded method [Text Services Framework],ITfQueryEmbedded interface, _tsf_itfqueryembedded_queryinsertembedded_ref, msctf/ITfQueryEmbedded::QueryInsertEmbedded, tsf.itfqueryembedded_queryinsertembedded
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfQueryEmbedded.QueryInsertEmbedded"
+f1_keywords:
+- msctf/ITfQueryEmbedded.QueryInsertEmbedded
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfQueryEmbedded.QueryInsertEmbedded
+- ITfQueryEmbedded.QueryInsertEmbedded
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

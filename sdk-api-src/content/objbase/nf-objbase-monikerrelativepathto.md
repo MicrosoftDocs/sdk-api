@@ -1,19 +1,17 @@
 ---
 UID: NF:objbase.MonikerRelativePathTo
 title: MonikerRelativePathTo function (objbase.h)
-
 description: Provides a moniker that, when composed onto the end of the first specified moniker (or one with a similar structure), yields the second specified moniker.
 old-location: com\monikerrelativepathto.htm
 tech.root: com
 ms.assetid: 55ab4db3-a94e-48ba-abe3-44963c35e062
-
 ms.date: 12/05/2018
 ms.keywords: MonikerRelativePathTo, MonikerRelativePathTo function [COM], _com_MonikerRelativePathTo, com.monikerrelativepathto, objbase/MonikerRelativePathTo
 ms.topic: function
-f1_keywords: 
- - "objbase/MonikerRelativePathTo"
+f1_keywords:
+- objbase/MonikerRelativePathTo
 dev_langs:
- - c++
+- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
+- Ole32.dll
+- Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
 api_name:
- - MonikerRelativePathTo
+- MonikerRelativePathTo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:roerrorapi.RoOriginateErrorW
 title: RoOriginateErrorW function
-
 description: Reports an error and an informative string to an attached debugger.
 old-location: winrt\rooriginateerrorw.htm
 tech.root: WinRT
 ms.assetid: FC75DDA5-59BA-4CCF-93CC-8D0BB2AB415B
-
 ms.date: 12/5/2018
 ms.keywords: RoOriginateErrorW, RoOriginateErrorW function [Windows Runtime], WinRTOriginateErrorW, roerrorapi/RoOriginateErrorW, roerrorapi/WinRTOriginateErrorW, winrt.rooriginateerrorw, winrt.winrtoriginateerrorw
 ms.topic: function
-f1_keywords: 
- - "roerrorapi/RoOriginateErrorW"
+f1_keywords:
+- roerrorapi/RoOriginateErrorW
 dev_langs:
- - c++
+- c++
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: RuntimeObject.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RuntimeObject.lib
- - RuntimeObject.dll
- - API-MS-Win-Core-WinRT-error-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-WinRT-error-l1-1-1.dll
+- RuntimeObject.lib
+- RuntimeObject.dll
+- API-MS-Win-Core-WinRT-error-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-error-l1-1-1.dll
 api_name:
- - RoOriginateErrorW
- - WinRTOriginateErrorW
+- RoOriginateErrorW
+- WinRTOriginateErrorW
 targetos: Windows
 req.typenames: 
 req.redist: 

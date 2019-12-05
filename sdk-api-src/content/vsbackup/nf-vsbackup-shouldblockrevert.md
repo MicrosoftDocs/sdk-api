@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.ShouldBlockRevert
 title: ShouldBlockRevert function (vsbackup.h)
-
 description: Checks the registry for writers that should block revert operations on the specified volume.
 old-location: base\shouldblockrevert.htm
 tech.root: VSS
 ms.assetid: ec5d62f0-e1af-44e4-a8ca-4c98c1be1dc7
-
 ms.date: 12/05/2018
 ms.keywords: ShouldBlockRevert, ShouldBlockRevert function, base.shouldblockrevert, vsbackup/ShouldBlockRevert
 ms.topic: function
-f1_keywords: 
- - "vsbackup/ShouldBlockRevert"
+f1_keywords:
+- vsbackup/ShouldBlockRevert
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: VssApi.lib
 req.dll: VssApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - VssApi.dll
+- VssApi.dll
 api_name:
- - ShouldBlockRevert
+- ShouldBlockRevert
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetTexture
 title: IDirect3DDevice9::GetTexture (d3d9helper.h)
-
 description: Retrieves a texture assigned to a stage for a device.
 old-location: direct3d9\idirect3ddevice9__gettexture.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__gettexture.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetTexture, GetTexture method [Direct3D 9], GetTexture method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetTexture method, IDirect3DDevice9.GetTexture, IDirect3DDevice9::GetTexture, b36b5e1a-bf59-6db1-b704-5002886b044f, d3d9helper/IDirect3DDevice9::GetTexture, direct3d9.idirect3ddevice9__gettexture
 ms.topic: method
-f1_keywords: 
- - "d3d9helper/IDirect3DDevice9.GetTexture"
+f1_keywords:
+- d3d9helper/IDirect3DDevice9.GetTexture
 dev_langs:
- - c++
+- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DDevice9.GetTexture
+- IDirect3DDevice9.GetTexture
 targetos: Windows
 req.typenames: 
 req.redist: 

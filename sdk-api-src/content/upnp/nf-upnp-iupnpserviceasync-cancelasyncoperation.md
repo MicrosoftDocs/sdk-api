@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPServiceAsync.CancelAsyncOperation
 title: IUPnPServiceAsync::CancelAsyncOperation (upnp.h)
-
 description: CancelAsyncOperation method cancels a pending asynchronous operation initiated by the BeginInvokeAction, BeginQueryStateVariable, BeginSubscribeToEvents, or BeginSCPDDownload methods.
 old-location: upnp\iupnpserviceasync_cancelasyncoperation.htm
 tech.root: upnp
 ms.assetid: FBEC2DF3-6D45-49F2-AAA8-6DED697BC5A6
-
 ms.date: 12/05/2018
 ms.keywords: CancelAsyncOperation, CancelAsyncOperation method [UPnP APIs], CancelAsyncOperation method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],CancelAsyncOperation method, IUPnPServiceAsync.CancelAsyncOperation, IUPnPServiceAsync::CancelAsyncOperation, upnp.iupnpserviceasync_cancelasyncoperation, upnp/IUPnPServiceAsync::CancelAsyncOperation
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPServiceAsync.CancelAsyncOperation"
+f1_keywords:
+- upnp/IUPnPServiceAsync.CancelAsyncOperation
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPServiceAsync.CancelAsyncOperation
+- IUPnPServiceAsync.CancelAsyncOperation
 targetos: Windows
 req.typenames: 
 req.redist: 

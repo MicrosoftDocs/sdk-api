@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.GetStartupInfoW
 title: GetStartupInfoW function (processthreadsapi.h)
-
 description: Retrieves the contents of the STARTUPINFO structure that was specified when the calling process was created.
 old-location: base\getstartupinfo.htm
 tech.root: ProcThread
 ms.assetid: 191ea201-dc86-4cde-a0cd-be8d2360b22e
-
 ms.date: 12/05/2018
 ms.keywords: GetStartupInfo, GetStartupInfo function, GetStartupInfoA, GetStartupInfoW, _win32_getstartupinfo, base.getstartupinfo, processthreadsapi/GetStartupInfo, processthreadsapi/GetStartupInfoA, processthreadsapi/GetStartupInfoW
 ms.topic: function
 f1_keywords:
 - processthreadsapi/GetStartupInfo
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

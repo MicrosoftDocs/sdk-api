@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.phoneGetStatusA
 title: phoneGetStatusA function (tapi.h)
-
 description: The phoneGetStatus function enables an application to query the specified open phone device for its overall status.
 old-location: tapi2\phonegetstatus.htm
 tech.root: Tapi
 ms.assetid: d2e9e209-54f5-4895-b57a-a5f4c24e063e
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_phonegetstatus, phoneGetStatus, phoneGetStatus function [TAPI 2.2], phoneGetStatusA, phoneGetStatusW, tapi/phoneGetStatus, tapi/phoneGetStatusA, tapi/phoneGetStatusW, tapi2.phonegetstatus"
+ms.keywords: _tapi2_phonegetstatus, phoneGetStatus, phoneGetStatus function [TAPI 2.2], phoneGetStatusA, phoneGetStatusW, tapi/phoneGetStatus, tapi/phoneGetStatusA, tapi/phoneGetStatusW, tapi2.phonegetstatus
 ms.topic: function
-f1_keywords: 
- - "tapi/phoneGetStatus"
+f1_keywords:
+- tapi/phoneGetStatus
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - phoneGetStatus
- - phoneGetStatusA
- - phoneGetStatusW
+- phoneGetStatus
+- phoneGetStatusA
+- phoneGetStatusW
 targetos: Windows
 req.typenames: 
 req.redist: 

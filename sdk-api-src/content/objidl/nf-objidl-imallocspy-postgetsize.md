@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IMallocSpy.PostGetSize
 title: IMallocSpy::PostGetSize (objidl.h)
-
 description: Performs operations required after calling IMalloc::GetSize.
 old-location: com\imallocspy_postgetsize.htm
 tech.root: com
 ms.assetid: ac619736-a434-46c0-9874-0cb646fdecae
-
 ms.date: 12/05/2018
 ms.keywords: IMallocSpy interface [COM],PostGetSize method, IMallocSpy.PostGetSize, IMallocSpy::PostGetSize, PostGetSize, PostGetSize method [COM], PostGetSize method [COM],IMallocSpy interface, _com_imallocspy_postgetsize, com.imallocspy_postgetsize, objidl/IMallocSpy::PostGetSize
 ms.topic: method
-f1_keywords: 
- - "objidl/IMallocSpy.PostGetSize"
+f1_keywords:
+- objidl/IMallocSpy.PostGetSize
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IMallocSpy.PostGetSize
+- IMallocSpy.PostGetSize
 targetos: Windows
 req.typenames: 
 req.redist: 

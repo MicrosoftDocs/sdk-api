@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_AllowPersonalCoverPages
 title: IFaxConfiguration::put_AllowPersonalCoverPages (faxcomex.h)
-
 description: Sets or retrieves a value that indicates whether personal cover pages are allowed.
 old-location: fax\_mfax_IFaxConfiguration_AllowPersonalCoverPages.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguration\allowpersonalcoverpages.htm
-
 ms.date: 12/05/2018
 ms.keywords: AllowPersonalCoverPages property [Fax Service], AllowPersonalCoverPages property [Fax Service],IFaxConfiguration interface, IFaxConfiguration interface [Fax Service],AllowPersonalCoverPages property, IFaxConfiguration.AllowPersonalCoverPages, IFaxConfiguration.put_AllowPersonalCoverPages, IFaxConfiguration::AllowPersonalCoverPages, IFaxConfiguration::get_AllowPersonalCoverPages, IFaxConfiguration::put_AllowPersonalCoverPages, _mfax_IFaxConfiguration_AllowPersonalCoverPages, fax._mfax_IFaxConfiguration_AllowPersonalCoverPages, faxcomex/IFaxConfiguration::AllowPersonalCoverPages, faxcomex/IFaxConfiguration::get_AllowPersonalCoverPages, faxcomex/IFaxConfiguration::put_AllowPersonalCoverPages, put_AllowPersonalCoverPages
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxConfiguration.AllowPersonalCoverPages"
+f1_keywords:
+- faxcomex/IFaxConfiguration.AllowPersonalCoverPages
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxConfiguration.AllowPersonalCoverPages
- - IFaxConfiguration.get_AllowPersonalCoverPages
- - IFaxConfiguration.put_AllowPersonalCoverPages
+- IFaxConfiguration.AllowPersonalCoverPages
+- IFaxConfiguration.get_AllowPersonalCoverPages
+- IFaxConfiguration.put_AllowPersonalCoverPages
 targetos: Windows
 req.typenames: 
 req.redist: 

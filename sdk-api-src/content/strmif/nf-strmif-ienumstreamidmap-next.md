@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IEnumStreamIdMap.Next
 title: IEnumStreamIdMap::Next (strmif.h)
-
 description: The Next method retrieves the next n elements in the collection.
 old-location: dshow\ienumstreamidmap_next.htm
 tech.root: DirectShow
 ms.assetid: 49e7ab23-e57e-4437-a195-88bccb6002de
-
 ms.date: 12/05/2018
 ms.keywords: IEnumStreamIdMap interface [DirectShow],Next method, IEnumStreamIdMap.Next, IEnumStreamIdMap::Next, IEnumStreamIdMapNext, Next, Next method [DirectShow], Next method [DirectShow],IEnumStreamIdMap interface, dshow.ienumstreamidmap_next, strmif/IEnumStreamIdMap::Next
 ms.topic: method
-f1_keywords: 
- - "strmif/IEnumStreamIdMap.Next"
+f1_keywords:
+- strmif/IEnumStreamIdMap.Next
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IEnumStreamIdMap.Next
+- IEnumStreamIdMap.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

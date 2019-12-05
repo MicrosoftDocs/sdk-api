@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.SetTargetSessionId
 title: IPackageDebugSettings::SetTargetSessionId (shobjidl_core.h)
-
 description: Sets the session identifier.
 old-location: shell\IPackageDebugSettings_SetTargetSessionId.htm
 tech.root: shell
 ms.assetid: a7794703-08ff-40a8-8807-a09e35a4bb8f
-
 ms.date: 12/05/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],SetTargetSessionId method, IPackageDebugSettings.SetTargetSessionId, IPackageDebugSettings::SetTargetSessionId, SetTargetSessionId, SetTargetSessionId method [Windows Shell], SetTargetSessionId method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_SetTargetSessionId, shobjidl_core/IPackageDebugSettings::SetTargetSessionId
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IPackageDebugSettings.SetTargetSessionId"
+f1_keywords:
+- shobjidl_core/IPackageDebugSettings.SetTargetSessionId
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl_core.h
+- Shobjidl_core.h
 api_name:
- - IPackageDebugSettings.SetTargetSessionId
+- IPackageDebugSettings.SetTargetSessionId
 targetos: Windows
 req.typenames: 
 req.redist: 

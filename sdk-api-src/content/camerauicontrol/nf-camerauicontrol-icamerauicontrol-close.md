@@ -1,19 +1,17 @@
 ---
 UID: NF:camerauicontrol.ICameraUIControl.Close
 title: ICameraUIControl::Close (camerauicontrol.h)
-
 description: Closes the user interface control.
 old-location: winprog\icamerauicontrol_close.htm
 tech.root: DevNotes
 ms.assetid: d1f73422-37e9-488e-92e6-8e8dd99af57f
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Windows API], Close method [Windows API],ICameraUIControl interface, ICameraUIControl interface [Windows API],Close method, ICameraUIControl.Close, ICameraUIControl::Close, camerauicontrol/ICameraUIControl::Close, winprog.icamerauicontrol_close
 ms.topic: method
-f1_keywords: 
- - "camerauicontrol/ICameraUIControl.Close"
+f1_keywords:
+- camerauicontrol/ICameraUIControl.Close
 dev_langs:
- - c++
+- c++
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - camerauicontrol.h
+- camerauicontrol.h
 api_name:
- - ICameraUIControl.Close
+- ICameraUIControl.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

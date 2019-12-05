@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarR4FromI4
 title: VarR4FromI4 function (oleauto.h)
-
 description: Converts a long value to a float value.
 old-location: automat\varr4fromi4.htm
 tech.root: automat
 ms.assetid: 4283a395-55e8-449a-b478-06e702532247
-
 ms.date: 12/05/2018
 ms.keywords: VarR4FromI4, VarR4FromI4 function [Automation], _oa96_VarR4FromI4, automat.varr4fromi4, oleauto/VarR4FromI4
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarR4FromI4"
+f1_keywords:
+- oleauto/VarR4FromI4
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarR4FromI4
+- VarR4FromI4
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwOpenPort.put_Port
 title: INetFwOpenPort::put_Port (netfw.h)
-
 description: Specifiess the host-ordered port number for this port.
 old-location: ics\inetfwopenport_port.htm
 tech.root: ics
 ms.assetid: 6e179f11-76c3-4403-9b42-2faad56629ed
-
 ms.date: 12/05/2018
 ms.keywords: INetFwOpenPort interface [ICS/ICF],Port property, INetFwOpenPort.Port, INetFwOpenPort.put_Port, INetFwOpenPort::Port, INetFwOpenPort::get_Port, INetFwOpenPort::put_Port, Port property [ICS/ICF], Port property [ICS/ICF],INetFwOpenPort interface, ics.inetfwopenport_port, netfw/INetFwOpenPort::Port, netfw/INetFwOpenPort::get_Port, netfw/INetFwOpenPort::put_Port, put_Port
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwOpenPort.Port"
+f1_keywords:
+- netfw/INetFwOpenPort.Port
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwOpenPort.Port
- - INetFwOpenPort.get_Port
- - INetFwOpenPort.put_Port
+- INetFwOpenPort.Port
+- INetFwOpenPort.get_Port
+- INetFwOpenPort.put_Port
 targetos: Windows
 req.typenames: 
 req.redist: 

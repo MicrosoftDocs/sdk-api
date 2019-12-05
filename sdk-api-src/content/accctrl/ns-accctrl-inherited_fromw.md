@@ -1,19 +1,17 @@
 ---
 UID: NS:accctrl._INHERITED_FROMW
 title: INHERITED_FROMW (accctrl.h)
-
 description: Provides information about an object's inherited access control entry (ACE).
 old-location: security\inherited_from.htm
 tech.root: SecAuthZ
 ms.assetid: 6839f67a-6c72-406d-b55e-bc366aaad107
-
 ms.date: 12/05/2018
-ms.keywords: "*PINHERITED_FROMW, INHERITED_FROM, INHERITED_FROM structure [Security], INHERITED_FROMA, INHERITED_FROMW, PINHERITED_FROM, PINHERITED_FROM structure pointer [Security], _INHERITED_FROMA, _INHERITED_FROMW, accctrl/INHERITED_FROM, accctrl/INHERITED_FROMA, accctrl/INHERITED_FROMW, accctrl/PINHERITED_FROM, security.inherited_from"
+ms.keywords: '*PINHERITED_FROMW, INHERITED_FROM, INHERITED_FROM structure [Security], INHERITED_FROMA, INHERITED_FROMW, PINHERITED_FROM, PINHERITED_FROM structure pointer [Security], _INHERITED_FROMA, _INHERITED_FROMW, accctrl/INHERITED_FROM, accctrl/INHERITED_FROMA, accctrl/INHERITED_FROMW, accctrl/PINHERITED_FROM, security.inherited_from'
 ms.topic: struct
-f1_keywords: 
- - "accctrl/INHERITED_FROM"
+f1_keywords:
+- accctrl/INHERITED_FROM
 dev_langs:
- - c++
+- c++
 req.header: accctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AccCtrl.h
+- AccCtrl.h
 api_name:
- - INHERITED_FROM
- - INHERITED_FROMA
- - INHERITED_FROMW
+- INHERITED_FROM
+- INHERITED_FROMA
+- INHERITED_FROMW
 targetos: Windows
 req.typenames: INHERITED_FROMW, *PINHERITED_FROMW
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:bthledef.PFNBLUETOOTH_GATT_EVENT_CALLBACK
 title: PFNBLUETOOTH_GATT_EVENT_CALLBACK (bthledef.h)
-
 description: Profile drivers implement a Bluetooth GATT event callback to be called whenever the value of a specific characteristic changes.
 old-location: bltooth\bluetooth_gatt_notification_callback_function.htm
 tech.root: bltooth
 ms.assetid: 96AC4E49-76D7-47B5-93B9-64D574A28E0A
-
 ms.date: 12/05/2018
 ms.keywords: BluetoothGattEventCallback, BluetoothGattEventCallback callback function [Bluetooth Devices], PFNBLUETOOTH_GATT_EVENT_CALLBACK, PFNBLUETOOTH_GATT_EVENT_CALLBACK callback, bltooth.bluetooth_gatt_notification_callback_function, bthledef/BluetoothGattEventCallback
 ms.topic: callback
 f1_keywords:
 - bthledef/BluetoothGattEventCallback
 dev_langs:
- - c++
+- c++
 req.header: bthledef.h
 req.include-header: 
 req.target-type: Desktop

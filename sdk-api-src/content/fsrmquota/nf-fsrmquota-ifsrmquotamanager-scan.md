@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaManager.Scan
 title: IFsrmQuotaManager::Scan (fsrmquota.h)
-
 description: Starts a quota scan on the specified path.
 old-location: fsrm\ifsrmquotamanager_scan.htm
 tech.root: fsrm
 ms.assetid: 1581f4c7-a912-4214-9ad9-181ad5ebba7e
-
 ms.date: 12/05/2018
 ms.keywords: FsrmQuotaManager class [File Server Resource Manager],Scan method, IFsrmQuotaManager interface [File Server Resource Manager],Scan method, IFsrmQuotaManager.Scan, IFsrmQuotaManager::Scan, IFsrmQuotaManagerEx interface [File Server Resource Manager],Scan method, IFsrmQuotaManagerEx::Scan, Scan, Scan method [File Server Resource Manager], Scan method [File Server Resource Manager],FsrmQuotaManager class, Scan method [File Server Resource Manager],IFsrmQuotaManager interface, Scan method [File Server Resource Manager],IFsrmQuotaManagerEx interface, fs.ifsrmquotamanager_scan, fsrm.ifsrmquotamanager_scan, fsrmquota/IFsrmQuotaManager::Scan, fsrmquota/IFsrmQuotaManagerEx::Scan
 ms.topic: method
-f1_keywords: 
- - "fsrmquota/IFsrmQuotaManager.Scan"
+f1_keywords:
+- fsrmquota/IFsrmQuotaManager.Scan
 dev_langs:
- - c++
+- c++
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmQuotaManager.Scan
- - IFsrmQuotaManagerEx.Scan
- - FsrmQuotaManager.Scan
+- IFsrmQuotaManager.Scan
+- IFsrmQuotaManagerEx.Scan
+- FsrmQuotaManager.Scan
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:capi._JAVA_TRUST
 title: JAVA_TRUST (capi.h)
-
 description: Contains trust information.
 old-location: winprog\java_trust.htm
 tech.root: DevNotes
 ms.assetid: ceb8cfc4-3b29-47d1-a651-d3cee898c1eb
-
 ms.date: 12/05/2018
-ms.keywords: "*PJAVA_TRUST, JAVA_TRUST, JAVA_TRUST structure [Windows API], PJAVA_TRUST, PJAVA_TRUST structure pointer [Windows API], capi/JAVA_TRUST, capi/PJAVA_TRUST, winprog.java_trust"
+ms.keywords: '*PJAVA_TRUST, JAVA_TRUST, JAVA_TRUST structure [Windows API], PJAVA_TRUST, PJAVA_TRUST structure pointer [Windows API], capi/JAVA_TRUST, capi/PJAVA_TRUST, winprog.java_trust'
 ms.topic: struct
-f1_keywords: 
- - "capi/JAVA_TRUST"
+f1_keywords:
+- capi/JAVA_TRUST
 dev_langs:
- - c++
+- c++
 req.header: capi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Capi.h
+- Capi.h
 api_name:
- - JAVA_TRUST
+- JAVA_TRUST
 targetos: Windows
 req.typenames: JAVA_TRUST, *PJAVA_TRUST
 req.redist: 

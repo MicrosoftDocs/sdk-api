@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IEnumPortableDeviceObjectIDs.Clone
 title: IEnumPortableDeviceObjectIDs::Clone (portabledeviceapi.h)
-
 description: The Clone method duplicates the current IEnumPortableDeviceObjectIDs interface.
 old-location: wpdsdk\ienumportabledeviceobjectids_clone.htm
 tech.root: wpd_sdk
 ms.assetid: 70287534-501f-480d-85ee-64049a0938fb
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Portable Devices SDK], Clone method [Windows Portable Devices SDK],IEnumPortableDeviceObjectIDs interface, IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK],Clone method, IEnumPortableDeviceObjectIDs.Clone, IEnumPortableDeviceObjectIDs::Clone, IEnumPortableDeviceObjectIDsClone, portabledeviceapi/IEnumPortableDeviceObjectIDs::Clone, wpdsdk.ienumportabledeviceobjectids_clone
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IEnumPortableDeviceObjectIDs.Clone"
+f1_keywords:
+- portabledeviceapi/IEnumPortableDeviceObjectIDs.Clone
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IEnumPortableDeviceObjectIDs.Clone
+- IEnumPortableDeviceObjectIDs.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

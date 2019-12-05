@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsAbandonMessage
 title: WsAbandonMessage function (webservices.h)
-
 description: Skips the remainder of a specified message on a specified channel.
 old-location: wsw\wsabandonmessage.htm
 tech.root: wsw
 ms.assetid: b8f5da50-d296-4550-8810-114d1f0e810b
-
 ms.date: 12/05/2018
 ms.keywords: WsAbandonMessage, WsAbandonMessage function [Web Services for Windows], webservices/WsAbandonMessage, wsw.wsabandonmessage
 ms.topic: function
-f1_keywords: 
- - "webservices/WsAbandonMessage"
+f1_keywords:
+- webservices/WsAbandonMessage
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsAbandonMessage
+- WsAbandonMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

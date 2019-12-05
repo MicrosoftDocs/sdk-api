@@ -1,19 +1,17 @@
 ---
 UID: NE:bits.BG_JOB_STATE
 title: BG_JOB_STATE (bits.h)
-
 description: Defines constants that specify the different states of a job.
 old-location: bits\bg_job_state.htm
 tech.root: Bits
 ms.assetid: a7857cf1-05b7-42df-b79e-50a2f6a406dc
-
 ms.date: 02/22/2019
 ms.keywords: BG_JOB_STATE, BG_JOB_STATE enumeration [BITS], BG_JOB_STATE_ACKNOWLEDGED, BG_JOB_STATE_CANCELLED, BG_JOB_STATE_CONNECTING, BG_JOB_STATE_ERROR, BG_JOB_STATE_QUEUED, BG_JOB_STATE_SUSPENDED, BG_JOB_STATE_TRANSFERRED, BG_JOB_STATE_TRANSFERRING, BG_JOB_STATE_TRANSIENT_ERROR, _drz_bg_job_state, bits.bg_job_state, bits/BG_JOB_STATE, bits/BG_JOB_STATE_ACKNOWLEDGED, bits/BG_JOB_STATE_CANCELLED, bits/BG_JOB_STATE_CONNECTING, bits/BG_JOB_STATE_ERROR, bits/BG_JOB_STATE_QUEUED, bits/BG_JOB_STATE_SUSPENDED, bits/BG_JOB_STATE_TRANSFERRED, bits/BG_JOB_STATE_TRANSFERRING, bits/BG_JOB_STATE_TRANSIENT_ERROR
 ms.topic: enum
-f1_keywords: 
- - "bits/BG_JOB_STATE"
+f1_keywords:
+- bits/BG_JOB_STATE
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bits.h
+- Bits.h
 api_name:
- - BG_JOB_STATE
+- BG_JOB_STATE
 targetos: Windows
 req.typenames: BG_JOB_STATE
 req.redist: 

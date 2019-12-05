@@ -1,19 +1,17 @@
 ---
 UID: NE:ntsecapi.__unnamed_enum_0
 title: LSA_FOREST_TRUST_RECORD_TYPE (ntsecapi.h)
-
 description: Defines the type of a Local Security Authority forest trust record.
 old-location: security\lsa_forest_trust_record_type.htm
 tech.root: SecAuthN
 ms.assetid: 8a4a7080-fab0-4ab2-a0b4-e929cce21f0c
-
 ms.date: 12/05/2018
 ms.keywords: ForestTrustDomainInfo, ForestTrustRecordTypeLast, ForestTrustTopLevelName, ForestTrustTopLevelNameEx, LSA_FOREST_TRUST_RECORD_TYPE, LSA_FOREST_TRUST_RECORD_TYPE enumeration [Security], ntsecapi/ForestTrustDomainInfo, ntsecapi/ForestTrustRecordTypeLast, ntsecapi/ForestTrustTopLevelName, ntsecapi/ForestTrustTopLevelNameEx, ntsecapi/LSA_FOREST_TRUST_RECORD_TYPE, security.lsa_forest_trust_record_type
 ms.topic: enum
 f1_keywords:
 - ntsecapi/LSA_FOREST_TRUST_RECORD_TYPE
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

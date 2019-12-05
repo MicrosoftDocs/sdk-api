@@ -1,19 +1,17 @@
 ---
 UID: NE:mfreadwrite.MF_SOURCE_READER_FLAG
 title: MF_SOURCE_READER_FLAG (mfreadwrite.h)
-
 description: Contains flags that indicate the status of the IMFSourceReader::ReadSample method.
 old-location: mf\mf_source_reader_flag.htm
 tech.root: medfound
 ms.assetid: 8981a682-3c0b-458b-910a-d1462ed73e64
-
 ms.date: 12/05/2018
 ms.keywords: MF_SOURCE_READERF_ALLEFFECTSREMOVED, MF_SOURCE_READERF_CURRENTMEDIATYPECHANGED, MF_SOURCE_READERF_ENDOFSTREAM, MF_SOURCE_READERF_ERROR, MF_SOURCE_READERF_NATIVEMEDIATYPECHANGED, MF_SOURCE_READERF_NEWSTREAM, MF_SOURCE_READERF_STREAMTICK, MF_SOURCE_READER_FLAG, MF_SOURCE_READER_FLAG enumeration [Media Foundation], mf.mf_source_reader_flag, mfreadwrite/MF_SOURCE_READERF_ALLEFFECTSREMOVED, mfreadwrite/MF_SOURCE_READERF_CURRENTMEDIATYPECHANGED, mfreadwrite/MF_SOURCE_READERF_ENDOFSTREAM, mfreadwrite/MF_SOURCE_READERF_ERROR, mfreadwrite/MF_SOURCE_READERF_NATIVEMEDIATYPECHANGED, mfreadwrite/MF_SOURCE_READERF_NEWSTREAM, mfreadwrite/MF_SOURCE_READERF_STREAMTICK, mfreadwrite/MF_SOURCE_READER_FLAG
 ms.topic: enum
-f1_keywords: 
- - "mfreadwrite/MF_SOURCE_READER_FLAG"
+f1_keywords:
+- mfreadwrite/MF_SOURCE_READER_FLAG
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - MF_SOURCE_READER_FLAG
+- MF_SOURCE_READER_FLAG
 targetos: Windows
 req.typenames: MF_SOURCE_READER_FLAG
 req.redist: 

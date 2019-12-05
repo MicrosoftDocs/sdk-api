@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetInlineObject
 title: IDWriteTextLayout::SetInlineObject (dwrite.h)
-
 description: Sets the inline object.
 old-location: directwrite\IDWriteTextLayout_SetInlineObject.htm
 tech.root: DirectWrite
 ms.assetid: 19fc9dd8-d732-4078-9db3-bad18681c7ea
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetInlineObject method, IDWriteTextLayout.SetInlineObject, IDWriteTextLayout::SetInlineObject, SetInlineObject, SetInlineObject method [Direct Write], SetInlineObject method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetInlineObject, dwrite/IDWriteTextLayout::SetInlineObject
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextLayout.SetInlineObject"
+f1_keywords:
+- dwrite/IDWriteTextLayout.SetInlineObject
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout.SetInlineObject
+- IDWriteTextLayout.SetInlineObject
 targetos: Windows
 req.typenames: 
 req.redist: 

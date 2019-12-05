@@ -4,10 +4,10 @@ title: uSTGMEDIUM
 ms.date: 01/30/19
 ms.keywords: tagSTGMEDIUM, uSTGMEDIUM
 ms.topic: language-reference
-f1_keywords: 
- - "objidl/tagSTGMEDIUM"
+f1_keywords:
+- objidl/tagSTGMEDIUM
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -25,14 +25,14 @@ req.typenames: uSTGMEDIUM
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - objidl.h
+- objidl.h
 api_name:
- - tagSTGMEDIUM
- - uSTGMEDIUM
+- tagSTGMEDIUM
+- uSTGMEDIUM
 ---
 
 # uSTGMEDIUM structure

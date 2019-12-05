@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.GetThreadUILanguage
 title: GetThreadUILanguage function (winnls.h)
-
 description: Returns the language identifier of the first user interface language for the current thread.
 old-location: intl\getthreaduilanguage.htm
 tech.root: Intl
 ms.assetid: c10cbf84-8aaf-46c7-8b2f-e719e30f2556
-
 ms.date: 12/05/2018
 ms.keywords: GetThreadUILanguage, GetThreadUILanguage function [Internationalization for Windows Applications], _win32_GetThreadUILanguage, intl.getthreaduilanguage, winnls/GetThreadUILanguage
 ms.topic: function
-f1_keywords: 
- - "winnls/GetThreadUILanguage"
+f1_keywords:
+- winnls/GetThreadUILanguage
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-l1-2-0.dll
- - API-MS-Win-Core-Localization-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-l1-2-0.dll
+- API-MS-Win-Core-Localization-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
- - GetThreadUILanguage
+- GetThreadUILanguage
 targetos: Windows
 req.typenames: 
 req.redist: 

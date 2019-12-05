@@ -1,19 +1,17 @@
 ---
 UID: NF:mmdeviceapi.IMMDeviceEnumerator.RegisterEndpointNotificationCallback
 title: IMMDeviceEnumerator::RegisterEndpointNotificationCallback (mmdeviceapi.h)
-
 description: The RegisterEndpointNotificationCallback method registers a client's notification callback interface.
 old-location: coreaudio\immdeviceenumerator_registerendpointnotificationcallback.htm
 tech.root: CoreAudio
 ms.assetid: 2c524f64-0b35-4433-9768-582dcb580a74
-
 ms.date: 12/05/2018
 ms.keywords: IMMDeviceEnumerator interface [Core Audio],RegisterEndpointNotificationCallback method, IMMDeviceEnumerator.RegisterEndpointNotificationCallback, IMMDeviceEnumerator::RegisterEndpointNotificationCallback, IMMDeviceEnumeratorRegisterEndpointNotificationCal, RegisterEndpointNotificationCallback, RegisterEndpointNotificationCallback method [Core Audio], RegisterEndpointNotificationCallback method [Core Audio],IMMDeviceEnumerator interface, coreaudio.immdeviceenumerator_registerendpointnotificationcallback, mmdeviceapi/IMMDeviceEnumerator::RegisterEndpointNotificationCallback
 ms.topic: method
-f1_keywords: 
- - "mmdeviceapi/IMMDeviceEnumerator.RegisterEndpointNotificationCallback"
+f1_keywords:
+- mmdeviceapi/IMMDeviceEnumerator.RegisterEndpointNotificationCallback
 dev_langs:
- - c++
+- c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmdeviceapi.h
+- Mmdeviceapi.h
 api_name:
- - IMMDeviceEnumerator.RegisterEndpointNotificationCallback
+- IMMDeviceEnumerator.RegisterEndpointNotificationCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

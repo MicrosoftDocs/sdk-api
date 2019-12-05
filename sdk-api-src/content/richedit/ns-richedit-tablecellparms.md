@@ -1,19 +1,17 @@
 ---
 UID: NS:richedit._tableCellParms
 title: TABLECELLPARMS (richedit.h)
-
 description: Defines the attributes of cells in a table row.
 old-location: controls\tablecellparms.htm
 tech.root: Controls
 ms.assetid: 75bf07bd-103b-4f35-b421-5a7559c7b90e
-
 ms.date: 12/05/2018
 ms.keywords: TABLECELLPARMS, TABLECELLPARMS structure [Windows Controls], controls.tablecellparms, richedit/TABLECELLPARMS
 ms.topic: struct
 f1_keywords:
 - richedit/TABLECELLPARMS
 dev_langs:
- - c++
+- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

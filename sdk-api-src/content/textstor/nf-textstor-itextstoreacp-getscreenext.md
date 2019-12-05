@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreACP.GetScreenExt
 title: ITextStoreACP::GetScreenExt (textstor.h)
-
 description: The ITextStoreACP::GetScreenExt method returns the bounding box screen coordinates of the display surface where the text stream is rendered.
 old-location: tsf\itextstoreacp_getscreenext.htm
 tech.root: TSF
 ms.assetid: bd542dd1-79a5-47ec-a563-cd37a8c36b1a
-
 ms.date: 12/05/2018
 ms.keywords: GetScreenExt, GetScreenExt method [Text Services Framework], GetScreenExt method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetScreenExt method, ITextStoreACP.GetScreenExt, ITextStoreACP::GetScreenExt, _tsf_itextstoreacp_getscreenext_ref, textstor/ITextStoreACP::GetScreenExt, tsf.itextstoreacp_getscreenext
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreACP.GetScreenExt"
+f1_keywords:
+- textstor/ITextStoreACP.GetScreenExt
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreACP.GetScreenExt
+- ITextStoreACP.GetScreenExt
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

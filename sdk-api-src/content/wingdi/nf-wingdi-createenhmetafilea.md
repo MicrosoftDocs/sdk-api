@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CreateEnhMetaFileA
 title: CreateEnhMetaFileA function (wingdi.h)
-
 description: The CreateEnhMetaFile function creates a device context for an enhanced-format metafile. This device context can be used to store a device-independent picture.
 old-location: gdi\createenhmetafile.htm
 tech.root: gdi
 ms.assetid: 647f83ca-dca3-44af-a594-5f9ba2bd7607
-
 ms.date: 12/05/2018
 ms.keywords: CreateEnhMetaFile, CreateEnhMetaFile function [Windows GDI], CreateEnhMetaFileA, CreateEnhMetaFileW, _win32_CreateEnhMetaFile, gdi.createenhmetafile, wingdi/CreateEnhMetaFile, wingdi/CreateEnhMetaFileA, wingdi/CreateEnhMetaFileW
 ms.topic: function
-f1_keywords: 
- - "wingdi/CreateEnhMetaFile"
+f1_keywords:
+- wingdi/CreateEnhMetaFile
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - ext-ms-win-gdi-metafile-l1-1-2.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- ext-ms-win-gdi-metafile-l1-1-2.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - CreateEnhMetaFile
- - CreateEnhMetaFileA
- - CreateEnhMetaFileW
+- CreateEnhMetaFile
+- CreateEnhMetaFileA
+- CreateEnhMetaFileW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_SET_CACHE_INFORMATION
 title: IOCTL_DISK_SET_CACHE_INFORMATION
-
 description: Sets the disk configuration data.
 old-location: fs\ioctl_disk_set_cache_information.htm
 tech.root: FileIO
 ms.assetid: e921da48-9435-41f0-87dd-abb383fd5208
-
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_SET_CACHE_INFORMATION, IOCTL_DISK_SET_CACHE_INFORMATION control, IOCTL_DISK_SET_CACHE_INFORMATION control code [Files], base.ioctl_disk_set_cache_information, fs.ioctl_disk_set_cache_information, winioctl/IOCTL_DISK_SET_CACHE_INFORMATION
 ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_DISK_SET_CACHE_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:commoncontrols.IImageList.Replace
 title: IImageList::Replace (commoncontrols.h)
-
 description: Replaces an image in an image list with a new image.
 old-location: controls\IImageList_Replace.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\replace.htm
-
 ms.date: 12/05/2018
 ms.keywords: IImageList interface [Windows Controls],Replace method, IImageList.Replace, IImageList::Replace, Replace, Replace method [Windows Controls], Replace method [Windows Controls],IImageList interface, comctl_IImageList_Replace, comctl_IImageList_Replace_cpp, commoncontrols/IImageList::Replace, controls.IImageList_Replace, controls.comctl_IImageList_Replace
 ms.topic: method
-f1_keywords: 
- - "commoncontrols/IImageList.Replace"
+f1_keywords:
+- commoncontrols/IImageList.Replace
 dev_langs:
- - c++
+- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - IImageList.Replace
+- IImageList.Replace
 targetos: Windows
 req.typenames: 
 req.redist: 

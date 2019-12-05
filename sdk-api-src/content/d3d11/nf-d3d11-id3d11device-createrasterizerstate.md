@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateRasterizerState
 title: ID3D11Device::CreateRasterizerState (d3d11.h)
-
 description: Create a rasterizer state object that tells the rasterizer stage how to behave.
 old-location: direct3d11\id3d11device_createrasterizerstate.htm
 tech.root: direct3d11
 ms.assetid: b49a8dbb-2280-4d5d-ae65-58cde2e9ed10
-
 ms.date: 12/05/2018
 ms.keywords: 89e8a772-b143-38e2-89a4-4b72b0a4b1c5, CreateRasterizerState, CreateRasterizerState method [Direct3D 11], CreateRasterizerState method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateRasterizerState method, ID3D11Device.CreateRasterizerState, ID3D11Device::CreateRasterizerState, d3d11/ID3D11Device::CreateRasterizerState, direct3d11.id3d11device_createrasterizerstate
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11Device.CreateRasterizerState"
+f1_keywords:
+- d3d11/ID3D11Device.CreateRasterizerState
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Device.CreateRasterizerState
+- ID3D11Device.CreateRasterizerState
 targetos: Windows
 req.typenames: 
 req.redist: 

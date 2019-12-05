@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ITransferAdviseSink.ConfirmOverwrite
 title: ITransferAdviseSink::ConfirmOverwrite (shobjidl_core.h)
-
 description: Displays a message to the user confirming that overwriting existing items is acceptable.
 old-location: shell\ITransferAdviseSink_ConfirmOverwrite.htm
 tech.root: shell
 ms.assetid: 1c7705c5-1a56-47c2-9b9b-3f72a4323cd7
-
 ms.date: 12/05/2018
 ms.keywords: ConfirmOverwrite, ConfirmOverwrite method [Windows Shell], ConfirmOverwrite method [Windows Shell],ITransferAdviseSink interface, ITransferAdviseSink interface [Windows Shell],ConfirmOverwrite method, ITransferAdviseSink.ConfirmOverwrite, ITransferAdviseSink::ConfirmOverwrite, _shell_ITransferAdviseSink_ConfirmOverwrite, shell.ITransferAdviseSink_ConfirmOverwrite, shobjidl_core/ITransferAdviseSink::ConfirmOverwrite
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ITransferAdviseSink.ConfirmOverwrite"
+f1_keywords:
+- shobjidl_core/ITransferAdviseSink.ConfirmOverwrite
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ITransferAdviseSink.ConfirmOverwrite
+- ITransferAdviseSink.ConfirmOverwrite
 targetos: Windows
 req.typenames: 
 req.redist: 

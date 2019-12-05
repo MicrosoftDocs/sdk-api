@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IRangeValueProvider.get_IsReadOnly
 title: IRangeValueProvider::get_IsReadOnly (uiautomationcore.h)
-
 description: Indicates whether the value of a control is read-only.
 old-location: winauto\uiauto_IRangeValueProvider_IsReadOnly.htm
 tech.root: WinAuto
 ms.assetid: 5edb8de2-3c42-4df4-b6f8-5dd0e812d749
-
 ms.date: 12/05/2018
 ms.keywords: IRangeValueProvider interface [Windows Accessibility],IsReadOnly property, IRangeValueProvider.IsReadOnly, IRangeValueProvider.get_IsReadOnly, IRangeValueProvider::IsReadOnly, IRangeValueProvider::get_IsReadOnly, IsReadOnly property [Windows Accessibility], IsReadOnly property [Windows Accessibility],IRangeValueProvider interface, get_IsReadOnly, uiauto.uiauto_IRangeValueProvider_IsReadOnly, uiauto_IRangeValueProvider_IsReadOnly, uiautomationcore/IRangeValueProvider::IsReadOnly, uiautomationcore/IRangeValueProvider::get_IsReadOnly, winauto.uiauto_IRangeValueProvider_IsReadOnly
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IRangeValueProvider.IsReadOnly"
+f1_keywords:
+- uiautomationcore/IRangeValueProvider.IsReadOnly
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - IRangeValueProvider.IsReadOnly
- - IRangeValueProvider.get_IsReadOnly
+- IRangeValueProvider.IsReadOnly
+- IRangeValueProvider.get_IsReadOnly
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:iscsidsc.ReportPersistentIScsiDevicesA
 title: ReportPersistentIScsiDevicesA function (iscsidsc.h)
-
 description: The ReportPersistentIscsiDevices function retrieves the list of persistently bound volumes and devices.
 old-location: iscsidisc\reportpersistentiscsidevices.htm
 tech.root: iSCSIDisc
 ms.assetid: 856e240d-8c4d-4e55-aef3-71f98193c221
-
 ms.date: 12/05/2018
 ms.keywords: ReportPersistentIScsiDevicesA, ReportPersistentIscsiDevices, ReportPersistentIscsiDevices function [iSCSI Discovery Library API], ReportPersistentIscsiDevicesA, ReportPersistentIscsiDevicesW, iscsidisc.reportpersistentiscsidevices, iscsidsc/ReportPersistentIscsiDevices, iscsidsc/ReportPersistentIscsiDevicesA, iscsidsc/ReportPersistentIscsiDevicesW
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/ReportPersistentIscsiDevices"
+f1_keywords:
+- iscsidsc/ReportPersistentIscsiDevices
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - ReportPersistentIscsiDevices
- - ReportPersistentIscsiDevicesA
- - ReportPersistentIscsiDevicesW
+- ReportPersistentIscsiDevices
+- ReportPersistentIscsiDevicesA
+- ReportPersistentIscsiDevicesW
 targetos: Windows
 req.typenames: 
 req.redist: 

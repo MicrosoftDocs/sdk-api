@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManEx.EnumerationFlagReturnObject
 title: IWSManEx::EnumerationFlagReturnObject (wsmandisp.h)
-
 description: Returns the value of the enumeration constant EnumerationFlagReturnObject for use in the flags parameter of the IWSManSession::Enumerate method.
 old-location: winrm\iwsmanex_enumerationflagreturnobject.htm
 tech.root: winrm
 ms.assetid: 19993342-a805-4d92-ac80-40f568b53800
-
 ms.date: 12/05/2018
 ms.keywords: EnumerationFlagReturnObject, EnumerationFlagReturnObject method [Windows Remote Management], EnumerationFlagReturnObject method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],EnumerationFlagReturnObject method, IWSManEx.EnumerationFlagReturnObject, IWSManEx::EnumerationFlagReturnObject, winrm.iwsmanex_enumerationflagreturnobject, wsmandisp/IWSManEx::EnumerationFlagReturnObject
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManEx.EnumerationFlagReturnObject"
+f1_keywords:
+- wsmandisp/IWSManEx.EnumerationFlagReturnObject
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManEx.EnumerationFlagReturnObject
+- IWSManEx.EnumerationFlagReturnObject
 targetos: Windows
 req.typenames: 
 req.redist: 

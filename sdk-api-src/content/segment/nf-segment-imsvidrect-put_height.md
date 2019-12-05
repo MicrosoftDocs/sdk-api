@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidRect.put_Height
 title: IMSVidRect::put_Height (segment.h)
-
 description: The put_Height method specifies the height of the rectangle.
 old-location: mstv\imsvidrect_put_height.htm
 tech.root: mstv
 ms.assetid: 410c5d1c-d4e6-460a-b17d-54bfcee10a66
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],put_Height method, IMSVidRect.put_Height, IMSVidRect::put_Height, IMSVidRectput_Height, mstv.imsvidrect_put_height, put_Height, put_Height method [Microsoft TV Technologies], put_Height method [Microsoft TV Technologies],IMSVidRect interface, segment/IMSVidRect::put_Height
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidRect.put_Height"
+f1_keywords:
+- segment/IMSVidRect.put_Height
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidRect.put_Height
+- IMSVidRect.put_Height
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:taskschd._TASK_CREATION
 title: TASK_CREATION (taskschd.h)
-
 description: Defines how the Task Scheduler service creates, updates, or disables the task.
 old-location: taskschd\taskcreation.htm
 tech.root: taskschd
 ms.assetid: e8da4d76-25c8-4209-a75b-c77217c366d4
-
 ms.date: 12/05/2018
 ms.keywords: TASK_CREATE, TASK_CREATE_OR_UPDATE, TASK_CREATION, TASK_CREATION enumeration [Task Scheduler], TASK_DISABLE, TASK_DONT_ADD_PRINCIPAL_ACE, TASK_IGNORE_REGISTRATION_TRIGGERS, TASK_UPDATE, TASK_VALIDATE_ONLY, taskschd.taskcreation, taskschd/TASK_CREATE, taskschd/TASK_CREATE_OR_UPDATE, taskschd/TASK_CREATION, taskschd/TASK_DISABLE, taskschd/TASK_DONT_ADD_PRINCIPAL_ACE, taskschd/TASK_IGNORE_REGISTRATION_TRIGGERS, taskschd/TASK_UPDATE, taskschd/TASK_VALIDATE_ONLY
 ms.topic: enum
-f1_keywords: 
- - "taskschd/TASK_CREATION"
+f1_keywords:
+- taskschd/TASK_CREATION
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - taskschd.h
+- taskschd.h
 api_name:
- - TASK_CREATION
+- TASK_CREATION
 targetos: Windows
 req.typenames: TASK_CREATION
 req.redist: 

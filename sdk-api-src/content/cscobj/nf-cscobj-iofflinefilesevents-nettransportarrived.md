@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.NetTransportArrived
 title: IOfflineFilesEvents::NetTransportArrived (cscobj.h)
-
 description: Reports that the Offline Files feature has detected the arrival of a network transport.
 old-location: of\iofflinefilesevents_nettransportarrived.htm
 tech.root: offlinefiles
 ms.assetid: ac44010b-b14f-41d7-89f7-6f7822ed2a5d
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],NetTransportArrived method, IOfflineFilesEvents.NetTransportArrived, IOfflineFilesEvents::NetTransportArrived, NetTransportArrived, NetTransportArrived method [Offline Files], NetTransportArrived method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::NetTransportArrived, of.iofflinefilesevents_nettransportarrived
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesEvents.NetTransportArrived"
+f1_keywords:
+- cscobj/IOfflineFilesEvents.NetTransportArrived
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesEvents.NetTransportArrived
+- IOfflineFilesEvents.NetTransportArrived
 targetos: Windows
 req.typenames: 
 req.redist: 

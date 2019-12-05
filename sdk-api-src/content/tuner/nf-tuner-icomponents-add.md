@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IComponents.Add
 title: IComponents::Add (tuner.h)
-
 description: The Add method adds a Component object to the collection.
 old-location: mstv\icomponents_add.htm
 tech.root: mstv
 ms.assetid: ec5d9d6c-4957-46f2-9798-6e30c934459e
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],IComponents interface, IComponents interface [Microsoft TV Technologies],Add method, IComponents.Add, IComponents::Add, IComponentsAdd, mstv.icomponents_add, tuner/IComponents::Add
 ms.topic: method
-f1_keywords: 
- - "tuner/IComponents.Add"
+f1_keywords:
+- tuner/IComponents.Add
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IComponents.Add
+- IComponents.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

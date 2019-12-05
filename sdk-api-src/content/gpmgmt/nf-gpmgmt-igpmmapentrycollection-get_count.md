@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMMapEntryCollection.get_Count
 title: IGPMMapEntryCollection::get_Count (gpmgmt.h)
-
 description: Returns the number of map entries in the collection.
 old-location: gpmc\igpmmapentrycollection_get_count.htm
 tech.root: gpmc
 ms.assetid: 1bc3a983-17db-4b91-adda-24351bc9a02d
-
 ms.date: 12/05/2018
 ms.keywords: Count property [GPMC], Count property [GPMC],GPMMapEntryCollection class, Count property [GPMC],IGPMMapEntryCollection interface, GPMMapEntryCollection class [GPMC],Count property, IGPMMapEntryCollection interface [GPMC],Count property, IGPMMapEntryCollection.Count, IGPMMapEntryCollection.get_Count, IGPMMapEntryCollection::Count, IGPMMapEntryCollection::get_Count, get_Count, gpmc.igpmmapentrycollection_get_count, gpmgmt/IGPMMapEntryCollection::Count, gpmgmt/IGPMMapEntryCollection::get_Count
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMMapEntryCollection.Count"
+f1_keywords:
+- gpmgmt/IGPMMapEntryCollection.Count
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMMapEntryCollection.Count
- - IGPMMapEntryCollection.get_Count
- - GPMMapEntryCollection.Count
+- IGPMMapEntryCollection.Count
+- IGPMMapEntryCollection.get_Count
+- GPMMapEntryCollection.Count
 targetos: Windows
 req.typenames: 
 req.redist: 

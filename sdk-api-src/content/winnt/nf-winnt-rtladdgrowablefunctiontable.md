@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.RtlAddGrowableFunctionTable
 title: RtlAddGrowableFunctionTable function (winnt.h)
-
 description: Informs the system of a dynamic function table representing a region of memory containing code.
 old-location: base\rtladdgrowablefunctiontable.htm
 tech.root: Debug
 ms.assetid: 84ba7171-a4eb-4807-9883-f4fac6296ed0
-
 ms.date: 12/05/2018
 ms.keywords: RtlAddGrowableFunctionTable, RtlAddGrowableFunctionTable function, base.rtladdgrowablefunctiontable, winnt/RtlAddGrowableFunctionTable
 ms.topic: function
-f1_keywords: 
- - "winnt/RtlAddGrowableFunctionTable"
+f1_keywords:
+- winnt/RtlAddGrowableFunctionTable
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Ntdll.lib
 req.dll: Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ntdll.dll
- - API-MS-Win-Core-RTLSupport-l1-2-0.dll
+- ntdll.dll
+- API-MS-Win-Core-RTLSupport-l1-2-0.dll
 api_name:
- - RtlAddGrowableFunctionTable
+- RtlAddGrowableFunctionTable
 targetos: Windows
 req.typenames: 
 req.redist: 

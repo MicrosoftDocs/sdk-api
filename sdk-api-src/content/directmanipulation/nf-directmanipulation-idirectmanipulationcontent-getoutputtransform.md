@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationContent.GetOutputTransform
 title: IDirectManipulationContent::GetOutputTransform (directmanipulation.h)
-
 description: Gets the final transform applied to the content.
 old-location: directmanipulation\idirectmanipulationcontent_getoutputtransform.htm
 tech.root: directmanipulation
 ms.assetid: a8f746a4-650f-4f6d-8734-2e98f01898f2
-
 ms.date: 12/05/2018
 ms.keywords: GetOutputTransform, GetOutputTransform method [Direct Manipulation], GetOutputTransform method [Direct Manipulation],IDirectManipulationContent interface, IDirectManipulationContent interface [Direct Manipulation],GetOutputTransform method, IDirectManipulationContent.GetOutputTransform, IDirectManipulationContent::GetOutputTransform, directmanipulation.idirectmanipulationcontent_getoutputtransform, directmanipulation/IDirectManipulationContent::GetOutputTransform
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationContent.GetOutputTransform"
+f1_keywords:
+- directmanipulation/IDirectManipulationContent.GetOutputTransform
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationContent.GetOutputTransform
+- IDirectManipulationContent.GetOutputTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

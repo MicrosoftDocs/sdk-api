@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.ItemContainerPattern_FindItemByProperty
 title: ItemContainerPattern_FindItemByProperty function (uiautomationcoreapi.h)
-
 description: Retrieves a node within a containing node, based on a specified property value.
 old-location: winauto\uiauto_ItemContainerPattern_FindItemByProperty.htm
 tech.root: WinAuto
 ms.assetid: ffad2cd6-fcf8-436d-888e-1092ba6c3e76
-
 ms.date: 12/05/2018
 ms.keywords: ItemContainerPattern_FindItemByProperty, ItemContainerPattern_FindItemByProperty function [Windows Accessibility], uiauto.uiauto_ItemContainerPattern_FindItemByProperty, uiauto_ItemContainerPattern_FindItemByProperty, uiautomationcoreapi/ItemContainerPattern_FindItemByProperty, winauto.uiauto_ItemContainerPattern_FindItemByProperty
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/ItemContainerPattern_FindItemByProperty"
+f1_keywords:
+- uiautomationcoreapi/ItemContainerPattern_FindItemByProperty
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - ItemContainerPattern_FindItemByProperty
+- ItemContainerPattern_FindItemByProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

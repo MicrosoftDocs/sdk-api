@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ISignerCertificates.Clear
 title: ISignerCertificates::Clear (certenroll.h)
-
 description: Removes all ISignerCertificate objects from the collection.
 old-location: security\isignercertificates_clear_method.htm
 tech.root: seccertenroll
 ms.assetid: 8be3f0d4-db41-408d-bd4b-37c41b1b1c54
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ISignerCertificates interface, ISignerCertificates interface [Security],Clear method, ISignerCertificates.Clear, ISignerCertificates::Clear, certenroll/ISignerCertificates::Clear, security.isignercertificates_clear_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ISignerCertificates.Clear"
+f1_keywords:
+- certenroll/ISignerCertificates.Clear
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ISignerCertificates.Clear
+- ISignerCertificates.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

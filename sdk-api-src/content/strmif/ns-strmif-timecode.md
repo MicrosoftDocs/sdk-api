@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif.tagTIMECODE
 title: TIMECODE (strmif.h)
-
 description: The TIMECODE structure contains basic timecode frame count information.
 old-location: dshow\timecode.htm
 tech.root: DirectShow
 ms.assetid: 652be387-aa5e-4077-8b2d-b08bc40b31bb
-
 ms.date: 12/05/2018
-ms.keywords: "*PTIMECODE, ED_FORMAT_SMPTE_24, ED_FORMAT_SMPTE_25, ED_FORMAT_SMPTE_30, ED_FORMAT_SMPTE_30DROP, TIMECODE, TIMECODE structure [DirectShow], TIMECODEStructure, dshow.timecode, strmif/TIMECODE, tagTIMECODE"
+ms.keywords: '*PTIMECODE, ED_FORMAT_SMPTE_24, ED_FORMAT_SMPTE_25, ED_FORMAT_SMPTE_30, ED_FORMAT_SMPTE_30DROP, TIMECODE, TIMECODE structure [DirectShow], TIMECODEStructure, dshow.timecode, strmif/TIMECODE, tagTIMECODE'
 ms.topic: struct
-f1_keywords: 
- - "strmif/TIMECODE"
+f1_keywords:
+- strmif/TIMECODE
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - TIMECODE
+- TIMECODE
 targetos: Windows
 req.typenames: TIMECODE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxBundleWriter2.AddExternalPackageReference
 title: IAppxBundleWriter2::AddExternalPackageReference (appxpackaging.h)
-
 description: Adds a reference to an external package to the package bundle.
 old-location: appxpkg\iappxbundlewriter2_addexternalpackagereference.htm
 tech.root: appxpkg
 ms.assetid: 09297744-69E4-45D6-BA5C-A3B28130C6CC
-
 ms.date: 12/05/2018
 ms.keywords: AddExternalPackageReference, AddExternalPackageReference method [App packaging and management], AddExternalPackageReference method [App packaging and management],IAppxBundleWriter2 interface, IAppxBundleWriter2 interface [App packaging and management],AddExternalPackageReference method, IAppxBundleWriter2.AddExternalPackageReference, IAppxBundleWriter2::AddExternalPackageReference, appxpackaging/IAppxBundleWriter2::AddExternalPackageReference, appxpkg.iappxbundlewriter2_addexternalpackagereference
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxBundleWriter2.AddExternalPackageReference"
+f1_keywords:
+- appxpackaging/IAppxBundleWriter2.AddExternalPackageReference
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBundleWriter2.AddExternalPackageReference
+- IAppxBundleWriter2.AddExternalPackageReference
 targetos: Windows
 req.typenames: 
 req.redist: 

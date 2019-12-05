@@ -1,19 +1,17 @@
 ---
 UID: NN:mmdeviceapi.IMMDevice
 title: IMMDevice (mmdeviceapi.h)
-
 description: The IMMDevice interface encapsulates the generic features of a multimedia device resource.
 old-location: coreaudio\immdevice.htm
 tech.root: CoreAudio
 ms.assetid: 12b05e7e-81b2-49fd-bb9f-d5ad3315c580
-
 ms.date: 12/05/2018
 ms.keywords: IMMDevice, IMMDevice interface [Core Audio], IMMDevice interface [Core Audio],described, coreaudio.immdevice, mmdeviceapi/IMMDevice
 ms.topic: interface
-f1_keywords: 
- - "mmdeviceapi/IMMDevice"
+f1_keywords:
+- mmdeviceapi/IMMDevice
 dev_langs:
- - c++
+- c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmdeviceapi.h
+- Mmdeviceapi.h
 api_name:
- - IMMDevice
+- IMMDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

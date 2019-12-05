@@ -1,19 +1,17 @@
 ---
 UID: NF:audioengineendpoint.IAudioLfxControl.GetLocalEffectsState
 title: IAudioLfxControl::GetLocalEffectsState (audioengineendpoint.h)
-
 description: The GetLocalEffectsState method retrieves the local effects state that is currently applied to the offloaded audio stream.
 old-location: coreaudio\iaudiolfxcontrol_getlocaleffectsstate.htm
 tech.root: CoreAudio
 ms.assetid: 33426EAC-13E6-4AF2-9D01-7C3057EB8104
-
 ms.date: 12/05/2018
 ms.keywords: GetLocalEffectsState, GetLocalEffectsState method [Core Audio], GetLocalEffectsState method [Core Audio],IAudioLfxControl interface, IAudioLfxControl interface [Core Audio],GetLocalEffectsState method, IAudioLfxControl.GetLocalEffectsState, IAudioLfxControl::GetLocalEffectsState, audioengineendpoint/IAudioLfxControl::GetLocalEffectsState, coreaudio.iaudiolfxcontrol_getlocaleffectsstate
 ms.topic: method
-f1_keywords: 
- - "audioengineendpoint/IAudioLfxControl.GetLocalEffectsState"
+f1_keywords:
+- audioengineendpoint/IAudioLfxControl.GetLocalEffectsState
 dev_langs:
- - c++
+- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioengineendpoint.h
+- Audioengineendpoint.h
 api_name:
- - IAudioLfxControl.GetLocalEffectsState
+- IAudioLfxControl.GetLocalEffectsState
 targetos: Windows
 req.typenames: 
 req.redist: 

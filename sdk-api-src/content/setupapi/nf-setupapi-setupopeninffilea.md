@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupOpenInfFileA
 title: SetupOpenInfFileA function (setupapi.h)
-
 description: The SetupOpenInfFile function opens an INF file and returns a handle to it.
 old-location: setup\setupopeninffile.htm
 tech.root: SetupApi
 ms.assetid: a0f29f2c-2ac8-4f2d-adad-7a948d5a4eb7
-
 ms.date: 12/05/2018
 ms.keywords: SetupOpenInfFile, SetupOpenInfFile function [Setup API], SetupOpenInfFileA, SetupOpenInfFileW, _setupapi_setupopeninffile, setup.setupopeninffile, setupapi/SetupOpenInfFile, setupapi/SetupOpenInfFileA, setupapi/SetupOpenInfFileW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupOpenInfFile"
+f1_keywords:
+- setupapi/SetupOpenInfFile
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
- - Ext-MS-Win-setupapi-inf-l1-1-0.dll
- - Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
+- Setupapi.dll
+- Ext-MS-Win-setupapi-inf-l1-1-0.dll
+- Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
 api_name:
- - SetupOpenInfFile
- - SetupOpenInfFileA
- - SetupOpenInfFileW
+- SetupOpenInfFile
+- SetupOpenInfFileA
+- SetupOpenInfFileW
 targetos: Windows
 req.typenames: 
 req.redist: 

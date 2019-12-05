@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetCombineUrlA
 title: InternetCombineUrlA function (wininet.h)
-
 description: Combines a base and relative URL into a single URL. The resultant URL is canonicalized (see InternetCanonicalizeUrl).
 old-location: wininet\internetcombineurl.htm
 tech.root: wininet
 ms.assetid: 2efcf28a-e82b-47f2-8e8c-95fee70a87e4
-
 ms.date: 12/05/2018
 ms.keywords: InternetCombineUrl, InternetCombineUrl function [WinINet], InternetCombineUrlA, InternetCombineUrlW, _inet_internetcombineurl_function, wininet.internetcombineurl, wininet/InternetCombineUrl, wininet/InternetCombineUrlA, wininet/InternetCombineUrlW
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetCombineUrl"
+f1_keywords:
+- wininet/InternetCombineUrl
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetCombineUrl
- - InternetCombineUrlA
- - InternetCombineUrlW
+- InternetCombineUrl
+- InternetCombineUrlA
+- InternetCombineUrlW
 targetos: Windows
 req.typenames: 
 req.redist: 

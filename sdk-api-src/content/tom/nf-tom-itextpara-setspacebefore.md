@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara.SetSpaceBefore
 title: ITextPara::SetSpaceBefore (tom.h)
-
 description: Sets the amount of space preceding a paragraph.
 old-location: controls\ITextPara_SetSpaceBefore.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setspacebefore.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetSpaceBefore method, ITextPara.SetSpaceBefore, ITextPara::SetSpaceBefore, SetSpaceBefore, SetSpaceBefore method [Windows Controls], SetSpaceBefore method [Windows Controls],ITextPara interface, _win32_ITextPara_SetSpaceBefore, _win32_ITextPara_SetSpaceBefore_cpp, controls.ITextPara_SetSpaceBefore, controls._win32_ITextPara_SetSpaceBefore, tom/ITextPara::SetSpaceBefore
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara.SetSpaceBefore"
+f1_keywords:
+- tom/ITextPara.SetSpaceBefore
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara.SetSpaceBefore
+- ITextPara.SetSpaceBefore
 targetos: Windows
 req.typenames: 
 req.redist: 

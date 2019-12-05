@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_SetInfoTip
 title: ListView_SetInfoTip macro (commctrl.h)
-
 description: Sets tooltip text. You can use this macro or send the LVM_SETINFOTIP message explicitly.
 old-location: controls\ListView_SetInfoTip.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setinfotip.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_SetInfoTip, ListView_SetInfoTip macro [Windows Controls], _win32_ListView_SetInfoTip, _win32_ListView_SetInfoTip_cpp, commctrl/ListView_SetInfoTip, controls.ListView_SetInfoTip, controls._win32_ListView_SetInfoTip
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_SetInfoTip"
+f1_keywords:
+- commctrl/ListView_SetInfoTip
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_SetInfoTip
+- ListView_SetInfoTip
 targetos: Windows
 req.typenames: 
 req.redist: 

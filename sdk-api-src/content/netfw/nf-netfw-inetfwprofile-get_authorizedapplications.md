@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwProfile.get_AuthorizedApplications
 title: INetFwProfile::get_AuthorizedApplications (netfw.h)
-
 description: Retrieves the collection of authorized applications of the profile.
 old-location: ics\inetfwprofile_authorizedapplications.htm
 tech.root: ics
 ms.assetid: 230f7dc0-6afd-4355-a02c-92343d3e10cd
-
 ms.date: 12/05/2018
 ms.keywords: AuthorizedApplications property [ICS/ICF], AuthorizedApplications property [ICS/ICF],INetFwProfile interface, INetFwProfile interface [ICS/ICF],AuthorizedApplications property, INetFwProfile.AuthorizedApplications, INetFwProfile.get_AuthorizedApplications, INetFwProfile::AuthorizedApplications, INetFwProfile::get_AuthorizedApplications, get_AuthorizedApplications, ics.inetfwprofile_authorizedapplications, netfw/INetFwProfile::AuthorizedApplications, netfw/INetFwProfile::get_AuthorizedApplications
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwProfile.AuthorizedApplications"
+f1_keywords:
+- netfw/INetFwProfile.AuthorizedApplications
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwProfile.AuthorizedApplications
- - INetFwProfile.get_AuthorizedApplications
+- INetFwProfile.AuthorizedApplications
+- INetFwProfile.get_AuthorizedApplications
 targetos: Windows
 req.typenames: 
 req.redist: 

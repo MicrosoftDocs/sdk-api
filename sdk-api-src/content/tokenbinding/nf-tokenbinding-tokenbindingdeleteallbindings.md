@@ -1,19 +1,17 @@
 ---
 UID: NF:tokenbinding.TokenBindingDeleteAllBindings
 title: TokenBindingDeleteAllBindings function (tokenbinding.h)
-
 description: Deletes all token binding keys that are associated with the calling user or app container.
 old-location: security\tokenbindingdeleteallbindings.htm
 tech.root: SecCNG
 ms.assetid: 0446F62F-96B4-4F4B-9789-0CD12173E601
-
 ms.date: 12/05/2018
 ms.keywords: TokenBindingDeleteAllBindings, TokenBindingDeleteAllBindings function [Security], security.tokenbindingdeleteallbindings, tokenbinding/TokenBindingDeleteAllBindings
 ms.topic: function
-f1_keywords: 
- - "tokenbinding/TokenBindingDeleteAllBindings"
+f1_keywords:
+- tokenbinding/TokenBindingDeleteAllBindings
 dev_langs:
- - c++
+- c++
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tokenbinding.lib
 req.dll: Tokenbinding.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - tokenbinding.dll
+- tokenbinding.dll
 api_name:
- - TokenBindingDeleteAllBindings
+- TokenBindingDeleteAllBindings
 targetos: Windows
 req.typenames: 
 req.redist: 

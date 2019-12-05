@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplication.OpenScope
 title: IAzApplication::OpenScope (azroles.h)
-
 description: Opens an IAzScope object with the specified name.
 old-location: security\iazapplication_openscope.htm
 tech.root: SecAuthZ
 ms.assetid: c2959a6c-5c87-495b-8025-c6b9c330a0bc
-
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],OpenScope method, IAzApplication interface [Security],OpenScope method, IAzApplication.OpenScope, IAzApplication::OpenScope, OpenScope, OpenScope method [Security], OpenScope method [Security],AzApplication object, OpenScope method [Security],IAzApplication interface, azroles/IAzApplication::OpenScope, security.iazapplication_openscope
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplication.OpenScope"
+f1_keywords:
+- azroles/IAzApplication.OpenScope
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplication.OpenScope
- - AzApplication.OpenScope
+- IAzApplication.OpenScope
+- AzApplication.OpenScope
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

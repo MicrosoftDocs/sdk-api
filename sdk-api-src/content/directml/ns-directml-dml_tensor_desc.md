@@ -1,19 +1,17 @@
 ---
 UID: NS:directml.DML_TENSOR_DESC
 title: DML_TENSOR_DESC
-
 description: A generic container for a DirectML tensor description.
 old-location: direct3d12\dml_tensor_desc.htm
 tech.root: direct3d12
 ms.assetid: 5F47CAC2-3896-4432-95BE-E28BE6D7566E
-
 ms.date: 12/5/2018
 ms.keywords: DML_TENSOR_DESC, DML_TENSOR_DESC structure, direct3d12.dml_tensor_desc, directml/DML_TENSOR_DESC
 ms.topic: struct
-f1_keywords: 
- - "directml/DML_TENSOR_DESC"
+f1_keywords:
+- directml/DML_TENSOR_DESC
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectML.h
+- DirectML.h
 api_name:
- - DML_TENSOR_DESC
+- DML_TENSOR_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 

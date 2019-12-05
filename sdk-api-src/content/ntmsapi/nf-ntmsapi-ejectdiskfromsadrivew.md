@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.EjectDiskFromSADriveW
 title: EjectDiskFromSADriveW function (ntmsapi.h)
-
 description: The EjectDiskFromSADrive function ejects the media that is in a standalone removable drive.
 old-location: fs\ejectdiskfromsadrive.htm
 tech.root: Rsm
 ms.assetid: eb1e79b5-f059-4e18-836f-3ba4de97eea2
-
 ms.date: 12/05/2018
 ms.keywords: EjectDiskFromSADrive, EjectDiskFromSADrive function [Files], EjectDiskFromSADriveA, EjectDiskFromSADriveW, NTMS_EJECT_ASK_USER, NTMS_EJECT_FORCE, NTMS_EJECT_IMMEDIATE, NTMS_EJECT_QUEUE, NTMS_EJECT_START, NTMS_EJECT_STOP, base.ejectdiskfromsadrive, fs.ejectdiskfromsadrive, ntmsapi/EjectDiskFromSADrive, ntmsapi/EjectDiskFromSADriveA, ntmsapi/EjectDiskFromSADriveW
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/EjectDiskFromSADrive"
+f1_keywords:
+- ntmsapi/EjectDiskFromSADrive
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - EjectDiskFromSADrive
- - EjectDiskFromSADriveA
- - EjectDiskFromSADriveW
+- EjectDiskFromSADrive
+- EjectDiskFromSADriveA
+- EjectDiskFromSADriveW
 targetos: Windows
 req.typenames: 
 req.redist: 

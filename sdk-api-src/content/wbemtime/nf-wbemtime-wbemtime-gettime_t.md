@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemtime.WBEMTime.Gettime_t
 title: WBEMTime::Gettime_t (wbemtime.h)
-
 description: The Gettime_t method gets the time as an ANSI C run-time time_t variable.
 old-location: wmi\wbemtime_gettime_t.htm
 tech.root: WmiSdk
 ms.assetid: 62e0faff-4e5a-4bc4-a9a7-a4edbaea9541
-
 ms.date: 12/05/2018
-ms.keywords: "?Gettime_t@WBEMTime@@QBEHPAJ@Z, Gettime_t, Gettime_t method [Windows Management Instrumentation], Gettime_t method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],Gettime_t method, WBEMTime.Gettime_t, WBEMTime::Gettime_t, _hmm_wbemtime_gettime_t, wbemtime/WBEMTime::Gettime_t, wmi.wbemtime_gettime_t"
+ms.keywords: ?Gettime_t@WBEMTime@@QBEHPAJ@Z, Gettime_t, Gettime_t method [Windows Management Instrumentation], Gettime_t method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],Gettime_t method, WBEMTime.Gettime_t, WBEMTime::Gettime_t, _hmm_wbemtime_gettime_t, wbemtime/WBEMTime::Gettime_t, wmi.wbemtime_gettime_t
 ms.topic: method
-f1_keywords: 
- - "wbemtime/WBEMTime.Gettime_t"
+f1_keywords:
+- wbemtime/WBEMTime.Gettime_t
 dev_langs:
- - c++
+- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - WBEMTime.Gettime_t
- - ?Gettime_t@WBEMTime@@QBEHPAJ@Z
+- WBEMTime.Gettime_t
+- ?Gettime_t@WBEMTime@@QBEHPAJ@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

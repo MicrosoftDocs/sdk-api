@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.GetPixel
 title: Bitmap::GetPixel (gdiplusheaders.h)
-
 description: The Bitmap::GetPixel method gets the color of a specified pixel in this bitmap.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_GetPixel_x_y_color_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\getpixel.htm
-
 ms.date: 12/05/2018
 ms.keywords: Bitmap class [GDI+],GetPixel method, Bitmap.GetPixel, Bitmap::GetPixel, GetPixel, GetPixel method [GDI+], GetPixel method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_GetPixel_x_y_color_, gdiplus._gdiplus_CLASS_Bitmap_GetPixel_x_y_color_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Bitmap.GetPixel"
+f1_keywords:
+- gdiplusheaders/Bitmap.GetPixel
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Bitmap.GetPixel
+- Bitmap.GetPixel
 targetos: Windows
 req.typenames: 
 req.redist: 

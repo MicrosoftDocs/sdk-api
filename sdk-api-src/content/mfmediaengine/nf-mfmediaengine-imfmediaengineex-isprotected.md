@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.IsProtected
 title: IMFMediaEngineEx::IsProtected (mfmediaengine.h)
-
 description: Queries whether the media resource contains protected content.
 old-location: mf\imfmediaengineex_isprotected.htm
 tech.root: medfound
 ms.assetid: 704C469D-C8C7-48D7-B41E-4475B4A9181D
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],IsProtected method, IMFMediaEngineEx.IsProtected, IMFMediaEngineEx::IsProtected, IsProtected, IsProtected method [Media Foundation], IsProtected method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_isprotected, mfmediaengine/IMFMediaEngineEx::IsProtected
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineEx.IsProtected"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineEx.IsProtected
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineEx.IsProtected
+- IMFMediaEngineEx.IsProtected
 targetos: Windows
 req.typenames: 
 req.redist: 

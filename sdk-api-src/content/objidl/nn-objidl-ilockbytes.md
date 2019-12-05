@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.ILockBytes
 title: ILockBytes (objidl.h)
-
 description: The ILockBytes interface is implemented on a byte array object that is backed by some physical storage, such as a disk file, global memory, or a database.
 old-location: stg\ilockbytes.htm
 tech.root: Stg
 ms.assetid: bb2c5d0d-8dc8-4844-9a20-ef8e4def5731
-
 ms.date: 12/05/2018
 ms.keywords: ILockBytes, ILockBytes interface [Structured Storage], ILockBytes interface [Structured Storage],described, _stg_ilockbytes, objidl/ILockBytes, stg.ilockbytes
 ms.topic: interface
-f1_keywords: 
- - "objidl/ILockBytes"
+f1_keywords:
+- objidl/ILockBytes
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - ILockBytes
+- ILockBytes
 targetos: Windows
 req.typenames: 
 req.redist: 

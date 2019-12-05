@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSensorProcessActivity.GetStreamingMode
 title: IMFSensorProcessActivity::GetStreamingMode (mfidl.h)
-
 description: Gets the streaming mode of the sensor process.
 old-location: mf\imfsensorprocessactivity_getstreamingmode.htm
 tech.root: medfound
 ms.assetid: 1881652A-005C-4EFB-B4ED-3BEAC35A460A
-
 ms.date: 12/05/2018
 ms.keywords: GetStreamingMode, GetStreamingMode method [Media Foundation], GetStreamingMode method [Media Foundation],IMFSensorProcessActivity interface, IMFSensorProcessActivity interface [Media Foundation],GetStreamingMode method, IMFSensorProcessActivity.GetStreamingMode, IMFSensorProcessActivity::GetStreamingMode, mf.imfsensorprocessactivity_getstreamingmode, mfidl/IMFSensorProcessActivity::GetStreamingMode
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSensorProcessActivity.GetStreamingMode"
+f1_keywords:
+- mfidl/IMFSensorProcessActivity.GetStreamingMode
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFSensorProcessActivity.GetStreamingMode
+- IMFSensorProcessActivity.GetStreamingMode
 targetos: Windows
 req.typenames: 
 req.redist: 

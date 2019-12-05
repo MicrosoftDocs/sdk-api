@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbTaskInfo.get_Status
 title: ITsSbTaskInfo::get_Status (sbtsv.h)
-
 description: Retrieves an RDV_TASK_STATUS enumeration value that represents the state of the task.
 old-location: termserv\itssbtaskinfo_status.htm
 tech.root: TermServ
 ms.assetid: 779af127-133c-47ff-8fca-bfd2c96c9768
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbTaskInfo interface [Remote Desktop Services],Status property, ITsSbTaskInfo.Status, ITsSbTaskInfo.get_Status, ITsSbTaskInfo::Status, ITsSbTaskInfo::get_Status, Status property [Remote Desktop Services], Status property [Remote Desktop Services],ITsSbTaskInfo interface, get_Status, sbtsv/ITsSbTaskInfo::Status, sbtsv/ITsSbTaskInfo::get_Status, termserv.itssbtaskinfo_status
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbTaskInfo.Status"
+f1_keywords:
+- sbtsv/ITsSbTaskInfo.Status
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbTaskInfo.Status
- - ITsSbTaskInfo.get_Status
+- ITsSbTaskInfo.Status
+- ITsSbTaskInfo.get_Status
 targetos: Windows
 req.typenames: 
 req.redist: 

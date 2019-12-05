@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationDropTargetPattern.get_CurrentDropTargetEffects
 title: IUIAutomationDropTargetPattern::get_CurrentDropTargetEffects (uiautomationclient.h)
-
 description: Retrieves an array of localized strings that enumerate the full set of effects that can happen when the user drops a grabbed element on this drop target as part of a drag-and-drop operation.
 old-location: winauto\uiauto_iuiautomationdroptargetpattern_currentdroptargeteffects.htm
 tech.root: WinAuto
 ms.assetid: C7AF57B4-E4A0-4105-93C9-38106DCAA077
-
 ms.date: 12/05/2018
 ms.keywords: CurrentDropTargetEffects property [Windows Accessibility], CurrentDropTargetEffects property [Windows Accessibility],IUIAutomationDropTargetPattern interface, IUIAutomationDropTargetPattern interface [Windows Accessibility],CurrentDropTargetEffects property, IUIAutomationDropTargetPattern.CurrentDropTargetEffects, IUIAutomationDropTargetPattern.get_CurrentDropTargetEffects, IUIAutomationDropTargetPattern::CurrentDropTargetEffects, IUIAutomationDropTargetPattern::get_CurrentDropTargetEffects, get_CurrentDropTargetEffects, uiautomationclient/IUIAutomationDropTargetPattern::CurrentDropTargetEffects, uiautomationclient/IUIAutomationDropTargetPattern::get_CurrentDropTargetEffects, winauto.uiauto_iuiautomationdroptargetpattern_currentdroptargeteffects
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationDropTargetPattern.CurrentDropTargetEffects"
+f1_keywords:
+- uiautomationclient/IUIAutomationDropTargetPattern.CurrentDropTargetEffects
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationDropTargetPattern.CurrentDropTargetEffects
- - IUIAutomationDropTargetPattern.get_CurrentDropTargetEffects
+- IUIAutomationDropTargetPattern.CurrentDropTargetEffects
+- IUIAutomationDropTargetPattern.get_CurrentDropTargetEffects
 targetos: Windows
 req.typenames: 
 req.redist: 

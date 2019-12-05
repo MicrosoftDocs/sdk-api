@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.MCIWndUseTime
 title: MCIWndUseTime macro (vfw.h)
-
 description: The MCIWndUseTime macro sets the time format of an MCI device to milliseconds. You can use this macro or explicitly send the MCIWNDM_SETTIMEFORMAT message.
 old-location: multimedia\mciwndusetime.htm
 tech.root: Multimedia
 ms.assetid: 604031d8-4cb6-49a8-a2c8-7b4966f9cdf4
-
 ms.date: 12/05/2018
 ms.keywords: MCIWndUseTime, MCIWndUseTime macro [Windows Multimedia], _win32_MCIWndUseTime, multimedia.mciwndusetime, vfw/MCIWndUseTime
 ms.topic: macro
-f1_keywords: 
- - "vfw/MCIWndUseTime"
+f1_keywords:
+- vfw/MCIWndUseTime
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - MCIWndUseTime
+- MCIWndUseTime
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shellscalingapi.RegisterScaleChangeNotifications
 title: RegisterScaleChangeNotifications function (shellscalingapi.h)
-
 description: Registers a window to receive callbacks when scaling information changes.
 old-location: shell\RegisterScaleChangeNotifications.htm
 tech.root: shell
 ms.assetid: 79FB0A54-EBF0-4aab-B631-B4D3EA54D20B
-
 ms.date: 12/05/2018
 ms.keywords: RegisterScaleChangeNotifications, RegisterScaleChangeNotifications function [Windows Shell], shell.RegisterScaleChangeNotifications, shellscalingapi/RegisterScaleChangeNotifications
 ms.topic: function
-f1_keywords: 
- - "shellscalingapi/RegisterScaleChangeNotifications"
+f1_keywords:
+- shellscalingapi/RegisterScaleChangeNotifications
 dev_langs:
- - c++
+- c++
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Shcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shcore.dll
- - API-MS-Win-shcore-scaling-l1-1-0.dll
- - API-MS-Win-shcore-scaling-l1-1-1.dll
- - API-MS-Win-ShCore-Scaling-l1-1-2.dll
- - api-ms-win-shcore-scaling-l1.dll
+- Shcore.dll
+- API-MS-Win-shcore-scaling-l1-1-0.dll
+- API-MS-Win-shcore-scaling-l1-1-1.dll
+- API-MS-Win-ShCore-Scaling-l1-1-2.dll
+- api-ms-win-shcore-scaling-l1.dll
 api_name:
- - RegisterScaleChangeNotifications
+- RegisterScaleChangeNotifications
 targetos: Windows
 req.typenames: 
 req.redist: 

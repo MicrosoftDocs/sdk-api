@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.GetClusterResourceKey
 title: GetClusterResourceKey function (clusapi.h)
-
 description: Opens the root of the cluster database subtree for a resource.
 old-location: mscs\getclusterresourcekey.htm
 tech.root: MsCS
 ms.assetid: 841f28a1-1415-41bb-b8ac-cf17c6d7c6f3
-
 ms.date: 12/05/2018
 ms.keywords: GetClusterResourceKey, GetClusterResourceKey function [Failover Cluster], _wolf_getclusterresourcekey, clusapi/GetClusterResourceKey, mscs.getclusterresourcekey
 ms.topic: function
-f1_keywords: 
- - "clusapi/GetClusterResourceKey"
+f1_keywords:
+- clusapi/GetClusterResourceKey
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - GetClusterResourceKey
+- GetClusterResourceKey
 targetos: Windows
 req.typenames: 
 req.redist: 

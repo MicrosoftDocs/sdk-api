@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.GetUserInput
 title: IPhotoProgressDialog::GetUserInput (photoacquire.h)
-
 description: Retrieves descriptive information entered by the user, such as the tag name of the images to store.
 old-location: picacq\iphotoprogressdialog_getuserinput.htm
 tech.root: acquisition
 ms.assetid: 1f797e68-f87d-4f90-853b-60c6c9309f58
-
 ms.date: 12/05/2018
 ms.keywords: GetUserInput, GetUserInput method [Picture Acquisition], GetUserInput method [Picture Acquisition],IPhotoProgressDialog interface, IPhotoProgressDialog interface [Picture Acquisition],GetUserInput method, IPhotoProgressDialog.GetUserInput, IPhotoProgressDialog::GetUserInput, IPhotoProgressDialogGetUserInput, photoacquire/IPhotoProgressDialog::GetUserInput, picacq.iphotoprogressdialog_getuserinput
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoProgressDialog.GetUserInput"
+f1_keywords:
+- photoacquire/IPhotoProgressDialog.GetUserInput
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoProgressDialog.GetUserInput
+- IPhotoProgressDialog.GetUserInput
 targetos: Windows
 req.typenames: 
 req.redist: 

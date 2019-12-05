@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdate2.get_RebootRequired
 title: IUpdate2::get_RebootRequired (wuapi.h)
-
 description: Gets a Boolean value that indicates whether a system restart is required on a computer to complete the installation or the uninstallation of an update.
 old-location: wua\iupdate2_rebootrequired.htm
 tech.root: Wua_Sdk
 ms.assetid: 7e665fd1-20f9-47a0-b78f-e60b51cdac5f
-
 ms.date: 12/05/2018
 ms.keywords: IUpdate2 interface [Windows Update Agent],RebootRequired property, IUpdate2.RebootRequired, IUpdate2.get_RebootRequired, IUpdate2::RebootRequired, IUpdate2::get_RebootRequired, RebootRequired property [Windows Update Agent], RebootRequired property [Windows Update Agent],IUpdate2 interface, get_RebootRequired, wua.iupdate2_rebootrequired, wuapi/IUpdate2::RebootRequired, wuapi/IUpdate2::get_RebootRequired
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdate2.RebootRequired"
+f1_keywords:
+- wuapi/IUpdate2.RebootRequired
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdate2.RebootRequired
- - IUpdate2.get_RebootRequired
+- IUpdate2.RebootRequired
+- IUpdate2.get_RebootRequired
 targetos: Windows
 req.typenames: 
 req.redist: 

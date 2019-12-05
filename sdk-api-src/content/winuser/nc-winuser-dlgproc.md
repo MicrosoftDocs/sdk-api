@@ -1,19 +1,17 @@
 ---
 UID: NC:winuser.DLGPROC
 title: DLGPROC (winuser.h)
-
 description: Application-defined callback function used with the CreateDialog and DialogBox families of functions.
 old-location: dlgbox\dialogproc.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\dialogproc.htm
-
 ms.date: 12/05/2018
 ms.keywords: DLGPROC, DLGPROC callback, DLGPROC callback function [Dialog Boxes], _win32_DialogProc, _win32_dialogproc_cpp, dlgbox.dialogproc, winui._win32_dialogproc, winuser/DLGPROC
 ms.topic: callback
-f1_keywords: 
- - "winuser/DLGPROC"
+f1_keywords:
+- winuser/DLGPROC
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - DLGPROC
+- DLGPROC
 targetos: Windows
 req.typenames: 
 req.redist: 

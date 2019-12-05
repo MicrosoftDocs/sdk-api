@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsPathname.AddLeafElement
 title: IADsPathname::AddLeafElement (iads.h)
-
 description: Adds an element to the end of the directory path already set on the Pathname object.
 old-location: adsi\iadspathname_addleafelement.htm
 tech.root: adsi
 ms.assetid: 6f29f11f-965e-4556-af74-2bc06588410f
-
 ms.date: 12/05/2018
 ms.keywords: AddLeafElement, AddLeafElement method [ADSI], AddLeafElement method [ADSI],IADsPathname interface, IADsPathname interface [ADSI],AddLeafElement method, IADsPathname.AddLeafElement, IADsPathname::AddLeafElement, _ds_iadspathname_addleafelement, adsi.iadspathname__addleafelement, adsi.iadspathname_addleafelement, iads/IADsPathname::AddLeafElement
 ms.topic: method
-f1_keywords: 
- - "iads/IADsPathname.AddLeafElement"
+f1_keywords:
+- iads/IADsPathname.AddLeafElement
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsPathname.AddLeafElement
+- IADsPathname.AddLeafElement
 targetos: Windows
 req.typenames: 
 req.redist: 

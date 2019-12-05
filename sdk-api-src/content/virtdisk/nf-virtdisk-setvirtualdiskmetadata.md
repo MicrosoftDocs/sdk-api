@@ -1,19 +1,17 @@
 ---
 UID: NF:virtdisk.SetVirtualDiskMetadata
 title: SetVirtualDiskMetadata function (virtdisk.h)
-
 description: Sets a metadata item for a virtual disk.
 old-location: vstor\setvirtualdiskmetadata.htm
 tech.root: VStor
 ms.assetid: 27ee1529-ccd9-43ea-aed9-4fd32d793354
-
 ms.date: 12/05/2018
 ms.keywords: SetVirtualDiskMetadata, SetVirtualDiskMetadata function [Virtual Storage], virtdisk/SetVirtualDiskMetadata, vstor.setvirtualdiskmetadata
 ms.topic: function
-f1_keywords: 
- - "virtdisk/SetVirtualDiskMetadata"
+f1_keywords:
+- virtdisk/SetVirtualDiskMetadata
 dev_langs:
- - c++
+- c++
 req.header: virtdisk.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: VirtDisk.lib
 req.dll: VirtDisk.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - VirtDisk.dll
+- VirtDisk.dll
 api_name:
- - SetVirtualDiskMetadata
+- SetVirtualDiskMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 

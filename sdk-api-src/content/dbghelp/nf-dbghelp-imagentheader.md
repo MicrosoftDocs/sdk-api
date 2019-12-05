@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.ImageNtHeader
 title: ImageNtHeader function (dbghelp.h)
-
 description: Locates the IMAGE_NT_HEADERS structure in a PE image and returns a pointer to the data.
 old-location: base\imagentheader.htm
 tech.root: Debug
 ms.assetid: bf796c81-84d1-43e6-a2ff-b0be6f4603e0
-
 ms.date: 12/05/2018
 ms.keywords: ImageNtHeader, ImageNtHeader function, _win32_imagentheader, base.imagentheader, dbghelp/ImageNtHeader
 ms.topic: function
-f1_keywords: 
- - "dbghelp/ImageNtHeader"
+f1_keywords:
+- dbghelp/ImageNtHeader
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
- - emodel.dll
- - imagehlp.dll
+- Dbghelp.dll
+- emodel.dll
+- imagehlp.dll
 api_name:
- - ImageNtHeader
+- ImageNtHeader
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

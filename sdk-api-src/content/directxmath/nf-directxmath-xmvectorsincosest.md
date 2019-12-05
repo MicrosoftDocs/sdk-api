@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorSinCosEst
 title: XMVectorSinCosEst function (directxmath.h)
-
 description: Estimates the sine and cosine of each component of an XMVECTOR.
 old-location: dxmath\xmvectorsincosest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorSinCosEst(XMVECTOR@,XMVECTOR@,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSinCosEst, XMVectorSinCosEst, XMVectorSinCosEst method [DirectX Math Support APIs], dxmath.xmvectorsincosest
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorSinCosEst"
+f1_keywords:
+- directxmath/XMVectorSinCosEst
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorSinCosEst
+- XMVectorSinCosEst
 targetos: Windows
 req.typenames: 
 req.redist: 

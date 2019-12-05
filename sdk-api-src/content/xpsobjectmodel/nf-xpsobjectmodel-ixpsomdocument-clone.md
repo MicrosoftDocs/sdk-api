@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocument.Clone
 title: IXpsOMDocument::Clone (xpsobjectmodel.h)
-
 description: Makes a deep copy of the interface.
 old-location: xps\ixpsomdocument_clone.htm
 tech.root: printdocs
 ms.assetid: b7d8f5a8-553e-443c-8a56-fd0688df90ce
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMDocument interface, IXpsOMDocument interface [XPS Documents and Packaging],Clone method, IXpsOMDocument.Clone, IXpsOMDocument::Clone, xps.ixpsomdocument_clone, xpsobjectmodel/IXpsOMDocument::Clone
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMDocument.Clone"
+f1_keywords:
+- xpsobjectmodel/IXpsOMDocument.Clone
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMDocument.Clone
+- IXpsOMDocument.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

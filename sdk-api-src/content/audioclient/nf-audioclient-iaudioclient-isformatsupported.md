@@ -1,19 +1,17 @@
 ---
 UID: NF:audioclient.IAudioClient.IsFormatSupported
 title: IAudioClient::IsFormatSupported (audioclient.h)
-
 description: The IsFormatSupported method indicates whether the audio endpoint device supports a particular stream format.
 old-location: coreaudio\iaudioclient_isformatsupported.htm
 tech.root: CoreAudio
 ms.assetid: 92d1fc93-08e2-46d9-bd2f-ce1b2087d2d1
-
 ms.date: 12/05/2018
 ms.keywords: IAudioClient interface [Core Audio],IsFormatSupported method, IAudioClient.IsFormatSupported, IAudioClient::IsFormatSupported, IAudioClientIsFormatSupported, IsFormatSupported, IsFormatSupported method [Core Audio], IsFormatSupported method [Core Audio],IAudioClient interface, audioclient/IAudioClient::IsFormatSupported, coreaudio.iaudioclient_isformatsupported
 ms.topic: method
-f1_keywords: 
- - "audioclient/IAudioClient.IsFormatSupported"
+f1_keywords:
+- audioclient/IAudioClient.IsFormatSupported
 dev_langs:
- - c++
+- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioclient.h
+- Audioclient.h
 api_name:
- - IAudioClient.IsFormatSupported
+- IAudioClient.IsFormatSupported
 targetos: Windows
 req.typenames: 
 req.redist: 

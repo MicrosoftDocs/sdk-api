@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IFont.SetRatio
 title: IFont::SetRatio (ocidl.h)
-
 description: Converts the scaling factor for this font between logical units and HIMETRIC units.
 old-location: com\ifont_setratio.htm
 tech.root: com
 ms.assetid: aaa962d8-6f7f-4031-aa10-09cadf0e5aec
-
 ms.date: 12/05/2018
 ms.keywords: IFont interface [COM],SetRatio method, IFont.SetRatio, IFont::SetRatio, SetRatio, SetRatio method [COM], SetRatio method [COM],IFont interface, _ctrl_ifont_setratio, com.ifont_setratio, ocidl/IFont::SetRatio
 ms.topic: method
-f1_keywords: 
- - "ocidl/IFont.SetRatio"
+f1_keywords:
+- ocidl/IFont.SetRatio
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IFont.SetRatio
+- IFont.SetRatio
 targetos: Windows
 req.typenames: 
 req.redist: 

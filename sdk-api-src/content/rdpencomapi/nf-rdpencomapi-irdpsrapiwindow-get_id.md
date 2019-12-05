@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIWindow.get_Id
 title: IRDPSRAPIWindow::get_Id (rdpencomapi.h)
-
 description: Returns the ID of a window.
 old-location: rdp\irdpsrapiwindow_id.htm
 tech.root: rdp
 ms.assetid: 4defca24-d9f0-4131-86c6-795d6b2e45de
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIWindow interface [RDP],Id property, IRDPSRAPIWindow.Id, IRDPSRAPIWindow.get_Id, IRDPSRAPIWindow::Id, IRDPSRAPIWindow::get_Id, Id property [RDP], Id property [RDP],IRDPSRAPIWindow interface, Id property [RDP],RDPSRAPIWindow object, RDPSRAPIWindow object [RDP],Id property, get_Id, rdp.irdpsrapiwindow_id, rdpencomapi/IRDPSRAPIWindow::Id, rdpencomapi/IRDPSRAPIWindow::get_Id
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIWindow.Id"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIWindow.Id
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIWindow.Id
- - IRDPSRAPIWindow.get_Id
- - RDPSRAPIWindow.Id
+- IRDPSRAPIWindow.Id
+- IRDPSRAPIWindow.get_Id
+- RDPSRAPIWindow.Id
 targetos: Windows
 req.typenames: 
 req.redist: 

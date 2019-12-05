@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITriggerCollection.get__NewEnum
 title: ITriggerCollection::get__NewEnum (taskschd.h)
-
 description: Gets the collection enumerator for the trigger collection.
 old-location: taskschd\itriggercollection__newenum.htm
 tech.root: taskschd
 ms.assetid: a5df593a-8771-4a96-a9dd-abd4e3f1721f
-
 ms.date: 12/05/2018
 ms.keywords: ITriggerCollection interface [Task Scheduler],_NewEnum property, ITriggerCollection._NewEnum, ITriggerCollection.get__NewEnum, ITriggerCollection::_NewEnum, ITriggerCollection::get__NewEnum, _NewEnum property [Task Scheduler], _NewEnum property [Task Scheduler],ITriggerCollection interface, get__NewEnum, taskschd.itriggercollection__newenum, taskschd/ITriggerCollection::_NewEnum, taskschd/ITriggerCollection::get__NewEnum
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITriggerCollection._NewEnum"
+f1_keywords:
+- taskschd/ITriggerCollection._NewEnum
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITriggerCollection._NewEnum
- - ITriggerCollection.get__NewEnum
+- ITriggerCollection._NewEnum
+- ITriggerCollection.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

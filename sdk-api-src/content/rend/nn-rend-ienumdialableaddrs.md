@@ -1,19 +1,17 @@
 ---
 UID: NN:rend.IEnumDialableAddrs
 title: IEnumDialableAddrs (rend.h)
-
 description: The IEnumDialableAddrs interface provides COM-standard enumeration methods to discover and use the available dialable addresses in a directory. The ITDirectoryObject::EnumerateDialableAddrs method returns a pointer to this interface.
 old-location: tapi3\ienumdialableaddrs.htm
 tech.root: Tapi
 ms.assetid: 0a64cb89-9e44-4af1-9b0f-2eec6e5267c7
-
 ms.date: 12/05/2018
 ms.keywords: IEnumDialableAddrs, IEnumDialableAddrs interface [TAPI 2.2], IEnumDialableAddrs interface [TAPI 2.2],described, _tapi3_ienumdialableaddrs, rend/IEnumDialableAddrs, tapi3.ienumdialableaddrs
 ms.topic: interface
-f1_keywords: 
- - "rend/IEnumDialableAddrs"
+f1_keywords:
+- rend/IEnumDialableAddrs
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - IEnumDialableAddrs
+- IEnumDialableAddrs
 targetos: Windows
 req.typenames: 
 req.redist: 

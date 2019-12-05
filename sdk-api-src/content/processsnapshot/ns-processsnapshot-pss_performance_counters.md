@@ -1,19 +1,17 @@
 ---
 UID: NS:processsnapshot.__unnamed_struct_7
 title: PSS_PERFORMANCE_COUNTERS (processsnapshot.h)
-
 description: Holds performance counters returned by PssQuerySnapshot.
 old-location: proc_snap\pss_performance_counters.htm
 tech.root: proc_snap
 ms.assetid: 298C1FC8-D19D-4DB3-84AA-3870D06B16A1
-
 ms.date: 12/05/2018
 ms.keywords: PSS_PERFORMANCE_COUNTERS, PSS_PERFORMANCE_COUNTERS structure, proc_snap.pss_performance_counters, processsnapshot/PSS_PERFORMANCE_COUNTERS
 ms.topic: struct
-f1_keywords: 
- - "processsnapshot/PSS_PERFORMANCE_COUNTERS"
+f1_keywords:
+- processsnapshot/PSS_PERFORMANCE_COUNTERS
 dev_langs:
- - c++
+- c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - processsnapshot.h
+- processsnapshot.h
 api_name:
- - PSS_PERFORMANCE_COUNTERS
+- PSS_PERFORMANCE_COUNTERS
 targetos: Windows
 req.typenames: PSS_PERFORMANCE_COUNTERS
 req.redist: 

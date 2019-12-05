@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHPathPrepareForWriteW
 title: SHPathPrepareForWriteW function (shlobj_core.h)
-
 description: Checks to see if the path exists.
 old-location: shell\SHPathPrepareForWrite.htm
 tech.root: shell
 ms.assetid: 1b65e34f-2c31-421b-9d27-ed263dfb372b
-
 ms.date: 12/05/2018
 ms.keywords: SHPPFW_ASKDIRCREATE, SHPPFW_DEFAULT, SHPPFW_DIRCREATE, SHPPFW_IGNOREFILENAME, SHPPFW_MEDIACHECKONLY, SHPPFW_NONE, SHPPFW_NOWRITECHECK, SHPathPrepareForWrite, SHPathPrepareForWrite function [Windows Shell], SHPathPrepareForWriteA, SHPathPrepareForWriteW, _shell_shpathprepareforwrite, shell.SHPathPrepareForWrite, shlobj_core/SHPathPrepareForWrite, shlobj_core/SHPathPrepareForWriteA, shlobj_core/SHPathPrepareForWriteW
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHPathPrepareForWrite"
+f1_keywords:
+- shlobj_core/SHPathPrepareForWrite
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHPathPrepareForWrite
- - SHPathPrepareForWriteA
- - SHPathPrepareForWriteW
+- SHPathPrepareForWrite
+- SHPathPrepareForWriteA
+- SHPathPrepareForWriteW
 targetos: Windows
 req.typenames: 
 req.redist: 

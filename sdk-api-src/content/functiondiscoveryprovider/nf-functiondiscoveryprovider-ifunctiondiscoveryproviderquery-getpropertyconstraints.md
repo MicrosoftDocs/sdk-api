@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProviderQuery.GetPropertyConstraints
 title: IFunctionDiscoveryProviderQuery::GetPropertyConstraints (functiondiscoveryprovider.h)
-
 description: Retrieves the current property constraints.
 old-location: ncd\ifunctiondiscoveryproviderquery_getpropertyconstraints.htm
 tech.root: FunDisc
 ms.assetid: d8a45d1b-fb1e-4288-a42a-b967cc9b4533
-
 ms.date: 12/05/2018
 ms.keywords: GetPropertyConstraints, GetPropertyConstraints method, GetPropertyConstraints method,IFunctionDiscoveryProviderQuery interface, IFunctionDiscoveryProviderQuery interface,GetPropertyConstraints method, IFunctionDiscoveryProviderQuery.GetPropertyConstraints, IFunctionDiscoveryProviderQuery::GetPropertyConstraints, functiondiscoveryprovider/IFunctionDiscoveryProviderQuery::GetPropertyConstraints, ncd.ifunctiondiscoveryproviderquery_getpropertyconstraints
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryprovider/IFunctionDiscoveryProviderQuery.GetPropertyConstraints"
+f1_keywords:
+- functiondiscoveryprovider/IFunctionDiscoveryProviderQuery.GetPropertyConstraints
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunctionDiscoveryProvider.h
+- FunctionDiscoveryProvider.h
 api_name:
- - IFunctionDiscoveryProviderQuery.GetPropertyConstraints
+- IFunctionDiscoveryProviderQuery.GetPropertyConstraints
 targetos: Windows
 req.typenames: 
 req.redist: 

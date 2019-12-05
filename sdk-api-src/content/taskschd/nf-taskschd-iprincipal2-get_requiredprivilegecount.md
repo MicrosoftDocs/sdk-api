@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IPrincipal2.get_RequiredPrivilegeCount
 title: IPrincipal2::get_RequiredPrivilegeCount (taskschd.h)
-
 description: Gets the number of privileges in the required privileges array.
 old-location: taskschd\iprincipal2_requiredprivilegecount.htm
 tech.root: taskschd
 ms.assetid: b80cb1ad-8d28-4e38-82c4-92f1ce8fbc55
-
 ms.date: 12/05/2018
 ms.keywords: IPrincipal2 interface [Task Scheduler],RequiredPrivilegeCount property, IPrincipal2.RequiredPrivilegeCount, IPrincipal2.get_RequiredPrivilegeCount, IPrincipal2::RequiredPrivilegeCount, IPrincipal2::get_RequiredPrivilegeCount, RequiredPrivilegeCount property [Task Scheduler], RequiredPrivilegeCount property [Task Scheduler],IPrincipal2 interface, get_RequiredPrivilegeCount, taskschd.iprincipal2_requiredprivilegecount, taskschd/IPrincipal2::RequiredPrivilegeCount, taskschd/IPrincipal2::get_RequiredPrivilegeCount
 ms.topic: method
-f1_keywords: 
- - "taskschd/IPrincipal2.RequiredPrivilegeCount"
+f1_keywords:
+- taskschd/IPrincipal2.RequiredPrivilegeCount
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IPrincipal2.RequiredPrivilegeCount
- - IPrincipal2.get_RequiredPrivilegeCount
+- IPrincipal2.RequiredPrivilegeCount
+- IPrincipal2.get_RequiredPrivilegeCount
 targetos: Windows
 req.typenames: 
 req.redist: 

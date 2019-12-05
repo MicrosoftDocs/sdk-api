@@ -1,19 +1,17 @@
 ---
 UID: NE:gdiplusenums.StringAlignment
 title: StringAlignment (gdiplusenums.h)
-
 description: The StringAlignment enumeration specifies how a string is aligned in reference to the bounding rectangle. A bounding rectangle is used to define the area in which the text displays.
 old-location: gdiplus\_gdiplus_ENUM_StringAlignment.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\stringalignment.htm
-
 ms.date: 12/05/2018
 ms.keywords: StringAlignment, StringAlignment enumeration [GDI+], StringAlignmentCenter, StringAlignmentFar, StringAlignmentNear, _gdiplus_ENUM_StringAlignment, gdiplus._gdiplus_ENUM_StringAlignment, gdiplusenums/StringAlignment, gdiplusenums/StringAlignmentCenter, gdiplusenums/StringAlignmentFar, gdiplusenums/StringAlignmentNear
 ms.topic: enum
-f1_keywords: 
- - "gdiplusenums/StringAlignment"
+f1_keywords:
+- gdiplusenums/StringAlignment
 dev_langs:
- - c++
+- c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdiplusenums.h
+- Gdiplusenums.h
 api_name:
- - StringAlignment
+- StringAlignment
 targetos: Windows
 req.typenames: 
 req.redist: 

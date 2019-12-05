@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IValueMapItem.put_Enabled
 title: IValueMapItem::put_Enabled (pla.h)
-
 description: Retrieves or sets a value that indicates whether the item is enabled.
 old-location: pla\ivaluemapitem_enabled.htm
 tech.root: PLA
 ms.assetid: f23e02bf-217a-44a2-9e1f-e92a39c1b065
-
 ms.date: 12/05/2018
 ms.keywords: Enabled property [PLA], Enabled property [PLA],IValueMapItem interface, IValueMapItem interface [PLA],Enabled property, IValueMapItem.Enabled, IValueMapItem.put_Enabled, IValueMapItem::Enabled, IValueMapItem::get_Enabled, IValueMapItem::put_Enabled, base.ivaluemapitem_enabled, pla.ivaluemapitem_enabled, pla/IValueMapItem::Enabled, pla/IValueMapItem::get_Enabled, pla/IValueMapItem::put_Enabled, put_Enabled
 ms.topic: method
-f1_keywords: 
- - "pla/IValueMapItem.Enabled"
+f1_keywords:
+- pla/IValueMapItem.Enabled
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IValueMapItem.Enabled
- - IValueMapItem.get_Enabled
- - IValueMapItem.put_Enabled
+- IValueMapItem.Enabled
+- IValueMapItem.get_Enabled
+- IValueMapItem.put_Enabled
 targetos: Windows
 req.typenames: 
 req.redist: 

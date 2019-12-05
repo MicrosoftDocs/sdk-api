@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsComputer
 title: IADsComputer (iads.h)
-
 description: The IADsComputer interface is a dual interface that inherits from IADs.
 old-location: adsi\iadscomputer.htm
 tech.root: adsi
 ms.assetid: e2b90a98-5777-42c2-95dd-4623e738c4da
-
 ms.date: 12/05/2018
 ms.keywords: IADsComputer, IADsComputer interface [ADSI], IADsComputer interface [ADSI],described, _ds_iadscomputer, adsi.iadscomputer, iads/IADsComputer
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsComputer"
+f1_keywords:
+- iads/IADsComputer
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsComputer
+- IADsComputer
 targetos: Windows
 req.typenames: 
 req.redist: 

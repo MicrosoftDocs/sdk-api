@@ -1,19 +1,17 @@
 ---
 UID: NF:audioclient.IAudioClock.GetPosition
 title: IAudioClock::GetPosition (audioclient.h)
-
 description: The GetPosition method gets the current device position.
 old-location: coreaudio\iaudioclock_getposition.htm
 tech.root: CoreAudio
 ms.assetid: 2271bd73-8cb6-4048-a16c-f765d0fae6bd
-
 ms.date: 12/05/2018
 ms.keywords: GetPosition, GetPosition method [Core Audio], GetPosition method [Core Audio],IAudioClock interface, IAudioClock interface [Core Audio],GetPosition method, IAudioClock.GetPosition, IAudioClock::GetPosition, IAudioClockGetPosition, audioclient/IAudioClock::GetPosition, coreaudio.iaudioclock_getposition
 ms.topic: method
-f1_keywords: 
- - "audioclient/IAudioClock.GetPosition"
+f1_keywords:
+- audioclient/IAudioClock.GetPosition
 dev_langs:
- - c++
+- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioclient.h
+- Audioclient.h
 api_name:
- - IAudioClock.GetPosition
+- IAudioClock.GetPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

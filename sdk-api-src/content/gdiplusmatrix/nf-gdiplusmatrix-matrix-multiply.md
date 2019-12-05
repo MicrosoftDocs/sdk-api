@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Multiply
 title: Matrix::Multiply (gdiplusmatrix.h)
-
 description: The Matrix::Multiply method updates this matrix with the product of itself and another matrix.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Multiply_matrix_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\multiply.htm
-
 ms.date: 12/05/2018
 ms.keywords: Matrix class [GDI+],Multiply method, Matrix.Multiply, Matrix::Multiply, Multiply, Multiply method [GDI+], Multiply method [GDI+],Matrix class, _gdiplus_CLASS_Matrix_Multiply_matrix_order_, gdiplus._gdiplus_CLASS_Matrix_Multiply_matrix_order_
 ms.topic: method
-f1_keywords: 
- - "gdiplusmatrix/Matrix.Multiply"
+f1_keywords:
+- gdiplusmatrix/Matrix.Multiply
 dev_langs:
- - c++
+- c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Matrix.Multiply
+- Matrix.Multiply
 targetos: Windows
 req.typenames: 
 req.redist: 

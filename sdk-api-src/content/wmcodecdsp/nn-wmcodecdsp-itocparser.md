@@ -1,19 +1,17 @@
 ---
 UID: NN:wmcodecdsp.ITocParser
 title: ITocParser (wmcodecdsp.h)
-
 description: The ITocParser interface represents a TOC Parser object. It provides methods for storing tables of contents in a video file and retrieving tables of contents from a video file.
 old-location: mf\itocparser.htm
 tech.root: medfound
 ms.assetid: d1f14a6e-d75c-4266-beff-0e9af911edfe
-
 ms.date: 12/05/2018
 ms.keywords: ITocParser, ITocParser interface [Media Foundation], ITocParser interface [Media Foundation],described, codecapi.itocparser, mf.itocparser, wmcodecdsp/ITocParser
 ms.topic: interface
-f1_keywords: 
- - "wmcodecdsp/ITocParser"
+f1_keywords:
+- wmcodecdsp/ITocParser
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmvdspa.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmvdspa.dll
+- wmvdspa.dll
 api_name:
- - ITocParser
+- ITocParser
 targetos: Windows
 req.typenames: 
 req.redist: 

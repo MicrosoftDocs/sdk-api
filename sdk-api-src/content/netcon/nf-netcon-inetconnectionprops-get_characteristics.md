@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.INetConnectionProps.get_Characteristics
 title: INetConnectionProps::get_Characteristics (netcon.h)
-
 description: The get_Characteristics method retrieves the media type for the connection.
 old-location: ics\inetconnectionprops_get_characteristics.htm
 tech.root: ics
 ms.assetid: 7556fd9e-85ce-4c3a-805d-23702ca0e1c2
-
 ms.date: 12/05/2018
 ms.keywords: INetConnectionProps interface [ICS/ICF],get_Characteristics method, INetConnectionProps.get_Characteristics, INetConnectionProps::get_Characteristics, get_Characteristics, get_Characteristics method [ICS/ICF], get_Characteristics method [ICS/ICF],INetConnectionProps interface, ics.inetconnectionprops_get_characteristics, netcon/INetConnectionProps::get_Characteristics
 ms.topic: method
-f1_keywords: 
- - "netcon/INetConnectionProps.get_Characteristics"
+f1_keywords:
+- netcon/INetConnectionProps.get_Characteristics
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetConnectionProps.get_Characteristics
+- INetConnectionProps.get_Characteristics
 targetos: Windows
 req.typenames: 
 req.redist: 

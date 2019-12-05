@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialogEvents.OnFolderChange
 title: IFileDialogEvents::OnFolderChange (shobjidl_core.h)
-
 description: Called when the user navigates to a new folder.
 old-location: shell\IFileDialogEvents_OnFolderChange.htm
 tech.root: shell
 ms.assetid: 3e5ec923-0597-4cf4-8973-17c83481c7f4
-
 ms.date: 12/05/2018
 ms.keywords: IFileDialogEvents interface [Windows Shell],OnFolderChange method, IFileDialogEvents.OnFolderChange, IFileDialogEvents::OnFolderChange, OnFolderChange, OnFolderChange method [Windows Shell], OnFolderChange method [Windows Shell],IFileDialogEvents interface, shell.IFileDialogEvents_OnFolderChange, shell_IFileDialogEvents_OnFolderChange, shobjidl_core/IFileDialogEvents::OnFolderChange
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialogEvents.OnFolderChange"
+f1_keywords:
+- shobjidl_core/IFileDialogEvents.OnFolderChange
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialogEvents.OnFolderChange
+- IFileDialogEvents.OnFolderChange
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IRecoverableErrorData.GetItemDisplayName
 title: IRecoverableErrorData::GetItemDisplayName (winsync.h)
-
 description: Gets the display name of the item that caused the error.
 old-location: winsync\irecoverableerrordata_getitemdisplayname.htm
 tech.root: winsync
 ms.assetid: 6b40d528-18dc-4924-959a-cde5f02d18b1
-
 ms.date: 12/05/2018
 ms.keywords: GetItemDisplayName, GetItemDisplayName method [Windows Sync], GetItemDisplayName method [Windows Sync],IRecoverableErrorData interface, IRecoverableErrorData interface [Windows Sync],GetItemDisplayName method, IRecoverableErrorData.GetItemDisplayName, IRecoverableErrorData::GetItemDisplayName, winsync.irecoverableerrordata_getitemdisplayname, winsync/IRecoverableErrorData::GetItemDisplayName
 ms.topic: method
-f1_keywords: 
- - "winsync/IRecoverableErrorData.GetItemDisplayName"
+f1_keywords:
+- winsync/IRecoverableErrorData.GetItemDisplayName
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IRecoverableErrorData.GetItemDisplayName
+- IRecoverableErrorData.GetItemDisplayName
 targetos: Windows
 req.typenames: 
 req.redist: 

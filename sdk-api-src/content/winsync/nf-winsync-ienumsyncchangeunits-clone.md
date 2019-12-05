@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IEnumSyncChangeUnits.Clone
 title: IEnumSyncChangeUnits::Clone (winsync.h)
-
 description: This method is not implemented.
 old-location: winsync\ienumsyncchangeunits_clone.htm
 tech.root: winsync
 ms.assetid: 9a223a31-c147-4c51-94f5-f24ae0246f64
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumSyncChangeUnits interface, IEnumSyncChangeUnits interface [Windows Sync],Clone method, IEnumSyncChangeUnits.Clone, IEnumSyncChangeUnits::Clone, winsync.ienumsyncchangeunits_clone, winsync/IEnumSyncChangeUnits::Clone
 ms.topic: method
-f1_keywords: 
- - "winsync/IEnumSyncChangeUnits.Clone"
+f1_keywords:
+- winsync/IEnumSyncChangeUnits.Clone
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IEnumSyncChangeUnits.Clone
+- IEnumSyncChangeUnits.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

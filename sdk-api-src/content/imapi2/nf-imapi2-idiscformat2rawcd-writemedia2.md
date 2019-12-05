@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.WriteMedia2
 title: IDiscFormat2RawCD::WriteMedia2 (imapi2.h)
-
 description: Writes a DAO-96 raw image to the blank media using a specified starting address.
 old-location: imapi\idiscformat2rawcd_writemedia2.htm
 tech.root: imapi
 ms.assetid: 636d04dd-081d-407c-827e-55e443516d9b
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],WriteMedia2 method, IDiscFormat2RawCD.WriteMedia2, IDiscFormat2RawCD::WriteMedia2, WriteMedia2, WriteMedia2 method [IMAPI], WriteMedia2 method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_writemedia2, imapi2/IDiscFormat2RawCD::WriteMedia2
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2RawCD.WriteMedia2"
+f1_keywords:
+- imapi2/IDiscFormat2RawCD.WriteMedia2
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2RawCD.WriteMedia2
+- IDiscFormat2RawCD.WriteMedia2
 targetos: Windows
 req.typenames: 
 req.redist: 

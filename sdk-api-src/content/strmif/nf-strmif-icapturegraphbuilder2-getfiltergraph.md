@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder2.GetFiltergraph
 title: ICaptureGraphBuilder2::GetFiltergraph (strmif.h)
-
 description: The GetFiltergraph method retrieves the filter graph that the capture graph builder is using.
 old-location: dshow\icapturegraphbuilder2_getfiltergraph.htm
 tech.root: DirectShow
 ms.assetid: 91136a71-cfda-4aa5-ba6c-d1ce6cbef3c1
-
 ms.date: 12/05/2018
 ms.keywords: GetFiltergraph, GetFiltergraph method [DirectShow], GetFiltergraph method [DirectShow],ICaptureGraphBuilder2 interface, ICaptureGraphBuilder2 interface [DirectShow],GetFiltergraph method, ICaptureGraphBuilder2.GetFiltergraph, ICaptureGraphBuilder2::GetFiltergraph, ICaptureGraphBuilder2GetFiltergraph, dshow.icapturegraphbuilder2_getfiltergraph, strmif/ICaptureGraphBuilder2::GetFiltergraph
 ms.topic: method
-f1_keywords: 
- - "strmif/ICaptureGraphBuilder2.GetFiltergraph"
+f1_keywords:
+- strmif/ICaptureGraphBuilder2.GetFiltergraph
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICaptureGraphBuilder2.GetFiltergraph
+- ICaptureGraphBuilder2.GetFiltergraph
 targetos: Windows
 req.typenames: 
 req.redist: 

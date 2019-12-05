@@ -1,19 +1,17 @@
 ---
 UID: NF:imm.ImmGetCandidateListA
 title: ImmGetCandidateListA function (imm.h)
-
 description: Retrieves a candidate list.
 old-location: intl\immgetcandidatelist.htm
 tech.root: Intl
 ms.assetid: 24163117-a283-4067-8ce6-118ca2de62c9
-
 ms.date: 12/05/2018
 ms.keywords: ImmGetCandidateList, ImmGetCandidateList function [Internationalization for Windows Applications], ImmGetCandidateListA, ImmGetCandidateListW, _win32_ImmGetCandidateList, imm/ImmGetCandidateList, imm/ImmGetCandidateListA, imm/ImmGetCandidateListW, intl.immgetcandidatelist
 ms.topic: function
-f1_keywords: 
- - "imm/ImmGetCandidateList"
+f1_keywords:
+- imm/ImmGetCandidateList
 dev_langs:
- - c++
+- c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - imm32.dll
+- imm32.dll
 api_name:
- - ImmGetCandidateList
- - ImmGetCandidateListA
- - ImmGetCandidateListW
+- ImmGetCandidateList
+- ImmGetCandidateListA
+- ImmGetCandidateListW
 targetos: Windows
 req.typenames: 
 req.redist: 

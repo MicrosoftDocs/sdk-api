@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.SetByte
 title: CInstance::SetByte (instance.h)
-
 description: The SetByte method sets a BYTE property.
 old-location: wmi\cinstance_setbyte.htm
 tech.root: WmiSdk
 ms.assetid: d6ecbada-4eb6-40ad-9e59-ba77fd3b883a
-
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],SetByte method, CInstance.SetByte, CInstance::SetByte, SetByte, SetByte method [Windows Management Instrumentation], SetByte method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setbyte, instance/CInstance::SetByte, wmi.cinstance_setbyte
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.SetByte"
+f1_keywords:
+- instance/CInstance.SetByte
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.SetByte
+- CInstance.SetByte
 targetos: Windows
 req.typenames: 
 req.redist: 

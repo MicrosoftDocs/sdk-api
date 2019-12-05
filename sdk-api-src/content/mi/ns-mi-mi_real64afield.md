@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_Real64AField
 title: MI_Real64AField (mi.h)
-
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_real64afield.htm
 tech.root: wmi_v2
 ms.assetid: 9c40b939-e9db-4017-aee9-3a3e5ac21360
-
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Real64AField, MI_Real64AField structure [Windows Management Infrastructure (MI)], mi/MI_Real64AField, wmi._mi_real64afield, wmi_v2.mi_real64afield
 ms.topic: struct
 f1_keywords:
 - mi/MI_Real64AField
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

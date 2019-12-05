@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_TransmissionStart
 title: IFaxOutgoingJob::get_TransmissionStart (faxcomex.h)
-
 description: The IFaxOutgoingJob::get_TransmissionStart property indicates the time that the fax outbound job began transmitting. This property will have a value only after the transmission has started.
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_transmissionstart_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_27w4.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],TransmissionStart property, IFaxOutgoingJob.TransmissionStart, IFaxOutgoingJob.get_TransmissionStart, IFaxOutgoingJob::TransmissionStart, IFaxOutgoingJob::get_TransmissionStart, TransmissionStart property [Fax Service], TransmissionStart property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.transmissionstart, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_transmissionstart_cpp, fax._mfax_faxoutgoingjob_transmissionstart, faxcomex/IFaxOutgoingJob::TransmissionStart, faxcomex/IFaxOutgoingJob::get_TransmissionStart, get_TransmissionStart
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingJob.TransmissionStart"
+f1_keywords:
+- faxcomex/IFaxOutgoingJob.TransmissionStart
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingJob.TransmissionStart
- - IFaxOutgoingJob.get_TransmissionStart
- - IFaxOutgoingJob.get_TransmissionStart
+- IFaxOutgoingJob.TransmissionStart
+- IFaxOutgoingJob.get_TransmissionStart
+- IFaxOutgoingJob.get_TransmissionStart
 targetos: Windows
 req.typenames: 
 req.redist: 

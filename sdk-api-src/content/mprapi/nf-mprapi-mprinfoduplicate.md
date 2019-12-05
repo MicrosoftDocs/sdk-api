@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprInfoDuplicate
 title: MprInfoDuplicate function (mprapi.h)
-
 description: The MprInfoDuplicate function duplicates an existing information header.
 old-location: rras\mprinfoduplicate.htm
 tech.root: RRAS
 ms.assetid: 446e93a0-8de5-4117-94fe-6f167da1acef
-
 ms.date: 12/05/2018
 ms.keywords: MprInfoDuplicate, MprInfoDuplicate function [RAS], _mpr_mprinfoduplicate, mprapi/MprInfoDuplicate, rras.mprinfoduplicate
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprInfoDuplicate"
+f1_keywords:
+- mprapi/MprInfoDuplicate
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprInfoDuplicate
+- MprInfoDuplicate
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comcat.IEnumCATEGORYINFO.Clone
 title: IEnumCATEGORYINFO::Clone (comcat.h)
-
 description: Creates a new enumerator that contains the same enumeration state as the current one.
 old-location: com\ienumcategoryinfo_clone.htm
 tech.root: com
 ms.assetid: 9179b417-7dcd-4bb4-832f-86830e4b77ad
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumCATEGORYINFO interface, IEnumCATEGORYINFO interface [COM],Clone method, IEnumCATEGORYINFO.Clone, IEnumCATEGORYINFO::Clone, _com_ienumcategoryinfo_clone, com.ienumcategoryinfo_clone, comcat/IEnumCATEGORYINFO::Clone
 ms.topic: method
-f1_keywords: 
- - "comcat/IEnumCATEGORYINFO.Clone"
+f1_keywords:
+- comcat/IEnumCATEGORYINFO.Clone
 dev_langs:
- - c++
+- c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComCat.h
+- ComCat.h
 api_name:
- - IEnumCATEGORYINFO.Clone
+- IEnumCATEGORYINFO.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

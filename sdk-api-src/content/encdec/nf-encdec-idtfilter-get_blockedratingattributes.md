@@ -1,19 +1,17 @@
 ---
 UID: NF:encdec.IDTFilter.get_BlockedRatingAttributes
 title: IDTFilter::get_BlockedRatingAttributes (encdec.h)
-
 description: The get_BlockedRatingAttributes method determines whether content is blocked for a given rating system and rating level.
 old-location: mstv\idtfilter_get_blockedratingattributes.htm
 tech.root: mstv
 ms.assetid: cf7a5596-3d10-4ce9-a8c8-2703cf1eb7f8
-
 ms.date: 12/05/2018
 ms.keywords: IDTFilter interface [Microsoft TV Technologies],get_BlockedRatingAttributes method, IDTFilter.get_BlockedRatingAttributes, IDTFilter::get_BlockedRatingAttributes, IDTFilterget_BlockedRatingAttributes, encdec/IDTFilter::get_BlockedRatingAttributes, get_BlockedRatingAttributes, get_BlockedRatingAttributes method [Microsoft TV Technologies], get_BlockedRatingAttributes method [Microsoft TV Technologies],IDTFilter interface, mstv.idtfilter_get_blockedratingattributes
 ms.topic: method
-f1_keywords: 
- - "encdec/IDTFilter.get_BlockedRatingAttributes"
+f1_keywords:
+- encdec/IDTFilter.get_BlockedRatingAttributes
 dev_langs:
- - c++
+- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EncDec.h
+- EncDec.h
 api_name:
- - IDTFilter.get_BlockedRatingAttributes
+- IDTFilter.get_BlockedRatingAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

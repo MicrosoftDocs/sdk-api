@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Context_WriteCimError
 title: MI_Context_WriteCimError function (mi.h)
-
 description: Sends a CIM (informative) error instance to the client.
 old-location: wmi_v2\mi_context_writecimerror.htm
 tech.root: wmi_v2
 ms.assetid: 6df0841b-3e13-4f9a-9e54-5c3c0c0d79fe
-
 ms.date: 12/05/2018
 ms.keywords: MI_Context_WriteCimError, MI_Context_WriteCimError function [Windows Management Infrastructure (MI)], mi/MI_Context_WriteCimError, wmi.mi_writecimerror, wmi_v2.mi_context_writecimerror
 ms.topic: function
 f1_keywords:
 - mi/MI_Context_WriteCimError
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

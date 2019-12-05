@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMPacketSize.SetMaxPacketSize
 title: IWMPacketSize::SetMaxPacketSize (wmsdkidl.h)
-
 description: The SetMaxPacketSize method specifies the maximum size of a packet in an ASF file.
 old-location: wmformat\iwmpacketsize_setmaxpacketsize.htm
 tech.root: wmformat
 ms.assetid: a8230c08-e60f-454d-93a5-037685d6151c
-
 ms.date: 12/05/2018
 ms.keywords: IWMPacketSize interface [windows Media Format],SetMaxPacketSize method, IWMPacketSize.SetMaxPacketSize, IWMPacketSize2 interface [windows Media Format],SetMaxPacketSize method, IWMPacketSize2::SetMaxPacketSize, IWMPacketSize::SetMaxPacketSize, IWMPacketSizeSetMaxPacketSize, SetMaxPacketSize, SetMaxPacketSize method [windows Media Format], SetMaxPacketSize method [windows Media Format],IWMPacketSize interface, SetMaxPacketSize method [windows Media Format],IWMPacketSize2 interface, wmformat.iwmpacketsize_setmaxpacketsize, wmsdkidl/IWMPacketSize2::SetMaxPacketSize, wmsdkidl/IWMPacketSize::SetMaxPacketSize
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMPacketSize.SetMaxPacketSize"
+f1_keywords:
+- wmsdkidl/IWMPacketSize.SetMaxPacketSize
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
- - qasf.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
+- qasf.dll
 api_name:
- - IWMPacketSize.SetMaxPacketSize
- - IWMPacketSize2.SetMaxPacketSize
+- IWMPacketSize.SetMaxPacketSize
+- IWMPacketSize2.SetMaxPacketSize
 targetos: Windows
 req.typenames: 
 req.redist: 

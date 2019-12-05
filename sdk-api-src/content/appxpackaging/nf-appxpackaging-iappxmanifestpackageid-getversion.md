@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageId.GetVersion
 title: IAppxManifestPackageId::GetVersion (appxpackaging.h)
-
 description: Gets the version of the package as defined in the manifest.
 old-location: appxpkg\iappxmanifestpackageid_getversion.htm
 tech.root: appxpkg
 ms.assetid: 85684359-9244-4130-BF0F-56DDB6427345
-
 ms.date: 12/05/2018
 ms.keywords: GetVersion, GetVersion method [App packaging and management], GetVersion method [App packaging and management],IAppxManifestPackageId interface, IAppxManifestPackageId interface [App packaging and management],GetVersion method, IAppxManifestPackageId.GetVersion, IAppxManifestPackageId::GetVersion, appxpackaging/IAppxManifestPackageId::GetVersion, appxpkg.iappxmanifestpackageid_getversion
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxManifestPackageId.GetVersion"
+f1_keywords:
+- appxpackaging/IAppxManifestPackageId.GetVersion
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestPackageId.GetVersion
+- IAppxManifestPackageId.GetVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

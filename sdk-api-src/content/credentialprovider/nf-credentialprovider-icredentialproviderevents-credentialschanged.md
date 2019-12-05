@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderEvents.CredentialsChanged
 title: ICredentialProviderEvents::CredentialsChanged (credentialprovider.h)
-
 description: Signals the Logon UI or Credential UI that the enumerated list of credentials has changed.
 old-location: shell\ICredentialProviderEvents_CredentialsChanged.htm
 tech.root: shell
 ms.assetid: bff835ed-01b9-4620-a97c-c64a2445e02a
-
 ms.date: 12/05/2018
 ms.keywords: CredentialsChanged, CredentialsChanged method [Windows Shell], CredentialsChanged method [Windows Shell],ICredentialProviderEvents interface, ICredentialProviderEvents interface [Windows Shell],CredentialsChanged method, ICredentialProviderEvents.CredentialsChanged, ICredentialProviderEvents::CredentialsChanged, credentialprovider/ICredentialProviderEvents::CredentialsChanged, shell.ICredentialProviderEvents_CredentialsChanged, shell_ICredentialProviderEvents_CredentialsChanged
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderEvents.CredentialsChanged"
+f1_keywords:
+- credentialprovider/ICredentialProviderEvents.CredentialsChanged
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - ICredentialProviderEvents.CredentialsChanged
+- ICredentialProviderEvents.CredentialsChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

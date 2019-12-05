@@ -1,19 +1,17 @@
 ---
 UID: NN:wincodec.IWICDdsEncoder
 title: IWICDdsEncoder (wincodec.h)
-
 description: Enables writing DDS format specific information to an encoder.
 old-location: wic\iwicddsencoder.htm
 tech.root: wic
 ms.assetid: DF14309F-7595-4ABE-BB6E-03D2914CC86D
-
 ms.date: 12/05/2018
 ms.keywords: IWICDdsEncoder, IWICDdsEncoder interface [Windows Imaging Component], IWICDdsEncoder interface [Windows Imaging Component],described, wic.iwicddsencoder, wincodec/IWICDdsEncoder
 ms.topic: interface
-f1_keywords: 
- - "wincodec/IWICDdsEncoder"
+f1_keywords:
+- wincodec/IWICDdsEncoder
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICDdsEncoder
+- IWICDdsEncoder
 targetos: Windows
 req.typenames: 
 req.redist: 

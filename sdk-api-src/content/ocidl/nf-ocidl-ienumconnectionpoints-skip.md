@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IEnumConnectionPoints.Skip
 title: IEnumConnectionPoints::Skip (ocidl.h)
-
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: com\ienumconnectionpoints_skip.htm
 tech.root: com
 ms.assetid: 53080d41-c8b8-46ad-a5f1-6eceb497aa9b
-
 ms.date: 12/05/2018
 ms.keywords: IEnumConnectionPoints interface [COM],Skip method, IEnumConnectionPoints.Skip, IEnumConnectionPoints::Skip, Skip, Skip method [COM], Skip method [COM],IEnumConnectionPoints interface, _com_ienumconnectionpoints_skip, com.ienumconnectionpoints_skip, ocidl/IEnumConnectionPoints::Skip
 ms.topic: method
-f1_keywords: 
- - "ocidl/IEnumConnectionPoints.Skip"
+f1_keywords:
+- ocidl/IEnumConnectionPoints.Skip
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ocidl.h
+- ocidl.h
 api_name:
- - IEnumConnectionPoints.Skip
+- IEnumConnectionPoints.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

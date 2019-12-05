@@ -1,19 +1,17 @@
 ---
 UID: NF:mmddk.mmTaskBlock
 title: mmTaskBlock function (mmddk.h)
-
 description: The mmTaskBlock function is deprecated. Applications should not use this function.
 old-location: multimedia\mmtaskblock.htm
 tech.root: Multimedia
 ms.assetid: eaa3fcb3-85ee-4ae7-98c6-7873ef587241
-
 ms.date: 12/05/2018
 ms.keywords: mmTaskBlock, mmTaskBlock function [Windows Multimedia], mmddk/mmTaskBlock, multimedia.mmtaskblock
 ms.topic: function
-f1_keywords: 
- - "mmddk/mmTaskBlock"
+f1_keywords:
+- mmddk/mmTaskBlock
 dev_langs:
- - c++
+- c++
 req.header: mmddk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
+- Winmm.dll
 api_name:
- - mmTaskBlock
+- mmTaskBlock
 targetos: Windows
 req.typenames: 
 req.redist: 

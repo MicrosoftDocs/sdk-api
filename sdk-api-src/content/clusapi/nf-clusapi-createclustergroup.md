@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.CreateClusterGroup
 title: CreateClusterGroup function (clusapi.h)
-
 description: Adds a group to a cluster and returns a handle to the newly added group.
 old-location: mscs\createclustergroup.htm
 tech.root: MsCS
 ms.assetid: 7011640e-87d0-4f2b-971c-9e86c77db13e
-
 ms.date: 12/05/2018
 ms.keywords: CreateClusterGroup, CreateClusterGroup function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_GROUP, PCLUSAPI_CREATE_CLUSTER_GROUP function [Failover Cluster], _wolf_createclustergroup, clusapi/CreateClusterGroup, clusapi/PCLUSAPI_CREATE_CLUSTER_GROUP, mscs.createclustergroup
 ms.topic: function
-f1_keywords: 
- - "clusapi/CreateClusterGroup"
+f1_keywords:
+- clusapi/CreateClusterGroup
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
- - ext-ms-win-cluster-clusapi-l1-1-3.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ext-ms-win-cluster-clusapi-l1-1-3.dll
 api_name:
- - CreateClusterGroup
+- CreateClusterGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

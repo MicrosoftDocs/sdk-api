@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsSwProvider.CreatePack
 title: IVdsSwProvider::CreatePack (vds.h)
-
 description: Creates a pack object.
 old-location: base\ivdsswprovider_createpack.htm
 tech.root: VDS
 ms.assetid: 2d711ed8-9101-4e68-b085-b5df01515b5d
-
 ms.date: 12/05/2018
 ms.keywords: CreatePack, CreatePack method [VDS], CreatePack method [VDS],IVdsSwProvider interface, IVdsSwProvider interface [VDS],CreatePack method, IVdsSwProvider.CreatePack, IVdsSwProvider::CreatePack, base.ivdsswprovider_createpack, vds/IVdsSwProvider::CreatePack
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsSwProvider.CreatePack"
+f1_keywords:
+- vds/IVdsSwProvider.CreatePack
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsSwProvider.CreatePack
+- IVdsSwProvider.CreatePack
 targetos: Windows
 req.typenames: 
 req.redist: 

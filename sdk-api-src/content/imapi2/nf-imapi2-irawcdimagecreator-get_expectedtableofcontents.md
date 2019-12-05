@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.get_ExpectedTableOfContents
 title: IRawCDImageCreator::get_ExpectedTableOfContents (imapi2.h)
-
 description: Gets the SCSI-form table of contents for the resulting disc.
 old-location: imapi\irawcdimagecreator_get_expectedtableofcontents.htm
 tech.root: imapi
 ms.assetid: ce65b26f-9cf7-4c61-a343-975e5af17f57
-
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],get_ExpectedTableOfContents method, IRawCDImageCreator.get_ExpectedTableOfContents, IRawCDImageCreator::get_ExpectedTableOfContents, get_ExpectedTableOfContents, get_ExpectedTableOfContents method [IMAPI], get_ExpectedTableOfContents method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_expectedtableofcontents, imapi2/IRawCDImageCreator::get_ExpectedTableOfContents
 ms.topic: method
-f1_keywords: 
- - "imapi2/IRawCDImageCreator.get_ExpectedTableOfContents"
+f1_keywords:
+- imapi2/IRawCDImageCreator.get_ExpectedTableOfContents
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IRawCDImageCreator.get_ExpectedTableOfContents
+- IRawCDImageCreator.get_ExpectedTableOfContents
 targetos: Windows
 req.typenames: 
 req.redist: 

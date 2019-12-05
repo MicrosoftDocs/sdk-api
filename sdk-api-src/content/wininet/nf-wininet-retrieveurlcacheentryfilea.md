@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.RetrieveUrlCacheEntryFileA
 title: RetrieveUrlCacheEntryFileA function (wininet.h)
-
 description: Locks the cache entry file associated with the specified URL.
 old-location: wininet\retrieveurlcacheentryfile.htm
 tech.root: wininet
 ms.assetid: eb311b8d-560d-4742-af4c-b5afe660c8e5
-
 ms.date: 12/05/2018
 ms.keywords: RetrieveUrlCacheEntryFile, RetrieveUrlCacheEntryFile function [WinINet], RetrieveUrlCacheEntryFileA, RetrieveUrlCacheEntryFileW, _inet_retrieveurlcacheentryfile_function, wininet.retrieveurlcacheentryfile, wininet/RetrieveUrlCacheEntryFile, wininet/RetrieveUrlCacheEntryFileA, wininet/RetrieveUrlCacheEntryFileW
 ms.topic: function
-f1_keywords: 
- - "wininet/RetrieveUrlCacheEntryFile"
+f1_keywords:
+- wininet/RetrieveUrlCacheEntryFile
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - RetrieveUrlCacheEntryFile
- - RetrieveUrlCacheEntryFileA
- - RetrieveUrlCacheEntryFileW
+- RetrieveUrlCacheEntryFile
+- RetrieveUrlCacheEntryFileA
+- RetrieveUrlCacheEntryFileW
 targetos: Windows
 req.typenames: 
 req.redist: 

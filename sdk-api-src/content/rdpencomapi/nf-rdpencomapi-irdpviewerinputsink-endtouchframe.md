@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPViewerInputSink.EndTouchFrame
 title: IRDPViewerInputSink::EndTouchFrame (rdpencomapi.h)
-
 description: Stops to accept a series of touch inputs.
 old-location: rdp\irdpviewerinputsink_endtouchframe.htm
 tech.root: rdp
 ms.assetid: 31E84AEB-7A89-4EF1-9744-3102AAEA2C1E
-
 ms.date: 12/05/2018
 ms.keywords: EndTouchFrame, EndTouchFrame method [RDP], EndTouchFrame method [RDP],IRDPViewerInputSink interface, IRDPViewerInputSink interface [RDP],EndTouchFrame method, IRDPViewerInputSink.EndTouchFrame, IRDPViewerInputSink::EndTouchFrame, rdp.irdpviewerinputsink_endtouchframe, rdpencomapi/IRDPViewerInputSink::EndTouchFrame
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPViewerInputSink.EndTouchFrame"
+f1_keywords:
+- rdpencomapi/IRDPViewerInputSink.EndTouchFrame
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPViewerInputSink.EndTouchFrame
+- IRDPViewerInputSink.EndTouchFrame
 targetos: Windows
 req.typenames: 
 req.redist: 

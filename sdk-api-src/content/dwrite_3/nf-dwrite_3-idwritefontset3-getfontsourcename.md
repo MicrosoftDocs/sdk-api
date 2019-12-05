@@ -1,17 +1,15 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet3.GetFontSourceName
 title: IDWriteFontSet3::GetFontSourceName
-
 description: Copies the font source name (for the specified font) into an output array.
 tech.root: DirectWrite
-
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet3 interface [Direct Write],GetFontSourceName method, IDWriteFontSet3.GetFontSourceName, IDWriteFontSet3::GetFontSourceName, GetFontSourceName, GetFontSourceName method [Direct Write], GetFontSourceName method [Direct Write],IDWriteFontSet3 interface, directwrite.idwritefontset3_getfontsourcename, dwrite_3/IDWriteFontSet3::GetFontSourceName
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontSet3.GetFontSourceName"
+f1_keywords:
+- dwrite_3/IDWriteFontSet3.GetFontSourceName
 dev_langs:
- - c++
+- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,15 +29,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFontSet3::GetFontSourceName
+- IDWriteFontSet3::GetFontSourceName
 targetos: Windows
 req.typenames: 
 req.redist: 

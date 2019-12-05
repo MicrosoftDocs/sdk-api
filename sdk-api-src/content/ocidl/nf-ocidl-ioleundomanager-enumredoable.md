@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IOleUndoManager.EnumRedoable
 title: IOleUndoManager::EnumRedoable (ocidl.h)
-
 description: Creates an enumerator object that the caller can use to iterate through a series of top-level undo units from the redo stack.
 old-location: com\ioleundomanager_enumredoable.htm
 tech.root: com
 ms.assetid: f78c7130-34c9-410a-9b9c-222b5e237ad1
-
 ms.date: 12/05/2018
 ms.keywords: EnumRedoable, EnumRedoable method [COM], EnumRedoable method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],EnumRedoable method, IOleUndoManager.EnumRedoable, IOleUndoManager::EnumRedoable, _ole_ioleundomanager_enumredoable, com.ioleundomanager_enumredoable, ocidl/IOleUndoManager::EnumRedoable
 ms.topic: method
-f1_keywords: 
- - "ocidl/IOleUndoManager.EnumRedoable"
+f1_keywords:
+- ocidl/IOleUndoManager.EnumRedoable
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IOleUndoManager.EnumRedoable
+- IOleUndoManager.EnumRedoable
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IEnumConnectionPoints.Reset
 title: IEnumConnectionPoints::Reset (ocidl.h)
-
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienumconnectionpoints_reset.htm
 tech.root: com
 ms.assetid: a3624bf7-c56c-4ae6-9bc4-2490ddf02171
-
 ms.date: 12/05/2018
 ms.keywords: IEnumConnectionPoints interface [COM],Reset method, IEnumConnectionPoints.Reset, IEnumConnectionPoints::Reset, Reset, Reset method [COM], Reset method [COM],IEnumConnectionPoints interface, _com_ienumconnectionpoints_reset, com.ienumconnectionpoints_reset, ocidl/IEnumConnectionPoints::Reset
 ms.topic: method
-f1_keywords: 
- - "ocidl/IEnumConnectionPoints.Reset"
+f1_keywords:
+- ocidl/IEnumConnectionPoints.Reset
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ocidl.h
+- ocidl.h
 api_name:
- - IEnumConnectionPoints.Reset
+- IEnumConnectionPoints.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

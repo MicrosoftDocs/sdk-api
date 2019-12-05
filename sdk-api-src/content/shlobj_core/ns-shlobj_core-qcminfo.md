@@ -1,19 +1,17 @@
 ---
 UID: NS:shlobj_core._QCMINFO
 title: QCMINFO (shlobj_core.h)
-
 description: Contains information for merging menu items into Windows Explorer menus.
 old-location: shell\QCMINFO_str.htm
 tech.root: shell
 ms.assetid: 3f991ebb-d66c-4bdc-b9d2-2bf6bb5a269a
-
 ms.date: 12/05/2018
-ms.keywords: "*LPQCMINFO, QCMINFO, QCMINFO structure [Windows Shell], _QCMINFO, _win32_QCMINFO_str, shell.QCMINFO_str, shlobj_core/QCMINFO"
+ms.keywords: '*LPQCMINFO, QCMINFO, QCMINFO structure [Windows Shell], _QCMINFO, _win32_QCMINFO_str, shell.QCMINFO_str, shlobj_core/QCMINFO'
 ms.topic: struct
-f1_keywords: 
- - "shlobj_core/QCMINFO"
+f1_keywords:
+- shlobj_core/QCMINFO
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - QCMINFO
+- QCMINFO
 targetos: Windows
 req.typenames: QCMINFO
 req.redist: 

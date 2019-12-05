@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.media.core.interop.IAudioFrameNative.GetData
 title: IAudioFrameNative::core (windows.media.core.interop.h)
-
 description: This method returns an interface that provides access to the audio data.
 old-location: winrt\iaudioframenative_getdata.htm
 tech.root: WinRT
 ms.assetid: 4FA7CC9D-D379-4C08-8D4F-5301ECCDF372
-
 ms.date: 12/05/2018
 ms.keywords: GetData, GetData method [Windows Runtime], GetData method [Windows Runtime],IAudioFrameNative interface, IAudioFrameNative interface [Windows Runtime],GetData method, IAudioFrameNative.GetData, IAudioFrameNative.core, IAudioFrameNative::GetData, IAudioFrameNative::core, windows/IAudioFrameNative::GetData, winrt.iaudioframenative_getdata
 ms.topic: method
-f1_keywords: 
- - "windows.media.core.interop/IAudioFrameNative.GetData"
+f1_keywords:
+- windows.media.core.interop/IAudioFrameNative.GetData
 dev_langs:
- - c++
+- c++
 req.header: windows.media.core.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.media.core.interop.h
+- windows.media.core.interop.h
 api_name:
- - IAudioFrameNative.GetData
+- IAudioFrameNative.GetData
 targetos: Windows
 req.typenames: 
 req.redist: 

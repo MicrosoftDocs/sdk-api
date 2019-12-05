@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.Register
 title: IWdsTransportNamespace::Register (wdstptmgmt.h)
-
 description: Registers the namespace on the server.
 old-location: wds\iwdstransportnamespace_register.htm
 tech.root: wds
 ms.assetid: 9b5d2bf7-c06b-4e1b-bb98-e17a9816c90f
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],Register method, IWdsTransportNamespace.Register, IWdsTransportNamespace::Register, Register, Register method [Windows Deployment Services], Register method [Windows Deployment Services],IWdsTransportNamespace interface, wds.iwdstransportnamespace_register, wdstptmgmt/IWdsTransportNamespace::Register
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportNamespace.Register"
+f1_keywords:
+- wdstptmgmt/IWdsTransportNamespace.Register
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportNamespace.Register
+- IWdsTransportNamespace.Register
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.INetworkSettings
 title: INetworkSettings (taskschd.h)
-
 description: Provides the settings that the Task Scheduler service uses to obtain a network profile.
 old-location: taskschd\inetworksettings.htm
 tech.root: taskschd
 ms.assetid: 831e1259-df2b-4b03-8336-706727fd7b14
-
 ms.date: 12/05/2018
 ms.keywords: INetworkSettings, INetworkSettings interface [Task Scheduler], INetworkSettings interface [Task Scheduler],described, taskschd.inetworksettings, taskschd/INetworkSettings
 ms.topic: interface
-f1_keywords: 
- - "taskschd/INetworkSettings"
+f1_keywords:
+- taskschd/INetworkSettings
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - INetworkSettings
+- INetworkSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

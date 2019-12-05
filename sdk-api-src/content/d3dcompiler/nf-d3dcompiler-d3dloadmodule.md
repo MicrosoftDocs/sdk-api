@@ -1,19 +1,17 @@
 ---
 UID: NF:d3dcompiler.D3DLoadModule
 title: D3DLoadModule function (d3dcompiler.h)
-
 description: Creates a shader module interface from source data for the shader module.
 old-location: direct3dhlsl\d3dloadmodule.htm
 tech.root: direct3dhlsl
 ms.assetid: 698AADA6-0A88-44AD-9F15-F085BFE52CA1
-
 ms.date: 12/05/2018
 ms.keywords: D3DLoadModule, D3DLoadModule function [HLSL], d3dcompiler/D3DLoadModule, direct3dhlsl.d3dloadmodule
 ms.topic: function
-f1_keywords: 
- - "d3dcompiler/D3DLoadModule"
+f1_keywords:
+- d3dcompiler/D3DLoadModule
 dev_langs:
- - c++
+- c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - D3DLoadModule
+- D3DLoadModule
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:playtomanagerinterop.IPlayToManagerInterop.ShowPlayToUIForWindow
 title: IPlayToManagerInterop::ShowPlayToUIForWindow (playtomanagerinterop.h)
-
 description: Displays the Play To UI for the specified window.
 old-location: winrt\iplaytomanagerinterop_showplaytouiforwindow.htm
 tech.root: WinRT
 ms.assetid: 106ddd95-06dd-479a-8350-39d791add469
-
 ms.date: 12/05/2018
 ms.keywords: IPlayToManagerInterop interface [Windows Runtime],ShowPlayToUIForWindow method, IPlayToManagerInterop.ShowPlayToUIForWindow, IPlayToManagerInterop::ShowPlayToUIForWindow, ShowPlayToUIForWindow, ShowPlayToUIForWindow method [Windows Runtime], ShowPlayToUIForWindow method [Windows Runtime],IPlayToManagerInterop interface, playtomanagerinterop/IPlayToManagerInterop::ShowPlayToUIForWindow, winrt.iplaytomanagerinterop_showplaytouiforwindow
 ms.topic: method
-f1_keywords: 
- - "playtomanagerinterop/IPlayToManagerInterop.ShowPlayToUIForWindow"
+f1_keywords:
+- playtomanagerinterop/IPlayToManagerInterop.ShowPlayToUIForWindow
 dev_langs:
- - c++
+- c++
 req.header: playtomanagerinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - playtomanagerinterop.h
+- playtomanagerinterop.h
 api_name:
- - IPlayToManagerInterop.ShowPlayToUIForWindow
+- IPlayToManagerInterop.ShowPlayToUIForWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

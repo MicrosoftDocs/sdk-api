@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlDropHandler.OnDragLeave
 title: INameSpaceTreeControlDropHandler::OnDragLeave (shobjidl.h)
-
 description: Called on drag leave for a specified item.
 old-location: shell\INameSpaceTreeControlDropHandler_OnDragLeave.htm
 tech.root: shell
 ms.assetid: b5c67541-dcc2-412f-84aa-df0b0d135597
-
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlDropHandler interface [Windows Shell],OnDragLeave method, INameSpaceTreeControlDropHandler.OnDragLeave, INameSpaceTreeControlDropHandler::OnDragLeave, OnDragLeave, OnDragLeave method [Windows Shell], OnDragLeave method [Windows Shell],INameSpaceTreeControlDropHandler interface, _shell_INameSpaceTreeControlDropHandler_OnDragLeave, shell.INameSpaceTreeControlDropHandler_OnDragLeave, shobjidl/INameSpaceTreeControlDropHandler::OnDragLeave
 ms.topic: method
-f1_keywords: 
- - "shobjidl/INameSpaceTreeControlDropHandler.OnDragLeave"
+f1_keywords:
+- shobjidl/INameSpaceTreeControlDropHandler.OnDragLeave
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - INameSpaceTreeControlDropHandler.OnDragLeave
+- INameSpaceTreeControlDropHandler.OnDragLeave
 targetos: Windows
 req.typenames: 
 req.redist: 

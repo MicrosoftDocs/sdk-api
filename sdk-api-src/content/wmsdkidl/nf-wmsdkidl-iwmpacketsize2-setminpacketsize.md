@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMPacketSize2.SetMinPacketSize
 title: IWMPacketSize2::SetMinPacketSize (wmsdkidl.h)
-
 description: The SetMinPacketSize method sets the minimum packet size for files created with the profile. This method cannot be called from an interface belonging to a reader or synchronous reader object.
 old-location: wmformat\iwmpacketsize2_setminpacketsize.htm
 tech.root: wmformat
 ms.assetid: 6d58da65-710c-46ea-8fb9-9d161df06483
-
 ms.date: 12/05/2018
 ms.keywords: IWMPacketSize2 interface [windows Media Format],SetMinPacketSize method, IWMPacketSize2.SetMinPacketSize, IWMPacketSize2::SetMinPacketSize, IWMPacketSize2SetMinPacketSize, SetMinPacketSize, SetMinPacketSize method [windows Media Format], SetMinPacketSize method [windows Media Format],IWMPacketSize2 interface, wmformat.iwmpacketsize2_setminpacketsize, wmsdkidl/IWMPacketSize2::SetMinPacketSize
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMPacketSize2.SetMinPacketSize"
+f1_keywords:
+- wmsdkidl/IWMPacketSize2.SetMinPacketSize
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMPacketSize2.SetMinPacketSize
+- IWMPacketSize2.SetMinPacketSize
 targetos: Windows
 req.typenames: 
 req.redist: 

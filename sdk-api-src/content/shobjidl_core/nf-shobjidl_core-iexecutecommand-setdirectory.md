@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IExecuteCommand.SetDirectory
 title: IExecuteCommand::SetDirectory (shobjidl_core.h)
-
 description: Sets a new working directory.
 old-location: shell\IExecuteCommand_SetDirectory.htm
 tech.root: shell
 ms.assetid: 8416b2ef-8e62-4679-adc1-ec953875db34
-
 ms.date: 12/05/2018
 ms.keywords: IExecuteCommand interface [Windows Shell],SetDirectory method, IExecuteCommand.SetDirectory, IExecuteCommand::SetDirectory, SetDirectory, SetDirectory method [Windows Shell], SetDirectory method [Windows Shell],IExecuteCommand interface, _shell_IExecuteCommand_SetDirectory, shell.IExecuteCommand_SetDirectory, shobjidl_core/IExecuteCommand::SetDirectory
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IExecuteCommand.SetDirectory"
+f1_keywords:
+- shobjidl_core/IExecuteCommand.SetDirectory
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExecuteCommand.SetDirectory
+- IExecuteCommand.SetDirectory
 targetos: Windows
 req.typenames: 
 req.redist: 

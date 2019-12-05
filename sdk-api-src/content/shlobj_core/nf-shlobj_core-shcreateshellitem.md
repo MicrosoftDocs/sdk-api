@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHCreateShellItem
 title: SHCreateShellItem function (shlobj_core.h)
-
 description: Creates an IShellItem object.
 old-location: shell\SHCreateShellItem.htm
 tech.root: shell
 ms.assetid: d4371cdf-a8f4-4a39-ba66-97fd40ed46ae
-
 ms.date: 12/05/2018
 ms.keywords: SHCreateShellItem, SHCreateShellItem function [Windows Shell], _win32_SHCreateShellItem, shell.SHCreateShellItem, shlobj_core/SHCreateShellItem
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHCreateShellItem"
+f1_keywords:
+- shlobj_core/SHCreateShellItem
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHCreateShellItem
+- SHCreateShellItem
 targetos: Windows
 req.typenames: 
 req.redist: 

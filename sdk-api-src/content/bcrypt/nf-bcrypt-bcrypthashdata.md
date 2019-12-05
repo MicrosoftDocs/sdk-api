@@ -1,19 +1,17 @@
 ---
 UID: NF:bcrypt.BCryptHashData
 title: BCryptHashData function (bcrypt.h)
-
 description: Performs a one way hash or Message Authentication Code (MAC) on a data buffer.
 old-location: security\bcrypthashdata_func.htm
 tech.root: SecCNG
 ms.assetid: dab89dff-dc84-4f69-8b6b-de65704b0265
-
 ms.date: 12/05/2018
 ms.keywords: BCryptHashData, BCryptHashData function [Security], bcrypt/BCryptHashData, security.bcrypthashdata_func
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptHashData"
+f1_keywords:
+- bcrypt/BCryptHashData
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bcrypt.dll
- - Ksecdd.sys
+- Bcrypt.dll
+- Ksecdd.sys
 api_name:
- - BCryptHashData
+- BCryptHashData
 targetos: Windows
 req.typenames: 
 req.redist: 

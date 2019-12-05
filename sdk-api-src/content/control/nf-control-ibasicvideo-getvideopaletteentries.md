@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IBasicVideo.GetVideoPaletteEntries
 title: IBasicVideo::GetVideoPaletteEntries (control.h)
-
 description: The GetVideoPaletteEntries method retrieves the palette colors for the video.
 old-location: dshow\ibasicvideo_getvideopaletteentries.htm
 tech.root: DirectShow
 ms.assetid: 9a022bc5-56f5-41c0-940f-f9074791a353
-
 ms.date: 12/05/2018
 ms.keywords: GetVideoPaletteEntries, GetVideoPaletteEntries method [DirectShow], GetVideoPaletteEntries method [DirectShow],IBasicVideo interface, IBasicVideo interface [DirectShow],GetVideoPaletteEntries method, IBasicVideo.GetVideoPaletteEntries, IBasicVideo::GetVideoPaletteEntries, IBasicVideoGetVideoPaletteEntries, control/IBasicVideo::GetVideoPaletteEntries, dshow.ibasicvideo_getvideopaletteentries
 ms.topic: method
-f1_keywords: 
- - "control/IBasicVideo.GetVideoPaletteEntries"
+f1_keywords:
+- control/IBasicVideo.GetVideoPaletteEntries
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IBasicVideo.GetVideoPaletteEntries
+- IBasicVideo.GetVideoPaletteEntries
 targetos: Windows
 req.typenames: 
 req.redist: 

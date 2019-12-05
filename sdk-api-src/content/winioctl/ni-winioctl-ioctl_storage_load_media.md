@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_LOAD_MEDIA
 title: IOCTL_STORAGE_LOAD_MEDIA
-
 description: Loads media into a device.
 old-location: base\ioctl_storage_load_media.htm
 tech.root: devio
 ms.assetid: e5b370e9-03e8-4ab8-ba3c-4677cecb3bef
-
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_LOAD_MEDIA, IOCTL_STORAGE_LOAD_MEDIA control, IOCTL_STORAGE_LOAD_MEDIA control code, _win32_ioctl_storage_load_media, base.ioctl_storage_load_media, winioctl/IOCTL_STORAGE_LOAD_MEDIA
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_STORAGE_LOAD_MEDIA"
+f1_keywords:
+- winioctl/IOCTL_STORAGE_LOAD_MEDIA
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_STORAGE_LOAD_MEDIA
+- IOCTL_STORAGE_LOAD_MEDIA
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:uiautomationclient.TreeTraversalOptions
 title: TreeTraversalOptions (uiautomationclient.h)
-
 description: Defines values that can be used to customize tree navigation order.
 old-location: winauto\uiauto_TreeTraversalOptions.htm
 tech.root: WinAuto
 ms.assetid: BB1A65F5-797A-4240-9082-041068A87709
-
 ms.date: 12/05/2018
 ms.keywords: TreeTraversalOptions, TreeTraversalOptions enumeration [Windows Accessibility], TreeTraversalOptions_Default, TreeTraversalOptions_LastToFirstOrder, TreeTraversalOptions_PostOrder, uiautomationclient/TreeTraversalOptions, uiautomationclient/TreeTraversalOptions_Default, uiautomationclient/TreeTraversalOptions_LastToFirstOrder, uiautomationclient/TreeTraversalOptions_PostOrder, winauto.uiauto_TreeTraversalOptions
 ms.topic: enum
-f1_keywords: 
- - "uiautomationclient/TreeTraversalOptions"
+f1_keywords:
+- uiautomationclient/TreeTraversalOptions
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h, Uiautomationcoreapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - TreeTraversalOptions
+- TreeTraversalOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

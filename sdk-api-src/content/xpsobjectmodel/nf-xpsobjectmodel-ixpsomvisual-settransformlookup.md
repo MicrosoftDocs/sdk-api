@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetTransformLookup
 title: IXpsOMVisual::SetTransformLookup (xpsobjectmodel.h)
-
 description: Sets the lookup key name of a shared matrix transform in a resource dictionary.
 old-location: xps\ixpsomvisual_settransformlookup.htm
 tech.root: printdocs
 ms.assetid: b9066cf8-37b5-4c30-ae41-f92a61aa552c
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetTransformLookup method, IXpsOMVisual.SetTransformLookup, IXpsOMVisual::SetTransformLookup, SetTransformLookup, SetTransformLookup method [XPS Documents and Packaging], SetTransformLookup method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_settransformlookup, xpsobjectmodel/IXpsOMVisual::SetTransformLookup
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMVisual.SetTransformLookup"
+f1_keywords:
+- xpsobjectmodel/IXpsOMVisual.SetTransformLookup
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMVisual.SetTransformLookup
+- IXpsOMVisual.SetTransformLookup
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMMatrixOrthographicOffCenterLH
 title: XMMatrixOrthographicOffCenterLH function (directxmath.h)
-
 description: Builds a custom orthogonal projection matrix for a left-handed coordinate system.
 old-location: dxmath\xmmatrixorthographicoffcenterlh.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixOrthographicOffCenterLH(float,float,float,float,float,float)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixOrthographicOffCenterLH, XMMatrixOrthographicOffCenterLH, XMMatrixOrthographicOffCenterLH method [DirectX Math Support APIs], dxmath.xmmatrixorthographicoffcenterlh
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMMatrixOrthographicOffCenterLH"
+f1_keywords:
+- directxmath/XMMatrixOrthographicOffCenterLH
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMMatrixOrthographicOffCenterLH
+- XMMatrixOrthographicOffCenterLH
 targetos: Windows
 req.typenames: 
 req.redist: 

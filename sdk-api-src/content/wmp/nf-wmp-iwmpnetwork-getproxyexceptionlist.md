@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPNetwork.getProxyExceptionList
 title: IWMPNetwork::getProxyExceptionList (wmp.h)
-
 description: The getProxyExceptionList method retrieves the proxy exception list.
 old-location: wmp\iwmpnetwork_getproxyexceptionlist.htm
 tech.root: WMP
 ms.assetid: ddd3a6b2-3637-4da1-b3ce-f01364e8b818
-
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],getProxyExceptionList method, IWMPNetwork.getProxyExceptionList, IWMPNetwork::getProxyExceptionList, IWMPNetworkgetProxyExceptionList, getProxyExceptionList, getProxyExceptionList method [Windows Media Player], getProxyExceptionList method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_getproxyexceptionlist, wmp/IWMPNetwork::getProxyExceptionList
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPNetwork.getProxyExceptionList"
+f1_keywords:
+- wmp/IWMPNetwork.getProxyExceptionList
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPNetwork.getProxyExceptionList
+- IWMPNetwork.getProxyExceptionList
 targetos: Windows
 req.typenames: 
 req.redist: 

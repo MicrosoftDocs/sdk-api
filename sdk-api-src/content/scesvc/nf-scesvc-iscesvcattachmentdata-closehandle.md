@@ -1,19 +1,17 @@
 ---
 UID: NF:scesvc.ISceSvcAttachmentData.CloseHandle
 title: ISceSvcAttachmentData::CloseHandle (scesvc.h)
-
 description: The CloseHandle method closes a handle opened during a previous call to ISceSvcAttachmentData::Initialize.
 old-location: security\iscesvcattachmentdata_closehandle.htm
 tech.root: SecMgmt
 ms.assetid: e50f5acf-06ef-49bb-bcf1-1fadeb4b808a
-
 ms.date: 12/05/2018
 ms.keywords: CloseHandle, CloseHandle method [Security], CloseHandle method [Security],ISceSvcAttachmentData interface, ISceSvcAttachmentData interface [Security],CloseHandle method, ISceSvcAttachmentData.CloseHandle, ISceSvcAttachmentData::CloseHandle, _config_iscesvcattachmentdata_closehandle, scesvc/ISceSvcAttachmentData::CloseHandle, security.iscesvcattachmentdata_closehandle
 ms.topic: method
-f1_keywords: 
- - "scesvc/ISceSvcAttachmentData.CloseHandle"
+f1_keywords:
+- scesvc/ISceSvcAttachmentData.CloseHandle
 dev_langs:
- - c++
+- c++
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsecedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsecedit.dll
+- Wsecedit.dll
 api_name:
- - ISceSvcAttachmentData.CloseHandle
+- ISceSvcAttachmentData.CloseHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

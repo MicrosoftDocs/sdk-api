@@ -1,19 +1,17 @@
 ---
 UID: NS:http._HTTP_SERVICE_BINDING_W
 title: HTTP_SERVICE_BINDING_W (http.h)
-
 description: HTTP_SERVICE_BINDING_W.
 old-location: http\http_service_binding_w.htm
 tech.root: http
 ms.assetid: 0d840097-82d3-4ee3-b0d9-bcac4cf3e935
-
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_SERVICE_BINDING_W, HTTP_SERVICE_BINDING_W, HTTP_SERVICE_BINDING_W structure [HTTP], PHTTP_SERVICE_BINDING_W, PHTTP_SERVICE_BINDING_W structure pointer [HTTP], http.http_service_binding_w, http/HTTP_SERVICE_BINDING_W, http/PHTTP_SERVICE_BINDING_W'
 ms.topic: struct
 f1_keywords:
 - http/HTTP_SERVICE_BINDING_W
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

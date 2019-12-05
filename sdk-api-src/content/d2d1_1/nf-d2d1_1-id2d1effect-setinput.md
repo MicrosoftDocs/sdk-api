@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1Effect.SetInput
 title: ID2D1Effect::SetInput (d2d1_1.h)
-
 description: Sets the given input image by index.
 old-location: direct2d\id2d1effect_setinput.htm
 tech.root: Direct2D
 ms.assetid: 16db95e8-43e7-403c-bce1-dd2f42e81d6a
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1Effect interface [Direct2D],SetInput method, ID2D1Effect.SetInput, ID2D1Effect::SetInput, SetInput, SetInput method [Direct2D], SetInput method [Direct2D],ID2D1Effect interface, d2d1_1/ID2D1Effect::SetInput, direct2d.id2d1effect_setinput
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1Effect.SetInput"
+f1_keywords:
+- d2d1_1/ID2D1Effect.SetInput
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Effect.SetInput
+- ID2D1Effect.SetInput
 targetos: Windows
 req.typenames: 
 req.redist: 

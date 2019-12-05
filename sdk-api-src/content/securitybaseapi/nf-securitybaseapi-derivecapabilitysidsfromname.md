@@ -1,19 +1,17 @@
 ---
 UID: NF:securitybaseapi.DeriveCapabilitySidsFromName
 title: DeriveCapabilitySidsFromName function (securitybaseapi.h)
-
 description: This function constructs two arrays of SIDs out of a capability name. One is an array group SID with NT Authority, and the other is an array of capability SIDs with AppAuthority.
 old-location: security\derivecapabilitysidsfromname.htm
 tech.root: SecAuthZ
 ms.assetid: 1A911FCC-6D11-4185-B532-20FE6C7C4B0B
-
 ms.date: 12/05/2018
 ms.keywords: DeriveCapabilitySidsFromName, DeriveCapabilitySidsFromName function [Security], security.derivecapabilitysidsfromname, securitybaseapi/DeriveCapabilitySidsFromName
 ms.topic: function
-f1_keywords: 
- - "securitybaseapi/DeriveCapabilitySidsFromName"
+f1_keywords:
+- securitybaseapi/DeriveCapabilitySidsFromName
 dev_langs:
- - c++
+- c++
 req.header: securitybaseapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - DeriveCapabilitySidsFromName
+- DeriveCapabilitySidsFromName
 targetos: Windows
 req.typenames: 
 req.redist: 

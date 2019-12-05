@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IViewObjectEx.GetNaturalExtent
 title: IViewObjectEx::GetNaturalExtent (ocidl.h)
-
 description: Provides sizing hints from the container for the object to use as the user resizes it.
 old-location: com\iviewobjectex_getnaturalextent.htm
 tech.root: com
 ms.assetid: 5759c482-2dea-4b94-956d-9560f72acbd5
-
 ms.date: 12/05/2018
 ms.keywords: DVASPECT_CONTENT, DVASPECT_DOCPRINT, DVASPECT_ICON, DVASPECT_THUMBNAIL, GetNaturalExtent, GetNaturalExtent method [COM], GetNaturalExtent method [COM],IViewObjectEx interface, IViewObjectEx interface [COM],GetNaturalExtent method, IViewObjectEx.GetNaturalExtent, IViewObjectEx::GetNaturalExtent, _ole_iviewobjectex_getnaturalextent, com.iviewobjectex_getnaturalextent, ocidl/IViewObjectEx::GetNaturalExtent
 ms.topic: method
-f1_keywords: 
- - "ocidl/IViewObjectEx.GetNaturalExtent"
+f1_keywords:
+- ocidl/IViewObjectEx.GetNaturalExtent
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IViewObjectEx.GetNaturalExtent
+- IViewObjectEx.GetNaturalExtent
 targetos: Windows
 req.typenames: 
 req.redist: 

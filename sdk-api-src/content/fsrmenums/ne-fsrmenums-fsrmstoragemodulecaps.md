@@ -1,19 +1,17 @@
 ---
 UID: NE:fsrmenums._FsrmStorageModuleCaps
 title: FsrmStorageModuleCaps (fsrmenums.h)
-
 description: Flags that define the capabilities of the storage module.
 old-location: fsrm\fsrmstoragemodulecaps.htm
 tech.root: fsrm
 ms.assetid: 15d9bddc-fe6c-40c9-ba12-587c57c0bfcf
-
 ms.date: 12/05/2018
 ms.keywords: FsrmStorageModuleCaps, FsrmStorageModuleCaps enumeration [File Server Resource Manager], FsrmStorageModuleCaps_CanGet, FsrmStorageModuleCaps_CanHandleDirectories, FsrmStorageModuleCaps_CanHandleFiles, FsrmStorageModuleCaps_CanSet, FsrmStorageModuleCaps_Unknown, fs.fsrmstoragemodulecaps, fsrm.fsrmstoragemodulecaps, fsrmenums/FsrmStorageModuleCaps, fsrmenums/FsrmStorageModuleCaps_CanGet, fsrmenums/FsrmStorageModuleCaps_CanHandleDirectories, fsrmenums/FsrmStorageModuleCaps_CanHandleFiles, fsrmenums/FsrmStorageModuleCaps_CanSet, fsrmenums/FsrmStorageModuleCaps_Unknown
 ms.topic: enum
-f1_keywords: 
- - "fsrmenums/FsrmStorageModuleCaps"
+f1_keywords:
+- fsrmenums/FsrmStorageModuleCaps
 dev_langs:
- - c++
+- c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FsrmEnums.h
+- FsrmEnums.h
 api_name:
- - FsrmStorageModuleCaps
+- FsrmStorageModuleCaps
 targetos: Windows
 req.typenames: FsrmStorageModuleCaps
 req.redist: 

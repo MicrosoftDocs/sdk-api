@@ -1,19 +1,17 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.BoundingFrustum(CXMMATRIX)
 title: BoundingFrustum::BoundingFrustum(CXMMATRIX)
-
 description: Creates an instance of BoundingFrustum from a left-handed projection matrix.
 old-location: dxmath\boundingfrustum_ctor_4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.#ctor(XMMATRIX)
-
 ms.date: 12/05/2018
 ms.keywords: BoundingFrustum, BoundingFrustum constructor [DirectX Math Support APIs], BoundingFrustum constructor [DirectX Math Support APIs],BoundingFrustum interface, BoundingFrustum interface [DirectX Math Support APIs],BoundingFrustum constructor, BoundingFrustum.BoundingFrustum, BoundingFrustum.BoundingFrustum(CXMMATRIX), BoundingFrustum.BoundingFrustum(XMMATRIX), BoundingFrustum::BoundingFrustum, BoundingFrustum::BoundingFrustum(CXMMATRIX), dxmath.boundingfrustum_ctor_4
 ms.topic: method
-f1_keywords: 
- - "directxcollision/BoundingFrustum.BoundingFrustum"
+f1_keywords:
+- directxcollision/BoundingFrustum.BoundingFrustum
 dev_langs:
- - c++
+- c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXCollision.h
+- DirectXCollision.h
 api_name:
- - BoundingFrustum.BoundingFrustum
+- BoundingFrustum.BoundingFrustum
 targetos: Windows
 req.typenames: 
 req.redist: 

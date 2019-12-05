@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1.ID2D1GdiInteropRenderTarget
 title: ID2D1GdiInteropRenderTarget (d2d1.h)
-
 description: Provides access to an device context that can accept GDI drawing commands.
 old-location: direct2d\ID2D1GdiInteropRenderTarget.htm
 tech.root: Direct2D
 ms.assetid: cb992ddd-21b2-4eba-b7c4-e391bdd23a9d
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1GdiInteropRenderTarget, ID2D1GdiInteropRenderTarget interface [Direct2D], ID2D1GdiInteropRenderTarget interface [Direct2D],described, d2d1/ID2D1GdiInteropRenderTarget, direct2d.ID2D1GdiInteropRenderTarget
 ms.topic: interface
-f1_keywords: 
- - "d2d1/ID2D1GdiInteropRenderTarget"
+f1_keywords:
+- d2d1/ID2D1GdiInteropRenderTarget
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1GdiInteropRenderTarget
+- ID2D1GdiInteropRenderTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapSourceTransform.GetClosestPixelFormat
 title: IWICBitmapSourceTransform::GetClosestPixelFormat (wincodec.h)
-
 description: Retrieves the closest pixel format to which the implementation of IWICBitmapSourceTransform can natively copy pixels, given a desired format.
 old-location: wic\_wic_codec_iwicbitmapsourcetransform_getclosestpixelformat.htm
 tech.root: wic
 ms.assetid: 153c5e2a-c42f-4949-9313-48d5e186ecf3
-
 ms.date: 12/05/2018
 ms.keywords: GetClosestPixelFormat, GetClosestPixelFormat method [Windows Imaging Component], GetClosestPixelFormat method [Windows Imaging Component],IWICBitmapSourceTransform interface, IWICBitmapSourceTransform interface [Windows Imaging Component],GetClosestPixelFormat method, IWICBitmapSourceTransform.GetClosestPixelFormat, IWICBitmapSourceTransform::GetClosestPixelFormat, _wic_codec_iwicbitmapsourcetransform_getclosestpixelformat, wic._wic_codec_iwicbitmapsourcetransform_getclosestpixelformat, wincodec/IWICBitmapSourceTransform::GetClosestPixelFormat
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapSourceTransform.GetClosestPixelFormat"
+f1_keywords:
+- wincodec/IWICBitmapSourceTransform.GetClosestPixelFormat
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Windowscodecs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.lib
- - Windowscodecs.dll
+- Windowscodecs.lib
+- Windowscodecs.dll
 api_name:
- - IWICBitmapSourceTransform.GetClosestPixelFormat
+- IWICBitmapSourceTransform.GetClosestPixelFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

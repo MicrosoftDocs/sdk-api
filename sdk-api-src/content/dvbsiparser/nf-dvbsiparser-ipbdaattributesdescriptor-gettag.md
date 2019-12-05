@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IPBDAAttributesDescriptor.GetTag
 title: IPBDAAttributesDescriptor::GetTag (dvbsiparser.h)
-
 description: Gets the tag that uniquely identifies an attributes descriptor in a Protected Broadcast Driver Architecture (PBDA) transport stream.
 old-location: mstv\ipbdaattributesdescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 397e76b6-83f2-4d0c-87a0-0575aa746020
-
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IPBDAAttributesDescriptor interface, IPBDAAttributesDescriptor interface [Microsoft TV Technologies],GetTag method, IPBDAAttributesDescriptor.GetTag, IPBDAAttributesDescriptor::GetTag, dvbsiparser/IPBDAAttributesDescriptor::GetTag, mstv.ipbdaattributesdescriptor_gettag
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IPBDAAttributesDescriptor.GetTag"
+f1_keywords:
+- dvbsiparser/IPBDAAttributesDescriptor.GetTag
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IPBDAAttributesDescriptor.GetTag
+- IPBDAAttributesDescriptor.GetTag
 targetos: Windows
 req.typenames: 
 req.redist: 

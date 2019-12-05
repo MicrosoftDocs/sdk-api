@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlCustomDraw.ItemPostPaint
 title: INameSpaceTreeControlCustomDraw::ItemPostPaint (shobjidl.h)
-
 description: Called after an item in the namespace tree control is drawn.
 old-location: shell\INameSpaceTreeControlCustomDraw_ItemPostPaint.htm
 tech.root: shell
 ms.assetid: 9da2af87-a961-4ca8-a512-fe508f2b2d79
-
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlCustomDraw interface [Windows Shell],ItemPostPaint method, INameSpaceTreeControlCustomDraw.ItemPostPaint, INameSpaceTreeControlCustomDraw::ItemPostPaint, ItemPostPaint, ItemPostPaint method [Windows Shell], ItemPostPaint method [Windows Shell],INameSpaceTreeControlCustomDraw interface, _shell_INameSpaceTreeControlCustomDraw_ItemPostPaint, shell.INameSpaceTreeControlCustomDraw_ItemPostPaint, shobjidl/INameSpaceTreeControlCustomDraw::ItemPostPaint
 ms.topic: method
-f1_keywords: 
- - "shobjidl/INameSpaceTreeControlCustomDraw.ItemPostPaint"
+f1_keywords:
+- shobjidl/INameSpaceTreeControlCustomDraw.ItemPostPaint
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - INameSpaceTreeControlCustomDraw.ItemPostPaint
+- INameSpaceTreeControlCustomDraw.ItemPostPaint
 targetos: Windows
 req.typenames: 
 req.redist: 

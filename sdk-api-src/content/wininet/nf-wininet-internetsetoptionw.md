@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetSetOptionW
 title: InternetSetOptionW function (wininet.h)
-
 description: Sets an Internet option.
 old-location: wininet\internetsetoption.htm
 tech.root: wininet
 ms.assetid: 578c7130-7426-4a2e-ae0f-ed8a84449b06
-
 ms.date: 12/05/2018
 ms.keywords: InternetSetOption, InternetSetOption function [WinINet], InternetSetOptionA, InternetSetOptionW, _inet_internetsetoption_function, wininet.internetsetoption, wininet/InternetSetOption, wininet/InternetSetOptionA, wininet/InternetSetOptionW
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetSetOption"
+f1_keywords:
+- wininet/InternetSetOption
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetSetOption
- - InternetSetOptionA
- - InternetSetOptionW
+- InternetSetOption
+- InternetSetOptionA
+- InternetSetOptionW
 targetos: Windows
 req.typenames: 
 req.redist: 

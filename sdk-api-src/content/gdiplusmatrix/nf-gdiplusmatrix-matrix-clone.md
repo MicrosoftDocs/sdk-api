@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Clone
 title: Matrix::Clone (gdiplusmatrix.h)
-
 description: The Matrix::Clone method creates a new Matrix object that is a copy of this Matrix object.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Clone_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\clone_31.htm
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],Matrix class, Matrix class [GDI+],Clone method, Matrix.Clone, Matrix::Clone, _gdiplus_CLASS_Matrix_Clone_, gdiplus._gdiplus_CLASS_Matrix_Clone_
 ms.topic: method
-f1_keywords: 
- - "gdiplusmatrix/Matrix.Clone"
+f1_keywords:
+- gdiplusmatrix/Matrix.Clone
 dev_langs:
- - c++
+- c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Matrix.Clone
+- Matrix.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

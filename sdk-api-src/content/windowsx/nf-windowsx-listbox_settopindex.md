@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ListBox_SetTopIndex
 title: ListBox_SetTopIndex macro (windowsx.h)
-
 description: Ensures that the specified item in a list box is visible. You can use this macro or send the LB_SETTOPINDEX message explicitly.
 old-location: controls\ListBox_SetTopIndex.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_settopindex.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListBox_SetTopIndex, ListBox_SetTopIndex macro [Windows Controls], _win32_ListBox_SetTopIndex, _win32_ListBox_SetTopIndex_cpp, controls.ListBox_SetTopIndex, controls._win32_ListBox_SetTopIndex, windowsx/ListBox_SetTopIndex
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ListBox_SetTopIndex"
+f1_keywords:
+- windowsx/ListBox_SetTopIndex
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ListBox_SetTopIndex
+- ListBox_SetTopIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GlobalFree
 title: GlobalFree function (winbase.h)
-
 description: Frees the specified global memory object and invalidates its handle.
 old-location: base\globalfree.htm
 tech.root: Memory
 ms.assetid: 5fe910ac-f857-45ca-9c0f-4f9ba3c5e61b
-
 ms.date: 12/05/2018
 ms.keywords: GlobalFree, GlobalFree function, _win32_globalfree, base.globalfree, winbase/GlobalFree
 ms.topic: function
-f1_keywords: 
- - "winbase/GlobalFree"
+f1_keywords:
+- winbase/GlobalFree
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Core-misc-l1-1-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - API-Ms-Win-Core-Heap-L2-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Core-misc-l1-1-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- API-Ms-Win-Core-Heap-L2-1-0.dll
 api_name:
- - GlobalFree
+- GlobalFree
 targetos: Windows
 req.typenames: 
 req.redist: 

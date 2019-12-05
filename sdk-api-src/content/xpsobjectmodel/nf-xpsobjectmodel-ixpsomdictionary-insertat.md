@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDictionary.InsertAt
 title: IXpsOMDictionary::InsertAt (xpsobjectmodel.h)
-
 description: Inserts an IXpsOMShareable interface at a specified location in the dictionary and sets the key to identify the interface.
 old-location: xps\ixpsomdictionary_insertat.htm
 tech.root: printdocs
 ms.assetid: a47b7130-a3c3-44d2-a987-e78b7feb52d6
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDictionary interface [XPS Documents and Packaging],InsertAt method, IXpsOMDictionary.InsertAt, IXpsOMDictionary::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMDictionary interface, xps.ixpsomdictionary_insertat, xpsobjectmodel/IXpsOMDictionary::InsertAt
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMDictionary.InsertAt"
+f1_keywords:
+- xpsobjectmodel/IXpsOMDictionary.InsertAt
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMDictionary.InsertAt
+- IXpsOMDictionary.InsertAt
 targetos: Windows
 req.typenames: 
 req.redist: 

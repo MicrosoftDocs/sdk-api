@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPDevice.GetName
 title: IMDSPDevice::GetName (mswmdm.h)
-
 description: The GetName method retrieves the name of the device.
 old-location: wmdm\imdspdevice_getname.htm
 tech.root: WMDM
 ms.assetid: bc4fef6e-8faf-4114-a68d-bbc30bc18130
-
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [windows Media Device Manager], GetName method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],GetName method, IMDSPDevice.GetName, IMDSPDevice::GetName, IMDSPDeviceGetName, mswmdm/IMDSPDevice::GetName, wmdm.imdspdevice_getname
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPDevice.GetName"
+f1_keywords:
+- mswmdm/IMDSPDevice.GetName
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPDevice.GetName
+- IMDSPDevice.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 

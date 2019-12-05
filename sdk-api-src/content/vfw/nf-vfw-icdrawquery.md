@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.ICDrawQuery
 title: ICDrawQuery macro (vfw.h)
-
 description: The ICDrawQuery macro queries a rendering driver to determine if it can render data in a specific format. You can use this macro or explicitly call the ICM_DRAW_QUERY message.
 old-location: multimedia\icdrawquery.htm
 tech.root: Multimedia
 ms.assetid: 5cd673e3-af82-4c24-b0d5-4c3cb7c7ab71
-
 ms.date: 12/05/2018
 ms.keywords: ICDrawQuery, ICDrawQuery macro [Windows Multimedia], _win32_ICDrawQuery, multimedia.icdrawquery, vfw/ICDrawQuery
 ms.topic: macro
-f1_keywords: 
- - "vfw/ICDrawQuery"
+f1_keywords:
+- vfw/ICDrawQuery
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - ICDrawQuery
+- ICDrawQuery
 targetos: Windows
 req.typenames: 
 req.redist: 

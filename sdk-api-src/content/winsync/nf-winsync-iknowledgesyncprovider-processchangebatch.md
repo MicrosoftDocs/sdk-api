@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IKnowledgeSyncProvider.ProcessChangeBatch
 title: IKnowledgeSyncProvider::ProcessChangeBatch (winsync.h)
-
 description: Processes a set of changes by detecting conflicts and applying changes to the item store.
 old-location: winsync\iknowledgesyncprovider_processchangebatch.htm
 tech.root: winsync
 ms.assetid: 528a109a-9c11-4e20-b3d5-9bb7241d02b6
-
 ms.date: 12/05/2018
 ms.keywords: IKnowledgeSyncProvider interface [Windows Sync],ProcessChangeBatch method, IKnowledgeSyncProvider.ProcessChangeBatch, IKnowledgeSyncProvider::ProcessChangeBatch, ProcessChangeBatch, ProcessChangeBatch method [Windows Sync], ProcessChangeBatch method [Windows Sync],IKnowledgeSyncProvider interface, winsync.iknowledgesyncprovider_processchangebatch, winsync/IKnowledgeSyncProvider::ProcessChangeBatch
 ms.topic: method
-f1_keywords: 
- - "winsync/IKnowledgeSyncProvider.ProcessChangeBatch"
+f1_keywords:
+- winsync/IKnowledgeSyncProvider.ProcessChangeBatch
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IKnowledgeSyncProvider.ProcessChangeBatch
+- IKnowledgeSyncProvider.ProcessChangeBatch
 targetos: Windows
 req.typenames: 
 req.redist: 

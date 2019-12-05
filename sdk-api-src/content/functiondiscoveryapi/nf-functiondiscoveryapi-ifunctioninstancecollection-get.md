@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstanceCollection.Get
 title: IFunctionInstanceCollection::Get (functiondiscoveryapi.h)
-
 description: Gets the specified function instance and its index from the collection.
 old-location: ncd\ifunctioninstancecollection_get.htm
 tech.root: FunDisc
 ms.assetid: 3f3db880-a765-4a18-91ac-d091728cbb39
-
 ms.date: 12/05/2018
 ms.keywords: Get, Get method, Get method,IFunctionInstanceCollection interface, IFunctionInstanceCollection interface,Get method, IFunctionInstanceCollection.Get, IFunctionInstanceCollection::Get, functiondiscoveryapi/IFunctionInstanceCollection::Get, ncd.ifunctioninstancecollection_get
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryapi/IFunctionInstanceCollection.Get"
+f1_keywords:
+- functiondiscoveryapi/IFunctionInstanceCollection.Get
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FunDisc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunDisc.dll
+- FunDisc.dll
 api_name:
- - IFunctionInstanceCollection.Get
+- IFunctionInstanceCollection.Get
 targetos: Windows
 req.typenames: 
 req.redist: 

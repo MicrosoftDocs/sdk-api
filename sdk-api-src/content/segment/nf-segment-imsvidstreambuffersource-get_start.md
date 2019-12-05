@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSource.get_Start
 title: IMSVidStreamBufferSource::get_Start (segment.h)
-
 description: The get_Start method retrieves the start time.
 old-location: mstv\imsvidstreambuffersource_get_start.htm
 tech.root: mstv
 ms.assetid: 4c6ad8b7-93d9-46de-b84a-a4575f3e6183
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],get_Start method, IMSVidStreamBufferSource.get_Start, IMSVidStreamBufferSource::get_Start, IMSVidStreamBufferSourceget_Start, get_Start, get_Start method [Microsoft TV Technologies], get_Start method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, mstv.imsvidstreambuffersource_get_start, segment/IMSVidStreamBufferSource::get_Start
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidStreamBufferSource.get_Start"
+f1_keywords:
+- segment/IMSVidStreamBufferSource.get_Start
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferSource.get_Start
+- IMSVidStreamBufferSource.get_Start
 targetos: Windows
 req.typenames: 
 req.redist: 

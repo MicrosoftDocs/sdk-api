@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarBoolFromStr
 title: VarBoolFromStr function (oleauto.h)
-
 description: Converts an OLECHAR string to a Boolean value.
 old-location: automat\varboolfromstr.htm
 tech.root: automat
 ms.assetid: 75a8e8e5-9082-4991-84ad-8fb81a32746d
-
 ms.date: 12/05/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_LOCALBOOL, VarBoolFromStr, VarBoolFromStr function [Automation], _oa96_VarBoolFromStr, automat.varboolfromstr, oleauto/VarBoolFromStr
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarBoolFromStr"
+f1_keywords:
+- oleauto/VarBoolFromStr
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarBoolFromStr
+- VarBoolFromStr
 targetos: Windows
 req.typenames: 
 req.redist: 

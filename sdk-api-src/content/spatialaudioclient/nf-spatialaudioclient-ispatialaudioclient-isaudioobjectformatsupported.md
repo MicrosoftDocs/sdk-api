@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioClient.IsAudioObjectFormatSupported
 title: ISpatialAudioClient::IsAudioObjectFormatSupported (spatialaudioclient.h)
-
 description: Gets a value indicating whether ISpatialAudioObjectRenderStream supports a the specified format.
 old-location: coreaudio\ispatialaudioclient_isaudioobjectformatsupported.htm
 tech.root: CoreAudio
 ms.assetid: 47AB0B3B-E8D0-412F-AC9C-F8BC700E7C23
-
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioClient interface [Core Audio],IsAudioObjectFormatSupported method, ISpatialAudioClient.IsAudioObjectFormatSupported, ISpatialAudioClient::IsAudioObjectFormatSupported, IsAudioObjectFormatSupported, IsAudioObjectFormatSupported method [Core Audio], IsAudioObjectFormatSupported method [Core Audio],ISpatialAudioClient interface, coreaudio.ispatialaudioclient_isaudioobjectformatsupported, spatialaudioclient/ISpatialAudioClient::IsAudioObjectFormatSupported
 ms.topic: method
-f1_keywords: 
- - "spatialaudioclient/ISpatialAudioClient.IsAudioObjectFormatSupported"
+f1_keywords:
+- spatialaudioclient/ISpatialAudioClient.IsAudioObjectFormatSupported
 dev_langs:
- - c++
+- c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spatialaudioclient.h
+- spatialaudioclient.h
 api_name:
- - ISpatialAudioClient.IsAudioObjectFormatSupported
+- ISpatialAudioClient.IsAudioObjectFormatSupported
 targetos: Windows
 req.typenames: 
 req.redist: 

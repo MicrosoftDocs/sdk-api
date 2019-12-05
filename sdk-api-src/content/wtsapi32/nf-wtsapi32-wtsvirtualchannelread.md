@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsapi32.WTSVirtualChannelRead
 title: WTSVirtualChannelRead function (wtsapi32.h)
-
 description: Reads data from the server end of a virtual channel.
 old-location: termserv\wtsvirtualchannelread.htm
 tech.root: TermServ
 ms.assetid: 7434e761-303f-496f-81cb-83c199ddec8a
-
 ms.date: 12/05/2018
 ms.keywords: WTSVirtualChannelRead, WTSVirtualChannelRead function [Remote Desktop Services], _win32_wtsvirtualchannelread, termserv.wtsvirtualchannelread, wtsapi32/WTSVirtualChannelRead
 ms.topic: function
-f1_keywords: 
- - "wtsapi32/WTSVirtualChannelRead"
+f1_keywords:
+- wtsapi32/WTSVirtualChannelRead
 dev_langs:
- - c++
+- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.Dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wtsapi32.Dll
+- Wtsapi32.Dll
 api_name:
- - WTSVirtualChannelRead
+- WTSVirtualChannelRead
 targetos: Windows
 req.typenames: 
 req.redist: 

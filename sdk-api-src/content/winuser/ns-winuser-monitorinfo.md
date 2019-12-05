@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagMONITORINFO
 title: MONITORINFO (winuser.h)
-
 description: The MONITORINFO structure contains information about a display monitor.The GetMonitorInfo function stores information in a MONITORINFO structure or a MONITORINFOEX structure.The MONITORINFO structure is a subset of the MONITORINFOEX structure.
 old-location: gdi\monitorinfo.htm
 tech.root: gdi
 ms.assetid: ca8ec86f-69ba-4cf8-a867-67182a3d630d
-
 ms.date: 12/05/2018
-ms.keywords: "*LPMONITORINFO, LPMONITORINFO, LPMONITORINFO structure pointer [Windows GDI], MONITORINFO, MONITORINFO structure [Windows GDI], _win32_MONITORINFO_str, gdi.monitorinfo, tagMONITORINFO, winuser/LPMONITORINFO, winuser/MONITORINFO"
+ms.keywords: '*LPMONITORINFO, LPMONITORINFO, LPMONITORINFO structure pointer [Windows GDI], MONITORINFO, MONITORINFO structure [Windows GDI], _win32_MONITORINFO_str, gdi.monitorinfo, tagMONITORINFO, winuser/LPMONITORINFO, winuser/MONITORINFO'
 ms.topic: struct
-f1_keywords: 
- - "winuser/MONITORINFO"
+f1_keywords:
+- winuser/MONITORINFO
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - MONITORINFO
+- MONITORINFO
 targetos: Windows
 req.typenames: MONITORINFO, *LPMONITORINFO
 req.redist: 

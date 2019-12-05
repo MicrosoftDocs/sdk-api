@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IChangeConflict.GetDestinationProviderConflictingData
 title: IChangeConflict::GetDestinationProviderConflictingData (winsync.h)
-
 description: Gets an object that can be used to retrieve item data for the change item from the destination replica.
 old-location: winsync\ichangeconflict_getdestinationproviderconflictingdata.htm
 tech.root: winsync
 ms.assetid: 7a63d554-56e0-4c39-94ea-613fecc97331
-
 ms.date: 12/05/2018
 ms.keywords: GetDestinationProviderConflictingData, GetDestinationProviderConflictingData method [Windows Sync], GetDestinationProviderConflictingData method [Windows Sync],IChangeConflict interface, IChangeConflict interface [Windows Sync],GetDestinationProviderConflictingData method, IChangeConflict.GetDestinationProviderConflictingData, IChangeConflict::GetDestinationProviderConflictingData, winsync.ichangeconflict_getdestinationproviderconflictingdata, winsync/IChangeConflict::GetDestinationProviderConflictingData
 ms.topic: method
-f1_keywords: 
- - "winsync/IChangeConflict.GetDestinationProviderConflictingData"
+f1_keywords:
+- winsync/IChangeConflict.GetDestinationProviderConflictingData
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IChangeConflict.GetDestinationProviderConflictingData
+- IChangeConflict.GetDestinationProviderConflictingData
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:msinkaut.InkPersistenceFormat
 title: InkPersistenceFormat (msinkaut.h)
-
 description: Specifies how ink is persisted.
 old-location: tablet\inkpersistenceformat.htm
 tech.root: tablet
 ms.assetid: ecbf48ce-0394-4da1-9f5c-d2626545982c
-
 ms.date: 12/05/2018
 ms.keywords: IPF_Base64Gif, IPF_Base64InkSerializedFormat, IPF_Gif, IPF_InkSerializedFormat, InkPersistenceFormat, InkPersistenceFormat enumeration [Tablet PC], ecbf48ce-0394-4da1-9f5c-d2626545982c, msinkaut/IPF_Base64Gif, msinkaut/IPF_Base64InkSerializedFormat, msinkaut/IPF_Gif, msinkaut/IPF_InkSerializedFormat, msinkaut/InkPersistenceFormat, tablet.inkpersistenceformat
 ms.topic: enum
-f1_keywords: 
- - "msinkaut/InkPersistenceFormat"
+f1_keywords:
+- msinkaut/InkPersistenceFormat
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msinkaut.h
+- msinkaut.h
 api_name:
- - InkPersistenceFormat
+- InkPersistenceFormat
 targetos: Windows
 req.typenames: InkPersistenceFormat
 req.redist: 

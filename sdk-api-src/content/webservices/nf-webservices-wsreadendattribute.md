@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsReadEndAttribute
 title: WsReadEndAttribute function (webservices.h)
-
 description: Moves the reader back to the element node containing the attribute that was read.
 old-location: wsw\wsreadendattribute.htm
 tech.root: wsw
 ms.assetid: 1181ca68-f67b-47e1-b9de-1bc57ecf36f6
-
 ms.date: 12/05/2018
 ms.keywords: WsReadEndAttribute, WsReadEndAttribute function [Web Services for Windows], webservices/WsReadEndAttribute, wsw.wsreadendattribute
 ms.topic: function
-f1_keywords: 
- - "webservices/WsReadEndAttribute"
+f1_keywords:
+- webservices/WsReadEndAttribute
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsReadEndAttribute
+- WsReadEndAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 

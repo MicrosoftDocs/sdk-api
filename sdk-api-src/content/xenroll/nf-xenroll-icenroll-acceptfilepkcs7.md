@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.ICEnroll.acceptFilePKCS7
 title: ICEnroll::acceptFilePKCS7 (xenroll.h)
-
-description: Accepts and processes a file that contains a PKCS #7 message containing a certificate. This method was first defined in the ICEnroll interface.
+description: Accepts and processes a file that contains a PKCS
 old-location: security\icenroll4_acceptfilepkcs7.htm
 tech.root: SecCrypto
 ms.assetid: dae9f6b8-6690-47cc-9397-168c1ff54c55
-
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],acceptFilePKCS7 method, ICEnroll interface [Security],acceptFilePKCS7 method, ICEnroll.acceptFilePKCS7, ICEnroll2 interface [Security],acceptFilePKCS7 method, ICEnroll2::acceptFilePKCS7, ICEnroll3 interface [Security],acceptFilePKCS7 method, ICEnroll3::acceptFilePKCS7, ICEnroll4 interface [Security],acceptFilePKCS7 method, ICEnroll4::acceptFilePKCS7, ICEnroll::acceptFilePKCS7, acceptFilePKCS7, acceptFilePKCS7 method [Security], acceptFilePKCS7 method [Security],CEnroll object, acceptFilePKCS7 method [Security],ICEnroll interface, acceptFilePKCS7 method [Security],ICEnroll2 interface, acceptFilePKCS7 method [Security],ICEnroll3 interface, acceptFilePKCS7 method [Security],ICEnroll4 interface, security.icenroll4_acceptfilepkcs7, xenroll/ICEnroll2::acceptFilePKCS7, xenroll/ICEnroll3::acceptFilePKCS7, xenroll/ICEnroll4::acceptFilePKCS7, xenroll/ICEnroll::acceptFilePKCS7
 ms.topic: method
-f1_keywords: 
- - "xenroll/ICEnroll4.acceptFilePKCS7"
+f1_keywords:
+- xenroll/ICEnroll4.acceptFilePKCS7
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll4.acceptFilePKCS7
- - ICEnroll3.acceptFilePKCS7
- - ICEnroll2.acceptFilePKCS7
- - ICEnroll.acceptFilePKCS7
- - CEnroll.acceptFilePKCS7
+- ICEnroll4.acceptFilePKCS7
+- ICEnroll3.acceptFilePKCS7
+- ICEnroll2.acceptFilePKCS7
+- ICEnroll.acceptFilePKCS7
+- CEnroll.acceptFilePKCS7
 targetos: Windows
 req.typenames: 
 req.redist: 

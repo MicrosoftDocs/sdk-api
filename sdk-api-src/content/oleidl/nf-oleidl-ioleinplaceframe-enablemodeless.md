@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleInPlaceFrame.EnableModeless
 title: IOleInPlaceFrame::EnableModeless (oleidl.h)
-
 description: Enables or disables a frame's modeless dialog boxes.
 old-location: com\ioleinplaceframe_enablemodeless.htm
 tech.root: com
 ms.assetid: 4c6ea1ee-861d-45ff-a9d2-d3b241f00c9f
-
 ms.date: 12/05/2018
 ms.keywords: EnableModeless, EnableModeless method [COM], EnableModeless method [COM],IOleInPlaceFrame interface, IOleInPlaceFrame interface [COM],EnableModeless method, IOleInPlaceFrame.EnableModeless, IOleInPlaceFrame::EnableModeless, _ole_ioleinplaceframe_enablemodeless, com.ioleinplaceframe_enablemodeless, oleidl/IOleInPlaceFrame::EnableModeless
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleInPlaceFrame.EnableModeless"
+f1_keywords:
+- oleidl/IOleInPlaceFrame.EnableModeless
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleInPlaceFrame.EnableModeless
+- IOleInPlaceFrame.EnableModeless
 targetos: Windows
 req.typenames: 
 req.redist: 

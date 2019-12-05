@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.PathGetArgsA
 title: PathGetArgsA function (shlwapi.h)
-
 description: Finds the command line arguments within a given path.
 old-location: shell\PathGetArgs.htm
 tech.root: shell
 ms.assetid: 17dfb601-1306-41b6-a504-8bf69ff204c9
-
 ms.date: 12/05/2018
 ms.keywords: PathGetArgs, PathGetArgs function [Windows Shell], PathGetArgsA, PathGetArgsW, _win32_PathGetArgs, shell.PathGetArgs, shlwapi/PathGetArgs, shlwapi/PathGetArgsA, shlwapi/PathGetArgsW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/PathGetArgs"
+f1_keywords:
+- shlwapi/PathGetArgs
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - PathGetArgs
- - PathGetArgsA
- - PathGetArgsW
+- PathGetArgs
+- PathGetArgsA
+- PathGetArgsW
 targetos: Windows
 req.typenames: 
 req.redist: 

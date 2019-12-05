@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcRelationshipSelectorSet.Delete
 title: IOpcRelationshipSelectorSet::Delete (msopc.h)
-
 description: Deletes a specified IOpcRelationshipSelector interface pointer from the set.
 old-location: opc\iopcrelationshipselectorset_delete.htm
 tech.root: OPC
 ms.assetid: a90757f7-bdb1-4cff-9a46-64ec953f2172
-
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [Open Packaging Conventions], Delete method [Open Packaging Conventions],IOpcRelationshipSelectorSet interface, IOpcRelationshipSelectorSet interface [Open Packaging Conventions],Delete method, IOpcRelationshipSelectorSet.Delete, IOpcRelationshipSelectorSet::Delete, msopc/IOpcRelationshipSelectorSet::Delete, opc.iopcrelationshipselectorset_delete
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcRelationshipSelectorSet.Delete"
+f1_keywords:
+- msopc/IOpcRelationshipSelectorSet.Delete
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcRelationshipSelectorSet.Delete
+- IOpcRelationshipSelectorSet.Delete
 targetos: Windows
 req.typenames: 
 req.redist: 

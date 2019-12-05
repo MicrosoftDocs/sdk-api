@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdutil.WSDGetConfigurationOption
 title: WSDGetConfigurationOption function (wsdutil.h)
-
 description: Gets a WSDAPI configuration option.
 old-location: ncd\wsdgetconfigurationoption.htm
 tech.root: WsdApi
 ms.assetid: 33fc271e-4cc5-466c-8688-7b19f4399f8e
-
 ms.date: 12/05/2018
 ms.keywords: WSDAPI_OPTION_MAX_INBOUND_MESSAGE_SIZE, WSDGetConfigurationOption, WSDGetConfigurationOption function, ncd.wsdgetconfigurationoption, wsdutil/WSDGetConfigurationOption
 ms.topic: function
-f1_keywords: 
- - "wsdutil/WSDGetConfigurationOption"
+f1_keywords:
+- wsdutil/WSDGetConfigurationOption
 dev_langs:
- - c++
+- c++
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - WSDGetConfigurationOption
+- WSDGetConfigurationOption
 targetos: Windows
 req.typenames: 
 req.redist: 

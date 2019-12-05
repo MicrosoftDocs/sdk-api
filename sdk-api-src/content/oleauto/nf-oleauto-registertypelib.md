@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.RegisterTypeLib
 title: RegisterTypeLib function (oleauto.h)
-
 description: Adds information about a type library to the system registry.
 old-location: automat\registertypelib.htm
 tech.root: automat
 ms.assetid: d0559a57-b1a4-4036-97ed-024d775cb595
-
 ms.date: 12/05/2018
 ms.keywords: RegisterTypeLib, RegisterTypeLib function [Automation], _oa96_RegisterTypeLib, automat.registertypelib, oleauto/RegisterTypeLib
 ms.topic: function
-f1_keywords: 
- - "oleauto/RegisterTypeLib"
+f1_keywords:
+- oleauto/RegisterTypeLib
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - RegisterTypeLib
+- RegisterTypeLib
 targetos: Windows
 req.typenames: 
 req.redist: 

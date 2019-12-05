@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.UIntPtrToLong
 title: UIntPtrToLong function (intsafe.h)
-
 description: Converts a value of type size_t to a value of type LONG.
 old-location: shell\SizeTToLong.htm
 tech.root: shell
 ms.assetid: 1904fefa-eb31-4fda-ad0b-8ad6d2b62210
-
 ms.date: 12/05/2018
 ms.keywords: SizeTToLong, SizeTToLong function [Windows Shell], UIntPtrToLong, _shell_SizeTToLong, intsafe/SizeTToLong, shell.SizeTToLong
 ms.topic: function
-f1_keywords: 
- - "intsafe/SizeTToLong"
+f1_keywords:
+- intsafe/SizeTToLong
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intsafe.h
+- Intsafe.h
 api_name:
- - SizeTToLong
+- SizeTToLong
 targetos: Windows
 req.typenames: 
 req.redist: 

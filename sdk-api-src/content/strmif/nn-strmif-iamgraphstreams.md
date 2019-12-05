@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IAMGraphStreams
 title: IAMGraphStreams (strmif.h)
-
 description: The IAMGraphStreams interface controls a filter graph that renders a live source.
 old-location: dshow\iamgraphstreams.htm
 tech.root: DirectShow
 ms.assetid: 30d44536-2a2d-44ab-bafc-bdb851cd272b
-
 ms.date: 12/05/2018
 ms.keywords: IAMGraphStreams, IAMGraphStreams interface [DirectShow], IAMGraphStreams interface [DirectShow],described, IAMGraphStreamsInterface, dshow.iamgraphstreams, strmif/IAMGraphStreams
 ms.topic: interface
-f1_keywords: 
- - "strmif/IAMGraphStreams"
+f1_keywords:
+- strmif/IAMGraphStreams
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMGraphStreams
+- IAMGraphStreams
 targetos: Windows
 req.typenames: 
 req.redist: 

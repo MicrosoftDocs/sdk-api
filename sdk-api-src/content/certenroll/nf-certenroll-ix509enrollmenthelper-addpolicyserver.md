@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509EnrollmentHelper.AddPolicyServer
 title: IX509EnrollmentHelper::AddPolicyServer (certenroll.h)
-
 description: Registers a certificate enrollment policy (CEP) server and saves CEP access credentials in the credential cache.
 old-location: security\ix509enrollmenthelper_addpolicyserver.htm
 tech.root: seccertenroll
 ms.assetid: 6b341b5a-88f2-4221-812d-b2997829aa4c
-
 ms.date: 12/05/2018
 ms.keywords: AddPolicyServer, AddPolicyServer method [Security], AddPolicyServer method [Security],IX509EnrollmentHelper interface, IX509EnrollmentHelper interface [Security],AddPolicyServer method, IX509EnrollmentHelper.AddPolicyServer, IX509EnrollmentHelper::AddPolicyServer, PsfAllowUnTrustedCA, PsfAutoEnrollmentEnabled, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/IX509EnrollmentHelper::AddPolicyServer, security.ix509enrollmenthelper_addpolicyserver
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509EnrollmentHelper.AddPolicyServer"
+f1_keywords:
+- certenroll/IX509EnrollmentHelper.AddPolicyServer
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - IX509EnrollmentHelper.AddPolicyServer
+- IX509EnrollmentHelper.AddPolicyServer
 targetos: Windows
 req.typenames: 
 req.redist: 

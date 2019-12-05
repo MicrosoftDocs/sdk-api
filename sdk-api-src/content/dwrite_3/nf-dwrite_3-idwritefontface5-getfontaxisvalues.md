@@ -1,17 +1,15 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace5.GetFontAxisValues
 title: IDWriteFontFace5::GetFontAxisValues
-
 description: Retrieves the list of axis values used by the font.
 tech.root: DirectWrite
-
 ms.date: 09/10/2019
 ms.keywords: IDWriteFontFace5 interface [Direct Write],GetFontAxisValues method, IDWriteFontFace5.GetFontAxisValues, IDWriteFontFace5::GetFontAxisValues, GetFontAxisValues, GetFontAxisValues method [Direct Write], GetFontAxisValues method [Direct Write],IDWriteFontFace5 interface, directwrite.idwritefontface5_getfontaxisvalues, dwrite_3/IDWriteFontFace5::GetFontAxisValues
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontFace5.GetFontAxisValues"
+f1_keywords:
+- dwrite_3/IDWriteFontFace5.GetFontAxisValues
 dev_langs:
- - c++
+- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,15 +29,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFontFace5::GetFontAxisValues
+- IDWriteFontFace5::GetFontAxisValues
 targetos: Windows
 req.typenames: 
 req.redist: 

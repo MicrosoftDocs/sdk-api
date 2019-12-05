@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IDecimateVideoImage
 title: IDecimateVideoImage (strmif.h)
-
 description: The IDecimateVideoImage interface specifies decimation on a decoder filter.
 old-location: dshow\idecimatevideoimage.htm
 tech.root: DirectShow
 ms.assetid: 0d338d41-546f-41da-bc1f-b1dd74b399ef
-
 ms.date: 12/05/2018
 ms.keywords: IDecimateVideoImage, IDecimateVideoImage interface [DirectShow], IDecimateVideoImage interface [DirectShow],described, IDecimateVideoImageInterface, dshow.idecimatevideoimage, strmif/IDecimateVideoImage
 ms.topic: interface
-f1_keywords: 
- - "strmif/IDecimateVideoImage"
+f1_keywords:
+- strmif/IDecimateVideoImage
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDecimateVideoImage
+- IDecimateVideoImage
 targetos: Windows
 req.typenames: 
 req.redist: 

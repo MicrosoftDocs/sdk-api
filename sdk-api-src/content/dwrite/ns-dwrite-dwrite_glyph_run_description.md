@@ -1,19 +1,17 @@
 ---
 UID: NS:dwrite.DWRITE_GLYPH_RUN_DESCRIPTION
 title: DWRITE_GLYPH_RUN_DESCRIPTION (dwrite.h)
-
 description: Contains additional properties related to those in DWRITE_GLYPH_RUN.
 old-location: directwrite\dwrite_glyph_run_description.htm
 tech.root: DirectWrite
 ms.assetid: 0fb25253-274a-42b7-8491-525d0550ce39
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_GLYPH_RUN_DESCRIPTION, DWRITE_GLYPH_RUN_DESCRIPTION structure [Direct Write], directwrite.dwrite_glyph_run_description, dwrite/DWRITE_GLYPH_RUN_DESCRIPTION
 ms.topic: struct
-f1_keywords: 
- - "dwrite/DWRITE_GLYPH_RUN_DESCRIPTION"
+f1_keywords:
+- dwrite/DWRITE_GLYPH_RUN_DESCRIPTION
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite.h
+- dwrite.h
 api_name:
- - DWRITE_GLYPH_RUN_DESCRIPTION
+- DWRITE_GLYPH_RUN_DESCRIPTION
 targetos: Windows
 req.typenames: 
 req.redist: 

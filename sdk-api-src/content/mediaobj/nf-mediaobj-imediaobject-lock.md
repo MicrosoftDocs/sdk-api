@@ -1,19 +1,17 @@
 ---
 UID: NF:mediaobj.IMediaObject.Lock
 title: IMediaObject::Lock (mediaobj.h)
-
 description: The Lock method acquires or releases a lock on the DMO. Call this method to keep the DMO serialized when performing multiple operations.
 old-location: dshow\imediaobject_lock.htm
 tech.root: DirectShow
 ms.assetid: 6923dd91-7bdb-4a0c-833d-4742973825ee
-
 ms.date: 12/05/2018
 ms.keywords: IMediaObject interface [DirectShow],Lock method, IMediaObject.Lock, IMediaObject::Lock, IMediaObjectLock, Lock, Lock method [DirectShow], Lock method [DirectShow],IMediaObject interface, dshow.imediaobject_lock, mediaobj/IMediaObject::Lock
 ms.topic: method
-f1_keywords: 
- - "mediaobj/IMediaObject.Lock"
+f1_keywords:
+- mediaobj/IMediaObject.Lock
 dev_langs:
- - c++
+- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IMediaObject.Lock
+- IMediaObject.Lock
 targetos: Windows
 req.typenames: 
 req.redist: 

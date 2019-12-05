@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ICoreFragment.NextColumn
 title: ICoreFragment::NextColumn (winsync.h)
-
 description: Returns the next change unit ID in the set of change unit IDs that this knowledge fragment applies to.
 old-location: winsync\icorefragment_nextcolumn.htm
 tech.root: winsync
 ms.assetid: d50527cb-00ba-4e7b-9fb3-267eaa6cd6e6
-
 ms.date: 12/05/2018
 ms.keywords: ICoreFragment interface [Windows Sync],NextColumn method, ICoreFragment.NextColumn, ICoreFragment::NextColumn, NextColumn, NextColumn method [Windows Sync], NextColumn method [Windows Sync],ICoreFragment interface, winsync.icorefragment_nextcolumn, winsync/ICoreFragment::NextColumn
 ms.topic: method
-f1_keywords: 
- - "winsync/ICoreFragment.NextColumn"
+f1_keywords:
+- winsync/ICoreFragment.NextColumn
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ICoreFragment.NextColumn
+- ICoreFragment.NextColumn
 targetos: Windows
 req.typenames: 
 req.redist: 

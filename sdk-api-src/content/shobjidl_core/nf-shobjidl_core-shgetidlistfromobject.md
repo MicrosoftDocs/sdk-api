@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.SHGetIDListFromObject
 title: SHGetIDListFromObject function (shobjidl_core.h)
-
 description: Retrieves the pointer to an item identifier list (PIDL) of an object.
 old-location: shell\SHGetIDListFromObject.htm
 tech.root: shell
 ms.assetid: 42821075-8123-4bfa-a6ba-8d3a77a9f50b
-
 ms.date: 12/05/2018
 ms.keywords: SHGetIDListFromObject, SHGetIDListFromObject function [Windows Shell], _shell_SHGetIDListFromObject, shell.SHGetIDListFromObject, shobjidl_core/SHGetIDListFromObject
 ms.topic: function
-f1_keywords: 
- - "shobjidl_core/SHGetIDListFromObject"
+f1_keywords:
+- shobjidl_core/SHGetIDListFromObject
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - Ext-MS-Win-shell-shell32-l1-2-0.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
- - windows.storage.dll
- - API-MS-Win-Shell-Namespace-L1-1-0.dll
+- Shell32.dll
+- Ext-MS-Win-shell-shell32-l1-2-0.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- windows.storage.dll
+- API-MS-Win-Shell-Namespace-L1-1-0.dll
 api_name:
- - SHGetIDListFromObject
+- SHGetIDListFromObject
 targetos: Windows
 req.typenames: 
 req.redist: 

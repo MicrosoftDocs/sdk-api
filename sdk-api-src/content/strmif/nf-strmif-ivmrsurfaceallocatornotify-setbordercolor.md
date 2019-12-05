@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRSurfaceAllocatorNotify.SetBorderColor
 title: IVMRSurfaceAllocatorNotify::SetBorderColor (strmif.h)
-
 description: The SetBorderColor method specifies to the VMR which color to use in areas of the display rectangle which are not being used for video, for example when the video is letterboxed.
 old-location: dshow\ivmrsurfaceallocatornotify_setbordercolor.htm
 tech.root: DirectShow
 ms.assetid: 29d4b9df-a498-4aff-8e85-51ede64d69dc
-
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocatorNotify interface [DirectShow],SetBorderColor method, IVMRSurfaceAllocatorNotify.SetBorderColor, IVMRSurfaceAllocatorNotify::SetBorderColor, IVMRSurfaceAllocatorNotifySetBorderColor, SetBorderColor, SetBorderColor method [DirectShow], SetBorderColor method [DirectShow],IVMRSurfaceAllocatorNotify interface, dshow.ivmrsurfaceallocatornotify_setbordercolor, strmif/IVMRSurfaceAllocatorNotify::SetBorderColor
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRSurfaceAllocatorNotify.SetBorderColor"
+f1_keywords:
+- strmif/IVMRSurfaceAllocatorNotify.SetBorderColor
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRSurfaceAllocatorNotify.SetBorderColor
+- IVMRSurfaceAllocatorNotify.SetBorderColor
 targetos: Windows
 req.typenames: 
 req.redist: 

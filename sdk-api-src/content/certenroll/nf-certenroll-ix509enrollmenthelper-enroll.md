@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509EnrollmentHelper.Enroll
 title: IX509EnrollmentHelper::Enroll (certenroll.h)
-
 description: Enrolls a certificate request and retrieves the issued certificate.
 old-location: security\ix509enrollmenthelper_enroll.htm
 tech.root: seccertenroll
 ms.assetid: 4f178df7-714f-49e6-9bf5-647acc23b0ad
-
 ms.date: 12/05/2018
 ms.keywords: Enroll, Enroll method [Security], Enroll method [Security],IX509EnrollmentHelper interface, EnrollPrompt, IX509EnrollmentHelper interface [Security],Enroll method, IX509EnrollmentHelper.Enroll, IX509EnrollmentHelper::Enroll, certenroll/IX509EnrollmentHelper::Enroll, security.ix509enrollmenthelper_enroll
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509EnrollmentHelper.Enroll"
+f1_keywords:
+- certenroll/IX509EnrollmentHelper.Enroll
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - IX509EnrollmentHelper.Enroll
+- IX509EnrollmentHelper.Enroll
 targetos: Windows
 req.typenames: 
 req.redist: 

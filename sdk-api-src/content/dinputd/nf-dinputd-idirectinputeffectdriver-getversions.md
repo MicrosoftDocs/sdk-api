@@ -1,19 +1,17 @@
 ---
 UID: NF:dinputd.IDirectInputEffectDriver.GetVersions
 title: IDirectInputEffectDriver::GetVersions (dinputd.h)
-
 description: The IDirectInputEffectDriver::GetVersions method obtains version information about the force-feedback hardware and driver.
 old-location: hid\idirectinputeffectdriver_getversions.htm
 tech.root: hid
 ms.assetid: eda284d2-3e9c-436f-ad28-6397ff75d8ca
-
 ms.date: 12/05/2018
 ms.keywords: GetVersions, GetVersions method [Human Input Devices], GetVersions method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],GetVersions method, IDirectInputEffectDriver.GetVersions, IDirectInputEffectDriver::GetVersions, di_ref_edc7dd85-8838-4835-9987-54458f3c0bd6.xml, dinputd/IDirectInputEffectDriver::GetVersions, hid.idirectinputeffectdriver_getversions
 ms.topic: method
-f1_keywords: 
- - "dinputd/IDirectInputEffectDriver.GetVersions"
+f1_keywords:
+- dinputd/IDirectInputEffectDriver.GetVersions
 dev_langs:
- - c++
+- c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dinputd.h
+- dinputd.h
 api_name:
- - IDirectInputEffectDriver.GetVersions
+- IDirectInputEffectDriver.GetVersions
 targetos: Windows
 req.typenames: 
 req.redist: 

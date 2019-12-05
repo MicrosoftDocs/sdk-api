@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.EnumItemsInCategory
 title: ITfCategoryMgr::EnumItemsInCategory (msctf.h)
-
 description: ITfCategoryMgr::EnumItemsInCategory method
 old-location: tsf\itfcategorymgr_enumitemsincategory.htm
 tech.root: TSF
 ms.assetid: 88b123d8-86aa-40ae-8777-1b33cfbb953a
-
 ms.date: 12/05/2018
 ms.keywords: EnumItemsInCategory, EnumItemsInCategory method [Text Services Framework], EnumItemsInCategory method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],EnumItemsInCategory method, ITfCategoryMgr.EnumItemsInCategory, ITfCategoryMgr::EnumItemsInCategory, _tsf_itfcategorymgr_enumitemsincategory_ref, msctf/ITfCategoryMgr::EnumItemsInCategory, tsf.itfcategorymgr_enumitemsincategory
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfCategoryMgr.EnumItemsInCategory"
+f1_keywords:
+- msctf/ITfCategoryMgr.EnumItemsInCategory
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfCategoryMgr.EnumItemsInCategory
+- ITfCategoryMgr.EnumItemsInCategory
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

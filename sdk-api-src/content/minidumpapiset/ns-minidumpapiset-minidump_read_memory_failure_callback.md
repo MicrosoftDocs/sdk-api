@@ -1,19 +1,17 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_READ_MEMORY_FAILURE_CALLBACK
 title: MINIDUMP_READ_MEMORY_FAILURE_CALLBACK (minidumpapiset.h)
-
 description: Contains information about a failed memory read operation.
 old-location: base\minidump_read_memory_failure_callback.htm
 tech.root: Debug
 ms.assetid: 9710684a-4d08-4ab8-bc33-17c5f01c581f
-
 ms.date: 12/05/2018
-ms.keywords: "*PMINIDUMP_READ_MEMORY_FAILURE_CALLBACK, MINIDUMP_READ_MEMORY_FAILURE_CALLBACK, MINIDUMP_READ_MEMORY_FAILURE_CALLBACK structure, PMINIDUMP_READ_MEMORY_FAILURE_CALLBACK, PMINIDUMP_READ_MEMORY_FAILURE_CALLBACK structure pointer, _MINIDUMP_READ_MEMORY_FAILURE_CALLBACK, base.minidump_read_memory_failure_callback, minidumpapiset/MINIDUMP_READ_MEMORY_FAILURE_CALLBACK, minidumpapiset/PMINIDUMP_READ_MEMORY_FAILURE_CALLBACK"
+ms.keywords: '*PMINIDUMP_READ_MEMORY_FAILURE_CALLBACK, MINIDUMP_READ_MEMORY_FAILURE_CALLBACK, MINIDUMP_READ_MEMORY_FAILURE_CALLBACK structure, PMINIDUMP_READ_MEMORY_FAILURE_CALLBACK, PMINIDUMP_READ_MEMORY_FAILURE_CALLBACK structure pointer, _MINIDUMP_READ_MEMORY_FAILURE_CALLBACK, base.minidump_read_memory_failure_callback, minidumpapiset/MINIDUMP_READ_MEMORY_FAILURE_CALLBACK, minidumpapiset/PMINIDUMP_READ_MEMORY_FAILURE_CALLBACK'
 ms.topic: struct
-f1_keywords: 
- - "minidumpapiset/MINIDUMP_READ_MEMORY_FAILURE_CALLBACK"
+f1_keywords:
+- minidumpapiset/MINIDUMP_READ_MEMORY_FAILURE_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minidumpapiset.h
+- minidumpapiset.h
 api_name:
- - MINIDUMP_READ_MEMORY_FAILURE_CALLBACK
+- MINIDUMP_READ_MEMORY_FAILURE_CALLBACK
 targetos: Windows
 req.typenames: MINIDUMP_READ_MEMORY_FAILURE_CALLBACK, *PMINIDUMP_READ_MEMORY_FAILURE_CALLBACK
 req.redist: DbgHelp.dll 6.5 or later

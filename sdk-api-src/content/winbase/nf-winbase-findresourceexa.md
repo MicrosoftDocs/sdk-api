@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.FindResourceExA
 title: FindResourceExA function (winbase.h)
-
 description: Determines the location of the resource with the specified type, name, and language in the specified module.
 old-location: menurc\findresourceex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\findresourceex.htm
-
 ms.date: 12/05/2018
 ms.keywords: FindResourceEx, FindResourceEx function [Menus and Other Resources], FindResourceExA, FindResourceExW, _win32_FindResourceEx, _win32_findresourceex_cpp, menurc.findresourceex, winbase/FindResourceEx, winbase/FindResourceExA, winbase/FindResourceExW, winui._win32_findresourceex
 ms.topic: function
-f1_keywords: 
- - "winbase/FindResourceEx"
+f1_keywords:
+- winbase/FindResourceEx
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,34 +30,34 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Deprecated-APIs-Legacy-l1-1-0.dll
- - API-MS-Win-Core-LibraryLoader-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-LibraryLoader-l1-1-1.dll
- - API-MS-Win-Core-LibraryLoader-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Libraryloader-l1-2-1.dll
- - API-MS-Win-Deprecated-APIs-Legacy-l1-2-0.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
- - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Deprecated-APIs-Legacy-l1-1-0.dll
+- API-MS-Win-Core-LibraryLoader-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-LibraryLoader-l1-1-1.dll
+- API-MS-Win-Core-LibraryLoader-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Libraryloader-l1-2-1.dll
+- API-MS-Win-Deprecated-APIs-Legacy-l1-2-0.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- API-MS-Win-Core-LibraryLoader-L1-2-2.dll
 api_name:
- - FindResourceEx
- - FindResourceExA
- - FindResourceExW
+- FindResourceEx
+- FindResourceExA
+- FindResourceExW
 targetos: Windows
 req.typenames: 
 req.redist: 

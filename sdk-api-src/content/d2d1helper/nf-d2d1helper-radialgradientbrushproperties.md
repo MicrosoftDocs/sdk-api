@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1helper.RadialGradientBrushProperties
 title: RadialGradientBrushProperties function (d2d1helper.h)
-
 description: Creates a D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES structure.
 old-location: direct2d\radialgradientbrushproperties.htm
 tech.root: Direct2D
 ms.assetid: d65ee26c-28d4-4b58-9089-1aab959246cc
-
 ms.date: 12/05/2018
 ms.keywords: RadialGradientBrushProperties, RadialGradientBrushProperties function [Direct2D], d2d1helper/RadialGradientBrushProperties, direct2d.radialgradientbrushproperties
 ms.topic: function
-f1_keywords: 
- - "d2d1helper/RadialGradientBrushProperties"
+f1_keywords:
+- d2d1helper/RadialGradientBrushProperties
 dev_langs:
- - c++
+- c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - RadialGradientBrushProperties
+- RadialGradientBrushProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

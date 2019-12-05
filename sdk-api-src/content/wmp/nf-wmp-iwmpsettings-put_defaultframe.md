@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPSettings.put_defaultFrame
 title: IWMPSettings::put_defaultFrame (wmp.h)
-
 description: The put_defaultFrame method specifies the name of the frame used to display a URL that is received in a ScriptCommand event.
 old-location: wmp\iwmpsettings_put_defaultframe.htm
 tech.root: WMP
 ms.assetid: 9b035e4e-84c5-46ea-aa8a-2e66810284b2
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],put_defaultFrame method, IWMPSettings.put_defaultFrame, IWMPSettings::put_defaultFrame, IWMPSettingsput_defaultFrame, put_defaultFrame, put_defaultFrame method [Windows Media Player], put_defaultFrame method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_defaultframe, wmp/IWMPSettings::put_defaultFrame
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPSettings.put_defaultFrame"
+f1_keywords:
+- wmp/IWMPSettings.put_defaultFrame
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPSettings.put_defaultFrame
+- IWMPSettings.put_defaultFrame
 targetos: Windows
 req.typenames: 
 req.redist: 

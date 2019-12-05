@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncCallback2.OnChangeApplied
 title: ISyncCallback2::OnChangeApplied (winsync.h)
-
 description: Occurs after a change is successfully applied.
 old-location: winsync\isynccallback2_onchangeapplied.htm
 tech.root: winsync
 ms.assetid: 3397ca51-583b-4051-892b-68f505d85ccd
-
 ms.date: 12/05/2018
 ms.keywords: ISyncCallback2 interface [Windows Sync],OnChangeApplied method, ISyncCallback2.OnChangeApplied, ISyncCallback2::OnChangeApplied, OnChangeApplied, OnChangeApplied method [Windows Sync], OnChangeApplied method [Windows Sync],ISyncCallback2 interface, winsync.isynccallback2_onchangeapplied, winsync/ISyncCallback2::OnChangeApplied
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncCallback2.OnChangeApplied"
+f1_keywords:
+- winsync/ISyncCallback2.OnChangeApplied
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncCallback2.OnChangeApplied
+- ISyncCallback2.OnChangeApplied
 targetos: Windows
 req.typenames: 
 req.redist: 

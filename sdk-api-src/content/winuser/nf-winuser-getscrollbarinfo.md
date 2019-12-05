@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetScrollBarInfo
 title: GetScrollBarInfo function (winuser.h)
-
 description: The GetScrollBarInfo function retrieves information about the specified scroll bar.
 old-location: controls\GetScrollBarInfo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\getscrollbarinfo.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetScrollBarInfo, GetScrollBarInfo function [Windows Controls], OBJID_CLIENT, OBJID_HSCROLL, OBJID_VSCROLL, _win32_GetScrollBarInfo, _win32_GetScrollBarInfo_cpp, controls.GetScrollBarInfo, controls._win32_GetScrollBarInfo, winuser/GetScrollBarInfo
 ms.topic: function
-f1_keywords: 
- - "winuser/GetScrollBarInfo"
+f1_keywords:
+- winuser/GetScrollBarInfo
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
- - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
- - ext-ms-win-ntuser-misc-l1-3-1.dll
- - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
- - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
- - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+- Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+- ext-ms-win-ntuser-misc-l1-3-1.dll
+- Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+- Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
- - GetScrollBarInfo
+- GetScrollBarInfo
 targetos: Windows
 req.typenames: 
 req.redist: Service Pack 6

@@ -1,19 +1,17 @@
 ---
 UID: NF:wdspxe.PxeDhcpIsValid
 title: PxeDhcpIsValid function (wdspxe.h)
-
 description: Validates that a packet is a DHCP packet.
 old-location: wds\pxedhcpisvalid.htm
 tech.root: wds
 ms.assetid: b5f43afb-ab71-4edf-a48a-7315d19af913
-
 ms.date: 12/05/2018
 ms.keywords: FALSE, PxeDhcpIsValid, PxeDhcpIsValid function [Windows Deployment Services], TRUE, wds.pxedhcpisvalid, wdspxe/PxeDhcpIsValid
 ms.topic: function
-f1_keywords: 
- - "wdspxe/PxeDhcpIsValid"
+f1_keywords:
+- wdspxe/PxeDhcpIsValid
 dev_langs:
- - c++
+- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsPxe.lib
 req.dll: WdsPxe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsPxe.dll
+- WdsPxe.dll
 api_name:
- - PxeDhcpIsValid
+- PxeDhcpIsValid
 targetos: Windows
 req.typenames: 
 req.redist: 

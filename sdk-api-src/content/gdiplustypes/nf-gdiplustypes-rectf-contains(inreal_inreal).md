@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.RectF.Contains(IN REAL,IN REAL)
 title: RectF::Contains (gdiplustypes.h)
-
 description: This topic lists the Contains methods of the RectF class. For a complete list of methods for the RectF class, see RectF Methods.
 old-location: gdiplus\_gdiplus_CLASS_RectF_Contains_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfcontainsmethods.htm
-
 ms.date: 12/05/2018
 ms.keywords: Contains, Contains methods [GDI+], RectF.Contains, RectF::Contains, _gdiplus_CLASS_RectF_Contains_Methods, gdiplus._gdiplus_CLASS_RectF_Contains_Methods, gdiplustypes/Contains
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/RectF.Contains"
+f1_keywords:
+- gdiplustypes/RectF.Contains
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - gdiplustypes.h
+- gdiplustypes.h
 api_name:
- - RectF.Contains
+- RectF.Contains
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionShadowEffect.SetStandardDeviation(float)
 title: IDCompositionShadowEffect::SetStandardDeviation(float) (dcomp.h)
-
 description: Sets the amount of blur to be applied to the alpha channel of the image.
 old-location: directcomp\idcompositionshadoweffect_setstandarddeviation.htm
 tech.root: directcomp
 ms.assetid: 5860E4F6-D778-4F10-ACE1-416E6D378528
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetStandardDeviation method, IDCompositionShadowEffect.SetStandardDeviation, IDCompositionShadowEffect.SetStandardDeviation(float), IDCompositionShadowEffect::SetStandardDeviation, IDCompositionShadowEffect::SetStandardDeviation(float), SetStandardDeviation, SetStandardDeviation method [DirectComposition], SetStandardDeviation method [DirectComposition],IDCompositionShadowEffect interface, dcomp/IDCompositionShadowEffect::SetStandardDeviation, directcomp.idcompositionshadoweffect_setstandarddeviation
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionShadowEffect.SetStandardDeviation"
+f1_keywords:
+- dcomp/IDCompositionShadowEffect.SetStandardDeviation
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionShadowEffect.SetStandardDeviation
+- IDCompositionShadowEffect.SetStandardDeviation
 targetos: Windows
 req.typenames: 
 req.redist: 

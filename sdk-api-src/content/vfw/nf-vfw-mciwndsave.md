@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.MCIWndSave
 title: MCIWndSave macro (vfw.h)
-
 description: The MCIWndSave macro saves the content currently used by an MCI device.
 old-location: multimedia\mciwndsave.htm
 tech.root: Multimedia
 ms.assetid: 11b67381-5177-4b55-b0a2-a633e60ae571
-
 ms.date: 12/05/2018
 ms.keywords: MCIWndSave, MCIWndSave macro [Windows Multimedia], _win32_MCIWndSave, multimedia.mciwndsave, vfw/MCIWndSave
 ms.topic: macro
-f1_keywords: 
- - "vfw/MCIWndSave"
+f1_keywords:
+- vfw/MCIWndSave
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - MCIWndSave
+- MCIWndSave
 targetos: Windows
 req.typenames: 
 req.redist: 

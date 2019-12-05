@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilGetMultiSzValue
 title: ResUtilGetMultiSzValue function (resapi.h)
-
 description: Returns a multiple string value from the cluster database.
 old-location: mscs\resutilgetmultiszvalue.htm
 tech.root: MsCS
 ms.assetid: 09547806-16f4-40ce-8713-591a7691a588
-
 ms.date: 12/05/2018
 ms.keywords: ResUtilGetMultiSzValue, ResUtilGetMultiSzValue function [Failover Cluster], _wolf_resutilgetmultiszvalue, mscs.resutilgetmultiszvalue, resapi/ResUtilGetMultiSzValue
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilGetMultiSzValue"
+f1_keywords:
+- resapi/ResUtilGetMultiSzValue
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - ResUtilGetMultiSzValue
+- ResUtilGetMultiSzValue
 targetos: Windows
 req.typenames: 
 req.redist: 

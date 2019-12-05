@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStream.FreeBuffer
 title: IRDPSRAPITransportStream::FreeBuffer (rdpencomapi.h)
-
 description: Called by the Remote Desktop Protocol (RDP) stack to return a stream buffer to the stream.
 old-location: rdp\irdpsrapitransportstream_freebuffer.htm
 tech.root: rdp
 ms.assetid: db2f0bc2-cddf-44bd-9899-192e5eb014bb
-
 ms.date: 12/05/2018
 ms.keywords: FreeBuffer, FreeBuffer method [RDP], FreeBuffer method [RDP],IRDPSRAPITransportStream interface, IRDPSRAPITransportStream interface [RDP],FreeBuffer method, IRDPSRAPITransportStream.FreeBuffer, IRDPSRAPITransportStream::FreeBuffer, rdp.irdpsrapitransportstream_freebuffer, rdpencomapi/IRDPSRAPITransportStream::FreeBuffer
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPITransportStream.FreeBuffer"
+f1_keywords:
+- rdpencomapi/IRDPSRAPITransportStream.FreeBuffer
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPITransportStream.FreeBuffer
+- IRDPSRAPITransportStream.FreeBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

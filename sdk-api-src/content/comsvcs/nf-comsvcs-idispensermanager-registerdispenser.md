@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IDispenserManager.RegisterDispenser
 title: IDispenserManager::RegisterDispenser (comsvcs.h)
-
 description: Registers the resource dispenser with the dispenser manager.
 old-location: cos\idispensermanager_registerdispenser.htm
 tech.root: cossdk
 ms.assetid: 18633c7f-d589-4e38-82e7-7cdae3fbf1ba
-
 ms.date: 12/05/2018
 ms.keywords: IDispenserManager interface [COM+],RegisterDispenser method, IDispenserManager.RegisterDispenser, IDispenserManager::RegisterDispenser, RegisterDispenser, RegisterDispenser method [COM+], RegisterDispenser method [COM+],IDispenserManager interface, _dtc_IDispenserManager_RegisterDispenser, comsvcs/IDispenserManager::RegisterDispenser, cos.idispensermanager_registerdispenser
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IDispenserManager.RegisterDispenser"
+f1_keywords:
+- comsvcs/IDispenserManager.RegisterDispenser
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IDispenserManager.RegisterDispenser
+- IDispenserManager.RegisterDispenser
 targetos: Windows
 req.typenames: 
 req.redist: 

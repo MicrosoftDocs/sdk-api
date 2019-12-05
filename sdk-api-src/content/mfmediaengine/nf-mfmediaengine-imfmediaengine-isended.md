@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.IsEnded
 title: IMFMediaEngine::IsEnded (mfmediaengine.h)
-
 description: Queries whether playback has ended.
 old-location: mf\imfmediaengine_isended.htm
 tech.root: medfound
 ms.assetid: 0760707C-B25E-44FF-9263-6B59BF43A98E
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],IsEnded method, IMFMediaEngine.IsEnded, IMFMediaEngine::IsEnded, IsEnded, IsEnded method [Media Foundation], IsEnded method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_isended, mfmediaengine/IMFMediaEngine::IsEnded
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngine.IsEnded"
+f1_keywords:
+- mfmediaengine/IMFMediaEngine.IsEnded
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngine.IsEnded
+- IMFMediaEngine.IsEnded
 targetos: Windows
 req.typenames: 
 req.redist: 

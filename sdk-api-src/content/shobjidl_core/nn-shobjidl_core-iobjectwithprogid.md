@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IObjectWithProgID
 title: IObjectWithProgID (shobjidl_core.h)
-
 description: Exposes methods that provide access to the ProgID associated with an object.
 old-location: shell\IObjectWithProgID.htm
 tech.root: shell
 ms.assetid: 3b66ba49-ed39-464e-b15a-c72fdff7f5e5
-
 ms.date: 12/05/2018
 ms.keywords: IObjectWithProgID, IObjectWithProgID interface [Windows Shell], IObjectWithProgID interface [Windows Shell],described, _shell_IObjectWithProgID, shell.IObjectWithProgID, shobjidl_core/IObjectWithProgID
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IObjectWithProgID"
+f1_keywords:
+- shobjidl_core/IObjectWithProgID
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IObjectWithProgID
+- IObjectWithProgID
 targetos: Windows
 req.typenames: 
 req.redist: 

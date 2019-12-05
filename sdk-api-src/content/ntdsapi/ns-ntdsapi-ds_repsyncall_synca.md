@@ -1,19 +1,17 @@
 ---
 UID: NS:ntdsapi.__unnamed_struct_4
 title: DS_REPSYNCALL_SYNCA (ntdsapi.h)
-
 description: The DS_REPSYNCALL_SYNC structure identifies a single replication operation performed between a source, and destination, server by the DsReplicaSyncAll function.
 old-location: ad\ds_repsyncall_sync.htm
 tech.root: ad
 ms.assetid: 54a6695e-3493-428b-9e8d-7f781e7b3961
-
 ms.date: 12/05/2018
-ms.keywords: "*PDS_REPSYNCALL_SYNCA, DS_REPSYNCALL_SYNC, DS_REPSYNCALL_SYNC structure [Active Directory], DS_REPSYNCALL_SYNCA, DS_REPSYNCALL_SYNCW, PDS_REPSYNCALL_SYNC, PDS_REPSYNCALL_SYNC structure pointer [Active Directory], _glines_ds_repsyncall_sync, ad.ds__repsyncall__sync, ad.ds_repsyncall_sync, ntdsapi/DS_REPSYNCALL_SYNC, ntdsapi/DS_REPSYNCALL_SYNCA, ntdsapi/DS_REPSYNCALL_SYNCW, ntdsapi/PDS_REPSYNCALL_SYNC"
+ms.keywords: '*PDS_REPSYNCALL_SYNCA, DS_REPSYNCALL_SYNC, DS_REPSYNCALL_SYNC structure [Active Directory], DS_REPSYNCALL_SYNCA, DS_REPSYNCALL_SYNCW, PDS_REPSYNCALL_SYNC, PDS_REPSYNCALL_SYNC structure pointer [Active Directory], _glines_ds_repsyncall_sync, ad.ds__repsyncall__sync, ad.ds_repsyncall_sync, ntdsapi/DS_REPSYNCALL_SYNC, ntdsapi/DS_REPSYNCALL_SYNCA, ntdsapi/DS_REPSYNCALL_SYNCW, ntdsapi/PDS_REPSYNCALL_SYNC'
 ms.topic: struct
-f1_keywords: 
- - "ntdsapi/DS_REPSYNCALL_SYNC"
+f1_keywords:
+- ntdsapi/DS_REPSYNCALL_SYNC
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntdsapi.h
+- Ntdsapi.h
 api_name:
- - DS_REPSYNCALL_SYNC
- - DS_REPSYNCALL_SYNCA
- - DS_REPSYNCALL_SYNCW
+- DS_REPSYNCALL_SYNC
+- DS_REPSYNCALL_SYNCA
+- DS_REPSYNCALL_SYNCW
 targetos: Windows
 req.typenames: DS_REPSYNCALL_SYNCA, *PDS_REPSYNCALL_SYNCA
 req.redist: 

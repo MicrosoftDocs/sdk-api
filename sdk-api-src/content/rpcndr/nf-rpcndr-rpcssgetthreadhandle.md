@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcndr.RpcSsGetThreadHandle
 title: RpcSsGetThreadHandle function (rpcndr.h)
-
 description: The RpcSsGetThreadHandle function returns a thread handle for the stub memory&#8211;management environment.
 old-location: rpc\rpcssgetthreadhandle.htm
 tech.root: Rpc
 ms.assetid: f3b10f9c-7383-4665-96e3-1518f554f23e
-
 ms.date: 12/05/2018
 ms.keywords: RpcSsGetThreadHandle, RpcSsGetThreadHandle function [RPC], _rpc_rpcssgetthreadhandle, rpc.rpcssgetthreadhandle, rpcndr/RpcSsGetThreadHandle
 ms.topic: function
-f1_keywords: 
- - "rpcndr/RpcSsGetThreadHandle"
+f1_keywords:
+- rpcndr/RpcSsGetThreadHandle
 dev_langs:
- - c++
+- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcSsGetThreadHandle
+- RpcSsGetThreadHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfileManager.GetConnectionProfiles
 title: IMbnConnectionProfileManager::GetConnectionProfiles (mbnapi.h)
-
 description: Gets a list of connection profiles associated with the device.
 old-location: mbn\imbnconnectionprofilemanager_getconnectionprofiles.htm
 tech.root: mbn
 ms.assetid: 96752181-1135-4dcf-9c07-056dfbf2ca5f
-
 ms.date: 12/05/2018
 ms.keywords: GetConnectionProfiles, GetConnectionProfiles method [Microsoft Broadband Networks], GetConnectionProfiles method [Microsoft Broadband Networks],IMbnConnectionProfileManager interface, IMbnConnectionProfileManager interface [Microsoft Broadband Networks],GetConnectionProfiles method, IMbnConnectionProfileManager.GetConnectionProfiles, IMbnConnectionProfileManager::GetConnectionProfiles, mbn.imbnconnectionprofilemanager_getconnectionprofiles, mbnapi/IMbnConnectionProfileManager::GetConnectionProfiles
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnConnectionProfileManager.GetConnectionProfiles"
+f1_keywords:
+- mbnapi/IMbnConnectionProfileManager.GetConnectionProfiles
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnConnectionProfileManager.GetConnectionProfiles
+- IMbnConnectionProfileManager.GetConnectionProfiles
 targetos: Windows
 req.typenames: 
 req.redist: 

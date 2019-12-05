@@ -1,19 +1,17 @@
 ---
 UID: NN:wmp.IWMPPlaylist
 title: IWMPPlaylist (wmp.h)
-
 description: The IWMPPlaylist interface provides methods for manipulating lists of media items.
 old-location: wmp\iwmpplaylist.htm
 tech.root: WMP
 ms.assetid: 04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylist, IWMPPlaylist interface [Windows Media Player], IWMPPlaylist interface [Windows Media Player],described, IWMPPlaylistInterface, wmp.iwmpplaylist, wmp/IWMPPlaylist
 ms.topic: interface
-f1_keywords: 
- - "wmp/IWMPPlaylist"
+f1_keywords:
+- wmp/IWMPPlaylist
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - IWMPPlaylist
+- IWMPPlaylist
 targetos: Windows
 req.typenames: 
 req.redist: 

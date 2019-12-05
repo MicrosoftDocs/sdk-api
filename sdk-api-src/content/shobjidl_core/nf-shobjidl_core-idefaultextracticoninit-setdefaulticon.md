@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IDefaultExtractIconInit.SetDefaultIcon
 title: IDefaultExtractIconInit::SetDefaultIcon (shobjidl_core.h)
-
 description: Sets the default icon.
 old-location: shell\IDefaultExtractIconInit_SetDefaultIcon.htm
 tech.root: shell
 ms.assetid: 7a834c1e-602a-4736-8807-7dd04c6dc5c2
-
 ms.date: 12/05/2018
 ms.keywords: IDefaultExtractIconInit interface [Windows Shell],SetDefaultIcon method, IDefaultExtractIconInit.SetDefaultIcon, IDefaultExtractIconInit::SetDefaultIcon, SetDefaultIcon, SetDefaultIcon method [Windows Shell], SetDefaultIcon method [Windows Shell],IDefaultExtractIconInit interface, _shell_IDefaultExtractIconInit_SetDefaultIcon, shell.IDefaultExtractIconInit_SetDefaultIcon, shobjidl_core/IDefaultExtractIconInit::SetDefaultIcon
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IDefaultExtractIconInit.SetDefaultIcon"
+f1_keywords:
+- shobjidl_core/IDefaultExtractIconInit.SetDefaultIcon
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IDefaultExtractIconInit.SetDefaultIcon
+- IDefaultExtractIconInit.SetDefaultIcon
 targetos: Windows
 req.typenames: 
 req.redist: 

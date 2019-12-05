@@ -1,19 +1,17 @@
 ---
 UID: NF:callobj.ICallFrame.GetReturnValue
 title: ICallFrame::GetReturnValue (callobj.h)
-
 description: Retrieves the return value stored in the call frame.
 old-location: com\icallframe_getreturnvalue.htm
 tech.root: com
 ms.assetid: eb03e968-37af-46fd-b2ed-08c5ef8eb265
-
 ms.date: 12/05/2018
 ms.keywords: GetReturnValue, GetReturnValue method [COM], GetReturnValue method [COM],ICallFrame interface, ICallFrame interface [COM],GetReturnValue method, ICallFrame.GetReturnValue, ICallFrame::GetReturnValue, _com_icallframe_getreturnvalue, callobj/ICallFrame::GetReturnValue, com.icallframe_getreturnvalue
 ms.topic: method
-f1_keywords: 
- - "callobj/ICallFrame.GetReturnValue"
+f1_keywords:
+- callobj/ICallFrame.GetReturnValue
 dev_langs:
- - c++
+- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Callobj.h
+- Callobj.h
 api_name:
- - ICallFrame.GetReturnValue
+- ICallFrame.GetReturnValue
 targetos: Windows
 req.typenames: 
 req.redist: 

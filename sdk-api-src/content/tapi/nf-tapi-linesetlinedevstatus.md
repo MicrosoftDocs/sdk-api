@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineSetLineDevStatus
 title: lineSetLineDevStatus function (tapi.h)
-
 description: The lineSetLineDevStatus function sets the line device status.
 old-location: tapi2\linesetlinedevstatus.htm
 tech.root: Tapi
 ms.assetid: c8eb142d-5160-49f3-81c1-61094c180df8
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linesetlinedevstatus, lineSetLineDevStatus, lineSetLineDevStatus function [TAPI 2.2], tapi/lineSetLineDevStatus, tapi2.linesetlinedevstatus"
+ms.keywords: _tapi2_linesetlinedevstatus, lineSetLineDevStatus, lineSetLineDevStatus function [TAPI 2.2], tapi/lineSetLineDevStatus, tapi2.linesetlinedevstatus
 ms.topic: function
-f1_keywords: 
- - "tapi/lineSetLineDevStatus"
+f1_keywords:
+- tapi/lineSetLineDevStatus
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineSetLineDevStatus
+- lineSetLineDevStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

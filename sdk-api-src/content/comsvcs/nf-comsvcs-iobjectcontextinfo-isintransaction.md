@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IObjectContextInfo.IsInTransaction
 title: IObjectContextInfo::IsInTransaction (comsvcs.h)
-
 description: Indicates whether the current object is executing in a transaction.
 old-location: cos\iobjectcontextinfo_isintransaction.htm
 tech.root: cossdk
 ms.assetid: 8624e731-8296-4829-afae-fd48721a511c
-
 ms.date: 12/05/2018
 ms.keywords: IObjectContextInfo interface [COM+],IsInTransaction method, IObjectContextInfo.IsInTransaction, IObjectContextInfo::IsInTransaction, IsInTransaction, IsInTransaction method [COM+], IsInTransaction method [COM+],IObjectContextInfo interface, _cos_IObjectContextInfo_IsInTransaction, comsvcs/IObjectContextInfo::IsInTransaction, cos.iobjectcontextinfo_isintransaction
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IObjectContextInfo.IsInTransaction"
+f1_keywords:
+- comsvcs/IObjectContextInfo.IsInTransaction
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IObjectContextInfo.IsInTransaction
+- IObjectContextInfo.IsInTransaction
 targetos: Windows
 req.typenames: 
 req.redist: 

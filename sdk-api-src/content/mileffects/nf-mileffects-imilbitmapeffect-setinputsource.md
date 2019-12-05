@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffect.SetInputSource
 title: IMILBitmapEffect::SetInputSource (mileffects.h)
-
 description: Sets the effect input source.
 old-location: wibe\_wibe_imilbitmapeffect_setinputsource.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffect\setinputsource.htm
-
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffect interface [WPF Bitmap Effects],SetInputSource method, IMILBitmapEffect.SetInputSource, IMILBitmapEffect::SetInputSource, SetInputSource, SetInputSource method [WPF Bitmap Effects], SetInputSource method [WPF Bitmap Effects],IMILBitmapEffect interface, _wibe_imilbitmapeffect_setinputsource, mileffects/IMILBitmapEffect::SetInputSource, wibe._wibe_imilbitmapeffect_setinputsource
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffect.SetInputSource"
+f1_keywords:
+- mileffects/IMILBitmapEffect.SetInputSource
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.h
+- Mileffects.h
 api_name:
- - IMILBitmapEffect.SetInputSource
+- IMILBitmapEffect.SetInputSource
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

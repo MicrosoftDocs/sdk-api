@@ -1,19 +1,17 @@
 ---
 UID: NF:powerbase.PowerRegisterSuspendResumeNotification
 title: PowerRegisterSuspendResumeNotification function (powerbase.h)
-
 description: Registers to receive notification when the system is suspended or resumed.
 old-location: base\powerregistersuspendresumenotification.htm
 tech.root: power
 ms.assetid: 3b39ec3a-417c-4ce4-a581-ed967f1baec9
-
 ms.date: 12/05/2018
 ms.keywords: PowerRegisterSuspendResumeNotification, PowerRegisterSuspendResumeNotification function, base.powerregistersuspendresumenotification, powerbase/PowerRegisterSuspendResumeNotification
 ms.topic: function
-f1_keywords: 
- - "powerbase/PowerRegisterSuspendResumeNotification"
+f1_keywords:
+- powerbase/PowerRegisterSuspendResumeNotification
 dev_langs:
- - c++
+- c++
 req.header: powerbase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Powrprof.lib
 req.dll: Powrprof.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Powrprof.dll
- - API-MS-Win-power-base-l1-1-0.dll
+- Powrprof.dll
+- API-MS-Win-power-base-l1-1-0.dll
 api_name:
- - PowerRegisterSuspendResumeNotification
+- PowerRegisterSuspendResumeNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

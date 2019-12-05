@@ -1,19 +1,17 @@
 ---
 UID: NF:indexsrv.IColumnMapperCreator.GetColumnMapper
 title: IColumnMapperCreator::GetColumnMapper (indexsrv.h)
-
 description: Retrieves a column mapper object.
 old-location: search\icolumnmappercreator_getcolumnmapper.htm
 tech.root: search
 ms.assetid: DFFB27B0-EB82-41A4-A7EE-82495023DD2D
-
 ms.date: 12/05/2018
 ms.keywords: GetColumnMapper, GetColumnMapper method [search], GetColumnMapper method [search],IColumnMapperCreator interface, IColumnMapperCreator interface [search],GetColumnMapper method, IColumnMapperCreator.GetColumnMapper, IColumnMapperCreator::GetColumnMapper, indexsrv/IColumnMapperCreator::GetColumnMapper, search.icolumnmappercreator_getcolumnmapper
 ms.topic: method
-f1_keywords: 
- - "indexsrv/IColumnMapperCreator.GetColumnMapper"
+f1_keywords:
+- indexsrv/IColumnMapperCreator.GetColumnMapper
 dev_langs:
- - c++
+- c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - indexsrv.h
+- indexsrv.h
 api_name:
- - IColumnMapperCreator.GetColumnMapper
+- IColumnMapperCreator.GetColumnMapper
 targetos: Windows
 req.typenames: 
 req.redist: Windows NT 4.0 Option Pack

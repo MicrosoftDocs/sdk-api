@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPathData.UpdateSegmentData
 title: ID2D1SvgPathData::UpdateSegmentData (d2d1svg.h)
-
 description: Updates the segment data array. Existing segment data not updated by this method are preserved. The array is resized larger if necessary to accomodate the new segment data.
 old-location: direct2d\id2d1svgpathdata_updatesegmentdata.htm
 tech.root: Direct2D
 ms.assetid: 3B87B002-7F1C-4531-B584-C0CFC8E46256
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgPathData interface [Direct2D],UpdateSegmentData method, ID2D1SvgPathData.UpdateSegmentData, ID2D1SvgPathData::UpdateSegmentData, UpdateSegmentData, UpdateSegmentData method [Direct2D], UpdateSegmentData method [Direct2D],ID2D1SvgPathData interface, d2d1svg/ID2D1SvgPathData::UpdateSegmentData, direct2d.id2d1svgpathdata_updatesegmentdata
 ms.topic: method
-f1_keywords: 
- - "d2d1svg/ID2D1SvgPathData.UpdateSegmentData"
+f1_keywords:
+- d2d1svg/ID2D1SvgPathData.UpdateSegmentData
 dev_langs:
- - c++
+- c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Direct2d.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - direct2d.dll
+- direct2d.dll
 api_name:
- - ID2D1SvgPathData.UpdateSegmentData
+- ID2D1SvgPathData.UpdateSegmentData
 targetos: Windows
 req.typenames: 
 req.redist: 

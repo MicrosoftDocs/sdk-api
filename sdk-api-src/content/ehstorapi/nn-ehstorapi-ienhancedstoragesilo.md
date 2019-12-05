@@ -1,19 +1,17 @@
 ---
 UID: NN:ehstorapi.IEnhancedStorageSilo
 title: IEnhancedStorageSilo (ehstorapi.h)
-
 description: IEnhancedStorageSilo interface is the point of access for an IEEE 1667 silo and is used to obtain information and perform operations at the silo level.
 old-location: enstor\ienhancedstoragesilo.htm
 tech.root: enstor
 ms.assetid: 041e66d2-f772-407d-85f7-71f226c7ec4b
-
 ms.date: 12/05/2018
 ms.keywords: IEnhancedStorageSilo, IEnhancedStorageSilo interface [Enhanced Storage], IEnhancedStorageSilo interface [Enhanced Storage],described, ehstorapi/IEnhancedStorageSilo, enstor.ienhancedstoragesilo
 ms.topic: interface
-f1_keywords: 
- - "ehstorapi/IEnhancedStorageSilo"
+f1_keywords:
+- ehstorapi/IEnhancedStorageSilo
 dev_langs:
- - c++
+- c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EhStorAPI.h
+- EhStorAPI.h
 api_name:
- - IEnhancedStorageSilo
+- IEnhancedStorageSilo
 targetos: Windows
 req.typenames: 
 req.redist: 

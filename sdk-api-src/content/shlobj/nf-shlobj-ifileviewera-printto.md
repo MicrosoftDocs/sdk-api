@@ -1,18 +1,16 @@
 ---
 UID: NF:shlobj.IFileViewerA.PrintTo
 title: IFileViewerA::PrintTo
-
 description: Prints a file.
 tech.root: shell
 ms.assetid: 4a8fd0ed-4a9a-47c7-a0ab-87cf82f507cb
-
 ms.date: 01/30/19
 ms.keywords: IFileViewerA::PrintTo
 ms.topic: language-reference
-f1_keywords: 
- - "shlobj/IFileViewerA::PrintTo"
+f1_keywords:
+- shlobj/IFileViewerA::PrintTo
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -34,13 +32,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - shlobj.h
+- shlobj.h
 api_name:
- - IFileViewerA::PrintTo
+- IFileViewerA::PrintTo
 ---
 
 ## -description

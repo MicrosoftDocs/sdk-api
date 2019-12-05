@@ -1,19 +1,17 @@
 ---
 UID: NF:winhttp.WinHttpReceiveResponse
 title: WinHttpReceiveResponse function (winhttp.h)
-
 description: The WinHttpReceiveResponse function waits to receive the response to an HTTP request initiated by WinHttpSendRequest.
 old-location: http\winhttpreceiveresponse.htm
 tech.root: WinHttp
 ms.assetid: 0b79e73b-9f6a-42eb-9108-1ba142ad7c48
-
 ms.date: 12/05/2018
 ms.keywords: WinHttpReceiveResponse, WinHttpReceiveResponse function [WinHTTP], http.winhttpreceiveresponse, winhttp.winhttpreceiveresponse_function, winhttp/WinHttpReceiveResponse
 ms.topic: function
-f1_keywords: 
- - "winhttp/WinHttpReceiveResponse"
+f1_keywords:
+- winhttp/WinHttpReceiveResponse
 dev_langs:
- - c++
+- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winhttp.dll
+- Winhttp.dll
 api_name:
- - WinHttpReceiveResponse
+- WinHttpReceiveResponse
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.

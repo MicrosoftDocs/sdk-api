@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.phoneGetDevCapsW
 title: phoneGetDevCapsW function (tapi.h)
-
 description: The phoneGetDevCaps function queries a specified phone device to determine its telephony capabilities.
 old-location: tapi2\phonegetdevcaps.htm
 tech.root: Tapi
 ms.assetid: 7bfef6d7-d5fd-4887-afb8-b1d850df050d
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_phonegetdevcaps, phoneGetDevCaps, phoneGetDevCaps function [TAPI 2.2], phoneGetDevCapsA, phoneGetDevCapsW, tapi/phoneGetDevCaps, tapi/phoneGetDevCapsA, tapi/phoneGetDevCapsW, tapi2.phonegetdevcaps"
+ms.keywords: _tapi2_phonegetdevcaps, phoneGetDevCaps, phoneGetDevCaps function [TAPI 2.2], phoneGetDevCapsA, phoneGetDevCapsW, tapi/phoneGetDevCaps, tapi/phoneGetDevCapsA, tapi/phoneGetDevCapsW, tapi2.phonegetdevcaps
 ms.topic: function
-f1_keywords: 
- - "tapi/phoneGetDevCaps"
+f1_keywords:
+- tapi/phoneGetDevCaps
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - phoneGetDevCaps
- - phoneGetDevCapsA
- - phoneGetDevCapsW
+- phoneGetDevCaps
+- phoneGetDevCapsA
+- phoneGetDevCapsW
 targetos: Windows
 req.typenames: 
 req.redist: 

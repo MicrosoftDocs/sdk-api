@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.CreateDialogW
 title: CreateDialogW macro (winuser.h)
-
 description: Creates a modeless dialog box from a dialog box template resource. The CreateDialog macro uses the CreateDialogParam function.
 old-location: dlgbox\createdialog.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\createdialog.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateDialog, CreateDialog function [Dialog Boxes], CreateDialogA, CreateDialogW, _win32_CreateDialog, _win32_createdialog_cpp, dlgbox.createdialog, winui._win32_createdialog, winuser/CreateDialog, winuser/CreateDialogA, winuser/CreateDialogW
 ms.topic: macro
-f1_keywords: 
- - "winuser/CreateDialog"
+f1_keywords:
+- winuser/CreateDialog
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - CreateDialog
- - CreateDialogA
- - CreateDialogW
+- CreateDialog
+- CreateDialogA
+- CreateDialogW
 targetos: Windows
 req.typenames: 
 req.redist: 

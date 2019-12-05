@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Image.SetAbort
 title: Image::SetAbort (gdiplusheaders.h)
-
 description: The Image::SetAbort method sets the object whose Abort method is called periodically during time-consuming rendering operation.
 old-location: gdiplus\_gdiplus_CLASS_Image_SetAbort_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\setabort.htm
-
 ms.date: 12/05/2018
 ms.keywords: Image class [GDI+],SetAbort method, Image.SetAbort, Image::SetAbort, SetAbort, SetAbort method [GDI+], SetAbort method [GDI+],Image class, _gdiplus_CLASS_Image_SetAbort_, gdiplus._gdiplus_CLASS_Image_SetAbort_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Image.SetAbort"
+f1_keywords:
+- gdiplusheaders/Image.SetAbort
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Image.SetAbort
+- Image.SetAbort
 targetos: Windows
 req.typenames: 
 req.redist: 

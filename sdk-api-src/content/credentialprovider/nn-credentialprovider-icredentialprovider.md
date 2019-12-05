@@ -1,19 +1,17 @@
 ---
 UID: NN:credentialprovider.ICredentialProvider
 title: ICredentialProvider (credentialprovider.h)
-
 description: Exposes methods used in the setup and manipulation of a credential provider. All credential providers must implement this interface.
 old-location: shell\ICredentialProvider.htm
 tech.root: shell
 ms.assetid: 7ce6cd61-16d1-414e-b9b3-4929a65c0cc6
-
 ms.date: 12/05/2018
 ms.keywords: ICredentialProvider, ICredentialProvider interface [Windows Shell], ICredentialProvider interface [Windows Shell],described, credentialprovider/ICredentialProvider, shell.ICredentialProvider, shell_ICredentialProvider
 ms.topic: interface
-f1_keywords: 
- - "credentialprovider/ICredentialProvider"
+f1_keywords:
+- credentialprovider/ICredentialProvider
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - ICredentialProvider
+- ICredentialProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

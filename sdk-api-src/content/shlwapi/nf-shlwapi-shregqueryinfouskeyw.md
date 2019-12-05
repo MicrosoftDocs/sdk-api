@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHRegQueryInfoUSKeyW
 title: SHRegQueryInfoUSKeyW function (shlwapi.h)
-
 description: Retrieves information about a specified registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegQueryInfoUSKey.htm
 tech.root: shell
 ms.assetid: e47b4fad-50c7-43d7-82f2-6a835ac543f0
-
 ms.date: 12/05/2018
 ms.keywords: SHRegQueryInfoUSKey, SHRegQueryInfoUSKey function [Windows Shell], SHRegQueryInfoUSKeyA, SHRegQueryInfoUSKeyW, _win32_SHRegQueryInfoUSKey, shell.SHRegQueryInfoUSKey, shlwapi/SHRegQueryInfoUSKey, shlwapi/SHRegQueryInfoUSKeyA, shlwapi/SHRegQueryInfoUSKeyW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHRegQueryInfoUSKey"
+f1_keywords:
+- shlwapi/SHRegQueryInfoUSKey
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-Registryuserspecific-l1-1-0.dll
- - KernelBase.dll
+- Shlwapi.dll
+- API-MS-Win-Core-Registryuserspecific-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - SHRegQueryInfoUSKey
- - SHRegQueryInfoUSKeyA
- - SHRegQueryInfoUSKeyW
+- SHRegQueryInfoUSKey
+- SHRegQueryInfoUSKeyA
+- SHRegQueryInfoUSKeyW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcFactory.CreatePackage
 title: IOpcFactory::CreatePackage (msopc.h)
-
 description: Creates a package object that represents an empty package.
 old-location: opc\iopcfactory_createpackage.htm
 tech.root: OPC
 ms.assetid: 9cd4ef3a-f890-40d5-a398-cb8f9746c380
-
 ms.date: 12/05/2018
 ms.keywords: CreatePackage, CreatePackage method [Open Packaging Conventions], CreatePackage method [Open Packaging Conventions],IOpcFactory interface, IOpcFactory interface [Open Packaging Conventions],CreatePackage method, IOpcFactory.CreatePackage, IOpcFactory::CreatePackage, msopc/IOpcFactory::CreatePackage, opc.iopcfactory_createpackage
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcFactory.CreatePackage"
+f1_keywords:
+- msopc/IOpcFactory.CreatePackage
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcFactory.CreatePackage
+- IOpcFactory.CreatePackage
 targetos: Windows
 req.typenames: 
 req.redist: 

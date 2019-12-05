@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetTotalTitleTime
 title: IDvdInfo2::GetTotalTitleTime (strmif.h)
-
 description: The GetTotalTitleTime method retrieves the total playback time for the current title.
 old-location: dshow\idvdinfo2_gettotaltitletime.htm
 tech.root: DirectShow
 ms.assetid: 90768da1-592a-49ec-99b0-56f463c322e8
-
 ms.date: 12/05/2018
 ms.keywords: GetTotalTitleTime, GetTotalTitleTime method [DirectShow], GetTotalTitleTime method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetTotalTitleTime method, IDvdInfo2.GetTotalTitleTime, IDvdInfo2::GetTotalTitleTime, IDvdInfo2GetTotalTitleTime, dshow.idvdinfo2_gettotaltitletime, strmif/IDvdInfo2::GetTotalTitleTime
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo2.GetTotalTitleTime"
+f1_keywords:
+- strmif/IDvdInfo2.GetTotalTitleTime
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdInfo2.GetTotalTitleTime
+- IDvdInfo2.GetTotalTitleTime
 targetos: Windows
 req.typenames: 
 req.redist: 

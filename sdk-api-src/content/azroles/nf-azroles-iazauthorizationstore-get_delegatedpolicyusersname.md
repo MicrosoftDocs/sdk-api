@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_DelegatedPolicyUsersName
 title: IAzAuthorizationStore::get_DelegatedPolicyUsersName (azroles.h)
-
 description: Retrieves the account names of principals that act as delegated policy users.
 old-location: security\azauthorizationstore_delegatedpolicyusersname.htm
 tech.root: SecAuthZ
 ms.assetid: 495cdba4-7127-48aa-9542-7ccbedbad589
-
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],DelegatedPolicyUsersName property, DelegatedPolicyUsersName property [Security], DelegatedPolicyUsersName property [Security],AzAuthorizationStore object, DelegatedPolicyUsersName property [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DelegatedPolicyUsersName property, IAzAuthorizationStore.DelegatedPolicyUsersName, IAzAuthorizationStore.get_DelegatedPolicyUsersName, IAzAuthorizationStore::DelegatedPolicyUsersName, IAzAuthorizationStore::get_DelegatedPolicyUsersName, azroles/IAzAuthorizationStore::DelegatedPolicyUsersName, azroles/IAzAuthorizationStore::get_DelegatedPolicyUsersName, get_DelegatedPolicyUsersName, security.azauthorizationstore_delegatedpolicyusersname
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzAuthorizationStore.DelegatedPolicyUsersName"
+f1_keywords:
+- azroles/IAzAuthorizationStore.DelegatedPolicyUsersName
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzAuthorizationStore.DelegatedPolicyUsersName
- - IAzAuthorizationStore.get_DelegatedPolicyUsersName
- - AzAuthorizationStore.DelegatedPolicyUsersName
+- IAzAuthorizationStore.DelegatedPolicyUsersName
+- IAzAuthorizationStore.get_DelegatedPolicyUsersName
+- AzAuthorizationStore.DelegatedPolicyUsersName
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

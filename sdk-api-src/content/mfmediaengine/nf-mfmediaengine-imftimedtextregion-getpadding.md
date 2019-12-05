@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetPadding
 title: IMFTimedTextRegion::GetPadding (mfmediaengine.h)
-
 description: Gets the padding that surrounds the region.
 old-location: mf\imftimedtextregion_getpadding.htm
 tech.root: medfound
 ms.assetid: B97ECFD8-2E96-425F-B29E-49E7D53BBFCB
-
 ms.date: 12/05/2018
 ms.keywords: GetPadding, GetPadding method [Media Foundation], GetPadding method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetPadding method, IMFTimedTextRegion.GetPadding, IMFTimedTextRegion::GetPadding, mf.imftimedtextregion_getpadding, mfmediaengine/IMFTimedTextRegion::GetPadding
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextRegion.GetPadding"
+f1_keywords:
+- mfmediaengine/IMFTimedTextRegion.GetPadding
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextRegion.GetPadding
+- IMFTimedTextRegion.GetPadding
 targetos: Windows
 req.typenames: 
 req.redist: 

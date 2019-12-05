@@ -1,19 +1,17 @@
 ---
 UID: NF:cfapi.CfGetPlaceholderInfo
 title: CfGetPlaceholderInfo function (cfapi.h)
-
 description: Gets various characteristics of a placeholder file or folder.
 old-location: cloudapi\cfgetplaceholderinfo.htm
 tech.root: cfApi
 ms.assetid: D82269CF-8056-46CF-9832-AAE8767A854B
-
 ms.date: 12/05/2018
 ms.keywords: CfGetPlaceholderInfo, CfGetPlaceholderInfo function, cfapi/CfGetPlaceholderInfo, cloudApi.cfgetplaceholderinfo
 ms.topic: function
-f1_keywords: 
- - "cfapi/CfGetPlaceholderInfo"
+f1_keywords:
+- cfapi/CfGetPlaceholderInfo
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CldApi.dll
+- CldApi.dll
 api_name:
- - CfGetPlaceholderInfo
+- CfGetPlaceholderInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

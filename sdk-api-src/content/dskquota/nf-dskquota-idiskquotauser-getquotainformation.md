@@ -1,19 +1,17 @@
 ---
 UID: NF:dskquota.IDiskQuotaUser.GetQuotaInformation
 title: IDiskQuotaUser::GetQuotaInformation (dskquota.h)
-
 description: Retrieves the values for the user's warning threshold, hard quota limit, and quota used.
 old-location: fs\idiskquotauser_getquotainformation.htm
 tech.root: FileIO
 ms.assetid: d1640803-965a-473c-bf10-bee51d47fcfa
-
 ms.date: 12/05/2018
 ms.keywords: GetQuotaInformation, GetQuotaInformation method [Files], GetQuotaInformation method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetQuotaInformation method, IDiskQuotaUser.GetQuotaInformation, IDiskQuotaUser::GetQuotaInformation, _win32_idiskquotauser_getquotainformation, base.idiskquotauser_getquotainformation, dskquota/IDiskQuotaUser::GetQuotaInformation, fs.idiskquotauser_getquotainformation
 ms.topic: method
-f1_keywords: 
- - "dskquota/IDiskQuotaUser.GetQuotaInformation"
+f1_keywords:
+- dskquota/IDiskQuotaUser.GetQuotaInformation
 dev_langs:
- - c++
+- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dskquota.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dskquota.dll
+- Dskquota.dll
 api_name:
- - IDiskQuotaUser.GetQuotaInformation
+- IDiskQuotaUser.GetQuotaInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:cluadmex.IWCWizardCallback.EnableNext
 title: IWCWizardCallback::EnableNext (cluadmex.h)
-
 description: Enables or disables the Next or Finish button on a Failover Cluster Administrator Wizard page, depending on whether the current page is last.
 old-location: mscs\iwcwizardcallback_enablenext.htm
 tech.root: MsCS
 ms.assetid: 6f485ffa-0e94-4443-9c79-991c35a60e97
-
 ms.date: 12/05/2018
 ms.keywords: EnableNext, EnableNext method [Failover Cluster], EnableNext method [Failover Cluster],IWCWizardCallback interface, IWCWizardCallback interface [Failover Cluster],EnableNext method, IWCWizardCallback.EnableNext, IWCWizardCallback::EnableNext, _wolf_iwcwizardcallback_enablenext, cluadmex/IWCWizardCallback::EnableNext, mscs.iwcwizardcallback_enablenext
 ms.topic: method
-f1_keywords: 
- - "cluadmex/IWCWizardCallback.EnableNext"
+f1_keywords:
+- cluadmex/IWCWizardCallback.EnableNext
 dev_langs:
- - c++
+- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cluadmex.h
+- cluadmex.h
 api_name:
- - IWCWizardCallback.EnableNext
+- IWCWizardCallback.EnableNext
 targetos: Windows
 req.typenames: 
 req.redist: 

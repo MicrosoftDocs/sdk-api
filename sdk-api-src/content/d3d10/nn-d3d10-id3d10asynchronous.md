@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d10.ID3D10Asynchronous
 title: ID3D10Asynchronous (d3d10.h)
-
 description: This interface encapsulates methods for retrieving data from the GPU asynchronously.
 old-location: direct3d10\id3d10asynchronous.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10asynchronous.htm
-
 ms.date: 12/05/2018
 ms.keywords: ID3D10Asynchronous, ID3D10Asynchronous interface [Direct3D 10], ID3D10Asynchronous interface [Direct3D 10],described, bbcae8e9-6f10-e6ca-52e5-20302edce780, d3d10/ID3D10Asynchronous, direct3d10.id3d10asynchronous
 ms.topic: interface
-f1_keywords: 
- - "d3d10/ID3D10Asynchronous"
+f1_keywords:
+- d3d10/ID3D10Asynchronous
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Asynchronous
+- ID3D10Asynchronous
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:setupapi._SP_DRVINSTALL_PARAMS
 title: SP_DRVINSTALL_PARAMS (setupapi.h)
-
 description: An SP_DRVINSTALL_PARAMS structure contains driver installation parameters associated with a particular driver information element.
 old-location: devinst\sp_drvinstall_params.htm
 tech.root: devinst
 ms.assetid: 300e636c-3f77-4d0b-9868-caaf92d87bfd
-
 ms.date: 12/05/2018
-ms.keywords: "*PSP_DRVINSTALL_PARAMS, PSP_DRVINSTALL_PARAMS, PSP_DRVINSTALL_PARAMS structure pointer [Device and Driver Installation], SP_DRVINSTALL_PARAMS, SP_DRVINSTALL_PARAMS structure [Device and Driver Installation], devinst.sp_drvinstall_params, di-struct_32ef55e7-dc77-4350-b220-6cd566cf7c38.xml, setupapi/PSP_DRVINSTALL_PARAMS, setupapi/SP_DRVINSTALL_PARAMS"
+ms.keywords: '*PSP_DRVINSTALL_PARAMS, PSP_DRVINSTALL_PARAMS, PSP_DRVINSTALL_PARAMS structure pointer [Device and Driver Installation], SP_DRVINSTALL_PARAMS, SP_DRVINSTALL_PARAMS structure [Device and Driver Installation], devinst.sp_drvinstall_params, di-struct_32ef55e7-dc77-4350-b220-6cd566cf7c38.xml, setupapi/PSP_DRVINSTALL_PARAMS, setupapi/SP_DRVINSTALL_PARAMS'
 ms.topic: struct
-f1_keywords: 
- - "setupapi/SP_DRVINSTALL_PARAMS"
+f1_keywords:
+- setupapi/SP_DRVINSTALL_PARAMS
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - setupapi.h
+- setupapi.h
 api_name:
- - SP_DRVINSTALL_PARAMS
+- SP_DRVINSTALL_PARAMS
 targetos: Windows
 req.typenames: SP_DRVINSTALL_PARAMS, *PSP_DRVINSTALL_PARAMS
 req.redist: 

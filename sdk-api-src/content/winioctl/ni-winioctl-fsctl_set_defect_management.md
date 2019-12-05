@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.FSCTL_SET_DEFECT_MANAGEMENT
 title: FSCTL_SET_DEFECT_MANAGEMENT
-
 description: Sets the software defect management state for the specified file. Used for UDF file systems.
 old-location: fs\fsctl_set_defect_management.htm
 tech.root: FileIO
 ms.assetid: 6febbce3-7e70-43c1-a75e-84addc218857
-
 ms.date: 12/05/2018
 ms.keywords: FSCTL_SET_DEFECT_MANAGEMENT, FSCTL_SET_DEFECT_MANAGEMENT control, FSCTL_SET_DEFECT_MANAGEMENT control code [Files], fs.fsctl_set_defect_management, winioctl/FSCTL_SET_DEFECT_MANAGEMENT
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_SET_DEFECT_MANAGEMENT
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -1,17 +1,15 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet3.GetFontSourceNameLength
 title: IDWriteFontSet3::GetFontSourceNameLength
-
 description: Retrieves the length of the font source name for the specified font.
 tech.root: DirectWrite
-
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet3 interface [Direct Write],GetFontSourceNameLength method, IDWriteFontSet3.GetFontSourceNameLength, IDWriteFontSet3::GetFontSourceNameLength, GetFontSourceNameLength, GetFontSourceNameLength method [Direct Write], GetFontSourceNameLength method [Direct Write],IDWriteFontSet3 interface, directwrite.idwritefontset3_getfontsourcenamelength, dwrite_3/IDWriteFontSet3::GetFontSourceNameLength
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontSet3.GetFontSourceNameLength"
+f1_keywords:
+- dwrite_3/IDWriteFontSet3.GetFontSourceNameLength
 dev_langs:
- - c++
+- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,15 +29,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFontSet3::GetFontSourceNameLength
+- IDWriteFontSet3::GetFontSourceNameLength
 targetos: Windows
 req.typenames: 
 req.redist: 

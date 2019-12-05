@@ -1,19 +1,17 @@
 ---
 UID: NF:audioenginebaseapo.IAudioProcessingObjectRT.CalcOutputFrames
 title: IAudioProcessingObjectRT::CalcOutputFrames (audioenginebaseapo.h)
-
 description: The CalcOutputFrames method returns the number of output frames that an APO requires for a given number of input frames.
 old-location: audio\iaudioprocessingobjectrt_calcoutputframes.htm
 tech.root: audio
 ms.assetid: af558f8c-a38e-44d0-ad50-5e650f86cf2e
-
 ms.date: 12/05/2018
 ms.keywords: CalcOutputFrames, CalcOutputFrames method [Audio Devices], CalcOutputFrames method [Audio Devices],IAudioProcessingObjectRT interface, IAudioProcessingObjectRT interface [Audio Devices],CalcOutputFrames method, IAudioProcessingObjectRT.CalcOutputFrames, IAudioProcessingObjectRT::CalcOutputFrames, audio.iaudioprocessingobjectrt_calcoutputframes, audio_syseffects_r_1352a553-5788-46cb-be25-1d3d8e6ab963.xml, audioenginebaseapo/IAudioProcessingObjectRT::CalcOutputFrames
 ms.topic: method
-f1_keywords: 
- - "audioenginebaseapo/IAudioProcessingObjectRT.CalcOutputFrames"
+f1_keywords:
+- audioenginebaseapo/IAudioProcessingObjectRT.CalcOutputFrames
 dev_langs:
- - c++
+- c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Universal
@@ -32,15 +30,15 @@ req.lib: Audioenginebaseapo.idl
 req.dll: 
 req.irql: All levels
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioenginebaseapo.idl
- - Audioenginebaseapo.idl.dll
+- Audioenginebaseapo.idl
+- Audioenginebaseapo.idl.dll
 api_name:
- - IAudioProcessingObjectRT.CalcOutputFrames
+- IAudioProcessingObjectRT.CalcOutputFrames
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara2.GetFontAlignment
 title: ITextPara2::GetFontAlignment (tom.h)
-
 description: Gets the paragraph font alignment state.
 old-location: controls\itextpara2_getfontalignment.htm
 tech.root: Controls
 ms.assetid: 1064c033-2ae0-46ec-a670-603edd673e87
-
 ms.date: 12/05/2018
 ms.keywords: GetFontAlignment, GetFontAlignment method [Windows Controls], GetFontAlignment method [Windows Controls],ITextPara2 interface, ITextPara2 interface [Windows Controls],GetFontAlignment method, ITextPara2.GetFontAlignment, ITextPara2::GetFontAlignment, controls.itextpara2_getfontalignment, tom/ITextPara2::GetFontAlignment
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara2.GetFontAlignment"
+f1_keywords:
+- tom/ITextPara2.GetFontAlignment
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara2.GetFontAlignment
+- ITextPara2.GetFontAlignment
 targetos: Windows
 req.typenames: 
 req.redist: 

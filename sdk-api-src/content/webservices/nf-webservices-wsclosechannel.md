@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsCloseChannel
 title: WsCloseChannel function (webservices.h)
-
 description: Closes a specified channel.
 old-location: wsw\wsclosechannel.htm
 tech.root: wsw
 ms.assetid: e4928371-a172-4cc8-968b-12ae2ee2e0c6
-
 ms.date: 12/05/2018
 ms.keywords: WsCloseChannel, WsCloseChannel function [Web Services for Windows], webservices/WsCloseChannel, wsw.wsclosechannel
 ms.topic: function
 f1_keywords:
 - webservices/WsCloseChannel
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

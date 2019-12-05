@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiFormatRecordA
 title: MsiFormatRecordA function (msiquery.h)
-
 description: The MsiFormatRecord function formats record field data and properties using a format string.
 old-location: setup\msiformatrecord.htm
 tech.root: Msi
 ms.assetid: 574f51b1-a5cf-46c8-bfa3-449839872cf3
-
 ms.date: 12/05/2018
 ms.keywords: MsiFormatRecord, MsiFormatRecord function, MsiFormatRecordA, MsiFormatRecordW, _msi_msiformatrecord, msiquery/MsiFormatRecord, msiquery/MsiFormatRecordA, msiquery/MsiFormatRecordW, setup.msiformatrecord
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiFormatRecord"
+f1_keywords:
+- msiquery/MsiFormatRecord
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
- - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+- Msi.dll
+- Ext-MS-Win-MSi-Misc-L1-1-0.dll
 api_name:
- - MsiFormatRecord
- - MsiFormatRecordA
- - MsiFormatRecordW
+- MsiFormatRecord
+- MsiFormatRecordA
+- MsiFormatRecordW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:gdiplusenums.MetafileType
 title: MetafileType (gdiplusenums.h)
-
 description: The MetafileType enumeration specifies types of metafiles. The MetafileHeader::GetType method returns an element of this enumeration.
 old-location: gdiplus\_gdiplus_ENUM_MetafileType.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\metafiletype.htm
-
 ms.date: 12/05/2018
 ms.keywords: MetafileType, MetafileType enumeration [GDI+], MetafileTypeEmf, MetafileTypeEmfPlusDual, MetafileTypeEmfPlusOnly, MetafileTypeInvalid, MetafileTypeWmf, MetafileTypeWmfPlaceable, _gdiplus_ENUM_MetafileType, gdiplus._gdiplus_ENUM_MetafileType, gdiplusenums/MetafileType, gdiplusenums/MetafileTypeEmf, gdiplusenums/MetafileTypeEmfPlusDual, gdiplusenums/MetafileTypeEmfPlusOnly, gdiplusenums/MetafileTypeInvalid, gdiplusenums/MetafileTypeWmf, gdiplusenums/MetafileTypeWmfPlaceable
 ms.topic: enum
-f1_keywords: 
- - "gdiplusenums/MetafileType"
+f1_keywords:
+- gdiplusenums/MetafileType
 dev_langs:
- - c++
+- c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdiplusenums.h
+- Gdiplusenums.h
 api_name:
- - MetafileType
+- MetafileType
 targetos: Windows
 req.typenames: 
 req.redist: 

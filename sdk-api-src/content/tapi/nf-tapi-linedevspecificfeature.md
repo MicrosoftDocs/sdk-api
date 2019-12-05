@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineDevSpecificFeature
 title: lineDevSpecificFeature function (tapi.h)
-
 description: The lineDevSpecificFeature function enables service providers to provide access to features not offered by other TAPI functions.
 old-location: tapi2\linedevspecificfeature.htm
 tech.root: Tapi
 ms.assetid: 8498318f-9615-4242-86e2-c57b50293b83
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linedevspecificfeature, lineDevSpecificFeature, lineDevSpecificFeature function [TAPI 2.2], tapi/lineDevSpecificFeature, tapi2.linedevspecificfeature"
+ms.keywords: _tapi2_linedevspecificfeature, lineDevSpecificFeature, lineDevSpecificFeature function [TAPI 2.2], tapi/lineDevSpecificFeature, tapi2.linedevspecificfeature
 ms.topic: function
-f1_keywords: 
- - "tapi/lineDevSpecificFeature"
+f1_keywords:
+- tapi/lineDevSpecificFeature
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineDevSpecificFeature
+- lineDevSpecificFeature
 targetos: Windows
 req.typenames: 
 req.redist: 

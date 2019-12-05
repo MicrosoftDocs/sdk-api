@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPPlayer.put_enableContextMenu
 title: IWMPPlayer::put_enableContextMenu (wmp.h)
-
 description: The put_enableContextMenu method specifies a value indicating whether to enable the context menu, which appears when the right mouse button is clicked.
 old-location: wmp\iwmpplayer_put_enablecontextmenu.htm
 tech.root: WMP
 ms.assetid: 1fd79fc3-34c6-4d76-a726-bbf64ee983c9
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer interface [Windows Media Player],put_enableContextMenu method, IWMPPlayer.put_enableContextMenu, IWMPPlayer::put_enableContextMenu, IWMPPlayerput_enableContextMenu, put_enableContextMenu, put_enableContextMenu method [Windows Media Player], put_enableContextMenu method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_put_enablecontextmenu, wmp/IWMPPlayer::put_enableContextMenu
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPPlayer.put_enableContextMenu"
+f1_keywords:
+- wmp/IWMPPlayer.put_enableContextMenu
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPPlayer.put_enableContextMenu
+- IWMPPlayer.put_enableContextMenu
 targetos: Windows
 req.typenames: 
 req.redist: 

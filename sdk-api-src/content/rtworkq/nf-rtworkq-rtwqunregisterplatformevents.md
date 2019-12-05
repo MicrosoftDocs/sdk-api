@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.RtwqUnregisterPlatformEvents
 title: RtwqUnregisterPlatformEvents function (rtworkq.h)
-
 description: Unregisters a listener event from the callback platform.
 old-location: base\rtwqunregisterplatformevents.htm
 tech.root: ProcThread
 ms.assetid: C1AB42C4-745B-46D6-9A1C-B5FD2443F48B
-
 ms.date: 12/05/2018
 ms.keywords: RtwqUnregisterPlatformEvents, RtwqUnregisterPlatformEvents function, base.rtwqunregisterplatformevents, rtworkq/RtwqUnregisterPlatformEvents
 ms.topic: function
-f1_keywords: 
- - "rtworkq/RtwqUnregisterPlatformEvents"
+f1_keywords:
+- rtworkq/RtwqUnregisterPlatformEvents
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - RtwqUnregisterPlatformEvents
+- RtwqUnregisterPlatformEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

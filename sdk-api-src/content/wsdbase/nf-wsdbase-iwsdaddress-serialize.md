@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdbase.IWSDAddress.Serialize
 title: IWSDAddress::Serialize (wsdbase.h)
-
 description: Assembles the component parts of the address into a string.
 old-location: ncd\iwsdaddress_serialize.htm
 tech.root: WsdApi
 ms.assetid: 6264a2f6-39db-4c55-a0b3-2705d2093d77
-
 ms.date: 12/05/2018
 ms.keywords: IWSDAddress interface,Serialize method, IWSDAddress.Serialize, IWSDAddress::Serialize, Serialize, Serialize method, Serialize method,IWSDAddress interface, ncd.iwsdaddress_serialize, wsdbase/IWSDAddress::Serialize
 ms.topic: method
-f1_keywords: 
- - "wsdbase/IWSDAddress.Serialize"
+f1_keywords:
+- wsdbase/IWSDAddress.Serialize
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wsdapi.dll
+- wsdapi.dll
 api_name:
- - IWSDAddress.Serialize
+- IWSDAddress.Serialize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMWriterPostViewCallback
 title: IWMWriterPostViewCallback (wmsdkidl.h)
-
 description: The IWMWriterPostViewCallback interface manages the receiving of uncompressed samples from the writer. Postview can be used only for video streams.This interface must be implemented by the application and passed to IWMWriterPostView::SetPostViewCallback.
 old-location: wmformat\iwmwriterpostviewcallback.htm
 tech.root: wmformat
 ms.assetid: 987dd3b4-2245-4640-820c-5a9660ab5e37
-
 ms.date: 12/05/2018
 ms.keywords: IWMWriterPostViewCallback, IWMWriterPostViewCallback interface [windows Media Format], IWMWriterPostViewCallback interface [windows Media Format],described, IWMWriterPostViewCallbackInterface, wmformat.iwmwriterpostviewcallback, wmsdkidl/IWMWriterPostViewCallback
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMWriterPostViewCallback"
+f1_keywords:
+- wmsdkidl/IWMWriterPostViewCallback
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMWriterPostViewCallback
+- IWMWriterPostViewCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

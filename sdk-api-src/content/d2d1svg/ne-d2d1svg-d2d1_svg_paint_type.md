@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1svg.D2D1_SVG_PAINT_TYPE
 title: D2D1_SVG_PAINT_TYPE (d2d1svg.h)
-
 description: Specifies the paint type for an SVG fill or stroke.
 old-location: direct2d\d2d1_svg_paint_type.htm
 tech.root: Direct2D
 ms.assetid: FBCD7EF5-E1DF-4FE0-98A2-40F42798FB93
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_SVG_PAINT_TYPE, D2D1_SVG_PAINT_TYPE enumeration [Direct2D], D2D1_SVG_PAINT_TYPE_COLOR, D2D1_SVG_PAINT_TYPE_CURRENT_COLOR, D2D1_SVG_PAINT_TYPE_FORCE_DWORD, D2D1_SVG_PAINT_TYPE_NONE, D2D1_SVG_PAINT_TYPE_URI, D2D1_SVG_PAINT_TYPE_URI_COLOR, D2D1_SVG_PAINT_TYPE_URI_CURRENT_COLOR, D2D1_SVG_PAINT_TYPE_URI_NONE, d2d1svg/D2D1_SVG_PAINT_TYPE, d2d1svg/D2D1_SVG_PAINT_TYPE_COLOR, d2d1svg/D2D1_SVG_PAINT_TYPE_CURRENT_COLOR, d2d1svg/D2D1_SVG_PAINT_TYPE_FORCE_DWORD, d2d1svg/D2D1_SVG_PAINT_TYPE_NONE, d2d1svg/D2D1_SVG_PAINT_TYPE_URI, d2d1svg/D2D1_SVG_PAINT_TYPE_URI_COLOR, d2d1svg/D2D1_SVG_PAINT_TYPE_URI_CURRENT_COLOR, d2d1svg/D2D1_SVG_PAINT_TYPE_URI_NONE, direct2d.d2d1_svg_paint_type
 ms.topic: enum
-f1_keywords: 
- - "d2d1svg/D2D1_SVG_PAINT_TYPE"
+f1_keywords:
+- d2d1svg/D2D1_SVG_PAINT_TYPE
 dev_langs:
- - c++
+- c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1svg.h
+- d2d1svg.h
 api_name:
- - D2D1_SVG_PAINT_TYPE
+- D2D1_SVG_PAINT_TYPE
 targetos: Windows
 req.typenames: D2D1_SVG_PAINT_TYPE
 req.redist: 

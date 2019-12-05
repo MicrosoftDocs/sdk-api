@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.MultiplyTransform
 title: Graphics::MultiplyTransform (gdiplusgraphics.h)
-
 description: The Graphics::MultiplyTransform method updates this Graphics object's world transformation matrix with the product of itself and another matrix.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_MultiplyTransform_matrix_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\multiplytransform.htm
-
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],MultiplyTransform method, Graphics.MultiplyTransform, Graphics::MultiplyTransform, MultiplyTransform, MultiplyTransform method [GDI+], MultiplyTransform method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_MultiplyTransform_matrix_order_, gdiplus._gdiplus_CLASS_Graphics_MultiplyTransform_matrix_order_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.MultiplyTransform"
+f1_keywords:
+- gdiplusgraphics/Graphics.MultiplyTransform
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.MultiplyTransform
+- Graphics.MultiplyTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

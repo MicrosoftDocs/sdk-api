@@ -1,19 +1,17 @@
 ---
 UID: NF:vdshwprv.IVdsAsync.Cancel
 title: IVdsAsync::Cancel (vdshwprv.h)
-
 description: Cancels the asynchronous operation.
 old-location: base\ivdsasync_cancel.htm
 tech.root: VDS
 ms.assetid: 40940cb8-46b7-4483-9952-ab053c49dad7
-
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [VDS], Cancel method [VDS],IVdsAsync interface, IVdsAsync interface [VDS],Cancel method, IVdsAsync.Cancel, IVdsAsync::Cancel, base.ivdsasync_cancel, vds/IVdsAsync::Cancel, vdshwprv/IVdsAsync::Cancel
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsAsync.Cancel"
+f1_keywords:
+- vdshwprv/IVdsAsync.Cancel
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsAsync.Cancel
+- IVdsAsync.Cancel
 targetos: Windows
 req.typenames: 
 req.redist: 

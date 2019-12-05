@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_encode_sort_control
 title: ldap_encode_sort_control function (winldap.h)
-
 description: The ldap_encode_sort_control function formats a list of sort keys into a search control. This function is obsolete. Instead, use ldap_create_sort_control.
 old-location: ldap\ldap_encode_sort_control.htm
 tech.root: ldap
 ms.assetid: 5c6c3bd4-739f-413d-adc3-668ac7b56da6
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_encode_sort_control, ldap.ldap__encode__sort__control, ldap.ldap_encode_sort_control, ldap_encode_sort_control, ldap_encode_sort_control function [LDAP], ldap_encode_sort_controlA, ldap_encode_sort_controlW, winldap/ldap_encode_sort_control, winldap/ldap_encode_sort_controlA, winldap/ldap_encode_sort_controlW"
+ms.keywords: _ldap_ldap_encode_sort_control, ldap.ldap__encode__sort__control, ldap.ldap_encode_sort_control, ldap_encode_sort_control, ldap_encode_sort_control function [LDAP], ldap_encode_sort_controlA, ldap_encode_sort_controlW, winldap/ldap_encode_sort_control, winldap/ldap_encode_sort_controlA, winldap/ldap_encode_sort_controlW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_encode_sort_control"
+f1_keywords:
+- winldap/ldap_encode_sort_control
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_encode_sort_control
- - ldap_encode_sort_controlA
- - ldap_encode_sort_controlW
+- ldap_encode_sort_control
+- ldap_encode_sort_controlA
+- ldap_encode_sort_controlW
 targetos: Windows
 req.typenames: 
 req.redist: 

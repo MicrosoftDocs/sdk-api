@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IDShowPlugin.get_UserAgent
 title: IDShowPlugin::get_UserAgent (qnetwork.h)
-
 description: The get_UserAgent method retrieves the User-Agent field from the HTTP header.
 old-location: dshow\idshowplugin_get_useragent.htm
 tech.root: DirectShow
 ms.assetid: 0bbd3cd2-75d8-4c48-837d-4cb045cad35b
-
 ms.date: 12/05/2018
 ms.keywords: IDShowPlugin interface [DirectShow],get_UserAgent method, IDShowPlugin.get_UserAgent, IDShowPlugin::get_UserAgent, IDShowPluginget_UserAgent, dshow.idshowplugin_get_useragent, get_UserAgent, get_UserAgent method [DirectShow], get_UserAgent method [DirectShow],IDShowPlugin interface, qnetwork/IDShowPlugin::get_UserAgent
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IDShowPlugin.get_UserAgent"
+f1_keywords:
+- qnetwork/IDShowPlugin.get_UserAgent
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IDShowPlugin.get_UserAgent
+- IDShowPlugin.get_UserAgent
 targetos: Windows
 req.typenames: 
 req.redist: 

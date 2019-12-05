@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMSignatureBlockResource
 title: IXpsOMSignatureBlockResource (xpsobjectmodel.h)
-
 description: Provides an IStream interface to a signature block resource.
 old-location: xps\ixpsomsignatureblockresource.htm
 tech.root: printdocs
 ms.assetid: f5052470-487d-4f47-8d42-70538a4a45a8
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMSignatureBlockResource, IXpsOMSignatureBlockResource interface [XPS Documents and Packaging], IXpsOMSignatureBlockResource interface [XPS Documents and Packaging],described, xps.ixpsomsignatureblockresource, xpsobjectmodel/IXpsOMSignatureBlockResource
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMSignatureBlockResource"
+f1_keywords:
+- xpsobjectmodel/IXpsOMSignatureBlockResource
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMSignatureBlockResource
+- IXpsOMSignatureBlockResource
 targetos: Windows
 req.typenames: 
 req.redist: 

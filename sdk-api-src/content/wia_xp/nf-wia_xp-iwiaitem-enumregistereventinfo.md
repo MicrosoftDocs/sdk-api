@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IWiaItem.EnumRegisterEventInfo
 title: IWiaItem::EnumRegisterEventInfo (wia_xp.h)
-
 description: The IWiaItem::EnumRegisterEventInfo method creates an enumerator used to obtain information about events for which an application is registered.
 old-location: wia\_wia_IWiaItem_EnumRegisterEventInfo.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\enumregistereventinfo.htm
-
 ms.date: 12/05/2018
 ms.keywords: EnumRegisterEventInfo, EnumRegisterEventInfo method [WIA], EnumRegisterEventInfo method [WIA],IWiaItem interface, IWiaItem interface [WIA],EnumRegisterEventInfo method, IWiaItem.EnumRegisterEventInfo, IWiaItem::EnumRegisterEventInfo, _wia_IWiaItem_EnumRegisterEventInfo, wia._wia_IWiaItem_EnumRegisterEventInfo, wia_xp/IWiaItem::EnumRegisterEventInfo
 ms.topic: method
 f1_keywords:
 - wia_xp/IWiaItem.EnumRegisterEventInfo
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

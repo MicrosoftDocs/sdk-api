@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITBasicAudioTerminal.put_Balance
 title: ITBasicAudioTerminal::put_Balance (tapi3if.h)
-
 description: The put_Balance method sets the balance. This method is not implemented for terminals shipped with TAPI 3.0 and higher.
 old-location: tapi3\itbasicaudioterminal_put_balance.htm
 tech.root: Tapi
 ms.assetid: 8337376e-5de6-4d6d-9f95-49b83d438168
-
 ms.date: 12/05/2018
 ms.keywords: ITBasicAudioTerminal interface [TAPI 2.2],put_Balance method, ITBasicAudioTerminal.put_Balance, ITBasicAudioTerminal::put_Balance, _tapi3_itbasicaudioterminal_put_balance, put_Balance, put_Balance method [TAPI 2.2], put_Balance method [TAPI 2.2],ITBasicAudioTerminal interface, tapi3.itbasicaudioterminal_put_balance, tapi3if/ITBasicAudioTerminal::put_Balance
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITBasicAudioTerminal.put_Balance"
+f1_keywords:
+- tapi3if/ITBasicAudioTerminal.put_Balance
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITBasicAudioTerminal.put_Balance
+- ITBasicAudioTerminal.put_Balance
 targetos: Windows
 req.typenames: 
 req.redist: 

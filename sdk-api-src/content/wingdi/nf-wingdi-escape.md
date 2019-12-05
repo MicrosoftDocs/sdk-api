@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.Escape
 title: Escape function (wingdi.h)
-
 description: Enables an application to access the system-defined device capabilities that are not available through GDI.
 old-location: gdi\escape.htm
 tech.root: printdocs
 ms.assetid: ba21b680-78a8-45a2-94e1-01b377b74787
-
 ms.date: 12/05/2018
 ms.keywords: Escape, Escape function [Windows GDI], _win32_Escape_v3, gdi.escape, wingdi/Escape
 ms.topic: function
-f1_keywords: 
- - "wingdi/Escape"
+f1_keywords:
+- wingdi/Escape
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 api_name:
- - Escape
+- Escape
 targetos: Windows
 req.typenames: 
 req.redist: 

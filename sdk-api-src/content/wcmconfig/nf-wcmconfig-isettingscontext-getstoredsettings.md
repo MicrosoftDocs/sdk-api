@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsContext.GetStoredSettings
 title: ISettingsContext::GetStoredSettings (wcmconfig.h)
-
 description: Gets the stored setting changes from the context for the given namespace.
 old-location: smi\isettingscontext_getstoredsettings.htm
 tech.root: SMI
 ms.assetid: 29ec0b36-31f2-4078-b1a4-872a8ed340e3
-
 ms.date: 12/05/2018
 ms.keywords: GetStoredSettings, GetStoredSettings method [SMI], GetStoredSettings method [SMI],ISettingsContext interface, ISettingsContext interface [SMI],GetStoredSettings method, ISettingsContext.GetStoredSettings, ISettingsContext::GetStoredSettings, smi.isettingscontext_getstoredsettings, wcmconfig/ISettingsContext::GetStoredSettings
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsContext.GetStoredSettings"
+f1_keywords:
+- wcmconfig/ISettingsContext.GetStoredSettings
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsContext.GetStoredSettings
+- ISettingsContext.GetStoredSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

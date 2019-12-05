@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternates.get_Strokes
 title: IInkRecognitionAlternates::get_Strokes (msinkaut.h)
-
 description: Gets the collection of strokes that are contained in an object or used to create an object.
 old-location: tablet\iinkrecognitionalternates_strokes.htm
 tech.root: tablet
 ms.assetid: ce483ea1-4b66-4a87-89a7-f71feae8ccc4
-
 ms.date: 12/05/2018
 ms.keywords: IInkRecognitionAlternates interface [Tablet PC],Strokes property, IInkRecognitionAlternates.Strokes, IInkRecognitionAlternates.get_Strokes, IInkRecognitionAlternates::Strokes, IInkRecognitionAlternates::get_Strokes, Strokes property [Tablet PC], Strokes property [Tablet PC],IInkRecognitionAlternates interface, get_Strokes, msinkaut/IInkRecognitionAlternates::Strokes, msinkaut/IInkRecognitionAlternates::get_Strokes, tablet.iinkrecognitionalternates_strokes
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRecognitionAlternates.Strokes"
+f1_keywords:
+- msinkaut/IInkRecognitionAlternates.Strokes
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognitionAlternates.Strokes
- - IInkRecognitionAlternates.get_Strokes
- - IInkRecognitionAlternates.get_Strokes
+- IInkRecognitionAlternates.Strokes
+- IInkRecognitionAlternates.get_Strokes
+- IInkRecognitionAlternates.get_Strokes
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSPropertyBag_WriteULONGLONG
 title: PSPropertyBag_WriteULONGLONG function (propsys.h)
-
 description: Sets the ULONGLONG value of a property in a property bag.
 old-location: properties\PSPropertyBag_WriteULONGLONG.htm
 tech.root: properties
 ms.assetid: 37854C80-00B9-465c-88D9-619695D418CD
-
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_WriteULONGLONG, PSPropertyBag_WriteULONGLONG function [Windows Properties], properties.PSPropertyBag_WriteULONGLONG, propsys/PSPropertyBag_WriteULONGLONG, shell.PSPropertyBag_WriteULONGLONG, shell_PSPropertyBag_WriteULONGLONG
 ms.topic: function
-f1_keywords: 
- - "propsys/PSPropertyBag_WriteULONGLONG"
+f1_keywords:
+- propsys/PSPropertyBag_WriteULONGLONG
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSPropertyBag_WriteULONGLONG
+- PSPropertyBag_WriteULONGLONG
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:infotech.IITResultSet.GetRowCount
 title: IITResultSet::GetRowCount (infotech.h)
-
 description: Gets the number of rows in a result set.
 old-location: htmlhelp\iitresultset_getrowcount.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitresultsetgetrowcount.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetRowCount, GetRowCount method [HTML Help Workshop], GetRowCount method [HTML Help Workshop],IITResultSet interface, IITResultSet interface [HTML Help Workshop],GetRowCount method, IITResultSet.GetRowCount, IITResultSet::GetRowCount, htmlhelp.iitresultset_getrowcount, infotech/IITResultSet::GetRowCount, refIITResultSetGetRowCount
 ms.topic: method
-f1_keywords: 
- - "infotech/IITResultSet.GetRowCount"
+f1_keywords:
+- infotech/IITResultSet.GetRowCount
 dev_langs:
- - c++
+- c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Infotech.h
+- Infotech.h
 api_name:
- - IITResultSet.GetRowCount
+- IITResultSet.GetRowCount
 targetos: Windows
 req.typenames: 
 req.redist: 

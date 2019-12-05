@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.DrawThemeParentBackground
 title: DrawThemeParentBackground function (uxtheme.h)
-
 description: Draws the part of a parent control that is covered by a partially-transparent or alpha-blended child control.
 old-location: controls\DrawThemeParentBackground.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemeparentbackground.htm
-
 ms.date: 12/05/2018
 ms.keywords: DrawThemeParentBackground, DrawThemeParentBackground function [Windows Controls], controls.DrawThemeParentBackground, controls.inet_DrawThemeParentBackground, inet_DrawThemeParentBackground, inet_DrawThemeParentBackground_cpp, uxtheme/DrawThemeParentBackground
 ms.topic: function
-f1_keywords: 
- - "uxtheme/DrawThemeParentBackground"
+f1_keywords:
+- uxtheme/DrawThemeParentBackground
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
- - ext-ms-win-uxtheme-themes-l1-1-1.dll
- - xamlpalwp.dll
+- UxTheme.dll
+- ext-ms-win-uxtheme-themes-l1-1-1.dll
+- xamlpalwp.dll
 api_name:
- - DrawThemeParentBackground
+- DrawThemeParentBackground
 targetos: Windows
 req.typenames: 
 req.redist: 

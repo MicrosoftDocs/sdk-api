@@ -1,19 +1,17 @@
 ---
 UID: NF:chptrarr.CHPtrArray.CHPtrArray
 title: CHPtrArray::CHPtrArray (chptrarr.h)
-
 description: The CHPtrArray method constructor initializes a new instance of CHPtrArray.
 old-location: wmi\chptrarray_chptrarray.htm
 tech.root: WmiSdk
 ms.assetid: 9435d0e6-bb26-40a9-a13f-a744588cc0b0
-
 ms.date: 12/05/2018
-ms.keywords: "??0CHPtrArray@@QAE@XZ, CHPtrArray, CHPtrArray interface [Windows Management Instrumentation],CHPtrArray method, CHPtrArray method [Windows Management Instrumentation], CHPtrArray method [Windows Management Instrumentation],CHPtrArray interface, CHPtrArray.CHPtrArray, CHPtrArray::CHPtrArray, chptrarr/CHPtrArray::CHPtrArray, wmi.chptrarray_chptrarray"
+ms.keywords: ??0CHPtrArray@@QAE@XZ, CHPtrArray, CHPtrArray interface [Windows Management Instrumentation],CHPtrArray method, CHPtrArray method [Windows Management Instrumentation], CHPtrArray method [Windows Management Instrumentation],CHPtrArray interface, CHPtrArray.CHPtrArray, CHPtrArray::CHPtrArray, chptrarr/CHPtrArray::CHPtrArray, wmi.chptrarray_chptrarray
 ms.topic: method
-f1_keywords: 
- - "chptrarr/CHPtrArray.CHPtrArray"
+f1_keywords:
+- chptrarr/CHPtrArray.CHPtrArray
 dev_langs:
- - c++
+- c++
 req.header: chptrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHPtrArray.CHPtrArray
- - ??0CHPtrArray@@QAE@XZ
+- CHPtrArray.CHPtrArray
+- ??0CHPtrArray@@QAE@XZ
 targetos: Windows
 req.typenames: 
 req.redist: 

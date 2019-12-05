@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidRect.get_Height
 title: IMSVidRect::get_Height (segment.h)
-
 description: The get_Height method retrieves the height of the rectangle.
 old-location: mstv\imsvidrect_get_height.htm
 tech.root: mstv
 ms.assetid: 83925bca-8cb2-4f79-9aca-1bee0fb4a96a
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],get_Height method, IMSVidRect.get_Height, IMSVidRect::get_Height, IMSVidRectget_Height, get_Height, get_Height method [Microsoft TV Technologies], get_Height method [Microsoft TV Technologies],IMSVidRect interface, mstv.imsvidrect_get_height, segment/IMSVidRect::get_Height
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidRect.get_Height"
+f1_keywords:
+- segment/IMSVidRect.get_Height
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidRect.get_Height
+- IMSVidRect.get_Height
 targetos: Windows
 req.typenames: 
 req.redist: 

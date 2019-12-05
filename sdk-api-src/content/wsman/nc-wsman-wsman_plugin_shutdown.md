@@ -1,19 +1,17 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_SHUTDOWN
 title: WSMAN_PLUGIN_SHUTDOWN (wsman.h)
-
 description: Defines the shutdown callback for the plug-in.
 old-location: winrm\wsman_plugin_shutdown.htm
 tech.root: winrm
 ms.assetid: a9f72416-f6a7-4ba0-94d0-48f85393acab
-
 ms.date: 12/05/2018
 ms.keywords: WSMAN_PLUGIN_SHUTDOWN, WSMAN_PLUGIN_SHUTDOWN callback, WSMAN_PLUGIN_SHUTDOWN callback function [Windows Remote Management], WSMAN_PLUGIN_SHUTDOWN_IISHOST, WSMAN_PLUGIN_SHUTDOWN_SERVICE, WSMAN_PLUGIN_SHUTDOWN_SYSTEM, WSManPluginShutdown, winrm.wsman_plugin_shutdown, wsman/WSMAN_PLUGIN_SHUTDOWN
 ms.topic: callback
-f1_keywords: 
- - "wsman/WSMAN_PLUGIN_SHUTDOWN"
+f1_keywords:
+- wsman/WSMAN_PLUGIN_SHUTDOWN
 dev_langs:
- - c++
+- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wsman.h
+- Wsman.h
 api_name:
- - WSMAN_PLUGIN_SHUTDOWN
+- WSMAN_PLUGIN_SHUTDOWN
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2, , and Windows Vista with SP2

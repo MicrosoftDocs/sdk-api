@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_2.IDWriteTextFormat1.GetLastLineWrapping
 title: IDWriteTextFormat1::GetLastLineWrapping (dwrite_2.h)
-
 description: Gets the wrapping mode of the last line.
 old-location: directwrite\idwritetextformat1_getlastlinewrapping.htm
 tech.root: DirectWrite
 ms.assetid: 1a176dca-7fe5-baa5-3052-3fa71bc77d24
-
 ms.date: 12/05/2018
 ms.keywords: GetLastLineWrapping, GetLastLineWrapping method [Direct Write], GetLastLineWrapping method [Direct Write],IDWriteTextFormat1 interface, IDWriteTextFormat1 interface [Direct Write],GetLastLineWrapping method, IDWriteTextFormat1.GetLastLineWrapping, IDWriteTextFormat1::GetLastLineWrapping, directwrite.idwritetextformat1_getlastlinewrapping, dwrite_2/IDWriteTextFormat1::GetLastLineWrapping
 ms.topic: method
-f1_keywords: 
- - "dwrite_2/IDWriteTextFormat1.GetLastLineWrapping"
+f1_keywords:
+- dwrite_2/IDWriteTextFormat1.GetLastLineWrapping
 dev_langs:
- - c++
+- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextFormat1.GetLastLineWrapping
+- IDWriteTextFormat1.GetLastLineWrapping
 targetos: Windows
 req.typenames: 
 req.redist: 

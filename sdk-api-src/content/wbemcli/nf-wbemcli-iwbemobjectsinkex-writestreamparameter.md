@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemObjectSinkEx.WriteStreamParameter
 title: IWbemObjectSinkEx::WriteStreamParameter (wbemcli.h)
-
 description: TBD
 old-location: wmi\iwbemobjectsinkex_writestreamparameter.htm
 tech.root: WmiSdk
 ms.assetid: 609ed388-3d6a-49ba-91ae-78a34bddd100
-
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectSinkEx interface [Windows Management Instrumentation],WriteStreamParameter method, IWbemObjectSinkEx.WriteStreamParameter, IWbemObjectSinkEx::WriteStreamParameter, WriteStreamParameter, WriteStreamParameter method [Windows Management Instrumentation], WriteStreamParameter method [Windows Management Instrumentation],IWbemObjectSinkEx interface, wbemcli/IWbemObjectSinkEx::WriteStreamParameter, wmi.iwbemobjectsinkex_writestreamparameter
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemObjectSinkEx.WriteStreamParameter"
+f1_keywords:
+- wbemcli/IWbemObjectSinkEx.WriteStreamParameter
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fastprox.dll
+- Fastprox.dll
 api_name:
- - IWbemObjectSinkEx.WriteStreamParameter
+- IWbemObjectSinkEx.WriteStreamParameter
 targetos: Windows
 req.typenames: 
 req.redist: 

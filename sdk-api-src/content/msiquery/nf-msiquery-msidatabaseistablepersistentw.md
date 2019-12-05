@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiDatabaseIsTablePersistentW
 title: MsiDatabaseIsTablePersistentW function (msiquery.h)
-
 description: The MsiDatabaseIsTablePersistent function returns an enumeration that describes the state of a specific table.
 old-location: setup\msidatabaseistablepersistent.htm
 tech.root: Msi
 ms.assetid: 78c9d95a-8e36-40a4-afbb-4d0bf5f6f350
-
 ms.date: 12/05/2018
 ms.keywords: MsiDatabaseIsTablePersistent, MsiDatabaseIsTablePersistent function, MsiDatabaseIsTablePersistentA, MsiDatabaseIsTablePersistentW, _msi_msidatabaseistablepersistent, msiquery/MsiDatabaseIsTablePersistent, msiquery/MsiDatabaseIsTablePersistentA, msiquery/MsiDatabaseIsTablePersistentW, setup.msidatabaseistablepersistent
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiDatabaseIsTablePersistent"
+f1_keywords:
+- msiquery/MsiDatabaseIsTablePersistent
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
- - Ext-MS-Win-MSI-Misc-l1-1-0.dll
+- Msi.dll
+- Ext-MS-Win-MSI-Misc-l1-1-0.dll
 api_name:
- - MsiDatabaseIsTablePersistent
- - MsiDatabaseIsTablePersistentA
- - MsiDatabaseIsTablePersistentW
+- MsiDatabaseIsTablePersistent
+- MsiDatabaseIsTablePersistentA
+- MsiDatabaseIsTablePersistentW
 targetos: Windows
 req.typenames: 
 req.redist: 

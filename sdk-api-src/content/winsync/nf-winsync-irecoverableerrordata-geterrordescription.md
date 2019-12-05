@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IRecoverableErrorData.GetErrorDescription
 title: IRecoverableErrorData::GetErrorDescription (winsync.h)
-
 description: Gets the description of the error.
 old-location: winsync\irecoverableerrordata_geterrordescription.htm
 tech.root: winsync
 ms.assetid: 9bd268aa-683d-4a77-966c-7cba0348d034
-
 ms.date: 12/05/2018
 ms.keywords: GetErrorDescription, GetErrorDescription method [Windows Sync], GetErrorDescription method [Windows Sync],IRecoverableErrorData interface, IRecoverableErrorData interface [Windows Sync],GetErrorDescription method, IRecoverableErrorData.GetErrorDescription, IRecoverableErrorData::GetErrorDescription, winsync.irecoverableerrordata_geterrordescription, winsync/IRecoverableErrorData::GetErrorDescription
 ms.topic: method
-f1_keywords: 
- - "winsync/IRecoverableErrorData.GetErrorDescription"
+f1_keywords:
+- winsync/IRecoverableErrorData.GetErrorDescription
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IRecoverableErrorData.GetErrorDescription
+- IRecoverableErrorData.GetErrorDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

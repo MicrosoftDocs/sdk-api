@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.GetURLIndexingState
 title: ISearchCatalogManager::GetURLIndexingState (searchapi.h)
-
 description: Not implemented.
 old-location: search\_search_ISearchCatalogManager_GetURLIndexingState.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\geturlindexingstate.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetURLIndexingState, GetURLIndexingState method [search], GetURLIndexingState method [search],ISearchCatalogManager interface, ISearchCatalogManager interface [search],GetURLIndexingState method, ISearchCatalogManager.GetURLIndexingState, ISearchCatalogManager::GetURLIndexingState, _search_ISearchCatalogManager_GetURLIndexingState, search._search_ISearchCatalogManager_GetURLIndexingState, searchapi/ISearchCatalogManager::GetURLIndexingState
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchCatalogManager.GetURLIndexingState"
+f1_keywords:
+- searchapi/ISearchCatalogManager.GetURLIndexingState
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - searchapi.h
+- searchapi.h
 api_name:
- - ISearchCatalogManager.GetURLIndexingState
+- ISearchCatalogManager.GetURLIndexingState
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

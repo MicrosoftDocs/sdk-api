@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IDvbLinkageDescriptor
 title: IDvbLinkageDescriptor (dvbsiparser.h)
-
 description: Defines methods that get data from a Digital Video Broadcast (DVB) linkage descriptor.
 old-location: mstv\idvblinkagedescriptor.htm
 tech.root: mstv
 ms.assetid: 4e419b50-b9c2-48e4-a484-f0fcf5c9cb7f
-
 ms.date: 12/05/2018
 ms.keywords: IDvbLinkageDescriptor, IDvbLinkageDescriptor interface [Microsoft TV Technologies], IDvbLinkageDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbLinkageDescriptor, mstv.idvblinkagedescriptor
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IDvbLinkageDescriptor"
+f1_keywords:
+- dvbsiparser/IDvbLinkageDescriptor
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbLinkageDescriptor
+- IDvbLinkageDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

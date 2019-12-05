@@ -1,19 +1,17 @@
 ---
 UID: NF:strsafe.StringCbCatNExA
 title: StringCbCatNExA function (strsafe.h)
-
 description: Concatenates the specified number of bytes from one string to another string.
 old-location: menurc\stringcbcatnex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcatnex.htm
-
 ms.date: 12/05/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbCatNEx, StringCbCatNEx function [Menus and Other Resources], StringCbCatNExA, StringCbCatNExW, _shell_StringCbCatNEx, _shell_stringcbcatnex_cpp, menurc.stringcbcatnex, strsafe/StringCbCatNEx, strsafe/StringCbCatNExA, strsafe/StringCbCatNExW, winui._shell_stringcbcatnex
 ms.topic: function
-f1_keywords: 
- - "strsafe/StringCbCatNEx"
+f1_keywords:
+- strsafe/StringCbCatNEx
 dev_langs:
- - c++
+- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Strsafe.h
+- Strsafe.h
 api_name:
- - StringCbCatNEx
- - StringCbCatNExA
- - StringCbCatNExW
+- StringCbCatNEx
+- StringCbCatNExA
+- StringCbCatNExW
 targetos: Windows
 req.typenames: 
 req.redist: 

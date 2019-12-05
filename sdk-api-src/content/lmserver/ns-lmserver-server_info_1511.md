@@ -1,19 +1,17 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1511
 title: SERVER_INFO_1511 (lmserver.h)
-
 description: The SERVER_INFO_1511 structure specifies the maximum number of tree connections that users can make with a single virtual circuit.
 old-location: netmgmt\server_info_1511_str.htm
 tech.root: NetMgmt
 ms.assetid: 07865b85-5d08-46ab-9cce-6eba2e14d1b6
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSERVER_INFO_1511, *PSERVER_INFO_1511, LPSERVER_INFO_1511, LPSERVER_INFO_1511 structure pointer [Network Management], PSERVER_INFO_1511, PSERVER_INFO_1511 structure pointer [Network Management], SERVER_INFO_1511, SERVER_INFO_1511 structure [Network Management], _win32_server_info_1511_str, lmserver/LPSERVER_INFO_1511, lmserver/PSERVER_INFO_1511, lmserver/SERVER_INFO_1511, netmgmt.server_info_1511_str"
+ms.keywords: '*LPSERVER_INFO_1511, *PSERVER_INFO_1511, LPSERVER_INFO_1511, LPSERVER_INFO_1511 structure pointer [Network Management], PSERVER_INFO_1511, PSERVER_INFO_1511 structure pointer [Network Management], SERVER_INFO_1511, SERVER_INFO_1511 structure [Network Management], _win32_server_info_1511_str, lmserver/LPSERVER_INFO_1511, lmserver/PSERVER_INFO_1511, lmserver/SERVER_INFO_1511, netmgmt.server_info_1511_str'
 ms.topic: struct
-f1_keywords: 
- - "lmserver/SERVER_INFO_1511"
+f1_keywords:
+- lmserver/SERVER_INFO_1511
 dev_langs:
- - c++
+- c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmserver.h
+- Lmserver.h
 api_name:
- - SERVER_INFO_1511
+- SERVER_INFO_1511
 targetos: Windows
 req.typenames: SERVER_INFO_1511, *PSERVER_INFO_1511, *LPSERVER_INFO_1511
 req.redist: 

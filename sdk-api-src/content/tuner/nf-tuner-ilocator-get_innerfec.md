@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ILocator.get_InnerFEC
 title: ILocator::get_InnerFEC (tuner.h)
-
 description: The get_InnerFEC method gets the type of inner FEC that is used.
 old-location: mstv\ilocator_get_innerfec.htm
 tech.root: mstv
 ms.assetid: aaa81a62-7e19-4d71-8378-77d6318a4e84
-
 ms.date: 12/05/2018
 ms.keywords: IDigitalLocatorget_InnerFEC, ILocator interface [Microsoft TV Technologies],get_InnerFEC method, ILocator.get_InnerFEC, ILocator::get_InnerFEC, get_InnerFEC, get_InnerFEC method [Microsoft TV Technologies], get_InnerFEC method [Microsoft TV Technologies],ILocator interface, mstv.ilocator_get_innerfec, tuner/ILocator::get_InnerFEC
 ms.topic: method
-f1_keywords: 
- - "tuner/ILocator.get_InnerFEC"
+f1_keywords:
+- tuner/ILocator.get_InnerFEC
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ILocator.get_InnerFEC
+- ILocator.get_InnerFEC
 targetos: Windows
 req.typenames: 
 req.redist: 

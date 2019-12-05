@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.SetClipper
 title: IDirectDrawSurface7::SetClipper (ddraw.h)
-
 description: Attaches a clipper object to, or deletes one from, this surface.
 old-location: directdraw\idirectdrawsurface7_setclipper.htm
 tech.root: directdraw
 ms.assetid: 18bc8018-b00c-40ef-a54a-e2eecdb835a9
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],SetClipper method, IDirectDrawSurface7.SetClipper, IDirectDrawSurface7::SetClipper, SetClipper, SetClipper method [DirectDraw], SetClipper method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::SetClipper, directdraw.idirectdrawsurface7_setclipper
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDrawSurface7.SetClipper"
+f1_keywords:
+- ddraw/IDirectDrawSurface7.SetClipper
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawSurface7.SetClipper
+- IDirectDrawSurface7.SetClipper
 targetos: Windows
 req.typenames: 
 req.redist: 

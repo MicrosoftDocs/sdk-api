@@ -1,19 +1,17 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPITransportStream
 title: IRDPSRAPITransportStream (rdpencomapi.h)
-
 description: Exposes methods that perform operations with streams.
 old-location: rdp\irdpsrapitransportstream.htm
 tech.root: rdp
 ms.assetid: 18ac00d5-f574-463f-a34a-40c2dc16d4d8
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITransportStream, IRDPSRAPITransportStream interface [RDP], IRDPSRAPITransportStream interface [RDP],described, rdp.irdpsrapitransportstream, rdpencomapi/IRDPSRAPITransportStream
 ms.topic: interface
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPITransportStream"
+f1_keywords:
+- rdpencomapi/IRDPSRAPITransportStream
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPITransportStream
+- IRDPSRAPITransportStream
 targetos: Windows
 req.typenames: 
 req.redist: 

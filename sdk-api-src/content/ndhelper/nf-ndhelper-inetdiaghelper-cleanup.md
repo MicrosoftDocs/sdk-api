@@ -1,19 +1,17 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.Cleanup
 title: INetDiagHelper::Cleanup (ndhelper.h)
-
 description: Allows the Helper Class Extension to clean up resources following a diagnosis or repair operation.
 old-location: ndf\inetdiaghelpe_cleanup.htm
 tech.root: NDF
 ms.assetid: d50d3415-8fa7-404c-8030-8ea7a59820e4
-
 ms.date: 12/05/2018
 ms.keywords: Cleanup, Cleanup method [NDF], Cleanup method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],Cleanup method, INetDiagHelper.Cleanup, INetDiagHelper::Cleanup, ndf.inetdiaghelpe_cleanup, ndhelper/INetDiagHelper::Cleanup
 ms.topic: method
-f1_keywords: 
- - "ndhelper/INetDiagHelper.Cleanup"
+f1_keywords:
+- ndhelper/INetDiagHelper.Cleanup
 dev_langs:
- - c++
+- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ndhelper.h
+- ndhelper.h
 api_name:
- - INetDiagHelper.Cleanup
+- INetDiagHelper.Cleanup
 targetos: Windows
 req.typenames: 
 req.redist: 

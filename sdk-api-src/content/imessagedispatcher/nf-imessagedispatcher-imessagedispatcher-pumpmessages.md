@@ -1,19 +1,17 @@
 ---
 UID: NF:imessagedispatcher.IMessageDispatcher.PumpMessages
 title: IMessageDispatcher::PumpMessages (imessagedispatcher.h)
-
 description: Performs custom dispatching when window messages are available to be dispatched on an ASTA thread.
 old-location: com\imessagedispatcher_pumpmessages.htm
 tech.root: com
 ms.assetid: CC34B3B0-C956-4B37-8DF7-CC90A0160835
-
 ms.date: 12/05/2018
 ms.keywords: IMessageDispatcher interface [COM],PumpMessages method, IMessageDispatcher.PumpMessages, IMessageDispatcher::PumpMessages, PumpMessages, PumpMessages method [COM], PumpMessages method [COM],IMessageDispatcher interface, com.imessagedispatcher_pumpmessages, imessagedispatcher/IMessageDispatcher::PumpMessages
 ms.topic: method
-f1_keywords: 
- - "imessagedispatcher/IMessageDispatcher.PumpMessages"
+f1_keywords:
+- imessagedispatcher/IMessageDispatcher.PumpMessages
 dev_langs:
- - c++
+- c++
 req.header: imessagedispatcher.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imessagedispatcher.h
+- imessagedispatcher.h
 api_name:
- - IMessageDispatcher.PumpMessages
+- IMessageDispatcher.PumpMessages
 targetos: Windows
 req.typenames: 
 req.redist: 

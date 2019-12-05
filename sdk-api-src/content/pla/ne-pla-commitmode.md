@@ -1,19 +1,17 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0007
 title: CommitMode (pla.h)
-
 description: Defines the action to take when committing changes to the data collector set.
 old-location: pla\commitmode.htm
 tech.root: PLA
 ms.assetid: 3c485b4d-ba0b-456a-b942-27829371d7fb
-
 ms.date: 12/05/2018
 ms.keywords: CommitMode, CommitMode enumeration [PLA], base.commitmode, pla.commitmode, pla/CommitMode, pla/plaCreateNew, pla/plaCreateOrModify, pla/plaFlushTrace, pla/plaModify, pla/plaUpdateRunningInstance, pla/plaValidateOnly, plaCreateNew, plaCreateOrModify, plaFlushTrace, plaModify, plaUpdateRunningInstance, plaValidateOnly
 ms.topic: enum
-f1_keywords: 
- - "pla/CommitMode"
+f1_keywords:
+- pla/CommitMode
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Pla.h
+- Pla.h
 api_name:
- - CommitMode
+- CommitMode
 targetos: Windows
 req.typenames: CommitMode
 req.redist: 

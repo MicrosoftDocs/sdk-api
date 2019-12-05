@@ -1,19 +1,17 @@
 ---
 UID: NE:roerrorapi.RO_ERROR_REPORTING_FLAGS
 title: RO_ERROR_REPORTING_FLAGS
-
 description: Specifies the behavior of the RoOriginateError and RoTransformError functions.
 old-location: winrt\ro_error_reporting_flags.htm
 tech.root: WinRT
 ms.assetid: 345E1C4D-4A2F-4E18-9E70-4B8AE25FE8FD
-
 ms.date: 11/15/2018
 ms.keywords: RO_ERROR_REPORTING_FLAGS, RO_ERROR_REPORTING_FLAGS enumeration [Windows Runtime], RO_ERROR_REPORTING_FORCEEXCEPTIONS, RO_ERROR_REPORTING_NONE, RO_ERROR_REPORTING_SUPPRESSEXCEPTIONS, RO_ERROR_REPORTING_SUPPRESSSETERRORINFO, RO_ERROR_REPORTING_USESETERRORINFO, roerrorapi/RO_ERROR_REPORTING_FLAGS, roerrorapi/RO_ERROR_REPORTING_FORCEEXCEPTIONS, roerrorapi/RO_ERROR_REPORTING_NONE, roerrorapi/RO_ERROR_REPORTING_SUPPRESSEXCEPTIONS, roerrorapi/RO_ERROR_REPORTING_SUPPRESSSETERRORINFO, roerrorapi/RO_ERROR_REPORTING_USESETERRORINFO, winrt.ro_error_reporting_flags, winrt.winrterrorreportingflags
 ms.topic: enum
-f1_keywords: 
- - "roerrorapi/RO_ERROR_REPORTING_FLAGS"
+f1_keywords:
+- roerrorapi/RO_ERROR_REPORTING_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - roerrorapi.h
+- roerrorapi.h
 api_name:
- - RO_ERROR_REPORTING_FLAGS
+- RO_ERROR_REPORTING_FLAGS
 targetos: Windows
 req.typenames: RO_ERROR_REPORTING_FLAGS
 req.redist: 

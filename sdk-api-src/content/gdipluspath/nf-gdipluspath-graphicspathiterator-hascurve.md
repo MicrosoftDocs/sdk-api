@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPathIterator.HasCurve
 title: GraphicsPathIterator::HasCurve (gdipluspath.h)
-
 description: The GraphicsPathIterator::HasCurve method determines whether the path has any curves.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_HasCurve_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\hascurve.htm
-
 ms.date: 12/05/2018
 ms.keywords: GraphicsPathIterator class [GDI+],HasCurve method, GraphicsPathIterator.HasCurve, GraphicsPathIterator::HasCurve, HasCurve, HasCurve method [GDI+], HasCurve method [GDI+],GraphicsPathIterator class, _gdiplus_CLASS_GraphicsPathIterator_HasCurve_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_HasCurve_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPathIterator.HasCurve"
+f1_keywords:
+- gdipluspath/GraphicsPathIterator.HasCurve
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPathIterator.HasCurve
+- GraphicsPathIterator.HasCurve
 targetos: Windows
 req.typenames: 
 req.redist: 

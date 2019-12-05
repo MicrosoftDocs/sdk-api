@@ -1,19 +1,17 @@
 ---
 UID: NE:strmif.VMRRenderPrefs
 title: VMRRenderPrefs (strmif.h)
-
 description: The VMRRenderPrefs enumeration type is used with the IVMRFilterConfig::GetRenderingPrefs and IVMRFilterConfig::SetRenderingPrefs methods to get and set basic rendering preferences.
 old-location: dshow\vmrrenderprefs.htm
 tech.root: DirectShow
 ms.assetid: cfe1d4a7-b1ec-4d8e-b6d5-3fe5a530c352
-
 ms.date: 12/05/2018
 ms.keywords: RenderPrefs_AllowOffscreen, RenderPrefs_AllowOverlays, RenderPrefs_DoNotRenderColorKeyAndBorder, RenderPrefs_ForceOffscreen, RenderPrefs_ForceOverlays, RenderPrefs_Mask, RenderPrefs_PreferAGPMemWhenMixing, RenderPrefs_Reserved, RenderPrefs_RestrictToInitialMonitor, VMRRenderPrefs, VMRRenderPrefs enumeration [DirectShow], VMRRenderPrefsEnumeration, dshow.vmrrenderprefs, strmif/RenderPrefs_AllowOffscreen, strmif/RenderPrefs_AllowOverlays, strmif/RenderPrefs_DoNotRenderColorKeyAndBorder, strmif/RenderPrefs_ForceOffscreen, strmif/RenderPrefs_ForceOverlays, strmif/RenderPrefs_Mask, strmif/RenderPrefs_PreferAGPMemWhenMixing, strmif/RenderPrefs_Reserved, strmif/RenderPrefs_RestrictToInitialMonitor, strmif/VMRRenderPrefs
 ms.topic: enum
-f1_keywords: 
- - "strmif/VMRRenderPrefs"
+f1_keywords:
+- strmif/VMRRenderPrefs
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - VMRRenderPrefs
+- VMRRenderPrefs
 targetos: Windows
 req.typenames: VMRRenderPrefs
 req.redist: 

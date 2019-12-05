@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.AVIFileGetStream
 title: AVIFileGetStream function (vfw.h)
-
 description: The AVIFileGetStream function returns the address of a stream interface that is associated with a specified AVI file.
 old-location: multimedia\avifilegetstream.htm
 tech.root: Multimedia
 ms.assetid: b51a823c-6904-4942-883f-bda347541757
-
 ms.date: 12/05/2018
 ms.keywords: AVIFileGetStream, AVIFileGetStream function [Windows Multimedia], _win32_AVIFileGetStream, multimedia.avifilegetstream, vfw/AVIFileGetStream
 ms.topic: function
-f1_keywords: 
- - "vfw/AVIFileGetStream"
+f1_keywords:
+- vfw/AVIFileGetStream
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avifil32.dll
- - Ext-MS-Win-Media-Avi-L1-1-0.dll
+- Avifil32.dll
+- Ext-MS-Win-Media-Avi-L1-1-0.dll
 api_name:
- - AVIFileGetStream
+- AVIFileGetStream
 targetos: Windows
 req.typenames: 
 req.redist: 

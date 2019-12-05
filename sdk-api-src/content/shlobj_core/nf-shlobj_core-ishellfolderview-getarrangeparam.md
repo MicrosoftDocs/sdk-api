@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.GetArrangeParam
 title: IShellFolderView::GetArrangeParam (shlobj_core.h)
-
 description: Gets the arrangement parameter of the view, which is how the view has been sorted.
 old-location: shell\IShellFolderView_GetArrangeParam.htm
 tech.root: shell
 ms.assetid: 15eda2f2-6956-47c1-be08-3ca2f292578e
-
 ms.date: 12/05/2018
 ms.keywords: GetArrangeParam, GetArrangeParam method [Windows Shell], GetArrangeParam method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetArrangeParam method, IShellFolderView.GetArrangeParam, IShellFolderView::GetArrangeParam, SHCIDS_ALLFIELDS, SHCIDS_CANONICALONLY, _shell_IShellFolderView_GetArrangeParam, shell.IShellFolderView_GetArrangeParam, shlobj_core/IShellFolderView::GetArrangeParam
 ms.topic: method
 f1_keywords:
 - shlobj_core/IShellFolderView.GetArrangeParam
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

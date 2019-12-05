@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_GetColumn
 title: ListView_GetColumn macro (commctrl.h)
-
 description: Gets the attributes of a list-view control's column. You can use this macro or send the LVM_GETCOLUMN message explicitly.
 old-location: controls\ListView_GetColumn.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getcolumn.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_GetColumn, ListView_GetColumn macro [Windows Controls], _win32_ListView_GetColumn, _win32_ListView_GetColumn_cpp, commctrl/ListView_GetColumn, controls.ListView_GetColumn, controls._win32_ListView_GetColumn
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_GetColumn"
+f1_keywords:
+- commctrl/ListView_GetColumn
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_GetColumn
+- ListView_GetColumn
 targetos: Windows
 req.typenames: 
 req.redist: 

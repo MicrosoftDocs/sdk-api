@@ -1,19 +1,17 @@
 ---
 UID: NE:dcomptypes.DCOMPOSITION_OPACITY_MODE
 title: DCOMPOSITION_OPACITY_MODE (dcomptypes.h)
-
 description: Specifies how the effective opacity value of a visual is applied to that visual’s content and children.
 old-location: directcomp\dcomposition_opacity_mode.htm
 tech.root: directcomp
 ms.assetid: D768F699-39F6-4ED5-B3D7-D509871BCEAB
-
 ms.date: 12/05/2018
 ms.keywords: DCOMPOSITION_OPACITY_MODE, DCOMPOSITION_OPACITY_MODE enumeration [DirectComposition], DCOMPOSITION_OPACITY_MODE_INHERIT, DCOMPOSITION_OPACITY_MODE_LAYER, DCOMPOSITION_OPACITY_MODE_MULTIPLY, dcomptypes/DCOMPOSITION_OPACITY_MODE, dcomptypes/DCOMPOSITION_OPACITY_MODE_INHERIT, dcomptypes/DCOMPOSITION_OPACITY_MODE_LAYER, dcomptypes/DCOMPOSITION_OPACITY_MODE_MULTIPLY, directcomp.dcomposition_opacity_mode
 ms.topic: enum
-f1_keywords: 
- - "dcomptypes/DCOMPOSITION_OPACITY_MODE"
+f1_keywords:
+- dcomptypes/DCOMPOSITION_OPACITY_MODE
 dev_langs:
- - c++
+- c++
 req.header: dcomptypes.h
 req.include-header: DComp.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dcomptypes.h
+- dcomptypes.h
 api_name:
- - DCOMPOSITION_OPACITY_MODE
+- DCOMPOSITION_OPACITY_MODE
 targetos: Windows
 req.typenames: 
 req.redist: 

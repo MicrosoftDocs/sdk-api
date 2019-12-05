@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetSignatureMethod
 title: IOpcSigningOptions::GetSignatureMethod (msopc.h)
-
 description: Gets the signature method to use to calculate and encrypt the hash value of the SignedInfo element, which will be serialized as the SignatureValue element of the signature.
 old-location: opc\iopcsigningoptions_getsignaturemethod.htm
 tech.root: OPC
 ms.assetid: d325ed58-9acd-4ebd-9acc-28f8602a53eb
-
 ms.date: 12/05/2018
 ms.keywords: GetSignatureMethod, GetSignatureMethod method [Open Packaging Conventions], GetSignatureMethod method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetSignatureMethod method, IOpcSigningOptions.GetSignatureMethod, IOpcSigningOptions::GetSignatureMethod, msopc/IOpcSigningOptions::GetSignatureMethod, opc.iopcsigningoptions_getsignaturemethod
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSigningOptions.GetSignatureMethod"
+f1_keywords:
+- msopc/IOpcSigningOptions.GetSignatureMethod
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSigningOptions.GetSignatureMethod
+- IOpcSigningOptions.GetSignatureMethod
 targetos: Windows
 req.typenames: 
 req.redist: 

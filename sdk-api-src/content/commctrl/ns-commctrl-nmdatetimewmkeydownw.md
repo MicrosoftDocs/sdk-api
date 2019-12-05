@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagNMDATETIMEWMKEYDOWNW
 title: NMDATETIMEWMKEYDOWNW (commctrl.h)
-
 description: Carries information used to describe and handle a DTN_WMKEYDOWN notification code.
 old-location: controls\NMDATETIMEWMKEYDOWN.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\structures\nmdatetimewmkeydown.htm
-
 ms.date: 12/05/2018
 ms.keywords: '*LPNMDATETIMEWMKEYDOWNW, LPNMDATETIMEWMKEYDOWN, LPNMDATETIMEWMKEYDOWN structure pointer [Windows Controls], NMDATETIMEWMKEYDOWN, NMDATETIMEWMKEYDOWN structure [Windows Controls], NMDATETIMEWMKEYDOWNA, NMDATETIMEWMKEYDOWNW, _win32_NMDATETIMEWMKEYDOWN, _win32_NMDATETIMEWMKEYDOWN_cpp, commctrl/LPNMDATETIMEWMKEYDOWN, commctrl/NMDATETIMEWMKEYDOWN, commctrl/NMDATETIMEWMKEYDOWNA, commctrl/NMDATETIMEWMKEYDOWNW, controls.NMDATETIMEWMKEYDOWN, controls._win32_NMDATETIMEWMKEYDOWN'
 ms.topic: struct
 f1_keywords:
 - commctrl/NMDATETIMEWMKEYDOWN
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d12.ID3D12Fence1
 title: ID3D12Fence1 (d3d12.h)
-
 description: Represents a fence. This interface extends ID3D12Fence, and supports the retrieval of the flags used to create the original fence.
 old-location: direct3d12\id3d12fence1.htm
 tech.root: direct3d12
 ms.assetid: 292FA25B-7C72-4092-8822-DB15951A8309
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12Fence1, ID3D12Fence1 interface, ID3D12Fence1 interface,described, d3d12/ID3D12Fence1, direct3d12.id3d12fence1
 ms.topic: interface
-f1_keywords: 
- - "d3d12/ID3D12Fence1"
+f1_keywords:
+- d3d12/ID3D12Fence1
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12Fence1
+- ID3D12Fence1
 targetos: Windows
 req.typenames: 
 req.redist: 

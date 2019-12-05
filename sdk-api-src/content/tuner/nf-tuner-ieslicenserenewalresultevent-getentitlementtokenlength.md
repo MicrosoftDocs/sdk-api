@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.GetEntitlementTokenLength
 title: IESLicenseRenewalResultEvent::GetEntitlementTokenLength (tuner.h)
-
 description: Gets the length of the entitlement token in a protected-content license from a LicenseRenewalResult event.
 old-location: mstv\ieslicenserenewalresultevent_getentitlementtokenlength.htm
 tech.root: mstv
 ms.assetid: e1c8f12c-c2f1-48c1-90fc-051ac87863d5
-
 ms.date: 12/05/2018
 ms.keywords: GetEntitlementTokenLength, GetEntitlementTokenLength method [DirectShow], GetEntitlementTokenLength method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetEntitlementTokenLength method, IESLicenseRenewalResultEvent.GetEntitlementTokenLength, IESLicenseRenewalResultEvent::GetEntitlementTokenLength, mstv.ieslicenserenewalresultevent_getentitlementtokenlength, tuner/IESLicenseRenewalResultEvent::GetEntitlementTokenLength
 ms.topic: method
-f1_keywords: 
- - "tuner/IESLicenseRenewalResultEvent.GetEntitlementTokenLength"
+f1_keywords:
+- tuner/IESLicenseRenewalResultEvent.GetEntitlementTokenLength
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IESLicenseRenewalResultEvent.GetEntitlementTokenLength
+- IESLicenseRenewalResultEvent.GetEntitlementTokenLength
 targetos: Windows
 req.typenames: 
 req.redist: 

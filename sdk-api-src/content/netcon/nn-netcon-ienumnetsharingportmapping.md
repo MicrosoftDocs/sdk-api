@@ -1,19 +1,17 @@
 ---
 UID: NN:netcon.IEnumNetSharingPortMapping
 title: IEnumNetSharingPortMapping (netcon.h)
-
 description: The IEnumNetSharingPortMapping interface provides methods to enumerate the port mappings for a particular connection.
 old-location: ics\ienumnetsharingportmapping.htm
 tech.root: ics
 ms.assetid: 68334bd2-353f-457d-a2c7-1271816f10f5
-
 ms.date: 12/05/2018
 ms.keywords: IEnumNetSharingPortMapping, IEnumNetSharingPortMapping interface [ICS/ICF], IEnumNetSharingPortMapping interface [ICS/ICF],described, _ics_ienumnetsharingportmapping, ics.ienumnetsharingportmapping, netcon/IEnumNetSharingPortMapping
 ms.topic: interface
-f1_keywords: 
- - "netcon/IEnumNetSharingPortMapping"
+f1_keywords:
+- netcon/IEnumNetSharingPortMapping
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - IEnumNetSharingPortMapping
+- IEnumNetSharingPortMapping
 targetos: Windows
 req.typenames: 
 req.redist: 

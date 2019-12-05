@@ -1,19 +1,17 @@
 ---
 UID: NF:lmaccess.NetUserDel
 title: NetUserDel function (lmaccess.h)
-
 description: The NetUserDel function deletes a user account from a server.
 old-location: netmgmt\netuserdel.htm
 tech.root: NetMgmt
 ms.assetid: c1429b82-4fd1-48b6-8957-04dee0426077
-
 ms.date: 12/05/2018
 ms.keywords: NetUserDel, NetUserDel function [Network Management], _win32_netuserdel, lmaccess/NetUserDel, netmgmt.netuserdel
 ms.topic: function
-f1_keywords: 
- - "lmaccess/NetUserDel"
+f1_keywords:
+- lmaccess/NetUserDel
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetUserDel
+- NetUserDel
 targetos: Windows
 req.typenames: 
 req.redist: 

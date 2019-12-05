@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IMoniker.ComposeWith
 title: IMoniker::ComposeWith (objidl.h)
-
 description: Creates a new composite moniker by combining the current moniker with the specified moniker.
 old-location: com\imoniker_composewith.htm
 tech.root: com
 ms.assetid: 6e41d79c-1a57-4270-aa84-160e0639852b
-
 ms.date: 12/05/2018
 ms.keywords: ComposeWith, ComposeWith method [COM], ComposeWith method [COM],IMoniker interface, IMoniker interface [COM],ComposeWith method, IMoniker.ComposeWith, IMoniker::ComposeWith, _com_imoniker_composewith, com.imoniker_composewith, objidl/IMoniker::ComposeWith
 ms.topic: method
-f1_keywords: 
- - "objidl/IMoniker.ComposeWith"
+f1_keywords:
+- objidl/IMoniker.ComposeWith
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IMoniker.ComposeWith
+- IMoniker.ComposeWith
 targetos: Windows
 req.typenames: 
 req.redist: 

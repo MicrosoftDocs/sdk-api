@@ -1,19 +1,17 @@
 ---
 UID: NE:faxcomex.FAX_RULE_STATUS_ENUM
 title: FAX_RULE_STATUS_ENUM (faxcomex.h)
-
 description: The FAX_RULE_STATUS_ENUM enumeration defines the status types for outbound routing rules.
 old-location: fax\_mfax_fax_rule_status_enum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5p2l.htm
-
 ms.date: 12/05/2018
 ms.keywords: FAX_RULE_STATUS_ENUM, FAX_RULE_STATUS_ENUM enumeration [Fax Service], _mfax_fax_rule_status_enum, fax._mfax_fax_rule_status_enum, faxcomex/FAX_RULE_STATUS_ENUM, faxcomex/frsALL_GROUP_DEV_NOT_VALID, faxcomex/frsBAD_DEVICE, faxcomex/frsEMPTY_GROUP, faxcomex/frsSOME_GROUP_DEV_NOT_VALID, faxcomex/frsVALID, frsALL_GROUP_DEV_NOT_VALID, frsBAD_DEVICE, frsEMPTY_GROUP, frsSOME_GROUP_DEV_NOT_VALID, frsVALID
 ms.topic: enum
-f1_keywords: 
- - "faxcomex/FAX_RULE_STATUS_ENUM"
+f1_keywords:
+- faxcomex/FAX_RULE_STATUS_ENUM
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FaxComex.h
+- FaxComex.h
 api_name:
- - FAX_RULE_STATUS_ENUM
+- FAX_RULE_STATUS_ENUM
 targetos: Windows
 req.typenames: FAX_RULE_STATUS_ENUM
 req.redist: 

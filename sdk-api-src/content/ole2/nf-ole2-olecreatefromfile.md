@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleCreateFromFile
 title: OleCreateFromFile function (ole2.h)
-
 description: Creates an embedded object from the contents of a named file.
 old-location: com\olecreatefromfile.htm
 tech.root: com
 ms.assetid: 98c63646-6617-46b6-8c3e-82d1c4d0adb6
-
 ms.date: 12/05/2018
 ms.keywords: OleCreateFromFile, OleCreateFromFile function [COM], _ole_OleCreateFromFile, com.olecreatefromfile, ole/OleCreateFromFile
 ms.topic: function
-f1_keywords: 
- - "ole2/OleCreateFromFile"
+f1_keywords:
+- ole2/OleCreateFromFile
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: Ole2.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - OleCreateFromFile
+- OleCreateFromFile
 targetos: Windows
 req.typenames: 
 req.redist: 

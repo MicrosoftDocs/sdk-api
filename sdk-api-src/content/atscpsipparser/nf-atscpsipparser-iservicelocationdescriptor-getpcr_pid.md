@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.IServiceLocationDescriptor.GetPCR_PID
 title: IServiceLocationDescriptor::GetPCR_PID (atscpsipparser.h)
-
 description: Gets the program ID (PID) for the packets that contain the Program Clock Reference (PCR) in the transport stream from an Advanced Television Systems Committee (ATSC) Service Location Descriptor.
 old-location: mstv\iservicelocationdescriptor_getpcr_pid.htm
 tech.root: mstv
 ms.assetid: a81a2218-3c44-4b17-a5cb-bb68d10da977
-
 ms.date: 12/05/2018
 ms.keywords: GetPCR_PID, GetPCR_PID method [Microsoft TV Technologies], GetPCR_PID method [Microsoft TV Technologies],IServiceLocationDescriptor interface, IServiceLocationDescriptor interface [Microsoft TV Technologies],GetPCR_PID method, IServiceLocationDescriptor.GetPCR_PID, IServiceLocationDescriptor::GetPCR_PID, atscpsipparser/IServiceLocationDescriptor::GetPCR_PID, mstv.iservicelocationdescriptor_getpcr_pid
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/IServiceLocationDescriptor.GetPCR_PID"
+f1_keywords:
+- atscpsipparser/IServiceLocationDescriptor.GetPCR_PID
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: Atscpsipparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IServiceLocationDescriptor.GetPCR_PID
+- IServiceLocationDescriptor.GetPCR_PID
 targetos: Windows
 req.typenames: 
 req.redist: 

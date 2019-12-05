@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.FONTOBJ_pwszFontFilePaths
 title: FONTOBJ_pwszFontFilePaths function (winddi.h)
-
 description: The FONTOBJ_pwszFontFilePaths function retrieves the file path(s) associated with a font.
 old-location: display\fontobj_pwszfontfilepaths.htm
 tech.root: display
 ms.assetid: a175a282-4d0c-4379-b2f8-5e7e8cf7a137
-
 ms.date: 12/05/2018
 ms.keywords: FONTOBJ_pwszFontFilePaths, FONTOBJ_pwszFontFilePaths function [Display Devices], display.fontobj_pwszfontfilepaths, gdifncs_51e9e4ce-3de8-4b6c-8d7f-ccd19b9bd449.xml, winddi/FONTOBJ_pwszFontFilePaths
 ms.topic: function
 f1_keywords:
 - winddi/FONTOBJ_pwszFontFilePaths
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1DrawTransform
 title: ID2D1DrawTransform (d2d1effectauthor.h)
-
 description: A specialized implementation of the Shantzis calculations to a transform implemented on the GPU.
 old-location: direct2d\id2d1drawtransform.htm
 tech.root: Direct2D
 ms.assetid: 90C49A9A-9297-44E6-9AB8-01C6847CA3F8
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1DrawTransform, ID2D1DrawTransform interface [Direct2D], ID2D1DrawTransform interface [Direct2D],described, d2d1effectauthor/ID2D1DrawTransform, direct2d.id2d1drawtransform
 ms.topic: interface
-f1_keywords: 
- - "d2d1effectauthor/ID2D1DrawTransform"
+f1_keywords:
+- d2d1effectauthor/ID2D1DrawTransform
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1DrawTransform
+- ID2D1DrawTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

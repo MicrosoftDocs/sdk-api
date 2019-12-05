@@ -1,19 +1,17 @@
 ---
 UID: NF:thrdbase.CThreadBase.OnFinalRelease
 title: CThreadBase::OnFinalRelease (thrdbase.h)
-
 description: The OnFinalRelease method is a virtual function called by Release when the reference count reaches zero. CThreadBase is called internally.
 old-location: wmi\cthreadbase_onfinalrelease.htm
 tech.root: WmiSdk
 ms.assetid: a17a379d-60ba-4a76-8900-58fabadad5ea
-
 ms.date: 12/05/2018
-ms.keywords: "?OnFinalRelease@CThreadBase@@MAEXXZ, ?OnFinalRelease@CThreadBase@@MEAAXXZ, CThreadBase interface [Windows Management Instrumentation],OnFinalRelease method, CThreadBase.OnFinalRelease, CThreadBase::OnFinalRelease, OnFinalRelease, OnFinalRelease method [Windows Management Instrumentation], OnFinalRelease method [Windows Management Instrumentation],CThreadBase interface, thrdbase/CThreadBase::OnFinalRelease, wmi.cthreadbase_onfinalrelease"
+ms.keywords: ?OnFinalRelease@CThreadBase@@MAEXXZ, ?OnFinalRelease@CThreadBase@@MEAAXXZ, CThreadBase interface [Windows Management Instrumentation],OnFinalRelease method, CThreadBase.OnFinalRelease, CThreadBase::OnFinalRelease, OnFinalRelease, OnFinalRelease method [Windows Management Instrumentation], OnFinalRelease method [Windows Management Instrumentation],CThreadBase interface, thrdbase/CThreadBase::OnFinalRelease, wmi.cthreadbase_onfinalrelease
 ms.topic: method
-f1_keywords: 
- - "thrdbase/CThreadBase.OnFinalRelease"
+f1_keywords:
+- thrdbase/CThreadBase.OnFinalRelease
 dev_langs:
- - c++
+- c++
 req.header: thrdbase.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CThreadBase.OnFinalRelease
- - ?OnFinalRelease@CThreadBase@@MAEXXZ
- - ?OnFinalRelease@CThreadBase@@MEAAXXZ
+- CThreadBase.OnFinalRelease
+- ?OnFinalRelease@CThreadBase@@MAEXXZ
+- ?OnFinalRelease@CThreadBase@@MEAAXXZ
 targetos: Windows
 req.typenames: 
 req.redist: 

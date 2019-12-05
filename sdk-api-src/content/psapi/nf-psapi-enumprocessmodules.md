@@ -1,19 +1,17 @@
 ---
 UID: NF:psapi.EnumProcessModules
 title: EnumProcessModules function (psapi.h)
-
 description: Retrieves a handle for each module in the specified process.
 old-location: psapi\enumprocessmodules.htm
 tech.root: psapi
 ms.assetid: b4088506-2f69-4cf0-9bab-3e6a7185f5b2
-
 ms.date: 12/05/2018
 ms.keywords: EnumProcessModules, EnumProcessModules function [PSAPI], K32EnumProcessModules, _win32_enumprocessmodules, base.enumprocessmodules, psapi.enumprocessmodules, psapi/EnumProcessModules, psapi/K32EnumProcessModules
 ms.topic: function
-f1_keywords: 
- - "psapi/EnumProcessModules"
+f1_keywords:
+- psapi/EnumProcessModules
 dev_langs:
- - c++
+- c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if 
 req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - Psapi.dll
- - Psapi.dll
- - API-MS-Win-Core-PsAPI-Obsolete-L1-1-0.dll
- - KernelBase.dll
- - API-Ms-Win-Core-PsAPI-L1-1-0.dll
+- Kernel32.dll
+- Psapi.dll
+- Psapi.dll
+- API-MS-Win-Core-PsAPI-Obsolete-L1-1-0.dll
+- KernelBase.dll
+- API-Ms-Win-Core-PsAPI-L1-1-0.dll
 api_name:
- - EnumProcessModules
- - K32EnumProcessModules
+- EnumProcessModules
+- K32EnumProcessModules
 targetos: Windows
 req.typenames: 
 req.redist: 

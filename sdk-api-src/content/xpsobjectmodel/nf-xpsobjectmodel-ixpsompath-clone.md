@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.Clone
 title: IXpsOMPath::Clone (xpsobjectmodel.h)
-
 description: Makes a deep copy of the interface.
 old-location: xps\ixpsompath_clone.htm
 tech.root: printdocs
 ms.assetid: 4602f9fe-6001-4a5a-8870-f2a6e97ccc55
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],Clone method, IXpsOMPath.Clone, IXpsOMPath::Clone, xps.ixpsompath_clone, xpsobjectmodel/IXpsOMPath::Clone
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPath.Clone"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPath.Clone
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPath.Clone
+- IXpsOMPath.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

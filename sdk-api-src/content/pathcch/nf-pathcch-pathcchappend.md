@@ -1,19 +1,17 @@
 ---
 UID: NF:pathcch.PathCchAppend
 title: PathCchAppend function (pathcch.h)
-
 description: Appends one path to the end of another.This function differs from PathCchAppendEx in that you are restricted to a final path of length MAX_PATH.This function differs from PathAppend in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
 old-location: shell\PathCchAppend.htm
 tech.root: shell
 ms.assetid: b64884ad-15c7-495e-8037-34daf68f8cf7
-
 ms.date: 12/05/2018
 ms.keywords: PathCchAppend, PathCchAppend function [Windows Shell], pathcch/PathCchAppend, shell.PathCchAppend
 ms.topic: function
-f1_keywords: 
- - "pathcch/PathCchAppend"
+f1_keywords:
+- pathcch/PathCchAppend
 dev_langs:
- - c++
+- c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - pathcch.lib
- - API-MS-Win-Core-Path-l1-1-0.dll
- - KernelBase.dll
+- pathcch.lib
+- API-MS-Win-Core-Path-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - PathCchAppend
+- PathCchAppend
 targetos: Windows
 req.typenames: 
 req.redist: 

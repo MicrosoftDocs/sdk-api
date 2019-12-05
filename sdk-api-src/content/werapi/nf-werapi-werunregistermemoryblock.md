@@ -1,19 +1,17 @@
 ---
 UID: NF:werapi.WerUnregisterMemoryBlock
 title: WerUnregisterMemoryBlock function (werapi.h)
-
 description: Removes a memory block from the list of data to be collected during error reporting for the application.
 old-location: wer\werunregistermemoryblock.htm
 tech.root: wer
 ms.assetid: 016800e8-4a03-40f6-9dba-54cd9082eb48
-
 ms.date: 12/05/2018
 ms.keywords: WerUnregisterMemoryBlock, WerUnregisterMemoryBlock function [Windows Error Reporting], base.werunregistermemoryblock, wer.werunregistermemoryblock, werapi/WerUnregisterMemoryBlock
 ms.topic: function
-f1_keywords: 
- - "werapi/WerUnregisterMemoryBlock"
+f1_keywords:
+- werapi/WerUnregisterMemoryBlock
 dev_langs:
- - c++
+- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - WerUnregisterMemoryBlock
+- WerUnregisterMemoryBlock
 targetos: Windows
 req.typenames: 
 req.redist: 

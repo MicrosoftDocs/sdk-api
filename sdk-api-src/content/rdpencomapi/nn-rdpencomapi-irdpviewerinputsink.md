@@ -1,19 +1,17 @@
 ---
 UID: NN:rdpencomapi.IRDPViewerInputSink
 title: IRDPViewerInputSink (rdpencomapi.h)
-
 description: Sends mouse and keyboard events, and supports touch input.
 old-location: rdp\irdpviewerinputsink.htm
 tech.root: rdp
 ms.assetid: 364EC709-C41C-4ADD-8E7D-6A635E5BCCDA
-
 ms.date: 12/05/2018
 ms.keywords: IRDPViewerInputSink, IRDPViewerInputSink class [RDP], IRDPViewerInputSink class [RDP],described, rdp.irdpviewerinputsink, rdpencomapi/IRDPViewerInputSink
 ms.topic: interface
-f1_keywords: 
- - "rdpencomapi/IRDPViewerInputSink"
+f1_keywords:
+- rdpencomapi/IRDPViewerInputSink
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPViewerInputSink
+- IRDPViewerInputSink
 targetos: Windows
 req.typenames: 
 req.redist: 

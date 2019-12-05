@@ -1,19 +1,17 @@
 ---
 UID: NF:coml2api.StgOpenPropStg
 title: StgOpenPropStg function (coml2api.h)
-
 description: Opens a specified property set in a specified storage or stream object.
 old-location: stg\stgopenpropstg.htm
 tech.root: Stg
 ms.assetid: ecc78e49-f1c2-4c2d-8390-b2b6f1dc776e
-
 ms.date: 12/05/2018
 ms.keywords: StgOpenPropStg, StgOpenPropStg function [Structured Storage], _stg_stgopenpropstg, coml2api/StgOpenPropStg, stg.stgopenpropstg
 ms.topic: function
-f1_keywords: 
- - "coml2api/StgOpenPropStg"
+f1_keywords:
+- coml2api/StgOpenPropStg
 dev_langs:
- - c++
+- c++
 req.header: coml2api.h
 req.include-header: Propidl.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l2-1-1.dll
- - coml2.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l2-1-1.dll
+- coml2.dll
 api_name:
- - StgOpenPropStg
+- StgOpenPropStg
 targetos: Windows
 req.typenames: 
 req.redist: 

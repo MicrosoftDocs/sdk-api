@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoder.CopyPalette
 title: IWICBitmapDecoder::CopyPalette (wincodec.h)
-
 description: Copies the decoder's IWICPalette .
 old-location: wic\_wic_codec_iwicbitmapdecoder_copypalette.htm
 tech.root: wic
 ms.assetid: 4a387936-b045-42c7-b57c-1ac470640a14
-
 ms.date: 12/05/2018
 ms.keywords: CopyPalette, CopyPalette method [Windows Imaging Component], CopyPalette method [Windows Imaging Component],IWICBitmapDecoder interface, IWICBitmapDecoder interface [Windows Imaging Component],CopyPalette method, IWICBitmapDecoder.CopyPalette, IWICBitmapDecoder::CopyPalette, _wic_codec_iwicbitmapdecoder_copypalette, wic._wic_codec_iwicbitmapdecoder_copypalette, wincodec/IWICBitmapDecoder::CopyPalette
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapDecoder.CopyPalette"
+f1_keywords:
+- wincodec/IWICBitmapDecoder.CopyPalette
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapDecoder.CopyPalette
+- IWICBitmapDecoder.CopyPalette
 targetos: Windows
 req.typenames: 
 req.redist: 

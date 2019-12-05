@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoGetContextToken
 title: CoGetContextToken function (combaseapi.h)
-
 description: Returns a pointer to an implementation of IObjContext for the current context.
 old-location: com\cogetcontexttoken.htm
 tech.root: com
 ms.assetid: 1218d928-ca3f-4bdc-9a00-ea4c214175a9
-
 ms.date: 12/05/2018
 ms.keywords: CoGetContextToken, CoGetContextToken function [COM], _com_CoGetContextToken, com.cogetcontexttoken, combaseapi/CoGetContextToken
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoGetContextToken"
+f1_keywords:
+- combaseapi/CoGetContextToken
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoGetContextToken
+- CoGetContextToken
 targetos: Windows
 req.typenames: 
 req.redist: 

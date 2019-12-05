@@ -1,19 +1,17 @@
 ---
 UID: NS:netioapi._MIB_IPINTERFACE_ROW
 title: MIB_IPINTERFACE_ROW (netioapi.h)
-
 description: Stores interface management information for a particular IP address family on a network interface.
 old-location: mib\mib_ipinterface_row.htm
 tech.root: MIB
 ms.assetid: 28265037-f7a3-40a4-b386-20f43f32a8b3
-
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_IPINTERFACE_ROW, AF_INET, AF_INET6, AF_UNSPEC, LinkLocalAlwaysOff, LinkLocalAlwaysOn, LinkLocalDelayed, LinkLocalUnchanged, MIB_IPINTERFACE_ROW, MIB_IPINTERFACE_ROW structure [MIB], PMIB_IPINTERFACE_ROW, PMIB_IPINTERFACE_ROW structure pointer [MIB], RouterDiscoveryDhcp, RouterDiscoveryDisabled, RouterDiscoveryEnabled, RouterDiscoveryUnchanged, _MIB_IPINTERFACE_ROW, mib.mib_ipinterface_row, netioapi/MIB_IPINTERFACE_ROW, netioapi/PMIB_IPINTERFACE_ROW"
+ms.keywords: '*PMIB_IPINTERFACE_ROW, AF_INET, AF_INET6, AF_UNSPEC, LinkLocalAlwaysOff, LinkLocalAlwaysOn, LinkLocalDelayed, LinkLocalUnchanged, MIB_IPINTERFACE_ROW, MIB_IPINTERFACE_ROW structure [MIB], PMIB_IPINTERFACE_ROW, PMIB_IPINTERFACE_ROW structure pointer [MIB], RouterDiscoveryDhcp, RouterDiscoveryDisabled, RouterDiscoveryEnabled, RouterDiscoveryUnchanged, _MIB_IPINTERFACE_ROW, mib.mib_ipinterface_row, netioapi/MIB_IPINTERFACE_ROW, netioapi/PMIB_IPINTERFACE_ROW'
 ms.topic: struct
-f1_keywords: 
- - "netioapi/MIB_IPINTERFACE_ROW"
+f1_keywords:
+- netioapi/MIB_IPINTERFACE_ROW
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Netioapi.h
+- Netioapi.h
 api_name:
- - MIB_IPINTERFACE_ROW
+- MIB_IPINTERFACE_ROW
 targetos: Windows
 req.typenames: MIB_IPINTERFACE_ROW, *PMIB_IPINTERFACE_ROW
 req.redist: 

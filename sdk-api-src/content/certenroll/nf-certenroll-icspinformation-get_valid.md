@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspInformation.get_Valid
 title: ICspInformation::get_Valid (certenroll.h)
-
 description: Retrieves a Boolean value that specifies whether the provider is installed on the client computer.
 old-location: security\icspinformation_valid_property.htm
 tech.root: seccertenroll
 ms.assetid: 507896b0-598c-4a2d-854e-d4d266fdfaf7
-
 ms.date: 12/05/2018
 ms.keywords: ICspInformation interface [Security],Valid property, ICspInformation.Valid, ICspInformation.get_Valid, ICspInformation::Valid, ICspInformation::get_Valid, Valid property [Security], Valid property [Security],ICspInformation interface, certenroll/ICspInformation::Valid, certenroll/ICspInformation::get_Valid, get_Valid, security.icspinformation_valid_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspInformation.Valid"
+f1_keywords:
+- certenroll/ICspInformation.Valid
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspInformation.Valid
- - ICspInformation.get_Valid
+- ICspInformation.Valid
+- ICspInformation.get_Valid
 targetos: Windows
 req.typenames: 
 req.redist: 

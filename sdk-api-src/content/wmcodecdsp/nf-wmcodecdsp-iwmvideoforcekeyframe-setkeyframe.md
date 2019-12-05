@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.IWMVideoForceKeyFrame.SetKeyFrame
 title: IWMVideoForceKeyFrame::SetKeyFrame (wmcodecdsp.h)
-
 description: Specifies that the current frame will be encoded as a key frame.
 old-location: mf\iwmvideoforcekeyframesetkeyframe.htm
 tech.root: medfound
 ms.assetid: 5cfebe9f-45b1-4cba-8813-6c9405657323
-
 ms.date: 12/05/2018
 ms.keywords: IWMVideoForceKeyFrame interface [Media Foundation],SetKeyFrame method, IWMVideoForceKeyFrame.SetKeyFrame, IWMVideoForceKeyFrame::SetKeyFrame, SetKeyFrame, SetKeyFrame method [Media Foundation], SetKeyFrame method [Media Foundation],IWMVideoForceKeyFrame interface, codecapi.iwmvideoforcekeyframe_setkeyframe, codecapi.iwmvideoforcekeyframesetkeyframe, mf.iwmvideoforcekeyframesetkeyframe, wmcodecdsp/IWMVideoForceKeyFrame::SetKeyFrame
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/IWMVideoForceKeyFrame.SetKeyFrame"
+f1_keywords:
+- wmcodecdsp/IWMVideoForceKeyFrame.SetKeyFrame
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - IWMVideoForceKeyFrame.SetKeyFrame
+- IWMVideoForceKeyFrame.SetKeyFrame
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:lmaccess.NetQueryDisplayInformation
 title: NetQueryDisplayInformation function (lmaccess.h)
-
 description: The NetQueryDisplayInformation function returns user account, computer, or group account information. Call this function to quickly enumerate account information for display in user interfaces.
 old-location: netmgmt\netquerydisplayinformation.htm
 tech.root: NetMgmt
 ms.assetid: 049f1ea3-4d23-4b35-8b08-7256859aed45
-
 ms.date: 12/05/2018
 ms.keywords: 1, 2, 3, NetQueryDisplayInformation, NetQueryDisplayInformation function [Network Management], _win32_netquerydisplayinformation, lmaccess/NetQueryDisplayInformation, netmgmt.netquerydisplayinformation
 ms.topic: function
 f1_keywords:
 - lmaccess/NetQueryDisplayInformation
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

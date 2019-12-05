@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.CreateVideoProcessorEnumerator
 title: ID3D11VideoDevice::CreateVideoProcessorEnumerator (d3d11.h)
-
 description: Enumerates the video processor capabilities of the driver.
 old-location: mf\id3d11videodevice_createvideoprocessorenumerator.htm
 tech.root: medfound
 ms.assetid: 992C699D-A499-494E-AEDF-A6688CB14D70
-
 ms.date: 12/05/2018
 ms.keywords: CreateVideoProcessorEnumerator, CreateVideoProcessorEnumerator method [Media Foundation], CreateVideoProcessorEnumerator method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],CreateVideoProcessorEnumerator method, ID3D11VideoDevice.CreateVideoProcessorEnumerator, ID3D11VideoDevice::CreateVideoProcessorEnumerator, d3d11/ID3D11VideoDevice::CreateVideoProcessorEnumerator, mf.id3d11videodevice_createvideoprocessorenumerator
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoDevice.CreateVideoProcessorEnumerator"
+f1_keywords:
+- d3d11/ID3D11VideoDevice.CreateVideoProcessorEnumerator
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoDevice.CreateVideoProcessorEnumerator
+- ID3D11VideoDevice.CreateVideoProcessorEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

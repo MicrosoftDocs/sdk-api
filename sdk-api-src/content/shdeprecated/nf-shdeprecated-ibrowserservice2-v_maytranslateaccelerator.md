@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.v_MayTranslateAccelerator
 title: IBrowserService2::v_MayTranslateAccelerator (shdeprecated.h)
-
 description: Deprecated. Called by a derived class to instruct the base class to proceed with the translation of keyboard mnemonics.
 old-location: shell\IBrowserService2_v_MayTranslateAccelerator.htm
 tech.root: shell
 ms.assetid: 99dc3bce-c661-4233-8457-0ce29e02c270
-
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],v_MayTranslateAccelerator method, IBrowserService2.v_MayTranslateAccelerator, IBrowserService2::v_MayTranslateAccelerator, shdeprecated/IBrowserService2::v_MayTranslateAccelerator, shell.IBrowserService2_v_MayTranslateAccelerator, v_MayTranslateAccelerator, v_MayTranslateAccelerator method [Windows Shell], v_MayTranslateAccelerator method [Windows Shell],IBrowserService2 interface, zone_IBrowserService2_v_MayTranslateAccelerator
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService2.v_MayTranslateAccelerator"
+f1_keywords:
+- shdeprecated/IBrowserService2.v_MayTranslateAccelerator
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService2.v_MayTranslateAccelerator
+- IBrowserService2.v_MayTranslateAccelerator
 targetos: Windows
 req.typenames: 
 req.redist: 

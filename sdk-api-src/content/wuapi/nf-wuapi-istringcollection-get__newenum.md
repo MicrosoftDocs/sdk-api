@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IStringCollection.get__NewEnum
 title: IStringCollection::get__NewEnum (wuapi.h)
-
 description: Gets an IEnumVARIANT interface that can be used to enumerate the collection.
 old-location: wua\istringcollection__newenum.htm
 tech.root: Wua_Sdk
 ms.assetid: b131b276-4254-4a08-8121-3a86e28d08cb
-
 ms.date: 12/05/2018
 ms.keywords: IStringCollection interface [Windows Update Agent],_NewEnum property, IStringCollection._NewEnum, IStringCollection.get__NewEnum, IStringCollection::_NewEnum, IStringCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent],IStringCollection interface, get__NewEnum, wua.istringcollection__newenum, wuapi/IStringCollection::_NewEnum, wuapi/IStringCollection::get__NewEnum
 ms.topic: method
-f1_keywords: 
- - "wuapi/IStringCollection._NewEnum"
+f1_keywords:
+- wuapi/IStringCollection._NewEnum
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IStringCollection._NewEnum
- - IStringCollection.get__NewEnum
+- IStringCollection._NewEnum
+- IStringCollection.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

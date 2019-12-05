@@ -1,19 +1,17 @@
 ---
 UID: NN:rdpencomapi.IRDPViewerRenderingSurface
 title: IRDPViewerRenderingSurface (rdpencomapi.h)
-
 description: Manages the rendering surface for the viewer.
 old-location: rdp\irdpviewerrenderingsurface.htm
 tech.root: rdp
 ms.assetid: 24d818ec-f58d-4bf1-adf8-c15560595147
-
 ms.date: 12/05/2018
 ms.keywords: IRDPViewerRenderingSurface, IRDPViewerRenderingSurface interface [RDP], IRDPViewerRenderingSurface interface [RDP],described, rdp.irdpviewerrenderingsurface, rdpencomapi/IRDPViewerRenderingSurface
 ms.topic: interface
-f1_keywords: 
- - "rdpencomapi/IRDPViewerRenderingSurface"
+f1_keywords:
+- rdpencomapi/IRDPViewerRenderingSurface
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPViewerRenderingSurface
+- IRDPViewerRenderingSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

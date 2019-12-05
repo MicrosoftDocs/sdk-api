@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrm.IFsrmActionReport
 title: IFsrmActionReport (fsrm.h)
-
 description: Used to generate a report in response to a quota or file screen event.
 old-location: fsrm\ifsrmactionreport.htm
 tech.root: fsrm
 ms.assetid: efff4cec-6985-40aa-a74e-bb2afdeb2a0a
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmActionReport, IFsrmActionReport interface [File Server Resource Manager], IFsrmActionReport interface [File Server Resource Manager],described, fs.ifsrmactionreport, fsrm.ifsrmactionreport, fsrm/IFsrmActionReport
 ms.topic: interface
-f1_keywords: 
- - "fsrm/IFsrmActionReport"
+f1_keywords:
+- fsrm/IFsrmActionReport
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmActionReport
+- IFsrmActionReport
 targetos: Windows
 req.typenames: 
 req.redist: 

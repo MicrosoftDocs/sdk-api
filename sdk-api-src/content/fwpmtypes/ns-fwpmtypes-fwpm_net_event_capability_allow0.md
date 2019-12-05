@@ -1,19 +1,17 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_CAPABILITY_ALLOW0_
 title: FWPM_NET_EVENT_CAPABILITY_ALLOW0 (fwpmtypes.h)
-
 description: Contains information about network traffic allowed in relation to an app container network capability.
 old-location: fwp\fwpm_net_event_capability_allow0.htm
 tech.root: fwp
 ms.assetid: e53e92e5-f7fa-4457-8681-754b50b24273
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_NET_EVENT_CAPABILITY_ALLOW0, FWPM_NET_EVENT_CAPABILITY_ALLOW0 structure [Filtering], fwp.fwpm_net_event_capability_allow0, fwpmtypes/FWPM_NET_EVENT_CAPABILITY_ALLOW0
 ms.topic: struct
-f1_keywords: 
- - "fwpmtypes/FWPM_NET_EVENT_CAPABILITY_ALLOW0"
+f1_keywords:
+- fwpmtypes/FWPM_NET_EVENT_CAPABILITY_ALLOW0
 dev_langs:
- - c++
+- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwpmtypes.h
+- Fwpmtypes.h
 api_name:
- - FWPM_NET_EVENT_CAPABILITY_ALLOW0
+- FWPM_NET_EVENT_CAPABILITY_ALLOW0
 targetos: Windows
 req.typenames: FWPM_NET_EVENT_CAPABILITY_ALLOW0
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl.VPWATERMARKFLAGS
 title: VPWATERMARKFLAGS (shobjidl.h)
-
 description: Specifies watermark flags. Used by IVisualProperties::SetWatermark.
 old-location: shell\VPWATERMARKFLAGS.htm
 tech.root: shell
 ms.assetid: e54db88e-c334-442b-8ab5-6004176aab41
-
 ms.date: 12/05/2018
 ms.keywords: VPWATERMARKFLAGS, VPWATERMARKFLAGS enumeration [Windows Shell], VPWF_ALPHABLEND, VPWF_DEFAULT, _shell_VPWATERMARKFLAGS, shell.VPWATERMARKFLAGS, shobjidl/VPWATERMARKFLAGS, shobjidl/VPWF_ALPHABLEND, shobjidl/VPWF_DEFAULT
 ms.topic: enum
-f1_keywords: 
- - "shobjidl/VPWATERMARKFLAGS"
+f1_keywords:
+- shobjidl/VPWATERMARKFLAGS
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - VPWATERMARKFLAGS
+- VPWATERMARKFLAGS
 targetos: Windows
 req.typenames: VPWATERMARKFLAGS
 req.redist: 

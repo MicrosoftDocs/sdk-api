@@ -5,10 +5,10 @@ description: Encapsulates a list of graphics commands for rendering, extending t
 ms.date: 05/20/2019
 ms.keywords: ID3D12GraphicsCommandList5
 ms.topic: language-reference
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList5"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList5
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface
@@ -24,13 +24,13 @@ req.target-min-winversvr:
 req.target-type: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - ID3D12GraphicsCommandList5
+- ID3D12GraphicsCommandList5
 ---
 
 ## -description

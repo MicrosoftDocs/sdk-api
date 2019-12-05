@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IObjectId.GetAlgorithmName
 title: IObjectId::GetAlgorithmName (certenroll.h)
-
 description: Retrieves the display name associated with an algorithm object identifier (OID).
 old-location: security\iobjectid_getalgorithmname.htm
 tech.root: seccertenroll
 ms.assetid: 3d24d658-1016-4e63-8d93-5db0a3144121
-
 ms.date: 12/05/2018
 ms.keywords: GetAlgorithmName, GetAlgorithmName method [Security], GetAlgorithmName method [Security],IObjectId interface, IObjectId interface [Security],GetAlgorithmName method, IObjectId.GetAlgorithmName, IObjectId::GetAlgorithmName, certenroll/IObjectId::GetAlgorithmName, security.iobjectid_getalgorithmname
 ms.topic: method
-f1_keywords: 
- - "certenroll/IObjectId.GetAlgorithmName"
+f1_keywords:
+- certenroll/IObjectId.GetAlgorithmName
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IObjectId.GetAlgorithmName
+- IObjectId.GetAlgorithmName
 targetos: Windows
 req.typenames: 
 req.redist: 

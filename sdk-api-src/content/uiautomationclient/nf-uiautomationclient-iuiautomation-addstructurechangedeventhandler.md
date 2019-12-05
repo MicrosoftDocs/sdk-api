@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.AddStructureChangedEventHandler
 title: IUIAutomation::AddStructureChangedEventHandler (uiautomationclient.h)
-
 description: Registers a method that handles structure-changed events.Note  Before implementing an event handler, you should be familiar with the threading issues described in Understanding Threading Issues.
 old-location: winauto\uiauto_IUIAutomation_AddStructureChangedEventHandler.htm
 tech.root: WinAuto
 ms.assetid: 671049a4-50cf-49df-9028-7af38629b7a9
-
 ms.date: 12/05/2018
 ms.keywords: AddStructureChangedEventHandler, AddStructureChangedEventHandler method [Windows Accessibility], AddStructureChangedEventHandler method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],AddStructureChangedEventHandler method, IUIAutomation.AddStructureChangedEventHandler, IUIAutomation::AddStructureChangedEventHandler, uiauto.uiauto_IUIAutomation_AddStructureChangedEventHandler, uiauto_IUIAutomation_AddStructureChangedEventHandler, uiautomationclient/IUIAutomation::AddStructureChangedEventHandler, winauto.uiauto_IUIAutomation_AddStructureChangedEventHandler
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation.AddStructureChangedEventHandler"
+f1_keywords:
+- uiautomationclient/IUIAutomation.AddStructureChangedEventHandler
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation.AddStructureChangedEventHandler
+- IUIAutomation.AddStructureChangedEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

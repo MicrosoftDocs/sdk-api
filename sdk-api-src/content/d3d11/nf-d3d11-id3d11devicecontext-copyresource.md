@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.CopyResource
 title: ID3D11DeviceContext::CopyResource (d3d11.h)
-
 description: Copy the entire contents of the source resource to the destination resource using the GPU.
 old-location: direct3d11\id3d11devicecontext_copyresource.htm
 tech.root: direct3d11
 ms.assetid: 54c1c08a-792c-463d-8237-9f7947d15396
-
 ms.date: 12/05/2018
 ms.keywords: CopyResource, CopyResource method [Direct3D 11], CopyResource method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],CopyResource method, ID3D11DeviceContext.CopyResource, ID3D11DeviceContext::CopyResource, b389573e-412e-6a72-6e59-396d4bd62341, d3d11/ID3D11DeviceContext::CopyResource, direct3d11.id3d11devicecontext_copyresource
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.CopyResource"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.CopyResource
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.CopyResource
+- ID3D11DeviceContext.CopyResource
 targetos: Windows
 req.typenames: 
 req.redist: 

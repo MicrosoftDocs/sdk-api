@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfContextComposition.FindComposition
 title: ITfContextComposition::FindComposition (msctf.h)
-
 description: ITfContextComposition::FindComposition method
 old-location: tsf\itfcontextcomposition_findcomposition.htm
 tech.root: TSF
 ms.assetid: f5a7bd54-3b8f-44fd-ae6e-1415cc69c49e
-
 ms.date: 12/05/2018
 ms.keywords: FindComposition, FindComposition method [Text Services Framework], FindComposition method [Text Services Framework],ITfContextComposition interface, ITfContextComposition interface [Text Services Framework],FindComposition method, ITfContextComposition.FindComposition, ITfContextComposition::FindComposition, _tsf_itfcontextcomposition_findcomposition_ref, msctf/ITfContextComposition::FindComposition, tsf.itfcontextcomposition_findcomposition
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfContextComposition.FindComposition"
+f1_keywords:
+- msctf/ITfContextComposition.FindComposition
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfContextComposition.FindComposition
+- ITfContextComposition.FindComposition
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

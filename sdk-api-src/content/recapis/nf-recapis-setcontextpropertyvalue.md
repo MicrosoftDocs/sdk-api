@@ -1,19 +1,17 @@
 ---
 UID: NF:recapis.SetContextPropertyValue
 title: SetContextPropertyValue function (recapis.h)
-
 description: Adds a property to the recognizer context.If a property already exists, its value is modified.
 old-location: tablet\setcontextpropertyvalue.htm
 tech.root: tablet
 ms.assetid: 42b1857d-92ee-456f-aafc-b8780526a137
-
 ms.date: 12/05/2018
 ms.keywords: 42b1857d-92ee-456f-aafc-b8780526a137, SetContextPropertyValue, SetContextPropertyValue function [Tablet PC], recapis/SetContextPropertyValue, tablet.setcontextpropertyvalue
 ms.topic: function
-f1_keywords: 
- - "recapis/SetContextPropertyValue"
+f1_keywords:
+- recapis/SetContextPropertyValue
 dev_langs:
- - c++
+- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - recapis.h
+- recapis.h
 api_name:
- - SetContextPropertyValue
+- SetContextPropertyValue
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudiohrtf.ISpatialAudioObjectForHrtf.SetOrientation
 title: ISpatialAudioObjectForHrtf::SetOrientation (spatialaudiohrtf.h)
-
 description: Sets the orientation in 3D space, relative to the listener's frame of reference, from which the ISpatialAudioObjectForHrtf audio data will be rendered.
 old-location: coreaudio\ispatialaudioobjectforhrtf_setorientation.htm
 tech.root: CoreAudio
 ms.assetid: 2B88643A-C81A-4F11-BFD0-EEF4C65861C8
-
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectForHrtf interface [Core Audio],SetOrientation method, ISpatialAudioObjectForHrtf.SetOrientation, ISpatialAudioObjectForHrtf::SetOrientation, SetOrientation, SetOrientation method [Core Audio], SetOrientation method [Core Audio],ISpatialAudioObjectForHrtf interface, coreaudio.ispatialaudioobjectforhrtf_setorientation, spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetOrientation
 ms.topic: method
-f1_keywords: 
- - "spatialaudiohrtf/ISpatialAudioObjectForHrtf.SetOrientation"
+f1_keywords:
+- spatialaudiohrtf/ISpatialAudioObjectForHrtf.SetOrientation
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spatialaudiohrtf.h
+- spatialaudiohrtf.h
 api_name:
- - ISpatialAudioObjectForHrtf.SetOrientation
+- ISpatialAudioObjectForHrtf.SetOrientation
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1.D2D1_FILL_MODE
 title: D2D1_FILL_MODE (d2d1.h)
-
 description: Specifies how the intersecting areas of geometries or figures are combined to form the area of the composite geometry.
 old-location: direct2d\D2D1_FILL_MODE.htm
 tech.root: Direct2D
 ms.assetid: f1a14447-39fa-4a48-9516-ff5b03abc3a6
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_FILL_MODE, D2D1_FILL_MODE enumeration [Direct2D], D2D1_FILL_MODE_ALTERNATE, D2D1_FILL_MODE_WINDING, d2d1/D2D1_FILL_MODE, d2d1/D2D1_FILL_MODE_ALTERNATE, d2d1/D2D1_FILL_MODE_WINDING, direct2d.D2D1_FILL_MODE
 ms.topic: enum
-f1_keywords: 
- - "d2d1/D2D1_FILL_MODE"
+f1_keywords:
+- d2d1/D2D1_FILL_MODE
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1.h
+- d2d1.h
 api_name:
- - D2D1_FILL_MODE
+- D2D1_FILL_MODE
 targetos: Windows
 req.typenames: D2D1_FILL_MODE
 req.redist: 

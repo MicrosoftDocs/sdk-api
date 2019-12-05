@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetCompatiblityDescriptorLength
 title: IIsdbDownloadContentDescriptor::GetCompatiblityDescriptorLength (dvbsiparser.h)
-
 description: Gets the length of the compatibility descriptor from an Integrated Services Digital Broadcasting (ISDB) download content descriptor.
 old-location: mstv\iisdbdownloadcontentdescriptor_getcompatiblitydescriptorlength.htm
 tech.root: mstv
 ms.assetid: b8fc770c-aa37-4f97-beb5-6e5747904a6c
-
 ms.date: 12/05/2018
 ms.keywords: GetCompatiblityDescriptorLength, GetCompatiblityDescriptorLength method [Microsoft TV Technologies], GetCompatiblityDescriptorLength method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetCompatiblityDescriptorLength method, IIsdbDownloadContentDescriptor.GetCompatiblityDescriptorLength, IIsdbDownloadContentDescriptor::GetCompatiblityDescriptorLength, dvbsiparser/IIsdbDownloadContentDescriptor::GetCompatiblityDescriptorLength, mstv.iisdbdownloadcontentdescriptor_getcompatiblitydescriptorlength
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbDownloadContentDescriptor.GetCompatiblityDescriptorLength"
+f1_keywords:
+- dvbsiparser/IIsdbDownloadContentDescriptor.GetCompatiblityDescriptorLength
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbDownloadContentDescriptor.GetCompatiblityDescriptorLength
+- IIsdbDownloadContentDescriptor.GetCompatiblityDescriptorLength
 targetos: Windows
 req.typenames: 
 req.redist: 

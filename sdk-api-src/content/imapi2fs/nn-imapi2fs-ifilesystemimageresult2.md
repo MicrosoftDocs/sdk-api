@@ -1,19 +1,17 @@
 ---
 UID: NN:imapi2fs.IFileSystemImageResult2
 title: IFileSystemImageResult2 (imapi2fs.h)
-
 description: The IFileSystemImageResult2 interface allows the data recorder object to retrieve information about modified blocks in images created for rewritable discs.
 old-location: imapi\ifilesystemimageresult2.htm
 tech.root: imapi
 ms.assetid: 83834da1-fa5a-42ef-8e59-7ba133d3e6cb
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImageResult2, IFileSystemImageResult2 interface [IMAPI], IFileSystemImageResult2 interface [IMAPI],described, imapi.ifilesystemimageresult2, imapi2fs/IFileSystemImageResult2
 ms.topic: interface
-f1_keywords: 
- - "imapi2fs/IFileSystemImageResult2"
+f1_keywords:
+- imapi2fs/IFileSystemImageResult2
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImageResult2
+- IFileSystemImageResult2
 targetos: Windows
 req.typenames: 
 req.redist: 

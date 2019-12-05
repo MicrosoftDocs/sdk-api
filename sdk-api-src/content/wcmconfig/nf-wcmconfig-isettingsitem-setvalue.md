@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.SetValue
 title: ISettingsItem::SetValue (wcmconfig.h)
-
 description: Sets the value of an item.
 old-location: smi\isettingsitem_setvalue.htm
 tech.root: SMI
 ms.assetid: 52b7e852-b389-47ec-a9d0-e4ce2e95f1f8
-
 ms.date: 12/05/2018
 ms.keywords: ISettingsItem interface [SMI],SetValue method, ISettingsItem.SetValue, ISettingsItem::SetValue, SetValue, SetValue method [SMI], SetValue method [SMI],ISettingsItem interface, smi.isettingsitem_setvalue, wcmconfig/ISettingsItem::SetValue
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsItem.SetValue"
+f1_keywords:
+- wcmconfig/ISettingsItem.SetValue
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsItem.SetValue
+- ISettingsItem.SetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:winevt._EVT_SUBSCRIBE_NOTIFY_ACTION
 title: EVT_SUBSCRIBE_NOTIFY_ACTION (winevt.h)
-
 description: Defines the possible types of data that the subscription service can deliver to your callback.
 old-location: wes\evt_subscribe_notify_action.htm
 tech.root: wes
 ms.assetid: 75166c22-c55c-41b4-8089-ff9a89ddebf5
-
 ms.date: 12/05/2018
 ms.keywords: EVT_SUBSCRIBE_NOTIFY_ACTION, EVT_SUBSCRIBE_NOTIFY_ACTION enumeration [EventLog], EvtSubscribeActionDeliver, EvtSubscribeActionError, wes.evt_subscribe_notify_action, winevt/EVT_SUBSCRIBE_NOTIFY_ACTION, winevt/EvtSubscribeActionDeliver, winevt/EvtSubscribeActionError
 ms.topic: enum
-f1_keywords: 
- - "winevt/EVT_SUBSCRIBE_NOTIFY_ACTION"
+f1_keywords:
+- winevt/EVT_SUBSCRIBE_NOTIFY_ACTION
 dev_langs:
- - c++
+- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinEvt.h
+- WinEvt.h
 api_name:
- - EVT_SUBSCRIBE_NOTIFY_ACTION
+- EVT_SUBSCRIBE_NOTIFY_ACTION
 targetos: Windows
 req.typenames: EVT_SUBSCRIBE_NOTIFY_ACTION
 req.redist: 

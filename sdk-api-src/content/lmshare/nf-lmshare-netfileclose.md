@@ -1,19 +1,17 @@
 ---
 UID: NF:lmshare.NetFileClose
 title: NetFileClose function (lmshare.h)
-
 description: Forces a resource to close. This function can be used when an error prevents closure by any other means. You should use NetFileClose with caution because it does not write data cached on the client system to the file before closing the file.
 old-location: fs\netfileclose.htm
 tech.root: NetShare
 ms.assetid: 36a5f464-fec3-4b4f-91c3-447ff5ff70af
-
 ms.date: 12/05/2018
 ms.keywords: NetFileClose, NetFileClose function [Files], _win32_netfileclose, fs.netfileclose, lmshare/NetFileClose, netmgmt.netfileclose
 ms.topic: function
-f1_keywords: 
- - "lmshare/NetFileClose"
+f1_keywords:
+- lmshare/NetFileClose
 dev_langs:
- - c++
+- c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetFileClose
+- NetFileClose
 targetos: Windows
 req.typenames: 
 req.redist: 

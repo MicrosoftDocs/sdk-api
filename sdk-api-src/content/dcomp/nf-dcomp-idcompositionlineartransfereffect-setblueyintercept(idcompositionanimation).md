@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetBlueYIntercept(IDCompositionAnimation)
 title: IDCompositionLinearTransferEffect::SetBlueYIntercept(IDCompositionAnimation) (dcomp.h)
-
 description: Sets the Y-intercept of the linear function for the blue channel.
 old-location: directcomp\idcompositionlineartransfereffect_setblueyintercept_2.htm
 tech.root: directcomp
 ms.assetid: A75B26EB-CEA2-45E3-999D-9A49A261AA54
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetBlueYIntercept method, IDCompositionLinearTransferEffect.SetBlueYIntercept, IDCompositionLinearTransferEffect.SetBlueYIntercept(IDCompositionAnimation), IDCompositionLinearTransferEffect::SetBlueYIntercept, IDCompositionLinearTransferEffect::SetBlueYIntercept(IDCompositionAnimation), SetBlueYIntercept, SetBlueYIntercept method [DirectComposition], SetBlueYIntercept method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetBlueYIntercept, directcomp.idcompositionlineartransfereffect_setblueyintercept_2
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionLinearTransferEffect.SetBlueYIntercept"
+f1_keywords:
+- dcomp/IDCompositionLinearTransferEffect.SetBlueYIntercept
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionLinearTransferEffect.SetBlueYIntercept
+- IDCompositionLinearTransferEffect.SetBlueYIntercept
 targetos: Windows
 req.typenames: 
 req.redist: 

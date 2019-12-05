@@ -1,19 +1,17 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.CanBuySilent
 title: IWMPContentPartner::CanBuySilent (contentpartner.h)
-
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartner_canbuysilent.htm
 tech.root: WMP
 ms.assetid: 1faec369-199e-48d4-9c0a-6cbad39a7073
-
 ms.date: 12/05/2018
 ms.keywords: CanBuySilent, CanBuySilent method [Windows Media Player], CanBuySilent method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],CanBuySilent method, IWMPContentPartner.CanBuySilent, IWMPContentPartner::CanBuySilent, IWMPContentPartnerCanBuySilent, contentpartner/IWMPContentPartner::CanBuySilent, wmp.iwmpcontentpartner_canbuysilent
 ms.topic: method
-f1_keywords: 
- - "contentpartner/IWMPContentPartner.CanBuySilent"
+f1_keywords:
+- contentpartner/IWMPContentPartner.CanBuySilent
 dev_langs:
- - c++
+- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - contentpartner.h
+- contentpartner.h
 api_name:
- - IWMPContentPartner.CanBuySilent
+- IWMPContentPartner.CanBuySilent
 targetos: Windows
 req.typenames: 
 req.redist: 

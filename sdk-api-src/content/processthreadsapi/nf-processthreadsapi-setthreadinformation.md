@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.SetThreadInformation
 title: SetThreadInformation function (processthreadsapi.h)
-
 description: Sets information for the specified thread.
 old-location: base\setthreadinformation.htm
 tech.root: ProcThread
 ms.assetid: c0159bea-870a-46b7-a350-91fe52efae49
-
 ms.date: 12/05/2018
 ms.keywords: SetThreadInformation, SetThreadInformation function, base.setthreadinformation, processthreadsapi/SetThreadInformation
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/SetThreadInformation"
+f1_keywords:
+- processthreadsapi/SetThreadInformation
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - api-ms-win-downlevel-kernel32-l1-1-0.dll
- - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+- Kernel32.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- api-ms-win-downlevel-kernel32-l1-1-0.dll
+- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 api_name:
- - SetThreadInformation
+- SetThreadInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

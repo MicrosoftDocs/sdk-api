@@ -1,19 +1,17 @@
 ---
 UID: NS:shlobj_core._tagCOMPONENTSOPT
 title: COMPONENTSOPT (shlobj_core.h)
-
 description: Contains the desktop item options.
 old-location: shell\COMPONENTSOPT.htm
 tech.root: shell
 ms.assetid: c56a2061-903a-4777-a3fc-bb1fae1f8c43
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCOMPONENTSOPT, COMPONENTSOPT, COMPONENTSOPT structure [Windows Shell], _tagCOMPONENTSOPT, _win32_COMPONENTSOPT, shell.COMPONENTSOPT, shlobj_core/COMPONENTSOPT"
+ms.keywords: '*LPCOMPONENTSOPT, COMPONENTSOPT, COMPONENTSOPT structure [Windows Shell], _tagCOMPONENTSOPT, _win32_COMPONENTSOPT, shell.COMPONENTSOPT, shlobj_core/COMPONENTSOPT'
 ms.topic: struct
-f1_keywords: 
- - "shlobj_core/COMPONENTSOPT"
+f1_keywords:
+- shlobj_core/COMPONENTSOPT
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - COMPONENTSOPT
+- COMPONENTSOPT
 targetos: Windows
 req.typenames: COMPONENTSOPT
 req.redist: 

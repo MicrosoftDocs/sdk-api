@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.SHEmptyRecycleBinW
 title: SHEmptyRecycleBinW function (shellapi.h)
-
 description: Empties the Recycle Bin on the specified drive.
 old-location: shell\SHEmptyRecycleBin.htm
 tech.root: shell
 ms.assetid: c3995be7-bc8b-4e1f-8ef6-fdf4c0a75720
-
 ms.date: 12/05/2018
 ms.keywords: SHERB_NOCONFIRMATION, SHERB_NOPROGRESSUI, SHERB_NOSOUND, SHEmptyRecycleBin, SHEmptyRecycleBin function [Windows Shell], SHEmptyRecycleBinA, SHEmptyRecycleBinW, _win32_SHEmptyRecycleBin, shell.SHEmptyRecycleBin, shellapi/SHEmptyRecycleBin, shellapi/SHEmptyRecycleBinA, shellapi/SHEmptyRecycleBinW
 ms.topic: function
-f1_keywords: 
- - "shellapi/SHEmptyRecycleBin"
+f1_keywords:
+- shellapi/SHEmptyRecycleBin
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Shell32.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - SHEmptyRecycleBin
- - SHEmptyRecycleBinA
- - SHEmptyRecycleBinW
+- SHEmptyRecycleBin
+- SHEmptyRecycleBinA
+- SHEmptyRecycleBinW
 targetos: Windows
 req.typenames: 
 req.redist: 

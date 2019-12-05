@@ -1,19 +1,17 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.GetVolumeRange
 title: IAudioEndpointVolume::GetVolumeRange (endpointvolume.h)
-
 description: The GetVolumeRange method gets the volume range, in decibels, of the audio stream that enters or leaves the audio endpoint device.
 old-location: coreaudio\iaudioendpointvolume_getvolumerange.htm
 tech.root: CoreAudio
 ms.assetid: a0e98ed8-36e2-4abc-aa83-008cc89e3a56
-
 ms.date: 12/05/2018
 ms.keywords: GetVolumeRange, GetVolumeRange method [Core Audio], GetVolumeRange method [Core Audio],IAudioEndpointVolume interface, IAudioEndpointVolume interface [Core Audio],GetVolumeRange method, IAudioEndpointVolume.GetVolumeRange, IAudioEndpointVolume::GetVolumeRange, IAudioEndpointVolumeGetVolumeRange, coreaudio.iaudioendpointvolume_getvolumerange, endpointvolume/IAudioEndpointVolume::GetVolumeRange
 ms.topic: method
-f1_keywords: 
- - "endpointvolume/IAudioEndpointVolume.GetVolumeRange"
+f1_keywords:
+- endpointvolume/IAudioEndpointVolume.GetVolumeRange
 dev_langs:
- - c++
+- c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Endpointvolume.h
+- Endpointvolume.h
 api_name:
- - IAudioEndpointVolume.GetVolumeRange
+- IAudioEndpointVolume.GetVolumeRange
 targetos: Windows
 req.typenames: 
 req.redist: 

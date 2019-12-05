@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_GetOutlineColor
 title: ListView_GetOutlineColor macro (commctrl.h)
-
 description: Gets the color of the border of a list-view control if the LVS_EX_BORDERSELECT extended window style is set. You can use this macro or send the LVM_GETOUTLINECOLOR message explicitly.
 old-location: controls\ListView_GetOutlineColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getoutlinecolor.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_GetOutlineColor, ListView_GetOutlineColor macro [Windows Controls], _win32_ListView_GetOutlineColor, _win32_ListView_GetOutlineColor_cpp, commctrl/ListView_GetOutlineColor, controls.ListView_GetOutlineColor, controls._win32_ListView_GetOutlineColor
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_GetOutlineColor"
+f1_keywords:
+- commctrl/ListView_GetOutlineColor
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_GetOutlineColor
+- ListView_GetOutlineColor
 targetos: Windows
 req.typenames: 
 req.redist: 

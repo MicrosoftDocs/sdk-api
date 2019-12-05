@@ -1,19 +1,17 @@
 ---
 UID: NS:eaptypes._EapUsernamePasswordCredential
 title: EapUsernamePasswordCredential
-
 description: Contains the username and password that is used by the EAP method for authenticating the user.
 old-location: eaphost\eapusernamepasswordcredential.htm
 tech.root: eaphost
 ms.assetid: 61484095-4354-4103-9E21-683002750B26
-
 ms.date: 12/05/2018
 ms.keywords: _EapUsernamePasswordCredential, EapUsernamePasswordCredential
 ms.topic: struct
-f1_keywords: 
- - "eaptypes/_EapUsernamePasswordCredential"
+f1_keywords:
+- eaptypes/_EapUsernamePasswordCredential
 dev_langs:
- - c++
+- c++
 req.construct-type: structure
 req.header: eaptypes.h
 req.include-header: 
@@ -33,14 +31,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - eaptypes.h
+- eaptypes.h
 api_name:
- - _EapUsernamePasswordCredential
- - EapUsernamePasswordCredential
+- _EapUsernamePasswordCredential
+- EapUsernamePasswordCredential
 targetos: Windows
 req.typenames: EapUsernamePasswordCredential
 req.redist: 

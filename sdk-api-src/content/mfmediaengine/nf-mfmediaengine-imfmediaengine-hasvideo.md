@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.HasVideo
 title: IMFMediaEngine::HasVideo (mfmediaengine.h)
-
 description: Queries whether the current media resource contains a video stream.
 old-location: mf\imfmediaengine_hasvideo.htm
 tech.root: medfound
 ms.assetid: 30B7F4DC-B3EB-421B-998B-E098F04D4B33
-
 ms.date: 12/05/2018
 ms.keywords: HasVideo, HasVideo method [Media Foundation], HasVideo method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],HasVideo method, IMFMediaEngine.HasVideo, IMFMediaEngine::HasVideo, mf.imfmediaengine_hasvideo, mfmediaengine/IMFMediaEngine::HasVideo
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngine.HasVideo"
+f1_keywords:
+- mfmediaengine/IMFMediaEngine.HasVideo
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngine.HasVideo
+- IMFMediaEngine.HasVideo
 targetos: Windows
 req.typenames: 
 req.redist: 

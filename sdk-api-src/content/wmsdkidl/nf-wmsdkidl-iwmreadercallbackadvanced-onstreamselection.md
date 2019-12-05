@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderCallbackAdvanced.OnStreamSelection
 title: IWMReaderCallbackAdvanced::OnStreamSelection (wmsdkidl.h)
-
 description: The OnStreamSelection method notifies the application of stream changes made due to bandwidth restrictions. To have this method called, call IWMReaderAdvanced::SetReceiveSelectionCallbacks.
 old-location: wmformat\iwmreadercallbackadvanced_onstreamselection.htm
 tech.root: wmformat
 ms.assetid: d0d699b3-e2f3-427c-9159-e2ed875887ca
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderCallbackAdvanced interface [windows Media Format],OnStreamSelection method, IWMReaderCallbackAdvanced.OnStreamSelection, IWMReaderCallbackAdvanced::OnStreamSelection, IWMReaderCallbackAdvancedOnStreamSelection, OnStreamSelection, OnStreamSelection method [windows Media Format], OnStreamSelection method [windows Media Format],IWMReaderCallbackAdvanced interface, wmformat.iwmreadercallbackadvanced_onstreamselection, wmsdkidl/IWMReaderCallbackAdvanced::OnStreamSelection
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderCallbackAdvanced.OnStreamSelection"
+f1_keywords:
+- wmsdkidl/IWMReaderCallbackAdvanced.OnStreamSelection
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - IWMReaderCallbackAdvanced.OnStreamSelection
+- IWMReaderCallbackAdvanced.OnStreamSelection
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationcore.IAccessibleEx
 title: IAccessibleEx (uiautomationcore.h)
-
 description: Exposes methods that are called by Microsoft UI Automation to retrieve extra information about a control that supports Microsoft Active Accessibility.
 old-location: winauto\uiauto_IAccessibleEx.htm
 tech.root: WinAuto
 ms.assetid: 90211503-a73c-4380-be96-0be40ad29382
-
 ms.date: 12/05/2018
 ms.keywords: IAccessibleEx, IAccessibleEx interface [Windows Accessibility], IAccessibleEx interface [Windows Accessibility],described, uiauto.uiauto_IAccessibleEx, uiauto_IAccessibleEx, uiautomationcore/IAccessibleEx, winauto.uiauto_IAccessibleEx
 ms.topic: interface
-f1_keywords: 
- - "uiautomationcore/IAccessibleEx"
+f1_keywords:
+- uiautomationcore/IAccessibleEx
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IAccessibleEx
+- IAccessibleEx
 targetos: Windows
 req.typenames: 
 req.redist: 

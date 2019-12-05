@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ITypeInfo.AddressOfMember
 title: ITypeInfo::AddressOfMember (oaidl.h)
-
 description: Retrieves the addresses of static functions or variables, such as those defined in a DLL.
 old-location: automat\itypeinfo_addressofmember.htm
 tech.root: automat
 ms.assetid: cf351457-13ff-4e40-9d92-89c6db42627c
-
 ms.date: 12/05/2018
 ms.keywords: AddressOfMember, AddressOfMember method [Automation], AddressOfMember method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],AddressOfMember method, ITypeInfo.AddressOfMember, ITypeInfo::AddressOfMember, _oa96_ITypeInfo_AddressOfMember, automat.itypeinfo_addressofmember, oaidl/ITypeInfo::AddressOfMember
 ms.topic: method
-f1_keywords: 
- - "oaidl/ITypeInfo.AddressOfMember"
+f1_keywords:
+- oaidl/ITypeInfo.AddressOfMember
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeInfo.AddressOfMember
+- ITypeInfo.AddressOfMember
 targetos: Windows
 req.typenames: 
 req.redist: 

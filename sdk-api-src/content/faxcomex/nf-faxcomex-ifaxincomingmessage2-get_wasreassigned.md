@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage2.get_WasReAssigned
 title: IFaxIncomingMessage2::get_WasReAssigned (faxcomex.h)
-
 description: Indicates if the fax has been reassigned.
 old-location: fax\_mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_wasreassigned_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxincomingmessage2\wasreassigned.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessage2 interface [Fax Service],WasReAssigned property, IFaxIncomingMessage2.WasReAssigned, IFaxIncomingMessage2.get_WasReAssigned, IFaxIncomingMessage2::WasReAssigned, IFaxIncomingMessage2::get_WasReAssigned, WasReAssigned property [Fax Service], WasReAssigned property [Fax Service],IFaxIncomingMessage2 interface, _mfax_faxincomingmessage.wasreassigned, fax._mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_wasreassigned_cpp, fax._mfax_faxincomingmessage_wasreassigned, faxcomex/IFaxIncomingMessage2::WasReAssigned, faxcomex/IFaxIncomingMessage2::get_WasReAssigned, get_WasReAssigned
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxIncomingMessage2.WasReAssigned"
+f1_keywords:
+- faxcomex/IFaxIncomingMessage2.WasReAssigned
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxIncomingMessage2.WasReAssigned
- - IFaxIncomingMessage2.get_WasReAssigned
- - IFaxIncomingMessage2.get_WasReAssigned
+- IFaxIncomingMessage2.WasReAssigned
+- IFaxIncomingMessage2.get_WasReAssigned
+- IFaxIncomingMessage2.get_WasReAssigned
 targetos: Windows
 req.typenames: 
 req.redist: 

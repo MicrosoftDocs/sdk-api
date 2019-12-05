@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.GetClickablePoint
 title: IUIAutomationElement::GetClickablePoint (uiautomationclient.h)
-
 description: Retrieves a point on the element that can be clicked.
 old-location: winauto\uiauto_IUIAutomationElement_GetClickablePoint.htm
 tech.root: WinAuto
 ms.assetid: 3762aac6-5bd8-43a6-8fe6-e79d8724622b
-
 ms.date: 12/05/2018
 ms.keywords: GetClickablePoint, GetClickablePoint method [Windows Accessibility], GetClickablePoint method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetClickablePoint method, IUIAutomationElement.GetClickablePoint, IUIAutomationElement::GetClickablePoint, uiauto.uiauto_IUIAutomationElement_GetClickablePoint, uiauto_IUIAutomationElement_GetClickablePoint, uiautomationclient/IUIAutomationElement::GetClickablePoint, winauto.uiauto_IUIAutomationElement_GetClickablePoint
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.GetClickablePoint"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.GetClickablePoint
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.GetClickablePoint
+- IUIAutomationElement.GetClickablePoint
 targetos: Windows
 req.typenames: 
 req.redist: 

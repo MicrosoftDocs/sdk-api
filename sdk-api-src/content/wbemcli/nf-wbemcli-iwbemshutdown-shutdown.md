@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemShutdown.Shutdown
 title: IWbemShutdown::Shutdown (wbemcli.h)
-
 description: The IWbemShutdown::Shutdown method indicates to the provider that the provider services are not required.
 old-location: wmi\iwbemshutdown_shutdown.htm
 tech.root: WmiSdk
 ms.assetid: b6eb56ae-5869-413f-a455-22616b04c18f
-
 ms.date: 12/05/2018
 ms.keywords: IWbemShutdown interface [Windows Management Instrumentation],Shutdown method, IWbemShutdown.Shutdown, IWbemShutdown::Shutdown, Shutdown, Shutdown method [Windows Management Instrumentation], Shutdown method [Windows Management Instrumentation],IWbemShutdown interface, wbemcli/IWbemShutdown::Shutdown, wmi.iwbemshutdown_shutdown
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemShutdown.Shutdown"
+f1_keywords:
+- wbemcli/IWbemShutdown.Shutdown
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fastprox.dll
+- Fastprox.dll
 api_name:
- - IWbemShutdown.Shutdown
+- IWbemShutdown.Shutdown
 targetos: Windows
 req.typenames: 
 req.redist: 

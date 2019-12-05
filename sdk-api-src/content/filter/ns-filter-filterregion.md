@@ -1,19 +1,17 @@
 ---
 UID: NS:filter.tagFILTERREGION
 title: FILTERREGION (filter.h)
-
 description: Describes the position and extent of a specified portion of text within an object.
 old-location: indexsrv\filterregion.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_9usu.htm
-
 ms.date: 12/05/2018
 ms.keywords: FILTERREGION, FILTERREGION structure [Indexing Service], _idxs_FILTERREGION, filter/FILTERREGION, indexsrv.filterregion, tagFILTERREGION
 ms.topic: struct
-f1_keywords: 
- - "filter/FILTERREGION"
+f1_keywords:
+- filter/FILTERREGION
 dev_langs:
- - c++
+- c++
 req.header: filter.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Filter.h
+- Filter.h
 api_name:
- - FILTERREGION
+- FILTERREGION
 targetos: Windows
 req.typenames: FILTERREGION
 req.redist: 

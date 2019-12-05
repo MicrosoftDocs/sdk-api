@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfLangBarEventSink.OnModalInput
 title: ITfLangBarEventSink::OnModalInput (ctfutb.h)
-
 description: ITfLangBarEventSink::OnModalInput method
 old-location: tsf\itflangbareventsink_onmodalinput.htm
 tech.root: TSF
 ms.assetid: 781efe26-f3f4-401b-9558-d228e875abc4
-
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarEventSink interface [Text Services Framework],OnModalInput method, ITfLangBarEventSink.OnModalInput, ITfLangBarEventSink::OnModalInput, OnModalInput, OnModalInput method [Text Services Framework], OnModalInput method [Text Services Framework],ITfLangBarEventSink interface, _tsf_itflangbareventsink_onmodalinput_ref, ctfutb/ITfLangBarEventSink::OnModalInput, tsf.itflangbareventsink_onmodalinput
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfLangBarEventSink.OnModalInput"
+f1_keywords:
+- ctfutb/ITfLangBarEventSink.OnModalInput
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msutb.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msutb.dll
+- msutb.dll
 api_name:
- - ITfLangBarEventSink.OnModalInput
+- ITfLangBarEventSink.OnModalInput
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

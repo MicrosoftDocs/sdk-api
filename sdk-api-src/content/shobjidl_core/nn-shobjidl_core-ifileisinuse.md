@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IFileIsInUse
 title: IFileIsInUse (shobjidl_core.h)
-
 description: Exposes methods that can be called to get information on or close a file that is in use by another application.
 old-location: shell\IFileIsInUse.htm
 tech.root: shell
 ms.assetid: 68a4ab3d-165e-4917-8915-77f15901dbad
-
 ms.date: 12/05/2018
 ms.keywords: IFileIsInUse, IFileIsInUse interface [Windows Shell], IFileIsInUse interface [Windows Shell],described, _shell_IFileIsInUse, shell.IFileIsInUse, shobjidl_core/IFileIsInUse
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IFileIsInUse"
+f1_keywords:
+- shobjidl_core/IFileIsInUse
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileIsInUse
+- IFileIsInUse
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.IsCancelled
 title: IPhotoProgressDialog::IsCancelled (photoacquire.h)
-
 description: The IsCancelled method indicates whether the operation has been canceled via the progress dialog box.
 old-location: picacq\iphotoprogressdialog_iscancelled.htm
 tech.root: acquisition
 ms.assetid: 0bd84b1f-7a2a-40eb-ba77-21a8f701e5e0
-
 ms.date: 12/05/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],IsCancelled method, IPhotoProgressDialog.IsCancelled, IPhotoProgressDialog::IsCancelled, IPhotoProgressDialogIsCancelled, IsCancelled, IsCancelled method [Picture Acquisition], IsCancelled method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::IsCancelled, picacq.iphotoprogressdialog_iscancelled
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoProgressDialog.IsCancelled"
+f1_keywords:
+- photoacquire/IPhotoProgressDialog.IsCancelled
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoProgressDialog.IsCancelled
+- IPhotoProgressDialog.IsCancelled
 targetos: Windows
 req.typenames: 
 req.redist: 

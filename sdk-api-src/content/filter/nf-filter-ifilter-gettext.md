@@ -1,19 +1,17 @@
 ---
 UID: NF:filter.IFilter.GetText
 title: IFilter::GetText (filter.h)
-
 description: Retrieves text (text-type properties) from the current chunk, which must have a CHUNKSTATE enumeration value of CHUNK_TEXT.
 old-location: indexsrv\ifilter_gettext.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_5378.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetText, GetText method [Indexing Service], GetText method [Indexing Service],IFilter interface, IFilter interface [Indexing Service],GetText method, IFilter.GetText, IFilter::GetText, _idxs_IFilter_GetText, filter/IFilter::GetText, indexsrv.ifilter_gettext
 ms.topic: method
-f1_keywords: 
- - "filter/IFilter.GetText"
+f1_keywords:
+- filter/IFilter.GetText
 dev_langs:
- - c++
+- c++
 req.header: filter.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Filter.h
+- Filter.h
 api_name:
- - IFilter.GetText
+- IFilter.GetText
 targetos: Windows
 req.typenames: 
 req.redist: 

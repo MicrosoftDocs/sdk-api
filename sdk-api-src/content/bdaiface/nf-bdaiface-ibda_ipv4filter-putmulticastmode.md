@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_IPV4Filter.PutMulticastMode
 title: IBDA_IPV4Filter::PutMulticastMode (bdaiface.h)
-
 description: The PutMulticastMode method sets the multicast mode.
 old-location: mstv\ibda_ipv4filter_putmulticastmode.htm
 tech.root: mstv
 ms.assetid: d0a12c21-e196-4228-9994-51047271cf57
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_IPV4Filter interface [Microsoft TV Technologies],PutMulticastMode method, IBDA_IPV4Filter.PutMulticastMode, IBDA_IPV4Filter::PutMulticastMode, IBDA_IPV4FilterPutMulticastMode, PutMulticastMode, PutMulticastMode method [Microsoft TV Technologies], PutMulticastMode method [Microsoft TV Technologies],IBDA_IPV4Filter interface, bdaiface/IBDA_IPV4Filter::PutMulticastMode, mstv.ibda_ipv4filter_putmulticastmode
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_IPV4Filter.PutMulticastMode"
+f1_keywords:
+- bdaiface/IBDA_IPV4Filter.PutMulticastMode
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bdaiface.h
+- Bdaiface.h
 api_name:
- - IBDA_IPV4Filter.PutMulticastMode
+- IBDA_IPV4Filter.PutMulticastMode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextDocument.RangeFromPoint
 title: ITextDocument::RangeFromPoint (tom.h)
-
 description: Retrieves a range for the content at or nearest to the specified point on the screen.
 old-location: controls\ITextDocument_RangeFromPoint.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\rangefrompoint.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextDocument interface [Windows Controls],RangeFromPoint method, ITextDocument.RangeFromPoint, ITextDocument::RangeFromPoint, RangeFromPoint, RangeFromPoint method [Windows Controls], RangeFromPoint method [Windows Controls],ITextDocument interface, _win32_ITextDocument_RangeFromPoint, _win32_ITextDocument_RangeFromPoint_cpp, controls.ITextDocument_RangeFromPoint, controls._win32_ITextDocument_RangeFromPoint, tom/ITextDocument::RangeFromPoint
 ms.topic: method
-f1_keywords: 
- - "tom/ITextDocument.RangeFromPoint"
+f1_keywords:
+- tom/ITextDocument.RangeFromPoint
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextDocument.RangeFromPoint
+- ITextDocument.RangeFromPoint
 targetos: Windows
 req.typenames: 
 req.redist: 

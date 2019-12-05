@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnRegistrationEvents.OnRegisterStateChange
 title: IMbnRegistrationEvents::OnRegisterStateChange (mbnapi.h)
-
 description: Notification method called by the Mobile Broadband service to indicate a change in the device's registration state.
 old-location: mbn\imbnregistrationevents_onregisterstatechange.htm
 tech.root: mbn
 ms.assetid: 62393a9b-70e5-4819-8df1-59b94c1b6922
-
 ms.date: 12/05/2018
 ms.keywords: IMbnRegistrationEvents interface [Microsoft Broadband Networks],OnRegisterStateChange method, IMbnRegistrationEvents.OnRegisterStateChange, IMbnRegistrationEvents::OnRegisterStateChange, OnRegisterStateChange, OnRegisterStateChange method [Microsoft Broadband Networks], OnRegisterStateChange method [Microsoft Broadband Networks],IMbnRegistrationEvents interface, mbn.imbnregistrationevents_onregisterstatechange, mbnapi/IMbnRegistrationEvents::OnRegisterStateChange
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnRegistrationEvents.OnRegisterStateChange"
+f1_keywords:
+- mbnapi/IMbnRegistrationEvents.OnRegisterStateChange
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnRegistrationEvents.OnRegisterStateChange
+- IMbnRegistrationEvents.OnRegisterStateChange
 targetos: Windows
 req.typenames: 
 req.redist: 

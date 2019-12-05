@@ -1,19 +1,17 @@
 ---
 UID: NF:casetup.ICertSrvSetup.GetPrivateKeyContainerList
 title: ICertSrvSetup::GetPrivateKeyContainerList (casetup.h)
-
 description: Gets the list of key container names stored by the specified cryptographic service provider (CSP) for asymmetric signature key algorithms.
 old-location: security\icertsrvsetup_getprivatekeycontainerlist.htm
 tech.root: SecCrypto
 ms.assetid: a57590d3-0882-4407-b920-964c0e489f80
-
 ms.date: 12/05/2018
 ms.keywords: GetPrivateKeyContainerList, GetPrivateKeyContainerList method [Security], GetPrivateKeyContainerList method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetPrivateKeyContainerList method, ICertSrvSetup.GetPrivateKeyContainerList, ICertSrvSetup::GetPrivateKeyContainerList, casetup/ICertSrvSetup::GetPrivateKeyContainerList, security.icertsrvsetup_getprivatekeycontainerlist
 ms.topic: method
-f1_keywords: 
- - "casetup/ICertSrvSetup.GetPrivateKeyContainerList"
+f1_keywords:
+- casetup/ICertSrvSetup.GetPrivateKeyContainerList
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - ICertSrvSetup.GetPrivateKeyContainerList
+- ICertSrvSetup.GetPrivateKeyContainerList
 targetos: Windows
 req.typenames: 
 req.redist: 

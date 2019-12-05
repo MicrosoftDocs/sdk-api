@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmRule.put_RuleFlags
 title: IFsrmRule::put_RuleFlags (fsrmpipeline.h)
-
 description: The flags that define the state of the rule.
 old-location: fsrm\ifsrmrule_ruleflags.htm
 tech.root: fsrm
 ms.assetid: c656115a-a0d4-4860-9756-98df84c1672f
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmRule interface [File Server Resource Manager],RuleFlags property, IFsrmRule.RuleFlags, IFsrmRule.put_RuleFlags, IFsrmRule::RuleFlags, IFsrmRule::get_RuleFlags, IFsrmRule::put_RuleFlags, RuleFlags property [File Server Resource Manager], RuleFlags property [File Server Resource Manager],IFsrmRule interface, fs.ifsrmrule_ruleflags, fsrm.ifsrmrule_ruleflags, fsrmpipeline/IFsrmRule::RuleFlags, fsrmpipeline/IFsrmRule::get_RuleFlags, fsrmpipeline/IFsrmRule::put_RuleFlags, put_RuleFlags
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmRule.RuleFlags"
+f1_keywords:
+- fsrmpipeline/IFsrmRule.RuleFlags
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmRule.RuleFlags
- - IFsrmRule.get_RuleFlags
- - IFsrmRule.put_RuleFlags
+- IFsrmRule.RuleFlags
+- IFsrmRule.get_RuleFlags
+- IFsrmRule.put_RuleFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

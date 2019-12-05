@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.ICCompressEnd
 title: ICCompressEnd macro (vfw.h)
-
 description: The ICCompressEnd macro notifies a video compression driver to end compression and free resources allocated for compression. You can use this macro or explicitly call the ICM_COMPRESS_END message.
 old-location: multimedia\iccompressend.htm
 tech.root: Multimedia
 ms.assetid: 04daaf34-63c3-40c1-9ed6-2ae07558d1b8
-
 ms.date: 12/05/2018
 ms.keywords: ICCompressEnd, ICCompressEnd macro [Windows Multimedia], _win32_ICCompressEnd, multimedia.iccompressend, vfw/ICCompressEnd
 ms.topic: macro
-f1_keywords: 
- - "vfw/ICCompressEnd"
+f1_keywords:
+- vfw/ICCompressEnd
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - ICCompressEnd
+- ICCompressEnd
 targetos: Windows
 req.typenames: 
 req.redist: 

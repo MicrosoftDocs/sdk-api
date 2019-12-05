@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsCreateMetadata
 title: WsCreateMetadata function (webservices.h)
-
 description: Creates a metadata object that is used to collect and process metadata documents.
 old-location: wsw\wscreatemetadata.htm
 tech.root: wsw
 ms.assetid: c3b6f926-331b-46a7-8180-36762abf63d7
-
 ms.date: 12/05/2018
 ms.keywords: WsCreateMetadata, WsCreateMetadata function [Web Services for Windows], webservices/WsCreateMetadata, wsw.wscreatemetadata
 ms.topic: function
 f1_keywords:
 - webservices/WsCreateMetadata
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

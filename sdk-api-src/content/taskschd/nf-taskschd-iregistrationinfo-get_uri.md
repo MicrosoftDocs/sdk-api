@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.get_URI
 title: IRegistrationInfo::get_URI (taskschd.h)
-
 description: Gets or sets the URI of the task.
 old-location: taskschd\iregistrationinfo_uri.htm
 tech.root: taskschd
 ms.assetid: 347898de-7960-42b8-84ff-4734137d0683
-
 ms.date: 12/05/2018
 ms.keywords: IRegistrationInfo interface [Task Scheduler],URI property, IRegistrationInfo.URI, IRegistrationInfo.get_URI, IRegistrationInfo::URI, IRegistrationInfo::get_URI, IRegistrationInfo::put_URI, URI property [Task Scheduler], URI property [Task Scheduler],IRegistrationInfo interface, get_URI, taskschd.iregistrationinfo_uri, taskschd/IRegistrationInfo::URI, taskschd/IRegistrationInfo::get_URI, taskschd/IRegistrationInfo::put_URI
 ms.topic: method
-f1_keywords: 
- - "taskschd/IRegistrationInfo.URI"
+f1_keywords:
+- taskschd/IRegistrationInfo.URI
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRegistrationInfo.URI
- - IRegistrationInfo.get_URI
- - IRegistrationInfo.put_URI
+- IRegistrationInfo.URI
+- IRegistrationInfo.get_URI
+- IRegistrationInfo.put_URI
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbSIParameterDescriptor.GetTableId
 title: IIsdbSIParameterDescriptor::GetTableId (dvbsiparser.h)
-
 description: Gets an identifier for a table descriptor in a service information (SI) parameter descriptor.
 old-location: mstv\iisdbsiparameterdescriptor_gettableid.htm
 tech.root: mstv
 ms.assetid: 43b19e3d-20b0-4356-9c84-f47006635e2c
-
 ms.date: 12/05/2018
 ms.keywords: GetTableId, GetTableId method [Microsoft TV Technologies], GetTableId method [Microsoft TV Technologies],IIsdbSIParameterDescriptor interface, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies],GetTableId method, IIsdbSIParameterDescriptor.GetTableId, IIsdbSIParameterDescriptor::GetTableId, dvbsiparser/IIsdbSIParameterDescriptor::GetTableId, mstv.iisdbsiparameterdescriptor_gettableid
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbSIParameterDescriptor.GetTableId"
+f1_keywords:
+- dvbsiparser/IIsdbSIParameterDescriptor.GetTableId
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbSIParameterDescriptor.GetTableId
+- IIsdbSIParameterDescriptor.GetTableId
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:wmcontainer.IMFASFStreamConfig
 title: IMFASFStreamConfig (wmcontainer.h)
-
 description: Configures the settings of a stream in an ASF file.
 old-location: mf\imfasfstreamconfig.htm
 tech.root: medfound
 ms.assetid: 7bb63396-21c2-400d-b9de-c00b90f46d62
-
 ms.date: 12/05/2018
 ms.keywords: 7bb63396-21c2-400d-b9de-c00b90f46d62, IMFASFStreamConfig, IMFASFStreamConfig interface [Media Foundation], IMFASFStreamConfig interface [Media Foundation],described, mf.imfasfstreamconfig, wmcontainer/IMFASFStreamConfig
 ms.topic: interface
-f1_keywords: 
- - "wmcontainer/IMFASFStreamConfig"
+f1_keywords:
+- wmcontainer/IMFASFStreamConfig
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFStreamConfig
+- IMFASFStreamConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

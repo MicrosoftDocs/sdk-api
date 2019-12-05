@@ -1,19 +1,17 @@
 ---
 UID: NE:vdshwprv._VDS_ISCSI_LOGIN_FLAG
 title: VDS_ISCSI_LOGIN_FLAG (vdshwprv.h)
-
 description: Defines the set of valid flags for specifying iSCSI target login options.
 old-location: base\vds_iscsi_login_flag.htm
 tech.root: VDS
 ms.assetid: c315f5cc-2b15-4185-8d22-7114950273e7
-
 ms.date: 12/05/2018
 ms.keywords: VDS_ILF_MULTIPATH_ENABLED, VDS_ILF_REQUIRE_IPSEC, VDS_ISCSI_LOGIN_FLAG, VDS_ISCSI_LOGIN_FLAG enumeration [VDS], base.vds_iscsi_login_flag, vds/VDS_ILF_MULTIPATH_ENABLED, vds/VDS_ILF_REQUIRE_IPSEC, vds/VDS_ISCSI_LOGIN_FLAG, vdshwprv/VDS_ILF_MULTIPATH_ENABLED, vdshwprv/VDS_ILF_REQUIRE_IPSEC, vdshwprv/VDS_ISCSI_LOGIN_FLAG
 ms.topic: enum
-f1_keywords: 
- - "vdshwprv/VDS_ISCSI_LOGIN_FLAG"
+f1_keywords:
+- vdshwprv/VDS_ISCSI_LOGIN_FLAG
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_ISCSI_LOGIN_FLAG
+- VDS_ISCSI_LOGIN_FLAG
 targetos: Windows
 req.typenames: VDS_ISCSI_LOGIN_FLAG
 req.redist: VDS 1.1

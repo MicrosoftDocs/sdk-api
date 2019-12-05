@@ -1,19 +1,17 @@
 ---
 UID: NF:inputscope.ITfInputScope.GetInputScopes
 title: ITfInputScope::GetInputScopes (inputscope.h)
-
 description: ITfInputScope::GetInputScopes method
 old-location: tsf\itfinputscope_getinputscope.htm
 tech.root: TSF
 ms.assetid: c5d54d2a-13b4-42f7-9224-4e80f0148a86
-
 ms.date: 12/05/2018
 ms.keywords: GetInputScopes, GetInputScopes method [Text Services Framework], GetInputScopes method [Text Services Framework],ITfInputScope interface, ITfInputScope interface [Text Services Framework],GetInputScopes method, ITfInputScope.GetInputScopes, ITfInputScope::GetInputScopes, _tsf_itfinputscoe_getinputscopes_ref, inputscope/ITfInputScope::GetInputScopes, tsf.itfinputscope_getinputscope
 ms.topic: method
-f1_keywords: 
- - "inputscope/ITfInputScope.GetInputScopes"
+f1_keywords:
+- inputscope/ITfInputScope.GetInputScopes
 dev_langs:
- - c++
+- c++
 req.header: inputscope.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfInputScope.GetInputScopes
+- ITfInputScope.GetInputScopes
 targetos: Windows
 req.typenames: 
 req.redist: 

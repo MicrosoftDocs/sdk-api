@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.DrvDescribePixelFormat
 title: DrvDescribePixelFormat function (winddi.h)
-
 description: The DrvDescribePixelFormat function describes the pixel format for a device-specified PDEV by writing a pixel format description to a PIXELFORMATDESCRIPTOR structure.
 old-location: display\drvdescribepixelformat.htm
 tech.root: display
 ms.assetid: 7c630694-e076-4ab2-a2c9-262c7c5da988
-
 ms.date: 12/05/2018
 ms.keywords: DrvDescribePixelFormat, DrvDescribePixelFormat function [Display Devices], ddifncs_ad08e90b-a4e1-43e3-bbd7-8476d1c5568b.xml, display.drvdescribepixelformat, winddi/DrvDescribePixelFormat
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvDescribePixelFormat"
+f1_keywords:
+- winddi/DrvDescribePixelFormat
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvDescribePixelFormat
+- DrvDescribePixelFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mspcall.CMSPCallBase.RemoveStream
 title: CMSPCallBase::RemoveStream (mspcall.h)
-
-description: "(Interface RemoveStream) The RemoveStream method is called by the application to remove a stream from the call."
+description: (Interface RemoveStream) The RemoveStream method is called by the application to remove a stream from the call.
 old-location: tapi3\cmspcallbase_removestream.htm
 tech.root: Tapi
 ms.assetid: 5e2b4261-ba0f-429a-aef5-974b2841bf0b
-
 ms.date: 12/05/2018
 ms.keywords: CMSPCallBase interface [TAPI 2.2],RemoveStream method, CMSPCallBase.RemoveStream, CMSPCallBase::RemoveStream, RemoveStream, RemoveStream method [TAPI 2.2], RemoveStream method [TAPI 2.2],CMSPCallBase interface, _tapi3_cmspcallbase_removestream, mspcall/CMSPCallBase::RemoveStream, tapi3.cmspcallbase_removestream
 ms.topic: method
-f1_keywords: 
- - "mspcall/CMSPCallBase.RemoveStream"
+f1_keywords:
+- mspcall/CMSPCallBase.RemoveStream
 dev_langs:
- - c++
+- c++
 req.header: mspcall.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mspcall.h
+- Mspcall.h
 api_name:
- - CMSPCallBase.RemoveStream
+- CMSPCallBase.RemoveStream
 targetos: Windows
 req.typenames: 
 req.redist: 

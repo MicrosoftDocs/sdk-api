@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICDdsAlphaMode
 title: WICDdsAlphaMode (wincodec.h)
-
 description: Specifies the the meaning of pixel color component values contained in the DDS image.
 old-location: wic\wicddsalphamode.htm
 tech.root: wic
 ms.assetid: 67C9B07F-5259-4032-9EBF-CBC3B8637343
-
 ms.date: 12/05/2018
 ms.keywords: WICDdsAlphaMode, WICDdsAlphaMode enumeration [Windows Imaging Component], WICDdsAlphaModeCustom, WICDdsAlphaModeOpaque, WICDdsAlphaModePremultiplied, WICDdsAlphaModeStraight, WICDdsAlphaModeUnknown, wic.wicddsalphamode, wincodec/WICDdsAlphaMode, wincodec/WICDdsAlphaModeCustom, wincodec/WICDdsAlphaModeOpaque, wincodec/WICDdsAlphaModePremultiplied, wincodec/WICDdsAlphaModeStraight, wincodec/WICDdsAlphaModeUnknown
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICDdsAlphaMode"
+f1_keywords:
+- wincodec/WICDdsAlphaMode
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICDdsAlphaMode
+- WICDdsAlphaMode
 targetos: Windows
 req.typenames: WICDdsAlphaMode
 req.redist: 

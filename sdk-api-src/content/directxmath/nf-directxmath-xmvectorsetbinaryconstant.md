@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorSetBinaryConstant
 title: XMVectorSetBinaryConstant function (directxmath.h)
-
 description: Creates a vector, each of whose components is either 0.0f or 1.0f.
 old-location: dxmath\xmvectorsetbinaryconstant.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorSetBinaryConstant(uint32_t,uint32_t,uint32_t,uint32_t)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSetBinaryConstant, XMVectorSetBinaryConstant, XMVectorSetBinaryConstant method [DirectX Math Support APIs], dxmath.xmvectorsetbinaryconstant
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorSetBinaryConstant"
+f1_keywords:
+- directxmath/XMVectorSetBinaryConstant
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMVectorSetBinaryConstant
+- XMVectorSetBinaryConstant
 targetos: Windows
 req.typenames: 
 req.redist: 

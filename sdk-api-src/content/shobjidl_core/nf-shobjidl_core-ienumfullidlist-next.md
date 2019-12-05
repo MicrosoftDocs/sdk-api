@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IEnumFullIDList.Next
 title: IEnumFullIDList::Next (shobjidl_core.h)
-
 description: Retrieves a specified number of IDLIST_ABSOLUTE items.
 old-location: shell\IEnumFullIDList_Next.htm
 tech.root: shell
 ms.assetid: 023f8935-0382-404e-b1bf-737824cf0f34
-
 ms.date: 12/05/2018
 ms.keywords: IEnumFullIDList interface [Windows Shell],Next method, IEnumFullIDList.Next, IEnumFullIDList::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumFullIDList interface, _shell_IEnumFullIDList_Next, shell.IEnumFullIDList_Next, shobjidl_core/IEnumFullIDList::Next
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IEnumFullIDList.Next"
+f1_keywords:
+- shobjidl_core/IEnumFullIDList.Next
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IEnumFullIDList.Next
+- IEnumFullIDList.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

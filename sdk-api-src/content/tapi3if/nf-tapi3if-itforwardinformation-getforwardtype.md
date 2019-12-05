@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITForwardInformation.GetForwardType
 title: ITForwardInformation::GetForwardType (tapi3if.h)
-
 description: The GetForwardType method gets the forwarding mode.
 old-location: tapi3\itforwardinformation_getforwardtype.htm
 tech.root: Tapi
 ms.assetid: 02d3c558-585a-4dcc-873e-8465c1d2af64
-
 ms.date: 12/05/2018
 ms.keywords: GetForwardType, GetForwardType method [TAPI 2.2], GetForwardType method [TAPI 2.2],ITForwardInformation interface, ITForwardInformation interface [TAPI 2.2],GetForwardType method, ITForwardInformation.GetForwardType, ITForwardInformation::GetForwardType, _tapi3_itforwardinformation_getforwardtype, tapi3.itforwardinformation_getforwardtype, tapi3if/ITForwardInformation::GetForwardType
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITForwardInformation.GetForwardType"
+f1_keywords:
+- tapi3if/ITForwardInformation.GetForwardType
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITForwardInformation.GetForwardType
+- ITForwardInformation.GetForwardType
 targetos: Windows
 req.typenames: 
 req.redist: 

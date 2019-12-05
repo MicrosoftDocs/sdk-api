@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ITableItemProvider.GetRowHeaderItems
 title: ITableItemProvider::GetRowHeaderItems (uiautomationcore.h)
-
 description: Retrieves a collection of Microsoft UI Automation provider representing all the row headers associated with a table item or cell.
 old-location: winauto\uiauto_ITableItemProvider_GetRowHeaderItems.htm
 tech.root: WinAuto
 ms.assetid: 02717f9a-93dd-4963-bbc7-a1eb257bf5e5
-
 ms.date: 12/05/2018
 ms.keywords: GetRowHeaderItems, GetRowHeaderItems method [Windows Accessibility], GetRowHeaderItems method [Windows Accessibility],ITableItemProvider interface, ITableItemProvider interface [Windows Accessibility],GetRowHeaderItems method, ITableItemProvider.GetRowHeaderItems, ITableItemProvider::GetRowHeaderItems, uiauto.uiauto_ITableItemProvider_GetRowHeaderItems, uiauto_ITableItemProvider_GetRowHeaderItems, uiautomationcore/ITableItemProvider::GetRowHeaderItems, winauto.uiauto_ITableItemProvider_GetRowHeaderItems
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ITableItemProvider.GetRowHeaderItems"
+f1_keywords:
+- uiautomationcore/ITableItemProvider.GetRowHeaderItems
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ITableItemProvider.GetRowHeaderItems
+- ITableItemProvider.GetRowHeaderItems
 targetos: Windows
 req.typenames: 
 req.redist: 

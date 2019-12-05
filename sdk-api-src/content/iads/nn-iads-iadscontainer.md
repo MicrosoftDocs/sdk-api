@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsContainer
 title: IADsContainer (iads.h)
-
 description: The IADsContainer interface enables an ADSI container object to create, delete, and manage contained ADSI objects. Container objects represent hierarchical directory trees, such as in a file system, and to organize the directory hierarchy.
 old-location: adsi\iadscontainer.htm
 tech.root: adsi
 ms.assetid: 6c1d6c7c-e003-47f9-adfa-4a753fb3e9b2
-
 ms.date: 12/05/2018
 ms.keywords: IADsContainer, IADsContainer interface [ADSI], IADsContainer interface [ADSI],described, _ds_iadscontainer, adsi.iadscontainer, iads/IADsContainer
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsContainer"
+f1_keywords:
+- iads/IADsContainer
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsContainer
+- IADsContainer
 targetos: Windows
 req.typenames: 
 req.redist: 

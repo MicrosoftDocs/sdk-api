@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1AnalysisTransform.ProcessAnalysisResults
 title: ID2D1AnalysisTransform::ProcessAnalysisResults (d2d1effectauthor.h)
-
 description: Supplies the analysis data to an analysis transform.
 old-location: direct2d\id2d1analysistransform_processanalysisresults.htm
 tech.root: Direct2D
 ms.assetid: 3E7D8CDB-C3A0-4167-BDD4-66376D81BE41
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1AnalysisTransform interface [Direct2D],ProcessAnalysisResults method, ID2D1AnalysisTransform.ProcessAnalysisResults, ID2D1AnalysisTransform::ProcessAnalysisResults, ProcessAnalysisResults, ProcessAnalysisResults method [Direct2D], ProcessAnalysisResults method [Direct2D],ID2D1AnalysisTransform interface, d2d1effectauthor/ID2D1AnalysisTransform::ProcessAnalysisResults, direct2d.id2d1analysistransform_processanalysisresults
 ms.topic: method
-f1_keywords: 
- - "d2d1effectauthor/ID2D1AnalysisTransform.ProcessAnalysisResults"
+f1_keywords:
+- d2d1effectauthor/ID2D1AnalysisTransform.ProcessAnalysisResults
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.lib
- - d2d1.dll
+- d2d1.lib
+- d2d1.dll
 api_name:
- - ID2D1AnalysisTransform.ProcessAnalysisResults
+- ID2D1AnalysisTransform.ProcessAnalysisResults
 targetos: Windows
 req.typenames: 
 req.redist: 

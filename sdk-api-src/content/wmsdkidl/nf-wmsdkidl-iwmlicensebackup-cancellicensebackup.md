@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMLicenseBackup.CancelLicenseBackup
 title: IWMLicenseBackup::CancelLicenseBackup (wmsdkidl.h)
-
 description: The CancelLicenseBackup method cancels a current backup operation.
 old-location: wmformat\iwmlicensebackup_cancellicensebackup.htm
 tech.root: wmformat
 ms.assetid: aa226875-d59f-4fac-b38b-f94727fa2f4a
-
 ms.date: 12/05/2018
 ms.keywords: CancelLicenseBackup, CancelLicenseBackup method [windows Media Format], CancelLicenseBackup method [windows Media Format],IWMLicenseBackup interface, IWMLicenseBackup interface [windows Media Format],CancelLicenseBackup method, IWMLicenseBackup.CancelLicenseBackup, IWMLicenseBackup::CancelLicenseBackup, IWMLicenseBackupCancelLicenseBackup, wmformat.iwmlicensebackup_cancellicensebackup, wmsdkidl/IWMLicenseBackup::CancelLicenseBackup
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMLicenseBackup.CancelLicenseBackup"
+f1_keywords:
+- wmsdkidl/IWMLicenseBackup.CancelLicenseBackup
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMLicenseBackup.CancelLicenseBackup
+- IWMLicenseBackup.CancelLicenseBackup
 targetos: Windows
 req.typenames: 
 req.redist: 

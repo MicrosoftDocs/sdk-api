@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.IServiceLocationDescriptor.GetNumberOfElements
 title: IServiceLocationDescriptor::GetNumberOfElements (atscpsipparser.h)
-
 description: Gets the number of elementary streams for an Advanced Television Systems Committee (ATSC) service location descriptor.
 old-location: mstv\iservicelocationdescriptor_getnumberofelements.htm
 tech.root: mstv
 ms.assetid: 134e4051-6a73-4420-b12d-3171738bd8ad
-
 ms.date: 12/05/2018
 ms.keywords: GetNumberOfElements, GetNumberOfElements method [Microsoft TV Technologies], GetNumberOfElements method [Microsoft TV Technologies],IServiceLocationDescriptor interface, IServiceLocationDescriptor interface [Microsoft TV Technologies],GetNumberOfElements method, IServiceLocationDescriptor.GetNumberOfElements, IServiceLocationDescriptor::GetNumberOfElements, atscpsipparser/IServiceLocationDescriptor::GetNumberOfElements, mstv.iservicelocationdescriptor_getnumberofelements
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/IServiceLocationDescriptor.GetNumberOfElements"
+f1_keywords:
+- atscpsipparser/IServiceLocationDescriptor.GetNumberOfElements
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: Atscpsipparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IServiceLocationDescriptor.GetNumberOfElements
+- IServiceLocationDescriptor.GetNumberOfElements
 targetos: Windows
 req.typenames: 
 req.redist: 

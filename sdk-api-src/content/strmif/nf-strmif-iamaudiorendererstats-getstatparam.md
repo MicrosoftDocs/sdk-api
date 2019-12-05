@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMAudioRendererStats.GetStatParam
 title: IAMAudioRendererStats::GetStatParam (strmif.h)
-
 description: The GetStatParam method retrieves performance information from the audio renderer.
 old-location: dshow\iamaudiorendererstats_getstatparam.htm
 tech.root: DirectShow
 ms.assetid: bc01cac7-316f-4d18-ae68-c3db4dbf03fa
-
 ms.date: 12/05/2018
 ms.keywords: GetStatParam, GetStatParam method [DirectShow], GetStatParam method [DirectShow],IAMAudioRendererStats interface, IAMAudioRendererStats interface [DirectShow],GetStatParam method, IAMAudioRendererStats.GetStatParam, IAMAudioRendererStats::GetStatParam, IAMAudioRendererStatsGetStatParam, dshow.iamaudiorendererstats_getstatparam, strmif/IAMAudioRendererStats::GetStatParam
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMAudioRendererStats.GetStatParam"
+f1_keywords:
+- strmif/IAMAudioRendererStats.GetStatParam
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMAudioRendererStats.GetStatParam
+- IAMAudioRendererStats.GetStatParam
 targetos: Windows
 req.typenames: 
 req.redist: 

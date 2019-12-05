@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetSubpictureAttributes
 title: IDvdInfo2::GetSubpictureAttributes (strmif.h)
-
 description: The GetSubpictureAttributes method retrieves the attributes of the specified subpicture stream in the specified title or menu.
 old-location: dshow\idvdinfo2_getsubpictureattributes.htm
 tech.root: DirectShow
 ms.assetid: 3dce0c01-1d39-4f49-984b-8cce08a2e67b
-
 ms.date: 12/05/2018
 ms.keywords: GetSubpictureAttributes, GetSubpictureAttributes method [DirectShow], GetSubpictureAttributes method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetSubpictureAttributes method, IDvdInfo2.GetSubpictureAttributes, IDvdInfo2::GetSubpictureAttributes, IDvdInfo2GetSubpictureAttributes, dshow.idvdinfo2_getsubpictureattributes, strmif/IDvdInfo2::GetSubpictureAttributes
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo2.GetSubpictureAttributes"
+f1_keywords:
+- strmif/IDvdInfo2.GetSubpictureAttributes
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdInfo2.GetSubpictureAttributes
+- IDvdInfo2.GetSubpictureAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

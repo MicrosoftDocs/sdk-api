@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateDeviceSourceActivate
 title: MFCreateDeviceSourceActivate function (mfidl.h)
-
 description: Creates an activation object that represents a hardware capture device.
 old-location: mf\mfcreatedevicesourceactivate.htm
 tech.root: medfound
 ms.assetid: c52cb35a-8f5b-479e-9c08-3185c9a561f2
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateDeviceSourceActivate, MFCreateDeviceSourceActivate function [Media Foundation], mf.mfcreatedevicesourceactivate, mfidl/MFCreateDeviceSourceActivate
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateDeviceSourceActivate"
+f1_keywords:
+- mfidl/MFCreateDeviceSourceActivate
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreateDeviceSourceActivate
+- MFCreateDeviceSourceActivate
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMClientConnections2.GetClientInfo
 title: IWMClientConnections2::GetClientInfo (wmsdkidl.h)
-
 description: The GetClientInfo method retrieves information about a client attached to a writer network sink.
 old-location: wmformat\iwmclientconnections2_getclientinfo.htm
 tech.root: wmformat
 ms.assetid: 39731e6a-cfd7-48c5-9107-bf5373dfeb4a
-
 ms.date: 12/05/2018
 ms.keywords: GetClientInfo, GetClientInfo method [windows Media Format], GetClientInfo method [windows Media Format],IWMClientConnections2 interface, IWMClientConnections2 interface [windows Media Format],GetClientInfo method, IWMClientConnections2.GetClientInfo, IWMClientConnections2::GetClientInfo, IWMClientConnections2GetClientInfo, wmformat.iwmclientconnections2_getclientinfo, wmsdkidl/IWMClientConnections2::GetClientInfo
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMClientConnections2.GetClientInfo"
+f1_keywords:
+- wmsdkidl/IWMClientConnections2.GetClientInfo
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMClientConnections2.GetClientInfo
+- IWMClientConnections2.GetClientInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

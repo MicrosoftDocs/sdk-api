@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbTerrestrialDeliverySystemDescriptor.GetTag
 title: IDvbTerrestrialDeliverySystemDescriptor::GetTag (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbterrestrialdeliverysystemdescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: a4076176-6e24-4469-b2f3-52c1e8f388bb
-
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbTerrestrialDeliverySystemDescriptor.GetTag, IDvbTerrestrialDeliverySystemDescriptor::GetTag, IDvbTerrestrialDeliverySystemDescriptorGetTag, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetTag, mstv.idvbterrestrialdeliverysystemdescriptor_gettag
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor.GetTag"
+f1_keywords:
+- dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor.GetTag
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbTerrestrialDeliverySystemDescriptor.GetTag
+- IDvbTerrestrialDeliverySystemDescriptor.GetTag
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl.KaraokeAudioPresentationModeChange
 title: IDvdControl::KaraokeAudioPresentationModeChange (strmif.h)
-
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Sets the audio playback mode to karaoke.
 old-location: dshow\idvdcontrol_karaokeaudiopresentationmodechange.htm
 tech.root: DirectShow
 ms.assetid: a724af67-6aac-4307-97bc-a79e73621ce1
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],KaraokeAudioPresentationModeChange method, IDvdControl.KaraokeAudioPresentationModeChange, IDvdControl::KaraokeAudioPresentationModeChange, IDvdControlKaraokeAudioPresentationModeChange, KaraokeAudioPresentationModeChange, KaraokeAudioPresentationModeChange method [DirectShow], KaraokeAudioPresentationModeChange method [DirectShow],IDvdControl interface, dshow.idvdcontrol_karaokeaudiopresentationmodechange, strmif/IDvdControl::KaraokeAudioPresentationModeChange
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl.KaraokeAudioPresentationModeChange"
+f1_keywords:
+- strmif/IDvdControl.KaraokeAudioPresentationModeChange
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDvdControl.KaraokeAudioPresentationModeChange
+- IDvdControl.KaraokeAudioPresentationModeChange
 targetos: Windows
 req.typenames: 
 req.redist: 

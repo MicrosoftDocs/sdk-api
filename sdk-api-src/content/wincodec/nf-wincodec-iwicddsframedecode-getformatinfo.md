@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICDdsFrameDecode.GetFormatInfo
 title: IWICDdsFrameDecode::GetFormatInfo (wincodec.h)
-
 description: Gets information about the format in which the DDS image is stored.
 old-location: wic\iwicddsframedecode_getformatinfo.htm
 tech.root: wic
 ms.assetid: 0D5B9E45-E1EA-4D16-B793-63FEAB2BAF65
-
 ms.date: 12/05/2018
 ms.keywords: GetFormatInfo, GetFormatInfo method [Windows Imaging Component], GetFormatInfo method [Windows Imaging Component],IWICDdsFrameDecode interface, IWICDdsFrameDecode interface [Windows Imaging Component],GetFormatInfo method, IWICDdsFrameDecode.GetFormatInfo, IWICDdsFrameDecode::GetFormatInfo, wic.iwicddsframedecode_getformatinfo, wincodec/IWICDdsFrameDecode::GetFormatInfo
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICDdsFrameDecode.GetFormatInfo"
+f1_keywords:
+- wincodec/IWICDdsFrameDecode.GetFormatInfo
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICDdsFrameDecode.GetFormatInfo
+- IWICDdsFrameDecode.GetFormatInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

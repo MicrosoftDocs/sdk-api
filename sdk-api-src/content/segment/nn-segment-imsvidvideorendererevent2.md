@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidVideoRendererEvent2
 title: IMSVidVideoRendererEvent2 (segment.h)
-
 description: This interface is not implemented.
 old-location: mstv\imsvidvideorendererevent2.htm
 tech.root: mstv
 ms.assetid: a73ab8f4-724f-4d61-909e-7d43a3e373e3
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRendererEvent2, IMSVidVideoRendererEvent2 interface [Microsoft TV Technologies], IMSVidVideoRendererEvent2 interface [Microsoft TV Technologies],described, mstv.imsvidvideorendererevent2, segment/IMSVidVideoRendererEvent2
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidVideoRendererEvent2"
+f1_keywords:
+- segment/IMSVidVideoRendererEvent2
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidVideoRendererEvent2
+- IMSVidVideoRendererEvent2
 targetos: Windows
 req.typenames: 
 req.redist: 

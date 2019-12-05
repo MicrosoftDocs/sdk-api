@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11_4.ID3D11VideoContext2
 title: ID3D11VideoContext2 (d3d11_4.h)
-
 description: Provides the video functionality of a Microsoft Direct3D 11 device.
 old-location: mf\id3d11videocontext2.htm
 tech.root: medfound
 ms.assetid: E3FB5478-31CD-4AE3-BEA0-18823C4A4D3E
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext2, ID3D11VideoContext2 interface [Media Foundation], ID3D11VideoContext2 interface [Media Foundation],described, d3d11_4/ID3D11VideoContext2, mf.id3d11videocontext2, mf.id3dvideocontext2
 ms.topic: interface
-f1_keywords: 
- - "d3d11_4/ID3D11VideoContext2"
+f1_keywords:
+- d3d11_4/ID3D11VideoContext2
 dev_langs:
- - c++
+- c++
 req.header: d3d11_4.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11_4.h
+- d3d11_4.h
 api_name:
- - ID3D11VideoContext2
+- ID3D11VideoContext2
 targetos: Windows
 req.typenames: 
 req.redist: 

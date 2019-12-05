@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d12.ID3D12ProtectedResourceSession
 title: ID3D12ProtectedResourceSession (d3d12.h)
-
 description: Monitors the validity of a protected resource session.
 old-location: direct3d12\id3d12protectedresourcesession.htm
 tech.root: direct3d12
 ms.assetid: 9D4833DB-DF9E-46A8-9EF7-667A95F3EFDD
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12ProtectedResourceSession, ID3D12ProtectedResourceSession interface, ID3D12ProtectedResourceSession interface,described, d3d12/ID3D12ProtectedResourceSession, direct3d12.id3d12protectedresourcesession
 ms.topic: interface
-f1_keywords: 
- - "d3d12/ID3D12ProtectedResourceSession"
+f1_keywords:
+- d3d12/ID3D12ProtectedResourceSession
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12ProtectedResourceSession
+- ID3D12ProtectedResourceSession
 targetos: Windows
 req.typenames: 
 req.redist: 

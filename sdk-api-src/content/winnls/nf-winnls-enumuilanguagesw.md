@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.EnumUILanguagesW
 title: EnumUILanguagesW function (winnls.h)
-
 description: Enumerates the user interface languages that are available on the operating system and calls the callback function with every language in the list.
 old-location: intl\enumuilanguages.htm
 tech.root: Intl
 ms.assetid: f97df853-fc40-4529-b8a5-27069863a9b9
-
 ms.date: 12/05/2018
 ms.keywords: EnumUILanguages, EnumUILanguages function [Internationalization for Windows Applications], EnumUILanguagesA, EnumUILanguagesW, MUI_ALL_INSTALLED_LANGUAGES, MUI_GROUP_POLICY, MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, MUI_LICENSED_LANGUAGES, _win32_EnumUILanguages, intl.enumuilanguages, winnls/EnumUILanguages, winnls/EnumUILanguagesA, winnls/EnumUILanguagesW
 ms.topic: function
-f1_keywords: 
- - "winnls/EnumUILanguages"
+f1_keywords:
+- winnls/EnumUILanguages
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,24 +30,24 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-Obsolete-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-Obsolete-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-Obsolete-L1-3-0.dll
- - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-Obsolete-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-Obsolete-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-Obsolete-L1-3-0.dll
+- API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
+- Kernel32Legacy.dll
 api_name:
- - EnumUILanguages
- - EnumUILanguagesA
- - EnumUILanguagesW
+- EnumUILanguages
+- EnumUILanguagesA
+- EnumUILanguagesW
 targetos: Windows
 req.typenames: 
 req.redist: 

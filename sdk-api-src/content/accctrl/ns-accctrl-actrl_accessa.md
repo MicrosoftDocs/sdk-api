@@ -1,19 +1,17 @@
 ---
 UID: NS:accctrl._ACTRL_ALISTA
 title: ACTRL_ACCESSA (accctrl.h)
-
 description: Contains an array of access-control lists for an object and its properties.
 old-location: com\actrl_access.htm
 tech.root: com
 ms.assetid: d7fb10c1-ebb8-44cf-b61c-a70a787b324f
-
 ms.date: 12/05/2018
-ms.keywords: "*PACTRL_ACCESSA, *PACTRL_AUDITA, ACTRL_ACCESS, ACTRL_ACCESS structure [COM], ACTRL_ACCESSA, ACTRL_ACCESSW, ACTRL_AUDIT, ACTRL_AUDITA, PACTRL_ACCESS, PACTRL_ACCESS structure pointer [COM], PACTRL_ACCESSW_ALLOCATE_ALL_NODES, _ACTRL_ALISTA, _ACTRL_ALISTW, accctrl/ACTRL_ACCESS, accctrl/ACTRL_ACCESSA, accctrl/ACTRL_ACCESSW, accctrl/PACTRL_ACCESS, com.actrl_access"
+ms.keywords: '*PACTRL_ACCESSA, *PACTRL_AUDITA, ACTRL_ACCESS, ACTRL_ACCESS structure [COM], ACTRL_ACCESSA, ACTRL_ACCESSW, ACTRL_AUDIT, ACTRL_AUDITA, PACTRL_ACCESS, PACTRL_ACCESS structure pointer [COM], PACTRL_ACCESSW_ALLOCATE_ALL_NODES, _ACTRL_ALISTA, _ACTRL_ALISTW, accctrl/ACTRL_ACCESS, accctrl/ACTRL_ACCESSA, accctrl/ACTRL_ACCESSW, accctrl/PACTRL_ACCESS, com.actrl_access'
 ms.topic: struct
-f1_keywords: 
- - "accctrl/ACTRL_ACCESS"
+f1_keywords:
+- accctrl/ACTRL_ACCESS
 dev_langs:
- - c++
+- c++
 req.header: accctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AccCtrl.h
+- AccCtrl.h
 api_name:
- - ACTRL_ACCESS
- - ACTRL_ACCESSA
- - ACTRL_ACCESSW
+- ACTRL_ACCESS
+- ACTRL_ACCESSA
+- ACTRL_ACCESSW
 targetos: Windows
 req.typenames: ACTRL_ACCESSA, *PACTRL_ACCESSA, ACTRL_AUDITA, *PACTRL_AUDITA
 req.redist: 

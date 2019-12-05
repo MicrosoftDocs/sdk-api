@@ -1,19 +1,17 @@
 ---
 UID: NF:casetup.IMSCEPSetup.SetAccountInformation
 title: IMSCEPSetup::SetAccountInformation (casetup.h)
-
 description: Sets the user account information used by the IIS Network Device Enrollment Service (NDES) extension to perform enrollment on behalf of network devices.
 old-location: security\imscepsetup_setaccountinformation.htm
 tech.root: SecCrypto
 ms.assetid: 32d09bdc-e8e8-4368-9f51-cc7ba170c8a0
-
 ms.date: 12/05/2018
 ms.keywords: IMSCEPSetup interface [Security],SetAccountInformation method, IMSCEPSetup.SetAccountInformation, IMSCEPSetup::SetAccountInformation, SetAccountInformation, SetAccountInformation method [Security], SetAccountInformation method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::SetAccountInformation, security.imscepsetup_setaccountinformation
 ms.topic: method
-f1_keywords: 
- - "casetup/IMSCEPSetup.SetAccountInformation"
+f1_keywords:
+- casetup/IMSCEPSetup.SetAccountInformation
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - IMSCEPSetup.SetAccountInformation
+- IMSCEPSetup.SetAccountInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

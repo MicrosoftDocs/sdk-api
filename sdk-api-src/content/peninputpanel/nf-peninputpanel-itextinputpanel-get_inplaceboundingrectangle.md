@@ -1,19 +1,17 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.get_InPlaceBoundingRectangle
 title: ITextInputPanel::get_InPlaceBoundingRectangle (peninputpanel.h)
-
 description: Gets the bounding rectangle for Tablet PC Input Panel.
 old-location: tablet\itextinputpanel_inplaceboundingrectangle.htm
 tech.root: tablet
 ms.assetid: 9a114f9d-b97d-4a2e-ac8e-f0a0241a6fbb
-
 ms.date: 12/05/2018
 ms.keywords: 9a114f9d-b97d-4a2e-ac8e-f0a0241a6fbb, ITextInputPanel interface [Tablet PC],InPlaceBoundingRectangle property, ITextInputPanel.InPlaceBoundingRectangle, ITextInputPanel.get_InPlaceBoundingRectangle, ITextInputPanel::InPlaceBoundingRectangle, ITextInputPanel::get_InPlaceBoundingRectangle, InPlaceBoundingRectangle property [Tablet PC], InPlaceBoundingRectangle property [Tablet PC],ITextInputPanel interface, get_InPlaceBoundingRectangle, peninputpanel/ITextInputPanel::InPlaceBoundingRectangle, peninputpanel/ITextInputPanel::get_InPlaceBoundingRectangle, tablet.itextinputpanel_inplaceboundingrectangle
 ms.topic: method
-f1_keywords: 
- - "peninputpanel/ITextInputPanel.InPlaceBoundingRectangle"
+f1_keywords:
+- peninputpanel/ITextInputPanel.InPlaceBoundingRectangle
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Tiptsf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tiptsf.dll
+- tiptsf.dll
 api_name:
- - ITextInputPanel.InPlaceBoundingRectangle
- - ITextInputPanel.get_InPlaceBoundingRectangle
- - ITextInputPanel.get_InPlaceBoundingRectangle
+- ITextInputPanel.InPlaceBoundingRectangle
+- ITextInputPanel.get_InPlaceBoundingRectangle
+- ITextInputPanel.get_InPlaceBoundingRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 

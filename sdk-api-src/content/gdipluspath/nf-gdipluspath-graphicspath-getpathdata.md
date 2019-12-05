@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.GetPathData
 title: GraphicsPath::GetPathData (gdipluspath.h)
-
 description: The GraphicsPath::GetPathData method gets an array of points and an array of point types from this path. Together, these two arrays define the lines, curves, figures, and markers of this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GetPathData_pathData_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\getpathdata.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetPathData, GetPathData method [GDI+], GetPathData method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],GetPathData method, GraphicsPath.GetPathData, GraphicsPath::GetPathData, _gdiplus_CLASS_GraphicsPath_GetPathData_pathData_, gdiplus._gdiplus_CLASS_GraphicsPath_GetPathData_pathData_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPath.GetPathData"
+f1_keywords:
+- gdipluspath/GraphicsPath.GetPathData
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPath.GetPathData
+- GraphicsPath.GetPathData
 targetos: Windows
 req.typenames: 
 req.redist: 

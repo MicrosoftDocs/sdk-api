@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCreateAsyncResult
 title: MFCreateAsyncResult function (mfapi.h)
-
 description: Creates an asynchronous result object. Use this function if you are implementing an asynchronous method.
 old-location: mf\mfcreateasyncresult.htm
 tech.root: medfound
 ms.assetid: 6ff773a9-961e-4a5e-ad37-46234022c575
-
 ms.date: 12/05/2018
 ms.keywords: 6ff773a9-961e-4a5e-ad37-46234022c575, MFCreateAsyncResult, MFCreateAsyncResult function [Media Foundation], mf.mfcreateasyncresult, mfapi/MFCreateAsyncResult
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCreateAsyncResult"
+f1_keywords:
+- mfapi/MFCreateAsyncResult
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateAsyncResult
+- MFCreateAsyncResult
 targetos: Windows
 req.typenames: 
 req.redist: 

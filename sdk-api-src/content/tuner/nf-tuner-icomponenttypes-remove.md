@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IComponentTypes.Remove
 title: IComponentTypes::Remove (tuner.h)
-
 description: The Remove method removes the ComponentType object at the specified index number.
 old-location: mstv\icomponenttypes_remove.htm
 tech.root: mstv
 ms.assetid: 7344851a-51ba-41c0-b368-e5eecfb5fb08
-
 ms.date: 12/05/2018
 ms.keywords: IComponentTypes interface [Microsoft TV Technologies],Remove method, IComponentTypes.Remove, IComponentTypes::Remove, IComponentTypesRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IComponentTypes interface, mstv.icomponenttypes_remove, tuner/IComponentTypes::Remove
 ms.topic: method
-f1_keywords: 
- - "tuner/IComponentTypes.Remove"
+f1_keywords:
+- tuner/IComponentTypes.Remove
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IComponentTypes.Remove
+- IComponentTypes.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

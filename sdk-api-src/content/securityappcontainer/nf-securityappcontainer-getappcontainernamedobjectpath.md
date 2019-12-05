@@ -1,19 +1,17 @@
 ---
 UID: NF:securityappcontainer.GetAppContainerNamedObjectPath
 title: GetAppContainerNamedObjectPath function (securityappcontainer.h)
-
 description: Retrieves the named object path for the app container.
 old-location: security\getappcontainernamedobjectpath.htm
 tech.root: SecAuthZ
 ms.assetid: 466CE2DA-332E-4AA7-A0EB-868A646C0979
-
 ms.date: 12/05/2018
 ms.keywords: GetAppContainerNamedObjectPath, GetAppContainerNamedObjectPath function [Security], security.getappcontainernamedobjectpath, securityappcontainer/GetAppContainerNamedObjectPath
 ms.topic: function
-f1_keywords: 
- - "securityappcontainer/GetAppContainerNamedObjectPath"
+f1_keywords:
+- securityappcontainer/GetAppContainerNamedObjectPath
 dev_langs:
- - c++
+- c++
 req.header: securityappcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Security-AppContainer-l1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Security-AppContainer-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - GetAppContainerNamedObjectPath
+- GetAppContainerNamedObjectPath
 targetos: Windows
 req.typenames: 
 req.redist: 

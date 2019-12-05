@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardSetCardTypeProviderNameA
 title: SCardSetCardTypeProviderNameA function (winscard.h)
-
 description: Specifies the name of the module (dynamic link library) containing the provider for a given card name and provider type.
 old-location: security\scardsetcardtypeprovidername.htm
 tech.root: SecAuthN
 ms.assetid: c36dfb77-6ebe-4073-b657-72fa294b5464
-
 ms.date: 12/05/2018
 ms.keywords: SCARD_PROVIDER_CARD_MODULE, SCARD_PROVIDER_CSP, SCARD_PROVIDER_KSP, SCARD_PROVIDER_PRIMARY, SCardSetCardTypeProviderName, SCardSetCardTypeProviderName function [Security], SCardSetCardTypeProviderNameA, SCardSetCardTypeProviderNameW, _smart_scardsetcardtypeprovidername, security.scardsetcardtypeprovidername, winscard/SCardSetCardTypeProviderName, winscard/SCardSetCardTypeProviderNameA, winscard/SCardSetCardTypeProviderNameW
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardSetCardTypeProviderName"
+f1_keywords:
+- winscard/SCardSetCardTypeProviderName
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winscard.dll
+- Winscard.dll
 api_name:
- - SCardSetCardTypeProviderName
- - SCardSetCardTypeProviderNameA
- - SCardSetCardTypeProviderNameW
+- SCardSetCardTypeProviderName
+- SCardSetCardTypeProviderNameA
+- SCardSetCardTypeProviderNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

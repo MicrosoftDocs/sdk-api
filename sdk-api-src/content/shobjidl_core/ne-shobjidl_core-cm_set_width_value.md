@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.CM_SET_WIDTH_VALUE
 title: CM_SET_WIDTH_VALUE (shobjidl_core.h)
-
 description: Specifies width values in pixels and includes special support for default and autosize. Used by members of the IColumnManager interface through the CM_COLUMNINFO structure.
 old-location: shell\CM_SET_WIDTH_VALUE.htm
 tech.root: shell
 ms.assetid: c5778bcc-fc9e-499a-b5e5-31c4f2df4871
-
 ms.date: 12/05/2018
 ms.keywords: CM_SET_WIDTH_VALUE, CM_SET_WIDTH_VALUE enumeration [Windows Shell], CM_WIDTH_AUTOSIZE, CM_WIDTH_USEDEFAULT, shell.CM_SET_WIDTH_VALUE, shell_CM_SET_WIDTH_VALUE, shobjidl_core/CM_SET_WIDTH_VALUE, shobjidl_core/CM_WIDTH_AUTOSIZE, shobjidl_core/CM_WIDTH_USEDEFAULT
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/CM_SET_WIDTH_VALUE"
+f1_keywords:
+- shobjidl_core/CM_SET_WIDTH_VALUE
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - CM_SET_WIDTH_VALUE
+- CM_SET_WIDTH_VALUE
 targetos: Windows
 req.typenames: CM_SET_WIDTH_VALUE
 req.redist: 

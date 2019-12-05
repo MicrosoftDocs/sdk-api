@@ -1,19 +1,17 @@
 ---
 UID: NE:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0000_0002
 title: UI_ANIMATION_MANAGER_STATUS (uianimation.h)
-
 description: Defines the activity status of an animation manager.
 old-location: uianimation\ui_animation_manager_status.htm
 tech.root: UIAnimation
 ms.assetid: 499c74c0-d1e7-4ab4-9c3a-19c2e1abeda8
-
 ms.date: 12/05/2018
 ms.keywords: UI_ANIMATION_MANAGER_BUSY, UI_ANIMATION_MANAGER_IDLE, UI_ANIMATION_MANAGER_STATUS, UI_ANIMATION_MANAGER_STATUS enumeration [Windows Animation], uianimation.ui_animation_manager_status, uianimation/UI_ANIMATION_MANAGER_BUSY, uianimation/UI_ANIMATION_MANAGER_IDLE, uianimation/UI_ANIMATION_MANAGER_STATUS
 ms.topic: enum
-f1_keywords: 
- - "uianimation/UI_ANIMATION_MANAGER_STATUS"
+f1_keywords:
+- uianimation/UI_ANIMATION_MANAGER_STATUS
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAnimation.h
+- UIAnimation.h
 api_name:
- - UI_ANIMATION_MANAGER_STATUS
+- UI_ANIMATION_MANAGER_STATUS
 targetos: Windows
 req.typenames: UI_ANIMATION_MANAGER_STATUS
 req.redist: 

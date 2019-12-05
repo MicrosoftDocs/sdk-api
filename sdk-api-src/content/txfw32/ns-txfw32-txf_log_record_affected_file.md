@@ -1,19 +1,17 @@
 ---
 UID: NS:txfw32._TXF_LOG_RECORD_AFFECTED_FILE
 title: TXF_LOG_RECORD_AFFECTED_FILE (txfw32.h)
-
 description: Contains information for a file that was affected by a transaction.
 old-location: fs\txf_log_record_affected_file.htm
 tech.root: FileIO
 ms.assetid: 9fe7375a-58ef-4807-942f-e21858f09217
-
 ms.date: 12/05/2018
 ms.keywords: '*PTXF_LOG_RECORD_AFFECTED_FILE, PTXF_LOG_RECORD_AFFECTED_FILE, PTXF_LOG_RECORD_AFFECTED_FILE structure pointer [Files], TXF_LOG_RECORD_AFFECTED_FILE, TXF_LOG_RECORD_AFFECTED_FILE structure [Files], fs.txf_log_record_affected_file, txfw32/PTXF_LOG_RECORD_AFFECTED_FILE, txfw32/TXF_LOG_RECORD_AFFECTED_FILE'
 ms.topic: struct
 f1_keywords:
 - txfw32/TXF_LOG_RECORD_AFFECTED_FILE
 dev_langs:
- - c++
+- c++
 req.header: txfw32.h
 req.include-header: 
 req.target-type: Windows

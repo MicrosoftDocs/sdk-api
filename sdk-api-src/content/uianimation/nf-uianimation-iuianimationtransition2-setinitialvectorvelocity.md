@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTransition2.SetInitialVectorVelocity
 title: IUIAnimationTransition2::SetInitialVectorVelocity (uianimation.h)
-
 description: Sets the initial velocity of the transition for each specified dimension in the animation variable.
 old-location: uianimation\iuianimationtransition2_setinitialvectorvelocity.htm
 tech.root: UIAnimation
 ms.assetid: 29EFBBE0-E877-4521-B4A7-E1828E0493B9
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTransition2 interface [Windows Animation],SetInitialVectorVelocity method, IUIAnimationTransition2.SetInitialVectorVelocity, IUIAnimationTransition2::SetInitialVectorVelocity, SetInitialVectorVelocity, SetInitialVectorVelocity method [Windows Animation], SetInitialVectorVelocity method [Windows Animation],IUIAnimationTransition2 interface, uianimation.iuianimationtransition2_setinitialvectorvelocity, uianimation/IUIAnimationTransition2::SetInitialVectorVelocity
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTransition2.SetInitialVectorVelocity"
+f1_keywords:
+- uianimation/IUIAnimationTransition2.SetInitialVectorVelocity
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTransition2.SetInitialVectorVelocity
+- IUIAnimationTransition2.SetInitialVectorVelocity
 targetos: Windows
 req.typenames: 
 req.redist: 

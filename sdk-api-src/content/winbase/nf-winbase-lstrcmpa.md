@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.lstrcmpA
 title: lstrcmpA function (winbase.h)
-
 description: Compares two character strings. The comparison is case-sensitive.
 old-location: menurc\lstrcmp.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrcmp.htm
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_lstrcmp, _win32_lstrcmp_cpp, lstrcmp, lstrcmp function [Menus and Other Resources], lstrcmpA, lstrcmpW, menurc.lstrcmp, winbase/lstrcmp, winbase/lstrcmpA, winbase/lstrcmpW, winui._win32_lstrcmp"
+ms.keywords: _win32_lstrcmp, _win32_lstrcmp_cpp, lstrcmp, lstrcmp function [Menus and Other Resources], lstrcmpA, lstrcmpW, menurc.lstrcmp, winbase/lstrcmp, winbase/lstrcmpA, winbase/lstrcmpW, winui._win32_lstrcmp
 ms.topic: function
-f1_keywords: 
- - "winbase/lstrcmp"
+f1_keywords:
+- winbase/lstrcmp
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-String-Obsolete-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-String-Obsolete-l1-1-1.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Core-misc-l1-1-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-String-Obsolete-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-String-Obsolete-l1-1-1.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Core-misc-l1-1-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
 api_name:
- - lstrcmp
- - lstrcmpA
- - lstrcmpW
+- lstrcmp
+- lstrcmpA
+- lstrcmpW
 targetos: Windows
 req.typenames: 
 req.redist: 

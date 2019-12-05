@@ -1,19 +1,17 @@
 ---
 UID: NS:winscard.__unnamed_struct_0
 title: SCARD_READERSTATEA (winscard.h)
-
 description: Used by functions for tracking smart cards within readers.
 old-location: security\scard_readerstate.htm
 tech.root: SecAuthN
 ms.assetid: 4e9bbed7-f899-4361-a526-029a710d5147
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSCARD_READERSTATEA, *PSCARD_READERSTATEA, LPSCARD_READERSTATE, LPSCARD_READERSTATE structure pointer [Security], PSCARD_READERSTATE, PSCARD_READERSTATE structure pointer [Security], SCARD_READERSTATE, SCARD_READERSTATE structure [Security], SCARD_READERSTATEA, SCARD_READERSTATEW, SCARD_STATE_ATRMATCH, SCARD_STATE_CHANGED, SCARD_STATE_EMPTY, SCARD_STATE_EXCLUSIVE, SCARD_STATE_IGNORE, SCARD_STATE_INUSE, SCARD_STATE_MUTE, SCARD_STATE_PRESENT, SCARD_STATE_UNAVAILABLE, SCARD_STATE_UNAWARE, SCARD_STATE_UNKNOWN, _smart_scard_readerstate, security.scard_readerstate, winscard/LPSCARD_READERSTATE, winscard/PSCARD_READERSTATE, winscard/SCARD_READERSTATE, winscard/SCARD_READERSTATEA, winscard/SCARD_READERSTATEW"
+ms.keywords: '*LPSCARD_READERSTATEA, *PSCARD_READERSTATEA, LPSCARD_READERSTATE, LPSCARD_READERSTATE structure pointer [Security], PSCARD_READERSTATE, PSCARD_READERSTATE structure pointer [Security], SCARD_READERSTATE, SCARD_READERSTATE structure [Security], SCARD_READERSTATEA, SCARD_READERSTATEW, SCARD_STATE_ATRMATCH, SCARD_STATE_CHANGED, SCARD_STATE_EMPTY, SCARD_STATE_EXCLUSIVE, SCARD_STATE_IGNORE, SCARD_STATE_INUSE, SCARD_STATE_MUTE, SCARD_STATE_PRESENT, SCARD_STATE_UNAVAILABLE, SCARD_STATE_UNAWARE, SCARD_STATE_UNKNOWN, _smart_scard_readerstate, security.scard_readerstate, winscard/LPSCARD_READERSTATE, winscard/PSCARD_READERSTATE, winscard/SCARD_READERSTATE, winscard/SCARD_READERSTATEA, winscard/SCARD_READERSTATEW'
 ms.topic: struct
-f1_keywords: 
- - "winscard/SCARD_READERSTATE"
+f1_keywords:
+- winscard/SCARD_READERSTATE
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winscard.h
+- Winscard.h
 api_name:
- - SCARD_READERSTATE
- - SCARD_READERSTATEA
- - SCARD_READERSTATEW
+- SCARD_READERSTATE
+- SCARD_READERSTATEA
+- SCARD_READERSTATEW
 targetos: Windows
 req.typenames: SCARD_READERSTATEA, *PSCARD_READERSTATEA, *LPSCARD_READERSTATEA
 req.redist: 

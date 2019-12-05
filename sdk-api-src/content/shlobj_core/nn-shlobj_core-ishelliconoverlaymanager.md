@@ -1,19 +1,17 @@
 ---
 UID: NN:shlobj_core.IShellIconOverlayManager
 title: IShellIconOverlayManager (shlobj_core.h)
-
 description: IShellIconOverlayManager may be altered or unavailable.
 old-location: shell\IShellIconOverlayManager.htm
 tech.root: shell
 ms.assetid: 769c3b0b-ece4-4406-a76c-cabc37901351
-
 ms.date: 12/05/2018
 ms.keywords: IShellIconOverlayManager, IShellIconOverlayManager interface [Windows Shell], IShellIconOverlayManager interface [Windows Shell],described, _win32_IShellIconOverlayManager, shell.IShellIconOverlayManager, shlobj_core/IShellIconOverlayManager
 ms.topic: interface
-f1_keywords: 
- - "shlobj_core/IShellIconOverlayManager"
+f1_keywords:
+- shlobj_core/IShellIconOverlayManager
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellIconOverlayManager
+- IShellIconOverlayManager
 targetos: Windows
 req.typenames: 
 req.redist: 

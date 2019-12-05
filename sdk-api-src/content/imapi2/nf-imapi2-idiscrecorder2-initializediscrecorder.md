@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.InitializeDiscRecorder
 title: IDiscRecorder2::InitializeDiscRecorder (imapi2.h)
-
 description: Associates the object with the specified disc device.
 old-location: imapi\idiscrecorder2_initializediscrecorder.htm
 tech.root: imapi
 ms.assetid: 19a647b3-ef39-4208-9dfc-e52242a88c6c
-
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],InitializeDiscRecorder method, IDiscRecorder2.InitializeDiscRecorder, IDiscRecorder2::InitializeDiscRecorder, InitializeDiscRecorder, InitializeDiscRecorder method [IMAPI], InitializeDiscRecorder method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_initializediscrecorder, imapi2/IDiscRecorder2::InitializeDiscRecorder
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscRecorder2.InitializeDiscRecorder"
+f1_keywords:
+- imapi2/IDiscRecorder2.InitializeDiscRecorder
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscRecorder2.InitializeDiscRecorder
+- IDiscRecorder2.InitializeDiscRecorder
 targetos: Windows
 req.typenames: 
 req.redist: 

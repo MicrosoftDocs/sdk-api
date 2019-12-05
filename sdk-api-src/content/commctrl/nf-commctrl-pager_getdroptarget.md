@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.Pager_GetDropTarget
 title: Pager_GetDropTarget macro (commctrl.h)
-
 description: Retrieves a pager control's IDropTarget interface pointer. You can use this macro or send the PGM_GETDROPTARGET message explicitly.
 old-location: controls\Pager_GetDropTarget.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_getdroptarget.htm
-
 ms.date: 12/05/2018
 ms.keywords: Pager_GetDropTarget, Pager_GetDropTarget macro [Windows Controls], _win32_Pager_GetDropTarget, _win32_Pager_GetDropTarget_cpp, commctrl/Pager_GetDropTarget, controls.Pager_GetDropTarget, controls._win32_Pager_GetDropTarget
 ms.topic: macro
-f1_keywords: 
- - "commctrl/Pager_GetDropTarget"
+f1_keywords:
+- commctrl/Pager_GetDropTarget
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - Pager_GetDropTarget
+- Pager_GetDropTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

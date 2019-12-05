@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetCreateUrlA
 title: InternetCreateUrlA function (wininet.h)
-
 description: Creates a URL from its component parts.
 old-location: wininet\internetcreateurl.htm
 tech.root: wininet
 ms.assetid: b01bb684-0b2f-4c17-ab32-9f83fdd89e69
-
 ms.date: 12/05/2018
 ms.keywords: InternetCreateUrl, InternetCreateUrl function [WinINet], InternetCreateUrlA, InternetCreateUrlW, _inet_internetcreateurl_function, wininet.internetcreateurl, wininet/InternetCreateUrl, wininet/InternetCreateUrlA, wininet/InternetCreateUrlW
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetCreateUrl"
+f1_keywords:
+- wininet/InternetCreateUrl
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetCreateUrl
- - InternetCreateUrlA
- - InternetCreateUrlW
+- InternetCreateUrl
+- InternetCreateUrlA
+- InternetCreateUrlW
 targetos: Windows
 req.typenames: 
 req.redist: 

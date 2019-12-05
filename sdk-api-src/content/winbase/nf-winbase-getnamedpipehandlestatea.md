@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetNamedPipeHandleStateA
 title: GetNamedPipeHandleStateA function (winbase.h)
-
 description: Retrieves information about a specified named pipe.
 old-location: base\getnamedpipehandlestate.htm
 tech.root: ipc
 ms.assetid: a28003f0-f488-4ac3-91bf-dd7c5e87ea66
-
 ms.date: 12/05/2018
 ms.keywords: GetNamedPipeHandleState, GetNamedPipeHandleState function, GetNamedPipeHandleStateA, GetNamedPipeHandleStateW, PIPE_NOWAIT, PIPE_READMODE_MESSAGE, _win32_getnamedpipehandlestate, base.getnamedpipehandlestate, winbase/GetNamedPipeHandleState, winbase/GetNamedPipeHandleStateA, winbase/GetNamedPipeHandleStateW
 ms.topic: function
-f1_keywords: 
- - "winbase/GetNamedPipeHandleState"
+f1_keywords:
+- winbase/GetNamedPipeHandleState
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-Ms-Win-Core-NamedPipe-Ansi-L1-1-0.dll
- - API-Ms-Win-Core-NamedPipe-L1-2-1.dll
- - Kernel32Legacy.dll
- - KernelBase.dll
- - API-MS-Win-Core-NamedPipe-Ansi-L1-1-1.dll
- - API-MS-Win-Core-NamedPipe-L1-2-2.dll
+- Kernel32.dll
+- API-Ms-Win-Core-NamedPipe-Ansi-L1-1-0.dll
+- API-Ms-Win-Core-NamedPipe-L1-2-1.dll
+- Kernel32Legacy.dll
+- KernelBase.dll
+- API-MS-Win-Core-NamedPipe-Ansi-L1-1-1.dll
+- API-MS-Win-Core-NamedPipe-L1-2-2.dll
 api_name:
- - GetNamedPipeHandleState
- - GetNamedPipeHandleStateA
- - GetNamedPipeHandleStateW
+- GetNamedPipeHandleState
+- GetNamedPipeHandleStateA
+- GetNamedPipeHandleStateW
 targetos: Windows
 req.typenames: 
 req.redist: 

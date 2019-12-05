@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwService.get_Name
 title: INetFwService::get_Name (netfw.h)
-
 description: Retrieves the friendly name of the service.
 old-location: ics\inetfwservice_name.htm
 tech.root: ics
 ms.assetid: 3b6179d0-c16d-43f7-8575-b173841cffe9
-
 ms.date: 12/05/2018
 ms.keywords: INetFwService interface [ICS/ICF],Name property, INetFwService.Name, INetFwService.get_Name, INetFwService::Name, INetFwService::get_Name, Name property [ICS/ICF], Name property [ICS/ICF],INetFwService interface, get_Name, ics.inetfwservice_name, netfw/INetFwService::Name, netfw/INetFwService::get_Name
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwService.Name"
+f1_keywords:
+- netfw/INetFwService.Name
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwService.Name
- - INetFwService.get_Name
+- INetFwService.Name
+- INetFwService.get_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

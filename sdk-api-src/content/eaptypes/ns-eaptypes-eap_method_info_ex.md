@@ -1,19 +1,17 @@
 ---
 UID: NS:eaptypes._EAP_METHOD_INFO_EX
 title: EAP_METHOD_INFO_EX (eaptypes.h)
-
 description: Contains information about an EAP method.
 old-location: eaphost\eap_method_info_ex.htm
 tech.root: eaphost
 ms.assetid: 2d25f418-2130-4f9c-b3f4-f639dfba020a
-
 ms.date: 12/05/2018
 ms.keywords: EAP_METHOD_INFO_EX, EAP_METHOD_INFO_EX structure [EAPHost], eaphost.eap_method_info_ex, eaptypes/EAP_METHOD_INFO_EX
 ms.topic: struct
 f1_keywords:
 - eaptypes/EAP_METHOD_INFO_EX
 dev_langs:
- - c++
+- c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

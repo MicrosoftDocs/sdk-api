@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IAttachmentExecute.Prompt
 title: IAttachmentExecute::Prompt (shobjidl_core.h)
-
 description: Presents a prompt UI to the user.
 old-location: shell\IAttachmentExecute_Prompt.htm
 tech.root: shell
 ms.assetid: 01c01abf-df7a-411b-979b-ddd8da569f91
-
 ms.date: 12/05/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],Prompt method, IAttachmentExecute.Prompt, IAttachmentExecute::Prompt, Prompt, Prompt method [Windows Shell], Prompt method [Windows Shell],IAttachmentExecute interface, _win32_IAttachmentExecute_Prompt, shell.IAttachmentExecute_Prompt, shobjidl_core/IAttachmentExecute::Prompt
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IAttachmentExecute.Prompt"
+f1_keywords:
+- shobjidl_core/IAttachmentExecute.Prompt
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shdocvw.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdocvw.dll
+- Shdocvw.dll
 api_name:
- - IAttachmentExecute.Prompt
+- IAttachmentExecute.Prompt
 targetos: Windows
 req.typenames: 
 req.redist: 

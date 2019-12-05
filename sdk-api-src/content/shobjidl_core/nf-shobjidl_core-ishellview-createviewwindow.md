@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellView.CreateViewWindow
 title: IShellView::CreateViewWindow (shobjidl_core.h)
-
 description: Creates a view window. This can be either the right pane of Windows Explorer or the client window of a folder window.
 old-location: shell\IShellView_CreateViewWindow.htm
 tech.root: shell
 ms.assetid: 62d71bca-d2cb-4668-b0bf-2e53756f2cd9
-
 ms.date: 12/05/2018
 ms.keywords: CreateViewWindow, CreateViewWindow method [Windows Shell], CreateViewWindow method [Windows Shell],IShellView interface, IShellView interface [Windows Shell],CreateViewWindow method, IShellView.CreateViewWindow, IShellView::CreateViewWindow, _win32_IShellView_CreateViewWindow, shell.IShellView_CreateViewWindow, shobjidl_core/IShellView::CreateViewWindow
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellView.CreateViewWindow"
+f1_keywords:
+- shobjidl_core/IShellView.CreateViewWindow
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellView.CreateViewWindow
+- IShellView.CreateViewWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

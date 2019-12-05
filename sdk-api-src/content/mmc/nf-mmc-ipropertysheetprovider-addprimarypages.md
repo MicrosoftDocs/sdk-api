@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IPropertySheetProvider.AddPrimaryPages
 title: IPropertySheetProvider::AddPrimaryPages (mmc.h)
-
 description: The IPropertySheetProvider::AddPrimaryPages method collects the pages from the primary snap-in.
 old-location: mmc\ipropertysheetprovider_addprimarypages.htm
 tech.root: mmc
 ms.assetid: f555dfd0-8af3-422f-a339-ab79daa89b45
-
 ms.date: 12/05/2018
 ms.keywords: AddPrimaryPages, AddPrimaryPages method [MMC], AddPrimaryPages method [MMC],IPropertySheetProvider interface, IPropertySheetProvider interface [MMC],AddPrimaryPages method, IPropertySheetProvider.AddPrimaryPages, IPropertySheetProvider::AddPrimaryPages, _slate_ipropertysheetprovider_addprimarypages, mmc.ipropertysheetprovider_addprimarypages, mmc/IPropertySheetProvider::AddPrimaryPages
 ms.topic: method
-f1_keywords: 
- - "mmc/IPropertySheetProvider.AddPrimaryPages"
+f1_keywords:
+- mmc/IPropertySheetProvider.AddPrimaryPages
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IPropertySheetProvider.AddPrimaryPages
+- IPropertySheetProvider.AddPrimaryPages
 targetos: Windows
 req.typenames: 
 req.redist: 

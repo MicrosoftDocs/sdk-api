@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DSurface9.GetDesc
 title: IDirect3DSurface9::GetDesc (d3d9.h)
-
 description: Retrieves a description of the surface.
 old-location: direct3d9\idirect3dsurface9__getdesc.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dsurface9__getdesc.htm
-
 ms.date: 12/05/2018
 ms.keywords: 068aa9b6-08d4-5e72-dc9f-18e83e42aef2, GetDesc, GetDesc method [Direct3D 9], GetDesc method [Direct3D 9],IDirect3DSurface9 interface, IDirect3DSurface9 interface [Direct3D 9],GetDesc method, IDirect3DSurface9.GetDesc, IDirect3DSurface9::GetDesc, d3d9helper/IDirect3DSurface9::GetDesc, direct3d9.idirect3dsurface9__getdesc
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DSurface9.GetDesc"
+f1_keywords:
+- d3d9/IDirect3DSurface9.GetDesc
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DSurface9.GetDesc
+- IDirect3DSurface9.GetDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

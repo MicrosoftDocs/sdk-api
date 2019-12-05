@@ -1,19 +1,17 @@
 ---
 UID: NF:uiribbon.IUIContextualUI.ShowAtLocation
 title: IUIContextualUI::ShowAtLocation (uiribbon.h)
-
 description: Displays a ContextPopup.
 old-location: windowsribbon\windowsribbon_iuicontextualui_showatlocation.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicontextualui\showatlocation.htm
-
 ms.date: 12/05/2018
 ms.keywords: IUIContextualUI interface [Windows Ribbon],ShowAtLocation method, IUIContextualUI.ShowAtLocation, IUIContextualUI::ShowAtLocation, ShowAtLocation, ShowAtLocation method [Windows Ribbon], ShowAtLocation method [Windows Ribbon],IUIContextualUI interface, scenicintent_IUIContextualUI_ShowAtLocation, uiribbon/IUIContextualUI::ShowAtLocation, windowsribbon.windowsribbon_iuicontextualui_showatlocation
 ms.topic: method
-f1_keywords: 
- - "uiribbon/IUIContextualUI.ShowAtLocation"
+f1_keywords:
+- uiribbon/IUIContextualUI.ShowAtLocation
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mshtml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mshtml.dll
+- Mshtml.dll
 api_name:
- - IUIContextualUI.ShowAtLocation
+- IUIContextualUI.ShowAtLocation
 targetos: Windows
 req.typenames: 
 req.redist: 

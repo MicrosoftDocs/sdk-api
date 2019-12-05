@@ -1,19 +1,17 @@
 ---
 UID: NF:objbase.CoGetObject
 title: CoGetObject function (objbase.h)
-
 description: Converts a display name into a moniker that identifies the object named, and then binds to the object identified by the moniker.
 old-location: com\cogetobject.htm
 tech.root: com
 ms.assetid: 0f5c9ef5-3918-4f93-bfd1-1017029b3dc1
-
 ms.date: 12/05/2018
 ms.keywords: CoGetObject, CoGetObject function [COM], _com_CoGetObject, com.cogetobject, objbase/CoGetObject
 ms.topic: function
-f1_keywords: 
- - "objbase/CoGetObject"
+f1_keywords:
+- objbase/CoGetObject
 dev_langs:
- - c++
+- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - Ext-MS-Win-OLE32-bindctx-l1-1-0.dll
- - ole32_wp.dll
+- Ole32.dll
+- Ext-MS-Win-OLE32-bindctx-l1-1-0.dll
+- ole32_wp.dll
 api_name:
- - CoGetObject
+- CoGetObject
 targetos: Windows
 req.typenames: 
 req.redist: 

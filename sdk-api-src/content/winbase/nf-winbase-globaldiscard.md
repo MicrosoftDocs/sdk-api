@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GlobalDiscard
 title: GlobalDiscard macro (winbase.h)
-
 description: Discards the specified global memory block.
 old-location: base\globaldiscard.htm
 tech.root: Memory
 ms.assetid: af6160ce-ab7a-4198-bca3-dd5d51cacfa5
-
 ms.date: 12/05/2018
 ms.keywords: GlobalDiscard, GlobalDiscard macro, _win32_globaldiscard, base.globaldiscard, winbase/GlobalDiscard
 ms.topic: macro
-f1_keywords: 
- - "winbase/GlobalDiscard"
+f1_keywords:
+- winbase/GlobalDiscard
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
+- WinBase.h
 api_name:
- - GlobalDiscard
+- GlobalDiscard
 targetos: Windows
 req.typenames: 
 req.redist: 

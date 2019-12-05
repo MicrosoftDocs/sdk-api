@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.GetEffectRequiredInputRectangles
 title: ID2D1DeviceContext::GetEffectRequiredInputRectangles (d2d1_1.h)
-
 description: Returns the input rectangles that are required to be supplied by the caller to produce the given output rectangle.
 old-location: direct2d\id2d1devicecontext_geteffectrequiredinputrectangles.htm
 tech.root: Direct2D
 ms.assetid: B34548A9-1E23-496F-A1D9-87B74EF67C72
-
 ms.date: 12/05/2018
 ms.keywords: GetEffectRequiredInputRectangles, GetEffectRequiredInputRectangles method [Direct2D], GetEffectRequiredInputRectangles method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],GetEffectRequiredInputRectangles method, ID2D1DeviceContext.GetEffectRequiredInputRectangles, ID2D1DeviceContext::GetEffectRequiredInputRectangles, d2d1_1/ID2D1DeviceContext::GetEffectRequiredInputRectangles, direct2d.id2d1devicecontext_geteffectrequiredinputrectangles
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1DeviceContext.GetEffectRequiredInputRectangles"
+f1_keywords:
+- d2d1_1/ID2D1DeviceContext.GetEffectRequiredInputRectangles
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1DeviceContext.GetEffectRequiredInputRectangles
+- ID2D1DeviceContext.GetEffectRequiredInputRectangles
 targetos: Windows
 req.typenames: 
 req.redist: 

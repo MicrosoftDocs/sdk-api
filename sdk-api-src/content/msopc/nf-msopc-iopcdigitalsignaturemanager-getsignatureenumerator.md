@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureManager.GetSignatureEnumerator
 title: IOpcDigitalSignatureManager::GetSignatureEnumerator (msopc.h)
-
 description: Gets an enumerator of IOpcDigitalSignature interface pointers, which represent package signatures.
 old-location: opc\iopcdigitalsignaturemanager_getsignatureenumerator.htm
 tech.root: OPC
 ms.assetid: 44906f03-806f-400c-a7f3-0da5c330e1ff
-
 ms.date: 12/05/2018
 ms.keywords: GetSignatureEnumerator, GetSignatureEnumerator method [Open Packaging Conventions], GetSignatureEnumerator method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, IOpcDigitalSignatureManager interface [Open Packaging Conventions],GetSignatureEnumerator method, IOpcDigitalSignatureManager.GetSignatureEnumerator, IOpcDigitalSignatureManager::GetSignatureEnumerator, msopc/IOpcDigitalSignatureManager::GetSignatureEnumerator, opc.iopcdigitalsignaturemanager_getsignatureenumerator
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcDigitalSignatureManager.GetSignatureEnumerator"
+f1_keywords:
+- msopc/IOpcDigitalSignatureManager.GetSignatureEnumerator
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcDigitalSignatureManager.GetSignatureEnumerator
+- IOpcDigitalSignatureManager.GetSignatureEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

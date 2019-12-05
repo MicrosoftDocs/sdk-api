@@ -1,19 +1,17 @@
 ---
 UID: NE:dxgi1_2.DXGI_COMPUTE_PREEMPTION_GRANULARITY
 title: DXGI_COMPUTE_PREEMPTION_GRANULARITY (dxgi1_2.h)
-
 description: Identifies the granularity at which the graphics processing unit (GPU) can be preempted from performing its current compute task.
 old-location: direct3ddxgi\dxgi_compute_preemption_granularity.htm
 tech.root: direct3ddxgi
 ms.assetid: DEE6E26D-B4BB-4832-9CFC-4167F399BC65
-
 ms.date: 12/05/2018
 ms.keywords: DXGI_COMPUTE_PREEMPTION_DISPATCH_BOUNDARY, DXGI_COMPUTE_PREEMPTION_DMA_BUFFER_BOUNDARY, DXGI_COMPUTE_PREEMPTION_GRANULARITY, DXGI_COMPUTE_PREEMPTION_GRANULARITY enumeration [DXGI], DXGI_COMPUTE_PREEMPTION_INSTRUCTION_BOUNDARY, DXGI_COMPUTE_PREEMPTION_THREAD_BOUNDARY, DXGI_COMPUTE_PREEMPTION_THREAD_GROUP_BOUNDARY, direct3ddxgi.dxgi_compute_preemption_granularity, dxgi1_2/DXGI_COMPUTE_PREEMPTION_DISPATCH_BOUNDARY, dxgi1_2/DXGI_COMPUTE_PREEMPTION_DMA_BUFFER_BOUNDARY, dxgi1_2/DXGI_COMPUTE_PREEMPTION_GRANULARITY, dxgi1_2/DXGI_COMPUTE_PREEMPTION_INSTRUCTION_BOUNDARY, dxgi1_2/DXGI_COMPUTE_PREEMPTION_THREAD_BOUNDARY, dxgi1_2/DXGI_COMPUTE_PREEMPTION_THREAD_GROUP_BOUNDARY
 ms.topic: enum
-f1_keywords: 
- - "dxgi1_2/DXGI_COMPUTE_PREEMPTION_GRANULARITY"
+f1_keywords:
+- dxgi1_2/DXGI_COMPUTE_PREEMPTION_GRANULARITY
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DXGI1_2.h
+- DXGI1_2.h
 api_name:
- - DXGI_COMPUTE_PREEMPTION_GRANULARITY
+- DXGI_COMPUTE_PREEMPTION_GRANULARITY
 targetos: Windows
 req.typenames: DXGI_COMPUTE_PREEMPTION_GRANULARITY
 req.redist: 

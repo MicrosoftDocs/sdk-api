@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetSetPerSiteCookieDecisionA
 title: InternetSetPerSiteCookieDecisionA function (wininet.h)
-
 description: Sets a decision on cookies for a given domain.
 old-location: wininet\internetsetpersitecookiedecision.htm
 tech.root: wininet
 ms.assetid: c25699b9-f79a-443b-b9a4-461c379fa8e4
-
 ms.date: 12/05/2018
 ms.keywords: InternetSetPerSiteCookieDecision, InternetSetPerSiteCookieDecision function [WinINet], InternetSetPerSiteCookieDecisionA, InternetSetPerSiteCookieDecisionW, wininet.internetsetpersitecookiedecision, wininet/InternetSetPerSiteCookieDecision, wininet/InternetSetPerSiteCookieDecisionA, wininet/InternetSetPerSiteCookieDecisionW
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetSetPerSiteCookieDecision"
+f1_keywords:
+- wininet/InternetSetPerSiteCookieDecision
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetSetPerSiteCookieDecision
- - InternetSetPerSiteCookieDecisionA
- - InternetSetPerSiteCookieDecisionW
+- InternetSetPerSiteCookieDecision
+- InternetSetPerSiteCookieDecisionA
+- InternetSetPerSiteCookieDecisionW
 targetos: Windows
 req.typenames: 
 req.redist: 

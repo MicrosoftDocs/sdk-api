@@ -1,19 +1,17 @@
 ---
 UID: NN:endpointvolume.IAudioMeterInformation
 title: IAudioMeterInformation (endpointvolume.h)
-
 description: The IAudioMeterInformation interface represents a peak meter on an audio stream to or from an audio endpoint device.
 old-location: coreaudio\iaudiometerinformation.htm
 tech.root: CoreAudio
 ms.assetid: eff1c1cd-792b-489a-8381-4b783c57f005
-
 ms.date: 12/05/2018
 ms.keywords: IAudioMeterInformation, IAudioMeterInformation interface [Core Audio], IAudioMeterInformation interface [Core Audio],described, coreaudio.iaudiometerinformation, endpointvolume/IAudioMeterInformation
 ms.topic: interface
-f1_keywords: 
- - "endpointvolume/IAudioMeterInformation"
+f1_keywords:
+- endpointvolume/IAudioMeterInformation
 dev_langs:
- - c++
+- c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Endpointvolume.h
+- Endpointvolume.h
 api_name:
- - IAudioMeterInformation
+- IAudioMeterInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

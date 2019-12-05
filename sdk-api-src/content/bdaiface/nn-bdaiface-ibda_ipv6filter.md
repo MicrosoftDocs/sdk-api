@@ -1,19 +1,17 @@
 ---
 UID: NN:bdaiface.IBDA_IPV6Filter
 title: IBDA_IPV6Filter (bdaiface.h)
-
 description: This interface is not supported.
 old-location: mstv\ibda_ipv6filter.htm
 tech.root: mstv
 ms.assetid: b506d382-c56d-4c5b-ad57-e186173ea9a8
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_IPV6Filter, IBDA_IPV6Filter interface [Microsoft TV Technologies], IBDA_IPV6Filter interface [Microsoft TV Technologies],described, IBDA_IPV6FilterInterface, bdaiface/IBDA_IPV6Filter, mstv.ibda_ipv6filter
 ms.topic: interface
-f1_keywords: 
- - "bdaiface/IBDA_IPV6Filter"
+f1_keywords:
+- bdaiface/IBDA_IPV6Filter
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_IPV6Filter
+- IBDA_IPV6Filter
 targetos: Windows
 req.typenames: 
 req.redist: 

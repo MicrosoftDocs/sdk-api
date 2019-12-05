@@ -1,19 +1,17 @@
 ---
 UID: NF:frquery.CFrameworkQuery.KeysOnly
 title: CFrameworkQuery::KeysOnly (frquery.h)
-
 description: The KeysOnly method indicates whether only the key properties are required.
 old-location: wmi\cframeworkquery_keysonly.htm
 tech.root: WmiSdk
 ms.assetid: 977030f8-264f-4fa2-8941-e419cd28c569
-
 ms.date: 12/05/2018
 ms.keywords: CFrameworkQuery interface [Windows Management Instrumentation],KeysOnly method, CFrameworkQuery.KeysOnly, CFrameworkQuery::KeysOnly, KeysOnly, KeysOnly method [Windows Management Instrumentation], KeysOnly method [Windows Management Instrumentation],CFrameworkQuery interface, _hmm_cframeworkquery_keysonly, frquery/CFrameworkQuery::KeysOnly, wmi.cframeworkquery_keysonly
 ms.topic: method
-f1_keywords: 
- - "frquery/CFrameworkQuery.KeysOnly"
+f1_keywords:
+- frquery/CFrameworkQuery.KeysOnly
 dev_langs:
- - c++
+- c++
 req.header: frquery.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CFrameworkQuery.KeysOnly
+- CFrameworkQuery.KeysOnly
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IMenuPopup
 title: IMenuPopup (shobjidl_core.h)
-
 description: IMenuPopup may be altered or unavailable.
 old-location: shell\IMenuPopup.htm
 tech.root: shell
 ms.assetid: dc5749b1-43b7-4f68-ac38-8a6e99613149
-
 ms.date: 12/05/2018
 ms.keywords: IMenuPopup, IMenuPopup interface [Windows Shell], IMenuPopup interface [Windows Shell],described, _win32_IMenuPopup, shell.IMenuPopup, shobjidl_core/IMenuPopup
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IMenuPopup"
+f1_keywords:
+- shobjidl_core/IMenuPopup
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IMenuPopup
+- IMenuPopup
 targetos: Windows
 req.typenames: 
 req.redist: 

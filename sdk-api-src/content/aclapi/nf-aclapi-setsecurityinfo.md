@@ -1,19 +1,17 @@
 ---
 UID: NF:aclapi.SetSecurityInfo
 title: SetSecurityInfo function (aclapi.h)
-
 description: Sets specified security information in the security descriptor of a specified object. The caller identifies the object by a handle.
 old-location: security\setsecurityinfo.htm
 tech.root: SecAuthZ
 ms.assetid: f1781ba9-81eb-46f9-b530-c390b67d65de
-
 ms.date: 12/05/2018
 ms.keywords: SetSecurityInfo, SetSecurityInfo function [Security], _win32_setsecurityinfo, aclapi/SetSecurityInfo, security.setsecurityinfo
 ms.topic: function
 f1_keywords:
 - aclapi/SetSecurityInfo
 dev_langs:
- - c++
+- c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

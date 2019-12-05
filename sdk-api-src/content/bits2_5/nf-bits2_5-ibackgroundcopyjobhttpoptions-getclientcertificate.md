@@ -1,19 +1,17 @@
 ---
 UID: NF:bits2_5.IBackgroundCopyJobHttpOptions.GetClientCertificate
 title: IBackgroundCopyJobHttpOptions::GetClientCertificate (bits2_5.h)
-
 description: Retrieves the client certificate from the job.
 old-location: bits\ibackgroundcopyjobhttpoptions_getclientcertificate.htm
 tech.root: Bits
 ms.assetid: cd317bf9-1d4b-438e-beec-15ea7da90fc9
-
 ms.date: 12/05/2018
 ms.keywords: GetClientCertificate, GetClientCertificate method [BITS], GetClientCertificate method [BITS],IBackgroundCopyJobHttpOptions interface, IBackgroundCopyJobHttpOptions interface [BITS],GetClientCertificate method, IBackgroundCopyJobHttpOptions.GetClientCertificate, IBackgroundCopyJobHttpOptions::GetClientCertificate, bits.ibackgroundcopyjobhttpoptions_getclientcertificate, bits2_5/IBackgroundCopyJobHttpOptions::GetClientCertificate
 ms.topic: method
-f1_keywords: 
- - "bits2_5/IBackgroundCopyJobHttpOptions.GetClientCertificate"
+f1_keywords:
+- bits2_5/IBackgroundCopyJobHttpOptions.GetClientCertificate
 dev_langs:
- - c++
+- c++
 req.header: bits2_5.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBackgroundCopyJobHttpOptions.GetClientCertificate
+- IBackgroundCopyJobHttpOptions.GetClientCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

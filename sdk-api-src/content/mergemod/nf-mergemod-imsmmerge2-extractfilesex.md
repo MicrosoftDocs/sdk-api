@@ -1,19 +1,17 @@
 ---
 UID: NF:mergemod.IMsmMerge2.ExtractFilesEx
 title: IMsmMerge2::ExtractFilesEx (mergemod.h)
-
 description: The ExtractFilesEx method extracts the embedded .cab file from a module and then writes those files to the destination directory. For more information, see the ExtractFilesEx method of the Merge object.
 old-location: setup\imsmmerge2_extractfilesex.htm
 tech.root: Msi
 ms.assetid: 0ba6adc9-a08f-47a6-b8a8-1624bd856511
-
 ms.date: 12/05/2018
 ms.keywords: ExtractFilesEx, ExtractFilesEx method, ExtractFilesEx method,IMsmMerge2 interface, IMsmMerge2 interface,ExtractFilesEx method, IMsmMerge2.ExtractFilesEx, IMsmMerge2::ExtractFilesEx, _msi_extractfilesex_function, mergemod/IMsmMerge2::ExtractFilesEx, setup.imsmmerge2_extractfilesex
 ms.topic: method
-f1_keywords: 
- - "mergemod/IMsmMerge2.ExtractFilesEx"
+f1_keywords:
+- mergemod/IMsmMerge2.ExtractFilesEx
 dev_langs:
- - c++
+- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mergemod.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mergemod.dll
+- Mergemod.dll
 api_name:
- - IMsmMerge2.ExtractFilesEx
+- IMsmMerge2.ExtractFilesEx
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winbase._FILE_STANDARD_INFO
 title: FILE_STANDARD_INFO (winbase.h)
-
 description: Receives extended information for the file.
 old-location: fs\file_standard_info.htm
 tech.root: FileIO
 ms.assetid: da3187de-7de2-4307-a083-ae5fff6d8096
-
 ms.date: 12/05/2018
-ms.keywords: "*PFILE_STANDARD_INFO, FILE_STANDARD_INFO, FILE_STANDARD_INFO structure [Files], PFILE_STANDARD_INFO, PFILE_STANDARD_INFO structure pointer [Files], fileextd/FILE_STANDARD_INFO, fileextd/PFILE_STANDARD_INFO, fs.file_standard_info, winbase/FILE_STANDARD_INFO, winbase/PFILE_STANDARD_INFO"
+ms.keywords: '*PFILE_STANDARD_INFO, FILE_STANDARD_INFO, FILE_STANDARD_INFO structure [Files], PFILE_STANDARD_INFO, PFILE_STANDARD_INFO structure pointer [Files], fileextd/FILE_STANDARD_INFO, fileextd/PFILE_STANDARD_INFO, fs.file_standard_info, winbase/FILE_STANDARD_INFO, winbase/PFILE_STANDARD_INFO'
 ms.topic: struct
-f1_keywords: 
- - "winbase/FILE_STANDARD_INFO"
+f1_keywords:
+- winbase/FILE_STANDARD_INFO
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
- - FileExtd.h
+- WinBase.h
+- FileExtd.h
 api_name:
- - FILE_STANDARD_INFO
+- FILE_STANDARD_INFO
 targetos: Windows
 req.typenames: FILE_STANDARD_INFO, *PFILE_STANDARD_INFO
 req.redist: Windows SDK on     Windows Server 2003 and Windows XP.

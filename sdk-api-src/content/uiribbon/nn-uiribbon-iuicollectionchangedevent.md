@@ -1,19 +1,17 @@
 ---
 UID: NN:uiribbon.IUICollectionChangedEvent
 title: IUICollectionChangedEvent (uiribbon.h)
-
 description: The IUICollectionChangedEvent interface is implemented by the application and defines the method required to handle changes to a collection at run time.
 old-location: windowsribbon\windowsribbon_iuicollectionchangedevent.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollectionchangedevent\iuicollectionchangedevent.htm
-
 ms.date: 12/05/2018
 ms.keywords: IUICollectionChangedEvent, IUICollectionChangedEvent interface [Windows Ribbon], IUICollectionChangedEvent interface [Windows Ribbon],described, scenicintent_IUICollectionChangedEvent, uiribbon/IUICollectionChangedEvent, windowsribbon.windowsribbon_iuicollectionchangedevent
 ms.topic: interface
-f1_keywords: 
- - "uiribbon/IUICollectionChangedEvent"
+f1_keywords:
+- uiribbon/IUICollectionChangedEvent
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Uiribbon.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uiribbon.dll
+- Uiribbon.dll
 api_name:
- - IUICollectionChangedEvent
+- IUICollectionChangedEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

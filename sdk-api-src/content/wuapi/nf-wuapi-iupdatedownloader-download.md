@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateDownloader.Download
 title: IUpdateDownloader::Download (wuapi.h)
-
 description: Starts a synchronous download of the content files that are associated with the updates.
 old-location: wua\iupdatedownloader_download.htm
 tech.root: Wua_Sdk
 ms.assetid: 8b860632-3d10-4791-b4b3-d37aad319a0a
-
 ms.date: 12/05/2018
 ms.keywords: Download, Download method [Windows Update Agent], Download method [Windows Update Agent],IUpdateDownloader interface, IUpdateDownloader interface [Windows Update Agent],Download method, IUpdateDownloader.Download, IUpdateDownloader::Download, wua.iupdatedownloader_download, wuapi/IUpdateDownloader::Download
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateDownloader.Download"
+f1_keywords:
+- wuapi/IUpdateDownloader.Download
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateDownloader.Download
+- IUpdateDownloader.Download
 targetos: Windows
 req.typenames: 
 req.redist: 

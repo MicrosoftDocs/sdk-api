@@ -1,19 +1,17 @@
 ---
 UID: NE:qos2._QOS_FLOWRATE_REASON
 title: QOS_FLOWRATE_REASON (qos2.h)
-
 description: The QOS_FLOWRATE_REASON enumeration indicates the reason for a change in a flow's bandwidth.
 old-location: qos\qos_flowrate_reason.htm
 tech.root: QOS
 ms.assetid: bd2a1fec-d554-49e2-8803-624942455f74
-
 ms.date: 12/05/2018
-ms.keywords: "*PQOS_FLOWRATE_REASON, PQOS_FLOWRATE_REASON, PQOS_FLOWRATE_REASON enumeration [QOS], QOSFlowRateCongestion, QOSFlowRateContentChange, QOSFlowRateHigherContentEncoding, QOSFlowRateNotApplicable, QOSFlowRateUserCaused, QOS_FLOWRATE_REASON, QOS_FLOWRATE_REASON enumeration [QOS], qos.qos_flowrate_reason, qos2/PQOS_FLOWRATE_REASON, qos2/QOSFlowRateCongestion, qos2/QOSFlowRateContentChange, qos2/QOSFlowRateHigherContentEncoding, qos2/QOSFlowRateNotApplicable, qos2/QOSFlowRateUserCaused, qos2/QOS_FLOWRATE_REASON"
+ms.keywords: '*PQOS_FLOWRATE_REASON, PQOS_FLOWRATE_REASON, PQOS_FLOWRATE_REASON enumeration [QOS], QOSFlowRateCongestion, QOSFlowRateContentChange, QOSFlowRateHigherContentEncoding, QOSFlowRateNotApplicable, QOSFlowRateUserCaused, QOS_FLOWRATE_REASON, QOS_FLOWRATE_REASON enumeration [QOS], qos.qos_flowrate_reason, qos2/PQOS_FLOWRATE_REASON, qos2/QOSFlowRateCongestion, qos2/QOSFlowRateContentChange, qos2/QOSFlowRateHigherContentEncoding, qos2/QOSFlowRateNotApplicable, qos2/QOSFlowRateUserCaused, qos2/QOS_FLOWRATE_REASON'
 ms.topic: enum
-f1_keywords: 
- - "qos2/QOS_FLOWRATE_REASON"
+f1_keywords:
+- qos2/QOS_FLOWRATE_REASON
 dev_langs:
- - c++
+- c++
 req.header: qos2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Qos2.h
+- Qos2.h
 api_name:
- - QOS_FLOWRATE_REASON
+- QOS_FLOWRATE_REASON
 targetos: Windows
 req.typenames: QOS_FLOWRATE_REASON, *PQOS_FLOWRATE_REASON
 req.redist: 

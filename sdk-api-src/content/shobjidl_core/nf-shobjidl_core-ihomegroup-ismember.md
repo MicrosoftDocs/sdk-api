@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IHomeGroup.IsMember
 title: IHomeGroup::IsMember (shobjidl_core.h)
-
 description: Determines whether the local computer is a member of a HomeGroup.
 old-location: shell\IHomeGroup_IsMember.htm
 tech.root: shell
 ms.assetid: 9ce98b11-46fd-4168-828d-a5ba8f71b7c9
-
 ms.date: 12/05/2018
 ms.keywords: IHomeGroup interface [Windows Shell],IsMember method, IHomeGroup.IsMember, IHomeGroup::IsMember, IsMember, IsMember method [Windows Shell], IsMember method [Windows Shell],IHomeGroup interface, _shell_IHomeGroup_IsMember, shell.IHomeGroup_IsMember, shobjidl_core/IHomeGroup::IsMember
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IHomeGroup.IsMember"
+f1_keywords:
+- shobjidl_core/IHomeGroup.IsMember
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IHomeGroup.IsMember
+- IHomeGroup.IsMember
 targetos: Windows
 req.typenames: 
 req.redist: 

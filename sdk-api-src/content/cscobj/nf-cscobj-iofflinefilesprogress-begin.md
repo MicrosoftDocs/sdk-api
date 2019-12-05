@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesProgress.Begin
 title: IOfflineFilesProgress::Begin (cscobj.h)
-
 description: Reports that an operation has begun.
 old-location: of\iofflinefilesprogress_begin.htm
 tech.root: offlinefiles
 ms.assetid: d3fe6abf-fc0c-4bba-9c9f-5d0e77c27b43
-
 ms.date: 12/05/2018
 ms.keywords: Begin, Begin method [Offline Files], Begin method [Offline Files],IOfflineFilesProgress interface, IOfflineFilesProgress interface [Offline Files],Begin method, IOfflineFilesProgress.Begin, IOfflineFilesProgress::Begin, cscobj/IOfflineFilesProgress::Begin, of.iofflinefilesprogress_begin
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesProgress.Begin"
+f1_keywords:
+- cscobj/IOfflineFilesProgress.Begin
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesProgress.Begin
+- IOfflineFilesProgress.Begin
 targetos: Windows
 req.typenames: 
 req.redist: 

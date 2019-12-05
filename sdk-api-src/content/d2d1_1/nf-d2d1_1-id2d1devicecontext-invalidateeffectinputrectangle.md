@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.InvalidateEffectInputRectangle
 title: ID2D1DeviceContext::InvalidateEffectInputRectangle (d2d1_1.h)
-
 description: This indicates that a portion of an effect's input is invalid. This method can be called many times.
 old-location: direct2d\id2d1devicecontext_invalidateeffectinputrectangle.htm
 tech.root: Direct2D
 ms.assetid: 3EB22E7B-69B4-4936-B8ED-093EA1EA1759
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1DeviceContext interface [Direct2D],InvalidateEffectInputRectangle method, ID2D1DeviceContext.InvalidateEffectInputRectangle, ID2D1DeviceContext::InvalidateEffectInputRectangle, InvalidateEffectInputRectangle, InvalidateEffectInputRectangle method [Direct2D], InvalidateEffectInputRectangle method [Direct2D],ID2D1DeviceContext interface, d2d1_1/ID2D1DeviceContext::InvalidateEffectInputRectangle, direct2d.id2d1devicecontext_invalidateeffectinputrectangle
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1DeviceContext.InvalidateEffectInputRectangle"
+f1_keywords:
+- d2d1_1/ID2D1DeviceContext.InvalidateEffectInputRectangle
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1DeviceContext.InvalidateEffectInputRectangle
+- ID2D1DeviceContext.InvalidateEffectInputRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 

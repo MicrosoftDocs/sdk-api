@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfMessagePump
 title: ITfMessagePump (msctf.h)
-
 description: The ITfMessagePump interface is implemented by the TSF manager and is used by an application to obtain messages from the application message queue.
 old-location: tsf\itfmessagepump.htm
 tech.root: TSF
 ms.assetid: f7c3d039-cffc-4ce0-8579-041ba849de6d
-
 ms.date: 12/05/2018
 ms.keywords: ITfMessagePump, ITfMessagePump interface [Text Services Framework], ITfMessagePump interface [Text Services Framework],described, _tsf_itfmessagepump_ref, msctf/ITfMessagePump, tsf.itfmessagepump
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfMessagePump"
+f1_keywords:
+- msctf/ITfMessagePump
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfMessagePump
+- ITfMessagePump
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

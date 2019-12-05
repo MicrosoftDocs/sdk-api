@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509ExtensionMSApplicationPolicies.get_Policies
 title: IX509ExtensionMSApplicationPolicies::get_Policies (certenroll.h)
-
 description: Retrieves a collection of application policies.
 old-location: security\ix509extensionmsapplicationpolicies_policies_property.htm
 tech.root: seccertenroll
 ms.assetid: e20c7e75-ec08-4336-b932-f0bb0a5dfee8
-
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionMSApplicationPolicies interface [Security],Policies property, IX509ExtensionMSApplicationPolicies.Policies, IX509ExtensionMSApplicationPolicies.get_Policies, IX509ExtensionMSApplicationPolicies::Policies, IX509ExtensionMSApplicationPolicies::get_Policies, Policies property [Security], Policies property [Security],IX509ExtensionMSApplicationPolicies interface, certenroll/IX509ExtensionMSApplicationPolicies::Policies, certenroll/IX509ExtensionMSApplicationPolicies::get_Policies, get_Policies, security.ix509extensionmsapplicationpolicies_policies_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509ExtensionMSApplicationPolicies.Policies"
+f1_keywords:
+- certenroll/IX509ExtensionMSApplicationPolicies.Policies
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509ExtensionMSApplicationPolicies.Policies
- - IX509ExtensionMSApplicationPolicies.get_Policies
+- IX509ExtensionMSApplicationPolicies.Policies
+- IX509ExtensionMSApplicationPolicies.get_Policies
 targetos: Windows
 req.typenames: 
 req.redist: 

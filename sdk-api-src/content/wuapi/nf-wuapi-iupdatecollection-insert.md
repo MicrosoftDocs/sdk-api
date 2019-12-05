@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateCollection.Insert
 title: IUpdateCollection::Insert (wuapi.h)
-
 description: Inserts an item into the collection at the specified position.
 old-location: wua\iupdatecollection_insert.htm
 tech.root: Wua_Sdk
 ms.assetid: 165f251e-9171-4464-8608-8f365b6598b3
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateCollection interface [Windows Update Agent],Insert method, IUpdateCollection.Insert, IUpdateCollection::Insert, Insert, Insert method [Windows Update Agent], Insert method [Windows Update Agent],IUpdateCollection interface, wua.iupdatecollection_insert, wuapi/IUpdateCollection::Insert
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateCollection.Insert"
+f1_keywords:
+- wuapi/IUpdateCollection.Insert
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateCollection.Insert
+- IUpdateCollection.Insert
 targetos: Windows
 req.typenames: 
 req.redist: 

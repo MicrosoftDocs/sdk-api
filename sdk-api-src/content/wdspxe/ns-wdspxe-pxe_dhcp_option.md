@@ -1,19 +1,17 @@
 ---
 UID: NS:wdspxe.tagPXE_DHCP_OPTION
 title: PXE_DHCP_OPTION (wdspxe.h)
-
 description: The PXE_DHCP_OPTION structure can be used with the Windows Deployment Services PXE Server API.
 old-location: wds\pxe_dhcp_option.htm
 tech.root: wds
 ms.assetid: 3acc7641-07aa-4a95-a31c-74b48a749f5a
-
 ms.date: 12/05/2018
-ms.keywords: "*PPXE_DHCP_OPTION, PPXE_DHCP_OPTION, PPXE_DHCP_OPTION structure pointer [Windows Deployment Services], PXE_DHCP_OPTION, PXE_DHCP_OPTION structure [Windows Deployment Services], wds.pxe_dhcp_option, wdspxe/PPXE_DHCP_OPTION, wdspxe/PXE_DHCP_OPTION"
+ms.keywords: '*PPXE_DHCP_OPTION, PPXE_DHCP_OPTION, PPXE_DHCP_OPTION structure pointer [Windows Deployment Services], PXE_DHCP_OPTION, PXE_DHCP_OPTION structure [Windows Deployment Services], wds.pxe_dhcp_option, wdspxe/PPXE_DHCP_OPTION, wdspxe/PXE_DHCP_OPTION'
 ms.topic: struct
-f1_keywords: 
- - "wdspxe/PXE_DHCP_OPTION"
+f1_keywords:
+- wdspxe/PXE_DHCP_OPTION
 dev_langs:
- - c++
+- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WdsPxe.h
+- WdsPxe.h
 api_name:
- - PXE_DHCP_OPTION
+- PXE_DHCP_OPTION
 targetos: Windows
 req.typenames: PXE_DHCP_OPTION, *PPXE_DHCP_OPTION
 req.redist: 

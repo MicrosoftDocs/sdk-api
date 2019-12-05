@@ -1,19 +1,17 @@
 ---
 UID: NF:d3dcommon.ID3DInclude.Open
 title: ID3DInclude::Open (d3dcommon.h)
-
 description: A user-implemented method for opening and reading the contents of a shader
 old-location: direct3d11\id3dinclude_open.htm
 tech.root: direct3d11
 ms.assetid: 4d10c986-1cba-427c-ae90-f81b83be1b8b
-
 ms.date: 12/05/2018
 ms.keywords: ID3DInclude interface [Direct3D 11],Open method, ID3DInclude.Open, ID3DInclude::Open, Open, Open method [Direct3D 11], Open method [Direct3D 11],ID3DInclude interface, d3dcommon/ID3DInclude::Open, direct3d11.id3dinclude_open
 ms.topic: method
 f1_keywords:
 - d3dcommon/ID3DInclude.Open
 dev_langs:
- - c++
+- c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

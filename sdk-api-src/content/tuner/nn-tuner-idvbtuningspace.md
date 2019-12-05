@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.IDVBTuningSpace
 title: IDVBTuningSpace (tuner.h)
-
 description: The IDVBTuningSpace interface is implemented on the DVBTuningSpace object.Note  New applications should use the IDVBTuningSpace2 interface, which inherits IDVBTuningSpace and adds additional methods. .
 old-location: mstv\idvbtuningspace.htm
 tech.root: mstv
 ms.assetid: fba3c7f3-61f8-4704-8068-cb1d3171345a
-
 ms.date: 12/05/2018
 ms.keywords: IDVBTuningSpace, IDVBTuningSpace interface [Microsoft TV Technologies], IDVBTuningSpace interface [Microsoft TV Technologies],described, IDVBTuningSpaceInterface, mstv.idvbtuningspace, tuner/IDVBTuningSpace
 ms.topic: interface
-f1_keywords: 
- - "tuner/IDVBTuningSpace"
+f1_keywords:
+- tuner/IDVBTuningSpace
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBTuningSpace
+- IDVBTuningSpace
 targetos: Windows
 req.typenames: 
 req.redist: 

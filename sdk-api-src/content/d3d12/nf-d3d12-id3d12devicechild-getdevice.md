@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12DeviceChild.GetDevice
 title: ID3D12DeviceChild::GetDevice (d3d12.h)
-
 description: Gets a pointer to the device that created this interface.
 old-location: direct3d12\id3d12devicechild_getdevice.htm
 tech.root: direct3d12
 ms.assetid: FFF72E85-4382-420B-82C9-CE72B223F703
-
 ms.date: 12/05/2018
 ms.keywords: GetDevice, GetDevice method, GetDevice method,ID3D12DeviceChild interface, ID3D12DeviceChild interface,GetDevice method, ID3D12DeviceChild.GetDevice, ID3D12DeviceChild::GetDevice, d3d12/ID3D12DeviceChild::GetDevice, direct3d12.id3d12devicechild_getdevice
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12DeviceChild.GetDevice"
+f1_keywords:
+- d3d12/ID3D12DeviceChild.GetDevice
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12DeviceChild.GetDevice
+- ID3D12DeviceChild.GetDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IPersistStream.Save
 title: IPersistStream::Save (objidl.h)
-
 description: Saves an object to the specified stream.
 old-location: com\ipersiststream_save.htm
 tech.root: com
 ms.assetid: b748b4f9-ef9c-486b-bdc4-4d23c4640ff7
-
 ms.date: 12/05/2018
 ms.keywords: IPersistStream interface [COM],Save method, IPersistStream.Save, IPersistStream::Save, Save, Save method [COM], Save method [COM],IPersistStream interface, _com_ipersiststream_save, com.ipersiststream_save, objidl/IPersistStream::Save
 ms.topic: method
-f1_keywords: 
- - "objidl/IPersistStream.Save"
+f1_keywords:
+- objidl/IPersistStream.Save
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IPersistStream.Save
+- IPersistStream.Save
 targetos: Windows
 req.typenames: 
 req.redist: 

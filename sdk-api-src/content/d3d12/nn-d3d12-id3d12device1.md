@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d12.ID3D12Device1
 title: ID3D12Device1 (d3d12.h)
-
 description: Represents a virtual adapter, and expands on the range of methods provided by ID3D12Device.
 old-location: direct3d12\id3d12device1.htm
 tech.root: direct3d12
 ms.assetid: 7650C695-3F46-405A-9976-A4A50FFAD567
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12Device1, ID3D12Device1 interface, ID3D12Device1 interface,described, d3d12/ID3D12Device1, direct3d12.id3d12device1
 ms.topic: interface
-f1_keywords: 
- - "d3d12/ID3D12Device1"
+f1_keywords:
+- d3d12/ID3D12Device1
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12Device1
+- ID3D12Device1
 targetos: Windows
 req.typenames: 
 req.redist: 

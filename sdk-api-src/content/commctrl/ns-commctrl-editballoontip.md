@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl._tagEDITBALLOONTIP
 title: EDITBALLOONTIP (commctrl.h)
-
 description: Contains information about a balloon tip associated with a button control.
 old-location: controls\EDITBALLOONTIP.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolstructures\editballoontip.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PEDITBALLOONTIP, EDITBALLOONTIP, EDITBALLOONTIP structure [Windows Controls], PEDITBALLOONTIP, PEDITBALLOONTIP structure pointer [Windows Controls], TTI_ERROR, TTI_ERROR_LARGE, TTI_INFO, TTI_INFO_LARGE, TTI_NONE, TTI_WARNING, TTI_WARNING_LARGE, _win32_EDITBALLOONTIP_str, _win32_EDITBALLOONTIP_str_cpp, commctrl/EDITBALLOONTIP, commctrl/PEDITBALLOONTIP, controls.EDITBALLOONTIP, controls._win32_EDITBALLOONTIP_str"
+ms.keywords: '*PEDITBALLOONTIP, EDITBALLOONTIP, EDITBALLOONTIP structure [Windows Controls], PEDITBALLOONTIP, PEDITBALLOONTIP structure pointer [Windows Controls], TTI_ERROR, TTI_ERROR_LARGE, TTI_INFO, TTI_INFO_LARGE, TTI_NONE, TTI_WARNING, TTI_WARNING_LARGE, _win32_EDITBALLOONTIP_str, _win32_EDITBALLOONTIP_str_cpp, commctrl/EDITBALLOONTIP, commctrl/PEDITBALLOONTIP, controls.EDITBALLOONTIP, controls._win32_EDITBALLOONTIP_str'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/EDITBALLOONTIP"
+f1_keywords:
+- commctrl/EDITBALLOONTIP
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - EDITBALLOONTIP
+- EDITBALLOONTIP
 targetos: Windows
 req.typenames: EDITBALLOONTIP, *PEDITBALLOONTIP
 req.redist: 

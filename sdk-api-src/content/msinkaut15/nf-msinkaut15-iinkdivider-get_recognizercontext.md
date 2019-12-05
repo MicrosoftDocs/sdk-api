@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut15.IInkDivider.get_RecognizerContext
 title: IInkDivider::get_RecognizerContext (msinkaut15.h)
-
 description: Gets or sets the InkRecognizerContext object that the InkDivider object uses for layout analysis.
 old-location: tablet\inkdivider_recognizercontext.htm
 tech.root: tablet
 ms.assetid: ad3c4317-a777-4009-bc66-865a2fcb77c3
-
 ms.date: 12/05/2018
 ms.keywords: IInkDivider interface [Tablet PC],RecognizerContext property, IInkDivider.RecognizerContext, IInkDivider.get_RecognizerContext, IInkDivider::RecognizerContext, IInkDivider::get_RecognizerContext, IInkDivider::putref_RecognizerContext, InkDivider.get_RecognizerContext, RecognizerContext property [Tablet PC], RecognizerContext property [Tablet PC],IInkDivider interface, ad3c4317-a777-4009-bc66-865a2fcb77c3, get_RecognizerContext, msinkaut15/IInkDivider::RecognizerContext, msinkaut15/IInkDivider::get_RecognizerContext, msinkaut15/IInkDivider::putref_RecognizerContext, put_RecognizerContext, tablet.inkdivider_recognizercontext
 ms.topic: method
-f1_keywords: 
- - "msinkaut15/IInkDivider.RecognizerContext"
+f1_keywords:
+- msinkaut15/IInkDivider.RecognizerContext
 dev_langs:
- - c++
+- c++
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Inkdiv.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Inkdiv.dll
- - Inkdiv.dll.dll
+- Inkdiv.dll
+- Inkdiv.dll.dll
 api_name:
- - IInkDivider.RecognizerContext
- - IInkDivider.get_RecognizerContext
- - InkDivider.get_RecognizerContext
+- IInkDivider.RecognizerContext
+- IInkDivider.get_RecognizerContext
+- InkDivider.get_RecognizerContext
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHCreateMemStream
 title: SHCreateMemStream function (shlwapi.h)
-
 description: Creates a memory stream using a similar process to CreateStreamOnHGlobal.
 old-location: shell\SHCreateMemStream.htm
 tech.root: shell
 ms.assetid: f3ae8241-f3a6-4007-a10f-ff05960c5de8
-
 ms.date: 12/05/2018
 ms.keywords: SHCreateMemStream, SHCreateMemStream function [Windows Shell], _win32_SHCreateMemStream, shell.SHCreateMemStream, shlwapi/SHCreateMemStream
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHCreateMemStream"
+f1_keywords:
+- shlwapi/SHCreateMemStream
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
- - ShCore.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
- - API-MS-Win-ShCore-stream-l1-1-0.dll
+- Shlwapi.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
+- ShCore.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+- API-MS-Win-ShCore-stream-l1-1-0.dll
 api_name:
- - SHCreateMemStream
+- SHCreateMemStream
 targetos: Windows
 req.typenames: 
 req.redist: 

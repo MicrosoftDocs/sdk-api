@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_SetItemPosition
 title: ListView_SetItemPosition macro (commctrl.h)
-
 description: Moves an item to a specified position in a list-view control (in icon or small icon view). You can use this macro or send the LVM_SETITEMPOSITION message explicitly.
 old-location: controls\ListView_SetItemPosition.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemposition.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_SetItemPosition, ListView_SetItemPosition macro [Windows Controls], _win32_ListView_SetItemPosition, _win32_ListView_SetItemPosition_cpp, commctrl/ListView_SetItemPosition, controls.ListView_SetItemPosition, controls._win32_ListView_SetItemPosition
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_SetItemPosition"
+f1_keywords:
+- commctrl/ListView_SetItemPosition
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_SetItemPosition
+- ListView_SetItemPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

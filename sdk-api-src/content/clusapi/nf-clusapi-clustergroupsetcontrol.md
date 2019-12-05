@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterGroupSetControl
 title: ClusterGroupSetControl function (clusapi.h)
-
 description: Initiates an operation affecting a groupset.
 old-location: mscs\clustergroupcollectioncontrol.htm
 tech.root: MsCS
 ms.assetid: 20f0f70a-b300-41b8-b215-e5a3f24db44b
-
 ms.date: 12/05/2018
 ms.keywords: ClusterGroupSetControl, ClusterGroupSetControl function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_GROUPSET_CONTROL, PCLUSAPI_CLUSTER_GROUP_GROUPSET_CONTROL function [Failover Cluster], clusapi/ClusterGroupSetControl, clusapi/PCLUSAPI_CLUSTER_GROUP_GROUPSET_CONTROL, mscs.clustergroupcollectioncontrol
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterGroupSetControl"
+f1_keywords:
+- clusapi/ClusterGroupSetControl
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - ClusterGroupSetControl
+- ClusterGroupSetControl
 targetos: Windows
 req.typenames: 
 req.redist: 

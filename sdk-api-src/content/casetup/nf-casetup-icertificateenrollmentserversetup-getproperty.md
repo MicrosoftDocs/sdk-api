@@ -1,19 +1,17 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentServerSetup.GetProperty
 title: ICertificateEnrollmentServerSetup::GetProperty (casetup.h)
-
 description: Retrieves a CESSetupProperty enumeration value for the Certificate Enrollment Web Service (CES) configuration.
 old-location: security\icertificateenrollmentserversetup_getproperty.htm
 tech.root: SecCrypto
 ms.assetid: 4B380551-742C-4D36-80C9-C92F62F916BB
-
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [Security], GetProperty method [Security],ICertificateEnrollmentServerSetup interface, ICertificateEnrollmentServerSetup interface [Security],GetProperty method, ICertificateEnrollmentServerSetup.GetProperty, ICertificateEnrollmentServerSetup::GetProperty, casetup/ICertificateEnrollmentServerSetup::GetProperty, security.icertificateenrollmentserversetup_getproperty
 ms.topic: method
-f1_keywords: 
- - "casetup/ICertificateEnrollmentServerSetup.GetProperty"
+f1_keywords:
+- casetup/ICertificateEnrollmentServerSetup.GetProperty
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - ICertificateEnrollmentServerSetup.GetProperty
+- ICertificateEnrollmentServerSetup.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

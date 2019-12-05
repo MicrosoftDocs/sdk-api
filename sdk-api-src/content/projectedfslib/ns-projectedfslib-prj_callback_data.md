@@ -1,19 +1,17 @@
 ---
 UID: NS:projectedfslib.PRJ_CALLBACK_DATA
 title: PRJ_CALLBACK_DATA (projectedfslib.h)
-
 description: Defines the standard information passed to a provider for every operation callback.
 old-location: projfs\prj_callback_data.htm
 tech.root: ProjFS
 ms.assetid: 569204FF-97F5-4FE2-9885-94C88AB5A6FE
-
 ms.date: 12/05/2018
 ms.keywords: PRJ_CALLBACK_DATA, PRJ_CALLBACK_DATA structure, ProjFS.prj_callback_data, projectedfslib/PRJ_CALLBACK_DATA
 ms.topic: struct
-f1_keywords: 
- - "projectedfslib/PRJ_CALLBACK_DATA"
+f1_keywords:
+- projectedfslib/PRJ_CALLBACK_DATA
 dev_langs:
- - c++
+- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - projectedfslib.h
+- projectedfslib.h
 api_name:
- - PRJ_CALLBACK_DATA
+- PRJ_CALLBACK_DATA
 targetos: Windows
 req.typenames: PRJ_CALLBACK_DATA
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetHigherHypotheses
 title: INetDiagHelper::GetHigherHypotheses (ndhelper.h)
-
 description: Generate hypotheses for possible causes of high utilization.
 old-location: ndf\inetdiaghelpe_gethigherhypotheses.htm
 tech.root: NDF
 ms.assetid: 608b1752-4bf9-4a7d-bc20-82d89b33b306
-
 ms.date: 12/05/2018
 ms.keywords: GetHigherHypotheses, GetHigherHypotheses method [NDF], GetHigherHypotheses method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetHigherHypotheses method, INetDiagHelper.GetHigherHypotheses, INetDiagHelper::GetHigherHypotheses, ndf.inetdiaghelpe_gethigherhypotheses, ndhelper/INetDiagHelper::GetHigherHypotheses
 ms.topic: method
-f1_keywords: 
- - "ndhelper/INetDiagHelper.GetHigherHypotheses"
+f1_keywords:
+- ndhelper/INetDiagHelper.GetHigherHypotheses
 dev_langs:
- - c++
+- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ndhelper.h
+- ndhelper.h
 api_name:
- - INetDiagHelper.GetHigherHypotheses
+- INetDiagHelper.GetHigherHypotheses
 targetos: Windows
 req.typenames: 
 req.redist: 

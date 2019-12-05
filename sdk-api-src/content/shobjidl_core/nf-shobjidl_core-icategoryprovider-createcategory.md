@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ICategoryProvider.CreateCategory
 title: ICategoryProvider::CreateCategory (shobjidl_core.h)
-
 description: Creates a category object.
 old-location: shell\ICategoryProvider_CreateCategory.htm
 tech.root: shell
 ms.assetid: 3703c061-4d21-4c36-900a-9ccacf4d482a
-
 ms.date: 12/05/2018
 ms.keywords: CreateCategory, CreateCategory method [Windows Shell], CreateCategory method [Windows Shell],ICategoryProvider interface, ICategoryProvider interface [Windows Shell],CreateCategory method, ICategoryProvider.CreateCategory, ICategoryProvider::CreateCategory, inet_ICategoryProvider_CreateCategory, shell.ICategoryProvider_CreateCategory, shobjidl_core/ICategoryProvider::CreateCategory
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ICategoryProvider.CreateCategory"
+f1_keywords:
+- shobjidl_core/ICategoryProvider.CreateCategory
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ICategoryProvider.CreateCategory
+- ICategoryProvider.CreateCategory
 targetos: Windows
 req.typenames: 
 req.redist: 

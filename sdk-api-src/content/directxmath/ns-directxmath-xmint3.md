@@ -1,19 +1,17 @@
 ---
 UID: NS:directxmath.XMINT3
 title: XMINT3 (directxmath.h)
-
 description: A 3D vector where each component is a signed integer.
 old-location: dxmath\xmint3.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMINT3
-
 ms.date: 12/05/2018
 ms.keywords: XMINT3, XMINT3 structure [DirectX Math Support APIs], directxmath/XMINT3, dxmath.xmint3
 ms.topic: struct
-f1_keywords: 
- - "directxmath/XMINT3"
+f1_keywords:
+- directxmath/XMINT3
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMINT3
+- XMINT3
 targetos: Windows
 req.typenames: 
 req.redist: 

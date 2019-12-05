@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IScanningTuner.AutoProgram
 title: IScanningTuner::AutoProgram (tuner.h)
-
 description: The AutoProgram method scans for all channels with valid programming.
 old-location: mstv\iscanningtuner_autoprogram.htm
 tech.root: mstv
 ms.assetid: 98d1b484-13e7-4eeb-9e0c-a1215712bdc8
-
 ms.date: 12/05/2018
 ms.keywords: AutoProgram, AutoProgram method [Microsoft TV Technologies], AutoProgram method [Microsoft TV Technologies],IScanningTuner interface, IScanningTuner interface [Microsoft TV Technologies],AutoProgram method, IScanningTuner.AutoProgram, IScanningTuner::AutoProgram, IScanningTunerAutoProgram, mstv.iscanningtuner_autoprogram, tuner/IScanningTuner::AutoProgram
 ms.topic: method
-f1_keywords: 
- - "tuner/IScanningTuner.AutoProgram"
+f1_keywords:
+- tuner/IScanningTuner.AutoProgram
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IScanningTuner.AutoProgram
+- IScanningTuner.AutoProgram
 targetos: Windows
 req.typenames: 
 req.redist: 

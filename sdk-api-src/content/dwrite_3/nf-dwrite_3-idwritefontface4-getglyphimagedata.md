@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace4.GetGlyphImageData
 title: IDWriteFontFace4::GetGlyphImageData (dwrite_3.h)
-
 description: Gets a pointer to the glyph data based on the desired image format.
 old-location: directwrite\idwritefontface4_getglyphimagedata.htm
 tech.root: DirectWrite
 ms.assetid: 2517A029-5ACF-4CB2-8A20-98253946DF5E
-
 ms.date: 12/05/2018
 ms.keywords: GetGlyphImageData, GetGlyphImageData method [Direct Write], GetGlyphImageData method [Direct Write],IDWriteFontFace4 interface, IDWriteFontFace4 interface [Direct Write],GetGlyphImageData method, IDWriteFontFace4.GetGlyphImageData, IDWriteFontFace4::GetGlyphImageData, directwrite.idwritefontface4_getglyphimagedata, dwrite_3/IDWriteFontFace4::GetGlyphImageData
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontFace4.GetGlyphImageData"
+f1_keywords:
+- dwrite_3/IDWriteFontFace4.GetGlyphImageData
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFontFace4.GetGlyphImageData
+- IDWriteFontFace4.GetGlyphImageData
 targetos: Windows
 req.typenames: 
 req.redist: 

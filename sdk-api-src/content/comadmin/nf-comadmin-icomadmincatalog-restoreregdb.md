@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.RestoreREGDB
 title: ICOMAdminCatalog::RestoreREGDB (comadmin.h)
-
 description: Restores the COM+ class registration database (RegDB) from the specified file. For this to take effect, a system reboot is required.
 old-location: cos\icomadmincatalog_restoreregdb.htm
 tech.root: cossdk
 ms.assetid: 7cb2201c-601c-4add-8608-3f98ef92c26d
-
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],RestoreREGDB method, ICOMAdminCatalog.RestoreREGDB, ICOMAdminCatalog::RestoreREGDB, RestoreREGDB, RestoreREGDB method [COM+], RestoreREGDB method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_RestoreREGDB, comadmin/ICOMAdminCatalog::RestoreREGDB, cos.icomadmincatalog_restoreregdb
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog.RestoreREGDB"
+f1_keywords:
+- comadmin/ICOMAdminCatalog.RestoreREGDB
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog.RestoreREGDB
+- ICOMAdminCatalog.RestoreREGDB
 targetos: Windows
 req.typenames: 
 req.redist: 

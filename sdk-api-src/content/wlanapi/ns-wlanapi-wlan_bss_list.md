@@ -1,19 +1,17 @@
 ---
 UID: NS:wlanapi._WLAN_BSS_LIST
 title: WLAN_BSS_LIST (wlanapi.h)
-
 description: Contains a list of basic service set (BSS) entries.
 old-location: nwifi\wlan_bss_list.htm
 tech.root: NativeWiFi
 ms.assetid: aeb68835-31ce-4fa7-980a-91a328fbcbc3
-
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_BSS_LIST, PWLAN_BSS_LIST, PWLAN_BSS_LIST structure pointer [NativeWIFI], WLAN_BSS_LIST, WLAN_BSS_LIST structure [NativeWIFI], nwifi.wlan_bss_list, wlanapi/PWLAN_BSS_LIST, wlanapi/WLAN_BSS_LIST'
 ms.topic: struct
 f1_keywords:
 - wlanapi/WLAN_BSS_LIST
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

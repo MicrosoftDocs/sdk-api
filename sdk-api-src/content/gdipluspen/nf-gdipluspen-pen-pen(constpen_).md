@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspen.Pen.Pen(const Pen &)
 title: Pen::Pen(const Pen &) (gdipluspen.h)
-
 description: This topic lists the constructors of the Pen class. For a complete class listing, see Pen Class.
 old-location: gdiplus\_gdiplus_CLASS_Pen_Constructors.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penconstructors.htm
-
 ms.date: 12/05/2018
 ms.keywords: Pen, Pen constructors [GDI+], Pen.Pen, Pen.Pen(const Pen &), Pen::Pen, Pen::Pen(const Pen &), _gdiplus_CLASS_Pen_Constructors, gdiplus._gdiplus_CLASS_Pen_Constructors, gdipluspen/Pen
 ms.topic: method
-f1_keywords: 
- - "gdipluspen/Pen.Pen"
+f1_keywords:
+- gdipluspen/Pen.Pen
 dev_langs:
- - c++
+- c++
 req.header: gdipluspen.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - gdipluspen.h
+- gdipluspen.h
 api_name:
- - Pen.Pen
+- Pen.Pen
 targetos: Windows
 req.typenames: 
 req.redist: 

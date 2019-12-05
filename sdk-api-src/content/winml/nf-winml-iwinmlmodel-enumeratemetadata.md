@@ -1,19 +1,17 @@
 ---
 UID: NF:winml.IWinMLModel.EnumerateMetadata
 title: IWinMLModel::EnumerateMetadata (winml.h)
-
 description: Gets the metadata of the model.
 old-location: machinelearning\iwinmlmodel_enumeratemetadata.htm
 tech.root: MachineLearning
 ms.assetid: ABB51498-44CE-4B98-89FB-ED8B9B8159ED
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateMetadata, EnumerateMetadata method, EnumerateMetadata method,IWinMLModel interface, IWinMLModel interface,EnumerateMetadata method, IWinMLModel.EnumerateMetadata, IWinMLModel::EnumerateMetadata, MachineLearning.iwinmlmodel_enumeratemetadata, winml/IWinMLModel::EnumerateMetadata
 ms.topic: method
-f1_keywords: 
- - "winml/IWinMLModel.EnumerateMetadata"
+f1_keywords:
+- winml/IWinMLModel.EnumerateMetadata
 dev_langs:
- - c++
+- c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winml.lib
 req.dll: Winml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winml.dll
+- winml.dll
 api_name:
- - IWinMLModel.EnumerateMetadata
+- IWinMLModel.EnumerateMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 

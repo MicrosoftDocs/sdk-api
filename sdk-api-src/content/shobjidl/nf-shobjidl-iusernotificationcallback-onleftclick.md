@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IUserNotificationCallback.OnLeftClick
 title: IUserNotificationCallback::OnLeftClick (shobjidl.h)
-
 description: Called when the user clicks the icon in the notification area. The applications may launch some customary UI in response.
 old-location: shell\IUserNotificationCallback_OnLeftClick.htm
 tech.root: shell
 ms.assetid: 0202aace-94d6-4619-8838-eea0b174ffb6
-
 ms.date: 12/05/2018
 ms.keywords: IUserNotificationCallback interface [Windows Shell],OnLeftClick method, IUserNotificationCallback.OnLeftClick, IUserNotificationCallback::OnLeftClick, OnLeftClick, OnLeftClick method [Windows Shell], OnLeftClick method [Windows Shell],IUserNotificationCallback interface, _shell_IUserNotificationCallback_OnLeftClick, shell.IUserNotificationCallback_OnLeftClick, shobjidl/IUserNotificationCallback::OnLeftClick
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IUserNotificationCallback.OnLeftClick"
+f1_keywords:
+- shobjidl/IUserNotificationCallback.OnLeftClick
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IUserNotificationCallback.OnLeftClick
+- IUserNotificationCallback.OnLeftClick
 targetos: Windows
 req.typenames: 
 req.redist: 

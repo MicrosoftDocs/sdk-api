@@ -1,19 +1,17 @@
 ---
 UID: NS:dwrite.DWRITE_STRIKETHROUGH
 title: DWRITE_STRIKETHROUGH (dwrite.h)
-
 description: Contains information regarding the size and placement of strikethroughs.
 old-location: directwrite\dwrite_strikethrough.htm
 tech.root: DirectWrite
 ms.assetid: 05d86485-2c34-4e3b-99e8-ca54a3b1e5f6
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_STRIKETHROUGH, DWRITE_STRIKETHROUGH structure [Direct Write], directwrite.dwrite_strikethrough, dwrite/DWRITE_STRIKETHROUGH
 ms.topic: struct
-f1_keywords: 
- - "dwrite/DWRITE_STRIKETHROUGH"
+f1_keywords:
+- dwrite/DWRITE_STRIKETHROUGH
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite.h
+- dwrite.h
 api_name:
- - DWRITE_STRIKETHROUGH
+- DWRITE_STRIKETHROUGH
 targetos: Windows
 req.typenames: 
 req.redist: 

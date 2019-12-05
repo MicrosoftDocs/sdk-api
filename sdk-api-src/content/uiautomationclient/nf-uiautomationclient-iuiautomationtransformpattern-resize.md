@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern.Resize
 title: IUIAutomationTransformPattern::Resize (uiautomationclient.h)
-
 description: Resizes the UI Automation element.
 old-location: winauto\uiauto_IUIAutomationTransformPattern_Resize.htm
 tech.root: WinAuto
 ms.assetid: af5611ef-d14c-44c2-8065-7c7581a16198
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTransformPattern interface [Windows Accessibility],Resize method, IUIAutomationTransformPattern.Resize, IUIAutomationTransformPattern::Resize, Resize, Resize method [Windows Accessibility], Resize method [Windows Accessibility],IUIAutomationTransformPattern interface, uiauto.uiauto_IUIAutomationTransformPattern_Resize, uiauto_IUIAutomationTransformPattern_Resize, uiautomationclient/IUIAutomationTransformPattern::Resize, winauto.uiauto_IUIAutomationTransformPattern_Resize
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTransformPattern.Resize"
+f1_keywords:
+- uiautomationclient/IUIAutomationTransformPattern.Resize
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTransformPattern.Resize
+- IUIAutomationTransformPattern.Resize
 targetos: Windows
 req.typenames: 
 req.redist: 

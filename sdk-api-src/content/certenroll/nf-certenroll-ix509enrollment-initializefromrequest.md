@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509Enrollment.InitializeFromRequest
 title: IX509Enrollment::InitializeFromRequest (certenroll.h)
-
 description: Initializes the enrollment object from an existing IX509CertificateRequest object.
 old-location: security\ix509enrollment_initializefromrequest_method.htm
 tech.root: seccertenroll
 ms.assetid: 04cb00af-f786-4548-bee3-2cc5083278c3
-
 ms.date: 12/05/2018
 ms.keywords: IX509Enrollment interface [Security],InitializeFromRequest method, IX509Enrollment.InitializeFromRequest, IX509Enrollment::InitializeFromRequest, InitializeFromRequest, InitializeFromRequest method [Security], InitializeFromRequest method [Security],IX509Enrollment interface, certenroll/IX509Enrollment::InitializeFromRequest, security.ix509enrollment_initializefromrequest_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509Enrollment.InitializeFromRequest"
+f1_keywords:
+- certenroll/IX509Enrollment.InitializeFromRequest
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509Enrollment.InitializeFromRequest
+- IX509Enrollment.InitializeFromRequest
 targetos: Windows
 req.typenames: 
 req.redist: 

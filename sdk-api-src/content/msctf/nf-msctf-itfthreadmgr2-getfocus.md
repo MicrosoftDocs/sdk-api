@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.GetFocus
 title: ITfThreadMgr2::GetFocus (msctf.h)
-
 description: Returns the document manager that has the input focus.
 old-location: tsf\itfthreadmgr2_getfocus.htm
 tech.root: TSF
 ms.assetid: A4106774-1817-4308-BD7E-C303AED2B576
-
 ms.date: 12/05/2018
 ms.keywords: GetFocus, GetFocus method [Text Services Framework], GetFocus method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],GetFocus method, ITfThreadMgr2.GetFocus, ITfThreadMgr2::GetFocus, msctf/ITfThreadMgr2::GetFocus, tsf.itfthreadmgr2_getfocus
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfThreadMgr2.GetFocus"
+f1_keywords:
+- msctf/ITfThreadMgr2.GetFocus
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.h
+- msctf.h
 api_name:
- - ITfThreadMgr2.GetFocus
+- ITfThreadMgr2.GetFocus
 targetos: Windows
 req.typenames: 
 req.redist: 

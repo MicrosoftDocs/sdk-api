@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ISmimeCapabilities.get_Count
 title: ISmimeCapabilities::get_Count (certenroll.h)
-
 description: Retrieves the number of objects in the collection.
 old-location: security\ismimecapabilities_count_property.htm
 tech.root: seccertenroll
 ms.assetid: 5e0ee42f-10aa-45d8-b6c0-16ee0149dec6
-
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],ISmimeCapabilities interface, ISmimeCapabilities interface [Security],Count property, ISmimeCapabilities.Count, ISmimeCapabilities.get_Count, ISmimeCapabilities::Count, ISmimeCapabilities::get_Count, certenroll/ISmimeCapabilities::Count, certenroll/ISmimeCapabilities::get_Count, get_Count, security.ismimecapabilities_count_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ISmimeCapabilities.Count"
+f1_keywords:
+- certenroll/ISmimeCapabilities.Count
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ISmimeCapabilities.Count
- - ISmimeCapabilities.get_Count
+- ISmimeCapabilities.Count
+- ISmimeCapabilities.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

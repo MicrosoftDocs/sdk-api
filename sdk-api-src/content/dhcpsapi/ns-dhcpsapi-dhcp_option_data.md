@@ -1,19 +1,17 @@
 ---
 UID: NS:dhcpsapi._DHCP_OPTION_DATA
 title: DHCP_OPTION_DATA (dhcpsapi.h)
-
 description: The DHCP_OPTION_DATA structure defines a data container for one or more data elements associated with a DHCP option.
 old-location: dhcp\dhcp_option_data.htm
 tech.root: DHCP
 ms.assetid: 6b2e5866-f65f-4ff0-a531-3d07b972f55e
-
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_OPTION_DATA, DHCP_OPTION_DATA, DHCP_OPTION_DATA structure [DHCP], LPDHCP_OPTION_DATA, LPDHCP_OPTION_DATA structure pointer [DHCP], dhcp.dhcp_option_data, dhcpsapi/LPDHCP_OPTION_DATA, dhcpsapi/_DHCP_OPTION_DATA'
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_OPTION_DATA
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbEnvironment.get_EnvironmentPropertySet
 title: ITsSbEnvironment::get_EnvironmentPropertySet (sbtsv.h)
-
 description: Retrieves or specifies the property set for the environment that hosts the target computer.
 old-location: termserv\itssbenvironment_environmentpropertyset.htm
 tech.root: TermServ
 ms.assetid: 1615cfbc-09f7-4304-9995-fc1a26b76ce6
-
 ms.date: 12/05/2018
 ms.keywords: EnvironmentPropertySet property [Remote Desktop Services], EnvironmentPropertySet property [Remote Desktop Services],ITsSbEnvironment interface, ITsSbEnvironment interface [Remote Desktop Services],EnvironmentPropertySet property, ITsSbEnvironment.EnvironmentPropertySet, ITsSbEnvironment.get_EnvironmentPropertySet, ITsSbEnvironment::EnvironmentPropertySet, ITsSbEnvironment::get_EnvironmentPropertySet, ITsSbEnvironment::put_EnvironmentPropertySet, get_EnvironmentPropertySet, sbtsv/ITsSbEnvironment::EnvironmentPropertySet, sbtsv/ITsSbEnvironment::get_EnvironmentPropertySet, sbtsv/ITsSbEnvironment::put_EnvironmentPropertySet, termserv.itssbenvironment_environmentpropertyset
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbEnvironment.EnvironmentPropertySet"
+f1_keywords:
+- sbtsv/ITsSbEnvironment.EnvironmentPropertySet
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbEnvironment.EnvironmentPropertySet
- - ITsSbEnvironment.get_EnvironmentPropertySet
- - ITsSbEnvironment.put_EnvironmentPropertySet
+- ITsSbEnvironment.EnvironmentPropertySet
+- ITsSbEnvironment.get_EnvironmentPropertySet
+- ITsSbEnvironment.put_EnvironmentPropertySet
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:tapi3if.CALLINFO_BUFFER
 title: CALLINFO_BUFFER (tapi3if.h)
-
 description: The CALLINFO_BUFFER enum indicates the type of buffer accessed by the ITCallInfo::GetCallInfoBuffer method or the ITCallInfo::SetCallInfoBuffer method.
 old-location: tapi3\callinfo_buffer.htm
 tech.root: Tapi
 ms.assetid: 76774741-2aa3-455c-a203-1daee42cf0fa
-
 ms.date: 12/05/2018
 ms.keywords: CALLINFO_BUFFER, CALLINFO_BUFFER enumeration [TAPI 2.2], CIB_CALLDATABUFFER, CIB_CHARGINGINFOBUFFER, CIB_DEVSPECIFICBUFFER, CIB_HIGHLEVELCOMPATIBILITYBUFFER, CIB_LOWLEVELCOMPATIBILITYBUFFER, CIB_USERUSERINFO, _tapi3_callinfo_buffer, tapi3.callinfo_buffer, tapi3if/CALLINFO_BUFFER, tapi3if/CIB_CALLDATABUFFER, tapi3if/CIB_CHARGINGINFOBUFFER, tapi3if/CIB_DEVSPECIFICBUFFER, tapi3if/CIB_HIGHLEVELCOMPATIBILITYBUFFER, tapi3if/CIB_LOWLEVELCOMPATIBILITYBUFFER, tapi3if/CIB_USERUSERINFO
 ms.topic: enum
-f1_keywords: 
- - "tapi3if/CALLINFO_BUFFER"
+f1_keywords:
+- tapi3if/CALLINFO_BUFFER
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi3if.h
+- Tapi3if.h
 api_name:
- - CALLINFO_BUFFER
+- CALLINFO_BUFFER
 targetos: Windows
 req.typenames: CALLINFO_BUFFER
 req.redist: 

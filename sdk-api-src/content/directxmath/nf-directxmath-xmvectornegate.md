@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorNegate
 title: XMVectorNegate function (directxmath.h)
-
 description: Computes the negation of a vector.
 old-location: dxmath\xmvectornegate.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorNegate(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorNegate, XMVectorNegate, XMVectorNegate method [DirectX Math Support APIs], dxmath.xmvectornegate
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorNegate"
+f1_keywords:
+- directxmath/XMVectorNegate
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorNegate
+- XMVectorNegate
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:debugapi.ContinueDebugEvent
 title: ContinueDebugEvent function (debugapi.h)
-
 description: Enables a debugger to continue a thread that previously reported a debugging event.
 old-location: base\continuedebugevent.htm
 tech.root: Debug
 ms.assetid: d15847d9-7947-4653-b3a2-3da1d1dd7078
-
 ms.date: 12/05/2018
 ms.keywords: ContinueDebugEvent, ContinueDebugEvent function, DBG_CONTINUE, DBG_EXCEPTION_NOT_HANDLED, DBG_REPLY_LATER, _win32_continuedebugevent, base.continuedebugevent, debugapi/ContinueDebugEvent
 ms.topic: function
-f1_keywords: 
- - "debugapi/ContinueDebugEvent"
+f1_keywords:
+- debugapi/ContinueDebugEvent
 dev_langs:
- - c++
+- c++
 req.header: debugapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-debug-l1-1-1.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Debug-L1-1-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-debug-l1-1-1.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Debug-L1-1-2.dll
 api_name:
- - ContinueDebugEvent
+- ContinueDebugEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

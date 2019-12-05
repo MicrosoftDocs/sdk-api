@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11shader.ID3D11FunctionLinkingGraph.CallFunction
 title: ID3D11FunctionLinkingGraph::CallFunction (d3d11shader.h)
-
 description: Creates a call-function linking node to use in the function-linking-graph.
 old-location: direct3d11\id3d11functionlinkinggraph_callfunction.htm
 tech.root: direct3d11
 ms.assetid: 0DEEE3E4-7D4E-40BD-9D96-A1C91CF5E4BE
-
 ms.date: 12/05/2018
 ms.keywords: CallFunction, CallFunction method [Direct3D 11], CallFunction method [Direct3D 11],ID3D11FunctionLinkingGraph interface, ID3D11FunctionLinkingGraph interface [Direct3D 11],CallFunction method, ID3D11FunctionLinkingGraph.CallFunction, ID3D11FunctionLinkingGraph::CallFunction, d3d11shader/ID3D11FunctionLinkingGraph::CallFunction, direct3d11.id3d11functionlinkinggraph_callfunction
 ms.topic: method
-f1_keywords: 
- - "d3d11shader/ID3D11FunctionLinkingGraph.CallFunction"
+f1_keywords:
+- d3d11shader/ID3D11FunctionLinkingGraph.CallFunction
 dev_langs:
- - c++
+- c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - ID3D11FunctionLinkingGraph.CallFunction
+- ID3D11FunctionLinkingGraph.CallFunction
 targetos: Windows
 req.typenames: 
 req.redist: 

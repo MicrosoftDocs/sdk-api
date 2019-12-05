@@ -1,19 +1,17 @@
 ---
 UID: NN:audiomediatype.IAudioMediaType
 title: IAudioMediaType (audiomediatype.h)
-
 description: The IAudioMediaType interface exposes methods that allow an sAPO to get information that is used to negotiate with the audio engine for the appropriate audio data format.
 old-location: audio\iaudiomediatype.htm
 tech.root: audio
 ms.assetid: bf3ee44b-79f3-441a-91f9-a340dc146d67
-
 ms.date: 12/05/2018
 ms.keywords: IAudioMediaType, IAudioMediaType interface [Audio Devices], IAudioMediaType interface [Audio Devices],described, audio.iaudiomediatype, audio_syseffects_r_8b31a96c-76bb-4090-a0e3-e7e16fb98ddc.xml, audiomediatype/IAudioMediaType
 ms.topic: interface
-f1_keywords: 
- - "audiomediatype/IAudioMediaType"
+f1_keywords:
+- audiomediatype/IAudioMediaType
 dev_langs:
- - c++
+- c++
 req.header: audiomediatype.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audiomediatype.h
+- Audiomediatype.h
 api_name:
- - IAudioMediaType
+- IAudioMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vdshwprv.IVdsLunPlex.GetLun
 title: IVdsLunPlex::GetLun (vdshwprv.h)
-
 description: Returns the LUN to which the plex belongs.
 old-location: base\ivdslunplex_getlun.htm
 tech.root: VDS
 ms.assetid: 74f9fed5-f33d-4e88-b3d2-7eb8ef33711e
-
 ms.date: 12/05/2018
 ms.keywords: GetLun, GetLun method [VDS], GetLun method [VDS],IVdsLunPlex interface, IVdsLunPlex interface [VDS],GetLun method, IVdsLunPlex.GetLun, IVdsLunPlex::GetLun, base.ivdslunplex_getlun, vds/IVdsLunPlex::GetLun, vdshwprv/IVdsLunPlex::GetLun
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsLunPlex.GetLun"
+f1_keywords:
+- vdshwprv/IVdsLunPlex.GetLun
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsLunPlex.GetLun
+- IVdsLunPlex.GetLun
 targetos: Windows
 req.typenames: 
 req.redist: 

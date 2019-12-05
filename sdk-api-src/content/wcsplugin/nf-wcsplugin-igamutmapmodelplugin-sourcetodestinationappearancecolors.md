@@ -1,19 +1,17 @@
 ---
 UID: NF:wcsplugin.IGamutMapModelPlugIn.SourceToDestinationAppearanceColors
 title: IGamutMapModelPlugIn::SourceToDestinationAppearanceColors (wcsplugin.h)
-
 description: Returns the appropriate gamut-mapped appearance colors in response to the specified number of colors and the CIEJCh colors.
 old-location: wcs\IGamutMapModelPlugIn_SourceToDestinationAppearanceColors.htm
 tech.root: WCS
 ms.assetid: b98f05db-f003-4a3f-9bc3-0675719e339d
-
 ms.date: 12/05/2018
 ms.keywords: IGamutMapModelPlugIn interface [Windows Color System],SourceToDestinationAppearanceColors method, IGamutMapModelPlugIn.SourceToDestinationAppearanceColors, IGamutMapModelPlugIn::SourceToDestinationAppearanceColors, SourceToDestinationAppearanceColors, SourceToDestinationAppearanceColors method [Windows Color System], SourceToDestinationAppearanceColors method [Windows Color System],IGamutMapModelPlugIn interface, _color_IGamutMapModelPlugIn::SourceToDestinationAppearanceColors, wcs.IGamutMapModelPlugIn_SourceToDestinationAppearanceColors, wcsplugin/IGamutMapModelPlugIn::SourceToDestinationAppearanceColors
 ms.topic: method
-f1_keywords: 
- - "wcsplugin/IGamutMapModelPlugIn.SourceToDestinationAppearanceColors"
+f1_keywords:
+- wcsplugin/IGamutMapModelPlugIn.SourceToDestinationAppearanceColors
 dev_langs:
- - c++
+- c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WcsPlugIn.h
+- WcsPlugIn.h
 api_name:
- - IGamutMapModelPlugIn.SourceToDestinationAppearanceColors
+- IGamutMapModelPlugIn.SourceToDestinationAppearanceColors
 targetos: Windows
 req.typenames: 
 req.redist: 

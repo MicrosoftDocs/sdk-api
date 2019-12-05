@@ -1,19 +1,17 @@
 ---
 UID: NS:txfw32._TXF_LOG_RECORD_BASE
 title: TXF_LOG_RECORD_BASE (txfw32.h)
-
 description: Contains the basic record information.
 old-location: fs\txf_log_record_base.htm
 tech.root: FileIO
 ms.assetid: b891f763-13dd-4b40-aff3-3fccb693d76a
-
 ms.date: 12/05/2018
 ms.keywords: '*PTXF_LOG_RECORD_BASE, PTXF_LOG_RECORD_BASE, PTXF_LOG_RECORD_BASE structure pointer [Files], TXF_LOG_RECORD_BASE, TXF_LOG_RECORD_BASE structure [Files], TXF_LOG_RECORD_TYPE_AFFECTED_FILE, TXF_LOG_RECORD_TYPE_TRUNCATE, TXF_LOG_RECORD_TYPE_WRITE, fs.txf_log_record_base, txfw32/PTXF_LOG_RECORD_BASE, txfw32/TXF_LOG_RECORD_BASE'
 ms.topic: struct
 f1_keywords:
 - txfw32/TXF_LOG_RECORD_BASE
 dev_langs:
- - c++
+- c++
 req.header: txfw32.h
 req.include-header: 
 req.target-type: Windows

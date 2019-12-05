@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDigitalCableTuneRequest.get_SourceID
 title: IDigitalCableTuneRequest::get_SourceID (tuner.h)
-
 description: The get_SourceID method retrieves the source identifier, which maps to a physical channel.
 old-location: mstv\idigitalcabletunerequest_get_sourceid.htm
 tech.root: mstv
 ms.assetid: 3767a8b4-f318-4242-9b30-f1293b3f7091
-
 ms.date: 12/05/2018
 ms.keywords: IDigitalCableTuneRequest interface [Microsoft TV Technologies],get_SourceID method, IDigitalCableTuneRequest.get_SourceID, IDigitalCableTuneRequest::get_SourceID, IDigitalCableTuneRequestget_SourceID, get_SourceID, get_SourceID method [Microsoft TV Technologies], get_SourceID method [Microsoft TV Technologies],IDigitalCableTuneRequest interface, mstv.idigitalcabletunerequest_get_sourceid, tuner/IDigitalCableTuneRequest::get_SourceID
 ms.topic: method
-f1_keywords: 
- - "tuner/IDigitalCableTuneRequest.get_SourceID"
+f1_keywords:
+- tuner/IDigitalCableTuneRequest.get_SourceID
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDigitalCableTuneRequest.get_SourceID
+- IDigitalCableTuneRequest.get_SourceID
 targetos: Windows
 req.typenames: 
 req.redist: 

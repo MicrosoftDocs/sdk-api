@@ -1,19 +1,17 @@
 ---
 UID: NF:adhoc.IDot11AdHocManagerNotificationSink.OnNetworkAdd
 title: IDot11AdHocManagerNotificationSink::OnNetworkAdd (adhoc.h)
-
 description: Notifies the client that a new wireless ad hoc network destination is in range and available for connection.
 old-location: nwifi\idot11adhocmanagernotificationsink_onnetworkadd.htm
 tech.root: NativeWiFi
 ms.assetid: 28cca237-31a5-4018-a382-17d0a13a254b
-
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocManagerNotificationSink interface [NativeWIFI],OnNetworkAdd method, IDot11AdHocManagerNotificationSink.OnNetworkAdd, IDot11AdHocManagerNotificationSink::OnNetworkAdd, OnNetworkAdd, OnNetworkAdd method [NativeWIFI], OnNetworkAdd method [NativeWIFI],IDot11AdHocManagerNotificationSink interface, adhoc/IDot11AdHocManagerNotificationSink::OnNetworkAdd, nwifi.idot11adhocmanagernotificationsink_onnetworkadd
 ms.topic: method
-f1_keywords: 
- - "adhoc/IDot11AdHocManagerNotificationSink.OnNetworkAdd"
+f1_keywords:
+- adhoc/IDot11AdHocManagerNotificationSink.OnNetworkAdd
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IDot11AdHocManagerNotificationSink.OnNetworkAdd
+- IDot11AdHocManagerNotificationSink.OnNetworkAdd
 targetos: Windows
 req.typenames: 
 req.redist: 

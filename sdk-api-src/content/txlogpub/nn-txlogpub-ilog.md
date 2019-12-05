@@ -1,19 +1,17 @@
 ---
 UID: NN:txlogpub.ILog
 title: ILog (txlogpub.h)
-
 description: Provides generic low-level logging functionality.
 old-location: com\ilog.htm
 tech.root: com
 ms.assetid: 93f2be99-0799-4047-ae4e-62f0e74d15c3
-
 ms.date: 12/05/2018
 ms.keywords: ILog, ILog interface [COM], ILog interface [COM],described, _com_ilog, com.ilog, txlogpub/ILog
 ms.topic: interface
-f1_keywords: 
- - "txlogpub/ILog"
+f1_keywords:
+- txlogpub/ILog
 dev_langs:
- - c++
+- c++
 req.header: txlogpub.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Txlogpub.h
+- Txlogpub.h
 api_name:
- - ILog
+- ILog
 targetos: Windows
 req.typenames: 
 req.redist: 

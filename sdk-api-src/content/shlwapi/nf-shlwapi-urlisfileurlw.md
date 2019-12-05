@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.UrlIsFileUrlW
 title: UrlIsFileUrlW macro (shlwapi.h)
-
 description: Tests a URL to determine if it is a file URL.
 old-location: shell\UrlIsFileUrl.htm
 tech.root: shell
 ms.assetid: b122d3e4-47cc-47c0-a30c-6f9d1aa9d174
-
 ms.date: 12/05/2018
 ms.keywords: UrlIsFileUrl, UrlIsFileUrl function [Windows Shell], UrlIsFileUrlA, UrlIsFileUrlW, _win32_UrlIsFileUrl, shell.UrlIsFileUrl, shlwapi/UrlIsFileUrl, shlwapi/UrlIsFileUrlA, shlwapi/UrlIsFileUrlW
 ms.topic: macro
-f1_keywords: 
- - "shlwapi/UrlIsFileUrl"
+f1_keywords:
+- shlwapi/UrlIsFileUrl
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
+- Shlwapi.dll
 api_name:
- - UrlIsFileUrl
- - UrlIsFileUrlA
- - UrlIsFileUrlW
+- UrlIsFileUrl
+- UrlIsFileUrlA
+- UrlIsFileUrlW
 targetos: Windows
 req.typenames: 
 req.redist: 

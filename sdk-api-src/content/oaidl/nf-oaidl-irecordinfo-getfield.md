@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.IRecordInfo.GetField
 title: IRecordInfo::GetField (oaidl.h)
-
 description: Returns a pointer to the VARIANT containing the value of a given field name.
 old-location: automat\irecordinfo_getfield.htm
 tech.root: automat
 ms.assetid: 6765371c-209a-4794-bff8-83560171affb
-
 ms.date: 12/05/2018
 ms.keywords: GetField, GetField method [Automation], GetField method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetField method, IRecordInfo.GetField, IRecordInfo::GetField, _oa96_IRecordInfo_GetField, automat.irecordinfo_getfield, oaidl/IRecordInfo::GetField
 ms.topic: method
-f1_keywords: 
- - "oaidl/IRecordInfo.GetField"
+f1_keywords:
+- oaidl/IRecordInfo.GetField
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - IRecordInfo.GetField
+- IRecordInfo.GetField
 targetos: Windows
 req.typenames: 
 req.redist: 

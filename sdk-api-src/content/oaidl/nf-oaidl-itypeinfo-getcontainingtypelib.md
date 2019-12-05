@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetContainingTypeLib
 title: ITypeInfo::GetContainingTypeLib (oaidl.h)
-
 description: Retrieves the containing type library and the index of the type description within that type library.
 old-location: automat\itypeinfo_getcontainingtypelib.htm
 tech.root: automat
 ms.assetid: 9ca58285-4778-4c2a-b800-dcda9b62e328
-
 ms.date: 12/05/2018
 ms.keywords: GetContainingTypeLib, GetContainingTypeLib method [Automation], GetContainingTypeLib method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetContainingTypeLib method, ITypeInfo.GetContainingTypeLib, ITypeInfo::GetContainingTypeLib, _oa96_ITypeInfo_GetContainingTypeLib, automat.itypeinfo_getcontainingtypelib, oaidl/ITypeInfo::GetContainingTypeLib
 ms.topic: method
-f1_keywords: 
- - "oaidl/ITypeInfo.GetContainingTypeLib"
+f1_keywords:
+- oaidl/ITypeInfo.GetContainingTypeLib
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeInfo.GetContainingTypeLib
+- ITypeInfo.GetContainingTypeLib
 targetos: Windows
 req.typenames: 
 req.redist: 

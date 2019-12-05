@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj.IShellFolderBand.InitializeSFB
 title: IShellFolderBand::InitializeSFB (shlobj.h)
-
 description: Initializes an IShellFolderBand object.
 old-location: shell\IShellFolderBand_InitializeSFB.htm
 tech.root: shell
 ms.assetid: 2f0582d2-b079-4b97-8da0-211b6ef1b8f3
-
 ms.date: 12/05/2018
 ms.keywords: IShellFolderBand interface [Windows Shell],InitializeSFB method, IShellFolderBand.InitializeSFB, IShellFolderBand::InitializeSFB, InitializeSFB, InitializeSFB method [Windows Shell], InitializeSFB method [Windows Shell],IShellFolderBand interface, _win32_IShellFolderBand_InitializeSFB, shell.IShellFolderBand_InitializeSFB, shlobj/IShellFolderBand::InitializeSFB
 ms.topic: method
-f1_keywords: 
- - "shlobj/IShellFolderBand.InitializeSFB"
+f1_keywords:
+- shlobj/IShellFolderBand.InitializeSFB
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.00 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellFolderBand.InitializeSFB
+- IShellFolderBand.InitializeSFB
 targetos: Windows
 req.typenames: 
 req.redist: 

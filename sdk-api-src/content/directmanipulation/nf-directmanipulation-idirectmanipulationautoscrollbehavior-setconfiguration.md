@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationAutoScrollBehavior.SetConfiguration
 title: IDirectManipulationAutoScrollBehavior::SetConfiguration (directmanipulation.h)
-
 description: Performs the auto-scroll animation for the viewport this behavior is attached to.
 old-location: directmanipulation\idirectmanipulationautoscrollbehavior_setconfiguration.htm
 tech.root: directmanipulation
 ms.assetid: 2DE988EA-8690-4AF2-A545-8226032D6E83
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationAutoScrollBehavior interface [Direct Manipulation],SetConfiguration method, IDirectManipulationAutoScrollBehavior.SetConfiguration, IDirectManipulationAutoScrollBehavior::SetConfiguration, SetConfiguration, SetConfiguration method [Direct Manipulation], SetConfiguration method [Direct Manipulation],IDirectManipulationAutoScrollBehavior interface, directmanipulation.idirectmanipulationautoscrollbehavior_setconfiguration, directmanipulation/IDirectManipulationAutoScrollBehavior::SetConfiguration
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationAutoScrollBehavior.SetConfiguration"
+f1_keywords:
+- directmanipulation/IDirectManipulationAutoScrollBehavior.SetConfiguration
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationAutoScrollBehavior.SetConfiguration
+- IDirectManipulationAutoScrollBehavior.SetConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 

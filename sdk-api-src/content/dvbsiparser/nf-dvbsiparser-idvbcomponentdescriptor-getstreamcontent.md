@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbComponentDescriptor.GetStreamContent
 title: IDvbComponentDescriptor::GetStreamContent (dvbsiparser.h)
-
 description: Gets the stream content code for a Digital Video Broadcast (DVB) component descriptor.
 old-location: mstv\idvbcomponentdescriptor_getstreamcontent.htm
 tech.root: mstv
 ms.assetid: 3bfa86c4-2b94-43cd-842e-33cc03b713a5
-
 ms.date: 12/05/2018
 ms.keywords: GetStreamContent, GetStreamContent method [Microsoft TV Technologies], GetStreamContent method [Microsoft TV Technologies],IDvbComponentDescriptor interface, IDvbComponentDescriptor interface [Microsoft TV Technologies],GetStreamContent method, IDvbComponentDescriptor.GetStreamContent, IDvbComponentDescriptor::GetStreamContent, dvbsiparser/IDvbComponentDescriptor::GetStreamContent, mstv.idvbcomponentdescriptor_getstreamcontent
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbComponentDescriptor.GetStreamContent"
+f1_keywords:
+- dvbsiparser/IDvbComponentDescriptor.GetStreamContent
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbComponentDescriptor.GetStreamContent
+- IDvbComponentDescriptor.GetStreamContent
 targetos: Windows
 req.typenames: 
 req.redist: 

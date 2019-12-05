@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IConfigurationDataCollector.get_QueryNetworkAdapters
 title: IConfigurationDataCollector::get_QueryNetworkAdapters (pla.h)
-
 description: Retrieves or sets a value that indicates whether the installed network adapters are queried for their offloading capabilities and other configuration information.
 old-location: pla\iconfigurationdatacollector_querynetworkadapters.htm
 tech.root: PLA
 ms.assetid: 42ec786f-abfc-4331-9e75-ce894a2a5110
-
 ms.date: 12/05/2018
 ms.keywords: IConfigurationDataCollector interface [PLA],QueryNetworkAdapters property, IConfigurationDataCollector.QueryNetworkAdapters, IConfigurationDataCollector.get_QueryNetworkAdapters, IConfigurationDataCollector::QueryNetworkAdapters, IConfigurationDataCollector::get_QueryNetworkAdapters, IConfigurationDataCollector::put_QueryNetworkAdapters, QueryNetworkAdapters property [PLA], QueryNetworkAdapters property [PLA],IConfigurationDataCollector interface, base.iconfigurationdatacollector_querynetworkadapters, get_QueryNetworkAdapters, pla.iconfigurationdatacollector_querynetworkadapters, pla/IConfigurationDataCollector::QueryNetworkAdapters, pla/IConfigurationDataCollector::get_QueryNetworkAdapters, pla/IConfigurationDataCollector::put_QueryNetworkAdapters
 ms.topic: method
-f1_keywords: 
- - "pla/IConfigurationDataCollector.QueryNetworkAdapters"
+f1_keywords:
+- pla/IConfigurationDataCollector.QueryNetworkAdapters
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IConfigurationDataCollector.QueryNetworkAdapters
- - IConfigurationDataCollector.get_QueryNetworkAdapters
- - IConfigurationDataCollector.put_QueryNetworkAdapters
+- IConfigurationDataCollector.QueryNetworkAdapters
+- IConfigurationDataCollector.get_QueryNetworkAdapters
+- IConfigurationDataCollector.put_QueryNetworkAdapters
 targetos: Windows
 req.typenames: 
 req.redist: 

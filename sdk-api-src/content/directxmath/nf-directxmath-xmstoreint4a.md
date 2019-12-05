@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMStoreInt4A
 title: XMStoreInt4A function (directxmath.h)
-
 description: Stores an XMVECTOR in a 16-byte aligned 4 element uint32_t array.
 old-location: dxmath\xmstoreint4a.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreInt4A(VOID@,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMStoreInt4A, XMStoreInt4A, XMStoreInt4A method [DirectX Math Support APIs], dxmath.xmstoreint4a
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMStoreInt4A"
+f1_keywords:
+- directxmath/XMStoreInt4A
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMStoreInt4A
+- XMStoreInt4A
 targetos: Windows
 req.typenames: 
 req.redist: 

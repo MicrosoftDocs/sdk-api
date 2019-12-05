@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.UpdateHandlerCollection
 title: ISyncMgrControl::UpdateHandlerCollection (syncmgr.h)
-
 description: Instructs Sync Center to reenumerate the handler collection, or informs it that properties of a handler in the handler collection have changed.
 old-location: shell\ISyncMgrControl_UpdateHandlerCollection.htm
 tech.root: shell
 ms.assetid: 752f197e-0dad-4b3d-9f70-352f5f50e9ee
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateHandlerCollection method, ISyncMgrControl.UpdateHandlerCollection, ISyncMgrControl::UpdateHandlerCollection, UpdateHandlerCollection, UpdateHandlerCollection method [Windows Shell], UpdateHandlerCollection method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_UpdateHandlerCollection, shell.ISyncMgrControl_UpdateHandlerCollection, syncmgr/ISyncMgrControl::UpdateHandlerCollection
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrControl.UpdateHandlerCollection"
+f1_keywords:
+- syncmgr/ISyncMgrControl.UpdateHandlerCollection
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrControl.UpdateHandlerCollection
+- ISyncMgrControl.UpdateHandlerCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

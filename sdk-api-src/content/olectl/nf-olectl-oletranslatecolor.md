@@ -1,19 +1,17 @@
 ---
 UID: NF:olectl.OleTranslateColor
 title: OleTranslateColor function (olectl.h)
-
 description: Converts an OLE_COLOR type to a COLORREF.
 old-location: com\oletranslatecolor.htm
 tech.root: com
 ms.assetid: f4b407c3-e88a-47b4-bb43-8f691629d2f3
-
 ms.date: 12/05/2018
 ms.keywords: OleTranslateColor, OleTranslateColor function [COM], _ctrl_OleTranslateColor, com.oletranslatecolor, olectl/OleTranslateColor
 ms.topic: function
-f1_keywords: 
- - "olectl/OleTranslateColor"
+f1_keywords:
+- olectl/OleTranslateColor
 dev_langs:
- - c++
+- c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - OleTranslateColor
+- OleTranslateColor
 targetos: Windows
 req.typenames: 
 req.redist: 

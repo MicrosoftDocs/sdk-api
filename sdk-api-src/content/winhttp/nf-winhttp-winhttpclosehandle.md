@@ -1,19 +1,17 @@
 ---
 UID: NF:winhttp.WinHttpCloseHandle
 title: WinHttpCloseHandle function (winhttp.h)
-
 description: The WinHttpCloseHandle function closes a single HINTERNET handle.
 old-location: http\winhttpclosehandle.htm
 tech.root: WinHttp
 ms.assetid: 78215141-dfe8-4f0a-ba1a-a63fa257db6f
-
 ms.date: 12/05/2018
 ms.keywords: WinHttpCloseHandle, WinHttpCloseHandle function [WinHTTP], http.winhttpclosehandle, winhttp.winhttpclosehandle, winhttp/WinHttpCloseHandle
 ms.topic: function
-f1_keywords: 
- - "winhttp/WinHttpCloseHandle"
+f1_keywords:
+- winhttp/WinHttpCloseHandle
 dev_langs:
- - c++
+- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winhttp.dll
+- Winhttp.dll
 api_name:
- - WinHttpCloseHandle
+- WinHttpCloseHandle
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig3.GetLanguage
 title: IWMStreamConfig3::GetLanguage (wmsdkidl.h)
-
 description: The GetLanguage method retrieves the RFC1766-compliant language string for the stream.
 old-location: wmformat\iwmstreamconfig3_getlanguage.htm
 tech.root: wmformat
 ms.assetid: 407607c8-c6ab-4400-b86c-9972d95f90c2
-
 ms.date: 12/05/2018
 ms.keywords: GetLanguage, GetLanguage method [windows Media Format], GetLanguage method [windows Media Format],IWMStreamConfig3 interface, IWMStreamConfig3 interface [windows Media Format],GetLanguage method, IWMStreamConfig3.GetLanguage, IWMStreamConfig3::GetLanguage, IWMStreamConfig3GetLanguage, wmformat.iwmstreamconfig3_getlanguage, wmsdkidl/IWMStreamConfig3::GetLanguage
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMStreamConfig3.GetLanguage"
+f1_keywords:
+- wmsdkidl/IWMStreamConfig3.GetLanguage
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMStreamConfig3.GetLanguage
+- IWMStreamConfig3.GetLanguage
 targetos: Windows
 req.typenames: 
 req.redist: 

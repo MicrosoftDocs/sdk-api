@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.GetSlideshowOptions
 title: IDesktopWallpaper::GetSlideshowOptions (shobjidl_core.h)
-
 description: Gets the current desktop wallpaper slideshow settings for shuffle and timing.
 old-location: shell\IDesktopWallpaper_GetSlideshowOptions.htm
 tech.root: shell
 ms.assetid: 2EB99E61-F5B4-4f07-8A87-793BE59D309B
-
 ms.date: 12/05/2018
 ms.keywords: DSO_SHUFFLEIMAGES, GetSlideshowOptions, GetSlideshowOptions method [Windows Shell], GetSlideshowOptions method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],GetSlideshowOptions method, IDesktopWallpaper.GetSlideshowOptions, IDesktopWallpaper::GetSlideshowOptions, shell.IDesktopWallpaper_GetSlideshowOptions, shobjidl_core/IDesktopWallpaper::GetSlideshowOptions
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IDesktopWallpaper.GetSlideshowOptions"
+f1_keywords:
+- shobjidl_core/IDesktopWallpaper.GetSlideshowOptions
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IDesktopWallpaper.GetSlideshowOptions
+- IDesktopWallpaper.GetSlideshowOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

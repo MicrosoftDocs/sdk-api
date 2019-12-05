@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.ITextHost.TxGetExtent
 title: ITextHost::TxGetExtent (textserv.h)
-
 description: Requests the native size of the control in HIMETRIC.
 old-location: controls\ITextHost_TxGetExtent.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetextent.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetExtent method, ITextHost.TxGetExtent, ITextHost::TxGetExtent, TxGetExtent, TxGetExtent method [Windows Controls], TxGetExtent method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetExtent, _win32_ITextHost_TxGetExtent_cpp, controls.ITextHost_TxGetExtent, controls._win32_ITextHost_TxGetExtent, textserv/ITextHost::TxGetExtent
 ms.topic: method
-f1_keywords: 
- - "textserv/ITextHost.TxGetExtent"
+f1_keywords:
+- textserv/ITextHost.TxGetExtent
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextHost.TxGetExtent
+- ITextHost.TxGetExtent
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fdi.FNFREE
 title: FNFREE macro (fdi.h)
-
 description: The FNFREE macro provides the declaration for the application-defined callback function to free previously allocated memory in an FDI context.
 old-location: winprog\fnfree.htm
 tech.root: DevNotes
 ms.assetid: 646a0cb4-1f3a-42a1-a508-12d80bdb4a01
-
 ms.date: 12/05/2018
 ms.keywords: FNFREE, FNFREE macro [Windows API], fdi/FNFREE, winprog.fnfree
 ms.topic: macro
-f1_keywords: 
- - "fdi/FNFREE"
+f1_keywords:
+- fdi/FNFREE
 dev_langs:
- - c++
+- c++
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - fdi.h
+- fdi.h
 api_name:
- - FNFREE
+- FNFREE
 targetos: Windows
 req.typenames: 
 req.redist: 

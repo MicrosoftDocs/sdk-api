@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.ClearMarkers
 title: GraphicsPath::ClearMarkers (gdipluspath.h)
-
 description: The GraphicsPath::ClearMarkers method clears the markers from this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_ClearMarkers_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\clearmarkers.htm
-
 ms.date: 12/05/2018
 ms.keywords: ClearMarkers, ClearMarkers method [GDI+], ClearMarkers method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],ClearMarkers method, GraphicsPath.ClearMarkers, GraphicsPath::ClearMarkers, _gdiplus_CLASS_GraphicsPath_ClearMarkers_, gdiplus._gdiplus_CLASS_GraphicsPath_ClearMarkers_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPath.ClearMarkers"
+f1_keywords:
+- gdipluspath/GraphicsPath.ClearMarkers
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPath.ClearMarkers
+- GraphicsPath.ClearMarkers
 targetos: Windows
 req.typenames: 
 req.redist: 

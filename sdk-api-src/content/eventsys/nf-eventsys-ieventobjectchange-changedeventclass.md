@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventObjectChange.ChangedEventClass
 title: IEventObjectChange::ChangedEventClass (eventsys.h)
-
 description: Indicates that an event class object has been added, modified, or deleted.
 old-location: cos\ieventobjectchange_changedeventclass.htm
 tech.root: cossdk
 ms.assetid: 8db711c8-7c01-4fb0-975c-a66c83063124
-
 ms.date: 12/05/2018
 ms.keywords: ChangedEventClass, ChangedEventClass method [COM+], ChangedEventClass method [COM+],IEventObjectChange interface, IEventObjectChange interface [COM+],ChangedEventClass method, IEventObjectChange.ChangedEventClass, IEventObjectChange::ChangedEventClass, _cos_IEventObjectChange_ChangedEventClass, cos.ieventobjectchange_changedeventclass, eventsys/IEventObjectChange::ChangedEventClass
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventObjectChange.ChangedEventClass"
+f1_keywords:
+- eventsys/IEventObjectChange.ChangedEventClass
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Eventsys.h
+- Eventsys.h
 api_name:
- - IEventObjectChange.ChangedEventClass
+- IEventObjectChange.ChangedEventClass
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IObjectId.InitializeFromValue
 title: IObjectId::InitializeFromValue (certenroll.h)
-
 description: Initializes the object from a string that contains a dotted decimal object identifier (OID).
 old-location: security\iobjectid_initializefromvalue_method.htm
 tech.root: seccertenroll
 ms.assetid: 2bb2ee69-02c3-41b9-a67b-036c7154a44e
-
 ms.date: 12/05/2018
 ms.keywords: IObjectId interface [Security],InitializeFromValue method, IObjectId.InitializeFromValue, IObjectId::InitializeFromValue, InitializeFromValue, InitializeFromValue method [Security], InitializeFromValue method [Security],IObjectId interface, certenroll/IObjectId::InitializeFromValue, security.iobjectid_initializefromvalue_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IObjectId.InitializeFromValue"
+f1_keywords:
+- certenroll/IObjectId.InitializeFromValue
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IObjectId.InitializeFromValue
+- IObjectId.InitializeFromValue
 targetos: Windows
 req.typenames: 
 req.redist: 

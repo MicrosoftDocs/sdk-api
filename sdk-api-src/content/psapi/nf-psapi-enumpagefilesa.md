@@ -1,19 +1,17 @@
 ---
 UID: NF:psapi.EnumPageFilesA
 title: EnumPageFilesA function (psapi.h)
-
 description: Calls the callback routine for each installed pagefile in the system.
 old-location: psapi\enumpagefiles.htm
 tech.root: psapi
 ms.assetid: 9289fe3c-a7d9-4acb-aeb6-a50de65db0a2
-
 ms.date: 12/05/2018
 ms.keywords: EnumPageFiles, EnumPageFiles function [PSAPI], EnumPageFilesA, EnumPageFilesW, K32EnumPageFiles, K32EnumPageFilesA, K32EnumPageFilesW, _win32_enumpagefiles, base.enumpagefiles, psapi.enumpagefiles, psapi/EnumPageFiles, psapi/EnumPageFilesA, psapi/EnumPageFilesW, psapi/K32EnumPageFiles, psapi/K32EnumPageFilesA, psapi/K32EnumPageFilesW
 ms.topic: function
-f1_keywords: 
- - "psapi/EnumPageFiles"
+f1_keywords:
+- psapi/EnumPageFiles
 dev_langs:
- - c++
+- c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,24 +30,24 @@ req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if 
 req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - Psapi.dll
- - Psapi.dll
- - API-MS-Win-Core-PsAPI-Ansi-L1-1-0.dll
- - API-MS-Win-Core-PsAPI-L1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- Psapi.dll
+- Psapi.dll
+- API-MS-Win-Core-PsAPI-Ansi-L1-1-0.dll
+- API-MS-Win-Core-PsAPI-L1-1-0.dll
+- KernelBase.dll
 api_name:
- - EnumPageFiles
- - EnumPageFilesA
- - EnumPageFilesW
- - K32EnumPageFiles
- - K32EnumPageFilesW
- - K32EnumPageFilesA
+- EnumPageFiles
+- EnumPageFilesA
+- EnumPageFilesW
+- K32EnumPageFiles
+- K32EnumPageFilesW
+- K32EnumPageFilesA
 targetos: Windows
 req.typenames: 
 req.redist: 

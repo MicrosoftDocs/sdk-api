@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsSetHeader
 title: WsSetHeader function (webservices.h)
-
 description: Adds or replaces the specified standard header in the message.
 old-location: wsw\wssetheader.htm
 tech.root: wsw
 ms.assetid: 34671c47-d21e-47c4-9fb0-10b036fb4f70
-
 ms.date: 12/05/2018
 ms.keywords: WsSetHeader, WsSetHeader function [Web Services for Windows], webservices/WsSetHeader, wsw.wssetheader
 ms.topic: function
-f1_keywords: 
- - "webservices/WsSetHeader"
+f1_keywords:
+- webservices/WsSetHeader
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsSetHeader
+- WsSetHeader
 targetos: Windows
 req.typenames: 
 req.redist: 

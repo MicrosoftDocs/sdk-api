@@ -1,19 +1,17 @@
 ---
 UID: NS:comcat.tagCATEGORYINFO
 title: CATEGORYINFO (comcat.h)
-
 description: Describes a component category.
 old-location: com\categoryinfo.htm
 tech.root: com
 ms.assetid: a5f0cb04-595d-4388-8943-79b9da76022b
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCATEGORYINFO, CATEGORYINFO, CATEGORYINFO structure [COM], _com_categoryinfo_structure, com.categoryinfo, comcat/CATEGORYINFO"
+ms.keywords: '*LPCATEGORYINFO, CATEGORYINFO, CATEGORYINFO structure [COM], _com_categoryinfo_structure, com.categoryinfo, comcat/CATEGORYINFO'
 ms.topic: struct
-f1_keywords: 
- - "comcat/CATEGORYINFO"
+f1_keywords:
+- comcat/CATEGORYINFO
 dev_langs:
- - c++
+- c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Comcat.h
+- Comcat.h
 api_name:
- - CATEGORYINFO
+- CATEGORYINFO
 targetos: Windows
 req.typenames: CATEGORYINFO, *LPCATEGORYINFO
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._REPAIR_COPIES_OUTPUT
 title: REPAIR_COPIES_OUTPUT
-
 description: Contains output of a repair copies operation returned from the FSCTL_REPAIR_COPIES control code.
 old-location: fs\repair_copies_output.htm
 tech.root: FileIO
 ms.assetid: a3da7779-92e7-40bf-a889-dd2013e942ab
-
 ms.date: 12/05/2018
-ms.keywords: "*PREPAIR_COPIES_OUTPUT, PREPAIR_COPIES_OUTPUT, PREPAIR_COPIES_OUTPUT structure pointer [Files], REPAIR_COPIES_OUTPUT, REPAIR_COPIES_OUTPUT structure [Files], fs.repair_copies_output, winioctl/PREPAIR_COPIES_OUTPUT, winioctl/REPAIR_COPIES_OUTPUT"
+ms.keywords: '*PREPAIR_COPIES_OUTPUT, PREPAIR_COPIES_OUTPUT, PREPAIR_COPIES_OUTPUT structure pointer [Files], REPAIR_COPIES_OUTPUT, REPAIR_COPIES_OUTPUT structure [Files], fs.repair_copies_output, winioctl/PREPAIR_COPIES_OUTPUT, winioctl/REPAIR_COPIES_OUTPUT'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/REPAIR_COPIES_OUTPUT"
+f1_keywords:
+- winioctl/REPAIR_COPIES_OUTPUT
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - REPAIR_COPIES_OUTPUT
+- REPAIR_COPIES_OUTPUT
 targetos: Windows
 req.typenames: REPAIR_COPIES_OUTPUT, *PREPAIR_COPIES_OUTPUT
 req.redist: 

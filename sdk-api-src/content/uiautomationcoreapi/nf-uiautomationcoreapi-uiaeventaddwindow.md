@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.UiaEventAddWindow
 title: UiaEventAddWindow function (uiautomationcoreapi.h)
-
 description: Adds a window to the event listener.
 old-location: winauto\uiauto_UiaEventAddWindowFunction.htm
 tech.root: WinAuto
 ms.assetid: 1044dbe0-1b66-41f4-916d-eb23c0a0c92b
-
 ms.date: 12/05/2018
 ms.keywords: UiaEventAddWindow, UiaEventAddWindow function [Windows Accessibility], uiauto.uiauto_UiaEventAddWindowFunction, uiauto_UiaEventAddWindowFunction, uiautomationcoreapi/UiaEventAddWindow, winauto.uiauto_UiaEventAddWindowFunction
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/UiaEventAddWindow"
+f1_keywords:
+- uiautomationcoreapi/UiaEventAddWindow
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - UiaEventAddWindow
+- UiaEventAddWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

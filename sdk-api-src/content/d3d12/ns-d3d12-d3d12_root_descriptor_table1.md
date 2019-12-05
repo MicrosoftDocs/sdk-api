@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_ROOT_DESCRIPTOR_TABLE1
 title: D3D12_ROOT_DESCRIPTOR_TABLE1 (d3d12.h)
-
 description: Describes the root signature 1.1 layout of a descriptor table as a collection of descriptor ranges that appear one after the other in a descriptor heap.
 old-location: direct3d12\d3d12_root_descriptor_table1.htm
 tech.root: direct3d12
 ms.assetid: 1D9D1846-2BE2-4B88-8D23-5A27173918DD
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_ROOT_DESCRIPTOR_TABLE1, D3D12_ROOT_DESCRIPTOR_TABLE1 structure, d3d12/D3D12_ROOT_DESCRIPTOR_TABLE1, direct3d12.d3d12_root_descriptor_table1
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_ROOT_DESCRIPTOR_TABLE1"
+f1_keywords:
+- d3d12/D3D12_ROOT_DESCRIPTOR_TABLE1
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_ROOT_DESCRIPTOR_TABLE1
+- D3D12_ROOT_DESCRIPTOR_TABLE1
 targetos: Windows
 req.typenames: D3D12_ROOT_DESCRIPTOR_TABLE1
 req.redist: 

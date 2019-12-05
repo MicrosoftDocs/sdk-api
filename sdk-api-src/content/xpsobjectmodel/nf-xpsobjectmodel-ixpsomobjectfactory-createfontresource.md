@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateFontResource
 title: IXpsOMObjectFactory::CreateFontResource (xpsobjectmodel.h)
-
 description: Creates an IXpsOMFontResource interface, which provides an IStream interface to the font resource.
 old-location: xps\ixpsomobjectfactory_createfontresource.htm
 tech.root: printdocs
 ms.assetid: 9893716b-5004-4886-9bed-49a447e97f42
-
 ms.date: 12/05/2018
 ms.keywords: CreateFontResource, CreateFontResource method [XPS Documents and Packaging], CreateFontResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, FALSE, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateFontResource method, IXpsOMObjectFactory.CreateFontResource, IXpsOMObjectFactory::CreateFontResource, TRUE, xps.ixpsomobjectfactory_createfontresource, xpsobjectmodel/IXpsOMObjectFactory::CreateFontResource
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMObjectFactory.CreateFontResource"
+f1_keywords:
+- xpsobjectmodel/IXpsOMObjectFactory.CreateFontResource
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreateFontResource
+- IXpsOMObjectFactory.CreateFontResource
 targetos: Windows
 req.typenames: 
 req.redist: 

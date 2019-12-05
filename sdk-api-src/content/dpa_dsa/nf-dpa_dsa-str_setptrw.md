@@ -1,19 +1,17 @@
 ---
 UID: NF:dpa_dsa.Str_SetPtrW
 title: Str_SetPtrW function (dpa_dsa.h)
-
 description: Sets ppszCurrent to a copy of pszNew and frees the previous value, if necessary.
 old-location: controls\Str_SetPtrW.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\str_setptrw.htm
-
 ms.date: 12/05/2018
 ms.keywords: Str_SetPtr, Str_SetPtr function [Windows Controls], Str_SetPtrA, Str_SetPtrW, _win32_Str_SetPtrW, _win32_Str_SetPtrW_cpp, controls.Str_SetPtrW, controls._win32_Str_SetPtrW, dpa_dsa/Str_SetPtr, dpa_dsa/Str_SetPtrA, dpa_dsa/Str_SetPtrW
 ms.topic: function
-f1_keywords: 
- - "dpa_dsa/Str_SetPtr"
+f1_keywords:
+- dpa_dsa/Str_SetPtr
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Comctl32.lib
 req.dll: ComCtl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComCtl32.dll
+- ComCtl32.dll
 api_name:
- - Str_SetPtr
- - Str_SetPtrA
- - Str_SetPtrW
+- Str_SetPtr
+- Str_SetPtrA
+- Str_SetPtrW
 targetos: Windows
 req.typenames: 
 req.redist: 

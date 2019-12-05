@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2psiparser.ICAT.Initialize
 title: ICAT::Initialize (mpeg2psiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\icat_initialize.htm
 tech.root: mstv
 ms.assetid: 74751ee7-4cc9-451b-b4da-29df3ebf0df5
-
 ms.date: 12/05/2018
 ms.keywords: ICAT interface [Microsoft TV Technologies],Initialize method, ICAT.Initialize, ICAT::Initialize, ICATInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],ICAT interface, mpeg2psiparser/ICAT::Initialize, mstv.icat_initialize
 ms.topic: method
-f1_keywords: 
- - "mpeg2psiparser/ICAT.Initialize"
+f1_keywords:
+- mpeg2psiparser/ICAT.Initialize
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mpeg2psiparser.h
+- mpeg2psiparser.h
 api_name:
- - ICAT.Initialize
+- ICAT.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

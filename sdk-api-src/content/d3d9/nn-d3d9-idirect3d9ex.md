@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d9.IDirect3D9Ex
 title: IDirect3D9Ex (d3d9.h)
-
 description: Applications use the methods of the IDirect3D9Ex interface (which inherits from IDirect3D9) to create Microsoft Direct3D 9Ex objects and set up the environment.
 old-location: direct3d9\idirect3d9ex.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9ex.htm
-
 ms.date: 12/05/2018
 ms.keywords: 88878a9a-f85c-f0f1-6268-c5b3e11bb875, IDirect3D9Ex, IDirect3D9Ex interface [Direct3D 9], IDirect3D9Ex interface [Direct3D 9],described, d3d9/IDirect3D9Ex, direct3d9.idirect3d9ex
 ms.topic: interface
-f1_keywords: 
- - "d3d9/IDirect3D9Ex"
+f1_keywords:
+- d3d9/IDirect3D9Ex
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3D9Ex
+- IDirect3D9Ex
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_get_dnW
 title: ldap_get_dnW function (winldap.h)
-
 description: The ldap_get_dn function retrieves the distinguished name for a given entry.
 old-location: ldap\ldap_get_dn.htm
 tech.root: ldap
 ms.assetid: 00484fe7-65d2-4300-ab5c-0a69a25e65e6
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_get_dn, ldap.ldap__get__dn, ldap.ldap_get_dn, ldap_get_dn, ldap_get_dn function [LDAP], ldap_get_dnA, ldap_get_dnW, winldap/ldap_get_dn, winldap/ldap_get_dnA, winldap/ldap_get_dnW"
+ms.keywords: _ldap_ldap_get_dn, ldap.ldap__get__dn, ldap.ldap_get_dn, ldap_get_dn, ldap_get_dn function [LDAP], ldap_get_dnA, ldap_get_dnW, winldap/ldap_get_dn, winldap/ldap_get_dnA, winldap/ldap_get_dnW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_get_dn"
+f1_keywords:
+- winldap/ldap_get_dn
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_get_dn
- - ldap_get_dnA
- - ldap_get_dnW
+- ldap_get_dn
+- ldap_get_dnA
+- ldap_get_dnW
 targetos: Windows
 req.typenames: 
 req.redist: 

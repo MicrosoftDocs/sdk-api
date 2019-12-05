@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAServiceDescriptor.GetCASystemId
 title: IIsdbCAServiceDescriptor::GetCASystemId (dvbsiparser.h)
-
 description: Gets the conditional access (CA) system identifier from a CA service descriptor.
 old-location: mstv\iisdbcaservicedescriptor_getcasystemid.htm
 tech.root: mstv
 ms.assetid: 48148c5c-30e1-4028-8baf-692141d79fad
-
 ms.date: 12/05/2018
 ms.keywords: GetCASystemId, GetCASystemId method [Microsoft TV Technologies], GetCASystemId method [Microsoft TV Technologies],IIsdbCAServiceDescriptor interface, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies],GetCASystemId method, IIsdbCAServiceDescriptor.GetCASystemId, IIsdbCAServiceDescriptor::GetCASystemId, dvbsiparser/IIsdbCAServiceDescriptor::GetCASystemId, mstv.iisdbcaservicedescriptor_getcasystemid
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbCAServiceDescriptor.GetCASystemId"
+f1_keywords:
+- dvbsiparser/IIsdbCAServiceDescriptor.GetCASystemId
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbCAServiceDescriptor.GetCASystemId
+- IIsdbCAServiceDescriptor.GetCASystemId
 targetos: Windows
 req.typenames: 
 req.redist: 

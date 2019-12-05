@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_connect
 title: ldap_connect function (winldap.h)
-
 description: The ldap_connect function establishes a connection with the server.
 old-location: ldap\ldap_connect.htm
 tech.root: ldap
 ms.assetid: 783e52fd-d758-47ba-b350-878a2efec8a3
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_connect, ldap.ldap__connect, ldap.ldap_connect, ldap_connect, ldap_connect function [LDAP], winldap/ldap_connect"
+ms.keywords: _ldap_ldap_connect, ldap.ldap__connect, ldap.ldap_connect, ldap_connect, ldap_connect function [LDAP], winldap/ldap_connect
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_connect"
+f1_keywords:
+- winldap/ldap_connect
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_connect
+- ldap_connect
 targetos: Windows
 req.typenames: 
 req.redist: 

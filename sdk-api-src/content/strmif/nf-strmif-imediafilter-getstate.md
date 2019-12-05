@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMediaFilter.GetState
 title: IMediaFilter::GetState (strmif.h)
-
 description: The GetState method retrieves the filters's state (running, stopped, or paused).
 old-location: dshow\imediafilter_getstate.htm
 tech.root: DirectShow
 ms.assetid: b20ca3e9-bec2-4c6d-ba80-f4dae2f5a831
-
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method [DirectShow], GetState method [DirectShow],IBaseFilter interface, GetState method [DirectShow],IMediaFilter interface, IBaseFilter interface [DirectShow],GetState method, IBaseFilter::GetState, IMediaFilter interface [DirectShow],GetState method, IMediaFilter.GetState, IMediaFilter::GetState, IMediaFilterGetState, dshow.imediafilter_getstate, strmif/IBaseFilter::GetState, strmif/IMediaFilter::GetState
 ms.topic: method
-f1_keywords: 
- - "strmif/IMediaFilter.GetState"
+f1_keywords:
+- strmif/IMediaFilter.GetState
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaFilter.GetState
- - IBaseFilter.GetState
+- IMediaFilter.GetState
+- IBaseFilter.GetState
 targetos: Windows
 req.typenames: 
 req.redist: 

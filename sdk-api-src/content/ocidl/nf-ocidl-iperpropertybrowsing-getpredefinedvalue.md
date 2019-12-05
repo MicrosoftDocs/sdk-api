@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IPerPropertyBrowsing.GetPredefinedValue
 title: IPerPropertyBrowsing::GetPredefinedValue (ocidl.h)
-
 description: Retrieves the value of the specified property that is associated with a predefined string name.
 old-location: com\iperpropertybrowsing_getpredefinedvalue.htm
 tech.root: com
 ms.assetid: a532ebed-3ed8-4b49-a17f-f542fdbd74ff
-
 ms.date: 12/05/2018
 ms.keywords: GetPredefinedValue, GetPredefinedValue method [COM], GetPredefinedValue method [COM],IPerPropertyBrowsing interface, IPerPropertyBrowsing interface [COM],GetPredefinedValue method, IPerPropertyBrowsing.GetPredefinedValue, IPerPropertyBrowsing::GetPredefinedValue, _ctrl_iperpropertybrowsing_getpredefinedvalue, com.iperpropertybrowsing_getpredefinedvalue, ocidl/IPerPropertyBrowsing::GetPredefinedValue
 ms.topic: method
-f1_keywords: 
- - "ocidl/IPerPropertyBrowsing.GetPredefinedValue"
+f1_keywords:
+- ocidl/IPerPropertyBrowsing.GetPredefinedValue
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPerPropertyBrowsing.GetPredefinedValue
+- IPerPropertyBrowsing.GetPredefinedValue
 targetos: Windows
 req.typenames: 
 req.redist: 

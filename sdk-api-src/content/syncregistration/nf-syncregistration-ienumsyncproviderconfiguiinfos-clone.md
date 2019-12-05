@@ -1,19 +1,17 @@
 ---
 UID: NF:syncregistration.IEnumSyncProviderConfigUIInfos.Clone
 title: IEnumSyncProviderConfigUIInfos::Clone (syncregistration.h)
-
 description: Clones the enumerator and returns a new enumerator that is in the same state as the current one.
 old-location: winsync\ienumsyncproviderconfiguiinfos_clone.htm
 tech.root: winsync
 ms.assetid: 30f2a85a-86c2-4547-a18f-448a01d64d9b
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumSyncProviderConfigUIInfos interface, IEnumSyncProviderConfigUIInfos interface [Windows Sync],Clone method, IEnumSyncProviderConfigUIInfos.Clone, IEnumSyncProviderConfigUIInfos::Clone, syncregistration/IEnumSyncProviderConfigUIInfos::Clone, winsync.ienumsyncproviderconfiguiinfos_clone
 ms.topic: method
-f1_keywords: 
- - "syncregistration/IEnumSyncProviderConfigUIInfos.Clone"
+f1_keywords:
+- syncregistration/IEnumSyncProviderConfigUIInfos.Clone
 dev_langs:
- - c++
+- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncregistration.h
+- Syncregistration.h
 api_name:
- - IEnumSyncProviderConfigUIInfos.Clone
+- IEnumSyncProviderConfigUIInfos.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

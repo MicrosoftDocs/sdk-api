@@ -1,19 +1,17 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.Initialize
 title: INetDiagHelper::Initialize (ndhelper.h)
-
 description: The Initialize method passes in attributes to the Helper Class Extension from the hypothesis. The helper class should store these parameters for use in the main diagnostics functions. This method must be called before any diagnostics function.
 old-location: ndf\inetdiaghelpe_initialize.htm
 tech.root: NDF
 ms.assetid: 32003720-ca59-4203-a78c-9e40c626c9f8
-
 ms.date: 12/05/2018
 ms.keywords: INetDiagHelper interface [NDF],Initialize method, INetDiagHelper.Initialize, INetDiagHelper::Initialize, Initialize, Initialize method [NDF], Initialize method [NDF],INetDiagHelper interface, ndf.inetdiaghelpe_initialize, ndhelper/INetDiagHelper::Initialize
 ms.topic: method
-f1_keywords: 
- - "ndhelper/INetDiagHelper.Initialize"
+f1_keywords:
+- ndhelper/INetDiagHelper.Initialize
 dev_langs:
- - c++
+- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ndhelper.h
+- ndhelper.h
 api_name:
- - INetDiagHelper.Initialize
+- INetDiagHelper.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

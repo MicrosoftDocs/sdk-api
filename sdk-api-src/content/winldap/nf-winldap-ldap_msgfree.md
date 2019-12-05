@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_msgfree
 title: ldap_msgfree function (winldap.h)
-
 description: The ldap_msgfree function frees the results obtained from a previous call to ldap_result, or to one of the synchronous search routines.
 old-location: ldap\ldap_msgfree.htm
 tech.root: ldap
 ms.assetid: a4292638-0686-4c2d-8c51-1d5d079d5782
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_msgfree, ldap.ldap__msgfree, ldap.ldap_msgfree, ldap_msgfree, ldap_msgfree function [LDAP], winldap/ldap_msgfree"
+ms.keywords: _ldap_ldap_msgfree, ldap.ldap__msgfree, ldap.ldap_msgfree, ldap_msgfree, ldap_msgfree function [LDAP], winldap/ldap_msgfree
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_msgfree"
+f1_keywords:
+- winldap/ldap_msgfree
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_msgfree
+- ldap_msgfree
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventControl.SetPublisherFilter
 title: IEventControl::SetPublisherFilter (eventsys.h)
-
 description: Assigns a publisher filter to an event method.
 old-location: cos\ieventcontrol_setpublisherfilter.htm
 tech.root: cossdk
 ms.assetid: 9ebe0f55-9e2f-4538-9c16-1b237abfd07b
-
 ms.date: 12/05/2018
 ms.keywords: IEventControl interface [COM+],SetPublisherFilter method, IEventControl.SetPublisherFilter, IEventControl::SetPublisherFilter, SetPublisherFilter, SetPublisherFilter method [COM+], SetPublisherFilter method [COM+],IEventControl interface, _cos_IEventControl_SetPublisherFilter, cos.ieventcontrol_setpublisherfilter, eventsys/IEventControl::SetPublisherFilter
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventControl.SetPublisherFilter"
+f1_keywords:
+- eventsys/IEventControl.SetPublisherFilter
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Eventsys.h
+- Eventsys.h
 api_name:
- - IEventControl.SetPublisherFilter
+- IEventControl.SetPublisherFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

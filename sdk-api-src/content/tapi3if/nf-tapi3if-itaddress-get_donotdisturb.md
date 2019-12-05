@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITAddress.get_DoNotDisturb
 title: ITAddress::get_DoNotDisturb (tapi3if.h)
-
 description: The get_DoNotDisturb method gets the current status of the do not disturb feature on the address. The do not disturb feature may not be available on all addresses.
 old-location: tapi3\itaddress_get_donotdisturb.htm
 tech.root: Tapi
 ms.assetid: d9257201-bcd1-4d6b-9bc7-24b323cd4f15
-
 ms.date: 12/05/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_DoNotDisturb method, ITAddress.get_DoNotDisturb, ITAddress::get_DoNotDisturb, _tapi3_itaddress_get_donotdisturb, get_DoNotDisturb, get_DoNotDisturb method [TAPI 2.2], get_DoNotDisturb method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_donotdisturb, tapi3if/ITAddress::get_DoNotDisturb
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITAddress.get_DoNotDisturb"
+f1_keywords:
+- tapi3if/ITAddress.get_DoNotDisturb
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAddress.get_DoNotDisturb
+- ITAddress.get_DoNotDisturb
 targetos: Windows
 req.typenames: 
 req.redist: 

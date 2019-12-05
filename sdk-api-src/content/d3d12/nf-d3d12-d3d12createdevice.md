@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.D3D12CreateDevice
 title: D3D12CreateDevice function (d3d12.h)
-
 description: Creates a device that represents the display adapter.
 old-location: direct3d12\d3d12createdevice.htm
 tech.root: direct3d12
 ms.assetid: F403D730-CBD4-4AE0-86F6-8CE122E82CB4
-
 ms.date: 12/05/2018
 ms.keywords: D3D12CreateDevice, D3D12CreateDevice function, d3d12/D3D12CreateDevice, direct3d12.d3d12createdevice
 ms.topic: function
-f1_keywords: 
- - "d3d12/D3D12CreateDevice"
+f1_keywords:
+- d3d12/D3D12CreateDevice
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - D3D12CreateDevice
+- D3D12CreateDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_XASCENT
 title: DWRITE_PANOSE_XASCENT (dwrite_1.h)
-
 description: The DWRITE_PANOSE_XASCENT enumeration contains values that specify the relative size of the lowercase letters.
 old-location: directwrite\dwrite_panose_xascent.htm
 tech.root: DirectWrite
 ms.assetid: CD32DC3D-57C5-4B21-955B-D023D8E3DD36
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_PANOSE_XASCENT, DWRITE_PANOSE_XASCENT enumeration [Direct Write], DWRITE_PANOSE_XASCENT_ANY, DWRITE_PANOSE_XASCENT_HIGH, DWRITE_PANOSE_XASCENT_LOW, DWRITE_PANOSE_XASCENT_MEDIUM, DWRITE_PANOSE_XASCENT_NO_FIT, DWRITE_PANOSE_XASCENT_VERY_HIGH, DWRITE_PANOSE_XASCENT_VERY_LOW, directwrite.dwrite_panose_xascent, dwrite_1/DWRITE_PANOSE_XASCENT, dwrite_1/DWRITE_PANOSE_XASCENT_ANY, dwrite_1/DWRITE_PANOSE_XASCENT_HIGH, dwrite_1/DWRITE_PANOSE_XASCENT_LOW, dwrite_1/DWRITE_PANOSE_XASCENT_MEDIUM, dwrite_1/DWRITE_PANOSE_XASCENT_NO_FIT, dwrite_1/DWRITE_PANOSE_XASCENT_VERY_HIGH, dwrite_1/DWRITE_PANOSE_XASCENT_VERY_LOW
 ms.topic: enum
-f1_keywords: 
- - "dwrite_1/DWRITE_PANOSE_XASCENT"
+f1_keywords:
+- dwrite_1/DWRITE_PANOSE_XASCENT
 dev_langs:
- - c++
+- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dwrite_1.h
+- Dwrite_1.h
 api_name:
- - DWRITE_PANOSE_XASCENT
+- DWRITE_PANOSE_XASCENT
 targetos: Windows
 req.typenames: 
 req.redist: 

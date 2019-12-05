@@ -1,19 +1,17 @@
 ---
 UID: NS:comsvcs.__MIDL___MIDL_itf_autosvcs_0000_0013_0001
 title: COMSVCSEVENTINFO (comsvcs.h)
-
 description: Represents contextual information about an event, such as the time it was generated and which process server and COM+ application generated it.
 old-location: cos\comsvcseventinfo.htm
 tech.root: cossdk
 ms.assetid: f4aa0892-4c93-42ea-adc6-1b304b917389
-
 ms.date: 12/05/2018
 ms.keywords: COMSVCSEVENTINFO, COMSVCSEVENTINFO structure [COM+], _dtc_Event_Structure, comsvcs/COMSVCSEVENTINFO, cos.comsvcseventinfo
 ms.topic: struct
-f1_keywords: 
- - "comsvcs/COMSVCSEVENTINFO"
+f1_keywords:
+- comsvcs/COMSVCSEVENTINFO
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - COMSVCSEVENTINFO
+- COMSVCSEVENTINFO
 targetos: Windows
 req.typenames: COMSVCSEVENTINFO
 req.redist: 

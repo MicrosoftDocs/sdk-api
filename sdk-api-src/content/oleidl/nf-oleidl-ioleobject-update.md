@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleObject.Update
 title: IOleObject::Update (oleidl.h)
-
 description: Updates an object handler's or link object's data or view caches.
 old-location: com\ioleobject_update.htm
 tech.root: com
 ms.assetid: 1743f99b-4c3b-47be-b77b-1d3378a44903
-
 ms.date: 12/05/2018
 ms.keywords: IOleObject interface [COM],Update method, IOleObject.Update, IOleObject::Update, Update, Update method [COM], Update method [COM],IOleObject interface, _ole_ioleobject_update, com.ioleobject_update, oleidl/IOleObject::Update
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleObject.Update"
+f1_keywords:
+- oleidl/IOleObject.Update
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleObject.Update
+- IOleObject.Update
 targetos: Windows
 req.typenames: 
 req.redist: 

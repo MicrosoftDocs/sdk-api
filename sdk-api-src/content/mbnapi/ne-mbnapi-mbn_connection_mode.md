@@ -1,19 +1,17 @@
 ---
 UID: NE:mbnapi.MBN_CONNECTION_MODE
 title: MBN_CONNECTION_MODE (mbnapi.h)
-
 description: The MBN_CONNECTION_MODE enumerated type specifies the mode of connection requested.
 old-location: mbn\mbn_connection_mode.htm
 tech.root: mbn
 ms.assetid: c7aed29b-7938-4266-ae4c-b8ba84eb8a63
-
 ms.date: 12/05/2018
 ms.keywords: MBN_CONNECTION_MODE, MBN_CONNECTION_MODE enumeration [Microsoft Broadband Networks], MBN_CONNECTION_MODE_PROFILE, MBN_CONNECTION_MODE_TMP_PROFILE, mbn.mbn_connection_mode, mbnapi/MBN_CONNECTION_MODE, mbnapi/MBN_CONNECTION_MODE_PROFILE, mbnapi/MBN_CONNECTION_MODE_TMP_PROFILE
 ms.topic: enum
-f1_keywords: 
- - "mbnapi/MBN_CONNECTION_MODE"
+f1_keywords:
+- mbnapi/MBN_CONNECTION_MODE
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - MBN_CONNECTION_MODE
+- MBN_CONNECTION_MODE
 targetos: Windows
 req.typenames: MBN_CONNECTION_MODE
 req.redist: 

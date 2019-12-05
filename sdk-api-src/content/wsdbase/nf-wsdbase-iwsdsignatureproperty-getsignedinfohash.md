@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdbase.IWSDSignatureProperty.GetSignedInfoHash
 title: IWSDSignatureProperty::GetSignedInfoHash (wsdbase.h)
-
 description: Gets the hash of a message signature.
 old-location: ncd\iwsdsignatureproperty_getsignedinfohash.htm
 tech.root: WsdApi
 ms.assetid: 95e34e7a-18d1-4402-bfd2-5f73d663c181
-
 ms.date: 12/05/2018
 ms.keywords: GetSignedInfoHash, GetSignedInfoHash method, GetSignedInfoHash method,IWSDSignatureProperty interface, IWSDSignatureProperty interface,GetSignedInfoHash method, IWSDSignatureProperty.GetSignedInfoHash, IWSDSignatureProperty::GetSignedInfoHash, ncd.iwsdsignatureproperty_getsignedinfohash, wsdbase/IWSDSignatureProperty::GetSignedInfoHash
 ms.topic: method
-f1_keywords: 
- - "wsdbase/IWSDSignatureProperty.GetSignedInfoHash"
+f1_keywords:
+- wsdbase/IWSDSignatureProperty.GetSignedInfoHash
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wsdapi.dll
+- wsdapi.dll
 api_name:
- - IWSDSignatureProperty.GetSignedInfoHash
+- IWSDSignatureProperty.GetSignedInfoHash
 targetos: Windows
 req.typenames: 
 req.redist: 

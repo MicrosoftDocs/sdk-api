@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateServiceManager.UnregisterServiceWithAU
 title: IUpdateServiceManager::UnregisterServiceWithAU (wuapi.h)
-
 description: Unregisters a service with Automatic Updates.
 old-location: wua\iupdateservicemanager_unregisterservicewithau.htm
 tech.root: Wua_Sdk
 ms.assetid: d537594c-ccf3-463b-9860-612c5ea351cb
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceManager interface [Windows Update Agent],UnregisterServiceWithAU method, IUpdateServiceManager.UnregisterServiceWithAU, IUpdateServiceManager::UnregisterServiceWithAU, UnregisterServiceWithAU, UnregisterServiceWithAU method [Windows Update Agent], UnregisterServiceWithAU method [Windows Update Agent],IUpdateServiceManager interface, wua.iupdateservicemanager_unregisterservicewithau, wuapi/IUpdateServiceManager::UnregisterServiceWithAU
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateServiceManager.UnregisterServiceWithAU"
+f1_keywords:
+- wuapi/IUpdateServiceManager.UnregisterServiceWithAU
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateServiceManager.UnregisterServiceWithAU
+- IUpdateServiceManager.UnregisterServiceWithAU
 targetos: Windows
 req.typenames: 
 req.redist: 

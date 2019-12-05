@@ -1,19 +1,17 @@
 ---
 UID: NN:wmpservices.IWMPGraphCreation
 title: IWMPGraphCreation (wmpservices.h)
-
 description: The IWMPGraphCreation interface provides methods that Windows Media Player calls to enable you to manage the DirectShow filter graph.
 old-location: wmp\iwmpgraphcreation.htm
 tech.root: WMP
 ms.assetid: 80d6f1f0-10c9-4e60-9bb7-556e340730a8
-
 ms.date: 12/05/2018
 ms.keywords: IWMPGraphCreation, IWMPGraphCreation interface [Windows Media Player], IWMPGraphCreation interface [Windows Media Player],described, IWMPGraphCreationInterface, wmp.iwmpgraphcreation, wmpservices/IWMPGraphCreation
 ms.topic: interface
-f1_keywords: 
- - "wmpservices/IWMPGraphCreation"
+f1_keywords:
+- wmpservices/IWMPGraphCreation
 dev_langs:
- - c++
+- c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmpservices.h
+- wmpservices.h
 api_name:
- - IWMPGraphCreation
+- IWMPGraphCreation
 targetos: Windows
 req.typenames: 
 req.redist: 

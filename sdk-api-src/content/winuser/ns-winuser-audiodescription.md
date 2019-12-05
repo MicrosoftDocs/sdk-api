@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagAUDIODESCRIPTION
 title: AUDIODESCRIPTION (winuser.h)
-
 description: Contains information associated with audio descriptions. This structure is used with the SystemParametersInfo function when the SPI_GETAUDIODESCRIPTION or SPI_SETAUDIODESCRIPTION action value is specified.
 old-location: winmsg\audiodescription.htm
 tech.root: winmsg
 ms.assetid: 20eb48da-cd2b-4af8-b3a7-5ee3f39b1387
-
 ms.date: 12/05/2018
-ms.keywords: "*LPAUDIODESCRIPTION, AUDIODESCRIPTION, AUDIODESCRIPTION structure [Windows and Messages], LPAUDIODESCRIPTION, LPAUDIODESCRIPTION structure pointer [Windows and Messages], audiodescription_cpp, base.audiodescription, tagAUDIODESCRIPTION, winmsg.audiodescription, winui.audiodescription, winuser/AUDIODESCRIPTION, winuser/LPAUDIODESCRIPTION"
+ms.keywords: '*LPAUDIODESCRIPTION, AUDIODESCRIPTION, AUDIODESCRIPTION structure [Windows and Messages], LPAUDIODESCRIPTION, LPAUDIODESCRIPTION structure pointer [Windows and Messages], audiodescription_cpp, base.audiodescription, tagAUDIODESCRIPTION, winmsg.audiodescription, winui.audiodescription, winuser/AUDIODESCRIPTION, winuser/LPAUDIODESCRIPTION'
 ms.topic: struct
-f1_keywords: 
- - "winuser/AUDIODESCRIPTION"
+f1_keywords:
+- winuser/AUDIODESCRIPTION
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - AUDIODESCRIPTION
+- AUDIODESCRIPTION
 targetos: Windows
 req.typenames: AUDIODESCRIPTION, *LPAUDIODESCRIPTION
 req.redist: 

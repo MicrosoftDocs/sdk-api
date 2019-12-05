@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IX509ExtensionMSApplicationPolicies
 title: IX509ExtensionMSApplicationPolicies (certenroll.h)
-
 description: Enables you to specify a collection of object identifiers (OIDs) that indicate how a certificate can be used by an application.
 old-location: security\ix509extensionmsapplicationpolicies.htm
 tech.root: seccertenroll
 ms.assetid: 35b6449e-5a82-4f47-bdda-5356f44bb1fd
-
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionMSApplicationPolicies, IX509ExtensionMSApplicationPolicies interface [Security], IX509ExtensionMSApplicationPolicies interface [Security],described, certenroll/IX509ExtensionMSApplicationPolicies, security.ix509extensionmsapplicationpolicies
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IX509ExtensionMSApplicationPolicies"
+f1_keywords:
+- certenroll/IX509ExtensionMSApplicationPolicies
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509ExtensionMSApplicationPolicies
+- IX509ExtensionMSApplicationPolicies
 targetos: Windows
 req.typenames: 
 req.redist: 

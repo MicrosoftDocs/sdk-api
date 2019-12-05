@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFTEnum2
 title: MFTEnum2 function (mfapi.h)
-
 description: Gets a list of Microsoft Media Foundation transforms (MFTs) that match specified search criteria.
 old-location: mf\mftenum2.htm
 tech.root: medfound
 ms.assetid: 1BF74B1F-46D9-46E8-A9DC-5A9666C3CAFB
-
 ms.date: 12/05/2018
 ms.keywords: MFTEnum2, MFTEnum2 function [Media Foundation], mf.mftenum2, mfapi/MFTEnum2
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFTEnum2"
+f1_keywords:
+- mfapi/MFTEnum2
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFTEnum2
+- MFTEnum2
 targetos: Windows
 req.typenames: 
 req.redist: 

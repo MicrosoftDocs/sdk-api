@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi.CLUSPROP_SECURITY_DESCRIPTOR
 title: CLUSPROP_SECURITY_DESCRIPTOR (clusapi.h)
-
 description: Describes a security descriptor.
 old-location: mscs\clusprop_security_descriptor.htm
 tech.root: MsCS
 ms.assetid: b19358cf-1cf9-4d91-85df-ed7fa804a7f2
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUSPROP_SECURITY_DESCRIPTOR, CLUSPROP_SECURITY_DESCRIPTOR, CLUSPROP_SECURITY_DESCRIPTOR structure [Failover Cluster], PCLUSPROP_SECURITY_DESCRIPTOR, PCLUSPROP_SECURITY_DESCRIPTOR structure pointer [Failover Cluster], _wolf_clusprop_security_descriptor, clusapi/CLUSPROP_SECURITY_DESCRIPTOR, clusapi/PCLUSPROP_SECURITY_DESCRIPTOR, mscs.clusprop_security_descriptor"
+ms.keywords: '*PCLUSPROP_SECURITY_DESCRIPTOR, CLUSPROP_SECURITY_DESCRIPTOR, CLUSPROP_SECURITY_DESCRIPTOR structure [Failover Cluster], PCLUSPROP_SECURITY_DESCRIPTOR, PCLUSPROP_SECURITY_DESCRIPTOR structure pointer [Failover Cluster], _wolf_clusprop_security_descriptor, clusapi/CLUSPROP_SECURITY_DESCRIPTOR, clusapi/PCLUSPROP_SECURITY_DESCRIPTOR, mscs.clusprop_security_descriptor'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/CLUSPROP_SECURITY_DESCRIPTOR"
+f1_keywords:
+- clusapi/CLUSPROP_SECURITY_DESCRIPTOR
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUSPROP_SECURITY_DESCRIPTOR
+- CLUSPROP_SECURITY_DESCRIPTOR
 targetos: Windows
 req.typenames: CLUSPROP_SECURITY_DESCRIPTOR, *PCLUSPROP_SECURITY_DESCRIPTOR
 req.redist: 

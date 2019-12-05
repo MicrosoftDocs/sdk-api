@@ -1,19 +1,17 @@
 ---
 UID: NF:heapapi.GetProcessHeaps
 title: GetProcessHeaps function (heapapi.h)
-
 description: Returns the number of active heaps and retrieves handles to all of the active heaps for the calling process.
 old-location: base\getprocessheaps.htm
 tech.root: Memory
 ms.assetid: 6287c74d-5987-44ec-8b6f-2d5a08338877
-
 ms.date: 12/05/2018
 ms.keywords: GetProcessHeaps, GetProcessHeaps function, _win32_getprocessheaps, base.getprocessheaps, heapapi/GetProcessHeaps, winbase/GetProcessHeaps
 ms.topic: function
-f1_keywords: 
- - "heapapi/GetProcessHeaps"
+f1_keywords:
+- heapapi/GetProcessHeaps
 dev_langs:
- - c++
+- c++
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-heap-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-heap-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-heap-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-heap-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - GetProcessHeaps
+- GetProcessHeaps
 targetos: Windows
 req.typenames: 
 req.redist: 

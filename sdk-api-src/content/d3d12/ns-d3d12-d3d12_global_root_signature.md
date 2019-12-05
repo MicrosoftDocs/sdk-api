@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_GLOBAL_ROOT_SIGNATURE
 title: D3D12_GLOBAL_ROOT_SIGNATURE (d3d12.h)
-
 description: Defines a global root signature state suboject that will be used with associated shaders.
 old-location: direct3d12\d3d12_global_root_signature.htm
 tech.root: direct3d12
 ms.assetid: 971433E7-9221-4988-BAD9-2DD1D14A5039
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_GLOBAL_ROOT_SIGNATURE, D3D12_GLOBAL_ROOT_SIGNATURE structure, PD3D12_GLOBAL_ROOT_SIGNATURE, PD3D12_GLOBAL_ROOT_SIGNATURE structure pointer, d3d12/D3D12_GLOBAL_ROOT_SIGNATURE, d3d12/PD3D12_GLOBAL_ROOT_SIGNATURE, direct3d12.d3d12_global_root_signature
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_GLOBAL_ROOT_SIGNATURE"
+f1_keywords:
+- d3d12/D3D12_GLOBAL_ROOT_SIGNATURE
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_GLOBAL_ROOT_SIGNATURE
+- D3D12_GLOBAL_ROOT_SIGNATURE
 targetos: Windows
 req.typenames: D3D12_GLOBAL_ROOT_SIGNATURE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:ocidl.tagQACONTAINERFLAGS
 title: QACONTAINERFLAGS (ocidl.h)
-
 description: Indicates ambient properties supplied by the container. It is used in the dwAmbientFlags member of the QACONTAINER structure.
 old-location: com\qacontainerflags.htm
 tech.root: com
 ms.assetid: bcca4762-7c4b-4062-8d41-6b2027045886
-
 ms.date: 12/05/2018
 ms.keywords: QACONTAINERFLAGS, QACONTAINERFLAGS enumeration [COM], QACONTAINER_AUTOCLIP, QACONTAINER_DISPLAYASDEFAULT, QACONTAINER_MESSAGEREFLECT, QACONTAINER_SHOWGRABHANDLES, QACONTAINER_SHOWHATCHING, QACONTAINER_SUPPORTSMNEMONICS, QACONTAINER_UIDEAD, QACONTAINER_USERMODE, _ctrl_QACONTAINERFLAGS, com.qacontainerflags, ocidl/QACONTAINERFLAGS, ocidl/QACONTAINER_AUTOCLIP, ocidl/QACONTAINER_DISPLAYASDEFAULT, ocidl/QACONTAINER_MESSAGEREFLECT, ocidl/QACONTAINER_SHOWGRABHANDLES, ocidl/QACONTAINER_SHOWHATCHING, ocidl/QACONTAINER_SUPPORTSMNEMONICS, ocidl/QACONTAINER_UIDEAD, ocidl/QACONTAINER_USERMODE
 ms.topic: enum
-f1_keywords: 
- - "ocidl/QACONTAINERFLAGS"
+f1_keywords:
+- ocidl/QACONTAINERFLAGS
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - QACONTAINERFLAGS
+- QACONTAINERFLAGS
 targetos: Windows
 req.typenames: QACONTAINERFLAGS
 req.redist: 

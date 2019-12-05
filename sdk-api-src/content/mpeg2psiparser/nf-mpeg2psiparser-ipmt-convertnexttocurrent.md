@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.ConvertNextToCurrent
 title: IPMT::ConvertNextToCurrent (mpeg2psiparser.h)
-
 description: The ConvertNextToCurrent method converts a next table to a current table.
 old-location: mstv\ipmt_convertnexttocurrent.htm
 tech.root: mstv
 ms.assetid: cc3eb6f3-c539-42c4-847a-5d1e80c53255
-
 ms.date: 12/05/2018
 ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],ConvertNextToCurrent method, IPMT.ConvertNextToCurrent, IPMT::ConvertNextToCurrent, IPMTConvertNextToCurrent, mpeg2psiparser/IPMT::ConvertNextToCurrent, mstv.ipmt_convertnexttocurrent
 ms.topic: method
-f1_keywords: 
- - "mpeg2psiparser/IPMT.ConvertNextToCurrent"
+f1_keywords:
+- mpeg2psiparser/IPMT.ConvertNextToCurrent
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2PsiParser.h
+- Mpeg2PsiParser.h
 api_name:
- - IPMT.ConvertNextToCurrent
+- IPMT.ConvertNextToCurrent
 targetos: Windows
 req.typenames: 
 req.redist: 

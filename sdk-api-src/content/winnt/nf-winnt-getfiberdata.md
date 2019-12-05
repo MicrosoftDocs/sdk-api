@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.GetFiberData
 title: GetFiberData function (winnt.h)
-
 description: Retrieves the fiber data associated with the current fiber.
 old-location: base\getfiberdata.htm
 tech.root: ProcThread
 ms.assetid: 72e616ce-4188-4944-b627-9681e5fd271e
-
 ms.date: 12/05/2018
 ms.keywords: GetFiberData, GetFiberData function, _win32_getfiberdata, base.getfiberdata, winnt/GetFiberData
 ms.topic: function
-f1_keywords: 
- - "winnt/GetFiberData"
+f1_keywords:
+- winnt/GetFiberData
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - GetFiberData
+- GetFiberData
 targetos: Windows
 req.typenames: 
 req.redist: 

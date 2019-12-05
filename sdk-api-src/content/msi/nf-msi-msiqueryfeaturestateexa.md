@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiQueryFeatureStateExA
 title: MsiQueryFeatureStateExA function (msi.h)
-
 description: The MsiQueryFeatureStateEx function returns the installed state for a product feature.
 old-location: setup\msiqueryfeaturestateex.htm
 tech.root: Msi
 ms.assetid: 60165f0d-01d9-4ce8-a369-092d0c670b87
-
 ms.date: 12/05/2018
 ms.keywords: INSTALLSTATE_ADVERTISED, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiQueryFeatureStateEx, MsiQueryFeatureStateEx function, MsiQueryFeatureStateExA, MsiQueryFeatureStateExW, NULL, User SID, msi/MsiQueryFeatureStateEx, msi/MsiQueryFeatureStateExA, msi/MsiQueryFeatureStateExW, setup.msiqueryfeaturestateex
 ms.topic: function
-f1_keywords: 
- - "msi/MsiQueryFeatureStateEx"
+f1_keywords:
+- msi/MsiQueryFeatureStateEx
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
- - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+- Msi.dll
+- Ext-MS-Win-MSi-Misc-L1-1-0.dll
 api_name:
- - MsiQueryFeatureStateEx
- - MsiQueryFeatureStateExA
- - MsiQueryFeatureStateExW
+- MsiQueryFeatureStateEx
+- MsiQueryFeatureStateExA
+- MsiQueryFeatureStateExW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:oaidl.tagSAFEARRAYBOUND
 title: SAFEARRAYBOUND (oaidl.h)
-
 description: Represents the bounds of one dimension of the array.
 old-location: automat\safearraybound.htm
 tech.root: automat
 ms.assetid: 303a9bdb-71d6-4f14-8747-84cf84936c6d
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSAFEARRAYBOUND, LPSAFEARRAYBOUND, LPSAFEARRAYBOUND structure pointer [Automation], SAFEARRAYBOUND, SAFEARRAYBOUND structure [Automation], _oa96_SAFEARRAYBOUND, automat.safearraybound, oaidl/LPSAFEARRAYBOUND, oaidl/SAFEARRAYBOUND"
+ms.keywords: '*LPSAFEARRAYBOUND, LPSAFEARRAYBOUND, LPSAFEARRAYBOUND structure pointer [Automation], SAFEARRAYBOUND, SAFEARRAYBOUND structure [Automation], _oa96_SAFEARRAYBOUND, automat.safearraybound, oaidl/LPSAFEARRAYBOUND, oaidl/SAFEARRAYBOUND'
 ms.topic: struct
-f1_keywords: 
- - "oaidl/SAFEARRAYBOUND"
+f1_keywords:
+- oaidl/SAFEARRAYBOUND
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OaIdl.h
+- OaIdl.h
 api_name:
- - SAFEARRAYBOUND
+- SAFEARRAYBOUND
 targetos: Windows
 req.typenames: SAFEARRAYBOUND, *LPSAFEARRAYBOUND
 req.redist: 

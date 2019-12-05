@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMPlaneIsInfinite
 title: XMPlaneIsInfinite function (directxmath.h)
-
 description: Tests whether any of the coefficients of a plane is positive or negative infinity.
 old-location: dxmath\xmplaneisinfinite.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneIsInfinite(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneIsInfinite, XMPlaneIsInfinite, XMPlaneIsInfinite method [DirectX Math Support APIs], dxmath.xmplaneisinfinite
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMPlaneIsInfinite"
+f1_keywords:
+- directxmath/XMPlaneIsInfinite
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMPlaneIsInfinite
+- XMPlaneIsInfinite
 targetos: Windows
 req.typenames: 
 req.redist: 

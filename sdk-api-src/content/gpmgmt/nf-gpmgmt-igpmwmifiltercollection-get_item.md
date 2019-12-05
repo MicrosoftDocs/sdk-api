@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMWMIFilterCollection.get_Item
 title: IGPMWMIFilterCollection::get_Item (gpmgmt.h)
-
 description: Given an index, returns a WMI filter from the collection.
 old-location: gpmc\igpmwmifiltercollection_get_item.htm
 tech.root: gpmc
 ms.assetid: 9026fae6-020f-40be-8b9d-44cbade89fd0
-
 ms.date: 12/05/2018
 ms.keywords: GPMWMIFilterCollection class [GPMC],Item property, IGPMWMIFilterCollection interface [GPMC],Item property, IGPMWMIFilterCollection.Item, IGPMWMIFilterCollection.get_Item, IGPMWMIFilterCollection::Item, IGPMWMIFilterCollection::get_Item, Item property [GPMC], Item property [GPMC],GPMWMIFilterCollection class, Item property [GPMC],IGPMWMIFilterCollection interface, _win32_igpmwmifiltercollection_get_item, get_Item, gpmc.igpmwmifiltercollection_get_item, gpmgmt/IGPMWMIFilterCollection::Item, gpmgmt/IGPMWMIFilterCollection::get_Item
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMWMIFilterCollection.Item"
+f1_keywords:
+- gpmgmt/IGPMWMIFilterCollection.Item
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMWMIFilterCollection.Item
- - IGPMWMIFilterCollection.get_Item
- - GPMWMIFilterCollection.Item
+- IGPMWMIFilterCollection.Item
+- IGPMWMIFilterCollection.get_Item
+- GPMWMIFilterCollection.Item
 targetos: Windows
 req.typenames: 
 req.redist: 

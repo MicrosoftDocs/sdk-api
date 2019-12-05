@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1effects_2.D2D1_HIGHLIGHTSANDSHADOWS_PROP
 title: D2D1_HIGHLIGHTSANDSHADOWS_PROP (d2d1effects_2.h)
-
 description: Identifiers for properties of the Highlights and Shadows effect.
 old-location: direct2d\d2d1_highlightsandshadows_prop.htm
 tech.root: Direct2D
 ms.assetid: 2E4BACCB-EF29-44FB-8427-C10211BC4899
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_HIGHLIGHTSANDSHADOWS_PROP, D2D1_HIGHLIGHTSANDSHADOWS_PROP enumeration [Direct2D], D2D1_HIGHLIGHTSANDSHADOWS_PROP_CLARITY, D2D1_HIGHLIGHTSANDSHADOWS_PROP_HIGHLIGHTS, D2D1_HIGHLIGHTSANDSHADOWS_PROP_INPUT_GAMMA, D2D1_HIGHLIGHTSANDSHADOWS_PROP_MASK_BLUR_RADIUS, D2D1_HIGHLIGHTSANDSHADOWS_PROP_SHADOWS, d2d1effects_2/D2D1_HIGHLIGHTSANDSHADOWS_PROP, d2d1effects_2/D2D1_HIGHLIGHTSANDSHADOWS_PROP_CLARITY, d2d1effects_2/D2D1_HIGHLIGHTSANDSHADOWS_PROP_HIGHLIGHTS, d2d1effects_2/D2D1_HIGHLIGHTSANDSHADOWS_PROP_INPUT_GAMMA, d2d1effects_2/D2D1_HIGHLIGHTSANDSHADOWS_PROP_MASK_BLUR_RADIUS, d2d1effects_2/D2D1_HIGHLIGHTSANDSHADOWS_PROP_SHADOWS, direct2d.d2d1_highlightsandshadows_prop
 ms.topic: enum
-f1_keywords: 
- - "d2d1effects_2/D2D1_HIGHLIGHTSANDSHADOWS_PROP"
+f1_keywords:
+- d2d1effects_2/D2D1_HIGHLIGHTSANDSHADOWS_PROP
 dev_langs:
- - c++
+- c++
 req.header: d2d1effects_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1effects_2.h
+- d2d1effects_2.h
 api_name:
- - D2D1_HIGHLIGHTSANDSHADOWS_PROP
+- D2D1_HIGHLIGHTSANDSHADOWS_PROP
 targetos: Windows
 req.typenames: D2D1_HIGHLIGHTSANDSHADOWS_PROP
 req.redist: 

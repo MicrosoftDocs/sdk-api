@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskHandler.Start
 title: ITaskHandler::Start (taskschd.h)
-
 description: Called to start the COM handler.
 old-location: taskschd\itaskhandler_start.htm
 tech.root: taskschd
 ms.assetid: e0a51387-e638-40ee-a4e4-edd7f3115975
-
 ms.date: 12/05/2018
 ms.keywords: ITaskHandler interface [Task Scheduler],Start method, ITaskHandler.Start, ITaskHandler::Start, Start, Start method [Task Scheduler], Start method [Task Scheduler],ITaskHandler interface, taskschd.itaskhandler_start, taskschd/ITaskHandler::Start
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskHandler.Start"
+f1_keywords:
+- taskschd/ITaskHandler.Start
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskHandler.Start
+- ITaskHandler.Start
 targetos: Windows
 req.typenames: 
 req.redist: 

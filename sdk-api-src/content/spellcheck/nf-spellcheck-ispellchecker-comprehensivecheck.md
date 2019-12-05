@@ -1,19 +1,17 @@
 ---
 UID: NF:spellcheck.ISpellChecker.ComprehensiveCheck
 title: ISpellChecker::ComprehensiveCheck (spellcheck.h)
-
 description: Checks the spelling of the supplied text in a more thorough manner than ISpellChecker::Check, and returns a collection of spelling errors.
 old-location: intl\ispellchecker_comprehensivecheck.htm
 tech.root: Intl
 ms.assetid: E364F423-AF17-4F91-993B-CEA0E50CAF67
-
 ms.date: 12/05/2018
 ms.keywords: ComprehensiveCheck, ComprehensiveCheck method [Internationalization for Windows Applications], ComprehensiveCheck method [Internationalization for Windows Applications],ISpellChecker interface, ISpellChecker interface [Internationalization for Windows Applications],ComprehensiveCheck method, ISpellChecker.ComprehensiveCheck, ISpellChecker::ComprehensiveCheck, intl.ispellchecker_comprehensivecheck, spellcheck/ISpellChecker::ComprehensiveCheck
 ms.topic: method
-f1_keywords: 
- - "spellcheck/ISpellChecker.ComprehensiveCheck"
+f1_keywords:
+- spellcheck/ISpellChecker.ComprehensiveCheck
 dev_langs:
- - c++
+- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Spellcheck.h
+- Spellcheck.h
 api_name:
- - ISpellChecker.ComprehensiveCheck
+- ISpellChecker.ComprehensiveCheck
 targetos: Windows
 req.typenames: 
 req.redist: 

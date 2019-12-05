@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.InstallPartition
 title: ICOMAdminCatalog2::InstallPartition (comadmin.h)
-
 description: Imports a partition from a file.
 old-location: cos\icomadmincatalog2_installpartition.htm
 tech.root: cossdk
 ms.assetid: e1f54a6a-9b90-4e9e-b94c-46f6c9b683a3
-
 ms.date: 12/05/2018
 ms.keywords: COMAdminInstallForceOverwriteOfFile, COMAdminInstallNoUsers, COMAdminInstallUsers, ICOMAdminCatalog2 interface [COM+],InstallPartition method, ICOMAdminCatalog2.InstallPartition, ICOMAdminCatalog2::InstallPartition, InstallPartition, InstallPartition method [COM+], InstallPartition method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_InstallPartition, comadmin/ICOMAdminCatalog2::InstallPartition, cos.icomadmincatalog2_installpartition
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog2.InstallPartition"
+f1_keywords:
+- comadmin/ICOMAdminCatalog2.InstallPartition
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog2.InstallPartition
+- ICOMAdminCatalog2.InstallPartition
 targetos: Windows
 req.typenames: 
 req.redist: 

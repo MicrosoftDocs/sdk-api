@@ -1,19 +1,17 @@
 ---
 UID: NF:mfsharingengine.IPlayToControl.Disconnect
 title: IPlayToControl::Disconnect (mfsharingengine.h)
-
 description: Disconnects the media element from the media sharing engine.
 old-location: mf\iplaytocontrol_disconnect.htm
 tech.root: medfound
 ms.assetid: 59EA778D-25DA-4EEA-8601-F6D72486410B
-
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [Media Foundation], Disconnect method [Media Foundation],IPlayToControl interface, IPlayToControl interface [Media Foundation],Disconnect method, IPlayToControl.Disconnect, IPlayToControl::Disconnect, mf.iplaytocontrol_disconnect, mfsharingengine/IPlayToControl::Disconnect
 ms.topic: method
-f1_keywords: 
- - "mfsharingengine/IPlayToControl.Disconnect"
+f1_keywords:
+- mfsharingengine/IPlayToControl.Disconnect
 dev_langs:
- - c++
+- c++
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfsharingengine.h
+- mfsharingengine.h
 api_name:
- - IPlayToControl.Disconnect
+- IPlayToControl.Disconnect
 targetos: Windows
 req.typenames: 
 req.redist: 

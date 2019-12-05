@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbComponentDescriptor.GetComponentTag
 title: IDvbComponentDescriptor::GetComponentTag (dvbsiparser.h)
-
 description: Gets the component tag from a DVB component descriptor. The component tag has the same value as the component_tag field in the stream identifier descriptor in the Program Specific Information (PSI) program map section for the component stream.
 old-location: mstv\idvbcomponentdescriptor_getcomponenttag.htm
 tech.root: mstv
 ms.assetid: 1ecfb7db-2fb6-4389-8f62-3d912ffc301b
-
 ms.date: 12/05/2018
 ms.keywords: GetComponentTag, GetComponentTag method [Microsoft TV Technologies], GetComponentTag method [Microsoft TV Technologies],IDvbComponentDescriptor interface, IDvbComponentDescriptor interface [Microsoft TV Technologies],GetComponentTag method, IDvbComponentDescriptor.GetComponentTag, IDvbComponentDescriptor::GetComponentTag, dvbsiparser/IDvbComponentDescriptor::GetComponentTag, mstv.idvbcomponentdescriptor_getcomponenttag
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbComponentDescriptor.GetComponentTag"
+f1_keywords:
+- dvbsiparser/IDvbComponentDescriptor.GetComponentTag
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbComponentDescriptor.GetComponentTag
+- IDvbComponentDescriptor.GetComponentTag
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationPrimaryContent.GetCenterPoint
 title: IDirectManipulationPrimaryContent::GetCenterPoint (directmanipulation.h)
-
 description: Retrieves the center point of the manipulation in content coordinates.
 old-location: directmanipulation\idirectmanipulationprimarycontent_getcenterpoint.htm
 tech.root: directmanipulation
 ms.assetid: e38c1445-af4b-463b-8796-d72d69cb19c6
-
 ms.date: 12/05/2018
 ms.keywords: GetCenterPoint, GetCenterPoint method [Direct Manipulation], GetCenterPoint method [Direct Manipulation],IDirectManipulationPrimaryContent interface, IDirectManipulationPrimaryContent interface [Direct Manipulation],GetCenterPoint method, IDirectManipulationPrimaryContent.GetCenterPoint, IDirectManipulationPrimaryContent::GetCenterPoint, directmanipulation.idirectmanipulationprimarycontent_getcenterpoint, directmanipulation/IDirectManipulationPrimaryContent::GetCenterPoint
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationPrimaryContent.GetCenterPoint"
+f1_keywords:
+- directmanipulation/IDirectManipulationPrimaryContent.GetCenterPoint
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationPrimaryContent.GetCenterPoint
+- IDirectManipulationPrimaryContent.GetCenterPoint
 targetos: Windows
 req.typenames: 
 req.redist: 

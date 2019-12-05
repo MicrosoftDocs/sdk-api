@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.StrCmpCA
 title: StrCmpCA function (shlwapi.h)
-
 description: Compares strings using C run-time (ASCII) collation rules. The comparison is case-sensitive.
 old-location: shell\StrCmpC.htm
 tech.root: shell
 ms.assetid: f4c4bc76-1e42-4cb0-bf74-d395743c9b1c
-
 ms.date: 12/05/2018
 ms.keywords: StrCmpC, StrCmpC function [Windows Shell], StrCmpCA, StrCmpCW, _shell_StrCmpC, shell.StrCmpC, shlwapi/StrCmpC, shlwapi/StrCmpCA, shlwapi/StrCmpCW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/StrCmpC"
+f1_keywords:
+- shlwapi/StrCmpC
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - StrCmpC
- - StrCmpCA
- - StrCmpCW
+- StrCmpC
+- StrCmpCA
+- StrCmpCW
 targetos: Windows
 req.typenames: 
 req.redist: 

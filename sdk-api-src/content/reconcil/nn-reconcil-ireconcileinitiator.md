@@ -1,19 +1,17 @@
 ---
 UID: NN:reconcil.IReconcileInitiator
 title: IReconcileInitiator (reconcil.h)
-
 description: Exposes methods that provide the briefcase reconciler with the means to notify the initiator of its progress, to set a termination object, and to request a given version of a document. The initiator is responsible for implementing this interface.
 old-location: lwef\ireconcileinitiator.htm
 tech.root: lwef
 ms.assetid: 1a32d67f-1ddc-49dc-af88-b8c41a50ac54
-
 ms.date: 12/05/2018
 ms.keywords: IReconcileInitiator, IReconcileInitiator interface [Legacy Windows Environment Features], IReconcileInitiator interface [Legacy Windows Environment Features],described, _win32_IReconcileInitiator, lwef.ireconcileinitiator, reconcil/IReconcileInitiator, shell.ireconcileinitiator
 ms.topic: interface
-f1_keywords: 
- - "reconcil/IReconcileInitiator"
+f1_keywords:
+- reconcil/IReconcileInitiator
 dev_langs:
- - c++
+- c++
 req.header: reconcil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IReconcileInitiator
+- IReconcileInitiator
 targetos: Windows
 req.typenames: 
 req.redist: 

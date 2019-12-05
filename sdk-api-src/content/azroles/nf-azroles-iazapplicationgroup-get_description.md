@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.get_Description
 title: IAzApplicationGroup::get_Description (azroles.h)
-
 description: Sets or retrieves a comment that describes the application group.
 old-location: security\iazapplicationgroup_description.htm
 tech.root: SecAuthZ
 ms.assetid: b2ef8988-b4de-423f-b727-f69a789b98cf
-
 ms.date: 12/05/2018
 ms.keywords: AzApplicationGroup object [Security],Description property, Description property [Security], Description property [Security],AzApplicationGroup object, Description property [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],Description property, IAzApplicationGroup.Description, IAzApplicationGroup.get_Description, IAzApplicationGroup::Description, IAzApplicationGroup::get_Description, IAzApplicationGroup::put_Description, azroles/IAzApplicationGroup::Description, azroles/IAzApplicationGroup::get_Description, azroles/IAzApplicationGroup::put_Description, get_Description, security.iazapplicationgroup_description
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplicationGroup.Description"
+f1_keywords:
+- azroles/IAzApplicationGroup.Description
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplicationGroup.Description
- - IAzApplicationGroup.get_Description
- - IAzApplicationGroup.put_Description
- - AzApplicationGroup.Description
+- IAzApplicationGroup.Description
+- IAzApplicationGroup.get_Description
+- IAzApplicationGroup.put_Description
+- AzApplicationGroup.Description
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

@@ -1,19 +1,17 @@
 ---
 UID: NF:stringapiset.WideCharToMultiByte
 title: WideCharToMultiByte function (stringapiset.h)
-
 description: Maps a UTF-16 (wide character) string to a new character string.
 old-location: intl\widechartomultibyte.htm
 tech.root: Intl
 ms.assetid: b8c13444-86ab-479c-ac04-9b184d9eebf6
-
 ms.date: 12/05/2018
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CP_SYMBOL, CP_THREAD_ACP, CP_UTF7, CP_UTF8, WC_COMPOSITECHECK, WC_ERR_INVALID_CHARS, WC_NO_BEST_FIT_CHARS, WideCharToMultiByte, WideCharToMultiByte function [Internationalization for Windows Applications], _win32_WideCharToMultiByte, intl.widechartomultibyte, stringapiset/WideCharToMultiByte
 ms.topic: function
-f1_keywords: 
- - "stringapiset/WideCharToMultiByte"
+f1_keywords:
+- stringapiset/WideCharToMultiByte
 dev_langs:
- - c++
+- c++
 req.header: stringapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-String-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-String-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - WideCharToMultiByte
+- WideCharToMultiByte
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.FreeClusterCrypt
 title: FreeClusterCrypt function (resapi.h)
-
 description: TBD.
 old-location: mscs\freeclustercrypt.htm
 tech.root: MsCS
 ms.assetid: 33EE9915-2204-4431-8B72-014D47AB4651
-
 ms.date: 12/05/2018
 ms.keywords: FreeClusterCrypt, FreeClusterCrypt function [Failover Cluster], PFREE_CLUSTER_CRYPT, PFREE_CLUSTER_CRYPT function [Failover Cluster], mscs.freeclustercrypt, resapi/FreeClusterCrypt, resapi/PFREE_CLUSTER_CRYPT
 ms.topic: function
-f1_keywords: 
- - "resapi/FreeClusterCrypt"
+f1_keywords:
+- resapi/FreeClusterCrypt
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,13 +30,13 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - kbSyntax
+- kbSyntax
 api_type:
- - <TBD>
+- <TBD>
 api_location:
- -
+- 
 api_name:
- - FreeClusterCrypt
+- FreeClusterCrypt
 targetos: Windows
 req.typenames: 
 req.redist: 

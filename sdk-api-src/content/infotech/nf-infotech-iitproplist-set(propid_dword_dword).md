@@ -1,19 +1,17 @@
 ---
 UID: NF:infotech.IITPropList.Set(PROPID,DWORD,DWORD)
 title: IITPropList::Set(PROPID,DWORD,DWORD) (infotech.h)
-
 description: Sets a property to a given value or deletes a property from the list.
 old-location: htmlhelp\iitproplist_set1.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistset.htm
-
 ms.date: 12/05/2018
 ms.keywords: IITPropList interface [HTML Help Workshop],Set method, IITPropList.Set, IITPropList.Set(PROPID,DWORD,DWORD), IITPropList::Set, IITPropList::Set(PROPID,DWORD,DWORD), PROP_ADD, PROP_DELETE, PROP_UPDATE, Set, Set method [HTML Help Workshop], Set method [HTML Help Workshop],IITPropList interface, htmlhelp.iitproplist_set1, infotech/IITPropList::Set, refIITPropListSet
 ms.topic: method
-f1_keywords: 
- - "infotech/IITPropList.Set"
+f1_keywords:
+- infotech/IITPropList.Set
 dev_langs:
- - c++
+- c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Infotech.h
+- Infotech.h
 api_name:
- - IITPropList.Set
+- IITPropList.Set
 targetos: Windows
 req.typenames: 
 req.redist: 

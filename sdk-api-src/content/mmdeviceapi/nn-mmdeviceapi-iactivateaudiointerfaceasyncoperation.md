@@ -1,19 +1,17 @@
 ---
 UID: NN:mmdeviceapi.IActivateAudioInterfaceAsyncOperation
 title: IActivateAudioInterfaceAsyncOperation (mmdeviceapi.h)
-
 description: Represents an asynchronous operation activating a WASAPI interface and provides a method to retrieve the results of the activation.
 old-location: coreaudio\iactivateaudiointerfaceasyncoperation.htm
 tech.root: CoreAudio
 ms.assetid: 43b25a67-d9a8-4749-a654-c7310039c553
-
 ms.date: 12/05/2018
 ms.keywords: IActivateAudioInterfaceAsyncOperation, IActivateAudioInterfaceAsyncOperation interface [Core Audio], IActivateAudioInterfaceAsyncOperation interface [Core Audio],described, coreaudio.iactivateaudiointerfaceasyncoperation, mmdeviceapi/IActivateAudioInterfaceAsyncOperation
 ms.topic: interface
-f1_keywords: 
- - "mmdeviceapi/IActivateAudioInterfaceAsyncOperation"
+f1_keywords:
+- mmdeviceapi/IActivateAudioInterfaceAsyncOperation
 dev_langs:
- - c++
+- c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmdevapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmdevapi.dll
+- Mmdevapi.dll
 api_name:
- - IActivateAudioInterfaceAsyncOperation
+- IActivateAudioInterfaceAsyncOperation
 targetos: Windows
 req.typenames: 
 req.redist: 

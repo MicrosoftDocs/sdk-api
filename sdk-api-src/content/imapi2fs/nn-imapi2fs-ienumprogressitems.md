@@ -1,19 +1,17 @@
 ---
 UID: NN:imapi2fs.IEnumProgressItems
 title: IEnumProgressItems (imapi2fs.h)
-
 description: Use this interface to enumerate a collection of progress items.
 old-location: imapi\ienumprogressitems.htm
 tech.root: imapi
 ms.assetid: c4238fbe-762a-492f-9eb5-d927e64436e1
-
 ms.date: 12/05/2018
 ms.keywords: IEnumProgressItems, IEnumProgressItems interface [IMAPI], IEnumProgressItems interface [IMAPI],described, imapi.ienumprogressitems, imapi2fs/IEnumProgressItems
 ms.topic: interface
-f1_keywords: 
- - "imapi2fs/IEnumProgressItems"
+f1_keywords:
+- imapi2fs/IEnumProgressItems
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IEnumProgressItems
+- IEnumProgressItems
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetClassLongPtrA
 title: GetClassLongPtrA function (winuser.h)
-
 description: Retrieves the specified value from the WNDCLASSEX structure associated with the specified window.
 old-location: winmsg\getclasslongptr.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getclasslongptr.htm
-
 ms.date: 12/05/2018
 ms.keywords: GCLP_HBRBACKGROUND, GCLP_HCURSOR, GCLP_HICON, GCLP_HICONSM, GCLP_HMODULE, GCLP_MENUNAME, GCLP_WNDPROC, GCL_CBCLSEXTRA, GCL_CBWNDEXTRA, GCL_STYLE, GCW_ATOM, GetClassLongPtr, GetClassLongPtr function [Windows and Messages], GetClassLongPtrA, GetClassLongPtrW, _win32_GetClassLongPtr, _win32_getclasslongptr_cpp, winmsg.getclasslongptr, winui._win32_getclasslongptr, winuser/GetClassLongPtr, winuser/GetClassLongPtrA, winuser/GetClassLongPtrW
 ms.topic: function
-f1_keywords: 
- - "winuser/GetClassLongPtr"
+f1_keywords:
+- winuser/GetClassLongPtr
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-WindowClass-l1-1-2.dll
+- User32.dll
+- Ext-MS-Win-NTUser-WindowClass-l1-1-2.dll
 api_name:
- - GetClassLongPtr
- - GetClassLongPtrA
- - GetClassLongPtrW
+- GetClassLongPtr
+- GetClassLongPtrA
+- GetClassLongPtrW
 targetos: Windows
 req.typenames: 
 req.redist: 

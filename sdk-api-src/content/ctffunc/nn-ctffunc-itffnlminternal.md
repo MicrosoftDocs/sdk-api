@@ -1,19 +1,17 @@
 ---
 UID: NN:ctffunc.ITfFnLMInternal
 title: ITfFnLMInternal (ctffunc.h)
-
 description: The ITfFnLMInternal interface is not used.
 old-location: tsf\itffnlminternal.htm
 tech.root: TSF
 ms.assetid: 319bccb3-0c33-4910-91c8-1c81cc309fc1
-
 ms.date: 12/05/2018
 ms.keywords: ITfFnLMInternal, ITfFnLMInternal interface [Text Services Framework], ITfFnLMInternal interface [Text Services Framework],described, _tsf_itffnlminternal_ref, ctffunc/ITfFnLMInternal, tsf.itffnlminternal
 ms.topic: interface
-f1_keywords: 
- - "ctffunc/ITfFnLMInternal"
+f1_keywords:
+- ctffunc/ITfFnLMInternal
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfFnLMInternal
+- ITfFnLMInternal
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

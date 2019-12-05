@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.NetAddr_DisplayErrorTip
 title: NetAddr_DisplayErrorTip macro (shellapi.h)
-
 description: Displays an error message in the balloon tip associated with the network address control.
 old-location: shell\NetAddr_DisplayErrorTip.htm
 tech.root: shell
 ms.assetid: 1fd623da-51a0-4b37-a25b-00278b5f4732
-
 ms.date: 12/05/2018
 ms.keywords: NetAddr_DisplayErrorTip, NetAddr_DisplayErrorTip macro [Windows Shell], _shell_NetAddr_DisplayErrorTip, shell.NetAddr_DisplayErrorTip, shellapi/NetAddr_DisplayErrorTip
 ms.topic: macro
-f1_keywords: 
- - "shellapi/NetAddr_DisplayErrorTip"
+f1_keywords:
+- shellapi/NetAddr_DisplayErrorTip
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shellapi.h
+- Shellapi.h
 api_name:
- - NetAddr_DisplayErrorTip
+- NetAddr_DisplayErrorTip
 targetos: Windows
 req.typenames: 
 req.redist: 

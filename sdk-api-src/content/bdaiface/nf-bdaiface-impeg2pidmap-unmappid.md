@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IMPEG2PIDMap.UnmapPID
 title: IMPEG2PIDMap::UnmapPID (bdaiface.h)
-
 description: The UnmapPID method unmaps one or more PIDs.
 old-location: dshow\impeg2pidmap_unmappid.htm
 tech.root: DirectShow
 ms.assetid: 1ad866c7-672e-4f96-a384-bbf78a78b8f5
-
 ms.date: 12/05/2018
 ms.keywords: IMPEG2PIDMap interface [DirectShow],UnmapPID method, IMPEG2PIDMap.UnmapPID, IMPEG2PIDMap::UnmapPID, IMPEG2PIDMapUnmapPID, UnmapPID, UnmapPID method [DirectShow], UnmapPID method [DirectShow],IMPEG2PIDMap interface, bdaiface/IMPEG2PIDMap::UnmapPID, dshow.impeg2pidmap_unmappid
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IMPEG2PIDMap.UnmapPID"
+f1_keywords:
+- bdaiface/IMPEG2PIDMap.UnmapPID
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMPEG2PIDMap.UnmapPID
+- IMPEG2PIDMap.UnmapPID
 targetos: Windows
 req.typenames: 
 req.redist: 

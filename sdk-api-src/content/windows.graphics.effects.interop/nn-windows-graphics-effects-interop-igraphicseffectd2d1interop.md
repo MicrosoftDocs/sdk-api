@@ -1,19 +1,17 @@
 ---
 UID: NN:windows.graphics.effects.interop.IGraphicsEffectD2D1Interop
 title: IGraphicsEffectD2D1Interop (windows.graphics.effects.interop.h)
-
 description: Native interoperation interface that provides a counterpart to IGraphicsEffect and allows for metadata queries. This interface is available in C++ only.
 old-location: w_graph_fx\igraphicseffectd2d1interop.htm
 tech.root: w_graph_fx
 ms.assetid: 0D576593-088B-403A-82AD-B7A89777766A
-
 ms.date: 12/05/2018
 ms.keywords: IGraphicsEffectD2D1Interop, IGraphicsEffectD2D1Interop interface, IGraphicsEffectD2D1Interop interface,described, w_graph_fx.igraphicseffectd2d1interop, windows/IGraphicsEffectD2D1Interop
 ms.topic: interface
-f1_keywords: 
- - "windows.graphics.effects.interop/IGraphicsEffectD2D1Interop"
+f1_keywords:
+- windows.graphics.effects.interop/IGraphicsEffectD2D1Interop
 dev_langs:
- - c++
+- c++
 req.header: windows.graphics.effects.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.graphics.effects.interop.h
+- windows.graphics.effects.interop.h
 api_name:
- - IGraphicsEffectD2D1Interop
+- IGraphicsEffectD2D1Interop
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:enclaveapi.LoadEnclaveData
 title: LoadEnclaveData function (enclaveapi.h)
-
 description: Loads data into an uninitialized enclave that you created by calling CreateEnclave.
 old-location: base\loadenclavedata.htm
 tech.root: Memory
 ms.assetid: CC696026-FB74-4D91-BB40-17610DF41F8F
-
 ms.date: 12/05/2018
 ms.keywords: LoadEnclaveData, LoadEnclaveData function, base.loadenclavedata, enclaveapi/LoadEnclaveData
 ms.topic: function
-f1_keywords: 
- - "enclaveapi/LoadEnclaveData"
+f1_keywords:
+- enclaveapi/LoadEnclaveData
 dev_langs:
- - c++
+- c++
 req.header: enclaveapi.h
 req.include-header: Winbase.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Api-ms-win-core-enclave-l1-1-0.dll; Kernel32.dll; KernelBase.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-core-enclave-l1-1-0.dll
- - kernel32.dll
- - KernelBase.dll
- - API-MS-Win-Core-Enclave-L1-1-0.dll
+- api-ms-win-core-enclave-l1-1-0.dll
+- kernel32.dll
+- KernelBase.dll
+- API-MS-Win-Core-Enclave-L1-1-0.dll
 api_name:
- - LoadEnclaveData
+- LoadEnclaveData
 targetos: Windows
 req.typenames: 
 req.redist: 

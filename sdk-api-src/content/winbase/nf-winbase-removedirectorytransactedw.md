@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.RemoveDirectoryTransactedW
 title: RemoveDirectoryTransactedW function (winbase.h)
-
 description: Deletes an existing empty directory as a transacted operation.
 old-location: fs\removedirectorytransacted.htm
 tech.root: FileIO
 ms.assetid: e8600166-62dc-4398-9e16-43b07f7f0b89
-
 ms.date: 12/05/2018
 ms.keywords: RemoveDirectoryTransacted, RemoveDirectoryTransacted function [Files], RemoveDirectoryTransactedA, RemoveDirectoryTransactedW, fs.removedirectorytransacted, winbase/RemoveDirectoryTransacted, winbase/RemoveDirectoryTransactedA, winbase/RemoveDirectoryTransactedW
 ms.topic: function
-f1_keywords: 
- - "winbase/RemoveDirectoryTransacted"
+f1_keywords:
+- winbase/RemoveDirectoryTransacted
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - Ext-MS-Win-Kernel32-Transacted-l1-1-0.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - Kernel32Legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- Ext-MS-Win-Kernel32-Transacted-l1-1-0.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- Kernel32Legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - RemoveDirectoryTransacted
- - RemoveDirectoryTransactedA
- - RemoveDirectoryTransactedW
+- RemoveDirectoryTransacted
+- RemoveDirectoryTransactedA
+- RemoveDirectoryTransactedW
 targetos: Windows
 req.typenames: 
 req.redist: 

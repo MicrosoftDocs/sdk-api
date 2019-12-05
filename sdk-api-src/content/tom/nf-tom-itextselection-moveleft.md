@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextSelection.MoveLeft
 title: ITextSelection::MoveLeft (tom.h)
-
 description: Generalizes the functionality of the Left Arrow key.
 old-location: controls\ITextSelection_MoveLeft.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\moveleft.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextSelection interface [Windows Controls],MoveLeft method, ITextSelection.MoveLeft, ITextSelection::MoveLeft, MoveLeft, MoveLeft method [Windows Controls], MoveLeft method [Windows Controls],ITextSelection interface, _win32_ITextSelection_MoveLeft, _win32_ITextSelection_MoveLeft_cpp, controls.ITextSelection_MoveLeft, controls._win32_ITextSelection_MoveLeft, tom/ITextSelection::MoveLeft
 ms.topic: method
-f1_keywords: 
- - "tom/ITextSelection.MoveLeft"
+f1_keywords:
+- tom/ITextSelection.MoveLeft
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextSelection.MoveLeft
+- ITextSelection.MoveLeft
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcasync.RpcSsContextLockShared
 title: RpcSsContextLockShared function (rpcasync.h)
-
 description: The RpcSsContextLockShared function enables an application to begin using a context handle in shared mode.
 old-location: rpc\rpcsscontextlockshared.htm
 tech.root: Rpc
 ms.assetid: 469f0995-54ff-40a6-9322-3d173e2c9861
-
 ms.date: 12/05/2018
 ms.keywords: RpcSsContextLockShared, RpcSsContextLockShared function [RPC], _rpc_rpcsscontextlockshared, rpc.rpcsscontextlockshared, rpcasync/RpcSsContextLockShared
 ms.topic: function
-f1_keywords: 
- - "rpcasync/RpcSsContextLockShared"
+f1_keywords:
+- rpcasync/RpcSsContextLockShared
 dev_langs:
- - c++
+- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcSsContextLockShared
+- RpcSsContextLockShared
 targetos: Windows
 req.typenames: 
 req.redist: 

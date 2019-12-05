@@ -1,19 +1,17 @@
 ---
 UID: NF:mmddk.mmGetCurrentTask
 title: mmGetCurrentTask function (mmddk.h)
-
 description: The mmGetCurrentTask function is deprecated. Applications should not use this function.
 old-location: multimedia\mmgetcurrenttask.htm
 tech.root: Multimedia
 ms.assetid: a581fe3f-466c-4ea0-b9d5-e911b4ad282f
-
 ms.date: 12/05/2018
 ms.keywords: mmGetCurrentTask, mmGetCurrentTask function [Windows Multimedia], mmddk/mmGetCurrentTask, multimedia.mmgetcurrenttask
 ms.topic: function
-f1_keywords: 
- - "mmddk/mmGetCurrentTask"
+f1_keywords:
+- mmddk/mmGetCurrentTask
 dev_langs:
- - c++
+- c++
 req.header: mmddk.h
 req.include-header: Mmddk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
+- Winmm.dll
 api_name:
- - mmGetCurrentTask
+- mmGetCurrentTask
 targetos: Windows
 req.typenames: 
 req.redist: 

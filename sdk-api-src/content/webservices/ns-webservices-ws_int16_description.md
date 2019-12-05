@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_INT16_DESCRIPTION
 title: WS_INT16_DESCRIPTION (webservices.h)
-
 description: An optional type description used with WS_INT16_TYPE to specify constraints on the set of values which can be deserialized.
 old-location: wsw\ws_int16_description.htm
 tech.root: wsw
 ms.assetid: 06cf286f-971b-46e1-92b4-655d6d55606a
-
 ms.date: 12/05/2018
 ms.keywords: WS_INT16_DESCRIPTION, WS_INT16_DESCRIPTION structure [Web Services for Windows], webservices/WS_INT16_DESCRIPTION, wsw.ws_int16_description
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_INT16_DESCRIPTION"
+f1_keywords:
+- webservices/WS_INT16_DESCRIPTION
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_INT16_DESCRIPTION
+- WS_INT16_DESCRIPTION
 targetos: Windows
 req.typenames: WS_INT16_DESCRIPTION
 req.redist: 

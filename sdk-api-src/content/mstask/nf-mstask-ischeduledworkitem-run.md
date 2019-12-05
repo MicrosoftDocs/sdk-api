@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.Run
 title: IScheduledWorkItem::Run (mstask.h)
-
 description: Sends a request to the Task Scheduler service to run the work item.
 old-location: taskschd\ischeduledworkitem_run.htm
 tech.root: taskschd
 ms.assetid: f533fcf6-8ece-442f-b6d5-3702321db9e9
-
 ms.date: 12/05/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],Run method, IScheduledWorkItem.Run, IScheduledWorkItem::Run, Run, Run method [Task Scheduler], Run method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_run, mstask/IScheduledWorkItem::Run, taskschd.ischeduledworkitem_run
 ms.topic: method
-f1_keywords: 
- - "mstask/IScheduledWorkItem.Run"
+f1_keywords:
+- mstask/IScheduledWorkItem.Run
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - IScheduledWorkItem.Run
+- IScheduledWorkItem.Run
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

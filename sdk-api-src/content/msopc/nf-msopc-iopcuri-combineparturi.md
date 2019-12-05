@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcUri.CombinePartUri
 title: IOpcUri::CombinePartUri (msopc.h)
-
 description: Forms the part name of the part that is referenced by the specified relative URI.
 old-location: opc\iopcuri_combineparturi.htm
 tech.root: OPC
 ms.assetid: 9bb4c351-12ef-4e26-bcb1-59f81a413588
-
 ms.date: 12/05/2018
 ms.keywords: CombinePartUri, CombinePartUri method [Open Packaging Conventions], CombinePartUri method [Open Packaging Conventions],IOpcUri interface, IOpcUri interface [Open Packaging Conventions],CombinePartUri method, IOpcUri.CombinePartUri, IOpcUri::CombinePartUri, msopc/IOpcUri::CombinePartUri, opc.iopcuri_combineparturi
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcUri.CombinePartUri"
+f1_keywords:
+- msopc/IOpcUri.CombinePartUri
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcUri.CombinePartUri
+- IOpcUri.CombinePartUri
 targetos: Windows
 req.typenames: 
 req.redist: 

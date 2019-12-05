@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReader.Stop
 title: IWMReader::Stop (wmsdkidl.h)
-
 description: The Stop method stops reading the file.
 old-location: wmformat\iwmreader_stop.htm
 tech.root: wmformat
 ms.assetid: 781d1882-4b48-4415-9b3a-788207b42151
-
 ms.date: 12/05/2018
 ms.keywords: IWMReader interface [windows Media Format],Stop method, IWMReader.Stop, IWMReader::Stop, IWMReaderStop, Stop, Stop method [windows Media Format], Stop method [windows Media Format],IWMReader interface, wmformat.iwmreader_stop, wmsdkidl/IWMReader::Stop
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReader.Stop"
+f1_keywords:
+- wmsdkidl/IWMReader.Stop
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReader.Stop
+- IWMReader.Stop
 targetos: Windows
 req.typenames: 
 req.redist: 

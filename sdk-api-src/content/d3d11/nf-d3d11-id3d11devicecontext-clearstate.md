@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.ClearState
 title: ID3D11DeviceContext::ClearState (d3d11.h)
-
 description: Restore all default settings.
 old-location: direct3d11\id3d11devicecontext_clearstate.htm
 tech.root: direct3d11
 ms.assetid: dabf52f5-0f69-4017-863c-9e3ecef4d5dc
-
 ms.date: 12/05/2018
 ms.keywords: ClearState, ClearState method [Direct3D 11], ClearState method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],ClearState method, ID3D11DeviceContext.ClearState, ID3D11DeviceContext::ClearState, b3d84ab3-64bc-1c6c-0a7d-5e4409b47dec, d3d11/ID3D11DeviceContext::ClearState, direct3d11.id3d11devicecontext_clearstate
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.ClearState"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.ClearState
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.ClearState
+- ID3D11DeviceContext.ClearState
 targetos: Windows
 req.typenames: 
 req.redist: 

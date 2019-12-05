@@ -1,19 +1,17 @@
 ---
 UID: NN:searchapi.ISearchViewChangedSink
 title: ISearchViewChangedSink (searchapi.h)
-
 description: Not implemented.
 old-location: search\_search_ISearchViewChangedSink.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchviewchangedsink\isearchviewchangedsink.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchViewChangedSink, ISearchViewChangedSink interface [search], ISearchViewChangedSink interface [search],described, _search_ISearchViewChangedSink, search._search_ISearchViewChangedSink, searchapi/ISearchViewChangedSink
 ms.topic: interface
-f1_keywords: 
- - "searchapi/ISearchViewChangedSink"
+f1_keywords:
+- searchapi/ISearchViewChangedSink
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - searchapi.h
+- searchapi.h
 api_name:
- - ISearchViewChangedSink
+- ISearchViewChangedSink
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

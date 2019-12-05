@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IStylusPlugin.StylusDown
 title: IStylusPlugin::StylusDown (rtscom.h)
-
 description: Notifies the implementing plug-in that the tablet pen has touched the digitizer surface.
 old-location: tablet\istylusplugin_stylusdown.htm
 tech.root: tablet
 ms.assetid: 13fb831c-e3e8-4e04-81ce-d4658be105a0
-
 ms.date: 12/05/2018
 ms.keywords: 13fb831c-e3e8-4e04-81ce-d4658be105a0, IStylusPlugin interface [Tablet PC],StylusDown method, IStylusPlugin.StylusDown, IStylusPlugin::StylusDown, StylusDown, StylusDown method [Tablet PC], StylusDown method [Tablet PC],IStylusPlugin interface, rtscom/IStylusPlugin::StylusDown, tablet.istylusplugin_stylusdown
 ms.topic: method
-f1_keywords: 
- - "rtscom/IStylusPlugin.StylusDown"
+f1_keywords:
+- rtscom/IStylusPlugin.StylusDown
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IStylusPlugin.StylusDown
+- IStylusPlugin.StylusDown
 targetos: Windows
 req.typenames: 
 req.redist: 

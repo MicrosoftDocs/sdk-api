@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IEnumMoniker.Clone
 title: IEnumMoniker::Clone (objidl.h)
-
 description: Creates a new enumerator that contains the same enumeration state as the current one.
 old-location: com\ienummoniker_clone.htm
 tech.root: com
 ms.assetid: 6238e556-9ef4-42c7-95ba-12468cec6b52
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumMoniker interface, IEnumMoniker interface [COM],Clone method, IEnumMoniker.Clone, IEnumMoniker::Clone, _ole_ienummoniker_clone, com.ienummoniker_clone, objidl/IEnumMoniker::Clone
 ms.topic: method
-f1_keywords: 
- - "objidl/IEnumMoniker.Clone"
+f1_keywords:
+- objidl/IEnumMoniker.Clone
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IEnumMoniker.Clone
+- IEnumMoniker.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

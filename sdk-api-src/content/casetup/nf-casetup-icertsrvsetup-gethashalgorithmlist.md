@@ -1,19 +1,17 @@
 ---
 UID: NF:casetup.ICertSrvSetup.GetHashAlgorithmList
 title: ICertSrvSetup::GetHashAlgorithmList (casetup.h)
-
 description: Gets the list of hash algorithms supported by the specified cryptographic service provider (CSP) for an asymmetric signature key algorithm.
 old-location: security\icertsrvsetup_gethashalgorithmlist.htm
 tech.root: SecCrypto
 ms.assetid: 451c240d-8df9-4f4a-ab0e-56c5252d3b50
-
 ms.date: 12/05/2018
 ms.keywords: GetHashAlgorithmList, GetHashAlgorithmList method [Security], GetHashAlgorithmList method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetHashAlgorithmList method, ICertSrvSetup.GetHashAlgorithmList, ICertSrvSetup::GetHashAlgorithmList, casetup/ICertSrvSetup::GetHashAlgorithmList, security.icertsrvsetup_gethashalgorithmlist
 ms.topic: method
-f1_keywords: 
- - "casetup/ICertSrvSetup.GetHashAlgorithmList"
+f1_keywords:
+- casetup/ICertSrvSetup.GetHashAlgorithmList
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - ICertSrvSetup.GetHashAlgorithmList
+- ICertSrvSetup.GetHashAlgorithmList
 targetos: Windows
 req.typenames: 
 req.redist: 

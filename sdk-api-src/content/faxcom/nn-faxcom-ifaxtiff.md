@@ -1,19 +1,17 @@
 ---
 UID: NN:faxcom.IFaxTiff
 title: IFaxTiff (faxcom.h)
-
 description: The IFaxTiff dual interface is used by a fax client application to retrieve information about FaxTiff objects.
 old-location: fax\_mfax_ifaxtiff.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3zhi.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxTiff, IFaxTiff interface [Fax Service], IFaxTiff interface [Fax Service],described, _mfax_ifaxtiff, fax._mfax_ifaxtiff, faxcom/IFaxTiff
 ms.topic: interface
-f1_keywords: 
- - "faxcom/IFaxTiff"
+f1_keywords:
+- faxcom/IFaxTiff
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxTiff
+- IFaxTiff
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineGatherDigitsW
 title: lineGatherDigitsW function (tapi.h)
-
 description: The lineGatherDigits function initiates the buffered gathering of digits on the specified call. The application specifies a buffer in which to place the digits and the maximum number of digits to be collected.
 old-location: tapi2\linegatherdigits.htm
 tech.root: Tapi
 ms.assetid: 87d5f777-e536-46be-8ad4-437386f04c9b
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linegatherdigits, lineGatherDigits, lineGatherDigits function [TAPI 2.2], lineGatherDigitsA, lineGatherDigitsW, tapi/lineGatherDigits, tapi/lineGatherDigitsA, tapi/lineGatherDigitsW, tapi2.linegatherdigits"
+ms.keywords: _tapi2_linegatherdigits, lineGatherDigits, lineGatherDigits function [TAPI 2.2], lineGatherDigitsA, lineGatherDigitsW, tapi/lineGatherDigits, tapi/lineGatherDigitsA, tapi/lineGatherDigitsW, tapi2.linegatherdigits
 ms.topic: function
-f1_keywords: 
- - "tapi/lineGatherDigits"
+f1_keywords:
+- tapi/lineGatherDigits
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineGatherDigits
- - lineGatherDigitsA
- - lineGatherDigitsW
+- lineGatherDigits
+- lineGatherDigitsA
+- lineGatherDigitsW
 targetos: Windows
 req.typenames: 
 req.redist: 

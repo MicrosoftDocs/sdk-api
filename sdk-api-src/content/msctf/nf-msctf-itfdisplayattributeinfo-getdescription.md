@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfDisplayAttributeInfo.GetDescription
 title: ITfDisplayAttributeInfo::GetDescription (msctf.h)
-
 description: ITfDisplayAttributeInfo::GetDescription method
 old-location: tsf\itfdisplayattributeinfo_getdescription.htm
 tech.root: TSF
 ms.assetid: e65aedac-284d-4e2a-b574-fc469f66e06e
-
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [Text Services Framework], GetDescription method [Text Services Framework],ITfDisplayAttributeInfo interface, ITfDisplayAttributeInfo interface [Text Services Framework],GetDescription method, ITfDisplayAttributeInfo.GetDescription, ITfDisplayAttributeInfo::GetDescription, _tsf_itfdisplayattributeinfo_getdescription_ref, msctf/ITfDisplayAttributeInfo::GetDescription, tsf.itfdisplayattributeinfo_getdescription
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfDisplayAttributeInfo.GetDescription"
+f1_keywords:
+- msctf/ITfDisplayAttributeInfo.GetDescription
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfDisplayAttributeInfo.GetDescription
+- ITfDisplayAttributeInfo.GetDescription
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NS:cloneviewhelper.tagSources
 title: Sources (cloneviewhelper.h)
-
 description: The Sources structure contains a Video Present Network (VidPN) topology.
 old-location: display\sources.htm
 tech.root: display
 ms.assetid: 5fbb12bc-d6e0-4cb7-b9d7-4e28ad85eca2
-
 ms.date: 12/05/2018
 ms.keywords: Sources, Sources structure [Display Devices], TMM_Ref_e15dfa1e-b8f8-464e-b683-c968113fbf64.xml, cloneviewhelper/Sources, display.sources
 ms.topic: struct
-f1_keywords: 
- - "cloneviewhelper/Sources"
+f1_keywords:
+- cloneviewhelper/Sources
 dev_langs:
- - c++
+- c++
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - cloneviewhelper.h
+- cloneviewhelper.h
 api_name:
- - Sources
+- Sources
 targetos: Windows
 req.typenames: Sources
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspen.Pen.Pen(IN const Color &,IN REAL)
 title: Pen::Pen(IN const Color &,IN REAL) (gdipluspen.h)
-
 description: Creates a Pen object that uses a specified color and width.
 old-location: gdiplus\_gdiplus_CLASS_Pen_Pen_color_width_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penconstructors\pen_36color_width.htm
-
 ms.date: 12/05/2018
 ms.keywords: Pen, Pen class [GDI+],Pen constructor, Pen constructor [GDI+], Pen constructor [GDI+],Pen class, Pen.Pen, Pen.Pen(IN const Color &,IN REAL), Pen.Pen(const Color&,REAL), Pen::Pen, Pen::Pen(IN const Color &,IN REAL), _gdiplus_CLASS_Pen_Pen_color_width_, gdiplus._gdiplus_CLASS_Pen_Pen_color_width_
 ms.topic: method
-f1_keywords: 
- - "gdipluspen/Pen.Pen"
+f1_keywords:
+- gdipluspen/Pen.Pen
 dev_langs:
- - c++
+- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Pen.Pen
+- Pen.Pen
 targetos: Windows
 req.typenames: 
 req.redist: 

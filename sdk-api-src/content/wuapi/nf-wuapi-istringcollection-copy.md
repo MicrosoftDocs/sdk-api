@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IStringCollection.Copy
 title: IStringCollection::Copy (wuapi.h)
-
 description: Creates a deep read/write copy of the collection.
 old-location: wua\istringcollection_copy.htm
 tech.root: Wua_Sdk
 ms.assetid: e2f6d5c0-c92a-44e5-a322-f336a3ef64ce
-
 ms.date: 12/05/2018
 ms.keywords: Copy, Copy method [Windows Update Agent], Copy method [Windows Update Agent],IStringCollection interface, IStringCollection interface [Windows Update Agent],Copy method, IStringCollection.Copy, IStringCollection::Copy, wua.istringcollection_copy, wuapi/IStringCollection::Copy
 ms.topic: method
-f1_keywords: 
- - "wuapi/IStringCollection.Copy"
+f1_keywords:
+- wuapi/IStringCollection.Copy
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IStringCollection.Copy
+- IStringCollection.Copy
 targetos: Windows
 req.typenames: 
 req.redist: 

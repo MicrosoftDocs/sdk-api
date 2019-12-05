@@ -1,19 +1,17 @@
 ---
 UID: NS:ocidl.tagCADWORD
 title: CADWORD (ocidl.h)
-
 description: Specifies a counted array of values that can be used to obtain the value corresponding to one of the predefined strings for a property.
 old-location: com\cadword.htm
 tech.root: com
 ms.assetid: 4e7f8e1a-53cc-40db-9651-00f5d912e768
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCADWORD, CADWORD, CADWORD structure [COM], LPCADWORD, LPCADWORD structure pointer [COM], _ctrl_CADWORD, com.cadword, ocidl/CADWORD, ocidl/LPCADWORD"
+ms.keywords: '*LPCADWORD, CADWORD, CADWORD structure [COM], LPCADWORD, LPCADWORD structure pointer [COM], _ctrl_CADWORD, com.cadword, ocidl/CADWORD, ocidl/LPCADWORD'
 ms.topic: struct
-f1_keywords: 
- - "ocidl/CADWORD"
+f1_keywords:
+- ocidl/CADWORD
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - CADWORD
+- CADWORD
 targetos: Windows
 req.typenames: CADWORD, *LPCADWORD
 req.redist: 

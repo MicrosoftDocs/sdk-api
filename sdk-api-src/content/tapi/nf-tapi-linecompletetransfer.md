@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineCompleteTransfer
 title: lineCompleteTransfer function (tapi.h)
-
 description: The lineCompleteTransfer function completes the transfer of the specified call to the party connected in the consultation call.
 old-location: tapi2\linecompletetransfer.htm
 tech.root: Tapi
 ms.assetid: ebedf664-4c45-49c3-9d86-c3d782077a00
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linecompletetransfer, lineCompleteTransfer, lineCompleteTransfer function [TAPI 2.2], tapi/lineCompleteTransfer, tapi2.linecompletetransfer"
+ms.keywords: _tapi2_linecompletetransfer, lineCompleteTransfer, lineCompleteTransfer function [TAPI 2.2], tapi/lineCompleteTransfer, tapi2.linecompletetransfer
 ms.topic: function
-f1_keywords: 
- - "tapi/lineCompleteTransfer"
+f1_keywords:
+- tapi/lineCompleteTransfer
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineCompleteTransfer
+- lineCompleteTransfer
 targetos: Windows
 req.typenames: 
 req.redist: 

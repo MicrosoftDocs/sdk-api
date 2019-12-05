@@ -1,19 +1,17 @@
 ---
 UID: NS:fwpstypes.FWPS_ACTION0_
 title: FWPS_ACTION0 (fwpstypes.h)
-
 description: The FWPS_ACTION0 structure specifies the run-time action that the filter engine takes if all of the filter's filtering conditions are true.Note  FWPS_ACTION0 is a specific version of FWPS_ACTION.
 old-location: netvista\fwps_action0.htm
 tech.root: NetVista
 ms.assetid: 1b192efc-e685-48bf-bf61-1419ce03a77a
-
 ms.date: 12/05/2018
 ms.keywords: FWPS_ACTION0, FWPS_ACTION0 structure [Network Drivers Starting with Windows Vista], fwpstypes/FWPS_ACTION0, netvista.fwps_action0, wfp_ref_3_struct_3_fwps_A-E_2621dcb1-3b0a-4e5a-8869-4d8b9f635f99.xml
 ms.topic: struct
-f1_keywords: 
- - "fwpstypes/FWPS_ACTION0"
+f1_keywords:
+- fwpstypes/FWPS_ACTION0
 dev_langs:
- - c++
+- c++
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - fwpstypes.h
+- fwpstypes.h
 api_name:
- - FWPS_ACTION0
+- FWPS_ACTION0
 targetos: Windows
 req.typenames: FWPS_ACTION0
 req.redist: 

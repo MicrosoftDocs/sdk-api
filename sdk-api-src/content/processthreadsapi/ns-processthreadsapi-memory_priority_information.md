@@ -1,19 +1,17 @@
 ---
 UID: NS:processthreadsapi._MEMORY_PRIORITY_INFORMATION
 title: MEMORY_PRIORITY_INFORMATION (processthreadsapi.h)
-
 description: Specifies the memory priority for a thread or process.
 old-location: base\memory_priority_information.htm
 tech.root: ProcThread
 ms.assetid: 03cacfdf-5c66-42e4-bfcf-afaacd3ad038
-
 ms.date: 12/05/2018
-ms.keywords: "*PMEMORY_PRIORITY_INFORMATION, MEMORY_PRIORITY_BELOW_NORMAL, MEMORY_PRIORITY_INFORMATION, MEMORY_PRIORITY_INFORMATION structure, MEMORY_PRIORITY_LOW, MEMORY_PRIORITY_MEDIUM, MEMORY_PRIORITY_NORMAL, MEMORY_PRIORITY_VERY_LOW, PMEMORY_PRIORITY_INFORMATION, PMEMORY_PRIORITY_INFORMATION structure pointer, _MEMORY_PRIORITY_INFORMATION, base.memory_priority_information, processthreadsapi/MEMORY_PRIORITY_INFORMATION, processthreadsapi/PMEMORY_PRIORITY_INFORMATION"
+ms.keywords: '*PMEMORY_PRIORITY_INFORMATION, MEMORY_PRIORITY_BELOW_NORMAL, MEMORY_PRIORITY_INFORMATION, MEMORY_PRIORITY_INFORMATION structure, MEMORY_PRIORITY_LOW, MEMORY_PRIORITY_MEDIUM, MEMORY_PRIORITY_NORMAL, MEMORY_PRIORITY_VERY_LOW, PMEMORY_PRIORITY_INFORMATION, PMEMORY_PRIORITY_INFORMATION structure pointer, _MEMORY_PRIORITY_INFORMATION, base.memory_priority_information, processthreadsapi/MEMORY_PRIORITY_INFORMATION, processthreadsapi/PMEMORY_PRIORITY_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "processthreadsapi/MEMORY_PRIORITY_INFORMATION"
+f1_keywords:
+- processthreadsapi/MEMORY_PRIORITY_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - processthreadsapi.h
+- processthreadsapi.h
 api_name:
- - MEMORY_PRIORITY_INFORMATION
+- MEMORY_PRIORITY_INFORMATION
 targetos: Windows
 req.typenames: MEMORY_PRIORITY_INFORMATION, *PMEMORY_PRIORITY_INFORMATION
 req.redist: 

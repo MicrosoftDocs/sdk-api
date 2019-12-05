@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IWriteEngine2EventArgs.get_TotalSystemBuffer
 title: IWriteEngine2EventArgs::get_TotalSystemBuffer (imapi2.h)
-
 description: Retrieves the size of the internal data buffer that is used for writing to disc.
 old-location: imapi\iwriteengine2eventargs_get_totalsystembuffer.htm
 tech.root: imapi
 ms.assetid: dfdf4116-0402-4c90-8b9b-0758fd0bb973
-
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2EventArgs interface [IMAPI],get_TotalSystemBuffer method, IWriteEngine2EventArgs.get_TotalSystemBuffer, IWriteEngine2EventArgs::get_TotalSystemBuffer, get_TotalSystemBuffer, get_TotalSystemBuffer method [IMAPI], get_TotalSystemBuffer method [IMAPI],IWriteEngine2EventArgs interface, imapi.iwriteengine2eventargs_get_totalsystembuffer, imapi2/IWriteEngine2EventArgs::get_TotalSystemBuffer
 ms.topic: method
-f1_keywords: 
- - "imapi2/IWriteEngine2EventArgs.get_TotalSystemBuffer"
+f1_keywords:
+- imapi2/IWriteEngine2EventArgs.get_TotalSystemBuffer
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IWriteEngine2EventArgs.get_TotalSystemBuffer
+- IWriteEngine2EventArgs.get_TotalSystemBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

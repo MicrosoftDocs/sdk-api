@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IRegistrationTrigger.put_Delay
 title: IRegistrationTrigger::put_Delay (taskschd.h)
-
 description: Gets or sets the amount of time between when the task is registered and when the task is started.
 old-location: taskschd\iregistrationtrigger_delay.htm
 tech.root: taskschd
 ms.assetid: 9331dd84-a040-4778-baa4-b61981ec6444
-
 ms.date: 12/05/2018
 ms.keywords: Delay property [Task Scheduler], Delay property [Task Scheduler],IRegistrationTrigger interface, IRegistrationTrigger interface [Task Scheduler],Delay property, IRegistrationTrigger.Delay, IRegistrationTrigger.put_Delay, IRegistrationTrigger::Delay, IRegistrationTrigger::get_Delay, IRegistrationTrigger::put_Delay, put_Delay, taskschd.iregistrationtrigger_delay, taskschd/IRegistrationTrigger::Delay, taskschd/IRegistrationTrigger::get_Delay, taskschd/IRegistrationTrigger::put_Delay
 ms.topic: method
-f1_keywords: 
- - "taskschd/IRegistrationTrigger.Delay"
+f1_keywords:
+- taskschd/IRegistrationTrigger.Delay
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRegistrationTrigger.Delay
- - IRegistrationTrigger.get_Delay
- - IRegistrationTrigger.put_Delay
+- IRegistrationTrigger.Delay
+- IRegistrationTrigger.get_Delay
+- IRegistrationTrigger.put_Delay
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont.GetEmboss
 title: ITextFont::GetEmboss (tom.h)
-
 description: Gets whether characters are embossed.
 old-location: controls\ITextFont_GetEmboss.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getemboss.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetEmboss, GetEmboss method [Windows Controls], GetEmboss method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetEmboss method, ITextFont.GetEmboss, ITextFont::GetEmboss, _win32_ITextFont_GetEmboss, _win32_ITextFont_GetEmboss_cpp, controls.ITextFont_GetEmboss, controls._win32_ITextFont_GetEmboss, tom/ITextFont::GetEmboss
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont.GetEmboss"
+f1_keywords:
+- tom/ITextFont.GetEmboss
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont.GetEmboss
+- ITextFont.GetEmboss
 targetos: Windows
 req.typenames: 
 req.redist: 

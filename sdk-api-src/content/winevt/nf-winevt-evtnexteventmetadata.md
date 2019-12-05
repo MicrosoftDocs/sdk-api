@@ -1,19 +1,17 @@
 ---
 UID: NF:winevt.EvtNextEventMetadata
 title: EvtNextEventMetadata function (winevt.h)
-
 description: Gets an event definition from the enumerator.
 old-location: wes\evtnexteventmetadata.htm
 tech.root: wes
 ms.assetid: 1077dc7c-3e73-4135-9020-20d086e30e71
-
 ms.date: 12/05/2018
 ms.keywords: EvtNextEventMetadata, EvtNextEventMetadata function [EventLog], wes.evtnexteventmetadata, winevt/EvtNextEventMetadata
 ms.topic: function
-f1_keywords: 
- - "winevt/EvtNextEventMetadata"
+f1_keywords:
+- winevt/EvtNextEventMetadata
 dev_langs:
- - c++
+- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wevtapi.lib
 req.dll: Wevtapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wevtapi.dll
+- Wevtapi.dll
 api_name:
- - EvtNextEventMetadata
+- EvtNextEventMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 

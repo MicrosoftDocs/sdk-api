@@ -1,19 +1,17 @@
 ---
 UID: NS:usp10.textrange_properties
 title: TEXTRANGE_PROPERTIES (usp10.h)
-
 description: Contains a group of OpenType features to apply to a run.
 old-location: intl\textrange_properties.htm
 tech.root: Intl
 ms.assetid: f43a0873-f499-4d66-9fce-57f332c1dc77
-
 ms.date: 12/05/2018
 ms.keywords: TEXTRANGE_PROPERTIES, TEXTRANGE_PROPERTIES structure [Internationalization for Windows Applications], _win32_TEXTRANGE_PROPERTIES, intl.textrange_properties, usp10/TEXTRANGE_PROPERTIES
 ms.topic: struct
-f1_keywords: 
- - "usp10/TEXTRANGE_PROPERTIES"
+f1_keywords:
+- usp10/TEXTRANGE_PROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Usp10.h
+- Usp10.h
 api_name:
- - TEXTRANGE_PROPERTIES
+- TEXTRANGE_PROPERTIES
 targetos: Windows
 req.typenames: TEXTRANGE_PROPERTIES
 req.redist: Usp10.dll version 1.600 or greater onWindows XP

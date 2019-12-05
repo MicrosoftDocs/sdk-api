@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbNetworkNameDescriptor.GetNetworkName
 title: IDvbNetworkNameDescriptor::GetNetworkName (dvbsiparser.h)
-
 description: Gets the network name, in ASCII string format, from a Digital Video Broadcast (DVB) network name descriptor.
 old-location: mstv\idvbnetworknamedescriptor_getnetworkname.htm
 tech.root: mstv
 ms.assetid: 261a6c65-65a5-43ed-aaed-12968b996c5a
-
 ms.date: 12/05/2018
 ms.keywords: GetNetworkName, GetNetworkName method [Microsoft TV Technologies], GetNetworkName method [Microsoft TV Technologies],IDvbNetworkNameDescriptor interface, IDvbNetworkNameDescriptor interface [Microsoft TV Technologies],GetNetworkName method, IDvbNetworkNameDescriptor.GetNetworkName, IDvbNetworkNameDescriptor::GetNetworkName, dvbsiparser/IDvbNetworkNameDescriptor::GetNetworkName, mstv.idvbnetworknamedescriptor_getnetworkname
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbNetworkNameDescriptor.GetNetworkName"
+f1_keywords:
+- dvbsiparser/IDvbNetworkNameDescriptor.GetNetworkName
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbNetworkNameDescriptor.GetNetworkName
+- IDvbNetworkNameDescriptor.GetNetworkName
 targetos: Windows
 req.typenames: 
 req.redist: 

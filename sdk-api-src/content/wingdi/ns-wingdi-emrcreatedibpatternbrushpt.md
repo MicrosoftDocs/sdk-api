@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMRCREATEDIBPATTERNBRUSHPT
 title: EMRCREATEDIBPATTERNBRUSHPT (wingdi.h)
-
 description: The EMRCREATEDIBPATTERNBRUSHPT structure contains members for the CreateDIBPatternBrushPt enhanced metafile record. The BITMAPINFO structure is followed by the bitmap bits that form a packed device-independent bitmap (DIB).
 old-location: gdi\emrcreatedibpatternbrushpt.htm
 tech.root: gdi
 ms.assetid: e1d8302b-9dbe-4a92-9143-7ad03e334ee5
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRCREATEDIBPATTERNBRUSHPT, *PEMRCREATEDIBPATTERNBRUSHPT structure [Windows GDI], EMRCREATEDIBPATTERNBRUSHPT, EMRCREATEDIBPATTERNBRUSHPT structure [Windows GDI], _win32_EMRCREATEDIBPATTERNBRUSHPT_str, gdi.emrcreatedibpatternbrushpt, wingdi/*PEMRCREATEDIBPATTERNBRUSHPT, wingdi/EMRCREATEDIBPATTERNBRUSHPT"
+ms.keywords: '*PEMRCREATEDIBPATTERNBRUSHPT, *PEMRCREATEDIBPATTERNBRUSHPT structure [Windows GDI], EMRCREATEDIBPATTERNBRUSHPT, EMRCREATEDIBPATTERNBRUSHPT structure [Windows GDI], _win32_EMRCREATEDIBPATTERNBRUSHPT_str, gdi.emrcreatedibpatternbrushpt, wingdi/*PEMRCREATEDIBPATTERNBRUSHPT, wingdi/EMRCREATEDIBPATTERNBRUSHPT'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRCREATEDIBPATTERNBRUSHPT"
+f1_keywords:
+- wingdi/EMRCREATEDIBPATTERNBRUSHPT
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRCREATEDIBPATTERNBRUSHPT
+- EMRCREATEDIBPATTERNBRUSHPT
 targetos: Windows
 req.typenames: EMRCREATEDIBPATTERNBRUSHPT, *PEMRCREATEDIBPATTERNBRUSHPT
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfEditRecord
 title: ITfEditRecord (msctf.h)
-
 description: The ITfEditRecord interface is implemented by the TSF manager and is used by a text edit sink to determine what was changed during an edit session.
 old-location: tsf\itfeditrecord.htm
 tech.root: TSF
 ms.assetid: 2106cd97-9e1f-4d7c-a7a4-55676cf8923b
-
 ms.date: 12/05/2018
 ms.keywords: ITfEditRecord, ITfEditRecord interface [Text Services Framework], ITfEditRecord interface [Text Services Framework],described, _tsf_itfeditrecord_ref, msctf/ITfEditRecord, tsf.itfeditrecord
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfEditRecord"
+f1_keywords:
+- msctf/ITfEditRecord
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfEditRecord
+- ITfEditRecord
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

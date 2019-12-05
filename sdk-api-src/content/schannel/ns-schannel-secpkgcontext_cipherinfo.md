@@ -1,19 +1,17 @@
 ---
 UID: NS:schannel._SecPkgContext_CipherInfo
 title: SecPkgContext_CipherInfo (schannel.h)
-
 description: Cipher info structure. This is returned by SECPKG_ATTR_CIPHER_INFO ulAttribute from the QueryContextAttributes (Schannel) function.
 old-location: security\secpkgcontext_cipherinfo.htm
 tech.root: SecAuthN
 ms.assetid: 204D3520-76B6-42C0-83A4-45769F66364A
-
 ms.date: 12/05/2018
-ms.keywords: "*PSecPkgContext_CipherInfo, PSecPkgContext_CipherInfo, PSecPkgContext_CipherInfo structure pointer [Security], SecPkgContext_CipherInfo, SecPkgContext_CipherInfo structure [Security], schannel/PSecPkgContext_CipherInfo, schannel/SecPkgContext_CipherInfo, security.secpkgcontext_cipherinfo"
+ms.keywords: '*PSecPkgContext_CipherInfo, PSecPkgContext_CipherInfo, PSecPkgContext_CipherInfo structure pointer [Security], SecPkgContext_CipherInfo, SecPkgContext_CipherInfo structure [Security], schannel/PSecPkgContext_CipherInfo, schannel/SecPkgContext_CipherInfo, security.secpkgcontext_cipherinfo'
 ms.topic: struct
-f1_keywords: 
- - "schannel/SecPkgContext_CipherInfo"
+f1_keywords:
+- schannel/SecPkgContext_CipherInfo
 dev_langs:
- - c++
+- c++
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Schannel.h
+- Schannel.h
 api_name:
- - SecPkgContext_CipherInfo
+- SecPkgContext_CipherInfo
 targetos: Windows
 req.typenames: SecPkgContext_CipherInfo, *PSecPkgContext_CipherInfo
 req.redist: 

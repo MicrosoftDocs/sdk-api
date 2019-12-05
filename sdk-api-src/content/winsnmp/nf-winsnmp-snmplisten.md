@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpListen
 title: SnmpListen function (winsnmp.h)
-
 description: The WinSNMP SnmpListen function registers a WinSNMP application as an SNMP agent.
 old-location: snmp\snmplisten.htm
 tech.root: SNMP
 ms.assetid: e89c9315-efe4-4241-a7c4-f4475b107701
-
 ms.date: 12/05/2018
 ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SnmpListen, SnmpListen function [SNMP], _snmp_snmplisten, snmp.snmplisten, winsnmp/SnmpListen
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpListen"
+f1_keywords:
+- winsnmp/SnmpListen
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpListen
+- SnmpListen
 targetos: Windows
 req.typenames: 
 req.redist: 

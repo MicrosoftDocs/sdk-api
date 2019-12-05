@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_4.IDXGIAdapter3.UnregisterHardwareContentProtectionTeardownStatus
 title: IDXGIAdapter3::UnregisterHardwareContentProtectionTeardownStatus (dxgi1_4.h)
-
 description: Unregisters an event to stop it from receiving notification of hardware content protection teardown events.
 old-location: direct3ddxgi\idxgiadapter3_unregisterhardwarecontentprotectionteardownstatus.htm
 tech.root: direct3ddxgi
 ms.assetid: 821F8BFA-FD11-4E3E-BE5A-05A1F1002EE6
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIAdapter3 interface [DXGI],UnregisterHardwareContentProtectionTeardownStatus method, IDXGIAdapter3.UnregisterHardwareContentProtectionTeardownStatus, IDXGIAdapter3::UnregisterHardwareContentProtectionTeardownStatus, UnregisterHardwareContentProtectionTeardownStatus, UnregisterHardwareContentProtectionTeardownStatus method [DXGI], UnregisterHardwareContentProtectionTeardownStatus method [DXGI],IDXGIAdapter3 interface, direct3ddxgi.idxgiadapter3_unregisterhardwarecontentprotectionteardownstatus, dxgi1_4/IDXGIAdapter3::UnregisterHardwareContentProtectionTeardownStatus
 ms.topic: method
-f1_keywords: 
- - "dxgi1_4/IDXGIAdapter3.UnregisterHardwareContentProtectionTeardownStatus"
+f1_keywords:
+- dxgi1_4/IDXGIAdapter3.UnregisterHardwareContentProtectionTeardownStatus
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_4.h
 req.include-header: DXGI1_3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxgi.lib
 req.dll: Dxgi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxgi.dll
+- dxgi.dll
 api_name:
- - IDXGIAdapter3.UnregisterHardwareContentProtectionTeardownStatus
+- IDXGIAdapter3.UnregisterHardwareContentProtectionTeardownStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

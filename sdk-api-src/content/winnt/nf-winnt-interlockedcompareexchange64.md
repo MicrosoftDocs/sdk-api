@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.InterlockedCompareExchange64
 title: InterlockedCompareExchange64 function (winnt.h)
-
 description: Performs an atomic compare-and-exchange operation on the specified values. The function compares two specified 64-bit values and exchanges with another 64-bit value based on the outcome of the comparison.
 old-location: base\interlockedcompareexchange64.htm
 tech.root: Sync
 ms.assetid: b0799de3-49f9-4eef-9c14-d145f42ce57b
-
 ms.date: 12/05/2018
 ms.keywords: InterlockedCompareExchange64, InterlockedCompareExchange64 function, base.interlockedcompareexchange64, winnt/InterlockedCompareExchange64
 ms.topic: function
-f1_keywords: 
- - "winnt/InterlockedCompareExchange64"
+f1_keywords:
+- winnt/InterlockedCompareExchange64
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Interlocked-l1-1-0.dll
- - API-MS-Win-Core-Interlocked-l1-2-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Interlocked-l1-1-0.dll
+- API-MS-Win-Core-Interlocked-l1-2-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
 api_name:
- - InterlockedCompareExchange64
+- InterlockedCompareExchange64
 targetos: Windows
 req.typenames: 
 req.redist: 

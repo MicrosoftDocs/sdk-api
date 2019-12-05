@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorNegativeMultiplySubtract
 title: XMVectorNegativeMultiplySubtract function (directxmath.h)
-
 description: Computes the difference of a third vector and the product of the first two vectors.
 old-location: dxmath\xmvectornegativemultiplysubtract.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorNegativeMultiplySubtract(XMVECTOR,XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorNegativeMultiplySubtract, XMVectorNegativeMultiplySubtract, XMVectorNegativeMultiplySubtract method [DirectX Math Support APIs], dxmath.xmvectornegativemultiplysubtract
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorNegativeMultiplySubtract"
+f1_keywords:
+- directxmath/XMVectorNegativeMultiplySubtract
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorNegativeMultiplySubtract
+- XMVectorNegativeMultiplySubtract
 targetos: Windows
 req.typenames: 
 req.redist: 

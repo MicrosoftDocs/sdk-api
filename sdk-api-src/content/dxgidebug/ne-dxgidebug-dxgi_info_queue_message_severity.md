@@ -1,19 +1,17 @@
 ---
 UID: NE:dxgidebug.DXGI_INFO_QUEUE_MESSAGE_SEVERITY
 title: DXGI_INFO_QUEUE_MESSAGE_SEVERITY (dxgidebug.h)
-
 description: Values that specify debug message severity levels for an information queue.
 old-location: direct3ddxgi\dxgi_info_queue_message_severity.htm
 tech.root: direct3ddxgi
 ms.assetid: 99F9DDC8-5CCF-4991-94AD-0A399932F5B3
-
 ms.date: 12/05/2018
 ms.keywords: DXGI_INFO_QUEUE_MESSAGE_SEVERITY, DXGI_INFO_QUEUE_MESSAGE_SEVERITY enumeration [DXGI], DXGI_INFO_QUEUE_MESSAGE_SEVERITY_CORRUPTION, DXGI_INFO_QUEUE_MESSAGE_SEVERITY_ERROR, DXGI_INFO_QUEUE_MESSAGE_SEVERITY_INFO, DXGI_INFO_QUEUE_MESSAGE_SEVERITY_MESSAGE, DXGI_INFO_QUEUE_MESSAGE_SEVERITY_WARNING, direct3ddxgi.dxgi_info_queue_message_severity, dxgidebug/DXGI_INFO_QUEUE_MESSAGE_SEVERITY, dxgidebug/DXGI_INFO_QUEUE_MESSAGE_SEVERITY_CORRUPTION, dxgidebug/DXGI_INFO_QUEUE_MESSAGE_SEVERITY_ERROR, dxgidebug/DXGI_INFO_QUEUE_MESSAGE_SEVERITY_INFO, dxgidebug/DXGI_INFO_QUEUE_MESSAGE_SEVERITY_MESSAGE, dxgidebug/DXGI_INFO_QUEUE_MESSAGE_SEVERITY_WARNING
 ms.topic: enum
-f1_keywords: 
- - "dxgidebug/DXGI_INFO_QUEUE_MESSAGE_SEVERITY"
+f1_keywords:
+- dxgidebug/DXGI_INFO_QUEUE_MESSAGE_SEVERITY
 dev_langs:
- - c++
+- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DXGIDebug.h
+- DXGIDebug.h
 api_name:
- - DXGI_INFO_QUEUE_MESSAGE_SEVERITY
+- DXGI_INFO_QUEUE_MESSAGE_SEVERITY
 targetos: Windows
 req.typenames: DXGI_INFO_QUEUE_MESSAGE_SEVERITY
 req.redist: 

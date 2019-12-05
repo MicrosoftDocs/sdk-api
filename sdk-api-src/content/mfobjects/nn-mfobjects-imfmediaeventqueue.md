@@ -1,19 +1,17 @@
 ---
 UID: NN:mfobjects.IMFMediaEventQueue
 title: IMFMediaEventQueue (mfobjects.h)
-
 description: Provides an event queue for applications that need to implement the IMFMediaEventGenerator interface.
 old-location: mf\imfmediaeventqueue.htm
 tech.root: medfound
 ms.assetid: e1698caa-db70-436d-af6a-64c6e7247590
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEventQueue, IMFMediaEventQueue interface [Media Foundation], IMFMediaEventQueue interface [Media Foundation],described, e1698caa-db70-436d-af6a-64c6e7247590, mf.imfmediaeventqueue, mfobjects/IMFMediaEventQueue
 ms.topic: interface
-f1_keywords: 
- - "mfobjects/IMFMediaEventQueue"
+f1_keywords:
+- mfobjects/IMFMediaEventQueue
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaEventQueue
+- IMFMediaEventQueue
 targetos: Windows
 req.typenames: 
 req.redist: 

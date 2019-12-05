@@ -1,19 +1,17 @@
 ---
 UID: NF:roerrorapi.RoFailFastWithErrorContext
 title: RoFailFastWithErrorContext function
-
 description: Raises a non-continuable exception in the current process.
 old-location: winrt\rofailfastwitherrorcontext.htm
 tech.root: WinRT
 ms.assetid: 1BD47795-1B5E-42A4-B88F-7DE5160668E7
-
 ms.date: 12/5/2018
 ms.keywords: RoFailFastWithErrorContext, RoFailFastWithErrorContext function [Windows Runtime], roerrorapi/RoFailFastWithErrorContext, winrt.rofailfastwitherrorcontext
 ms.topic: function
-f1_keywords: 
- - "roerrorapi/RoFailFastWithErrorContext"
+f1_keywords:
+- roerrorapi/RoFailFastWithErrorContext
 dev_langs:
- - c++
+- c++
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: RuntimeObject.lib
 req.dll: ComBase.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComBase.dll
- - API-MS-Win-Core-WinRT-error-l1-1-0.dll
- - API-MS-Win-Core-WinRT-error-l1-1-1.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-error-l1-1-0.dll
+- API-MS-Win-Core-WinRT-error-l1-1-1.dll
 api_name:
- - RoFailFastWithErrorContext
+- RoFailFastWithErrorContext
 targetos: Windows
 req.typenames: 
 req.redist: 

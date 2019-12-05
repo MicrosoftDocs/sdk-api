@@ -1,19 +1,17 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.SetQuotaState
 title: IDiskQuotaControl::SetQuotaState (dskquota.h)
-
 description: Sets the state of the quota system.
 old-location: fs\idiskquotacontrol_setquotastate.htm
 tech.root: FileIO
 ms.assetid: 0bbacc3c-e212-4801-95d8-1e260123665d
-
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaControl interface [Files],SetQuotaState method, IDiskQuotaControl.SetQuotaState, IDiskQuotaControl::SetQuotaState, SetQuotaState, SetQuotaState method [Files], SetQuotaState method [Files],IDiskQuotaControl interface, _win32_idiskquotacontrol_setquotastate, base.idiskquotacontrol_setquotastate, dskquota/IDiskQuotaControl::SetQuotaState, fs.idiskquotacontrol_setquotastate
 ms.topic: method
-f1_keywords: 
- - "dskquota/IDiskQuotaControl.SetQuotaState"
+f1_keywords:
+- dskquota/IDiskQuotaControl.SetQuotaState
 dev_langs:
- - c++
+- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dskquota.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dskquota.dll
+- Dskquota.dll
 api_name:
- - IDiskQuotaControl.SetQuotaState
+- IDiskQuotaControl.SetQuotaState
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteFactory.CreateFontFileReference
 title: IDWriteFactory::CreateFontFileReference (dwrite.h)
-
 description: Creates a font file reference object from a local font file.
 old-location: directwrite\IDWriteFactory_CreateFontFileReference.htm
 tech.root: DirectWrite
 ms.assetid: ec67407d-e19b-4135-83ff-f3115e2da90c
-
 ms.date: 12/05/2018
 ms.keywords: CreateFontFileReference, CreateFontFileReference method [Direct Write], CreateFontFileReference method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateFontFileReference method, IDWriteFactory.CreateFontFileReference, IDWriteFactory::CreateFontFileReference, directwrite.IDWriteFactory_CreateFontFileReference, dwrite/IDWriteFactory::CreateFontFileReference
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteFactory.CreateFontFileReference"
+f1_keywords:
+- dwrite/IDWriteFactory.CreateFontFileReference
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFactory.CreateFontFileReference
+- IDWriteFactory.CreateFontFileReference
 targetos: Windows
 req.typenames: 
 req.redist: 

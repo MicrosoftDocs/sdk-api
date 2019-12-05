@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont2.GetCount
 title: ITextFont2::GetCount (tom.h)
-
 description: Gets the count of extra properties in this character formatting collection.
 old-location: controls\itextfont2_getcount.htm
 tech.root: Controls
 ms.assetid: 0caca891-7c25-4b04-bda3-47de2f0ab6ce
-
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Windows Controls], GetCount method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetCount method, ITextFont2.GetCount, ITextFont2::GetCount, controls.itextfont2_getcount, tom/ITextFont2::GetCount
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont2.GetCount"
+f1_keywords:
+- tom/ITextFont2.GetCount
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont2.GetCount
+- ITextFont2.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

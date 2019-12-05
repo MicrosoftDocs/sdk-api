@@ -1,19 +1,17 @@
 ---
 UID: NS:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0023
 title: XPS_MATRIX (xpsobjectmodel.h)
-
 description: Describes the left two columns of a 3-by-3 matrix.
 old-location: xps\xps_matrix.htm
 tech.root: printdocs
 ms.assetid: 0df75410-0e34-4962-8499-879d5153d9af
-
 ms.date: 12/05/2018
 ms.keywords: XPS_MATRIX, XPS_MATRIX structure [XPS Documents and Packaging], xps.xps_matrix, xpsobjectmodel/XPS_MATRIX
 ms.topic: struct
-f1_keywords: 
- - "xpsobjectmodel/XPS_MATRIX"
+f1_keywords:
+- xpsobjectmodel/XPS_MATRIX
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - XPS_MATRIX
+- XPS_MATRIX
 targetos: Windows
 req.typenames: XPS_MATRIX
 req.redist: 

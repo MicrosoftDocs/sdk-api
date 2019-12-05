@@ -4,10 +4,10 @@ title: CY
 ms.date: 01/30/19
 ms.keywords: tagCY, CY
 ms.topic: language-reference
-f1_keywords: 
- - "wtypes/tagCY"
+f1_keywords:
+- wtypes/tagCY
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -25,14 +25,14 @@ req.typenames: CY
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wtypes.h
+- wtypes.h
 api_name:
- - tagCY
- - CY
+- tagCY
+- CY
 ---
 
 # CY structure

@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxRoutingMethod.get_DeviceId
 title: IFaxRoutingMethod::get_DeviceId (faxcom.h)
-
 description: The IFaxRoutingMethod::get_DeviceId property is a number representing the line identifier for the fax port.
 old-location: fax\_mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_deviceid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_44h0.htm
-
 ms.date: 12/05/2018
 ms.keywords: DeviceId property [Fax Service], DeviceId property [Fax Service],IFaxRoutingMethod interface, IFaxRoutingMethod interface [Fax Service],DeviceId property, IFaxRoutingMethod.DeviceId, IFaxRoutingMethod.get_DeviceId, IFaxRoutingMethod::DeviceId, IFaxRoutingMethod::get_DeviceId, _mfax_ifaxroutingmethod_get_deviceid, fax._mfax_ifaxroutingmethod_get_deviceid, fax._mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_deviceid_cpp, faxcom/IFaxRoutingMethod::DeviceId, faxcom/IFaxRoutingMethod::get_DeviceId, get_DeviceId
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxRoutingMethod.DeviceId"
+f1_keywords:
+- faxcom/IFaxRoutingMethod.DeviceId
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxRoutingMethod.DeviceId
- - IFaxRoutingMethod.get_DeviceId
+- IFaxRoutingMethod.DeviceId
+- IFaxRoutingMethod.get_DeviceId
 targetos: Windows
 req.typenames: 
 req.redist: 

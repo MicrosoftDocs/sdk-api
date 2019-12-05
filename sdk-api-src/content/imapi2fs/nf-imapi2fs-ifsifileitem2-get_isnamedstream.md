@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem2.get_IsNamedStream
 title: IFsiFileItem2::get_IsNamedStream (imapi2fs.h)
-
 description: Determines if the item is a named stream.
 old-location: imapi\ifsifileitem2_get_isnamedstream.htm
 tech.root: imapi
 ms.assetid: 56e89b63-6fb5-4509-b90f-f25ec0cf2bd2
-
 ms.date: 12/05/2018
 ms.keywords: IFsiFileItem2 interface [IMAPI],get_IsNamedStream method, IFsiFileItem2.get_IsNamedStream, IFsiFileItem2::get_IsNamedStream, get_IsNamedStream, get_IsNamedStream method [IMAPI], get_IsNamedStream method [IMAPI],IFsiFileItem2 interface, imapi.ifsifileitem2_get_isnamedstream, imapi2fs/IFsiFileItem2::get_IsNamedStream
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFsiFileItem2.get_IsNamedStream"
+f1_keywords:
+- imapi2fs/IFsiFileItem2.get_IsNamedStream
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFsiFileItem2.get_IsNamedStream
+- IFsiFileItem2.get_IsNamedStream
 targetos: Windows
 req.typenames: 
 req.redist: 

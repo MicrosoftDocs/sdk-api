@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdclient.IWSDAsyncResult.SetWaitHandle
 title: IWSDAsyncResult::SetWaitHandle (wsdclient.h)
-
 description: Specifies a wait handle to set when the operation completes.
 old-location: ncd\iwsdasyncresult_setwaithandle_method.htm
 tech.root: WsdApi
 ms.assetid: d7196785-0e9c-4320-a14e-60457f72c66b
-
 ms.date: 12/05/2018
 ms.keywords: IWSDAsyncResult interface,SetWaitHandle method, IWSDAsyncResult.SetWaitHandle, IWSDAsyncResult::SetWaitHandle, SetWaitHandle, SetWaitHandle method, SetWaitHandle method,IWSDAsyncResult interface, ncd.iwsdasyncresult_setwaithandle_method, wsdclient/IWSDAsyncResult::SetWaitHandle
 ms.topic: method
-f1_keywords: 
- - "wsdclient/IWSDAsyncResult.SetWaitHandle"
+f1_keywords:
+- wsdclient/IWSDAsyncResult.SetWaitHandle
 dev_langs:
- - c++
+- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDAsyncResult.SetWaitHandle
+- IWSDAsyncResult.SetWaitHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIVirtualChannel.SendData
 title: IRDPSRAPIVirtualChannel::SendData (rdpencomapi.h)
-
 description: Sends data on the channel.
 old-location: rdp\irdpsrapivirtualchannel_senddata.htm
 tech.root: rdp
 ms.assetid: d861de01-70e3-49b0-91b3-01f6b0051823
-
 ms.date: 12/05/2018
 ms.keywords: CHANNEL_FLAGS_UNCOMPRESSED, IRDPSRAPIVirtualChannel interface [RDP],SendData method, IRDPSRAPIVirtualChannel.SendData, IRDPSRAPIVirtualChannel::SendData, SendData, SendData method [RDP], SendData method [RDP],IRDPSRAPIVirtualChannel interface, rdp.irdpsrapivirtualchannel_senddata, rdpencomapi/IRDPSRAPIVirtualChannel::SendData
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIVirtualChannel.SendData"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIVirtualChannel.SendData
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIVirtualChannel.SendData
+- IRDPSRAPIVirtualChannel.SendData
 targetos: Windows
 req.typenames: 
 req.redist: 

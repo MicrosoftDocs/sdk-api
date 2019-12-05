@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.SHShowManageLibraryUI
 title: SHShowManageLibraryUI function (shobjidl_core.h)
-
 description: Shows the library management dialog box, which enables users to manage the library folders and default save location.
 old-location: shell\SHShowManageLibraryUI.htm
 tech.root: shell
 ms.assetid: 1ac911bb-28d6-4cb6-a66a-1a0c8a4bd6a1
-
 ms.date: 12/05/2018
 ms.keywords: SHShowManageLibraryUI, SHShowManageLibraryUI function [Windows Shell], _shell_SHShowManageLibraryUI, shell.SHShowManageLibraryUI, shobjidl_core/SHShowManageLibraryUI
 ms.topic: function
-f1_keywords: 
- - "shobjidl_core/SHShowManageLibraryUI"
+f1_keywords:
+- shobjidl_core/SHShowManageLibraryUI
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHShowManageLibraryUI
+- SHShowManageLibraryUI
 targetos: Windows
 req.typenames: 
 req.redist: 

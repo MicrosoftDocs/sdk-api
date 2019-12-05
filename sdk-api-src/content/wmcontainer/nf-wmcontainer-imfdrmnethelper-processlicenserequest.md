@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFDRMNetHelper.ProcessLicenseRequest
 title: IMFDRMNetHelper::ProcessLicenseRequest (wmcontainer.h)
-
 description: Gets the license response for the specified request.
 old-location: mf\imfdrmnethelper_processlicenserequest.htm
 tech.root: medfound
 ms.assetid: e60f9831-f59d-46ff-b685-b26d6484a70d
-
 ms.date: 12/05/2018
 ms.keywords: IMFDRMNetHelper interface [Media Foundation],ProcessLicenseRequest method, IMFDRMNetHelper.ProcessLicenseRequest, IMFDRMNetHelper::ProcessLicenseRequest, ProcessLicenseRequest, ProcessLicenseRequest method [Media Foundation], ProcessLicenseRequest method [Media Foundation],IMFDRMNetHelper interface, mf.imfdrmnethelper_processlicenserequest, wmcontainer/IMFDRMNetHelper::ProcessLicenseRequest
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFDRMNetHelper.ProcessLicenseRequest"
+f1_keywords:
+- wmcontainer/IMFDRMNetHelper.ProcessLicenseRequest
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmcontainer.h
+- wmcontainer.h
 api_name:
- - IMFDRMNetHelper.ProcessLicenseRequest
+- IMFDRMNetHelper.ProcessLicenseRequest
 targetos: Windows
 req.typenames: 
 req.redist: 

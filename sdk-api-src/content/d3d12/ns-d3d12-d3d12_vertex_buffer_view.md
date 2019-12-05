@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_VERTEX_BUFFER_VIEW
 title: D3D12_VERTEX_BUFFER_VIEW (d3d12.h)
-
 description: Describes a vertex buffer view.
 old-location: direct3d12\d3d12_vertex_buffer_view.htm
 tech.root: direct3d12
 ms.assetid: 7EFE1929-FCDD-48DD-99E4-135D8B515290
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_VERTEX_BUFFER_VIEW, D3D12_VERTEX_BUFFER_VIEW structure, d3d12/D3D12_VERTEX_BUFFER_VIEW, direct3d12.d3d12_vertex_buffer_view
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_VERTEX_BUFFER_VIEW"
+f1_keywords:
+- d3d12/D3D12_VERTEX_BUFFER_VIEW
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_VERTEX_BUFFER_VIEW
+- D3D12_VERTEX_BUFFER_VIEW
 targetos: Windows
 req.typenames: D3D12_VERTEX_BUFFER_VIEW
 req.redist: 

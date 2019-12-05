@@ -1,7 +1,6 @@
 ---
 UID: TP:winsat
 ms.assetid: 0aeab50b-bfa8-3845-b2af-5a9d26d69145
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

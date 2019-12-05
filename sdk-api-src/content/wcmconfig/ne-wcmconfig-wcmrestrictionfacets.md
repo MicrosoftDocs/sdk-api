@@ -1,19 +1,17 @@
 ---
 UID: NE:wcmconfig.__MIDL___MIDL_itf_wcmconfig_0000_0000_0005
 title: WcmRestrictionFacets (wcmconfig.h)
-
 description: Enumerates the facet values that may be returned by the ISettingsItem::GetRestrictionFacets method.
 old-location: smi\wcmrestrictionfacets.htm
 tech.root: SMI
 ms.assetid: b9e62904-f6a9-4299-a558-51b57bd7d3db
-
 ms.date: 12/05/2018
 ms.keywords: WcmRestrictionFacets, WcmRestrictionFacets enumeration [SMI], restrictionFacetEnumeration, restrictionFacetMaxInclusive, restrictionFacetMaxLength, restrictionFacetMinInclusive, smi.wcmrestrictionfacets, wcmconfig/WcmRestrictionFacets, wcmconfig/restrictionFacetEnumeration, wcmconfig/restrictionFacetMaxInclusive, wcmconfig/restrictionFacetMaxLength, wcmconfig/restrictionFacetMinInclusive
 ms.topic: enum
-f1_keywords: 
- - "wcmconfig/WcmRestrictionFacets"
+f1_keywords:
+- wcmconfig/WcmRestrictionFacets
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WcmConfig.h
+- WcmConfig.h
 api_name:
- - WcmRestrictionFacets
+- WcmRestrictionFacets
 targetos: Windows
 req.typenames: WcmRestrictionFacets
 req.redist: 

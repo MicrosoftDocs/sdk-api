@@ -1,19 +1,17 @@
 ---
 UID: NF:filter.IFilter.BindRegion
 title: IFilter::BindRegion (filter.h)
-
 description: Retrieves an interface representing the specified portion of object. Currently reserved for future use.
 old-location: indexsrv\ifilter_bindregion.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_8bam.htm
-
 ms.date: 12/05/2018
 ms.keywords: BindRegion, BindRegion method [Indexing Service], BindRegion method [Indexing Service],IFilter interface, IFilter interface [Indexing Service],BindRegion method, IFilter.BindRegion, IFilter::BindRegion, _idxs_IFilter_BindRegion, filter/IFilter::BindRegion, indexsrv.ifilter_bindregion
 ms.topic: method
-f1_keywords: 
- - "filter/IFilter.BindRegion"
+f1_keywords:
+- filter/IFilter.BindRegion
 dev_langs:
- - c++
+- c++
 req.header: filter.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Filter.h
+- Filter.h
 api_name:
- - IFilter.BindRegion
+- IFilter.BindRegion
 targetos: Windows
 req.typenames: 
 req.redist: 

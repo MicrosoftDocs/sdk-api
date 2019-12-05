@@ -1,19 +1,17 @@
 ---
 UID: NS:iketypes.IKEEXT_STATISTICS0_
 title: IKEEXT_STATISTICS0 (iketypes.h)
-
 description: Stores various IKE/AuthIP statistics.
 old-location: fwp\ikeext_statistics0.htm
 tech.root: fwp
 ms.assetid: aefacc39-92a5-4d73-ac3c-0b5bf1407a90
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_STATISTICS0, IKEEXT_STATISTICS0 structure [Filtering], fwp.ikeext_statistics0, iketypes/IKEEXT_STATISTICS0
 ms.topic: struct
-f1_keywords: 
- - "iketypes/IKEEXT_STATISTICS0"
+f1_keywords:
+- iketypes/IKEEXT_STATISTICS0
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iketypes.h
+- Iketypes.h
 api_name:
- - IKEEXT_STATISTICS0
+- IKEEXT_STATISTICS0
 targetos: Windows
 req.typenames: IKEEXT_STATISTICS0
 req.redist: 

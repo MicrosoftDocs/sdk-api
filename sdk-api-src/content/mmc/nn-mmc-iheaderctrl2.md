@@ -1,19 +1,17 @@
 ---
 UID: NN:mmc.IHeaderCtrl2
 title: IHeaderCtrl2 (mmc.h)
-
 description: The IHeaderCtrl2 interface is introduced in MMC 1.2.
 old-location: mmc\iheaderctrl2.htm
 tech.root: mmc
 ms.assetid: fecf38be-6f45-45ea-a689-ff37b2b92922
-
 ms.date: 12/05/2018
 ms.keywords: IHeaderCtrl2, IHeaderCtrl2 interface [MMC], IHeaderCtrl2 interface [MMC],described, _slate_iheaderctrl2, mmc.iheaderctrl2, mmc/IHeaderCtrl2
 ms.topic: interface
-f1_keywords: 
- - "mmc/IHeaderCtrl2"
+f1_keywords:
+- mmc/IHeaderCtrl2
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IHeaderCtrl2
+- IHeaderCtrl2
 targetos: Windows
 req.typenames: 
 req.redist: 

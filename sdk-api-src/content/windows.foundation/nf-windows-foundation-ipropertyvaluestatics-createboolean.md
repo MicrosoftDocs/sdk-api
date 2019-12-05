@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateBoolean
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-
 description: Creates a new IPropertyValue object that contains the specified 8-bit Boolean value.
 old-location: winrt\ipropertyvaluestatics_createboolean.htm
 tech.root: WinRT
 ms.assetid: F825D8F2-8FCE-48A7-9BD8-57E5D97A0E88
-
 ms.date: 12/05/2018
 ms.keywords: CreateBoolean, CreateBoolean method [Windows Runtime], CreateBoolean method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateBoolean method, IPropertyValueStatics.CreateBoolean, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateBoolean, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateBoolean, winrt.ipropertyvaluefactory_createboolean, winrt.ipropertyvaluestatics_createboolean
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValueStatics.CreateBoolean"
+f1_keywords:
+- windows.foundation/IPropertyValueStatics.CreateBoolean
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValueStatics.CreateBoolean
+- IPropertyValueStatics.CreateBoolean
 targetos: Windows
 req.typenames: 
 req.redist: 

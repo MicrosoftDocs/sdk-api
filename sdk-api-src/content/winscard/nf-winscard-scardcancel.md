@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardCancel
 title: SCardCancel function (winscard.h)
-
 description: Terminates all outstanding actions within a specific resource manager context.
 old-location: security\scardcancel.htm
 tech.root: SecAuthN
 ms.assetid: abf3b4ff-4775-40e9-b68d-97dcf6a892ba
-
 ms.date: 12/05/2018
 ms.keywords: SCardCancel, SCardCancel function [Security], _smart_scardcancel, security.scardcancel, winscard/SCardCancel
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardCancel"
+f1_keywords:
+- winscard/SCardCancel
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winscard.dll
- - Ext-MS-Win-wlan-scard-l1-1-0.dll
- - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
+- Winscard.dll
+- Ext-MS-Win-wlan-scard-l1-1-0.dll
+- Ext-MS-Win-Security-WinSCard-L1-1-0.dll
 api_name:
- - SCardCancel
+- SCardCancel
 targetos: Windows
 req.typenames: 
 req.redist: 

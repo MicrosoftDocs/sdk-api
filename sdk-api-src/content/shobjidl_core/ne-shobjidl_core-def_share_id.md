@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.DEF_SHARE_ID
 title: DEF_SHARE_ID (shobjidl_core.h)
-
 description: Values that specify the folder being acted on by methods of the ISharingConfigurationManager interface.
 old-location: shell\DEF_SHARE_ID.htm
 tech.root: shell
 ms.assetid: 02d3b664-eeef-4214-99e8-246241103c4e
-
 ms.date: 12/05/2018
 ms.keywords: DEFSHAREID_PUBLIC, DEFSHAREID_USERS, DEF_SHARE_ID, DEF_SHARE_ID enumeration [Windows Shell], _shell_DEF_SHARE_ID, shell.DEF_SHARE_ID, shobjidl_core/DEFSHAREID_PUBLIC, shobjidl_core/DEFSHAREID_USERS, shobjidl_core/DEF_SHARE_ID
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/DEF_SHARE_ID"
+f1_keywords:
+- shobjidl_core/DEF_SHARE_ID
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - DEF_SHARE_ID
+- DEF_SHARE_ID
 targetos: Windows
 req.typenames: DEF_SHARE_ID
 req.redist: 

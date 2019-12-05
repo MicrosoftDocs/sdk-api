@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateSingle
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-
 description: Creates a new IPropertyValue object that contains the specified 32-bit floating point value.
 old-location: winrt\ipropertyvaluestatics_createsingle.htm
 tech.root: WinRT
 ms.assetid: A74F66F8-3F02-4CD0-86BC-FBEC340466C4
-
 ms.date: 12/05/2018
 ms.keywords: CreateSingle, CreateSingle method [Windows Runtime], CreateSingle method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateSingle method, IPropertyValueStatics.CreateSingle, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateSingle, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateSingle, winrt.ipropertyvaluefactory_createsingle, winrt.ipropertyvaluestatics_createsingle
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValueStatics.CreateSingle"
+f1_keywords:
+- windows.foundation/IPropertyValueStatics.CreateSingle
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValueStatics.CreateSingle
+- IPropertyValueStatics.CreateSingle
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wdsbp.WdsBpInitialize
 title: WdsBpInitialize function (wdsbp.h)
-
 description: Constructs options for the WDS network boot program.
 old-location: wds\wdsbpinitialize.htm
 tech.root: wds
 ms.assetid: a77cbdf5-9025-4e98-8edd-1b9bae8493e7
-
 ms.date: 12/05/2018
 ms.keywords: WDSBP_PK_TYPE_BCD, WDSBP_PK_TYPE_DHCPV6, WDSBP_PK_TYPE_WDSNBP, WdsBpInitialize, WdsBpInitialize function [Windows Deployment Services], wds.wdsbpinitialize, wdsbp/WdsBpInitialize
 ms.topic: function
-f1_keywords: 
- - "wdsbp/WdsBpInitialize"
+f1_keywords:
+- wdsbp/WdsBpInitialize
 dev_langs:
- - c++
+- c++
 req.header: wdsbp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wdsbp.lib
 req.dll: Wdsbp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wdsbp.dll
+- Wdsbp.dll
 api_name:
- - WdsBpInitialize
+- WdsBpInitialize
 targetos: Windows
 req.typenames: 
 req.redist: 

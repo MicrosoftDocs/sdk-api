@@ -1,19 +1,17 @@
 ---
 UID: NF:midles.MesBufferHandleReset
 title: MesBufferHandleReset function (midles.h)
-
 description: The MesBufferHandleReset function re-initializes the handle for buffer serialization.
 old-location: rpc\mesbufferhandlereset.htm
 tech.root: Rpc
 ms.assetid: adc9681f-267e-4f6f-88a3-ec913e886dd1
-
 ms.date: 12/05/2018
 ms.keywords: MesBufferHandleReset, MesBufferHandleReset function [RPC], _rpc_mesbufferhandlereset, midles/MesBufferHandleReset, rpc.mesbufferhandlereset
 ms.topic: function
-f1_keywords: 
- - "midles/MesBufferHandleReset"
+f1_keywords:
+- midles/MesBufferHandleReset
 dev_langs:
- - c++
+- c++
 req.header: midles.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - MesBufferHandleReset
+- MesBufferHandleReset
 targetos: Windows
 req.typenames: 
 req.redist: 

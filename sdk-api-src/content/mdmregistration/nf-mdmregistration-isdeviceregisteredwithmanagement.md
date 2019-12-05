@@ -1,19 +1,17 @@
 ---
 UID: NF:mdmregistration.IsDeviceRegisteredWithManagement
 title: IsDeviceRegisteredWithManagement function (mdmregistration.h)
-
 description: Checks whether the device is registered with an MDM service.
 old-location: mdmreg\isdeviceregisteredwithmanagement.htm
 tech.root: MDMReg
 ms.assetid: 7f8b4965-0acd-4e64-8756-37e7bf96ab6e
-
 ms.date: 12/05/2018
 ms.keywords: IsDeviceRegisteredWithManagement, IsDeviceRegisteredWithManagement function [MDM Registration], mdmreg.isdeviceregisteredwithmanagement, mdmregistration/IsDeviceRegisteredWithManagement
 ms.topic: function
-f1_keywords: 
- - "mdmregistration/IsDeviceRegisteredWithManagement"
+f1_keywords:
+- mdmregistration/IsDeviceRegisteredWithManagement
 dev_langs:
- - c++
+- c++
 req.header: mdmregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: MDMRegistration.lib
 req.dll: MDMRegistration.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - MDMRegistration.dll
- - MDMRegistration2.dll
+- MDMRegistration.dll
+- MDMRegistration2.dll
 api_name:
- - IsDeviceRegisteredWithManagement
+- IsDeviceRegisteredWithManagement
 targetos: Windows
 req.typenames: 
 req.redist: 

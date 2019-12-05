@@ -1,19 +1,17 @@
 ---
 UID: NF:userenv.GetDefaultUserProfileDirectoryA
 title: GetDefaultUserProfileDirectoryA function (userenv.h)
-
 description: Retrieves the path to the root of the default user's profile.
 old-location: shell\GetDefaultUserProfileDirectory.htm
 tech.root: shell
 ms.assetid: 14ff99cb-838a-442b-9f51-414bd7c0a2ef
-
 ms.date: 12/05/2018
 ms.keywords: GetDefaultUserProfileDirectory, GetDefaultUserProfileDirectory function [Windows Shell], GetDefaultUserProfileDirectoryA, GetDefaultUserProfileDirectoryW, _shell_GetDefaultUserProfileDirectory, shell.GetDefaultUserProfileDirectory, userenv/GetDefaultUserProfileDirectory, userenv/GetDefaultUserProfileDirectoryA, userenv/GetDefaultUserProfileDirectoryW
 ms.topic: function
-f1_keywords: 
- - "userenv/GetDefaultUserProfileDirectory"
+f1_keywords:
+- userenv/GetDefaultUserProfileDirectory
 dev_langs:
- - c++
+- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Userenv.dll
+- Userenv.dll
 api_name:
- - GetDefaultUserProfileDirectory
- - GetDefaultUserProfileDirectoryA
- - GetDefaultUserProfileDirectoryW
+- GetDefaultUserProfileDirectory
+- GetDefaultUserProfileDirectoryA
+- GetDefaultUserProfileDirectoryW
 targetos: Windows
 req.typenames: 
 req.redist: 

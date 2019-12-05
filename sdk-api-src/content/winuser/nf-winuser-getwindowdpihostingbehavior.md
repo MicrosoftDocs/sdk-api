@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetWindowDpiHostingBehavior
 title: GetWindowDpiHostingBehavior function (winuser.h)
-
 description: Returns the DPI_HOSTING_BEHAVIOR of the specified window.
 old-location: hidpi\getwindowdpihostingbehavior.htm
 tech.root: hidpi
 ms.assetid: BD16F545-54A1-479A-BA4B-F54834043EB2
-
 ms.date: 12/05/2018
 ms.keywords: GetWindowDpiHostingBehavior, GetWindowDpiHostingBehavior function [High DPI], hidpi.getwindowdpihostingbehavior, winuser/GetWindowDpiHostingBehavior
 ms.topic: function
-f1_keywords: 
- - "winuser/GetWindowDpiHostingBehavior"
+f1_keywords:
+- winuser/GetWindowDpiHostingBehavior
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - GetWindowDpiHostingBehavior
+- GetWindowDpiHostingBehavior
 targetos: Windows
 req.typenames: 
 req.redist: 

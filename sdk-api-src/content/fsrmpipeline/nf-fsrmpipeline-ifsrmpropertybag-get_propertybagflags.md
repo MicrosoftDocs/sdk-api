@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_PropertyBagFlags
 title: IFsrmPropertyBag::get_PropertyBagFlags (fsrmpipeline.h)
-
 description: A set of flags that provide additional information about the property bag.
 old-location: fsrm\ifsrmpropertybag_propertybagflags.htm
 tech.root: fsrm
 ms.assetid: b7e5885e-c716-4fa8-afc0-bfe258e5f421
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],PropertyBagFlags property, IFsrmPropertyBag.PropertyBagFlags, IFsrmPropertyBag.get_PropertyBagFlags, IFsrmPropertyBag::PropertyBagFlags, IFsrmPropertyBag::get_PropertyBagFlags, PropertyBagFlags property [File Server Resource Manager], PropertyBagFlags property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_propertybagflags, fsrm.ifsrmpropertybag_propertybagflags, fsrmpipeline/IFsrmPropertyBag::PropertyBagFlags, fsrmpipeline/IFsrmPropertyBag::get_PropertyBagFlags, get_PropertyBagFlags
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmPropertyBag.PropertyBagFlags"
+f1_keywords:
+- fsrmpipeline/IFsrmPropertyBag.PropertyBagFlags
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPropertyBag.PropertyBagFlags
- - IFsrmPropertyBag.get_PropertyBagFlags
+- IFsrmPropertyBag.PropertyBagFlags
+- IFsrmPropertyBag.get_PropertyBagFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

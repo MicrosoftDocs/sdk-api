@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.MCIWndPutDest
 title: MCIWndPutDest macro (vfw.h)
-
 description: The MCIWndPutDest macro redefines the coordinates of the destination rectangle used for zooming or stretching the images of an AVI file during playback. You can use this macro or explicitly send the MCIWNDM_PUT_DEST message.
 old-location: multimedia\mciwndputdest.htm
 tech.root: Multimedia
 ms.assetid: d058c1b7-f7f8-49a0-84cc-ece298a25289
-
 ms.date: 12/05/2018
 ms.keywords: MCIWndPutDest, MCIWndPutDest macro [Windows Multimedia], _win32_MCIWndPutDest, multimedia.mciwndputdest, vfw/MCIWndPutDest
 ms.topic: macro
-f1_keywords: 
- - "vfw/MCIWndPutDest"
+f1_keywords:
+- vfw/MCIWndPutDest
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - MCIWndPutDest
+- MCIWndPutDest
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.GetCrawlScopeManager
 title: ISearchCatalogManager::GetCrawlScopeManager (searchapi.h)
-
 description: Gets an ISearchCrawlScopeManager interface for this search catalog.
 old-location: search\_search_ISearchCatalogManager_GetCrawlScopeManager.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\getcrawlscopemanager.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetCrawlScopeManager, GetCrawlScopeManager method [search], GetCrawlScopeManager method [search],ISearchCatalogManager interface, ISearchCatalogManager interface [search],GetCrawlScopeManager method, ISearchCatalogManager.GetCrawlScopeManager, ISearchCatalogManager::GetCrawlScopeManager, _search_ISearchCatalogManager_GetCrawlScopeManager, search._search_ISearchCatalogManager_GetCrawlScopeManager, searchapi/ISearchCatalogManager::GetCrawlScopeManager
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchCatalogManager.GetCrawlScopeManager"
+f1_keywords:
+- searchapi/ISearchCatalogManager.GetCrawlScopeManager
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchCatalogManager.GetCrawlScopeManager
+- ISearchCatalogManager.GetCrawlScopeManager
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

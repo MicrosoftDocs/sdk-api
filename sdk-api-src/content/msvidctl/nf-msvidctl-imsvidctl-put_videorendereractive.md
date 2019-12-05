@@ -1,19 +1,17 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.put_VideoRendererActive
 title: IMSVidCtl::put_VideoRendererActive (msvidctl.h)
-
 description: The put_VideoRendererActive method specifies the active video renderer.
 old-location: mstv\imsvidctl_put_videorendereractive.htm
 tech.root: mstv
 ms.assetid: fb6e1db7-b980-4706-a1f1-cd6d8423bfb2
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_VideoRendererActive method, IMSVidCtl.put_VideoRendererActive, IMSVidCtl::put_VideoRendererActive, IMSVidCtlput_VideoRendererActive, mstv.imsvidctl_put_videorendereractive, msvidctl/IMSVidCtl::put_VideoRendererActive, put_VideoRendererActive, put_VideoRendererActive method [Microsoft TV Technologies], put_VideoRendererActive method [Microsoft TV Technologies],IMSVidCtl interface
 ms.topic: method
-f1_keywords: 
- - "msvidctl/IMSVidCtl.put_VideoRendererActive"
+f1_keywords:
+- msvidctl/IMSVidCtl.put_VideoRendererActive
 dev_langs:
- - c++
+- c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msvidctl.h
+- msvidctl.h
 api_name:
- - IMSVidCtl.put_VideoRendererActive
+- IMSVidCtl.put_VideoRendererActive
 targetos: Windows
 req.typenames: 
 req.redist: 

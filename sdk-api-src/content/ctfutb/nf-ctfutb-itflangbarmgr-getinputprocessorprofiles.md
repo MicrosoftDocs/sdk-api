@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.GetInputProcessorProfiles
 title: ITfLangBarMgr::GetInputProcessorProfiles (ctfutb.h)
-
 description: ITfLangBarMgr::GetInputProcessorProfiles method
 old-location: tsf\itflangbarmgr_getinputprocessorprofiles.htm
 tech.root: TSF
 ms.assetid: 679d101b-b3f9-4771-9c68-729a6a3486de
-
 ms.date: 12/05/2018
 ms.keywords: GetInputProcessorProfiles, GetInputProcessorProfiles method [Text Services Framework], GetInputProcessorProfiles method [Text Services Framework],ITfLangBarMgr interface, ITfLangBarMgr interface [Text Services Framework],GetInputProcessorProfiles method, ITfLangBarMgr.GetInputProcessorProfiles, ITfLangBarMgr::GetInputProcessorProfiles, _tsf_itflangbarmgr_getinputprocessorprofiles_ref, ctfutb/ITfLangBarMgr::GetInputProcessorProfiles, tsf.itflangbarmgr_getinputprocessorprofiles
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfLangBarMgr.GetInputProcessorProfiles"
+f1_keywords:
+- ctfutb/ITfLangBarMgr.GetInputProcessorProfiles
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfLangBarMgr.GetInputProcessorProfiles
+- ITfLangBarMgr.GetInputProcessorProfiles
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

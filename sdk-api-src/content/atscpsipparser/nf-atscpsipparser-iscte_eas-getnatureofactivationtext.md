@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetNatureOfActivationText
 title: ISCTE_EAS::GetNatureOfActivationText (atscpsipparser.h)
-
 description: The GetNatureOfActivationText method gets a textual representation of the alert for a specified ISO 639 language code.
 old-location: mstv\iscte_eas_getnatureofactivationtext.htm
 tech.root: mstv
 ms.assetid: 36cb57f1-b894-4c41-b555-db15f8dbe516
-
 ms.date: 12/05/2018
 ms.keywords: GetNatureOfActivationText, GetNatureOfActivationText method [Microsoft TV Technologies], GetNatureOfActivationText method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetNatureOfActivationText method, ISCTE_EAS.GetNatureOfActivationText, ISCTE_EAS::GetNatureOfActivationText, ISCTE_EASGetNatureOfActivationText, atscpsipparser/ISCTE_EAS::GetNatureOfActivationText, mstv.iscte_eas_getnatureofactivationtext
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/ISCTE_EAS.GetNatureOfActivationText"
+f1_keywords:
+- atscpsipparser/ISCTE_EAS.GetNatureOfActivationText
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - ISCTE_EAS.GetNatureOfActivationText
+- ISCTE_EAS.GetNatureOfActivationText
 targetos: Windows
 req.typenames: 
 req.redist: 

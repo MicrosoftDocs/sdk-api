@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.Pause
 title: IUIAnimationManager::Pause (uianimation.h)
-
 description: Pauses all animations.
 old-location: uianimation\iuianimationmanager_pause.htm
 tech.root: UIAnimation
 ms.assetid: 52b11e79-9930-4fd8-84b4-152917090519
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManager interface [Windows Animation],Pause method, IUIAnimationManager.Pause, IUIAnimationManager::Pause, Pause, Pause method [Windows Animation], Pause method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_pause, uianimation/IUIAnimationManager::Pause
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationManager.Pause"
+f1_keywords:
+- uianimation/IUIAnimationManager.Pause
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationManager.Pause
+- IUIAnimationManager.Pause
 targetos: Windows
 req.typenames: 
 req.redist: 

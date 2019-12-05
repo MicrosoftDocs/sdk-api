@@ -1,19 +1,17 @@
 ---
 UID: NE:ifdef._NET_IF_ADMIN_STATUS
 title: NET_IF_ADMIN_STATUS (ifdef.h)
-
 description: The NET_IF_ADMIN_STATUS enumeration type specifies the NDIS network interface administrative status, as described in RFC 2863.
 old-location: netvista\net_if_admin_status.htm
 tech.root: NetVista
 ms.assetid: 9f6978a9-a779-49c6-b642-c411fa764972
-
 ms.date: 12/05/2018
-ms.keywords: "*PNET_IF_ADMIN_STATUS, NET_IF_ADMIN_STATUS, NET_IF_ADMIN_STATUS enumeration [Network Drivers Starting with Windows Vista], NET_IF_ADMIN_STATUS_DOWN, NET_IF_ADMIN_STATUS_TESTING, NET_IF_ADMIN_STATUS_UP, PNET_IF_ADMIN_STATUS, PNET_IF_ADMIN_STATUS enumeration pointer [Network Drivers Starting with Windows Vista], ifdef/NET_IF_ADMIN_STATUS, ifdef/NET_IF_ADMIN_STATUS_DOWN, ifdef/NET_IF_ADMIN_STATUS_TESTING, ifdef/NET_IF_ADMIN_STATUS_UP, ifdef/PNET_IF_ADMIN_STATUS, net_if_enums_ref_d52428da-7651-4581-8ec4-9409fbfc663f.xml, netvista.net_if_admin_status"
+ms.keywords: '*PNET_IF_ADMIN_STATUS, NET_IF_ADMIN_STATUS, NET_IF_ADMIN_STATUS enumeration [Network Drivers Starting with Windows Vista], NET_IF_ADMIN_STATUS_DOWN, NET_IF_ADMIN_STATUS_TESTING, NET_IF_ADMIN_STATUS_UP, PNET_IF_ADMIN_STATUS, PNET_IF_ADMIN_STATUS enumeration pointer [Network Drivers Starting with Windows Vista], ifdef/NET_IF_ADMIN_STATUS, ifdef/NET_IF_ADMIN_STATUS_DOWN, ifdef/NET_IF_ADMIN_STATUS_TESTING, ifdef/NET_IF_ADMIN_STATUS_UP, ifdef/PNET_IF_ADMIN_STATUS, net_if_enums_ref_d52428da-7651-4581-8ec4-9409fbfc663f.xml, netvista.net_if_admin_status'
 ms.topic: enum
-f1_keywords: 
- - "ifdef/NET_IF_ADMIN_STATUS"
+f1_keywords:
+- ifdef/NET_IF_ADMIN_STATUS
 dev_langs:
- - c++
+- c++
 req.header: ifdef.h
 req.include-header: Netioapi.h, Ntddndis.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ifdef.h
+- ifdef.h
 api_name:
- - NET_IF_ADMIN_STATUS
+- NET_IF_ADMIN_STATUS
 targetos: Windows
 req.typenames: NET_IF_ADMIN_STATUS, *PNET_IF_ADMIN_STATUS
 req.redist: 

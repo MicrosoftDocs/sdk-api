@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_XML_BASE64_TEXT
 title: WS_XML_BASE64_TEXT (webservices.h)
-
 description: Represents base64 encoded data.
 old-location: wsw\ws_xml_base64_text.htm
 tech.root: wsw
 ms.assetid: 6b4d555b-4e1f-4cc1-8204-6584a5d1dc77
-
 ms.date: 12/05/2018
 ms.keywords: WS_XML_BASE64_TEXT, WS_XML_BASE64_TEXT structure [Web Services for Windows], webservices/WS_XML_BASE64_TEXT, wsw.ws_xml_base64_text
 ms.topic: struct
 f1_keywords:
 - webservices/WS_XML_BASE64_TEXT
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

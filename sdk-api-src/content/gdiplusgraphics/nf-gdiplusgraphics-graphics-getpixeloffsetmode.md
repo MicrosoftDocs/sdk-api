@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetPixelOffsetMode
 title: Graphics::GetPixelOffsetMode (gdiplusgraphics.h)
-
 description: The Graphics::GetPixelOffsetMode method gets the pixel offset mode currently set for this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetPixelOffsetMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getpixeloffsetmode.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetPixelOffsetMode, GetPixelOffsetMode method [GDI+], GetPixelOffsetMode method [GDI+],Graphics class, Graphics class [GDI+],GetPixelOffsetMode method, Graphics.GetPixelOffsetMode, Graphics::GetPixelOffsetMode, _gdiplus_CLASS_Graphics_GetPixelOffsetMode_, gdiplus._gdiplus_CLASS_Graphics_GetPixelOffsetMode_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.GetPixelOffsetMode"
+f1_keywords:
+- gdiplusgraphics/Graphics.GetPixelOffsetMode
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.GetPixelOffsetMode
+- Graphics.GetPixelOffsetMode
 targetos: Windows
 req.typenames: 
 req.redist: 

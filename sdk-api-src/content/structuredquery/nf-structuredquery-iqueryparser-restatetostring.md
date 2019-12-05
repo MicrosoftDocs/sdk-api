@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IQueryParser.RestateToString
 title: IQueryParser::RestateToString (structuredquery.h)
-
 description: Restates a condition as a structured query string. If the condition was the result of parsing an original query string, the keywords of that query string are used to a great extent. If not, default keywords are used.
 old-location: search\_search_IQueryParser_RestateToString.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\restatetostring.htm
-
 ms.date: 12/05/2018
 ms.keywords: IQueryParser interface [search],RestateToString method, IQueryParser.RestateToString, IQueryParser::RestateToString, RestateToString, RestateToString method [search], RestateToString method [search],IQueryParser interface, _search_IQueryParser_RestateToString, search._search_IQueryParser_RestateToString, structuredquery/IQueryParser::RestateToString
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IQueryParser.RestateToString"
+f1_keywords:
+- structuredquery/IQueryParser.RestateToString
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IQueryParser.RestateToString
+- IQueryParser.RestateToString
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

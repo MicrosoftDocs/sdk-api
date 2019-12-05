@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IToolbar.GetButtonState
 title: IToolbar::GetButtonState (mmc.h)
-
 description: Enables a snap-in to obtain an attribute of a button.
 old-location: mmc\itoolbar_getbuttonstate.htm
 tech.root: mmc
 ms.assetid: 94c41b13-f1ab-4368-8cfa-960caeea796e
-
 ms.date: 12/05/2018
 ms.keywords: BUTTONPRESSED, CHECKED, ENABLED, GetButtonState, GetButtonState method [MMC], GetButtonState method [MMC],IToolbar interface, HIDDEN, INDETERMINATE, IToolbar interface [MMC],GetButtonState method, IToolbar.GetButtonState, IToolbar::GetButtonState, _slate_itoolbar_getbuttonstate, mmc.itoolbar_getbuttonstate, mmc/IToolbar::GetButtonState
 ms.topic: method
-f1_keywords: 
- - "mmc/IToolbar.GetButtonState"
+f1_keywords:
+- mmc/IToolbar.GetButtonState
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IToolbar.GetButtonState
+- IToolbar.GetButtonState
 targetos: Windows
 req.typenames: 
 req.redist: 

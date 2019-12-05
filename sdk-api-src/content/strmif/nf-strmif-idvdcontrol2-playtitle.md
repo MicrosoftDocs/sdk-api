@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl2.PlayTitle
 title: IDvdControl2::PlayTitle (strmif.h)
-
 description: The PlayTitle method starts playback from the beginning of the specified title.
 old-location: dshow\idvdcontrol2_playtitle.htm
 tech.root: DirectShow
 ms.assetid: 5cdea69e-7d32-470e-846b-1b2be5ca87b1
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayTitle method, IDvdControl2.PlayTitle, IDvdControl2::PlayTitle, IDvdControl2PlayTitle, PlayTitle, PlayTitle method [DirectShow], PlayTitle method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playtitle, strmif/IDvdControl2::PlayTitle
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl2.PlayTitle"
+f1_keywords:
+- strmif/IDvdControl2.PlayTitle
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdControl2.PlayTitle
+- IDvdControl2.PlayTitle
 targetos: Windows
 req.typenames: 
 req.redist: 

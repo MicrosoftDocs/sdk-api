@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.IAutoCompleteDropDown
 title: IAutoCompleteDropDown (shobjidl.h)
-
 description: Exposes methods that allow clients to reset or query the display state of the autocomplete drop-down list, which contains possible completions to a string entered by the user in an edit control.
 old-location: shell\IAutoCompleteDropDown.htm
 tech.root: shell
 ms.assetid: 1f956d61-6a09-464e-bfe8-0b3bcb9ea181
-
 ms.date: 12/05/2018
 ms.keywords: IAutoCompleteDropDown, IAutoCompleteDropDown interface [Windows Shell], IAutoCompleteDropDown interface [Windows Shell],described, _shell_IAutoCompleteDropDown, shell.IAutoCompleteDropDown, shobjidl/IAutoCompleteDropDown
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/IAutoCompleteDropDown"
+f1_keywords:
+- shobjidl/IAutoCompleteDropDown
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Browseui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Browseui.dll
+- Browseui.dll
 api_name:
- - IAutoCompleteDropDown
+- IAutoCompleteDropDown
 targetos: Windows
 req.typenames: 
 req.redist: 

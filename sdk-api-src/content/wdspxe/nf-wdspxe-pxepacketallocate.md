@@ -1,19 +1,17 @@
 ---
 UID: NF:wdspxe.PxePacketAllocate
 title: PxePacketAllocate function (wdspxe.h)
-
 description: Allocates a packet to be sent with the PxeSendReply function.
 old-location: wds\pxepacketallocate.htm
 tech.root: wds
 ms.assetid: f3a664a8-565c-4894-bea7-6664df0ecd9b
-
 ms.date: 12/05/2018
 ms.keywords: PxePacketAllocate, PxePacketAllocate function [Windows Deployment Services], wds.pxepacketallocate, wdspxe/PxePacketAllocate
 ms.topic: function
-f1_keywords: 
- - "wdspxe/PxePacketAllocate"
+f1_keywords:
+- wdspxe/PxePacketAllocate
 dev_langs:
- - c++
+- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsPxe.lib
 req.dll: WdsPxe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsPxe.dll
+- WdsPxe.dll
 api_name:
- - PxePacketAllocate
+- PxePacketAllocate
 targetos: Windows
 req.typenames: 
 req.redist: 

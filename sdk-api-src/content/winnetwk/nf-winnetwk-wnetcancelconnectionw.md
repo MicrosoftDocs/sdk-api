@@ -1,19 +1,17 @@
 ---
 UID: NF:winnetwk.WNetCancelConnectionW
 title: WNetCancelConnectionW function (winnetwk.h)
-
 description: The WNetCancelConnection function cancels an existing network connection.
 old-location: wnet\wnetcancelconnection.htm
 tech.root: WNet
 ms.assetid: e180d497-5e14-459a-8cf6-5664dfb88419
-
 ms.date: 12/05/2018
 ms.keywords: WNetCancelConnection, WNetCancelConnection function [Windows Networking (WNet)], WNetCancelConnectionA, WNetCancelConnectionW, _win32_wnetcancelconnection, winnetwk/WNetCancelConnection, winnetwk/WNetCancelConnectionA, winnetwk/WNetCancelConnectionW, wnet.wnetcancelconnection
 ms.topic: function
-f1_keywords: 
- - "winnetwk/WNetCancelConnection"
+f1_keywords:
+- winnetwk/WNetCancelConnection
 dev_langs:
- - c++
+- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mpr.dll
+- Mpr.dll
 api_name:
- - WNetCancelConnection
- - WNetCancelConnectionA
- - WNetCancelConnectionW
+- WNetCancelConnection
+- WNetCancelConnectionA
+- WNetCancelConnectionW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.DeleteFileTransactedW
 title: DeleteFileTransactedW function (winbase.h)
-
 description: Deletes an existing file as a transacted operation.
 old-location: fs\deletefiletransacted.htm
 tech.root: FileIO
 ms.assetid: e0a6230b-2da1-4746-95fe-80f7b6bae41f
-
 ms.date: 12/05/2018
 ms.keywords: DeleteFileTransacted, DeleteFileTransacted function [Files], DeleteFileTransactedA, DeleteFileTransactedW, fs.deletefiletransacted, winbase/DeleteFileTransacted, winbase/DeleteFileTransactedA, winbase/DeleteFileTransactedW
 ms.topic: function
-f1_keywords: 
- - "winbase/DeleteFileTransacted"
+f1_keywords:
+- winbase/DeleteFileTransacted
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - Ext-MS-Win-Kernel32-Transacted-l1-1-0.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - Kernel32Legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- Ext-MS-Win-Kernel32-Transacted-l1-1-0.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- Kernel32Legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - DeleteFileTransacted
- - DeleteFileTransactedA
- - DeleteFileTransactedW
+- DeleteFileTransacted
+- DeleteFileTransactedA
+- DeleteFileTransactedW
 targetos: Windows
 req.typenames: 
 req.redist: 

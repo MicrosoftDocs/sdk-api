@@ -1,19 +1,17 @@
 ---
 UID: NE:naptypes.tagFailureCategory
 title: FailureCategory (naptypes.h)
-
 description: Indicates the source of a failure.
 old-location: nap\failurecategory_enum.htm
 tech.root: NAP
 ms.assetid: 3f528702-c9f3-4a91-960b-8b3f3eea91e9
-
 ms.date: 12/05/2018
 ms.keywords: FailureCategory, FailureCategory enumeration [NAP], failureCategoryClientCommunication, failureCategoryClientComponent, failureCategoryNone, failureCategoryOther, failureCategoryServerCommunication, failureCategoryServerComponent, nap.failurecategory_enum, naptypes/FailureCategory, naptypes/failureCategoryClientCommunication, naptypes/failureCategoryClientComponent, naptypes/failureCategoryNone, naptypes/failureCategoryOther, naptypes/failureCategoryServerCommunication, naptypes/failureCategoryServerComponent
 ms.topic: enum
-f1_keywords: 
- - "naptypes/FailureCategory"
+f1_keywords:
+- naptypes/FailureCategory
 dev_langs:
- - c++
+- c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - NapTypes.h
+- NapTypes.h
 api_name:
- - FailureCategory
+- FailureCategory
 targetos: Windows
 req.typenames: FailureCategory
 req.redist: 

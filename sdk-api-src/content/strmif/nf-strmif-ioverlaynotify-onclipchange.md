@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IOverlayNotify.OnClipChange
 title: IOverlayNotify::OnClipChange (strmif.h)
-
 description: The OnClipChange method provides notification that the window's visible region has changed. It is essential that any overlay hardware be updated to reflect the change to the visible region before returning from this method.
 old-location: dshow\ioverlaynotify_onclipchange.htm
 tech.root: DirectShow
 ms.assetid: d5bed27f-2918-4c1f-9340-a0d5714d911b
-
 ms.date: 12/05/2018
 ms.keywords: IOverlayNotify interface [DirectShow],OnClipChange method, IOverlayNotify.OnClipChange, IOverlayNotify::OnClipChange, IOverlayNotifyOnClipChange, OnClipChange, OnClipChange method [DirectShow], OnClipChange method [DirectShow],IOverlayNotify interface, dshow.ioverlaynotify_onclipchange, strmif/IOverlayNotify::OnClipChange
 ms.topic: method
-f1_keywords: 
- - "strmif/IOverlayNotify.OnClipChange"
+f1_keywords:
+- strmif/IOverlayNotify.OnClipChange
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IOverlayNotify.OnClipChange
+- IOverlayNotify.OnClipChange
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:provider.Provider.Commit
 title: Provider::Commit (provider.h)
-
 description: The Commit method is used to send an instance to WMI. This method is a helper function and should not be overridden.
 old-location: wmi\provider_commit.htm
 tech.root: WmiSdk
 ms.assetid: 619adf78-26db-4a90-90ba-bdacb3e55975
-
 ms.date: 12/05/2018
-ms.keywords: "?Commit@Provider@@IAEJPAVCInstance@@_N@Z, ?Commit@Provider@@IEAAJPEAVCInstance@@_N@Z, Commit, Commit method [Windows Management Instrumentation], Commit method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],Commit method, Provider.Commit, Provider::Commit, _hmm_provider_commit, provider/Provider::Commit, wmi.provider_commit"
+ms.keywords: ?Commit@Provider@@IAEJPAVCInstance@@_N@Z, ?Commit@Provider@@IEAAJPEAVCInstance@@_N@Z, Commit, Commit method [Windows Management Instrumentation], Commit method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],Commit method, Provider.Commit, Provider::Commit, _hmm_provider_commit, provider/Provider::Commit, wmi.provider_commit
 ms.topic: method
-f1_keywords: 
- - "provider/Provider.Commit"
+f1_keywords:
+- provider/Provider.Commit
 dev_langs:
- - c++
+- c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllCommit
+- DllCommit
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - Provider.Commit
- - ?Commit@Provider@@IAEJPAVCInstance@@_N@Z
- - ?Commit@Provider@@IEAAJPEAVCInstance@@_N@Z
+- Provider.Commit
+- ?Commit@Provider@@IAEJPAVCInstance@@_N@Z
+- ?Commit@Provider@@IEAAJPEAVCInstance@@_N@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

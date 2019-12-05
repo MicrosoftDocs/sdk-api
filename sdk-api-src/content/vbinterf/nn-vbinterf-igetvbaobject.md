@@ -1,19 +1,17 @@
 ---
 UID: NN:vbinterf.IGetVBAObject
 title: IGetVBAObject (vbinterf.h)
-
 description: Gets access to the IVBFormat interface.
 old-location: com\igetvbaobject.htm
 tech.root: com
 ms.assetid: dda96834-7fc9-4361-9861-b9831fc7e6fe
-
 ms.date: 12/05/2018
 ms.keywords: IGetVBAObject, IGetVBAObject interface [COM], IGetVBAObject interface [COM],described, _com_IGetVBAObject, com.igetvbaobject, vbinterf/IGetVBAObject
 ms.topic: interface
-f1_keywords: 
- - "vbinterf/IGetVBAObject"
+f1_keywords:
+- vbinterf/IGetVBAObject
 dev_langs:
- - c++
+- c++
 req.header: vbinterf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VbInterf.h
+- VbInterf.h
 api_name:
- - IGetVBAObject
+- IGetVBAObject
 targetos: Windows
 req.typenames: 
 req.redist: 

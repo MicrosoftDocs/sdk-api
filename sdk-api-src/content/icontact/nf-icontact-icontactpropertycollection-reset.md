@@ -1,19 +1,17 @@
 ---
 UID: NF:icontact.IContactPropertyCollection.Reset
 title: IContactPropertyCollection::Reset (icontact.h)
-
 description: Resets enumeration of properties.
 old-location: wincontacts\_wincontacts_IContactPropertyCollection_Reset.htm
 tech.root: wincontacts
 ms.assetid: cef73e3c-56be-44b8-b05b-3c2081b71591
-
 ms.date: 12/05/2018
 ms.keywords: IContactPropertyCollection interface [Windows Contacts],Reset method, IContactPropertyCollection.Reset, IContactPropertyCollection::Reset, Reset, Reset method [Windows Contacts], Reset method [Windows Contacts],IContactPropertyCollection interface, _wincontacts_IContactPropertyCollection_Reset, icontact/IContactPropertyCollection::Reset, wincontacts._wincontacts_IContactPropertyCollection_Reset
 ms.topic: method
-f1_keywords: 
- - "icontact/IContactPropertyCollection.Reset"
+f1_keywords:
+- icontact/IContactPropertyCollection.Reset
 dev_langs:
- - c++
+- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IContactPropertyCollection.Reset
+- IContactPropertyCollection.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:oleidl.tagOIFI
 title: OLEINPLACEFRAMEINFO (oleidl.h)
-
 description: Contains information about the accelerators supported by a container during an in-place session. The structure is used in the IOleInPlaceSite::GetWindowContext method and the OleTranslateAccelerator function.
 old-location: com\oleinplaceframeinfo.htm
 tech.root: com
 ms.assetid: e09445d2-61e5-4691-b51e-746e0cc91c00
-
 ms.date: 12/05/2018
-ms.keywords: "*LPOLEINPLACEFRAMEINFO, LPOLEINPLACEFRAMEINFO, LPOLEINPLACEFRAMEINFO structure pointer [COM], OLEINPLACEFRAMEINFO, OLEINPLACEFRAMEINFO structure [COM], _ole_OLEINPLACEFRAMEINFO, com.oleinplaceframeinfo, oleidl/LPOLEINPLACEFRAMEINFO, oleidl/OLEINPLACEFRAMEINFO"
+ms.keywords: '*LPOLEINPLACEFRAMEINFO, LPOLEINPLACEFRAMEINFO, LPOLEINPLACEFRAMEINFO structure pointer [COM], OLEINPLACEFRAMEINFO, OLEINPLACEFRAMEINFO structure [COM], _ole_OLEINPLACEFRAMEINFO, com.oleinplaceframeinfo, oleidl/LPOLEINPLACEFRAMEINFO, oleidl/OLEINPLACEFRAMEINFO'
 ms.topic: struct
-f1_keywords: 
- - "oleidl/OLEINPLACEFRAMEINFO"
+f1_keywords:
+- oleidl/OLEINPLACEFRAMEINFO
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - OLEINPLACEFRAMEINFO
+- OLEINPLACEFRAMEINFO
 targetos: Windows
 req.typenames: OLEINPLACEFRAMEINFO, *LPOLEINPLACEFRAMEINFO
 req.redist: 

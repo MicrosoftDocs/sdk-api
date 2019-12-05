@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_SERVICE_ENDPOINT
 title: WS_SERVICE_ENDPOINT (webservices.h)
-
 description: Represents an individual endpoint on a service host. The properties on the endpoint are used to specify the address, binding and contract.
 old-location: wsw\ws_service_endpoint.htm
 tech.root: wsw
 ms.assetid: 6b15fc3f-5e4b-4eb3-b337-0170b0ca746f
-
 ms.date: 12/05/2018
 ms.keywords: WS_SERVICE_ENDPOINT, WS_SERVICE_ENDPOINT structure [Web Services for Windows], webservices/WS_SERVICE_ENDPOINT, wsw.ws_service_endpoint
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_SERVICE_ENDPOINT"
+f1_keywords:
+- webservices/WS_SERVICE_ENDPOINT
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_SERVICE_ENDPOINT
+- WS_SERVICE_ENDPOINT
 targetos: Windows
 req.typenames: WS_SERVICE_ENDPOINT
 req.redist: 

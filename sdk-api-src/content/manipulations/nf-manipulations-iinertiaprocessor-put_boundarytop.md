@@ -1,19 +1,17 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_BoundaryTop
 title: IInertiaProcessor::put_BoundaryTop (manipulations.h)
-
 description: The BoundaryTop property limits how far towards the top of the screen the target object can move.
 old-location: wintouch\iinertiaprocessor_topboundary.htm
 tech.root: wintouch
 ms.assetid: 5864cf0e-c632-414c-a8b1-e8367474e904
-
 ms.date: 12/05/2018
 ms.keywords: BoundaryTop property [Windows Touch], BoundaryTop property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],BoundaryTop property, IInertiaProcessor.BoundaryTop, IInertiaProcessor.put_BoundaryTop, IInertiaProcessor::BoundaryTop, IInertiaProcessor::get_BoundaryTop, IInertiaProcessor::put_BoundaryTop, manipulations/IInertiaProcessor::BoundaryTop, manipulations/IInertiaProcessor::get_BoundaryTop, manipulations/IInertiaProcessor::put_BoundaryTop, put_BoundaryTop, wintouch.iinertiaprocessor_topboundary
 ms.topic: method
-f1_keywords: 
- - "manipulations/IInertiaProcessor.BoundaryTop"
+f1_keywords:
+- manipulations/IInertiaProcessor.BoundaryTop
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - IInertiaProcessor.BoundaryTop
- - IInertiaProcessor.get_BoundaryTop
- - IInertiaProcessor.put_BoundaryTop
+- IInertiaProcessor.BoundaryTop
+- IInertiaProcessor.get_BoundaryTop
+- IInertiaProcessor.put_BoundaryTop
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winreg.RegConnectRegistryA
 title: RegConnectRegistryA function (winreg.h)
-
 description: Establishes a connection to a predefined registry key on another computer.
 old-location: base\regconnectregistry.htm
 tech.root: SysInfo
 ms.assetid: d7fb41cc-4855-4ad7-879c-b1ac85ac5803
-
 ms.date: 12/05/2018
 ms.keywords: RegConnectRegistry, RegConnectRegistry function, RegConnectRegistryA, RegConnectRegistryW, _win32_regconnectregistry, base.regconnectregistry, winreg/RegConnectRegistry, winreg/RegConnectRegistryA, winreg/RegConnectRegistryW
 ms.topic: function
-f1_keywords: 
- - "winreg/RegConnectRegistry"
+f1_keywords:
+- winreg/RegConnectRegistry
 dev_langs:
- - c++
+- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-Registry-l2-1-0.dll
- - advapi32legacy.dll
- - API-MS-Win-Core-Registry-l2-2-0.dll
+- Advapi32.dll
+- API-MS-Win-Core-Registry-l2-1-0.dll
+- advapi32legacy.dll
+- API-MS-Win-Core-Registry-l2-2-0.dll
 api_name:
- - RegConnectRegistry
- - RegConnectRegistryA
- - RegConnectRegistryW
+- RegConnectRegistry
+- RegConnectRegistryA
+- RegConnectRegistryW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fileapi.SetFileInformationByHandle
 title: SetFileInformationByHandle function (fileapi.h)
-
 description: Sets the file information for the specified file.
 old-location: fs\setfileinformationbyhandle.htm
 tech.root: FileIO
 ms.assetid: ea4981e6-a8f1-4977-aca9-b2f53604d449
-
 ms.date: 12/05/2018
 ms.keywords: SetFileInformationByHandle, SetFileInformationByHandle function [Files], fileapi/SetFileInformationByHandle, fileextd/SetFileInformationByHandle, fs.setfileinformationbyhandle, winbase/SetFileInformationByHandle
 ms.topic: function
 f1_keywords:
 - fileapi/SetFileInformationByHandle
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ITransactionStatus.GetTransactionStatus
 title: ITransactionStatus::GetTransactionStatus (comsvcs.h)
-
 description: Retrieves the transaction status.
 old-location: cos\itransactionstatus_gettransactionstatus.htm
 tech.root: cossdk
 ms.assetid: c8c37aee-c5d2-479f-989f-461877ee6136
-
 ms.date: 12/05/2018
 ms.keywords: GetTransactionStatus, GetTransactionStatus method [COM+], GetTransactionStatus method [COM+],ITransactionStatus interface, ITransactionStatus interface [COM+],GetTransactionStatus method, ITransactionStatus.GetTransactionStatus, ITransactionStatus::GetTransactionStatus, _cos_ITransactionStatus_GetTransactionStatus, comsvcs/ITransactionStatus::GetTransactionStatus, cos.itransactionstatus_gettransactionstatus
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ITransactionStatus.GetTransactionStatus"
+f1_keywords:
+- comsvcs/ITransactionStatus.GetTransactionStatus
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ITransactionStatus.GetTransactionStatus
+- ITransactionStatus.GetTransactionStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

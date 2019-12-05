@@ -1,19 +1,17 @@
 ---
 UID: NF:prnasnot.RegisterForPrintAsyncNotifications
 title: RegisterForPrintAsyncNotifications function (prnasnot.h)
-
 description: Enables an application to register for notifications from Print Spooler-hosted printing components such as printer drivers, print processors, and port monitors.
 old-location: gdi\registerforprintasyncnotifications.htm
 tech.root: printdocs
 ms.assetid: f5a01819-75d0-42a0-b66f-5a25a48b091c
-
 ms.date: 12/05/2018
 ms.keywords: RegisterForPrintAsyncNotifications, RegisterForPrintAsyncNotifications function [Windows GDI], _win32_RegisterForPrintAsyncNotifications, gdi.registerforprintasyncnotifications, prnasnot/RegisterForPrintAsyncNotifications
 ms.topic: function
-f1_keywords: 
- - "prnasnot/RegisterForPrintAsyncNotifications"
+f1_keywords:
+- prnasnot/RegisterForPrintAsyncNotifications
 dev_langs:
- - c++
+- c++
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WinSpool.lib
 req.dll: Spoolss.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Spoolss.dll
+- Spoolss.dll
 api_name:
- - RegisterForPrintAsyncNotifications
+- RegisterForPrintAsyncNotifications
 targetos: Windows
 req.typenames: 
 req.redist: 

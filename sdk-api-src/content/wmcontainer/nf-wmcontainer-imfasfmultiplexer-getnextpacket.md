@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFMultiplexer.GetNextPacket
 title: IMFASFMultiplexer::GetNextPacket (wmcontainer.h)
-
 description: Retrieves the next output ASF packet from the multiplexer.
 old-location: mf\imfasfmultiplexer_getnextpacket.htm
 tech.root: medfound
 ms.assetid: 39b9f8a0-fb26-4f46-98fd-b4636f8f88c7
-
 ms.date: 12/05/2018
 ms.keywords: 39b9f8a0-fb26-4f46-98fd-b4636f8f88c7, GetNextPacket, GetNextPacket method [Media Foundation], GetNextPacket method [Media Foundation],IMFASFMultiplexer interface, IMFASFMultiplexer interface [Media Foundation],GetNextPacket method, IMFASFMultiplexer.GetNextPacket, IMFASFMultiplexer::GetNextPacket, mf.imfasfmultiplexer_getnextpacket, wmcontainer/IMFASFMultiplexer::GetNextPacket
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFMultiplexer.GetNextPacket"
+f1_keywords:
+- wmcontainer/IMFASFMultiplexer.GetNextPacket
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFMultiplexer.GetNextPacket
+- IMFASFMultiplexer.GetNextPacket
 targetos: Windows
 req.typenames: 
 req.redist: 

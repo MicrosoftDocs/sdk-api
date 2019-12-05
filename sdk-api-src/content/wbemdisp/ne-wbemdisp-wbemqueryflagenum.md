@@ -1,19 +1,17 @@
 ---
 UID: NE:wbemdisp.WbemQueryFlagEnum
 title: WbemQueryFlagEnum (wbemdisp.h)
-
 description: Define the depth of enumeration or query, which determines how many objects are returned by a call.
 old-location: wmi\wbemqueryflagenum.htm
 tech.root: WmiSdk
 ms.assetid: 5da897fa-3dba-4360-bbbe-287da5717205
-
 ms.date: 12/05/2018
 ms.keywords: WbemQueryFlagEnum, WbemQueryFlagEnum enumeration [Windows Management Instrumentation], _hmm_wbemqueryflagenum, wbemQueryFlagDeep, wbemQueryFlagPrototype, wbemQueryFlagShallow, wbemdisp/WbemQueryFlagEnum, wbemdisp/wbemQueryFlagDeep, wbemdisp/wbemQueryFlagPrototype, wbemdisp/wbemQueryFlagShallow, wmi.wbemqueryflagenum
 ms.topic: enum
-f1_keywords: 
- - "wbemdisp/WbemQueryFlagEnum"
+f1_keywords:
+- wbemdisp/WbemQueryFlagEnum
 dev_langs:
- - c++
+- c++
 req.header: wbemdisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wbemdisp.h
+- Wbemdisp.h
 api_name:
- - WbemQueryFlagEnum
+- WbemQueryFlagEnum
 targetos: Windows
 req.typenames: WbemQueryFlagEnum
 req.redist: 

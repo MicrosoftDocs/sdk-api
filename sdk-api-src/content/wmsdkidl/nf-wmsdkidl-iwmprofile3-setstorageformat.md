@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.SetStorageFormat
 title: IWMProfile3::SetStorageFormat (wmsdkidl.h)
-
 description: The SetStorageFormat method is not implemented.
 old-location: wmformat\iwmprofile3_setstorageformat.htm
 tech.root: wmformat
 ms.assetid: 43cbb36f-ec00-48e5-9182-b69e8c196ab0
-
 ms.date: 12/05/2018
 ms.keywords: IWMProfile3 interface [windows Media Format],SetStorageFormat method, IWMProfile3.SetStorageFormat, IWMProfile3::SetStorageFormat, IWMProfile3SetStorageFormat, SetStorageFormat, SetStorageFormat method [windows Media Format], SetStorageFormat method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile3_setstorageformat, wmsdkidl/IWMProfile3::SetStorageFormat
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMProfile3.SetStorageFormat"
+f1_keywords:
+- wmsdkidl/IWMProfile3.SetStorageFormat
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMProfile3.SetStorageFormat
+- IWMProfile3.SetStorageFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

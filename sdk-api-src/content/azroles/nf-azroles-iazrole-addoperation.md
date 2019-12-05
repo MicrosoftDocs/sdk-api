@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzRole.AddOperation
 title: IAzRole::AddOperation (azroles.h)
-
 description: Adds the IAzOperation object with the specified name to the role.
 old-location: security\iazrole_addoperation.htm
 tech.root: SecAuthZ
 ms.assetid: 8c6d26ff-3287-4a1d-91cb-759f79ec92e5
-
 ms.date: 12/05/2018
 ms.keywords: AddOperation, AddOperation method [Security], AddOperation method [Security],AzRole object, AddOperation method [Security],IAzRole interface, AzRole object [Security],AddOperation method, IAzRole interface [Security],AddOperation method, IAzRole.AddOperation, IAzRole::AddOperation, azroles/IAzRole::AddOperation, security.iazrole_addoperation
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzRole.AddOperation"
+f1_keywords:
+- azroles/IAzRole.AddOperation
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzRole.AddOperation
- - AzRole.AddOperation
+- IAzRole.AddOperation
+- AzRole.AddOperation
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

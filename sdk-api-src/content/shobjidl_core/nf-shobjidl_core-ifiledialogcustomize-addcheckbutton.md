@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.AddCheckButton
 title: IFileDialogCustomize::AddCheckButton (shobjidl_core.h)
-
 description: Adds a check button (check box) to the dialog.
 old-location: shell\IFileDialogCustomize_AddCheckButton.htm
 tech.root: shell
 ms.assetid: 273ec875-43c1-454f-a4fc-01a513554e68
-
 ms.date: 12/05/2018
 ms.keywords: AddCheckButton, AddCheckButton method [Windows Shell], AddCheckButton method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddCheckButton method, IFileDialogCustomize.AddCheckButton, IFileDialogCustomize::AddCheckButton, shell.IFileDialogCustomize_AddCheckButton, shell_IFileDialogCustomize_AddCheckButton, shobjidl_core/IFileDialogCustomize::AddCheckButton
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialogCustomize.AddCheckButton"
+f1_keywords:
+- shobjidl_core/IFileDialogCustomize.AddCheckButton
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialogCustomize.AddCheckButton
+- IFileDialogCustomize.AddCheckButton
 targetos: Windows
 req.typenames: 
 req.redist: 

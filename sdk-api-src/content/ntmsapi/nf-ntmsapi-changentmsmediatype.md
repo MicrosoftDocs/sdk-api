@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.ChangeNtmsMediaType
 title: ChangeNtmsMediaType function (ntmsapi.h)
-
 description: The ChangeNtmsMediaType function moves the specified PMID to the specified target media pool and sets the PMID's media type identifier to the media type of the target media pool.
 old-location: fs\changentmsmediatype.htm
 tech.root: Rsm
 ms.assetid: 89b3eb9b-0614-47a9-825e-1335c7fc5d0d
-
 ms.date: 12/05/2018
 ms.keywords: ChangeNtmsMediaType, ChangeNtmsMediaType function [Files], _zaw_changentmsmediatype, base.changentmsmediatype, fs.changentmsmediatype, ntmsapi/ChangeNtmsMediaType
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/ChangeNtmsMediaType"
+f1_keywords:
+- ntmsapi/ChangeNtmsMediaType
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - ChangeNtmsMediaType
+- ChangeNtmsMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

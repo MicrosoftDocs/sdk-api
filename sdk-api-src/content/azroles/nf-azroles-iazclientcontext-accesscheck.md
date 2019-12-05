@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzClientContext.AccessCheck
 title: IAzClientContext::AccessCheck (azroles.h)
-
 description: Determines whether the current client context is allowed to perform the specified operations.
 old-location: security\iazclientcontext_accesscheck.htm
 tech.root: SecAuthZ
 ms.assetid: 0bd16cdb-3dba-4656-b264-32e622732155
-
 ms.date: 12/05/2018
 ms.keywords: AccessCheck, AccessCheck method [Security], AccessCheck method [Security],AzClientContext object, AccessCheck method [Security],IAzClientContext interface, AzClientContext object [Security],AccessCheck method, IAzClientContext interface [Security],AccessCheck method, IAzClientContext.AccessCheck, IAzClientContext::AccessCheck, azroles/IAzClientContext::AccessCheck, security.iazclientcontext_accesscheck
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzClientContext.AccessCheck"
+f1_keywords:
+- azroles/IAzClientContext.AccessCheck
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzClientContext.AccessCheck
- - AzClientContext.AccessCheck
+- IAzClientContext.AccessCheck
+- AzClientContext.AccessCheck
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

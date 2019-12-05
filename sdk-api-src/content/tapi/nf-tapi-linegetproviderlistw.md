@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineGetProviderListW
 title: lineGetProviderListW function (tapi.h)
-
 description: The lineGetProviderList function returns a list of service providers currently installed in the telephony system.
 old-location: tapi2\linegetproviderlist.htm
 tech.root: Tapi
 ms.assetid: 87d43409-e8c5-401a-87a2-02568ed0af4a
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linegetproviderlist, lineGetProviderList, lineGetProviderList function [TAPI 2.2], lineGetProviderListA, lineGetProviderListW, tapi/lineGetProviderList, tapi/lineGetProviderListA, tapi/lineGetProviderListW, tapi2.linegetproviderlist"
+ms.keywords: _tapi2_linegetproviderlist, lineGetProviderList, lineGetProviderList function [TAPI 2.2], lineGetProviderListA, lineGetProviderListW, tapi/lineGetProviderList, tapi/lineGetProviderListA, tapi/lineGetProviderListW, tapi2.linegetproviderlist
 ms.topic: function
-f1_keywords: 
- - "tapi/lineGetProviderList"
+f1_keywords:
+- tapi/lineGetProviderList
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineGetProviderList
- - lineGetProviderListA
- - lineGetProviderListW
+- lineGetProviderList
+- lineGetProviderListA
+- lineGetProviderListW
 targetos: Windows
 req.typenames: 
 req.redist: 

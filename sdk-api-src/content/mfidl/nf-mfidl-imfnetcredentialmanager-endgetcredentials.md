@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFNetCredentialManager.EndGetCredentials
 title: IMFNetCredentialManager::EndGetCredentials (mfidl.h)
-
 description: Completes an asynchronous request to retrieve the user's credentials.
 old-location: mf\imfnetcredentialmanager_endgetcredentials.htm
 tech.root: medfound
 ms.assetid: 99914ded-1b9a-4373-9974-e1d1b1abd4e2
-
 ms.date: 12/05/2018
 ms.keywords: 99914ded-1b9a-4373-9974-e1d1b1abd4e2, EndGetCredentials, EndGetCredentials method [Media Foundation], EndGetCredentials method [Media Foundation],IMFNetCredentialManager interface, IMFNetCredentialManager interface [Media Foundation],EndGetCredentials method, IMFNetCredentialManager.EndGetCredentials, IMFNetCredentialManager::EndGetCredentials, mf.imfnetcredentialmanager_endgetcredentials, mfidl/IMFNetCredentialManager::EndGetCredentials
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFNetCredentialManager.EndGetCredentials"
+f1_keywords:
+- mfidl/IMFNetCredentialManager.EndGetCredentials
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFNetCredentialManager.EndGetCredentials
+- IMFNetCredentialManager.EndGetCredentials
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidAnalogTuner.ChannelAvailable
 title: IMSVidAnalogTuner::ChannelAvailable (segment.h)
-
 description: The ChannelAvailable method queries whether a specified channel is available for viewing.
 old-location: mstv\imsvidanalogtuner_channelavailable.htm
 tech.root: mstv
 ms.assetid: 67533d80-6026-434f-a20f-ded3c119d318
-
 ms.date: 12/05/2018
 ms.keywords: ChannelAvailable, ChannelAvailable method [Microsoft TV Technologies], ChannelAvailable method [Microsoft TV Technologies],IMSVidAnalogTuner interface, IMSVidAnalogTuner interface [Microsoft TV Technologies],ChannelAvailable method, IMSVidAnalogTuner.ChannelAvailable, IMSVidAnalogTuner::ChannelAvailable, IMSVidAnalogTunerChannelAvailable, mstv.imsvidanalogtuner_channelavailable, segment/IMSVidAnalogTuner::ChannelAvailable
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidAnalogTuner.ChannelAvailable"
+f1_keywords:
+- segment/IMSVidAnalogTuner.ChannelAvailable
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidAnalogTuner.ChannelAvailable
+- IMSVidAnalogTuner.ChannelAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 

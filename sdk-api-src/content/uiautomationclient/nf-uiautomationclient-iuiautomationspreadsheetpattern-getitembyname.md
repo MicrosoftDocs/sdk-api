@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSpreadsheetPattern.GetItemByName
 title: IUIAutomationSpreadsheetPattern::GetItemByName (uiautomationclient.h)
-
 description: Retrieves a UI Automation element that represents the spreadsheet cell that has the specified name.
 old-location: winauto\uiauto_IUIAutomationSpreadsheetPattern_GetItemByName.htm
 tech.root: WinAuto
 ms.assetid: 4CDE57FA-1B94-408E-B1E6-3CD3CFC5AB82
-
 ms.date: 12/05/2018
 ms.keywords: GetItemByName, GetItemByName method [Windows Accessibility], GetItemByName method [Windows Accessibility],IUIAutomationSpreadsheetPattern interface, IUIAutomationSpreadsheetPattern interface [Windows Accessibility],GetItemByName method, IUIAutomationSpreadsheetPattern.GetItemByName, IUIAutomationSpreadsheetPattern::GetItemByName, uiautomationclient/IUIAutomationSpreadsheetPattern::GetItemByName, winauto.uiauto_IUIAutomationSpreadsheetPattern_GetItemByName
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationSpreadsheetPattern.GetItemByName"
+f1_keywords:
+- uiautomationclient/IUIAutomationSpreadsheetPattern.GetItemByName
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationSpreadsheetPattern.GetItemByName
+- IUIAutomationSpreadsheetPattern.GetItemByName
 targetos: Windows
 req.typenames: 
 req.redist: 

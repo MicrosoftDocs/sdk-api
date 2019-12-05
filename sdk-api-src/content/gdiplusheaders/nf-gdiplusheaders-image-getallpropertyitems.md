@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Image.GetAllPropertyItems
 title: Image::GetAllPropertyItems (gdiplusheaders.h)
-
 description: The Image::GetAllPropertyItems method gets all the property items (metadata) stored in this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetAllPropertyItems_totalBufferSize_numProperties_allItems_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getallpropertyitems.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetAllPropertyItems, GetAllPropertyItems method [GDI+], GetAllPropertyItems method [GDI+],Image class, Image class [GDI+],GetAllPropertyItems method, Image.GetAllPropertyItems, Image::GetAllPropertyItems, _gdiplus_CLASS_Image_GetAllPropertyItems_totalBufferSize_numProperties_allItems_, gdiplus._gdiplus_CLASS_Image_GetAllPropertyItems_totalBufferSize_numProperties_allItems_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Image.GetAllPropertyItems"
+f1_keywords:
+- gdiplusheaders/Image.GetAllPropertyItems
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Image.GetAllPropertyItems
+- Image.GetAllPropertyItems
 targetos: Windows
 req.typenames: 
 req.redist: 

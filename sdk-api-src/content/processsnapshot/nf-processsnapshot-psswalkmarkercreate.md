@@ -1,19 +1,17 @@
 ---
 UID: NF:processsnapshot.PssWalkMarkerCreate
 title: PssWalkMarkerCreate function (processsnapshot.h)
-
 description: Creates a walk marker.
 old-location: proc_snap\psswalkmarkercreate.htm
 tech.root: proc_snap
 ms.assetid: 58E2FBAF-661C-45BE-A25A-A096AF52ED3E
-
 ms.date: 12/05/2018
 ms.keywords: PssWalkMarkerCreate, PssWalkMarkerCreate function, proc_snap.psswalkmarkercreate, processsnapshot/PssWalkMarkerCreate
 ms.topic: function
-f1_keywords: 
- - "processsnapshot/PssWalkMarkerCreate"
+f1_keywords:
+- processsnapshot/PssWalkMarkerCreate
 dev_langs:
- - c++
+- c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-Processsnapshot-l1-1-0.dll
- - KernelBase.dll
+- kernel32.dll
+- API-MS-Win-Core-Processsnapshot-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - PssWalkMarkerCreate
+- PssWalkMarkerCreate
 targetos: Windows
 req.typenames: 
 req.redist: 

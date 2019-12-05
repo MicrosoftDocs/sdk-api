@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_3.IDXGISwapChain2.SetMatrixTransform
 title: IDXGISwapChain2::SetMatrixTransform (dxgi1_3.h)
-
 description: Sets the transform matrix that will be applied to a composition swap chain upon the next present.
 old-location: direct3ddxgi\idxgiswapchain2_setmatrixtransform.htm
 tech.root: direct3ddxgi
 ms.assetid: AAED8A59-3190-49A0-93AA-F5CAF9088877
-
 ms.date: 12/05/2018
 ms.keywords: IDXGISwapChain2 interface [DXGI],SetMatrixTransform method, IDXGISwapChain2.SetMatrixTransform, IDXGISwapChain2::SetMatrixTransform, SetMatrixTransform, SetMatrixTransform method [DXGI], SetMatrixTransform method [DXGI],IDXGISwapChain2 interface, direct3ddxgi.idxgiswapchain2_setmatrixtransform, dxgi1_3/IDXGISwapChain2::SetMatrixTransform
 ms.topic: method
-f1_keywords: 
- - "dxgi1_3/IDXGISwapChain2.SetMatrixTransform"
+f1_keywords:
+- dxgi1_3/IDXGISwapChain2.SetMatrixTransform
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxgi.lib
- - dxgi.dll
+- dxgi.lib
+- dxgi.dll
 api_name:
- - IDXGISwapChain2.SetMatrixTransform
+- IDXGISwapChain2.SetMatrixTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

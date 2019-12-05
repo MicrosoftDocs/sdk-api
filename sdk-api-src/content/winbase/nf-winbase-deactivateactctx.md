@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.DeactivateActCtx
 title: DeactivateActCtx function (winbase.h)
-
 description: The DeactivateActCtx function deactivates the activation context corresponding to the specified cookie.
 old-location: setup\deactivateactctx.htm
 tech.root: SbsCs
 ms.assetid: 2a53eb1a-ce0b-4b20-a346-1ff9636a74d6
-
 ms.date: 12/05/2018
 ms.keywords: 0, DEACTIVATE_ACTCTX_FLAG_FORCE_EARLY_DEACTIVATION, DeactivateActCtx, DeactivateActCtx function [Side-by-side Assemblies], _win32_deactivateactctx, setup.deactivateactctx, winbase/DeactivateActCtx
 ms.topic: function
-f1_keywords: 
- - "winbase/DeactivateActCtx"
+f1_keywords:
+- winbase/DeactivateActCtx
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-sidebyside-l1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-sidebyside-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - DeactivateActCtx
+- DeactivateActCtx
 targetos: Windows
 req.typenames: 
 req.redist: 

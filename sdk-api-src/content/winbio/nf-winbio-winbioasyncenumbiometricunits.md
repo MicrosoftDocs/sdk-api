@@ -1,19 +1,17 @@
 ---
 UID: NF:winbio.WinBioAsyncEnumBiometricUnits
 title: WinBioAsyncEnumBiometricUnits function (winbio.h)
-
 description: Asynchronously enumerates all attached biometric units that match the input factor type.
 old-location: secbiomet\winbioasyncenumbiometricunits.htm
 tech.root: SecBioMet
 ms.assetid: 3A7CEC71-7352-43B7-83D3-447D487C4703
-
 ms.date: 12/05/2018
 ms.keywords: WinBioAsyncEnumBiometricUnits, WinBioAsyncEnumBiometricUnits function [Windows Biometric Framework API], secbiomet.winbioasyncenumbiometricunits, winbio/WinBioAsyncEnumBiometricUnits
 ms.topic: function
 f1_keywords:
 - winbio/WinBioAsyncEnumBiometricUnits
 dev_langs:
- - c++
+- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

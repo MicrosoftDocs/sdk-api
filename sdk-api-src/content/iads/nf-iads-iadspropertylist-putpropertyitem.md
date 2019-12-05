@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsPropertyList.PutPropertyItem
 title: IADsPropertyList::PutPropertyItem (iads.h)
-
 description: Updates the values for an item in the property list.
 old-location: adsi\iadspropertylist_putpropertyitem.htm
 tech.root: adsi
 ms.assetid: 16af5cbf-3b87-467e-8e72-0110bcf95295
-
 ms.date: 12/05/2018
 ms.keywords: IADsPropertyList interface [ADSI],PutPropertyItem method, IADsPropertyList.PutPropertyItem, IADsPropertyList::PutPropertyItem, PutPropertyItem, PutPropertyItem method [ADSI], PutPropertyItem method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_putpropertyitem, adsi.iadspropertylist__putpropertyitem, adsi.iadspropertylist_putpropertyitem, iads/IADsPropertyList::PutPropertyItem
 ms.topic: method
-f1_keywords: 
- - "iads/IADsPropertyList.PutPropertyItem"
+f1_keywords:
+- iads/IADsPropertyList.PutPropertyItem
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsPropertyList.PutPropertyItem
+- IADsPropertyList.PutPropertyItem
 targetos: Windows
 req.typenames: 
 req.redist: 

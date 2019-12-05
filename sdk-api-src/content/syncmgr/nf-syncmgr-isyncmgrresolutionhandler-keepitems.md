@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrResolutionHandler.KeepItems
 title: ISyncMgrResolutionHandler::KeepItems (syncmgr.h)
-
 description: Keeps the Shell items that are passed in.
 old-location: shell\ISyncMgrResolutionHandler_KeepItems.htm
 tech.root: shell
 ms.assetid: 81be006b-4aa4-42da-ae1b-001ae92a3e9b
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrResolutionHandler interface [Windows Shell],KeepItems method, ISyncMgrResolutionHandler.KeepItems, ISyncMgrResolutionHandler::KeepItems, KeepItems, KeepItems method [Windows Shell], KeepItems method [Windows Shell],ISyncMgrResolutionHandler interface, _shell_ISyncMgrResolutionHandler_KeepItems, shell.ISyncMgrResolutionHandler_KeepItems, syncmgr/ISyncMgrResolutionHandler::KeepItems
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrResolutionHandler.KeepItems"
+f1_keywords:
+- syncmgr/ISyncMgrResolutionHandler.KeepItems
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrResolutionHandler.KeepItems
+- ISyncMgrResolutionHandler.KeepItems
 targetos: Windows
 req.typenames: 
 req.redist: 

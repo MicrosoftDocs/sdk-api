@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfStatusSink.OnStatusChange
 title: ITfStatusSink::OnStatusChange (msctf.h)
-
 description: ITfStatusSink::OnStatusChange method
 old-location: tsf\itfstatussink_onstatuschange.htm
 tech.root: TSF
 ms.assetid: 6eabf08f-006b-43b4-aea7-1d803b3d09b2
-
 ms.date: 12/05/2018
 ms.keywords: ITfStatusSink interface [Text Services Framework],OnStatusChange method, ITfStatusSink.OnStatusChange, ITfStatusSink::OnStatusChange, OnStatusChange, OnStatusChange method [Text Services Framework], OnStatusChange method [Text Services Framework],ITfStatusSink interface, _tsf_itfstatussink_onstatuschange_ref, msctf/ITfStatusSink::OnStatusChange, tsf.itfstatussink_onstatuschange
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfStatusSink.OnStatusChange"
+f1_keywords:
+- msctf/ITfStatusSink.OnStatusChange
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Tiptsf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tiptsf.dll
+- tiptsf.dll
 api_name:
- - ITfStatusSink.OnStatusChange
+- ITfStatusSink.OnStatusChange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

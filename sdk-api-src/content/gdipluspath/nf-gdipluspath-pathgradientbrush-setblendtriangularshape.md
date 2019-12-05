@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.SetBlendTriangularShape
 title: PathGradientBrush::SetBlendTriangularShape (gdipluspath.h)
-
 description: The PathGradientBrush::SetBlendTriangularShape method sets the blend shape of this path gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetBlendTriangularShape_focus_scale_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\setblendtriangularshape_1focus_scale.htm
-
 ms.date: 12/05/2018
 ms.keywords: PathGradientBrush class [GDI+],SetBlendTriangularShape method, PathGradientBrush.SetBlendTriangularShape, PathGradientBrush::SetBlendTriangularShape, SetBlendTriangularShape, SetBlendTriangularShape method [GDI+], SetBlendTriangularShape method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_SetBlendTriangularShape_focus_scale_, gdiplus._gdiplus_CLASS_PathGradientBrush_SetBlendTriangularShape_focus_scale_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/PathGradientBrush.SetBlendTriangularShape"
+f1_keywords:
+- gdipluspath/PathGradientBrush.SetBlendTriangularShape
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - PathGradientBrush.SetBlendTriangularShape
+- PathGradientBrush.SetBlendTriangularShape
 targetos: Windows
 req.typenames: 
 req.redist: 

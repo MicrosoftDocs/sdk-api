@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.Button_GetCheck
 title: Button_GetCheck macro (windowsx.h)
-
 description: Gets the check state of a radio button or check box. You can use this macro or send the BM_GETCHECK message explicitly.
 old-location: controls\Button_GetCheck.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getcheck.htm
-
 ms.date: 12/05/2018
 ms.keywords: Button_GetCheck, Button_GetCheck macro [Windows Controls], _win32_Button_GetCheck, _win32_Button_GetCheck_cpp, controls.Button_GetCheck, controls._win32_Button_GetCheck, windowsx/Button_GetCheck
 ms.topic: macro
-f1_keywords: 
- - "windowsx/Button_GetCheck"
+f1_keywords:
+- windowsx/Button_GetCheck
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - Button_GetCheck
+- Button_GetCheck
 targetos: Windows
 req.typenames: 
 req.redist: 

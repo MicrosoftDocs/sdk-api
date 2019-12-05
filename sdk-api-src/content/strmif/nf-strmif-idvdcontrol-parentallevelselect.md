@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl.ParentalLevelSelect
 title: IDvdControl::ParentalLevelSelect (strmif.h)
-
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Sets the parental access level for the current media file.
 old-location: dshow\idvdcontrol_parentallevelselect.htm
 tech.root: DirectShow
 ms.assetid: ca572d89-b188-442d-884f-0cffa71c2892
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],ParentalLevelSelect method, IDvdControl.ParentalLevelSelect, IDvdControl::ParentalLevelSelect, IDvdControlParentalLevelSelect, ParentalLevelSelect, ParentalLevelSelect method [DirectShow], ParentalLevelSelect method [DirectShow],IDvdControl interface, dshow.idvdcontrol_parentallevelselect, strmif/IDvdControl::ParentalLevelSelect
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl.ParentalLevelSelect"
+f1_keywords:
+- strmif/IDvdControl.ParentalLevelSelect
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Quartz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Quartz.dll
+- Quartz.dll
 api_name:
- - IDvdControl.ParentalLevelSelect
+- IDvdControl.ParentalLevelSelect
 targetos: Windows
 req.typenames: 
 req.redist: 

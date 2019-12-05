@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IEnumWIA_FORMAT_INFO.Skip
 title: IEnumWIA_FORMAT_INFO::Skip (wia_xp.h)
-
 description: The IEnumWIA_FORMAT_INFO::Skip method skips the specified number of structures in the enumeration.
 old-location: wia\_wia_IEnumWIA_FORMAT_INFO_Skip.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_format_info\skip.htm
-
 ms.date: 12/05/2018
 ms.keywords: IEnumWIA_FORMAT_INFO interface [WIA],Skip method, IEnumWIA_FORMAT_INFO.Skip, IEnumWIA_FORMAT_INFO::Skip, Skip, Skip method [WIA], Skip method [WIA],IEnumWIA_FORMAT_INFO interface, _wia_IEnumWIA_FORMAT_INFO_Skip, wia._wia_IEnumWIA_FORMAT_INFO_Skip, wia_xp/IEnumWIA_FORMAT_INFO::Skip
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IEnumWIA_FORMAT_INFO.Skip"
+f1_keywords:
+- wia_xp/IEnumWIA_FORMAT_INFO.Skip
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wiaguid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaguid.lib
- - Wiaguid.dll
+- Wiaguid.lib
+- Wiaguid.dll
 api_name:
- - IEnumWIA_FORMAT_INFO.Skip
+- IEnumWIA_FORMAT_INFO.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMDomain.SearchSOMs
 title: IGPMDomain::SearchSOMs (gpmgmt.h)
-
 description: Executes a search for GPMSOM objects (domains and organizational units) in the domain and then returns a GPMSOMCollection object.
 old-location: gpmc\igpmdomain_searchsoms.htm
 tech.root: gpmc
 ms.assetid: 7ca3b0ef-b0d5-408a-8d75-647546087155
-
 ms.date: 12/05/2018
 ms.keywords: GPMDomain object [GPMC],SearchSOMs method, IGPMDomain interface [GPMC],SearchSOMs method, IGPMDomain.SearchSOMs, IGPMDomain::SearchSOMs, SearchSOMs, SearchSOMs method [GPMC], SearchSOMs method [GPMC],GPMDomain object, SearchSOMs method [GPMC],IGPMDomain interface, _win32_igpmdomain_searchsoms, gpmc.igpmdomain_searchsoms, gpmgmt/IGPMDomain::SearchSOMs, somLinks
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMDomain.SearchSOMs"
+f1_keywords:
+- gpmgmt/IGPMDomain.SearchSOMs
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMDomain.SearchSOMs
- - GPMDomain.SearchSOMs
+- IGPMDomain.SearchSOMs
+- GPMDomain.SearchSOMs
 targetos: Windows
 req.typenames: 
 req.redist: 

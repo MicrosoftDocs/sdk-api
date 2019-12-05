@@ -1,19 +1,17 @@
 ---
 UID: NF:compressapi.CreateDecompressor
 title: CreateDecompressor function (compressapi.h)
-
 description: Generates a new DECOMPRESSOR_HANDLE.
 old-location: cmpapi\createdecompressor.htm
 tech.root: cmpapi
 ms.assetid: a30b3ebe-24ef-4615-a555-a0383b46cd15
-
 ms.date: 12/05/2018
 ms.keywords: COMPRESS_ALGORITHM_LZMS, COMPRESS_ALGORITHM_MSZIP, COMPRESS_ALGORITHM_XPRESS, COMPRESS_ALGORITHM_XPRESS_HUFF, CreateDecompressor, CreateDecompressor function [Compression API], cmpapi.createdecompressor, compressapi/CreateDecompressor
 ms.topic: function
-f1_keywords: 
- - "compressapi/CreateDecompressor"
+f1_keywords:
+- compressapi/CreateDecompressor
 dev_langs:
- - c++
+- c++
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Cabinet.lib
 req.dll: Cabinet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - cabinet.dll
+- cabinet.dll
 api_name:
- - CreateDecompressor
+- CreateDecompressor
 targetos: Windows
 req.typenames: 
 req.redist: 

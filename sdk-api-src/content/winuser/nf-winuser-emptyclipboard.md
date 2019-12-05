@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.EmptyClipboard
 title: EmptyClipboard function (winuser.h)
-
 description: Empties the clipboard and frees handles to data in the clipboard. The function then assigns ownership of the clipboard to the window that currently has the clipboard open.
 old-location: dataxchg\emptyclipboard.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\emptyclipboard.htm
-
 ms.date: 12/05/2018
 ms.keywords: EmptyClipboard, EmptyClipboard function [Data Exchange], _win32_EmptyClipboard, _win32_emptyclipboard_cpp, dataxchg.emptyclipboard, winui._win32_emptyclipboard, winuser/EmptyClipboard
 ms.topic: function
-f1_keywords: 
- - "winuser/EmptyClipboard"
+f1_keywords:
+- winuser/EmptyClipboard
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,24 +30,24 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-clipboard-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
- - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
- - api-ms-win-ntuser-ie-clipboard-l1-1-0.dll
- - ie_stubs.dll
- - ext-ms-win-ntuser-misc-l1-3-1.dll
- - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
- - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
- - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-clipboard-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+- Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+- api-ms-win-ntuser-ie-clipboard-l1-1-0.dll
+- ie_stubs.dll
+- ext-ms-win-ntuser-misc-l1-3-1.dll
+- Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+- Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
- - EmptyClipboard
+- EmptyClipboard
 targetos: Windows
 req.typenames: 
 req.redist: 

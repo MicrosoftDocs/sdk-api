@@ -1,19 +1,17 @@
 ---
 UID: NS:mapi.__unnamed_struct_1
 title: MapiFileDescW (mapi.h)
-
 description: A MapiFileDescW structure contains information about a file containing a message attachment stored as a temporary file. That file can contain a static OLE object, an embedded OLE object, an embedded message, and other types of files.
 old-location: mapi\mapifiledescw.htm
 tech.root: WindowsMAPI
 ms.assetid: CF7C41DF-D361-457F-B038-5C1144E70AA6
-
 ms.date: 12/05/2018
-ms.keywords: "*lpMapiFileDescW, MAPI_OLE, MAPI_OLE_STATIC, MapiFileDescW, MapiFileDescW structure, lpMapiFileDescW, lpMapiFileDescW structure pointer, mapi.mapifiledescw, mapi/MapiFileDescW, mapi/lpMapiFileDescW"
+ms.keywords: '*lpMapiFileDescW, MAPI_OLE, MAPI_OLE_STATIC, MapiFileDescW, MapiFileDescW structure, lpMapiFileDescW, lpMapiFileDescW structure pointer, mapi.mapifiledescw, mapi/MapiFileDescW, mapi/lpMapiFileDescW'
 ms.topic: struct
-f1_keywords: 
- - "mapi/MapiFileDescW"
+f1_keywords:
+- mapi/MapiFileDescW
 dev_langs:
- - c++
+- c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mapi.h
+- Mapi.h
 api_name:
- - MapiFileDescW
+- MapiFileDescW
 targetos: Windows
 req.typenames: MapiFileDescW, *lpMapiFileDescW
 req.redist: 

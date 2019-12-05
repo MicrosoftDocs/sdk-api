@@ -1,19 +1,17 @@
 ---
 UID: NE:tapi3if.CALL_MEDIA_EVENT
 title: CALL_MEDIA_EVENT (tapi3if.h)
-
 description: The CALL_MEDIA_EVENT enum describes call media events. The ITCallMediaEvent::get_Event method returns a member of this enum to indicate the type of call media event that occurred.
 old-location: tapi3\call_media_event.htm
 tech.root: Tapi
 ms.assetid: 835759f4-652b-4d01-911a-e580bb29d292
-
 ms.date: 12/05/2018
 ms.keywords: CALL_MEDIA_EVENT, CALL_MEDIA_EVENT enumeration [TAPI 2.2], CME_NEW_STREAM, CME_STREAM_ACTIVE, CME_STREAM_FAIL, CME_STREAM_INACTIVE, CME_STREAM_NOT_USED, CME_TERMINAL_FAIL, _tapi3_call_media_event, tapi3.call_media_event, tapi3if/CALL_MEDIA_EVENT, tapi3if/CME_NEW_STREAM, tapi3if/CME_STREAM_ACTIVE, tapi3if/CME_STREAM_FAIL, tapi3if/CME_STREAM_INACTIVE, tapi3if/CME_STREAM_NOT_USED, tapi3if/CME_TERMINAL_FAIL
 ms.topic: enum
-f1_keywords: 
- - "tapi3if/CALL_MEDIA_EVENT"
+f1_keywords:
+- tapi3if/CALL_MEDIA_EVENT
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi3if.h
+- Tapi3if.h
 api_name:
- - CALL_MEDIA_EVENT
+- CALL_MEDIA_EVENT
 targetos: Windows
 req.typenames: CALL_MEDIA_EVENT
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.GetPreservedKey
 title: ITfKeystrokeMgr::GetPreservedKey (msctf.h)
-
 description: ITfKeystrokeMgr::GetPreservedKey method
 old-location: tsf\itfkeystrokemgr_getpreservedkey.htm
 tech.root: TSF
 ms.assetid: d87b3b1c-0e51-4e89-b837-79ed2fe78bbb
-
 ms.date: 12/05/2018
 ms.keywords: GetPreservedKey, GetPreservedKey method [Text Services Framework], GetPreservedKey method [Text Services Framework],ITfKeystrokeMgr interface, ITfKeystrokeMgr interface [Text Services Framework],GetPreservedKey method, ITfKeystrokeMgr.GetPreservedKey, ITfKeystrokeMgr::GetPreservedKey, _tsf_itfkeystrokemgr_getpreservedkey_ref, msctf/ITfKeystrokeMgr::GetPreservedKey, tsf.itfkeystrokemgr_getpreservedkey
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfKeystrokeMgr.GetPreservedKey"
+f1_keywords:
+- msctf/ITfKeystrokeMgr.GetPreservedKey
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfKeystrokeMgr.GetPreservedKey
+- ITfKeystrokeMgr.GetPreservedKey
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NE:strmif.tagDVD_FRAMERATE
 title: DVD_FRAMERATE (strmif.h)
-
 description: Indicates whether the DVD is authored to play at 25 or 30 frames per second.
 old-location: dshow\dvd_framerate.htm
 tech.root: DirectShow
 ms.assetid: 92309c56-87fe-43cc-b76e-43f9686177be
-
 ms.date: 12/05/2018
 ms.keywords: DVD_FPS_25, DVD_FPS_30NonDrop, DVD_FRAMERATE, DVD_FRAMERATE , DVD_FRAMERATE enumeration [DirectShow], DVD_FRAMERATEEnumeration, dshow.dvd_framerate, strmif/DVD_FPS_25, strmif/DVD_FPS_30NonDrop, strmif/DVD_FRAMERATE
 ms.topic: enum
-f1_keywords: 
- - "strmif/DVD_FRAMERATE"
+f1_keywords:
+- strmif/DVD_FRAMERATE
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - DVD_FRAMERATE
+- DVD_FRAMERATE
 targetos: Windows
 req.typenames: DVD_FRAMERATE
 req.redist: 

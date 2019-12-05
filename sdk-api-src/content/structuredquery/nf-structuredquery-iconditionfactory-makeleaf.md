@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IConditionFactory.MakeLeaf
 title: IConditionFactory::MakeLeaf (structuredquery.h)
-
 description: Creates a leaf condition node that represents a comparison of property value and constant value.
 old-location: search\_search_IConditionFactory_MakeLeaf.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditionfactory\makeleaf.htm
-
 ms.date: 12/05/2018
 ms.keywords: IConditionFactory interface [search],MakeLeaf method, IConditionFactory.MakeLeaf, IConditionFactory::MakeLeaf, MakeLeaf, MakeLeaf method [search], MakeLeaf method [search],IConditionFactory interface, _search_IConditionFactory_MakeLeaf, search._search_IConditionFactory_MakeLeaf, structuredquery/IConditionFactory::MakeLeaf
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IConditionFactory.MakeLeaf"
+f1_keywords:
+- structuredquery/IConditionFactory.MakeLeaf
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IConditionFactory.MakeLeaf
+- IConditionFactory.MakeLeaf
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

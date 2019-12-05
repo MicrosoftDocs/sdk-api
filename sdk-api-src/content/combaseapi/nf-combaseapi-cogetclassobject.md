@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoGetClassObject
 title: CoGetClassObject function (combaseapi.h)
-
 description: Provides a pointer to an interface on a class object associated with a specified CLSID.
 old-location: com\cogetclassobject.htm
 tech.root: com
 ms.assetid: 65e758ce-50a4-49e8-b3b2-0cd148d2781a
-
 ms.date: 12/05/2018
 ms.keywords: CoGetClassObject, CoGetClassObject function [COM], _com_CoGetClassObject, com.cogetclassobject, combaseapi/CoGetClassObject
 ms.topic: function
 f1_keywords:
 - combaseapi/CoGetClassObject
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

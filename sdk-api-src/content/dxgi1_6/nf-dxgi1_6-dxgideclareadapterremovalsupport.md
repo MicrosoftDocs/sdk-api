@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_6.DXGIDeclareAdapterRemovalSupport
 title: DXGIDeclareAdapterRemovalSupport function (dxgi1_6.h)
-
 description: Allows a process to indicate that it's resilient to any of its graphics devices being removed.
 old-location: direct3ddxgi\dxgideclareadapterremovalsupport.htm
 tech.root: direct3ddxgi
 ms.assetid: 602EA66C-6D3D-4604-822C-DBD66EB70C3C
-
 ms.date: 12/05/2018
 ms.keywords: DXGIDeclareAdapterRemovalSupport, DXGIDeclareAdapterRemovalSupport function [DXGI], direct3ddxgi.dxgideclareadapterremovalsupport, dxgi1_6/DXGIDeclareAdapterRemovalSupport
 ms.topic: function
-f1_keywords: 
- - "dxgi1_6/DXGIDeclareAdapterRemovalSupport"
+f1_keywords:
+- dxgi1_6/DXGIDeclareAdapterRemovalSupport
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_6.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxgi.lib
 req.dll: Dxgi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dxgi.dll
+- dxgi.dll
 api_name:
- - DXGIDeclareAdapterRemovalSupport
+- DXGIDeclareAdapterRemovalSupport
 targetos: Windows
 req.typenames: 
 req.redist: 

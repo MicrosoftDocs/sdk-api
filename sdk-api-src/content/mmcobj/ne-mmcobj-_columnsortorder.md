@@ -1,19 +1,17 @@
 ---
 UID: NE:mmcobj.ColumnSortOrder
 title: _ColumnSortOrder (mmcobj.h)
-
 description: Used by IResultsViewer::SortOrderProperty to indicate or set how a query is to be sorted.
 old-location: lwef\search_2x_columnsortorder.htm
 tech.root: lwef
 ms.assetid: VS|search|~\search\wds2x\reference\enum\columnsortorder.htm
-
 ms.date: 12/05/2018
 ms.keywords: AscItems, COLUMNSORTORDER, ColumnSortOrder, ColumnSortOrder enumeration [Legacy Windows Environment Features], DescItems, _ColumnSortOrder, lwef.search_2x_columnsortorder, mmcobj/AscItems, mmcobj/ColumnSortOrder, mmcobj/DescItems, search.search_2x_columnsortorder, search_2x_ColumnSortOrder
 ms.topic: enum
-f1_keywords: 
- - "mmcobj/ColumnSortOrder"
+f1_keywords:
+- mmcobj/ColumnSortOrder
 dev_langs:
- - c++
+- c++
 req.header: mmcobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mmcobj.h
+- mmcobj.h
 api_name:
- - ColumnSortOrder
+- ColumnSortOrder
 targetos: Windows
-req.typenames: "_ColumnSortOrder, COLUMNSORTORDER"
+req.typenames: _ColumnSortOrder, COLUMNSORTORDER
 req.redist: 
 ms.custom: 19H1
 ---

@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsVolume.SetFlags
 title: IVdsVolume::SetFlags (vds.h)
-
 description: Sets the volume flags.
 old-location: base\ivdsvolume_setflags.htm
 tech.root: VDS
 ms.assetid: f426b089-6c5f-4ab4-aa92-127e24cb57b1
-
 ms.date: 12/05/2018
 ms.keywords: IVdsVolume interface [VDS],SetFlags method, IVdsVolume.SetFlags, IVdsVolume::SetFlags, SetFlags, SetFlags method [VDS], SetFlags method [VDS],IVdsVolume interface, base.ivdsvolume_setflags, vds/IVdsVolume::SetFlags
 ms.topic: method
 f1_keywords:
 - vds/IVdsVolume.SetFlags
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

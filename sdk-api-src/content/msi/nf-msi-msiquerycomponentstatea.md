@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiQueryComponentStateA
 title: MsiQueryComponentStateA function (msi.h)
-
 description: The MsiQueryComponentState function returns the installed state for a component.
 old-location: setup\msiquerycomponentstate.htm
 tech.root: Msi
 ms.assetid: d3b387d1-720e-4b54-ba80-731fcabdf676
-
 ms.date: 12/05/2018
 ms.keywords: INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiQueryComponentState, MsiQueryComponentState function, MsiQueryComponentStateA, MsiQueryComponentStateW, NULL, User SID, msi/MsiQueryComponentState, msi/MsiQueryComponentStateA, msi/MsiQueryComponentStateW, setup.msiquerycomponentstate
 ms.topic: function
-f1_keywords: 
- - "msi/MsiQueryComponentState"
+f1_keywords:
+- msi/MsiQueryComponentState
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
- - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+- Msi.dll
+- Ext-MS-Win-MSi-Misc-L1-1-0.dll
 api_name:
- - MsiQueryComponentState
- - MsiQueryComponentStateA
- - MsiQueryComponentStateW
+- MsiQueryComponentState
+- MsiQueryComponentStateA
+- MsiQueryComponentStateW
 targetos: Windows
 req.typenames: 
 req.redist: 

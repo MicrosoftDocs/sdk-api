@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.Polyline
 title: Polyline function (wingdi.h)
-
 description: The Polyline function draws a series of line segments by connecting the points in the specified array.
 old-location: gdi\polyline.htm
 tech.root: gdi
 ms.assetid: 55481dd0-3db7-4131-b383-4d0036943e60
-
 ms.date: 12/05/2018
 ms.keywords: Polyline, Polyline function [Windows GDI], _win32_Polyline, gdi.polyline, wingdi/Polyline
 ms.topic: function
-f1_keywords: 
- - "wingdi/Polyline"
+f1_keywords:
+- wingdi/Polyline
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Draw-l1-1-1.dll
- - ext-ms-win-gdi-draw-l1-1-2.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Draw-l1-1-1.dll
+- ext-ms-win-gdi-draw-l1-1-2.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - Polyline
+- Polyline
 targetos: Windows
 req.typenames: 
 req.redist: 

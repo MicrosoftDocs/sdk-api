@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.AddCustomStylusDataToQueue
 title: IRealTimeStylus::AddCustomStylusDataToQueue (rtscom.h)
-
 description: Adds custom data to the specified queue of the RealTimeStylus Class object.
 old-location: tablet\irealtimestylus_addcustomstylusdatatoqueue.htm
 tech.root: tablet
 ms.assetid: 9d216853-9103-4027-a724-f35d84553a9b
-
 ms.date: 12/05/2018
 ms.keywords: 9d216853-9103-4027-a724-f35d84553a9b, AddCustomStylusDataToQueue, AddCustomStylusDataToQueue method [Tablet PC], AddCustomStylusDataToQueue method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],AddCustomStylusDataToQueue method, IRealTimeStylus.AddCustomStylusDataToQueue, IRealTimeStylus::AddCustomStylusDataToQueue, rtscom/IRealTimeStylus::AddCustomStylusDataToQueue, tablet.irealtimestylus_addcustomstylusdatatoqueue
 ms.topic: method
-f1_keywords: 
- - "rtscom/IRealTimeStylus.AddCustomStylusDataToQueue"
+f1_keywords:
+- rtscom/IRealTimeStylus.AddCustomStylusDataToQueue
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IRealTimeStylus.AddCustomStylusDataToQueue
+- IRealTimeStylus.AddCustomStylusDataToQueue
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPITransportStreamBuffer
 title: IRDPSRAPITransportStreamBuffer (rdpencomapi.h)
-
 description: Created and used by the IRDPSRAPITransportStream interface for sending and receiving data.
 old-location: rdp\irdpsrapitransportstreambuffer.htm
 tech.root: rdp
 ms.assetid: 44087315-7a71-4557-89b3-bf8c66ed10a4
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITransportStreamBuffer, IRDPSRAPITransportStreamBuffer interface [RDP], IRDPSRAPITransportStreamBuffer interface [RDP],described, rdp.irdpsrapitransportstreambuffer, rdpencomapi/IRDPSRAPITransportStreamBuffer
 ms.topic: interface
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPITransportStreamBuffer"
+f1_keywords:
+- rdpencomapi/IRDPSRAPITransportStreamBuffer
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPITransportStreamBuffer
+- IRDPSRAPITransportStreamBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

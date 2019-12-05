@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.GatherWriterStatus
 title: IVssBackupComponents::GatherWriterStatus (vsbackup.h)
-
 description: The GatherWriterStatus method prompts each writer to send a status message.
 old-location: base\ivssbackupcomponents_gatherwriterstatus.htm
 tech.root: VSS
 ms.assetid: ca87cdc3-e233-4efc-81c0-918e5a698af5
-
 ms.date: 12/05/2018
 ms.keywords: GatherWriterStatus, GatherWriterStatus method [VSS], GatherWriterStatus method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GatherWriterStatus method, IVssBackupComponents.GatherWriterStatus, IVssBackupComponents::GatherWriterStatus, _win32_ivssbackupcomponents_gatherwriterstatus, base.ivssbackupcomponents_gatherwriterstatus, vsbackup/IVssBackupComponents::GatherWriterStatus
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.GatherWriterStatus"
+f1_keywords:
+- vsbackup/IVssBackupComponents.GatherWriterStatus
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.GatherWriterStatus
+- IVssBackupComponents.GatherWriterStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

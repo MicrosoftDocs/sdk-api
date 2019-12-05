@@ -1,19 +1,17 @@
 ---
 UID: NF:gamingtcui.ShowGameInviteUI
 title: ShowGameInviteUI function (gamingtcui.h)
-
 description: Do not use. This API is only supported for Xbox developers.
 old-location: tcui\showgameinviteui.htm
 tech.root: tcui
 ms.assetid: DE4705C2-4590-4140-8CF8-B8552D6CA843
-
 ms.date: 12/05/2018
 ms.keywords: ShowGameInviteUI, ShowGameInviteUI function, gamingtcui/ShowGameInviteUI, tcui.showgameinviteui
 ms.topic: function
-f1_keywords: 
- - "gamingtcui/ShowGameInviteUI"
+f1_keywords:
+- gamingtcui/ShowGameInviteUI
 dev_langs:
- - c++
+- c++
 req.header: gamingtcui.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: WindowsApp.lib
 req.dll: Gamingtcui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gamingtcui.dll
- - API-MS-Win-Gaming-Tcui-L1-1-0.dll
- - GamingTcuiStub.dll
- - API-MS-Win-Gaming-Tcui-L1-1-1.dll
- - Xbox.Shell.API.dll
- - API-MS-Win-Gaming-Tcui-L1-1-2.dll
+- gamingtcui.dll
+- API-MS-Win-Gaming-Tcui-L1-1-0.dll
+- GamingTcuiStub.dll
+- API-MS-Win-Gaming-Tcui-L1-1-1.dll
+- Xbox.Shell.API.dll
+- API-MS-Win-Gaming-Tcui-L1-1-2.dll
 api_name:
- - ShowGameInviteUI
+- ShowGameInviteUI
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.CreateBitmapFromWicBitmap(IWICBitmapSource,ID2D1Bitmap1)
 title: ID2D1DeviceContext::CreateBitmapFromWicBitmap(IWICBitmapSource,ID2D1Bitmap1) (d2d1_1.h)
-
 description: Creates an ID2D1Bitmap by copying the specified Microsoft Windows Imaging Component (WIC) bitmap.
 old-location: direct2d\id2d1devicecontext_createbitmapfromwicbitmap_3.htm
 tech.root: Direct2D
 ms.assetid: 6E8CAD85-DADD-4EF1-BD22-6437DEC3BD23
-
 ms.date: 12/05/2018
 ms.keywords: CreateBitmapFromWicBitmap, CreateBitmapFromWicBitmap interface [Direct2D],CreateBitmapFromWicBitmap method, CreateBitmapFromWicBitmap method [Direct2D], CreateBitmapFromWicBitmap method [Direct2D],CreateBitmapFromWicBitmap interface, CreateBitmapFromWicBitmap::CreateBitmapFromWicBitmap, ID2D1DeviceContext.CreateBitmapFromWicBitmap, ID2D1DeviceContext.CreateBitmapFromWicBitmap(IWICBitmapSource,ID2D1Bitmap1), ID2D1DeviceContext::CreateBitmapFromWicBitmap, ID2D1DeviceContext::CreateBitmapFromWicBitmap(IWICBitmapSource,ID2D1Bitmap1), d2d1_3/CreateBitmapFromWicBitmap::CreateBitmapFromWicBitmap, direct2d.id2d1devicecontext_createbitmapfromwicbitmap_3
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/CreateBitmapFromWicBitmap.CreateBitmapFromWicBitmap"
+f1_keywords:
+- d2d1_1/CreateBitmapFromWicBitmap.CreateBitmapFromWicBitmap
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: D2d1_1.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1_3.lib
 req.dll: D2d1_3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1_3.dll
+- d2d1_3.dll
 api_name:
- - CreateBitmapFromWicBitmap.CreateBitmapFromWicBitmap
+- CreateBitmapFromWicBitmap.CreateBitmapFromWicBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

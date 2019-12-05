@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPPlayer.put_uiMode
 title: IWMPPlayer::put_uiMode (wmp.h)
-
 description: The put_uiMode method specifies a value indicating which controls are shown in the user interface.
 old-location: wmp\iwmpplayer_put_uimode.htm
 tech.root: WMP
 ms.assetid: 154db914-a0c3-44de-b692-e1b7f9c681f6
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer interface [Windows Media Player],put_uiMode method, IWMPPlayer.put_uiMode, IWMPPlayer::put_uiMode, IWMPPlayerput_uiMode, put_uiMode, put_uiMode method [Windows Media Player], put_uiMode method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_put_uimode, wmp/IWMPPlayer::put_uiMode
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPPlayer.put_uiMode"
+f1_keywords:
+- wmp/IWMPPlayer.put_uiMode
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPPlayer.put_uiMode
+- IWMPPlayer.put_uiMode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:waasapitypes.tagUpdateAssessment
 title: UpdateAssessment (waasapitypes.h)
-
 description: UpdateAssessment contains information that assesses how up-to-date an installed OS is.
 old-location: base\updateassessment.htm
 tech.root: SysInfo
 ms.assetid: BD456DF6-4A29-41B4-8EB4-8F29910981E7
-
 ms.date: 12/05/2018
 ms.keywords: UpdateAssessment, UpdateAssessment structure, base.updateassessment, waasapitypes/UpdateAssessment
 ms.topic: struct
-f1_keywords: 
- - "waasapitypes/UpdateAssessment"
+f1_keywords:
+- waasapitypes/UpdateAssessment
 dev_langs:
- - c++
+- c++
 req.header: waasapitypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - waasapitypes.h
+- waasapitypes.h
 api_name:
- - UpdateAssessment
+- UpdateAssessment
 targetos: Windows
 req.typenames: UpdateAssessment
 req.redist: 

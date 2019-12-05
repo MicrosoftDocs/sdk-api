@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamRotation
 title: ID3D11VideoContext::VideoProcessorSetStreamRotation (d3d11.h)
-
 description: Sets the stream rotation for an input stream on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorsetstreamrotation.htm
 tech.root: medfound
 ms.assetid: f94d283c-5eea-4248-8c06-46ef66e86b22
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamRotation method, ID3D11VideoContext.VideoProcessorSetStreamRotation, ID3D11VideoContext::VideoProcessorSetStreamRotation, VideoProcessorSetStreamRotation, VideoProcessorSetStreamRotation method [Media Foundation], VideoProcessorSetStreamRotation method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamRotation, mf.id3d11videocontext_videoprocessorsetstreamrotation
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoContext.VideoProcessorSetStreamRotation"
+f1_keywords:
+- d3d11/ID3D11VideoContext.VideoProcessorSetStreamRotation
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoContext.VideoProcessorSetStreamRotation
+- ID3D11VideoContext.VideoProcessorSetStreamRotation
 targetos: Windows
 req.typenames: 
 req.redist: 

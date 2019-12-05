@@ -1,19 +1,17 @@
 ---
 UID: NS:setupapi._SP_DEVICE_INTERFACE_DATA
 title: SP_DEVICE_INTERFACE_DATA (setupapi.h)
-
 description: An SP_DEVICE_INTERFACE_DATA structure defines a device interface in a device information set.
 old-location: devinst\sp_device_interface_data.htm
 tech.root: devinst
 ms.assetid: df142e95-aa1c-4d3e-90c6-bac86effbd5d
-
 ms.date: 12/05/2018
-ms.keywords: "*PSP_DEVICE_INTERFACE_DATA, PSP_DEVICE_INTERFACE_DATA, PSP_DEVICE_INTERFACE_DATA structure pointer [Device and Driver Installation], SP_DEVICE_INTERFACE_DATA, SP_DEVICE_INTERFACE_DATA structure [Device and Driver Installation], SP_INTERFACE_DEVICE_DATA, devinst.sp_device_interface_data, di-struct_6ad1a986-b29c-4adc-af28-e8895eee5ac4.xml, setupapi/PSP_DEVICE_INTERFACE_DATA, setupapi/SP_DEVICE_INTERFACE_DATA"
+ms.keywords: '*PSP_DEVICE_INTERFACE_DATA, PSP_DEVICE_INTERFACE_DATA, PSP_DEVICE_INTERFACE_DATA structure pointer [Device and Driver Installation], SP_DEVICE_INTERFACE_DATA, SP_DEVICE_INTERFACE_DATA structure [Device and Driver Installation], SP_INTERFACE_DEVICE_DATA, devinst.sp_device_interface_data, di-struct_6ad1a986-b29c-4adc-af28-e8895eee5ac4.xml, setupapi/PSP_DEVICE_INTERFACE_DATA, setupapi/SP_DEVICE_INTERFACE_DATA'
 ms.topic: struct
-f1_keywords: 
- - "setupapi/SP_DEVICE_INTERFACE_DATA"
+f1_keywords:
+- setupapi/SP_DEVICE_INTERFACE_DATA
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - setupapi.h
+- setupapi.h
 api_name:
- - SP_DEVICE_INTERFACE_DATA
+- SP_DEVICE_INTERFACE_DATA
 targetos: Windows
 req.typenames: SP_DEVICE_INTERFACE_DATA, *PSP_DEVICE_INTERFACE_DATA
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:aclui.ISecurityInformation3.GetFullResourceName
 title: ISecurityInformation3::GetFullResourceName (aclui.h)
-
 description: Retrieves the full path and file name of the object associated with the access control editor that is displayed by calling the OpenElevatedEditor method.
 old-location: security\isecurityinformation3_getfullresourcename.htm
 tech.root: SecAuthZ
 ms.assetid: a22b9a75-6aa8-4b32-8d86-7fb21afd248f
-
 ms.date: 12/05/2018
 ms.keywords: GetFullResourceName, GetFullResourceName method [Security], GetFullResourceName method [Security],ISecurityInformation3 interface, ISecurityInformation3 interface [Security],GetFullResourceName method, ISecurityInformation3.GetFullResourceName, ISecurityInformation3::GetFullResourceName, aclui/ISecurityInformation3::GetFullResourceName, security.isecurityinformation3_getfullresourcename
 ms.topic: method
-f1_keywords: 
- - "aclui/ISecurityInformation3.GetFullResourceName"
+f1_keywords:
+- aclui/ISecurityInformation3.GetFullResourceName
 dev_langs:
- - c++
+- c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Aclui.h
+- Aclui.h
 api_name:
- - ISecurityInformation3.GetFullResourceName
+- ISecurityInformation3.GetFullResourceName
 targetos: Windows
 req.typenames: 
 req.redist: 

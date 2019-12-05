@@ -1,19 +1,17 @@
 ---
 UID: NF:http.HTTP_SET_NULL_ID
 title: HTTP_SET_NULL_ID macro (http.h)
-
 description: The HTTP_SET_NULL_ID macro sets the HTTP_OPAQUE_ID to NULL.
 old-location: http\http_set_null_id.htm
 tech.root: http
 ms.assetid: d4a15361-3346-4c05-a3df-4503da183549
-
 ms.date: 12/05/2018
 ms.keywords: HTTP_SET_NULL_ID, HTTP_SET_NULL_ID macro [HTTP], http.http_set_null_id, http/HTTP_SET_NULL_ID
 ms.topic: macro
-f1_keywords: 
- - "http/HTTP_SET_NULL_ID"
+f1_keywords:
+- http/HTTP_SET_NULL_ID
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - http.h
+- http.h
 api_name:
- - HTTP_SET_NULL_ID
+- HTTP_SET_NULL_ID
 targetos: Windows
 req.typenames: 
 req.redist: 

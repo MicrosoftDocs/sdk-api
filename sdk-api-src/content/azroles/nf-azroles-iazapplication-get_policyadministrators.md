@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplication.get_PolicyAdministrators
 title: IAzApplication::get_PolicyAdministrators (azroles.h)
-
 description: Retrieves the security identifiers (SIDs), in text form, of principals that act as policy administrators.
 old-location: security\iazapplication_policyadministrators.htm
 tech.root: SecAuthZ
 ms.assetid: a0b66213-3dc7-4886-9c93-0d27d43a7d92
-
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],PolicyAdministrators property, IAzApplication interface [Security],PolicyAdministrators property, IAzApplication.PolicyAdministrators, IAzApplication.get_PolicyAdministrators, IAzApplication::PolicyAdministrators, IAzApplication::get_PolicyAdministrators, PolicyAdministrators property [Security], PolicyAdministrators property [Security],AzApplication object, PolicyAdministrators property [Security],IAzApplication interface, azroles/IAzApplication::PolicyAdministrators, azroles/IAzApplication::get_PolicyAdministrators, get_PolicyAdministrators, security.iazapplication_policyadministrators
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplication.PolicyAdministrators"
+f1_keywords:
+- azroles/IAzApplication.PolicyAdministrators
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplication.PolicyAdministrators
- - IAzApplication.get_PolicyAdministrators
- - AzApplication.PolicyAdministrators
+- IAzApplication.PolicyAdministrators
+- IAzApplication.get_PolicyAdministrators
+- AzApplication.PolicyAdministrators
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

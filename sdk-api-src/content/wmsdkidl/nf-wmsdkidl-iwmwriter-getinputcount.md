@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.GetInputCount
 title: IWMWriter::GetInputCount (wmsdkidl.h)
-
 description: The GetInputCount method retrieves the number of uncompressed input streams.
 old-location: wmformat\iwmwriter_getinputcount.htm
 tech.root: wmformat
 ms.assetid: 0cb3cd79-0640-4a3b-8e8b-d81df2ff749f
-
 ms.date: 12/05/2018
 ms.keywords: GetInputCount, GetInputCount method [windows Media Format], GetInputCount method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],GetInputCount method, IWMWriter.GetInputCount, IWMWriter::GetInputCount, IWMWriterGetInputCount, wmformat.iwmwriter_getinputcount, wmsdkidl/IWMWriter::GetInputCount
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriter.GetInputCount"
+f1_keywords:
+- wmsdkidl/IWMWriter.GetInputCount
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriter.GetInputCount
+- IWMWriter.GetInputCount
 targetos: Windows
 req.typenames: 
 req.redist: 

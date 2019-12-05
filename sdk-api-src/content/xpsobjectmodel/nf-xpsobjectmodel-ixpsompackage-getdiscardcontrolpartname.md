@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.GetDiscardControlPartName
 title: IXpsOMPackage::GetDiscardControlPartName (xpsobjectmodel.h)
-
 description: Gets the name of the discard control part in the XPS package.
 old-location: xps\ixpsompackage_getdiscardcontrolpartname.htm
 tech.root: printdocs
 ms.assetid: e1c60001-0a0c-4ff9-bb17-fef3e47b16a6
-
 ms.date: 12/05/2018
 ms.keywords: GetDiscardControlPartName, GetDiscardControlPartName method [XPS Documents and Packaging], GetDiscardControlPartName method [XPS Documents and Packaging],IXpsOMPackage interface, IXpsOMPackage interface [XPS Documents and Packaging],GetDiscardControlPartName method, IXpsOMPackage.GetDiscardControlPartName, IXpsOMPackage::GetDiscardControlPartName, xps.ixpsompackage_getdiscardcontrolpartname, xpsobjectmodel/IXpsOMPackage::GetDiscardControlPartName
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPackage.GetDiscardControlPartName"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPackage.GetDiscardControlPartName
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPackage.GetDiscardControlPartName
+- IXpsOMPackage.GetDiscardControlPartName
 targetos: Windows
 req.typenames: 
 req.redist: 

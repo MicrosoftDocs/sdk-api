@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsContainer.CopyHere
 title: IADsContainer::CopyHere (iads.h)
-
 description: The IADsContainer::CopyHere method creates a copy of the specified directory object in this container.
 old-location: adsi\iadscontainer_copyhere.htm
 tech.root: adsi
 ms.assetid: 8a006253-ccb4-4f13-93b5-297db17f7c2e
-
 ms.date: 12/05/2018
 ms.keywords: CopyHere, CopyHere method [ADSI], CopyHere method [ADSI],IADsContainer interface, IADsContainer interface [ADSI],CopyHere method, IADsContainer.CopyHere, IADsContainer::CopyHere, _ds_iadscontainer_copyhere, adsi.iadscontainer__copyhere, adsi.iadscontainer_copyhere, iads/IADsContainer::CopyHere
 ms.topic: method
-f1_keywords: 
- - "iads/IADsContainer.CopyHere"
+f1_keywords:
+- iads/IADsContainer.CopyHere
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsContainer.CopyHere
+- IADsContainer.CopyHere
 targetos: Windows
 req.typenames: 
 req.redist: 

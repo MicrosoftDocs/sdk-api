@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.IEnumVARIANT.Skip
 title: IEnumVARIANT::Skip (oaidl.h)
-
 description: Attempts to skip over the next celt elements in the enumeration sequence.
 old-location: automat\ienumvariant_skip.htm
 tech.root: automat
 ms.assetid: 5fe6951f-1e21-4a3d-8694-96efb15e6d11
-
 ms.date: 12/05/2018
 ms.keywords: IEnumVARIANT interface [Automation],Skip method, IEnumVARIANT.Skip, IEnumVARIANT::Skip, Skip, Skip method [Automation], Skip method [Automation],IEnumVARIANT interface, _oa96_IEnumVARIANT::Skip, automat.ienumvariant_skip, oaidl/IEnumVARIANT::Skip
 ms.topic: method
-f1_keywords: 
- - "oaidl/IEnumVARIANT.Skip"
+f1_keywords:
+- oaidl/IEnumVARIANT.Skip
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - IEnumVARIANT.Skip
+- IEnumVARIANT.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetNextUmsListItem
 title: GetNextUmsListItem function (winbase.h)
-
 description: Returns the next user-mode scheduling (UMS) thread context in a list of thread contexts.
 old-location: base\getnextumslistitem.htm
 tech.root: ProcThread
 ms.assetid: fb2c8420-12f4-4bd7-ac00-b53bab760db0
-
 ms.date: 12/05/2018
 ms.keywords: GetNextUmsListItem, GetNextUmsListItem function, base.getnextumslistitem, winbase/GetNextUmsListItem
 ms.topic: function
-f1_keywords: 
- - "winbase/GetNextUmsListItem"
+f1_keywords:
+- winbase/GetNextUmsListItem
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-ums-l1-1-0.dll
+- kernel32.dll
+- API-MS-Win-Core-ums-l1-1-0.dll
 api_name:
- - GetNextUmsListItem
+- GetNextUmsListItem
 targetos: Windows
 req.typenames: 
 req.redist: 

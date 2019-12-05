@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig2.GetTransportType
 title: IWMStreamConfig2::GetTransportType (wmsdkidl.h)
-
 description: The GetTransportType method retrieves the type of data communication protocol (reliable or unreliable) used for the stream.
 old-location: wmformat\iwmstreamconfig2_gettransporttype.htm
 tech.root: wmformat
 ms.assetid: dfe7b285-8d1d-4b71-a839-1c73d76e6444
-
 ms.date: 12/05/2018
 ms.keywords: GetTransportType, GetTransportType method [windows Media Format], GetTransportType method [windows Media Format],IWMStreamConfig2 interface, IWMStreamConfig2 interface [windows Media Format],GetTransportType method, IWMStreamConfig2.GetTransportType, IWMStreamConfig2::GetTransportType, IWMStreamConfig2GetTransportType, wmformat.iwmstreamconfig2_gettransporttype, wmsdkidl/IWMStreamConfig2::GetTransportType
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMStreamConfig2.GetTransportType"
+f1_keywords:
+- wmsdkidl/IWMStreamConfig2.GetTransportType
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMStreamConfig2.GetTransportType
+- IWMStreamConfig2.GetTransportType
 targetos: Windows
 req.typenames: 
 req.redist: 

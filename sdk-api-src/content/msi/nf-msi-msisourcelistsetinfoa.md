@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiSourceListSetInfoA
 title: MsiSourceListSetInfoA function (msi.h)
-
 description: Sets information about the source list for a product or patch in a specific context.
 old-location: setup\msisourcelistsetinfo.htm
 tech.root: Msi
 ms.assetid: c449bb2e-2ced-4cde-9111-d3c10db669e1
-
 ms.date: 12/05/2018
 ms.keywords: INSTALLPROPERTY_DISKPROMPT, INSTALLPROPERTY_LASTUSEDSOURCE, INSTALLPROPERTY_MEDIAPACKAGEPATH, INSTALLPROPERTY_PACKAGENAME, MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MSISOURCETYPE_NETWORK, MSISOURCETYPE_URL, MsiSourceListSetInfo, MsiSourceListSetInfo function, MsiSourceListSetInfoA, MsiSourceListSetInfoW, NULL, User SID, msi/MsiSourceListSetInfo, msi/MsiSourceListSetInfoA, msi/MsiSourceListSetInfoW, setup.msisourcelistsetinfo
 ms.topic: function
-f1_keywords: 
- - "msi/MsiSourceListSetInfo"
+f1_keywords:
+- msi/MsiSourceListSetInfo
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
- - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+- Msi.dll
+- Ext-MS-Win-MSi-Misc-L1-1-0.dll
 api_name:
- - MsiSourceListSetInfo
- - MsiSourceListSetInfoA
- - MsiSourceListSetInfoW
+- MsiSourceListSetInfo
+- MsiSourceListSetInfoA
+- MsiSourceListSetInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 

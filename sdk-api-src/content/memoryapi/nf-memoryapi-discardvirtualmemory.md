@@ -1,19 +1,17 @@
 ---
 UID: NF:memoryapi.DiscardVirtualMemory
 title: DiscardVirtualMemory function (memoryapi.h)
-
 description: Discards the memory contents of a range of memory pages, without decommitting the memory. The contents of discarded memory is undefined and must be rewritten by the application.
 old-location: base\discardvirtualmemory.htm
 tech.root: Memory
 ms.assetid: 942e80cb-5a68-24fa-5d5d-fe3741bee2dc
-
 ms.date: 12/05/2018
 ms.keywords: DiscardVirtualMemory, DiscardVirtualMemory function, base.discardvirtualmemory, winbase/DiscardVirtualMemory
 ms.topic: function
-f1_keywords: 
- - "memoryapi/DiscardVirtualMemory"
+f1_keywords:
+- memoryapi/DiscardVirtualMemory
 dev_langs:
- - c++
+- c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-memory-l1-1-2.dll
- - KernelBase.dll
- - API-MS-Win-Core-memory-l1-1-3.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Memory-L1-1-4.dll
+- Kernel32.dll
+- API-MS-Win-Core-memory-l1-1-2.dll
+- KernelBase.dll
+- API-MS-Win-Core-memory-l1-1-3.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Memory-L1-1-4.dll
 api_name:
- - DiscardVirtualMemory
+- DiscardVirtualMemory
 targetos: Windows
 req.typenames: 
 req.redist: 

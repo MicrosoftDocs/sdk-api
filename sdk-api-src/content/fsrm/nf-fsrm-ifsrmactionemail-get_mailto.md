@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrm.IFsrmActionEmail.get_MailTo
 title: IFsrmActionEmail::get_MailTo (fsrm.h)
-
 description: Retrieves or sets the email address to which email is sent when this action generates email.
 old-location: fsrm\ifsrmactionemail_mailto.htm
 tech.root: fsrm
 ms.assetid: b440bae5-0e46-432b-992b-0de7dee16b12
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmActionEmail interface [File Server Resource Manager],MailTo property, IFsrmActionEmail.MailTo, IFsrmActionEmail.get_MailTo, IFsrmActionEmail2 interface [File Server Resource Manager],MailTo property, IFsrmActionEmail2.MailTo, IFsrmActionEmail2::MailTo, IFsrmActionEmail2::get_MailTo, IFsrmActionEmail2::put_MailTo, IFsrmActionEmail::get_MailTo, IFsrmActionEmail::put_MailTo, MailTo property [File Server Resource Manager], MailTo property [File Server Resource Manager],IFsrmActionEmail interface, MailTo property [File Server Resource Manager],IFsrmActionEmail2 interface, fs.ifsrmactionemail_mailto, fsrm.ifsrmactionemail_mailto, fsrm/IFsrmActionEmail2::MailTo, fsrm/IFsrmActionEmail2::get_MailTo, fsrm/IFsrmActionEmail2::put_MailTo, fsrm/IFsrmActionEmail::MailTo, fsrm/IFsrmActionEmail::get_MailTo, fsrm/IFsrmActionEmail::put_MailTo, get_MailTo
 ms.topic: method
-f1_keywords: 
- - "fsrm/IFsrmActionEmail2.MailTo"
+f1_keywords:
+- fsrm/IFsrmActionEmail2.MailTo
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmActionEmail2.MailTo
- - IFsrmActionEmail2.get_MailTo
- - IFsrmActionEmail2.put_MailTo
- - IFsrmActionEmail.MailTo
- - IFsrmActionEmail.get_MailTo
- - IFsrmActionEmail.put_MailTo
+- IFsrmActionEmail2.MailTo
+- IFsrmActionEmail2.get_MailTo
+- IFsrmActionEmail2.put_MailTo
+- IFsrmActionEmail.MailTo
+- IFsrmActionEmail.get_MailTo
+- IFsrmActionEmail.put_MailTo
 targetos: Windows
 req.typenames: 
 req.redist: 

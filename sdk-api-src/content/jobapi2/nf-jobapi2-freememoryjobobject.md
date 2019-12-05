@@ -1,19 +1,17 @@
 ---
 UID: NF:jobapi2.FreeMemoryJobObject
 title: FreeMemoryJobObject function (jobapi2.h)
-
 description: Frees memory that a function related to job objects allocated. Functions related to job objects that allocate memory include QueryIoRateControlInformationJobObject.
 old-location: base\freememoryjobobject.htm
 tech.root: ProcThread
 ms.assetid: 8EA45FC6-A8CC-4786-8CF2-4FC868B974F2
-
 ms.date: 12/05/2018
 ms.keywords: FreeMemoryJobObject, FreeMemoryJobObject function, base.freememoryjobobject, jobapi2/FreeMemoryJobObject
 ms.topic: function
-f1_keywords: 
- - "jobapi2/FreeMemoryJobObject"
+f1_keywords:
+- jobapi2/FreeMemoryJobObject
 dev_langs:
- - c++
+- c++
 req.header: jobapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-Job-L2-1-1.dll
- - Kernel32Legacy.dll
+- kernel32.dll
+- API-MS-Win-Core-Job-L2-1-1.dll
+- Kernel32Legacy.dll
 api_name:
- - FreeMemoryJobObject
+- FreeMemoryJobObject
 targetos: Windows
 req.typenames: 
 req.redist: 

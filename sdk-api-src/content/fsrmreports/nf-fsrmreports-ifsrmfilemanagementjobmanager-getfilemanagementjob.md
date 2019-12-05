@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJobManager.GetFileManagementJob
 title: IFsrmFileManagementJobManager::GetFileManagementJob (fsrmreports.h)
-
 description: Gets the specified file management job.
 old-location: fsrm\ifsrmfilemanagementjobmanager_getfilemanagementjob.htm
 tech.root: fsrm
 ms.assetid: 106c5237-94bc-4556-aa65-247697133810
-
 ms.date: 12/05/2018
 ms.keywords: FsrmFileManagementJobManager class [File Server Resource Manager],GetFileManagementJob method, GetFileManagementJob, GetFileManagementJob method [File Server Resource Manager], GetFileManagementJob method [File Server Resource Manager],FsrmFileManagementJobManager class, GetFileManagementJob method [File Server Resource Manager],IFsrmFileManagementJobManager interface, IFsrmFileManagementJobManager interface [File Server Resource Manager],GetFileManagementJob method, IFsrmFileManagementJobManager.GetFileManagementJob, IFsrmFileManagementJobManager::GetFileManagementJob, fs.ifsrmfilemanagementjobmanager_getfilemanagementjob, fsrm.ifsrmfilemanagementjobmanager_getfilemanagementjob, fsrmreports/IFsrmFileManagementJobManager::GetFileManagementJob
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmFileManagementJobManager.GetFileManagementJob"
+f1_keywords:
+- fsrmreports/IFsrmFileManagementJobManager.GetFileManagementJob
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileManagementJobManager.GetFileManagementJob
- - FsrmFileManagementJobManager.GetFileManagementJob
+- IFsrmFileManagementJobManager.GetFileManagementJob
+- FsrmFileManagementJobManager.GetFileManagementJob
 targetos: Windows
 req.typenames: 
 req.redist: 

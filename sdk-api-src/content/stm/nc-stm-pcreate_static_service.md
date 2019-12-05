@@ -1,19 +1,17 @@
 ---
 UID: NC:stm.PCREATE_STATIC_SERVICE
 title: PCREATE_STATIC_SERVICE (stm.h)
-
 description: The CreateStaticService function adds a static service to the table.
 old-location: rras\createstaticservice.htm
 tech.root: RRAS
 ms.assetid: 529beae6-ba39-417c-8fa6-7b97fc720352
-
 ms.date: 12/05/2018
 ms.keywords: CreateStaticService, CreateStaticService callback function [RAS], PCREATE_STATIC_SERVICE, PCREATE_STATIC_SERVICE callback, _mpr_createstaticservice, rras.createstaticservice, stm/CreateStaticService
 ms.topic: callback
-f1_keywords: 
- - "stm/CreateStaticService"
+f1_keywords:
+- stm/CreateStaticService
 dev_langs:
- - c++
+- c++
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Stm.h
+- Stm.h
 api_name:
- - CreateStaticService
+- CreateStaticService
 targetos: Windows
 req.typenames: 
 req.redist: 

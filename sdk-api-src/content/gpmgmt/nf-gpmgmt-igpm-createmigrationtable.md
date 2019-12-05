@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPM.CreateMigrationTable
 title: IGPM::CreateMigrationTable (gpmgmt.h)
-
 description: Creates an empty migration table.
 old-location: gpmc\igpm_createmigrationtable.htm
 tech.root: gpmc
 ms.assetid: ae9ea50f-d652-4d7a-aac5-5b9ef27b99e0
-
 ms.date: 12/05/2018
 ms.keywords: CreateMigrationTable, CreateMigrationTable method [GPMC], CreateMigrationTable method [GPMC],GPM class, CreateMigrationTable method [GPMC],IGPM interface, GPM class [GPMC],CreateMigrationTable method, IGPM interface [GPMC],CreateMigrationTable method, IGPM.CreateMigrationTable, IGPM::CreateMigrationTable, gpmc.igpm_createmigrationtable, gpmgmt/IGPM::CreateMigrationTable
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPM.CreateMigrationTable"
+f1_keywords:
+- gpmgmt/IGPM.CreateMigrationTable
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPM.CreateMigrationTable
- - GPM.CreateMigrationTable
+- IGPM.CreateMigrationTable
+- GPM.CreateMigrationTable
 targetos: Windows
 req.typenames: 
 req.redist: 

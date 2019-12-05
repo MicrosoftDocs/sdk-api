@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeAccessible.OnDoDefaultAccessibilityAction
 title: INameSpaceTreeAccessible::OnDoDefaultAccessibilityAction (shobjidl.h)
-
 description: Invokes the default accessibility action on a Shell item.
 old-location: shell\INameSpaceTreeAccessible_OnDoDefaultAccessibilityAction.htm
 tech.root: shell
 ms.assetid: a6aa6588-6e3c-4229-8540-0aa5d85c0381
-
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeAccessible interface [Windows Shell],OnDoDefaultAccessibilityAction method, INameSpaceTreeAccessible.OnDoDefaultAccessibilityAction, INameSpaceTreeAccessible::OnDoDefaultAccessibilityAction, OnDoDefaultAccessibilityAction, OnDoDefaultAccessibilityAction method [Windows Shell], OnDoDefaultAccessibilityAction method [Windows Shell],INameSpaceTreeAccessible interface, _shell_INameSpaceTreeAccessible_OnDoDefaultAccessibilityAction, shell.INameSpaceTreeAccessible_OnDoDefaultAccessibilityAction, shobjidl/INameSpaceTreeAccessible::OnDoDefaultAccessibilityAction
 ms.topic: method
-f1_keywords: 
- - "shobjidl/INameSpaceTreeAccessible.OnDoDefaultAccessibilityAction"
+f1_keywords:
+- shobjidl/INameSpaceTreeAccessible.OnDoDefaultAccessibilityAction
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - INameSpaceTreeAccessible.OnDoDefaultAccessibilityAction
+- INameSpaceTreeAccessible.OnDoDefaultAccessibilityAction
 targetos: Windows
 req.typenames: 
 req.redist: 

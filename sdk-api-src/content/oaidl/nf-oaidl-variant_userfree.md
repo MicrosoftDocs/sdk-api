@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.VARIANT_UserFree
 title: VARIANT_UserFree function (oaidl.h)
-
 description: Frees resources on the server side when called by RPC stub files.
 old-location: automat\variant_userfree.htm
 tech.root: automat
 ms.assetid: 0432892b-af22-43d1-be3c-a98af950f0a7
-
 ms.date: 12/05/2018
 ms.keywords: VARIANT_UserFree, VARIANT_UserFree function [Automation], _oa96_VARIANT_UserFree, automat.variant_userfree, oaidl/VARIANT_UserFree
 ms.topic: function
-f1_keywords: 
- - "oaidl/VARIANT_UserFree"
+f1_keywords:
+- oaidl/VARIANT_UserFree
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VARIANT_UserFree
+- VARIANT_UserFree
 targetos: Windows
 req.typenames: 
 req.redist: 

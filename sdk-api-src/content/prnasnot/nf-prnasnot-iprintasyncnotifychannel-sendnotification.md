@@ -1,19 +1,17 @@
 ---
 UID: NF:prnasnot.IPrintAsyncNotifyChannel.SendNotification
 title: IPrintAsyncNotifyChannel::SendNotification (prnasnot.h)
-
 description: Sends a notification from a component that is hosted by the print spooler to one or more listening applications, or sends a response from an application back to a component.
 old-location: gdi\iprintasyncnotifychannel_iprintasyncnotifychannel__sendnotification.htm
 tech.root: printdocs
 ms.assetid: 729286d4-75ee-441e-b63d-fef72d41533a
-
 ms.date: 12/05/2018
 ms.keywords: IPrintAsyncNotifyChannel interface [Windows GDI],SendNotification method, IPrintAsyncNotifyChannel.SendNotification, IPrintAsyncNotifyChannel::SendNotification, SendNotification, SendNotification method [Windows GDI], SendNotification method [Windows GDI],IPrintAsyncNotifyChannel interface, _win32_IPrintAsyncNotifyChannel_SendNotification, gdi.iprintasyncnotifychannel_iprintasyncnotifychannel__sendnotification, prnasnot/IPrintAsyncNotifyChannel::SendNotification
 ms.topic: method
-f1_keywords: 
- - "prnasnot/IPrintAsyncNotifyChannel.SendNotification"
+f1_keywords:
+- prnasnot/IPrintAsyncNotifyChannel.SendNotification
 dev_langs:
- - c++
+- c++
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Prnasnot.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - prnasnot.dll
+- prnasnot.dll
 api_name:
- - IPrintAsyncNotifyChannel.SendNotification
+- IPrintAsyncNotifyChannel.SendNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.Reset
 title: ImageAttributes::Reset (gdiplusimageattributes.h)
-
 description: The ImageAttributes::Reset method clears all color- and grayscale-adjustment settings for a specified category.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_Reset_type_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\reset_82type.htm
-
 ms.date: 12/05/2018
 ms.keywords: ImageAttributes class [GDI+],Reset method, ImageAttributes.Reset, ImageAttributes::Reset, Reset, Reset method [GDI+], Reset method [GDI+],ImageAttributes class, _gdiplus_CLASS_ImageAttributes_Reset_type_, gdiplus._gdiplus_CLASS_ImageAttributes_Reset_type_
 ms.topic: method
-f1_keywords: 
- - "gdiplusimageattributes/ImageAttributes.Reset"
+f1_keywords:
+- gdiplusimageattributes/ImageAttributes.Reset
 dev_langs:
- - c++
+- c++
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - ImageAttributes.Reset
+- ImageAttributes.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3dcsx.D3DX11CreateScan
 title: D3DX11CreateScan function (d3dcsx.h)
-
 description: Creates a scan context.
 old-location: direct3d11\d3dx11createscan.htm
 tech.root: direct3d11
 ms.assetid: daaa6913-a952-4f89-8a17-17e690ad8883
-
 ms.date: 12/05/2018
 ms.keywords: 084772c2-3360-63d5-fb00-82f536323a9d, D3DX11CreateScan, D3DX11CreateScan function [Direct3D 11], d3dcsx/D3DX11CreateScan, direct3d11.d3dx11createscan
 ms.topic: function
-f1_keywords: 
- - "d3dcsx/D3DX11CreateScan"
+f1_keywords:
+- d3dcsx/D3DX11CreateScan
 dev_langs:
- - c++
+- c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3dcsx.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - d3dcsx.lib
- - d3dcsx.dll
+- d3dcsx.lib
+- d3dcsx.dll
 api_name:
- - D3DX11CreateScan
+- D3DX11CreateScan
 targetos: Windows
 req.typenames: 
 req.redist: 

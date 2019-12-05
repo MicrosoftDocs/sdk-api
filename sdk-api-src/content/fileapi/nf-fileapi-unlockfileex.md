@@ -1,19 +1,17 @@
 ---
 UID: NF:fileapi.UnlockFileEx
 title: UnlockFileEx function (fileapi.h)
-
 description: Unlocks a region in the specified file. This function can operate either synchronously or asynchronously.
 old-location: fs\unlockfileex.htm
 tech.root: FileIO
 ms.assetid: 78e2a75e-ff67-4039-b609-fb5004718c45
-
 ms.date: 12/05/2018
 ms.keywords: UnlockFileEx, UnlockFileEx function [Files], _win32_unlockfileex, base.unlockfileex, fileapi/UnlockFileEx, fs.unlockfileex, winbase/UnlockFileEx
 ms.topic: function
 f1_keywords:
 - fileapi/UnlockFileEx
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

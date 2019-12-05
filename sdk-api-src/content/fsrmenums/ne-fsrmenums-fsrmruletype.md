@@ -1,19 +1,17 @@
 ---
 UID: NE:fsrmenums._FsrmRuleType
 title: FsrmRuleType (fsrmenums.h)
-
 description: Defines the types of rules that you can define.
 old-location: fsrm\fsrmruletype.htm
 tech.root: fsrm
 ms.assetid: 9fd9daf2-5e3e-4d9c-8f19-92e31756a1c7
-
 ms.date: 12/05/2018
 ms.keywords: FsrmRuleType, FsrmRuleType enumeration [File Server Resource Manager], FsrmRuleType_Classification, FsrmRuleType_Generic, FsrmRuleType_Unknown, fs.fsrmruletype, fsrm.fsrmruletype, fsrmenums/FsrmRuleType, fsrmenums/FsrmRuleType_Classification, fsrmenums/FsrmRuleType_Generic, fsrmenums/FsrmRuleType_Unknown
 ms.topic: enum
-f1_keywords: 
- - "fsrmenums/FsrmRuleType"
+f1_keywords:
+- fsrmenums/FsrmRuleType
 dev_langs:
- - c++
+- c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FsrmEnums.h
+- FsrmEnums.h
 api_name:
- - FsrmRuleType
+- FsrmRuleType
 targetos: Windows
 req.typenames: FsrmRuleType
 req.redist: 

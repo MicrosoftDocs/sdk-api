@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsapi32.WTSStartRemoteControlSessionA
 title: WTSStartRemoteControlSessionA function (wtsapi32.h)
-
 description: Starts the remote control of another Remote Desktop Services session. You must call this function from a remote session.
 old-location: termserv\wtsstartremotecontrolsession.htm
 tech.root: TermServ
 ms.assetid: 8ccab62b-228b-4449-82c1-970de891cbdb
-
 ms.date: 12/05/2018
 ms.keywords: REMOTECONTROL_KBDALT_HOTKEY, REMOTECONTROL_KBDCTRL_HOTKEY, REMOTECONTROL_KBDSHIFT_HOTKEY, WTSStartRemoteControlSession, WTSStartRemoteControlSession function [Remote Desktop Services], WTSStartRemoteControlSessionA, WTSStartRemoteControlSessionW, termserv.wtsstartremotecontrolsession, wtsapi32/WTSStartRemoteControlSession, wtsapi32/WTSStartRemoteControlSessionA, wtsapi32/WTSStartRemoteControlSessionW
 ms.topic: function
-f1_keywords: 
- - "wtsapi32/WTSStartRemoteControlSession"
+f1_keywords:
+- wtsapi32/WTSStartRemoteControlSession
 dev_langs:
- - c++
+- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wtsapi32.dll
+- Wtsapi32.dll
 api_name:
- - WTSStartRemoteControlSession
- - WTSStartRemoteControlSessionA
- - WTSStartRemoteControlSessionW
+- WTSStartRemoteControlSession
+- WTSStartRemoteControlSessionA
+- WTSStartRemoteControlSessionW
 targetos: Windows
 req.typenames: 
 req.redist: 

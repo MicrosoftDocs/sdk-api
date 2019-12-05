@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IStylusPlugin.StylusButtonDown
 title: IStylusPlugin::StylusButtonDown (rtscom.h)
-
 description: Notifies the implementing plug-in that the user is pressing a stylus button.
 old-location: tablet\istylusplugin_stylusbuttondown.htm
 tech.root: tablet
 ms.assetid: 60cd2b46-14f7-4a06-a1e7-5b2aa9a1f05c
-
 ms.date: 12/05/2018
 ms.keywords: 60cd2b46-14f7-4a06-a1e7-5b2aa9a1f05c, IStylusPlugin interface [Tablet PC],StylusButtonDown method, IStylusPlugin.StylusButtonDown, IStylusPlugin::StylusButtonDown, StylusButtonDown, StylusButtonDown method [Tablet PC], StylusButtonDown method [Tablet PC],IStylusPlugin interface, rtscom/IStylusPlugin::StylusButtonDown, tablet.istylusplugin_stylusbuttondown
 ms.topic: method
-f1_keywords: 
- - "rtscom/IStylusPlugin.StylusButtonDown"
+f1_keywords:
+- rtscom/IStylusPlugin.StylusButtonDown
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IStylusPlugin.StylusButtonDown
+- IStylusPlugin.StylusButtonDown
 targetos: Windows
 req.typenames: 
 req.redist: 

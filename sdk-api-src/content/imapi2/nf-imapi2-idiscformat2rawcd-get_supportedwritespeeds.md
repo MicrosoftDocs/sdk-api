@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_SupportedWriteSpeeds
 title: IDiscFormat2RawCD::get_SupportedWriteSpeeds (imapi2.h)
-
 description: Retrieves a list of the write speeds supported by the disc recorder and current media.
 old-location: imapi\idiscformat2rawcd_get_supportedwritespeeds.htm
 tech.root: imapi
 ms.assetid: 7ebcc42f-d864-407f-a1a6-d4811ca8221c
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_SupportedWriteSpeeds method, IDiscFormat2RawCD.get_SupportedWriteSpeeds, IDiscFormat2RawCD::get_SupportedWriteSpeeds, get_SupportedWriteSpeeds, get_SupportedWriteSpeeds method [IMAPI], get_SupportedWriteSpeeds method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_supportedwritespeeds, imapi2/IDiscFormat2RawCD::get_SupportedWriteSpeeds
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2RawCD.get_SupportedWriteSpeeds"
+f1_keywords:
+- imapi2/IDiscFormat2RawCD.get_SupportedWriteSpeeds
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2RawCD.get_SupportedWriteSpeeds
+- IDiscFormat2RawCD.get_SupportedWriteSpeeds
 targetos: Windows
 req.typenames: 
 req.redist: 

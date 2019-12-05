@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupGetSourceInfoA
 title: SetupGetSourceInfoA function (setupapi.h)
-
 description: The SetupGetSourceInfo function retrieves the path, tag file, or media description for a source listed in an INF file.
 old-location: setup\setupgetsourceinfo.htm
 tech.root: SetupApi
 ms.assetid: 15bedd7f-7079-4623-a797-db308a51093f
-
 ms.date: 12/05/2018
 ms.keywords: SetupGetSourceInfo, SetupGetSourceInfo function [Setup API], SetupGetSourceInfoA, SetupGetSourceInfoW, _setupapi_setupgetsourceinfo, setup.setupgetsourceinfo, setupapi/SetupGetSourceInfo, setupapi/SetupGetSourceInfoA, setupapi/SetupGetSourceInfoW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupGetSourceInfo"
+f1_keywords:
+- setupapi/SetupGetSourceInfo
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupGetSourceInfo
- - SetupGetSourceInfoA
- - SetupGetSourceInfoW
+- SetupGetSourceInfo
+- SetupGetSourceInfoA
+- SetupGetSourceInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 

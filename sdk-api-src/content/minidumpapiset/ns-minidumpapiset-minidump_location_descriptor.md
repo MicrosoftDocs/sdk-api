@@ -1,19 +1,17 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_LOCATION_DESCRIPTOR
 title: MINIDUMP_LOCATION_DESCRIPTOR (minidumpapiset.h)
-
 description: Contains information describing the location of a data stream within a minidump file.
 old-location: base\minidump_location_descriptor_str.htm
 tech.root: Debug
 ms.assetid: aef17239-9b56-4d49-8347-610270f8612b
-
 ms.date: 12/05/2018
 ms.keywords: MINIDUMP_LOCATION_DESCRIPTOR, MINIDUMP_LOCATION_DESCRIPTOR structure, MINIDUMP_LOCATION_DESCRIPTOR64, _MINIDUMP_LOCATION_DESCRIPTOR, _win32_minidump_location_descriptor_str, base.minidump_location_descriptor_str, minidumpapiset/MINIDUMP_LOCATION_DESCRIPTOR
 ms.topic: struct
 f1_keywords:
 - minidumpapiset/MINIDUMP_LOCATION_DESCRIPTOR
 dev_langs:
- - c++
+- c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h, Minidumpapiset.h
 req.target-type: Windows

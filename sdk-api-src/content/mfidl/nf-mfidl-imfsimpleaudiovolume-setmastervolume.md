@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSimpleAudioVolume.SetMasterVolume
 title: IMFSimpleAudioVolume::SetMasterVolume (mfidl.h)
-
 description: Sets the master volume level.
 old-location: mf\imfsimpleaudiovolume_setmastervolume.htm
 tech.root: medfound
 ms.assetid: 42b51817-3c2a-463a-a533-19c327c57354
-
 ms.date: 12/05/2018
 ms.keywords: 42b51817-3c2a-463a-a533-19c327c57354, IMFSimpleAudioVolume interface [Media Foundation],SetMasterVolume method, IMFSimpleAudioVolume.SetMasterVolume, IMFSimpleAudioVolume::SetMasterVolume, SetMasterVolume, SetMasterVolume method [Media Foundation], SetMasterVolume method [Media Foundation],IMFSimpleAudioVolume interface, mf.imfsimpleaudiovolume_setmastervolume, mfidl/IMFSimpleAudioVolume::SetMasterVolume
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSimpleAudioVolume.SetMasterVolume"
+f1_keywords:
+- mfidl/IMFSimpleAudioVolume.SetMasterVolume
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSimpleAudioVolume.SetMasterVolume
+- IMFSimpleAudioVolume.SetMasterVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

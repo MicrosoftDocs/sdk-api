@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.OpenThemeDataForDpi
 title: OpenThemeDataForDpi function (uxtheme.h)
-
 description: A variant of OpenThemeData that opens a theme handle associated with a specific DPI.
 old-location: hidpi\openthemedatafordpi.htm
 tech.root: hidpi
 ms.assetid: 40044856-82F2-47E2-AD4B-5E4F3868E7B8
-
 ms.date: 12/05/2018
 ms.keywords: OpenThemeDataForDpi, OpenThemeDataForDpi function [High DPI], hidpi.openthemedatafordpi, uxtheme/OpenThemeDataForDpi
 ms.topic: function
-f1_keywords: 
- - "uxtheme/OpenThemeDataForDpi"
+f1_keywords:
+- uxtheme/OpenThemeDataForDpi
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - OpenThemeDataForDpi
+- OpenThemeDataForDpi
 targetos: Windows
 req.typenames: 
 req.redist: 

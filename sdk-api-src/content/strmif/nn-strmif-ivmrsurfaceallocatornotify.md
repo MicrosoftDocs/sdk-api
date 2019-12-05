@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IVMRSurfaceAllocatorNotify
 title: IVMRSurfaceAllocatorNotify (strmif.h)
-
 description: The IVMRSurfaceAllocatorNotify interface is implemented by the Video Mixing Renderer Filter 7 (VMR-7).
 old-location: dshow\ivmrsurfaceallocatornotify.htm
 tech.root: DirectShow
 ms.assetid: c590c4cb-43ba-41c2-ab1f-28f7aeee0c87
-
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocatorNotify, IVMRSurfaceAllocatorNotify interface [DirectShow], IVMRSurfaceAllocatorNotify interface [DirectShow],described, IVMRSurfaceAllocatorNotifyInterface, dshow.ivmrsurfaceallocatornotify, strmif/IVMRSurfaceAllocatorNotify
 ms.topic: interface
-f1_keywords: 
- - "strmif/IVMRSurfaceAllocatorNotify"
+f1_keywords:
+- strmif/IVMRSurfaceAllocatorNotify
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRSurfaceAllocatorNotify
+- IVMRSurfaceAllocatorNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

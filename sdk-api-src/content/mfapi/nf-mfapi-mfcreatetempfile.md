@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCreateTempFile
 title: MFCreateTempFile function (mfapi.h)
-
 description: Creates a byte stream that is backed by a temporary local file.
 old-location: mf\mfcreatetempfile.htm
 tech.root: medfound
 ms.assetid: 1f6ce49a-d3f2-4fbe-bbb8-e4ae9bcb0678
-
 ms.date: 12/05/2018
 ms.keywords: 1f6ce49a-d3f2-4fbe-bbb8-e4ae9bcb0678, MFCreateTempFile, MFCreateTempFile function [Media Foundation], mf.mfcreatetempfile, mfapi/MFCreateTempFile
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCreateTempFile"
+f1_keywords:
+- mfapi/MFCreateTempFile
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateTempFile
+- MFCreateTempFile
 targetos: Windows
 req.typenames: 
 req.redist: 

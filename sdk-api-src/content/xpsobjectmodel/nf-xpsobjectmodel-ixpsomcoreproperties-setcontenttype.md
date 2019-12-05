@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetContentType
 title: IXpsOMCoreProperties::SetContentType (xpsobjectmodel.h)
-
 description: Sets the contentType property.
 old-location: xps\ixpsomcoreproperties_setcontenttype.htm
 tech.root: printdocs
 ms.assetid: 97ddb1a2-67b2-4891-86b6-bdd38e609229
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetContentType method, IXpsOMCoreProperties.SetContentType, IXpsOMCoreProperties::SetContentType, SetContentType, SetContentType method [XPS Documents and Packaging], SetContentType method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setcontenttype, xpsobjectmodel/IXpsOMCoreProperties::SetContentType
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMCoreProperties.SetContentType"
+f1_keywords:
+- xpsobjectmodel/IXpsOMCoreProperties.SetContentType
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMCoreProperties.SetContentType
+- IXpsOMCoreProperties.SetContentType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineGetAgentSessionList
 title: lineGetAgentSessionList function (tapi.h)
-
 description: The lineGetAgentSessionList function returns a list of agent sessions created for the specified agent.
 old-location: tapi2\linegetagentsessionlist.htm
 tech.root: Tapi
 ms.assetid: 6473d5dd-e08e-47f8-acad-b60943525b83
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linegetagentsessionlist, lineGetAgentSessionList, lineGetAgentSessionList function [TAPI 2.2], tapi/lineGetAgentSessionList, tapi2.linegetagentsessionlist"
+ms.keywords: _tapi2_linegetagentsessionlist, lineGetAgentSessionList, lineGetAgentSessionList function [TAPI 2.2], tapi/lineGetAgentSessionList, tapi2.linegetagentsessionlist
 ms.topic: function
-f1_keywords: 
- - "tapi/lineGetAgentSessionList"
+f1_keywords:
+- tapi/lineGetAgentSessionList
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineGetAgentSessionList
+- lineGetAgentSessionList
 targetos: Windows
 req.typenames: 
 req.redist: 

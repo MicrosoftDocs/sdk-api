@@ -1,19 +1,17 @@
 ---
 UID: NS:eaptypes._EAP_METHOD_TYPE
 title: EAP_METHOD_TYPE (eaptypes.h)
-
 description: Contains type, identification, and author information about an EAP method.
 old-location: eaphost\eap_method_type.htm
 tech.root: eaphost
 ms.assetid: 47702dd9-d9c2-4dd5-a12d-23a55b031d27
-
 ms.date: 12/05/2018
 ms.keywords: EAP_METHOD_TYPE, EAP_METHOD_TYPE structure [EAPHost], eaphost.eap_method_type, eaptypes/EAP_METHOD_TYPE
 ms.topic: struct
 f1_keywords:
 - eaptypes/EAP_METHOD_TYPE
 dev_langs:
- - c++
+- c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:adshlp.ADsOpenObject
 title: ADsOpenObject function (adshlp.h)
-
 description: Binds to an ADSI object using explicit user name and password credentials.
 old-location: adsi\adsopenobject.htm
 tech.root: adsi
 ms.assetid: c4b85d8e-b33b-47a4-b7d7-5f901f80dce9
-
 ms.date: 12/05/2018
 ms.keywords: ADsOpenObject, ADsOpenObject function [ADSI], _ds_adsopenobject, adshlp/ADsOpenObject, adsi.adsopenobject
 ms.topic: function
-f1_keywords: 
- - "adshlp/ADsOpenObject"
+f1_keywords:
+- adshlp/ADsOpenObject
 dev_langs:
- - c++
+- c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Activeds.lib
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - ADsOpenObject
+- ADsOpenObject
 targetos: Windows
 req.typenames: 
 req.redist: 

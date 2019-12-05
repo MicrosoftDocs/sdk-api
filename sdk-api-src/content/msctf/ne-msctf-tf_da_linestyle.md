@@ -1,19 +1,17 @@
 ---
 UID: NE:msctf.__MIDL___MIDL_itf_msctf_0000_0070_0001
 title: TF_DA_LINESTYLE (msctf.h)
-
 description: Elements of the TF_DA_LINESTYLE enumeration specify the underline style of a display attribute in the TF_DA_COLOR structure.
 old-location: tsf\tf_da_linestyle.htm
 tech.root: TSF
 ms.assetid: 36ea6359-e25a-4b23-8d9d-961d743268ab
-
 ms.date: 12/05/2018
 ms.keywords: TF_DA_LINESTYLE, TF_DA_LINESTYLE enumeration [Text Services Framework], TF_LS_DASH, TF_LS_DOT, TF_LS_NONE, TF_LS_SOLID, TF_LS_SQUIGGLE, _tsf_tf_da_linestyle_ref, msctf/TF_DA_LINESTYLE, msctf/TF_LS_DASH, msctf/TF_LS_DOT, msctf/TF_LS_NONE, msctf/TF_LS_SOLID, msctf/TF_LS_SQUIGGLE, tsf.tf_da_linestyle
 ms.topic: enum
-f1_keywords: 
- - "msctf/TF_DA_LINESTYLE"
+f1_keywords:
+- msctf/TF_DA_LINESTYLE
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msctf.h
+- Msctf.h
 api_name:
- - TF_DA_LINESTYLE
+- TF_DA_LINESTYLE
 targetos: Windows
 req.typenames: TF_DA_LINESTYLE
 req.redist: TSF 1.0 on Windows 2000 Professional

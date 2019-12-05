@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IWiaItem.DumpDrvItemData
 title: IWiaItem::DumpDrvItemData (wia_xp.h)
-
 description: This method is not supported.
 old-location: wia\_wia_IWiaItem_DumpDrvItemData.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\dumpdrvitemdata.htm
-
 ms.date: 12/05/2018
 ms.keywords: DumpDrvItemData, DumpDrvItemData method [WIA], DumpDrvItemData method [WIA],IWiaItem interface, IWiaItem interface [WIA],DumpDrvItemData method, IWiaItem.DumpDrvItemData, IWiaItem::DumpDrvItemData, _wia_IWiaItem_DumpDrvItemData, wia._wia_IWiaItem_DumpDrvItemData, wia_xp/IWiaItem::DumpDrvItemData
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IWiaItem.DumpDrvItemData"
+f1_keywords:
+- wia_xp/IWiaItem.DumpDrvItemData
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaItem.DumpDrvItemData
+- IWiaItem.DumpDrvItemData
 targetos: Windows
 req.typenames: 
 req.redist: 

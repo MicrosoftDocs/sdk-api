@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._TAPE_GET_MEDIA_PARAMETERS
 title: TAPE_GET_MEDIA_PARAMETERS (winnt.h)
-
 description: Describes the tape in the tape drive. It is used by the GetTapeParametersfunction.
 old-location: backup\tape_get_media_parameters_str.htm
 tech.root: Backup
 ms.assetid: 931355e5-30f5-4984-80c2-5d63772c4592
-
 ms.date: 12/05/2018
-ms.keywords: "*PTAPE_GET_MEDIA_PARAMETERS, PTAPE_GET_MEDIA_PARAMETERS, PTAPE_GET_MEDIA_PARAMETERS structure pointer [Backup], TAPE_GET_MEDIA_PARAMETERS, TAPE_GET_MEDIA_PARAMETERS structure [Backup], _TAPE_GET_MEDIA_PARAMETERS, _win32_tape_get_media_parameters_str, backup.tape_get_media_parameters_str, base.tape_get_media_parameters_str, winnt/PTAPE_GET_MEDIA_PARAMETERS, winnt/TAPE_GET_MEDIA_PARAMETERS"
+ms.keywords: '*PTAPE_GET_MEDIA_PARAMETERS, PTAPE_GET_MEDIA_PARAMETERS, PTAPE_GET_MEDIA_PARAMETERS structure pointer [Backup], TAPE_GET_MEDIA_PARAMETERS, TAPE_GET_MEDIA_PARAMETERS structure [Backup], _TAPE_GET_MEDIA_PARAMETERS, _win32_tape_get_media_parameters_str, backup.tape_get_media_parameters_str, base.tape_get_media_parameters_str, winnt/PTAPE_GET_MEDIA_PARAMETERS, winnt/TAPE_GET_MEDIA_PARAMETERS'
 ms.topic: struct
-f1_keywords: 
- - "winnt/TAPE_GET_MEDIA_PARAMETERS"
+f1_keywords:
+- winnt/TAPE_GET_MEDIA_PARAMETERS
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - TAPE_GET_MEDIA_PARAMETERS
+- TAPE_GET_MEDIA_PARAMETERS
 targetos: Windows
 req.typenames: TAPE_GET_MEDIA_PARAMETERS, *PTAPE_GET_MEDIA_PARAMETERS
 req.redist: 

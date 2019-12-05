@@ -1,19 +1,17 @@
 ---
 UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0000_0003
 title: CHANNEL_PRIORITY (rdpencomapi.h)
-
 description: Defines values for the priority used to send packets on the channel.
 old-location: rdp\channel_priority.htm
 tech.root: rdp
 ms.assetid: 8b472714-dcd2-4da9-83cf-64e846417456
-
 ms.date: 12/05/2018
 ms.keywords: CHANNEL_PRIORITY, CHANNEL_PRIORITY enumeration [RDP], CHANNEL_PRIORITY_HI, CHANNEL_PRIORITY_LO, CHANNEL_PRIORITY_MED, rdp.channel_priority, rdpencomapi/CHANNEL_PRIORITY, rdpencomapi/CHANNEL_PRIORITY_HI, rdpencomapi/CHANNEL_PRIORITY_LO, rdpencomapi/CHANNEL_PRIORITY_MED
 ms.topic: enum
-f1_keywords: 
- - "rdpencomapi/CHANNEL_PRIORITY"
+f1_keywords:
+- rdpencomapi/CHANNEL_PRIORITY
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rdpencomapi.h
+- Rdpencomapi.h
 api_name:
- - CHANNEL_PRIORITY
+- CHANNEL_PRIORITY
 targetos: Windows
 req.typenames: CHANNEL_PRIORITY
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_HashAlgorithm
 title: IOCSPCAConfiguration::get_HashAlgorithm (certadm.h)
-
 description: Gets or sets an identifier for the hash algorithm used to sign a certificate.
 old-location: security\iocspcaconfiguration_hashalgorithm_method.htm
 tech.root: SecCrypto
 ms.assetid: 71725dc1-7663-4ddd-afde-1e2792fce4f3
-
 ms.date: 12/05/2018
 ms.keywords: HashAlgorithm property [Security], HashAlgorithm property [Security],IOCSPCAConfiguration interface, IOCSPCAConfiguration interface [Security],HashAlgorithm property, IOCSPCAConfiguration.HashAlgorithm, IOCSPCAConfiguration.get_HashAlgorithm, IOCSPCAConfiguration::HashAlgorithm, IOCSPCAConfiguration::get_HashAlgorithm, IOCSPCAConfiguration::put_HashAlgorithm, certadm/IOCSPCAConfiguration::HashAlgorithm, certadm/IOCSPCAConfiguration::get_HashAlgorithm, certadm/IOCSPCAConfiguration::put_HashAlgorithm, get_HashAlgorithm, security.iocspcaconfiguration_hashalgorithm_method, security.iocspcaconfiguration_hashalgorithmid_method
 ms.topic: method
-f1_keywords: 
- - "certadm/IOCSPCAConfiguration.HashAlgorithm"
+f1_keywords:
+- certadm/IOCSPCAConfiguration.HashAlgorithm
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IOCSPCAConfiguration.HashAlgorithm
- - IOCSPCAConfiguration.get_HashAlgorithm
- - IOCSPCAConfiguration.put_HashAlgorithm
+- IOCSPCAConfiguration.HashAlgorithm
+- IOCSPCAConfiguration.get_HashAlgorithm
+- IOCSPCAConfiguration.put_HashAlgorithm
 targetos: Windows
 req.typenames: 
 req.redist: 

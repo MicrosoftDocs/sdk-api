@@ -1,19 +1,17 @@
 ---
 UID: NN:sbtsv.ITsSbOrchestration
 title: ITsSbOrchestration (sbtsv.h)
-
 description: Exposes methods that Remote Desktop Connection Broker (RD Connection Broker) uses to ensure that the target is ready before a client is redirected to it.
 old-location: termserv\itssborchestration.htm
 tech.root: TermServ
 ms.assetid: fae858ae-19e5-453d-b9ef-1da7ea706e49
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbOrchestration, ITsSbOrchestration interface [Remote Desktop Services], ITsSbOrchestration interface [Remote Desktop Services],described, sbtsv/ITsSbOrchestration, termserv.itssborchestration
 ms.topic: interface
-f1_keywords: 
- - "sbtsv/ITsSbOrchestration"
+f1_keywords:
+- sbtsv/ITsSbOrchestration
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbOrchestration
+- ITsSbOrchestration
 targetos: Windows
 req.typenames: 
 req.redist: 

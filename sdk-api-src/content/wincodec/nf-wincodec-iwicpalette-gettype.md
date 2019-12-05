@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICPalette.GetType
 title: IWICPalette::GetType (wincodec.h)
-
 description: Retrieves the WICBitmapPaletteType that describes the palette.
 old-location: wic\_wic_codec_iwicpalette_gettype.htm
 tech.root: wic
 ms.assetid: 62b15cbb-60fd-496f-8dc6-2f5292fe4e76
-
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Windows Imaging Component], GetType method [Windows Imaging Component],IWICPalette interface, IWICPalette interface [Windows Imaging Component],GetType method, IWICPalette.GetType, IWICPalette::GetType, _wic_codec_iwicpalette_gettype, wic._wic_codec_iwicpalette_gettype, wincodec/IWICPalette::GetType
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICPalette.GetType"
+f1_keywords:
+- wincodec/IWICPalette.GetType
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICPalette.GetType
+- IWICPalette.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 

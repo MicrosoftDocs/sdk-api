@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapFile.GetBlocks
 title: IAppxBlockMapFile::GetBlocks (appxpackaging.h)
-
 description: Retrieves an enumerator for traversing the blocks of a file listed in the block map.
 old-location: appxpkg\iappxblockmapfile_getblocks.htm
 tech.root: appxpkg
 ms.assetid: CE8FB813-B125-4FD6-A7C3-CA3ECA72ECE7
-
 ms.date: 12/05/2018
 ms.keywords: GetBlocks, GetBlocks method [App packaging and management], GetBlocks method [App packaging and management],IAppxBlockMapFile interface, IAppxBlockMapFile interface [App packaging and management],GetBlocks method, IAppxBlockMapFile.GetBlocks, IAppxBlockMapFile::GetBlocks, appxpackaging/IAppxBlockMapFile::GetBlocks, appxpkg.iappxblockmapfile_getblocks
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxBlockMapFile.GetBlocks"
+f1_keywords:
+- appxpackaging/IAppxBlockMapFile.GetBlocks
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBlockMapFile.GetBlocks
+- IAppxBlockMapFile.GetBlocks
 targetos: Windows
 req.typenames: 
 req.redist: 

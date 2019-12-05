@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary.CreateLinearTransitionFromSpeed
 title: IUIAnimationTransitionLibrary::CreateLinearTransitionFromSpeed (uianimation.h)
-
 description: Creates a linear-speed transition.
 old-location: uianimation\iuianimationtransitionlibrary_createlineartransitionfromspeed.htm
 tech.root: UIAnimation
 ms.assetid: 0f9ce1c0-8681-456d-8ab5-76214dc529ba
-
 ms.date: 12/05/2018
 ms.keywords: CreateLinearTransitionFromSpeed, CreateLinearTransitionFromSpeed method [Windows Animation], CreateLinearTransitionFromSpeed method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateLinearTransitionFromSpeed method, IUIAnimationTransitionLibrary.CreateLinearTransitionFromSpeed, IUIAnimationTransitionLibrary::CreateLinearTransitionFromSpeed, uianimation.iuianimationtransitionlibrary_createlineartransitionfromspeed, uianimation/IUIAnimationTransitionLibrary::CreateLinearTransitionFromSpeed
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTransitionLibrary.CreateLinearTransitionFromSpeed"
+f1_keywords:
+- uianimation/IUIAnimationTransitionLibrary.CreateLinearTransitionFromSpeed
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTransitionLibrary.CreateLinearTransitionFromSpeed
+- IUIAnimationTransitionLibrary.CreateLinearTransitionFromSpeed
 targetos: Windows
 req.typenames: 
 req.redist: 

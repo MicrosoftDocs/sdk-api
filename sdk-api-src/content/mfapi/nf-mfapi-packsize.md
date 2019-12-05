@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.PackSize
 title: PackSize function (mfapi.h)
-
 description: Packs a UINT32 width value and a UINT32 height value into a UINT64 value that represents a size.
 old-location: mf\packsize.htm
 tech.root: medfound
 ms.assetid: F3DCEEA5-2D88-49FC-87DB-DEB0AE48E984
-
 ms.date: 12/05/2018
 ms.keywords: PackSize, PackSize function [Media Foundation], mf.packsize, mfapi/PackSize
 ms.topic: function
-f1_keywords: 
- - "mfapi/PackSize"
+f1_keywords:
+- mfapi/PackSize
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfapi.h
+- mfapi.h
 api_name:
- - PackSize
+- PackSize
 targetos: Windows
 req.typenames: 
 req.redist: 

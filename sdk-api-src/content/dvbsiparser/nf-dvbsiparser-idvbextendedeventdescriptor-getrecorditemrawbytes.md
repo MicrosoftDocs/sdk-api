@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbExtendedEventDescriptor.GetRecordItemRawBytes
 title: IDvbExtendedEventDescriptor::GetRecordItemRawBytes (dvbsiparser.h)
-
 description: Gets the raw data from the current item in a Digital Video Broadcast (DVB) extended event descriptor.
 old-location: mstv\idvbextendedeventdescriptor_getrecorditemrawbytes.htm
 tech.root: mstv
 ms.assetid: ed3046ad-b987-479a-a2ba-d761b2d83c86
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordItemRawBytes, GetRecordItemRawBytes method [Microsoft TV Technologies], GetRecordItemRawBytes method [Microsoft TV Technologies],IDvbExtendedEventDescriptor interface, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],GetRecordItemRawBytes method, IDvbExtendedEventDescriptor.GetRecordItemRawBytes, IDvbExtendedEventDescriptor::GetRecordItemRawBytes, dvbsiparser/IDvbExtendedEventDescriptor::GetRecordItemRawBytes, mstv.idvbextendedeventdescriptor_getrecorditemrawbytes
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbExtendedEventDescriptor.GetRecordItemRawBytes"
+f1_keywords:
+- dvbsiparser/IDvbExtendedEventDescriptor.GetRecordItemRawBytes
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbExtendedEventDescriptor.GetRecordItemRawBytes
+- IDvbExtendedEventDescriptor.GetRecordItemRawBytes
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IBackgroundCopyError.GetErrorDescription
 title: IBackgroundCopyError::GetErrorDescription (bits.h)
-
 description: Retrieves the error text associated with the error.
 old-location: bits\ibackgroundcopyerror_geterrordescription.htm
 tech.root: Bits
 ms.assetid: 57323f38-c2e6-4e40-b357-7df758899f97
-
 ms.date: 12/05/2018
 ms.keywords: GetErrorDescription, GetErrorDescription method [BITS], GetErrorDescription method [BITS],IBackgroundCopyError interface, IBackgroundCopyError interface [BITS],GetErrorDescription method, IBackgroundCopyError.GetErrorDescription, IBackgroundCopyError::GetErrorDescription, _drz_ibackgroundcopyerror_geterrordescription, bits.ibackgroundcopyerror_geterrordescription, bits/IBackgroundCopyError::GetErrorDescription
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyError.GetErrorDescription"
+f1_keywords:
+- bits/IBackgroundCopyError.GetErrorDescription
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyError.GetErrorDescription
+- IBackgroundCopyError.GetErrorDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

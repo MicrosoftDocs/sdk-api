@@ -1,19 +1,17 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_AudioRendererActive
 title: IMSVidCtl::get_AudioRendererActive (msvidctl.h)
-
 description: The get_AudioRendererActive method retrieves the audio renderer that is currently active.
 old-location: mstv\imsvidctl_get_audiorendereractive.htm
 tech.root: mstv
 ms.assetid: 4ac78904-18ca-4bcb-9c0e-15595a756ecd
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_AudioRendererActive method, IMSVidCtl.get_AudioRendererActive, IMSVidCtl::get_AudioRendererActive, IMSVidCtlget_AudioRendererActive, get_AudioRendererActive, get_AudioRendererActive method [Microsoft TV Technologies], get_AudioRendererActive method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_audiorendereractive, msvidctl/IMSVidCtl::get_AudioRendererActive
 ms.topic: method
-f1_keywords: 
- - "msvidctl/IMSVidCtl.get_AudioRendererActive"
+f1_keywords:
+- msvidctl/IMSVidCtl.get_AudioRendererActive
 dev_langs:
- - c++
+- c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msvidctl.h
+- msvidctl.h
 api_name:
- - IMSVidCtl.get_AudioRendererActive
+- IMSVidCtl.get_AudioRendererActive
 targetos: Windows
 req.typenames: 
 req.redist: 

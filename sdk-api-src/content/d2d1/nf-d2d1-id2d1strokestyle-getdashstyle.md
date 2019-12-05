@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1StrokeStyle.GetDashStyle
 title: ID2D1StrokeStyle::GetDashStyle (d2d1.h)
-
 description: Gets a value that describes the stroke's dash pattern.
 old-location: direct2d\ID2D1StrokeStyle_GetDashStyle.htm
 tech.root: Direct2D
 ms.assetid: 15d61f2c-9348-47af-a9cf-4706ab0033b7
-
 ms.date: 12/05/2018
 ms.keywords: GetDashStyle, GetDashStyle method [Direct2D], GetDashStyle method [Direct2D],ID2D1StrokeStyle interface, ID2D1StrokeStyle interface [Direct2D],GetDashStyle method, ID2D1StrokeStyle.GetDashStyle, ID2D1StrokeStyle::GetDashStyle, d2d1/ID2D1StrokeStyle::GetDashStyle, direct2d.ID2D1StrokeStyle_GetDashStyle
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1StrokeStyle.GetDashStyle"
+f1_keywords:
+- d2d1/ID2D1StrokeStyle.GetDashStyle
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1StrokeStyle.GetDashStyle
+- ID2D1StrokeStyle.GetDashStyle
 targetos: Windows
 req.typenames: 
 req.redist: 

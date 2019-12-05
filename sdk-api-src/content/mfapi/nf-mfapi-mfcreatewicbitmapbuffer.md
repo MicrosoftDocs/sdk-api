@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCreateWICBitmapBuffer
 title: MFCreateWICBitmapBuffer function (mfapi.h)
-
 description: Creates a media buffer object that manages a Windows Imaging Component (WIC).
 old-location: mf\mfcreatewicbitmapbuffer.htm
 tech.root: medfound
 ms.assetid: 029B7CC6-5B12-4A19-B6CD-B0D7E3F314B6
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateWICBitmapBuffer, MFCreateWICBitmapBuffer function [Media Foundation], mf.mfcreatewicbitmapbuffer, mfapi/MFCreateWICBitmapBuffer
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCreateWICBitmapBuffer"
+f1_keywords:
+- mfapi/MFCreateWICBitmapBuffer
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateWICBitmapBuffer
+- MFCreateWICBitmapBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

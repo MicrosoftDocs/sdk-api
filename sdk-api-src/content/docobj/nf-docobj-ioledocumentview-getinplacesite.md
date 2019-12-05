@@ -1,19 +1,17 @@
 ---
 UID: NF:docobj.IOleDocumentView.GetInPlaceSite
 title: IOleDocumentView::GetInPlaceSite (docobj.h)
-
 description: Retrieves the view site associated with this view object.
 old-location: com\ioledocumentview_getinplacesite.htm
 tech.root: com
 ms.assetid: d48cd54c-11b3-4acd-a13a-75a612f1761a
-
 ms.date: 12/05/2018
 ms.keywords: GetInPlaceSite, GetInPlaceSite method [COM], GetInPlaceSite method [COM],IOleDocumentView interface, IOleDocumentView interface [COM],GetInPlaceSite method, IOleDocumentView.GetInPlaceSite, IOleDocumentView::GetInPlaceSite, _ole_ioledocumentview_getinplacesite, com.ioledocumentview_getinplacesite, docobj/IOleDocumentView::GetInPlaceSite
 ms.topic: method
-f1_keywords: 
- - "docobj/IOleDocumentView.GetInPlaceSite"
+f1_keywords:
+- docobj/IOleDocumentView.GetInPlaceSite
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - IOleDocumentView.GetInPlaceSite
+- IOleDocumentView.GetInPlaceSite
 targetos: Windows
 req.typenames: 
 req.redist: 

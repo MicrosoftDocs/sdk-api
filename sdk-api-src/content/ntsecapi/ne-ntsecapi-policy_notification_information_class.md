@@ -1,19 +1,17 @@
 ---
 UID: NE:ntsecapi._POLICY_NOTIFICATION_INFORMATION_CLASS
 title: POLICY_NOTIFICATION_INFORMATION_CLASS (ntsecapi.h)
-
 description: The POLICY_NOTIFICATION_INFORMATION_CLASS enumeration defines the types of policy information and policy domain information for which your application can request notification of changes.
 old-location: security\policy_notification_information_class.htm
 tech.root: SecMgmt
 ms.assetid: cf8eea7a-d3b0-4c3a-b05b-3027024ab025
-
 ms.date: 12/05/2018
-ms.keywords: "*PPOLICY_NOTIFICATION_INFORMATION_CLASS, POLICY_NOTIFICATION_INFORMATION_CLASS, POLICY_NOTIFICATION_INFORMATION_CLASS enumeration [Security], PPOLICY_NOTIFICATION_INFORMATION_CLASS, PPOLICY_NOTIFICATION_INFORMATION_CLASS enumeration pointer [Security], PolicyNotifyAccountDomainInformation, PolicyNotifyAuditEventsInformation, PolicyNotifyDnsDomainInformation, PolicyNotifyDomainEfsInformation, PolicyNotifyDomainKerberosTicketInformation, PolicyNotifyMachineAccountPasswordInformation, PolicyNotifyServerRoleInformation, _lsa_policy_notification_information_class, ntsecapi/POLICY_NOTIFICATION_INFORMATION_CLASS, ntsecapi/PPOLICY_NOTIFICATION_INFORMATION_CLASS, ntsecapi/PolicyNotifyAccountDomainInformation, ntsecapi/PolicyNotifyAuditEventsInformation, ntsecapi/PolicyNotifyDnsDomainInformation, ntsecapi/PolicyNotifyDomainEfsInformation, ntsecapi/PolicyNotifyDomainKerberosTicketInformation, ntsecapi/PolicyNotifyMachineAccountPasswordInformation, ntsecapi/PolicyNotifyServerRoleInformation, security.policy_notification_information_class"
+ms.keywords: '*PPOLICY_NOTIFICATION_INFORMATION_CLASS, POLICY_NOTIFICATION_INFORMATION_CLASS, POLICY_NOTIFICATION_INFORMATION_CLASS enumeration [Security], PPOLICY_NOTIFICATION_INFORMATION_CLASS, PPOLICY_NOTIFICATION_INFORMATION_CLASS enumeration pointer [Security], PolicyNotifyAccountDomainInformation, PolicyNotifyAuditEventsInformation, PolicyNotifyDnsDomainInformation, PolicyNotifyDomainEfsInformation, PolicyNotifyDomainKerberosTicketInformation, PolicyNotifyMachineAccountPasswordInformation, PolicyNotifyServerRoleInformation, _lsa_policy_notification_information_class, ntsecapi/POLICY_NOTIFICATION_INFORMATION_CLASS, ntsecapi/PPOLICY_NOTIFICATION_INFORMATION_CLASS, ntsecapi/PolicyNotifyAccountDomainInformation, ntsecapi/PolicyNotifyAuditEventsInformation, ntsecapi/PolicyNotifyDnsDomainInformation, ntsecapi/PolicyNotifyDomainEfsInformation, ntsecapi/PolicyNotifyDomainKerberosTicketInformation, ntsecapi/PolicyNotifyMachineAccountPasswordInformation, ntsecapi/PolicyNotifyServerRoleInformation, security.policy_notification_information_class'
 ms.topic: enum
-f1_keywords: 
- - "ntsecapi/POLICY_NOTIFICATION_INFORMATION_CLASS"
+f1_keywords:
+- ntsecapi/POLICY_NOTIFICATION_INFORMATION_CLASS
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - POLICY_NOTIFICATION_INFORMATION_CLASS
+- POLICY_NOTIFICATION_INFORMATION_CLASS
 targetos: Windows
 req.typenames: POLICY_NOTIFICATION_INFORMATION_CLASS, *PPOLICY_NOTIFICATION_INFORMATION_CLASS
 req.redist: 

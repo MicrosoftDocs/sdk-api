@@ -1,19 +1,17 @@
 ---
 UID: NF:pdh.PdhReadRawLogRecord
 title: PdhReadRawLogRecord function (pdh.h)
-
 description: Reads the information in the specified binary trace log file.
 old-location: perf\pdhreadrawlogrecord.htm
 tech.root: perfctrs
 ms.assetid: fb93b6ea-ca31-4ff1-a553-b02388be8b72
-
 ms.date: 12/05/2018
 ms.keywords: PdhReadRawLogRecord, PdhReadRawLogRecord function [Perf], _win32_pdhreadrawlogrecord, base.pdhreadrawlogrecord, pdh/PdhReadRawLogRecord, perf.pdhreadrawlogrecord
 ms.topic: function
 f1_keywords:
 - pdh/PdhReadRawLogRecord
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

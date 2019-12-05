@@ -1,19 +1,17 @@
 ---
 UID: NE:dwrite.DWRITE_READING_DIRECTION
 title: DWRITE_READING_DIRECTION (dwrite.h)
-
 description: Specifies the direction in which reading progresses.
 old-location: directwrite\dwrite_reading_direction.htm
 tech.root: DirectWrite
 ms.assetid: 37288d34-d533-474c-b3c0-8c6361074a9b
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_READING_DIRECTION, DWRITE_READING_DIRECTION enumeration [Direct Write], DWRITE_READING_DIRECTION_BOTTOM_TO_TOP, DWRITE_READING_DIRECTION_LEFT_TO_RIGHT, DWRITE_READING_DIRECTION_RIGHT_TO_LEFT, DWRITE_READING_DIRECTION_TOP_TO_BOTTOM, directwrite.dwrite_reading_direction, dwrite/DWRITE_READING_DIRECTION, dwrite/DWRITE_READING_DIRECTION_BOTTOM_TO_TOP, dwrite/DWRITE_READING_DIRECTION_LEFT_TO_RIGHT, dwrite/DWRITE_READING_DIRECTION_RIGHT_TO_LEFT, dwrite/DWRITE_READING_DIRECTION_TOP_TO_BOTTOM
 ms.topic: enum
-f1_keywords: 
- - "dwrite/DWRITE_READING_DIRECTION"
+f1_keywords:
+- dwrite/DWRITE_READING_DIRECTION
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite.h
+- dwrite.h
 api_name:
- - DWRITE_READING_DIRECTION
+- DWRITE_READING_DIRECTION
 targetos: Windows
 req.typenames: 
 req.redist: 

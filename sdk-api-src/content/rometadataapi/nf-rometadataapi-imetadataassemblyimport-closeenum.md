@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.CloseEnum
 title: IMetaDataAssemblyImport::CloseEnum (rometadataapi.h)
-
 description: Releases a reference to the specified enumeration instance.
 old-location: winrt\imetadataassemblyimport_closeenum.htm
 tech.root: WinRT
 ms.assetid: 95adc5b3-19f1-4be1-bb77-a481f81f5d3e
-
 ms.date: 12/05/2018
 ms.keywords: CloseEnum, CloseEnum method [Windows Runtime], CloseEnum method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],CloseEnum method, IMetaDataAssemblyImport.CloseEnum, IMetaDataAssemblyImport::CloseEnum, rometadataapi/IMetaDataAssemblyImport::CloseEnum, winrt.imetadataassemblyimport_closeenum
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataAssemblyImport.CloseEnum"
+f1_keywords:
+- rometadataapi/IMetaDataAssemblyImport.CloseEnum
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataAssemblyImport.CloseEnum
+- IMetaDataAssemblyImport.CloseEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

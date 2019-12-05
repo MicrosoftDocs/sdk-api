@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbSIParameterDescriptor.GetUpdateTime
 title: IIsdbSIParameterDescriptor::GetUpdateTime (dvbsiparser.h)
-
 description: Gets the time at which a parameter becomes valid from a service information (SI) parameter descriptor.
 old-location: mstv\iisdbsiparameterdescriptor_getupdatetime.htm
 tech.root: mstv
 ms.assetid: 9cfe8387-4edf-453b-b41b-768496eae76c
-
 ms.date: 12/05/2018
 ms.keywords: GetUpdateTime, GetUpdateTime method [Microsoft TV Technologies], GetUpdateTime method [Microsoft TV Technologies],IIsdbSIParameterDescriptor interface, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies],GetUpdateTime method, IIsdbSIParameterDescriptor.GetUpdateTime, IIsdbSIParameterDescriptor::GetUpdateTime, dvbsiparser/IIsdbSIParameterDescriptor::GetUpdateTime, mstv.iisdbsiparameterdescriptor_getupdatetime
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbSIParameterDescriptor.GetUpdateTime"
+f1_keywords:
+- dvbsiparser/IIsdbSIParameterDescriptor.GetUpdateTime
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbSIParameterDescriptor.GetUpdateTime
+- IIsdbSIParameterDescriptor.GetUpdateTime
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11sdklayers.D3D11_MESSAGE
 title: D3D11_MESSAGE (d3d11sdklayers.h)
-
 description: A debug message in the Information Queue.
 old-location: direct3d11\d3d11_message.htm
 tech.root: direct3d11
 ms.assetid: b00a7e61-5394-40bd-bdc1-94da45dfa264
-
 ms.date: 12/05/2018
 ms.keywords: 63ec230f-4005-c7e9-9187-f8c6f44e0780, D3D11_MESSAGE, D3D11_MESSAGE structure [Direct3D 11], d3d11sdklayers/D3D11_MESSAGE, direct3d11.d3d11_message
 ms.topic: struct
-f1_keywords: 
- - "d3d11sdklayers/D3D11_MESSAGE"
+f1_keywords:
+- d3d11sdklayers/D3D11_MESSAGE
 dev_langs:
- - c++
+- c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11SDKLayers.h
+- D3D11SDKLayers.h
 api_name:
- - D3D11_MESSAGE
+- D3D11_MESSAGE
 targetos: Windows
 req.typenames: D3D11_MESSAGE
 req.redist: 

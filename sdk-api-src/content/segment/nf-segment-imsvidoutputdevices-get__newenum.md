@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidOutputDevices.get__NewEnum
 title: IMSVidOutputDevices::get__NewEnum (segment.h)
-
 description: The get__NewEnum method retrieves an enumerator for the collection.
 old-location: mstv\imsvidoutputdevices_get__newenum.htm
 tech.root: mstv
 ms.assetid: 2f2203bb-9367-4713-8369-06002a5842e9
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidOutputDevices interface [Microsoft TV Technologies],get__NewEnum method, IMSVidOutputDevices.get__NewEnum, IMSVidOutputDevices::get__NewEnum, IMSVidOutputDevicesget__NewEnum, get__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies],IMSVidOutputDevices interface, mstv.imsvidoutputdevices_get__newenum, segment/IMSVidOutputDevices::get__NewEnum
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidOutputDevices.get__NewEnum"
+f1_keywords:
+- segment/IMSVidOutputDevices.get__NewEnum
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidOutputDevices.get__NewEnum
+- IMSVidOutputDevices.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

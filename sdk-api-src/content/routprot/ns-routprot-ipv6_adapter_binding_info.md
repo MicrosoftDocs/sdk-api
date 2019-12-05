@@ -1,19 +1,17 @@
 ---
 UID: NS:routprot.IPV6_ADAPTER_BINDING_INFO
 title: IPV6_ADAPTER_BINDING_INFO (routprot.h)
-
 description: The IPV6_ADAPTER_BINDING_INFO structure contains IPv6-specific information for a particular network adapter.
 old-location: rras\ipv6_adapter_binding_info.htm
 tech.root: RRAS
 ms.assetid: 1e964f09-96c6-432b-bb1a-026a3ea0deba
-
 ms.date: 12/05/2018
-ms.keywords: "*PIPV6_ADAPTER_BINDING_INFO, IPV6_ADAPTER_BINDING_INFO, IPV6_ADAPTER_BINDING_INFO structure [RAS], PIPV6_ADAPTER_BINDING_INFO, PIPV6_ADAPTER_BINDING_INFO structure pointer [RAS], routprot/IPV6_ADAPTER_BINDING_INFO, routprot/PIPV6_ADAPTER_BINDING_INFO, rras.ipv6_adapter_binding_info"
+ms.keywords: '*PIPV6_ADAPTER_BINDING_INFO, IPV6_ADAPTER_BINDING_INFO, IPV6_ADAPTER_BINDING_INFO structure [RAS], PIPV6_ADAPTER_BINDING_INFO, PIPV6_ADAPTER_BINDING_INFO structure pointer [RAS], routprot/IPV6_ADAPTER_BINDING_INFO, routprot/PIPV6_ADAPTER_BINDING_INFO, rras.ipv6_adapter_binding_info'
 ms.topic: struct
-f1_keywords: 
- - "routprot/IPV6_ADAPTER_BINDING_INFO"
+f1_keywords:
+- routprot/IPV6_ADAPTER_BINDING_INFO
 dev_langs:
- - c++
+- c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Routprot.h
+- Routprot.h
 api_name:
- - IPV6_ADAPTER_BINDING_INFO
+- IPV6_ADAPTER_BINDING_INFO
 targetos: Windows
 req.typenames: IPV6_ADAPTER_BINDING_INFO, *PIPV6_ADAPTER_BINDING_INFO
 req.redist: 

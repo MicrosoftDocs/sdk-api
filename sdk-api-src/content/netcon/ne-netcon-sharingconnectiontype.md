@@ -1,19 +1,17 @@
 ---
 UID: NE:netcon.tagSHARINGCONNECTIONTYPE
 title: SHARINGCONNECTIONTYPE (netcon.h)
-
 description: The values of the SHARINGCONNECTIONTYPE type enumerate the possible types of shared connections.
 old-location: ics\sharingconnectiontype.htm
 tech.root: ics
 ms.assetid: 97409190-55b3-412f-b654-e5b27928a4c3
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSHARINGCONNECTIONTYPE, ICSSHARINGTYPE_PRIVATE, ICSSHARINGTYPE_PUBLIC, LPSHARINGCONNECTIONTYPE, LPSHARINGCONNECTIONTYPE enumeration pointer [ICS/ICF], SHARINGCONNECTIONTYPE, SHARINGCONNECTIONTYPE enumeration [ICS/ICF], _ics_sharingconnectiontype, ics.sharingconnectiontype, netcon/ICSSHARINGTYPE_PRIVATE, netcon/ICSSHARINGTYPE_PUBLIC, netcon/LPSHARINGCONNECTIONTYPE, netcon/SHARINGCONNECTIONTYPE"
+ms.keywords: '*LPSHARINGCONNECTIONTYPE, ICSSHARINGTYPE_PRIVATE, ICSSHARINGTYPE_PUBLIC, LPSHARINGCONNECTIONTYPE, LPSHARINGCONNECTIONTYPE enumeration pointer [ICS/ICF], SHARINGCONNECTIONTYPE, SHARINGCONNECTIONTYPE enumeration [ICS/ICF], _ics_sharingconnectiontype, ics.sharingconnectiontype, netcon/ICSSHARINGTYPE_PRIVATE, netcon/ICSSHARINGTYPE_PUBLIC, netcon/LPSHARINGCONNECTIONTYPE, netcon/SHARINGCONNECTIONTYPE'
 ms.topic: enum
-f1_keywords: 
- - "netcon/SHARINGCONNECTIONTYPE"
+f1_keywords:
+- netcon/SHARINGCONNECTIONTYPE
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - NetCon.h
+- NetCon.h
 api_name:
- - SHARINGCONNECTIONTYPE
+- SHARINGCONNECTIONTYPE
 targetos: Windows
 req.typenames: SHARINGCONNECTIONTYPE, *LPSHARINGCONNECTIONTYPE
 req.redist: 

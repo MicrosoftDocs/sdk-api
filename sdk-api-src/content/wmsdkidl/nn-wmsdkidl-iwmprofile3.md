@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMProfile3
 title: IWMProfile3 (wmsdkidl.h)
-
 description: The IWMProfile3 interface provides enhanced features for profiles.
 old-location: wmformat\iwmprofile3.htm
 tech.root: wmformat
 ms.assetid: 7942aa81-ada7-4e9c-a261-f257f8f890b7
-
 ms.date: 12/05/2018
 ms.keywords: IWMProfile3, IWMProfile3 interface [windows Media Format], IWMProfile3 interface [windows Media Format],described, IWMProfile3Interface, wmformat.iwmprofile3, wmsdkidl/IWMProfile3
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMProfile3"
+f1_keywords:
+- wmsdkidl/IWMProfile3
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMProfile3
+- IWMProfile3
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:directxpackedvector.XMU565
 title: XMU565 (directxpackedvector.h)
-
 description: A 3D vector with x- and z- components represented as 5-bit unsigned integer values, and the y- component as a 6-bit unsigned integer value.
 old-location: dxmath\xmu565.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMU565
-
 ms.date: 12/05/2018
 ms.keywords: XMU565, XMU565 structure [DirectX Math Support APIs], directxpackedvector/XMU565, dxmath.xmu565
 ms.topic: struct
-f1_keywords: 
- - "directxpackedvector/XMU565"
+f1_keywords:
+- directxpackedvector/XMU565
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMU565
+- XMU565
 targetos: Windows
 req.typenames: 
 req.redist: 

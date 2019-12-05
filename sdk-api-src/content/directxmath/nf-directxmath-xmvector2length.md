@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector2Length
 title: XMVector2Length function (directxmath.h)
-
 description: Computes the length of a 2D vector.
 old-location: dxmath\xmvector2length.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2Length(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2Length, XMVector2Length, XMVector2Length method [DirectX Math Support APIs], dxmath.xmvector2length
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector2Length"
+f1_keywords:
+- directxmath/XMVector2Length
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector2Length
+- XMVector2Length
 targetos: Windows
 req.typenames: 
 req.redist: 

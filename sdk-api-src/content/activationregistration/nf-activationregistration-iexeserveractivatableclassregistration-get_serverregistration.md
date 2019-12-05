@@ -1,19 +1,17 @@
 ---
 UID: NF:activationregistration.IExeServerActivatableClassRegistration.get_ServerRegistration
 title: IExeServerActivatableClassRegistration::get_ServerRegistration (activationregistration.h)
-
 description: Gets the registration details for an out-of-process server.
 old-location: winrt\iexeserveractivatableclassregistration_serverregistration.htm
 tech.root: WinRT
 ms.assetid: 6116DC84-2DE0-427E-BDC7-425178B08C1A
-
 ms.date: 12/05/2018
 ms.keywords: IExeServerActivatableClassRegistration interface [Windows Runtime],get_ServerRegistration method, IExeServerActivatableClassRegistration.get_ServerRegistration, IExeServerActivatableClassRegistration::get_ServerRegistration, activationregistration/IExeServerActivatableClassRegistration::get_ServerRegistration, get_ServerRegistration, get_ServerRegistration method [Windows Runtime], get_ServerRegistration method [Windows Runtime],IExeServerActivatableClassRegistration interface, winrt.iexeserveractivatableclassregistration_serverregistration
 ms.topic: method
-f1_keywords: 
- - "activationregistration/IExeServerActivatableClassRegistration.get_ServerRegistration"
+f1_keywords:
+- activationregistration/IExeServerActivatableClassRegistration.get_ServerRegistration
 dev_langs:
- - c++
+- c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - activationregistration.h
+- activationregistration.h
 api_name:
- - IExeServerActivatableClassRegistration.get_ServerRegistration
+- IExeServerActivatableClassRegistration.get_ServerRegistration
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncFullEnumerationChange.GetLearnedKnowledgeAfterRecoveryComplete
 title: ISyncFullEnumerationChange::GetLearnedKnowledgeAfterRecoveryComplete (winsync.h)
-
 description: Gets the knowledge the destination replica will learn after it applies the changes in the full enumeration.
 old-location: winsync\isyncfullenumerationchange_getlearnedknowledgeafterrecoverycomplete.htm
 tech.root: winsync
 ms.assetid: b6d536ad-557a-489d-a3e3-a4ffd69be096
-
 ms.date: 12/05/2018
 ms.keywords: GetLearnedKnowledgeAfterRecoveryComplete, GetLearnedKnowledgeAfterRecoveryComplete method [Windows Sync], GetLearnedKnowledgeAfterRecoveryComplete method [Windows Sync],ISyncFullEnumerationChange interface, ISyncFullEnumerationChange interface [Windows Sync],GetLearnedKnowledgeAfterRecoveryComplete method, ISyncFullEnumerationChange.GetLearnedKnowledgeAfterRecoveryComplete, ISyncFullEnumerationChange::GetLearnedKnowledgeAfterRecoveryComplete, winsync.isyncfullenumerationchange_getlearnedknowledgeafterrecoverycomplete, winsync/ISyncFullEnumerationChange::GetLearnedKnowledgeAfterRecoveryComplete
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncFullEnumerationChange.GetLearnedKnowledgeAfterRecoveryComplete"
+f1_keywords:
+- winsync/ISyncFullEnumerationChange.GetLearnedKnowledgeAfterRecoveryComplete
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncFullEnumerationChange.GetLearnedKnowledgeAfterRecoveryComplete
+- ISyncFullEnumerationChange.GetLearnedKnowledgeAfterRecoveryComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

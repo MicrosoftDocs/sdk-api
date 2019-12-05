@@ -1,19 +1,17 @@
 ---
 UID: NE:mfidl._MF_TOPONODE_DRAIN_MODE
 title: MF_TOPONODE_DRAIN_MODE (mfidl.h)
-
 description: Defines at what times a transform in a topology is drained.
 old-location: mf\mf_toponode_drain_mode.htm
 tech.root: medfound
 ms.assetid: 7f84fd12-40c3-4201-8986-a2883ba2f53d
-
 ms.date: 12/05/2018
 ms.keywords: 7f84fd12-40c3-4201-8986-a2883ba2f53d, MF_TOPONODE_DRAIN_ALWAYS, MF_TOPONODE_DRAIN_DEFAULT, MF_TOPONODE_DRAIN_MODE, MF_TOPONODE_DRAIN_MODE enumeration [Media Foundation], MF_TOPONODE_DRAIN_NEVER, mf.mf_toponode_drain_mode, mfidl/MF_TOPONODE_DRAIN_ALWAYS, mfidl/MF_TOPONODE_DRAIN_DEFAULT, mfidl/MF_TOPONODE_DRAIN_MODE, mfidl/MF_TOPONODE_DRAIN_NEVER
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MF_TOPONODE_DRAIN_MODE"
+f1_keywords:
+- mfidl/MF_TOPONODE_DRAIN_MODE
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MF_TOPONODE_DRAIN_MODE
+- MF_TOPONODE_DRAIN_MODE
 targetos: Windows
 req.typenames: MF_TOPONODE_DRAIN_MODE
 req.redist: 

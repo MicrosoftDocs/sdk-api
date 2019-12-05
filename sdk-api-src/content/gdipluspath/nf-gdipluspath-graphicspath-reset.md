@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.Reset
 title: GraphicsPath::Reset (gdipluspath.h)
-
 description: The GraphicsPath::Reset method empties the path and sets the fill mode to FillModeAlternate.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Reset_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\reset.htm
-
 ms.date: 12/05/2018
 ms.keywords: GraphicsPath class [GDI+],Reset method, GraphicsPath.Reset, GraphicsPath::Reset, Reset, Reset method [GDI+], Reset method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_Reset_, gdiplus._gdiplus_CLASS_GraphicsPath_Reset_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPath.Reset"
+f1_keywords:
+- gdipluspath/GraphicsPath.Reset
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPath.Reset
+- GraphicsPath.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

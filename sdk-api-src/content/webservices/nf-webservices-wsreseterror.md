@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsResetError
 title: WsResetError function (webservices.h)
-
 description: Releases the content of the error object parameter but does not release the resource allocated to the error object parameter.
 old-location: wsw\wsreseterror.htm
 tech.root: wsw
 ms.assetid: a01a65f1-3eca-452c-a10d-dc9c6c3db124
-
 ms.date: 12/05/2018
 ms.keywords: WsResetError, WsResetError function [Web Services for Windows], webservices/WsResetError, wsw.wsreseterror
 ms.topic: function
-f1_keywords: 
- - "webservices/WsResetError"
+f1_keywords:
+- webservices/WsResetError
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsResetError
+- WsResetError
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteRemoteFontFileLoader.CreateRemoteStreamFromKey
 title: IDWriteRemoteFontFileLoader::CreateRemoteStreamFromKey (dwrite_3.h)
-
 description: Creates a remote font file stream object that encapsulates an open file resource and can be used to download remote file data.
 old-location: directwrite\idwriteremotefontfileloader_createremotestreamfromkey.htm
 tech.root: DirectWrite
 ms.assetid: 434B7349-0FD3-492F-8973-600A0A0DFA7B
-
 ms.date: 12/05/2018
 ms.keywords: CreateRemoteStreamFromKey, CreateRemoteStreamFromKey method [Direct Write], CreateRemoteStreamFromKey method [Direct Write],IDWriteRemoteFontFileLoader interface, IDWriteRemoteFontFileLoader interface [Direct Write],CreateRemoteStreamFromKey method, IDWriteRemoteFontFileLoader.CreateRemoteStreamFromKey, IDWriteRemoteFontFileLoader::CreateRemoteStreamFromKey, directwrite.idwriteremotefontfileloader_createremotestreamfromkey, dwrite_3/IDWriteRemoteFontFileLoader::CreateRemoteStreamFromKey
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteRemoteFontFileLoader.CreateRemoteStreamFromKey"
+f1_keywords:
+- dwrite_3/IDWriteRemoteFontFileLoader.CreateRemoteStreamFromKey
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteRemoteFontFileLoader.CreateRemoteStreamFromKey
+- IDWriteRemoteFontFileLoader.CreateRemoteStreamFromKey
 targetos: Windows
 req.typenames: 
 req.redist: 

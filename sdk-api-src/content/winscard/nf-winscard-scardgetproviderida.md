@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardGetProviderIdA
 title: SCardGetProviderIdA function (winscard.h)
-
 description: Returns the identifier (GUID) of the primary service provider for a given card.
 old-location: security\scardgetproviderid.htm
 tech.root: SecAuthN
 ms.assetid: 6e0f42af-9ac1-469b-b241-939d64676d99
-
 ms.date: 12/05/2018
 ms.keywords: SCardGetProviderId, SCardGetProviderId function [Security], SCardGetProviderIdA, SCardGetProviderIdW, _smart_scardgetproviderid, security.scardgetproviderid, winscard/SCardGetProviderId, winscard/SCardGetProviderIdA, winscard/SCardGetProviderIdW
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardGetProviderId"
+f1_keywords:
+- winscard/SCardGetProviderId
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winscard.dll
+- Winscard.dll
 api_name:
- - SCardGetProviderId
- - SCardGetProviderIdA
- - SCardGetProviderIdW
+- SCardGetProviderId
+- SCardGetProviderIdA
+- SCardGetProviderIdW
 targetos: Windows
 req.typenames: 
 req.redist: 

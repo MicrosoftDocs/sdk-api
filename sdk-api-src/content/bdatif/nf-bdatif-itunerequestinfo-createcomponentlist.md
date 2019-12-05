@@ -1,19 +1,17 @@
 ---
 UID: NF:bdatif.ITuneRequestInfo.CreateComponentList
 title: ITuneRequestInfo::CreateComponentList (bdatif.h)
-
 description: The CreateComponentList method creates a new Components collection for the tune request, and fills it in with all network-specific data after the receiver has tuned to the service.
 old-location: mstv\itunerequestinfo_createcomponentlist.htm
 tech.root: mstv
 ms.assetid: cb4ec234-1e94-4c9f-8372-a5972df18948
-
 ms.date: 12/05/2018
 ms.keywords: CreateComponentList, CreateComponentList method [Microsoft TV Technologies], CreateComponentList method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],CreateComponentList method, ITuneRequestInfo.CreateComponentList, ITuneRequestInfo::CreateComponentList, ITuneRequestInfoCreateComponentList, bdatif/ITuneRequestInfo::CreateComponentList, mstv.itunerequestinfo_createcomponentlist
 ms.topic: method
-f1_keywords: 
- - "bdatif/ITuneRequestInfo.CreateComponentList"
+f1_keywords:
+- bdatif/ITuneRequestInfo.CreateComponentList
 dev_langs:
- - c++
+- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdatif.h
+- bdatif.h
 api_name:
- - ITuneRequestInfo.CreateComponentList
+- ITuneRequestInfo.CreateComponentList
 targetos: Windows
 req.typenames: 
 req.redist: 

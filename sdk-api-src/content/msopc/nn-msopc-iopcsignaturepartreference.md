@@ -1,19 +1,17 @@
 ---
 UID: NN:msopc.IOpcSignaturePartReference
 title: IOpcSignaturePartReference (msopc.h)
-
 description: Represents a reference to a part that has been or will be signed.
 old-location: opc\iopcsignaturepartreference.htm
 tech.root: OPC
 ms.assetid: b4bbf854-96b4-412b-a22d-c810423a3752
-
 ms.date: 12/05/2018
 ms.keywords: IOpcSignaturePartReference, IOpcSignaturePartReference interface [Open Packaging Conventions], IOpcSignaturePartReference interface [Open Packaging Conventions],described, msopc/IOpcSignaturePartReference, opc.iopcsignaturepartreference
 ms.topic: interface
-f1_keywords: 
- - "msopc/IOpcSignaturePartReference"
+f1_keywords:
+- msopc/IOpcSignaturePartReference
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignaturePartReference
+- IOpcSignaturePartReference
 targetos: Windows
 req.typenames: 
 req.redist: 

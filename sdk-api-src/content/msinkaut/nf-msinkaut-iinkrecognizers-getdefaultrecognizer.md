@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRecognizers.GetDefaultRecognizer
 title: IInkRecognizers::GetDefaultRecognizer (msinkaut.h)
-
 description: Retrieves the default recognizer for a known language, specified by a national language support (NLS) language code identifier (LCID).
 old-location: tablet\inkrecognizers_getdefaultrecognizer.htm
 tech.root: tablet
 ms.assetid: 499a257d-72de-4121-a98f-c827a3fef611
-
 ms.date: 12/05/2018
 ms.keywords: 499a257d-72de-4121-a98f-c827a3fef611, GetDefaultRecognizer, GetDefaultRecognizer method [Tablet PC], GetDefaultRecognizer method [Tablet PC],IInkRecognizers interface, IInkRecognizers interface [Tablet PC],GetDefaultRecognizer method, IInkRecognizers.GetDefaultRecognizer, IInkRecognizers::GetDefaultRecognizer, msinkaut/IInkRecognizers::GetDefaultRecognizer, tablet.inkrecognizers_getdefaultrecognizer
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRecognizers.GetDefaultRecognizer"
+f1_keywords:
+- msinkaut/IInkRecognizers.GetDefaultRecognizer
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognizers.GetDefaultRecognizer
+- IInkRecognizers.GetDefaultRecognizer
 targetos: Windows
 req.typenames: 
 req.redist: 

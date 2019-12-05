@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IHandlerActivationHost.BeforeCoCreateInstance
 title: IHandlerActivationHost::BeforeCoCreateInstance (shobjidl_core.h)
-
-description: "."
+description: .
 old-location: shell\IHandlerActivationHost_BeforeCoCreateInstance.htm
 tech.root: shell
 ms.assetid: 6ec3f90a-4b65-4cbc-a777-a338c97f1acf
-
 ms.date: 12/05/2018
 ms.keywords: BeforeCoCreateInstance, BeforeCoCreateInstance method [Windows Shell], BeforeCoCreateInstance method [Windows Shell],IHandlerActivationHost interface, IHandlerActivationHost interface [Windows Shell],BeforeCoCreateInstance method, IHandlerActivationHost.BeforeCoCreateInstance, IHandlerActivationHost::BeforeCoCreateInstance, shell.IHandlerActivationHost_BeforeCoCreateInstance, shobjidl_core/IHandlerActivationHost::BeforeCoCreateInstance
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IHandlerActivationHost.BeforeCoCreateInstance"
+f1_keywords:
+- shobjidl_core/IHandlerActivationHost.BeforeCoCreateInstance
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IHandlerActivationHost.BeforeCoCreateInstance
+- IHandlerActivationHost.BeforeCoCreateInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

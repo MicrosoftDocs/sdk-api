@@ -1,19 +1,17 @@
 ---
 UID: NC:mapi.MAPISENDMAIL
 title: MAPISENDMAIL (mapi.h)
-
 description: Sends an ANSI message.
 old-location: mapi\mapisendmail.htm
 tech.root: WindowsMAPI
 ms.assetid: 1d7da0f2-b736-401e-86bd-fc4375ccc0d1
-
 ms.date: 12/05/2018
 ms.keywords: MAPISendMail, MAPISendMail callback, MAPISendMail callback function, mapi.mapisendmail, mapi/MAPISendMail
 ms.topic: callback
-f1_keywords: 
- - "mapi/MAPISendMail"
+f1_keywords:
+- mapi/MAPISendMail
 dev_langs:
- - c++
+- c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Mapi.h
+- Mapi.h
 api_name:
- - MAPISendMail
+- MAPISendMail
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsContext.GetNamespaces
 title: ISettingsContext::GetNamespaces (wcmconfig.h)
-
 description: Gets the namespaces that exist in the context.
 old-location: smi\isettingscontext_getnamespaces.htm
 tech.root: SMI
 ms.assetid: 844ef731-9ccf-4cf5-9bb9-218312cbb07c
-
 ms.date: 12/05/2018
 ms.keywords: GetNamespaces, GetNamespaces method [SMI], GetNamespaces method [SMI],ISettingsContext interface, ISettingsContext interface [SMI],GetNamespaces method, ISettingsContext.GetNamespaces, ISettingsContext::GetNamespaces, smi.isettingscontext_getnamespaces, wcmconfig/ISettingsContext::GetNamespaces
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsContext.GetNamespaces"
+f1_keywords:
+- wcmconfig/ISettingsContext.GetNamespaces
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsContext.GetNamespaces
+- ISettingsContext.GetNamespaces
 targetos: Windows
 req.typenames: 
 req.redist: 

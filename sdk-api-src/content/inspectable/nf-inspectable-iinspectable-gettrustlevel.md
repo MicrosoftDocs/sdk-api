@@ -1,19 +1,17 @@
 ---
 UID: NF:inspectable.IInspectable.GetTrustLevel
 title: IInspectable::GetTrustLevel (inspectable.h)
-
 description: Gets the trust level of the current Windows Runtime object.
 old-location: winrt\iinspectable_gettrustlevel.htm
 tech.root: WinRT
 ms.assetid: E7E8AFD1-A8B7-4023-9F8B-573E0D2622F6
-
 ms.date: 12/05/2018
 ms.keywords: GetTrustLevel, GetTrustLevel method [Windows Runtime], GetTrustLevel method [Windows Runtime],IInputPaneInterop interface, GetTrustLevel method [Windows Runtime],IInspectable interface, IInputPaneInterop interface [Windows Runtime],GetTrustLevel method, IInputPaneInterop::GetTrustLevel, IInspectable interface [Windows Runtime],GetTrustLevel method, IInspectable.GetTrustLevel, IInspectable::GetTrustLevel, inspectable/IInputPaneInterop::GetTrustLevel, inspectable/IInspectable::GetTrustLevel, winrt.iinspectable_gettrustlevel
 ms.topic: method
-f1_keywords: 
- - "inspectable/IInspectable.GetTrustLevel"
+f1_keywords:
+- inspectable/IInspectable.GetTrustLevel
 dev_langs:
- - c++
+- c++
 req.header: inspectable.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Inspectable.h
+- Inspectable.h
 api_name:
- - IInspectable.GetTrustLevel
- - IInputPaneInterop.GetTrustLevel
+- IInspectable.GetTrustLevel
+- IInputPaneInterop.GetTrustLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wlanapi.WlanSetInterface
 title: WlanSetInterface function (wlanapi.h)
-
 description: Sets user-configurable parameters.
 old-location: nwifi\wlansetinterface.htm
 tech.root: NativeWiFi
 ms.assetid: 114a2a71-babd-4cd7-860a-fea523bcc865
-
 ms.date: 12/05/2018
 ms.keywords: WlanSetInterface, WlanSetInterface function [NativeWIFI], nwifi.wlansetinterface, wlanapi/WlanSetInterface
 ms.topic: function
 f1_keywords:
 - wlanapi/WlanSetInterface
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCertificate.CheckPublicKeySignature
 title: IX509CertificateRequestCertificate::CheckPublicKeySignature (certenroll.h)
-
 description: Verifies the certificate signature by using the public key of the signing certificate.
 old-location: security\ix509certificaterequestcertificate_checkpublickeysignature_method.htm
 tech.root: seccertenroll
 ms.assetid: b7c7becc-667a-4ee2-ae61-0a009d0c87e7
-
 ms.date: 12/05/2018
 ms.keywords: CheckPublicKeySignature, CheckPublicKeySignature method [Security], CheckPublicKeySignature method [Security],IX509CertificateRequestCertificate interface, IX509CertificateRequestCertificate interface [Security],CheckPublicKeySignature method, IX509CertificateRequestCertificate.CheckPublicKeySignature, IX509CertificateRequestCertificate::CheckPublicKeySignature, certenroll/IX509CertificateRequestCertificate::CheckPublicKeySignature, security.ix509certificaterequestcertificate_checkpublickeysignature_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequestCertificate.CheckPublicKeySignature"
+f1_keywords:
+- certenroll/IX509CertificateRequestCertificate.CheckPublicKeySignature
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequestCertificate.CheckPublicKeySignature
+- IX509CertificateRequestCertificate.CheckPublicKeySignature
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.IESOpenMmiEvent
 title: IESOpenMmiEvent (tuner.h)
-
 description: Gets information from an OpenMMI event.
 old-location: mstv\iesopenmmievent.htm
 tech.root: mstv
 ms.assetid: f54532e2-d1d1-4c6b-ae3d-9f50e0e61366
-
 ms.date: 12/05/2018
 ms.keywords: IESOpenMmiEvent, IESOpenMmiEvent interface [Microsoft TV Technologies], IESOpenMmiEvent interface [Microsoft TV Technologies],described, mstv.iesopenmmievent, tuner/IESOpenMmiEvent
 ms.topic: interface
-f1_keywords: 
- - "tuner/IESOpenMmiEvent"
+f1_keywords:
+- tuner/IESOpenMmiEvent
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IESOpenMmiEvent
+- IESOpenMmiEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

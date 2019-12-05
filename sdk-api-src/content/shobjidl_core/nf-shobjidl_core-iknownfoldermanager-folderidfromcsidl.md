@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IKnownFolderManager.FolderIdFromCsidl
 title: IKnownFolderManager::FolderIdFromCsidl (shobjidl_core.h)
-
 description: Gets the KNOWNFOLDERID that is the equivalent of a legacy CSIDL value.
 old-location: shell\IKnownFolderManager_FolderIdFromCsidl.htm
 tech.root: shell
 ms.assetid: 8c819558-8cbd-4576-98e6-99efa39ca5a6
-
 ms.date: 12/05/2018
 ms.keywords: FolderIdFromCsidl, FolderIdFromCsidl method [Windows Shell], FolderIdFromCsidl method [Windows Shell],IKnownFolderManager interface, IKnownFolderManager interface [Windows Shell],FolderIdFromCsidl method, IKnownFolderManager.FolderIdFromCsidl, IKnownFolderManager::FolderIdFromCsidl, _shell_IKnownFolderManager_FolderIdFromCsidl, shell.IKnownFolderManager_FolderIdFromCsidl, shobjidl_core/IKnownFolderManager::FolderIdFromCsidl
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IKnownFolderManager.FolderIdFromCsidl"
+f1_keywords:
+- shobjidl_core/IKnownFolderManager.FolderIdFromCsidl
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IKnownFolderManager.FolderIdFromCsidl
+- IKnownFolderManager.FolderIdFromCsidl
 targetos: Windows
 req.typenames: 
 req.redist: 

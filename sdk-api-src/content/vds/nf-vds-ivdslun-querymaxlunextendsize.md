@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsLun.QueryMaxLunExtendSize
 title: IVdsLun::QueryMaxLunExtendSize (vds.h)
-
 description: Returns the maximum size by which a LUN can be extended.
 old-location: base\ivdslun_querymaxlunextendsize.htm
 tech.root: VDS
 ms.assetid: ac30de71-7a2e-4a65-a37b-34a0d01ca645
-
 ms.date: 12/05/2018
 ms.keywords: IVdsLun interface,QueryMaxLunExtendSize method, IVdsLun.QueryMaxLunExtendSize, IVdsLun::QueryMaxLunExtendSize, QueryMaxLunExtendSize, QueryMaxLunExtendSize method, QueryMaxLunExtendSize method,IVdsLun interface, base.ivdslun_querymaxlunextendsize, vds/IVdsLun::QueryMaxLunExtendSize, vdshwprv/IVdsLun::QueryMaxLunExtendSize
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsLun.QueryMaxLunExtendSize"
+f1_keywords:
+- vds/IVdsLun.QueryMaxLunExtendSize
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsLun.QueryMaxLunExtendSize
+- IVdsLun.QueryMaxLunExtendSize
 targetos: Windows
 req.typenames: 
 req.redist: 

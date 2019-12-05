@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_SERVICE_ENDPOINT_METADATA
 title: WS_SERVICE_ENDPOINT_METADATA (webservices.h)
-
 description: Represents the port element for the endpoint. The port element is generated for the service element as specified by serviceName and serviceNs for WS_SERVICE_PROPERTY_METADATA property on the WS_SERVICE_HOST.
 old-location: wsw\ws_service_endpoint_metadata.htm
 tech.root: wsw
 ms.assetid: e02ea746-ed56-48a7-8cd4-9e51d100ef2a
-
 ms.date: 12/05/2018
 ms.keywords: WS_SERVICE_ENDPOINT_METADATA, WS_SERVICE_ENDPOINT_METADATA structure [Web Services for Windows], webservices/WS_SERVICE_ENDPOINT_METADATA, wsw.ws_service_endpoint_metadata
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_SERVICE_ENDPOINT_METADATA"
+f1_keywords:
+- webservices/WS_SERVICE_ENDPOINT_METADATA
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_SERVICE_ENDPOINT_METADATA
+- WS_SERVICE_ENDPOINT_METADATA
 targetos: Windows
 req.typenames: WS_SERVICE_ENDPOINT_METADATA
 req.redist: 

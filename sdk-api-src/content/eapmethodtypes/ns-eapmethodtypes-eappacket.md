@@ -1,19 +1,17 @@
 ---
 UID: NS:eapmethodtypes.tagEapPacket
 title: EapPacket (eapmethodtypes.h)
-
 description: Contains a packet of opaque data sent during an EAP authentication session.
 old-location: eaphost\eappacket.htm
 tech.root: eaphost
 ms.assetid: a5d78db0-990f-4318-8f1a-4e903221845f
-
 ms.date: 12/05/2018
 ms.keywords: EapPacket, EapPacket structure [EAPHost], eaphost.eappacket, eapmethodtypes/EapPacket
 ms.topic: struct
-f1_keywords: 
- - "eapmethodtypes/EapPacket"
+f1_keywords:
+- eapmethodtypes/EapPacket
 dev_langs:
- - c++
+- c++
 req.header: eapmethodtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - eapmethodtypes.h
+- eapmethodtypes.h
 api_name:
- - EapPacket
+- EapPacket
 targetos: Windows
 req.typenames: EapPacket
 req.redist: 

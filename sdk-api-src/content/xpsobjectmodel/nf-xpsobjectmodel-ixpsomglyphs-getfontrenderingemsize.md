@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetFontRenderingEmSize
 title: IXpsOMGlyphs::GetFontRenderingEmSize (xpsobjectmodel.h)
-
 description: Gets the font size.
 old-location: xps\ixpsomglyphs_getfontrenderingemsize.htm
 tech.root: printdocs
 ms.assetid: be1c6eff-20ef-49d3-929e-3595b421bcb9
-
 ms.date: 12/05/2018
 ms.keywords: GetFontRenderingEmSize, GetFontRenderingEmSize method [XPS Documents and Packaging], GetFontRenderingEmSize method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFontRenderingEmSize method, IXpsOMGlyphs.GetFontRenderingEmSize, IXpsOMGlyphs::GetFontRenderingEmSize, xps.ixpsomglyphs_getfontrenderingemsize, xpsobjectmodel/IXpsOMGlyphs::GetFontRenderingEmSize
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGlyphs.GetFontRenderingEmSize"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGlyphs.GetFontRenderingEmSize
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphs.GetFontRenderingEmSize
+- IXpsOMGlyphs.GetFontRenderingEmSize
 targetos: Windows
 req.typenames: 
 req.redist: 

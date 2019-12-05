@@ -1,19 +1,17 @@
 ---
 UID: NN:faxcomex.IFaxOutgoingJobs
 title: IFaxOutgoingJobs (faxcomex.h)
-
 description: The IFaxOutgoingJobs interface describes a messaging collection that is used by a fax client application to manage the outbound fax jobs in a fax server's job queue. Each outbound job is represented by a IFaxOutgoingJob interface.
 old-location: fax\_mfax_faxoutgoingjobs_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_62yb_cpp.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJobs, IFaxOutgoingJobs interface [Fax Service], IFaxOutgoingJobs interface [Fax Service],described, _mfax_faxoutgoingjobs_cpp, fax._mfax_faxoutgoingjobs_cpp, faxcomex/IFaxOutgoingJobs
 ms.topic: interface
-f1_keywords: 
- - "faxcomex/IFaxOutgoingJobs"
+f1_keywords:
+- faxcomex/IFaxOutgoingJobs
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingJobs
+- IFaxOutgoingJobs
 targetos: Windows
 req.typenames: 
 req.redist: 

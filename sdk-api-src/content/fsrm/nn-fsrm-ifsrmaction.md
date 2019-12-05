@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrm.IFsrmAction
 title: IFsrmAction (fsrm.h)
-
 description: The base class for all FSRM action interfaces.
 old-location: fsrm\ifsrmaction.htm
 tech.root: fsrm
 ms.assetid: 81bfae1d-7d09-4ddc-9669-1da40dc72fd4
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmAction, IFsrmAction interface [File Server Resource Manager], IFsrmAction interface [File Server Resource Manager],described, fs.ifsrmaction, fsrm.ifsrmaction, fsrm/IFsrmAction
 ms.topic: interface
-f1_keywords: 
- - "fsrm/IFsrmAction"
+f1_keywords:
+- fsrm/IFsrmAction
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmAction
+- IFsrmAction
 targetos: Windows
 req.typenames: 
 req.redist: 

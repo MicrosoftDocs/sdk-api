@@ -1,19 +1,17 @@
 ---
 UID: NF:d3dcompiler.D3DCreateBlob
 title: D3DCreateBlob function (d3dcompiler.h)
-
 description: Creates a buffer.
 old-location: direct3dhlsl\d3dcreateblob.htm
 tech.root: direct3dhlsl
 ms.assetid: 9cad9bff-1641-4fb1-a7c9-c3e31089d7f7
-
 ms.date: 12/05/2018
 ms.keywords: D3DCreateBlob, D3DCreateBlob function [HLSL], d3dcompiler/D3DCreateBlob, direct3dhlsl.d3dcreateblob
 ms.topic: function
-f1_keywords: 
- - "d3dcompiler/D3DCreateBlob"
+f1_keywords:
+- d3dcompiler/D3DCreateBlob
 dev_langs:
- - c++
+- c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - D3DCreateBlob
+- D3DCreateBlob
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:emptyvc.IEmptyVolumeCache.GetSpaceUsed
 title: IEmptyVolumeCache::GetSpaceUsed (emptyvc.h)
-
 description: Requests the amount of disk space that the disk cleanup handler can free.
 old-location: lwef\iemptyvolumecache_getspaceused.htm
 tech.root: lwef
 ms.assetid: c8ec2f70-f327-49d4-babb-a9640f105003
-
 ms.date: 12/05/2018
 ms.keywords: GetSpaceUsed, GetSpaceUsed method [Legacy Windows Environment Features], GetSpaceUsed method [Legacy Windows Environment Features],IEmptyVolumeCache interface, IEmptyVolumeCache interface [Legacy Windows Environment Features],GetSpaceUsed method, IEmptyVolumeCache.GetSpaceUsed, IEmptyVolumeCache::GetSpaceUsed, _win32_IEmptyVolumeCache_GetSpaceUsed, emptyvc/IEmptyVolumeCache::GetSpaceUsed, lwef.iemptyvolumecache_getspaceused, shell.iemptyvolumecache_getspaceused
 ms.topic: method
-f1_keywords: 
- - "emptyvc/IEmptyVolumeCache.GetSpaceUsed"
+f1_keywords:
+- emptyvc/IEmptyVolumeCache.GetSpaceUsed
 dev_langs:
- - c++
+- c++
 req.header: emptyvc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IEmptyVolumeCache.GetSpaceUsed
+- IEmptyVolumeCache.GetSpaceUsed
 targetos: Windows
 req.typenames: 
 req.redist: 

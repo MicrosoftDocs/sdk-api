@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12CommandQueue.UpdateTileMappings
 title: ID3D12CommandQueue::UpdateTileMappings (d3d12.h)
-
 description: Updates mappings of tile locations in reserved resources to memory locations in a resource heap.
 old-location: direct3d12\id3d12commandqueue_updatetilemappings.htm
 tech.root: direct3d12
 ms.assetid: 8A8017E5-AB55-4660-855B-D6F93F69CB52
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12CommandQueue interface,UpdateTileMappings method, ID3D12CommandQueue.UpdateTileMappings, ID3D12CommandQueue::UpdateTileMappings, UpdateTileMappings, UpdateTileMappings method, UpdateTileMappings method,ID3D12CommandQueue interface, d3d12/ID3D12CommandQueue::UpdateTileMappings, direct3d12.id3d12commandqueue_updatetilemappings
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12CommandQueue.UpdateTileMappings"
+f1_keywords:
+- d3d12/ID3D12CommandQueue.UpdateTileMappings
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - ID3D12CommandQueue.UpdateTileMappings
+- ID3D12CommandQueue.UpdateTileMappings
 targetos: Windows
 req.typenames: 
 req.redist: 

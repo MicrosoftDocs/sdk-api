@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoCreateInstanceFromApp
 title: CoCreateInstanceFromApp function (combaseapi.h)
-
 description: Creates an instance of a specific class on a specific computer from within an app container.
 old-location: com\cocreateinstancefromapp.htm
 tech.root: com
 ms.assetid: 1C773D78-5B33-44FE-A09B-AB8087F678A1
-
 ms.date: 12/05/2018
 ms.keywords: CoCreateInstanceFromApp, CoCreateInstanceFromApp function [COM], com.cocreateinstancefromapp, combaseapi/CoCreateInstanceFromApp
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoCreateInstanceFromApp"
+f1_keywords:
+- combaseapi/CoCreateInstanceFromApp
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Combase.lib
 req.dll: Combase.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - combase.dll
- - API-MS-Win-Core-COM-l1-1-0.dll
- - API-MS-Win-Core-COM-l1-1-1.dll
+- combase.dll
+- API-MS-Win-Core-COM-l1-1-0.dll
+- API-MS-Win-Core-COM-l1-1-1.dll
 api_name:
- - CoCreateInstanceFromApp
+- CoCreateInstanceFromApp
 targetos: Windows
 req.typenames: 
 req.redist: 

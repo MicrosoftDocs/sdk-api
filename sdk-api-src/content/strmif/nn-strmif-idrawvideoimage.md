@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IDrawVideoImage
 title: IDrawVideoImage (strmif.h)
-
 description: Note  This interface has been deprecated.
 old-location: dshow\idrawvideoimage.htm
 tech.root: DirectShow
 ms.assetid: ff412213-60e5-43d8-8cb1-e7ae8b3ca1bc
-
 ms.date: 12/05/2018
 ms.keywords: IDrawVideoImage, IDrawVideoImage interface [DirectShow], IDrawVideoImage interface [DirectShow],described, IDrawVideoImageInterface, dshow.idrawvideoimage, strmif/IDrawVideoImage
 ms.topic: interface
-f1_keywords: 
- - "strmif/IDrawVideoImage"
+f1_keywords:
+- strmif/IDrawVideoImage
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - IDrawVideoImage
+- IDrawVideoImage
 targetos: Windows
 req.typenames: 
 req.redist: 

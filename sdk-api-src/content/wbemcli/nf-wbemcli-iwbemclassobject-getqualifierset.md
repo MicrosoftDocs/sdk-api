@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.GetQualifierSet
 title: IWbemClassObject::GetQualifierSet (wbemcli.h)
-
 description: The IWbemClassObject::GetQualifierSet method returns an interface pointer that allows read and write operations on the set of qualifiers for the entire class object, whether the object is an instance or a class definition.
 old-location: wmi\iwbemclassobject_getqualifierset.htm
 tech.root: WmiSdk
 ms.assetid: da86b723-8126-44b9-95ec-120d88390ef3
-
 ms.date: 12/05/2018
 ms.keywords: GetQualifierSet, GetQualifierSet method [Windows Management Instrumentation], GetQualifierSet method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],GetQualifierSet method, IWbemClassObject.GetQualifierSet, IWbemClassObject::GetQualifierSet, _hmm_iwbemclassobject_getqualifierset, wbemcli/IWbemClassObject::GetQualifierSet, wmi.iwbemclassobject_getqualifierset
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemClassObject.GetQualifierSet"
+f1_keywords:
+- wbemcli/IWbemClassObject.GetQualifierSet
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: WbemUuid.lib
 req.dll: CIMWin32.dll; Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll; Wbemess.dll; Wmipiprt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CIMWin32.dll
- - Esscli.dll
- - Fastprox.dll
- - FrameDyn.dll
- - FrameDynOS.dll
- - Krnlprov.dll
- - Ncprov.dll
- - Wbemcore.dll
- - Wbemess.dll
- - Wmipiprt.dll
+- CIMWin32.dll
+- Esscli.dll
+- Fastprox.dll
+- FrameDyn.dll
+- FrameDynOS.dll
+- Krnlprov.dll
+- Ncprov.dll
+- Wbemcore.dll
+- Wbemess.dll
+- Wmipiprt.dll
 api_name:
- - IWbemClassObject.GetQualifierSet
+- IWbemClassObject.GetQualifierSet
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdate2.CopyToCache
 title: IUpdate2::CopyToCache (wuapi.h)
-
 description: Copies files for an update from a specified source location to the internal Windows Update Agent (WUA) download cache.
 old-location: wua\iupdate2_copytocache.htm
 tech.root: Wua_Sdk
 ms.assetid: a12f850a-df08-4263-bb66-94c45f7d875e
-
 ms.date: 12/05/2018
 ms.keywords: CopyToCache, CopyToCache method [Windows Update Agent], CopyToCache method [Windows Update Agent],IUpdate2 interface, IUpdate2 interface [Windows Update Agent],CopyToCache method, IUpdate2.CopyToCache, IUpdate2::CopyToCache, wua.iupdate2_copytocache, wuapi/IUpdate2::CopyToCache
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdate2.CopyToCache"
+f1_keywords:
+- wuapi/IUpdate2.CopyToCache
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdate2.CopyToCache
+- IUpdate2.CopyToCache
 targetos: Windows
 req.typenames: 
 req.redist: 

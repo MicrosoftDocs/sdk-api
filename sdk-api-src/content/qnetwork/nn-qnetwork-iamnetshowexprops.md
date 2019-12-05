@@ -1,19 +1,17 @@
 ---
 UID: NN:qnetwork.IAMNetShowExProps
 title: IAMNetShowExProps (qnetwork.h)
-
 description: The IAMNetShowExProps interface configures the legacy Windows Media Player 6.4 source filter. The Windows Media Source filter implements this interface.
 old-location: dshow\iamnetshowexprops.htm
 tech.root: DirectShow
 ms.assetid: e68959dc-1a79-4e2c-aeaf-3febcb9c09ce
-
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowExProps, IAMNetShowExProps interface [DirectShow], IAMNetShowExProps interface [DirectShow],described, IAMNetShowExPropsInterface, dshow.iamnetshowexprops, qnetwork/IAMNetShowExProps
 ms.topic: interface
-f1_keywords: 
- - "qnetwork/IAMNetShowExProps"
+f1_keywords:
+- qnetwork/IAMNetShowExProps
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMNetShowExProps
+- IAMNetShowExProps
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.GetGlyphIndices
 title: IDWriteFontFace::GetGlyphIndices (dwrite.h)
-
 description: Returns the nominal mapping of UCS4 Unicode code points to glyph indices as defined by the font 'CMAP' table.
 old-location: directwrite\IDWriteFontFace_GetGlyphIndices.htm
 tech.root: DirectWrite
 ms.assetid: 2dbaec8c-464e-45a5-b420-fa1ec3d224bd
-
 ms.date: 12/05/2018
 ms.keywords: GetGlyphIndices, GetGlyphIndices method [Direct Write], GetGlyphIndices method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetGlyphIndices method, IDWriteFontFace.GetGlyphIndices, IDWriteFontFace::GetGlyphIndices, directwrite.IDWriteFontFace_GetGlyphIndices, dwrite/IDWriteFontFace::GetGlyphIndices
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteFontFace.GetGlyphIndices"
+f1_keywords:
+- dwrite/IDWriteFontFace.GetGlyphIndices
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFace.GetGlyphIndices
+- IDWriteFontFace.GetGlyphIndices
 targetos: Windows
 req.typenames: 
 req.redist: 

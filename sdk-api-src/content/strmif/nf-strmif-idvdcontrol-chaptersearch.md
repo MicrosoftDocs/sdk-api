@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl.ChapterSearch
 title: IDvdControl::ChapterSearch (strmif.h)
-
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Halts playback of the current chapter and starts playback from the specified chapter within the same title.
 old-location: dshow\idvdcontrol_chaptersearch.htm
 tech.root: DirectShow
 ms.assetid: 1389df65-e269-4c2b-b276-a29da33fe515
-
 ms.date: 12/05/2018
 ms.keywords: ChapterSearch, ChapterSearch method [DirectShow], ChapterSearch method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],ChapterSearch method, IDvdControl.ChapterSearch, IDvdControl::ChapterSearch, IDvdControlChapterSearch, dshow.idvdcontrol_chaptersearch, strmif/IDvdControl::ChapterSearch
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl.ChapterSearch"
+f1_keywords:
+- strmif/IDvdControl.ChapterSearch
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDvdControl.ChapterSearch
+- IDvdControl.ChapterSearch
 targetos: Windows
 req.typenames: 
 req.redist: 

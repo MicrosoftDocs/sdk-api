@@ -1,19 +1,17 @@
 ---
 UID: NL:gdipluseffects.ColorLUT
 title: ColorLUT (gdipluseffects.h)
-
 description: A ColorLUTParams structure has four members, each being a lookup table for a particular color channel:\_alpha, red, green, or blue.
 old-location: gdiplus\_gdiplus_CLASS_ColorLUT_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorlut.htm
-
 ms.date: 12/05/2018
 ms.keywords: ColorLUT, ColorLUT class [GDI+], ColorLUT class [GDI+],described, _gdiplus_CLASS_ColorLUT_Class, gdiplus._gdiplus_CLASS_ColorLUT_Class, gdipluseffects/ColorLUT
 ms.topic: class
-f1_keywords: 
- - "gdipluseffects/ColorLUT"
+f1_keywords:
+- gdipluseffects/ColorLUT
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gdipluseffects.h
+- gdipluseffects.h
 api_name:
- - ColorLUT
+- ColorLUT
 targetos: Windows
 req.typenames: 
 req.redist: 

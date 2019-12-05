@@ -1,19 +1,17 @@
 ---
 UID: NN:oleidl.IOleInPlaceObject
 title: IOleInPlaceObject (oleidl.h)
-
 description: Manages the activation and deactivation of in-place objects, and determines how much of the in-place object should be visible.
 old-location: com\ioleinplaceobject.htm
 tech.root: com
 ms.assetid: c14de79d-e844-49cf-ae70-6c3e417fab90
-
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceObject, IOleInPlaceObject interface [COM], IOleInPlaceObject interface [COM],described, _ole_ioleinplaceobject, com.ioleinplaceobject, oleidl/IOleInPlaceObject
 ms.topic: interface
-f1_keywords: 
- - "oleidl/IOleInPlaceObject"
+f1_keywords:
+- oleidl/IOleInPlaceObject
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleInPlaceObject
+- IOleInPlaceObject
 targetos: Windows
 req.typenames: 
 req.redist: 

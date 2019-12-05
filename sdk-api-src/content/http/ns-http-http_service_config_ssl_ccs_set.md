@@ -1,19 +1,17 @@
 ---
 UID: NS:http._HTTP_SERVICE_CONFIG_SSL_CCS_SET
 title: HTTP_SERVICE_CONFIG_SSL_CCS_SET (http.h)
-
 description: Represents the SSL certificate record that specifies that Http.sys should consult the Centralized Certificate Store (CCS) store to find certificates if the port receives a Transport Layer Security (TLS) handshake.
 old-location: http\http_service_config_ssl_ccs_set.htm
 tech.root: http
 ms.assetid: BA815FB7-4A9F-4917-89E7-3CD108E1CEE3
-
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_SERVICE_CONFIG_SSL_CCS_SET, HTTP_SERVICE_CONFIG_SSL_CCS_SET, HTTP_SERVICE_CONFIG_SSL_CCS_SET structure [HTTP], PHTTP_SERVICE_CONFIG_SSL_CCS_SET, PHTTP_SERVICE_CONFIG_SSL_CCS_SET structure pointer [HTTP], http.http_service_config_ssl_ccs_set, http/HTTP_SERVICE_CONFIG_SSL_CCS_SET, http/PHTTP_SERVICE_CONFIG_SSL_CCS_SET'
 ms.topic: struct
 f1_keywords:
 - http/HTTP_SERVICE_CONFIG_SSL_CCS_SET
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

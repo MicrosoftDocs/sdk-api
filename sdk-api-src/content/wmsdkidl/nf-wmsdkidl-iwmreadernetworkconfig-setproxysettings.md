@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetProxySettings
 title: IWMReaderNetworkConfig::SetProxySettings (wmsdkidl.h)
-
 description: The SetProxySettings method specifies the proxy settings.
 old-location: wmformat\iwmreadernetworkconfig_setproxysettings.htm
 tech.root: wmformat
 ms.assetid: fe5bc4f2-860a-42e8-b9f1-cd3d8af619c2
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetProxySettings method, IWMReaderNetworkConfig.SetProxySettings, IWMReaderNetworkConfig::SetProxySettings, IWMReaderNetworkConfigSetProxySettings, SetProxySettings, SetProxySettings method [windows Media Format], SetProxySettings method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setproxysettings, wmsdkidl/IWMReaderNetworkConfig::SetProxySettings
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderNetworkConfig.SetProxySettings"
+f1_keywords:
+- wmsdkidl/IWMReaderNetworkConfig.SetProxySettings
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig.SetProxySettings
+- IWMReaderNetworkConfig.SetProxySettings
 targetos: Windows
 req.typenames: 
 req.redist: 

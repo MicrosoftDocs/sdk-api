@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.Wow64EnableWow64FsRedirection
 title: Wow64EnableWow64FsRedirection function (winbase.h)
-
 description: Enables or disables file system redirection for the calling thread.
 old-location: fs\wow64enablewow64fsredirection.htm
 tech.root: FileIO
 ms.assetid: 8d11a7ba-540d-4bd0-881a-a61605357dd8
-
 ms.date: 12/05/2018
 ms.keywords: Wow64EnableWow64FsRedirection, Wow64EnableWow64FsRedirection function [Files], base.wow64enablewow64fsredirection, fs.wow64enablewow64fsredirection, winbase/Wow64EnableWow64FsRedirection
 ms.topic: function
-f1_keywords: 
- - "winbase/Wow64EnableWow64FsRedirection"
+f1_keywords:
+- winbase/Wow64EnableWow64FsRedirection
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Private-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Private-l1-1-1.dll
- - API-MS-Win-Core-Kernel32-Private-l1-1-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Private-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Private-l1-1-1.dll
+- API-MS-Win-Core-Kernel32-Private-l1-1-2.dll
 api_name:
- - Wow64EnableWow64FsRedirection
+- Wow64EnableWow64FsRedirection
 targetos: Windows
 req.typenames: 
 req.redist: 

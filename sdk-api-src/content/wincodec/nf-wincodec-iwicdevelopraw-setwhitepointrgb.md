@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetWhitePointRGB
 title: IWICDevelopRaw::SetWhitePointRGB (wincodec.h)
-
 description: Sets the white point RGB values.
 old-location: wic\_wic_codec_iwicdevelopraw_setwhitepointrgb.htm
 tech.root: wic
 ms.assetid: 7059959f-dcd6-46a6-a95c-1dd9610f865c
-
 ms.date: 12/05/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetWhitePointRGB method, IWICDevelopRaw.SetWhitePointRGB, IWICDevelopRaw::SetWhitePointRGB, SetWhitePointRGB, SetWhitePointRGB method [Windows Imaging Component], SetWhitePointRGB method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setwhitepointrgb, wic._wic_codec_iwicdevelopraw_setwhitepointrgb, wincodec/IWICDevelopRaw::SetWhitePointRGB
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICDevelopRaw.SetWhitePointRGB"
+f1_keywords:
+- wincodec/IWICDevelopRaw.SetWhitePointRGB
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICDevelopRaw.SetWhitePointRGB
+- IWICDevelopRaw.SetWhitePointRGB
 targetos: Windows
 req.typenames: 
 req.redist: 

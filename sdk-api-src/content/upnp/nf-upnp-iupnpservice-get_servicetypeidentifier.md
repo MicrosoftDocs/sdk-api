@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPService.get_ServiceTypeIdentifier
 title: IUPnPService::get_ServiceTypeIdentifier (upnp.h)
-
 description: The ServiceTypeIdentifier property specifies the service type identifier for the device.
 old-location: upnp\iupnpservice_servicetypeidentifier.htm
 tech.root: upnp
 ms.assetid: 440344c9-b229-421b-b8a7-76f2f98c2c6b
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPService interface [UPnP APIs],get_ServiceTypeIdentifier method, IUPnPService.get_ServiceTypeIdentifier, IUPnPService::get_ServiceTypeIdentifier, _upnp_iupnpservice_servicetypeidentifier, get_ServiceTypeIdentifier, get_ServiceTypeIdentifier method [UPnP APIs], get_ServiceTypeIdentifier method [UPnP APIs],IUPnPService interface, upnp.iupnpservice_servicetypeidentifier, upnp/IUPnPService::get_ServiceTypeIdentifier
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPService.get_ServiceTypeIdentifier"
+f1_keywords:
+- upnp/IUPnPService.get_ServiceTypeIdentifier
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPService.get_ServiceTypeIdentifier
+- IUPnPService.get_ServiceTypeIdentifier
 targetos: Windows
 req.typenames: 
 req.redist: 

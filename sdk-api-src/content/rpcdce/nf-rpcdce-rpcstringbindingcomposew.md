@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcStringBindingComposeW
 title: RpcStringBindingComposeW function (rpcdce.h)
-
 description: The RpcStringBindingCompose function creates a string binding handle.
 old-location: rpc\rpcstringbindingcompose.htm
 tech.root: Rpc
 ms.assetid: 3f972fc9-67ca-4aa7-a0a0-204a8d90e928
-
 ms.date: 12/05/2018
 ms.keywords: RpcStringBindingCompose, RpcStringBindingCompose function [RPC], RpcStringBindingComposeA, RpcStringBindingComposeW, _rpc_rpcstringbindingcompose, rpc.rpcstringbindingcompose, rpcdce/RpcStringBindingCompose, rpcdce/RpcStringBindingComposeA, rpcdce/RpcStringBindingComposeW
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcStringBindingCompose"
+f1_keywords:
+- rpcdce/RpcStringBindingCompose
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcStringBindingCompose
- - RpcStringBindingComposeA
- - RpcStringBindingComposeW
+- RpcStringBindingCompose
+- RpcStringBindingComposeA
+- RpcStringBindingComposeW
 targetos: Windows
 req.typenames: 
 req.redist: 

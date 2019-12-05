@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetViewportOrgEx
 title: GetViewportOrgEx function (wingdi.h)
-
 description: The GetViewportOrgEx function retrieves the x-coordinates and y-coordinates of the viewport origin for the specified device context.
 old-location: gdi\getviewportorgex.htm
 tech.root: gdi
 ms.assetid: 6e6c7090-edf4-46a3-8bcd-10a00c0cf847
-
 ms.date: 12/05/2018
 ms.keywords: GetViewportOrgEx, GetViewportOrgEx function [Windows GDI], _win32_GetViewportOrgEx, gdi.getviewportorgex, wingdi/GetViewportOrgEx
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetViewportOrgEx"
+f1_keywords:
+- wingdi/GetViewportOrgEx
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Draw-l1-1-1.dll
- - ext-ms-win-gdi-draw-l1-1-2.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Draw-l1-1-1.dll
+- ext-ms-win-gdi-draw-l1-1-2.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - GetViewportOrgEx
+- GetViewportOrgEx
 targetos: Windows
 req.typenames: 
 req.redist: 

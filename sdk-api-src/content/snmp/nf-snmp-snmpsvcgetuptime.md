@@ -1,19 +1,17 @@
 ---
 UID: NF:snmp.SnmpSvcGetUptime
 title: SnmpSvcGetUptime function (snmp.h)
-
 description: The SnmpSvcGetUptime function retrieves the number of centiseconds that the SNMP service has been running. This function is an element of the SNMP Utility API.
 old-location: snmp\snmpsvcgetuptime.htm
 tech.root: SNMP
 ms.assetid: 46702e39-3ea2-471c-9281-3cd7dcae9c9c
-
 ms.date: 12/05/2018
 ms.keywords: SnmpSvcGetUptime, SnmpSvcGetUptime function [SNMP], _snmp_snmpsvcgetuptime, snmp.snmpsvcgetuptime, snmp/SnmpSvcGetUptime
 ms.topic: function
-f1_keywords: 
- - "snmp/SnmpSvcGetUptime"
+f1_keywords:
+- snmp/SnmpSvcGetUptime
 dev_langs:
- - c++
+- c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Snmpapi.lib
 req.dll: Snmpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Snmpapi.dll
+- Snmpapi.dll
 api_name:
- - SnmpSvcGetUptime
+- SnmpSvcGetUptime
 targetos: Windows
 req.typenames: 
 req.redist: 

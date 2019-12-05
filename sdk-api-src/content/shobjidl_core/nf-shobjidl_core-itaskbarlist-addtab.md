@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList.AddTab
 title: ITaskbarList::AddTab (shobjidl_core.h)
-
 description: Adds an item to the taskbar.
 old-location: shell\ITaskbarList_AddTab.htm
 tech.root: shell
 ms.assetid: 47d52ab8-f182-4bfb-8745-ad2d23197088
-
 ms.date: 12/05/2018
 ms.keywords: AddTab, AddTab method [Windows Shell], AddTab method [Windows Shell],ITaskbarList interface, ITaskbarList interface [Windows Shell],AddTab method, ITaskbarList.AddTab, ITaskbarList::AddTab, _win32_ITaskbarList_AddTab, shell.ITaskbarList_AddTab, shobjidl_core/ITaskbarList::AddTab
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ITaskbarList.AddTab"
+f1_keywords:
+- shobjidl_core/ITaskbarList.AddTab
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ITaskbarList.AddTab
+- ITaskbarList.AddTab
 targetos: Windows
 req.typenames: 
 req.redist: 

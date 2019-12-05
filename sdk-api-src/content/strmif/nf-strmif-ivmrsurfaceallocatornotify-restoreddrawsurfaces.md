@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRSurfaceAllocatorNotify.RestoreDDrawSurfaces
 title: IVMRSurfaceAllocatorNotify::RestoreDDrawSurfaces (strmif.h)
-
 description: The RestoreDDrawSurfaces method notifies the VMR that a DirectDraw surface &#0034;loss&#0034; has been detected.
 old-location: dshow\ivmrsurfaceallocatornotify_restoreddrawsurfaces.htm
 tech.root: DirectShow
 ms.assetid: b62df5fb-6759-4869-a6b3-f78978e1f5e2
-
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocatorNotify interface [DirectShow],RestoreDDrawSurfaces method, IVMRSurfaceAllocatorNotify.RestoreDDrawSurfaces, IVMRSurfaceAllocatorNotify::RestoreDDrawSurfaces, IVMRSurfaceAllocatorNotifyRestoreDDrawSurfaces, RestoreDDrawSurfaces, RestoreDDrawSurfaces method [DirectShow], RestoreDDrawSurfaces method [DirectShow],IVMRSurfaceAllocatorNotify interface, dshow.ivmrsurfaceallocatornotify_restoreddrawsurfaces, strmif/IVMRSurfaceAllocatorNotify::RestoreDDrawSurfaces
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRSurfaceAllocatorNotify.RestoreDDrawSurfaces"
+f1_keywords:
+- strmif/IVMRSurfaceAllocatorNotify.RestoreDDrawSurfaces
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRSurfaceAllocatorNotify.RestoreDDrawSurfaces
+- IVMRSurfaceAllocatorNotify.RestoreDDrawSurfaces
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdclient.IWSDEndpointProxy.AbortAsyncOperation
 title: IWSDEndpointProxy::AbortAsyncOperation (wsdclient.h)
-
 description: Aborts a pending asynchronous operation.
 old-location: ncd\iwsdendpointproxy_abortasyncoperation.htm
 tech.root: WsdApi
 ms.assetid: 559c7fcd-9652-4dfa-b22a-45929b6aee14
-
 ms.date: 12/05/2018
 ms.keywords: AbortAsyncOperation, AbortAsyncOperation method, AbortAsyncOperation method,IWSDEndpointProxy interface, IWSDEndpointProxy interface,AbortAsyncOperation method, IWSDEndpointProxy.AbortAsyncOperation, IWSDEndpointProxy::AbortAsyncOperation, ncd.iwsdendpointproxy_abortasyncoperation, wsdclient/IWSDEndpointProxy::AbortAsyncOperation
 ms.topic: method
-f1_keywords: 
- - "wsdclient/IWSDEndpointProxy.AbortAsyncOperation"
+f1_keywords:
+- wsdclient/IWSDEndpointProxy.AbortAsyncOperation
 dev_langs:
- - c++
+- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDEndpointProxy.AbortAsyncOperation
+- IWSDEndpointProxy.AbortAsyncOperation
 targetos: Windows
 req.typenames: 
 req.redist: 

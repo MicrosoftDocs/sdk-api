@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupWriteTextLog
 title: SetupWriteTextLog function (setupapi.h)
-
 description: The SetupWriteTextLog function writes a log entry in a SetupAPI text log.
 old-location: devinst\setupwritetextlog.htm
 tech.root: devinst
 ms.assetid: 8a59c796-1386-495c-9790-8916d677ebd3
-
 ms.date: 12/05/2018
 ms.keywords: SetupWriteTextLog, SetupWriteTextLog function [Device and Driver Installation], devinst.setupwritetextlog, setupapi/SetupWriteTextLog, setupapilog-ref_42860a5c-0ea7-4185-81eb-76996286cafc.xml
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupWriteTextLog"
+f1_keywords:
+- setupapi/SetupWriteTextLog
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -32,17 +30,17 @@ req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.lib
- - Setupapi.dll
- - Ext-MS-Win-setupapi-logging-l1-1-0.dll
- - setupapi.dll
+- Setupapi.lib
+- Setupapi.dll
+- Ext-MS-Win-setupapi-logging-l1-1-0.dll
+- setupapi.dll
 api_name:
- - SetupWriteTextLog
+- SetupWriteTextLog
 targetos: Windows
 req.typenames: 
 req.redist: 

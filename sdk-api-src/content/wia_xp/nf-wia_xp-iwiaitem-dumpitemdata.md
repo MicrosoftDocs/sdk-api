@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IWiaItem.DumpItemData
 title: IWiaItem::DumpItemData (wia_xp.h)
-
 description: This method is not supported.
 old-location: wia\_wia_IWiaItem_DumpItemData.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\dumpitemdata.htm
-
 ms.date: 12/05/2018
 ms.keywords: DumpItemData, DumpItemData method [WIA], DumpItemData method [WIA],IWiaItem interface, IWiaItem interface [WIA],DumpItemData method, IWiaItem.DumpItemData, IWiaItem::DumpItemData, _wia_IWiaItem_DumpItemData, wia._wia_IWiaItem_DumpItemData, wia_xp/IWiaItem::DumpItemData
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IWiaItem.DumpItemData"
+f1_keywords:
+- wia_xp/IWiaItem.DumpItemData
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaItem.DumpItemData
+- IWiaItem.DumpItemData
 targetos: Windows
 req.typenames: 
 req.redist: 

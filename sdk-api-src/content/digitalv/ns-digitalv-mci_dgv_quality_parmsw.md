@@ -1,19 +1,17 @@
 ---
 UID: NS:digitalv.__unnamed_struct_16
 title: MCI_DGV_QUALITY_PARMSW (digitalv.h)
-
 description: The MCI_DGV_QUALITY_PARMS structure contains parameters for the MCI_QUALITY command for digital-video devices.
 old-location: multimedia\mci_dgv_quality_parms.htm
 tech.root: Multimedia
 ms.assetid: 0a150c37-9699-4b9e-b539-bdeb980b2f28
-
 ms.date: 12/05/2018
-ms.keywords: "*LPMCI_DGV_QUALITY_PARMSW, MCI_DGV_QUALITY_PARMS, MCI_DGV_QUALITY_PARMS structure [Windows Multimedia], MCI_DGV_QUALITY_PARMSW, MCI_QUALITY_ITEM_AUDIO, MCI_QUALITY_ITEM_STILL, MCI_QUALITY_ITEM_VIDEO, _win32_MCI_DGV_QUALITY_PARMS_str, digitalv/MCI_DGV_QUALITY_PARMS, multimedia.mci_dgv_quality_parms"
+ms.keywords: '*LPMCI_DGV_QUALITY_PARMSW, MCI_DGV_QUALITY_PARMS, MCI_DGV_QUALITY_PARMS structure [Windows Multimedia], MCI_DGV_QUALITY_PARMSW, MCI_QUALITY_ITEM_AUDIO, MCI_QUALITY_ITEM_STILL, MCI_QUALITY_ITEM_VIDEO, _win32_MCI_DGV_QUALITY_PARMS_str, digitalv/MCI_DGV_QUALITY_PARMS, multimedia.mci_dgv_quality_parms'
 ms.topic: struct
-f1_keywords: 
- - "digitalv/MCI_DGV_QUALITY_PARMS"
+f1_keywords:
+- digitalv/MCI_DGV_QUALITY_PARMS
 dev_langs:
- - c++
+- c++
 req.header: digitalv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Digitalv.h
+- Digitalv.h
 api_name:
- - MCI_DGV_QUALITY_PARMS
- - MCI_DGV_QUALITY_PARMSW
+- MCI_DGV_QUALITY_PARMS
+- MCI_DGV_QUALITY_PARMSW
 targetos: Windows
 req.typenames: MCI_DGV_QUALITY_PARMSW
 req.redist: 

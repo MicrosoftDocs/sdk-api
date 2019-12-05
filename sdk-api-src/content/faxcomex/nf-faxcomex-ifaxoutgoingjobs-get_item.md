@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJobs.get_Item
 title: IFaxOutgoingJobs::get_Item (faxcomex.h)
-
 description: The IFaxOutgoingJobs::get_Item method returns a IFaxOutgoingJob interface from the IFaxOutgoingJobs interface.
 old-location: fax\_mfax_faxoutgoingjobs_item_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_63ot_cpp.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJobs interface [Fax Service],get_Item method, IFaxOutgoingJobs.get_Item, IFaxOutgoingJobs::get_Item, _mfax_faxoutgoingjobs.item_cpp, fax._mfax_faxoutgoingjobs_item_cpp, faxcomex/IFaxOutgoingJobs::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxOutgoingJobs interface
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingJobs.get_Item"
+f1_keywords:
+- faxcomex/IFaxOutgoingJobs.get_Item
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingJobs.get_Item
+- IFaxOutgoingJobs.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 

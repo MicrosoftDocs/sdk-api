@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IAMPhysicalPinInfo
 title: IAMPhysicalPinInfo (strmif.h)
-
 description: Note  This interface has been deprecated.
 old-location: dshow\iamphysicalpininfo.htm
 tech.root: DirectShow
 ms.assetid: d1d05d2c-018e-421f-bfb9-810d708f726c
-
 ms.date: 12/05/2018
 ms.keywords: IAMPhysicalPinInfo, IAMPhysicalPinInfo interface [DirectShow], IAMPhysicalPinInfo interface [DirectShow],described, IAMPhysicalPinInfoInterface, dshow.iamphysicalpininfo, strmif/IAMPhysicalPinInfo
 ms.topic: interface
-f1_keywords: 
- - "strmif/IAMPhysicalPinInfo"
+f1_keywords:
+- strmif/IAMPhysicalPinInfo
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - IAMPhysicalPinInfo
+- IAMPhysicalPinInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.GetSystemDefaultLCID
 title: GetSystemDefaultLCID function (winnls.h)
-
 description: Returns the locale identifier for the system locale.Note  Any application that runs only on Windows Vista and later should use GetSystemDefaultLocaleName in preference to this function.
 old-location: intl\getsystemdefaultlcid.htm
 tech.root: Intl
 ms.assetid: 67d73d88-6a6c-439b-a321-1b1bd05fe268
-
 ms.date: 12/05/2018
 ms.keywords: GetSystemDefaultLCID, GetSystemDefaultLCID function [Internationalization for Windows Applications], _win32_GetSystemDefaultLCID, intl.getsystemdefaultlcid, winnls/GetSystemDefaultLCID
 ms.topic: function
-f1_keywords: 
- - "winnls/GetSystemDefaultLCID"
+f1_keywords:
+- winnls/GetSystemDefaultLCID
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-l1-2-0.dll
- - API-MS-Win-Core-Localization-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-l1-2-0.dll
+- API-MS-Win-Core-Localization-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
- - GetSystemDefaultLCID
+- GetSystemDefaultLCID
 targetos: Windows
 req.typenames: 
 req.redist: 

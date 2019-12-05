@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITQOSEvent.get_Call
 title: ITQOSEvent::get_Call (tapi3if.h)
-
 description: The get_Call method gets a pointer to the ITCallInfo interface for the call on which the QOS event occurred.
 old-location: tapi3\itqosevent_get_call.htm
 tech.root: Tapi
 ms.assetid: e91772da-948a-4d0a-999e-cdd51951fca2
-
 ms.date: 12/05/2018
 ms.keywords: ITQOSEvent interface [TAPI 2.2],get_Call method, ITQOSEvent.get_Call, ITQOSEvent::get_Call, _tapi3_itqosevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITQOSEvent interface, tapi3.itqosevent_get_call, tapi3if/ITQOSEvent::get_Call
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITQOSEvent.get_Call"
+f1_keywords:
+- tapi3if/ITQOSEvent.get_Call
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITQOSEvent.get_Call
+- ITQOSEvent.get_Call
 targetos: Windows
 req.typenames: 
 req.redist: 

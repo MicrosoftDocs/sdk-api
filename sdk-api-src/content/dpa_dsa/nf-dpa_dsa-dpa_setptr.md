@@ -1,19 +1,17 @@
 ---
 UID: NF:dpa_dsa.DPA_SetPtr
 title: DPA_SetPtr function (dpa_dsa.h)
-
 description: Assigns a value to an item in a dynamic pointer array (DPA).
 old-location: controls\DPA_SetPtr.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_setptr.htm
-
 ms.date: 12/05/2018
 ms.keywords: DPA_SetPtr, DPA_SetPtr function [Windows Controls], _win32_DPA_SetPtr, _win32_DPA_SetPtr_cpp, controls.DPA_SetPtr, controls._win32_DPA_SetPtr, dpa_dsa/DPA_SetPtr
 ms.topic: function
-f1_keywords: 
- - "dpa_dsa/DPA_SetPtr"
+f1_keywords:
+- dpa_dsa/DPA_SetPtr
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: ComCtl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComCtl32.dll
+- ComCtl32.dll
 api_name:
- - DPA_SetPtr
+- DPA_SetPtr
 targetos: Windows
 req.typenames: 
 req.redist: 

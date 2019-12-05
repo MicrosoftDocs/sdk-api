@@ -1,19 +1,17 @@
 ---
 UID: NF:d3dcompiler.D3DCreateFunctionLinkingGraph
 title: D3DCreateFunctionLinkingGraph function (d3dcompiler.h)
-
 description: Creates a function-linking-graph interface.
 old-location: direct3dhlsl\d3dcreatefunctionlinkinggraph.htm
 tech.root: direct3dhlsl
 ms.assetid: D0BC7D62-EBF8-4144-8DC0-A87BF1B83006
-
 ms.date: 12/05/2018
 ms.keywords: D3DCreateFunctionLinkingGraph, D3DCreateFunctionLinkingGraph function [HLSL], d3dcompiler/D3DCreateFunctionLinkingGraph, direct3dhlsl.d3dcreatefunctionlinkinggraph
 ms.topic: function
-f1_keywords: 
- - "d3dcompiler/D3DCreateFunctionLinkingGraph"
+f1_keywords:
+- d3dcompiler/D3DCreateFunctionLinkingGraph
 dev_langs:
- - c++
+- c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - D3DCreateFunctionLinkingGraph
+- D3DCreateFunctionLinkingGraph
 targetos: Windows
 req.typenames: 
 req.redist: 

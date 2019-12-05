@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_D3D12_OPTIONS
 title: D3D12_FEATURE_DATA_D3D12_OPTIONS (d3d12.h)
-
 description: Describes Direct3D 12 feature options in the current graphics driver.
 old-location: direct3d12\d3d12_feature_data_d3d12_options.htm
 tech.root: direct3d12
 ms.assetid: 3193E3CC-C6CA-43D4-8D8C-41B7FCEE2BDF
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_FEATURE_DATA_D3D12_OPTIONS, D3D12_FEATURE_DATA_D3D12_OPTIONS structure, d3d12/D3D12_FEATURE_DATA_D3D12_OPTIONS, direct3d12.d3d12_feature_data_d3d12_options
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_FEATURE_DATA_D3D12_OPTIONS"
+f1_keywords:
+- d3d12/D3D12_FEATURE_DATA_D3D12_OPTIONS
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_FEATURE_DATA_D3D12_OPTIONS
+- D3D12_FEATURE_DATA_D3D12_OPTIONS
 targetos: Windows
 req.typenames: D3D12_FEATURE_DATA_D3D12_OPTIONS
 req.redist: 

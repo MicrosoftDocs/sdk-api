@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IEnumFsiItems.Clone
 title: IEnumFsiItems::Clone (imapi2fs.h)
-
 description: Creates another enumerator that contains the same enumeration state as the current one.
 old-location: imapi\ienumfsiitems_clone.htm
 tech.root: imapi
 ms.assetid: 70806e80-c6b3-4f9c-8146-7dde1c895812
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [IMAPI], Clone method [IMAPI],IEnumFsiItems interface, IEnumFsiItems interface [IMAPI],Clone method, IEnumFsiItems.Clone, IEnumFsiItems::Clone, imapi.ienumfsiitems_clone, imapi2fs/IEnumFsiItems::Clone
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IEnumFsiItems.Clone"
+f1_keywords:
+- imapi2fs/IEnumFsiItems.Clone
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IEnumFsiItems.Clone
+- IEnumFsiItems.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

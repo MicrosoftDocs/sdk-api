@@ -1,19 +1,17 @@
 ---
 UID: NF:provider.Provider.GetProviderName
 title: Provider::GetProviderName (provider.h)
-
 description: The GetProviderName method retrieves the name of the class used in the constructor of the provider.
 old-location: wmi\provider_getprovidername.htm
 tech.root: WmiSdk
 ms.assetid: 9ea7558d-11bd-4f19-b4d3-a711eca632a8
-
 ms.date: 12/05/2018
 ms.keywords: GetProviderName, GetProviderName method [Windows Management Instrumentation], GetProviderName method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],GetProviderName method, Provider.GetProviderName, Provider::GetProviderName, _hmm_provider_getprovidername, provider/Provider::GetProviderName, wmi.provider_getprovidername
 ms.topic: method
-f1_keywords: 
- - "provider/Provider.GetProviderName"
+f1_keywords:
+- provider/Provider.GetProviderName
 dev_langs:
- - c++
+- c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - Provider.GetProviderName
+- Provider.GetProviderName
 targetos: Windows
 req.typenames: 
 req.redist: 

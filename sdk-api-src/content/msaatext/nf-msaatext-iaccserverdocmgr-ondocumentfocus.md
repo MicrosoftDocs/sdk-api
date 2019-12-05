@@ -1,19 +1,17 @@
 ---
 UID: NF:msaatext.IAccServerDocMgr.OnDocumentFocus
 title: IAccServerDocMgr::OnDocumentFocus (msaatext.h)
-
 description: Applications that use Text Services Framework call IAccServerDocMgr::OnDocumentFocus to notify the Microsoft Active Accessibility run time when a document gets or loses focus.
 old-location: winauto\iaccserverdocmgr_iaccserverdocmgr__ondocumentfocus.htm
 tech.root: WinAuto
 ms.assetid: 305566ed-20c2-42b6-99c8-108e99f9daeb
-
 ms.date: 12/05/2018
 ms.keywords: IAccServerDocMgr interface [Windows Accessibility],OnDocumentFocus method, IAccServerDocMgr.OnDocumentFocus, IAccServerDocMgr::OnDocumentFocus, OnDocumentFocus, OnDocumentFocus method [Windows Accessibility], OnDocumentFocus method [Windows Accessibility],IAccServerDocMgr interface, _msaa_IAccServerDocMgr_OnDocumentFocus, msaa.iaccserverdocmgr_iaccserverdocmgr__ondocumentfocus, msaatext/IAccServerDocMgr::OnDocumentFocus, winauto.iaccserverdocmgr_iaccserverdocmgr__ondocumentfocus
 ms.topic: method
-f1_keywords: 
- - "msaatext/IAccServerDocMgr.OnDocumentFocus"
+f1_keywords:
+- msaatext/IAccServerDocMgr.OnDocumentFocus
 dev_langs:
- - c++
+- c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msaatext.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msaatext.dll
+- msaatext.dll
 api_name:
- - IAccServerDocMgr.OnDocumentFocus
+- IAccServerDocMgr.OnDocumentFocus
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98

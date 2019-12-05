@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.ITocEntry.SetDescriptionData
 title: ITocEntry::SetDescriptionData (wmcodecdsp.h)
-
 description: The SetDescriptionData method associates a caller-supplied data block with the entry.
 old-location: mf\itocentry_setdescriptiondata.htm
 tech.root: medfound
 ms.assetid: 260d7699-cf75-4179-9f2b-bc3bc49c94e6
-
 ms.date: 12/05/2018
 ms.keywords: ITocEntry interface [Media Foundation],SetDescriptionData method, ITocEntry.SetDescriptionData, ITocEntry::SetDescriptionData, SetDescriptionData, SetDescriptionData method [Media Foundation], SetDescriptionData method [Media Foundation],ITocEntry interface, codecapi.itocentry_setdescriptiondata, mf.itocentry_setdescriptiondata, wmcodecdsp/ITocEntry::SetDescriptionData
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/ITocEntry.SetDescriptionData"
+f1_keywords:
+- wmcodecdsp/ITocEntry.SetDescriptionData
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmvdspa.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmvdspa.dll
+- wmvdspa.dll
 api_name:
- - ITocEntry.SetDescriptionData
+- ITocEntry.SetDescriptionData
 targetos: Windows
 req.typenames: 
 req.redist: 

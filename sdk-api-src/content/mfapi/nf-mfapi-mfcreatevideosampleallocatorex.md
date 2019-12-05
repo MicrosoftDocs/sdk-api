@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCreateVideoSampleAllocatorEx
 title: MFCreateVideoSampleAllocatorEx function (mfapi.h)
-
 description: Creates an object that allocates video samples that are compatible with Microsoft DirectX Graphics Infrastructure (DXGI).
 old-location: mf\mfcreatevideosampleallocatorex.htm
 tech.root: medfound
 ms.assetid: AB2A4D0B-CDE0-462C-BF52-3F78D0093526
-
 ms.date: 12/05/2018
 ms.keywords: IID_IMFVideoSampleAllocator, IID_IMFVideoSampleAllocatorCallback, IID_IMFVideoSampleAllocatorEx, IID_IUnknown, MFCreateVideoSampleAllocatorEx, MFCreateVideoSampleAllocatorEx function [Media Foundation], mf.mfcreatevideosampleallocatorex, mfapi/MFCreateVideoSampleAllocatorEx
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCreateVideoSampleAllocatorEx"
+f1_keywords:
+- mfapi/MFCreateVideoSampleAllocatorEx
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateVideoSampleAllocatorEx
+- MFCreateVideoSampleAllocatorEx
 targetos: Windows
 req.typenames: 
 req.redist: 

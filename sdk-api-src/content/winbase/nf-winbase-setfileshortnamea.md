@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.SetFileShortNameA
 title: SetFileShortNameA function (winbase.h)
-
 description: Sets the short name for the specified file.
 old-location: fs\setfileshortname.htm
 tech.root: FileIO
 ms.assetid: 0f4beb95-4e6c-422e-a17c-3371b706f0d4
-
 ms.date: 12/05/2018
 ms.keywords: SetFileShortName, SetFileShortName function [Files], SetFileShortNameA, SetFileShortNameW, _win32_setfileshortname, base.setfileshortname, fs.setfileshortname, winbase/SetFileShortName, winbase/SetFileShortNameA, winbase/SetFileShortNameW
 ms.topic: function
-f1_keywords: 
- - "winbase/SetFileShortName"
+f1_keywords:
+- winbase/SetFileShortName
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - SetFileShortName
- - SetFileShortNameA
- - SetFileShortNameW
+- SetFileShortName
+- SetFileShortNameA
+- SetFileShortNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

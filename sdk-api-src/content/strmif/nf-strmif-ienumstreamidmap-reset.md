@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IEnumStreamIdMap.Reset
 title: IEnumStreamIdMap::Reset (strmif.h)
-
 description: The Reset method moves the iterator to the beginning of the collection.
 old-location: dshow\ienumstreamidmap_reset.htm
 tech.root: DirectShow
 ms.assetid: 2e8bc22c-8a13-4a5a-a15d-af4e1ed699bd
-
 ms.date: 12/05/2018
 ms.keywords: IEnumStreamIdMap interface [DirectShow],Reset method, IEnumStreamIdMap.Reset, IEnumStreamIdMap::Reset, IEnumStreamIdMapReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumStreamIdMap interface, dshow.ienumstreamidmap_reset, strmif/IEnumStreamIdMap::Reset
 ms.topic: method
-f1_keywords: 
- - "strmif/IEnumStreamIdMap.Reset"
+f1_keywords:
+- strmif/IEnumStreamIdMap.Reset
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IEnumStreamIdMap.Reset
+- IEnumStreamIdMap.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

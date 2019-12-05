@@ -1,19 +1,17 @@
 ---
 UID: NE:credentialprovider.CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS
 title: CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS (credentialprovider.h)
-
 description: Provides customization options for a single field in a logon or credential UI.
 old-location: shell\CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS.htm
 tech.root: shell
 ms.assetid: 6E8623D0-7FC3-4ccb-B17A-CB12A0508F15
-
 ms.date: 12/05/2018
 ms.keywords: CPCFO_ENABLE_TOUCH_KEYBOARD_AUTO_INVOKE, CPCFO_NUMBERS_ONLY, CPCFPO_ENABLE_PASSWORD_REVEAL, CPCFPO_IS_EMAIL_ADDRESS, CPCFPO_NONE, CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS, CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS enumeration [Windows Shell], credentialprovider/CPCFO_ENABLE_TOUCH_KEYBOARD_AUTO_INVOKE, credentialprovider/CPCFO_NUMBERS_ONLY, credentialprovider/CPCFPO_ENABLE_PASSWORD_REVEAL, credentialprovider/CPCFPO_IS_EMAIL_ADDRESS, credentialprovider/CPCFPO_NONE, credentialprovider/CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS, shell.CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS, shell.CREDENTIAL_PROVIDER_USER_ENUM
 ms.topic: enum
-f1_keywords: 
- - "credentialprovider/CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS"
+f1_keywords:
+- credentialprovider/CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CredentialProvider.h
+- CredentialProvider.h
 api_name:
- - CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS
+- CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS
 targetos: Windows
 req.typenames: CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS
 req.redist: 

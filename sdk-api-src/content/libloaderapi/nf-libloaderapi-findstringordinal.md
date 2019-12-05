@@ -1,19 +1,17 @@
 ---
 UID: NF:libloaderapi.FindStringOrdinal
 title: FindStringOrdinal function (libloaderapi.h)
-
 description: Locates a Unicode string (wide characters) in another Unicode string for a non-linguistic comparison.
 old-location: intl\findstringordinal.htm
 tech.root: Intl
 ms.assetid: 6aca64f5-640a-4be6-9606-260314e9c7dc
-
 ms.date: 12/05/2018
 ms.keywords: FIND_ENDSWITH, FIND_FROMEND, FIND_FROMSTART, FIND_STARTSWITH, FindStringOrdinal, FindStringOrdinal function [Internationalization for Windows Applications], intl.findstringordinal, libloaderapi/FindStringOrdinal
 ms.topic: function
-f1_keywords: 
- - "libloaderapi/FindStringOrdinal"
+f1_keywords:
+- libloaderapi/FindStringOrdinal
 dev_langs:
- - c++
+- c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-LibraryLoader-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-LibraryLoader-l1-1-1.dll
- - API-MS-Win-Core-LibraryLoader-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Libraryloader-l1-2-1.dll
- - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-LibraryLoader-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-LibraryLoader-l1-1-1.dll
+- API-MS-Win-Core-LibraryLoader-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Libraryloader-l1-2-1.dll
+- API-MS-Win-Core-LibraryLoader-L1-2-2.dll
 api_name:
- - FindStringOrdinal
+- FindStringOrdinal
 targetos: Windows
 req.typenames: 
 req.redist: 

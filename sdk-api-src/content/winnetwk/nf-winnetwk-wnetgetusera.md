@@ -1,19 +1,17 @@
 ---
 UID: NF:winnetwk.WNetGetUserA
 title: WNetGetUserA function (winnetwk.h)
-
 description: The WNetGetUser function retrieves the current default user name, or the user name used to establish a network connection.
 old-location: wnet\wnetgetuser.htm
 tech.root: WNet
 ms.assetid: 8e73d2a9-c776-4661-81ab-84b7cf037cbd
-
 ms.date: 12/05/2018
 ms.keywords: WNetGetUser, WNetGetUser function [Windows Networking (WNet)], WNetGetUserA, WNetGetUserW, _win32_wnetgetuser, winnetwk/WNetGetUser, winnetwk/WNetGetUserA, winnetwk/WNetGetUserW, wnet.wnetgetuser
 ms.topic: function
-f1_keywords: 
- - "winnetwk/WNetGetUser"
+f1_keywords:
+- winnetwk/WNetGetUser
 dev_langs:
- - c++
+- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mpr.dll
+- Mpr.dll
 api_name:
- - WNetGetUser
- - WNetGetUserA
- - WNetGetUserW
+- WNetGetUser
+- WNetGetUserA
+- WNetGetUserW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:objectarray.IObjectCollection.AddFromArray
 title: IObjectCollection::AddFromArray (objectarray.h)
-
 description: Adds the objects contained in an IObjectArray to the collection.
 old-location: shell\IObjectCollection_AddFromArray.htm
 tech.root: shell
 ms.assetid: fc51b2e0-a5e0-4440-a279-e94640b5dda7
-
 ms.date: 12/05/2018
 ms.keywords: AddFromArray, AddFromArray method [Windows Shell], AddFromArray method [Windows Shell],IObjectCollection interface, IObjectCollection interface [Windows Shell],AddFromArray method, IObjectCollection.AddFromArray, IObjectCollection::AddFromArray, _shell_IObjectCollection_AddFromArray, objectarray/IObjectCollection::AddFromArray, shell.IObjectCollection_AddFromArray
 ms.topic: method
-f1_keywords: 
- - "objectarray/IObjectCollection.AddFromArray"
+f1_keywords:
+- objectarray/IObjectCollection.AddFromArray
 dev_langs:
- - c++
+- c++
 req.header: objectarray.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objectarray.h
+- objectarray.h
 api_name:
- - IObjectCollection.AddFromArray
+- IObjectCollection.AddFromArray
 targetos: Windows
 req.typenames: 
 req.redist: 

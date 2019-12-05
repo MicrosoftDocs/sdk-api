@@ -1,19 +1,17 @@
 ---
 UID: NF:processenv.GetEnvironmentStringsW
 title: GetEnvironmentStringsW function (processenv.h)
-
 description: Retrieves the environment variables for the current process.
 old-location: base\getenvironmentstrings.htm
 tech.root: ProcThread
 ms.assetid: fb431d83-f3e7-4f2a-bad9-81259681c1f4
-
 ms.date: 12/05/2018
 ms.keywords: GetEnvironmentStrings, GetEnvironmentStrings function, GetEnvironmentStringsA, GetEnvironmentStringsW, _win32_getenvironmentstrings, base.getenvironmentstrings, processenv/GetEnvironmentStrings, processenv/GetEnvironmentStringsA, processenv/GetEnvironmentStringsW, winbase/GetEnvironmentStrings, winbase/GetEnvironmentStringsA, winbase/GetEnvironmentStringsW
 ms.topic: function
-f1_keywords: 
- - "processenv/GetEnvironmentStrings"
+f1_keywords:
+- processenv/GetEnvironmentStrings
 dev_langs:
- - c++
+- c++
 req.header: processenv.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-ProcessEnvironment-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-ProcessEnvironment-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-ProcessEnvironment-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-ProcessEnvironment-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - GetEnvironmentStrings
- - GetEnvironmentStringsA
- - GetEnvironmentStringsW
+- GetEnvironmentStrings
+- GetEnvironmentStringsA
+- GetEnvironmentStringsW
 targetos: Windows
 req.typenames: 
 req.redist: 

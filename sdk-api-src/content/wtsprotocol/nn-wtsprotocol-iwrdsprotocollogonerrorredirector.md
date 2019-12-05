@@ -1,19 +1,17 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolLogonErrorRedirector
 title: IWRdsProtocolLogonErrorRedirector (wtsprotocol.h)
-
 description: Exposes methods called by the Remote Desktop Services service to update logon status and determine how to direct logon error messages.
 old-location: termserv\iwrdsprotocollogonerrorredirector.htm
 tech.root: TermServ
 ms.assetid: 43c283f5-c902-49cc-81a0-15fc6316c7d4
-
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolLogonErrorRedirector, IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services], IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services],described, termserv.iwrdsprotocollogonerrorredirector, wtsprotocol/IWRdsProtocolLogonErrorRedirector
 ms.topic: interface
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolLogonErrorRedirector"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolLogonErrorRedirector
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolLogonErrorRedirector
+- IWRdsProtocolLogonErrorRedirector
 targetos: Windows
 req.typenames: 
 req.redist: 

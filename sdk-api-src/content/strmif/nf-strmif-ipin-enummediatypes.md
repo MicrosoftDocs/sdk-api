@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IPin.EnumMediaTypes
 title: IPin::EnumMediaTypes (strmif.h)
-
 description: The EnumMediaTypes method enumerates the pin's preferred media types.
 old-location: dshow\ipin_enummediatypes.htm
 tech.root: DirectShow
 ms.assetid: 288be4db-5236-40e5-bd92-d95b1bfb86fa
-
 ms.date: 12/05/2018
 ms.keywords: EnumMediaTypes, EnumMediaTypes method [DirectShow], EnumMediaTypes method [DirectShow],IPin interface, IPin interface [DirectShow],EnumMediaTypes method, IPin.EnumMediaTypes, IPin::EnumMediaTypes, IPinEnumMediaTypes, dshow.ipin_enummediatypes, strmif/IPin::EnumMediaTypes
 ms.topic: method
-f1_keywords: 
- - "strmif/IPin.EnumMediaTypes"
+f1_keywords:
+- strmif/IPin.EnumMediaTypes
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IPin.EnumMediaTypes
+- IPin.EnumMediaTypes
 targetos: Windows
 req.typenames: 
 req.redist: 

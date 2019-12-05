@@ -1,19 +1,17 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeerCacheRecords.Reset
 title: IEnumBitsPeerCacheRecords::Reset (bits3_0.h)
-
 description: Resets the enumeration sequence to the beginning.
 old-location: bits\ienumbitspeercacherecords_reset.htm
 tech.root: Bits
 ms.assetid: d1e1dbdc-a90d-4ac8-8b52-8e4f914a81dd
-
 ms.date: 12/05/2018
 ms.keywords: IEnumBitsPeerCacheRecords interface [BITS],Reset method, IEnumBitsPeerCacheRecords.Reset, IEnumBitsPeerCacheRecords::Reset, Reset, Reset method [BITS], Reset method [BITS],IEnumBitsPeerCacheRecords interface, bits.ienumbitspeercacherecords_reset, bits3_0/IEnumBitsPeerCacheRecords::Reset
 ms.topic: method
-f1_keywords: 
- - "bits3_0/IEnumBitsPeerCacheRecords.Reset"
+f1_keywords:
+- bits3_0/IEnumBitsPeerCacheRecords.Reset
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IEnumBitsPeerCacheRecords.Reset
+- IEnumBitsPeerCacheRecords.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_STATE_OBJECT_TYPE
 title: D3D12_STATE_OBJECT_TYPE (d3d12.h)
-
 description: Specifies the type of a state object. Use with D3D12_STATE_OBJECT_DESC.
 old-location: direct3d12\d3d12_state_object_type.htm
 tech.root: direct3d12
 ms.assetid: 57E5BAE4-C6FF-4801-91A3-8C4189149B5F
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_STATE_OBJECT_TYPE, D3D12_STATE_OBJECT_TYPE enumeration, D3D12_STATE_OBJECT_TYPE_COLLECTION, D3D12_STATE_OBJECT_TYPE_RAYTRACING_PIPELINE, d3d12/D3D12_STATE_OBJECT_TYPE, d3d12/D3D12_STATE_OBJECT_TYPE_COLLECTION, d3d12/D3D12_STATE_OBJECT_TYPE_RAYTRACING_PIPELINE, direct3d12.d3d12_state_object_type
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_STATE_OBJECT_TYPE"
+f1_keywords:
+- d3d12/D3D12_STATE_OBJECT_TYPE
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_STATE_OBJECT_TYPE
+- D3D12_STATE_OBJECT_TYPE
 targetos: Windows
 req.typenames: D3D12_STATE_OBJECT_TYPE
 req.redist: 

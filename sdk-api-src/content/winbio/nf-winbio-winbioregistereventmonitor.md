@@ -1,19 +1,17 @@
 ---
 UID: NF:winbio.WinBioRegisterEventMonitor
 title: WinBioRegisterEventMonitor function (winbio.h)
-
 description: Registers a callback function to receive event notifications from the service provider associated with an open session.
 old-location: secbiomet\winbioregistereventmonitor.htm
 tech.root: SecBioMet
 ms.assetid: 408291ca-66fe-4f4a-8f6e-3a1b60eb2d15
-
 ms.date: 12/05/2018
 ms.keywords: WINBIO_EVENT_FP_UNCLAIMED, WINBIO_EVENT_FP_UNCLAIMED_IDENTIFY, WinBioRegisterEventMonitor, WinBioRegisterEventMonitor function [Windows Biometric Framework API], secbiomet.winbioregistereventmonitor, winbio/WinBioRegisterEventMonitor
 ms.topic: function
-f1_keywords: 
- - "winbio/WinBioRegisterEventMonitor"
+f1_keywords:
+- winbio/WinBioRegisterEventMonitor
 dev_langs:
- - c++
+- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winbio.dll
- - Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
- - winbioext.dll
- - Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
+- Winbio.dll
+- Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
+- winbioext.dll
+- Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
 api_name:
- - WinBioRegisterEventMonitor
+- WinBioRegisterEventMonitor
 targetos: Windows
 req.typenames: 
 req.redist: 

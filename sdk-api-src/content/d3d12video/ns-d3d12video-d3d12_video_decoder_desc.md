@@ -1,40 +1,38 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_DECODER_DESC
 title: D3D12_VIDEO_DECODER_DESC
-
 description: Describes a ID3D12VideoDecoder.
 tech.root: mf
 ms.assetid: 0e50bf0f-f160-4214-98da-80b4badb4989
-
-ms.date: 05/28/2019 
+ms.date: 05/28/2019
 ms.topic: struct
 f1_keywords:
- - D3D12_VIDEO_DECODER_DESC
+- D3D12_VIDEO_DECODER_DESC
 dev_langs:
- - c++
-ms.keywords: D3D12_VIDEO_DECODER_DESC, D3D12_VIDEO_DECODER_DESC, 
+- c++
+ms.keywords: D3D12_VIDEO_DECODER_DESC, D3D12_VIDEO_DECODER_DESC,
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
 req.dll: d3d12.dll
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12_VIDEO_DECODER_DESC
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12video.h
-api_name: 
- - D3D12_VIDEO_DECODER_DESC
+topic_type:
+- apiref
+api_type:
+- HeaderDef
+api_location:
+- d3d12video.h
+api_name:
+- D3D12_VIDEO_DECODER_DESC
 targetos: Windows
 ---
 

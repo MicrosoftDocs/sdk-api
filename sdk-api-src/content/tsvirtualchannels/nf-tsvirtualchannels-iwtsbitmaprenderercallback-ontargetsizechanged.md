@@ -1,19 +1,17 @@
 ---
 UID: NF:tsvirtualchannels.IWTSBitmapRendererCallback.OnTargetSizeChanged
 title: IWTSBitmapRendererCallback::OnTargetSizeChanged (tsvirtualchannels.h)
-
 description: Called when the size of the render target has changed.
 old-location: termserv\iwtsbitmaprenderercallback_ontargetsizechanged.htm
 tech.root: TermServ
 ms.assetid: 2c4eeec8-7d9c-4321-9fdb-3ea8c7a36893
-
 ms.date: 12/05/2018
 ms.keywords: IWTSBitmapRendererCallback interface [Remote Desktop Services],OnTargetSizeChanged method, IWTSBitmapRendererCallback.OnTargetSizeChanged, IWTSBitmapRendererCallback::OnTargetSizeChanged, OnTargetSizeChanged, OnTargetSizeChanged method [Remote Desktop Services], OnTargetSizeChanged method [Remote Desktop Services],IWTSBitmapRendererCallback interface, termserv.iwtsbitmaprenderercallback_ontargetsizechanged, tsvirtualchannels/IWTSBitmapRendererCallback::OnTargetSizeChanged
 ms.topic: method
-f1_keywords: 
- - "tsvirtualchannels/IWTSBitmapRendererCallback.OnTargetSizeChanged"
+f1_keywords:
+- tsvirtualchannels/IWTSBitmapRendererCallback.OnTargetSizeChanged
 dev_langs:
- - c++
+- c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tsvirtualchannels.h
+- tsvirtualchannels.h
 api_name:
- - IWTSBitmapRendererCallback.OnTargetSizeChanged
+- IWTSBitmapRendererCallback.OnTargetSizeChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

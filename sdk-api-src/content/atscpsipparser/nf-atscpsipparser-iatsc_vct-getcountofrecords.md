@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetCountOfRecords
 title: IATSC_VCT::GetCountOfRecords (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: a6a9f998-f8a8-4459-91f8-aa4a5206d190
-
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetCountOfRecords method, IATSC_VCT.GetCountOfRecords, IATSC_VCT::GetCountOfRecords, IATSC_VCTGetCountOfRecords, atscpsipparser/IATSC_VCT::GetCountOfRecords, mstv.iatsc_vct_getcountofrecords
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/IATSC_VCT.GetCountOfRecords"
+f1_keywords:
+- atscpsipparser/IATSC_VCT.GetCountOfRecords
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IATSC_VCT.GetCountOfRecords
+- IATSC_VCT.GetCountOfRecords
 targetos: Windows
 req.typenames: 
 req.redist: 

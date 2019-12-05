@@ -1,19 +1,17 @@
 ---
 UID: NF:icontact.IContactManager.Initialize
 title: IContactManager::Initialize (icontact.h)
-
 description: Initializes the contact manager with the unique application name and application version being used to manipulate contacts.
 old-location: wincontacts\_wincontacts_IContactManager_Initialize.htm
 tech.root: wincontacts
 ms.assetid: 50e87ba0-fcf0-4b64-87f4-dfb0ff16373f
-
 ms.date: 12/05/2018
 ms.keywords: IContactManager interface [Windows Contacts],Initialize method, IContactManager.Initialize, IContactManager::Initialize, Initialize, Initialize method [Windows Contacts], Initialize method [Windows Contacts],IContactManager interface, _wincontacts_IContactManager_Initialize, icontact/IContactManager::Initialize, wincontacts._wincontacts_IContactManager_Initialize
 ms.topic: method
-f1_keywords: 
- - "icontact/IContactManager.Initialize"
+f1_keywords:
+- icontact/IContactManager.Initialize
 dev_langs:
- - c++
+- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IContactManager.Initialize
+- IContactManager.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

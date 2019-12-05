@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.GetBreakOnID
 title: ID3D10InfoQueue::GetBreakOnID (d3d10sdklayers.h)
-
 description: Get a message identifier to break on when a message with that identifier passes through the storage filter.
 old-location: direct3d10\id3d10infoqueue_getbreakonid.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_getbreakonid.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetBreakOnID, GetBreakOnID method [Direct3D 10], GetBreakOnID method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],GetBreakOnID method, ID3D10InfoQueue.GetBreakOnID, ID3D10InfoQueue::GetBreakOnID, ce099e0a-fe76-1548-a605-708bb35400d4, d3d10sdklayers/ID3D10InfoQueue::GetBreakOnID, direct3d10.id3d10infoqueue_getbreakonid
 ms.topic: method
-f1_keywords: 
- - "d3d10sdklayers/ID3D10InfoQueue.GetBreakOnID"
+f1_keywords:
+- d3d10sdklayers/ID3D10InfoQueue.GetBreakOnID
 dev_langs:
- - c++
+- c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10SDKLayers.h
+- D3D10SDKLayers.h
 api_name:
- - ID3D10InfoQueue.GetBreakOnID
+- ID3D10InfoQueue.GetBreakOnID
 targetos: Windows
 req.typenames: 
 req.redist: 

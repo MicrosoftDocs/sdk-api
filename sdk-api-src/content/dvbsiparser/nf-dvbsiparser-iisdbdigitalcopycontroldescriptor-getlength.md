@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbDigitalCopyControlDescriptor.GetLength
 title: IIsdbDigitalCopyControlDescriptor::GetLength (dvbsiparser.h)
-
 description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) digital copy control descriptor, in bytes.
 old-location: mstv\iisdbdigitalcopycontroldescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 3a0b5433-1681-4b2d-9436-9ed853da6a80
-
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbDigitalCopyControlDescriptor interface, IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbDigitalCopyControlDescriptor.GetLength, IIsdbDigitalCopyControlDescriptor::GetLength, dvbsiparser/IIsdbDigitalCopyControlDescriptor::GetLength, mstv.iisdbdigitalcopycontroldescriptor_getlength
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbDigitalCopyControlDescriptor.GetLength"
+f1_keywords:
+- dvbsiparser/IIsdbDigitalCopyControlDescriptor.GetLength
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbDigitalCopyControlDescriptor.GetLength
+- IIsdbDigitalCopyControlDescriptor.GetLength
 targetos: Windows
 req.typenames: 
 req.redist: 

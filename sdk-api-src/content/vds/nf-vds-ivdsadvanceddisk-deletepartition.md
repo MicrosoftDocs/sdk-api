@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsAdvancedDisk.DeletePartition
 title: IVdsAdvancedDisk::DeletePartition (vds.h)
-
 description: Deletes a partition from a basic disk.
 old-location: base\ivdsadvanceddisk_deletepartition.htm
 tech.root: VDS
 ms.assetid: 3b1a9d18-5f0b-4535-b0fb-6b1929099c1a
-
 ms.date: 12/05/2018
 ms.keywords: DeletePartition, DeletePartition method [VDS], DeletePartition method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],DeletePartition method, IVdsAdvancedDisk.DeletePartition, IVdsAdvancedDisk::DeletePartition, base.ivdsadvanceddisk_deletepartition, vds/IVdsAdvancedDisk::DeletePartition
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsAdvancedDisk.DeletePartition"
+f1_keywords:
+- vds/IVdsAdvancedDisk.DeletePartition
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsAdvancedDisk.DeletePartition
+- IVdsAdvancedDisk.DeletePartition
 targetos: Windows
 req.typenames: 
 req.redist: 

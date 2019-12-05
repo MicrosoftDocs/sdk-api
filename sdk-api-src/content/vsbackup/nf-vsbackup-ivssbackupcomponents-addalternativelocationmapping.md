@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.AddAlternativeLocationMapping
 title: IVssBackupComponents::AddAlternativeLocationMapping (vsbackup.h)
-
 description: The AddAlternativeLocationMapping method is used by a requester to indicate that an alternate location mapping was used to restore all the members of a file set in a given component.
 old-location: base\ivssbackupcomponents_addalternativelocationmapping.htm
 tech.root: VSS
 ms.assetid: 349ec124-f3f5-4142-8600-8d9f508c9bb2
-
 ms.date: 12/05/2018
 ms.keywords: AddAlternativeLocationMapping, AddAlternativeLocationMapping method [VSS], AddAlternativeLocationMapping method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AddAlternativeLocationMapping method, IVssBackupComponents.AddAlternativeLocationMapping, IVssBackupComponents::AddAlternativeLocationMapping, _win32_ivssbackupcomponents_addalternativelocationmapping, base.ivssbackupcomponents_addalternativelocationmapping, vsbackup/IVssBackupComponents::AddAlternativeLocationMapping
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.AddAlternativeLocationMapping"
+f1_keywords:
+- vsbackup/IVssBackupComponents.AddAlternativeLocationMapping
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.AddAlternativeLocationMapping
+- IVssBackupComponents.AddAlternativeLocationMapping
 targetos: Windows
 req.typenames: 
 req.redist: 

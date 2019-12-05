@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1OffsetTransform
 title: ID2D1OffsetTransform (d2d1effectauthor.h)
-
 description: Instructs the effect-rendering system to offset an input bitmap without inserting a rendering pass.
 old-location: direct2d\id2d1offsettransform.htm
 tech.root: Direct2D
 ms.assetid: 0809C0FC-2F7B-49D8-A695-AD451C9BD17F
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1OffsetTransform, ID2D1OffsetTransform interface [Direct2D], ID2D1OffsetTransform interface [Direct2D],described, d2d1effectauthor/ID2D1OffsetTransform, direct2d.id2d1offsettransform
 ms.topic: interface
-f1_keywords: 
- - "d2d1effectauthor/ID2D1OffsetTransform"
+f1_keywords:
+- d2d1effectauthor/ID2D1OffsetTransform
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.lib
- - d2d1.dll
+- d2d1.lib
+- d2d1.dll
 api_name:
- - ID2D1OffsetTransform
+- ID2D1OffsetTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

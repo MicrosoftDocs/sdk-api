@@ -1,19 +1,17 @@
 ---
 UID: NS:joystickapi.tagJOYCAPSW
 title: JOYCAPSW (joystickapi.h)
-
 description: The JOYCAPS structure contains information about the joystick capabilities.
 old-location: multimedia\joycaps.htm
 tech.root: Multimedia
 ms.assetid: 9b175aaf-f408-4fe8-bd7c-56f513b57c1b
-
 ms.date: 12/05/2018
-ms.keywords: "*LPJOYCAPSW, *NPJOYCAPSW, *PJOYCAPSW, JOYCAPS, JOYCAPS structure [Windows Multimedia], JOYCAPSA, JOYCAPSW, _win32_JOYCAPS_str, joystickapi/JOYCAPS, joystickapi/JOYCAPSA, joystickapi/JOYCAPSW, multimedia.joycaps, tagJOYCAPSA, tagJOYCAPSW"
+ms.keywords: '*LPJOYCAPSW, *NPJOYCAPSW, *PJOYCAPSW, JOYCAPS, JOYCAPS structure [Windows Multimedia], JOYCAPSA, JOYCAPSW, _win32_JOYCAPS_str, joystickapi/JOYCAPS, joystickapi/JOYCAPSA, joystickapi/JOYCAPSW, multimedia.joycaps, tagJOYCAPSA, tagJOYCAPSW'
 ms.topic: struct
-f1_keywords: 
- - "joystickapi/JOYCAPS"
+f1_keywords:
+- joystickapi/JOYCAPS
 dev_langs:
- - c++
+- c++
 req.header: joystickapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - joystickapi.h
+- joystickapi.h
 api_name:
- - JOYCAPS
- - JOYCAPSA
- - JOYCAPSW
+- JOYCAPS
+- JOYCAPSA
+- JOYCAPSW
 targetos: Windows
 req.typenames: JOYCAPSW, *PJOYCAPSW, *NPJOYCAPSW, *LPJOYCAPSW
 req.redist: 

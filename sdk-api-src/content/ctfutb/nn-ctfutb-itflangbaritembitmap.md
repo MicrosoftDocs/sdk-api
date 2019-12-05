@@ -1,19 +1,17 @@
 ---
 UID: NN:ctfutb.ITfLangBarItemBitmap
 title: ITfLangBarItemBitmap (ctfutb.h)
-
 description: The ITfLangBarItemBitmap interface is implemented by an application or text service and used by the language bar manager to obtain information specific to a bitmap item on the language bar.
 old-location: tsf\itflangbaritembitmap.htm
 tech.root: TSF
 ms.assetid: 3bae0422-625e-4f7d-9845-5353ad3ff335
-
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemBitmap, ITfLangBarItemBitmap interface [Text Services Framework], ITfLangBarItemBitmap interface [Text Services Framework],described, _tsf_itflangbaritembitmap_ref, ctfutb/ITfLangBarItemBitmap, tsf.itflangbaritembitmap
 ms.topic: interface
-f1_keywords: 
- - "ctfutb/ITfLangBarItemBitmap"
+f1_keywords:
+- ctfutb/ITfLangBarItemBitmap
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfLangBarItemBitmap
+- ITfLangBarItemBitmap
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

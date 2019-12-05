@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMediaSeeking.GetAvailable
 title: IMediaSeeking::GetAvailable (strmif.h)
-
 description: The GetAvailable method retrieves the range of times in which seeking is efficient.
 old-location: dshow\imediaseeking_getavailable.htm
 tech.root: DirectShow
 ms.assetid: 8c4114e5-ff82-421a-a7fb-9382d4182388
-
 ms.date: 12/05/2018
 ms.keywords: GetAvailable, GetAvailable method [DirectShow], GetAvailable method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetAvailable method, IMediaSeeking.GetAvailable, IMediaSeeking::GetAvailable, IMediaSeekingGetAvailable, dshow.imediaseeking_getavailable, strmif/IMediaSeeking::GetAvailable
 ms.topic: method
-f1_keywords: 
- - "strmif/IMediaSeeking.GetAvailable"
+f1_keywords:
+- strmif/IMediaSeeking.GetAvailable
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaSeeking.GetAvailable
+- IMediaSeeking.GetAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 

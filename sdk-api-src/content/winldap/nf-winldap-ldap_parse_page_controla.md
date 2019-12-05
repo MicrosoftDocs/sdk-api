@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_parse_page_controlA
 title: ldap_parse_page_controlA function (winldap.h)
-
 description: The ldap_parse_page_control parses the results of a search into pages.
 old-location: ldap\ldap_parse_page_control.htm
 tech.root: ldap
 ms.assetid: babf74d1-2f9c-40f8-ba82-e298e49ad937
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_parse_page_control, ldap.ldap__parse__page__control, ldap.ldap_parse_page_control, ldap_parse_page_control, ldap_parse_page_control function [LDAP], ldap_parse_page_controlA, ldap_parse_page_controlW, winldap/ldap_parse_page_control, winldap/ldap_parse_page_controlA, winldap/ldap_parse_page_controlW"
+ms.keywords: _ldap_ldap_parse_page_control, ldap.ldap__parse__page__control, ldap.ldap_parse_page_control, ldap_parse_page_control, ldap_parse_page_control function [LDAP], ldap_parse_page_controlA, ldap_parse_page_controlW, winldap/ldap_parse_page_control, winldap/ldap_parse_page_controlA, winldap/ldap_parse_page_controlW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_parse_page_control"
+f1_keywords:
+- winldap/ldap_parse_page_control
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_parse_page_control
- - ldap_parse_page_controlA
- - ldap_parse_page_controlW
+- ldap_parse_page_control
+- ldap_parse_page_controlA
+- ldap_parse_page_controlW
 targetos: Windows
 req.typenames: 
 req.redist: 

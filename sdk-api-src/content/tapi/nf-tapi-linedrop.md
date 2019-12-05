@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineDrop
 title: lineDrop function (tapi.h)
-
 description: The lineDrop function drops or disconnects the specified call. The application has the option to specify user-user information to be transmitted as part of the call disconnect.
 old-location: tapi2\linedrop.htm
 tech.root: Tapi
 ms.assetid: ce1f1dbb-287b-483a-9e7e-87af0d07e4e4
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linedrop, lineDrop, lineDrop function [TAPI 2.2], tapi/lineDrop, tapi2.linedrop"
+ms.keywords: _tapi2_linedrop, lineDrop, lineDrop function [TAPI 2.2], tapi/lineDrop, tapi2.linedrop
 ms.topic: function
-f1_keywords: 
- - "tapi/lineDrop"
+f1_keywords:
+- tapi/lineDrop
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineDrop
+- lineDrop
 targetos: Windows
 req.typenames: 
 req.redist: 

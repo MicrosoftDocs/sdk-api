@@ -1,19 +1,17 @@
 ---
 UID: NF:cluadmex.IGetClusterUIInfo.GetLocale
 title: IGetClusterUIInfo::GetLocale (cluadmex.h)
-
 description: Returns the locale identifier to be used with property and wizard pages.
 old-location: mscs\igetclusteruiinfo_getlocale.htm
 tech.root: MsCS
 ms.assetid: 1ab4e6bb-0aba-4115-b068-171aaf0b7cef
-
 ms.date: 12/05/2018
 ms.keywords: GetLocale, GetLocale method [Failover Cluster], GetLocale method [Failover Cluster],IGetClusterUIInfo interface, IGetClusterUIInfo interface [Failover Cluster],GetLocale method, IGetClusterUIInfo.GetLocale, IGetClusterUIInfo::GetLocale, _wolf_igetclusteruiinfo_getlocale, cluadmex/IGetClusterUIInfo::GetLocale, mscs.igetclusteruiinfo_getlocale
 ms.topic: method
-f1_keywords: 
- - "cluadmex/IGetClusterUIInfo.GetLocale"
+f1_keywords:
+- cluadmex/IGetClusterUIInfo.GetLocale
 dev_langs:
- - c++
+- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cluadmex.h
+- cluadmex.h
 api_name:
- - IGetClusterUIInfo.GetLocale
+- IGetClusterUIInfo.GetLocale
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vsadmin.IVssAdmin.UnregisterProvider
 title: IVssAdmin::UnregisterProvider (vsadmin.h)
-
 description: Unregisters an existing provider.
 old-location: base\ivssadmin_unregisterprovider.htm
 tech.root: VSS
 ms.assetid: d31ed47f-6850-4f4b-aea2-5171722db7db
-
 ms.date: 12/05/2018
 ms.keywords: IVssAdmin interface [VSS],UnregisterProvider method, IVssAdmin.UnregisterProvider, IVssAdmin::UnregisterProvider, UnregisterProvider, UnregisterProvider method [VSS], UnregisterProvider method [VSS],IVssAdmin interface, base.ivssadmin_unregisterprovider, vsadmin/IVssAdmin::UnregisterProvider
 ms.topic: method
-f1_keywords: 
- - "vsadmin/IVssAdmin.UnregisterProvider"
+f1_keywords:
+- vsadmin/IVssAdmin.UnregisterProvider
 dev_langs:
- - c++
+- c++
 req.header: vsadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsAdmin.h
+- VsAdmin.h
 api_name:
- - IVssAdmin.UnregisterProvider
+- IVssAdmin.UnregisterProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

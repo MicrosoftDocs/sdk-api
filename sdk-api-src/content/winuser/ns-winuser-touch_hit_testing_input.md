@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagTOUCH_HIT_TESTING_INPUT
 title: TOUCH_HIT_TESTING_INPUT (winuser.h)
-
 description: Contains information about the touch contact area reported by the touch digitizer.
 old-location: input_touchhittest\touch_hit_testing_input.htm
 tech.root: Input_TouchHitTest
 ms.assetid: d2103f6e-6aa9-4260-bef9-cfcbec35e675
-
 ms.date: 12/05/2018
-ms.keywords: "*PTOUCH_HIT_TESTING_INPUT, PTOUCH_HIT_TESTING_INPUT, PTOUCH_HIT_TESTING_INPUT structure pointer, TOUCH_HIT_TESTING_INPUT, TOUCH_HIT_TESTING_INPUT structure, input_touchhittest.touch_hit_testing_input, tagTOUCH_HIT_TESTING_INPUT, touch_hittest.touch_hit_testing_input, winuser/PTOUCH_HIT_TESTING_INPUT, winuser/TOUCH_HIT_TESTING_INPUT"
+ms.keywords: '*PTOUCH_HIT_TESTING_INPUT, PTOUCH_HIT_TESTING_INPUT, PTOUCH_HIT_TESTING_INPUT structure pointer, TOUCH_HIT_TESTING_INPUT, TOUCH_HIT_TESTING_INPUT structure, input_touchhittest.touch_hit_testing_input, tagTOUCH_HIT_TESTING_INPUT, touch_hittest.touch_hit_testing_input, winuser/PTOUCH_HIT_TESTING_INPUT, winuser/TOUCH_HIT_TESTING_INPUT'
 ms.topic: struct
-f1_keywords: 
- - "winuser/TOUCH_HIT_TESTING_INPUT"
+f1_keywords:
+- winuser/TOUCH_HIT_TESTING_INPUT
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winuser.h
+- winuser.h
 api_name:
- - TOUCH_HIT_TESTING_INPUT
+- TOUCH_HIT_TESTING_INPUT
 targetos: Windows
 req.typenames: TOUCH_HIT_TESTING_INPUT, *PTOUCH_HIT_TESTING_INPUT
 req.redist: 

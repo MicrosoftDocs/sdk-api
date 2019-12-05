@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateDecoder
 title: IWICImagingFactory::CreateDecoder (wincodec.h)
-
 description: Creates a new instance of IWICBitmapDecoder.
 old-location: wic\_wic_codec_iwicimagingfactory_createdecoder.htm
 tech.root: wic
 ms.assetid: 0d0072ce-3480-4687-a4ea-640953cf5a36
-
 ms.date: 12/05/2018
 ms.keywords: CreateDecoder, CreateDecoder method [Windows Imaging Component], CreateDecoder method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateDecoder method, IWICImagingFactory.CreateDecoder, IWICImagingFactory::CreateDecoder, _wic_codec_iwicimagingfactory_createdecoder, wic._wic_codec_iwicimagingfactory_createdecoder, wincodec/IWICImagingFactory::CreateDecoder
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICImagingFactory.CreateDecoder"
+f1_keywords:
+- wincodec/IWICImagingFactory.CreateDecoder
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICImagingFactory.CreateDecoder
+- IWICImagingFactory.CreateDecoder
 targetos: Windows
 req.typenames: 
 req.redist: 

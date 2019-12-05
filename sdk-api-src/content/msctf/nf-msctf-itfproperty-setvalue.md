@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfProperty.SetValue
 title: ITfProperty::SetValue (msctf.h)
-
 description: ITfProperty::SetValue method
 old-location: tsf\itfproperty_setvalue.htm
 tech.root: TSF
 ms.assetid: 72064f9f-311e-4d7b-9ead-4fe2b7f528a8
-
 ms.date: 12/05/2018
 ms.keywords: ITfProperty interface [Text Services Framework],SetValue method, ITfProperty.SetValue, ITfProperty::SetValue, SetValue, SetValue method [Text Services Framework], SetValue method [Text Services Framework],ITfProperty interface, _tsf_itfproperty_setvalue_ref, msctf/ITfProperty::SetValue, tsf.itfproperty_setvalue
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfProperty.SetValue"
+f1_keywords:
+- msctf/ITfProperty.SetValue
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfProperty.SetValue
+- ITfProperty.SetValue
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.IsGlobal
 title: IMetaDataImport::IsGlobal (rometadataapi.h)
-
 description: Gets a value indicating whether the field, method, or type represented by the specified metadata token has global scope.
 old-location: winrt\imetadataimport_isglobal.htm
 tech.root: WinRT
 ms.assetid: 01558f0f-11ca-4c17-8f55-b0fc78492813
-
 ms.date: 12/05/2018
 ms.keywords: IMetaDataImport interface [Windows Runtime],IsGlobal method, IMetaDataImport.IsGlobal, IMetaDataImport::IsGlobal, IsGlobal, IsGlobal method [Windows Runtime], IsGlobal method [Windows Runtime],IMetaDataImport interface, rometadataapi/IMetaDataImport::IsGlobal, winrt.imetadataimport_isglobal
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.IsGlobal"
+f1_keywords:
+- rometadataapi/IMetaDataImport.IsGlobal
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.IsGlobal
+- IMetaDataImport.IsGlobal
 targetos: Windows
 req.typenames: 
 req.redist: 

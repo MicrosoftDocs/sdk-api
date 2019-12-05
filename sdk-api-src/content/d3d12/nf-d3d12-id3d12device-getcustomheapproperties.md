@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Device.GetCustomHeapProperties
 title: ID3D12Device::GetCustomHeapProperties (d3d12.h)
-
 description: Divulges the equivalent custom heap properties that are used for non-custom heap types, based on the adapter's architectural properties.
 old-location: direct3d12\id3d12device_getcustomheapproperties.htm
 tech.root: direct3d12
 ms.assetid: FD1A7C77-24C3-49D5-8F20-01D5FF7FC895
-
 ms.date: 12/05/2018
 ms.keywords: GetCustomHeapProperties, GetCustomHeapProperties method, GetCustomHeapProperties method,ID3D12Device interface, ID3D12Device interface,GetCustomHeapProperties method, ID3D12Device.GetCustomHeapProperties, ID3D12Device::GetCustomHeapProperties, d3d12/ID3D12Device::GetCustomHeapProperties, direct3d12.id3d12device_getcustomheapproperties
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Device.GetCustomHeapProperties"
+f1_keywords:
+- d3d12/ID3D12Device.GetCustomHeapProperties
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12Device.GetCustomHeapProperties
+- ID3D12Device.GetCustomHeapProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineDeallocateCall
 title: lineDeallocateCall function (tapi.h)
-
 description: Deallocates the specified call handle.
 old-location: tapi2\linedeallocatecall.htm
 tech.root: Tapi
 ms.assetid: a695ee19-e371-4126-b438-62bf52179cba
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linedeallocatecall, lineDeallocateCall, lineDeallocateCall function [TAPI 2.2], tapi/lineDeallocateCall, tapi2.linedeallocatecall"
+ms.keywords: _tapi2_linedeallocatecall, lineDeallocateCall, lineDeallocateCall function [TAPI 2.2], tapi/lineDeallocateCall, tapi2.linedeallocatecall
 ms.topic: function
-f1_keywords: 
- - "tapi/lineDeallocateCall"
+f1_keywords:
+- tapi/lineDeallocateCall
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineDeallocateCall
+- lineDeallocateCall
 targetos: Windows
 req.typenames: 
 req.redist: 

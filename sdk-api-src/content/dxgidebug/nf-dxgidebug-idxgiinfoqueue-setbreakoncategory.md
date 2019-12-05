@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.SetBreakOnCategory
 title: IDXGIInfoQueue::SetBreakOnCategory (dxgidebug.h)
-
 description: Sets a message category to break on when a message with that category passes through the storage filter.
 old-location: direct3ddxgi\idxgiinfoqueue_setbreakoncategory.htm
 tech.root: direct3ddxgi
 ms.assetid: 834C803B-EA7D-4D4C-B74E-9CF7914E0A4E
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],SetBreakOnCategory method, IDXGIInfoQueue.SetBreakOnCategory, IDXGIInfoQueue::SetBreakOnCategory, SetBreakOnCategory, SetBreakOnCategory method [DXGI], SetBreakOnCategory method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_setbreakoncategory, dxgidebug/IDXGIInfoQueue::SetBreakOnCategory
 ms.topic: method
-f1_keywords: 
- - "dxgidebug/IDXGIInfoQueue.SetBreakOnCategory"
+f1_keywords:
+- dxgidebug/IDXGIInfoQueue.SetBreakOnCategory
 dev_langs:
- - c++
+- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DXGIDebug.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGIDebug.dll
+- DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue.SetBreakOnCategory
+- IDXGIInfoQueue.SetBreakOnCategory
 targetos: Windows
 req.typenames: 
 req.redist: 

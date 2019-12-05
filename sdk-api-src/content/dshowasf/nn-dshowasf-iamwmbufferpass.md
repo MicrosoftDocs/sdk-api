@@ -1,19 +1,17 @@
 ---
 UID: NN:dshowasf.IAMWMBufferPass
 title: IAMWMBufferPass (dshowasf.h)
-
 description: The IAMWMBufferPass interface is implemented on the output pins of the WM ASF Reader and the input pins of the WM ASF Writer.
 old-location: wmformat\iamwmbufferpass.htm
 tech.root: wmformat
 ms.assetid: aa7513d4-9341-4ddf-ac82-54eb0c6eb5f4
-
 ms.date: 12/05/2018
 ms.keywords: IAMWMBufferPass, IAMWMBufferPass interface [windows Media Format], IAMWMBufferPass interface [windows Media Format],described, IAMWMBufferPassInterface, dshowasf/IAMWMBufferPass, wmformat.iamwmbufferpass
 ms.topic: interface
-f1_keywords: 
- - "dshowasf/IAMWMBufferPass"
+f1_keywords:
+- dshowasf/IAMWMBufferPass
 dev_langs:
- - c++
+- c++
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dshowasf.h
+- dshowasf.h
 api_name:
- - IAMWMBufferPass
+- IAMWMBufferPass
 targetos: Windows
 req.typenames: 
 req.redist: 

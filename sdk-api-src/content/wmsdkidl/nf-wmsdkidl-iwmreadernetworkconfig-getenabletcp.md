@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetEnableTCP
 title: IWMReaderNetworkConfig::GetEnableTCP (wmsdkidl.h)
-
 description: The GetEnableTCP method queries whether TCP is enabled for protocol rollover.
 old-location: wmformat\iwmreadernetworkconfig_getenabletcp.htm
 tech.root: wmformat
 ms.assetid: 6623c2f9-24cb-4038-9aa5-2eb634b3f1a2
-
 ms.date: 12/05/2018
 ms.keywords: GetEnableTCP, GetEnableTCP method [windows Media Format], GetEnableTCP method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetEnableTCP method, IWMReaderNetworkConfig.GetEnableTCP, IWMReaderNetworkConfig::GetEnableTCP, IWMReaderNetworkConfigGetEnableTCP, wmformat.iwmreadernetworkconfig_getenabletcp, wmsdkidl/IWMReaderNetworkConfig::GetEnableTCP
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderNetworkConfig.GetEnableTCP"
+f1_keywords:
+- wmsdkidl/IWMReaderNetworkConfig.GetEnableTCP
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig.GetEnableTCP
+- IWMReaderNetworkConfig.GetEnableTCP
 targetos: Windows
 req.typenames: 
 req.redist: 

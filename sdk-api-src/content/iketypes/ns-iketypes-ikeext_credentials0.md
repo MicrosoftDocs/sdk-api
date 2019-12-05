@@ -1,19 +1,17 @@
 ---
 UID: NS:iketypes.IKEEXT_CREDENTIALS0_
 title: IKEEXT_CREDENTIALS0 (iketypes.h)
-
 description: Is used to store multiple credential pairs.
 old-location: fwp\ikeext_credentials0.htm
 tech.root: fwp
 ms.assetid: 048d0a56-5d9b-4a85-b42f-8505eb6a97a9
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_CREDENTIALS0, IKEEXT_CREDENTIALS0 structure [Filtering], fwp.ikeext_credentials0, iketypes/IKEEXT_CREDENTIALS0
 ms.topic: struct
-f1_keywords: 
- - "iketypes/IKEEXT_CREDENTIALS0"
+f1_keywords:
+- iketypes/IKEEXT_CREDENTIALS0
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iketypes.h
+- Iketypes.h
 api_name:
- - IKEEXT_CREDENTIALS0
+- IKEEXT_CREDENTIALS0
 targetos: Windows
 req.typenames: IKEEXT_CREDENTIALS0
 req.redist: 

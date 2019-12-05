@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont.SetEngrave
 title: ITextFont::SetEngrave (tom.h)
-
 description: Sets whether characters are displayed as imprinted characters.
 old-location: controls\ITextFont_SetEngrave.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setengrave.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetEngrave method, ITextFont.SetEngrave, ITextFont::SetEngrave, SetEngrave, SetEngrave method [Windows Controls], SetEngrave method [Windows Controls],ITextFont interface, _win32_ITextFont_SetEngrave, _win32_ITextFont_SetEngrave_cpp, controls.ITextFont_SetEngrave, controls._win32_ITextFont_SetEngrave, tom/ITextFont::SetEngrave
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont.SetEngrave"
+f1_keywords:
+- tom/ITextFont.SetEngrave
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont.SetEngrave
+- ITextFont.SetEngrave
 targetos: Windows
 req.typenames: 
 req.redist: 

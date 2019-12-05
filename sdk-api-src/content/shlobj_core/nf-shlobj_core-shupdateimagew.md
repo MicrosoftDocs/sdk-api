@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHUpdateImageW
 title: SHUpdateImageW function (shlobj_core.h)
-
 description: Notifies the Shell that an image in the system image list has changed.
 old-location: shell\SHUpdateImage.htm
 tech.root: shell
 ms.assetid: 9df5860e-db65-4e43-aaf9-c1e0e33fc569
-
 ms.date: 12/05/2018
 ms.keywords: SHUpdateImage, SHUpdateImage function [Windows Shell], SHUpdateImageA, SHUpdateImageW, _win32_SHUpdateImage, shell.SHUpdateImage, shlobj_core/SHUpdateImage, shlobj_core/SHUpdateImageA, shlobj_core/SHUpdateImageW
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHUpdateImage"
+f1_keywords:
+- shlobj_core/SHUpdateImage
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.7 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHUpdateImage
- - SHUpdateImageA
- - SHUpdateImageW
+- SHUpdateImage
+- SHUpdateImageA
+- SHUpdateImageW
 targetos: Windows
 req.typenames: 
 req.redist: 

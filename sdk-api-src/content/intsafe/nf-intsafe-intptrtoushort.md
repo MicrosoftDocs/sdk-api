@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.IntPtrToUShort
 title: IntPtrToUShort function (intsafe.h)
-
 description: Converts a value of type INT_PTR to a value of type USHORT.
 old-location: shell\IntPtrToUShort.htm
 tech.root: shell
 ms.assetid: c1ab8cbc-0c45-410c-a34d-2bded36a03e8
-
 ms.date: 12/05/2018
 ms.keywords: IntPtrToUShort, IntPtrToUShort function [Windows Shell], intsafe/IntPtrToUShort, shell.IntPtrToUShort
 ms.topic: function
-f1_keywords: 
- - "intsafe/IntPtrToUShort"
+f1_keywords:
+- intsafe/IntPtrToUShort
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - IntPtrToUShort
+- IntPtrToUShort
 targetos: Windows
 req.typenames: 
 req.redist: 

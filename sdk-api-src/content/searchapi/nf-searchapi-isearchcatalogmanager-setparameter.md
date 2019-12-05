@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.SetParameter
 title: ISearchCatalogManager::SetParameter (searchapi.h)
-
 description: Sets a name/value parameter for the catalog.
 old-location: search\_search_ISearchCatalogManager_SetParameter.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\setparameter.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchCatalogManager interface [search],SetParameter method, ISearchCatalogManager.SetParameter, ISearchCatalogManager::SetParameter, SetParameter, SetParameter method [search], SetParameter method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_SetParameter, search._search_ISearchCatalogManager_SetParameter, searchapi/ISearchCatalogManager::SetParameter
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchCatalogManager.SetParameter"
+f1_keywords:
+- searchapi/ISearchCatalogManager.SetParameter
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchCatalogManager.SetParameter
+- ISearchCatalogManager.SetParameter
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFPresentationClock.Stop
 title: IMFPresentationClock::Stop (mfidl.h)
-
 description: Stops the presentation clock. While the clock is stopped, the clock time does not advance, and the clock's IMFPresentationClock::GetTime method returns zero.
 old-location: mf\imfpresentationclock_stop.htm
 tech.root: medfound
 ms.assetid: 54377d65-2af7-410d-b8cf-45f467527a45
-
 ms.date: 12/05/2018
 ms.keywords: 54377d65-2af7-410d-b8cf-45f467527a45, IMFPresentationClock interface [Media Foundation],Stop method, IMFPresentationClock.Stop, IMFPresentationClock::Stop, Stop, Stop method [Media Foundation], Stop method [Media Foundation],IMFPresentationClock interface, mf.imfpresentationclock_stop, mfidl/IMFPresentationClock::Stop
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFPresentationClock.Stop"
+f1_keywords:
+- mfidl/IMFPresentationClock.Stop
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFPresentationClock.Stop
+- IMFPresentationClock.Stop
 targetos: Windows
 req.typenames: 
 req.redist: 

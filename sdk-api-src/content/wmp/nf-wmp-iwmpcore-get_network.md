@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPCore.get_network
 title: IWMPCore::get_network (wmp.h)
-
 description: The get_network method retrieves a pointer to an IWMPNetwork interface.
 old-location: wmp\iwmpcore_get_network.htm
 tech.root: WMP
 ms.assetid: 8100008a-50da-4496-9d5a-77bcca94e903
-
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_network method, IWMPCore.get_network, IWMPCore::get_network, IWMPCoreget_network, get_network, get_network method [Windows Media Player], get_network method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_network, wmp/IWMPCore::get_network
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPCore.get_network"
+f1_keywords:
+- wmp/IWMPCore.get_network
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPCore.get_network
+- IWMPCore.get_network
 targetos: Windows
 req.typenames: 
 req.redist: 

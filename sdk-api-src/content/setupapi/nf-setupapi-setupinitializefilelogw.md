@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupInitializeFileLogW
 title: SetupInitializeFileLogW function (setupapi.h)
-
 description: The SetupInitializeFileLog function initializes a file to record installation operations and outcomes. This can be the system log, where the system tracks the files installed as part of Windows, or any other file.
 old-location: setup\setupinitializefilelog.htm
 tech.root: SetupApi
 ms.assetid: fac7abac-76a9-456a-843a-e1048df268b7
-
 ms.date: 12/05/2018
 ms.keywords: SetupInitializeFileLog, SetupInitializeFileLog function [Setup API], SetupInitializeFileLogA, SetupInitializeFileLogW, _setupapi_setupinitializefilelog, setup.setupinitializefilelog, setupapi/SetupInitializeFileLog, setupapi/SetupInitializeFileLogA, setupapi/SetupInitializeFileLogW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupInitializeFileLog"
+f1_keywords:
+- setupapi/SetupInitializeFileLog
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupInitializeFileLog
- - SetupInitializeFileLogA
- - SetupInitializeFileLogW
+- SetupInitializeFileLog
+- SetupInitializeFileLogA
+- SetupInitializeFileLogW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.IESCloseMmiEvent
 title: IESCloseMmiEvent (tuner.h)
-
 description: Receives CloseMMI events from a Media Sink Device (MSD) device under the Protected Broadcast Driver Architecture (PBDA).
 old-location: mstv\iesclosemmievent.htm
 tech.root: mstv
 ms.assetid: c470fefb-61bb-4315-ad56-ef5bc90a4ac7
-
 ms.date: 12/05/2018
 ms.keywords: IESCloseMmiEvent, IESCloseMmiEvent interface [Microsoft TV Technologies], IESCloseMmiEvent interface [Microsoft TV Technologies],described, mstv.iesclosemmievent, tuner/IESCloseMmiEvent
 ms.topic: interface
-f1_keywords: 
- - "tuner/IESCloseMmiEvent"
+f1_keywords:
+- tuner/IESCloseMmiEvent
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IESCloseMmiEvent
+- IESCloseMmiEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

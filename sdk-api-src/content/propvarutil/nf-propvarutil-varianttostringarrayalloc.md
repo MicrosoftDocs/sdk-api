@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.VariantToStringArrayAlloc
 title: VariantToStringArrayAlloc function (propvarutil.h)
-
 description: Extracts data from a vector structure into a newly-allocated String array.
 old-location: properties\VariantToStringArrayAlloc.htm
 tech.root: properties
 ms.assetid: 2725b824-b26c-4b33-bc18-a6f4c0ef74e6
-
 ms.date: 12/05/2018
 ms.keywords: VariantToStringArrayAlloc, VariantToStringArrayAlloc function [Windows Properties], _shell_VariantToStringArrayAlloc, properties.VariantToStringArrayAlloc, propvarutil/VariantToStringArrayAlloc, shell.VariantToStringArrayAlloc
 ms.topic: function
-f1_keywords: 
- - "propvarutil/VariantToStringArrayAlloc"
+f1_keywords:
+- propvarutil/VariantToStringArrayAlloc
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - VariantToStringArrayAlloc
+- VariantToStringArrayAlloc
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

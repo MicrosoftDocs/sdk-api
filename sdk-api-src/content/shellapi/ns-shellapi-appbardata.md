@@ -1,19 +1,17 @@
 ---
 UID: NS:shellapi._AppBarData
 title: APPBARDATA (shellapi.h)
-
 description: Contains information about a system appbar message.
 old-location: shell\APPBARDATA.htm
 tech.root: shell
 ms.assetid: cf86fe15-4beb-49b7-b73e-2ad61cedc3f8
-
 ms.date: 12/05/2018
-ms.keywords: "*PAPPBARDATA, ABE_BOTTOM, ABE_LEFT, ABE_RIGHT, ABE_TOP, APPBARDATA, APPBARDATA structure [Windows Shell], PAPPBARDATA, PAPPBARDATA structure pointer [Windows Shell], _win32_APPBARDATA, shell.APPBARDATA, shellapi/APPBARDATA, shellapi/PAPPBARDATA"
+ms.keywords: '*PAPPBARDATA, ABE_BOTTOM, ABE_LEFT, ABE_RIGHT, ABE_TOP, APPBARDATA, APPBARDATA structure [Windows Shell], PAPPBARDATA, PAPPBARDATA structure pointer [Windows Shell], _win32_APPBARDATA, shell.APPBARDATA, shellapi/APPBARDATA, shellapi/PAPPBARDATA'
 ms.topic: struct
-f1_keywords: 
- - "shellapi/APPBARDATA"
+f1_keywords:
+- shellapi/APPBARDATA
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shellapi.h
+- Shellapi.h
 api_name:
- - APPBARDATA
+- APPBARDATA
 targetos: Windows
 req.typenames: APPBARDATA, *PAPPBARDATA
 req.redist: 

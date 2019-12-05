@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig2.SetEnableResends
 title: IWMReaderNetworkConfig2::SetEnableResends (wmsdkidl.h)
-
 description: The SetEnableResends method enables or disables resends.
 old-location: wmformat\iwmreadernetworkconfig2_setenableresends.htm
 tech.root: wmformat
 ms.assetid: c3bd0e03-eee1-4022-8540-1dcc927d6b5f
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderNetworkConfig2 interface [windows Media Format],SetEnableResends method, IWMReaderNetworkConfig2.SetEnableResends, IWMReaderNetworkConfig2::SetEnableResends, IWMReaderNetworkConfig2SetEnableResends, SetEnableResends, SetEnableResends method [windows Media Format], SetEnableResends method [windows Media Format],IWMReaderNetworkConfig2 interface, wmformat.iwmreadernetworkconfig2_setenableresends, wmsdkidl/IWMReaderNetworkConfig2::SetEnableResends
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderNetworkConfig2.SetEnableResends"
+f1_keywords:
+- wmsdkidl/IWMReaderNetworkConfig2.SetEnableResends
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig2.SetEnableResends
+- IWMReaderNetworkConfig2.SetEnableResends
 targetos: Windows
 req.typenames: 
 req.redist: 

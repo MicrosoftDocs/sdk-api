@@ -1,19 +1,17 @@
 ---
 UID: NS:dxgidebug.DXGI_INFO_QUEUE_FILTER_DESC
 title: DXGI_INFO_QUEUE_FILTER_DESC (dxgidebug.h)
-
 description: Describes the types of messages to allow or deny to pass through a filter.
 old-location: direct3ddxgi\dxgi_info_queue_filter_desc.htm
 tech.root: direct3ddxgi
 ms.assetid: B916731B-362B-46AD-BC18-71339A2935B4
-
 ms.date: 12/05/2018
 ms.keywords: DXGI_INFO_QUEUE_FILTER_DESC, DXGI_INFO_QUEUE_FILTER_DESC structure [DXGI], direct3ddxgi.dxgi_info_queue_filter_desc, dxgidebug/DXGI_INFO_QUEUE_FILTER_DESC
 ms.topic: struct
-f1_keywords: 
- - "dxgidebug/DXGI_INFO_QUEUE_FILTER_DESC"
+f1_keywords:
+- dxgidebug/DXGI_INFO_QUEUE_FILTER_DESC
 dev_langs:
- - c++
+- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DXGIDebug.h
+- DXGIDebug.h
 api_name:
- - DXGI_INFO_QUEUE_FILTER_DESC
+- DXGI_INFO_QUEUE_FILTER_DESC
 targetos: Windows
 req.typenames: DXGI_INFO_QUEUE_FILTER_DESC
 req.redist: 

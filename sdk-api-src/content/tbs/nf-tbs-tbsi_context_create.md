@@ -1,19 +1,17 @@
 ---
 UID: NF:tbs.Tbsi_Context_Create
 title: Tbsi_Context_Create function (tbs.h)
-
 description: Creates a context handle that can be used to pass commands to TBS.
 old-location: tbs\_tbsi_context_create.htm
 tech.root: TBS
 ms.assetid: 5f19f649-2132-4fd8-a346-4be73fb8917c
-
 ms.date: 12/05/2018
 ms.keywords: Tbsi_Context_Create, Tbsi_Context_Create function [TBS], tbs._tbsi_context_create, tbs/Tbsi_Context_Create
 ms.topic: function
-f1_keywords: 
- - "tbs/Tbsi_Context_Create"
+f1_keywords:
+- tbs/Tbsi_Context_Create
 dev_langs:
- - c++
+- c++
 req.header: tbs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tbs.lib
 req.dll: Tbs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tbs.dll
+- Tbs.dll
 api_name:
- - Tbsi_Context_Create
+- Tbsi_Context_Create
 targetos: Windows
 req.typenames: 
 req.redist: 

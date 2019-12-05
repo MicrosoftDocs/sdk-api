@@ -1,19 +1,17 @@
 ---
 UID: NN:oledlg.IOleUILinkInfoW
 title: IOleUILinkInfoW (oledlg.h)
-
 description: An extension of the IOleUILinkContainer interface. It returns the time that an object was last updated, which is link information that IOleUILinkContainer does not provide.
 old-location: com\ioleuilinkinfo.htm
 tech.root: com
 ms.assetid: aadac00b-47bb-42eb-8458-b23867f6b975
-
 ms.date: 12/05/2018
 ms.keywords: IOleUILinkInfo, IOleUILinkInfo interface [COM], IOleUILinkInfo interface [COM],described, IOleUILinkInfoA, IOleUILinkInfoW, _ole_IOleUILinkInfo, com.ioleuilinkinfo, oledlg/IOleUILinkInfo
 ms.topic: interface
-f1_keywords: 
- - "oledlg/IOleUILinkInfo"
+f1_keywords:
+- oledlg/IOleUILinkInfo
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleDlg.h
+- OleDlg.h
 api_name:
- - IOleUILinkInfo
- - IOleUILinkInfoW
+- IOleUILinkInfo
+- IOleUILinkInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.phoneGetButtonInfo
 title: phoneGetButtonInfo function (tapi.h)
-
 description: The phoneGetButtonInfo function returns information about the specified button.
 old-location: tapi2\phonegetbuttoninfo.htm
 tech.root: Tapi
 ms.assetid: a4df5ba0-7fce-4d29-80a6-4f8f58ae1a83
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_phonegetbuttoninfo, phoneGetButtonInfo, phoneGetButtonInfo function [TAPI 2.2], phoneGetButtonInfoA, phoneGetButtonInfoW, tapi/phoneGetButtonInfo, tapi/phoneGetButtonInfoA, tapi/phoneGetButtonInfoW, tapi2.phonegetbuttoninfo"
+ms.keywords: _tapi2_phonegetbuttoninfo, phoneGetButtonInfo, phoneGetButtonInfo function [TAPI 2.2], phoneGetButtonInfoA, phoneGetButtonInfoW, tapi/phoneGetButtonInfo, tapi/phoneGetButtonInfoA, tapi/phoneGetButtonInfoW, tapi2.phonegetbuttoninfo
 ms.topic: function
-f1_keywords: 
- - "tapi/phoneGetButtonInfo"
+f1_keywords:
+- tapi/phoneGetButtonInfo
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - phoneGetButtonInfo
- - phoneGetButtonInfoA
- - phoneGetButtonInfoW
+- phoneGetButtonInfo
+- phoneGetButtonInfoA
+- phoneGetButtonInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 

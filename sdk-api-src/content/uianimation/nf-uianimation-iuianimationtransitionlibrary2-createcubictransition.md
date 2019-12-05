@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateCubicTransition
 title: IUIAnimationTransitionLibrary2::CreateCubicTransition (uianimation.h)
-
 description: Creates a cubic scalar transition.
 old-location: uianimation\iuianimationtransitionlibrary2_createcubictransition.htm
 tech.root: UIAnimation
 ms.assetid: 63ADBD53-2552-4D68-AABD-E3B1F83831EB
-
 ms.date: 12/05/2018
 ms.keywords: CreateCubicTransition, CreateCubicTransition method [Windows Animation], CreateCubicTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateCubicTransition method, IUIAnimationTransitionLibrary2.CreateCubicTransition, IUIAnimationTransitionLibrary2::CreateCubicTransition, uianimation.iuianimationtransitionlibrary2_createcubictransition, uianimation/IUIAnimationTransitionLibrary2::CreateCubicTransition
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTransitionLibrary2.CreateCubicTransition"
+f1_keywords:
+- uianimation/IUIAnimationTransitionLibrary2.CreateCubicTransition
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTransitionLibrary2.CreateCubicTransition
+- IUIAnimationTransitionLibrary2.CreateCubicTransition
 targetos: Windows
 req.typenames: 
 req.redist: 

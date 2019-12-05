@@ -1,19 +1,17 @@
 ---
 UID: NS:winddi._ENG_TIME_FIELDS
 title: ENG_TIME_FIELDS (winddi.h)
-
 description: The ENG_TIME_FIELDS structure is used by the EngQueryLocalTime function to return the local time.
 old-location: display\eng_time_fields.htm
 tech.root: display
 ms.assetid: 482e1d15-d499-4ed2-87e7-760f03a454b5
-
 ms.date: 12/05/2018
-ms.keywords: "*PENG_TIME_FIELDS, ENG_TIME_FIELDS, ENG_TIME_FIELDS structure [Display Devices], PENG_TIME_FIELDS, PENG_TIME_FIELDS structure pointer [Display Devices], display.eng_time_fields, grstrcts_3611274f-4217-48c5-af9d-9470df8a39e8.xml, winddi/ENG_TIME_FIELDS, winddi/PENG_TIME_FIELDS"
+ms.keywords: '*PENG_TIME_FIELDS, ENG_TIME_FIELDS, ENG_TIME_FIELDS structure [Display Devices], PENG_TIME_FIELDS, PENG_TIME_FIELDS structure pointer [Display Devices], display.eng_time_fields, grstrcts_3611274f-4217-48c5-af9d-9470df8a39e8.xml, winddi/ENG_TIME_FIELDS, winddi/PENG_TIME_FIELDS'
 ms.topic: struct
-f1_keywords: 
- - "winddi/ENG_TIME_FIELDS"
+f1_keywords:
+- winddi/ENG_TIME_FIELDS
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - ENG_TIME_FIELDS
+- ENG_TIME_FIELDS
 targetos: Windows
 req.typenames: ENG_TIME_FIELDS, *PENG_TIME_FIELDS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingLookupDone
 title: RpcNsBindingLookupDone function (rpcnsi.h)
-
 description: The RpcNsBindingLookupDone function signifies that a client has finished looking for compatible servers and deletes the lookup context.
 old-location: rpc\rpcnsbindinglookupdone.htm
 tech.root: Rpc
 ms.assetid: bf272b29-8594-428a-947c-cc91ddfb4538
-
 ms.date: 12/05/2018
 ms.keywords: RpcNsBindingLookupDone, RpcNsBindingLookupDone function [RPC], _rpc_rpcnsbindinglookupdone, rpc.rpcnsbindinglookupdone, rpcnsi/RpcNsBindingLookupDone
 ms.topic: function
-f1_keywords: 
- - "rpcnsi/RpcNsBindingLookupDone"
+f1_keywords:
+- rpcnsi/RpcNsBindingLookupDone
 dev_langs:
- - c++
+- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcns4.dll
+- Rpcns4.dll
 api_name:
- - RpcNsBindingLookupDone
+- RpcNsBindingLookupDone
 targetos: Windows
 req.typenames: 
 req.redist: 

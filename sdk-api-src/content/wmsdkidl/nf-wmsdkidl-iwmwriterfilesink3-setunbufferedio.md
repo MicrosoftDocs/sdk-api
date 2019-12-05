@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink3.SetUnbufferedIO
 title: IWMWriterFileSink3::SetUnbufferedIO (wmsdkidl.h)
-
 description: The SetUnbufferedIO method specifies whether unbuffered I/O is used for the file sink. You can improve performance by using unbuffered I/O for writer sessions with a high bit rate and a long running time.
 old-location: wmformat\iwmwriterfilesink3_setunbufferedio.htm
 tech.root: wmformat
 ms.assetid: 51a9c21b-d301-41e4-a9bc-321a5b2decca
-
 ms.date: 12/05/2018
 ms.keywords: IWMWriterFileSink3 interface [windows Media Format],SetUnbufferedIO method, IWMWriterFileSink3.SetUnbufferedIO, IWMWriterFileSink3::SetUnbufferedIO, IWMWriterFileSink3SetUnbufferedIO, SetUnbufferedIO, SetUnbufferedIO method [windows Media Format], SetUnbufferedIO method [windows Media Format],IWMWriterFileSink3 interface, wmformat.iwmwriterfilesink3_setunbufferedio, wmsdkidl/IWMWriterFileSink3::SetUnbufferedIO
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterFileSink3.SetUnbufferedIO"
+f1_keywords:
+- wmsdkidl/IWMWriterFileSink3.SetUnbufferedIO
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterFileSink3.SetUnbufferedIO
+- IWMWriterFileSink3.SetUnbufferedIO
 targetos: Windows
 req.typenames: 
 req.redist: 

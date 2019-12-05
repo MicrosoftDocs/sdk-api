@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IComponentTypes.Clone
 title: IComponentTypes::Clone (tuner.h)
-
 description: The Clone method creates a new copy of the collection.
 old-location: mstv\icomponenttypes_clone.htm
 tech.root: mstv
 ms.assetid: 4cc842fa-90bd-4618-8e67-36b15db50cd1
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],IComponentTypes interface, IComponentTypes interface [Microsoft TV Technologies],Clone method, IComponentTypes.Clone, IComponentTypes::Clone, IComponentTypesClone, mstv.icomponenttypes_clone, tuner/IComponentTypes::Clone
 ms.topic: method
-f1_keywords: 
- - "tuner/IComponentTypes.Clone"
+f1_keywords:
+- tuner/IComponentTypes.Clone
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IComponentTypes.Clone
+- IComponentTypes.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.put_NamespaceRoots
 title: IFsrmFileManagementJob::put_NamespaceRoots (fsrmreports.h)
-
 description: An array of local directory paths that will be scanned when the file management job is run.
 old-location: fsrm\ifsrmfilemanagementjob_namespaceroots.htm
 tech.root: fsrm
 ms.assetid: 1f48ac40-eace-49f2-b77d-2456a1a5fa34
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],NamespaceRoots property, IFsrmFileManagementJob.NamespaceRoots, IFsrmFileManagementJob.put_NamespaceRoots, IFsrmFileManagementJob::NamespaceRoots, IFsrmFileManagementJob::get_NamespaceRoots, IFsrmFileManagementJob::put_NamespaceRoots, NamespaceRoots property [File Server Resource Manager], NamespaceRoots property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_namespaceroots, fsrm.ifsrmfilemanagementjob_namespaceroots, fsrmreports/IFsrmFileManagementJob::NamespaceRoots, fsrmreports/IFsrmFileManagementJob::get_NamespaceRoots, fsrmreports/IFsrmFileManagementJob::put_NamespaceRoots, put_NamespaceRoots
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmFileManagementJob.NamespaceRoots"
+f1_keywords:
+- fsrmreports/IFsrmFileManagementJob.NamespaceRoots
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob.NamespaceRoots
- - IFsrmFileManagementJob.get_NamespaceRoots
- - IFsrmFileManagementJob.put_NamespaceRoots
+- IFsrmFileManagementJob.NamespaceRoots
+- IFsrmFileManagementJob.get_NamespaceRoots
+- IFsrmFileManagementJob.put_NamespaceRoots
 targetos: Windows
 req.typenames: 
 req.redist: 

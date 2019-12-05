@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.GetThreadLangBarItemMgr
 title: ITfLangBarMgr::GetThreadLangBarItemMgr (ctfutb.h)
-
 description: ITfLangBarMgr::GetThreadLangBarItemMgr method
 old-location: tsf\itflangbarmgr_getthreadlangbaritemmgr.htm
 tech.root: TSF
 ms.assetid: 3ca37268-eb27-4d8b-9a16-306f77369e8f
-
 ms.date: 12/05/2018
 ms.keywords: GetThreadLangBarItemMgr, GetThreadLangBarItemMgr method [Text Services Framework], GetThreadLangBarItemMgr method [Text Services Framework],ITfLangBarMgr interface, ITfLangBarMgr interface [Text Services Framework],GetThreadLangBarItemMgr method, ITfLangBarMgr.GetThreadLangBarItemMgr, ITfLangBarMgr::GetThreadLangBarItemMgr, _tsf_itflangbarmgr_getthreadlangbaritemmgr_ref, ctfutb/ITfLangBarMgr::GetThreadLangBarItemMgr, tsf.itflangbarmgr_getthreadlangbaritemmgr
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfLangBarMgr.GetThreadLangBarItemMgr"
+f1_keywords:
+- ctfutb/ITfLangBarMgr.GetThreadLangBarItemMgr
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfLangBarMgr.GetThreadLangBarItemMgr
+- ITfLangBarMgr.GetThreadLangBarItemMgr
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

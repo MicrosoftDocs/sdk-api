@@ -1,19 +1,17 @@
 ---
 UID: NF:userenv.GetUserProfileDirectoryW
 title: GetUserProfileDirectoryW function (userenv.h)
-
 description: Retrieves the path to the root directory of the specified user's profile.
 old-location: shell\GetUserProfileDirectory.htm
 tech.root: shell
 ms.assetid: b5de762d-c9ee-42b0-bce0-e74bcc9c78f0
-
 ms.date: 12/05/2018
 ms.keywords: GetUserProfileDirectory, GetUserProfileDirectory function [Windows Shell], GetUserProfileDirectoryA, GetUserProfileDirectoryW, _shell_GetUserProfileDirectory, shell.GetUserProfileDirectory, userenv/GetUserProfileDirectory, userenv/GetUserProfileDirectoryA, userenv/GetUserProfileDirectoryW
 ms.topic: function
-f1_keywords: 
- - "userenv/GetUserProfileDirectory"
+f1_keywords:
+- userenv/GetUserProfileDirectory
 dev_langs:
- - c++
+- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Userenv.dll
+- Userenv.dll
 api_name:
- - GetUserProfileDirectory
- - GetUserProfileDirectoryA
- - GetUserProfileDirectoryW
+- GetUserProfileDirectory
+- GetUserProfileDirectoryA
+- GetUserProfileDirectoryW
 targetos: Windows
 req.typenames: 
 req.redist: 

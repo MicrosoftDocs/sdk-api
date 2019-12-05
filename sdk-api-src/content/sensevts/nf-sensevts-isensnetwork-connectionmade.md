@@ -1,19 +1,17 @@
 ---
 UID: NF:sensevts.ISensNetwork.ConnectionMade
 title: ISensNetwork::ConnectionMade (sensevts.h)
-
 description: The ConnectionMade method notifies your application that the specified connection has been established.
 old-location: sens\isensnetwork_connectionmade.htm
 tech.root: Sens
 ms.assetid: 3b067a6f-ba4c-4914-aa5b-e0fd7690e75c
-
 ms.date: 12/05/2018
 ms.keywords: ConnectionMade, ConnectionMade method [SENS], ConnectionMade method [SENS],ISensNetwork interface, ISensNetwork interface [SENS],ConnectionMade method, ISensNetwork.ConnectionMade, ISensNetwork::ConnectionMade, _zaw_isensnetwork_connectionmade, sens.isensnetwork_connectionmade, sensevts/ISensNetwork::ConnectionMade, syncmgr.isensnetwork_connectionmade
 ms.topic: method
-f1_keywords: 
- - "sensevts/ISensNetwork.ConnectionMade"
+f1_keywords:
+- sensevts/ISensNetwork.ConnectionMade
 dev_langs:
- - c++
+- c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sens.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sens.dll
+- Sens.dll
 api_name:
- - ISensNetwork.ConnectionMade
+- ISensNetwork.ConnectionMade
 targetos: Windows
 req.typenames: 
 req.redist: 

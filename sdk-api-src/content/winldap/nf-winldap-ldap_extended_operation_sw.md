@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_extended_operation_sW
 title: ldap_extended_operation_sW function (winldap.h)
-
 description: Used to pass extended LDAP operations to the server.
 old-location: ldap\ldap_extended_operation_s.htm
 tech.root: ldap
 ms.assetid: a9e354f3-b6b3-4c41-93d7-497354c87237
-
 ms.date: 12/05/2018
 ms.keywords: ldap.ldap_extended_operation_s, ldap_extended_operation_s, ldap_extended_operation_s function [LDAP], ldap_extended_operation_sA, ldap_extended_operation_sW, winldap/ldap_extended_operation_s, winldap/ldap_extended_operation_sA, winldap/ldap_extended_operation_sW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_extended_operation_s"
+f1_keywords:
+- winldap/ldap_extended_operation_s
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_extended_operation_s
- - ldap_extended_operation_sA
- - ldap_extended_operation_sW
+- ldap_extended_operation_s
+- ldap_extended_operation_sA
+- ldap_extended_operation_sW
 targetos: Windows
 req.typenames: 
 req.redist: 

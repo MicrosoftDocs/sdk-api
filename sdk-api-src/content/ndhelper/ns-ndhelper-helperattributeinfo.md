@@ -1,19 +1,17 @@
 ---
 UID: NS:ndhelper.tagHelperAttributeInfo
 title: HelperAttributeInfo (ndhelper.h)
-
 description: The HelperAttributeInfo structure contains the name of the helper attribute and its type.
 old-location: ndf\helperattributeinfo.htm
 tech.root: NDF
 ms.assetid: a4de3031-7199-4537-a97e-f33059383d6b
-
 ms.date: 12/05/2018
-ms.keywords: "*PHelperAttributeInfo, HelperAttributeInfo, HelperAttributeInfo structure [NDF], HelperAttributeInfo,*PHelperAttributeInfo, HelperAttributeInfo,*PHelperAttributeInfo structure [NDF], ndf.helperattributeinfo, ndhelper/HelperAttributeInfo"
+ms.keywords: '*PHelperAttributeInfo, HelperAttributeInfo, HelperAttributeInfo structure [NDF], HelperAttributeInfo,*PHelperAttributeInfo, HelperAttributeInfo,*PHelperAttributeInfo structure [NDF], ndf.helperattributeinfo, ndhelper/HelperAttributeInfo'
 ms.topic: struct
-f1_keywords: 
- - "ndhelper/HelperAttributeInfo, *PHelperAttributeInfo"
+f1_keywords:
+- ndhelper/HelperAttributeInfo, *PHelperAttributeInfo
 dev_langs:
- - c++
+- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ndhelper.h
+- ndhelper.h
 api_name:
- - HelperAttributeInfo, *PHelperAttributeInfo
+- HelperAttributeInfo, *PHelperAttributeInfo
 targetos: Windows
 req.typenames: HelperAttributeInfo, *PHelperAttributeInfo
 req.redist: 

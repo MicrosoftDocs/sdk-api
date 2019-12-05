@@ -1,19 +1,17 @@
 ---
 UID: NE:dxva9typ._COPP_StatusFlags
 title: COPP_StatusFlags (dxva9typ.h)
-
 description: Specifies the status of a Certified Output Protection Protocol (COPP) session.
 old-location: dshow\copp_statusflags.htm
 tech.root: DirectShow
 ms.assetid: 9109bb2c-1422-4629-b2df-ac877d3cd86e
-
 ms.date: 12/05/2018
 ms.keywords: COPP_LinkLost, COPP_RenegotiationRequired, COPP_StatusFlags, COPP_StatusFlags , COPP_StatusFlags enumeration [DirectShow], COPP_StatusFlagsEnumeration, COPP_StatusFlagsReserved, COPP_StatusNormal, dshow.copp_statusflags, dxva9typ/COPP_LinkLost, dxva9typ/COPP_RenegotiationRequired, dxva9typ/COPP_StatusFlags, dxva9typ/COPP_StatusFlagsReserved, dxva9typ/COPP_StatusNormal
 ms.topic: enum
-f1_keywords: 
- - "dxva9typ/COPP_StatusFlags"
+f1_keywords:
+- dxva9typ/COPP_StatusFlags
 dev_langs:
- - c++
+- c++
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxva9typ.h
+- dxva9typ.h
 api_name:
- - COPP_StatusFlags
+- COPP_StatusFlags
 targetos: Windows
 req.typenames: COPP_StatusFlags
 req.redist: 

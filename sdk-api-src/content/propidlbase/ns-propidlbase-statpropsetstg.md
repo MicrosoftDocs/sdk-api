@@ -1,19 +1,17 @@
 ---
 UID: NS:propidlbase.tagSTATPROPSETSTG
 title: STATPROPSETSTG (propidlbase.h)
-
 description: The STATPROPSETSTG structure contains information about a property set.
 old-location: stg\statpropsetstg.htm
 tech.root: Stg
 ms.assetid: 8e5cc502-9f96-4f4b-8729-cac4a1ffcd6f
-
 ms.date: 12/05/2018
 ms.keywords: STATPROPSETSTG, STATPROPSETSTG structure [Structured Storage], _stg_statpropsetstg, propidlbase/STATPROPSETSTG, stg.statpropsetstg, tagSTATPROPSETSTG
 ms.topic: struct
-f1_keywords: 
- - "propidlbase/STATPROPSETSTG"
+f1_keywords:
+- propidlbase/STATPROPSETSTG
 dev_langs:
- - c++
+- c++
 req.header: propidlbase.h
 req.include-header: Propidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - propidlbase.h
+- propidlbase.h
 api_name:
- - STATPROPSETSTG
+- STATPROPSETSTG
 targetos: Windows
 req.typenames: STATPROPSETSTG
 req.redist: 

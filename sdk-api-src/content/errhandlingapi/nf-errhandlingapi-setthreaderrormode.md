@@ -1,19 +1,17 @@
 ---
 UID: NF:errhandlingapi.SetThreadErrorMode
 title: SetThreadErrorMode function (errhandlingapi.h)
-
 description: Controls whether the system will handle the specified types of serious errors or whether the calling thread will handle them.
 old-location: base\setthreaderrormode.htm
 tech.root: Debug
 ms.assetid: f5acb4ba-d328-47c2-8c41-17df197f12ea
-
 ms.date: 12/05/2018
 ms.keywords: SEM_FAILCRITICALERRORS, SEM_NOGPFAULTERRORBOX, SEM_NOOPENFILEERRORBOX, SetThreadErrorMode, SetThreadErrorMode function, base.setthreaderrormode, errhandlingapi/SetThreadErrorMode
 ms.topic: function
-f1_keywords: 
- - "errhandlingapi/SetThreadErrorMode"
+f1_keywords:
+- errhandlingapi/SetThreadErrorMode
 dev_langs:
- - c++
+- c++
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-Ms-Win-Core-ErrorHandling-L1-1-3.dll
- - KernelBase.dll
+- kernel32.dll
+- API-Ms-Win-Core-ErrorHandling-L1-1-3.dll
+- KernelBase.dll
 api_name:
- - SetThreadErrorMode
+- SetThreadErrorMode
 targetos: Windows
 req.typenames: 
 req.redist: 

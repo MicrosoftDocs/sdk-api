@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxIncomingJob.get_Status
 title: IFaxIncomingJob::get_Status (faxcomex.h)
-
 description: Retrieves the Status property of a FaxIncomingJob object. The Status property is a number that indicates the current status of an inbound fax job in the job queue.
 old-location: fax\_mfax_faxincomingjob_status_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1far_cpp.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingJob interface [Fax Service],get_Status method, IFaxIncomingJob.get_Status, IFaxIncomingJob::get_Status, _mfax_faxincomingjob.status_cpp, fax._mfax_faxincomingjob_status_cpp, faxcomex/IFaxIncomingJob::get_Status, get_Status, get_Status method [Fax Service], get_Status method [Fax Service],IFaxIncomingJob interface
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxIncomingJob.get_Status"
+f1_keywords:
+- faxcomex/IFaxIncomingJob.get_Status
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxIncomingJob.get_Status
+- IFaxIncomingJob.get_Status
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IAdviseSink.OnRename
 title: IAdviseSink::OnRename (objidl.h)
-
 description: Called by the server to notify all registered advisory sinks that the object has been renamed.
 old-location: com\iadvisesink_onrename.htm
 tech.root: com
 ms.assetid: ec9926fb-d69e-430c-b67d-24c52d806bb5
-
 ms.date: 12/05/2018
 ms.keywords: IAdviseSink interface [COM],OnRename method, IAdviseSink.OnRename, IAdviseSink::OnRename, OnRename, OnRename method [COM], OnRename method [COM],IAdviseSink interface, _ole_iadvisesink_onrename, com.iadvisesink_onrename, objidl/IAdviseSink::OnRename
 ms.topic: method
-f1_keywords: 
- - "objidl/IAdviseSink.OnRename"
+f1_keywords:
+- objidl/IAdviseSink.OnRename
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IAdviseSink.OnRename
+- IAdviseSink.OnRename
 targetos: Windows
 req.typenames: 
 req.redist: 

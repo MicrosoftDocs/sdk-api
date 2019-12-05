@@ -1,19 +1,17 @@
 ---
 UID: NF:winsvc.ChangeServiceConfigW
 title: ChangeServiceConfigW function (winsvc.h)
-
 description: Changes the configuration parameters of a service.
 old-location: base\changeserviceconfig.htm
 tech.root: Services
 ms.assetid: add8a99b-aced-4341-9790-86efac76df6b
-
 ms.date: 12/05/2018
 ms.keywords: ChangeServiceConfig, ChangeServiceConfig function, ChangeServiceConfigA, ChangeServiceConfigW, SERVICE_AUTO_START, SERVICE_BOOT_START, SERVICE_DEMAND_START, SERVICE_DISABLED, SERVICE_ERROR_CRITICAL, SERVICE_ERROR_IGNORE, SERVICE_ERROR_NORMAL, SERVICE_ERROR_SEVERE, SERVICE_FILE_SYSTEM_DRIVER, SERVICE_INTERACTIVE_PROCESS, SERVICE_KERNEL_DRIVER, SERVICE_SYSTEM_START, SERVICE_WIN32_OWN_PROCESS, SERVICE_WIN32_SHARE_PROCESS, _win32_changeserviceconfig, base.changeserviceconfig, winsvc/ChangeServiceConfig, winsvc/ChangeServiceConfigA, winsvc/ChangeServiceConfigW
 ms.topic: function
-f1_keywords: 
- - "winsvc/ChangeServiceConfig"
+f1_keywords:
+- winsvc/ChangeServiceConfig
 dev_langs:
- - c++
+- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
- - sechost.dll
- - API-MS-Win-Service-management-l2-1-0.dll
- - API-MS-Win-Service-Winsvc-l1-1-0.dll
- - API-MS-Win-Service-Winsvc-l1-2-0.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+- sechost.dll
+- API-MS-Win-Service-management-l2-1-0.dll
+- API-MS-Win-Service-Winsvc-l1-1-0.dll
+- API-MS-Win-Service-Winsvc-l1-2-0.dll
 api_name:
- - ChangeServiceConfig
- - ChangeServiceConfigA
- - ChangeServiceConfigW
+- ChangeServiceConfig
+- ChangeServiceConfigA
+- ChangeServiceConfigW
 targetos: Windows
 req.typenames: 
 req.redist: 

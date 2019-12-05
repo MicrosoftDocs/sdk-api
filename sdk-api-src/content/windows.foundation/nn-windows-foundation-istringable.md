@@ -1,19 +1,17 @@
 ---
 UID: NN:windows.foundation.IStringable
 title: IStringable (windows.foundation.h)
-
 description: Provides a way to represent the current object as a string.
 old-location: winrt\istringable.htm
 tech.root: WinRT
 ms.assetid: 1D67D073-57E8-4562-8586-CAF2619995D7
-
 ms.date: 12/05/2018
 ms.keywords: IStringable, IStringable interface [Windows Runtime], IStringable interface [Windows Runtime],described, windows/IStringable, winrt.istringable
 ms.topic: interface
-f1_keywords: 
- - "windows.foundation/IStringable"
+f1_keywords:
+- windows.foundation/IStringable
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.foundation.h
+- windows.foundation.h
 api_name:
- - IStringable
+- IStringable
 targetos: Windows
 req.typenames: 
 req.redist: 

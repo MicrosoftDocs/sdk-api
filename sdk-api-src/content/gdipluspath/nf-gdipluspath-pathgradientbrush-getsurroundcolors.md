@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.GetSurroundColors
 title: PathGradientBrush::GetSurroundColors (gdipluspath.h)
-
 description: The PathGradientBrush::GetSurroundColors method gets the surround colors currently specified for this path gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetSurroundColors_colors_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\getsurroundcolors.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetSurroundColors, GetSurroundColors method [GDI+], GetSurroundColors method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetSurroundColors method, PathGradientBrush.GetSurroundColors, PathGradientBrush::GetSurroundColors, _gdiplus_CLASS_PathGradientBrush_GetSurroundColors_colors_count_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetSurroundColors_colors_count_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/PathGradientBrush.GetSurroundColors"
+f1_keywords:
+- gdipluspath/PathGradientBrush.GetSurroundColors
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - PathGradientBrush.GetSurroundColors
+- PathGradientBrush.GetSurroundColors
 targetos: Windows
 req.typenames: 
 req.redist: 

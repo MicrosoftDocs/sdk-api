@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange2.GetRect
 title: ITextRange2::GetRect (tom.h)
-
 description: Retrieves a rectangle of the specified type for the current range.
 old-location: controls\itextrange2_getrect.htm
 tech.root: Controls
 ms.assetid: 14f0faab-ff37-4f86-a4ba-b6c207d7ddf0
-
 ms.date: 12/05/2018
 ms.keywords: GetRect, GetRect method [Windows Controls], GetRect method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetRect method, ITextRange2.GetRect, ITextRange2::GetRect, controls.itextrange2_getrect, tom/ITextRange2::GetRect, tomAllowOffClient, tomClientCoord, tomObjectArg, tomTransform
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange2.GetRect"
+f1_keywords:
+- tom/ITextRange2.GetRect
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange2.GetRect
+- ITextRange2.GetRect
 targetos: Windows
 req.typenames: 
 req.redist: 

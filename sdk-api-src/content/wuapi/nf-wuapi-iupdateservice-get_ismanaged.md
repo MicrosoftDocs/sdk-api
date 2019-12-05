@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateService.get_IsManaged
 title: IUpdateService::get_IsManaged (wuapi.h)
-
 description: Gets a Boolean value that indicates whether a service is a managed service.
 old-location: wua\iupdateservice_ismanaged.htm
 tech.root: Wua_Sdk
 ms.assetid: 1a473cb3-7209-4056-91bc-bfa416981ae5
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],IsManaged property, IUpdateService.IsManaged, IUpdateService.get_IsManaged, IUpdateService::IsManaged, IUpdateService::get_IsManaged, IsManaged property [Windows Update Agent], IsManaged property [Windows Update Agent],IUpdateService interface, get_IsManaged, wua.iupdateservice_ismanaged, wuapi/IUpdateService::IsManaged, wuapi/IUpdateService::get_IsManaged
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateService.IsManaged"
+f1_keywords:
+- wuapi/IUpdateService.IsManaged
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateService.IsManaged
- - IUpdateService.get_IsManaged
+- IUpdateService.IsManaged
+- IUpdateService.get_IsManaged
 targetos: Windows
 req.typenames: 
 req.redist: 

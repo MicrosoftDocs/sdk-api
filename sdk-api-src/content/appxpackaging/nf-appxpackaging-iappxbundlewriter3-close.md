@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxBundleWriter3.Close
 title: IAppxBundleWriter3::Close (appxpackaging.h)
-
 description: Finalizes the bundle package by writing footprint files at the end of the package, and closes the writer’s output stream.
 old-location: appxpkg\iappxbundlewriter3_close.htm
 tech.root: appxpkg
 ms.assetid: 7AD526CD-9FF2-4A2A-BD12-21A0A9E1BA6E
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [App packaging and management], Close method [App packaging and management],IAppxBundleWriter3 interface, IAppxBundleWriter3 interface [App packaging and management],Close method, IAppxBundleWriter3.Close, IAppxBundleWriter3::Close, appxpackaging/IAppxBundleWriter3::Close, appxpkg.iappxbundlewriter3_close
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxBundleWriter3.Close"
+f1_keywords:
+- appxpackaging/IAppxBundleWriter3.Close
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBundleWriter3.Close
+- IAppxBundleWriter3.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

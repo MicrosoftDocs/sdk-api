@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore2.CreateApplication2
 title: IAzAuthorizationStore2::CreateApplication2 (azroles.h)
-
 description: Creates an IAzApplication2 object by using the specified name.
 old-location: security\iazauthorizationstore2_createapplication2.htm
 tech.root: SecAuthZ
 ms.assetid: d9af40e4-9ed9-4b81-b808-315eef07a96d
-
 ms.date: 12/05/2018
 ms.keywords: CreateApplication2, CreateApplication2 method [Security], CreateApplication2 method [Security],IAzAuthorizationStore2 interface, IAzAuthorizationStore2 interface [Security],CreateApplication2 method, IAzAuthorizationStore2.CreateApplication2, IAzAuthorizationStore2::CreateApplication2, azroles/IAzAuthorizationStore2::CreateApplication2, security.iazauthorizationstore2_createapplication2
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzAuthorizationStore2.CreateApplication2"
+f1_keywords:
+- azroles/IAzAuthorizationStore2.CreateApplication2
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzAuthorizationStore2.CreateApplication2
+- IAzAuthorizationStore2.CreateApplication2
 targetos: Windows
 req.typenames: 
 req.redist: 

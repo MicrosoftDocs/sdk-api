@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromUInt16
 title: InitPropVariantFromUInt16 function (propvarutil.h)
-
 description: Initializes a PROPVARIANT structure based on a 16-bit unsigned integer value.
 old-location: properties\InitPropVariantFromUInt16.htm
 tech.root: properties
 ms.assetid: 2f4b0c6b-2d68-4ea6-a7fb-7884071dcfbe
-
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromUInt16, InitPropVariantFromUInt16 function [Windows Properties], properties.InitPropVariantFromUInt16, propvarutil/InitPropVariantFromUInt16, shell.InitPropVariantFromUInt16, shell_InitPropVariantFromUInt16
 ms.topic: function
-f1_keywords: 
- - "propvarutil/InitPropVariantFromUInt16"
+f1_keywords:
+- propvarutil/InitPropVariantFromUInt16
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Propvarutil.h
+- Propvarutil.h
 api_name:
- - InitPropVariantFromUInt16
+- InitPropVariantFromUInt16
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

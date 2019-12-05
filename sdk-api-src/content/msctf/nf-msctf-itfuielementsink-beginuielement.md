@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfUIElementSink.BeginUIElement
 title: ITfUIElementSink::BeginUIElement (msctf.h)
-
 description: The ITfUIElementSink::BeginUIElement method is called when the UIElement started. This sink can let the textservice to draw or not to draw the UI element.
 old-location: tsf\itfuielementsink_beginuielement.htm
 tech.root: TSF
 ms.assetid: 068c6963-7d69-45b9-8f8b-7af358548a56
-
 ms.date: 12/05/2018
 ms.keywords: BeginUIElement, BeginUIElement method [Text Services Framework], BeginUIElement method [Text Services Framework],ITfUIElementSink interface, ITfUIElementSink interface [Text Services Framework],BeginUIElement method, ITfUIElementSink.BeginUIElement, ITfUIElementSink::BeginUIElement, msctf/ITfUIElementSink::BeginUIElement, tsf.itfuielementsink_beginuielement
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfUIElementSink.BeginUIElement"
+f1_keywords:
+- msctf/ITfUIElementSink.BeginUIElement
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfUIElementSink.BeginUIElement
+- ITfUIElementSink.BeginUIElement
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite.IDWriteTextLayout
 title: IDWriteTextLayout (dwrite.h)
-
 description: The IDWriteTextLayout interface represents a block of text after it has been fully analyzed and formatted.
 old-location: directwrite\IDWriteTextLayout.htm
 tech.root: DirectWrite
 ms.assetid: 0d687337-8623-4014-967c-f533072e31cc
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout, IDWriteTextLayout interface [Direct Write], IDWriteTextLayout interface [Direct Write],described, directwrite.IDWriteTextLayout, dwrite/IDWriteTextLayout
 ms.topic: interface
-f1_keywords: 
- - "dwrite/IDWriteTextLayout"
+f1_keywords:
+- dwrite/IDWriteTextLayout
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout
+- IDWriteTextLayout
 targetos: Windows
 req.typenames: 
 req.redist: 

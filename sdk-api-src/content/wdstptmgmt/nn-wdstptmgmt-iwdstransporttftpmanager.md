@@ -1,19 +1,17 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportTftpManager
 title: IWdsTransportTftpManager (wdstptmgmt.h)
-
 description: This interface provides a method to retrieve all the clients currently connected to the TFTP server.
 old-location: wds\iwdstransporttftpmanager.htm
 tech.root: wds
 ms.assetid: A2DB8313-2855-4B0E-908E-CAE71E88FEF0
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportTftpManager, IWdsTransportTftpManager interface [Windows Deployment Services], IWdsTransportTftpManager interface [Windows Deployment Services],described, wds.iwdstransporttftpmanager, wdstptmgmt/IWdsTransportTftpManager
 ms.topic: interface
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportTftpManager"
+f1_keywords:
+- wdstptmgmt/IWdsTransportTftpManager
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportTftpManager
+- IWdsTransportTftpManager
 targetos: Windows
 req.typenames: 
 req.redist: 

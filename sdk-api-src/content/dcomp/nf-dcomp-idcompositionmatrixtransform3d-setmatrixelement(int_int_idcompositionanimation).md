@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionMatrixTransform3D.SetMatrixElement(int,int,IDCompositionAnimation)
 title: IDCompositionMatrixTransform3D::SetMatrixElement(int,int,IDCompositionAnimation) (dcomp.h)
-
 description: Animates the value of one element of the matrix of this 3D transform.
 old-location: directcomp\idcompositionmatrixtransform3d_setmatrixelement_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: 099AB3AB-D0F8-4D25-B407-83C77810F34D
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionMatrixTransform3D interface [DirectComposition],SetMatrixElement method, IDCompositionMatrixTransform3D.SetMatrixElement, IDCompositionMatrixTransform3D.SetMatrixElement(int,int,IDCompositionAnimation), IDCompositionMatrixTransform3D::SetMatrixElement, IDCompositionMatrixTransform3D::SetMatrixElement(int,int,IDCompositionAnimation), IDCompositionMatrixTransform3D::SetMatrixElement(int,int,IDCompositionAnimation*), SetMatrixElement, SetMatrixElement method [DirectComposition], SetMatrixElement method [DirectComposition],IDCompositionMatrixTransform3D interface, dcomp/IDCompositionMatrixTransform3D::SetMatrixElement, directcomp.idcompositionmatrixtransform3d_setmatrixelement_idcompositionanimation
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionMatrixTransform3D.SetMatrixElement"
+f1_keywords:
+- dcomp/IDCompositionMatrixTransform3D.SetMatrixElement
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionMatrixTransform3D.SetMatrixElement
+- IDCompositionMatrixTransform3D.SetMatrixElement
 targetos: Windows
 req.typenames: 
 req.redist: 

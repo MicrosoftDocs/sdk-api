@@ -1,19 +1,17 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointOffloadStreamVolume.SetChannelVolumes
 title: IAudioEndpointOffloadStreamVolume::SetChannelVolumes (audioengineendpoint.h)
-
 description: The SetChannelVolumes method sets the volume levels for the various audio channels in the offloaded stream.
 old-location: coreaudio\iaudioendpointoffloadstreamvolume_setchannelvolumes.htm
 tech.root: CoreAudio
 ms.assetid: 80E736B5-AF8E-46B3-9CDF-753B045F60D9
-
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointOffloadStreamVolume interface [Core Audio],SetChannelVolumes method, IAudioEndpointOffloadStreamVolume.SetChannelVolumes, IAudioEndpointOffloadStreamVolume::SetChannelVolumes, SetChannelVolumes, SetChannelVolumes method [Core Audio], SetChannelVolumes method [Core Audio],IAudioEndpointOffloadStreamVolume interface, audioengineendpoint/IAudioEndpointOffloadStreamVolume::SetChannelVolumes, coreaudio.iaudioendpointoffloadstreamvolume_setchannelvolumes
 ms.topic: method
-f1_keywords: 
- - "audioengineendpoint/IAudioEndpointOffloadStreamVolume.SetChannelVolumes"
+f1_keywords:
+- audioengineendpoint/IAudioEndpointOffloadStreamVolume.SetChannelVolumes
 dev_langs:
- - c++
+- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioengineendpoint.h
+- Audioengineendpoint.h
 api_name:
- - IAudioEndpointOffloadStreamVolume.SetChannelVolumes
+- IAudioEndpointOffloadStreamVolume.SetChannelVolumes
 targetos: Windows
 req.typenames: 
 req.redist: 

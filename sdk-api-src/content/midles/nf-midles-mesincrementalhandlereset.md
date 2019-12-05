@@ -1,19 +1,17 @@
 ---
 UID: NF:midles.MesIncrementalHandleReset
 title: MesIncrementalHandleReset function (midles.h)
-
 description: The MesIncrementalHandleReset function re-initializes the handle for incremental serialization.
 old-location: rpc\mesincrementalhandlereset.htm
 tech.root: Rpc
 ms.assetid: 13ca3bd0-0527-4d54-84a1-aa6efca88e8d
-
 ms.date: 12/05/2018
 ms.keywords: MesIncrementalHandleReset, MesIncrementalHandleReset function [RPC], _rpc_mesincrementalhandlereset, midles/MesIncrementalHandleReset, rpc.mesincrementalhandlereset
 ms.topic: function
-f1_keywords: 
- - "midles/MesIncrementalHandleReset"
+f1_keywords:
+- midles/MesIncrementalHandleReset
 dev_langs:
- - c++
+- c++
 req.header: midles.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - MesIncrementalHandleReset
+- MesIncrementalHandleReset
 targetos: Windows
 req.typenames: 
 req.redist: 

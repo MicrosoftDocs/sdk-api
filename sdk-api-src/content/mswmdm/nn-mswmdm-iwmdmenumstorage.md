@@ -1,19 +1,17 @@
 ---
 UID: NN:mswmdm.IWMDMEnumStorage
 title: IWMDMEnumStorage (mswmdm.h)
-
 description: The IWMDMEnumStorage interface enumerates storages on a device.
 old-location: wmdm\iwmdmenumstorage.htm
 tech.root: WMDM
 ms.assetid: 6ea80ab2-718b-464e-a805-9910460931bb
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMEnumStorage, IWMDMEnumStorage interface [windows Media Device Manager], IWMDMEnumStorage interface [windows Media Device Manager],described, IWMDMEnumStorageInterface, mswmdm/IWMDMEnumStorage, wmdm.iwmdmenumstorage
 ms.topic: interface
-f1_keywords: 
- - "mswmdm/IWMDMEnumStorage"
+f1_keywords:
+- mswmdm/IWMDMEnumStorage
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mswmdm.h
+- mswmdm.h
 api_name:
- - IWMDMEnumStorage
+- IWMDMEnumStorage
 targetos: Windows
 req.typenames: 
 req.redist: 

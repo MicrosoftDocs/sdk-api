@@ -1,19 +1,17 @@
 ---
 UID: NN:oleidl.IOleContainer
 title: IOleContainer (oleidl.h)
-
 description: Enumerates objects in a compound document or lock a container in the running state. Container and object applications both implement this interface.
 old-location: com\iolecontainer.htm
 tech.root: com
 ms.assetid: 98549309-8ac8-4391-92ab-8a62269ff579
-
 ms.date: 12/05/2018
 ms.keywords: IOleContainer, IOleContainer interface [COM], IOleContainer interface [COM],described, _ole_iolecontainer, com.iolecontainer, oleidl/IOleContainer
 ms.topic: interface
-f1_keywords: 
- - "oleidl/IOleContainer"
+f1_keywords:
+- oleidl/IOleContainer
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleContainer
+- IOleContainer
 targetos: Windows
 req.typenames: 
 req.redist: 

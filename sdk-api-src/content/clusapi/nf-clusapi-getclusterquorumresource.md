@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.GetClusterQuorumResource
 title: GetClusterQuorumResource function (clusapi.h)
-
 description: Returns the name of a cluster's quorum resource.
 old-location: mscs\getclusterquorumresource.htm
 tech.root: MsCS
 ms.assetid: 0f841070-9dc0-49e0-9112-8d46185470b5
-
 ms.date: 12/05/2018
 ms.keywords: GetClusterQuorumResource, GetClusterQuorumResource function [Failover Cluster], PCLUSAPI_GET_CLUSTER_QUORUM_RESOURCE, PCLUSAPI_GET_CLUSTER_QUORUM_RESOURCE function [Failover Cluster], _wolf_getclusterquorumresource, clusapi/GetClusterQuorumResource, clusapi/PCLUSAPI_GET_CLUSTER_QUORUM_RESOURCE, mscs.getclusterquorumresource
 ms.topic: function
-f1_keywords: 
- - "clusapi/GetClusterQuorumResource"
+f1_keywords:
+- clusapi/GetClusterQuorumResource
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - GetClusterQuorumResource
+- GetClusterQuorumResource
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:cfapi.CF_OPERATION_RESTART_HYDRATION_FLAGS
 title: CF_OPERATION_RESTART_HYDRATION_FLAGS (cfapi.h)
-
 description: Flags to restart data hydration on a placeholder file or folder.
 old-location: cloudapi\cf_operation_restart_hydration_flags.htm
 tech.root: cfApi
 ms.assetid: 4112937A-3ED6-48F8-BFD1-52D01ABA3D72
-
 ms.date: 12/05/2018
 ms.keywords: CF_OPERATION_RESTART_HYDRATION_FLAGS, CF_OPERATION_RESTART_HYDRATION_FLAGS enumeration, CF_OPERATION_RESTART_HYDRATION_FLAG_MARK_IN_SYNC, CF_OPERATION_RESTART_HYDRATION_FLAG_NONE, cfapi/CF_OPERATION_RESTART_HYDRATION_FLAGS, cfapi/CF_OPERATION_RESTART_HYDRATION_FLAG_MARK_IN_SYNC, cfapi/CF_OPERATION_RESTART_HYDRATION_FLAG_NONE, cloudApi.cf_operation_restart_hydration_flags
 ms.topic: enum
-f1_keywords: 
- - "cfapi/CF_OPERATION_RESTART_HYDRATION_FLAGS"
+f1_keywords:
+- cfapi/CF_OPERATION_RESTART_HYDRATION_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CfApi.h
+- CfApi.h
 api_name:
- - CF_OPERATION_RESTART_HYDRATION_FLAGS
+- CF_OPERATION_RESTART_HYDRATION_FLAGS
 targetos: Windows
 req.typenames: CF_OPERATION_RESTART_HYDRATION_FLAGS
 req.redist: 

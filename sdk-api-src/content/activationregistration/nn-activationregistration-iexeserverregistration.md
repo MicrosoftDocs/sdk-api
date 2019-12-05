@@ -1,19 +1,17 @@
 ---
 UID: NN:activationregistration.IExeServerRegistration
 title: IExeServerRegistration (activationregistration.h)
-
 description: Represents a registered an out-of-process server.
 old-location: winrt\iexeserverregistration.htm
 tech.root: WinRT
 ms.assetid: 9A96968D-B9BD-4C47-B626-69B6EA6AE7EA
-
 ms.date: 12/05/2018
 ms.keywords: IExeServerRegistration, IExeServerRegistration interface [Windows Runtime], IExeServerRegistration interface [Windows Runtime],described, activationregistration/IExeServerRegistration, winrt.iexeserverregistration
 ms.topic: interface
-f1_keywords: 
- - "activationregistration/IExeServerRegistration"
+f1_keywords:
+- activationregistration/IExeServerRegistration
 dev_langs:
- - c++
+- c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - activationregistration.h
+- activationregistration.h
 api_name:
- - IExeServerRegistration
+- IExeServerRegistration
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiGetINFClassW
 title: SetupDiGetINFClassW function (setupapi.h)
-
 description: The SetupDiGetINFClass function returns the class of a specified device INF file.
 old-location: devinst\setupdigetinfclass.htm
 tech.root: devinst
 ms.assetid: 03e66c5b-9b76-4a40-8bd4-f640b689ce27
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetINFClass, SetupDiGetINFClass function [Device and Driver Installation], SetupDiGetINFClassA, SetupDiGetINFClassW, devinst.setupdigetinfclass, di-rtns_10b0e077-9fb8-4d84-9c74-10b896774d40.xml, setupapi/SetupDiGetINFClass
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDiGetINFClass"
+f1_keywords:
+- setupapi/SetupDiGetINFClass
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Setupapi.lib
- - Setupapi.dll
+- Setupapi.lib
+- Setupapi.dll
 api_name:
- - SetupDiGetINFClass
- - SetupDiGetINFClassW
+- SetupDiGetINFClass
+- SetupDiGetINFClassW
 targetos: Windows
 req.typenames: 
 req.redist: 

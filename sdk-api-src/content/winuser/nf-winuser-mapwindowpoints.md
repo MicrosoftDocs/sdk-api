@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.MapWindowPoints
 title: MapWindowPoints function (winuser.h)
-
 description: The MapWindowPoints function converts (maps) a set of points from a coordinate space relative to one window to a coordinate space relative to another window.
 old-location: gdi\mapwindowpoints.htm
 tech.root: gdi
 ms.assetid: 01c3b794-c1ca-467f-a4da-c6622453ee97
-
 ms.date: 12/05/2018
 ms.keywords: MapWindowPoints, MapWindowPoints function [Windows GDI], _win32_MapWindowPoints, gdi.mapwindowpoints, winuser/MapWindowPoints
 ms.topic: function
-f1_keywords: 
- - "winuser/MapWindowPoints"
+f1_keywords:
+- winuser/MapWindowPoints
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-NTUser-GUI-l1-1-0.dll
- - Ext-MS-Win-NTUser-GUI-l1-1-1.dll
- - Ext-MS-Win-NTUser-Window-l1-1-2.dll
- - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
- - minuser.dll
- - api-ms-win-ntuser-ie-gui-l1-1-0.dll
- - ie_stubs.dll
- - ext-ms-win-ntuser-window-l1-1-3.dll
- - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+- user32.dll
+- Ext-MS-Win-NTUser-GUI-l1-1-0.dll
+- Ext-MS-Win-NTUser-GUI-l1-1-1.dll
+- Ext-MS-Win-NTUser-Window-l1-1-2.dll
+- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+- minuser.dll
+- api-ms-win-ntuser-ie-gui-l1-1-0.dll
+- ie_stubs.dll
+- ext-ms-win-ntuser-window-l1-1-3.dll
+- Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
- - MapWindowPoints
+- MapWindowPoints
 targetos: Windows
 req.typenames: 
 req.redist: 

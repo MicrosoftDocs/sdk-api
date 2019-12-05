@@ -1,19 +1,17 @@
 ---
 UID: NS:windows.foundation.Size
 title: Size (windows.foundation.h)
-
 description: Represents an ordered pair of floating-point numbers that specify a height and width.
 old-location: winrt\size.htm
 tech.root: WinRT
 ms.assetid: 8705adcb-a657-4b47-94ba-632bfb3779be
-
 ms.date: 12/05/2018
 ms.keywords: Size, Size structure [Windows Runtime], windows/Size, winrt.size
 ms.topic: struct
-f1_keywords: 
- - "windows.foundation/Size"
+f1_keywords:
+- windows.foundation/Size
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - Size
+- Size
 targetos: Windows
 req.typenames: Size
 req.redist: 

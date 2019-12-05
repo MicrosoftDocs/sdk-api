@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3cc.ITQueue.get_TotalCallsQueued
 title: ITQueue::get_TotalCallsQueued (tapi3cc.h)
-
 description: The get_TotalCallsQueued method gets the total number of incoming calls for this queue during the current measurement period.
 old-location: tapi3\itqueue_get_totalcallsqueued.htm
 tech.root: Tapi
 ms.assetid: 45a1a47a-4cbe-47dd-ad48-218e74fe74b4
-
 ms.date: 12/05/2018
 ms.keywords: ITQueue interface [TAPI 2.2],get_TotalCallsQueued method, ITQueue.get_TotalCallsQueued, ITQueue::get_TotalCallsQueued, _tapi3_itqueue_get_totalcallsqueued, get_TotalCallsQueued, get_TotalCallsQueued method [TAPI 2.2], get_TotalCallsQueued method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_totalcallsqueued, tapi3cc/ITQueue::get_TotalCallsQueued
 ms.topic: method
-f1_keywords: 
- - "tapi3cc/ITQueue.get_TotalCallsQueued"
+f1_keywords:
+- tapi3cc/ITQueue.get_TotalCallsQueued
 dev_langs:
- - c++
+- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITQueue.get_TotalCallsQueued
+- ITQueue.get_TotalCallsQueued
 targetos: Windows
 req.typenames: 
 req.redist: 

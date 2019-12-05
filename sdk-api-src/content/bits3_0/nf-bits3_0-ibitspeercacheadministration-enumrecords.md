@@ -1,19 +1,17 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.EnumRecords
 title: IBitsPeerCacheAdministration::EnumRecords (bits3_0.h)
-
 description: Gets an IEnumBitsPeerCacheRecords interface pointer that you use to enumerate the records in the cache. The enumeration is a snapshot of the records in the cache.
 old-location: bits\ibitspeercacheadministration_enumrecords.htm
 tech.root: Bits
 ms.assetid: b471cee0-0ad0-4488-9819-e524e50dbc76
-
 ms.date: 12/05/2018
 ms.keywords: EnumRecords, EnumRecords method [BITS], EnumRecords method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],EnumRecords method, IBitsPeerCacheAdministration.EnumRecords, IBitsPeerCacheAdministration::EnumRecords, bits.ibitspeercacheadministration_enumrecords, bits3_0/IBitsPeerCacheAdministration::EnumRecords
 ms.topic: method
-f1_keywords: 
- - "bits3_0/IBitsPeerCacheAdministration.EnumRecords"
+f1_keywords:
+- bits3_0/IBitsPeerCacheAdministration.EnumRecords
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBitsPeerCacheAdministration.EnumRecords
+- IBitsPeerCacheAdministration.EnumRecords
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspixelformats.IsAlphaPixelFormat
 title: IsAlphaPixelFormat function (gdipluspixelformats.h)
-
 description: The IsAlphaPixelFormat method determines whether a specified pixel format has an alpha component.
 old-location: gdiplus\_gdiplus_FUNC_IsAlphaPixelFormat_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\isalphapixelformat.htm
-
 ms.date: 12/05/2018
 ms.keywords: IsAlphaPixelFormat, IsAlphaPixelFormat function [GDI+], _gdiplus_FUNC_IsAlphaPixelFormat_, gdiplus._gdiplus_FUNC_IsAlphaPixelFormat_, gdipluspixelformats/IsAlphaPixelFormat
 ms.topic: function
-f1_keywords: 
- - "gdipluspixelformats/IsAlphaPixelFormat"
+f1_keywords:
+- gdipluspixelformats/IsAlphaPixelFormat
 dev_langs:
- - c++
+- c++
 req.header: gdipluspixelformats.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Gdiplus.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Gdiplus.lib
- - Gdiplus.dll
+- Gdiplus.lib
+- Gdiplus.dll
 api_name:
- - IsAlphaPixelFormat
+- IsAlphaPixelFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

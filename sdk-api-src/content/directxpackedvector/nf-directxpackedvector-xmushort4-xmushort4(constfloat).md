@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMUSHORT4.XMUSHORT4(const float)
 title: XMUSHORT4::XMUSHORT4(const float) (directxpackedvector.h)
-
 description: Initializes a new instance of XMUSHORT4 from a four element float array argument.
 old-location: 
 tech.root: dxmath
 ms.assetid: dc92c135-7775-4ce8-b3b8-396dfe2cf81f
-
 ms.date: 05/06/2019
 ms.keywords: XMUSHORT4, XMUSHORT4 constructor [DirectX Math Support APIs], XMUSHORT4 constructor [DirectX Math Support APIs],XMUSHORT4 structure, XMUSHORT4 structure [DirectX Math Support APIs],XMUSHORT4 constructor, XMUSHORT4.XMUSHORT4, XMUSHORT4.XMUSHORT4(), XMUSHORT4.XMUSHORT4(const float), XMUSHORT4::XMUSHORT4, XMUSHORT4::XMUSHORT4(const float), dxmath.xmushort4_ctor_1
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMUSHORT4.XMUSHORT4"
+f1_keywords:
+- directxpackedvector/XMUSHORT4.XMUSHORT4
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMUSHORT4.XMUSHORT4
+- XMUSHORT4.XMUSHORT4
 targetos: Windows
 req.typenames: 
 req.redist: 

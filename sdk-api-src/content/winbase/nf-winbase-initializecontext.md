@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.InitializeContext
 title: InitializeContext function (winbase.h)
-
 description: Initializes a CONTEXT structure inside a buffer with the necessary size and alignment.
 old-location: base\initializecontext.htm
 tech.root: Debug
 ms.assetid: 909BF5F7-0622-4B22-A2EC-27722389700A
-
 ms.date: 12/05/2018
 ms.keywords: InitializeContext, InitializeContext function, base.initializecontext, winbase/InitializeContext
 ms.topic: function
 f1_keywords:
 - winbase/InitializeContext
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

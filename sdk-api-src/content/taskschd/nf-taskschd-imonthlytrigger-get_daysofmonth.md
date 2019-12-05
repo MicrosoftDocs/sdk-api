@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IMonthlyTrigger.get_DaysOfMonth
 title: IMonthlyTrigger::get_DaysOfMonth (taskschd.h)
-
 description: Gets or sets the days of the month during which the task runs.
 old-location: taskschd\imonthlytrigger_daysofmonth.htm
 tech.root: taskschd
 ms.assetid: 851668bf-1ee7-47e0-add6-95eb0387a56c
-
 ms.date: 12/05/2018
 ms.keywords: DaysOfMonth property [Task Scheduler], DaysOfMonth property [Task Scheduler],IMonthlyTrigger interface, IMonthlyTrigger interface [Task Scheduler],DaysOfMonth property, IMonthlyTrigger.DaysOfMonth, IMonthlyTrigger.get_DaysOfMonth, IMonthlyTrigger::DaysOfMonth, IMonthlyTrigger::get_DaysOfMonth, IMonthlyTrigger::put_DaysOfMonth, get_DaysOfMonth, taskschd.imonthlytrigger_daysofmonth, taskschd/IMonthlyTrigger::DaysOfMonth, taskschd/IMonthlyTrigger::get_DaysOfMonth, taskschd/IMonthlyTrigger::put_DaysOfMonth
 ms.topic: method
-f1_keywords: 
- - "taskschd/IMonthlyTrigger.DaysOfMonth"
+f1_keywords:
+- taskschd/IMonthlyTrigger.DaysOfMonth
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IMonthlyTrigger.DaysOfMonth
- - IMonthlyTrigger.get_DaysOfMonth
- - IMonthlyTrigger.put_DaysOfMonth
+- IMonthlyTrigger.DaysOfMonth
+- IMonthlyTrigger.get_DaysOfMonth
+- IMonthlyTrigger.put_DaysOfMonth
 targetos: Windows
 req.typenames: 
 req.redist: 

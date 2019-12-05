@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IPBDAAttributesDescriptor.GetAttributePayload
 title: IPBDAAttributesDescriptor::GetAttributePayload (dvbsiparser.h)
-
 description: Gets the descriptor body from an attributes descriptor in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbdaattributesdescriptor_getattributepayload.htm
 tech.root: mstv
 ms.assetid: 315f6afe-a5cc-4fe2-8029-fcf280b358b2
-
 ms.date: 12/05/2018
 ms.keywords: GetAttributePayload, GetAttributePayload method [Microsoft TV Technologies], GetAttributePayload method [Microsoft TV Technologies],IPBDAAttributesDescriptor interface, IPBDAAttributesDescriptor interface [Microsoft TV Technologies],GetAttributePayload method, IPBDAAttributesDescriptor.GetAttributePayload, IPBDAAttributesDescriptor::GetAttributePayload, dvbsiparser/IPBDAAttributesDescriptor::GetAttributePayload, mstv.ipbdaattributesdescriptor_getattributepayload
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IPBDAAttributesDescriptor.GetAttributePayload"
+f1_keywords:
+- dvbsiparser/IPBDAAttributesDescriptor.GetAttributePayload
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IPBDAAttributesDescriptor.GetAttributePayload
+- IPBDAAttributesDescriptor.GetAttributePayload
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureRecordSink.SetRotation
 title: IMFCaptureRecordSink::SetRotation (mfcaptureengine.h)
-
 description: Rotates the recorded video stream.
 old-location: mf\imfcapturerecordsink_setrotation.htm
 tech.root: medfound
 ms.assetid: 3C451FF9-F5CD-48C6-A7FE-88BD3E82DA83
-
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureRecordSink interface [Media Foundation],SetRotation method, IMFCaptureRecordSink.SetRotation, IMFCaptureRecordSink::SetRotation, SetRotation, SetRotation method [Media Foundation], SetRotation method [Media Foundation],IMFCaptureRecordSink interface, mf.imfcapturerecordsink_setrotation, mfcaptureengine/IMFCaptureRecordSink::SetRotation
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureRecordSink.SetRotation"
+f1_keywords:
+- mfcaptureengine/IMFCaptureRecordSink.SetRotation
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureRecordSink.SetRotation
+- IMFCaptureRecordSink.SetRotation
 targetos: Windows
 req.typenames: 
 req.redist: 

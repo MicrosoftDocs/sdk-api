@@ -1,19 +1,17 @@
 ---
 UID: NN:dsclient.IDsBrowseDomainTree
 title: IDsBrowseDomainTree (dsclient.h)
-
 description: The IDsBrowseDomainTree interface is used by an application to display a domain browser dialog box and/or obtain a list of trust domains related to a given computer.
 old-location: ad\idsbrowsedomaintree.htm
 tech.root: ad
 ms.assetid: f50caa34-d29e-4ad1-98b0-ef5c1f5550bf
-
 ms.date: 12/05/2018
 ms.keywords: IDsBrowseDomainTree, IDsBrowseDomainTree interface [Active Directory], IDsBrowseDomainTree interface [Active Directory],described, _glines_idsbrowsedomaintree, ad.idsbrowsedomaintree, dsclient/IDsBrowseDomainTree
 ms.topic: interface
-f1_keywords: 
- - "dsclient/IDsBrowseDomainTree"
+f1_keywords:
+- dsclient/IDsBrowseDomainTree
 dev_langs:
- - c++
+- c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dsadmin.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dsadmin.dll
+- Dsadmin.dll
 api_name:
- - IDsBrowseDomainTree
+- IDsBrowseDomainTree
 targetos: Windows
 req.typenames: 
 req.redist: 

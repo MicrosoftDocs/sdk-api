@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.SetDigestMethod
 title: IXpsSigningOptions::SetDigestMethod (xpsdigitalsignature.h)
-
 description: Sets the URI of the digest method.
 old-location: xps\ixpssigningoptions_setdigestmethod.htm
 tech.root: printdocs
 ms.assetid: d9f72cc4-38b2-4a91-8813-183483d47986
-
 ms.date: 12/05/2018
 ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetDigestMethod method, IXpsSigningOptions.SetDigestMethod, IXpsSigningOptions::SetDigestMethod, SetDigestMethod, SetDigestMethod method [XPS Documents and Packaging], SetDigestMethod method [XPS Documents and Packaging],IXpsSigningOptions interface, xps.ixpssigningoptions_setdigestmethod, xpsdigitalsignature/IXpsSigningOptions::SetDigestMethod
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSigningOptions.SetDigestMethod"
+f1_keywords:
+- xpsdigitalsignature/IXpsSigningOptions.SetDigestMethod
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSigningOptions.SetDigestMethod
+- IXpsSigningOptions.SetDigestMethod
 targetos: Windows
 req.typenames: 
 req.redist: 

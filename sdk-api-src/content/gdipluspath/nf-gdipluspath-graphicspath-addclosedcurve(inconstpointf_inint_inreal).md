@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddClosedCurve(IN const PointF,IN INT,IN REAL)
 title: GraphicsPath::AddClosedCurve(IN const PointF,IN INT,IN REAL) (gdipluspath.h)
-
 description: The GraphicsPath::AddClosedCurve method adds a closed cardinal spline to this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddClosedCurve_PointF_points_INT_count_REAL_tension_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddclosedcurvemethods\addclosedcurve_75pointfpoints_intcount_realtension.htm
-
 ms.date: 12/05/2018
 ms.keywords: AddClosedCurve, AddClosedCurve method [GDI+], AddClosedCurve method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddClosedCurve method, GraphicsPath.AddClosedCurve, GraphicsPath.AddClosedCurve(IN const PointF,IN INT,IN REAL), GraphicsPath.AddClosedCurve(const PointF*,INT,REAL), GraphicsPath::AddClosedCurve, GraphicsPath::AddClosedCurve(IN const PointF,IN INT,IN REAL), _gdiplus_CLASS_GraphicsPath_AddClosedCurve_PointF_points_INT_count_REAL_tension_, gdiplus._gdiplus_CLASS_GraphicsPath_AddClosedCurve_PointF_points_INT_count_REAL_tension_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPath.AddClosedCurve"
+f1_keywords:
+- gdipluspath/GraphicsPath.AddClosedCurve
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPath.AddClosedCurve
+- GraphicsPath.AddClosedCurve
 targetos: Windows
 req.typenames: 
 req.redist: 

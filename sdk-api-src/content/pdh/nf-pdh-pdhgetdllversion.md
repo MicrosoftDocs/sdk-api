@@ -1,19 +1,17 @@
 ---
 UID: NF:pdh.PdhGetDllVersion
 title: PdhGetDllVersion function (pdh.h)
-
 description: Returns the version of the currently installed Pdh.dll file.
 old-location: perf\pdhgetdllversion.htm
 tech.root: perfctrs
 ms.assetid: 09c9ecf6-43e0-480c-b607-537632b56576
-
 ms.date: 12/05/2018
 ms.keywords: PDH_CVERSION_WIN50, PDH_VERSION, PdhGetDllVersion, PdhGetDllVersion function [Perf], _win32_pdhgetdllversion, base.pdhgetdllversion, pdh/PdhGetDllVersion, perf.pdhgetdllversion
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhGetDllVersion"
+f1_keywords:
+- pdh/PdhGetDllVersion
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhGetDllVersion
+- PdhGetDllVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

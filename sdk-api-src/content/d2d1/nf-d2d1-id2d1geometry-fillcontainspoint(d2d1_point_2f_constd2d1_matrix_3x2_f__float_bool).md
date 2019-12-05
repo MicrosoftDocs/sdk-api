@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1Geometry.FillContainsPoint(D2D1_POINT_2F,const D2D1_MATRIX_3X2_F &,FLOAT,BOOL)
 title: ID2D1Geometry::FillContainsPoint(D2D1_POINT_2F,const D2D1_MATRIX_3X2_F &,FLOAT,BOOL) (d2d1.h)
-
 description: Indicates whether the area filled by the geometry would contain the specified point given the specified flattening tolerance.
 old-location: direct2d\ID2D1Geometry_FillContainsPoint_D2D_POINT_2F_ref_D2D_MATRIX_3X2_F_FLOAT_ptr_BOOL.htm
 tech.root: Direct2D
 ms.assetid: 903c7668-fc40-4b2d-8586-68cdac83359f
-
 ms.date: 12/05/2018
 ms.keywords: FillContainsPoint, FillContainsPoint method [Direct2D], FillContainsPoint method [Direct2D],ID2D1Geometry interface, ID2D1Geometry interface [Direct2D],FillContainsPoint method, ID2D1Geometry.FillContainsPoint, ID2D1Geometry.FillContainsPoint(D2D1_POINT_2F,const D2D1_MATRIX_3X2_F &,FLOAT,BOOL), ID2D1Geometry::FillContainsPoint, ID2D1Geometry::FillContainsPoint(D2D1_POINT_2F,const D2D1_MATRIX_3X2_F &,FLOAT,BOOL), d2d1/ID2D1Geometry::FillContainsPoint, direct2d.ID2D1Geometry_FillContainsPoint_D2D_POINT_2F_ref_D2D_MATRIX_3X2_F_FLOAT_ptr_BOOL
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1Geometry.FillContainsPoint"
+f1_keywords:
+- d2d1/ID2D1Geometry.FillContainsPoint
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Geometry.FillContainsPoint
+- ID2D1Geometry.FillContainsPoint
 targetos: Windows
 req.typenames: 
 req.redist: 

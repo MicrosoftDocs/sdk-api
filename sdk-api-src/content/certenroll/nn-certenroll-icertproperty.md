@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.ICertProperty
 title: ICertProperty (certenroll.h)
-
 description: Can be used to associate an external property with a certificate.
 old-location: security\icertproperty.htm
 tech.root: seccertenroll
 ms.assetid: 947c2f09-993d-4ced-8b76-66b79d96e3bc
-
 ms.date: 12/05/2018
 ms.keywords: ICertProperty, ICertProperty interface [Security], ICertProperty interface [Security],described, certenroll/ICertProperty, security.icertproperty
 ms.topic: interface
-f1_keywords: 
- - "certenroll/ICertProperty"
+f1_keywords:
+- certenroll/ICertProperty
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertProperty
+- ICertProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

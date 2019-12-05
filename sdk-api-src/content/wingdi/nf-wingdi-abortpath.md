@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.AbortPath
 title: AbortPath function (wingdi.h)
-
 description: The AbortPath function closes and discards any paths in the specified device context.
 old-location: gdi\abortpath.htm
 tech.root: gdi
 ms.assetid: 49299a11-910b-40e0-b02e-80a244cfc978
-
 ms.date: 12/05/2018
 ms.keywords: AbortPath, AbortPath function [Windows GDI], _win32_AbortPath, gdi.abortpath, wingdi/AbortPath
 ms.topic: function
-f1_keywords: 
- - "wingdi/AbortPath"
+f1_keywords:
+- wingdi/AbortPath
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - AbortPath
+- AbortPath
 targetos: Windows
 req.typenames: 
 req.redist: 

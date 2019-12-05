@@ -1,19 +1,17 @@
 ---
 UID: NN:oleidl.IOleObject
 title: IOleObject (oleidl.h)
-
 description: Serves as the principal means by which an embedded object provides basic functionality to, and communicates with, its container.
 old-location: com\ioleobject.htm
 tech.root: com
 ms.assetid: 58b32c87-39b6-4d64-9174-cf798ed302c2
-
 ms.date: 12/05/2018
 ms.keywords: IOleObject, IOleObject interface [COM], IOleObject interface [COM],described, _ole_ioleobject, com.ioleobject, oleidl/IOleObject
 ms.topic: interface
-f1_keywords: 
- - "oleidl/IOleObject"
+f1_keywords:
+- oleidl/IOleObject
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleObject
+- IOleObject
 targetos: Windows
 req.typenames: 
 req.redist: 

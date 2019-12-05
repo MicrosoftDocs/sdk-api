@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.GetAllInstancesAsynch
 title: CWbemProviderGlue::GetAllInstancesAsynch (wbemglue.h)
-
 description: The GetAllInstancesAsynch method retrieves a list of instances returned by a specific class. This method allows the provider to respond asynchronously by returning one instance at a time.
 old-location: wmi\cwbemproviderglue_getallinstancesasynch.htm
 tech.root: WmiSdk
 ms.assetid: 58fe7757-c130-4859-9b60-d08bfb445eb1
-
 ms.date: 12/05/2018
 ms.keywords: CWbemProviderGlue interface [Windows Management Instrumentation],GetAllInstancesAsynch method, CWbemProviderGlue.GetAllInstancesAsynch, CWbemProviderGlue::GetAllInstancesAsynch, GetAllInstancesAsynch, GetAllInstancesAsynch method [Windows Management Instrumentation], GetAllInstancesAsynch method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getallinstancesasynch, wbemglue/CWbemProviderGlue::GetAllInstancesAsynch, wmi.cwbemproviderglue_getallinstancesasynch
 ms.topic: method
-f1_keywords: 
- - "wbemglue/CWbemProviderGlue.GetAllInstancesAsynch"
+f1_keywords:
+- wbemglue/CWbemProviderGlue.GetAllInstancesAsynch
 dev_langs:
- - c++
+- c++
 req.header: wbemglue.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CWbemProviderGlue.GetAllInstancesAsynch
+- CWbemProviderGlue.GetAllInstancesAsynch
 targetos: Windows
 req.typenames: 
 req.redist: 

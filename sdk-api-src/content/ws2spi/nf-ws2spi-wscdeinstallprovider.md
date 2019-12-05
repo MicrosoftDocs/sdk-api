@@ -1,19 +1,17 @@
 ---
 UID: NF:ws2spi.WSCDeinstallProvider
 title: WSCDeinstallProvider function (ws2spi.h)
-
 description: Removes the specified transport provider from the system configuration database.
 old-location: winsock\wscdeinstallprovider_2.htm
 tech.root: WinSock
 ms.assetid: 9a2afd11-1944-491f-9c92-9dbac6b3b28e
-
 ms.date: 12/05/2018
 ms.keywords: WSCDeinstallProvider, WSCDeinstallProvider function [Winsock], _win32_wscdeinstallprovider_2, winsock.wscdeinstallprovider_2, ws2spi/WSCDeinstallProvider
 ms.topic: function
 f1_keywords:
 - ws2spi/WSCDeinstallProvider
 dev_langs:
- - c++
+- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

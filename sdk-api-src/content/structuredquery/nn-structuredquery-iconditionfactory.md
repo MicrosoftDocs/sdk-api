@@ -1,19 +1,17 @@
 ---
 UID: NN:structuredquery.IConditionFactory
 title: IConditionFactory (structuredquery.h)
-
 description: Provides methods for creating or resolving a condition tree that was obtained by parsing a query string.
 old-location: search\_search_IConditionFactory.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditionfactory\iconditionfactory.htm
-
 ms.date: 12/05/2018
 ms.keywords: IConditionFactory, IConditionFactory interface [search], IConditionFactory interface [search],described, _search_IConditionFactory, search._search_IConditionFactory, structuredquery/IConditionFactory
 ms.topic: interface
-f1_keywords: 
- - "structuredquery/IConditionFactory"
+f1_keywords:
+- structuredquery/IConditionFactory
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IConditionFactory
+- IConditionFactory
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

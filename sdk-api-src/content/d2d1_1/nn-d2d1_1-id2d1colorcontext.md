@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1_1.ID2D1ColorContext
 title: ID2D1ColorContext (d2d1_1.h)
-
 description: Represents a color context that can be used with an ID2D1Bitmap1 object.
 old-location: direct2d\id2d1colorcontext.htm
 tech.root: Direct2D
 ms.assetid: acdda11e-eb3f-4258-b24e-daa3b7a23fd6
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1ColorContext, ID2D1ColorContext interface [Direct2D], ID2D1ColorContext interface [Direct2D],described, d2d1_1/ID2D1ColorContext, direct2d.id2d1colorcontext
 ms.topic: interface
-f1_keywords: 
- - "d2d1_1/ID2D1ColorContext"
+f1_keywords:
+- d2d1_1/ID2D1ColorContext
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1ColorContext
+- ID2D1ColorContext
 targetos: Windows
 req.typenames: 
 req.redist: 

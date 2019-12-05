@@ -1,19 +1,17 @@
 ---
 UID: NF:mdhcp.IMcastAddressAllocation.CreateLeaseInfo
 title: IMcastAddressAllocation::CreateLeaseInfo (mdhcp.h)
-
 description: The CreateLeaseInfo method creates a lease information object for a subsequent call to RenewAddress or ReleaseAddress.
 old-location: tapi3\imcastaddressallocation_createleaseinfo.htm
 tech.root: Tapi
 ms.assetid: b7a65998-3329-4117-be91-10e2dd7047d5
-
 ms.date: 12/05/2018
 ms.keywords: CreateLeaseInfo, CreateLeaseInfo method [TAPI 2.2], CreateLeaseInfo method [TAPI 2.2],IMcastAddressAllocation interface, IMcastAddressAllocation interface [TAPI 2.2],CreateLeaseInfo method, IMcastAddressAllocation.CreateLeaseInfo, IMcastAddressAllocation::CreateLeaseInfo, _tapi3_imcastaddressallocation_createleaseinfo, mdhcp/IMcastAddressAllocation::CreateLeaseInfo, tapi3.imcastaddressallocation_createleaseinfo
 ms.topic: method
-f1_keywords: 
- - "mdhcp/IMcastAddressAllocation.CreateLeaseInfo"
+f1_keywords:
+- mdhcp/IMcastAddressAllocation.CreateLeaseInfo
 dev_langs:
- - c++
+- c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Mdhcp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mdhcp.dll
+- Mdhcp.dll
 api_name:
- - IMcastAddressAllocation.CreateLeaseInfo
+- IMcastAddressAllocation.CreateLeaseInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

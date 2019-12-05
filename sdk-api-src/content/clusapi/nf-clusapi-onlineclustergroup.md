@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.OnlineClusterGroup
 title: OnlineClusterGroup function (clusapi.h)
-
 description: Brings a group online.
 old-location: mscs\onlineclustergroup.htm
 tech.root: MsCS
 ms.assetid: 33b4f435-f394-41fc-846f-8e9206c76aa1
-
 ms.date: 12/05/2018
 ms.keywords: OnlineClusterGroup, OnlineClusterGroup function [Failover Cluster], PCLUSAPI_ONLINE_CLUSTER_GROUP, PCLUSAPI_ONLINE_CLUSTER_GROUP function [Failover Cluster], _wolf_onlineclustergroup, clusapi/OnlineClusterGroup, clusapi/PCLUSAPI_ONLINE_CLUSTER_GROUP, mscs.onlineclustergroup
 ms.topic: function
-f1_keywords: 
- - "clusapi/OnlineClusterGroup"
+f1_keywords:
+- clusapi/OnlineClusterGroup
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - OnlineClusterGroup
+- OnlineClusterGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

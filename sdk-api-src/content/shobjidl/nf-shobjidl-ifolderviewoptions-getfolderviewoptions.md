@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IFolderViewOptions.GetFolderViewOptions
 title: IFolderViewOptions::GetFolderViewOptions (shobjidl.h)
-
 description: Retrieves the current set of options for the view.
 old-location: shell\IFolderViewOptions_GetFolderViewOptions.htm
 tech.root: shell
 ms.assetid: 9733c2b0-608f-4f20-b379-81de0c333473
-
 ms.date: 12/05/2018
 ms.keywords: GetFolderViewOptions, GetFolderViewOptions method [Windows Shell], GetFolderViewOptions method [Windows Shell],IFolderViewOptions interface, IFolderViewOptions interface [Windows Shell],GetFolderViewOptions method, IFolderViewOptions.GetFolderViewOptions, IFolderViewOptions::GetFolderViewOptions, _shell_IFolderViewOptions_GetFolderViewOptions, shell.IFolderViewOptions_GetFolderViewOptions, shobjidl/IFolderViewOptions::GetFolderViewOptions
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IFolderViewOptions.GetFolderViewOptions"
+f1_keywords:
+- shobjidl/IFolderViewOptions.GetFolderViewOptions
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: ExplorerFrame.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ExplorerFrame.dll
+- ExplorerFrame.dll
 api_name:
- - IFolderViewOptions.GetFolderViewOptions
+- IFolderViewOptions.GetFolderViewOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

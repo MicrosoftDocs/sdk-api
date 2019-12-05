@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsCreateXmlSecurityToken
 title: WsCreateXmlSecurityToken function (webservices.h)
-
 description: Creates a security token from its specified XML form.
 old-location: wsw\wscreatexmlsecuritytoken.htm
 tech.root: wsw
 ms.assetid: 1d82c6c3-2bcf-4883-aed7-1a163bbb2228
-
 ms.date: 12/05/2018
 ms.keywords: WsCreateXmlSecurityToken, WsCreateXmlSecurityToken function [Web Services for Windows], webservices/WsCreateXmlSecurityToken, wsw.wscreatexmlsecuritytoken
 ms.topic: function
-f1_keywords: 
- - "webservices/WsCreateXmlSecurityToken"
+f1_keywords:
+- webservices/WsCreateXmlSecurityToken
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsCreateXmlSecurityToken
+- WsCreateXmlSecurityToken
 targetos: Windows
 req.typenames: 
 req.redist: 

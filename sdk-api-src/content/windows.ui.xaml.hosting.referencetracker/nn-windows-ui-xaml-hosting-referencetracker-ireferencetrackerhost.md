@@ -1,19 +1,17 @@
 ---
 UID: NN:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerHost
 title: IReferenceTrackerHost (windows.ui.xaml.hosting.referencetracker.h)
-
 description: Defines an interface that provides the global services used by the garbage collection (GC) system used by the XAML framework.
 old-location: winrt\ireferencetrackerhost.htm
 tech.root: WinRT
 ms.assetid: b17fe8ae-be79-4281-a313-517505017401
-
 ms.date: 12/05/2018
 ms.keywords: IReferenceTrackerHost, IReferenceTrackerHost interface [Windows Runtime], IReferenceTrackerHost interface [Windows Runtime],described, windows/IReferenceTrackerHost, winrt.ireferencetrackerhost
 ms.topic: interface
-f1_keywords: 
- - "windows.ui.xaml.hosting.referencetracker/IReferenceTrackerHost"
+f1_keywords:
+- windows.ui.xaml.hosting.referencetracker/IReferenceTrackerHost
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.ui.xaml.hosting.referencetracker.h
+- Windows.ui.xaml.hosting.referencetracker.h
 api_name:
- - IReferenceTrackerHost
+- IReferenceTrackerHost
 targetos: Windows
 req.typenames: 
 req.redist: 

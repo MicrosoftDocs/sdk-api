@@ -1,19 +1,17 @@
 ---
 UID: NN:bdaiface.ICCSubStreamFiltering
 title: ICCSubStreamFiltering (bdaiface.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iccsubstreamfiltering.htm
 tech.root: mstv
 ms.assetid: 2de6796d-beb3-4611-a559-449fe21193a6
-
 ms.date: 12/05/2018
 ms.keywords: ICCSubStreamFiltering, ICCSubStreamFiltering interface [Microsoft TV Technologies], ICCSubStreamFiltering interface [Microsoft TV Technologies],described, ICCSubStreamFilteringInterface, bdaiface/ICCSubStreamFiltering, mstv.iccsubstreamfiltering
 ms.topic: interface
-f1_keywords: 
- - "bdaiface/ICCSubStreamFiltering"
+f1_keywords:
+- bdaiface/ICCSubStreamFiltering
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - ICCSubStreamFiltering
+- ICCSubStreamFiltering
 targetos: Windows
 req.typenames: 
 req.redist: 

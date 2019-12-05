@@ -1,19 +1,17 @@
 ---
 UID: NS:lmshare._SESSION_INFO_10
 title: SESSION_INFO_10 (lmshare.h)
-
 description: Contains information about the session, including name of the computer; name of the user; and active and idle times for the session.
 old-location: fs\session_info_10_str.htm
 tech.root: NetShare
 ms.assetid: a23a5647-f99d-4cb8-9d84-93653a3e7428
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSESSION_INFO_10, *PSESSION_INFO_10, LPSESSION_INFO_10, LPSESSION_INFO_10 structure pointer [Files], PSESSION_INFO_10, PSESSION_INFO_10 structure pointer [Files], SESSION_INFO_10, SESSION_INFO_10 structure [Files], _win32_session_info_10_str, fs.session_info_10_str, lmshare/LPSESSION_INFO_10, lmshare/PSESSION_INFO_10, lmshare/SESSION_INFO_10, netmgmt.session_info_10_str"
+ms.keywords: '*LPSESSION_INFO_10, *PSESSION_INFO_10, LPSESSION_INFO_10, LPSESSION_INFO_10 structure pointer [Files], PSESSION_INFO_10, PSESSION_INFO_10 structure pointer [Files], SESSION_INFO_10, SESSION_INFO_10 structure [Files], _win32_session_info_10_str, fs.session_info_10_str, lmshare/LPSESSION_INFO_10, lmshare/PSESSION_INFO_10, lmshare/SESSION_INFO_10, netmgmt.session_info_10_str'
 ms.topic: struct
-f1_keywords: 
- - "lmshare/SESSION_INFO_10"
+f1_keywords:
+- lmshare/SESSION_INFO_10
 dev_langs:
- - c++
+- c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmshare.h
+- Lmshare.h
 api_name:
- - SESSION_INFO_10
+- SESSION_INFO_10
 targetos: Windows
 req.typenames: SESSION_INFO_10, *PSESSION_INFO_10, *LPSESSION_INFO_10
 req.redist: 

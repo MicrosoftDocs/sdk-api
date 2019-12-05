@@ -1,19 +1,17 @@
 ---
 UID: NN:imapi2.DDiscFormat2EraseEvents
 title: DDiscFormat2EraseEvents (imapi2.h)
-
 description: Implement this interface to receive notifications of the current erase operation.
 old-location: imapi\ddiscformat2eraseevents.htm
 tech.root: imapi
 ms.assetid: 0e999859-d409-4fd8-a5da-c43da64bcd8f
-
 ms.date: 12/05/2018
 ms.keywords: DDiscFormat2EraseEvents, DDiscFormat2EraseEvents interface [IMAPI], DDiscFormat2EraseEvents interface [IMAPI],described, imapi.ddiscformat2eraseevents, imapi2/DDiscFormat2EraseEvents
 ms.topic: interface
-f1_keywords: 
- - "imapi2/DDiscFormat2EraseEvents"
+f1_keywords:
+- imapi2/DDiscFormat2EraseEvents
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - DDiscFormat2EraseEvents
+- DDiscFormat2EraseEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchScopeRule.get_IsDefault
 title: ISearchScopeRule::get_IsDefault (searchapi.h)
-
 description: Gets a value that identifies whether this is a default rule.
 old-location: search\_search_ISearchScopeRule_get_IsDefault.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchscoperule\get_isdefault.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchScopeRule interface [search],get_IsDefault method, ISearchScopeRule.get_IsDefault, ISearchScopeRule::get_IsDefault, _search_ISearchScopeRule_get_IsDefault, get_IsDefault, get_IsDefault method [search], get_IsDefault method [search],ISearchScopeRule interface, search._search_ISearchScopeRule_get_IsDefault, searchapi/ISearchScopeRule::get_IsDefault
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchScopeRule.get_IsDefault"
+f1_keywords:
+- searchapi/ISearchScopeRule.get_IsDefault
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchScopeRule.get_IsDefault
+- ISearchScopeRule.get_IsDefault
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

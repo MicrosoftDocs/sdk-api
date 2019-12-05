@@ -1,19 +1,17 @@
 ---
 UID: NF:provider.Provider.CreateNewInstance
 title: Provider::CreateNewInstance (provider.h)
-
 description: The CreateNewInstance method allocates a new CInstance object and returns a pointer to it.
 old-location: wmi\provider_createnewinstance.htm
 tech.root: WmiSdk
 ms.assetid: cb520b55-9ef8-4f5a-935d-46c2bb01f5dd
-
 ms.date: 12/05/2018
-ms.keywords: "?CreateNewInstance@Provider@@IAEPAVCInstance@@PAVMethodContext@@@Z, ?CreateNewInstance@Provider@@IEAAPEAVCInstance@@PEAVMethodContext@@@Z, CreateNewInstance, CreateNewInstance method [Windows Management Instrumentation], CreateNewInstance method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],CreateNewInstance method, Provider.CreateNewInstance, Provider::CreateNewInstance, _hmm_provider_createnewinstance, provider/Provider::CreateNewInstance, wmi.provider_createnewinstance"
+ms.keywords: ?CreateNewInstance@Provider@@IAEPAVCInstance@@PAVMethodContext@@@Z, ?CreateNewInstance@Provider@@IEAAPEAVCInstance@@PEAVMethodContext@@@Z, CreateNewInstance, CreateNewInstance method [Windows Management Instrumentation], CreateNewInstance method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],CreateNewInstance method, Provider.CreateNewInstance, Provider::CreateNewInstance, _hmm_provider_createnewinstance, provider/Provider::CreateNewInstance, wmi.provider_createnewinstance
 ms.topic: method
-f1_keywords: 
- - "provider/Provider.CreateNewInstance"
+f1_keywords:
+- provider/Provider.CreateNewInstance
 dev_langs:
- - c++
+- c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - Provider.CreateNewInstance
- - ?CreateNewInstance@Provider@@IAEPAVCInstance@@PAVMethodContext@@@Z
- - ?CreateNewInstance@Provider@@IEAAPEAVCInstance@@PEAVMethodContext@@@Z
+- Provider.CreateNewInstance
+- ?CreateNewInstance@Provider@@IAEPAVCInstance@@PAVMethodContext@@@Z
+- ?CreateNewInstance@Provider@@IEAAPEAVCInstance@@PEAVMethodContext@@@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

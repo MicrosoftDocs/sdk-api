@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkStrokes.RemoveRecognitionResult
 title: IInkStrokes::RemoveRecognitionResult (msinkaut.h)
-
 description: Removes the RecognitionResult that is associated with the InkStrokes collection.
 old-location: tablet\inkstrokes_removerecognitionresult.htm
 tech.root: tablet
 ms.assetid: 1a1a2027-e0b7-40c5-b396-b6b4039d6b5b
-
 ms.date: 12/05/2018
 ms.keywords: 1a1a2027-e0b7-40c5-b396-b6b4039d6b5b, IInkStrokes interface [Tablet PC],RemoveRecognitionResult method, IInkStrokes.RemoveRecognitionResult, IInkStrokes::RemoveRecognitionResult, RemoveRecognitionResult, RemoveRecognitionResult method [Tablet PC], RemoveRecognitionResult method [Tablet PC],IInkStrokes interface, msinkaut/IInkStrokes::RemoveRecognitionResult, tablet.inkstrokes_removerecognitionresult
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkStrokes.RemoveRecognitionResult"
+f1_keywords:
+- msinkaut/IInkStrokes.RemoveRecognitionResult
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkStrokes.RemoveRecognitionResult
+- IInkStrokes.RemoveRecognitionResult
 targetos: Windows
 req.typenames: 
 req.redist: 

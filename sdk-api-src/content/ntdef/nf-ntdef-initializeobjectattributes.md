@@ -9,11 +9,9 @@ ms.date: 04/30/2018
 ms.keywords: InitializeObjectAttributes, InitializeObjectAttributes macro [Kernel-Mode Driver Architecture], k107_f7e00cf9-9598-4835-b51a-3df9e003587e.xml, kernel.initializeobjectattributes, ntdef/InitializeObjectAttributes
 ms.topic: macro
 f1_keywords:
- - InitializeObjectAttributes
+- ntdef/- InitializeObjectAttributes
 dev_langs:
- - c++
-f1_keywords:
- - "ntdef/- InitializeObjectAttributes"
+- c++
 req.header: ntdef.h
 req.include-header: Wdm.h, Ntddk.h, Ntdef.h
 req.target-type: Desktop

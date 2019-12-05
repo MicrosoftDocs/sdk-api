@@ -1,19 +1,17 @@
 ---
 UID: NE:dxgi1_5.DXGI_HDR_METADATA_TYPE
 title: DXGI_HDR_METADATA_TYPE (dxgi1_5.h)
-
 description: Specifies the header metadata type.
 old-location: direct3ddxgi\dxgi_hdr_metadata_type.htm
 tech.root: direct3ddxgi
 ms.assetid: EFDFEB2E-8631-4BD6-ADA1-D415B70CCBCD
-
 ms.date: 12/05/2018
 ms.keywords: DXGI_HDR_METADATA_TYPE, DXGI_HDR_METADATA_TYPE enumeration [DXGI], DXGI_HDR_METADATA_TYPE_HDR10, DXGI_HDR_METADATA_TYPE_NONE, direct3ddxgi.dxgi_hdr_metadata_type, dxgi1_5/DXGI_HDR_METADATA_TYPE, dxgi1_5/DXGI_HDR_METADATA_TYPE_HDR10, dxgi1_5/DXGI_HDR_METADATA_TYPE_NONE
 ms.topic: enum
-f1_keywords: 
- - "dxgi1_5/DXGI_HDR_METADATA_TYPE"
+f1_keywords:
+- dxgi1_5/DXGI_HDR_METADATA_TYPE
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_5.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxgi1_5.h
+- dxgi1_5.h
 api_name:
- - DXGI_HDR_METADATA_TYPE
+- DXGI_HDR_METADATA_TYPE
 targetos: Windows
 req.typenames: DXGI_HDR_METADATA_TYPE
 req.redist: 

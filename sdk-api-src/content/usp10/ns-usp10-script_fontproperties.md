@@ -1,19 +1,17 @@
 ---
 UID: NS:usp10.__unnamed_struct_1
 title: SCRIPT_FONTPROPERTIES (usp10.h)
-
 description: Contains information about the properties of the current font.
 old-location: intl\script_fontproperties.htm
 tech.root: Intl
 ms.assetid: 6757e758-6525-47a4-9ed4-99ef42fa14a3
-
 ms.date: 12/05/2018
 ms.keywords: SCRIPT_FONTPROPERTIES, SCRIPT_FONTPROPERTIES structure [Internationalization for Windows Applications], _win32_SCRIPT_FONTPROPERTIES_str, intl.script_fontproperties, usp10/SCRIPT_FONTPROPERTIES
 ms.topic: struct
-f1_keywords: 
- - "usp10/SCRIPT_FONTPROPERTIES"
+f1_keywords:
+- usp10/SCRIPT_FONTPROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Usp10.h
+- Usp10.h
 api_name:
- - SCRIPT_FONTPROPERTIES
+- SCRIPT_FONTPROPERTIES
 targetos: Windows
 req.typenames: SCRIPT_FONTPROPERTIES
 req.redist: Internet Explorer 5 or later onWindows Me/98/95

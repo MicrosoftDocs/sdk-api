@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMBYTE4.XMBYTE4(const XMBYTE4 &)
 title: XMBYTE4::XMBYTE4(const XMBYTE4 &) (directxpackedvector.h)
-
 description: A constructor for XMBYTE4.
 old-location: 
 tech.root: dxmath
 ms.assetid: 
-
 ms.date: 05/06/2019
 ms.keywords: XMBYTE4, XMBYTE4 constructor [DirectX Math Support APIs], XMBYTE4 constructor [DirectX Math Support APIs],XMBYTE4 structure, XMBYTE4 structure [DirectX Math Support APIs],XMBYTE4 constructor, XMBYTE4.XMBYTE4, XMBYTE4.XMBYTE4(), XMBYTE4.XMBYTE4(const XMBYTE4 &), XMBYTE4::XMBYTE4, XMBYTE4::XMBYTE4(const XMBYTE4 &), dxmath.xmbyte4_ctor_1
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMBYTE4.XMBYTE4"
+f1_keywords:
+- directxpackedvector/XMBYTE4.XMBYTE4
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMBYTE4.XMBYTE4
+- XMBYTE4.XMBYTE4
 targetos: Windows
 req.typenames: 
 req.redist: 

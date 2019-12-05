@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbProvisioning.DeleteVirtualMachines
 title: ITsSbProvisioning::DeleteVirtualMachines (sbtsv.h)
-
 description: Deletes a virtual machine asynchronously.
 old-location: termserv\itssbprovisioning_deletevirtualmachines.htm
 tech.root: TermServ
 ms.assetid: 45f5398d-2d27-4f6b-9020-bcbb44edc89a
-
 ms.date: 12/05/2018
 ms.keywords: DeleteVirtualMachines, DeleteVirtualMachines method [Remote Desktop Services], DeleteVirtualMachines method [Remote Desktop Services],ITsSbProvisioning interface, ITsSbProvisioning interface [Remote Desktop Services],DeleteVirtualMachines method, ITsSbProvisioning.DeleteVirtualMachines, ITsSbProvisioning::DeleteVirtualMachines, sbtsv/ITsSbProvisioning::DeleteVirtualMachines, termserv.itssbprovisioning_deletevirtualmachines
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbProvisioning.DeleteVirtualMachines"
+f1_keywords:
+- sbtsv/ITsSbProvisioning.DeleteVirtualMachines
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbProvisioning.DeleteVirtualMachines
+- ITsSbProvisioning.DeleteVirtualMachines
 targetos: Windows
 req.typenames: 
 req.redist: 

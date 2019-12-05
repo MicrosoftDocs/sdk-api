@@ -1,19 +1,17 @@
 ---
 UID: NF:roerrorapi.RoResolveRestrictedErrorInfoReference
 title: RoResolveRestrictedErrorInfoReference function
-
 description: Returns the IRestrictedErrorInfo interface pointer based on the given reference.
 old-location: winrt\roresolverestrictederrorinforeference.htm
 tech.root: WinRT
 ms.assetid: 2F5C5A84-502C-4BD1-A01F-8F0E9B5857AD
-
 ms.date: 12/5/2018
 ms.keywords: RoResolveRestrictedErrorInfoReference, RoResolveRestrictedErrorInfoReference function [Windows Runtime], roerrorapi/RoResolveRestrictedErrorInfoReference, winrt.roresolverestrictederrorinforeference
 ms.topic: function
-f1_keywords: 
- - "roerrorapi/RoResolveRestrictedErrorInfoReference"
+f1_keywords:
+- roerrorapi/RoResolveRestrictedErrorInfoReference
 dev_langs:
- - c++
+- c++
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Runtimeobject.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - runtimeobject.lib
- - runtimeobject.dll
- - API-MS-Win-Core-WinRT-error-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-WinRT-error-l1-1-1.dll
+- runtimeobject.lib
+- runtimeobject.dll
+- API-MS-Win-Core-WinRT-error-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-error-l1-1-1.dll
 api_name:
- - RoResolveRestrictedErrorInfoReference
+- RoResolveRestrictedErrorInfoReference
 targetos: Windows
 req.typenames: 
 req.redist: 

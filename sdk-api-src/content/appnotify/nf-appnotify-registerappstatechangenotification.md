@@ -1,19 +1,17 @@
 ---
 UID: NF:appnotify.RegisterAppStateChangeNotification
 title: RegisterAppStateChangeNotification function (appnotify.h)
-
 description: Enables an app to register a callback function through which it can be notified that its library is going into or coming out of a suspended state.
 old-location: shell\RegisterAppStateChangeNotification.htm
 tech.root: shell
 ms.assetid: EE55F783-BF18-49F0-934E-67A252138565
-
 ms.date: 12/05/2018
 ms.keywords: RegisterAppStateChangeNotification, RegisterAppStateChangeNotification function [Windows Shell], appnotify/RegisterAppStateChangeNotification, shell.RegisterAppStateChangeNotification
 ms.topic: function
-f1_keywords: 
- - "appnotify/RegisterAppStateChangeNotification"
+f1_keywords:
+- appnotify/RegisterAppStateChangeNotification
 dev_langs:
- - c++
+- c++
 req.header: appnotify.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Appnotify.lib
 req.dll: Twinapi.core.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - twinapi.core.dll
- - API-MS-Win-Core-psm-appnotify-l1-1-0.dll
- - twinapi.AppCore.dll
+- twinapi.core.dll
+- API-MS-Win-Core-psm-appnotify-l1-1-0.dll
+- twinapi.AppCore.dll
 api_name:
- - RegisterAppStateChangeNotification
+- RegisterAppStateChangeNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

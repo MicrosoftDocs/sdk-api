@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignature.SetSignatureXml
 title: IXpsSignature::SetSignatureXml (xpsdigitalsignature.h)
-
 description: Sets the XML markup of the digital signature.
 old-location: xps\ixpssignature_setsignaturexml.htm
 tech.root: printdocs
 ms.assetid: 3ba32f16-2e11-479c-bc3c-0982e90b883d
-
 ms.date: 12/05/2018
 ms.keywords: IXpsSignature interface [XPS Documents and Packaging],SetSignatureXml method, IXpsSignature.SetSignatureXml, IXpsSignature::SetSignatureXml, SetSignatureXml, SetSignatureXml method [XPS Documents and Packaging], SetSignatureXml method [XPS Documents and Packaging],IXpsSignature interface, xps.ixpssignature_setsignaturexml, xpsdigitalsignature/IXpsSignature::SetSignatureXml
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSignature.SetSignatureXml"
+f1_keywords:
+- xpsdigitalsignature/IXpsSignature.SetSignatureXml
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSignature.SetSignatureXml
+- IXpsSignature.SetSignatureXml
 targetos: Windows
 req.typenames: 
 req.redist: 

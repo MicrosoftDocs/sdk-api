@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreAnchorSink.OnSelectionChange
 title: ITextStoreAnchorSink::OnSelectionChange (textstor.h)
-
 description: The ITextStoreAnchorSink::OnSelectionChange method is called when the selection within the text stream changes. This method should be called whenever the return value of a potential call to ITextStoreAnchor::GetSelection has changed.
 old-location: tsf\itextstoreanchorsink_onselectionchange.htm
 tech.root: TSF
 ms.assetid: e33932b0-f5ce-4325-809d-ec06cb4a49a6
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnSelectionChange method, ITextStoreAnchorSink.OnSelectionChange, ITextStoreAnchorSink::OnSelectionChange, OnSelectionChange, OnSelectionChange method [Text Services Framework], OnSelectionChange method [Text Services Framework],ITextStoreAnchorSink interface, _tsf_itextstoreanchorsink_onselectionchange_ref, textstor/ITextStoreAnchorSink::OnSelectionChange, tsf.itextstoreanchorsink_onselectionchange
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreAnchorSink.OnSelectionChange"
+f1_keywords:
+- textstor/ITextStoreAnchorSink.OnSelectionChange
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreAnchorSink.OnSelectionChange
+- ITextStoreAnchorSink.OnSelectionChange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

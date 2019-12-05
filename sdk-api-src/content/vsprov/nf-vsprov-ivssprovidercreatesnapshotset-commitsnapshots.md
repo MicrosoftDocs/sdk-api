@@ -1,19 +1,17 @@
 ---
 UID: NF:vsprov.IVssProviderCreateSnapshotSet.CommitSnapshots
 title: IVssProviderCreateSnapshotSet::CommitSnapshots (vsprov.h)
-
 description: Quickly commits all LUNs in this provider.
 old-location: base\ivssprovidercreatesnapshotset_commitsnapshots.htm
 tech.root: VSS
 ms.assetid: 60489142-125f-4deb-afa0-9dae63ea1d46
-
 ms.date: 12/05/2018
 ms.keywords: CommitSnapshots, CommitSnapshots method [VSS], CommitSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, IVssProviderCreateSnapshotSet interface [VSS],CommitSnapshots method, IVssProviderCreateSnapshotSet.CommitSnapshots, IVssProviderCreateSnapshotSet::CommitSnapshots, base.ivssprovidercreatesnapshotset_commitsnapshots, vsprov/IVssProviderCreateSnapshotSet::CommitSnapshots
 ms.topic: method
-f1_keywords: 
- - "vsprov/IVssProviderCreateSnapshotSet.CommitSnapshots"
+f1_keywords:
+- vsprov/IVssProviderCreateSnapshotSet.CommitSnapshots
 dev_langs:
- - c++
+- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsProv.h
+- VsProv.h
 api_name:
- - IVssProviderCreateSnapshotSet.CommitSnapshots
+- IVssProviderCreateSnapshotSet.CommitSnapshots
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.PaintDesktop
 title: PaintDesktop function (winuser.h)
-
 description: The PaintDesktop function fills the clipping region in the specified device context with the desktop pattern or wallpaper. The function is provided primarily for shell desktops.
 old-location: gdi\paintdesktop.htm
 tech.root: gdi
 ms.assetid: 738500d4-32f5-43cf-8d40-9ad201ca6d4b
-
 ms.date: 12/05/2018
 ms.keywords: PaintDesktop, PaintDesktop function [Windows GDI], _win32_PaintDesktop, gdi.paintdesktop, winuser/PaintDesktop
 ms.topic: function
-f1_keywords: 
- - "winuser/PaintDesktop"
+f1_keywords:
+- winuser/PaintDesktop
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
+- user32.dll
 api_name:
- - PaintDesktop
+- PaintDesktop
 targetos: Windows
 req.typenames: 
 req.redist: 

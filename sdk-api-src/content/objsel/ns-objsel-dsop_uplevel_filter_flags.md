@@ -1,19 +1,17 @@
 ---
 UID: NS:objsel._DSOP_UPLEVEL_FILTER_FLAGS
 title: DSOP_UPLEVEL_FILTER_FLAGS (objsel.h)
-
 description: The DSOP_UPLEVEL_FILTER_FLAGS structure contains flags that indicate the filters to use for an up-level scope.
 old-location: ad\dsop_uplevel_filter_flags.htm
 tech.root: ad
 ms.assetid: 54a0046a-7a20-4306-a32f-93e449280574
-
 ms.date: 12/05/2018
 ms.keywords: DSOP_FILTER_BUILTIN_GROUPS, DSOP_FILTER_COMPUTERS, DSOP_FILTER_CONTACTS, DSOP_FILTER_DOMAIN_LOCAL_GROUPS_DL, DSOP_FILTER_DOMAIN_LOCAL_GROUPS_SE, DSOP_FILTER_GLOBAL_GROUPS_DL, DSOP_FILTER_GLOBAL_GROUPS_SE, DSOP_FILTER_INCLUDE_ADVANCED_VIEW, DSOP_FILTER_PASSWORDSETTINGS_OBJECTS, DSOP_FILTER_SERVICE_ACCOUNTS, DSOP_FILTER_UNIVERSAL_GROUPS_DL, DSOP_FILTER_UNIVERSAL_GROUPS_SE, DSOP_FILTER_USERS, DSOP_FILTER_WELL_KNOWN_PRINCIPALS, DSOP_UPLEVEL_FILTER_FLAGS, DSOP_UPLEVEL_FILTER_FLAGS structure [Active Directory], _glines_dsop_uplevel_filter_flags, ad.dsop__uplevel__filter__flags, ad.dsop_uplevel_filter_flags, objsel/DSOP_UPLEVEL_FILTER_FLAGS
 ms.topic: struct
 f1_keywords:
 - objsel/DSOP_UPLEVEL_FILTER_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: objsel.h
 req.include-header: 
 req.target-type: Windows

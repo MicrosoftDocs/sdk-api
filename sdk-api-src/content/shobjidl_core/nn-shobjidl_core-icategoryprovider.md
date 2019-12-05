@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.ICategoryProvider
 title: ICategoryProvider (shobjidl_core.h)
-
 description: Exposes a list of categorizers registered on an IShellFolder.
 old-location: shell\ICategoryProvider.htm
 tech.root: shell
 ms.assetid: bab74832-6f24-4f3a-b8cb-68506f293b3c
-
 ms.date: 12/05/2018
 ms.keywords: ICategoryProvider, ICategoryProvider interface [Windows Shell], ICategoryProvider interface [Windows Shell],described, inet_ICategoryProvider, shell.ICategoryProvider, shobjidl_core/ICategoryProvider
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/ICategoryProvider"
+f1_keywords:
+- shobjidl_core/ICategoryProvider
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ICategoryProvider
+- ICategoryProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

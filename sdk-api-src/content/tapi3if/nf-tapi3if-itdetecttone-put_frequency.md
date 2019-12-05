@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITDetectTone.put_Frequency
 title: ITDetectTone::put_Frequency (tapi3if.h)
-
 description: The put_Frequency method sets the frequency of the tone for which the TAPI Server should generate a tone event.
 old-location: tapi3\itdetecttone_put_frequency.htm
 tech.root: Tapi
 ms.assetid: 83895e55-61ab-464b-bb85-e81d15dd96e1
-
 ms.date: 12/05/2018
 ms.keywords: ITDetectTone interface [TAPI 2.2],put_Frequency method, ITDetectTone.put_Frequency, ITDetectTone::put_Frequency, _tapi3_itdetecttone_put_frequency, put_Frequency, put_Frequency method [TAPI 2.2], put_Frequency method [TAPI 2.2],ITDetectTone interface, tapi3.itdetecttone_put_frequency, tapi3if/ITDetectTone::put_Frequency
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITDetectTone.put_Frequency"
+f1_keywords:
+- tapi3if/ITDetectTone.put_Frequency
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITDetectTone.put_Frequency
+- ITDetectTone.put_Frequency
 targetos: Windows
 req.typenames: 
 req.redist: 

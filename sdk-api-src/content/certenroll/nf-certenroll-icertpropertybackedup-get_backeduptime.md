@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICertPropertyBackedUp.get_BackedUpTime
 title: ICertPropertyBackedUp::get_BackedUpTime (certenroll.h)
-
 description: Retrieves the date and time at which the certificate was backed up.
 old-location: security\icertpropertybackedup_backeduptime_property.htm
 tech.root: seccertenroll
 ms.assetid: 5515fbd5-a711-421d-b80d-3e77c83f7549
-
 ms.date: 12/05/2018
 ms.keywords: BackedUpTime property [Security], BackedUpTime property [Security],ICertPropertyBackedUp interface, ICertPropertyBackedUp interface [Security],BackedUpTime property, ICertPropertyBackedUp.BackedUpTime, ICertPropertyBackedUp.get_BackedUpTime, ICertPropertyBackedUp::BackedUpTime, ICertPropertyBackedUp::get_BackedUpTime, certenroll/ICertPropertyBackedUp::BackedUpTime, certenroll/ICertPropertyBackedUp::get_BackedUpTime, get_BackedUpTime, security.icertpropertybackedup_backeduptime_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICertPropertyBackedUp.BackedUpTime"
+f1_keywords:
+- certenroll/ICertPropertyBackedUp.BackedUpTime
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertPropertyBackedUp.BackedUpTime
- - ICertPropertyBackedUp.get_BackedUpTime
+- ICertPropertyBackedUp.BackedUpTime
+- ICertPropertyBackedUp.get_BackedUpTime
 targetos: Windows
 req.typenames: 
 req.redist: 

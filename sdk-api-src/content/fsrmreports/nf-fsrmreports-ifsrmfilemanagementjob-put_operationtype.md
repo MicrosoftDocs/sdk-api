@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.put_OperationType
 title: IFsrmFileManagementJob::put_OperationType (fsrmreports.h)
-
 description: The type of file management job. The type determines the operation to perform on a file when all conditions are met.
 old-location: fsrm\ifsrmfilemanagementjob_operationtype.htm
 tech.root: fsrm
 ms.assetid: 98816ea0-7651-42ef-8893-13c568ed859a
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],OperationType property, IFsrmFileManagementJob.OperationType, IFsrmFileManagementJob.put_OperationType, IFsrmFileManagementJob::OperationType, IFsrmFileManagementJob::get_OperationType, IFsrmFileManagementJob::put_OperationType, OperationType property [File Server Resource Manager], OperationType property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_operationtype, fsrm.ifsrmfilemanagementjob_operationtype, fsrmreports/IFsrmFileManagementJob::OperationType, fsrmreports/IFsrmFileManagementJob::get_OperationType, fsrmreports/IFsrmFileManagementJob::put_OperationType, put_OperationType
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmFileManagementJob.OperationType"
+f1_keywords:
+- fsrmreports/IFsrmFileManagementJob.OperationType
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob.OperationType
- - IFsrmFileManagementJob.get_OperationType
- - IFsrmFileManagementJob.put_OperationType
+- IFsrmFileManagementJob.OperationType
+- IFsrmFileManagementJob.get_OperationType
+- IFsrmFileManagementJob.put_OperationType
 targetos: Windows
 req.typenames: 
 req.redist: 

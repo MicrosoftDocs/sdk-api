@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.DlgDirSelectExA
 title: DlgDirSelectExA function (winuser.h)
-
 description: Retrieves the current selection from a single-selection list box. It assumes that the list box has been filled by the DlgDirList function and that the selection is a drive letter, filename, or directory name.
 old-location: controls\DlgDirSelectEx.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxfunctions\dlgdirselectex.htm
-
 ms.date: 12/05/2018
 ms.keywords: DlgDirSelectEx, DlgDirSelectEx function [Windows Controls], DlgDirSelectExA, DlgDirSelectExW, _win32_DlgDirSelectEx, _win32_DlgDirSelectEx_cpp, controls.DlgDirSelectEx, controls._win32_DlgDirSelectEx, winuser/DlgDirSelectEx, winuser/DlgDirSelectExA, winuser/DlgDirSelectExW
 ms.topic: function
-f1_keywords: 
- - "winuser/DlgDirSelectEx"
+f1_keywords:
+- winuser/DlgDirSelectEx
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - DlgDirSelectEx
- - DlgDirSelectExA
- - DlgDirSelectExW
+- DlgDirSelectEx
+- DlgDirSelectExA
+- DlgDirSelectExW
 targetos: Windows
 req.typenames: 
 req.redist: 

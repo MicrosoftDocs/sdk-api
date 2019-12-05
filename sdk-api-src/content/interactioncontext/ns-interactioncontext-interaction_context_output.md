@@ -1,19 +1,17 @@
 ---
 UID: NS:interactioncontext.INTERACTION_CONTEXT_OUTPUT
 title: INTERACTION_CONTEXT_OUTPUT (interactioncontext.h)
-
 description: Defines the output of the Interaction Context object.
 old-location: input_intcontext\interaction_context_output.htm
 tech.root: Input_IntContext
 ms.assetid: 90ba531c-9f97-451d-8781-450dbc248f47
-
 ms.date: 12/05/2018
 ms.keywords: INTERACTION_CONTEXT_OUTPUT, INTERACTION_CONTEXT_OUTPUT structure, input_intcontext.interaction_context_output, interactioncontext.interaction_context_output, interactioncontext/INTERACTION_CONTEXT_OUTPUT
 ms.topic: struct
-f1_keywords: 
- - "interactioncontext/INTERACTION_CONTEXT_OUTPUT"
+f1_keywords:
+- interactioncontext/INTERACTION_CONTEXT_OUTPUT
 dev_langs:
- - c++
+- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - interactioncontext.h
+- interactioncontext.h
 api_name:
- - INTERACTION_CONTEXT_OUTPUT
+- INTERACTION_CONTEXT_OUTPUT
 targetos: Windows
 req.typenames: INTERACTION_CONTEXT_OUTPUT
 req.redist: 

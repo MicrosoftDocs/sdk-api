@@ -1,19 +1,17 @@
 ---
 UID: NF:threadpoolapiset.SetThreadpoolWait
 title: SetThreadpoolWait function (threadpoolapiset.h)
-
 description: Sets the wait object&#8212;replacing the previous wait object, if any. A worker thread calls the wait object's callback function after the handle becomes signaled or after the specified timeout expires.
 old-location: base\setthreadpoolwait.htm
 tech.root: ProcThread
 ms.assetid: ebd0ecad-a864-43cf-a1cb-e4c2d595ef81
-
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolWait, SetThreadpoolWait function, base.setthreadpoolwait, threadpoolapiset/SetThreadpoolWait, winbase/SetThreadpoolWait
 ms.topic: function
-f1_keywords: 
- - "threadpoolapiset/SetThreadpoolWait"
+f1_keywords:
+- threadpoolapiset/SetThreadpoolWait
 dev_langs:
- - c++
+- c++
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-threadpool-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-threadpool-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-threadpool-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-threadpool-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - SetThreadpoolWait
+- SetThreadpoolWait
 targetos: Windows
 req.typenames: 
 req.redist: 

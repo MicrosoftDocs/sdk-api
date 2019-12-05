@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IAssemblyLocator.GetModules
 title: IAssemblyLocator::GetModules (comsvcs.h)
-
 description: Used to get the names of the modules that are contained in an assembly.
 old-location: cos\iassemblylocator_getmodules.htm
 tech.root: cossdk
 ms.assetid: 5483c500-ac11-4f1d-b89c-37b6a718a735
-
 ms.date: 12/05/2018
 ms.keywords: GetModules, GetModules method [COM+], GetModules method [COM+],IAssemblyLocator interface, IAssemblyLocator interface [COM+],GetModules method, IAssemblyLocator.GetModules, IAssemblyLocator::GetModules, _cos_IAssemblyLocator_GetModules, comsvcs/IAssemblyLocator::GetModules, cos.iassemblylocator_getmodules
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IAssemblyLocator.GetModules"
+f1_keywords:
+- comsvcs/IAssemblyLocator.GetModules
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IAssemblyLocator.GetModules
+- IAssemblyLocator.GetModules
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_CancelEditLabel
 title: ListView_CancelEditLabel macro (commctrl.h)
-
 description: Cancels an item text editing operation. You can use this macro or send the LVM_CANCELEDITLABEL message explicitly.
 old-location: controls\ListView_CancelEditLabel.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_canceleditlabel.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_CancelEditLabel, ListView_CancelEditLabel macro [Windows Controls], _win32_ListView_CancelEditLabel, _win32_ListView_CancelEditLabel_cpp, commctrl/ListView_CancelEditLabel, controls.ListView_CancelEditLabel, controls._win32_ListView_CancelEditLabel
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_CancelEditLabel"
+f1_keywords:
+- commctrl/ListView_CancelEditLabel
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_CancelEditLabel
+- ListView_CancelEditLabel
 targetos: Windows
 req.typenames: 
 req.redist: 

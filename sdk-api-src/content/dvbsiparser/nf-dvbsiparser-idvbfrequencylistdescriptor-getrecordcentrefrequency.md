@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbFrequencyListDescriptor.GetRecordCentreFrequency
 title: IDvbFrequencyListDescriptor::GetRecordCentreFrequency (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbfrequencylistdescriptor_getrecordcentrefrequency.htm
 tech.root: mstv
 ms.assetid: bb6c3c14-c4b6-412d-ad12-1c7fdb025527
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordCentreFrequency, GetRecordCentreFrequency method [Microsoft TV Technologies], GetRecordCentreFrequency method [Microsoft TV Technologies],IDvbFrequencyListDescriptor interface, IDvbFrequencyListDescriptor interface [Microsoft TV Technologies],GetRecordCentreFrequency method, IDvbFrequencyListDescriptor.GetRecordCentreFrequency, IDvbFrequencyListDescriptor::GetRecordCentreFrequency, IDvbFrequencyListDescriptorGetRecordCentreFrequency, dvbsiparser/IDvbFrequencyListDescriptor::GetRecordCentreFrequency, mstv.idvbfrequencylistdescriptor_getrecordcentrefrequency
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbFrequencyListDescriptor.GetRecordCentreFrequency"
+f1_keywords:
+- dvbsiparser/IDvbFrequencyListDescriptor.GetRecordCentreFrequency
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbFrequencyListDescriptor.GetRecordCentreFrequency
+- IDvbFrequencyListDescriptor.GetRecordCentreFrequency
 targetos: Windows
 req.typenames: 
 req.redist: 

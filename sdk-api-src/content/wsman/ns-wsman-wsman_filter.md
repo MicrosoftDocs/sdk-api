@@ -1,19 +1,17 @@
 ---
 UID: NS:wsman._WSMAN_FILTER
 title: WSMAN_FILTER (wsman.h)
-
 description: WSMAN_FILTER is reserved for future use.
 old-location: winrm\wsman_filter.htm
 tech.root: winrm
 ms.assetid: d99c11a8-e91f-428f-98b1-d3116d027691
-
 ms.date: 12/05/2018
 ms.keywords: WSMAN_FILTER, WSMAN_FILTER structure [Windows Remote Management], winrm.wsman_filter, wsman/WSMAN_FILTER
 ms.topic: struct
-f1_keywords: 
- - "wsman/WSMAN_FILTER"
+f1_keywords:
+- wsman/WSMAN_FILTER
 dev_langs:
- - c++
+- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wsman.h
+- Wsman.h
 api_name:
- - WSMAN_FILTER
+- WSMAN_FILTER
 targetos: Windows
 req.typenames: WSMAN_FILTER
 req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2

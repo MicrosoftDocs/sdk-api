@@ -1,19 +1,17 @@
 ---
 UID: NN:azroles.IAzApplication3
 title: IAzApplication3 (azroles.h)
-
 description: Provides methods to manage IAzRoleAssignment, IAzRoleDefinition, and IAzScope2 objects.
 old-location: security\iazapplication3.htm
 tech.root: SecAuthZ
 ms.assetid: 9d0b2c3b-b8b6-4fae-9308-9dd29da0724f
-
 ms.date: 12/05/2018
 ms.keywords: IAzApplication3, IAzApplication3 interface [Security], IAzApplication3 interface [Security],described, azroles/IAzApplication3, security.iazapplication3
 ms.topic: interface
-f1_keywords: 
- - "azroles/IAzApplication3"
+f1_keywords:
+- azroles/IAzApplication3
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplication3
+- IAzApplication3
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcMgmtEpEltInqNextA
 title: RpcMgmtEpEltInqNextA function (rpcdce.h)
-
 description: The RpcMgmtEpEltInqNext function returns one element from an endpoint map.
 old-location: rpc\rpcmgmtepeltinqnext.htm
 tech.root: Rpc
 ms.assetid: e1f79435-6868-453b-8237-da52e57ec96f
-
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtEpEltInqNext, RpcMgmtEpEltInqNext function [RPC], RpcMgmtEpEltInqNextA, RpcMgmtEpEltInqNextW, _rpc_rpcmgmtepeltinqnext, rpc.rpcmgmtepeltinqnext, rpcdce/RpcMgmtEpEltInqNext, rpcdce/RpcMgmtEpEltInqNextA, rpcdce/RpcMgmtEpEltInqNextW
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcMgmtEpEltInqNext"
+f1_keywords:
+- rpcdce/RpcMgmtEpEltInqNext
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcMgmtEpEltInqNext
- - RpcMgmtEpEltInqNextA
- - RpcMgmtEpEltInqNextW
+- RpcMgmtEpEltInqNext
+- RpcMgmtEpEltInqNextA
+- RpcMgmtEpEltInqNextW
 targetos: Windows
 req.typenames: 
 req.redist: 

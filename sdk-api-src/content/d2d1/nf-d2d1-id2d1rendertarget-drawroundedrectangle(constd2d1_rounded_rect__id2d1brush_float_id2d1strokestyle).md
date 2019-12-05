@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.DrawRoundedRectangle(const D2D1_ROUNDED_RECT &,ID2D1Brush,FLOAT,ID2D1StrokeStyle)
 title: ID2D1RenderTarget::DrawRoundedRectangle(const D2D1_ROUNDED_RECT &,ID2D1Brush,FLOAT,ID2D1StrokeStyle) (d2d1.h)
-
 description: Draws the outline of the specified rounded rectangle using the specified stroke style.
 old-location: direct2d\ID2D1RenderTarget_DrawRoundedRectangle_ref_D2D1_ROUNDED_RECT_ptr_ID2D1Brush_FLOAT_ptr_ID2D1StrokeStyle.htm
 tech.root: Direct2D
 ms.assetid: 599638af-ebbb-4a45-96cf-ba3852e87237
-
 ms.date: 12/05/2018
 ms.keywords: DrawRoundedRectangle, DrawRoundedRectangle method [Direct2D], DrawRoundedRectangle method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],DrawRoundedRectangle method, ID2D1RenderTarget.DrawRoundedRectangle, ID2D1RenderTarget.DrawRoundedRectangle(const D2D1_ROUNDED_RECT &,ID2D1Brush,FLOAT,ID2D1StrokeStyle), ID2D1RenderTarget::DrawRoundedRectangle, ID2D1RenderTarget::DrawRoundedRectangle(const D2D1_ROUNDED_RECT &,ID2D1Brush,FLOAT,ID2D1StrokeStyle), d2d1/ID2D1RenderTarget::DrawRoundedRectangle, direct2d.ID2D1RenderTarget_DrawRoundedRectangle_ref_D2D1_ROUNDED_RECT_ptr_ID2D1Brush_FLOAT_ptr_ID2D1StrokeStyle
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1RenderTarget.DrawRoundedRectangle"
+f1_keywords:
+- d2d1/ID2D1RenderTarget.DrawRoundedRectangle
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1RenderTarget.DrawRoundedRectangle
+- ID2D1RenderTarget.DrawRoundedRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 

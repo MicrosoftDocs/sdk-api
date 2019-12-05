@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.GetFlags
 title: IMFASFIndexer::GetFlags (wmcontainer.h)
-
 description: Retrieves the flags that indicate the selected indexer options.
 old-location: mf\imfasfindexer_getflags.htm
 tech.root: medfound
 ms.assetid: 97809620-57ad-48f1-94ba-a2e121cdfee6
-
 ms.date: 12/05/2018
 ms.keywords: 97809620-57ad-48f1-94ba-a2e121cdfee6, GetFlags, GetFlags method [Media Foundation], GetFlags method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetFlags method, IMFASFIndexer.GetFlags, IMFASFIndexer::GetFlags, mf.imfasfindexer_getflags, wmcontainer/IMFASFIndexer::GetFlags
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFIndexer.GetFlags"
+f1_keywords:
+- wmcontainer/IMFASFIndexer.GetFlags
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFIndexer.GetFlags
+- IMFASFIndexer.GetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

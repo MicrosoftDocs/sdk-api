@@ -1,19 +1,17 @@
 ---
 UID: NF:pdh.PdhExpandCounterPathW
 title: PdhExpandCounterPathW function (pdh.h)
-
 description: Examines the specified computer (or local computer if none is specified) for counters and instances of counters that match the wildcard strings in the counter path.
 old-location: perf\pdhexpandcounterpath.htm
 tech.root: perfctrs
 ms.assetid: d90954ab-ec2f-42fd-90b7-66f59f3d1115
-
 ms.date: 12/05/2018
 ms.keywords: PdhExpandCounterPath, PdhExpandCounterPath function [Perf], PdhExpandCounterPathA, PdhExpandCounterPathW, _win32_pdhexpandcounterpath, base.pdhexpandcounterpath, pdh/PdhExpandCounterPath, pdh/PdhExpandCounterPathA, pdh/PdhExpandCounterPathW, perf.pdhexpandcounterpath
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhExpandCounterPath"
+f1_keywords:
+- pdh/PdhExpandCounterPath
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhExpandCounterPath
- - PdhExpandCounterPathA
- - PdhExpandCounterPathW
+- PdhExpandCounterPath
+- PdhExpandCounterPathA
+- PdhExpandCounterPathW
 targetos: Windows
 req.typenames: 
 req.redist: 

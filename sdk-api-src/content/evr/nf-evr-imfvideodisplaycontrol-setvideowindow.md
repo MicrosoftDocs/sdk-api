@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.SetVideoWindow
 title: IMFVideoDisplayControl::SetVideoWindow (evr.h)
-
 description: Sets the clipping window for the video.
 old-location: mf\imfvideodisplaycontrol_setvideowindow.htm
 tech.root: medfound
 ms.assetid: 50bc345c-ee44-4174-9b1a-e406041096b5
-
 ms.date: 12/05/2018
 ms.keywords: 50bc345c-ee44-4174-9b1a-e406041096b5, IMFVideoDisplayControl interface [Media Foundation],SetVideoWindow method, IMFVideoDisplayControl.SetVideoWindow, IMFVideoDisplayControl::SetVideoWindow, SetVideoWindow, SetVideoWindow method [Media Foundation], SetVideoWindow method [Media Foundation],IMFVideoDisplayControl interface, evr/IMFVideoDisplayControl::SetVideoWindow, mf.imfvideodisplaycontrol_setvideowindow
 ms.topic: method
-f1_keywords: 
- - "evr/IMFVideoDisplayControl.SetVideoWindow"
+f1_keywords:
+- evr/IMFVideoDisplayControl.SetVideoWindow
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoDisplayControl.SetVideoWindow
+- IMFVideoDisplayControl.SetVideoWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

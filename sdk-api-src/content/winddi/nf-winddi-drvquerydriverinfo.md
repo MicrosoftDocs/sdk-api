@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.DrvQueryDriverInfo
 title: DrvQueryDriverInfo function (winddi.h)
-
 description: The DrvQueryDriverInfo function returns requested driver-specific information.
 old-location: display\drvquerydriverinfo.htm
 tech.root: display
 ms.assetid: 94691c91-f6e9-4f48-8da2-bde5354ed94c
-
 ms.date: 12/05/2018
 ms.keywords: DrvQueryDriverInfo, DrvQueryDriverInfo function [Display Devices], ddifncs_be744729-bfb4-4c25-9f6b-e8896e6ecac5.xml, display.drvquerydriverinfo, winddi/DrvQueryDriverInfo
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvQueryDriverInfo"
+f1_keywords:
+- winddi/DrvQueryDriverInfo
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvQueryDriverInfo
+- DrvQueryDriverInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

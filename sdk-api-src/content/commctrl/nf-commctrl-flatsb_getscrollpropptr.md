@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.FlatSB_GetScrollPropPtr
 title: FlatSB_GetScrollPropPtr function (commctrl.h)
-
 description: Gets the properties for a flat scroll bar.
 old-location: controls\FlatSB_GetScrollPropPtr.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_getscrollpropptr.htm
-
 ms.date: 12/05/2018
 ms.keywords: FlatSB_GetScrollPropPtr, FlatSB_GetScrollPropPtr function [Windows Controls], WSB_PROP_CXHSCROLL, WSB_PROP_CXHTHUMB, WSB_PROP_CXVSCROLL, WSB_PROP_CYHSCROLL, WSB_PROP_CYVSCROLL, WSB_PROP_CYVTHUMB, WSB_PROP_HBKGCOLOR, WSB_PROP_HSTYLE, WSB_PROP_PALETTE, WSB_PROP_VBKGCOLOR, WSB_PROP_VSTYLE, WSB_PROP_WINSTYLE, _win32_FlatSB_GetScrollPropPtr, _win32_FlatSB_GetScrollPropPtr_cpp, commctrl/FlatSB_GetScrollPropPtr, controls.FlatSB_GetScrollPropPtr, controls._win32_FlatSB_GetScrollPropPtr
 ms.topic: function
-f1_keywords: 
- - "commctrl/FlatSB_GetScrollPropPtr"
+f1_keywords:
+- commctrl/FlatSB_GetScrollPropPtr
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - FlatSB_GetScrollPropPtr
+- FlatSB_GetScrollPropPtr
 targetos: Windows
 req.typenames: 
 req.redist: 

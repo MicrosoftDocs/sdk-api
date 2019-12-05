@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDVBSLocator.get_Elevation
 title: IDVBSLocator::get_Elevation (tuner.h)
-
 description: The get_Elevation method retrieves the elevation of the satellite in tenths of a degree.
 old-location: mstv\idvbslocator_get_elevation.htm
 tech.root: mstv
 ms.assetid: 8d81cb6d-412f-4a55-b9fc-a0a0e8cebaaa
-
 ms.date: 12/05/2018
 ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],get_Elevation method, IDVBSLocator.get_Elevation, IDVBSLocator::get_Elevation, IDVBSLocatorget_Elevation, get_Elevation, get_Elevation method [Microsoft TV Technologies], get_Elevation method [Microsoft TV Technologies],IDVBSLocator interface, mstv.idvbslocator_get_elevation, tuner/IDVBSLocator::get_Elevation
 ms.topic: method
-f1_keywords: 
- - "tuner/IDVBSLocator.get_Elevation"
+f1_keywords:
+- tuner/IDVBSLocator.get_Elevation
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBSLocator.get_Elevation
+- IDVBSLocator.get_Elevation
 targetos: Windows
 req.typenames: 
 req.redist: 

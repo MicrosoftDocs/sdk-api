@@ -1,19 +1,17 @@
 ---
 UID: NS:wmiutils.tag_SWbemAssocQueryInf
 title: SWbemAssocQueryInf (wmiutils.h)
-
 description: Contains information from the IWbemQuery::GetAnalysis method when you use the WMIQ_ANALYSIS_ASSOC_QUERY analysis type.
 old-location: wmi\swbemassocqueryinf.htm
 tech.root: WmiSdk
 ms.assetid: 8312b324-a698-4957-bd76-3129398e4886
-
 ms.date: 12/05/2018
 ms.keywords: SWbemAssocQueryInf, SWbemAssocQueryInf structure [Windows Management Instrumentation], WMIQ_ASSOCQ_ASSOCCLASS, WMIQ_ASSOCQ_ASSOCIATORS, WMIQ_ASSOCQ_CLASSDEFONLY, WMIQ_ASSOCQ_CLASSREFSONLY, WMIQ_ASSOCQ_KEYSONLY, WMIQ_ASSOCQ_REFERENCES, WMIQ_ASSOCQ_REQUIREDASSOCQUALIFIER, WMIQ_ASSOCQ_REQUIREDQUALIFIER, WMIQ_ASSOCQ_RESULTCLASS, WMIQ_ASSOCQ_RESULTROLE, WMIQ_ASSOCQ_ROLE, WMIQ_ASSOCQ_SCHEMAONLY, wmi.swbemassocqueryinf, wmiutils/SWbemAssocQueryInf
 ms.topic: struct
-f1_keywords: 
- - "wmiutils/SWbemAssocQueryInf"
+f1_keywords:
+- wmiutils/SWbemAssocQueryInf
 dev_langs:
- - c++
+- c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmiutils.h
+- Wmiutils.h
 api_name:
- - SWbemAssocQueryInf
+- SWbemAssocQueryInf
 targetos: Windows
 req.typenames: SWbemAssocQueryInf
 req.redist: 

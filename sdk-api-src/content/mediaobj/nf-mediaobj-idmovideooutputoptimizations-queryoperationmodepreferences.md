@@ -1,19 +1,17 @@
 ---
 UID: NF:mediaobj.IDMOVideoOutputOptimizations.QueryOperationModePreferences
 title: IDMOVideoOutputOptimizations::QueryOperationModePreferences (mediaobj.h)
-
 description: The QueryOperationModePreferences method retrieves the DMO's preferred optimization features.
 old-location: dshow\idmovideooutputoptimizations_queryoperationmodepreferences.htm
 tech.root: DirectShow
 ms.assetid: 55916330-8395-4952-a349-f1ab5a3a2d64
-
 ms.date: 12/05/2018
 ms.keywords: IDMOVideoOutputOptimizations interface [DirectShow],QueryOperationModePreferences method, IDMOVideoOutputOptimizations.QueryOperationModePreferences, IDMOVideoOutputOptimizations::QueryOperationModePreferences, IDMOVideoOutputOptimizationsQueryOperationModePreferences, QueryOperationModePreferences, QueryOperationModePreferences method [DirectShow], QueryOperationModePreferences method [DirectShow],IDMOVideoOutputOptimizations interface, dshow.idmovideooutputoptimizations_queryoperationmodepreferences, mediaobj/IDMOVideoOutputOptimizations::QueryOperationModePreferences
 ms.topic: method
-f1_keywords: 
- - "mediaobj/IDMOVideoOutputOptimizations.QueryOperationModePreferences"
+f1_keywords:
+- mediaobj/IDMOVideoOutputOptimizations.QueryOperationModePreferences
 dev_langs:
- - c++
+- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IDMOVideoOutputOptimizations.QueryOperationModePreferences
+- IDMOVideoOutputOptimizations.QueryOperationModePreferences
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetMuted
 title: IMFMediaEngine::SetMuted (mfmediaengine.h)
-
 description: Mutes or unmutes the audio.
 old-location: mf\imfmediaengine_setmuted.htm
 tech.root: medfound
 ms.assetid: 330CB3CF-F649-4964-A24D-3C16E778BFD7
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetMuted method, IMFMediaEngine.SetMuted, IMFMediaEngine::SetMuted, SetMuted, SetMuted method [Media Foundation], SetMuted method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setmuted, mfmediaengine/IMFMediaEngine::SetMuted
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngine.SetMuted"
+f1_keywords:
+- mfmediaengine/IMFMediaEngine.SetMuted
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngine.SetMuted
+- IMFMediaEngine.SetMuted
 targetos: Windows
 req.typenames: 
 req.redist: 

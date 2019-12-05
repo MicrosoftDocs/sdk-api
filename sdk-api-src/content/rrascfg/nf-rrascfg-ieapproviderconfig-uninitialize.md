@@ -1,19 +1,17 @@
 ---
 UID: NF:rrascfg.IEAPProviderConfig.Uninitialize
 title: IEAPProviderConfig::Uninitialize (rrascfg.h)
-
 description: The system calls the Uninitialize method to shut down the specified EAP configuration session.
 old-location: eap\ieapproviderconfig_uninitialize.htm
 tech.root: EAP
 ms.assetid: f96ffa3f-cd3c-4979-87b3-1a2afb7a3621
-
 ms.date: 12/05/2018
 ms.keywords: IEAPProviderConfig interface [EAP],Uninitialize method, IEAPProviderConfig.Uninitialize, IEAPProviderConfig::Uninitialize, Uninitialize, Uninitialize method [EAP], Uninitialize method [EAP],IEAPProviderConfig interface, _eap_ieapproviderconfig_uninitialize, eap.ieapproviderconfig_uninitialize, rrascfg/IEAPProviderConfig::Uninitialize
 ms.topic: method
-f1_keywords: 
- - "rrascfg/IEAPProviderConfig.Uninitialize"
+f1_keywords:
+- rrascfg/IEAPProviderConfig.Uninitialize
 dev_langs:
- - c++
+- c++
 req.header: rrascfg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rrascfg.h
+- Rrascfg.h
 api_name:
- - IEAPProviderConfig.Uninitialize
+- IEAPProviderConfig.Uninitialize
 targetos: Windows
 req.typenames: 
 req.redist: 

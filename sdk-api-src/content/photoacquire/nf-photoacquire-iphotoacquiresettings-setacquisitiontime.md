@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.SetAcquisitionTime
 title: IPhotoAcquireSettings::SetAcquisitionTime (photoacquire.h)
-
 description: The SetAcquisitionTime method sets the acquisition time explicitly.
 old-location: picacq\iphotoacquiresettings_setacquisitiontime.htm
 tech.root: acquisition
 ms.assetid: fc43be78-f35b-4159-a15c-c21cddee6c9e
-
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireSettings interface [Picture Acquisition],SetAcquisitionTime method, IPhotoAcquireSettings.SetAcquisitionTime, IPhotoAcquireSettings::SetAcquisitionTime, IPhotoAcquireSettingsSetAcquisitionTime, SetAcquisitionTime, SetAcquisitionTime method [Picture Acquisition], SetAcquisitionTime method [Picture Acquisition],IPhotoAcquireSettings interface, photoacquire/IPhotoAcquireSettings::SetAcquisitionTime, picacq.iphotoacquiresettings_setacquisitiontime
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquireSettings.SetAcquisitionTime"
+f1_keywords:
+- photoacquire/IPhotoAcquireSettings.SetAcquisitionTime
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireSettings.SetAcquisitionTime
+- IPhotoAcquireSettings.SetAcquisitionTime
 targetos: Windows
 req.typenames: 
 req.redist: 

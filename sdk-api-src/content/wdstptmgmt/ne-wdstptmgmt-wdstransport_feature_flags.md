@@ -1,19 +1,17 @@
 ---
 UID: NE:wdstptmgmt.__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0001
 title: WDSTRANSPORT_FEATURE_FLAGS (wdstptmgmt.h)
-
 description: Indicates which WDS features are installed on the WDS server.
 old-location: wds\wdstransport_feature_flags.htm
 tech.root: wds
 ms.assetid: 60ce036d-7875-4fa7-8d7e-20a9faf63291
-
 ms.date: 12/05/2018
-ms.keywords: "*PWDSTRANSPORT_FEATURE_FLAGS, WDSTRANSPORT_FEATURE_FLAGS, WDSTRANSPORT_FEATURE_FLAGS enumeration [Windows Deployment Services], WdsTptFeatureAdminPack, WdsTptFeatureDeploymentServer, WdsTptFeatureTransportServer, wds.wdstransport_feature_flags, wdstptmgmt/WDSTRANSPORT_FEATURE_FLAGS, wdstptmgmt/WdsTptFeatureAdminPack, wdstptmgmt/WdsTptFeatureDeploymentServer, wdstptmgmt/WdsTptFeatureTransportServer"
+ms.keywords: '*PWDSTRANSPORT_FEATURE_FLAGS, WDSTRANSPORT_FEATURE_FLAGS, WDSTRANSPORT_FEATURE_FLAGS enumeration [Windows Deployment Services], WdsTptFeatureAdminPack, WdsTptFeatureDeploymentServer, WdsTptFeatureTransportServer, wds.wdstransport_feature_flags, wdstptmgmt/WDSTRANSPORT_FEATURE_FLAGS, wdstptmgmt/WdsTptFeatureAdminPack, wdstptmgmt/WdsTptFeatureDeploymentServer, wdstptmgmt/WdsTptFeatureTransportServer'
 ms.topic: enum
-f1_keywords: 
- - "wdstptmgmt/WDSTRANSPORT_FEATURE_FLAGS"
+f1_keywords:
+- wdstptmgmt/WDSTRANSPORT_FEATURE_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wdstptmgmt.h
+- Wdstptmgmt.h
 api_name:
- - WDSTRANSPORT_FEATURE_FLAGS
+- WDSTRANSPORT_FEATURE_FLAGS
 targetos: Windows
 req.typenames: WDSTRANSPORT_FEATURE_FLAGS, *PWDSTRANSPORT_FEATURE_FLAGS
 req.redist: 

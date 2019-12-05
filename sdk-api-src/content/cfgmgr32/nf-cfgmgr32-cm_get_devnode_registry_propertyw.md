@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Get_DevNode_Registry_PropertyW
 title: CM_Get_DevNode_Registry_PropertyW function (cfgmgr32.h)
-
 description: The CM_Get_DevNode_Registry_Property function retrieves a specified device property from the registry.
 old-location: devinst\cm_get_devnode_registry_property.htm
 tech.root: devinst
 ms.assetid: da0d6970-0f6b-4d92-a384-3799ed3dab55
-
 ms.date: 12/05/2018
 ms.keywords: CM_Get_DevNode_Registry_Property, CM_Get_DevNode_Registry_Property function [Device and Driver Installation], CM_Get_DevNode_Registry_PropertyW, cfgmgr32/CM_Get_DevNode_Registry_Property, cfgmgr32/CM_Get_DevNode_Registry_PropertyW, cfgmgrfn_f5c0e7d6-81f6-4d0f-bca8-de9c4f51e3d9.xml, devinst.cm_get_devnode_registry_property
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Get_DevNode_Registry_Property"
+f1_keywords:
+- cfgmgr32/CM_Get_DevNode_Registry_Property
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal
@@ -32,19 +30,19 @@ req.lib: Cfgmgr32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.lib
- - Cfgmgr32.dll
- - API-Ms-Win-Devices-Config-L1-1-0.dll
- - API-Ms-Win-Devices-Config-L1-1-1.dll
- - CfgMgr32.dll
+- Cfgmgr32.lib
+- Cfgmgr32.dll
+- API-Ms-Win-Devices-Config-L1-1-0.dll
+- API-Ms-Win-Devices-Config-L1-1-1.dll
+- CfgMgr32.dll
 api_name:
- - CM_Get_DevNode_Registry_Property
- - CM_Get_DevNode_Registry_PropertyW
+- CM_Get_DevNode_Registry_Property
+- CM_Get_DevNode_Registry_PropertyW
 targetos: Windows
 req.typenames: 
 req.redist: 

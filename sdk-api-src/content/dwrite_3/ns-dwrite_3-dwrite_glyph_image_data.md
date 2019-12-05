@@ -1,19 +1,17 @@
 ---
 UID: NS:dwrite_3.DWRITE_GLYPH_IMAGE_DATA
 title: DWRITE_GLYPH_IMAGE_DATA (dwrite_3.h)
-
 description: Data for a single glyph from GetGlyphImageData.
 old-location: directwrite\dwrite_glyph_image_data.htm
 tech.root: DirectWrite
 ms.assetid: 4BBA8B7A-E2DA-445B-AE56-FFA7629E3D06
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_GLYPH_IMAGE_DATA, DWRITE_GLYPH_IMAGE_DATA structure [Direct Write], directwrite.dwrite_glyph_image_data, dwrite_3/DWRITE_GLYPH_IMAGE_DATA
 ms.topic: struct
-f1_keywords: 
- - "dwrite_3/DWRITE_GLYPH_IMAGE_DATA"
+f1_keywords:
+- dwrite_3/DWRITE_GLYPH_IMAGE_DATA
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite_3.h
+- dwrite_3.h
 api_name:
- - DWRITE_GLYPH_IMAGE_DATA
+- DWRITE_GLYPH_IMAGE_DATA
 targetos: Windows
 req.typenames: 
 req.redist: 

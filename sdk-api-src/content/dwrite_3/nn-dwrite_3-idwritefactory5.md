@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite_3.IDWriteFactory5
 title: IDWriteFactory5 (dwrite_3.h)
-
 description: The root factory interface for all DirectWrite objects.
 old-location: directwrite\idwritefactory5.htm
 tech.root: DirectWrite
 ms.assetid: 2F3E30DC-A965-4C68-A337-73F338CF2563
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteFactory5, IDWriteFactory5 interface [Direct Write], IDWriteFactory5 interface [Direct Write],described, directwrite.idwritefactory5, dwrite_3/IDWriteFactory5
 ms.topic: interface
-f1_keywords: 
- - "dwrite_3/IDWriteFactory5"
+f1_keywords:
+- dwrite_3/IDWriteFactory5
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFactory5
+- IDWriteFactory5
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.media.streaming.IActiveBasicDevice.GetCachedBitrateMeasurement
 title: IActiveBasicDevice::streaming (windows.media.streaming.h)
-
 description: Gets the cached bitrate.
 old-location: mediastreaming\iactivebasicdevice_getcachedbitratemeasurement.htm
 tech.root: mediastreaming
 ms.assetid: 342F5240-E29D-4CC4-AA49-B039EBFC4D0B
-
 ms.date: 12/05/2018
 ms.keywords: GetCachedBitrateMeasurement, GetCachedBitrateMeasurement method [Media Streaming API], GetCachedBitrateMeasurement method [Media Streaming API],IActiveBasicDevice interface, IActiveBasicDevice interface [Media Streaming API],GetCachedBitrateMeasurement method, IActiveBasicDevice.GetCachedBitrateMeasurement, IActiveBasicDevice.streaming, IActiveBasicDevice::GetCachedBitrateMeasurement, IActiveBasicDevice::streaming, mediastreaming.iactivebasicdevice_getcachedbitratemeasurement, windows/IActiveBasicDevice::GetCachedBitrateMeasurement
 ms.topic: method
-f1_keywords: 
- - "windows.media.streaming/IActiveBasicDevice.GetCachedBitrateMeasurement"
+f1_keywords:
+- windows.media.streaming/IActiveBasicDevice.GetCachedBitrateMeasurement
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: PlayToDevice.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PlayToDevice.dll
+- PlayToDevice.dll
 api_name:
- - IActiveBasicDevice.GetCachedBitrateMeasurement
+- IActiveBasicDevice.GetCachedBitrateMeasurement
 targetos: Windows
 req.typenames: 
 req.redist: 

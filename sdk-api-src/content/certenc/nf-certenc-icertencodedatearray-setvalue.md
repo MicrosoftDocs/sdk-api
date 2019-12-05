@@ -1,19 +1,17 @@
 ---
 UID: NF:certenc.ICertEncodeDateArray.SetValue
 title: ICertEncodeDateArray::SetValue (certenc.h)
-
 description: Sets a DATE value at the specified index of the DATE array.
 old-location: security\icertencodedatearray_setvalue.htm
 tech.root: SecCrypto
 ms.assetid: e05a7aa1-81ad-4564-a6a5-65b8ac816598
-
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeDateArray object [Security],SetValue method, ICertEncodeDateArray interface [Security],SetValue method, ICertEncodeDateArray.SetValue, ICertEncodeDateArray::SetValue, SetValue, SetValue method [Security], SetValue method [Security],CCertEncodeDateArray object, SetValue method [Security],ICertEncodeDateArray interface, _certsrv_icertencodedatearray_setvalue, certenc/ICertEncodeDateArray::SetValue, security.icertencodedatearray_setvalue
 ms.topic: method
-f1_keywords: 
- - "certenc/ICertEncodeDateArray.SetValue"
+f1_keywords:
+- certenc/ICertEncodeDateArray.SetValue
 dev_langs:
- - c++
+- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenc.dll
+- Certenc.dll
 api_name:
- - ICertEncodeDateArray.SetValue
- - CCertEncodeDateArray.SetValue
+- ICertEncodeDateArray.SetValue
+- CCertEncodeDateArray.SetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

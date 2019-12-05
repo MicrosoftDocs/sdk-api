@@ -1,19 +1,17 @@
 ---
 UID: NC:routprot.PREGISTER_PROTOCOL
 title: PREGISTER_PROTOCOL (routprot.h)
-
 description: The RegisterProtocol function registers the routing protocol with the router manager. It also informs the router manager of the functionality that the routing protocol supports.
 old-location: rras\registerprotocol.htm
 tech.root: RRAS
 ms.assetid: b9027ef9-e573-4df0-b37e-d09956c1f8ee
-
 ms.date: 12/05/2018
 ms.keywords: PREGISTER_PROTOCOL, PREGISTER_PROTOCOL callback, RegisterProtocol, RegisterProtocol callback function [RAS], _mpr_registerprotocol, routprot/RegisterProtocol, rras.registerprotocol
 ms.topic: callback
 f1_keywords:
 - routprot/RegisterProtocol
 dev_langs:
- - c++
+- c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbTaskPlugin.InitializeTaskPlugin
 title: ITsSbTaskPlugin::InitializeTaskPlugin (sbtsv.h)
-
 description: Initializes a task that is in the queue of a Remote Desktop Connection Broker plugin.
 old-location: termserv\itssbtaskplugin_initializetaskplugin.htm
 tech.root: TermServ
 ms.assetid: 9e8722c4-0070-448a-a97c-aeb1db59ac7b
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbTaskPlugin interface [Remote Desktop Services],InitializeTaskPlugin method, ITsSbTaskPlugin.InitializeTaskPlugin, ITsSbTaskPlugin::InitializeTaskPlugin, InitializeTaskPlugin, InitializeTaskPlugin method [Remote Desktop Services], InitializeTaskPlugin method [Remote Desktop Services],ITsSbTaskPlugin interface, sbtsv/ITsSbTaskPlugin::InitializeTaskPlugin, termserv.itssbtaskplugin_initializetaskplugin
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbTaskPlugin.InitializeTaskPlugin"
+f1_keywords:
+- sbtsv/ITsSbTaskPlugin.InitializeTaskPlugin
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbTaskPlugin.InitializeTaskPlugin
+- ITsSbTaskPlugin.InitializeTaskPlugin
 targetos: Windows
 req.typenames: 
 req.redist: 

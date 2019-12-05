@@ -1,19 +1,17 @@
 ---
 UID: NF:synchapi.EnterSynchronizationBarrier
 title: EnterSynchronizationBarrier function (synchapi.h)
-
 description: Causes the calling thread to wait at a synchronization barrier until the maximum number of threads have entered the barrier.
 old-location: base\entersynchronizationbarrier.htm
 tech.root: Sync
 ms.assetid: cd938370-b046-4369-931d-5c7c8db7303a
-
 ms.date: 12/05/2018
 ms.keywords: EnterSynchronizationBarrier, EnterSynchronizationBarrier function, SYNCHRONIZATION_BARRIER_FLAGS_BLOCK_ONLY, SYNCHRONIZATION_BARRIER_FLAGS_NO_DELETE, SYNCHRONIZATION_BARRIER_FLAGS_SPIN_ONLY, base.entersynchronizationbarrier, synchapi/EnterSynchronizationBarrier
 ms.topic: function
-f1_keywords: 
- - "synchapi/EnterSynchronizationBarrier"
+f1_keywords:
+- synchapi/EnterSynchronizationBarrier
 dev_langs:
- - c++
+- c++
 req.header: synchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Synch-l1-2-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Synch-l1-2-1.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Synch-l1-2-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Synch-l1-2-1.dll
+- MinKernelBase.dll
 api_name:
- - EnterSynchronizationBarrier
+- EnterSynchronizationBarrier
 targetos: Windows
 req.typenames: 
 req.redist: 

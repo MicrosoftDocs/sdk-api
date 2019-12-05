@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMMetadataEditor.Open
 title: IWMMetadataEditor::Open (wmsdkidl.h)
-
 description: The Open method opens an ASF file.
 old-location: wmformat\iwmmetadataeditor_open.htm
 tech.root: wmformat
 ms.assetid: 01dd09ff-35d2-4e00-9eab-5110a426449f
-
 ms.date: 12/05/2018
 ms.keywords: IWMMetadataEditor interface [windows Media Format],Open method, IWMMetadataEditor.Open, IWMMetadataEditor::Open, IWMMetadataEditorOpen, Open, Open method [windows Media Format], Open method [windows Media Format],IWMMetadataEditor interface, wmformat.iwmmetadataeditor_open, wmsdkidl/IWMMetadataEditor::Open
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMMetadataEditor.Open"
+f1_keywords:
+- wmsdkidl/IWMMetadataEditor.Open
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMMetadataEditor.Open
+- IWMMetadataEditor.Open
 targetos: Windows
 req.typenames: 
 req.redist: 

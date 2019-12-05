@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock2.getprotobynumber
 title: getprotobynumber function (winsock2.h)
-
 description: The getprotobynumber function retrieves protocol information corresponding to a protocol number.
 old-location: winsock\getprotobynumber_2.htm
 tech.root: WinSock
 ms.assetid: f1f55ab7-01ca-4ed7-b8f9-e7ddbaa95855
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_getprotobynumber_2, getprotobynumber, getprotobynumber function [Winsock], winsock.getprotobynumber_2, winsock/getprotobynumber"
+ms.keywords: _win32_getprotobynumber_2, getprotobynumber, getprotobynumber function [Winsock], winsock.getprotobynumber_2, winsock/getprotobynumber
 ms.topic: function
-f1_keywords: 
- - "winsock2/getprotobynumber"
+f1_keywords:
+- winsock2/getprotobynumber
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - getprotobynumber
+- getprotobynumber
 targetos: Windows
 req.typenames: 
 req.redist: 

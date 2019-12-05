@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmSubLayerCreateEnumHandle0
 title: FwpmSubLayerCreateEnumHandle0 function (fwpmu.h)
-
 description: Creates a handle used to enumerate a set of sublayers.
 old-location: fwp\fwpmsublayercreateenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: a8acff10-8395-4ef8-8976-7a99cd498a7d
-
 ms.date: 12/05/2018
 ms.keywords: FwpmSubLayerCreateEnumHandle0, FwpmSubLayerCreateEnumHandle0 function [Filtering], fwp.fwpmsublayercreateenumhandle0_func, fwpmu/FwpmSubLayerCreateEnumHandle0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmSubLayerCreateEnumHandle0"
+f1_keywords:
+- fwpmu/FwpmSubLayerCreateEnumHandle0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmSubLayerCreateEnumHandle0
+- FwpmSubLayerCreateEnumHandle0
 targetos: Windows
 req.typenames: 
 req.redist: 

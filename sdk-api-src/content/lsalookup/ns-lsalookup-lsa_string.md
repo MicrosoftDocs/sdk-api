@@ -1,19 +1,17 @@
 ---
 UID: NS:lsalookup._LSA_STRING
 title: LSA_STRING (lsalookup.h)
-
 description: Used by Local Security Authority (LSA) functions to specify an ANSI string.
 old-location: security\lsa_string.htm
 tech.root: SecAuthN
 ms.assetid: 4ae4160f-bcad-41d9-8239-91da44702b76
-
 ms.date: 12/05/2018
-ms.keywords: "*PLSA_STRING, LSA_STRING, LSA_STRING structure [Security], PLSA_STRING, PLSA_STRING structure pointer [Security], _lsa_lsa_string, lsalookup/LSA_STRING, lsalookup/PLSA_STRING, security.lsa_string"
+ms.keywords: '*PLSA_STRING, LSA_STRING, LSA_STRING structure [Security], PLSA_STRING, PLSA_STRING structure pointer [Security], _lsa_lsa_string, lsalookup/LSA_STRING, lsalookup/PLSA_STRING, security.lsa_string'
 ms.topic: struct
-f1_keywords: 
- - "lsalookup/LSA_STRING"
+f1_keywords:
+- lsalookup/LSA_STRING
 dev_langs:
- - c++
+- c++
 req.header: lsalookup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - LsaLookup.h
+- LsaLookup.h
 api_name:
- - LSA_STRING
+- LSA_STRING
 targetos: Windows
 req.typenames: LSA_STRING, *PLSA_STRING
 req.redist: 

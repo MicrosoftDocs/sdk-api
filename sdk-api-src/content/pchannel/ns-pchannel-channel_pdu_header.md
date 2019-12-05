@@ -1,19 +1,17 @@
 ---
 UID: NS:pchannel.tagCHANNEL_PDU_HEADER
 title: CHANNEL_PDU_HEADER (pchannel.h)
-
 description: Contains information about a data block being received by the server end of a virtual channel.
 old-location: termserv\channel_pdu_header_str.htm
 tech.root: TermServ
 ms.assetid: f980e746-fc05-45e8-af27-6f137ef01bf9
-
 ms.date: 12/05/2018
-ms.keywords: "*PCHANNEL_PDU_HEADER, CHANNEL_FLAG_FIRST, CHANNEL_FLAG_LAST, CHANNEL_FLAG_MIDDLE, CHANNEL_FLAG_ONLY, CHANNEL_PDU_HEADER, CHANNEL_PDU_HEADER structure [Remote Desktop Services], PCHANNEL_PDU_HEADER, PCHANNEL_PDU_HEADER structure pointer [Remote Desktop Services], _win32_channel_pdu_header_str, pchannel/CHANNEL_PDU_HEADER, pchannel/PCHANNEL_PDU_HEADER, termserv.channel_pdu_header_str"
+ms.keywords: '*PCHANNEL_PDU_HEADER, CHANNEL_FLAG_FIRST, CHANNEL_FLAG_LAST, CHANNEL_FLAG_MIDDLE, CHANNEL_FLAG_ONLY, CHANNEL_PDU_HEADER, CHANNEL_PDU_HEADER structure [Remote Desktop Services], PCHANNEL_PDU_HEADER, PCHANNEL_PDU_HEADER structure pointer [Remote Desktop Services], _win32_channel_pdu_header_str, pchannel/CHANNEL_PDU_HEADER, pchannel/PCHANNEL_PDU_HEADER, termserv.channel_pdu_header_str'
 ms.topic: struct
-f1_keywords: 
- - "pchannel/CHANNEL_PDU_HEADER"
+f1_keywords:
+- pchannel/CHANNEL_PDU_HEADER
 dev_langs:
- - c++
+- c++
 req.header: pchannel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Pchannel.h
+- Pchannel.h
 api_name:
- - CHANNEL_PDU_HEADER
+- CHANNEL_PDU_HEADER
 targetos: Windows
 req.typenames: CHANNEL_PDU_HEADER, *PCHANNEL_PDU_HEADER
 req.redist: 

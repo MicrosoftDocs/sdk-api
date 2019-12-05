@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.StartVisualGroup
 title: IFileDialogCustomize::StartVisualGroup (shobjidl_core.h)
-
 description: Declares a visual group in the dialog. Subsequent calls to any &#0034;add&#0034; method add those elements to this group.
 old-location: shell\IFileDialogCustomize_StartVisualGroup.htm
 tech.root: shell
 ms.assetid: 2626c820-3731-474d-9ddb-d2a8966c3d35
-
 ms.date: 12/05/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],StartVisualGroup method, IFileDialogCustomize.StartVisualGroup, IFileDialogCustomize::StartVisualGroup, StartVisualGroup, StartVisualGroup method [Windows Shell], StartVisualGroup method [Windows Shell],IFileDialogCustomize interface, shell.IFileDialogCustomize_StartVisualGroup, shell_IFileDialogCustomize_StartVisualGroup, shobjidl_core/IFileDialogCustomize::StartVisualGroup
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialogCustomize.StartVisualGroup"
+f1_keywords:
+- shobjidl_core/IFileDialogCustomize.StartVisualGroup
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialogCustomize.StartVisualGroup
+- IFileDialogCustomize.StartVisualGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

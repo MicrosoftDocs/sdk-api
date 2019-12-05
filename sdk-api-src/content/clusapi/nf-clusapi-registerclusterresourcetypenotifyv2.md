@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.RegisterClusterResourceTypeNotifyV2
 title: RegisterClusterResourceTypeNotifyV2 function (clusapi.h)
-
 description: Adds a notification type to a cluster notification port.
 old-location: mscs\registerclusterresourcetypenotifyv2.htm
 tech.root: MsCS
 ms.assetid: 2E7DE3C3-F64B-4D5E-ADE9-B7CE60CB0E78
-
 ms.date: 12/05/2018
 ms.keywords: RegisterClusterResourceTypeNotifyV2, RegisterClusterResourceTypeNotifyV2 function [Failover Cluster], clusapi/RegisterClusterResourceTypeNotifyV2, mscs.registerclusterresourcetypenotifyv2
 ms.topic: function
-f1_keywords: 
- - "clusapi/RegisterClusterResourceTypeNotifyV2"
+f1_keywords:
+- clusapi/RegisterClusterResourceTypeNotifyV2
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - RegisterClusterResourceTypeNotifyV2
+- RegisterClusterResourceTypeNotifyV2
 targetos: Windows
 req.typenames: 
 req.redist: 

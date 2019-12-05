@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcRaiseException
 title: RpcRaiseException function (rpcdce.h)
-
 description: Use the RpcRaiseException function to raise an exception. The function does not return to the caller.
 old-location: rpc\rpcraiseexception.htm
 tech.root: Rpc
 ms.assetid: 0bffc62e-a80e-4af1-a17a-ef4f00b9c4da
-
 ms.date: 12/05/2018
 ms.keywords: RpcRaiseException, RpcRaiseException function [RPC], _rpc_rpcraiseexception, rpc.rpcraiseexception, rpcdce/RpcRaiseException
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcRaiseException"
+f1_keywords:
+- rpcdce/RpcRaiseException
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcRaiseException
+- RpcRaiseException
 targetos: Windows
 req.typenames: 
 req.redist: 

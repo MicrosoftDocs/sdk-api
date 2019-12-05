@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector3TransformNormalStream
 title: XMVector3TransformNormalStream function (directxmath.h)
-
 description: Transforms a stream of 3D normal vectors by a given matrix.
 old-location: dxmath\xmvector3transformnormalstream.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector3TransformNormalStream(XMFLOAT3@,size_t,const XMFLOAT3,size_t,size_t,XMMATRIX)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector3TransformNormalStream, XMVector3TransformNormalStream, XMVector3TransformNormalStream method [DirectX Math Support APIs], dxmath.xmvector3transformnormalstream
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector3TransformNormalStream"
+f1_keywords:
+- directxmath/XMVector3TransformNormalStream
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector3TransformNormalStream
+- XMVector3TransformNormalStream
 targetos: Windows
 req.typenames: 
 req.redist: 

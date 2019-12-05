@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxDeviceIds.Remove
 title: IFaxDeviceIds::Remove (faxcomex.h)
-
 description: The IFaxDeviceIds::Remove method removes an item from the FaxDeviceIds collection.
 old-location: fax\_mfax_faxdeviceids_cpp_mfax_faxdeviceids_remove_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4m3p.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxDeviceIds interface [Fax Service],Remove method, IFaxDeviceIds.Remove, IFaxDeviceIds::Remove, Remove, Remove method [Fax Service], Remove method [Fax Service],IFaxDeviceIds interface, _mfax_faxdeviceids.remove, fax._mfax_faxdeviceids_cpp_mfax_faxdeviceids_remove_cpp, fax._mfax_faxdeviceids_remove, faxcomex/IFaxDeviceIds::Remove
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxDeviceIds.Remove"
+f1_keywords:
+- faxcomex/IFaxDeviceIds.Remove
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxDeviceIds.Remove
- - IFaxDeviceIds.Remove
+- IFaxDeviceIds.Remove
+- IFaxDeviceIds.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

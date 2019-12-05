@@ -1,19 +1,17 @@
 ---
 UID: NS:mbnapi.MBN_PROVIDER
 title: MBN_PROVIDER (mbnapi.h)
-
 description: The MBN_PROVIDER structure represents a network service provider.
 old-location: mbn\mbn_provider.htm
 tech.root: mbn
 ms.assetid: f4a02ca2-6be4-4843-a657-5d5dde8be623
-
 ms.date: 12/05/2018
 ms.keywords: MBN_PROVIDER, MBN_PROVIDER structure [Microsoft Broadband Networks], mbn.mbn_provider, mbnapi/MBN_PROVIDER
 ms.topic: struct
-f1_keywords: 
- - "mbnapi/MBN_PROVIDER"
+f1_keywords:
+- mbnapi/MBN_PROVIDER
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - MBN_PROVIDER
+- MBN_PROVIDER
 targetos: Windows
 req.typenames: MBN_PROVIDER
 req.redist: 

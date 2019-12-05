@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.CVssWriterEx2.GetSessionId
 title: CVssWriterEx2::GetSessionId (vswriter.h)
-
 description: Returns the writer's session identifier.
 old-location: base\cvsswriterex2_getsessionid.htm
 tech.root: VSS
 ms.assetid: bea5ba9c-538b-453f-ae6d-12b94b8edeb6
-
 ms.date: 12/05/2018
 ms.keywords: CVssWriterEx2 interface,GetSessionId method, CVssWriterEx2.GetSessionId, CVssWriterEx2::GetSessionId, GetSessionId, GetSessionId method, GetSessionId method,CVssWriterEx2 interface, base.cvsswriterex2_getsessionid, vswriter/CVssWriterEx2::GetSessionId
 ms.topic: method
-f1_keywords: 
- - "vswriter/CVssWriterEx2.GetSessionId"
+f1_keywords:
+- vswriter/CVssWriterEx2.GetSessionId
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - CVssWriterEx2.GetSessionId
+- CVssWriterEx2.GetSessionId
 targetos: Windows
 req.typenames: 
 req.redist: 

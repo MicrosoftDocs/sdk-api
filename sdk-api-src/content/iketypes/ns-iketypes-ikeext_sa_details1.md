@@ -1,19 +1,17 @@
 ---
 UID: NS:iketypes.IKEEXT_SA_DETAILS1_
 title: IKEEXT_SA_DETAILS1 (iketypes.h)
-
 description: Is used to store information returned when enumerating IKE, AuthIP, and IKEv2 security associations (SAs).
 old-location: fwp\ikeext_sa_details1.htm
 tech.root: fwp
 ms.assetid: b4b8767b-399a-49f0-91fd-59c2206742de
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_SA_DETAILS1, IKEEXT_SA_DETAILS1 structure [Filtering], fwp.ikeext_sa_details1, iketypes/IKEEXT_SA_DETAILS1
 ms.topic: struct
-f1_keywords: 
- - "iketypes/IKEEXT_SA_DETAILS1"
+f1_keywords:
+- iketypes/IKEEXT_SA_DETAILS1
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iketypes.h
+- Iketypes.h
 api_name:
- - IKEEXT_SA_DETAILS1
+- IKEEXT_SA_DETAILS1
 targetos: Windows
 req.typenames: IKEEXT_SA_DETAILS1
 req.redist: 

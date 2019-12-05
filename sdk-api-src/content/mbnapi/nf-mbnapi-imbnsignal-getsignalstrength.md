@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnSignal.GetSignalStrength
 title: IMbnSignal::GetSignalStrength (mbnapi.h)
-
 description: Gets the signal strength received by the device.
 old-location: mbn\imbnsignal_getsignalstrength.htm
 tech.root: mbn
 ms.assetid: 9a580232-4cd2-42f4-a6c7-f777d78241b6
-
 ms.date: 12/05/2018
 ms.keywords: GetSignalStrength, GetSignalStrength method [Microsoft Broadband Networks], GetSignalStrength method [Microsoft Broadband Networks],IMbnSignal interface, IMbnSignal interface [Microsoft Broadband Networks],GetSignalStrength method, IMbnSignal.GetSignalStrength, IMbnSignal::GetSignalStrength, mbn.imbnsignal_getsignalstrength, mbnapi/IMbnSignal::GetSignalStrength
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnSignal.GetSignalStrength"
+f1_keywords:
+- mbnapi/IMbnSignal.GetSignalStrength
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnSignal.GetSignalStrength
+- IMbnSignal.GetSignalStrength
 targetos: Windows
 req.typenames: 
 req.redist: 

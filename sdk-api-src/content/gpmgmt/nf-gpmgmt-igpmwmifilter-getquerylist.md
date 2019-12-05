@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMWMIFilter.GetQueryList
 title: IGPMWMIFilter::GetQueryList (gpmgmt.h)
-
 description: Retrieves the query list stored in the WMI filter.
 old-location: gpmc\igpmwmifilter_getquerylist.htm
 tech.root: gpmc
 ms.assetid: ea20dc00-fb6d-44dc-81ad-e9aa2040f3ed
-
 ms.date: 12/05/2018
 ms.keywords: GPMWMIFilter class [GPMC],GetQueryList method, GetQueryList, GetQueryList method [GPMC], GetQueryList method [GPMC],GPMWMIFilter class, GetQueryList method [GPMC],IGPMWMIFilter interface, IGPMWMIFilter interface [GPMC],GetQueryList method, IGPMWMIFilter.GetQueryList, IGPMWMIFilter::GetQueryList, _win32_igpmwmifilter_getquerylist, gpmc.igpmwmifilter_getquerylist, gpmgmt/IGPMWMIFilter::GetQueryList
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMWMIFilter.GetQueryList"
+f1_keywords:
+- gpmgmt/IGPMWMIFilter.GetQueryList
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMWMIFilter.GetQueryList
- - GPMWMIFilter.GetQueryList
+- IGPMWMIFilter.GetQueryList
+- GPMWMIFilter.GetQueryList
 targetos: Windows
 req.typenames: 
 req.redist: 

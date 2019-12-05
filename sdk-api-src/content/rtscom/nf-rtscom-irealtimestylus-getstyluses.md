@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.GetStyluses
 title: IRealTimeStylus::GetStyluses (rtscom.h)
-
 description: Retrieves the collection of styluses the RealTimeStylus Class object has encountered.
 old-location: tablet\irealtimestylus_getstyluses.htm
 tech.root: tablet
 ms.assetid: 1e838591-ce9e-4f3f-9b5e-b8414faac6ba
-
 ms.date: 12/05/2018
 ms.keywords: 1e838591-ce9e-4f3f-9b5e-b8414faac6ba, GetStyluses, GetStyluses method [Tablet PC], GetStyluses method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetStyluses method, IRealTimeStylus.GetStyluses, IRealTimeStylus::GetStyluses, rtscom/IRealTimeStylus::GetStyluses, tablet.irealtimestylus_getstyluses
 ms.topic: method
-f1_keywords: 
- - "rtscom/IRealTimeStylus.GetStyluses"
+f1_keywords:
+- rtscom/IRealTimeStylus.GetStyluses
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IRealTimeStylus.GetStyluses
+- IRealTimeStylus.GetStyluses
 targetos: Windows
 req.typenames: 
 req.redist: 

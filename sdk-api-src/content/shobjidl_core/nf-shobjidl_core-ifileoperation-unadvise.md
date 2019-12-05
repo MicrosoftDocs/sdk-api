@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.Unadvise
 title: IFileOperation::Unadvise (shobjidl_core.h)
-
 description: Terminates an advisory connection previously established through IFileOperation::Advise.
 old-location: shell\IFileOperation_Unadvise.htm
 tech.root: shell
 ms.assetid: 684b3e94-50b9-465e-b4c3-b244fc7209f5
-
 ms.date: 12/05/2018
 ms.keywords: IFileOperation interface [Windows Shell],Unadvise method, IFileOperation.Unadvise, IFileOperation::Unadvise, Unadvise, Unadvise method [Windows Shell], Unadvise method [Windows Shell],IFileOperation interface, _shell_IFileOperation_Unadvise, shell.IFileOperation_Unadvise, shobjidl_core/IFileOperation::Unadvise
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileOperation.Unadvise"
+f1_keywords:
+- shobjidl_core/IFileOperation.Unadvise
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileOperation.Unadvise
+- IFileOperation.Unadvise
 targetos: Windows
 req.typenames: 
 req.redist: 

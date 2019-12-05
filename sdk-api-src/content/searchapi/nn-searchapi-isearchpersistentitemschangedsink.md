@@ -1,19 +1,17 @@
 ---
 UID: NN:searchapi.ISearchPersistentItemsChangedSink
 title: ISearchPersistentItemsChangedSink (searchapi.h)
-
 description: Provides methods for passing change notifications to alert the indexer that items need to be updated.
 old-location: search\_search_ISearchPersistentItemsChangedSink.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchpersistentitemschangedsink\isearchpersistentitemschangedsink.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchPersistentItemsChangedSink, ISearchPersistentItemsChangedSink interface [search], ISearchPersistentItemsChangedSink interface [search],described, _search_ISearchPersistentItemsChangedSink, search._search_ISearchPersistentItemsChangedSink, searchapi/ISearchPersistentItemsChangedSink
 ms.topic: interface
-f1_keywords: 
- - "searchapi/ISearchPersistentItemsChangedSink"
+f1_keywords:
+- searchapi/ISearchPersistentItemsChangedSink
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchPersistentItemsChangedSink
+- ISearchPersistentItemsChangedSink
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

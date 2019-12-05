@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.ITfIntegratableCandidateListUIElement.FinalizeExactCompositionString
 title: ITfIntegratableCandidateListUIElement::FinalizeExactCompositionString (ctffunc.h)
-
 description: Finalizes the current composition with the value currently shown to the user.
 old-location: tsf\itfintegratablecandidatelistuielement_finalizeexactcompositionstring.htm
 tech.root: TSF
 ms.assetid: 1A81C1D7-2D7A-41A0-9DB7-0F30AE610051
-
 ms.date: 12/05/2018
 ms.keywords: FinalizeExactCompositionString, FinalizeExactCompositionString method [Text Services Framework], FinalizeExactCompositionString method [Text Services Framework],ITfIntegratableCandidateListUIElement interface, ITfIntegratableCandidateListUIElement interface [Text Services Framework],FinalizeExactCompositionString method, ITfIntegratableCandidateListUIElement.FinalizeExactCompositionString, ITfIntegratableCandidateListUIElement::FinalizeExactCompositionString, ctffunc/ITfIntegratableCandidateListUIElement::FinalizeExactCompositionString, tsf.itfintegratablecandidatelistuielement_finalizeexactcompositionstring
 ms.topic: method
-f1_keywords: 
- - "ctffunc/ITfIntegratableCandidateListUIElement.FinalizeExactCompositionString"
+f1_keywords:
+- ctffunc/ITfIntegratableCandidateListUIElement.FinalizeExactCompositionString
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ctffunc.h
+- Ctffunc.h
 api_name:
- - ITfIntegratableCandidateListUIElement.FinalizeExactCompositionString
+- ITfIntegratableCandidateListUIElement.FinalizeExactCompositionString
 targetos: Windows
 req.typenames: 
 req.redist: 

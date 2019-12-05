@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFNetProxyLocator
 title: IMFNetProxyLocator (mfidl.h)
-
 description: Determines the proxy to use when connecting to a server.
 old-location: mf\imfnetproxylocator.htm
 tech.root: medfound
 ms.assetid: 2906b998-f1ca-4c65-b810-cbc360390653
-
 ms.date: 12/05/2018
 ms.keywords: 2906b998-f1ca-4c65-b810-cbc360390653, IMFNetProxyLocator, IMFNetProxyLocator interface [Media Foundation], IMFNetProxyLocator interface [Media Foundation],described, mf.imfnetproxylocator, mfidl/IMFNetProxyLocator
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFNetProxyLocator"
+f1_keywords:
+- mfidl/IMFNetProxyLocator
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFNetProxyLocator
+- IMFNetProxyLocator
 targetos: Windows
 req.typenames: 
 req.redist: 

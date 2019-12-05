@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationPrimaryContent.SetSnapPoints
 title: IDirectManipulationPrimaryContent::SetSnapPoints (directmanipulation.h)
-
 description: Specifies the snap points for the inertia rest position.
 old-location: directmanipulation\idirectmanipulationprimarycontent_setsnappoints.htm
 tech.root: directmanipulation
 ms.assetid: 3257952d-903b-455c-9422-9739411a5924
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationPrimaryContent interface [Direct Manipulation],SetSnapPoints method, IDirectManipulationPrimaryContent.SetSnapPoints, IDirectManipulationPrimaryContent::SetSnapPoints, SetSnapPoints, SetSnapPoints method [Direct Manipulation], SetSnapPoints method [Direct Manipulation],IDirectManipulationPrimaryContent interface, directmanipulation.idirectmanipulationprimarycontent_setsnappoints, directmanipulation/IDirectManipulationPrimaryContent::SetSnapPoints
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationPrimaryContent.SetSnapPoints"
+f1_keywords:
+- directmanipulation/IDirectManipulationPrimaryContent.SetSnapPoints
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationPrimaryContent.SetSnapPoints
+- IDirectManipulationPrimaryContent.SetSnapPoints
 targetos: Windows
 req.typenames: 
 req.redist: 

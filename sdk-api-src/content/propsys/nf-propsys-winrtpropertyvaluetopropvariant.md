@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.WinRTPropertyValueToPropVariant
 title: WinRTPropertyValueToPropVariant function (propsys.h)
-
 description: Copies the content from a Windows runtime property value to a PROPVARIANT structure.
 old-location: properties\winrtpropertyvaluetopropvariant.htm
 tech.root: properties
 ms.assetid: 3D6853B0-0A3F-4ACF-9C93-478688DAE9CF
-
 ms.date: 12/05/2018
 ms.keywords: WinRTPropertyValueToPropVariant, WinRTPropertyValueToPropVariant function [Windows Properties], properties.winrtpropertyvaluetopropvariant, propsys/WinRTPropertyValueToPropVariant
 ms.topic: function
-f1_keywords: 
- - "propsys/WinRTPropertyValueToPropVariant"
+f1_keywords:
+- propsys/WinRTPropertyValueToPropVariant
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - WinRTPropertyValueToPropVariant
+- WinRTPropertyValueToPropVariant
 targetos: Windows
 req.typenames: 
 req.redist: 

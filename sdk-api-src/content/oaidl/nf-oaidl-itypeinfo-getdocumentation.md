@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetDocumentation
 title: ITypeInfo::GetDocumentation (oaidl.h)
-
 description: Retrieves the documentation string, the complete Help file name and path, and the context ID for the Help topic for a specified type description.
 old-location: automat\itypeinfo_getdocumentation.htm
 tech.root: automat
 ms.assetid: 64d2cb0c-d0ca-499b-b089-44525f7f9749
-
 ms.date: 12/05/2018
 ms.keywords: GetDocumentation, GetDocumentation method [Automation], GetDocumentation method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetDocumentation method, ITypeInfo.GetDocumentation, ITypeInfo::GetDocumentation, _oa96_ITypeInfo_GetDocumentation, automat.itypeinfo_getdocumentation, oaidl/ITypeInfo::GetDocumentation
 ms.topic: method
-f1_keywords: 
- - "oaidl/ITypeInfo.GetDocumentation"
+f1_keywords:
+- oaidl/ITypeInfo.GetDocumentation
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeInfo.GetDocumentation
+- ITypeInfo.GetDocumentation
 targetos: Windows
 req.typenames: 
 req.redist: 

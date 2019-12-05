@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoder.GetMetadataQueryWriter
 title: IWICBitmapEncoder::GetMetadataQueryWriter (wincodec.h)
-
 description: Retrieves a metadata query writer for the encoder.
 old-location: wic\_wic_codec_iwicbitmapencoder_getmetadataquerywriter.htm
 tech.root: wic
 ms.assetid: 11160c48-dbbe-45b6-864c-6a6713ec9ab5
-
 ms.date: 12/05/2018
 ms.keywords: GetMetadataQueryWriter, GetMetadataQueryWriter method [Windows Imaging Component], GetMetadataQueryWriter method [Windows Imaging Component],IWICBitmapEncoder interface, IWICBitmapEncoder interface [Windows Imaging Component],GetMetadataQueryWriter method, IWICBitmapEncoder.GetMetadataQueryWriter, IWICBitmapEncoder::GetMetadataQueryWriter, _wic_codec_iwicbitmapencoder_getmetadataquerywriter, wic._wic_codec_iwicbitmapencoder_getmetadataquerywriter, wincodec/IWICBitmapEncoder::GetMetadataQueryWriter
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapEncoder.GetMetadataQueryWriter"
+f1_keywords:
+- wincodec/IWICBitmapEncoder.GetMetadataQueryWriter
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapEncoder.GetMetadataQueryWriter
+- IWICBitmapEncoder.GetMetadataQueryWriter
 targetos: Windows
 req.typenames: 
 req.redist: 

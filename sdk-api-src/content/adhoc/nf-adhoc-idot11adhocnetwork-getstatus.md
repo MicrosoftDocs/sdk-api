@@ -1,19 +1,17 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetwork.GetStatus
 title: IDot11AdHocNetwork::GetStatus (adhoc.h)
-
 description: Gets the connection status of the network.
 old-location: nwifi\idot11adhocnetwork_getstatus.htm
 tech.root: NativeWiFi
 ms.assetid: fd627a36-92b7-478b-8fd5-c328b8e54924
-
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [NativeWIFI], GetStatus method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetStatus method, IDot11AdHocNetwork.GetStatus, IDot11AdHocNetwork::GetStatus, adhoc/IDot11AdHocNetwork::GetStatus, nwifi.idot11adhocnetwork_getstatus
 ms.topic: method
-f1_keywords: 
- - "adhoc/IDot11AdHocNetwork.GetStatus"
+f1_keywords:
+- adhoc/IDot11AdHocNetwork.GetStatus
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IDot11AdHocNetwork.GetStatus
+- IDot11AdHocNetwork.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

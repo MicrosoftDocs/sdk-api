@@ -1,7 +1,6 @@
 ---
 UID: NA:dskquota
 ms.assetid: a87db4c7-8a13-3e20-9dbd-1468d67768a3
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

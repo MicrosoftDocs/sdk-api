@@ -1,19 +1,17 @@
 ---
 UID: NF:t2embapi.TTLoadEmbeddedFont
 title: TTLoadEmbeddedFont function (t2embapi.h)
-
 description: Reads an embedded font from the document stream and installs it. Also allows a client to further restrict embedding privileges of the font.
 old-location: gdi\ttloadembeddedfont.htm
 tech.root: gdi
 ms.assetid: 85181d86-bc18-4948-bc7d-65c2d71efefb
-
 ms.date: 12/05/2018
 ms.keywords: EMBED_EDITABLE, EMBED_INSTALLABLE, EMBED_NOEMBEDDING, EMBED_PREVIEWPRINT, LICENSE_DEFAULT, LICENSE_EDITABLE, LICENSE_INSTALLABLE, LICENSE_NOEMBEDDING, LICENSE_PREVIEWPRINT, TTLOAD_FONT_IN_SYSSTARTUP, TTLOAD_FONT_SUBSETTED, TTLOAD_PRIVATE, TTLoadEmbeddedFont, TTLoadEmbeddedFont function [Windows GDI], _win32_TTLoadEmbeddedFont, gdi.ttloadembeddedfont, t2embapi/TTLoadEmbeddedFont
 ms.topic: function
-f1_keywords: 
- - "t2embapi/TTLoadEmbeddedFont"
+f1_keywords:
+- t2embapi/TTLoadEmbeddedFont
 dev_langs:
- - c++
+- c++
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: T2embed.lib
 req.dll: T2embed.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - T2embed.dll
+- T2embed.dll
 api_name:
- - TTLoadEmbeddedFont
+- TTLoadEmbeddedFont
 targetos: Windows
 req.typenames: 
 req.redist: 

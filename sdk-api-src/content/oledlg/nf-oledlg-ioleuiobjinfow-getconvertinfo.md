@@ -1,19 +1,17 @@
 ---
 UID: NF:oledlg.IOleUIObjInfoW.GetConvertInfo
 title: IOleUIObjInfoW::GetConvertInfo (oledlg.h)
-
 description: Gets the conversion information associated with the specified object.
 old-location: com\ioleuiobjinfo_getconvertinfo.htm
 tech.root: com
 ms.assetid: 45416493-7f0b-4bef-b785-513d4f404541
-
 ms.date: 12/05/2018
 ms.keywords: GetConvertInfo, GetConvertInfo method [COM], GetConvertInfo method [COM],IOleUIObjInfo interface, GetConvertInfo method [COM],IOleUIObjInfoA interface, GetConvertInfo method [COM],IOleUIObjInfoW interface, IOleUIObjInfo interface [COM],GetConvertInfo method, IOleUIObjInfo::GetConvertInfo, IOleUIObjInfoA interface [COM],GetConvertInfo method, IOleUIObjInfoA::GetConvertInfo, IOleUIObjInfoW interface [COM],GetConvertInfo method, IOleUIObjInfoW.GetConvertInfo, IOleUIObjInfoW::GetConvertInfo, _ole_IOleUIObjInfo_GetConvertInfo, com.ioleuiobjinfo_getconvertinfo, oledlg/IOleUIObjInfo::GetConvertInfo, oledlg/IOleUIObjInfoA::GetConvertInfo, oledlg/IOleUIObjInfoW::GetConvertInfo
 ms.topic: method
-f1_keywords: 
- - "oledlg/IOleUIObjInfo.GetConvertInfo"
+f1_keywords:
+- oledlg/IOleUIObjInfo.GetConvertInfo
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleDlg.h
+- OleDlg.h
 api_name:
- - IOleUIObjInfo.GetConvertInfo
- - IOleUIObjInfoW.GetConvertInfo
- - IOleUIObjInfoA.GetConvertInfo
+- IOleUIObjInfo.GetConvertInfo
+- IOleUIObjInfoW.GetConvertInfo
+- IOleUIObjInfoA.GetConvertInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

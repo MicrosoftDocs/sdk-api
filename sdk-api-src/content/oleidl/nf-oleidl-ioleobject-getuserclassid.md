@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleObject.GetUserClassID
 title: IOleObject::GetUserClassID (oleidl.h)
-
 description: Retrieves an object's class identifier, the CLSID corresponding to the string identifying the object to an end user.
 old-location: com\ioleobject_getuserclassid.htm
 tech.root: com
 ms.assetid: 4b3c0292-0476-4f56-abd2-2f3a82195c67
-
 ms.date: 12/05/2018
 ms.keywords: GetUserClassID, GetUserClassID method [COM], GetUserClassID method [COM],IOleObject interface, IOleObject interface [COM],GetUserClassID method, IOleObject.GetUserClassID, IOleObject::GetUserClassID, _ole_ioleobject_getuserclassid, com.ioleobject_getuserclassid, oleidl/IOleObject::GetUserClassID
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleObject.GetUserClassID"
+f1_keywords:
+- oleidl/IOleObject.GetUserClassID
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleObject.GetUserClassID
+- IOleObject.GetUserClassID
 targetos: Windows
 req.typenames: 
 req.redist: 

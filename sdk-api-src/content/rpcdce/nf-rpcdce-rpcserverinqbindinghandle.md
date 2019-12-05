@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcServerInqBindingHandle
 title: RpcServerInqBindingHandle function (rpcdce.h)
-
 description: Obtains the binding handle for RPC calls serviced by the thread in which RpcServerInqBindingHandle is called.
 old-location: rpc\rpcserverinqbindinghandle.htm
 tech.root: Rpc
 ms.assetid: 1b5fa031-ce25-4963-9085-df8786eb88d5
-
 ms.date: 12/05/2018
 ms.keywords: RpcServerInqBindingHandle, RpcServerInqBindingHandle function [RPC], rpc.rpcserverinqbindinghandle, rpcdce/RpcServerInqBindingHandle
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcServerInqBindingHandle"
+f1_keywords:
+- rpcdce/RpcServerInqBindingHandle
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcServerInqBindingHandle
+- RpcServerInqBindingHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsController.InvalidateCache
 title: IVdsController::InvalidateCache (vds.h)
-
 description: Invalidates the cache of the controller. All data in the cache is lost.
 old-location: base\ivdscontroller_invalidatecache.htm
 tech.root: VDS
 ms.assetid: 91f77390-02eb-4c5f-a5de-382df608f0df
-
 ms.date: 12/05/2018
 ms.keywords: IVdsController interface [VDS],InvalidateCache method, IVdsController.InvalidateCache, IVdsController::InvalidateCache, InvalidateCache, InvalidateCache method [VDS], InvalidateCache method [VDS],IVdsController interface, base.ivdscontroller_invalidatecache, vds/IVdsController::InvalidateCache, vdshwprv/IVdsController::InvalidateCache
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsController.InvalidateCache"
+f1_keywords:
+- vds/IVdsController.InvalidateCache
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsController.InvalidateCache
+- IVdsController.InvalidateCache
 targetos: Windows
 req.typenames: 
 req.redist: 

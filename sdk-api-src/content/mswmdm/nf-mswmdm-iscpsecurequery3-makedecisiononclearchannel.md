@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.ISCPSecureQuery3.MakeDecisionOnClearChannel
 title: ISCPSecureQuery3::MakeDecisionOnClearChannel (mswmdm.h)
-
 description: The MakeDecisionOnClearChannel method determines whether access to the content is allowed on a clear channel. If access is allowed, this method returns the interface used to access the content.
 old-location: wmdm\iscpsecurequery3_makedecisiononclearchannel.htm
 tech.root: WMDM
 ms.assetid: 63ffa9ec-b8bb-4d5d-b380-e4dbe0fc865a
-
 ms.date: 12/05/2018
 ms.keywords: ISCPSecureQuery3 interface [windows Media Device Manager],MakeDecisionOnClearChannel method, ISCPSecureQuery3.MakeDecisionOnClearChannel, ISCPSecureQuery3::MakeDecisionOnClearChannel, ISCPSecureQuery3MakeDecisionOnClearChannel, MakeDecisionOnClearChannel, MakeDecisionOnClearChannel method [windows Media Device Manager], MakeDecisionOnClearChannel method [windows Media Device Manager],ISCPSecureQuery3 interface, mswmdm/ISCPSecureQuery3::MakeDecisionOnClearChannel, wmdm.iscpsecurequery3_makedecisiononclearchannel
 ms.topic: method
-f1_keywords: 
- - "mswmdm/ISCPSecureQuery3.MakeDecisionOnClearChannel"
+f1_keywords:
+- mswmdm/ISCPSecureQuery3.MakeDecisionOnClearChannel
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - ISCPSecureQuery3.MakeDecisionOnClearChannel
+- ISCPSecureQuery3.MakeDecisionOnClearChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

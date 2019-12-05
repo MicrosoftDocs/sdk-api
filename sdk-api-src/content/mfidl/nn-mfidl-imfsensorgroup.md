@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFSensorGroup
 title: IMFSensorGroup (mfidl.h)
-
 description: Represents a group of sensor devices from which an IMFMediaSource can be created.
 old-location: mf\imfsensorgroup.htm
 tech.root: medfound
 ms.assetid: 7CED3EF6-E844-4B3A-8181-CA44FC4675EC
-
 ms.date: 12/05/2018
 ms.keywords: IMFSensorGroup, IMFSensorGroup interface [Media Foundation], IMFSensorGroup interface [Media Foundation],described, mf.imfsensorgroup, mfidl/IMFSensorGroup
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFSensorGroup"
+f1_keywords:
+- mfidl/IMFSensorGroup
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFSensorGroup
+- IMFSensorGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

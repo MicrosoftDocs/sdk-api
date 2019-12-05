@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPControls3.put_currentAudioLanguageIndex
 title: IWMPControls3::put_currentAudioLanguageIndex (wmp.h)
-
 description: The put_currentAudioLanguageIndex method specifies the one-based index that corresponds to the audio language for playback.
 old-location: wmp\iwmpcontrols3_put_currentaudiolanguageindex.htm
 tech.root: WMP
 ms.assetid: f231ed72-e61d-4754-8ecb-e9a35f4abf2c
-
 ms.date: 12/05/2018
 ms.keywords: IWMPControls3 interface [Windows Media Player],put_currentAudioLanguageIndex method, IWMPControls3.put_currentAudioLanguageIndex, IWMPControls3::put_currentAudioLanguageIndex, IWMPControls3put_currentAudioLanguageIndex, put_currentAudioLanguageIndex, put_currentAudioLanguageIndex method [Windows Media Player], put_currentAudioLanguageIndex method [Windows Media Player],IWMPControls3 interface, wmp.iwmpcontrols3_put_currentaudiolanguageindex, wmp/IWMPControls3::put_currentAudioLanguageIndex
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPControls3.put_currentAudioLanguageIndex"
+f1_keywords:
+- wmp/IWMPControls3.put_currentAudioLanguageIndex
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPControls3.put_currentAudioLanguageIndex
+- IWMPControls3.put_currentAudioLanguageIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

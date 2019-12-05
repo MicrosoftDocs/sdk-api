@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnActivityLoggingConfigChange
 title: _IFaxServerNotify2::OnActivityLoggingConfigChange (faxcomex.h)
-
 description: The fax service calls the IFaxServerNotify2::OnActivityLoggingConfigChange method when there is a configuration change related to activity logging.
 old-location: fax\_mfax_ifaxservernotify2_onactivityloggingconfigchange.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onactivityloggingconfigchange.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnActivityLoggingConfigChange method, IFaxServerNotify2.OnActivityLoggingConfigChange, IFaxServerNotify2::OnActivityLoggingConfigChange, OnActivityLoggingConfigChange, OnActivityLoggingConfigChange method [Fax Service], OnActivityLoggingConfigChange method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnActivityLoggingConfigChange, _IFaxServerNotify2::OnActivityLoggingConfigChange, _mfax_ifaxservernotify2_onactivityloggingconfigchange, fax._mfax_ifaxservernotify2_onactivityloggingconfigchange, faxcomex/IFaxServerNotify2::OnActivityLoggingConfigChange
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxServerNotify2.OnActivityLoggingConfigChange"
+f1_keywords:
+- faxcomex/IFaxServerNotify2.OnActivityLoggingConfigChange
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxServerNotify2.OnActivityLoggingConfigChange
- - IFaxServerNotify2.OnActivityLoggingConfigChange
+- IFaxServerNotify2.OnActivityLoggingConfigChange
+- IFaxServerNotify2.OnActivityLoggingConfigChange
 targetos: Windows
 req.typenames: 
 req.redist: 

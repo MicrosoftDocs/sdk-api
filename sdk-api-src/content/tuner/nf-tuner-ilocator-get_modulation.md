@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ILocator.get_Modulation
 title: ILocator::get_Modulation (tuner.h)
-
 description: The get_Modulation method gets the modulation type.
 old-location: mstv\ilocator_get_modulation.htm
 tech.root: mstv
 ms.assetid: 6aca60fa-ea8d-440d-a037-20537c25a105
-
 ms.date: 12/05/2018
 ms.keywords: ILocator interface [Microsoft TV Technologies],get_Modulation method, ILocator.get_Modulation, ILocator::get_Modulation, ILocatorget_Modulation, get_Modulation, get_Modulation method [Microsoft TV Technologies], get_Modulation method [Microsoft TV Technologies],ILocator interface, mstv.ilocator_get_modulation, tuner/ILocator::get_Modulation
 ms.topic: method
-f1_keywords: 
- - "tuner/ILocator.get_Modulation"
+f1_keywords:
+- tuner/ILocator.get_Modulation
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ILocator.get_Modulation
+- ILocator.get_Modulation
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngineClassFactory.CreateInstance
 title: IMFCaptureEngineClassFactory::CreateInstance (mfcaptureengine.h)
-
 description: Creates an instance of the capture engine.
 old-location: mf\imfcaptureengineclassfactory_createinstance.htm
 tech.root: medfound
 ms.assetid: D5E7D96B-9438-4332-AD05-249D2DA2481A
-
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [Media Foundation], CreateInstance method [Media Foundation],IMFCaptureEngineClassFactory interface, IMFCaptureEngineClassFactory interface [Media Foundation],CreateInstance method, IMFCaptureEngineClassFactory.CreateInstance, IMFCaptureEngineClassFactory::CreateInstance, mf.imfcaptureengineclassfactory_createinstance, mfcaptureengine/IMFCaptureEngineClassFactory::CreateInstance
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureEngineClassFactory.CreateInstance"
+f1_keywords:
+- mfcaptureengine/IMFCaptureEngineClassFactory.CreateInstance
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureEngineClassFactory.CreateInstance
+- IMFCaptureEngineClassFactory.CreateInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetFontWeight
 title: IDWriteTextLayout::SetFontWeight (dwrite.h)
-
 description: Sets the font weight for text within a text range specified by a DWRITE_TEXT_RANGE structure.
 old-location: directwrite\IDWriteTextLayout_SetFontWeight.htm
 tech.root: DirectWrite
 ms.assetid: c6b65548-c486-4006-afe9-95bc628bbf70
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetFontWeight method, IDWriteTextLayout.SetFontWeight, IDWriteTextLayout::SetFontWeight, SetFontWeight, SetFontWeight method [Direct Write], SetFontWeight method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetFontWeight, dwrite/IDWriteTextLayout::SetFontWeight
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextLayout.SetFontWeight"
+f1_keywords:
+- dwrite/IDWriteTextLayout.SetFontWeight
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout.SetFontWeight
+- IDWriteTextLayout.SetFontWeight
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.IRowsetEvents.OnNewItem
 title: IRowsetEvents::OnNewItem (searchapi.h)
-
 description: Called by the indexer to notify clients of a new item that may match some (or all) of the criteria for the client rowset.
 old-location: search\_search_IRowsetEvents_OnNewItem.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetevents\onnewitem.htm
-
 ms.date: 12/05/2018
 ms.keywords: IRowsetEvents interface [search],OnNewItem method, IRowsetEvents.OnNewItem, IRowsetEvents::OnNewItem, OnNewItem, OnNewItem method [search], OnNewItem method [search],IRowsetEvents interface, _search_IRowsetEvents_OnNewItem, search._search_IRowsetEvents_OnNewItem, searchapi/IRowsetEvents::OnNewItem
 ms.topic: method
-f1_keywords: 
- - "searchapi/IRowsetEvents.OnNewItem"
+f1_keywords:
+- searchapi/IRowsetEvents.OnNewItem
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IRowsetEvents.OnNewItem
+- IRowsetEvents.OnNewItem
 targetos: Windows
 req.typenames: 
 req.redist: 

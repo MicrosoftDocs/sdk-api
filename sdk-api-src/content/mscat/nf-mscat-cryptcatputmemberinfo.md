@@ -1,19 +1,17 @@
 ---
 UID: NF:mscat.CryptCATPutMemberInfo
 title: CryptCATPutMemberInfo function (mscat.h)
-
 description: Allocates memory for a catalog member and adds it to the catalog.
 old-location: security\cryptcatputmemberinfo.htm
 tech.root: SecCrypto
 ms.assetid: bfc10577-e32e-4b2e-ad24-1d0a85c6730a
-
 ms.date: 12/05/2018
 ms.keywords: CryptCATPutMemberInfo, CryptCATPutMemberInfo function [Security], mscat/CryptCATPutMemberInfo, security.cryptcatputmemberinfo
 ms.topic: function
-f1_keywords: 
- - "mscat/CryptCATPutMemberInfo"
+f1_keywords:
+- mscat/CryptCATPutMemberInfo
 dev_langs:
- - c++
+- c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wintrust.lib
 req.dll: Wintrust.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wintrust.dll
+- Wintrust.dll
 api_name:
- - CryptCATPutMemberInfo
+- CryptCATPutMemberInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

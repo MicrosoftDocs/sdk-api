@@ -1,19 +1,17 @@
 ---
 UID: NF:pdh.PdhAddEnglishCounterA
 title: PdhAddEnglishCounterA function (pdh.h)
-
 description: Adds the specified language-neutral counter to the query.
 old-location: perf\pdhaddenglishcounter.htm
 tech.root: perfctrs
 ms.assetid: 6a94b40d-0105-4358-93e1-dae603a35cc4
-
 ms.date: 12/05/2018
 ms.keywords: PdhAddEnglishCounter, PdhAddEnglishCounter function [Perf], PdhAddEnglishCounterA, PdhAddEnglishCounterW, pdh/PdhAddEnglishCounter, pdh/PdhAddEnglishCounterA, pdh/PdhAddEnglishCounterW, perf.pdhaddenglishcounter
 ms.topic: function
 f1_keywords:
 - pdh/PdhAddEnglishCounter
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

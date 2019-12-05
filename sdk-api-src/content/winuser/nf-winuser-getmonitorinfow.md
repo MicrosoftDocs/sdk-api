@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetMonitorInfoW
 title: GetMonitorInfoW function (winuser.h)
-
 description: The GetMonitorInfo function retrieves information about a display monitor.
 old-location: gdi\getmonitorinfo.htm
 tech.root: gdi
 ms.assetid: 025a89c2-4bbd-4c8b-8367-3735fb5b872a
-
 ms.date: 12/05/2018
 ms.keywords: GetMonitorInfo, GetMonitorInfo function [Windows GDI], GetMonitorInfoA, GetMonitorInfoW, _win32_GetMonitorInfo, gdi.getmonitorinfo, winuser/GetMonitorInfo, winuser/GetMonitorInfoA, winuser/GetMonitorInfoW
 ms.topic: function
-f1_keywords: 
- - "winuser/GetMonitorInfo"
+f1_keywords:
+- winuser/GetMonitorInfo
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
- - minuser.dll
- - api-ms-win-ntuser-sysparams-l1-1-0.dll
- - Ext-MS-Win-NTUser-SysParams-Ext-L1-1-0.dll
+- user32.dll
+- Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
+- minuser.dll
+- api-ms-win-ntuser-sysparams-l1-1-0.dll
+- Ext-MS-Win-NTUser-SysParams-Ext-L1-1-0.dll
 api_name:
- - GetMonitorInfo
- - GetMonitorInfoA
- - GetMonitorInfoW
+- GetMonitorInfo
+- GetMonitorInfoA
+- GetMonitorInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dskquota.IDiskQuotaUser.GetQuotaLimitText
 title: IDiskQuotaUser::GetQuotaLimitText (dskquota.h)
-
 description: Retrieves the user's quota limit for the volume.
 old-location: fs\idiskquotauser_getquotalimittext.htm
 tech.root: FileIO
 ms.assetid: 2c200aae-dbc5-487c-a3a4-e8dcf50bc0f9
-
 ms.date: 12/05/2018
 ms.keywords: GetQuotaLimitText, GetQuotaLimitText method [Files], GetQuotaLimitText method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetQuotaLimitText method, IDiskQuotaUser.GetQuotaLimitText, IDiskQuotaUser::GetQuotaLimitText, _win32_idiskquotauser_getquotalimittext, base.idiskquotauser_getquotalimittext, dskquota/IDiskQuotaUser::GetQuotaLimitText, fs.idiskquotauser_getquotalimittext
 ms.topic: method
-f1_keywords: 
- - "dskquota/IDiskQuotaUser.GetQuotaLimitText"
+f1_keywords:
+- dskquota/IDiskQuotaUser.GetQuotaLimitText
 dev_langs:
- - c++
+- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dskquota.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dskquota.dll
+- Dskquota.dll
 api_name:
- - IDiskQuotaUser.GetQuotaLimitText
+- IDiskQuotaUser.GetQuotaLimitText
 targetos: Windows
 req.typenames: 
 req.redist: 

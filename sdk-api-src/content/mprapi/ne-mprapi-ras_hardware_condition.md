@@ -1,19 +1,17 @@
 ---
 UID: NE:mprapi._RAS_HARDWARE_CONDITION
 title: RAS_HARDWARE_CONDITION (mprapi.h)
-
 description: The RAS_HARDWARE_CONDITION enumeration type specifies hardware status information about a given RAS port.
 old-location: rras\ras_hardware_condition.htm
 tech.root: RRAS
 ms.assetid: 54a92552-9ad2-4a4a-b177-041157b445cd
-
 ms.date: 12/05/2018
 ms.keywords: RAS_HARDWARE_CONDITION, RAS_HARDWARE_CONDITION enumeration [RAS], RAS_HARDWARE_FAILURE, RAS_HARDWARE_OPERATIONAL, _mpr_ras_hardware_condition, mprapi/RAS_HARDWARE_CONDITION, mprapi/RAS_HARDWARE_FAILURE, mprapi/RAS_HARDWARE_OPERATIONAL, rras.ras_hardware_condition
 ms.topic: enum
-f1_keywords: 
- - "mprapi/RAS_HARDWARE_CONDITION"
+f1_keywords:
+- mprapi/RAS_HARDWARE_CONDITION
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - RAS_HARDWARE_CONDITION
+- RAS_HARDWARE_CONDITION
 targetos: Windows
 req.typenames: RAS_HARDWARE_CONDITION
 req.redist: 

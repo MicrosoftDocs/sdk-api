@@ -1,19 +1,17 @@
 ---
 UID: NE:windows.media.streaming.TransportState
 title: TransportState (windows.media.streaming.h)
-
 description: Defines the available transport states as defined by the UPnP Guidelines.
 old-location: mediastreaming\transportstate.htm
 tech.root: mediastreaming
 ms.assetid: 2F942EAC-514B-4E65-A12F-85558E9A96A0
-
 ms.date: 12/05/2018
 ms.keywords: Last, NoMediaPresent, Paused, Playing, Recording, Stopped, Transitioning, TransportState, TransportState enumeration [Media Streaming API], Unknown, mediastreaming.transportstate, windows/Last, windows/NoMediaPresent, windows/Paused, windows/Playing, windows/Recording, windows/Stopped, windows/Transitioning, windows/TransportState, windows/Unknown
 ms.topic: enum
-f1_keywords: 
- - "windows.media.streaming/TransportState"
+f1_keywords:
+- windows.media.streaming/TransportState
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - windows.media.streaming.h
+- windows.media.streaming.h
 api_name:
- - TransportState
+- TransportState
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingThreadActivity.Provider
 title: TraceLoggingThreadActivity::Provider (traceloggingactivity.h)
-
 description: Returns the handle to the TraceLogging provider associated with this activity.
 old-location: tracelogging\traceloggingthreadactivity_provider.htm
 tech.root: tracelogging
 ms.assetid: 53B0C290-8A1B-4C0A-8EA7-98E26EFF47D1
-
 ms.date: 12/05/2018
 ms.keywords: Provider, Provider method, Provider method,TraceLoggingThreadActivity interface, TraceLoggingThreadActivity interface,Provider method, TraceLoggingThreadActivity.Provider, TraceLoggingThreadActivity::Provider, tracelogging.traceloggingthreadactivity_provider, traceloggingactivity/TraceLoggingThreadActivity::Provider
 ms.topic: method
-f1_keywords: 
- - "traceloggingactivity/TraceLoggingThreadActivity.Provider"
+f1_keywords:
+- traceloggingactivity/TraceLoggingThreadActivity.Provider
 dev_langs:
- - c++
+- c++
 req.header: traceloggingactivity.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - traceloggingactivity.h
+- traceloggingactivity.h
 api_name:
- - TraceLoggingThreadActivity.Provider
+- TraceLoggingThreadActivity.Provider
 targetos: Windows
 req.typenames: 
 req.redist: 

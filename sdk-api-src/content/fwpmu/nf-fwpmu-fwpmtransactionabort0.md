@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmTransactionAbort0
 title: FwpmTransactionAbort0 function (fwpmu.h)
-
 description: Causes the current transaction within the current session to abort and rollback.
 old-location: fwp\fwpmtransactionabort0_func.htm
 tech.root: fwp
 ms.assetid: e2574f0c-1070-4e06-8b75-80fa7ec20acf
-
 ms.date: 12/05/2018
 ms.keywords: FwpmTransactionAbort0, FwpmTransactionAbort0 function [Filtering], fwp.fwpmtransactionabort0_func, fwpmu/FwpmTransactionAbort0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmTransactionAbort0"
+f1_keywords:
+- fwpmu/FwpmTransactionAbort0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmTransactionAbort0
+- FwpmTransactionAbort0
 targetos: Windows
 req.typenames: 
 req.redist: 

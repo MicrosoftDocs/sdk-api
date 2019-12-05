@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterNetworkSink.Open
 title: IWMWriterNetworkSink::Open (wmsdkidl.h)
-
 description: The Open method opens a network port, and starts listening for network connections.
 old-location: wmformat\iwmwriternetworksink_open.htm
 tech.root: wmformat
 ms.assetid: 2cfd4693-794c-46c8-b72d-b7529c63f16e
-
 ms.date: 12/05/2018
 ms.keywords: IWMWriterNetworkSink interface [windows Media Format],Open method, IWMWriterNetworkSink.Open, IWMWriterNetworkSink::Open, IWMWriterNetworkSinkOpen, Open, Open method [windows Media Format], Open method [windows Media Format],IWMWriterNetworkSink interface, wmformat.iwmwriternetworksink_open, wmsdkidl/IWMWriterNetworkSink::Open
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterNetworkSink.Open"
+f1_keywords:
+- wmsdkidl/IWMWriterNetworkSink.Open
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterNetworkSink.Open
+- IWMWriterNetworkSink.Open
 targetos: Windows
 req.typenames: 
 req.redist: 

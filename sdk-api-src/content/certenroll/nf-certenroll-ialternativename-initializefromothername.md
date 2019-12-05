@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IAlternativeName.InitializeFromOtherName
 title: IAlternativeName::InitializeFromOtherName (certenroll.h)
-
 description: Initializes the object from an object identifier (OID) and the associated raw data (byte array).
 old-location: security\ialternativename_initializefromothername_method.htm
 tech.root: seccertenroll
 ms.assetid: cd697085-0e8e-4a18-a7c5-77cd4927f664
-
 ms.date: 12/05/2018
 ms.keywords: IAlternativeName interface [Security],InitializeFromOtherName method, IAlternativeName.InitializeFromOtherName, IAlternativeName::InitializeFromOtherName, InitializeFromOtherName, InitializeFromOtherName method [Security], InitializeFromOtherName method [Security],IAlternativeName interface, certenroll/IAlternativeName::InitializeFromOtherName, security.ialternativename_initializefromothername_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IAlternativeName.InitializeFromOtherName"
+f1_keywords:
+- certenroll/IAlternativeName.InitializeFromOtherName
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IAlternativeName.InitializeFromOtherName
+- IAlternativeName.InitializeFromOtherName
 targetos: Windows
 req.typenames: 
 req.redist: 

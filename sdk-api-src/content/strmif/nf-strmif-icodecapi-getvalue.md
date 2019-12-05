@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.ICodecAPI.GetValue
 title: ICodecAPI::GetValue (strmif.h)
-
 description: The GetValue method gets the current value of a codec property.
 old-location: dshow\icodecapi_getvalue.htm
 tech.root: DirectShow
 ms.assetid: 863ba518-c3c6-47d8-96d8-445a7e4d02aa
-
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [DirectShow], GetValue method [DirectShow],ICodecAPI interface, ICodecAPI interface [DirectShow],GetValue method, ICodecAPI.GetValue, ICodecAPI::GetValue, ICodecAPIGetValue, dshow.icodecapi_getvalue, strmif/ICodecAPI::GetValue
 ms.topic: method
-f1_keywords: 
- - "strmif/ICodecAPI.GetValue"
+f1_keywords:
+- strmif/ICodecAPI.GetValue
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICodecAPI.GetValue
+- ICodecAPI.GetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:gpmgmt.IGPM
 title: IGPM (gpmgmt.h)
-
 description: The IGPM interface provides methods that access other interfaces of the Group Policy Management Console (GPMC) and methods that create other objects on which various search operations can be performed.
 old-location: gpmc\igpm.htm
 tech.root: gpmc
 ms.assetid: 2780760e-7114-46b0-a264-00ed58a556cb
-
 ms.date: 12/05/2018
 ms.keywords: GPM, IGPM, IGPM interface [GPMC], IGPM interface [GPMC],described, _win32_igpm, gpmc.igpm, gpmgmt/IGPM
 ms.topic: interface
-f1_keywords: 
- - "gpmgmt/IGPM"
+f1_keywords:
+- gpmgmt/IGPM
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPM
- - GPM
+- IGPM
+- GPM
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.GetSelectedObjects
 title: IShellFolderView::GetSelectedObjects (shlobj_core.h)
-
 description: Gets an array of the objects in the view that are selected and the number of those objects.
 old-location: shell\IShellFolderView_GetSelectedObjects.htm
 tech.root: shell
 ms.assetid: 9cb41312-a401-4d24-a7a7-7b03478cf684
-
 ms.date: 12/05/2018
 ms.keywords: GetSelectedObjects, GetSelectedObjects method [Windows Shell], GetSelectedObjects method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetSelectedObjects method, IShellFolderView.GetSelectedObjects, IShellFolderView::GetSelectedObjects, _shell_IShellFolderView_GetSelectedObjects, shell.IShellFolderView_GetSelectedObjects, shlobj_core/IShellFolderView::GetSelectedObjects
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IShellFolderView.GetSelectedObjects"
+f1_keywords:
+- shlobj_core/IShellFolderView.GetSelectedObjects
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - IShellFolderView.GetSelectedObjects
+- IShellFolderView.GetSelectedObjects
 targetos: Windows
 req.typenames: 
 req.redist: 

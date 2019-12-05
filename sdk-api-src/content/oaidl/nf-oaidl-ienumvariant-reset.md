@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.IEnumVARIANT.Reset
 title: IEnumVARIANT::Reset (oaidl.h)
-
 description: Resets the enumeration sequence to the beginning.
 old-location: automat\ienumvariant_reset.htm
 tech.root: automat
 ms.assetid: 0c3f0cd7-6bad-4cb7-8b84-d8a212dbadbd
-
 ms.date: 12/05/2018
 ms.keywords: IEnumVARIANT interface [Automation],Reset method, IEnumVARIANT.Reset, IEnumVARIANT::Reset, Reset, Reset method [Automation], Reset method [Automation],IEnumVARIANT interface, _oa96_IEnumVARIANT::Reset, automat.ienumvariant_reset, oaidl/IEnumVARIANT::Reset
 ms.topic: method
-f1_keywords: 
- - "oaidl/IEnumVARIANT.Reset"
+f1_keywords:
+- oaidl/IEnumVARIANT.Reset
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - IEnumVARIANT.Reset
+- IEnumVARIANT.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

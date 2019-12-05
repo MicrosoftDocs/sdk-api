@@ -1,19 +1,17 @@
 ---
 UID: NF:dmoimpl.IMediaObjectImpl.CheckTypesSet
 title: IMediaObjectImpl::CheckTypesSet (dmoimpl.h)
-
 description: The CheckTypesSet method determines whether the media type has been set on all of the streams.
 old-location: dshow\imediaobjectimpl_checktypesset.htm
 tech.root: DirectShow
 ms.assetid: 4dfbd638-00d6-410b-bf81-e343d7ca75d5
-
 ms.date: 12/05/2018
 ms.keywords: CheckTypesSet, CheckTypesSet method [DirectShow], CheckTypesSet method [DirectShow],IMediaObjectImpl interface, IMediaObjectImpl interface [DirectShow],CheckTypesSet method, IMediaObjectImpl.CheckTypesSet, IMediaObjectImpl::CheckTypesSet, IMediaObjectImplCheckTypesSet, dmoimpl/IMediaObjectImpl::CheckTypesSet, dshow.imediaobjectimpl_checktypesset
 ms.topic: method
-f1_keywords: 
- - "dmoimpl/IMediaObjectImpl.CheckTypesSet"
+f1_keywords:
+- dmoimpl/IMediaObjectImpl.CheckTypesSet
 dev_langs:
- - c++
+- c++
 req.header: dmoimpl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Dmoguids.lib; Msdmo.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
- - Msdmo.lib
- - Msdmo.dll
+- Dmoguids.lib
+- Dmoguids.dll
+- Msdmo.lib
+- Msdmo.dll
 api_name:
- - IMediaObjectImpl.CheckTypesSet
+- IMediaObjectImpl.CheckTypesSet
 targetos: Windows
 req.typenames: 
 req.redist: 

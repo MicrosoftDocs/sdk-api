@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataReader.GetCount
 title: IWICMetadataReader::GetCount (wincodecsdk.h)
-
 description: Gets the number of metadata items within the reader.
 old-location: wic\_wic_codec_iwicmetadatareader_getcount.htm
 tech.root: wic
 ms.assetid: ce9b0267-112a-4aa9-8786-272ee4da4d8b
-
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Windows Imaging Component], GetCount method [Windows Imaging Component],IWICMetadataReader interface, IWICMetadataReader interface [Windows Imaging Component],GetCount method, IWICMetadataReader.GetCount, IWICMetadataReader::GetCount, _wic_codec_iwicmetadatareader_getcount, wic._wic_codec_iwicmetadatareader_getcount, wincodecsdk/IWICMetadataReader::GetCount
 ms.topic: method
-f1_keywords: 
- - "wincodecsdk/IWICMetadataReader.GetCount"
+f1_keywords:
+- wincodecsdk/IWICMetadataReader.GetCount
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICMetadataReader.GetCount
+- IWICMetadataReader.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

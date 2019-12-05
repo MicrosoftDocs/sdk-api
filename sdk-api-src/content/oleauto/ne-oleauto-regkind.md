@@ -1,19 +1,17 @@
 ---
 UID: NE:oleauto.tagREGKIND
 title: REGKIND (oleauto.h)
-
 description: Controls how a type library is registered.
 old-location: automat\regkind.htm
 tech.root: automat
 ms.assetid: 2ca13d58-59d2-4e5d-8094-9f1c03bf463c
-
 ms.date: 12/05/2018
 ms.keywords: REGKIND, REGKIND enumeration [Automation], REGKIND_DEFAULT, REGKIND_NONE, REGKIND_REGISTER, _oa96_REGKIND, automat.regkind, oleauto/REGKIND, oleauto/REGKIND_DEFAULT, oleauto/REGKIND_NONE, oleauto/REGKIND_REGISTER
 ms.topic: enum
-f1_keywords: 
- - "oleauto/REGKIND"
+f1_keywords:
+- oleauto/REGKIND
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OleAuto.h
+- OleAuto.h
 api_name:
- - REGKIND
+- REGKIND
 targetos: Windows
 req.typenames: REGKIND
 req.redist: 

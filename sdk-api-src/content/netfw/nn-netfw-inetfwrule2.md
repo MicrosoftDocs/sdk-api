@@ -1,19 +1,17 @@
 ---
 UID: NN:netfw.INetFwRule2
 title: INetFwRule2 (netfw.h)
-
 description: Allows an application or service to access all the properties of INetFwRule as well as the four edge properties of a firewall rule specified by NET_FW_EDGE_TRAVERSAL_TYPE.
 old-location: ics\inetfwrule2.htm
 tech.root: ics
 ms.assetid: 35c28180-b60c-4dc1-81ce-0ce012f96525
-
 ms.date: 12/05/2018
 ms.keywords: INetFwRule2, INetFwRule2 interface [ICS/ICF], INetFwRule2 interface [ICS/ICF],described, ics.inetfwrule2, netfw/INetFwRule2
 ms.topic: interface
-f1_keywords: 
- - "netfw/INetFwRule2"
+f1_keywords:
+- netfw/INetFwRule2
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwRule2
+- INetFwRule2
 targetos: Windows
 req.typenames: 
 req.redist: 

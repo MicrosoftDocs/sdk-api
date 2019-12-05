@@ -1,19 +1,17 @@
 ---
 UID: NE:filter.tagIFILTER_FLAGS
 title: IFILTER_FLAGS (filter.h)
-
 description: Indicates whether the caller should use the IPropertySetStorage and IPropertyStorage interfaces to locate additional properties.
 old-location: indexsrv\ifilter_flags.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_0j03.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFILTER_FLAGS, IFILTER_FLAGS enumeration [Indexing Service], IFILTER_FLAGS_OLE_PROPERTIES, _idxs_IFILTER_FLAGS, filter/IFILTER_FLAGS, filter/IFILTER_FLAGS_OLE_PROPERTIES, indexsrv.ifilter_flags, tagIFILTER_FLAGS
 ms.topic: enum
-f1_keywords: 
- - "filter/IFILTER_FLAGS"
+f1_keywords:
+- filter/IFILTER_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: filter.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Filter.h
+- Filter.h
 api_name:
- - IFILTER_FLAGS
+- IFILTER_FLAGS
 targetos: Windows
 req.typenames: IFILTER_FLAGS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHGetSpecialFolderLocation
 title: SHGetSpecialFolderLocation function (shlobj_core.h)
-
 description: SHGetSpecialFolderLocation is not supported and may be altered or unavailable in the future. Instead, use SHGetFolderLocation.
 old-location: shell\SHGetSpecialFolderLocation.htm
 tech.root: shell
 ms.assetid: 10b00497-fc3b-4e34-acd8-bc0721c0dc05
-
 ms.date: 12/05/2018
 ms.keywords: SHGetSpecialFolderLocation, SHGetSpecialFolderLocation function [Windows Shell], _win32_SHGetSpecialFolderLocation, _win32_SHGetSpecialFolderLocation_cpp, shell.SHGetSpecialFolderLocation, shlobj_core/SHGetSpecialFolderLocation
 ms.topic: function
 f1_keywords:
 - shlobj_core/SHGetSpecialFolderLocation
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

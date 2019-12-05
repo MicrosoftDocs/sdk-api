@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspStatuses.Remove
 title: ICspStatuses::Remove (certenroll.h)
-
 description: Removes an ICspStatus object from the collection by index number.
 old-location: security\icspstatuses_remove_method.htm
 tech.root: seccertenroll
 ms.assetid: de8a2598-6108-41af-b049-3b981d880e80
-
 ms.date: 12/05/2018
 ms.keywords: ICspStatuses interface [Security],Remove method, ICspStatuses.Remove, ICspStatuses::Remove, Remove, Remove method [Security], Remove method [Security],ICspStatuses interface, certenroll/ICspStatuses::Remove, security.icspstatuses_remove_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspStatuses.Remove"
+f1_keywords:
+- certenroll/ICspStatuses.Remove
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspStatuses.Remove
+- ICspStatuses.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

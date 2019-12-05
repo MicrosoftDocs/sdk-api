@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.FSCTL_SET_OBJECT_ID_EXTENDED
 title: FSCTL_SET_OBJECT_ID_EXTENDED
-
 description: Modifies user data associated with the object identifier for the specified file or directory.
 old-location: fs\fsctl_set_object_id_extended.htm
 tech.root: FileIO
 ms.assetid: e17dc58f-3fa7-4069-b8ec-16331438b832
-
 ms.date: 12/05/2018
 ms.keywords: FSCTL_SET_OBJECT_ID_EXTENDED, FSCTL_SET_OBJECT_ID_EXTENDED control, FSCTL_SET_OBJECT_ID_EXTENDED control code [Files], _win32_fsctl_set_object_id_extended, base.fsctl_set_object_id_extended, fs.fsctl_set_object_id_extended, winioctl/FSCTL_SET_OBJECT_ID_EXTENDED
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_SET_OBJECT_ID_EXTENDED
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:threadpoollegacyapiset.DeleteTimerQueueEx
 title: DeleteTimerQueueEx function (threadpoollegacyapiset.h)
-
 description: Deletes a timer queue. Any pending timers in the queue are canceled and deleted.
 old-location: base\deletetimerqueueex.htm
 tech.root: Sync
 ms.assetid: 782f85df-b176-4bff-a048-d7fcdd8196b0
-
 ms.date: 12/05/2018
 ms.keywords: DeleteTimerQueueEx, DeleteTimerQueueEx function, _win32_deletetimerqueueex, base.deletetimerqueueex, threadpoollegacyapiset/DeleteTimerQueueEx, winbase/DeleteTimerQueueEx
 ms.topic: function
-f1_keywords: 
- - "threadpoollegacyapiset/DeleteTimerQueueEx"
+f1_keywords:
+- threadpoollegacyapiset/DeleteTimerQueueEx
 dev_langs:
- - c++
+- c++
 req.header: threadpoollegacyapiset.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-threadpool-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-threadpool-legacy-l1-1-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-threadpool-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-threadpool-legacy-l1-1-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - DeleteTimerQueueEx
+- DeleteTimerQueueEx
 targetos: Windows
 req.typenames: 
 req.redist: 

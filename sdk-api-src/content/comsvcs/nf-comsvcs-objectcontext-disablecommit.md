@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ObjectContext.DisableCommit
 title: ObjectContext::DisableCommit (comsvcs.h)
-
 description: Declares that the object's transactional updates are inconsistent and cannot be committed in their present state.
 old-location: cos\objectcontext_disablecommit.htm
 tech.root: cossdk
 ms.assetid: cf0e59d9-2760-445e-aa7d-8c2b78457181
-
 ms.date: 12/05/2018
 ms.keywords: DisableCommit, DisableCommit method [COM+], DisableCommit method [COM+],ObjectContext interface, ObjectContext interface [COM+],DisableCommit method, ObjectContext.DisableCommit, ObjectContext::DisableCommit, _cos_ObjectContext_DisableCommit, comsvcs/ObjectContext::DisableCommit, cos.objectcontext_disablecommit
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ObjectContext.DisableCommit"
+f1_keywords:
+- comsvcs/ObjectContext.DisableCommit
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ObjectContext.DisableCommit
+- ObjectContext.DisableCommit
 targetos: Windows
 req.typenames: 
 req.redist: 

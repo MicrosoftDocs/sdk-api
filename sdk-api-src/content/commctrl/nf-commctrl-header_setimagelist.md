@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.Header_SetImageList
 title: Header_SetImageList macro (commctrl.h)
-
 description: Assigns an image list to an existing header control. You can use this macro or send the HDM_SETIMAGELIST message explicitly.
 old-location: controls\Header_SetImageList.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setimagelist.htm
-
 ms.date: 12/05/2018
 ms.keywords: Header_SetImageList, Header_SetImageList macro [Windows Controls], _win32_Header_SetImageList, _win32_Header_SetImageList_cpp, commctrl/Header_SetImageList, controls.Header_SetImageList, controls._win32_Header_SetImageList
 ms.topic: macro
-f1_keywords: 
- - "commctrl/Header_SetImageList"
+f1_keywords:
+- commctrl/Header_SetImageList
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - Header_SetImageList
+- Header_SetImageList
 targetos: Windows
 req.typenames: 
 req.redist: 

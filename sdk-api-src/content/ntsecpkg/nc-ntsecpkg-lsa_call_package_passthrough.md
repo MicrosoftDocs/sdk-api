@@ -1,19 +1,17 @@
 ---
 UID: NC:ntsecpkg.LSA_CALL_PACKAGE_PASSTHROUGH
 title: LSA_CALL_PACKAGE_PASSTHROUGH (ntsecpkg.h)
-
 description: The CallPackagePassthrough function is used to call another security package to access its services.
 old-location: security\callpackagepassthrough.htm
 tech.root: SecAuthN
 ms.assetid: 622856ca-f49e-4995-bead-7b02501a84e5
-
 ms.date: 12/05/2018
 ms.keywords: CallPackagePassthrough, CallPackagePassthrough callback function [Security], LSA_CALL_PACKAGE_PASSTHROUGH, LSA_CALL_PACKAGE_PASSTHROUGH callback, _ssp_callpackagepassthrough, ntsecpkg/CallPackagePassthrough, security.callpackagepassthrough
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/CallPackagePassthrough
 dev_langs:
- - c++
+- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

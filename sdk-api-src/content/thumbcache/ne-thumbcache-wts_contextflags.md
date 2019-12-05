@@ -1,19 +1,17 @@
 ---
 UID: NE:thumbcache.WTS_CONTEXTFLAGS
 title: WTS_CONTEXTFLAGS (thumbcache.h)
-
 description: Specifies the context of a thumbnail extraction. Used by IThumbnailSettings::SetContext.
 old-location: shell\WTS_CONTEXTFLAGS.htm
 tech.root: shell
 ms.assetid: 062B148E-19FB-4bcd-82CE-669B2ACD0BF6
-
 ms.date: 12/05/2018
 ms.keywords: WTSCF_APPSTYLE, WTSCF_DEFAULT, WTSCF_FAST, WTSCF_SQUARE, WTSCF_WIDE, WTS_CONTEXTFLAGS, WTS_CONTEXTFLAGS enumeration [Windows Shell], shell.WTS_CONTEXTFLAGS, thumbcache/WTSCF_APPSTYLE, thumbcache/WTSCF_DEFAULT, thumbcache/WTSCF_FAST, thumbcache/WTSCF_SQUARE, thumbcache/WTSCF_WIDE, thumbcache/WTS_CONTEXTFLAGS
 ms.topic: enum
-f1_keywords: 
- - "thumbcache/WTS_CONTEXTFLAGS"
+f1_keywords:
+- thumbcache/WTS_CONTEXTFLAGS
 dev_langs:
- - c++
+- c++
 req.header: thumbcache.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Thumbcache.h
+- Thumbcache.h
 api_name:
- - WTS_CONTEXTFLAGS
+- WTS_CONTEXTFLAGS
 targetos: Windows
 req.typenames: WTS_CONTEXTFLAGS
 req.redist: 

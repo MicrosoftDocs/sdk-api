@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbTerrestrialDeliverySystemDescriptor.GetTransmissionMode
 title: IIsdbTerrestrialDeliverySystemDescriptor::GetTransmissionMode (dvbsiparser.h)
-
 description: Gets the transmission mode from an Integrated Services Digital Broadcasting (ISDB) terrestrial delivery system descriptor.
 old-location: mstv\iisdbterrestrialdeliverysystemdescriptor_gettransmissionmode.htm
 tech.root: mstv
 ms.assetid: d7f4659f-0aa6-46a6-a352-da801d132866
-
 ms.date: 12/05/2018
 ms.keywords: GetTransmissionMode, GetTransmissionMode method [Microsoft TV Technologies], GetTransmissionMode method [Microsoft TV Technologies],IIsdbTerrestrialDeliverySystemDescriptor interface, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetTransmissionMode method, IIsdbTerrestrialDeliverySystemDescriptor.GetTransmissionMode, IIsdbTerrestrialDeliverySystemDescriptor::GetTransmissionMode, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetTransmissionMode, mstv.iisdbterrestrialdeliverysystemdescriptor_gettransmissionmode
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor.GetTransmissionMode"
+f1_keywords:
+- dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor.GetTransmissionMode
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbTerrestrialDeliverySystemDescriptor.GetTransmissionMode
+- IIsdbTerrestrialDeliverySystemDescriptor.GetTransmissionMode
 targetos: Windows
 req.typenames: 
 req.redist: 

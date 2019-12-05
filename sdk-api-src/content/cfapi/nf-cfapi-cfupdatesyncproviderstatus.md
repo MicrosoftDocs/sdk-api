@@ -1,19 +1,17 @@
 ---
 UID: NF:cfapi.CfUpdateSyncProviderStatus
 title: CfUpdateSyncProviderStatus function (cfapi.h)
-
 description: Updates the current status of the sync provider.
 old-location: cloudapi\cfupdatesyncproviderstatus.htm
 tech.root: cfApi
 ms.assetid: E0CB6CA2-439A-4919-95EF-B519ABBBB085
-
 ms.date: 12/05/2018
 ms.keywords: CfUpdateSyncProviderStatus, CfUpdateSyncProviderStatus function, cfapi/CfUpdateSyncProviderStatus, cloudApi.cfupdatesyncproviderstatus
 ms.topic: function
-f1_keywords: 
- - "cfapi/CfUpdateSyncProviderStatus"
+f1_keywords:
+- cfapi/CfUpdateSyncProviderStatus
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CldApi.dll
+- CldApi.dll
 api_name:
- - CfUpdateSyncProviderStatus
+- CfUpdateSyncProviderStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

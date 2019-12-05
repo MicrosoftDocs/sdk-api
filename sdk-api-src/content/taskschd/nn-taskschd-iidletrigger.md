@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.IIdleTrigger
 title: IIdleTrigger (taskschd.h)
-
 description: Represents a trigger that starts a task when the computer goes into an idle state.
 old-location: taskschd\iidletrigger.htm
 tech.root: taskschd
 ms.assetid: aca5305f-68fc-4211-9f71-3f572340e94d
-
 ms.date: 12/05/2018
 ms.keywords: IIdleTrigger, IIdleTrigger interface [Task Scheduler], IIdleTrigger interface [Task Scheduler],described, idle trigger [Task Scheduler],interface, taskschd.iidletrigger, taskschd/IIdleTrigger
 ms.topic: interface
-f1_keywords: 
- - "taskschd/IIdleTrigger"
+f1_keywords:
+- taskschd/IIdleTrigger
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IIdleTrigger
+- IIdleTrigger
 targetos: Windows
 req.typenames: 
 req.redist: 

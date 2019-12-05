@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.PushEmptyRetrievalFilter
 title: ID3D12InfoQueue::PushEmptyRetrievalFilter (d3d12sdklayers.h)
-
 description: Push an empty retrieval filter onto the retrieval-filter stack.
 old-location: direct3d12\id3d12infoqueue_pushemptyretrievalfilter.htm
 tech.root: direct3d12
 ms.assetid: FE5B0EA4-F4A9-41AF-A63C-A75FF42DF25E
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12InfoQueue interface,PushEmptyRetrievalFilter method, ID3D12InfoQueue.PushEmptyRetrievalFilter, ID3D12InfoQueue::PushEmptyRetrievalFilter, PushEmptyRetrievalFilter, PushEmptyRetrievalFilter method, PushEmptyRetrievalFilter method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::PushEmptyRetrievalFilter, direct3d12.id3d12infoqueue_pushemptyretrievalfilter
 ms.topic: method
-f1_keywords: 
- - "d3d12sdklayers/ID3D12InfoQueue.PushEmptyRetrievalFilter"
+f1_keywords:
+- d3d12sdklayers/ID3D12InfoQueue.PushEmptyRetrievalFilter
 dev_langs:
- - c++
+- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12sdklayers.h
+- d3d12sdklayers.h
 api_name:
- - ID3D12InfoQueue.PushEmptyRetrievalFilter
+- ID3D12InfoQueue.PushEmptyRetrievalFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

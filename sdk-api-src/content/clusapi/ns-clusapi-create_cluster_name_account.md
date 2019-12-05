@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi._CREATE_CLUSTER_NAME_ACCOUNT
 title: CREATE_CLUSTER_NAME_ACCOUNT (clusapi.h)
-
 description: Describes a cluster name resource and domain credentials used by the CreateClusterNameAccount function to add a cluster to a domain. PCREATE_CLUSTER_NAME_ACCOUNT defines a pointer to this structure.
 old-location: mscs\create_cluster_name_account.htm
 tech.root: MsCS
 ms.assetid: 21D43B28-0B14-4A00-BDEE-B2B769BF9777
-
 ms.date: 12/05/2018
-ms.keywords: "*PCREATE_CLUSTER_NAME_ACCOUNT, CREATE_CLUSTER_NAME_ACCOUNT, CREATE_CLUSTER_NAME_ACCOUNT structure [Failover Cluster], PCREATE_CLUSTER_NAME_ACCOUNT, PCREATE_CLUSTER_NAME_ACCOUNT structure pointer [Failover Cluster], clusapi/CREATE_CLUSTER_NAME_ACCOUNT, clusapi/PCREATE_CLUSTER_NAME_ACCOUNT, mscs.create_cluster_name_account"
+ms.keywords: '*PCREATE_CLUSTER_NAME_ACCOUNT, CREATE_CLUSTER_NAME_ACCOUNT, CREATE_CLUSTER_NAME_ACCOUNT structure [Failover Cluster], PCREATE_CLUSTER_NAME_ACCOUNT, PCREATE_CLUSTER_NAME_ACCOUNT structure pointer [Failover Cluster], clusapi/CREATE_CLUSTER_NAME_ACCOUNT, clusapi/PCREATE_CLUSTER_NAME_ACCOUNT, mscs.create_cluster_name_account'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/CREATE_CLUSTER_NAME_ACCOUNT"
+f1_keywords:
+- clusapi/CREATE_CLUSTER_NAME_ACCOUNT
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CREATE_CLUSTER_NAME_ACCOUNT
+- CREATE_CLUSTER_NAME_ACCOUNT
 targetos: Windows
 req.typenames: CREATE_CLUSTER_NAME_ACCOUNT, *PCREATE_CLUSTER_NAME_ACCOUNT
 req.redist: 

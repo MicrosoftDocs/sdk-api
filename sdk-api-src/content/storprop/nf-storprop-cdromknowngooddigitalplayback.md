@@ -1,19 +1,17 @@
 ---
 UID: NF:storprop.CdromKnownGoodDigitalPlayback
 title: CdromKnownGoodDigitalPlayback function (storprop.h)
-
 description: Determines whether the specified CD-ROM or DVD drive has digital playback that is known to be good.
 old-location: base\cdromknowngooddigitalplayback.htm
 tech.root: devio
 ms.assetid: df242729-2082-4608-bd73-4c8d215a09ea
-
 ms.date: 12/05/2018
 ms.keywords: CdromKnownGoodDigitalPlayback, CdromKnownGoodDigitalPlayback function, base.cdromknowngooddigitalplayback, storprop/CdromKnownGoodDigitalPlayback
 ms.topic: function
-f1_keywords: 
- - "storprop/CdromKnownGoodDigitalPlayback"
+f1_keywords:
+- storprop/CdromKnownGoodDigitalPlayback
 dev_langs:
- - c++
+- c++
 req.header: storprop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Storprop.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Storprop.dll
+- Storprop.dll
 api_name:
- - CdromKnownGoodDigitalPlayback
+- CdromKnownGoodDigitalPlayback
 targetos: Windows
 req.typenames: 
 req.redist: 

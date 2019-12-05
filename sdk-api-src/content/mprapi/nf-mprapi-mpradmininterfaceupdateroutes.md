@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceUpdateRoutes
 title: MprAdminInterfaceUpdateRoutes function (mprapi.h)
-
 description: The MprAdminInterfaceUpdateRoutes function requests a specified router manager to update its routing information for a specified interface.
 old-location: rras\mpradmininterfaceupdateroutes.htm
 tech.root: RRAS
 ms.assetid: b06ce009-c52f-4d3b-a452-785c75638c89
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceUpdateRoutes, MprAdminInterfaceUpdateRoutes function [RAS], _mpr_mpradmininterfaceupdateroutes, mprapi/MprAdminInterfaceUpdateRoutes, rras.mpradmininterfaceupdateroutes
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminInterfaceUpdateRoutes"
+f1_keywords:
+- mprapi/MprAdminInterfaceUpdateRoutes
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminInterfaceUpdateRoutes
+- MprAdminInterfaceUpdateRoutes
 targetos: Windows
 req.typenames: 
 req.redist: 

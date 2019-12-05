@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterRegCloseKey
 title: ClusterRegCloseKey function (clusapi.h)
-
 description: Releases the handle of a cluster database key.
 old-location: mscs\clusterregclosekey.htm
 tech.root: MsCS
 ms.assetid: 2216ac42-6beb-4ceb-bd15-12bb2886bc6a
-
 ms.date: 12/05/2018
 ms.keywords: ClusterRegCloseKey, ClusterRegCloseKey function [Failover Cluster], _wolf_clusterregclosekey, clusapi/ClusterRegCloseKey, mscs.clusterregclosekey
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterRegCloseKey"
+f1_keywords:
+- clusapi/ClusterRegCloseKey
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
- - ext-ms-win-cluster-clusapi-l1-1-3.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ext-ms-win-cluster-clusapi-l1-1-3.dll
 api_name:
- - ClusterRegCloseKey
+- ClusterRegCloseKey
 targetos: Windows
 req.typenames: 
 req.redist: 

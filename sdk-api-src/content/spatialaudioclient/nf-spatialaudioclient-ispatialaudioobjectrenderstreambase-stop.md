@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectRenderStreamBase.Stop
 title: ISpatialAudioObjectRenderStreamBase::Stop (spatialaudioclient.h)
-
 description: Stops a running audio stream.
 old-location: coreaudio\ispatialaudioobjectrenderstream_stop.htm
 tech.root: CoreAudio
 ms.assetid: 6ECD17AB-C37D-4F4E-9D7F-EC48FC3B838C
-
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectRenderStreamBase interface [Core Audio],Stop method, ISpatialAudioObjectRenderStreamBase.Stop, ISpatialAudioObjectRenderStreamBase::Stop, Stop, Stop method [Core Audio], Stop method [Core Audio],ISpatialAudioObjectRenderStreamBase interface, coreaudio.ispatialaudioobjectrenderstream_stop, spatialaudioclient/ISpatialAudioObjectRenderStreamBase::Stop
 ms.topic: method
-f1_keywords: 
- - "spatialaudioclient/ISpatialAudioObjectRenderStreamBase.Stop"
+f1_keywords:
+- spatialaudioclient/ISpatialAudioObjectRenderStreamBase.Stop
 dev_langs:
- - c++
+- c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spatialaudioclient.h
+- spatialaudioclient.h
 api_name:
- - ISpatialAudioObjectRenderStreamBase.Stop
+- ISpatialAudioObjectRenderStreamBase.Stop
 targetos: Windows
 req.typenames: 
 req.redist: 

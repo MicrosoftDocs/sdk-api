@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.SetDirectDraw
 title: IDirectDrawVideo::SetDirectDraw (amvideo.h)
-
 description: The SetDirectDraw method passes the IDirectDraw interface to a loaded driver.
 old-location: dshow\idirectdrawvideo_setdirectdraw.htm
 tech.root: DirectShow
 ms.assetid: fd7b9571-2edb-4f36-b7a3-b280c37cb471
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],SetDirectDraw method, IDirectDrawVideo.SetDirectDraw, IDirectDrawVideo::SetDirectDraw, IDirectDrawVideoSetDirectDraw, SetDirectDraw, SetDirectDraw method [DirectShow], SetDirectDraw method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::SetDirectDraw, dshow.idirectdrawvideo_setdirectdraw
 ms.topic: method
-f1_keywords: 
- - "amvideo/IDirectDrawVideo.SetDirectDraw"
+f1_keywords:
+- amvideo/IDirectDrawVideo.SetDirectDraw
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDirectDrawVideo.SetDirectDraw
+- IDirectDrawVideo.SetDirectDraw
 targetos: Windows
 req.typenames: 
 req.redist: 

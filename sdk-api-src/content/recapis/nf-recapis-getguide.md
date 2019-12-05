@@ -1,19 +1,17 @@
 ---
 UID: NF:recapis.GetGuide
 title: GetGuide function (recapis.h)
-
 description: Retrieves the guide used for boxed, lined, or freeform input.
 old-location: tablet\getguide.htm
 tech.root: tablet
 ms.assetid: b86d6266-cce3-4f84-80b6-7d136172b3ca
-
 ms.date: 12/05/2018
 ms.keywords: GetGuide, GetGuide function [Tablet PC], b86d6266-cce3-4f84-80b6-7d136172b3ca, recapis/GetGuide, tablet.getguide
 ms.topic: function
-f1_keywords: 
- - "recapis/GetGuide"
+f1_keywords:
+- recapis/GetGuide
 dev_langs:
- - c++
+- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - recapis.h
+- recapis.h
 api_name:
- - GetGuide
+- GetGuide
 targetos: Windows
 req.typenames: 
 req.redist: 

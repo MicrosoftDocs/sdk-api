@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.Save
 title: IFaxConfiguration::Save (faxcomex.h)
-
 description: Saves the object.
 old-location: fax\_mfax_IFaxConfiguration_Save.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\save.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxConfiguration interface [Fax Service],Save method, IFaxConfiguration.Save, IFaxConfiguration::Save, Save, Save method [Fax Service], Save method [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_Save, fax._mfax_IFaxConfiguration_Save, faxcomex/IFaxConfiguration::Save
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxConfiguration.Save"
+f1_keywords:
+- faxcomex/IFaxConfiguration.Save
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxConfiguration.Save
+- IFaxConfiguration.Save
 targetos: Windows
 req.typenames: 
 req.redist: 

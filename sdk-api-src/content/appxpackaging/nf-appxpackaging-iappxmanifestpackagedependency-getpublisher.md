@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageDependency.GetPublisher
 title: IAppxManifestPackageDependency::GetPublisher (appxpackaging.h)
-
 description: Gets the name of the publisher that produced the package on which the current package depends.
 old-location: appxpkg\iappxmanifestpackagedependency_getpublisher.htm
 tech.root: appxpkg
 ms.assetid: 0E307900-EA2F-44A4-A379-3192A234E399
-
 ms.date: 12/05/2018
 ms.keywords: GetPublisher, GetPublisher method [App packaging and management], GetPublisher method [App packaging and management],IAppxManifestPackageDependency interface, IAppxManifestPackageDependency interface [App packaging and management],GetPublisher method, IAppxManifestPackageDependency.GetPublisher, IAppxManifestPackageDependency::GetPublisher, appxpackaging/IAppxManifestPackageDependency::GetPublisher, appxpkg.iappxmanifestpackagedependency_getpublisher
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxManifestPackageDependency.GetPublisher"
+f1_keywords:
+- appxpackaging/IAppxManifestPackageDependency.GetPublisher
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestPackageDependency.GetPublisher
+- IAppxManifestPackageDependency.GetPublisher
 targetos: Windows
 req.typenames: 
 req.redist: 

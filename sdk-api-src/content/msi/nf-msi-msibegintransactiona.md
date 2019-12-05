@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiBeginTransactionA
 title: MsiBeginTransactionA function (msi.h)
-
 description: The MsiBeginTransaction function starts transaction processing of a multiple-package installation and returns an identifier for the transaction.
 old-location: setup\msibegintransaction.htm
 tech.root: Msi
 ms.assetid: 05904e58-b24d-4d2c-8b59-a66ad71b494a
-
 ms.date: 12/05/2018
 ms.keywords: MsiBeginTransaction, MsiBeginTransaction function [Setup API], MsiBeginTransactionA, MsiBeginTransactionW, msi/MsiBeginTransaction, msi/MsiBeginTransactionA, msi/MsiBeginTransactionW, setup.msibegintransaction
 ms.topic: function
-f1_keywords: 
- - "msi/MsiBeginTransaction"
+f1_keywords:
+- msi/MsiBeginTransaction
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiBeginTransaction
- - MsiBeginTransactionA
- - MsiBeginTransactionW
+- MsiBeginTransaction
+- MsiBeginTransactionA
+- MsiBeginTransactionW
 targetos: Windows
 req.typenames: 
 req.redist: 

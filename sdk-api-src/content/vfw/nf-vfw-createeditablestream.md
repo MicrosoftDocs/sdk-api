@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.CreateEditableStream
 title: CreateEditableStream function (vfw.h)
-
 description: The CreateEditableStream function creates an editable stream. Use this function before using other stream editing functions.
 old-location: multimedia\createeditablestream.htm
 tech.root: Multimedia
 ms.assetid: 9c7b0ebe-c113-49c9-a74f-61f47e7c18af
-
 ms.date: 12/05/2018
 ms.keywords: CreateEditableStream, CreateEditableStream function [Windows Multimedia], _win32_CreateEditableStream, multimedia.createeditablestream, vfw/CreateEditableStream
 ms.topic: function
-f1_keywords: 
- - "vfw/CreateEditableStream"
+f1_keywords:
+- vfw/CreateEditableStream
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avifil32.dll
+- Avifil32.dll
 api_name:
- - CreateEditableStream
+- CreateEditableStream
 targetos: Windows
 req.typenames: 
 req.redist: 

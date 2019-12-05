@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineAddProviderW
 title: lineAddProviderW function (tapi.h)
-
 description: The lineAddProvider function installs a new telephony service provider into the telephony system.
 old-location: tapi2\lineaddprovider.htm
 tech.root: Tapi
 ms.assetid: d6c96dba-bbfb-4b4a-a4f5-a55fd4446f3b
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_lineaddprovider, lineAddProvider, lineAddProvider function [TAPI 2.2], lineAddProviderA, lineAddProviderW, tapi/lineAddProvider, tapi/lineAddProviderA, tapi/lineAddProviderW, tapi2.lineaddprovider"
+ms.keywords: _tapi2_lineaddprovider, lineAddProvider, lineAddProvider function [TAPI 2.2], lineAddProviderA, lineAddProviderW, tapi/lineAddProvider, tapi/lineAddProviderA, tapi/lineAddProviderW, tapi2.lineaddprovider
 ms.topic: function
-f1_keywords: 
- - "tapi/lineAddProvider"
+f1_keywords:
+- tapi/lineAddProvider
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineAddProvider
- - lineAddProviderA
- - lineAddProviderW
+- lineAddProvider
+- lineAddProviderA
+- lineAddProviderW
 targetos: Windows
 req.typenames: 
 req.redist: 

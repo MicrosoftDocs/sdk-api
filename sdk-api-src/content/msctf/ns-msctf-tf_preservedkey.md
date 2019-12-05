@@ -1,19 +1,17 @@
 ---
 UID: NS:msctf.TF_PRESERVEDKEY
 title: TF_PRESERVEDKEY (msctf.h)
-
 description: The TF_PRESERVEDKEY structure represents a preserved key.
 old-location: tsf\tf_preservedkey.htm
 tech.root: TSF
 ms.assetid: 95d37e94-3991-49c9-bddf-4183a69d49b9
-
 ms.date: 12/05/2018
 ms.keywords: TF_PRESERVEDKEY, TF_PRESERVEDKEY structure [Text Services Framework], _tsf_tf_preservedkey_ref, msctf/TF_PRESERVEDKEY, tsf.tf_preservedkey
 ms.topic: struct
-f1_keywords: 
- - "msctf/TF_PRESERVEDKEY"
+f1_keywords:
+- msctf/TF_PRESERVEDKEY
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msctf.h
+- Msctf.h
 api_name:
- - TF_PRESERVEDKEY
+- TF_PRESERVEDKEY
 targetos: Windows
 req.typenames: TF_PRESERVEDKEY
 req.redist: TSF 1.0 on Windows 2000 Professional

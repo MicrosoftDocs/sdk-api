@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignature.GetSignatureXml
 title: IXpsSignature::GetSignatureXml (xpsdigitalsignature.h)
-
 description: Gets the XML markup of the digital signature.
 old-location: xps\ixpssignature_getsignaturexml.htm
 tech.root: printdocs
 ms.assetid: 9e76487c-465c-4d15-82d0-ed2a21decc33
-
 ms.date: 12/05/2018
 ms.keywords: GetSignatureXml, GetSignatureXml method [XPS Documents and Packaging], GetSignatureXml method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetSignatureXml method, IXpsSignature.GetSignatureXml, IXpsSignature::GetSignatureXml, xps.ixpssignature_getsignaturexml, xpsdigitalsignature/IXpsSignature::GetSignatureXml
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSignature.GetSignatureXml"
+f1_keywords:
+- xpsdigitalsignature/IXpsSignature.GetSignatureXml
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSignature.GetSignatureXml
+- IXpsSignature.GetSignatureXml
 targetos: Windows
 req.typenames: 
 req.redist: 

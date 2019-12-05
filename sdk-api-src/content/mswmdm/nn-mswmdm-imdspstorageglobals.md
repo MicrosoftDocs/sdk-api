@@ -1,19 +1,17 @@
 ---
 UID: NN:mswmdm.IMDSPStorageGlobals
 title: IMDSPStorageGlobals (mswmdm.h)
-
 description: The IMDSPStorageGlobals interface, acquired from the IMDSPStorage interface, provides methods for retrieving global information about a storage medium. This might include the amount of free space, serial number of the medium, and so on.
 old-location: wmdm\imdspstorageglobals.htm
 tech.root: WMDM
 ms.assetid: 70653352-a467-4197-93e3-e8fb45f99d34
-
 ms.date: 12/05/2018
 ms.keywords: IMDSPStorageGlobals, IMDSPStorageGlobals interface [windows Media Device Manager], IMDSPStorageGlobals interface [windows Media Device Manager],described, IMDSPStorageGlobalsInterface, mswmdm/IMDSPStorageGlobals, wmdm.imdspstorageglobals
 ms.topic: interface
-f1_keywords: 
- - "mswmdm/IMDSPStorageGlobals"
+f1_keywords:
+- mswmdm/IMDSPStorageGlobals
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mswmdm.h
+- mswmdm.h
 api_name:
- - IMDSPStorageGlobals
+- IMDSPStorageGlobals
 targetos: Windows
 req.typenames: 
 req.redist: 

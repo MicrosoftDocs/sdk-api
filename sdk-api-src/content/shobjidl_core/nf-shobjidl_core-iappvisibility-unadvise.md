@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IAppVisibility.Unadvise
 title: IAppVisibility::Unadvise (shobjidl_core.h)
-
 description: Cancels a connection that was previously established by using Advise.
 old-location: shell\IAppVisibility_Unadvise.htm
 tech.root: shell
 ms.assetid: D670F1E7-5E0B-498E-8F27-DF2A3A387862
-
 ms.date: 12/05/2018
 ms.keywords: IAppVisibility interface [Windows Shell],Unadvise method, IAppVisibility.Unadvise, IAppVisibility::Unadvise, Unadvise, Unadvise method [Windows Shell], Unadvise method [Windows Shell],IAppVisibility interface, shell.IAppVisibility_Unadvise, shobjidl_core/IAppVisibility::Unadvise
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IAppVisibility.Unadvise"
+f1_keywords:
+- shobjidl_core/IAppVisibility.Unadvise
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IAppVisibility.Unadvise
+- IAppVisibility.Unadvise
 targetos: Windows
 req.typenames: 
 req.redist: 

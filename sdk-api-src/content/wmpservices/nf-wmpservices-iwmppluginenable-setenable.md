@@ -1,19 +1,17 @@
 ---
 UID: NF:wmpservices.IWMPPluginEnable.SetEnable
 title: IWMPPluginEnable::SetEnable (wmpservices.h)
-
 description: The IWMPPluginEnable::SetEnable method retrieves a value indicating whether user has enabled the plug-in.
 old-location: wmp\iwmppluginenable_setenable.htm
 tech.root: WMP
 ms.assetid: a0b8e79b-e9bd-40e5-ab58-11469406110a
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPluginEnable interface [Windows Media Player],SetEnable method, IWMPPluginEnable.SetEnable, IWMPPluginEnable::SetEnable, IWMPPluginEnableSetEnableDSP, SetEnable, SetEnable method [Windows Media Player], SetEnable method [Windows Media Player],IWMPPluginEnable interface, wmp.iwmppluginenable_setenable, wmpservices/IWMPPluginEnable::SetEnable
 ms.topic: method
-f1_keywords: 
- - "wmpservices/IWMPPluginEnable.SetEnable"
+f1_keywords:
+- wmpservices/IWMPPluginEnable.SetEnable
 dev_langs:
- - c++
+- c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmpservices.h
+- wmpservices.h
 api_name:
- - IWMPPluginEnable.SetEnable
+- IWMPPluginEnable.SetEnable
 targetos: Windows
 req.typenames: 
 req.redist: 

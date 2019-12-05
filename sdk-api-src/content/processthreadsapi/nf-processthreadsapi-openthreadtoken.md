@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.OpenThreadToken
 title: OpenThreadToken function (processthreadsapi.h)
-
 description: Opens the access token associated with a thread.
 old-location: security\openthreadtoken.htm
 tech.root: SecAuthZ
 ms.assetid: 5003f0c4-41e9-4a14-b6a9-4f259c4af08b
-
 ms.date: 12/05/2018
 ms.keywords: OpenThreadToken, OpenThreadToken function [Security], _win32_openthreadtoken, processthreadsapi/OpenThreadToken, security.openthreadtoken
 ms.topic: function
 f1_keywords:
 - processthreadsapi/OpenThreadToken
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NS:wsman._WSMAN_COMMAND_ARG_SET
 title: WSMAN_COMMAND_ARG_SET (wsman.h)
-
 description: Represents the set of arguments that are passed in to the command line.
 old-location: winrm\wsman_command_arg_set.htm
 tech.root: winrm
 ms.assetid: 0904851f-e275-445c-b3fa-e5974d037322
-
 ms.date: 12/05/2018
 ms.keywords: WSMAN_COMMAND_ARG_SET, WSMAN_COMMAND_ARG_SET structure [Windows Remote Management], winrm.wsman_command_arg_set, wsman/WSMAN_COMMAND_ARG_SET
 ms.topic: struct
-f1_keywords: 
- - "wsman/WSMAN_COMMAND_ARG_SET"
+f1_keywords:
+- wsman/WSMAN_COMMAND_ARG_SET
 dev_langs:
- - c++
+- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wsman.h
+- Wsman.h
 api_name:
- - WSMAN_COMMAND_ARG_SET
+- WSMAN_COMMAND_ARG_SET
 targetos: Windows
 req.typenames: WSMAN_COMMAND_ARG_SET
 req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2

@@ -1,19 +1,17 @@
 ---
 UID: NE:webservices.__unnamed_enum_30
 title: WS_ERROR_PROPERTY_ID (webservices.h)
-
 description: A set of property values associated with the error. They are set and retrieved using WsGetErrorProperty and WsSetErrorProperty.
 old-location: wsw\ws_error_property_id.htm
 tech.root: wsw
 ms.assetid: 527e39be-c959-40db-8f0b-14dcd49a7ca7
-
 ms.date: 12/05/2018
 ms.keywords: WS_ERROR_PROPERTY_ID, WS_ERROR_PROPERTY_ID enumeration [Web Services for Windows], WS_ERROR_PROPERTY_LANGID, WS_ERROR_PROPERTY_ORIGINAL_ERROR_CODE, WS_ERROR_PROPERTY_STRING_COUNT, webservices/WS_ERROR_PROPERTY_ID, webservices/WS_ERROR_PROPERTY_LANGID, webservices/WS_ERROR_PROPERTY_ORIGINAL_ERROR_CODE, webservices/WS_ERROR_PROPERTY_STRING_COUNT, wsw.ws_error_property_id
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_ERROR_PROPERTY_ID"
+f1_keywords:
+- webservices/WS_ERROR_PROPERTY_ID
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_ERROR_PROPERTY_ID
+- WS_ERROR_PROPERTY_ID
 targetos: Windows
 req.typenames: WS_ERROR_PROPERTY_ID
 req.redist: 

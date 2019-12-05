@@ -1,19 +1,17 @@
 ---
 UID: NS:nsemail.napi_domain_description_blob_tag
 title: NAPI_DOMAIN_DESCRIPTION_BLOB (nsemail.h)
-
 description: Describes a domain handled by a namespace provider for the NS_EMAIL namespace.
 old-location: winsock\napi_domain_description_blob.htm
 tech.root: WinSock
 ms.assetid: 543aa20c-eec2-4177-87ed-ba9c91251010
-
 ms.date: 12/05/2018
 ms.keywords: NAPI_DOMAIN_DESCRIPTION_BLOB, NAPI_DOMAIN_DESCRIPTION_BLOB structure [Winsock], PNAPI_DOMAIN_DESCRIPTION_BLOB, PNAPI_DOMAIN_DESCRIPTION_BLOB structure pointer [Winsock], nsemail/NAPI_DOMAIN_DESCRIPTION_BLOB, nsemail/PNAPI_DOMAIN_DESCRIPTION_BLOB, winsock.napi_domain_description_blob
 ms.topic: struct
-f1_keywords: 
- - "nsemail/NAPI_DOMAIN_DESCRIPTION_BLOB"
+f1_keywords:
+- nsemail/NAPI_DOMAIN_DESCRIPTION_BLOB
 dev_langs:
- - c++
+- c++
 req.header: nsemail.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Nsemail.h
+- Nsemail.h
 api_name:
- - NAPI_DOMAIN_DESCRIPTION_BLOB
+- NAPI_DOMAIN_DESCRIPTION_BLOB
 targetos: Windows
 req.typenames: NAPI_DOMAIN_DESCRIPTION_BLOB
 req.redist: 

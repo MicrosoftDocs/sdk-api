@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilEnumResourcesEx
 title: ResUtilEnumResourcesEx function (resapi.h)
-
 description: Enumerates all of the resources in a specified cluster and initiates a user-defined operation for each resource. The PRESUTIL_ENUM_RESOURCES_EX type defines a pointer to this function.
 old-location: mscs\resutilenumresourcesex.htm
 tech.root: MsCS
 ms.assetid: e9f2e203-bbfb-4b27-b9ca-ab6b6ea1e60f
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_ENUM_RESOURCES_EX, PRESUTIL_ENUM_RESOURCES_EX function [Failover Cluster], ResUtilEnumResourcesEx, ResUtilEnumResourcesEx function [Failover Cluster], _wolf_resutilenumresourcesex, mscs.resutilenumresourcesex, resapi/PRESUTIL_ENUM_RESOURCES_EX, resapi/ResUtilEnumResourcesEx
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilEnumResourcesEx"
+f1_keywords:
+- resapi/ResUtilEnumResourcesEx
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
- - Ext-MS-Win-Cluster-Resutils-L1-1-1.dll
+- ResUtils.dll
+- Ext-MS-Win-Cluster-Resutils-L1-1-1.dll
 api_name:
- - ResUtilEnumResourcesEx
+- ResUtilEnumResourcesEx
 targetos: Windows
 req.typenames: 
 req.redist: 

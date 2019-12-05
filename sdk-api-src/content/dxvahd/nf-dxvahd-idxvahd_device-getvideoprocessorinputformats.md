@@ -1,19 +1,17 @@
 ---
 UID: NF:dxvahd.IDXVAHD_Device.GetVideoProcessorInputFormats
 title: IDXVAHD_Device::GetVideoProcessorInputFormats (dxvahd.h)
-
 description: Gets a list of the input formats supported by the Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\idxvahd_device_getvideoprocessorinputformats.htm
 tech.root: medfound
 ms.assetid: b660d111-7bd1-4345-b229-1825d830bab4
-
 ms.date: 12/05/2018
 ms.keywords: GetVideoProcessorInputFormats, GetVideoProcessorInputFormats method [Media Foundation], GetVideoProcessorInputFormats method [Media Foundation],IDXVAHD_Device interface, IDXVAHD_Device interface [Media Foundation],GetVideoProcessorInputFormats method, IDXVAHD_Device.GetVideoProcessorInputFormats, IDXVAHD_Device::GetVideoProcessorInputFormats, dxvahd/IDXVAHD_Device::GetVideoProcessorInputFormats, mf.idxvahd_device_getvideoprocessorinputformats
 ms.topic: method
 f1_keywords:
 - dxvahd/IDXVAHD_Device.GetVideoProcessorInputFormats
 dev_langs:
- - c++
+- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

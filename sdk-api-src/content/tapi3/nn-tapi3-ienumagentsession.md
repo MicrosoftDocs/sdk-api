@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3.IEnumAgentSession
 title: IEnumAgentSession (tapi3.h)
-
 description: The IEnumAgentSession interface provides COM-standard enumeration methods for the ITAgentSession interface. The ITAgent::EnumerateAgentSessions method returns a pointer to IEnumAgentSession.
 old-location: tapi3\ienumagentsession.htm
 tech.root: Tapi
 ms.assetid: 38b9fc57-a0af-4dfa-9058-e721138c8be9
-
 ms.date: 12/05/2018
 ms.keywords: IEnumAgentSession, IEnumAgentSession interface [TAPI 2.2], IEnumAgentSession interface [TAPI 2.2],described, _tapi3_ienumagentsession, tapi3.ienumagentsession, tapi3cc/IEnumAgentSession
 ms.topic: interface
-f1_keywords: 
- - "tapi3/IEnumAgentSession"
+f1_keywords:
+- tapi3/IEnumAgentSession
 dev_langs:
- - c++
+- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - IEnumAgentSession
+- IEnumAgentSession
 targetos: Windows
 req.typenames: 
 req.redist: 

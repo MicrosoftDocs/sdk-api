@@ -1,19 +1,17 @@
 ---
 UID: NF:strsafe.StringCbCatNW
 title: StringCbCatNW function (strsafe.h)
-
 description: Concatenates the specified number of bytes from one string to another string.
 old-location: menurc\stringcbcatn.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcatn.htm
-
 ms.date: 12/05/2018
 ms.keywords: StringCbCatN, StringCbCatN function [Menus and Other Resources], StringCbCatNA, StringCbCatNW, _shell_StringCbCatN, _shell_stringcbcatn_cpp, menurc.stringcbcatn, strsafe/StringCbCatN, strsafe/StringCbCatNA, strsafe/StringCbCatNW, winui._shell_stringcbcatn
 ms.topic: function
-f1_keywords: 
- - "strsafe/StringCbCatN"
+f1_keywords:
+- strsafe/StringCbCatN
 dev_langs:
- - c++
+- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Strsafe.h
+- Strsafe.h
 api_name:
- - StringCbCatN
- - StringCbCatNA
- - StringCbCatNW
+- StringCbCatN
+- StringCbCatNA
+- StringCbCatNW
 targetos: Windows
 req.typenames: 
 req.redist: 

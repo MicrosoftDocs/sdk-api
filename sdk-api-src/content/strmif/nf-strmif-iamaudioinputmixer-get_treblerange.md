@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.get_TrebleRange
 title: IAMAudioInputMixer::get_TrebleRange (strmif.h)
-
 description: The get_TrebleRange method retrieves the treble range for this input.
 old-location: dshow\iamaudioinputmixer_get_treblerange.htm
 tech.root: DirectShow
 ms.assetid: 726cbdda-5772-43bc-846f-f7d1672cc56f
-
 ms.date: 12/05/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],get_TrebleRange method, IAMAudioInputMixer.get_TrebleRange, IAMAudioInputMixer::get_TrebleRange, IAMAudioInputMixerget_TrebleRange, dshow.iamaudioinputmixer_get_treblerange, get_TrebleRange, get_TrebleRange method [DirectShow], get_TrebleRange method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_TrebleRange
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMAudioInputMixer.get_TrebleRange"
+f1_keywords:
+- strmif/IAMAudioInputMixer.get_TrebleRange
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMAudioInputMixer.get_TrebleRange
+- IAMAudioInputMixer.get_TrebleRange
 targetos: Windows
 req.typenames: 
 req.redist: 

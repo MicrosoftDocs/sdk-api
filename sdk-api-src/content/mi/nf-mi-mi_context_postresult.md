@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Context_PostResult
 title: MI_Context_PostResult function (mi.h)
-
 description: Posts the final terminating result code back to the client (through the server) in response to a request.
 old-location: wmi_v2\mi_context_postresult.htm
 tech.root: wmi_v2
 ms.assetid: e890ebab-f243-40eb-8a56-a771475929bb
-
 ms.date: 12/05/2018
 ms.keywords: MI_Context_PostResult, MI_Context_PostResult function [Windows Management Infrastructure (MI)], mi/MI_Context_PostResult, wmi.mi_postresult, wmi_v2.mi_context_postresult
 ms.topic: function
 f1_keywords:
 - mi/MI_Context_PostResult
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

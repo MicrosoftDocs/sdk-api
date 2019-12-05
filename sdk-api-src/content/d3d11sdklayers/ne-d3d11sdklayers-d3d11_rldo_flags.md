@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11sdklayers.D3D11_RLDO_FLAGS
 title: D3D11_RLDO_FLAGS (d3d11sdklayers.h)
-
 description: Options for the amount of information to report about a device object's lifetime.
 old-location: direct3d11\d3d11_rldo_flags.htm
 tech.root: direct3d11
 ms.assetid: 9ab8c5c7-bb4e-4d6b-90fc-5e4cdfba0c71
-
 ms.date: 12/05/2018
 ms.keywords: 5a79a782-10e1-3c49-ad30-96926d31c37d, D3D11_RLDO_DETAIL, D3D11_RLDO_FLAGS, D3D11_RLDO_FLAGS enumeration [Direct3D 11], D3D11_RLDO_IGNORE_INTERNAL, D3D11_RLDO_SUMMARY, d3d11sdklayers/D3D11_RLDO_DETAIL, d3d11sdklayers/D3D11_RLDO_FLAGS, d3d11sdklayers/D3D11_RLDO_IGNORE_INTERNAL, d3d11sdklayers/D3D11_RLDO_SUMMARY, direct3d11.d3d11_rldo_flags
 ms.topic: enum
-f1_keywords: 
- - "d3d11sdklayers/D3D11_RLDO_FLAGS"
+f1_keywords:
+- d3d11sdklayers/D3D11_RLDO_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11SDKLayers.h
+- D3D11SDKLayers.h
 api_name:
- - D3D11_RLDO_FLAGS
+- D3D11_RLDO_FLAGS
 targetos: Windows
 req.typenames: D3D11_RLDO_FLAGS
 req.redist: 

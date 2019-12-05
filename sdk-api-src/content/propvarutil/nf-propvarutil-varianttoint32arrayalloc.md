@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.VariantToInt32ArrayAlloc
 title: VariantToInt32ArrayAlloc function (propvarutil.h)
-
 description: Extracts data from a vector structure into a newly-allocated Int32 array.
 old-location: properties\VariantToInt32ArrayAlloc.htm
 tech.root: properties
 ms.assetid: 6010ee34-d7d2-4b8b-a49b-0f2aa88a3b54
-
 ms.date: 12/05/2018
 ms.keywords: VariantToInt32ArrayAlloc, VariantToInt32ArrayAlloc function [Windows Properties], _shell_VariantToInt32ArrayAlloc, properties.VariantToInt32ArrayAlloc, propvarutil/VariantToInt32ArrayAlloc, shell.VariantToInt32ArrayAlloc
 ms.topic: function
-f1_keywords: 
- - "propvarutil/VariantToInt32ArrayAlloc"
+f1_keywords:
+- propvarutil/VariantToInt32ArrayAlloc
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - VariantToInt32ArrayAlloc
+- VariantToInt32ArrayAlloc
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

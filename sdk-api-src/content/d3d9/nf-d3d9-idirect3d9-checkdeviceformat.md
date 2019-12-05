@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3D9.CheckDeviceFormat
 title: IDirect3D9::CheckDeviceFormat (d3d9.h)
-
 description: Determines whether a surface format is available as a specified resource type and can be used as a texture, depth-stencil buffer, or render target, or any combination of the three, on a device representing this adapter.
 old-location: direct3d9\idirect3d9__checkdeviceformat.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__checkdeviceformat.htm
-
 ms.date: 12/05/2018
 ms.keywords: CheckDeviceFormat, CheckDeviceFormat method [Direct3D 9], CheckDeviceFormat method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],CheckDeviceFormat method, IDirect3D9.CheckDeviceFormat, IDirect3D9::CheckDeviceFormat, d3d9helper/IDirect3D9::CheckDeviceFormat, daa5cafd-0b8b-a747-98fe-eb9db7acde6d, direct3d9.idirect3d9__checkdeviceformat
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3D9.CheckDeviceFormat"
+f1_keywords:
+- d3d9/IDirect3D9.CheckDeviceFormat
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3D9.CheckDeviceFormat
+- IDirect3D9.CheckDeviceFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

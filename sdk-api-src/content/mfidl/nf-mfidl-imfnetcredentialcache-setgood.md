@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFNetCredentialCache.SetGood
 title: IMFNetCredentialCache::SetGood (mfidl.h)
-
 description: Reports whether the credential object provided successfully passed the authentication challenge.
 old-location: mf\imfnetcredentialcache_setgood.htm
 tech.root: medfound
 ms.assetid: e2e9d87a-6238-49a0-9a19-fe213749d627
-
 ms.date: 12/05/2018
 ms.keywords: IMFNetCredentialCache interface [Media Foundation],SetGood method, IMFNetCredentialCache.SetGood, IMFNetCredentialCache::SetGood, SetGood, SetGood method [Media Foundation], SetGood method [Media Foundation],IMFNetCredentialCache interface, e2e9d87a-6238-49a0-9a19-fe213749d627, mf.imfnetcredentialcache_setgood, mfidl/IMFNetCredentialCache::SetGood
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFNetCredentialCache.SetGood"
+f1_keywords:
+- mfidl/IMFNetCredentialCache.SetGood
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFNetCredentialCache.SetGood
+- IMFNetCredentialCache.SetGood
 targetos: Windows
 req.typenames: 
 req.redist: 

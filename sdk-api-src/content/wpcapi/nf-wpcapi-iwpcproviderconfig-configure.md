@@ -1,19 +1,17 @@
 ---
 UID: NF:wpcapi.IWPCProviderConfig.Configure
 title: IWPCProviderConfig::Configure (wpcapi.h)
-
 description: Called for the current provider when you click a user tile in the Parental Controls Control Panel. This method allows for changes to the configuration.
 old-location: parcon\iwpcproviderconfig_configure.htm
 tech.root: parcon
 ms.assetid: a2853259-4fc5-47e7-a77e-0ea4024ee00c
-
 ms.date: 12/05/2018
 ms.keywords: Configure, Configure method, Configure method,IWPCProviderConfig interface, IWPCProviderConfig interface,Configure method, IWPCProviderConfig.Configure, IWPCProviderConfig::Configure, parcon.iwpcproviderconfig_configure, wpcapi/IWPCProviderConfig::Configure
 ms.topic: method
-f1_keywords: 
- - "wpcapi/IWPCProviderConfig.Configure"
+f1_keywords:
+- wpcapi/IWPCProviderConfig.Configure
 dev_langs:
- - c++
+- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wpcapi.h
+- Wpcapi.h
 api_name:
- - IWPCProviderConfig.Configure
+- IWPCProviderConfig.Configure
 targetos: Windows
 req.typenames: 
 req.redist: 

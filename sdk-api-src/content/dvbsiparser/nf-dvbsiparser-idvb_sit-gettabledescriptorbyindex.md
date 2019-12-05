@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDVB_SIT.GetTableDescriptorByIndex
 title: IDVB_SIT::GetTableDescriptorByIndex (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_sit_gettabledescriptorbyindex.htm
 tech.root: mstv
 ms.assetid: e66c7f53-c537-4b56-8cef-2edd43fbedc2
-
 ms.date: 12/05/2018
 ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],IDVB_SIT interface, IDVB_SIT interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, IDVB_SIT.GetTableDescriptorByIndex, IDVB_SIT::GetTableDescriptorByIndex, IDVB_SITGetTableDescriptorByIndex, dvbsiparser/IDVB_SIT::GetTableDescriptorByIndex, mstv.idvb_sit_gettabledescriptorbyindex
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDVB_SIT.GetTableDescriptorByIndex"
+f1_keywords:
+- dvbsiparser/IDVB_SIT.GetTableDescriptorByIndex
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDVB_SIT.GetTableDescriptorByIndex
+- IDVB_SIT.GetTableDescriptorByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

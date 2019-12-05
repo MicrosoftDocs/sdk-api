@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreACP2.RequestAttrsTransitioningAtPosition
 title: ITextStoreACP2::RequestAttrsTransitioningAtPosition (textstor.h)
-
 description: Gets text attributes transitioning at the specified character position.
 old-location: tsf\itextstoreacp2_requestattrstransitioningatposition.htm
 tech.root: TSF
 ms.assetid: ff1cda58-f02d-4c39-aed5-ebacbef20780
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],RequestAttrsTransitioningAtPosition method, ITextStoreACP2.RequestAttrsTransitioningAtPosition, ITextStoreACP2::RequestAttrsTransitioningAtPosition, RequestAttrsTransitioningAtPosition, RequestAttrsTransitioningAtPosition method [Text Services Framework], RequestAttrsTransitioningAtPosition method [Text Services Framework],ITextStoreACP2 interface, TS_ATTR_FIND_WANT_END, TS_ATTR_FIND_WANT_VALUE, textstor/ITextStoreACP2::RequestAttrsTransitioningAtPosition, tsf.itextstoreacp2_requestattrstransitioningatposition
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreACP2.RequestAttrsTransitioningAtPosition"
+f1_keywords:
+- textstor/ITextStoreACP2.RequestAttrsTransitioningAtPosition
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreACP2.RequestAttrsTransitioningAtPosition
+- ITextStoreACP2.RequestAttrsTransitioningAtPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

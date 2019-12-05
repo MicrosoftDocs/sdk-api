@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.ExtFloodFill
 title: ExtFloodFill function (wingdi.h)
-
 description: The ExtFloodFill function fills an area of the display surface with the current brush.
 old-location: gdi\extfloodfill.htm
 tech.root: gdi
 ms.assetid: b996d47d-5aaf-4b13-8643-209744e5a04b
-
 ms.date: 12/05/2018
 ms.keywords: ExtFloodFill, ExtFloodFill function [Windows GDI], FLOODFILLBORDER, FLOODFILLSURFACE, _win32_ExtFloodFill, gdi.extfloodfill, wingdi/ExtFloodFill
 ms.topic: function
-f1_keywords: 
- - "wingdi/ExtFloodFill"
+f1_keywords:
+- wingdi/ExtFloodFill
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - ExtFloodFill
+- ExtFloodFill
 targetos: Windows
 req.typenames: 
 req.redist: 

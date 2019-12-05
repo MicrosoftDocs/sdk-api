@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_UDFRevisionsSupported
 title: IFileSystemImage::get_UDFRevisionsSupported (imapi2fs.h)
-
 description: Retrieves a list of supported UDF revision levels.
 old-location: imapi\ifilesystemimage_get_udfrevisionssupported.htm
 tech.root: imapi
 ms.assetid: ad9b4a68-5fef-4092-9cef-4b5ebd9c5093
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_UDFRevisionsSupported method, IFileSystemImage.get_UDFRevisionsSupported, IFileSystemImage::get_UDFRevisionsSupported, get_UDFRevisionsSupported, get_UDFRevisionsSupported method [IMAPI], get_UDFRevisionsSupported method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_udfrevisionssupported, imapi2fs/IFileSystemImage::get_UDFRevisionsSupported
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImage.get_UDFRevisionsSupported"
+f1_keywords:
+- imapi2fs/IFileSystemImage.get_UDFRevisionsSupported
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage.get_UDFRevisionsSupported
+- IFileSystemImage.get_UDFRevisionsSupported
 targetos: Windows
 req.typenames: 
 req.redist: 

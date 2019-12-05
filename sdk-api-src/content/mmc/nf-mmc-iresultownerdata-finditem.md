@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IResultOwnerData.FindItem
 title: IResultOwnerData::FindItem (mmc.h)
-
 description: Finds the next item in a virtual list matching a specified string.
 old-location: mmc\iresultownerdata_finditem.htm
 tech.root: mmc
 ms.assetid: 839e6038-3f47-4192-b717-d81e4d9f202d
-
 ms.date: 12/05/2018
 ms.keywords: FindItem, FindItem method [MMC], FindItem method [MMC],IResultOwnerData interface, IResultOwnerData interface [MMC],FindItem method, IResultOwnerData.FindItem, IResultOwnerData::FindItem, _slate_iresultownerdata_finditem, mmc.iresultownerdata_finditem, mmc/IResultOwnerData::FindItem
 ms.topic: method
 f1_keywords:
 - mmc/IResultOwnerData.FindItem
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

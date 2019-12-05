@@ -1,19 +1,17 @@
 ---
 UID: NC:ras.RasCustomDialFn
 title: RasCustomDialFn (ras.h)
-
 description: The RasCustomDial function is an application-defined function that is exported by a third-party custom-dialing DLL. This function allows third-party vendors to implement custom remote-access dialing routines.
 old-location: rras\rascustomdial.htm
 tech.root: RRAS
 ms.assetid: 8c3f807b-3e31-4ce6-8549-74ab06cbba7f
-
 ms.date: 12/05/2018
 ms.keywords: RasCustomDial, RasCustomDial callback function [RAS], RasCustomDialA, RasCustomDialFn, RasCustomDialFn callback, RasCustomDialW, _ras_rascustomdial, ras/RasCustomDial, ras/RasCustomDialA, ras/RasCustomDialW, rras.rascustomdial
 ms.topic: callback
-f1_keywords: 
- - "ras/RasCustomDial"
+f1_keywords:
+- ras/RasCustomDial
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ras.h
+- Ras.h
 api_name:
- - RasCustomDial
- - RasCustomDialA
- - RasCustomDialW
+- RasCustomDial
+- RasCustomDialA
+- RasCustomDialW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_Lock
 title: IWMSecureChannel::WMSC_Lock (wmsecure.h)
-
 description: The WMSC_Lock method locks access to the secure connection.
 old-location: wmformat\iwmsecurechannel_wmsc_lock.htm
 tech.root: wmformat
 ms.assetid: fbb9f71c-49ee-45d8-bb9a-945290e11ea9
-
 ms.date: 12/05/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_Lock method, IWMSecureChannel.WMSC_Lock, IWMSecureChannel::WMSC_Lock, WMSC_Lock, WMSC_Lock method [windows Media Format], WMSC_Lock method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_lock, wmsecure/IWMSecureChannel::WMSC_Lock
 ms.topic: method
-f1_keywords: 
- - "wmsecure/IWMSecureChannel.WMSC_Lock"
+f1_keywords:
+- wmsecure/IWMSecureChannel.WMSC_Lock
 dev_langs:
- - c++
+- c++
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmsecure.h
+- Wmsecure.h
 api_name:
- - IWMSecureChannel.WMSC_Lock
+- IWMSecureChannel.WMSC_Lock
 targetos: Windows
 req.typenames: 
 req.redist: 

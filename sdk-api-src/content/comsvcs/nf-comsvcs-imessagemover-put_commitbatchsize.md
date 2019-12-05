@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IMessageMover.put_CommitBatchSize
 title: IMessageMover::put_CommitBatchSize (comsvcs.h)
-
 description: Sets the commit batch size. This is the number of messages that should be moved from source to destination queue between commit operations.
 old-location: cos\imessagemover_put_commitbatchsize.htm
 tech.root: cossdk
 ms.assetid: 107a934b-565e-444d-a042-2325b8f18754
-
 ms.date: 12/05/2018
 ms.keywords: IMessageMover interface [COM+],put_CommitBatchSize method, IMessageMover.put_CommitBatchSize, IMessageMover::put_CommitBatchSize, comsvcs/IMessageMover::put_CommitBatchSize, cos.imessagemover_put_commitbatchsize, put_CommitBatchSize, put_CommitBatchSize method [COM+], put_CommitBatchSize method [COM+],IMessageMover interface
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IMessageMover.put_CommitBatchSize"
+f1_keywords:
+- comsvcs/IMessageMover.put_CommitBatchSize
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IMessageMover.put_CommitBatchSize
+- IMessageMover.put_CommitBatchSize
 targetos: Windows
 req.typenames: 
 req.redist: 

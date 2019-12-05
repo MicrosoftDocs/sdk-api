@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.ICommDlgBrowser3.OnPreViewCreated
 title: ICommDlgBrowser3::OnPreViewCreated (shobjidl.h)
-
 description: Called after a specified preview is created in the IShellView interface.
 old-location: shell\ICommDlgBrowser3_OnPreViewCreated.htm
 tech.root: shell
 ms.assetid: 1506f553-e0b0-4d6b-9d63-15f3a2d38112
-
 ms.date: 12/05/2018
 ms.keywords: ICommDlgBrowser3 interface [Windows Shell],OnPreViewCreated method, ICommDlgBrowser3.OnPreViewCreated, ICommDlgBrowser3::OnPreViewCreated, OnPreViewCreated, OnPreViewCreated method [Windows Shell], OnPreViewCreated method [Windows Shell],ICommDlgBrowser3 interface, _shell_ICommDlgBrowser3_OnPreViewCreated, shell.ICommDlgBrowser3_OnPreViewCreated, shobjidl/ICommDlgBrowser3::OnPreViewCreated
 ms.topic: method
-f1_keywords: 
- - "shobjidl/ICommDlgBrowser3.OnPreViewCreated"
+f1_keywords:
+- shobjidl/ICommDlgBrowser3.OnPreViewCreated
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - ICommDlgBrowser3.OnPreViewCreated
+- ICommDlgBrowser3.OnPreViewCreated
 targetos: Windows
 req.typenames: 
 req.redist: 

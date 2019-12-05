@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_NumberOfBuffers
 title: ITraceDataCollector::get_NumberOfBuffers (pla.h)
-
 description: Retrieves or sets the suggested number of buffers to use for logging.
 old-location: pla\itracedatacollector_numberofbuffers.htm
 tech.root: PLA
 ms.assetid: 78d7ed42-ccd1-4e00-a52d-e5341de2f76e
-
 ms.date: 12/05/2018
 ms.keywords: ITraceDataCollector interface [PLA],NumberOfBuffers property, ITraceDataCollector.NumberOfBuffers, ITraceDataCollector.get_NumberOfBuffers, ITraceDataCollector::NumberOfBuffers, ITraceDataCollector::get_NumberOfBuffers, ITraceDataCollector::put_NumberOfBuffers, NumberOfBuffers property [PLA], NumberOfBuffers property [PLA],ITraceDataCollector interface, base.itracedatacollector_numberofbuffers, get_NumberOfBuffers, pla.itracedatacollector_numberofbuffers, pla/ITraceDataCollector::NumberOfBuffers, pla/ITraceDataCollector::get_NumberOfBuffers, pla/ITraceDataCollector::put_NumberOfBuffers
 ms.topic: method
-f1_keywords: 
- - "pla/ITraceDataCollector.NumberOfBuffers"
+f1_keywords:
+- pla/ITraceDataCollector.NumberOfBuffers
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - ITraceDataCollector.NumberOfBuffers
- - ITraceDataCollector.get_NumberOfBuffers
- - ITraceDataCollector.put_NumberOfBuffers
+- ITraceDataCollector.NumberOfBuffers
+- ITraceDataCollector.get_NumberOfBuffers
+- ITraceDataCollector.put_NumberOfBuffers
 targetos: Windows
 req.typenames: 
 req.redist: 

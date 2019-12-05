@@ -1,19 +1,17 @@
 ---
 UID: NF:msajtransport.AllJoynEnumEvents
 title: AllJoynEnumEvents function (msajtransport.h)
-
 description: Provides AllJoyn transport functionality similar to the TCP socket WSAEnumNetworkEvents functionality.
 old-location: alljoyn\alljoynenumevents.htm
 tech.root: AllJoyn
 ms.assetid: 0B53EAE5-9043-46F2-9C7B-A5836AF241A3
-
 ms.date: 12/05/2018
 ms.keywords: AllJoynEnumEvents, AllJoynEnumEvents function [AllJoyn API], alljoyn.alljoynenumevents, msajtransport/AllJoynEnumEvents
 ms.topic: function
-f1_keywords: 
- - "msajtransport/AllJoynEnumEvents"
+f1_keywords:
+- msajtransport/AllJoynEnumEvents
 dev_langs:
- - c++
+- c++
 req.header: msajtransport.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: MSAJApi.lib
 req.dll: MSAJApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - MSAJApi.dll
+- MSAJApi.dll
 api_name:
- - AllJoynEnumEvents
+- AllJoynEnumEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

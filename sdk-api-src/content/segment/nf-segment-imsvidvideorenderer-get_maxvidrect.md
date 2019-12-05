@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get_MaxVidRect
 title: IMSVidVideoRenderer::get_MaxVidRect (segment.h)
-
 description: The get_MaxVidRect method retrieves the maximum ideal size of the video rectangle.
 old-location: mstv\imsvidvideorenderer_get_maxvidrect.htm
 tech.root: mstv
 ms.assetid: b4c4b2da-0749-463c-aaa1-04d0d456327a
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_MaxVidRect method, IMSVidVideoRenderer.get_MaxVidRect, IMSVidVideoRenderer::get_MaxVidRect, IMSVidVideoRendererget_MaxVidRect, get_MaxVidRect, get_MaxVidRect method [Microsoft TV Technologies], get_MaxVidRect method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_maxvidrect, segment/IMSVidVideoRenderer::get_MaxVidRect
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidVideoRenderer.get_MaxVidRect"
+f1_keywords:
+- segment/IMSVidVideoRenderer.get_MaxVidRect
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidVideoRenderer.get_MaxVidRect
+- IMSVidVideoRenderer.get_MaxVidRect
 targetos: Windows
 req.typenames: 
 req.redist: 

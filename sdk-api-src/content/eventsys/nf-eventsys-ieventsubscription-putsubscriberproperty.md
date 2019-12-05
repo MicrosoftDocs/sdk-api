@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventSubscription.PutSubscriberProperty
 title: IEventSubscription::PutSubscriberProperty (eventsys.h)
-
 description: Writes a property and its value to the property bag to define subscriber context.
 old-location: cos\ieventsubscription_putsubscriberproperty.htm
 tech.root: cossdk
 ms.assetid: 817ee07c-32ea-41a4-a871-370c06bfc8a8
-
 ms.date: 12/05/2018
 ms.keywords: IEventSubscription interface [COM+],PutSubscriberProperty method, IEventSubscription.PutSubscriberProperty, IEventSubscription::PutSubscriberProperty, PutSubscriberProperty, PutSubscriberProperty method [COM+], PutSubscriberProperty method [COM+],IEventSubscription interface, _cos_IEventSubscription_PutSubscriberProperty, cos.ieventsubscription_putsubscriberproperty, eventsys/IEventSubscription::PutSubscriberProperty
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventSubscription.PutSubscriberProperty"
+f1_keywords:
+- eventsys/IEventSubscription.PutSubscriberProperty
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IEventSubscription.PutSubscriberProperty
+- IEventSubscription.PutSubscriberProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

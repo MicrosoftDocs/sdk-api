@@ -1,19 +1,17 @@
 ---
 UID: NS:dinputd.DIJOYCONFIG
 title: DIJOYCONFIG (dinputd.h)
-
 description: The DIJOYCONFIG structure contains information about a joystick's configuration.
 old-location: hid\dijoyconfig.htm
 tech.root: hid
 ms.assetid: 2b17432f-fa5e-4ce3-9814-c24a45a49343
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDIJOYCONFIG, DIJOYCONFIG, DIJOYCONFIG structure [Human Input Devices], di_ref_dc34a740-8987-4012-9e22-e59de2544445.xml, dinputd/DIJOYCONFIG, hid.dijoyconfig"
+ms.keywords: '*LPDIJOYCONFIG, DIJOYCONFIG, DIJOYCONFIG structure [Human Input Devices], di_ref_dc34a740-8987-4012-9e22-e59de2544445.xml, dinputd/DIJOYCONFIG, hid.dijoyconfig'
 ms.topic: struct
-f1_keywords: 
- - "dinputd/DIJOYCONFIG"
+f1_keywords:
+- dinputd/DIJOYCONFIG
 dev_langs:
- - c++
+- c++
 req.header: dinputd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dinputd.h
+- Dinputd.h
 api_name:
- - DIJOYCONFIG
+- DIJOYCONFIG
 targetos: Windows
 req.typenames: DIJOYCONFIG, *LPDIJOYCONFIG
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcPartSet.GetPart
 title: IOpcPartSet::GetPart (msopc.h)
-
 description: Gets a part object, which represents a specified part, in the set.
 old-location: opc\iopcpartset_getpart.htm
 tech.root: OPC
 ms.assetid: 3a44725b-23a0-4338-b618-c0ce4ecde204
-
 ms.date: 12/05/2018
 ms.keywords: GetPart, GetPart method [Open Packaging Conventions], GetPart method [Open Packaging Conventions],IOpcPartSet interface, IOpcPartSet interface [Open Packaging Conventions],GetPart method, IOpcPartSet.GetPart, IOpcPartSet::GetPart, msopc/IOpcPartSet::GetPart, opc.iopcpartset_getpart
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcPartSet.GetPart"
+f1_keywords:
+- msopc/IOpcPartSet.GetPart
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcPartSet.GetPart
+- IOpcPartSet.GetPart
 targetos: Windows
 req.typenames: 
 req.redist: 

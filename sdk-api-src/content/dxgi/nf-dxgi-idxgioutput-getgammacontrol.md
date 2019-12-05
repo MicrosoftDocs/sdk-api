@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.IDXGIOutput.GetGammaControl
 title: IDXGIOutput::GetGammaControl (dxgi.h)
-
 description: Gets the gamma control settings.
 old-location: direct3ddxgi\idxgioutput_getgammacontrol.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_getgammacontrol.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetGammaControl, GetGammaControl method [DXGI], GetGammaControl method [DXGI],IDXGIOutput interface, IDXGIOutput interface [DXGI],GetGammaControl method, IDXGIOutput.GetGammaControl, IDXGIOutput::GetGammaControl, direct3ddxgi.idxgioutput_getgammacontrol, dxgi/IDXGIOutput::GetGammaControl, eec103ab-9b5d-9ed5-ce8f-90664ac48789
 ms.topic: method
-f1_keywords: 
- - "dxgi/IDXGIOutput.GetGammaControl"
+f1_keywords:
+- dxgi/IDXGIOutput.GetGammaControl
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGIOutput.GetGammaControl
+- IDXGIOutput.GetGammaControl
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:casetup.IMSCEPSetup.PreUnInstall
 title: IMSCEPSetup::PreUnInstall (casetup.h)
-
 description: Removes registry and IIS settings for the Network Device Enrollment Service (NDES) role.
 old-location: security\imscepsetup_preuninstall.htm
 tech.root: SecCrypto
 ms.assetid: 7c9ff619-7c26-4dfb-aeac-fa80a1050cf0
-
 ms.date: 12/05/2018
 ms.keywords: IMSCEPSetup interface [Security],PreUnInstall method, IMSCEPSetup.PreUnInstall, IMSCEPSetup::PreUnInstall, PreUnInstall, PreUnInstall method [Security], PreUnInstall method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::PreUnInstall, security.imscepsetup_preuninstall
 ms.topic: method
-f1_keywords: 
- - "casetup/IMSCEPSetup.PreUnInstall"
+f1_keywords:
+- casetup/IMSCEPSetup.PreUnInstall
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - IMSCEPSetup.PreUnInstall
+- IMSCEPSetup.PreUnInstall
 targetos: Windows
 req.typenames: 
 req.redist: 

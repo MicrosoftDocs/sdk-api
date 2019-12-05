@@ -1,19 +1,17 @@
 ---
 UID: NN:azroles.IAzScope2
 title: IAzScope2 (azroles.h)
-
 description: Extends the IAzScope interface to manage IAzRoleAssignment and IAzRoleDefinition objects.
 old-location: security\iazscope2.htm
 tech.root: SecAuthZ
 ms.assetid: 536c563e-7a6b-480d-9e83-1d7cc90a795d
-
 ms.date: 12/05/2018
 ms.keywords: IAzScope2, IAzScope2 interface [Security], IAzScope2 interface [Security],described, azroles/IAzScope2, security.iazscope2
 ms.topic: interface
-f1_keywords: 
- - "azroles/IAzScope2"
+f1_keywords:
+- azroles/IAzScope2
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzScope2
+- IAzScope2
 targetos: Windows
 req.typenames: 
 req.redist: 

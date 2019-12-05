@@ -1,19 +1,17 @@
 ---
 UID: NS:sspi._SEC_WINNT_AUTH_PACKED_CREDENTIALS
 title: SEC_WINNT_AUTH_PACKED_CREDENTIALS (sspi.h)
-
 description: Specifies serialized credentials.
 old-location: security\sec_winnt_auth_packed_credentials.htm
 tech.root: SecAuthN
 ms.assetid: 9a21f0cd-d4e1-4aa8-8d0d-72bc7002ce32
-
 ms.date: 12/05/2018
-ms.keywords: "*PSEC_WINNT_AUTH_PACKED_CREDENTIALS, PSEC_WINNT_AUTH_PACKED_CREDENTIALS, PSEC_WINNT_AUTH_PACKED_CREDENTIALS structure pointer [Security], SEC_WINNT_AUTH_PACKED_CREDENTIALS, SEC_WINNT_AUTH_PACKED_CREDENTIALS structure [Security], security.sec_winnt_auth_packed_credentials, sspi/PSEC_WINNT_AUTH_PACKED_CREDENTIALS, sspi/SEC_WINNT_AUTH_PACKED_CREDENTIALS"
+ms.keywords: '*PSEC_WINNT_AUTH_PACKED_CREDENTIALS, PSEC_WINNT_AUTH_PACKED_CREDENTIALS, PSEC_WINNT_AUTH_PACKED_CREDENTIALS structure pointer [Security], SEC_WINNT_AUTH_PACKED_CREDENTIALS, SEC_WINNT_AUTH_PACKED_CREDENTIALS structure [Security], security.sec_winnt_auth_packed_credentials, sspi/PSEC_WINNT_AUTH_PACKED_CREDENTIALS, sspi/SEC_WINNT_AUTH_PACKED_CREDENTIALS'
 ms.topic: struct
-f1_keywords: 
- - "sspi/SEC_WINNT_AUTH_PACKED_CREDENTIALS"
+f1_keywords:
+- sspi/SEC_WINNT_AUTH_PACKED_CREDENTIALS
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Sspi.h
+- Sspi.h
 api_name:
- - SEC_WINNT_AUTH_PACKED_CREDENTIALS
+- SEC_WINNT_AUTH_PACKED_CREDENTIALS
 targetos: Windows
 req.typenames: SEC_WINNT_AUTH_PACKED_CREDENTIALS, *PSEC_WINNT_AUTH_PACKED_CREDENTIALS
 req.redist: 

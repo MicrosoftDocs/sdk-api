@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdclient.IWSDEventingStatus.SubscriptionRenewalFailed
 title: IWSDEventingStatus::SubscriptionRenewalFailed (wsdclient.h)
-
 description: Called when the subscription for the specified event action could not be renewed.
 old-location: ncd\iwsdeventingstatus_subscriptionrenewalfailed.htm
 tech.root: WsdApi
 ms.assetid: d76bb6ae-bb4d-4226-be0d-4fd37b0212a9
-
 ms.date: 12/05/2018
 ms.keywords: IWSDEventingStatus interface,SubscriptionRenewalFailed method, IWSDEventingStatus.SubscriptionRenewalFailed, IWSDEventingStatus::SubscriptionRenewalFailed, SubscriptionRenewalFailed, SubscriptionRenewalFailed method, SubscriptionRenewalFailed method,IWSDEventingStatus interface, ncd.iwsdeventingstatus_subscriptionrenewalfailed, wsdclient/IWSDEventingStatus::SubscriptionRenewalFailed
 ms.topic: method
-f1_keywords: 
- - "wsdclient/IWSDEventingStatus.SubscriptionRenewalFailed"
+f1_keywords:
+- wsdclient/IWSDEventingStatus.SubscriptionRenewalFailed
 dev_langs:
- - c++
+- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDEventingStatus.SubscriptionRenewalFailed
+- IWSDEventingStatus.SubscriptionRenewalFailed
 targetos: Windows
 req.typenames: 
 req.redist: 

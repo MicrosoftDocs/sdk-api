@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualBrush.GetVisual
 title: IXpsOMVisualBrush::GetVisual (xpsobjectmodel.h)
-
 description: Gets a pointer to the interface of the resolved visual to be used as the source for the brush.
 old-location: xps\ixpsomvisualbrush_getvisual.htm
 tech.root: printdocs
 ms.assetid: b8fb6698-8ce7-42a1-bad6-bde3d5dbbbf8
-
 ms.date: 12/05/2018
 ms.keywords: GetVisual, GetVisual method [XPS Documents and Packaging], GetVisual method [XPS Documents and Packaging],IXpsOMVisualBrush interface, IXpsOMVisualBrush interface [XPS Documents and Packaging],GetVisual method, IXpsOMVisualBrush.GetVisual, IXpsOMVisualBrush::GetVisual, xps.ixpsomvisualbrush_getvisual, xpsobjectmodel/IXpsOMVisualBrush::GetVisual
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMVisualBrush.GetVisual"
+f1_keywords:
+- xpsobjectmodel/IXpsOMVisualBrush.GetVisual
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMVisualBrush.GetVisual
+- IXpsOMVisualBrush.GetVisual
 targetos: Windows
 req.typenames: 
 req.redist: 

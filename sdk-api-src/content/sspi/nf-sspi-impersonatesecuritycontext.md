@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.ImpersonateSecurityContext
 title: ImpersonateSecurityContext function (sspi.h)
-
 description: Allows a server to impersonate a client by using a token previously obtained by a call to AcceptSecurityContext (General) or QuerySecurityContextToken.
 old-location: security\impersonatesecuritycontext.htm
 tech.root: SecAuthN
 ms.assetid: 167eaf3b-b794-4587-946d-fa596f1f9411
-
 ms.date: 12/05/2018
 ms.keywords: ImpersonateSecurityContext, ImpersonateSecurityContext function [Security], _ssp_impersonatesecuritycontext, security.impersonatesecuritycontext, sspi/ImpersonateSecurityContext
 ms.topic: function
-f1_keywords: 
- - "sspi/ImpersonateSecurityContext"
+f1_keywords:
+- sspi/ImpersonateSecurityContext
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Secur32.dll
+- Secur32.dll
 api_name:
- - ImpersonateSecurityContext
+- ImpersonateSecurityContext
 targetos: Windows
 req.typenames: 
 req.redist: 

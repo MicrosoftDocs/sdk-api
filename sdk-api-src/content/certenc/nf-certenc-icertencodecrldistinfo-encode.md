@@ -1,19 +1,17 @@
 ---
 UID: NF:certenc.ICertEncodeCRLDistInfo.Encode
 title: ICertEncodeCRLDistInfo::Encode (certenc.h)
-
 description: Performs Abstract Syntax Notation One (ASN.1) encoding on a certificate revocation list (CRL) distribution information array stored in the COM object and returns the ASN.1-encoded extension.
 old-location: security\icertencodecrldistinfo_encode.htm
 tech.root: SecCrypto
 ms.assetid: 46520e3a-1f15-4d1c-9f44-b9b420fb4f25
-
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security],Encode method, Encode, Encode method [Security], Encode method [Security],CCertEncodeCRLDistInfo object, Encode method [Security],ICertEncodeCRLDistInfo interface, ICertEncodeCRLDistInfo interface [Security],Encode method, ICertEncodeCRLDistInfo.Encode, ICertEncodeCRLDistInfo::Encode, _certsrv_icertencodecrldistinfo_encode, certenc/ICertEncodeCRLDistInfo::Encode, security.icertencodecrldistinfo_encode
 ms.topic: method
-f1_keywords: 
- - "certenc/ICertEncodeCRLDistInfo.Encode"
+f1_keywords:
+- certenc/ICertEncodeCRLDistInfo.Encode
 dev_langs:
- - c++
+- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenc.dll
+- Certenc.dll
 api_name:
- - ICertEncodeCRLDistInfo.Encode
- - CCertEncodeCRLDistInfo.Encode
+- ICertEncodeCRLDistInfo.Encode
+- CCertEncodeCRLDistInfo.Encode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderTimecode.GetTimecodeRangeBounds
 title: IWMReaderTimecode::GetTimecodeRangeBounds (wmsdkidl.h)
-
 description: The GetTimecodeRangeBounds method retrieves the starting and ending time codes for a specified SMPTE time code range.
 old-location: wmformat\iwmreadertimecode_gettimecoderangebounds.htm
 tech.root: wmformat
 ms.assetid: 5bc1f21c-0aca-4e45-ac82-898cb8b9f4cc
-
 ms.date: 12/05/2018
 ms.keywords: GetTimecodeRangeBounds, GetTimecodeRangeBounds method [windows Media Format], GetTimecodeRangeBounds method [windows Media Format],IWMReaderTimecode interface, IWMReaderTimecode interface [windows Media Format],GetTimecodeRangeBounds method, IWMReaderTimecode.GetTimecodeRangeBounds, IWMReaderTimecode::GetTimecodeRangeBounds, IWMReaderTimecodeGetTimecodeRangeBounds, wmformat.iwmreadertimecode_gettimecoderangebounds, wmsdkidl/IWMReaderTimecode::GetTimecodeRangeBounds
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderTimecode.GetTimecodeRangeBounds"
+f1_keywords:
+- wmsdkidl/IWMReaderTimecode.GetTimecodeRangeBounds
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderTimecode.GetTimecodeRangeBounds
+- IWMReaderTimecode.GetTimecodeRangeBounds
 targetos: Windows
 req.typenames: 
 req.redist: 

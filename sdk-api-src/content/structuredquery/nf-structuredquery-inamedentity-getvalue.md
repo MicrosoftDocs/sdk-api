@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.INamedEntity.GetValue
 title: INamedEntity::GetValue (structuredquery.h)
-
 description: Retrieves the value of this named entity as a string.
 old-location: search\_search_INamedEntity_GetValue.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\inamedentity\getvalue.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [search], GetValue method [search],INamedEntity interface, INamedEntity interface [search],GetValue method, INamedEntity.GetValue, INamedEntity::GetValue, _search_INamedEntity_GetValue, search._search_INamedEntity_GetValue, structuredquery/INamedEntity::GetValue
 ms.topic: method
-f1_keywords: 
- - "structuredquery/INamedEntity.GetValue"
+f1_keywords:
+- structuredquery/INamedEntity.GetValue
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - INamedEntity.GetValue
+- INamedEntity.GetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

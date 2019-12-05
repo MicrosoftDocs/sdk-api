@@ -1,19 +1,17 @@
 ---
 UID: NF:winver.VerInstallFileW
 title: VerInstallFileW function (winver.h)
-
 description: Installs the specified file based on information returned from the VerFindFile function. VerInstallFile decompresses the file, if necessary, assigns a unique filename, and checks for errors, such as outdated files.
 old-location: menurc\verinstallfile.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\verinstallfile.htm
-
 ms.date: 12/05/2018
 ms.keywords: VIFF_DONTDELETEOLD, VIFF_FORCEINSTALL, VerInstallFile, VerInstallFile function [Menus and Other Resources], VerInstallFileA, VerInstallFileW, _win32_VerInstallFile, _win32_verinstallfile_cpp, menurc.verinstallfile, winui._win32_verinstallfile, winver/VerInstallFile, winver/VerInstallFileA, winver/VerInstallFileW
 ms.topic: function
-f1_keywords: 
- - "winver/VerInstallFile"
+f1_keywords:
+- winver/VerInstallFile
 dev_langs:
- - c++
+- c++
 req.header: winver.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Version.lib
 req.dll: Api-ms-win-core-version-l1-1-0.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-core-version-l1-1-0.dll
- - version.dll
+- api-ms-win-core-version-l1-1-0.dll
+- version.dll
 api_name:
- - VerInstallFile
- - VerInstallFileA
- - VerInstallFileW
+- VerInstallFile
+- VerInstallFileA
+- VerInstallFileW
 targetos: Windows
 req.typenames: 
 req.redist: 

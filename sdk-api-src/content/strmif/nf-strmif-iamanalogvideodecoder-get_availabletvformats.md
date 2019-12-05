@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMAnalogVideoDecoder.get_AvailableTVFormats
 title: IAMAnalogVideoDecoder::get_AvailableTVFormats (strmif.h)
-
 description: The get_AvailableTVFormats method retrieves the analog video formats that the decoder supports.
 old-location: dshow\iamanalogvideodecoder_get_availabletvformats.htm
 tech.root: DirectShow
 ms.assetid: 651f902f-de27-4185-b368-ce2cbf12cfae
-
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoDecoder interface [DirectShow],get_AvailableTVFormats method, IAMAnalogVideoDecoder.get_AvailableTVFormats, IAMAnalogVideoDecoder::get_AvailableTVFormats, IAMAnalogVideoDecoderget_AvailableTVFormats, dshow.iamanalogvideodecoder_get_availabletvformats, get_AvailableTVFormats, get_AvailableTVFormats method [DirectShow], get_AvailableTVFormats method [DirectShow],IAMAnalogVideoDecoder interface, strmif/IAMAnalogVideoDecoder::get_AvailableTVFormats
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMAnalogVideoDecoder.get_AvailableTVFormats"
+f1_keywords:
+- strmif/IAMAnalogVideoDecoder.get_AvailableTVFormats
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMAnalogVideoDecoder.get_AvailableTVFormats
+- IAMAnalogVideoDecoder.get_AvailableTVFormats
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:locationapi.ILatLongReport
 title: ILatLongReport (locationapi.h)
-
 description: ILatLongReport represents a location report that contains information in the form of latitude and longitude.
 old-location: winlocation\ilatlongreport.htm
 tech.root: locationapi
 ms.assetid: b489959e-74c7-46df-b63f-7d37e3a244d5
-
 ms.date: 12/05/2018
 ms.keywords: ILatLongReport, ILatLongReport interface [WinLocation], ILatLongReport interface [WinLocation],described, locationapi/ILatLongReport, winlocation.ilatlongreport
 ms.topic: interface
-f1_keywords: 
- - "locationapi/ILatLongReport"
+f1_keywords:
+- locationapi/ILatLongReport
 dev_langs:
- - c++
+- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: LocationAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - LocationAPI.dll
+- LocationAPI.dll
 api_name:
- - ILatLongReport
+- ILatLongReport
 targetos: Windows
 req.typenames: 
 req.redist: 

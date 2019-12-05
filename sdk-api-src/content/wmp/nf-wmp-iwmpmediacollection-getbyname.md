@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPMediaCollection.getByName
 title: IWMPMediaCollection::getByName (wmp.h)
-
 description: The getByName method retrieves a pointer to an IWMPPlaylist interface. This interface contains the media items with the specified name.
 old-location: wmp\iwmpmediacollection_getbyname.htm
 tech.root: WMP
 ms.assetid: 114b0449-a45e-42e5-9e68-428c40a388cf
-
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaCollection interface [Windows Media Player],getByName method, IWMPMediaCollection.getByName, IWMPMediaCollection::getByName, IWMPMediaCollectiongetByName, getByName, getByName method [Windows Media Player], getByName method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_getbyname, wmp/IWMPMediaCollection::getByName
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPMediaCollection.getByName"
+f1_keywords:
+- wmp/IWMPMediaCollection.getByName
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPMediaCollection.getByName
+- IWMPMediaCollection.getByName
 targetos: Windows
 req.typenames: 
 req.redist: 

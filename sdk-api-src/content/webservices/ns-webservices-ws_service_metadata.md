@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_SERVICE_METADATA
 title: WS_SERVICE_METADATA (webservices.h)
-
 description: Specifies the service metadata documents array. This can be a collection of WSDL/XSD documents represented as an array of WS_STRING.
 old-location: wsw\ws_service_metadata.htm
 tech.root: wsw
 ms.assetid: f695867d-989d-41a9-ab6e-612a6ef4fb14
-
 ms.date: 12/05/2018
 ms.keywords: WS_SERVICE_METADATA, WS_SERVICE_METADATA structure [Web Services for Windows], webservices/WS_SERVICE_METADATA, wsw.ws_service_metadata
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_SERVICE_METADATA"
+f1_keywords:
+- webservices/WS_SERVICE_METADATA
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_SERVICE_METADATA
+- WS_SERVICE_METADATA
 targetos: Windows
 req.typenames: WS_SERVICE_METADATA
 req.redist: 

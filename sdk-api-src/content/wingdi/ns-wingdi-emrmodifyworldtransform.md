@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMRMODIFYWORLDTRANSFORM
 title: EMRMODIFYWORLDTRANSFORM (wingdi.h)
-
 description: The EMRMODIFYWORLDTRANSFORM structure contains members for the ModifyWorldTransform enhanced metafile record.
 old-location: gdi\emrmodifyworldtransform.htm
 tech.root: gdi
 ms.assetid: 61d51fc9-a8dd-4981-940d-eedc8936360a
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRMODIFYWORLDTRANSFORM, EMRMODIFYWORLDTRANSFORM, EMRMODIFYWORLDTRANSFORM structure [Windows GDI], PEMRMODIFYWORLDTRANSFORM, PEMRMODIFYWORLDTRANSFORM structure pointer [Windows GDI], _win32_EMRMODIFYWORLDTRANSFORM_str, gdi.emrmodifyworldtransform, wingdi/EMRMODIFYWORLDTRANSFORM, wingdi/PEMRMODIFYWORLDTRANSFORM"
+ms.keywords: '*PEMRMODIFYWORLDTRANSFORM, EMRMODIFYWORLDTRANSFORM, EMRMODIFYWORLDTRANSFORM structure [Windows GDI], PEMRMODIFYWORLDTRANSFORM, PEMRMODIFYWORLDTRANSFORM structure pointer [Windows GDI], _win32_EMRMODIFYWORLDTRANSFORM_str, gdi.emrmodifyworldtransform, wingdi/EMRMODIFYWORLDTRANSFORM, wingdi/PEMRMODIFYWORLDTRANSFORM'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRMODIFYWORLDTRANSFORM"
+f1_keywords:
+- wingdi/EMRMODIFYWORLDTRANSFORM
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRMODIFYWORLDTRANSFORM
+- EMRMODIFYWORLDTRANSFORM
 targetos: Windows
 req.typenames: EMRMODIFYWORLDTRANSFORM, *PEMRMODIFYWORLDTRANSFORM
 req.redist: 

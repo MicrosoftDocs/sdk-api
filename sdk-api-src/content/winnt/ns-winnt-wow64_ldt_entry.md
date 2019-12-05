@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._WOW64_LDT_ENTRY
 title: WOW64_LDT_ENTRY (winnt.h)
-
 description: Describes an entry in the descriptor table for a 32-bit thread on a 64-bit system. This structure is valid only on 64-bit systems.
 old-location: base\wow64_ldt_entry_str.htm
 tech.root: Debug
 ms.assetid: a571cd2f-0873-4ad5-bcb8-c0da2d47a820
-
 ms.date: 12/05/2018
 ms.keywords: '*PWOW64_LDT_ENTRY, PWOW64_LDT_ENTRY, PWOW64_LDT_ENTRY structure pointer, WOW64_LDT_ENTRY, WOW64_LDT_ENTRY structure, _WOW64_LDT_ENTRY, base.wow64_ldt_entry_str, winnt/LDT_ENTRY, winnt/PWOW64_LDT_ENTRY'
 ms.topic: struct
 f1_keywords:
 - winnt/WOW64_LDT_ENTRY
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

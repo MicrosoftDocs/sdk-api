@@ -1,19 +1,17 @@
 ---
 UID: NF:audioclient.IChannelAudioVolume.SetAllVolumes
 title: IChannelAudioVolume::SetAllVolumes (audioclient.h)
-
 description: The SetAllVolumes method sets the individual volume levels for all the channels in the audio session.
 old-location: coreaudio\ichannelaudiovolume_setallvolumes.htm
 tech.root: CoreAudio
 ms.assetid: 9081e814-d0b2-4b0e-9e4c-3590058e7196
-
 ms.date: 12/05/2018
 ms.keywords: IChannelAudioVolume interface [Core Audio],SetAllVolumes method, IChannelAudioVolume.SetAllVolumes, IChannelAudioVolume::SetAllVolumes, IChannelAudioVolumeSetAllVolumes, SetAllVolumes, SetAllVolumes method [Core Audio], SetAllVolumes method [Core Audio],IChannelAudioVolume interface, audioclient/IChannelAudioVolume::SetAllVolumes, coreaudio.ichannelaudiovolume_setallvolumes
 ms.topic: method
-f1_keywords: 
- - "audioclient/IChannelAudioVolume.SetAllVolumes"
+f1_keywords:
+- audioclient/IChannelAudioVolume.SetAllVolumes
 dev_langs:
- - c++
+- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioclient.h
+- Audioclient.h
 api_name:
- - IChannelAudioVolume.SetAllVolumes
+- IChannelAudioVolume.SetAllVolumes
 targetos: Windows
 req.typenames: 
 req.redist: 

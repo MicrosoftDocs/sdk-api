@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudiohrtf.ISpatialAudioObjectForHrtf.SetEnvironment
 title: ISpatialAudioObjectForHrtf::SetEnvironment (spatialaudiohrtf.h)
-
 description: Sets the type of acoustic environment that is simulated when audio is processed for the ISpatialAudioObjectForHrtf.
 old-location: coreaudio\ispatialaudioobjectforhrtf_setenvironment.htm
 tech.root: CoreAudio
 ms.assetid: 6D96F854-0FAE-4B8B-9033-E2AEB471B38B
-
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectForHrtf interface [Core Audio],SetEnvironment method, ISpatialAudioObjectForHrtf.SetEnvironment, ISpatialAudioObjectForHrtf::SetEnvironment, SetEnvironment, SetEnvironment method [Core Audio], SetEnvironment method [Core Audio],ISpatialAudioObjectForHrtf interface, coreaudio.ispatialaudioobjectforhrtf_setenvironment, spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetEnvironment
 ms.topic: method
-f1_keywords: 
- - "spatialaudiohrtf/ISpatialAudioObjectForHrtf.SetEnvironment"
+f1_keywords:
+- spatialaudiohrtf/ISpatialAudioObjectForHrtf.SetEnvironment
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spatialaudiohrtf.h
+- spatialaudiohrtf.h
 api_name:
- - ISpatialAudioObjectForHrtf.SetEnvironment
+- ISpatialAudioObjectForHrtf.SetEnvironment
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IMFVideoPositionMapper.MapOutputCoordinateToInputStream
 title: IMFVideoPositionMapper::MapOutputCoordinateToInputStream (evr.h)
-
 description: Maps output image coordinates to input image coordinates.
 old-location: mf\imfvideopositionmapper_mapoutputcoordinatetoinputstream.htm
 tech.root: medfound
 ms.assetid: d57aed5f-90cb-47e7-af80-f3573a3b8256
-
 ms.date: 12/05/2018
 ms.keywords: IMFVideoPositionMapper interface [Media Foundation],MapOutputCoordinateToInputStream method, IMFVideoPositionMapper.MapOutputCoordinateToInputStream, IMFVideoPositionMapper::MapOutputCoordinateToInputStream, MapOutputCoordinateToInputStream, MapOutputCoordinateToInputStream method [Media Foundation], MapOutputCoordinateToInputStream method [Media Foundation],IMFVideoPositionMapper interface, d57aed5f-90cb-47e7-af80-f3573a3b8256, evr/IMFVideoPositionMapper::MapOutputCoordinateToInputStream, mf.imfvideopositionmapper_mapoutputcoordinatetoinputstream
 ms.topic: method
-f1_keywords: 
- - "evr/IMFVideoPositionMapper.MapOutputCoordinateToInputStream"
+f1_keywords:
+- evr/IMFVideoPositionMapper.MapOutputCoordinateToInputStream
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoPositionMapper.MapOutputCoordinateToInputStream
+- IMFVideoPositionMapper.MapOutputCoordinateToInputStream
 targetos: Windows
 req.typenames: 
 req.redist: 

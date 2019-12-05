@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToUInt16VectorAlloc
 title: PropVariantToUInt16VectorAlloc function (propvarutil.h)
-
 description: Extracts data from a PROPVARIANT structure into a newly-allocated unsigned short vector.
 old-location: properties\PropVariantToUInt16VectorAlloc.htm
 tech.root: properties
 ms.assetid: e5af0f91-49c1-4ff3-8339-77fffc2102f8
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToUInt16VectorAlloc, PropVariantToUInt16VectorAlloc function [Windows Properties], _shell_PropVariantToUInt16VectorAlloc, properties.PropVariantToUInt16VectorAlloc, propvarutil/PropVariantToUInt16VectorAlloc, shell.PropVariantToUInt16VectorAlloc
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToUInt16VectorAlloc"
+f1_keywords:
+- propvarutil/PropVariantToUInt16VectorAlloc
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToUInt16VectorAlloc
+- PropVariantToUInt16VectorAlloc
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

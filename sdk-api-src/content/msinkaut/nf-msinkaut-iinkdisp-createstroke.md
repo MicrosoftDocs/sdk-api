@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkDisp.CreateStroke
 title: IInkDisp::CreateStroke (msinkaut.h)
-
 description: Creates an IInkStrokeDisp object from an array of packet data input values.
 old-location: tablet\inkdisp_createstroke.htm
 tech.root: tablet
 ms.assetid: 116c5746-61ad-4a47-a5e3-4675af87b0f1
-
 ms.date: 12/05/2018
 ms.keywords: 116c5746-61ad-4a47-a5e3-4675af87b0f1, CreateStroke, CreateStroke method [Tablet PC], CreateStroke method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],CreateStroke method, IInkDisp.CreateStroke, IInkDisp::CreateStroke, msinkaut/IInkDisp::CreateStroke, tablet.inkdisp_createstroke
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkDisp.CreateStroke"
+f1_keywords:
+- msinkaut/IInkDisp.CreateStroke
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkDisp.CreateStroke
+- IInkDisp.CreateStroke
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ntdsapi.DsCrackNamesA
 title: DsCrackNamesA function (ntdsapi.h)
-
 description: Converts an array of directory service object names from one format to another.
 old-location: ad\dscracknames.htm
 tech.root: ad
 ms.assetid: f812a001-5aab-4c62-87bd-54f95792e271
-
 ms.date: 12/05/2018
 ms.keywords: DsCrackNames, DsCrackNames function [Active Directory], DsCrackNamesA, DsCrackNamesW, _glines_dscracknames, ad.dscracknames, ntdsapi/DsCrackNames, ntdsapi/DsCrackNamesA, ntdsapi/DsCrackNamesW
 ms.topic: function
-f1_keywords: 
- - "ntdsapi/DsCrackNames"
+f1_keywords:
+- ntdsapi/DsCrackNames
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
- - API-MS-Win-Security-ActiveDirectoryClient-l1-1-0.dll
- - KernelBase.dll
- - API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
+- Ntdsapi.dll
+- API-MS-Win-Security-ActiveDirectoryClient-l1-1-0.dll
+- KernelBase.dll
+- API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
 api_name:
- - DsCrackNames
- - DsCrackNamesA
- - DsCrackNamesW
+- DsCrackNames
+- DsCrackNamesA
+- DsCrackNamesW
 targetos: Windows
 req.typenames: 
 req.redist: 

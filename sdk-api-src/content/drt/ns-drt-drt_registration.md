@@ -1,19 +1,17 @@
 ---
 UID: NS:drt.drt_registration_tag
 title: DRT_REGISTRATION (drt.h)
-
 description: The DRT_REGISTRATION structure contains key and application data that make up a registration.
 old-location: p2p\drt_registration.htm
 tech.root: P2PSdk
 ms.assetid: 1b5fea2c-c1df-4639-8f62-e62d8a09b1f5
-
 ms.date: 12/05/2018
-ms.keywords: "*PDRT_REGISTRATION, DRT_REGISTRATION, DRT_REGISTRATION structure [Peer Networking], PDRT_REGISTRATION, PDRT_REGISTRATION structure pointer [Peer Networking], drt/DRT_REGISTRATION, drt/PDRT_REGISTRATION, p2p.drt_registration"
+ms.keywords: '*PDRT_REGISTRATION, DRT_REGISTRATION, DRT_REGISTRATION structure [Peer Networking], PDRT_REGISTRATION, PDRT_REGISTRATION structure pointer [Peer Networking], drt/DRT_REGISTRATION, drt/PDRT_REGISTRATION, p2p.drt_registration'
 ms.topic: struct
-f1_keywords: 
- - "drt/DRT_REGISTRATION"
+f1_keywords:
+- drt/DRT_REGISTRATION
 dev_langs:
- - c++
+- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - drt.h
+- drt.h
 api_name:
- - DRT_REGISTRATION
+- DRT_REGISTRATION
 targetos: Windows
 req.typenames: DRT_REGISTRATION, *PDRT_REGISTRATION
 req.redist: 

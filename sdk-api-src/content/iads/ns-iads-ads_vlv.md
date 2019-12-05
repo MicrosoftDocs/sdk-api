@@ -1,19 +1,17 @@
 ---
 UID: NS:iads._ads_vlv
 title: ADS_VLV (iads.h)
-
 description: Contains metadata used to conduct virtual list view (VLV) searches.
 old-location: adsi\ads_vlv.htm
 tech.root: adsi
 ms.assetid: bd8eab9f-9b44-4cef-b828-6e7c7c3e19bb
-
 ms.date: 12/05/2018
-ms.keywords: "*PADS_VLV, ADS_VLV, ADS_VLV structure [ADSI], _ds_ads_vlv, adsi.ads__vlv, adsi.ads_vlv, iads/ADS_VLV"
+ms.keywords: '*PADS_VLV, ADS_VLV, ADS_VLV structure [ADSI], _ds_ads_vlv, adsi.ads__vlv, adsi.ads_vlv, iads/ADS_VLV'
 ms.topic: struct
-f1_keywords: 
- - "iads/ADS_VLV"
+f1_keywords:
+- iads/ADS_VLV
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_VLV
+- ADS_VLV
 targetos: Windows
 req.typenames: ADS_VLV, *PADS_VLV
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDashCollection.SetAt
 title: IXpsOMDashCollection::SetAt (xpsobjectmodel.h)
-
 description: Replaces an XPS_DASH structure at a specified location in the collection.
 old-location: xps\ixpsomdashcollection_setat.htm
 tech.root: printdocs
 ms.assetid: c0ea0ae0-2c28-4478-82fc-3e80bc70eef8
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDashCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMDashCollection.SetAt, IXpsOMDashCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMDashCollection interface, xps.ixpsomdashcollection_setat, xpsobjectmodel/IXpsOMDashCollection::SetAt
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMDashCollection.SetAt"
+f1_keywords:
+- xpsobjectmodel/IXpsOMDashCollection.SetAt
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMDashCollection.SetAt
+- IXpsOMDashCollection.SetAt
 targetos: Windows
 req.typenames: 
 req.redist: 

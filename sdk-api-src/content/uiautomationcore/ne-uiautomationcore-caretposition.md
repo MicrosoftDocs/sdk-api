@@ -1,19 +1,17 @@
 ---
 UID: NE:uiautomationcore.CaretPosition
 title: CaretPosition (uiautomationcore.h)
-
 description: Contains possible values for the CaretPosition text attribute, which indicates the location of the caret relative to a line of text in a text range.
 old-location: winauto\uiauto_CaretPosition.htm
 tech.root: WinAuto
 ms.assetid: 9284DCBB-FC6A-4895-8AE6-58C47BB3A047
-
 ms.date: 12/05/2018
 ms.keywords: CaretPosition, CaretPosition enumeration [Windows Accessibility], CaretPosition_BeginningOfLine, CaretPosition_EndOfLine, CaretPosition_Unknown, uiautomationcore/CaretPosition, uiautomationcore/CaretPosition_BeginningOfLine, uiautomationcore/CaretPosition_EndOfLine, uiautomationcore/CaretPosition_Unknown, winauto.uiauto_CaretPosition
 ms.topic: enum
-f1_keywords: 
- - "uiautomationcore/CaretPosition"
+f1_keywords:
+- uiautomationcore/CaretPosition
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - CaretPosition
+- CaretPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

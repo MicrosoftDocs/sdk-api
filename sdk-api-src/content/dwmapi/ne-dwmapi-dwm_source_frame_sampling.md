@@ -1,19 +1,17 @@
 ---
 UID: NE:dwmapi.__unnamed_enum_0
 title: DWM_SOURCE_FRAME_SAMPLING (dwmapi.h)
-
 description: Flags used by the DwmSetPresentParameters function to specify the frame sampling type.
 old-location: dwm\dwm_source_frame_sampling.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\enums\dwm_source_frame_sampling.htm
-
 ms.date: 12/05/2018
 ms.keywords: DWM_SOURCE_FRAME_SAMPLING, DWM_SOURCE_FRAME_SAMPLING enumeration [Desktop Window Manager], DWM_SOURCE_FRAME_SAMPLING_COVERAGE, DWM_SOURCE_FRAME_SAMPLING_LAST, DWM_SOURCE_FRAME_SAMPLING_POINT, _udwm_dwm_source_frame_sampling, _udwm_dwm_source_frame_sampling_cpp, dwm.dwm_source_frame_sampling, dwmapi/DWM_SOURCE_FRAME_SAMPLING, dwmapi/DWM_SOURCE_FRAME_SAMPLING_COVERAGE, dwmapi/DWM_SOURCE_FRAME_SAMPLING_LAST, dwmapi/DWM_SOURCE_FRAME_SAMPLING_POINT, winui._udwm_dwm_source_frame_sampling
 ms.topic: enum
-f1_keywords: 
- - "dwmapi/DWM_SOURCE_FRAME_SAMPLING"
+f1_keywords:
+- dwmapi/DWM_SOURCE_FRAME_SAMPLING
 dev_langs:
- - c++
+- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dwmapi.h
+- Dwmapi.h
 api_name:
- - DWM_SOURCE_FRAME_SAMPLING
+- DWM_SOURCE_FRAME_SAMPLING
 targetos: Windows
 req.typenames: DWM_SOURCE_FRAME_SAMPLING
 req.redist: 

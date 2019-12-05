@@ -1,19 +1,17 @@
 ---
 UID: NN:shlobj.IDockingWindowFrame
 title: IDockingWindowFrame (shlobj.h)
-
 description: Exposes methods that support the addition of IDockingWindow objects to a frame. Implemented by the browser.
 old-location: shell\IDockingWindowFrame.htm
 tech.root: shell
 ms.assetid: d0dc10db-316a-4eaa-83db-3f186ee77071
-
 ms.date: 12/05/2018
 ms.keywords: IDockingWindowFrame, IDockingWindowFrame interface [Windows Shell], IDockingWindowFrame interface [Windows Shell],described, _win32_IDockingWindowFrame, shell.IDockingWindowFrame, shlobj/IDockingWindowFrame
 ms.topic: interface
-f1_keywords: 
- - "shlobj/IDockingWindowFrame"
+f1_keywords:
+- shlobj/IDockingWindowFrame
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IDockingWindowFrame
+- IDockingWindowFrame
 targetos: Windows
 req.typenames: 
 req.redist: 

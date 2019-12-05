@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolManager.Uninitialize
 title: IWRdsProtocolManager::Uninitialize (wtsprotocol.h)
-
 description: Uninitializes the protocol manager.
 old-location: termserv\iwrdsprotocolmanager_uninitialize.htm
 tech.root: TermServ
 ms.assetid: 1d7bc6e3-798e-4dc8-8892-7be6992b67ab
-
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],Uninitialize method, IWRdsProtocolManager.Uninitialize, IWRdsProtocolManager::Uninitialize, Uninitialize, Uninitialize method [Remote Desktop Services], Uninitialize method [Remote Desktop Services],IWRdsProtocolManager interface, termserv.iwrdsprotocolmanager_uninitialize, wtsprotocol/IWRdsProtocolManager::Uninitialize
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolManager.Uninitialize"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolManager.Uninitialize
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolManager.Uninitialize
+- IWRdsProtocolManager.Uninitialize
 targetos: Windows
 req.typenames: 
 req.redist: 

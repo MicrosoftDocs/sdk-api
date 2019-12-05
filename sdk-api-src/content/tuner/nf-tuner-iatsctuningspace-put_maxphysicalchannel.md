@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IATSCTuningSpace.put_MaxPhysicalChannel
 title: IATSCTuningSpace::put_MaxPhysicalChannel (tuner.h)
-
 description: The put_MaxPhysicalChannel method sets the highest physical channel number for this tuning space.
 old-location: mstv\iatsctuningspace_put_maxphysicalchannel.htm
 tech.root: mstv
 ms.assetid: 842d2c13-eef2-42d9-9642-50ec2aafb760
-
 ms.date: 12/05/2018
 ms.keywords: IATSCTuningSpace interface [Microsoft TV Technologies],put_MaxPhysicalChannel method, IATSCTuningSpace.put_MaxPhysicalChannel, IATSCTuningSpace::put_MaxPhysicalChannel, IATSCTuningSpaceput_MaxPhysicalChannel, mstv.iatsctuningspace_put_maxphysicalchannel, put_MaxPhysicalChannel, put_MaxPhysicalChannel method [Microsoft TV Technologies], put_MaxPhysicalChannel method [Microsoft TV Technologies],IATSCTuningSpace interface, tuner/IATSCTuningSpace::put_MaxPhysicalChannel
 ms.topic: method
-f1_keywords: 
- - "tuner/IATSCTuningSpace.put_MaxPhysicalChannel"
+f1_keywords:
+- tuner/IATSCTuningSpace.put_MaxPhysicalChannel
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IATSCTuningSpace.put_MaxPhysicalChannel
+- IATSCTuningSpace.put_MaxPhysicalChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

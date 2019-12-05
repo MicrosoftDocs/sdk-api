@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.IEnumITfCompositionView.Clone
 title: IEnumITfCompositionView::Clone (msctf.h)
-
 description: IEnumITfCompositionView::Clone method
 old-location: tsf\ienumitfcompositionview_clone.htm
 tech.root: TSF
 ms.assetid: 536b89ee-c2bd-4713-aa2c-2a2e4841a8de
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumITfCompositionView interface, IEnumITfCompositionView interface [Text Services Framework],Clone method, IEnumITfCompositionView.Clone, IEnumITfCompositionView::Clone, _tsf_ienumitfcompositionview_clone_ref, msctf/IEnumITfCompositionView::Clone, tsf.ienumitfcompositionview_clone
 ms.topic: method
-f1_keywords: 
- - "msctf/IEnumITfCompositionView.Clone"
+f1_keywords:
+- msctf/IEnumITfCompositionView.Clone
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - IEnumITfCompositionView.Clone
+- IEnumITfCompositionView.Clone
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

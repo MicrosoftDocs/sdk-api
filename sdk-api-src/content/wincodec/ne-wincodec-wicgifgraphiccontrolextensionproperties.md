@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICGifGraphicControlExtensionProperties
 title: WICGifGraphicControlExtensionProperties (wincodec.h)
-
 description: Specifies the graphic control extension metadata properties that define the transitions between each frame animation for Graphics Interchange Format (GIF) images.
 old-location: wic\_wic_codec_wicgifgraphiccontrolextensionproperties.htm
 tech.root: wic
 ms.assetid: 32fbf62d-0479-4ead-8246-6c757467ccaa
-
 ms.date: 12/05/2018
 ms.keywords: WICGifGraphicControlExtensionDelay, WICGifGraphicControlExtensionDisposal, WICGifGraphicControlExtensionProperties, WICGifGraphicControlExtensionProperties enumeration [Windows Imaging Component], WICGifGraphicControlExtensionTransparencyFlag, WICGifGraphicControlExtensionTransparentColorIndex, WICGifGraphicControlExtensionUserInputFlag, _wic_codec_wicgifgraphiccontrolextensionproperties, wic._wic_codec_wicgifgraphiccontrolextensionproperties, wincodec/WICGifGraphicControlExtensionDelay, wincodec/WICGifGraphicControlExtensionDisposal, wincodec/WICGifGraphicControlExtensionProperties, wincodec/WICGifGraphicControlExtensionTransparencyFlag, wincodec/WICGifGraphicControlExtensionTransparentColorIndex, wincodec/WICGifGraphicControlExtensionUserInputFlag
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICGifGraphicControlExtensionProperties"
+f1_keywords:
+- wincodec/WICGifGraphicControlExtensionProperties
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICGifGraphicControlExtensionProperties
+- WICGifGraphicControlExtensionProperties
 targetos: Windows
 req.typenames: WICGifGraphicControlExtensionProperties
 req.redist: 

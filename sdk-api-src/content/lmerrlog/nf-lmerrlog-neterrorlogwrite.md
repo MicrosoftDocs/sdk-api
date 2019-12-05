@@ -1,19 +1,17 @@
 ---
 UID: NF:lmerrlog.NetErrorLogWrite
 title: NetErrorLogWrite function (lmerrlog.h)
-
 description: The NetErrorLogWrite function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use event logging.
 old-location: netmgmt\neterrorlogwrite.htm
 tech.root: NetMgmt
 ms.assetid: b97d97ab-aecd-4da5-b8c2-46582cbd3ea4
-
 ms.date: 12/05/2018
 ms.keywords: NetErrorLogWrite, NetErrorLogWrite function [Network Management], _win32_neterrorlogwrite, lmerrlog/NetErrorLogWrite, netmgmt.neterrorlogwrite
 ms.topic: function
-f1_keywords: 
- - "lmerrlog/NetErrorLogWrite"
+f1_keywords:
+- lmerrlog/NetErrorLogWrite
 dev_langs:
- - c++
+- c++
 req.header: lmerrlog.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - lmerrlog.h
+- lmerrlog.h
 api_name:
- - NetErrorLogWrite
+- NetErrorLogWrite
 targetos: Windows
 req.typenames: 
 req.redist: 

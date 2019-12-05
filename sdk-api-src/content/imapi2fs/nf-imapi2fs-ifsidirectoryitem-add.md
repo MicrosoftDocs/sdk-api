@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem.Add
 title: IFsiDirectoryItem::Add (imapi2fs.h)
-
 description: Adds a file or directory described by the IFsiItem object to the file system image.
 old-location: imapi\ifsidirectoryitem_add.htm
 tech.root: imapi
 ms.assetid: f4855907-89e5-4127-9307-35970046a236
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [IMAPI], Add method [IMAPI],IFsiDirectoryItem interface, IFsiDirectoryItem interface [IMAPI],Add method, IFsiDirectoryItem.Add, IFsiDirectoryItem::Add, imapi.ifsidirectoryitem_add, imapi2fs/IFsiDirectoryItem::Add
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFsiDirectoryItem.Add"
+f1_keywords:
+- imapi2fs/IFsiDirectoryItem.Add
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFsiDirectoryItem.Add
+- IFsiDirectoryItem.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.CopyFileExA
 title: CopyFileExA function (winbase.h)
-
 description: Copies an existing file to a new file, notifying the application of its progress through a callback function.
 old-location: fs\copyfileex.htm
 tech.root: FileIO
 ms.assetid: e19f0299-54fa-4e1e-855a-d2c71d29611b
-
 ms.date: 12/05/2018
 ms.keywords: COPY_FILE_ALLOW_DECRYPTED_DESTINATION, COPY_FILE_COPY_SYMLINK, COPY_FILE_FAIL_IF_EXISTS, COPY_FILE_NO_BUFFERING, COPY_FILE_OPEN_SOURCE_FOR_WRITE, COPY_FILE_RESTARTABLE, CopyFileEx, CopyFileEx function [Files], CopyFileExA, CopyFileExW, _win32_copyfileex, base.copyfileex, fs.copyfileex, winbase/CopyFileEx, winbase/CopyFileExA, winbase/CopyFileExW
 ms.topic: function
-f1_keywords: 
- - "winbase/CopyFileEx"
+f1_keywords:
+- winbase/CopyFileEx
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l2-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l2-1-1.dll
- - API-MS-Win-Core-File-l2-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - API-Ms-Win-Core-File-Ansi-L2-1-0.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l2-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l2-1-1.dll
+- API-MS-Win-Core-File-l2-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- API-Ms-Win-Core-File-Ansi-L2-1-0.dll
+- Kernel32Legacy.dll
 api_name:
- - CopyFileEx
- - CopyFileExA
- - CopyFileExW
+- CopyFileEx
+- CopyFileExA
+- CopyFileExW
 targetos: Windows
 req.typenames: 
 req.redist: 

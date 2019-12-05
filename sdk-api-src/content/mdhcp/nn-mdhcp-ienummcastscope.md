@@ -1,19 +1,17 @@
 ---
 UID: NN:mdhcp.IEnumMcastScope
 title: IEnumMcastScope (mdhcp.h)
-
 description: The IEnumMcastScope interface provides COM-standard enumeration methods for the IMcastScope interface. The IMcastAddressAllocation::EnumerateScopes method returns a pointer to IEnumMcastScope.
 old-location: tapi3\ienummcastscope.htm
 tech.root: Tapi
 ms.assetid: edc8be8e-635b-43f3-a4c1-7566e354cc3e
-
 ms.date: 12/05/2018
 ms.keywords: IEnumMcastScope, IEnumMcastScope interface [TAPI 2.2], IEnumMcastScope interface [TAPI 2.2],described, _tapi3_ienummcastscope, mdhcp/IEnumMcastScope, tapi3.ienummcastscope
 ms.topic: interface
-f1_keywords: 
- - "mdhcp/IEnumMcastScope"
+f1_keywords:
+- mdhcp/IEnumMcastScope
 dev_langs:
- - c++
+- c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Mdhcp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mdhcp.dll
+- Mdhcp.dll
 api_name:
- - IEnumMcastScope
+- IEnumMcastScope
 targetos: Windows
 req.typenames: 
 req.redist: 

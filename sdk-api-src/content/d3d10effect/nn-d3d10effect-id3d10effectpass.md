@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectPass
 title: ID3D10EffectPass (d3d10effect.h)
-
 description: A pass interface encapsulates state assignments within a technique.
 old-location: direct3d10\id3d10effectpass.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectpass.htm
-
 ms.date: 12/05/2018
 ms.keywords: 5cb1e1c5-e0ab-9620-8166-f4d77be0bd73, ID3D10EffectPass, ID3D10EffectPass interface [Direct3D 10], ID3D10EffectPass interface [Direct3D 10],described, d3d10effect/ID3D10EffectPass, direct3d10.id3d10effectpass
 ms.topic: interface
-f1_keywords: 
- - "d3d10effect/ID3D10EffectPass"
+f1_keywords:
+- d3d10effect/ID3D10EffectPass
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10EffectPass
+- ID3D10EffectPass
 targetos: Windows
 req.typenames: 
 req.redist: 

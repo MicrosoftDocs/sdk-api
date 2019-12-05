@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION
 title: D3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION (d3d12.h)
-
 description: This subobject is unsupported in the current release.
 old-location: direct3d12\d3d12_dxil_subobject_to_exports_association.htm
 tech.root: direct3d12
 ms.assetid: 82990FE6-43A8-4597-BAC5-E995B1FA67EB
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION, D3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION structure, PD3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION, PD3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION structure pointer, d3d12/D3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION, d3d12/PD3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION, direct3d12.d3d12_dxil_subobject_to_exports_association
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION"
+f1_keywords:
+- d3d12/D3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION
+- D3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION
 targetos: Windows
 req.typenames: D3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION
 req.redist: 

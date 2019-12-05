@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagDESIGNVECTOR
 title: DESIGNVECTOR (wingdi.h)
-
 description: The DESIGNVECTOR structure is used by an application to specify values for the axes of a multiple master font.
 old-location: gdi\designvector.htm
 tech.root: gdi
 ms.assetid: aeff9901-2405-44aa-ba46-8d784afd6b76
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDESIGNVECTOR, *PDESIGNVECTOR, DESIGNVECTOR, DESIGNVECTOR structure [Windows GDI], PDESIGNVECTOR, PDESIGNVECTOR structure pointer [Windows GDI], _win32_DESIGNVECTOR_str, gdi.designvector, wingdi/DESIGNVECTOR, wingdi/PDESIGNVECTOR"
+ms.keywords: '*LPDESIGNVECTOR, *PDESIGNVECTOR, DESIGNVECTOR, DESIGNVECTOR structure [Windows GDI], PDESIGNVECTOR, PDESIGNVECTOR structure pointer [Windows GDI], _win32_DESIGNVECTOR_str, gdi.designvector, wingdi/DESIGNVECTOR, wingdi/PDESIGNVECTOR'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/DESIGNVECTOR"
+f1_keywords:
+- wingdi/DESIGNVECTOR
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - DESIGNVECTOR
+- DESIGNVECTOR
 targetos: Windows
 req.typenames: DESIGNVECTOR, *PDESIGNVECTOR, *LPDESIGNVECTOR
 req.redist: 

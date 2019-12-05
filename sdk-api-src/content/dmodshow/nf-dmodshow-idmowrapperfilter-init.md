@@ -1,19 +1,17 @@
 ---
 UID: NF:dmodshow.IDMOWrapperFilter.Init
 title: IDMOWrapperFilter::Init (dmodshow.h)
-
 description: The Init method initializes the DMO Wrapper filter with the specified DMO.
 old-location: dshow\idmowrapperfilter_init.htm
 tech.root: DirectShow
 ms.assetid: 45f305b5-82bc-44c1-9af7-93aab371ed33
-
 ms.date: 12/05/2018
 ms.keywords: IDMOWrapperFilter interface [DirectShow],Init method, IDMOWrapperFilter.Init, IDMOWrapperFilter::Init, IDMOWrapperFilterInit, Init, Init method [DirectShow], Init method [DirectShow],IDMOWrapperFilter interface, dmodshow/IDMOWrapperFilter::Init, dshow.idmowrapperfilter_init
 ms.topic: method
-f1_keywords: 
- - "dmodshow/IDMOWrapperFilter.Init"
+f1_keywords:
+- dmodshow/IDMOWrapperFilter.Init
 dev_langs:
- - c++
+- c++
 req.header: dmodshow.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IDMOWrapperFilter.Init
+- IDMOWrapperFilter.Init
 targetos: Windows
 req.typenames: 
 req.redist: 

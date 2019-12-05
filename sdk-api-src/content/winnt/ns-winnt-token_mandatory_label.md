@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._TOKEN_MANDATORY_LABEL
 title: TOKEN_MANDATORY_LABEL (winnt.h)
-
 description: Specifies the mandatory integrity level for a token.
 old-location: security\token_mandatory_label.htm
 tech.root: SecAuthZ
 ms.assetid: cf37eb34-ee90-43c6-97a9-c5edfcba2bc5
-
 ms.date: 12/05/2018
 ms.keywords: '*PTOKEN_MANDATORY_LABEL, PTOKEN_MANDATORY_LABEL, PTOKEN_MANDATORY_LABEL structure pointer [Security], TOKEN_MANDATORY_LABEL, TOKEN_MANDATORY_LABEL structure [Security], _TOKEN_MANDATORY_LABEL, security.token_mandatory_label, winnt/PTOKEN_MANDATORY_LABEL, winnt/TOKEN_MANDATORY_LABEL'
 ms.topic: struct
 f1_keywords:
 - winnt/TOKEN_MANDATORY_LABEL
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

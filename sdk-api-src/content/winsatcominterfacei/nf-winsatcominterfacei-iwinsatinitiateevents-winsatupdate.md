@@ -1,19 +1,17 @@
 ---
 UID: NF:winsatcominterfacei.IWinSATInitiateEvents.WinSATUpdate
 title: IWinSATInitiateEvents::WinSATUpdate (winsatcominterfacei.h)
-
 description: Receives notification when an assessment is making progress.
 old-location: winsat\iwinsatinitiateevents_winsatupdate.htm
 tech.root: WinSAT
 ms.assetid: d0f527a9-89b9-45d6-b5a5-82b0ae1ad122
-
 ms.date: 12/05/2018
 ms.keywords: IWinSATInitiateEvents interface [WinSAT],WinSATUpdate method, IWinSATInitiateEvents.WinSATUpdate, IWinSATInitiateEvents::WinSATUpdate, WinSATUpdate, WinSATUpdate method [WinSAT], WinSATUpdate method [WinSAT],IWinSATInitiateEvents interface, winsat.iwinsatinitiateevents_winsatupdate, winsatcominterfacei/IWinSATInitiateEvents::WinSATUpdate
 ms.topic: method
-f1_keywords: 
- - "winsatcominterfacei/IWinSATInitiateEvents.WinSATUpdate"
+f1_keywords:
+- winsatcominterfacei/IWinSATInitiateEvents.WinSATUpdate
 dev_langs:
- - c++
+- c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Winsatapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Winsatapi.dll
+- Winsatapi.dll
 api_name:
- - IWinSATInitiateEvents.WinSATUpdate
+- IWinSATInitiateEvents.WinSATUpdate
 targetos: Windows
 req.typenames: 
 req.redist: 

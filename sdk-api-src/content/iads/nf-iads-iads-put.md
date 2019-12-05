@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADs.Put
 title: IADs::Put (iads.h)
-
 description: Sets the values of an attribute in the ADSI attribute cache.
 old-location: adsi\iads_put.htm
 tech.root: adsi
 ms.assetid: b543220d-939b-4ca5-9a27-90b04f14be5d
-
 ms.date: 12/05/2018
 ms.keywords: IADs interface [ADSI],Put method, IADs.Put, IADs::Put, Put, Put method [ADSI], Put method [ADSI],IADs interface, _ds_iads_put, adsi.iads__put, adsi.iads_put, iads/IADs::Put
 ms.topic: method
-f1_keywords: 
- - "iads/IADs.Put"
+f1_keywords:
+- iads/IADs.Put
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADs.Put
+- IADs.Put
 targetos: Windows
 req.typenames: 
 req.redist: 

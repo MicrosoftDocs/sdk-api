@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.TpSetCallbackPriority
 title: TpSetCallbackPriority function (winnt.h)
-
 description: Specifies the priority of a callback function relative to other work items in the same thread pool.
 old-location: base\tpsetcallbackpriority.htm
 tech.root: ProcThread
 ms.assetid: 3A2DA8CA-D5F2-442A-B152-11AB28681B5B
-
 ms.date: 12/05/2018
 ms.keywords: TP_CALLBACK_PRIORITY_HIGH, TP_CALLBACK_PRIORITY_LOW, TP_CALLBACK_PRIORITY_NORMAL, TpSetCallbackPriority, TpSetCallbackPriority function, base.tpsetcallbackpriority, winnt/TpSetCallbackPriority
 ms.topic: function
-f1_keywords: 
- - "winnt/TpSetCallbackPriority"
+f1_keywords:
+- winnt/TpSetCallbackPriority
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winnt.h
+- winnt.h
 api_name:
- - TpSetCallbackPriority
+- TpSetCallbackPriority
 targetos: Windows
 req.typenames: 
 req.redist: 

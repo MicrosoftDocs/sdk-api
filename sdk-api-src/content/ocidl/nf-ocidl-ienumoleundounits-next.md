@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IEnumOleUndoUnits.Next
 title: IEnumOleUndoUnits::Next (ocidl.h)
-
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienumoleundounits_next.htm
 tech.root: com
 ms.assetid: bd5ce157-37d1-4e27-a0d4-ed9cffeac2b3
-
 ms.date: 12/05/2018
 ms.keywords: IEnumOleUndoUnits interface [COM],Next method, IEnumOleUndoUnits.Next, IEnumOleUndoUnits::Next, Next, Next method [COM], Next method [COM],IEnumOleUndoUnits interface, _ole_ienumoleundounits_next, com.ienumoleundounits_next, ocidl/IEnumOleUndoUnits::Next
 ms.topic: method
-f1_keywords: 
- - "ocidl/IEnumOleUndoUnits.Next"
+f1_keywords:
+- ocidl/IEnumOleUndoUnits.Next
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IEnumOleUndoUnits.Next
+- IEnumOleUndoUnits.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

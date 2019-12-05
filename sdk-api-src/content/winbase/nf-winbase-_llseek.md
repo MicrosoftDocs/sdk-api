@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase._llseek
 title: _llseek function (winbase.h)
-
 description: Repositions the file pointer for the specified file.
 old-location: winprog\_llseek.htm
 tech.root: DevNotes
 ms.assetid: 1861bd5a-97e6-463d-9586-22458a1d9210
-
 ms.date: 12/05/2018
-ms.keywords: "_llseek, _llseek function [Windows API], winbase/_llseek, winprog._llseek"
+ms.keywords: _llseek, _llseek function [Windows API], winbase/_llseek, winprog._llseek
 ms.topic: function
-f1_keywords: 
- - "winbase/_llseek"
+f1_keywords:
+- winbase/_llseek
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Private-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Private-l1-1-1.dll
- - API-MS-Win-Core-Kernel32-Private-l1-1-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Private-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Private-l1-1-1.dll
+- API-MS-Win-Core-Kernel32-Private-l1-1-2.dll
 api_name:
- - _llseek
+- _llseek
 targetos: Windows
 req.typenames: 
 req.redist: 

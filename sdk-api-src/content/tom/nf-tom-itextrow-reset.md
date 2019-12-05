@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.Reset
 title: ITextRow::Reset (tom.h)
-
 description: Resets a row.
 old-location: controls\itextrow_reset.htm
 tech.root: Controls
 ms.assetid: 49f057ba-6376-496b-b0b0-97c6a00111c4
-
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],Reset method, ITextRow.Reset, ITextRow::Reset, Reset, Reset method [Windows Controls], Reset method [Windows Controls],ITextRow interface, controls.itextrow_reset, tom/ITextRow::Reset
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.Reset"
+f1_keywords:
+- tom/ITextRow.Reset
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.Reset
+- ITextRow.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

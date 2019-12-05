@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHRegGetBoolValueFromHKCUHKLM
 title: SHRegGetBoolValueFromHKCUHKLM function (shlwapi.h)
-
 description: Evaluates a registry key value and returns a boolean value that reflects whether the value exists and the expected state matches the actual state.
 old-location: shell\SHRegGetBoolValueFromHKCUHKLM.htm
 tech.root: shell
 ms.assetid: 05239aef-a6cf-426f-919e-08b70baee3f8
-
 ms.date: 12/05/2018
 ms.keywords: SHRegGetBoolValueFromHKCUHKLM, SHRegGetBoolValueFromHKCUHKLM function [Windows Shell], _shell_SHRegGetBoolValueFromHKCUHKLM, shell.SHRegGetBoolValueFromHKCUHKLM, shlwapi/SHRegGetBoolValueFromHKCUHKLM
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHRegGetBoolValueFromHKCUHKLM"
+f1_keywords:
+- shlwapi/SHRegGetBoolValueFromHKCUHKLM
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - API-MS-Win-shlwapi-ie-l1-1-0.dll
- - shlwapi.dll
+- Shell32.dll
+- API-MS-Win-shlwapi-ie-l1-1-0.dll
+- shlwapi.dll
 api_name:
- - SHRegGetBoolValueFromHKCUHKLM
+- SHRegGetBoolValueFromHKCUHKLM
 targetos: Windows
 req.typenames: 
 req.redist: 

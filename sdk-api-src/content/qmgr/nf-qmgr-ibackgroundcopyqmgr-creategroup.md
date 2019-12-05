@@ -1,19 +1,17 @@
 ---
 UID: NF:qmgr.IBackgroundCopyQMgr.CreateGroup
 title: IBackgroundCopyQMgr::CreateGroup (qmgr.h)
-
 description: Use the CreateGroup method to create a new group and add it to the download queue.
 old-location: bits\ibackgroundcopyqmgr_creategroup.htm
 tech.root: Bits
 ms.assetid: d64fec33-3781-428e-af9d-4a08836760d2
-
 ms.date: 12/05/2018
 ms.keywords: CreateGroup, CreateGroup method [BITS], CreateGroup method [BITS],IBackgroundCopyQMgr interface, IBackgroundCopyQMgr interface [BITS],CreateGroup method, IBackgroundCopyQMgr.CreateGroup, IBackgroundCopyQMgr::CreateGroup, bits.ibackgroundcopyqmgr_creategroup, qmgr/IBackgroundCopyQMgr::CreateGroup
 ms.topic: method
-f1_keywords: 
- - "qmgr/IBackgroundCopyQMgr.CreateGroup"
+f1_keywords:
+- qmgr/IBackgroundCopyQMgr.CreateGroup
 dev_langs:
- - c++
+- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyQMgr.CreateGroup
+- IBackgroundCopyQMgr.CreateGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

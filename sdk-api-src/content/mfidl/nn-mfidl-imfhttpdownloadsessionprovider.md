@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFHttpDownloadSessionProvider
 title: IMFHttpDownloadSessionProvider (mfidl.h)
-
 description: Applications implement this interface in order to provide custom a custom HTTP or HTTPS download implementation.
 old-location: mf\imfhttpdownloadsessionprovider.htm
 tech.root: medfound
 ms.assetid: 4A3A96FB-A7C5-40BB-AB8F-12A7F00FDCD1
-
 ms.date: 12/05/2018
 ms.keywords: IMFHttpDownloadSessionProvider, IMFHttpDownloadSessionProvider interface [Media Foundation], IMFHttpDownloadSessionProvider interface [Media Foundation],described, mf.imfhttpdownloadsessionprovider, mfidl/IMFHttpDownloadSessionProvider
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFHttpDownloadSessionProvider"
+f1_keywords:
+- mfidl/IMFHttpDownloadSessionProvider
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFHttpDownloadSessionProvider
+- IMFHttpDownloadSessionProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

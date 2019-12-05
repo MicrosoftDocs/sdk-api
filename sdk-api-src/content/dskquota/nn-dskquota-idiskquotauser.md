@@ -1,19 +1,17 @@
 ---
 UID: NN:dskquota.IDiskQuotaUser
 title: IDiskQuotaUser (dskquota.h)
-
 description: Represents a single user quota entry in the volume quota information file.
 old-location: fs\idiskquotauser.htm
 tech.root: FileIO
 ms.assetid: 27edbebc-35b4-4f6a-87cc-d8a99782f405
-
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaUser, IDiskQuotaUser interface [Files], IDiskQuotaUser interface [Files],described, _win32_idiskquotauser, base.idiskquotauser, dskquota/IDiskQuotaUser, fs.idiskquotauser
 ms.topic: interface
-f1_keywords: 
- - "dskquota/IDiskQuotaUser"
+f1_keywords:
+- dskquota/IDiskQuotaUser
 dev_langs:
- - c++
+- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dskquota.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dskquota.dll
+- Dskquota.dll
 api_name:
- - IDiskQuotaUser
+- IDiskQuotaUser
 targetos: Windows
 req.typenames: 
 req.redist: 

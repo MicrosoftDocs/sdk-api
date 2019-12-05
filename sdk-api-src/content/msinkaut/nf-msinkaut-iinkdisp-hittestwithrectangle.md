@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkDisp.HitTestWithRectangle
 title: IInkDisp::HitTestWithRectangle (msinkaut.h)
-
 description: Retrieves the strokes that are contained within a specified rectangle.
 old-location: tablet\inkdisp_hittest_rectangle__single.htm
 tech.root: tablet
 ms.assetid: 401c4f62-a406-49ac-9911-91f815cde9c8
-
 ms.date: 12/05/2018
 ms.keywords: 401c4f62-a406-49ac-9911-91f815cde9c8, HitTestWithRectangle, HitTestWithRectangle method [Tablet PC], HitTestWithRectangle method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],HitTestWithRectangle method, IInkDisp.HitTestWithRectangle, IInkDisp::HitTestWithRectangle, msinkaut/IInkDisp::HitTestWithRectangle, tablet.inkdisp_hittest_rectangle__single
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkDisp.HitTestWithRectangle"
+f1_keywords:
+- msinkaut/IInkDisp.HitTestWithRectangle
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkDisp.HitTestWithRectangle
+- IInkDisp.HitTestWithRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 

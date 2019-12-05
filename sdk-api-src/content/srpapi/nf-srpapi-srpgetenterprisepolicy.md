@@ -1,19 +1,17 @@
 ---
 UID: NF:srpapi.SrpGetEnterprisePolicy
 title: SrpGetEnterprisePolicy function (srpapi.h)
-
 description: Policy can be applied on Windows 10, version 1607.Gets information about the enterprise policy of an app.
 old-location: edp\srpgetenterprisepolicy.htm
 tech.root: EDP
 ms.assetid: BF31E36C-756E-4B4A-959B-4BA7517427CB
-
 ms.date: 12/05/2018
 ms.keywords: EDP.srpgetenterprisepolicy, SrpGetEnterprisePolicy, SrpGetEnterprisePolicy function, srpapi/SrpGetEnterprisePolicy
 ms.topic: function
-f1_keywords: 
- - "srpapi/SrpGetEnterprisePolicy"
+f1_keywords:
+- srpapi/SrpGetEnterprisePolicy
 dev_langs:
- - c++
+- c++
 req.header: srpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Srpapi.lib
 req.dll: Srpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - srpapi.dll
- - Ext-MS-Win-Security-Srp-L1-1-0.dll
- - Ext-MS-Win-Security-Srp-L1-1-1.dll
+- srpapi.dll
+- Ext-MS-Win-Security-Srp-L1-1-0.dll
+- Ext-MS-Win-Security-Srp-L1-1-1.dll
 api_name:
- - SrpGetEnterprisePolicy
+- SrpGetEnterprisePolicy
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wmsdkidl._WMPicture
 title: WM_PICTURE (wmsdkidl.h)
-
 description: The WM_PICTURE structure is used as the data item for the WM/Picture complex metadata attribute.
 old-location: wmformat\wm_picture.htm
 tech.root: wmformat
 ms.assetid: d3670cce-5b57-4624-b10d-2e4d9e9e263c
-
 ms.date: 12/05/2018
 ms.keywords: WM_PICTURE, WM_PICTURE structure [windows Media Format], wmformat.wm_picture, wmsdkidl/WM_PICTURE
 ms.topic: struct
-f1_keywords: 
- - "wmsdkidl/WM_PICTURE"
+f1_keywords:
+- wmsdkidl/WM_PICTURE
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WM_PICTURE
+- WM_PICTURE
 targetos: Windows
 req.typenames: WM_PICTURE
 req.redist: 

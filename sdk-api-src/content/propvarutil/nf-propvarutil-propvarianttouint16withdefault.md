@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToUInt16WithDefault
 title: PropVariantToUInt16WithDefault function (propvarutil.h)
-
 description: Extracts an unsigned short value from a PROPVARIANT structure. If no value exists, then the specified default value is returned.
 old-location: properties\PropVariantToUInt16WithDefault.htm
 tech.root: properties
 ms.assetid: 4346cef2-5e43-47bf-9bfb-0ede923872fd
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToUInt16WithDefault, PropVariantToUInt16WithDefault function [Windows Properties], properties.PropVariantToUInt16WithDefault, propvarutil/PropVariantToUInt16WithDefault, shell.PropVariantToUInt16WithDefault, shell_PropVariantToUInt16WithDefault
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToUInt16WithDefault"
+f1_keywords:
+- propvarutil/PropVariantToUInt16WithDefault
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToUInt16WithDefault
+- PropVariantToUInt16WithDefault
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

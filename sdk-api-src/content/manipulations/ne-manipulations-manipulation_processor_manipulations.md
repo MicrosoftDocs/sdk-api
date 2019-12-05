@@ -1,19 +1,17 @@
 ---
 UID: NE:manipulations.MANIPULATION_PROCESSOR_MANIPULATIONS
 title: MANIPULATION_PROCESSOR_MANIPULATIONS (manipulations.h)
-
 description: The MANIPULATION_PROCESSOR_MANIPULATIONS enumeration different kinds of manipulation which can be applied on a target object.
 old-location: wintouch\manipulation_processor_manipulations.htm
 tech.root: wintouch
 ms.assetid: 85ddd2d3-cb4b-48ae-8ad4-230be5420abd
-
 ms.date: 12/05/2018
 ms.keywords: MANIPULATION_ALL, MANIPULATION_NONE, MANIPULATION_PROCESSOR_MANIPULATIONS, MANIPULATION_PROCESSOR_MANIPULATIONS enumeration [Windows Touch], MANIPULATION_ROTATE, MANIPULATION_SCALE, MANIPULATION_TRANSLATE_X, MANIPULATION_TRANSLATE_Y, manipulations/MANIPULATION_ALL, manipulations/MANIPULATION_NONE, manipulations/MANIPULATION_PROCESSOR_MANIPULATIONS, manipulations/MANIPULATION_ROTATE, manipulations/MANIPULATION_SCALE, manipulations/MANIPULATION_TRANSLATE_X, manipulations/MANIPULATION_TRANSLATE_Y, wintouch.manipulation_processor_manipulations
 ms.topic: enum
-f1_keywords: 
- - "manipulations/MANIPULATION_PROCESSOR_MANIPULATIONS"
+f1_keywords:
+- manipulations/MANIPULATION_PROCESSOR_MANIPULATIONS
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - MANIPULATION_PROCESSOR_MANIPULATIONS
+- MANIPULATION_PROCESSOR_MANIPULATIONS
 targetos: Windows
 req.typenames: MANIPULATION_PROCESSOR_MANIPULATIONS
 req.redist: 

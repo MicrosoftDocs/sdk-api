@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualCollection.Append
 title: IXpsOMVisualCollection::Append (xpsobjectmodel.h)
-
 description: Appends an IXpsOMVisual interface to the end of the collection.
 old-location: xps\ixpsomvisualcollection_append.htm
 tech.root: printdocs
 ms.assetid: e0e5134b-9f8a-45ff-9892-fd010d7df787
-
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMVisualCollection interface, IXpsOMVisualCollection interface [XPS Documents and Packaging],Append method, IXpsOMVisualCollection.Append, IXpsOMVisualCollection::Append, xps.ixpsomvisualcollection_append, xpsobjectmodel/IXpsOMVisualCollection::Append
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMVisualCollection.Append"
+f1_keywords:
+- xpsobjectmodel/IXpsOMVisualCollection.Append
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMVisualCollection.Append
+- IXpsOMVisualCollection.Append
 targetos: Windows
 req.typenames: 
 req.redist: 

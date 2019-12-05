@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPMediaCollection.setDeleted
 title: IWMPMediaCollection::setDeleted (wmp.h)
-
 description: The setDeleted method moves the specified media item to the deleted items folder.
 old-location: wmp\iwmpmediacollection_setdeleted.htm
 tech.root: WMP
 ms.assetid: 4bba1e7a-3c1f-4f69-b4ab-68a9cf3b97d0
-
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaCollection interface [Windows Media Player],setDeleted method, IWMPMediaCollection.setDeleted, IWMPMediaCollection::setDeleted, IWMPMediaCollectionsetDeleted, setDeleted, setDeleted method [Windows Media Player], setDeleted method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_setdeleted, wmp/IWMPMediaCollection::setDeleted
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPMediaCollection.setDeleted"
+f1_keywords:
+- wmp/IWMPMediaCollection.setDeleted
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPMediaCollection.setDeleted
+- IWMPMediaCollection.setDeleted
 targetos: Windows
 req.typenames: 
 req.redist: 

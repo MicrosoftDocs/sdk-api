@@ -1,19 +1,17 @@
 ---
 UID: NF:audiopolicy.IAudioSessionNotification.OnSessionCreated
 title: IAudioSessionNotification::OnSessionCreated (audiopolicy.h)
-
 description: The OnSessionCreated method notifies the registered processes that the audio session has been created.
 old-location: coreaudio\iaudiosessionnotification_onsessioncreated.htm
 tech.root: CoreAudio
 ms.assetid: 03f22e06-f446-4c57-a955-3d12deec4152
-
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionNotification interface [Core Audio],OnSessionCreated method, IAudioSessionNotification.OnSessionCreated, IAudioSessionNotification::OnSessionCreated, OnSessionCreated, OnSessionCreated method [Core Audio], OnSessionCreated method [Core Audio],IAudioSessionNotification interface, audiopolicy/IAudioSessionNotification::OnSessionCreated, coreaudio.iaudiosessionnotification_onsessioncreated
 ms.topic: method
-f1_keywords: 
- - "audiopolicy/IAudioSessionNotification.OnSessionCreated"
+f1_keywords:
+- audiopolicy/IAudioSessionNotification.OnSessionCreated
 dev_langs:
- - c++
+- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - audiopolicy.h
+- audiopolicy.h
 api_name:
- - IAudioSessionNotification.OnSessionCreated
+- IAudioSessionNotification.OnSessionCreated
 targetos: Windows
 req.typenames: 
 req.redist: 

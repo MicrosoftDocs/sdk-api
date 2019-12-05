@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CertVerifyRevocation
 title: CertVerifyRevocation function (wincrypt.h)
-
 description: Checks the revocation status of the certificates contained in the rgpvContext array. If a certificate in the list is found to be revoked, no further checking is done.
 old-location: security\certverifyrevocation.htm
 tech.root: SecCrypto
 ms.assetid: 2d6fb244-5273-4530-bec4-e5451fe26f2e
-
 ms.date: 12/05/2018
 ms.keywords: CERT_VERIFY_CACHE_ONLY_BASED_REVOCATION, CERT_VERIFY_REV_ACCUMULATIVE_TIMEOUT_FLAG, CERT_VERIFY_REV_CHAIN_FLAG, CERT_VERIFY_REV_SERVER_OCSP_FLAG, CertVerifyRevocation, CertVerifyRevocation function [Security], _crypto2_certverifyrevocation, security.certverifyrevocation, wincrypt/CertVerifyRevocation
 ms.topic: function
 f1_keywords:
 - wincrypt/CertVerifyRevocation
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

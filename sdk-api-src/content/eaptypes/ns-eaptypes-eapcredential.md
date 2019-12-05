@@ -1,19 +1,17 @@
 ---
 UID: NS:eaptypes._EapCredential
 title: EapCredential (eaptypes.h)
-
 description: Contains information about the credentials type and the appropriate credentials. This is passed as an input to the EapPeerGetConfigBlobAndUserBlob API.
 old-location: eaphost\eapcredential.htm
 tech.root: eaphost
 ms.assetid: DC1B9524-2853-404D-A77A-61CB012FCF11
-
 ms.date: 12/05/2018
 ms.keywords: EapCredential, EapCredential structure [EAPHost], eaphost.eapcredential, eaptypes/EapCredential
 ms.topic: struct
 f1_keywords:
 - eaptypes/EapCredential
 dev_langs:
- - c++
+- c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

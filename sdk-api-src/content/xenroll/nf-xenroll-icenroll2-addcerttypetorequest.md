@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.ICEnroll2.addCertTypeToRequest
 title: ICEnroll2::addCertTypeToRequest (xenroll.h)
-
 description: Adds a certificate template to a request (used to support the enterprise certification authority (CA)). This method was first defined by the ICEnroll2 interface.
 old-location: security\icenroll4_addcerttypetorequest.htm
 tech.root: SecCrypto
 ms.assetid: d2c22689-d386-43d1-a42f-f303a034a087
-
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],addCertTypeToRequest method, ICEnroll2 interface [Security],addCertTypeToRequest method, ICEnroll2.addCertTypeToRequest, ICEnroll2::addCertTypeToRequest, ICEnroll3 interface [Security],addCertTypeToRequest method, ICEnroll3::addCertTypeToRequest, ICEnroll4 interface [Security],addCertTypeToRequest method, ICEnroll4::addCertTypeToRequest, addCertTypeToRequest, addCertTypeToRequest method [Security], addCertTypeToRequest method [Security],CEnroll object, addCertTypeToRequest method [Security],ICEnroll2 interface, addCertTypeToRequest method [Security],ICEnroll3 interface, addCertTypeToRequest method [Security],ICEnroll4 interface, security.icenroll4_addcerttypetorequest, xenroll/ICEnroll2::addCertTypeToRequest, xenroll/ICEnroll3::addCertTypeToRequest, xenroll/ICEnroll4::addCertTypeToRequest
 ms.topic: method
-f1_keywords: 
- - "xenroll/ICEnroll4.addCertTypeToRequest"
+f1_keywords:
+- xenroll/ICEnroll4.addCertTypeToRequest
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll4.addCertTypeToRequest
- - ICEnroll3.addCertTypeToRequest
- - ICEnroll2.addCertTypeToRequest
- - CEnroll.addCertTypeToRequest
+- ICEnroll4.addCertTypeToRequest
+- ICEnroll3.addCertTypeToRequest
+- ICEnroll2.addCertTypeToRequest
+- CEnroll.addCertTypeToRequest
 targetos: Windows
 req.typenames: 
 req.redist: 

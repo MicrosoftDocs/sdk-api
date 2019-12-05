@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbLinkageDescriptor.GetPrivateDataLength
 title: IDvbLinkageDescriptor::GetPrivateDataLength (dvbsiparser.h)
-
 description: Gets the length of the private data field from a Digital Video Broadcast (DVB) linkage descriptor.
 old-location: mstv\idvblinkagedescriptor_getprivatedatalength.htm
 tech.root: mstv
 ms.assetid: 6c37a877-5a0e-49ed-bf75-bb8ad73fa783
-
 ms.date: 12/05/2018
 ms.keywords: GetPrivateDataLength, GetPrivateDataLength method [Microsoft TV Technologies], GetPrivateDataLength method [Microsoft TV Technologies],IDvbLinkageDescriptor interface, IDvbLinkageDescriptor interface [Microsoft TV Technologies],GetPrivateDataLength method, IDvbLinkageDescriptor.GetPrivateDataLength, IDvbLinkageDescriptor::GetPrivateDataLength, dvbsiparser/IDvbLinkageDescriptor::GetPrivateDataLength, mstv.idvblinkagedescriptor_getprivatedatalength
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbLinkageDescriptor.GetPrivateDataLength"
+f1_keywords:
+- dvbsiparser/IDvbLinkageDescriptor.GetPrivateDataLength
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbLinkageDescriptor.GetPrivateDataLength
+- IDvbLinkageDescriptor.GetPrivateDataLength
 targetos: Windows
 req.typenames: 
 req.redist: 

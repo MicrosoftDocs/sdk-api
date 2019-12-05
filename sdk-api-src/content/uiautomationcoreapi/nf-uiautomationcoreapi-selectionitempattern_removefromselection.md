@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.SelectionItemPattern_RemoveFromSelection
 title: SelectionItemPattern_RemoveFromSelection function (uiautomationcoreapi.h)
-
 description: Removes an element from the selection in a selection container.
 old-location: winauto\uiauto_SelectionItemPattern_RemoveFromSelectionConPat.htm
 tech.root: WinAuto
 ms.assetid: 190e02a5-1ea9-44cc-a215-cabc700ec814
-
 ms.date: 12/05/2018
 ms.keywords: SelectionItemPattern_RemoveFromSelection, SelectionItemPattern_RemoveFromSelection function [Windows Accessibility], uiauto.uiauto_SelectionItemPattern_RemoveFromSelectionConPat, uiauto_SelectionItemPattern_RemoveFromSelectionConPat, uiautomationcoreapi/SelectionItemPattern_RemoveFromSelection, winauto.uiauto_SelectionItemPattern_RemoveFromSelectionConPat
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/SelectionItemPattern_RemoveFromSelection"
+f1_keywords:
+- uiautomationcoreapi/SelectionItemPattern_RemoveFromSelection
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - SelectionItemPattern_RemoveFromSelection
+- SelectionItemPattern_RemoveFromSelection
 targetos: Windows
 req.typenames: 
 req.redist: 

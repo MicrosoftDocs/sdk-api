@@ -1,19 +1,17 @@
 ---
 UID: NN:wuapi.IDownloadResult
 title: IDownloadResult (wuapi.h)
-
 description: Represents the result of a download operation.
 old-location: wua\idownloadresult.htm
 tech.root: Wua_Sdk
 ms.assetid: 293bea59-acec-4774-adb9-1ad1d29406c3
-
 ms.date: 12/05/2018
 ms.keywords: IDownloadResult, IDownloadResult interface [Windows Update Agent], IDownloadResult interface [Windows Update Agent],described, wua.idownloadresult, wuapi/IDownloadResult
 ms.topic: interface
-f1_keywords: 
- - "wuapi/IDownloadResult"
+f1_keywords:
+- wuapi/IDownloadResult
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IDownloadResult
+- IDownloadResult
 targetos: Windows
 req.typenames: 
 req.redist: 

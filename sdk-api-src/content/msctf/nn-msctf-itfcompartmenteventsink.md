@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfCompartmentEventSink
 title: ITfCompartmentEventSink (msctf.h)
-
 description: The ITfCompartmentEventSink interface is implemented by a client (application or text service) and used by the TSF manager to notify the client when compartment data changes.
 old-location: tsf\itfcompartmenteventsink.htm
 tech.root: TSF
 ms.assetid: 1bd464e7-9e34-4725-83f9-42e09ddf4778
-
 ms.date: 12/05/2018
 ms.keywords: ITfCompartmentEventSink, ITfCompartmentEventSink interface [Text Services Framework], ITfCompartmentEventSink interface [Text Services Framework],described, _tsf_itfcompartmenteventsink_ref, msctf/ITfCompartmentEventSink, tsf.itfcompartmenteventsink
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfCompartmentEventSink"
+f1_keywords:
+- msctf/ITfCompartmentEventSink
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.h
+- Msctf.h
 api_name:
- - ITfCompartmentEventSink
+- ITfCompartmentEventSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

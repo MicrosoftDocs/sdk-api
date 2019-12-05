@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmCompensatorVariants.EndPrepareVariants
 title: ICrmCompensatorVariants::EndPrepareVariants (comsvcs.h)
-
 description: Notifies the CRM Compensator that it has had all the log records available during the prepare phase.
 old-location: cos\icrmcompensatorvariants_endpreparevariants.htm
 tech.root: cossdk
 ms.assetid: 2b9a7e75-5e7c-4f5b-b625-78abb3c5e9b7
-
 ms.date: 12/05/2018
 ms.keywords: EndPrepareVariants, EndPrepareVariants method [COM+], EndPrepareVariants method [COM+],ICrmCompensatorVariants interface, ICrmCompensatorVariants interface [COM+],EndPrepareVariants method, ICrmCompensatorVariants.EndPrepareVariants, ICrmCompensatorVariants::EndPrepareVariants, _dtc_ICrmCompensatorVariants_EndPrepareVariants, comsvcs/ICrmCompensatorVariants::EndPrepareVariants, cos.icrmcompensatorvariants_endpreparevariants
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmCompensatorVariants.EndPrepareVariants"
+f1_keywords:
+- comsvcs/ICrmCompensatorVariants.EndPrepareVariants
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmCompensatorVariants.EndPrepareVariants
+- ICrmCompensatorVariants.EndPrepareVariants
 targetos: Windows
 req.typenames: 
 req.redist: 

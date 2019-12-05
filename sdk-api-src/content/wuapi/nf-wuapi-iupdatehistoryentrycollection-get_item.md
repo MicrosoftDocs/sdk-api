@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntryCollection.get_Item
 title: IUpdateHistoryEntryCollection::get_Item (wuapi.h)
-
 description: Gets an IUpdateHistoryEntry interface in the collection.
 old-location: wua\iupdatehistoryentrycollection_item.htm
 tech.root: Wua_Sdk
 ms.assetid: 38b371bf-0dc3-4b16-8c7c-8a9e2a19c29b
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateHistoryEntryCollection interface [Windows Update Agent],Item property, IUpdateHistoryEntryCollection.Item, IUpdateHistoryEntryCollection.get_Item, IUpdateHistoryEntryCollection::Item, IUpdateHistoryEntryCollection::get_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],IUpdateHistoryEntryCollection interface, get_Item, wua.iupdatehistoryentrycollection_item, wuapi/IUpdateHistoryEntryCollection::Item, wuapi/IUpdateHistoryEntryCollection::get_Item
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateHistoryEntryCollection.Item"
+f1_keywords:
+- wuapi/IUpdateHistoryEntryCollection.Item
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateHistoryEntryCollection.Item
- - IUpdateHistoryEntryCollection.get_Item
+- IUpdateHistoryEntryCollection.Item
+- IUpdateHistoryEntryCollection.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 

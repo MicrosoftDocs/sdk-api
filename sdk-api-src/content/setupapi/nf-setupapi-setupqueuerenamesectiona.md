@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupQueueRenameSectionA
 title: SetupQueueRenameSectionA function (setupapi.h)
-
 description: The SetupQueueRenameSection function queues a section in an INF file for renaming. The section must be in the correct rename list section format and the INF file must contain a DestinationDirs section.
 old-location: setup\setupqueuerenamesection.htm
 tech.root: SetupApi
 ms.assetid: 8ac93cfa-cfe4-4747-813d-512963d0d87c
-
 ms.date: 12/05/2018
 ms.keywords: SetupQueueRenameSection, SetupQueueRenameSection function [Setup API], SetupQueueRenameSectionA, SetupQueueRenameSectionW, _setupapi_setupqueuerenamesection, setup.setupqueuerenamesection, setupapi/SetupQueueRenameSection, setupapi/SetupQueueRenameSectionA, setupapi/SetupQueueRenameSectionW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupQueueRenameSection"
+f1_keywords:
+- setupapi/SetupQueueRenameSection
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupQueueRenameSection
- - SetupQueueRenameSectionA
- - SetupQueueRenameSectionW
+- SetupQueueRenameSection
+- SetupQueueRenameSectionA
+- SetupQueueRenameSectionW
 targetos: Windows
 req.typenames: 
 req.redist: 

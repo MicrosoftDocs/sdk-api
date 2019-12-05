@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.WriteToStream
 title: IXpsOMPackage::WriteToStream (xpsobjectmodel.h)
-
 description: Writes the XPS package to a specified stream.
 old-location: xps\ixpsompackage_writetostream.htm
 tech.root: printdocs
 ms.assetid: 5b729ac6-3f0e-4f24-b3f6-4b6d26844df1
-
 ms.date: 12/05/2018
 ms.keywords: FALSE, IXpsOMPackage interface [XPS Documents and Packaging],WriteToStream method, IXpsOMPackage.WriteToStream, IXpsOMPackage::WriteToStream, TRUE, WriteToStream, WriteToStream method [XPS Documents and Packaging], WriteToStream method [XPS Documents and Packaging],IXpsOMPackage interface, xps.ixpsompackage_writetostream, xpsobjectmodel/IXpsOMPackage::WriteToStream
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPackage.WriteToStream"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPackage.WriteToStream
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPackage.WriteToStream
+- IXpsOMPackage.WriteToStream
 targetos: Windows
 req.typenames: 
 req.redist: 

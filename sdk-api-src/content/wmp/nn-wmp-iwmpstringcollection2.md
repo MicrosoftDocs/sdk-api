@@ -1,19 +1,17 @@
 ---
 UID: NN:wmp.IWMPStringCollection2
 title: IWMPStringCollection2 (wmp.h)
-
 description: The IWMPStringCollection2 interface provides methods that supplement the IWMPStringCollection interface.
 old-location: wmp\iwmpstringcollection2.htm
 tech.root: WMP
 ms.assetid: 7aeaf549-3c60-4dd8-9e46-6bab357f4960
-
 ms.date: 12/05/2018
 ms.keywords: IWMPStringCollection2, IWMPStringCollection2 interface [Windows Media Player], IWMPStringCollection2 interface [Windows Media Player],described, IWMPStringCollection2Interface, wmp.iwmpstringcollection2, wmp/IWMPStringCollection2
 ms.topic: interface
-f1_keywords: 
- - "wmp/IWMPStringCollection2"
+f1_keywords:
+- wmp/IWMPStringCollection2
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - IWMPStringCollection2
+- IWMPStringCollection2
 targetos: Windows
 req.typenames: 
 req.redist: 

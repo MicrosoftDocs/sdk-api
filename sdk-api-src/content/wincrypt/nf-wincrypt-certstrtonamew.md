@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CertStrToNameW
 title: CertStrToNameW function (wincrypt.h)
-
 description: Converts a null-terminated X.500 string to an encoded certificate name.
 old-location: security\certstrtoname.htm
 tech.root: SecCrypto
 ms.assetid: 8bdfafa6-9833-4689-a155-dff09647ec8d
-
 ms.date: 12/05/2018
 ms.keywords: CERT_NAME_STR_COMMA_FLAG, CERT_NAME_STR_CRLF_FLAG, CERT_NAME_STR_DISABLE_UTF8_DIR_STR_FLAG, CERT_NAME_STR_ENABLE_PUNYCODE_FLAG, CERT_NAME_STR_ENABLE_T61_UNICODE_FLAG, CERT_NAME_STR_ENABLE_UTF8_UNICODE_FLAG, CERT_NAME_STR_FORCE_UTF8_DIR_STR_FLAG, CERT_NAME_STR_NO_PLUS_FLAG, CERT_NAME_STR_NO_QUOTING_FLAG, CERT_NAME_STR_REVERSE_FLAG, CERT_NAME_STR_SEMICOLON_FLAG, CERT_OID_NAME_STR, CERT_SIMPLE_NAME_STR, CERT_X500_NAME_STR, CRYPT_E_INVALID_IA5_STRING, CRYPT_E_INVALID_NUMERIC_STRING, CRYPT_E_INVALID_PRINTABLE_STRING, CRYPT_E_INVALID_X500_STRING, CertStrToName, CertStrToName function [Security], CertStrToNameA, CertStrToNameW, X509_ASN_ENCODING, _crypto2_certstrtoname, security.certstrtoname, wincrypt/CertStrToName, wincrypt/CertStrToNameA, wincrypt/CertStrToNameW
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertStrToName"
+f1_keywords:
+- wincrypt/CertStrToName
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertStrToName
- - CertStrToNameA
- - CertStrToNameW
+- CertStrToName
+- CertStrToNameA
+- CertStrToNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

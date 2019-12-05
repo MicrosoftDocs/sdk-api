@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITCallMediaEvent
 title: ITCallMediaEvent (tapi3if.h)
-
 description: The ITCallMediaEvent interface contains methods that retrieve the description of media events.
 old-location: tapi3\itcallmediaevent.htm
 tech.root: Tapi
 ms.assetid: db55ff03-9271-4a94-9cba-a3ef0282b7b6
-
 ms.date: 12/05/2018
 ms.keywords: ITCallMediaEvent, ITCallMediaEvent interface [TAPI 2.2], ITCallMediaEvent interface [TAPI 2.2],described, _tapi3_itcallmediaevent, tapi3.itcallmediaevent, tapi3if/ITCallMediaEvent
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITCallMediaEvent"
+f1_keywords:
+- tapi3if/ITCallMediaEvent
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITCallMediaEvent
+- ITCallMediaEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

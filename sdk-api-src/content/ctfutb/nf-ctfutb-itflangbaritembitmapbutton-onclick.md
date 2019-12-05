@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBitmapButton.OnClick
 title: ITfLangBarItemBitmapButton::OnClick (ctfutb.h)
-
 description: This method is not used if the button item does not have the TF_LBI_STYLE_BTN_BUTTON style.
 old-location: tsf\itflangbaritembitmapbutton_onclick.htm
 tech.root: TSF
 ms.assetid: 8d376d22-897d-4032-9c9e-7d0f93d73fac
-
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemBitmapButton interface [Text Services Framework],OnClick method, ITfLangBarItemBitmapButton.OnClick, ITfLangBarItemBitmapButton::OnClick, OnClick, OnClick method [Text Services Framework], OnClick method [Text Services Framework],ITfLangBarItemBitmapButton interface, _tsf_itflangbaritembitmapbutton_onclick_ref, ctfutb/ITfLangBarItemBitmapButton::OnClick, tsf.itflangbaritembitmapbutton_onclick
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfLangBarItemBitmapButton.OnClick"
+f1_keywords:
+- ctfutb/ITfLangBarItemBitmapButton.OnClick
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfLangBarItemBitmapButton.OnClick
+- ITfLangBarItemBitmapButton.OnClick
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetFuncIndexOfMemId
 title: ITypeInfo2::GetFuncIndexOfMemId (oaidl.h)
-
 description: Binds to a specific member based on a known DISPID, where the member name is not known (for example, when binding to a default member).
 old-location: automat\itypeinfo2_getfuncindexofmemid.htm
 tech.root: automat
 ms.assetid: dad5fd34-9322-46aa-9ae3-d5ff9d1639b1
-
 ms.date: 12/05/2018
 ms.keywords: GetFuncIndexOfMemId, GetFuncIndexOfMemId method [Automation], GetFuncIndexOfMemId method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetFuncIndexOfMemId method, ITypeInfo2.GetFuncIndexOfMemId, ITypeInfo2::GetFuncIndexOfMemId, _oa96_ITypeInfo2_GetFuncIndexOfMemId, automat.itypeinfo2_getfuncindexofmemid, oaidl/ITypeInfo2::GetFuncIndexOfMemId
 ms.topic: method
-f1_keywords: 
- - "oaidl/ITypeInfo2.GetFuncIndexOfMemId"
+f1_keywords:
+- oaidl/ITypeInfo2.GetFuncIndexOfMemId
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeInfo2.GetFuncIndexOfMemId
+- ITypeInfo2.GetFuncIndexOfMemId
 targetos: Windows
 req.typenames: 
 req.redist: 

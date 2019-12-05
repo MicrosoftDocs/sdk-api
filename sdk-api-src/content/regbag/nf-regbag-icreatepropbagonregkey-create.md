@@ -1,19 +1,17 @@
 ---
 UID: NF:regbag.ICreatePropBagOnRegKey.Create
 title: ICreatePropBagOnRegKey::Create (regbag.h)
-
 description: The Create method creates a property bag that can store information in the system registry.
 old-location: mstv\icreatepropbagonregkey_create.htm
 tech.root: mstv
 ms.assetid: d6410ead-7364-4db4-a4c9-cafe5fbf2e84
-
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Microsoft TV Technologies], Create method [Microsoft TV Technologies],ICreatePropBagOnRegKey interface, ICreatePropBagOnRegKey interface [Microsoft TV Technologies],Create method, ICreatePropBagOnRegKey.Create, ICreatePropBagOnRegKey::Create, ICreatePropBagOnRegKeyCreate, mstv.icreatepropbagonregkey_create, regbag/ICreatePropBagOnRegKey::Create
 ms.topic: method
-f1_keywords: 
- - "regbag/ICreatePropBagOnRegKey.Create"
+f1_keywords:
+- regbag/ICreatePropBagOnRegKey.Create
 dev_langs:
- - c++
+- c++
 req.header: regbag.h
 req.include-header: Tuner.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - regbag.h
+- regbag.h
 api_name:
- - ICreatePropBagOnRegKey.Create
+- ICreatePropBagOnRegKey.Create
 targetos: Windows
 req.typenames: 
 req.redist: 

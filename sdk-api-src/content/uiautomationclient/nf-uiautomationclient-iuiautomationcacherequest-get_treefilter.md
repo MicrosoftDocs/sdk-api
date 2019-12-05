@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationCacheRequest.get_TreeFilter
 title: IUIAutomationCacheRequest::get_TreeFilter (uiautomationclient.h)
-
 description: Specifies the view of the UI Automation element tree that is used when caching.
 old-location: winauto\uiauto_IUIAutomationCacheRequest_TreeFilter.htm
 tech.root: WinAuto
 ms.assetid: da9c9c9a-7ada-4f72-a025-1202e500241d
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationCacheRequest interface [Windows Accessibility],TreeFilter property, IUIAutomationCacheRequest.TreeFilter, IUIAutomationCacheRequest.get_TreeFilter, IUIAutomationCacheRequest::TreeFilter, IUIAutomationCacheRequest::get_TreeFilter, IUIAutomationCacheRequest::put_TreeFilter, TreeFilter property [Windows Accessibility], TreeFilter property [Windows Accessibility],IUIAutomationCacheRequest interface, get_TreeFilter, uiauto.uiauto_IUIAutomationCacheRequest_TreeFilter, uiauto_IUIAutomationCacheRequest_TreeFilter, uiautomationclient/IUIAutomationCacheRequest::TreeFilter, uiautomationclient/IUIAutomationCacheRequest::get_TreeFilter, uiautomationclient/IUIAutomationCacheRequest::put_TreeFilter, winauto.uiauto_IUIAutomationCacheRequest_TreeFilter
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationCacheRequest.TreeFilter"
+f1_keywords:
+- uiautomationclient/IUIAutomationCacheRequest.TreeFilter
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationCacheRequest.TreeFilter
- - IUIAutomationCacheRequest.get_TreeFilter
- - IUIAutomationCacheRequest.put_TreeFilter
+- IUIAutomationCacheRequest.TreeFilter
+- IUIAutomationCacheRequest.get_TreeFilter
+- IUIAutomationCacheRequest.put_TreeFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

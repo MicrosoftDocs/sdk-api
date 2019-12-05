@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite_3.IDWriteFactory4
 title: IDWriteFactory4 (dwrite_3.h)
-
 description: The root factory interface for all DirectWrite objects.
 old-location: directwrite\idwritefactory4.htm
 tech.root: DirectWrite
 ms.assetid: D3C5E48A-A062-430A-A196-CAC621F346FC
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteFactory4, IDWriteFactory4 interface [Direct Write], IDWriteFactory4 interface [Direct Write],described, directwrite.idwritefactory4, dwrite_3/IDWriteFactory4
 ms.topic: interface
-f1_keywords: 
- - "dwrite_3/IDWriteFactory4"
+f1_keywords:
+- dwrite_3/IDWriteFactory4
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFactory4
+- IDWriteFactory4
 targetos: Windows
 req.typenames: 
 req.redist: 

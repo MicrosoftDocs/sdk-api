@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumOptionsV6
 title: DhcpEnumOptionsV6 function (dhcpsapi.h)
-
 description: The DhcpEnumOptionsV6 function returns an enumerated list of DHCP options for a given class and/or vendor.
 old-location: dhcp\dhcpenumoptionsv6.htm
 tech.root: DHCP
 ms.assetid: 23abdca3-2241-4766-81c2-a4e8841b89fb
-
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpEnumOptionsV6, DhcpEnumOptionsV6 function [DHCP], dhcp.dhcpenumoptionsv6, dhcpsapi/DhcpEnumOptionsV6
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpEnumOptionsV6
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

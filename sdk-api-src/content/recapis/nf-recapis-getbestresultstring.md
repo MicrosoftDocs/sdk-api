@@ -1,19 +1,17 @@
 ---
 UID: NF:recapis.GetBestResultString
 title: GetBestResultString function (recapis.h)
-
 description: Retrieves the best result string.
 old-location: tablet\getbestresultstring.htm
 tech.root: tablet
 ms.assetid: 97d60330-c808-4d16-a197-7bad7ca9080e
-
 ms.date: 12/05/2018
 ms.keywords: 97d60330-c808-4d16-a197-7bad7ca9080e, GetBestResultString, GetBestResultString function [Tablet PC], recapis/GetBestResultString, tablet.getbestresultstring
 ms.topic: function
-f1_keywords: 
- - "recapis/GetBestResultString"
+f1_keywords:
+- recapis/GetBestResultString
 dev_langs:
- - c++
+- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - recapis.h
+- recapis.h
 api_name:
- - GetBestResultString
+- GetBestResultString
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.InsertAudioEffect
 title: IMFMediaEngineEx::InsertAudioEffect (mfmediaengine.h)
-
 description: Inserts an audio effect.
 old-location: mf\imfmediaengineex_insertaudioeffect.htm
 tech.root: medfound
 ms.assetid: 0D9ED497-A991-473F-A775-CA780A1E0E06
-
 ms.date: 12/05/2018
 ms.keywords: FALSE, IMFMediaEngineEx interface [Media Foundation],InsertAudioEffect method, IMFMediaEngineEx.InsertAudioEffect, IMFMediaEngineEx::InsertAudioEffect, InsertAudioEffect, InsertAudioEffect method [Media Foundation], InsertAudioEffect method [Media Foundation],IMFMediaEngineEx interface, TRUE, mf.imfmediaengineex_insertaudioeffect, mfmediaengine/IMFMediaEngineEx::InsertAudioEffect
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineEx.InsertAudioEffect"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineEx.InsertAudioEffect
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineEx.InsertAudioEffect
+- IMFMediaEngineEx.InsertAudioEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

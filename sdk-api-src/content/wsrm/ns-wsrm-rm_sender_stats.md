@@ -1,19 +1,17 @@
 ---
 UID: NS:wsrm._RM_SENDER_STATS
 title: RM_SENDER_STATS (wsrm.h)
-
 description: Provides statistical information for a Reliable Multicast sender session. This structure is used with the RM_SENDER_STATISTICS socket option.
 old-location: winsock\rm_sender_stats.htm
 tech.root: WinSock
 ms.assetid: 9ab6019c-459a-443d-b8e4-f7ee362e3385
-
 ms.date: 12/05/2018
 ms.keywords: RM_SENDER_STATS, RM_SENDER_STATS structure [Winsock], winsock.rm_sender_stats, wsrm/RM_SENDER_STATS
 ms.topic: struct
 f1_keywords:
 - wsrm/RM_SENDER_STATS
 dev_langs:
- - c++
+- c++
 req.header: wsrm.h
 req.include-header: 
 req.target-type: Windows

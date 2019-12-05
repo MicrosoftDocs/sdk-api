@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_3.IDXGIDecodeSwapChain.GetSourceRect
 title: IDXGIDecodeSwapChain::GetSourceRect (dxgi1_3.h)
-
 description: Gets the source region that is used for the swap chain.
 old-location: direct3ddxgi\idxgidecodeswapchain_getsourcerect.htm
 tech.root: direct3ddxgi
 ms.assetid: 67DD1267-997A-4D84-BC91-D124ED1E8946
-
 ms.date: 12/05/2018
 ms.keywords: GetSourceRect, GetSourceRect method [DXGI], GetSourceRect method [DXGI],IDXGIDecodeSwapChain interface, IDXGIDecodeSwapChain interface [DXGI],GetSourceRect method, IDXGIDecodeSwapChain.GetSourceRect, IDXGIDecodeSwapChain::GetSourceRect, direct3ddxgi.idxgidecodeswapchain_getsourcerect, dxgi1_3/IDXGIDecodeSwapChain::GetSourceRect
 ms.topic: method
-f1_keywords: 
- - "dxgi1_3/IDXGIDecodeSwapChain.GetSourceRect"
+f1_keywords:
+- dxgi1_3/IDXGIDecodeSwapChain.GetSourceRect
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGIDecodeSwapChain.GetSourceRect
+- IDXGIDecodeSwapChain.GetSourceRect
 targetos: Windows
 req.typenames: 
 req.redist: 

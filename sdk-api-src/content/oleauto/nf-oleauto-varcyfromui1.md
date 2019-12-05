@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarCyFromUI1
 title: VarCyFromUI1 function (oleauto.h)
-
 description: Converts an unsigned char value to a currency value.
 old-location: automat\varcyfromui1.htm
 tech.root: automat
 ms.assetid: f7796e49-24c2-4ed7-9d1c-a2e48ad33c2b
-
 ms.date: 12/05/2018
 ms.keywords: VarCyFromUI1, VarCyFromUI1 function [Automation], _oa96_VarCyFromUI1, automat.varcyfromui1, oleauto/VarCyFromUI1
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarCyFromUI1"
+f1_keywords:
+- oleauto/VarCyFromUI1
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarCyFromUI1
+- VarCyFromUI1
 targetos: Windows
 req.typenames: 
 req.redist: 

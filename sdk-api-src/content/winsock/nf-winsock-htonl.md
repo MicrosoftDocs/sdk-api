@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock.htonl
 title: htonl function (winsock.h)
-
 description: The htonl function converts a u_long from host to TCP/IP network byte order (which is big-endian).
 old-location: winsock\htonl_2.htm
 tech.root: WinSock
 ms.assetid: e3a18c5e-7efb-43d9-9abc-9d573bbb1923
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_htonl_2, htonl, htonl function [Winsock], winsock.htonl_2, winsock/htonl"
+ms.keywords: _win32_htonl_2, htonl, htonl function [Winsock], winsock.htonl_2, winsock/htonl
 ms.topic: function
-f1_keywords: 
- - "winsock/htonl"
+f1_keywords:
+- winsock/htonl
 dev_langs:
- - c++
+- c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - htonl
+- htonl
 targetos: Windows
 req.typenames: 
 req.redist: 

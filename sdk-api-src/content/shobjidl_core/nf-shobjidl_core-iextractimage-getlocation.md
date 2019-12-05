@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IExtractImage.GetLocation
 title: IExtractImage::GetLocation (shobjidl_core.h)
-
 description: Gets a path to the image that is to be extracted.
 old-location: shell\IExtractImage_GetLocation.htm
 tech.root: shell
 ms.assetid: f1113429-ea89-4650-b345-db9e275232e6
-
 ms.date: 12/05/2018
 ms.keywords: GetLocation, GetLocation method [Windows Shell], GetLocation method [Windows Shell],IExtractImage interface, IEIFLAG_ASPECT, IEIFLAG_ASYNC, IEIFLAG_CACHE, IEIFLAG_GLEAM, IEIFLAG_NOBORDER, IEIFLAG_NOSTAMP, IEIFLAG_OFFLINE, IEIFLAG_ORIGSIZE, IEIFLAG_QUALITY, IEIFLAG_REFRESH, IEIFLAG_SCREEN, IEIT_PRIORITY_NORMAL, IEI_PRIORITY_MAX, IEI_PRIORITY_MIN, IExtractImage interface [Windows Shell],GetLocation method, IExtractImage.GetLocation, IExtractImage::GetLocation, _win32_IExtractImage_GetLocation, shell.IExtractImage_GetLocation, shobjidl_core/IExtractImage::GetLocation
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IExtractImage.GetLocation"
+f1_keywords:
+- shobjidl_core/IExtractImage.GetLocation
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.70 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IExtractImage.GetLocation
+- IExtractImage.GetLocation
 targetos: Windows
 req.typenames: 
 req.redist: 

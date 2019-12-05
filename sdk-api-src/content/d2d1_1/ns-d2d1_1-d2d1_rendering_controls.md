@@ -1,19 +1,17 @@
 ---
 UID: NS:d2d1_1.D2D1_RENDERING_CONTROLS
 title: D2D1_RENDERING_CONTROLS (d2d1_1.h)
-
 description: Describes limitations to be applied to an imaging effect renderer.
 old-location: direct2d\d2d1_rendering_controls.htm
 tech.root: Direct2D
 ms.assetid: e563cbb0-2ee0-43d8-978c-0bde1950a926
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_RENDERING_CONTROLS, D2D1_RENDERING_CONTROLS structure [Direct2D], PD2D1_RENDERING_CONTROLS, PD2D1_RENDERING_CONTROLS structure pointer [Direct2D], d2d1_1/D2D1_RENDERING_CONTROLS, d2d1_1/PD2D1_RENDERING_CONTROLS, direct2d.d2d1_rendering_controls
 ms.topic: struct
-f1_keywords: 
- - "d2d1_1/D2D1_RENDERING_CONTROLS"
+f1_keywords:
+- d2d1_1/D2D1_RENDERING_CONTROLS
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - D2D1.lib
+- D2D1.lib
 api_name:
- - D2D1_RENDERING_CONTROLS
+- D2D1_RENDERING_CONTROLS
 targetos: Windows
 req.typenames: D2D1_RENDERING_CONTROLS
 req.redist: 

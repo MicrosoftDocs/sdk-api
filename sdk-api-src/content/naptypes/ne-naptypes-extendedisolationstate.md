@@ -1,19 +1,17 @@
 ---
 UID: NE:naptypes.tagExtendedIsolationState
 title: ExtendedIsolationState (naptypes.h)
-
 description: Describes the extended isolation state of a connection.
 old-location: nap\extendedisolationstate.htm
 tech.root: NAP
 ms.assetid: 1466247a-eecf-4912-810a-07cabb9c83da
-
 ms.date: 12/05/2018
 ms.keywords: ExtendedIsolationState, ExtendedIsolationState enumeration [NAP], extendedIsolationStateInfected, extendedIsolationStateNoData, extendedIsolationStateTransition, extendedIsolationStateUnknown, nap.extendedisolationstate, naptypes/ExtendedIsolationState, naptypes/extendedIsolationStateInfected, naptypes/extendedIsolationStateNoData, naptypes/extendedIsolationStateTransition, naptypes/extendedIsolationStateUnknown
 ms.topic: enum
-f1_keywords: 
- - "naptypes/ExtendedIsolationState"
+f1_keywords:
+- naptypes/ExtendedIsolationState
 dev_langs:
- - c++
+- c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - NapTypes.h
+- NapTypes.h
 api_name:
- - ExtendedIsolationState
+- ExtendedIsolationState
 targetos: Windows
 req.typenames: ExtendedIsolationState
 req.redist: 

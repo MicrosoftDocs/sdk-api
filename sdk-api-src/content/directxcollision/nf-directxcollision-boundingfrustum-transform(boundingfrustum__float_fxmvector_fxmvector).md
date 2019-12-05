@@ -1,19 +1,17 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.Transform(BoundingFrustum &,float,FXMVECTOR,FXMVECTOR)
 title: BoundingFrustum::Transform(BoundingFrustum &,float,FXMVECTOR,FXMVECTOR)
-
 description: Transforms the BoundingFrustum using the specified scale, rotation and translation vectors.
 old-location: dxmath\boundingfrustum_transform_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.Transform(BoundingFrustum@,float,XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],Transform method, BoundingFrustum.Transform, BoundingFrustum.Transform(BoundingFrustum &,float,FXMVECTOR,FXMVECTOR), BoundingFrustum.Transform(BoundingFrustum&,float,XMVECTOR,XMVECTOR), BoundingFrustum::Transform, BoundingFrustum::Transform(BoundingFrustum &,float,FXMVECTOR,FXMVECTOR), Transform, Transform method [DirectX Math Support APIs], Transform method [DirectX Math Support APIs],BoundingFrustum interface, dxmath.boundingfrustum_transform_2
 ms.topic: method
-f1_keywords: 
- - "directxcollision/BoundingFrustum.Transform"
+f1_keywords:
+- directxcollision/BoundingFrustum.Transform
 dev_langs:
- - c++
+- c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXCollision.h
+- DirectXCollision.h
 api_name:
- - BoundingFrustum.Transform
+- BoundingFrustum.Transform
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerCollabEnumApplicationRegistrationInfo
 title: PeerCollabEnumApplicationRegistrationInfo function (p2p.h)
-
 description: Obtains the enumeration handle used to retrieve peer application information.
 old-location: p2p\peercollabenumapplicationregistrationinfo.htm
 tech.root: P2PSdk
 ms.assetid: 635af767-a4b5-4c48-9966-35c1a629db5d
-
 ms.date: 12/05/2018
 ms.keywords: PeerCollabEnumApplicationRegistrationInfo, PeerCollabEnumApplicationRegistrationInfo function [Peer Networking], p2p.peercollabenumapplicationregistrationinfo, p2p/PeerCollabEnumApplicationRegistrationInfo
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerCollabEnumApplicationRegistrationInfo"
+f1_keywords:
+- p2p/PeerCollabEnumApplicationRegistrationInfo
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerCollabEnumApplicationRegistrationInfo
+- PeerCollabEnumApplicationRegistrationInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

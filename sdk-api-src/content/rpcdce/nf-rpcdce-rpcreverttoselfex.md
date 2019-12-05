@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcRevertToSelfEx
 title: RpcRevertToSelfEx function (rpcdce.h)
-
 description: The RpcRevertToSelfEx function allows a server to impersonate a client and then revert in a multithreaded operation where the call to impersonate a client can come from a thread other than the thread originally dispatched from the RPC.
 old-location: rpc\rpcreverttoselfex.htm
 tech.root: Rpc
 ms.assetid: 8860cee2-7e53-4a07-a379-fd00f3d01def
-
 ms.date: 12/05/2018
 ms.keywords: RpcRevertToSelfEx, RpcRevertToSelfEx function [RPC], _rpc_rpcreverttoselfex, rpc.rpcreverttoselfex, rpcdce/RpcRevertToSelfEx
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcRevertToSelfEx"
+f1_keywords:
+- rpcdce/RpcRevertToSelfEx
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcRevertToSelfEx
+- RpcRevertToSelfEx
 targetos: Windows
 req.typenames: 
 req.redist: 

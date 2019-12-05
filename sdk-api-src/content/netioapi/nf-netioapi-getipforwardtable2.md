@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.GetIpForwardTable2
 title: GetIpForwardTable2 function (netioapi.h)
-
 description: The GetIpForwardTable2 function retrieves the IP route entries on the local computer.
 old-location: iphlp\getipforwardtable2.htm
 tech.root: IpHlp
 ms.assetid: 14412ef1-d970-419d-abfa-389f6ceb638d
-
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetIpForwardTable2, GetIpForwardTable2 function [IP Helper], iphlp.getipforwardtable2, netioapi/GetIpForwardTable2
 ms.topic: function
-f1_keywords: 
- - "netioapi/GetIpForwardTable2"
+f1_keywords:
+- netioapi/GetIpForwardTable2
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - GetIpForwardTable2
+- GetIpForwardTable2
 targetos: Windows
 req.typenames: 
 req.redist: 

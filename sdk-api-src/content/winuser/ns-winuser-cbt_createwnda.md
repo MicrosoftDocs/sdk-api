@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagCBT_CREATEWNDA
 title: CBT_CREATEWNDA (winuser.h)
-
 description: Contains information passed to a WH_CBT hook procedure, CBTProc, before a window is created.
 old-location: winmsg\cbt_createwnd.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookstructures\cbt_createwnd.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCBT_CREATEWNDA, CBT_CREATEWND, CBT_CREATEWND structure [Windows and Messages], CBT_CREATEWNDA, CBT_CREATEWNDW, LPCBT_CREATEWND, LPCBT_CREATEWND structure pointer [Windows and Messages], _win32_CBT_CREATEWND_str, _win32_cbt_createwnd_str_cpp, winmsg.cbt_createwnd, winui._win32_cbt_createwnd_str, winuser/CBT_CREATEWND, winuser/CBT_CREATEWNDA, winuser/CBT_CREATEWNDW, winuser/LPCBT_CREATEWND"
+ms.keywords: '*LPCBT_CREATEWNDA, CBT_CREATEWND, CBT_CREATEWND structure [Windows and Messages], CBT_CREATEWNDA, CBT_CREATEWNDW, LPCBT_CREATEWND, LPCBT_CREATEWND structure pointer [Windows and Messages], _win32_CBT_CREATEWND_str, _win32_cbt_createwnd_str_cpp, winmsg.cbt_createwnd, winui._win32_cbt_createwnd_str, winuser/CBT_CREATEWND, winuser/CBT_CREATEWNDA, winuser/CBT_CREATEWNDW, winuser/LPCBT_CREATEWND'
 ms.topic: struct
-f1_keywords: 
- - "winuser/CBT_CREATEWND"
+f1_keywords:
+- winuser/CBT_CREATEWND
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - CBT_CREATEWND
- - CBT_CREATEWNDA
- - CBT_CREATEWNDW
+- CBT_CREATEWND
+- CBT_CREATEWNDA
+- CBT_CREATEWNDW
 targetos: Windows
 req.typenames: CBT_CREATEWNDA, *LPCBT_CREATEWNDA
 req.redist: 

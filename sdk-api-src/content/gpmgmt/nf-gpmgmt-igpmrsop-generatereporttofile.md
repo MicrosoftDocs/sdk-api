@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMRSOP.GenerateReportToFile
 title: IGPMRSOP::GenerateReportToFile (gpmgmt.h)
-
 description: The GenerateReportToFile method generates a report on the RSoP data and saves it to a file at a specified path.
 old-location: gpmc\igpmrsop_generatereporttofile.htm
 tech.root: gpmc
 ms.assetid: 92a199d6-244f-44e5-8158-d77b8488fde0
-
 ms.date: 12/05/2018
 ms.keywords: GenerateReportToFile, GenerateReportToFile method [GPMC], GenerateReportToFile method [GPMC],IGPMRSOP interface, IGPMRSOP interface [GPMC],GenerateReportToFile method, IGPMRSOP.GenerateReportToFile, IGPMRSOP::GenerateReportToFile, gpmc.igpmrsop_generatereporttofile, gpmgmt/IGPMRSOP::GenerateReportToFile
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMRSOP.GenerateReportToFile"
+f1_keywords:
+- gpmgmt/IGPMRSOP.GenerateReportToFile
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMRSOP.GenerateReportToFile
+- IGPMRSOP.GenerateReportToFile
 targetos: Windows
 req.typenames: 
 req.redist: 

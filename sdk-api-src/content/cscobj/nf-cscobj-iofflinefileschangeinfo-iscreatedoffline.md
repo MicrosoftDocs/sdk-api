@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesChangeInfo.IsCreatedOffline
 title: IOfflineFilesChangeInfo::IsCreatedOffline (cscobj.h)
-
 description: Determines whether an item was created in the Offline Files cache while working offline.
 old-location: of\iofflinefileschangeinfo_iscreatedoffline.htm
 tech.root: offlinefiles
 ms.assetid: 2074df23-a2dd-45ea-9ef4-5619cebebe31
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesChangeInfo interface [Offline Files],IsCreatedOffline method, IOfflineFilesChangeInfo.IsCreatedOffline, IOfflineFilesChangeInfo::IsCreatedOffline, IsCreatedOffline, IsCreatedOffline method [Offline Files], IsCreatedOffline method [Offline Files],IOfflineFilesChangeInfo interface, cscobj/IOfflineFilesChangeInfo::IsCreatedOffline, of.iofflinefileschangeinfo_iscreatedoffline
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesChangeInfo.IsCreatedOffline"
+f1_keywords:
+- cscobj/IOfflineFilesChangeInfo.IsCreatedOffline
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesChangeInfo.IsCreatedOffline
+- IOfflineFilesChangeInfo.IsCreatedOffline
 targetos: Windows
 req.typenames: 
 req.redist: 

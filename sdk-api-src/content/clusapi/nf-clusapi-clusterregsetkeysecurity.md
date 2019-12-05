@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterRegSetKeySecurity
 title: ClusterRegSetKeySecurity function (clusapi.h)
-
 description: Sets the security attributes for a cluster database key.
 old-location: mscs\clusterregsetkeysecurity.htm
 tech.root: MsCS
 ms.assetid: adb2ea52-6a3a-4243-944d-c7ae68a42a1a
-
 ms.date: 12/05/2018
 ms.keywords: ClusterRegSetKeySecurity, ClusterRegSetKeySecurity function [Failover Cluster], _wolf_clusterregsetkeysecurity, clusapi/ClusterRegSetKeySecurity, mscs.clusterregsetkeysecurity
 ms.topic: function
 f1_keywords:
 - clusapi/ClusterRegSetKeySecurity
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

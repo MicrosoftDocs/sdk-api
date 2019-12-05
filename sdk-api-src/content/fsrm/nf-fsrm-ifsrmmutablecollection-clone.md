@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrm.IFsrmMutableCollection.Clone
 title: IFsrmMutableCollection::Clone (fsrm.h)
-
 description: Creates a duplicate IFsrmMutableCollection collection.
 old-location: fsrm\ifsrmmutablecollection_clone.htm
 tech.root: fsrm
 ms.assetid: 8d673a7c-c8c3-409c-881f-58b87bf0809f
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [File Server Resource Manager], Clone method [File Server Resource Manager],IFsrmMutableCollection interface, IFsrmMutableCollection interface [File Server Resource Manager],Clone method, IFsrmMutableCollection.Clone, IFsrmMutableCollection::Clone, fs.ifsrmmutablecollection_clone, fsrm.ifsrmmutablecollection_clone, fsrm/IFsrmMutableCollection::Clone
 ms.topic: method
-f1_keywords: 
- - "fsrm/IFsrmMutableCollection.Clone"
+f1_keywords:
+- fsrm/IFsrmMutableCollection.Clone
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmMutableCollection.Clone
+- IFsrmMutableCollection.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

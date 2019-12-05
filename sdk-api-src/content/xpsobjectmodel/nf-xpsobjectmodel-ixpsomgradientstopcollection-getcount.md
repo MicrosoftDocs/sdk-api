@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStopCollection.GetCount
 title: IXpsOMGradientStopCollection::GetCount (xpsobjectmodel.h)
-
 description: Gets the number of IXpsOMGradientStop interface pointers in the collection.
 old-location: xps\ixpsomgradientstopcollection_getcount.htm
 tech.root: printdocs
 ms.assetid: c8f26de2-1237-4c41-bc91-de221739eb76
-
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMGradientStopCollection interface, IXpsOMGradientStopCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMGradientStopCollection.GetCount, IXpsOMGradientStopCollection::GetCount, xps.ixpsomgradientstopcollection_getcount, xpsobjectmodel/IXpsOMGradientStopCollection::GetCount
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGradientStopCollection.GetCount"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGradientStopCollection.GetCount
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGradientStopCollection.GetCount
+- IXpsOMGradientStopCollection.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:directxpackedvector.XMUNIBBLE4
 title: XMUNIBBLE4 (directxpackedvector.h)
-
 description: A 4D vector with four unsigned 4-bit integer components.
 old-location: dxmath\xmunibble4.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUNIBBLE4
-
 ms.date: 12/05/2018
 ms.keywords: XMUNIBBLE4, XMUNIBBLE4 structure [DirectX Math Support APIs], directxpackedvector/XMUNIBBLE4, dxmath.xmunibble4
 ms.topic: struct
-f1_keywords: 
- - "directxpackedvector/XMUNIBBLE4"
+f1_keywords:
+- directxpackedvector/XMUNIBBLE4
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMUNIBBLE4
+- XMUNIBBLE4
 targetos: Windows
 req.typenames: 
 req.redist: 

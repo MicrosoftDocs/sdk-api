@@ -1,19 +1,17 @@
 ---
 UID: NF:ktmw32.SetEnlistmentRecoveryInformation
 title: SetEnlistmentRecoveryInformation function (ktmw32.h)
-
 description: Sets an opaque, user-defined structure of recovery data from KTM.
 old-location: fs\setenlistmentrecoveryinformation.htm
 tech.root: ktm
 ms.assetid: 54e7526f-57f0-40cd-9624-fce0644a0884
-
 ms.date: 12/05/2018
 ms.keywords: SetEnlistmentRecoveryInformation, SetEnlistmentRecoveryInformation function [Files], fs.setenlistmentrecoveryinformation, ktmw32/SetEnlistmentRecoveryInformation
 ms.topic: function
-f1_keywords: 
- - "ktmw32/SetEnlistmentRecoveryInformation"
+f1_keywords:
+- ktmw32/SetEnlistmentRecoveryInformation
 dev_langs:
- - c++
+- c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ktmw32.lib
 req.dll: Ktmw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ktmw32.dll
+- Ktmw32.dll
 api_name:
- - SetEnlistmentRecoveryInformation
+- SetEnlistmentRecoveryInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

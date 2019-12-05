@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IPolicyQualifiers.Remove
 title: IPolicyQualifiers::Remove (certenroll.h)
-
 description: Removes an object from the collection by index value.
 old-location: security\ipolicyqualifiers_remove_method.htm
 tech.root: seccertenroll
 ms.assetid: 6071dbc2-210d-42e2-8431-68eef1e89e24
-
 ms.date: 12/05/2018
 ms.keywords: IPolicyQualifiers interface [Security],Remove method, IPolicyQualifiers.Remove, IPolicyQualifiers::Remove, Remove, Remove method [Security], Remove method [Security],IPolicyQualifiers interface, certenroll/IPolicyQualifiers::Remove, security.ipolicyqualifiers_remove_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IPolicyQualifiers.Remove"
+f1_keywords:
+- certenroll/IPolicyQualifiers.Remove
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IPolicyQualifiers.Remove
+- IPolicyQualifiers.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IX509ExtensionSubjectKeyIdentifier
 title: IX509ExtensionSubjectKeyIdentifier (certenroll.h)
-
 description: Enables you to specify a SubjectKeyIdentifier extension.
 old-location: security\ix509extensionsubjectkeyidentifier.htm
 tech.root: seccertenroll
 ms.assetid: dcf28967-65e0-4669-b1b1-b3d42f1b3d6b
-
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionSubjectKeyIdentifier, IX509ExtensionSubjectKeyIdentifier interface [Security], IX509ExtensionSubjectKeyIdentifier interface [Security],described, certenroll/IX509ExtensionSubjectKeyIdentifier, security.ix509extensionsubjectkeyidentifier
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IX509ExtensionSubjectKeyIdentifier"
+f1_keywords:
+- certenroll/IX509ExtensionSubjectKeyIdentifier
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509ExtensionSubjectKeyIdentifier
+- IX509ExtensionSubjectKeyIdentifier
 targetos: Windows
 req.typenames: 
 req.redist: 

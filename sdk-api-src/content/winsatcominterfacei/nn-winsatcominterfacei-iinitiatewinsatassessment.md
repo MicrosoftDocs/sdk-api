@@ -1,19 +1,17 @@
 ---
 UID: NN:winsatcominterfacei.IInitiateWinSATAssessment
 title: IInitiateWinSATAssessment (winsatcominterfacei.h)
-
 description: Initiates an assessment.
 old-location: winsat\iinitiatewinsatassessment.htm
 tech.root: WinSAT
 ms.assetid: 0b299477-50a4-4f61-a0e5-fdbae239503b
-
 ms.date: 12/05/2018
 ms.keywords: IInitiateWinSATAssessment, IInitiateWinSATAssessment interface [WinSAT], IInitiateWinSATAssessment interface [WinSAT],described, winsat.iinitiatewinsatassessment, winsatcominterfacei/IInitiateWinSATAssessment
 ms.topic: interface
-f1_keywords: 
- - "winsatcominterfacei/IInitiateWinSATAssessment"
+f1_keywords:
+- winsatcominterfacei/IInitiateWinSATAssessment
 dev_langs:
- - c++
+- c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Winsatapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Winsatapi.dll
+- Winsatapi.dll
 api_name:
- - IInitiateWinSATAssessment
+- IInitiateWinSATAssessment
 targetos: Windows
 req.typenames: 
 req.redist: 

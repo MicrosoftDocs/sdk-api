@@ -1,19 +1,17 @@
 ---
 UID: NE:wuapi.tagUpdateType
 title: UpdateType (wuapi.h)
-
 description: Defines the types of update, such as a driver or software update.
 old-location: wua\updatetype.htm
 tech.root: Wua_Sdk
 ms.assetid: 2845075f-f27a-44f5-8dc3-bdf67ce15c79
-
 ms.date: 12/05/2018
 ms.keywords: UpdateType, UpdateType enumeration [Windows Update Agent], utDriver, utSoftware, wua.updatetype, wuapi/UpdateType, wuapi/utDriver, wuapi/utSoftware
 ms.topic: enum
-f1_keywords: 
- - "wuapi/UpdateType"
+f1_keywords:
+- wuapi/UpdateType
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wuapi.h
+- Wuapi.h
 api_name:
- - UpdateType
+- UpdateType
 targetos: Windows
 req.typenames: UpdateType
 req.redist: 

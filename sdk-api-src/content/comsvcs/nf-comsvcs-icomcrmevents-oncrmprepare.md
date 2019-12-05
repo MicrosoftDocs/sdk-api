@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMPrepare
 title: IComCRMEvents::OnCRMPrepare (comsvcs.h)
-
 description: Generated when CRM clerk receives a prepare notification to pass on to the CRM compensator.
 old-location: cos\icomcrmevents_oncrmprepare.htm
 tech.root: cossdk
 ms.assetid: 16ecd4a5-6ca6-443d-ab03-f9ceb951ed13
-
 ms.date: 12/05/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMPrepare method, IComCRMEvents.OnCRMPrepare, IComCRMEvents::OnCRMPrepare, OnCRMPrepare, OnCRMPrepare method [COM+], OnCRMPrepare method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMPrepare, comsvcs/IComCRMEvents::OnCRMPrepare, cos.icomcrmevents_oncrmprepare
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComCRMEvents.OnCRMPrepare"
+f1_keywords:
+- comsvcs/IComCRMEvents.OnCRMPrepare
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComCRMEvents.OnCRMPrepare
+- IComCRMEvents.OnCRMPrepare
 targetos: Windows
 req.typenames: 
 req.redist: 

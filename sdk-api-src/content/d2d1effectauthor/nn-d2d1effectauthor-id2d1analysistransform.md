@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1AnalysisTransform
 title: ID2D1AnalysisTransform (d2d1effectauthor.h)
-
 description: Supplies data to an analysis effect.
 old-location: direct2d\id2d1analysistransform.htm
 tech.root: Direct2D
 ms.assetid: 64CDA0A7-2790-436C-9EFC-3A74D09602B9
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1AnalysisTransform, ID2D1AnalysisTransform interface [Direct2D], ID2D1AnalysisTransform interface [Direct2D],described, d2d1effectauthor/ID2D1AnalysisTransform, direct2d.id2d1analysistransform
 ms.topic: interface
-f1_keywords: 
- - "d2d1effectauthor/ID2D1AnalysisTransform"
+f1_keywords:
+- d2d1effectauthor/ID2D1AnalysisTransform
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.lib
- - d2d1.dll
+- d2d1.lib
+- d2d1.dll
 api_name:
- - ID2D1AnalysisTransform
+- ID2D1AnalysisTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

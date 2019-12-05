@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_providerInit
 title: TSPI_providerInit function (tspi.h)
-
 description: The TSPI_providerInit function initializes the service provider and gives it parameters required for subsequent operations.
 old-location: tspi\tspi_providerinit.htm
 tech.root: Tapi
 ms.assetid: 6cb7817b-6df3-4a6a-a666-b41c2eb0b118
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_providerInit, TSPI_providerInit function [TAPI 2.2], _tspi_tspi_providerinit, tspi.tspi_providerinit, tspi/TSPI_providerInit
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_providerInit"
+f1_keywords:
+- tspi/TSPI_providerInit
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_providerInit
+- TSPI_providerInit
 targetos: Windows
 req.typenames: 
 req.redist: 

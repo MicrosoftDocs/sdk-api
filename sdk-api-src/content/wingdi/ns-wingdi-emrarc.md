@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMRARC
 title: EMRARC (wingdi.h)
-
 description: The EMRARC, EMRARCTO, EMRCHORD, and EMRPIE structures contain members for the Arc, ArcTo, Chord, and Pie enhanced metafile records.
 old-location: gdi\emrarc__emrarcto__emrchord__emrpie.htm
 tech.root: gdi
 ms.assetid: f249b396-bf71-401b-b972-317d551fc9aa
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRARC, *PEMRARCTO, *PEMRCHORD, *PEMRPIE, EMRARC, EMRARC structure [Windows GDI], EMRARC,EMRARCTO,EMRCHORD,EMRPIE, EMRARC,EMRARCTO,EMRCHORD,EMRPIE structure [Windows GDI], EMRARCTO, EMRARCTO structure [Windows GDI], EMRCHORD, EMRCHORD structure [Windows GDI], EMRPIE, EMRPIE structure [Windows GDI], PEMRARC, PEMRARC structure pointer [Windows GDI], PEMRARCTO, PEMRARCTO structure pointer [Windows GDI], PEMRCHORD, PEMRCHORD structure pointer [Windows GDI], PEMRPIE, PEMRPIE structure pointer [Windows GDI], _win32_EMRARC_str, gdi.emrarc__emrarcto__emrchord__emrpie, wingdi/EMRARC,EMRARCTO,EMRCHORD,EMRPIE, wingdi/EMRARCTO, wingdi/EMRCHORD, wingdi/EMRPIE, wingdi/PEMRARC, wingdi/PEMRARCTO, wingdi/PEMRCHORD, wingdi/PEMRPIE"
+ms.keywords: '*PEMRARC, *PEMRARCTO, *PEMRCHORD, *PEMRPIE, EMRARC, EMRARC structure [Windows GDI], EMRARC,EMRARCTO,EMRCHORD,EMRPIE, EMRARC,EMRARCTO,EMRCHORD,EMRPIE structure [Windows GDI], EMRARCTO, EMRARCTO structure [Windows GDI], EMRCHORD, EMRCHORD structure [Windows GDI], EMRPIE, EMRPIE structure [Windows GDI], PEMRARC, PEMRARC structure pointer [Windows GDI], PEMRARCTO, PEMRARCTO structure pointer [Windows GDI], PEMRCHORD, PEMRCHORD structure pointer [Windows GDI], PEMRPIE, PEMRPIE structure pointer [Windows GDI], _win32_EMRARC_str, gdi.emrarc__emrarcto__emrchord__emrpie, wingdi/EMRARC,EMRARCTO,EMRCHORD,EMRPIE, wingdi/EMRARCTO, wingdi/EMRCHORD, wingdi/EMRPIE, wingdi/PEMRARC, wingdi/PEMRARCTO, wingdi/PEMRCHORD, wingdi/PEMRPIE'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRARC"
+f1_keywords:
+- wingdi/EMRARC
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRARC
+- EMRARC
 targetos: Windows
 req.typenames: EMRARC, *PEMRARC, EMRARCTO, *PEMRARCTO, EMRCHORD, *PEMRCHORD, EMRPIE, *PEMRPIE
 req.redist: 

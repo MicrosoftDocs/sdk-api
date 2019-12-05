@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiSourceListAddSourceExA
 title: MsiSourceListAddSourceExA function (msi.h)
-
 description: Adds or reorders the set of sources of a patch or product in a specified context. It can also create a source list for a patch that does not exist in the specified context.
 old-location: setup\msisourcelistaddsourceex.htm
 tech.root: Msi
 ms.assetid: 79f1286e-e30b-4989-a631-f2bcb87486a2
-
 ms.date: 12/05/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MSISOURCETYPE_NETWORK, MSISOURCETYPE_URL, MsiSourceListAddSourceEx, MsiSourceListAddSourceEx function, MsiSourceListAddSourceExA, MsiSourceListAddSourceExW, NULL, User SID, msi/MsiSourceListAddSourceEx, msi/MsiSourceListAddSourceExA, msi/MsiSourceListAddSourceExW, setup.msisourcelistaddsourceex
 ms.topic: function
-f1_keywords: 
- - "msi/MsiSourceListAddSourceEx"
+f1_keywords:
+- msi/MsiSourceListAddSourceEx
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
- - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+- Msi.dll
+- Ext-MS-Win-MSi-Misc-L1-1-0.dll
 api_name:
- - MsiSourceListAddSourceEx
- - MsiSourceListAddSourceExA
- - MsiSourceListAddSourceExW
+- MsiSourceListAddSourceEx
+- MsiSourceListAddSourceExA
+- MsiSourceListAddSourceExW
 targetos: Windows
 req.typenames: 
 req.redist: 

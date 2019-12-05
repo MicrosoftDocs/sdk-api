@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.FOLDERLOGICALVIEWMODE
 title: FOLDERLOGICALVIEWMODE (shobjidl_core.h)
-
 description: Used by IFolderViewSettings::GetViewMode and ISearchFolderItemFactory::SetFolderLogicalViewMode to describe the view mode.
 old-location: shell\FOLDERLOGICALVIEWMODE.htm
 tech.root: shell
 ms.assetid: 4b30a335-ed80-4774-82d4-bc93c95ee80c
-
 ms.date: 12/05/2018
 ms.keywords: FLVM_CONTENT, FLVM_DETAILS, FLVM_FIRST, FLVM_ICONS, FLVM_LAST, FLVM_LIST, FLVM_TILES, FLVM_UNSPECIFIED, FOLDERLOGICALVIEWMODE, FOLDERLOGICALVIEWMODE enumeration [Windows Shell], _shell_FOLDERLOGICALVIEWMODE, shell.FOLDERLOGICALVIEWMODE, shobjidl_core/FLVM_CONTENT, shobjidl_core/FLVM_DETAILS, shobjidl_core/FLVM_FIRST, shobjidl_core/FLVM_ICONS, shobjidl_core/FLVM_LAST, shobjidl_core/FLVM_LIST, shobjidl_core/FLVM_TILES, shobjidl_core/FLVM_UNSPECIFIED, shobjidl_core/FOLDERLOGICALVIEWMODE
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/FOLDERLOGICALVIEWMODE"
+f1_keywords:
+- shobjidl_core/FOLDERLOGICALVIEWMODE
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - FOLDERLOGICALVIEWMODE
+- FOLDERLOGICALVIEWMODE
 targetos: Windows
 req.typenames: FOLDERLOGICALVIEWMODE
 req.redist: 

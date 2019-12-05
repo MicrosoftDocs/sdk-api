@@ -1,19 +1,17 @@
 ---
 UID: NF:userenv.RefreshPolicy
 title: RefreshPolicy function (userenv.h)
-
 description: The RefreshPolicy function causes policy to be applied immediately on the client computer.
 old-location: policy\refreshpolicy.htm
 tech.root: Policy
 ms.assetid: e08cb006-d174-4506-87f0-580660bd4023
-
 ms.date: 12/05/2018
 ms.keywords: RefreshPolicy, RefreshPolicy function [Group Policy], _win32_refreshpolicy, policy.refreshpolicy, userenv/RefreshPolicy
 ms.topic: function
-f1_keywords: 
- - "userenv/RefreshPolicy"
+f1_keywords:
+- userenv/RefreshPolicy
 dev_langs:
- - c++
+- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Userenv.dll
+- Userenv.dll
 api_name:
- - RefreshPolicy
+- RefreshPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 

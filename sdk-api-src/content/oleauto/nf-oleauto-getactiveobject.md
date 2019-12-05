@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.GetActiveObject
 title: GetActiveObject function (oleauto.h)
-
 description: Retrieves a pointer to a running object that has been registered with OLE.
 old-location: automat\getactiveobject.htm
 tech.root: automat
 ms.assetid: a276e30c-6a7f-4cde-9639-21a9f5170b62
-
 ms.date: 12/05/2018
 ms.keywords: GetActiveObject, GetActiveObject function [Automation], _oa96_GetActiveObject, automat.getactiveobject, oleauto/GetActiveObject
 ms.topic: function
-f1_keywords: 
- - "oleauto/GetActiveObject"
+f1_keywords:
+- oleauto/GetActiveObject
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - GetActiveObject
+- GetActiveObject
 targetos: Windows
 req.typenames: 
 req.redist: 

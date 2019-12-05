@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbCableDeliverySystemDescriptor.GetFECOuter
 title: IDvbCableDeliverySystemDescriptor::GetFECOuter (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbcabledeliverysystemdescriptor_getfecouter.htm
 tech.root: mstv
 ms.assetid: cf6d094f-d394-43a3-b74e-a167759d5a10
-
 ms.date: 12/05/2018
 ms.keywords: GetFECOuter, GetFECOuter method [Microsoft TV Technologies], GetFECOuter method [Microsoft TV Technologies],IDvbCableDeliverySystemDescriptor interface, IDvbCableDeliverySystemDescriptor interface [Microsoft TV Technologies],GetFECOuter method, IDvbCableDeliverySystemDescriptor.GetFECOuter, IDvbCableDeliverySystemDescriptor::GetFECOuter, IDvbCableDeliverySystemDescriptorGetFECOuter, dvbsiparser/IDvbCableDeliverySystemDescriptor::GetFECOuter, mstv.idvbcabledeliverysystemdescriptor_getfecouter
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbCableDeliverySystemDescriptor.GetFECOuter"
+f1_keywords:
+- dvbsiparser/IDvbCableDeliverySystemDescriptor.GetFECOuter
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbCableDeliverySystemDescriptor.GetFECOuter
+- IDvbCableDeliverySystemDescriptor.GetFECOuter
 targetos: Windows
 req.typenames: 
 req.redist: 

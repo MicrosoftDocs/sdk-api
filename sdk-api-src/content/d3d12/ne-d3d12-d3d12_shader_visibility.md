@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_SHADER_VISIBILITY
 title: D3D12_SHADER_VISIBILITY (d3d12.h)
-
 description: Specifies the shaders that can access the contents of a given root signature slot.
 old-location: direct3d12\d3d12_shader_visibility.htm
 tech.root: direct3d12
 ms.assetid: 1D66344A-110E-4190-BC00-9F88F1A3F8FB
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_SHADER_VISIBILITY, D3D12_SHADER_VISIBILITY enumeration, D3D12_SHADER_VISIBILITY_ALL, D3D12_SHADER_VISIBILITY_DOMAIN, D3D12_SHADER_VISIBILITY_GEOMETRY, D3D12_SHADER_VISIBILITY_HULL, D3D12_SHADER_VISIBILITY_PIXEL, D3D12_SHADER_VISIBILITY_VERTEX, d3d12/D3D12_SHADER_VISIBILITY, d3d12/D3D12_SHADER_VISIBILITY_ALL, d3d12/D3D12_SHADER_VISIBILITY_DOMAIN, d3d12/D3D12_SHADER_VISIBILITY_GEOMETRY, d3d12/D3D12_SHADER_VISIBILITY_HULL, d3d12/D3D12_SHADER_VISIBILITY_PIXEL, d3d12/D3D12_SHADER_VISIBILITY_VERTEX, direct3d12.d3d12_shader_visibility
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_SHADER_VISIBILITY"
+f1_keywords:
+- d3d12/D3D12_SHADER_VISIBILITY
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_SHADER_VISIBILITY
+- D3D12_SHADER_VISIBILITY
 targetos: Windows
 req.typenames: D3D12_SHADER_VISIBILITY
 req.redist: 

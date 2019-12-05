@@ -1,19 +1,17 @@
 ---
 UID: NF:certview.IEnumCERTVIEWEXTENSION.Reset
 title: IEnumCERTVIEWEXTENSION::Reset (certview.h)
-
 description: Moves to the beginning of the extension-enumeration sequence.
 old-location: security\ienumcertviewextension_reset.htm
 tech.root: SecCrypto
 ms.assetid: 7af29b1f-5b43-4ab7-81fa-d03e065f014f
-
 ms.date: 12/05/2018
 ms.keywords: IEnumCERTVIEWEXTENSION interface [Security],Reset method, IEnumCERTVIEWEXTENSION object [Security],Reset method, IEnumCERTVIEWEXTENSION.Reset, IEnumCERTVIEWEXTENSION::Reset, Reset, Reset method [Security], Reset method [Security],IEnumCERTVIEWEXTENSION interface, Reset method [Security],IEnumCERTVIEWEXTENSION object, _certsrv_ienumcertviewextension_reset, certview/IEnumCERTVIEWEXTENSION::Reset, security.ienumcertviewextension_reset
 ms.topic: method
-f1_keywords: 
- - "certview/IEnumCERTVIEWEXTENSION.Reset"
+f1_keywords:
+- certview/IEnumCERTVIEWEXTENSION.Reset
 dev_langs:
- - c++
+- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IEnumCERTVIEWEXTENSION.Reset
- - IEnumCERTVIEWEXTENSION.Reset
+- IEnumCERTVIEWEXTENSION.Reset
+- IEnumCERTVIEWEXTENSION.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

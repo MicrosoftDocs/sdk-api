@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMediaSource.Stop
 title: IMFMediaSource::Stop (mfidl.h)
-
 description: Stops all active streams in the media source.
 old-location: mf\imfmediasource_stop.htm
 tech.root: medfound
 ms.assetid: aa7af7a0-a6c2-4c9e-9f98-d36716679297
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSource interface [Media Foundation],Stop method, IMFMediaSource.Stop, IMFMediaSource::Stop, Stop, Stop method [Media Foundation], Stop method [Media Foundation],IMFMediaSource interface, aa7af7a0-a6c2-4c9e-9f98-d36716679297, mf.imfmediasource_stop, mfidl/IMFMediaSource::Stop
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMediaSource.Stop"
+f1_keywords:
+- mfidl/IMFMediaSource.Stop
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaSource.Stop
+- IMFMediaSource.Stop
 targetos: Windows
 req.typenames: 
 req.redist: 

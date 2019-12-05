@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IDirectorySearch.FreeColumn
 title: IDirectorySearch::FreeColumn (iads.h)
-
 description: The IDirectorySearch::FreeColumn method releases memory that the IDirectorySearch::GetColumn method allocated for data for the column.
 old-location: adsi\idirectorysearch_freecolumn.htm
 tech.root: adsi
 ms.assetid: 72e75429-d22c-490f-a1f7-d771628067c9
-
 ms.date: 12/05/2018
 ms.keywords: FreeColumn, FreeColumn method [ADSI], FreeColumn method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],FreeColumn method, IDirectorySearch.FreeColumn, IDirectorySearch::FreeColumn, _ds_idirectorysearch_freecolumn, adsi.idirectorysearch__freecolumn, adsi.idirectorysearch_freecolumn, iads/IDirectorySearch::FreeColumn
 ms.topic: method
-f1_keywords: 
- - "iads/IDirectorySearch.FreeColumn"
+f1_keywords:
+- iads/IDirectorySearch.FreeColumn
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Activeds.dll; Adsldp.dll; Adsldpc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
- - Adsldp.dll
- - Adsldpc.dll
+- Activeds.dll
+- Adsldp.dll
+- Adsldpc.dll
 api_name:
- - IDirectorySearch.FreeColumn
+- IDirectorySearch.FreeColumn
 targetos: Windows
 req.typenames: 
 req.redist: 

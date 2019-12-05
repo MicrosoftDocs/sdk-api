@@ -1,19 +1,17 @@
 ---
 UID: NF:fileapi.CreateDirectoryA
 title: CreateDirectoryA function (fileapi.h)
-
 description: Creates a new directory.
 old-location: fs\createdirectory.htm
 tech.root: FileIO
 ms.assetid: f8ca8b10-c8bd-4285-8a40-dbec4c24729c
-
 ms.date: 12/05/2018
 ms.keywords: CreateDirectory, CreateDirectory function [Files], CreateDirectoryA, CreateDirectoryW, _win32_createdirectory, base.createdirectory, fileapi/CreateDirectory, fileapi/CreateDirectoryA, fileapi/CreateDirectoryW, fs.createdirectory, winbase/CreateDirectory, winbase/CreateDirectoryA, winbase/CreateDirectoryW
 ms.topic: function
-f1_keywords: 
- - "fileapi/CreateDirectory"
+f1_keywords:
+- fileapi/CreateDirectory
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l1-2-0.dll
- - API-MS-Win-Core-File-l1-2-1.dll
- - API-MS-Win-Core-File-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l1-2-0.dll
+- API-MS-Win-Core-File-l1-2-1.dll
+- API-MS-Win-Core-File-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - CreateDirectory
- - CreateDirectoryA
- - CreateDirectoryW
+- CreateDirectory
+- CreateDirectoryA
+- CreateDirectoryW
 targetos: Windows
 req.typenames: 
 req.redist: 

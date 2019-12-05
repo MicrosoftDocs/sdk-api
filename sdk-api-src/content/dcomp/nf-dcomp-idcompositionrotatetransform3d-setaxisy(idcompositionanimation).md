@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionRotateTransform3D.SetAxisY(IDCompositionAnimation)
 title: IDCompositionRotateTransform3D::SetAxisY(IDCompositionAnimation) (dcomp.h)
-
 description: Animates the value of the AxisY property of a 3D rotation transform. The AxisY property specifies the y-coordinate for the axis vector of rotation. The default value is zero.
 old-location: directcomp\idcompositionrotatetransform3d_setaxisy_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: E4FEC079-D1D6-4279-8AE1-7987312A6DC5
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetAxisY method, IDCompositionRotateTransform3D.SetAxisY, IDCompositionRotateTransform3D.SetAxisY(IDCompositionAnimation), IDCompositionRotateTransform3D::SetAxisY, IDCompositionRotateTransform3D::SetAxisY(IDCompositionAnimation), IDCompositionRotateTransform3D::SetAxisY(IDCompositionAnimation*), SetAxisY, SetAxisY method [DirectComposition], SetAxisY method [DirectComposition],IDCompositionRotateTransform3D interface, dcomp/IDCompositionRotateTransform3D::SetAxisY, directcomp.idcompositionrotatetransform3d_setaxisy_idcompositionanimation
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionRotateTransform3D.SetAxisY"
+f1_keywords:
+- dcomp/IDCompositionRotateTransform3D.SetAxisY
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionRotateTransform3D.SetAxisY
+- IDCompositionRotateTransform3D.SetAxisY
 targetos: Windows
 req.typenames: 
 req.redist: 

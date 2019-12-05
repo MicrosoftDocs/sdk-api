@@ -1,19 +1,17 @@
 ---
 UID: NN:rtscom.IDynamicRenderer
 title: IDynamicRenderer (rtscom.h)
-
 description: Displays the tablet pen data in real-time as that data is being handled by the RealTimeStylus Class object.
 old-location: tablet\idynamicrenderer.htm
 tech.root: tablet
 ms.assetid: 6435b297-d6a7-418b-afc0-f8cc0b329842
-
 ms.date: 12/05/2018
 ms.keywords: 6435b297-d6a7-418b-afc0-f8cc0b329842, IDynamicRenderer, IDynamicRenderer interface [Tablet PC], IDynamicRenderer interface [Tablet PC],described, rtscom/IDynamicRenderer, tablet.idynamicrenderer
 ms.topic: interface
-f1_keywords: 
- - "rtscom/IDynamicRenderer"
+f1_keywords:
+- rtscom/IDynamicRenderer
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IDynamicRenderer
+- IDynamicRenderer
 targetos: Windows
 req.typenames: 
 req.redist: 

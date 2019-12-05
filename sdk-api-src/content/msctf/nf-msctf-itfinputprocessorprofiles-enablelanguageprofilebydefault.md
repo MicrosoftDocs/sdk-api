@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.EnableLanguageProfileByDefault
 title: ITfInputProcessorProfiles::EnableLanguageProfileByDefault (msctf.h)
-
 description: ITfInputProcessorProfiles::EnableLanguageProfileByDefault method
 old-location: tsf\itfinputprocessorprofiles_enablelanguageprofilebydefault.htm
 tech.root: TSF
 ms.assetid: 5ab40219-278d-4721-88a1-b0bd2e3d8d2f
-
 ms.date: 12/05/2018
 ms.keywords: EnableLanguageProfileByDefault, EnableLanguageProfileByDefault method [Text Services Framework], EnableLanguageProfileByDefault method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],EnableLanguageProfileByDefault method, ITfInputProcessorProfiles.EnableLanguageProfileByDefault, ITfInputProcessorProfiles::EnableLanguageProfileByDefault, _tsf_itfinputprocessorprofiles_enablelanguageprofilebydefault_ref, msctf/ITfInputProcessorProfiles::EnableLanguageProfileByDefault, tsf.itfinputprocessorprofiles_enablelanguageprofilebydefault
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfInputProcessorProfiles.EnableLanguageProfileByDefault"
+f1_keywords:
+- msctf/ITfInputProcessorProfiles.EnableLanguageProfileByDefault
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfInputProcessorProfiles.EnableLanguageProfileByDefault
+- ITfInputProcessorProfiles.EnableLanguageProfileByDefault
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

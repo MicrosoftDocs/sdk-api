@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICPalette.IsBlackWhite
 title: IWICPalette::IsBlackWhite (wincodec.h)
-
 description: Retrieves a value that describes whether the palette is black and white.
 old-location: wic\_wic_codec_iwicpalette_isblackwhite.htm
 tech.root: wic
 ms.assetid: a22603b9-5c23-4016-9f28-1cf420ac11fa
-
 ms.date: 12/05/2018
 ms.keywords: IWICPalette interface [Windows Imaging Component],IsBlackWhite method, IWICPalette.IsBlackWhite, IWICPalette::IsBlackWhite, IsBlackWhite, IsBlackWhite method [Windows Imaging Component], IsBlackWhite method [Windows Imaging Component],IWICPalette interface, _wic_codec_iwicpalette_isblackwhite, wic._wic_codec_iwicpalette_isblackwhite, wincodec/IWICPalette::IsBlackWhite
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICPalette.IsBlackWhite"
+f1_keywords:
+- wincodec/IWICPalette.IsBlackWhite
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICPalette.IsBlackWhite
+- IWICPalette.IsBlackWhite
 targetos: Windows
 req.typenames: 
 req.redist: 

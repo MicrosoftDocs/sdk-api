@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemMgr.GetItem
 title: ITfLangBarItemMgr::GetItem (ctfutb.h)
-
 description: ITfLangBarItemMgr::GetItem method
 old-location: tsf\itflangbaritemmgr_getitem.htm
 tech.root: TSF
 ms.assetid: 35895fd7-23d0-416b-98c2-45192edf0a6b
-
 ms.date: 12/05/2018
 ms.keywords: GetItem, GetItem method [Text Services Framework], GetItem method [Text Services Framework],ITfLangBarItemMgr interface, ITfLangBarItemMgr interface [Text Services Framework],GetItem method, ITfLangBarItemMgr.GetItem, ITfLangBarItemMgr::GetItem, _tsf_itflangbaritemmgr_getitem_ref, ctfutb/ITfLangBarItemMgr::GetItem, tsf.itflangbaritemmgr_getitem
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfLangBarItemMgr.GetItem"
+f1_keywords:
+- ctfutb/ITfLangBarItemMgr.GetItem
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfLangBarItemMgr.GetItem
+- ITfLangBarItemMgr.GetItem
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

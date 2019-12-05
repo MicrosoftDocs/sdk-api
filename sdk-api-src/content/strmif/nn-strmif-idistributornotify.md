@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IDistributorNotify
 title: IDistributorNotify (strmif.h)
-
 description: The IDistributorNotify interface enables a plug-in distributor to be notified when the filter graph changes.Applications never use this interface.
 old-location: dshow\idistributornotify.htm
 tech.root: DirectShow
 ms.assetid: c7c9ee95-9d68-45c5-a3ca-8d6071782851
-
 ms.date: 12/05/2018
 ms.keywords: IDistributorNotify, IDistributorNotify interface [DirectShow], IDistributorNotify interface [DirectShow],described, IDistributorNotifyInterface, dshow.idistributornotify, strmif/IDistributorNotify
 ms.topic: interface
-f1_keywords: 
- - "strmif/IDistributorNotify"
+f1_keywords:
+- strmif/IDistributorNotify
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDistributorNotify
+- IDistributorNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

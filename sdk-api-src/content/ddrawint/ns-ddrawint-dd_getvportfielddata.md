@@ -1,19 +1,17 @@
 ---
 UID: NS:ddrawint._DD_GETVPORTFIELDDATA
 title: DD_GETVPORTFIELDDATA (ddrawint.h)
-
 description: The DD_GETVPORTFIELDDATA structure contains the information required for the driver to determine whether the current field of an interlaced signal is even or odd.
 old-location: display\dd_getvportfielddata.htm
 tech.root: display
 ms.assetid: 549956f8-c39f-4cc3-b72a-b1e3785463e8
-
 ms.date: 12/05/2018
 ms.keywords: '*PDD_GETVPORTFIELDDATA, DD_GETVPORTFIELDDATA, DD_GETVPORTFIELDDATA structure [Display Devices], ddrawint/DD_GETVPORTFIELDDATA, ddstrcts_777ca41f-3364-4f07-96cb-cd249ff16179.xml, display.dd_getvportfielddata'
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_GETVPORTFIELDDATA
 dev_langs:
- - c++
+- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

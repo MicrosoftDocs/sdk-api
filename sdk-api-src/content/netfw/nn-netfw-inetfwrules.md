@@ -1,19 +1,17 @@
 ---
 UID: NN:netfw.INetFwRules
 title: INetFwRules (netfw.h)
-
 description: Collection of firewall rules.
 old-location: ics\inetfwrules.htm
 tech.root: ics
 ms.assetid: 4908a5f2-4093-4f2d-8e68-fe4b2e552b13
-
 ms.date: 12/05/2018
 ms.keywords: INetFwRules, INetFwRules interface [ICS/ICF], INetFwRules interface [ICS/ICF],described, ics.inetfwrules, netfw/INetFwRules
 ms.topic: interface
-f1_keywords: 
- - "netfw/INetFwRules"
+f1_keywords:
+- netfw/INetFwRules
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwRules
+- INetFwRules
 targetos: Windows
 req.typenames: 
 req.redist: 

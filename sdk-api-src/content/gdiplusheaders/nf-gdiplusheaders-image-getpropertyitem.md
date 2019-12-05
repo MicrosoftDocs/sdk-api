@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Image.GetPropertyItem
 title: Image::GetPropertyItem (gdiplusheaders.h)
-
 description: The Image::GetPropertyItem method gets a specified property item (piece of metadata) from this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetPropertyItem_propId_propSize_buffer_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getpropertyitem.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetPropertyItem, GetPropertyItem method [GDI+], GetPropertyItem method [GDI+],Image class, Image class [GDI+],GetPropertyItem method, Image.GetPropertyItem, Image::GetPropertyItem, _gdiplus_CLASS_Image_GetPropertyItem_propId_propSize_buffer_, gdiplus._gdiplus_CLASS_Image_GetPropertyItem_propId_propSize_buffer_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Image.GetPropertyItem"
+f1_keywords:
+- gdiplusheaders/Image.GetPropertyItem
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Image.GetPropertyItem
+- Image.GetPropertyItem
 targetos: Windows
 req.typenames: 
 req.redist: 

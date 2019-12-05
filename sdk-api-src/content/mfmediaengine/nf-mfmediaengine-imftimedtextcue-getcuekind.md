@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextCue.GetCueKind
 title: IMFTimedTextCue::GetCueKind (mfmediaengine.h)
-
 description: Gets the kind of timed-text cue.
 old-location: mf\imftimedtextcue_getcuekind.htm
 tech.root: medfound
 ms.assetid: 1BEB539D-4A51-4866-A627-5754525E7C8F
-
 ms.date: 12/05/2018
 ms.keywords: GetCueKind, GetCueKind method [Media Foundation], GetCueKind method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetCueKind method, IMFTimedTextCue.GetCueKind, IMFTimedTextCue::GetCueKind, mf.imftimedtextcue_getcuekind, mfmediaengine/IMFTimedTextCue::GetCueKind
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextCue.GetCueKind"
+f1_keywords:
+- mfmediaengine/IMFTimedTextCue.GetCueKind
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextCue.GetCueKind
+- IMFTimedTextCue.GetCueKind
 targetos: Windows
 req.typenames: 
 req.redist: 

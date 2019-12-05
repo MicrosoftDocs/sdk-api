@@ -1,19 +1,17 @@
 ---
 UID: NF:certcli.ICertRequest.GetRequestId
 title: ICertRequest::GetRequestId (certcli.h)
-
 description: Gets the current internal request number for the request and subsequent certificate.
 old-location: security\icertrequest2_getrequestid.htm
 tech.root: SecCrypto
 ms.assetid: bb808834-7083-4b14-bce7-96b6fef242cc
-
 ms.date: 12/05/2018
 ms.keywords: CCertRequest object [Security],GetRequestId method, GetRequestId, GetRequestId method [Security], GetRequestId method [Security],CCertRequest object, GetRequestId method [Security],ICertRequest interface, GetRequestId method [Security],ICertRequest2 interface, GetRequestId method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetRequestId method, ICertRequest.GetRequestId, ICertRequest2 interface [Security],GetRequestId method, ICertRequest2::GetRequestId, ICertRequest3 interface [Security],GetRequestId method, ICertRequest3::GetRequestId, ICertRequest::GetRequestId, certcli/ICertRequest2::GetRequestId, certcli/ICertRequest3::GetRequestId, certcli/ICertRequest::GetRequestId, security.icertrequest2_getrequestid
 ms.topic: method
-f1_keywords: 
- - "certcli/ICertRequest3.GetRequestId"
+f1_keywords:
+- certcli/ICertRequest3.GetRequestId
 dev_langs:
- - c++
+- c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certcli.dll
+- Certcli.dll
 api_name:
- - ICertRequest3.GetRequestId
- - ICertRequest2.GetRequestId
- - ICertRequest.GetRequestId
- - CCertRequest.GetRequestId
+- ICertRequest3.GetRequestId
+- ICertRequest2.GetRequestId
+- ICertRequest.GetRequestId
+- CCertRequest.GetRequestId
 targetos: Windows
 req.typenames: 
 req.redist: 

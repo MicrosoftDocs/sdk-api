@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IInitializeWithBindCtx.Initialize
 title: IInitializeWithBindCtx::Initialize (shobjidl_core.h)
-
 description: Initializes a handler with a bind context.
 old-location: shell\IInitializeWithBindCtx_Initialize.htm
 tech.root: shell
 ms.assetid: 5cb3117f-7e9f-463f-806c-4955cebc1c2d
-
 ms.date: 12/05/2018
 ms.keywords: IInitializeWithBindCtx interface [Windows Shell],Initialize method, IInitializeWithBindCtx.Initialize, IInitializeWithBindCtx::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IInitializeWithBindCtx interface, _shell_IInitializeWithBindCtx_Initialize, shell.IInitializeWithBindCtx_Initialize, shobjidl_core/IInitializeWithBindCtx::Initialize
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IInitializeWithBindCtx.Initialize"
+f1_keywords:
+- shobjidl_core/IInitializeWithBindCtx.Initialize
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IInitializeWithBindCtx.Initialize
+- IInitializeWithBindCtx.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

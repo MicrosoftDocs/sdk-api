@@ -1,19 +1,17 @@
 ---
 UID: NF:projectedfslib.PrjCompleteCommand
 title: PrjCompleteCommand function (projectedfslib.h)
-
 description: Indicates that the provider has completed processing a callback from which it had previously returned HRESULT_FROM_WIN32(ERROR_IO_PENDING).
 old-location: projfs\prjcompletecommand.htm
 tech.root: ProjFS
 ms.assetid: 9A47FAB5-A085-41C9-861C-E74F2F5AF474
-
 ms.date: 12/05/2018
 ms.keywords: PrjCompleteCommand, PrjCompleteCommand function, ProjFS.prjcompletecommand, projectedfslib/PrjCompleteCommand
 ms.topic: function
-f1_keywords: 
- - "projectedfslib/PrjCompleteCommand"
+f1_keywords:
+- projectedfslib/PrjCompleteCommand
 dev_langs:
- - c++
+- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - projectedfslib.h
+- projectedfslib.h
 api_name:
- - PrjCompleteCommand
+- PrjCompleteCommand
 targetos: Windows
 req.typenames: 
 req.redist: 

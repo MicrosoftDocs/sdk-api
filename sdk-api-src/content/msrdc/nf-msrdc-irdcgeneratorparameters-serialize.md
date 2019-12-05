@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.IRdcGeneratorParameters.Serialize
 title: IRdcGeneratorParameters::Serialize (msrdc.h)
-
 description: Serializes the parameter data into a block of memory.
 old-location: rdc\irdcgeneratorparameters_serialize.htm
 tech.root: rdc
 ms.assetid: ba0d09b0-417f-494a-a5e8-dccd08e5280a
-
 ms.date: 12/05/2018
 ms.keywords: IRdcGeneratorParameters interface [Remote Differential Compression],Serialize method, IRdcGeneratorParameters.Serialize, IRdcGeneratorParameters::Serialize, Serialize, Serialize method [Remote Differential Compression], Serialize method [Remote Differential Compression],IRdcGeneratorParameters interface, fs.irdcgeneratorparameters_serialize, msrdc/IRdcGeneratorParameters::Serialize, rdc.irdcgeneratorparameters_serialize
 ms.topic: method
-f1_keywords: 
- - "msrdc/IRdcGeneratorParameters.Serialize"
+f1_keywords:
+- msrdc/IRdcGeneratorParameters.Serialize
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - IRdcGeneratorParameters.Serialize
+- IRdcGeneratorParameters.Serialize
 targetos: Windows
 req.typenames: 
 req.redist: 

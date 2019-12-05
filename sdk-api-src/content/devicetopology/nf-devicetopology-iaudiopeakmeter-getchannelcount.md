@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IAudioPeakMeter.GetChannelCount
 title: IAudioPeakMeter::GetChannelCount (devicetopology.h)
-
 description: The GetChannelCount method gets the number of channels in the audio stream.
 old-location: coreaudio\iaudiopeakmeter_getchannelcount.htm
 tech.root: CoreAudio
 ms.assetid: 699b3689-1c3f-434e-97c5-3c5930683ad1
-
 ms.date: 12/05/2018
 ms.keywords: GetChannelCount, GetChannelCount method [Core Audio], GetChannelCount method [Core Audio],IAudioPeakMeter interface, IAudioPeakMeter interface [Core Audio],GetChannelCount method, IAudioPeakMeter.GetChannelCount, IAudioPeakMeter::GetChannelCount, IAudioPeakMeterGetChannelCount, coreaudio.iaudiopeakmeter_getchannelcount, devicetopology/IAudioPeakMeter::GetChannelCount
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IAudioPeakMeter.GetChannelCount"
+f1_keywords:
+- devicetopology/IAudioPeakMeter.GetChannelCount
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IAudioPeakMeter.GetChannelCount
+- IAudioPeakMeter.GetChannelCount
 targetos: Windows
 req.typenames: 
 req.redist: 

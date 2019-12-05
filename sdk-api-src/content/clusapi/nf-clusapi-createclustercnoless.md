@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.CreateClusterCNOless
 title: CreateClusterCNOless function (clusapi.h)
-
 description: Creates a cluster without cluster name and IP Address resources.
 old-location: mscs\createclustercnoless.htm
 tech.root: MsCS
 ms.assetid: AED4CDC5-BE90-4F34-A8E2-DFD0617BC65B
-
 ms.date: 12/05/2018
 ms.keywords: CreateClusterCNOless, CreateClusterCNOless function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_CNOLESS, PCLUSAPI_CREATE_CLUSTER_CNOLESS function [Failover Cluster], clusapi/CreateClusterCNOless, clusapi/PCLUSAPI_CREATE_CLUSTER_CNOLESS, mscs.createclustercnoless
 ms.topic: function
 f1_keywords:
 - clusapi/CreateClusterCNOless
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NN:peninputpanel.ITextInputPanel
 title: ITextInputPanel (peninputpanel.h)
-
 description: Provides control of appearance and behavior of the Tablet PC Input Panel.
 old-location: tablet\itextinputpanel.htm
 tech.root: tablet
 ms.assetid: 1e719900-db58-430d-9059-efb3f884f6f0
-
 ms.date: 12/05/2018
 ms.keywords: 1e719900-db58-430d-9059-efb3f884f6f0, ITextInputPanel, ITextInputPanel interface [Tablet PC], ITextInputPanel interface [Tablet PC],described, peninputpanel/ITextInputPanel, tablet.itextinputpanel
 ms.topic: interface
-f1_keywords: 
- - "peninputpanel/ITextInputPanel"
+f1_keywords:
+- peninputpanel/ITextInputPanel
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Tiptsf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tiptsf.dll
+- tiptsf.dll
 api_name:
- - ITextInputPanel
+- ITextInputPanel
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.get_friendlyName
 title: IWMPSyncDevice::get_friendlyName (wmp.h)
-
 description: The get_friendlyName method retrieves the user-defined name of the device.
 old-location: wmp\iwmpsyncdevice_get_friendlyname.htm
 tech.root: WMP
 ms.assetid: f72eaa17-fd7a-4844-8380-1a2547644dee
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_friendlyName method, IWMPSyncDevice.get_friendlyName, IWMPSyncDevice::get_friendlyName, IWMPSyncDeviceget_friendlyName, get_friendlyName, get_friendlyName method [Windows Media Player], get_friendlyName method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_friendlyname, wmp/IWMPSyncDevice::get_friendlyName
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPSyncDevice.get_friendlyName"
+f1_keywords:
+- wmp/IWMPSyncDevice.get_friendlyName
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPSyncDevice.get_friendlyName
+- IWMPSyncDevice.get_friendlyName
 targetos: Windows
 req.typenames: 
 req.redist: 

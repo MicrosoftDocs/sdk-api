@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePackageWriterOnStream
 title: IXpsOMObjectFactory::CreatePackageWriterOnStream (xpsobjectmodel.h)
-
 description: Opens a stream for writing the contents of an XPS OM to an XPS package.
 old-location: xps\ixpsomobjectfactory_createpackagewriteronstream.htm
 tech.root: printdocs
 ms.assetid: 77f432e3-7b6a-426f-8673-06dbf3038443
-
 ms.date: 12/05/2018
 ms.keywords: CreatePackageWriterOnStream, CreatePackageWriterOnStream method [XPS Documents and Packaging], CreatePackageWriterOnStream method [XPS Documents and Packaging],IXpsOMObjectFactory interface, FALSE, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePackageWriterOnStream method, IXpsOMObjectFactory.CreatePackageWriterOnStream, IXpsOMObjectFactory::CreatePackageWriterOnStream, TRUE, xps.ixpsomobjectfactory_createpackagewriteronstream, xpsobjectmodel/IXpsOMObjectFactory::CreatePackageWriterOnStream
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMObjectFactory.CreatePackageWriterOnStream"
+f1_keywords:
+- xpsobjectmodel/IXpsOMObjectFactory.CreatePackageWriterOnStream
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreatePackageWriterOnStream
+- IXpsOMObjectFactory.CreatePackageWriterOnStream
 targetos: Windows
 req.typenames: 
 req.redist: 

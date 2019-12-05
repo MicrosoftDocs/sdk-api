@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.PFXExportCertStore
 title: PFXExportCertStore function (wincrypt.h)
-
 description: Exports the certificates and, if available, the associated private keys from the referenced certificate store.
 old-location: security\pfxexportcertstore.htm
 tech.root: SecCrypto
 ms.assetid: 003602c6-d6c9-4695-9c60-ffaf0aa02266
-
 ms.date: 12/05/2018
 ms.keywords: EXPORT_PRIVATE_KEYS, PFXExportCertStore, PFXExportCertStore function [Security], REPORT_NOT_ABLE_TO_EXPORT_PRIVATE_KEY, REPORT_NO_PRIVATE_KEY, _crypto2_pfxexportcertstore, security.pfxexportcertstore, wincrypt/PFXExportCertStore
 ms.topic: function
-f1_keywords: 
- - "wincrypt/PFXExportCertStore"
+f1_keywords:
+- wincrypt/PFXExportCertStore
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - PFXExportCertStore
+- PFXExportCertStore
 targetos: Windows
 req.typenames: 
 req.redist: 

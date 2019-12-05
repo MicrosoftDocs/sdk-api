@@ -1,19 +1,17 @@
 ---
 UID: NF:rtmv2.RTM_SIZE_OF_ROUTE_INFO
 title: RTM_SIZE_OF_ROUTE_INFO macro (rtmv2.h)
-
 description: The RTM_SIZE_OF_ROUTE_INFO macro returns the size of the route information structure, RTM_ROUTE_INFO.
 old-location: rras\rtm_size_of_route_info.htm
 tech.root: RRAS
 ms.assetid: ef3308a1-9a5e-4162-91d1-6ae2abff5c3b
-
 ms.date: 12/05/2018
 ms.keywords: RTM_SIZE_OF_ROUTE_INFO, RTM_SIZE_OF_ROUTE_INFO macro [RAS], _rtmv2ref_rtm_size_of_route_info, rras.rtm_size_of_route_info, rtmv2/RTM_SIZE_OF_ROUTE_INFO
 ms.topic: macro
 f1_keywords:
 - rtmv2/RTM_SIZE_OF_ROUTE_INFO
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

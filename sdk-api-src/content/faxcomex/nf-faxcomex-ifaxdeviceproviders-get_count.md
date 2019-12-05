@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProviders.get_Count
 title: IFaxDeviceProviders::get_Count (faxcomex.h)
-
 description: The Count property represents the number of objects in the FaxDeviceProviders collection. This is the total number of fax device providers associated with the fax server.
 old-location: fax\_mfax_faxdeviceproviders_cpp_mfax_faxdeviceproviders_count_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1th0.htm
-
 ms.date: 12/05/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxDeviceProviders interface, IFaxDeviceProviders interface [Fax Service],Count property, IFaxDeviceProviders.Count, IFaxDeviceProviders.get_Count, IFaxDeviceProviders::Count, IFaxDeviceProviders::get_Count, _mfax_faxdeviceproviders.count, fax._mfax_faxdeviceproviders_count, fax._mfax_faxdeviceproviders_cpp_mfax_faxdeviceproviders_count_cpp, faxcomex/IFaxDeviceProviders::Count, faxcomex/IFaxDeviceProviders::get_Count, get_Count
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxDeviceProviders.Count"
+f1_keywords:
+- faxcomex/IFaxDeviceProviders.Count
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxDeviceProviders.Count
- - IFaxDeviceProviders.get_Count
+- IFaxDeviceProviders.Count
+- IFaxDeviceProviders.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

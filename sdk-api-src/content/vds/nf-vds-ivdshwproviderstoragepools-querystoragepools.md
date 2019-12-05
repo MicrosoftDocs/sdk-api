@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsHwProviderStoragePools.QueryStoragePools
 title: IVdsHwProviderStoragePools::QueryStoragePools (vds.h)
-
 description: Returns an IEnumVdsObject enumeration object containing a list of the storage pools managed by the hardware provider.
 old-location: base\ivdshwproviderstoragepools_querystoragepools.htm
 tech.root: VDS
 ms.assetid: 308c9821-927d-4b90-854d-b050f3730c22
-
 ms.date: 12/05/2018
 ms.keywords: IVdsHwProviderStoragePools interface,QueryStoragePools method, IVdsHwProviderStoragePools.QueryStoragePools, IVdsHwProviderStoragePools::QueryStoragePools, QueryStoragePools, QueryStoragePools method, QueryStoragePools method,IVdsHwProviderStoragePools interface, base.ivdshwproviderstoragepools_querystoragepools, vds/IVdsHwProviderStoragePools::QueryStoragePools, vdshwprv/IVdsHwProviderStoragePools::QueryStoragePools
 ms.topic: method
 f1_keywords:
 - vds/IVdsHwProviderStoragePools.QueryStoragePools
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

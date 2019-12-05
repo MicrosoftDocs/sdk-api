@@ -1,19 +1,17 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIPerfCounterLogger
 title: IRDPSRAPIPerfCounterLogger (rdpencomapi.h)
-
 description: Enables a client application to implement custom performance logging.
 old-location: rdp\irdpsrapiperfcounterlogger.htm
 tech.root: rdp
 ms.assetid: EAAA22B1-5D8A-4ED8-813B-58671B0EF7AA
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIPerfCounterLogger, IRDPSRAPIPerfCounterLogger class [RDP], IRDPSRAPIPerfCounterLogger class [RDP],described, rdp.irdpsrapiperfcounterlogger, rdpencomapi/IRDPSRAPIPerfCounterLogger
 ms.topic: interface
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIPerfCounterLogger"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIPerfCounterLogger
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIPerfCounterLogger
+- IRDPSRAPIPerfCounterLogger
 targetos: Windows
 req.typenames: 
 req.redist: 

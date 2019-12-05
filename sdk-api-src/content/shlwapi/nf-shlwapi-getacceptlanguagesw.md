@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.GetAcceptLanguagesW
 title: GetAcceptLanguagesW function (shlwapi.h)
-
 description: Retrieves a string used with websites when specifying language preferences.
 old-location: shell\GetAcceptLanguages.htm
 tech.root: shell
 ms.assetid: a680a7fd-f980-485d-b52a-eb4d482ebc17
-
 ms.date: 12/05/2018
 ms.keywords: GetAcceptLanguages, GetAcceptLanguages function [Windows Shell], GetAcceptLanguagesA, GetAcceptLanguagesW, _shell_GetAcceptLanguages, shell.GetAcceptLanguages, shlwapi/GetAcceptLanguages, shlwapi/GetAcceptLanguagesA, shlwapi/GetAcceptLanguagesW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/GetAcceptLanguages"
+f1_keywords:
+- shlwapi/GetAcceptLanguages
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-url-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-url-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - GetAcceptLanguages
- - GetAcceptLanguagesA
- - GetAcceptLanguagesW
+- GetAcceptLanguages
+- GetAcceptLanguagesA
+- GetAcceptLanguagesW
 targetos: Windows
 req.typenames: 
 req.redist: 

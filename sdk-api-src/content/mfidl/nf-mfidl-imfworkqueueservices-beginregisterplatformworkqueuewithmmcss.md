@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFWorkQueueServices.BeginRegisterPlatformWorkQueueWithMMCSS
 title: IMFWorkQueueServices::BeginRegisterPlatformWorkQueueWithMMCSS (mfidl.h)
-
 description: Associates a platform work queue with a Multimedia Class Scheduler Service (MMCSS) task.
 old-location: mf\imfworkqueueservices_beginregisterplatformworkqueuewithmmcss.htm
 tech.root: medfound
 ms.assetid: aea9f946-dd59-4e51-a1de-b086e70ea083
-
 ms.date: 12/05/2018
 ms.keywords: BeginRegisterPlatformWorkQueueWithMMCSS, BeginRegisterPlatformWorkQueueWithMMCSS method [Media Foundation], BeginRegisterPlatformWorkQueueWithMMCSS method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],BeginRegisterPlatformWorkQueueWithMMCSS method, IMFWorkQueueServices.BeginRegisterPlatformWorkQueueWithMMCSS, IMFWorkQueueServices::BeginRegisterPlatformWorkQueueWithMMCSS, aea9f946-dd59-4e51-a1de-b086e70ea083, mf.imfworkqueueservices_beginregisterplatformworkqueuewithmmcss, mfidl/IMFWorkQueueServices::BeginRegisterPlatformWorkQueueWithMMCSS
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFWorkQueueServices.BeginRegisterPlatformWorkQueueWithMMCSS"
+f1_keywords:
+- mfidl/IMFWorkQueueServices.BeginRegisterPlatformWorkQueueWithMMCSS
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFWorkQueueServices.BeginRegisterPlatformWorkQueueWithMMCSS
+- IMFWorkQueueServices.BeginRegisterPlatformWorkQueueWithMMCSS
 targetos: Windows
 req.typenames: 
 req.redist: 

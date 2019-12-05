@@ -1,19 +1,17 @@
 ---
 UID: NF:mscat.CryptCATCDFOpen
 title: CryptCATCDFOpen function (mscat.h)
-
 description: Opens an existing catalog definition file (CDF) for reading and initializes a CRYPTCATCDF structure.
 old-location: security\cryptcatcdfopen.htm
 tech.root: SecCrypto
 ms.assetid: d400d8bd-c0a0-41dc-9093-8e4fc758d82f
-
 ms.date: 12/05/2018
 ms.keywords: CryptCATCDFOpen, CryptCATCDFOpen function [Security], mscat/CryptCATCDFOpen, security.cryptcatcdfopen
 ms.topic: function
-f1_keywords: 
- - "mscat/CryptCATCDFOpen"
+f1_keywords:
+- mscat/CryptCATCDFOpen
 dev_langs:
- - c++
+- c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wintrust.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wintrust.dll
+- Wintrust.dll
 api_name:
- - CryptCATCDFOpen
+- CryptCATCDFOpen
 targetos: Windows
 req.typenames: 
 req.redist: 

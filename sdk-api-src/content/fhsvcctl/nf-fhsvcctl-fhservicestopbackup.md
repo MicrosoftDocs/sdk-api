@@ -1,19 +1,17 @@
 ---
 UID: NF:fhsvcctl.FhServiceStopBackup
 title: FhServiceStopBackup function (fhsvcctl.h)
-
 description: This function stops an ongoing backup cycle for the current user.
 old-location: winprog\fhservicestopbackup.htm
 tech.root: DevNotes
 ms.assetid: 17FCD464-2543-454A-B60E-E37EDF61C595
-
 ms.date: 12/05/2018
 ms.keywords: FhServiceStopBackup, FhServiceStopBackup function [Windows API], fhsvcctl/FhServiceStopBackup, winprog.fhservicestopbackup
 ms.topic: function
-f1_keywords: 
- - "fhsvcctl/FhServiceStopBackup"
+f1_keywords:
+- fhsvcctl/FhServiceStopBackup
 dev_langs:
- - c++
+- c++
 req.header: fhsvcctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FhSvcCtl.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - FhSvcCtl.lib
- - FhSvcCtl.dll
+- FhSvcCtl.lib
+- FhSvcCtl.dll
 api_name:
- - FhServiceStopBackup
+- FhServiceStopBackup
 targetos: Windows
 req.typenames: 
 req.redist: 

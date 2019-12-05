@@ -1,19 +1,17 @@
 ---
 UID: NF:immdev.ImmGetVirtualKey
 title: ImmGetVirtualKey function (immdev.h)
-
 description: Retrieves the original virtual key value associated with a key input message that the IME has already processed.
 old-location: intl\immgetvirtualkey.htm
 tech.root: Intl
 ms.assetid: 56c40e55-19e3-4c06-bac7-c4d0098e932a
-
 ms.date: 12/05/2018
 ms.keywords: ImmGetVirtualKey, ImmGetVirtualKey function [Internationalization for Windows Applications], _win32_ImmGetVirtualKey, imm/ImmGetVirtualKey, intl.immgetvirtualkey
 ms.topic: function
-f1_keywords: 
- - "immdev/ImmGetVirtualKey"
+f1_keywords:
+- immdev/ImmGetVirtualKey
 dev_langs:
- - c++
+- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imm32.dll
- - Ext-MS-Win-imm-l1-1-0.dll
- - ext-ms-win-imm-l1-1-1.dll
+- Imm32.dll
+- Ext-MS-Win-imm-l1-1-0.dll
+- ext-ms-win-imm-l1-1-1.dll
 api_name:
- - ImmGetVirtualKey
+- ImmGetVirtualKey
 targetos: Windows
 req.typenames: 
 req.redist: 

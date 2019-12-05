@@ -1,19 +1,17 @@
 ---
 UID: NF:certview.ICertView.EnumCertViewColumn
 title: ICertView::EnumCertViewColumn (certview.h)
-
 description: Obtains an instance of a column-enumeration sequence for the database schema.
 old-location: security\icertview2_enumcertviewcolumn.htm
 tech.root: SecCrypto
 ms.assetid: a51162f9-cc3d-4f06-993a-e5c9f57dd8a1
-
 ms.date: 12/05/2018
 ms.keywords: CCertView object [Security],EnumCertViewColumn method, CVRC_COLUMN_MASK, CVRC_COLUMN_RESULT, CVRC_COLUMN_SCHEMA, CVRC_COLUMN_VALUE, EnumCertViewColumn, EnumCertViewColumn method [Security], EnumCertViewColumn method [Security],CCertView object, EnumCertViewColumn method [Security],ICertView interface, EnumCertViewColumn method [Security],ICertView2 interface, ICertView interface [Security],EnumCertViewColumn method, ICertView.EnumCertViewColumn, ICertView2 interface [Security],EnumCertViewColumn method, ICertView2::EnumCertViewColumn, ICertView::EnumCertViewColumn, certview/ICertView2::EnumCertViewColumn, certview/ICertView::EnumCertViewColumn, security.icertview2_enumcertviewcolumn
 ms.topic: method
-f1_keywords: 
- - "certview/ICertView2.EnumCertViewColumn"
+f1_keywords:
+- certview/ICertView2.EnumCertViewColumn
 dev_langs:
- - c++
+- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - ICertView2.EnumCertViewColumn
- - ICertView.EnumCertViewColumn
- - CCertView.EnumCertViewColumn
+- ICertView2.EnumCertViewColumn
+- ICertView.EnumCertViewColumn
+- CCertView.EnumCertViewColumn
 targetos: Windows
 req.typenames: 
 req.redist: 

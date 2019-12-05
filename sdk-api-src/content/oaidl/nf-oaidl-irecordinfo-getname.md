@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.IRecordInfo.GetName
 title: IRecordInfo::GetName (oaidl.h)
-
 description: Gets the name of the record type.
 old-location: automat\irecordinfo_getname.htm
 tech.root: automat
 ms.assetid: b769f792-45cb-4070-9be7-0b95b17a9ed8
-
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Automation], GetName method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetName method, IRecordInfo.GetName, IRecordInfo::GetName, _oa96_IRecordInfo_GetName, automat.irecordinfo_getname, oaidl/IRecordInfo::GetName
 ms.topic: method
-f1_keywords: 
- - "oaidl/IRecordInfo.GetName"
+f1_keywords:
+- oaidl/IRecordInfo.GetName
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - IRecordInfo.GetName
+- IRecordInfo.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 

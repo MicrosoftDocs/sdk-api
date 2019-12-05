@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateService.get_OffersWindowsUpdates
 title: IUpdateService::get_OffersWindowsUpdates (wuapi.h)
-
 description: Gets a Boolean value indicates whether the current service offers updates from Windows Updates.
 old-location: wua\iupdateservice_offerswindowsupdates.htm
 tech.root: Wua_Sdk
 ms.assetid: 926230ea-e8cf-4ecb-980a-88852d033c70
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],OffersWindowsUpdates property, IUpdateService.OffersWindowsUpdates, IUpdateService.get_OffersWindowsUpdates, IUpdateService::OffersWindowsUpdates, IUpdateService::get_OffersWindowsUpdates, OffersWindowsUpdates property [Windows Update Agent], OffersWindowsUpdates property [Windows Update Agent],IUpdateService interface, get_OffersWindowsUpdates, wua.iupdateservice_offerswindowsupdates, wuapi/IUpdateService::OffersWindowsUpdates, wuapi/IUpdateService::get_OffersWindowsUpdates
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateService.OffersWindowsUpdates"
+f1_keywords:
+- wuapi/IUpdateService.OffersWindowsUpdates
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateService.OffersWindowsUpdates
- - IUpdateService.get_OffersWindowsUpdates
+- IUpdateService.OffersWindowsUpdates
+- IUpdateService.get_OffersWindowsUpdates
 targetos: Windows
 req.typenames: 
 req.redist: 

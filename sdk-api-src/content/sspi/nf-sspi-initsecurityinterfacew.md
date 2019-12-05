@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.InitSecurityInterfaceW
 title: InitSecurityInterfaceW function (sspi.h)
-
 description: The InitSecurityInterface function returns a pointer to an SSPI dispatch table. This function enables clients to use SSPI without binding directly to an implementation of the interface.
 old-location: security\initsecurityinterface.htm
 tech.root: SecAuthN
 ms.assetid: 1026eeab-e2d6-45f2-9677-82d6cfbf4e12
-
 ms.date: 12/05/2018
 ms.keywords: InitSecurityInterface, InitSecurityInterface function [Security], InitSecurityInterfaceA, InitSecurityInterfaceW, _ssp_initsecurityinterface, security.initsecurityinterface, sspi/InitSecurityInterface, sspi/InitSecurityInterfaceA, sspi/InitSecurityInterfaceW
 ms.topic: function
-f1_keywords: 
- - "sspi/InitSecurityInterface"
+f1_keywords:
+- sspi/InitSecurityInterface
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Secur32.dll
- - security.dll
- - schannel.dll
+- Secur32.dll
+- security.dll
+- schannel.dll
 api_name:
- - InitSecurityInterface
- - InitSecurityInterfaceA
- - InitSecurityInterfaceW
+- InitSecurityInterface
+- InitSecurityInterfaceA
+- InitSecurityInterfaceW
 targetos: Windows
 req.typenames: 
 req.redist: 

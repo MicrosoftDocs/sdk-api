@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxManifestOptionalPackageInfo
 title: IAppxManifestOptionalPackageInfo (appxpackaging.h)
-
 description: Provides access to attribute values of the optional package information.
 old-location: appxpkg\iappxmanifestoptionalpackageinfo.htm
 tech.root: appxpkg
 ms.assetid: 2B21676C-90AF-418D-8213-065EBB6C165C
-
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestOptionalPackageInfo, IAppxManifestOptionalPackageInfo interface [App packaging and management], IAppxManifestOptionalPackageInfo interface [App packaging and management],described, appxpackaging/IAppxManifestOptionalPackageInfo, appxpkg.iappxmanifestoptionalpackageinfo
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxManifestOptionalPackageInfo"
+f1_keywords:
+- appxpackaging/IAppxManifestOptionalPackageInfo
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestOptionalPackageInfo
+- IAppxManifestOptionalPackageInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:shobjidl_core.KNOWNFOLDER_DEFINITION
 title: KNOWNFOLDER_DEFINITION (shobjidl_core.h)
-
 description: Defines the specifics of a known folder.
 old-location: shell\KNOWNFOLDER_DEFINITION.htm
 tech.root: shell
 ms.assetid: 08bd8406-68fa-4e02-9a64-ed5e62f8639b
-
 ms.date: 12/05/2018
 ms.keywords: KNOWNFOLDER_DEFINITION, KNOWNFOLDER_DEFINITION structure [Windows Shell], _shell_KNOWNFOLDER_DEFINITION, shell.KNOWNFOLDER_DEFINITION, shobjidl_core/KNOWNFOLDER_DEFINITION
 ms.topic: struct
-f1_keywords: 
- - "shobjidl_core/KNOWNFOLDER_DEFINITION"
+f1_keywords:
+- shobjidl_core/KNOWNFOLDER_DEFINITION
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shobjidl_core.h
+- Shobjidl_core.h
 api_name:
- - KNOWNFOLDER_DEFINITION
+- KNOWNFOLDER_DEFINITION
 targetos: Windows
 req.typenames: KNOWNFOLDER_DEFINITION
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rend.ITDirectory.EnumerateDirectoryObjects
 title: ITDirectory::EnumerateDirectoryObjects (rend.h)
-
 description: The EnumerateDirectoryObjects method creates an enumeration of directory objects of a given type and name.
 old-location: tapi3\itdirectory_enumeratedirectoryobjects.htm
 tech.root: Tapi
 ms.assetid: 4d7e0fd5-b85b-41e0-9603-132243a9a265
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateDirectoryObjects, EnumerateDirectoryObjects method [TAPI 2.2], EnumerateDirectoryObjects method [TAPI 2.2],ITDirectory interface, ITDirectory interface [TAPI 2.2],EnumerateDirectoryObjects method, ITDirectory.EnumerateDirectoryObjects, ITDirectory::EnumerateDirectoryObjects, _tapi3_itdirectory_enumeratedirectoryobjects, rend/ITDirectory::EnumerateDirectoryObjects, tapi3.itdirectory_enumeratedirectoryobjects
 ms.topic: method
-f1_keywords: 
- - "rend/ITDirectory.EnumerateDirectoryObjects"
+f1_keywords:
+- rend/ITDirectory.EnumerateDirectoryObjects
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - ITDirectory.EnumerateDirectoryObjects
+- ITDirectory.EnumerateDirectoryObjects
 targetos: Windows
 req.typenames: 
 req.redist: 

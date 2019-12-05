@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSensorTransformFactory.GetTransformCount
 title: IMFSensorTransformFactory::GetTransformCount (mfidl.h)
-
 description: Called by the media pipeline to get the number of transforms provided by the sensor transform.
 old-location: mf\imfsensortransformfactory_gettransformcount.htm
 tech.root: medfound
 ms.assetid: D1B1DA8D-9A59-43A0-9A2F-8749B2C05D37
-
 ms.date: 12/05/2018
 ms.keywords: GetTransformCount, GetTransformCount method [Media Foundation], GetTransformCount method [Media Foundation],IMFSensorTransformFactory interface, IMFSensorTransformFactory interface [Media Foundation],GetTransformCount method, IMFSensorTransformFactory.GetTransformCount, IMFSensorTransformFactory::GetTransformCount, mf.imfsensortransformfactory_gettransformcount, mfidl/IMFSensorTransformFactory::GetTransformCount
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSensorTransformFactory.GetTransformCount"
+f1_keywords:
+- mfidl/IMFSensorTransformFactory.GetTransformCount
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFSensorTransformFactory.GetTransformCount
+- IMFSensorTransformFactory.GetTransformCount
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.StopBuffering
 title: IWMReaderAdvanced2::StopBuffering (wmsdkidl.h)
-
 description: The StopBuffering method requests that the reader send the WMT_BUFFERING_STOP message as soon as possible.
 old-location: wmformat\iwmreaderadvanced2_stopbuffering.htm
 tech.root: wmformat
 ms.assetid: 3c380a68-d86c-421a-8102-019848893c35
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],StopBuffering method, IWMReaderAdvanced2.StopBuffering, IWMReaderAdvanced2::StopBuffering, IWMReaderAdvanced2StopBuffering, StopBuffering, StopBuffering method [windows Media Format], StopBuffering method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_stopbuffering, wmsdkidl/IWMReaderAdvanced2::StopBuffering
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced2.StopBuffering"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced2.StopBuffering
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced2.StopBuffering
+- IWMReaderAdvanced2.StopBuffering
 targetos: Windows
 req.typenames: 
 req.redist: 

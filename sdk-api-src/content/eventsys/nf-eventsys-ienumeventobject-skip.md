@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEnumEventObject.Skip
 title: IEnumEventObject::Skip (eventsys.h)
-
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: cos\ienumeventobject_skip.htm
 tech.root: cossdk
 ms.assetid: 7c830d29-8e66-4139-9445-d83dc7f7004f
-
 ms.date: 12/05/2018
 ms.keywords: IEnumEventObject interface [COM+],Skip method, IEnumEventObject.Skip, IEnumEventObject::Skip, Skip, Skip method [COM+], Skip method [COM+],IEnumEventObject interface, _cos_ienumeventobject_skip, cos.ienumeventobject_skip, eventsys/IEnumEventObject::Skip
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEnumEventObject.Skip"
+f1_keywords:
+- eventsys/IEnumEventObject.Skip
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - eventsys.h
+- eventsys.h
 api_name:
- - IEnumEventObject.Skip
+- IEnumEventObject.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1helper.Ellipse
 title: Ellipse function (d2d1helper.h)
-
 description: Creates a D2D1_ELLIPSE structure.
 old-location: direct2d\ellipse.htm
 tech.root: Direct2D
 ms.assetid: 49d1b737-acf3-4dd7-81ce-c78ac0558a87
-
 ms.date: 12/05/2018
 ms.keywords: Ellipse, Ellipse function [Direct2D], d2d1helper/Ellipse, direct2d.ellipse
 ms.topic: function
-f1_keywords: 
- - "d2d1helper/Ellipse"
+f1_keywords:
+- d2d1helper/Ellipse
 dev_langs:
- - c++
+- c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D2d1.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- D2d1.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - Ellipse
+- Ellipse
 targetos: Windows
 req.typenames: 
 req.redist: 

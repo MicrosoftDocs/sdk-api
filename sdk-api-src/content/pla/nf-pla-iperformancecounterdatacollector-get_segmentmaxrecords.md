@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IPerformanceCounterDataCollector.get_SegmentMaxRecords
 title: IPerformanceCounterDataCollector::get_SegmentMaxRecords (pla.h)
-
 description: Retrieves or sets the maximum number of samples to log.
 old-location: pla\iperformancecounterdatacollector_segmentmaxrecords.htm
 tech.root: PLA
 ms.assetid: cc987959-dbf6-44da-8f1a-d66a3ad791a5
-
 ms.date: 12/05/2018
 ms.keywords: IPerformanceCounterDataCollector interface [PLA],SegmentMaxRecords property, IPerformanceCounterDataCollector.SegmentMaxRecords, IPerformanceCounterDataCollector.get_SegmentMaxRecords, IPerformanceCounterDataCollector::SegmentMaxRecords, IPerformanceCounterDataCollector::get_SegmentMaxRecords, IPerformanceCounterDataCollector::put_SegmentMaxRecords, SegmentMaxRecords property [PLA], SegmentMaxRecords property [PLA],IPerformanceCounterDataCollector interface, base.iperformancecounterdatacollector_segmentmaxrecords, get_SegmentMaxRecords, pla.iperformancecounterdatacollector_segmentmaxrecords, pla/IPerformanceCounterDataCollector::SegmentMaxRecords, pla/IPerformanceCounterDataCollector::get_SegmentMaxRecords, pla/IPerformanceCounterDataCollector::put_SegmentMaxRecords
 ms.topic: method
-f1_keywords: 
- - "pla/IPerformanceCounterDataCollector.SegmentMaxRecords"
+f1_keywords:
+- pla/IPerformanceCounterDataCollector.SegmentMaxRecords
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IPerformanceCounterDataCollector.SegmentMaxRecords
- - IPerformanceCounterDataCollector.get_SegmentMaxRecords
- - IPerformanceCounterDataCollector.put_SegmentMaxRecords
+- IPerformanceCounterDataCollector.SegmentMaxRecords
+- IPerformanceCounterDataCollector.get_SegmentMaxRecords
+- IPerformanceCounterDataCollector.put_SegmentMaxRecords
 targetos: Windows
 req.typenames: 
 req.redist: 

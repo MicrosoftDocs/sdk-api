@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IBandSite.GetBandObject
 title: IBandSite::GetBandObject (shobjidl_core.h)
-
 description: Gets a specified band object from a band site.
 old-location: shell\IBandSite_GetBandObject.htm
 tech.root: shell
 ms.assetid: e6eba36d-5fc8-4b79-8129-1e07c5cc5b5f
-
 ms.date: 12/05/2018
 ms.keywords: GetBandObject, GetBandObject method [Windows Shell], GetBandObject method [Windows Shell],IBandSite interface, IBandSite interface [Windows Shell],GetBandObject method, IBandSite.GetBandObject, IBandSite::GetBandObject, _win32_IBandSite_GetBandObject, shell.IBandSite_GetBandObject, shobjidl_core/IBandSite::GetBandObject
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IBandSite.GetBandObject"
+f1_keywords:
+- shobjidl_core/IBandSite.GetBandObject
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shldisp.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IBandSite.GetBandObject
+- IBandSite.GetBandObject
 targetos: Windows
 req.typenames: 
 req.redist: 

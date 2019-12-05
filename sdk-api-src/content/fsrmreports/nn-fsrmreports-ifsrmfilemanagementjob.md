@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrmreports.IFsrmFileManagementJob
 title: IFsrmFileManagementJob (fsrmreports.h)
-
 description: Defines a file management job.
 old-location: fsrm\ifsrmfilemanagementjob.htm
 tech.root: fsrm
 ms.assetid: e9ae697d-4f7c-47d9-8d2a-c46c2e5f838f
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileManagementJob, IFsrmFileManagementJob interface [File Server Resource Manager], IFsrmFileManagementJob interface [File Server Resource Manager],described, fs.ifsrmfilemanagementjob, fsrm.ifsrmfilemanagementjob, fsrm/IFsrmFileManagementJob
 ms.topic: interface
-f1_keywords: 
- - "fsrmreports/IFsrmFileManagementJob"
+f1_keywords:
+- fsrmreports/IFsrmFileManagementJob
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob
+- IFsrmFileManagementJob
 targetos: Windows
 req.typenames: 
 req.redist: 

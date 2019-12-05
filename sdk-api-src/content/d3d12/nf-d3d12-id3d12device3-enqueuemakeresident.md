@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Device3.EnqueueMakeResident
 title: ID3D12Device3::EnqueueMakeResident (d3d12.h)
-
 description: Asynchronously makes objects resident for the device.
 old-location: direct3d12\id3d12device3_enqueuemakeresident.htm
 tech.root: direct3d12
 ms.assetid: A9F8D656-C09D-47D5-9D97-3C2A60422E96
-
 ms.date: 12/05/2018
 ms.keywords: EnqueueMakeResident, EnqueueMakeResident method, EnqueueMakeResident method,ID3D12Device3 interface, ID3D12Device3 interface,EnqueueMakeResident method, ID3D12Device3.EnqueueMakeResident, ID3D12Device3::EnqueueMakeResident, d3d12/ID3D12Device3::EnqueueMakeResident, direct3d12.id3d12device3_enqueuemakeresident
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Device3.EnqueueMakeResident"
+f1_keywords:
+- d3d12/ID3D12Device3.EnqueueMakeResident
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12Device3.EnqueueMakeResident
+- ID3D12Device3.EnqueueMakeResident
 targetos: Windows
 req.typenames: 
 req.redist: 

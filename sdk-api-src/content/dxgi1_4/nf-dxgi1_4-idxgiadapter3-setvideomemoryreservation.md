@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_4.IDXGIAdapter3.SetVideoMemoryReservation
 title: IDXGIAdapter3::SetVideoMemoryReservation (dxgi1_4.h)
-
 description: This method sends the minimum required physical memory for an application, to the OS.
 old-location: direct3ddxgi\idxgiadapter3_setvideomemoryreservation.htm
 tech.root: direct3ddxgi
 ms.assetid: 5D17F57F-9FFA-4B5C-98B6-33E5B3982A63
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIAdapter3 interface [DXGI],SetVideoMemoryReservation method, IDXGIAdapter3.SetVideoMemoryReservation, IDXGIAdapter3::SetVideoMemoryReservation, SetVideoMemoryReservation, SetVideoMemoryReservation method [DXGI], SetVideoMemoryReservation method [DXGI],IDXGIAdapter3 interface, direct3ddxgi.idxgiadapter3_setvideomemoryreservation, dxgi1_4/IDXGIAdapter3::SetVideoMemoryReservation
 ms.topic: method
-f1_keywords: 
- - "dxgi1_4/IDXGIAdapter3.SetVideoMemoryReservation"
+f1_keywords:
+- dxgi1_4/IDXGIAdapter3.SetVideoMemoryReservation
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_4.h
 req.include-header: DXGI1_3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxgi.lib
 req.dll: Dxgi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxgi.dll
+- dxgi.dll
 api_name:
- - IDXGIAdapter3.SetVideoMemoryReservation
+- IDXGIAdapter3.SetVideoMemoryReservation
 targetos: Windows
 req.typenames: 
 req.redist: 

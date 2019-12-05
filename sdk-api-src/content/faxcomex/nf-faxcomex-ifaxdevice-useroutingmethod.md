@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxDevice.UseRoutingMethod
 title: IFaxDevice::UseRoutingMethod (faxcomex.h)
-
 description: The IFaxDevice::UseRoutingMethod method adds an inbound fax routing method to or removes a fax routing method (FaxInboundRoutingMethod) from the list of routing methods associated with the fax device.
 old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_useroutingmethod_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_2m90.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxDevice interface [Fax Service],UseRoutingMethod method, IFaxDevice.UseRoutingMethod, IFaxDevice::UseRoutingMethod, UseRoutingMethod, UseRoutingMethod method [Fax Service], UseRoutingMethod method [Fax Service],IFaxDevice interface, _mfax_faxdevice.useroutingmethod, fax._mfax_faxdevice_cpp_mfax_faxdevice_useroutingmethod_cpp, fax._mfax_faxdevice_useroutingmethod, faxcomex/IFaxDevice::UseRoutingMethod
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxDevice.UseRoutingMethod"
+f1_keywords:
+- faxcomex/IFaxDevice.UseRoutingMethod
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxDevice.UseRoutingMethod
- - IFaxDevice.UseRoutingMethod
+- IFaxDevice.UseRoutingMethod
+- IFaxDevice.UseRoutingMethod
 targetos: Windows
 req.typenames: 
 req.redist: 

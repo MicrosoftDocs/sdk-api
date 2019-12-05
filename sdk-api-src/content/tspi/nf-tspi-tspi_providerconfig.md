@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_providerConfig
 title: TSPI_providerConfig function (tspi.h)
-
 description: The TSPI_providerConfig function is obsolete. TAPI version 1.4 or earlier service providers can implement this TSPI function. TAPI version 2.0 or later TSPs implement TUISPI_providerConfig.
 old-location: tspi\tspi_providerconfig.htm
 tech.root: Tapi
 ms.assetid: b0fa2a9e-bc8b-4364-9442-2091f2366107
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_providerConfig, TSPI_providerConfig function [TAPI 2.2], _tspi_tspi_providerconfig, tspi.tspi_providerconfig, tspi/TSPI_providerConfig
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_providerConfig"
+f1_keywords:
+- tspi/TSPI_providerConfig
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_providerConfig
+- TSPI_providerConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

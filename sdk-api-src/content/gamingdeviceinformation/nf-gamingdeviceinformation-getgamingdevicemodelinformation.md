@@ -1,19 +1,17 @@
 ---
 UID: NF:gamingdeviceinformation.GetGamingDeviceModelInformation
 title: GetGamingDeviceModelInformation function (gamingdeviceinformation.h)
-
 description: Gets information about the device that the game is running on.
 old-location: gamingdvcinfo\getgamingdevicemodelinformation.htm
 tech.root: gamingdvcinfo
 ms.assetid: 78101CBA-63B5-4B3F-9CEC-A215F32D9EB8
-
 ms.date: 12/05/2018
 ms.keywords: GetGamingDeviceModelInformation, GetGamingDeviceModelInformation function, gamingdeviceinformation/GetGamingDeviceModelInformation, gamingdvcinfo.getgamingdevicemodelinformation
 ms.topic: function
-f1_keywords: 
- - "gamingdeviceinformation/GetGamingDeviceModelInformation"
+f1_keywords:
+- gamingdeviceinformation/GetGamingDeviceModelInformation
 dev_langs:
- - c++
+- c++
 req.header: gamingdeviceinformation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - gamingdeviceinformation.h
+- gamingdeviceinformation.h
 api_name:
- - GetGamingDeviceModelInformation
+- GetGamingDeviceModelInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

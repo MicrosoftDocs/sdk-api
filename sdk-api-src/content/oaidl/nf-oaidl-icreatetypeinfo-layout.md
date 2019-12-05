@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.LayOut
 title: ICreateTypeInfo::LayOut (oaidl.h)
-
 description: Assigns VTBL offsets for virtual functions and instance offsets for per-instance data members, and creates the two type descriptions for dual interfaces.
 old-location: automat\icreatetypeinfo_layout.htm
 tech.root: automat
 ms.assetid: 3880aad3-8a6f-43e6-8420-25c4d1b9a71a
-
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],LayOut method, ICreateTypeInfo.LayOut, ICreateTypeInfo::LayOut, LayOut, LayOut method [Automation], LayOut method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_LayOut, automat.icreatetypeinfo_layout, oaidl/ICreateTypeInfo::LayOut
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateTypeInfo.LayOut"
+f1_keywords:
+- oaidl/ICreateTypeInfo.LayOut
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateTypeInfo.LayOut
+- ICreateTypeInfo.LayOut
 targetos: Windows
 req.typenames: 
 req.redist: 

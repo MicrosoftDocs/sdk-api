@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetCustomObjectSet
 title: IOpcSigningOptions::GetCustomObjectSet (msopc.h)
-
 description: Gets an IOpcSignatureCustomObjectSet interface.
 old-location: opc\iopcsigningoptions_getcustomobjectset.htm
 tech.root: OPC
 ms.assetid: 1b4d31cb-f12a-4b51-8b28-470e065e1661
-
 ms.date: 12/05/2018
 ms.keywords: GetCustomObjectSet, GetCustomObjectSet method [Open Packaging Conventions], GetCustomObjectSet method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetCustomObjectSet method, IOpcSigningOptions.GetCustomObjectSet, IOpcSigningOptions::GetCustomObjectSet, msopc/IOpcSigningOptions::GetCustomObjectSet, opc.iopcsigningoptions_getcustomobjectset
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSigningOptions.GetCustomObjectSet"
+f1_keywords:
+- msopc/IOpcSigningOptions.GetCustomObjectSet
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSigningOptions.GetCustomObjectSet
+- IOpcSigningOptions.GetCustomObjectSet
 targetos: Windows
 req.typenames: 
 req.redist: 

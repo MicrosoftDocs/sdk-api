@@ -1,19 +1,17 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT
 title: WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT (wsman.h)
-
 description: Defines the release command callback for the plug-in.
 old-location: winrm\wsman_plugin_release_command_context.htm
 tech.root: winrm
 ms.assetid: 9a81f8da-1c71-4eab-aa21-002cee4f1164
-
 ms.date: 12/05/2018
 ms.keywords: WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT, WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT callback, WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT callback function [Windows Remote Management], WSManPluginReleaseCommandContext, winrm.wsman_plugin_release_command_context, wsman/WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT
 ms.topic: callback
-f1_keywords: 
- - "wsman/WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT"
+f1_keywords:
+- wsman/WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT
 dev_langs:
- - c++
+- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wsman.h
+- Wsman.h
 api_name:
- - WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT
+- WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2

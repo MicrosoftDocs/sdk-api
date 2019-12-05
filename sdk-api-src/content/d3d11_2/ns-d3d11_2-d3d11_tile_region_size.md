@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11_2.D3D11_TILE_REGION_SIZE
 title: D3D11_TILE_REGION_SIZE (d3d11_2.h)
-
 description: Describes the size of a tiled region.
 old-location: direct3d11\d3d11_tile_region_size.htm
 tech.root: direct3d11
 ms.assetid: D4A93462-9A2F-416A-9CC1-AC24DFF35890
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_TILE_REGION_SIZE, D3D11_TILE_REGION_SIZE structure [Direct3D 11], d3d11_2/D3D11_TILE_REGION_SIZE, direct3d11.d3d11_tile_region_size
 ms.topic: struct
-f1_keywords: 
- - "d3d11_2/D3D11_TILE_REGION_SIZE"
+f1_keywords:
+- d3d11_2/D3D11_TILE_REGION_SIZE
 dev_langs:
- - c++
+- c++
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11_2.h
+- D3D11_2.h
 api_name:
- - D3D11_TILE_REGION_SIZE
+- D3D11_TILE_REGION_SIZE
 targetos: Windows
 req.typenames: D3D11_TILE_REGION_SIZE
 req.redist: 

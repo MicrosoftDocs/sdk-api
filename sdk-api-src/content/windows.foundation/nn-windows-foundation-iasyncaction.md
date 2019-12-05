@@ -1,19 +1,17 @@
 ---
 UID: NN:windows.foundation.IAsyncAction
 title: IAsyncAction (windows.foundation.h)
-
 description: Represents an asynchronous action.
 old-location: winrt\iasyncaction.htm
 tech.root: WinRT
 ms.assetid: E5D567F6-FFDE-4E51-8D52-638D30252549
-
 ms.date: 12/05/2018
 ms.keywords: IAsyncAction, IAsyncAction interface [Windows Runtime], IAsyncAction interface [Windows Runtime],described, windows/IAsyncAction, winrt.iasyncaction
 ms.topic: interface
-f1_keywords: 
- - "windows.foundation/IAsyncAction"
+f1_keywords:
+- windows.foundation/IAsyncAction
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IAsyncAction
+- IAsyncAction
 targetos: Windows
 req.typenames: 
 req.redist: 

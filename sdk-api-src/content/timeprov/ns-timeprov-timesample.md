@@ -1,19 +1,17 @@
 ---
 UID: NS:timeprov.TimeSample
 title: TimeSample (timeprov.h)
-
 description: Represents a time sample.
 old-location: base\timesample_str.htm
 tech.root: SysInfo
 ms.assetid: 020a6502-3357-4800-8fc4-0d73ae42aa51
-
 ms.date: 12/05/2018
 ms.keywords: TSF_Authenticated, TSF_Hardware, TimeSample, TimeSample structure, _win32_timesample_str, base.timesample_str, timeprov/TimeSample
 ms.topic: struct
-f1_keywords: 
- - "timeprov/TimeSample"
+f1_keywords:
+- timeprov/TimeSample
 dev_langs:
- - c++
+- c++
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Timeprov.h
+- Timeprov.h
 api_name:
- - TimeSample
+- TimeSample
 targetos: Windows
 req.typenames: TimeSample
 req.redist: 

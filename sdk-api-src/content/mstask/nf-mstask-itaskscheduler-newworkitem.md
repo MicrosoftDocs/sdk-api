@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.ITaskScheduler.NewWorkItem
 title: ITaskScheduler::NewWorkItem (mstask.h)
-
 description: The NewWorkItem method creates a new work item, allocating space for the work item and retrieving its address.
 old-location: taskschd\itaskscheduler_newworkitem.htm
 tech.root: taskschd
 ms.assetid: 1fbd65ae-0b54-4175-bf26-4226b1aabdc1
-
 ms.date: 12/05/2018
 ms.keywords: ITaskScheduler interface [Task Scheduler],NewWorkItem method, ITaskScheduler.NewWorkItem, ITaskScheduler::NewWorkItem, NewWorkItem, NewWorkItem method [Task Scheduler], NewWorkItem method [Task Scheduler],ITaskScheduler interface, _msb_itaskscheduler_newworkitem, mstask/ITaskScheduler::NewWorkItem, taskschd.itaskscheduler_newworkitem
 ms.topic: method
-f1_keywords: 
- - "mstask/ITaskScheduler.NewWorkItem"
+f1_keywords:
+- mstask/ITaskScheduler.NewWorkItem
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - ITaskScheduler.NewWorkItem
+- ITaskScheduler.NewWorkItem
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

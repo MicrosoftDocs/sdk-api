@@ -1,19 +1,17 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.put_AttachedEditWindow
 title: IPenInputPanel::put_AttachedEditWindow (peninputpanel.h)
-
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Sets or gets the window handle of the object that the PenInputPanel object is attached to.
 old-location: tablet\peninputpanel_attachededitwindow.htm
 tech.root: tablet
 ms.assetid: 4ece9a88-dc5e-4c5c-bf75-ad22a3d3cfb5
-
 ms.date: 12/05/2018
 ms.keywords: 4ece9a88-dc5e-4c5c-bf75-ad22a3d3cfb5, AttachedEditWindow property [Tablet PC], AttachedEditWindow property [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],AttachedEditWindow property, IPenInputPanel.AttachedEditWindow, IPenInputPanel.put_AttachedEditWindow, IPenInputPanel::AttachedEditWindow, IPenInputPanel::get_AttachedEditWindow, IPenInputPanel::put_AttachedEditWindow, PenInputPanel.get_AttachedEditWindow, PenInputPanel.put_AttachedEditWindow, get_AttachedEditWindow, peninputpanel/IPenInputPanel::AttachedEditWindow, peninputpanel/IPenInputPanel::get_AttachedEditWindow, peninputpanel/IPenInputPanel::put_AttachedEditWindow, put_AttachedEditWindow, tablet.peninputpanel_attachededitwindow
 ms.topic: method
-f1_keywords: 
- - "peninputpanel/IPenInputPanel.AttachedEditWindow"
+f1_keywords:
+- peninputpanel/IPenInputPanel.AttachedEditWindow
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IPenInputPanel.AttachedEditWindow
- - IPenInputPanel.get_AttachedEditWindow
- - IPenInputPanel.put_AttachedEditWindow
- - PenInputPanel.get_AttachedEditWindow
- - PenInputPanel.put_AttachedEditWindow
+- IPenInputPanel.AttachedEditWindow
+- IPenInputPanel.get_AttachedEditWindow
+- IPenInputPanel.put_AttachedEditWindow
+- PenInputPanel.get_AttachedEditWindow
+- PenInputPanel.put_AttachedEditWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:rasdlg.RASPBDLGFUNCA
 title: RASPBDLGFUNCA (rasdlg.h)
-
 description: The RasPBDlgFunc function is an application-defined callback function that receives notifications of user activity while the RasPhonebookDlg dialog box is open.
 old-location: rras\raspbdlgfunc.htm
 tech.root: RRAS
 ms.assetid: 70bb60a1-6a56-43fd-9352-8ced34ddd174
-
 ms.date: 12/05/2018
 ms.keywords: RASPBDEVENT_AddEntry, RASPBDEVENT_DialEntry, RASPBDEVENT_EditEntry, RASPBDEVENT_EditGlobals, RASPBDEVENT_NoUser, RASPBDEVENT_NoUserEdit, RASPBDEVENT_RemoveEntry, RasPBDlgFunc, RasPBDlgFunc callback, RasPBDlgFunc callback function [RAS], RasPBDlgFuncA, RasPBDlgFuncW, _ras_raspbdlgfunc, rasdlg/RasPBDlgFunc, rasdlg/RasPBDlgFuncA, rasdlg/RasPBDlgFuncW, rras.raspbdlgfunc
 ms.topic: callback
-f1_keywords: 
- - "rasdlg/RasPBDlgFunc"
+f1_keywords:
+- rasdlg/RasPBDlgFunc
 dev_langs:
- - c++
+- c++
 req.header: rasdlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Rasdlg.h
+- Rasdlg.h
 api_name:
- - RasPBDlgFunc
- - RasPBDlgFuncA
- - RasPBDlgFuncW
+- RasPBDlgFunc
+- RasPBDlgFuncA
+- RasPBDlgFuncW
 targetos: Windows
 req.typenames: 
 req.redist: 

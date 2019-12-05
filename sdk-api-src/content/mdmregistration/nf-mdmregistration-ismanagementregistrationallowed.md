@@ -1,19 +1,17 @@
 ---
 UID: NF:mdmregistration.IsManagementRegistrationAllowed
 title: IsManagementRegistrationAllowed function (mdmregistration.h)
-
 description: Checks whether MDM registration is allowed by local policy.
 old-location: mdmreg\ismanagementregistrationallowed.htm
 tech.root: MDMReg
 ms.assetid: 138f567d-4c50-4e13-be10-269eb44f9fe5
-
 ms.date: 12/05/2018
 ms.keywords: IsManagementRegistrationAllowed, IsManagementRegistrationAllowed function [MDM Registration], mdmreg.ismanagementregistrationallowed, mdmregistration/IsManagementRegistrationAllowed
 ms.topic: function
-f1_keywords: 
- - "mdmregistration/IsManagementRegistrationAllowed"
+f1_keywords:
+- mdmregistration/IsManagementRegistrationAllowed
 dev_langs:
- - c++
+- c++
 req.header: mdmregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: MDMRegistration.lib
 req.dll: MDMRegistration.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - MDMRegistration.dll
+- MDMRegistration.dll
 api_name:
- - IsManagementRegistrationAllowed
+- IsManagementRegistrationAllowed
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.DisableAudio
 title: IMSVidCtl::DisableAudio (msvidctl.h)
-
 description: The DisableAudio method disables the audio output device.
 old-location: mstv\imsvidctl_disableaudio.htm
 tech.root: mstv
 ms.assetid: 0166cdc3-de1c-4505-855e-f69144cc71aa
-
 ms.date: 12/05/2018
 ms.keywords: DisableAudio, DisableAudio method [Microsoft TV Technologies], DisableAudio method [Microsoft TV Technologies],IMSVidCtl interface, IMSVidCtl interface [Microsoft TV Technologies],DisableAudio method, IMSVidCtl.DisableAudio, IMSVidCtl::DisableAudio, IMSVidCtlDisableAudio, mstv.imsvidctl_disableaudio, msvidctl/IMSVidCtl::DisableAudio
 ms.topic: method
-f1_keywords: 
- - "msvidctl/IMSVidCtl.DisableAudio"
+f1_keywords:
+- msvidctl/IMSVidCtl.DisableAudio
 dev_langs:
- - c++
+- c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msvidctl.h
+- msvidctl.h
 api_name:
- - IMSVidCtl.DisableAudio
+- IMSVidCtl.DisableAudio
 targetos: Windows
 req.typenames: 
 req.redist: 

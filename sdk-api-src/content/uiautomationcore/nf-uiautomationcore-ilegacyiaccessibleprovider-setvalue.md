@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.SetValue
 title: ILegacyIAccessibleProvider::SetValue (uiautomationcore.h)
-
 description: Sets the string value of the control.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_SetValue.htm
 tech.root: WinAuto
 ms.assetid: ca0901af-8d79-4aed-876f-0d719657ef12
-
 ms.date: 12/05/2018
 ms.keywords: ILegacyIAccessibleProvider interface [Windows Accessibility],SetValue method, ILegacyIAccessibleProvider.SetValue, ILegacyIAccessibleProvider::SetValue, SetValue, SetValue method [Windows Accessibility], SetValue method [Windows Accessibility],ILegacyIAccessibleProvider interface, uiauto.uiauto_ILegacyIAccessibleProvider_SetValue, uiauto_ILegacyIAccessibleProvider_SetValue, uiautomationcore/ILegacyIAccessibleProvider::SetValue, winauto.uiauto_ILegacyIAccessibleProvider_SetValue
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ILegacyIAccessibleProvider.SetValue"
+f1_keywords:
+- uiautomationcore/ILegacyIAccessibleProvider.SetValue
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - ILegacyIAccessibleProvider.SetValue
+- ILegacyIAccessibleProvider.SetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d10_1shader._D3D10_SHADER_DEBUG_VARTYPE
 title: D3D10_SHADER_DEBUG_VARTYPE (d3d10_1shader.h)
-
 description: Distinguishes variables from functions in a scope.
 old-location: direct3d10\d3d10_shader_debug_vartype.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_vartype.htm
-
 ms.date: 12/05/2018
 ms.keywords: D3D10_SHADER_DEBUG_VARTYPE, D3D10_SHADER_DEBUG_VARTYPE enumeration [Direct3D 10], D3D10_SHADER_DEBUG_VAR_FORCE_DWORD, D3D10_SHADER_DEBUG_VAR_FUNCTION, D3D10_SHADER_DEBUG_VAR_VARIABLE, b5386346-ff95-5c6c-abe3-00938e5aa5ea, d3d10_1shader/D3D10_SHADER_DEBUG_VARTYPE, d3d10_1shader/D3D10_SHADER_DEBUG_VAR_FORCE_DWORD, d3d10_1shader/D3D10_SHADER_DEBUG_VAR_FUNCTION, d3d10_1shader/D3D10_SHADER_DEBUG_VAR_VARIABLE, direct3d10.d3d10_shader_debug_vartype
 ms.topic: enum
-f1_keywords: 
- - "d3d10_1shader/D3D10_SHADER_DEBUG_VARTYPE"
+f1_keywords:
+- d3d10_1shader/D3D10_SHADER_DEBUG_VARTYPE
 dev_langs:
- - c++
+- c++
 req.header: d3d10_1shader.h
 req.include-header: D3D10Shader.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d10_1shader.h
+- d3d10_1shader.h
 api_name:
- - D3D10_SHADER_DEBUG_VARTYPE
+- D3D10_SHADER_DEBUG_VARTYPE
 targetos: Windows
 req.typenames: D3D10_SHADER_DEBUG_VARTYPE
 req.redist: 

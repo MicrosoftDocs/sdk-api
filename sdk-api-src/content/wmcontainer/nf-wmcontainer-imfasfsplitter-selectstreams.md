@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFSplitter.SelectStreams
 title: IMFASFSplitter::SelectStreams (wmcontainer.h)
-
 description: Sets the streams to be parsed by the Advanced Systems Format (ASF) splitter.
 old-location: mf\imfasfsplitter_selectstreams.htm
 tech.root: medfound
 ms.assetid: a241f8a4-7609-4a6c-825f-a7b882bfc25f
-
 ms.date: 12/05/2018
 ms.keywords: IMFASFSplitter interface [Media Foundation],SelectStreams method, IMFASFSplitter.SelectStreams, IMFASFSplitter::SelectStreams, SelectStreams, SelectStreams method [Media Foundation], SelectStreams method [Media Foundation],IMFASFSplitter interface, a241f8a4-7609-4a6c-825f-a7b882bfc25f, mf.imfasfsplitter_selectstreams, wmcontainer/IMFASFSplitter::SelectStreams
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFSplitter.SelectStreams"
+f1_keywords:
+- wmcontainer/IMFASFSplitter.SelectStreams
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFSplitter.SelectStreams
+- IMFASFSplitter.SelectStreams
 targetos: Windows
 req.typenames: 
 req.redist: 

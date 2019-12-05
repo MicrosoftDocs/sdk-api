@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.DeletePolicyReader
 title: IAzAuthorizationStore::DeletePolicyReader (azroles.h)
-
 description: Removes the specified security identifier (SID) in text form from the list of principals that act as policy readers.
 old-location: security\azauthorizationstore_deletepolicyreader.htm
 tech.root: SecAuthZ
 ms.assetid: 948732bb-4d29-402b-bb12-02d2b73bc443
-
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],DeletePolicyReader method, DeletePolicyReader, DeletePolicyReader method [Security], DeletePolicyReader method [Security],AzAuthorizationStore object, DeletePolicyReader method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DeletePolicyReader method, IAzAuthorizationStore.DeletePolicyReader, IAzAuthorizationStore::DeletePolicyReader, azroles/IAzAuthorizationStore::DeletePolicyReader, security.azauthorizationstore_deletepolicyreader
 ms.topic: method
-f1_keywords: 
- - "azroles/AzAuthorizationStore.DeletePolicyReader"
+f1_keywords:
+- azroles/AzAuthorizationStore.DeletePolicyReader
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - AzAuthorizationStore.DeletePolicyReader
- - IAzAuthorizationStore.DeletePolicyReader
+- AzAuthorizationStore.DeletePolicyReader
+- IAzAuthorizationStore.DeletePolicyReader
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

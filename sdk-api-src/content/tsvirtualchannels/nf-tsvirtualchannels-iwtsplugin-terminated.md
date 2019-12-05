@@ -1,19 +1,17 @@
 ---
 UID: NF:tsvirtualchannels.IWTSPlugin.Terminated
 title: IWTSPlugin::Terminated (tsvirtualchannels.h)
-
 description: Notifies the plug-in that the Remote Desktop Connection (RDC) client has terminated.
 old-location: termserv\iwtsplugin_terminated.htm
 tech.root: TermServ
 ms.assetid: face8f79-f02d-465f-b716-1fa170fd6a33
-
 ms.date: 12/05/2018
 ms.keywords: IWTSPlugin interface [Remote Desktop Services],Terminated method, IWTSPlugin.Terminated, IWTSPlugin::Terminated, Terminated, Terminated method [Remote Desktop Services], Terminated method [Remote Desktop Services],IWTSPlugin interface, termserv.iwtsplugin_terminated, tsvirtualchannels/IWTSPlugin::Terminated
 ms.topic: method
-f1_keywords: 
- - "tsvirtualchannels/IWTSPlugin.Terminated"
+f1_keywords:
+- tsvirtualchannels/IWTSPlugin.Terminated
 dev_langs:
- - c++
+- c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - TsVirtualChannels.h
+- TsVirtualChannels.h
 api_name:
- - IWTSPlugin.Terminated
+- IWTSPlugin.Terminated
 targetos: Windows
 req.typenames: 
 req.redist: 

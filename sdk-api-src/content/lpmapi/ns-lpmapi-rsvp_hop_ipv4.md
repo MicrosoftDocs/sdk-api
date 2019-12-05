@@ -1,19 +1,17 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_3
 title: Rsvp_Hop_IPv4 (lpmapi.h)
-
 description: The Rsvp_Hop_IPv4 structure stores information about an RSVP-enabled IPv4 hop.
 old-location: qos\rsvp_hop_ipv4.htm
 tech.root: QOS
 ms.assetid: 1a3f3e65-70f8-490c-8724-9e93c7fba457
-
 ms.date: 12/05/2018
 ms.keywords: Rsvp_Hop_IPv4, Rsvp_Hop_IPv4 structure [QOS], lpmapi/Rsvp_Hop_IPv4, qos.rsvp_hop_ipv4
 ms.topic: struct
-f1_keywords: 
- - "lpmapi/Rsvp_Hop_IPv4"
+f1_keywords:
+- lpmapi/Rsvp_Hop_IPv4
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - Rsvp_Hop_IPv4
+- Rsvp_Hop_IPv4
 targetos: Windows
 req.typenames: Rsvp_Hop_IPv4
 req.redist: 

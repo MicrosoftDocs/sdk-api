@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMLicenseRevocationAgent.ProcessLRB
 title: IWMLicenseRevocationAgent::ProcessLRB (wmsdkidl.h)
-
 description: The ProcessLRB method removes licenses from the license store on the client computer.
 old-location: wmformat\iwmlicenserevocationagent_processlrb.htm
 tech.root: wmformat
 ms.assetid: 185611f8-beef-47b8-a9c2-abcda7651a18
-
 ms.date: 12/05/2018
 ms.keywords: IWMLicenseRevocationAgent interface [windows Media Format],ProcessLRB method, IWMLicenseRevocationAgent.ProcessLRB, IWMLicenseRevocationAgent::ProcessLRB, IWMLicenseRevocationAgentProcessLRB, ProcessLRB, ProcessLRB method [windows Media Format], ProcessLRB method [windows Media Format],IWMLicenseRevocationAgent interface, wmformat.iwmlicenserevocationagent_processlrb, wmsdkidl/IWMLicenseRevocationAgent::ProcessLRB
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMLicenseRevocationAgent.ProcessLRB"
+f1_keywords:
+- wmsdkidl/IWMLicenseRevocationAgent.ProcessLRB
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMLicenseRevocationAgent.ProcessLRB
+- IWMLicenseRevocationAgent.ProcessLRB
 targetos: Windows
 req.typenames: 
 req.redist: 

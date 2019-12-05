@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.GetThemeSysBool
 title: GetThemeSysBool function (uxtheme.h)
-
 description: Retrieves the Boolean value of a system metric.
 old-location: controls\GetThemeSysBool.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesysbool.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetThemeSysBool, GetThemeSysBool function [Windows Controls], TMT_FLATMENUS, controls.GetThemeSysBool, controls.inet_GetThemeSysBool, inet_GetThemeSysBool, inet_GetThemeSysBool_cpp, uxtheme/GetThemeSysBool
 ms.topic: function
-f1_keywords: 
- - "uxtheme/GetThemeSysBool"
+f1_keywords:
+- uxtheme/GetThemeSysBool
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
+- UxTheme.dll
 api_name:
- - GetThemeSysBool
+- GetThemeSysBool
 targetos: Windows
 req.typenames: 
 req.redist: 

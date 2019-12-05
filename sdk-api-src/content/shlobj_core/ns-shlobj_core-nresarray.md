@@ -1,19 +1,17 @@
 ---
 UID: NS:shlobj_core._NRESARRAY
 title: NRESARRAY (shlobj_core.h)
-
 description: Defines the CF_NETRESOURCE clipboard format.
 old-location: shell\NRESARRAY.htm
 tech.root: shell
 ms.assetid: 261338c2-8fb4-4d10-8392-f9f6254a30ed
-
 ms.date: 12/05/2018
-ms.keywords: "*LPNRESARRAY, LPNRESARRAY, LPNRESARRAY structure pointer [Windows Shell], NRESARRAY, NRESARRAY structure [Windows Shell], _NRESARRAY, _win32_NRESARRAY, shell.NRESARRAY, shlobj_core/LPNRESARRAY, shlobj_core/NRESARRAY"
+ms.keywords: '*LPNRESARRAY, LPNRESARRAY, LPNRESARRAY structure pointer [Windows Shell], NRESARRAY, NRESARRAY structure [Windows Shell], _NRESARRAY, _win32_NRESARRAY, shell.NRESARRAY, shlobj_core/LPNRESARRAY, shlobj_core/NRESARRAY'
 ms.topic: struct
-f1_keywords: 
- - "shlobj_core/NRESARRAY"
+f1_keywords:
+- shlobj_core/NRESARRAY
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - NRESARRAY
+- NRESARRAY
 targetos: Windows
 req.typenames: NRESARRAY, *LPNRESARRAY
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.IMaintenanceSettings
 title: IMaintenanceSettings (taskschd.h)
-
 description: Provides the settings that the Task Scheduler uses to perform task during Automatic maintenance.
 old-location: taskschd\imaintenancesettings.htm
 tech.root: taskschd
 ms.assetid: 5AB172CA-66BF-47B8-952A-9CBA13A20668
-
 ms.date: 12/05/2018
 ms.keywords: IMaintenanceSettings, IMaintenanceSettings interface [Task Scheduler], IMaintenanceSettings interface [Task Scheduler],described, taskschd.imaintenancesettings, taskschd/IMaintenanceSettings
 ms.topic: interface
-f1_keywords: 
- - "taskschd/IMaintenanceSettings"
+f1_keywords:
+- taskschd/IMaintenanceSettings
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.h
+- taskschd.h
 api_name:
- - IMaintenanceSettings
+- IMaintenanceSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcServerTestCancel
 title: RpcServerTestCancel function (rpcdce.h)
-
 description: The server calls RpcServerTestCancel to test for client cancel requests.
 old-location: rpc\rpcservertestcancel.htm
 tech.root: Rpc
 ms.assetid: de4b45a8-0516-4185-a342-364e0f5a633e
-
 ms.date: 12/05/2018
 ms.keywords: RpcServerTestCancel, RpcServerTestCancel function [RPC], _rpc_rpcservertestcancel, rpc.rpcservertestcancel, rpcdce/RpcServerTestCancel
 ms.topic: function
 f1_keywords:
 - rpcdce/RpcServerTestCancel
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMU555.XMU555(const uint8_t,bool)
 title: XMU555::XMU555(const uint8_t,bool) (directxpackedvector.h)
-
 description: Initializes a new instance of XMU555 from a three element int8_t array and one bool argument.
 old-location: 
 tech.root: dxmath
 ms.assetid: 6b7e7e6c-93af-4990-9ff9-2b072e88b48b
-
 ms.date: 05/06/2019
 ms.keywords: XMU555, XMU555 constructor [DirectX Math Support APIs], XMU555 constructor [DirectX Math Support APIs],XMU555 structure, XMU555 structure [DirectX Math Support APIs],XMU555 constructor, XMU555.XMU555, XMU555.XMU555(), XMU555.XMU555(const uint8_t,bool), XMU555::XMU555, XMU555::XMU555(const uint8_t,bool), dxmath.xmu555_ctor_1
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMU555.XMU555"
+f1_keywords:
+- directxpackedvector/XMU555.XMU555
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMU555.XMU555
+- XMU555.XMU555
 targetos: Windows
 req.typenames: 
 req.redist: 

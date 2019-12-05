@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillRegion
 title: Graphics::FillRegion (gdiplusgraphics.h)
-
 description: The Graphics::FillRegion method uses a brush to fill a specified region.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FillRegion_brush_region_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\fillregion.htm
-
 ms.date: 12/05/2018
 ms.keywords: FillRegion, FillRegion method [GDI+], FillRegion method [GDI+],Graphics class, Graphics class [GDI+],FillRegion method, Graphics.FillRegion, Graphics::FillRegion, _gdiplus_CLASS_Graphics_FillRegion_brush_region_, gdiplus._gdiplus_CLASS_Graphics_FillRegion_brush_region_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.FillRegion"
+f1_keywords:
+- gdiplusgraphics/Graphics.FillRegion
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.FillRegion
+- Graphics.FillRegion
 targetos: Windows
 req.typenames: 
 req.redist: 

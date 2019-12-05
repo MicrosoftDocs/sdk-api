@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPCore.get_closedCaption
 title: IWMPCore::get_closedCaption (wmp.h)
-
 description: The get_closedCaption method retrieves a pointer to an IWMPClosedCaption interface.
 old-location: wmp\iwmpcore_get_closedcaption.htm
 tech.root: WMP
 ms.assetid: 7f170430-2ce4-490b-9163-f39221a8db5c
-
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_closedCaption method, IWMPCore.get_closedCaption, IWMPCore::get_closedCaption, IWMPCoreget_closedCaption, get_closedCaption, get_closedCaption method [Windows Media Player], get_closedCaption method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_closedcaption, wmp/IWMPCore::get_closedCaption
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPCore.get_closedCaption"
+f1_keywords:
+- wmp/IWMPCore.get_closedCaption
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPCore.get_closedCaption
+- IWMPCore.get_closedCaption
 targetos: Windows
 req.typenames: 
 req.redist: 

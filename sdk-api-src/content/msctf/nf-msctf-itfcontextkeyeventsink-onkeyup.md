@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfContextKeyEventSink.OnKeyUp
 title: ITfContextKeyEventSink::OnKeyUp (msctf.h)
-
 description: ITfContextKeyEventSink::OnKeyUp method
 old-location: tsf\itfcontextkeyeventsink_onkeyup.htm
 tech.root: TSF
 ms.assetid: ed0c6e14-d216-425c-a194-08e8ea85bb92
-
 ms.date: 12/05/2018
 ms.keywords: ITfContextKeyEventSink interface [Text Services Framework],OnKeyUp method, ITfContextKeyEventSink.OnKeyUp, ITfContextKeyEventSink::OnKeyUp, OnKeyUp, OnKeyUp method [Text Services Framework], OnKeyUp method [Text Services Framework],ITfContextKeyEventSink interface, _tsf_itfcontextkeyeventsink_onkeyup_ref, msctf/ITfContextKeyEventSink::OnKeyUp, tsf.itfcontextkeyeventsink_onkeyup
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfContextKeyEventSink.OnKeyUp"
+f1_keywords:
+- msctf/ITfContextKeyEventSink.OnKeyUp
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mscandui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mscandui.dll
+- mscandui.dll
 api_name:
- - ITfContextKeyEventSink.OnKeyUp
+- ITfContextKeyEventSink.OnKeyUp
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

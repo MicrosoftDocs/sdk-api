@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.SetItemPos
 title: IShellFolderView::SetItemPos (shlobj_core.h)
-
 description: Sets the position of the given item.
 old-location: shell\IShellFolderView_SetItemPos.htm
 tech.root: shell
 ms.assetid: d905260c-fa68-4b39-9c94-a74e1ac71b95
-
 ms.date: 12/05/2018
 ms.keywords: IShellFolderView interface [Windows Shell],SetItemPos method, IShellFolderView.SetItemPos, IShellFolderView::SetItemPos, SetItemPos, SetItemPos method [Windows Shell], SetItemPos method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_SetItemPos, shell.IShellFolderView_SetItemPos, shlobj_core/IShellFolderView::SetItemPos
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IShellFolderView.SetItemPos"
+f1_keywords:
+- shlobj_core/IShellFolderView.SetItemPos
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - IShellFolderView.SetItemPos
+- IShellFolderView.SetItemPos
 targetos: Windows
 req.typenames: 
 req.redist: 

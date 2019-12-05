@@ -1,19 +1,17 @@
 ---
 UID: NN:spatialaudiometadata.ISpatialAudioObjectRenderStreamForMetadata
 title: ISpatialAudioObjectRenderStreamForMetadata (spatialaudiometadata.h)
-
 description: Provides methods for controlling a spatial audio object render stream for metadata, including starting, stopping, and resetting the stream.
 old-location: coreaudio\ispatialaudioobjectrenderstreamformetadata.htm
 tech.root: CoreAudio
 ms.assetid: 1623B280-FC12-4C19-9D4A-D8463D1A1046
-
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectRenderStreamForMetadata, ISpatialAudioObjectRenderStreamForMetadata interface [Core Audio], ISpatialAudioObjectRenderStreamForMetadata interface [Core Audio],described, coreaudio.ispatialaudioobjectrenderstreamformetadata, spatialaudiometadata/ISpatialAudioObjectRenderStreamForMetadata
 ms.topic: interface
-f1_keywords: 
- - "spatialaudiometadata/ISpatialAudioObjectRenderStreamForMetadata"
+f1_keywords:
+- spatialaudiometadata/ISpatialAudioObjectRenderStreamForMetadata
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SpatialAudioMetadata.h
+- SpatialAudioMetadata.h
 api_name:
- - ISpatialAudioObjectRenderStreamForMetadata
+- ISpatialAudioObjectRenderStreamForMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 

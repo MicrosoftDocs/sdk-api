@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ISharedPropertyGroup.CreatePropertyByPosition
 title: ISharedPropertyGroup::CreatePropertyByPosition (comsvcs.h)
-
 description: Creates a new shared property with the specified index.
 old-location: cos\isharedpropertygroup_createpropertybyposition.htm
 tech.root: cossdk
 ms.assetid: 47e0e230-0952-4afb-a757-af387a7cddfb
-
 ms.date: 12/05/2018
 ms.keywords: CreatePropertyByPosition, CreatePropertyByPosition method [COM+], CreatePropertyByPosition method [COM+],ISharedPropertyGroup interface, ISharedPropertyGroup interface [COM+],CreatePropertyByPosition method, ISharedPropertyGroup.CreatePropertyByPosition, ISharedPropertyGroup::CreatePropertyByPosition, _cos_ISharedPropertyGroup_CreatePropertyByPosition, comsvcs/ISharedPropertyGroup::CreatePropertyByPosition, cos.isharedpropertygroup_createpropertybyposition
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ISharedPropertyGroup.CreatePropertyByPosition"
+f1_keywords:
+- comsvcs/ISharedPropertyGroup.CreatePropertyByPosition
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISharedPropertyGroup.CreatePropertyByPosition
+- ISharedPropertyGroup.CreatePropertyByPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

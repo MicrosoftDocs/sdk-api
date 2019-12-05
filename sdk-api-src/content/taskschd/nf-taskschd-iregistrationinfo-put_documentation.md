@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.put_Documentation
 title: IRegistrationInfo::put_Documentation (taskschd.h)
-
 description: Gets or sets any additional documentation for the task.
 old-location: taskschd\iregistrationinfo_documentation.htm
 tech.root: taskschd
 ms.assetid: ec12b0aa-def4-4ff3-b067-62f989c890d5
-
 ms.date: 12/05/2018
 ms.keywords: Documentation property [Task Scheduler], Documentation property [Task Scheduler],IRegistrationInfo interface, IRegistrationInfo interface [Task Scheduler],Documentation property, IRegistrationInfo.Documentation, IRegistrationInfo.put_Documentation, IRegistrationInfo::Documentation, IRegistrationInfo::get_Documentation, IRegistrationInfo::put_Documentation, put_Documentation, taskschd.iregistrationinfo_documentation, taskschd/IRegistrationInfo::Documentation, taskschd/IRegistrationInfo::get_Documentation, taskschd/IRegistrationInfo::put_Documentation
 ms.topic: method
-f1_keywords: 
- - "taskschd/IRegistrationInfo.Documentation"
+f1_keywords:
+- taskschd/IRegistrationInfo.Documentation
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRegistrationInfo.Documentation
- - IRegistrationInfo.get_Documentation
- - IRegistrationInfo.put_Documentation
+- IRegistrationInfo.Documentation
+- IRegistrationInfo.get_Documentation
+- IRegistrationInfo.put_Documentation
 targetos: Windows
 req.typenames: 
 req.redist: 

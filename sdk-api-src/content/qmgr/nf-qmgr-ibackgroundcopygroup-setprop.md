@@ -1,19 +1,17 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.SetProp
 title: IBackgroundCopyGroup::SetProp (qmgr.h)
-
 description: Use the SetProp method to set the property value for a group property.
 old-location: bits\ibackgroundcopygroup_setprop.htm
 tech.root: Bits
 ms.assetid: 057a1004-fbe6-4c90-84c0-4e5b55539ce9
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyGroup interface [BITS],SetProp method, IBackgroundCopyGroup.SetProp, IBackgroundCopyGroup::SetProp, SetProp, SetProp method [BITS], SetProp method [BITS],IBackgroundCopyGroup interface, bits.ibackgroundcopygroup_setprop, qmgr/IBackgroundCopyGroup::SetProp
 ms.topic: method
-f1_keywords: 
- - "qmgr/IBackgroundCopyGroup.SetProp"
+f1_keywords:
+- qmgr/IBackgroundCopyGroup.SetProp
 dev_langs:
- - c++
+- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyGroup.SetProp
+- IBackgroundCopyGroup.SetProp
 targetos: Windows
 req.typenames: 
 req.redist: 

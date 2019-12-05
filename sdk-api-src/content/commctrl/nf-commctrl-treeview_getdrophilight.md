@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_GetDropHilight
 title: TreeView_GetDropHilight macro (commctrl.h)
-
 description: Retrieves the tree-view item that is the target of a drag-and-drop operation. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_DROPHILITE flag.
 old-location: controls\TreeView_GetDropHilight.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getdrophilight.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetDropHilight, TreeView_GetDropHilight macro [Windows Controls], _win32_TreeView_GetDropHilight, _win32_TreeView_GetDropHilight_cpp, commctrl/TreeView_GetDropHilight, controls.TreeView_GetDropHilight, controls._win32_TreeView_GetDropHilight
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_GetDropHilight"
+f1_keywords:
+- commctrl/TreeView_GetDropHilight
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_GetDropHilight
+- TreeView_GetDropHilight
 targetos: Windows
 req.typenames: 
 req.redist: 

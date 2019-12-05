@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcMgmtInqComTimeout
 title: RpcMgmtInqComTimeout function (rpcdce.h)
-
 description: The RpcMgmtInqComTimeout function returns the binding-communications time-out value in a binding handle.
 old-location: rpc\rpcmgmtinqcomtimeout.htm
 tech.root: Rpc
 ms.assetid: e7bb9955-68a7-49fe-bcdb-2450518ffe0a
-
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtInqComTimeout, RpcMgmtInqComTimeout function [RPC], _rpc_rpcmgmtinqcomtimeout, rpc.rpcmgmtinqcomtimeout, rpcdce/RpcMgmtInqComTimeout
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcMgmtInqComTimeout"
+f1_keywords:
+- rpcdce/RpcMgmtInqComTimeout
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcMgmtInqComTimeout
+- RpcMgmtInqComTimeout
 targetos: Windows
 req.typenames: 
 req.redist: 

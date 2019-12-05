@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.SetLiveSource
 title: IWMWriterAdvanced::SetLiveSource (wmsdkidl.h)
-
 description: The SetLiveSource method sets a flag indicating whether the source is live.
 old-location: wmformat\iwmwriteradvanced_setlivesource.htm
 tech.root: wmformat
 ms.assetid: ab015f92-498e-44c7-95c9-869dfdfccc09
-
 ms.date: 12/05/2018
 ms.keywords: IWMWriterAdvanced interface [windows Media Format],SetLiveSource method, IWMWriterAdvanced.SetLiveSource, IWMWriterAdvanced::SetLiveSource, IWMWriterAdvancedSetLiveSource, SetLiveSource, SetLiveSource method [windows Media Format], SetLiveSource method [windows Media Format],IWMWriterAdvanced interface, wmformat.iwmwriteradvanced_setlivesource, wmsdkidl/IWMWriterAdvanced::SetLiveSource
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterAdvanced.SetLiveSource"
+f1_keywords:
+- wmsdkidl/IWMWriterAdvanced.SetLiveSource
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterAdvanced.SetLiveSource
+- IWMWriterAdvanced.SetLiveSource
 targetos: Windows
 req.typenames: 
 req.redist: 

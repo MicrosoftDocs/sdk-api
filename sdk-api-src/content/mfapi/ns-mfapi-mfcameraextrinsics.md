@@ -1,19 +1,17 @@
 ---
 UID: NS:mfapi._MFCameraExtrinsics
 title: MFCameraExtrinsics (mfapi.h)
-
 description: Describes the location of a camera relative to other cameras or an established external reference.
 old-location: mf\mfcameraextrinsics.htm
 tech.root: medfound
 ms.assetid: F29615EE-0B2C-4066-8A6B-67457D46028C
-
 ms.date: 12/05/2018
 ms.keywords: MFCameraExtrinsics, MFCameraExtrinsics structure [Media Foundation], PMFCameraExtrinsics, PMFCameraExtrinsics structure pointer [Media Foundation], mf.mfcameraextrinsics, mfapi/MFCameraExtrinsics, mfapi/PMFCameraExtrinsics
 ms.topic: struct
-f1_keywords: 
- - "mfapi/MFCameraExtrinsics"
+f1_keywords:
+- mfapi/MFCameraExtrinsics
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfapi.h
+- mfapi.h
 api_name:
- - MFCameraExtrinsics
+- MFCameraExtrinsics
 targetos: Windows
 req.typenames: MFCameraExtrinsics
 req.redist: 

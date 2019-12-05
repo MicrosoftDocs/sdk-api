@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetPageDimensions
 title: IXpsOMPage::GetPageDimensions (xpsobjectmodel.h)
-
 description: Gets the page dimensions.
 old-location: xps\ixpsompage_getpagedimensions.htm
 tech.root: printdocs
 ms.assetid: 24a81c7a-f048-4347-8023-96ed85bec2a1
-
 ms.date: 12/05/2018
 ms.keywords: GetPageDimensions, GetPageDimensions method [XPS Documents and Packaging], GetPageDimensions method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetPageDimensions method, IXpsOMPage.GetPageDimensions, IXpsOMPage::GetPageDimensions, xps.ixpsompage_getpagedimensions, xpsobjectmodel/IXpsOMPage::GetPageDimensions
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPage.GetPageDimensions"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPage.GetPageDimensions
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPage.GetPageDimensions
+- IXpsOMPage.GetPageDimensions
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2.get_SupportedMediaTypes
 title: IDiscFormat2::get_SupportedMediaTypes (imapi2.h)
-
 description: Retrieves the media types that are supported by the current implementation of the IDiscFormat2 interface.
 old-location: imapi\idiscformat2_get_supportedmediatypes.htm
 tech.root: imapi
 ms.assetid: 281eacb5-f991-4d3f-95bb-6c2469d67a5c
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2 interface [IMAPI],get_SupportedMediaTypes method, IDiscFormat2.get_SupportedMediaTypes, IDiscFormat2::get_SupportedMediaTypes, get_SupportedMediaTypes, get_SupportedMediaTypes method [IMAPI], get_SupportedMediaTypes method [IMAPI],IDiscFormat2 interface, imapi.idiscformat2_get_supportedmediatypes, imapi2/IDiscFormat2::get_SupportedMediaTypes
 ms.topic: method
 f1_keywords:
 - imapi2/IDiscFormat2.get_SupportedMediaTypes
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

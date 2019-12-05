@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.UrlEscapeSpaces
 title: UrlEscapeSpaces macro (shlwapi.h)
-
 description: A macro that converts space characters into their corresponding escape sequence.
 old-location: shell\UrlEscapeSpaces.htm
 tech.root: shell
 ms.assetid: d6d676f1-0ef3-4701-99b2-ca520b39ce6e
-
 ms.date: 12/05/2018
 ms.keywords: UrlEscapeSpaces, UrlEscapeSpaces function [Windows Shell], _win32_UrlEscapeSpaces, shell.UrlEscapeSpaces, shlwapi/UrlEscapeSpaces
 ms.topic: macro
-f1_keywords: 
- - "shlwapi/UrlEscapeSpaces"
+f1_keywords:
+- shlwapi/UrlEscapeSpaces
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
+- Shlwapi.dll
 api_name:
- - UrlEscapeSpaces
+- UrlEscapeSpaces
 targetos: Windows
 req.typenames: 
 req.redist: 

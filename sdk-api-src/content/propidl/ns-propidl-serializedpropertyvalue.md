@@ -1,19 +1,17 @@
 ---
 UID: NS:propidl.tagSERIALIZEDPROPERTYVALUE
 title: SERIALIZEDPROPERTYVALUE (propidl.h)
-
 description: A range of memory of arbitrary type that represents a serialized PROPVARIANT structure.
 old-location: shell\SERIALIZEDPROPERTYVALUE.htm
 tech.root: shell
 ms.assetid: ab64a16e-624d-427a-8f9c-5c8c4a9df625
-
 ms.date: 12/05/2018
 ms.keywords: SERIALIZEDPROPERTYVALUE, SERIALIZEDPROPERTYVALUE structure [Windows Shell], _shell_SERIALIZEDPROPERTYVALUE, propidl/SERIALIZEDPROPERTYVALUE, shell.SERIALIZEDPROPERTYVALUE
 ms.topic: struct
-f1_keywords: 
- - "propidl/SERIALIZEDPROPERTYVALUE"
+f1_keywords:
+- propidl/SERIALIZEDPROPERTYVALUE
 dev_langs:
- - c++
+- c++
 req.header: propidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Propidl.h
+- Propidl.h
 api_name:
- - SERIALIZEDPROPERTYVALUE
+- SERIALIZEDPROPERTYVALUE
 targetos: Windows
 req.typenames: SERIALIZEDPROPERTYVALUE
 req.redist: 

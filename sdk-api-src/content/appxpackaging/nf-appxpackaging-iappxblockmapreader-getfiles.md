@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapReader.GetFiles
 title: IAppxBlockMapReader::GetFiles (appxpackaging.h)
-
 description: Retrieves an enumerator for traversing the files listed in the block map.
 old-location: appxpkg\iappxblockmapreader_getfiles.htm
 tech.root: appxpkg
 ms.assetid: 7E46C555-8C61-4F26-9732-07E0DEEAF66F
-
 ms.date: 12/05/2018
 ms.keywords: GetFiles, GetFiles method [App packaging and management], GetFiles method [App packaging and management],IAppxBlockMapReader interface, IAppxBlockMapReader interface [App packaging and management],GetFiles method, IAppxBlockMapReader.GetFiles, IAppxBlockMapReader::GetFiles, appxpackaging/IAppxBlockMapReader::GetFiles, appxpkg.iappxblockmapreader_getfiles
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxBlockMapReader.GetFiles"
+f1_keywords:
+- appxpackaging/IAppxBlockMapReader.GetFiles
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBlockMapReader.GetFiles
+- IAppxBlockMapReader.GetFiles
 targetos: Windows
 req.typenames: 
 req.redist: 

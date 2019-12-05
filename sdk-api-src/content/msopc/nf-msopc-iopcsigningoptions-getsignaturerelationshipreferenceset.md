@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetSignatureRelationshipReferenceSet
 title: IOpcSigningOptions::GetSignatureRelationshipReferenceSet (msopc.h)
-
 description: Gets an IOpcSignatureRelationshipReferenceSet interface pointer.
 old-location: opc\iopcsigningoptions_getsignaturerelationshipreferenceset.htm
 tech.root: OPC
 ms.assetid: f89327d2-63ff-4b14-bde0-8fdf65f73e37
-
 ms.date: 12/05/2018
 ms.keywords: GetSignatureRelationshipReferenceSet, GetSignatureRelationshipReferenceSet method [Open Packaging Conventions], GetSignatureRelationshipReferenceSet method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetSignatureRelationshipReferenceSet method, IOpcSigningOptions.GetSignatureRelationshipReferenceSet, IOpcSigningOptions::GetSignatureRelationshipReferenceSet, msopc/IOpcSigningOptions::GetSignatureRelationshipReferenceSet, opc.iopcsigningoptions_getsignaturerelationshipreferenceset
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSigningOptions.GetSignatureRelationshipReferenceSet"
+f1_keywords:
+- msopc/IOpcSigningOptions.GetSignatureRelationshipReferenceSet
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSigningOptions.GetSignatureRelationshipReferenceSet
+- IOpcSigningOptions.GetSignatureRelationshipReferenceSet
 targetos: Windows
 req.typenames: 
 req.redist: 

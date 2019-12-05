@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptEncodeObject
 title: CryptEncodeObject function (wincrypt.h)
-
 description: The CryptEncodeObject function encodes a structure of the type indicated by the value of the lpszStructType parameter. The use of CryptEncodeObjectEx is recommended as an API that performs the same function with significant performance improvements.
 old-location: security\cryptencodeobject.htm
 tech.root: SecCrypto
 ms.assetid: 9576a2a7-4379-4c1b-8ad5-284720cf7ccc
-
 ms.date: 12/05/2018
 ms.keywords: CryptEncodeObject, CryptEncodeObject function [Security], _crypto2_cryptencodeobject, security.cryptencodeobject, wincrypt/CryptEncodeObject
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptEncodeObject"
+f1_keywords:
+- wincrypt/CryptEncodeObject
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptEncodeObject
+- CryptEncodeObject
 targetos: Windows
 req.typenames: 
 req.redist: 

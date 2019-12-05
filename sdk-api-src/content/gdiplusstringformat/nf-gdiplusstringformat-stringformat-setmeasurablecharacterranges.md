@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.SetMeasurableCharacterRanges
 title: StringFormat::SetMeasurableCharacterRanges (gdiplusstringformat.h)
-
 description: The StringFormat::SetMeasurableCharacterRanges method sets a series of character ranges for this StringFormat object that, when in a string, can be measured by the MeasureCharacterRanges method.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_SetMeasurableCharacterRanges_rangeCount_ranges_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\setmeasurablecharacterranges.htm
-
 ms.date: 12/05/2018
 ms.keywords: SetMeasurableCharacterRanges, SetMeasurableCharacterRanges method [GDI+], SetMeasurableCharacterRanges method [GDI+],StringFormat class, StringFormat class [GDI+],SetMeasurableCharacterRanges method, StringFormat.SetMeasurableCharacterRanges, StringFormat::SetMeasurableCharacterRanges, _gdiplus_CLASS_StringFormat_SetMeasurableCharacterRanges_rangeCount_ranges_, gdiplus._gdiplus_CLASS_StringFormat_SetMeasurableCharacterRanges_rangeCount_ranges_
 ms.topic: method
-f1_keywords: 
- - "gdiplusstringformat/StringFormat.SetMeasurableCharacterRanges"
+f1_keywords:
+- gdiplusstringformat/StringFormat.SetMeasurableCharacterRanges
 dev_langs:
- - c++
+- c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - StringFormat.SetMeasurableCharacterRanges
+- StringFormat.SetMeasurableCharacterRanges
 targetos: Windows
 req.typenames: 
 req.redist: 

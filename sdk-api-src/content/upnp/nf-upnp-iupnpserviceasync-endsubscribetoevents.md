@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPServiceAsync.EndSubscribeToEvents
 title: IUPnPServiceAsync::EndSubscribeToEvents (upnp.h)
-
 description: EndSubscribeToEvents method retrieves the results of a previous BeginSubscribeToEvents operation.
 old-location: upnp\iupnpserviceasync_endsubscribetoevents.htm
 tech.root: upnp
 ms.assetid: A0C0D01C-3A05-4498-9235-CBBF7D5D558F
-
 ms.date: 12/05/2018
 ms.keywords: EndSubscribeToEvents, EndSubscribeToEvents method [UPnP APIs], EndSubscribeToEvents method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],EndSubscribeToEvents method, IUPnPServiceAsync.EndSubscribeToEvents, IUPnPServiceAsync::EndSubscribeToEvents, upnp.iupnpserviceasync_endsubscribetoevents, upnp/IUPnPServiceAsync::EndSubscribeToEvents
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPServiceAsync.EndSubscribeToEvents"
+f1_keywords:
+- upnp/IUPnPServiceAsync.EndSubscribeToEvents
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPServiceAsync.EndSubscribeToEvents
+- IUPnPServiceAsync.EndSubscribeToEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

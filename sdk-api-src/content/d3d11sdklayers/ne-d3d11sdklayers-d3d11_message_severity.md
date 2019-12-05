@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11sdklayers.D3D11_MESSAGE_SEVERITY
 title: D3D11_MESSAGE_SEVERITY (d3d11sdklayers.h)
-
 description: Debug message severity levels for an information queue.
 old-location: direct3d11\d3d11_message_severity.htm
 tech.root: direct3d11
 ms.assetid: 63143187-8e16-4ba4-aec5-8530ed31accb
-
 ms.date: 12/05/2018
 ms.keywords: 5817bf39-bfcb-e96c-175e-08c952303b59, D3D11_MESSAGE_SEVERITY, D3D11_MESSAGE_SEVERITY enumeration [Direct3D 11], D3D11_MESSAGE_SEVERITY_CORRUPTION, D3D11_MESSAGE_SEVERITY_ERROR, D3D11_MESSAGE_SEVERITY_INFO, D3D11_MESSAGE_SEVERITY_MESSAGE, D3D11_MESSAGE_SEVERITY_WARNING, d3d11sdklayers/D3D11_MESSAGE_SEVERITY, d3d11sdklayers/D3D11_MESSAGE_SEVERITY_CORRUPTION, d3d11sdklayers/D3D11_MESSAGE_SEVERITY_ERROR, d3d11sdklayers/D3D11_MESSAGE_SEVERITY_INFO, d3d11sdklayers/D3D11_MESSAGE_SEVERITY_MESSAGE, d3d11sdklayers/D3D11_MESSAGE_SEVERITY_WARNING, direct3d11.d3d11_message_severity
 ms.topic: enum
-f1_keywords: 
- - "d3d11sdklayers/D3D11_MESSAGE_SEVERITY"
+f1_keywords:
+- d3d11sdklayers/D3D11_MESSAGE_SEVERITY
 dev_langs:
- - c++
+- c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11SDKLayers.h
+- D3D11SDKLayers.h
 api_name:
- - D3D11_MESSAGE_SEVERITY
+- D3D11_MESSAGE_SEVERITY
 targetos: Windows
 req.typenames: D3D11_MESSAGE_SEVERITY
 req.redist: 

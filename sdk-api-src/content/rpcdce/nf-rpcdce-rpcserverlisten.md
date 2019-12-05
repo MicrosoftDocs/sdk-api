@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcServerListen
 title: RpcServerListen function (rpcdce.h)
-
 description: The RpcServerListen function signals the RPC run-time library to listen for remote procedure calls. This function will not affect auto-listen interfaces; use RpcServerRegisterIfEx if you need that functionality.
 old-location: rpc\rpcserverlisten.htm
 tech.root: Rpc
 ms.assetid: 430561b2-c74b-423c-8448-339cc71dbd68
-
 ms.date: 12/05/2018
 ms.keywords: RpcServerListen, RpcServerListen function [RPC], _rpc_rpcserverlisten, rpc.rpcserverlisten, rpcdce/RpcServerListen
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcServerListen"
+f1_keywords:
+- rpcdce/RpcServerListen
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcServerListen
+- RpcServerListen
 targetos: Windows
 req.typenames: 
 req.redist: 

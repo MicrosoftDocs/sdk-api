@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzScope.get_Tasks
 title: IAzScope::get_Tasks (azroles.h)
-
 description: Retrieves an IAzTasks object that is used to enumerate IAzTask objects from the policy data.
 old-location: security\iazscope_tasks.htm
 tech.root: SecAuthZ
 ms.assetid: 4b8a5280-570d-46eb-a6cb-2723cde3eb15
-
 ms.date: 12/05/2018
 ms.keywords: AzScope object [Security],Tasks property, IAzScope interface [Security],Tasks property, IAzScope.Tasks, IAzScope.get_Tasks, IAzScope::Tasks, IAzScope::get_Tasks, Tasks property [Security], Tasks property [Security],AzScope object, Tasks property [Security],IAzScope interface, azroles/IAzScope::Tasks, azroles/IAzScope::get_Tasks, get_Tasks, security.iazscope_tasks
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzScope.Tasks"
+f1_keywords:
+- azroles/IAzScope.Tasks
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzScope.Tasks
- - IAzScope.get_Tasks
- - AzScope.Tasks
+- IAzScope.Tasks
+- IAzScope.get_Tasks
+- AzScope.Tasks
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

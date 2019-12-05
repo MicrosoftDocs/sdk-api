@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_DRMService.SetDRM
 title: IBDA_DRMService::SetDRM (bdaiface.h)
-
 description: Activates a digital rights management (DRM) system on the media transform device (MTD).
 old-location: mstv\ibda_drmservice_setdrm.htm
 tech.root: mstv
 ms.assetid: 89da348f-c79c-4c77-8270-51a71b0a1a89
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_DRMService interface [Microsoft TV Technologies],SetDRM method, IBDA_DRMService.SetDRM, IBDA_DRMService::SetDRM, SetDRM, SetDRM method [Microsoft TV Technologies], SetDRM method [Microsoft TV Technologies],IBDA_DRMService interface, bdaiface/IBDA_DRMService::SetDRM, mstv.ibda_drmservice_setdrm
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_DRMService.SetDRM"
+f1_keywords:
+- bdaiface/IBDA_DRMService.SetDRM
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_DRMService.SetDRM
+- IBDA_DRMService.SetDRM
 targetos: Windows
 req.typenames: 
 req.redist: 

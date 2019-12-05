@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngLoadModule
 title: EngLoadModule function (winddi.h)
-
 description: The EngLoadModule function loads the specified data module into system memory for reading.
 old-location: display\engloadmodule.htm
 tech.root: display
 ms.assetid: 0327d3f0-f9ee-4715-aa0e-ad1d0544a1ff
-
 ms.date: 12/05/2018
 ms.keywords: EngLoadModule, EngLoadModule function [Display Devices], display.engloadmodule, gdifncs_43b05b8f-ecc9-4097-81d3-39716dabaf2f.xml, winddi/EngLoadModule
 ms.topic: function
-f1_keywords: 
- - "winddi/EngLoadModule"
+f1_keywords:
+- winddi/EngLoadModule
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,17 +30,17 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Win32k.sys
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - EngLoadModule
+- EngLoadModule
 targetos: Windows
 req.typenames: 
 req.redist: 

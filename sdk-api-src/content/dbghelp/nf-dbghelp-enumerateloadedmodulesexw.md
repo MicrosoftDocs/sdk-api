@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.EnumerateLoadedModulesExW
 title: EnumerateLoadedModulesExW function (dbghelp.h)
-
 description: Enumerates the loaded modules for the specified process.
 old-location: base\enumerateloadedmodulesex.htm
 tech.root: Debug
 ms.assetid: 4d3d7460-7a84-4d8b-8cea-c6773beac237
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateLoadedModulesEx, EnumerateLoadedModulesEx function, EnumerateLoadedModulesExW, base.enumerateloadedmodulesex, dbghelp/EnumerateLoadedModulesEx, dbghelp/EnumerateLoadedModulesExW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/EnumerateLoadedModulesEx"
+f1_keywords:
+- dbghelp/EnumerateLoadedModulesEx
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - EnumerateLoadedModulesEx
- - EnumerateLoadedModulesEx
- - EnumerateLoadedModulesExW
+- EnumerateLoadedModulesEx
+- EnumerateLoadedModulesEx
+- EnumerateLoadedModulesExW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.8 or later

@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfLangBarItem.GetStatus
 title: ITfLangBarItem::GetStatus (ctfutb.h)
-
 description: ITfLangBarItem::GetStatus method
 old-location: tsf\itflangbaritem_getstatus.htm
 tech.root: TSF
 ms.assetid: 2f850553-ec79-4e2f-a4d5-c40dbaca0f01
-
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [Text Services Framework], GetStatus method [Text Services Framework],ITfLangBarItem interface, ITfLangBarItem interface [Text Services Framework],GetStatus method, ITfLangBarItem.GetStatus, ITfLangBarItem::GetStatus, _tsf_itflangbaritem_getstatus_ref, ctfutb/ITfLangBarItem::GetStatus, tsf.itflangbaritem_getstatus
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfLangBarItem.GetStatus"
+f1_keywords:
+- ctfutb/ITfLangBarItem.GetStatus
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfLangBarItem.GetStatus
+- ITfLangBarItem.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

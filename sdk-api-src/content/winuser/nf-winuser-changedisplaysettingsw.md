@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.ChangeDisplaySettingsW
 title: ChangeDisplaySettingsW function (winuser.h)
-
 description: The ChangeDisplaySettings function changes the settings of the default display device to the specified graphics mode.
 old-location: gdi\changedisplaysettings.htm
 tech.root: gdi
 ms.assetid: 208bf1cc-c03c-4d03-92e4-32fcf856b4d8
-
 ms.date: 12/05/2018
 ms.keywords: 0, CDS_FULLSCREEN, CDS_GLOBAL, CDS_NORESET, CDS_RESET, CDS_SET_PRIMARY, CDS_TEST, CDS_UPDATEREGISTRY, ChangeDisplaySettings, ChangeDisplaySettings function [Windows GDI], ChangeDisplaySettingsA, ChangeDisplaySettingsW, _win32_ChangeDisplaySettings, gdi.changedisplaysettings, winuser/ChangeDisplaySettings, winuser/ChangeDisplaySettingsA, winuser/ChangeDisplaySettingsW
 ms.topic: function
-f1_keywords: 
- - "winuser/ChangeDisplaySettings"
+f1_keywords:
+- winuser/ChangeDisplaySettings
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
+- user32.dll
 api_name:
- - ChangeDisplaySettings
- - ChangeDisplaySettingsA
- - ChangeDisplaySettingsW
+- ChangeDisplaySettings
+- ChangeDisplaySettingsA
+- ChangeDisplaySettingsW
 targetos: Windows
 req.typenames: 
 req.redist: 

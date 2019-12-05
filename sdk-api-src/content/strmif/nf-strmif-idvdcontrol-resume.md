@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl.Resume
 title: IDvdControl::Resume (strmif.h)
-
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Returns to playing back a title from a menu.
 old-location: dshow\idvdcontrol_resume.htm
 tech.root: DirectShow
 ms.assetid: 336908bb-369e-449d-a94a-dd22fa72f20a
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],Resume method, IDvdControl.Resume, IDvdControl::Resume, IDvdControlResume, Resume, Resume method [DirectShow], Resume method [DirectShow],IDvdControl interface, dshow.idvdcontrol_resume, strmif/IDvdControl::Resume
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl.Resume"
+f1_keywords:
+- strmif/IDvdControl.Resume
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDvdControl.Resume
+- IDvdControl.Resume
 targetos: Windows
 req.typenames: 
 req.redist: 

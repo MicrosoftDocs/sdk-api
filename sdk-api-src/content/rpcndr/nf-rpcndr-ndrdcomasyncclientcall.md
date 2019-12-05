@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcndr.NdrDcomAsyncClientCall
 title: NdrDcomAsyncClientCall function (rpcndr.h)
-
 description: NdrDcomAsyncClientCall may be altered or unavailable.
 old-location: rpc\ndrdcomasyncclientcall.htm
 tech.root: Rpc
 ms.assetid: 726ACE34-E1C9-4769-81ED-90D78A26C70A
-
 ms.date: 12/05/2018
 ms.keywords: NdrDcomAsyncClientCall, NdrDcomAsyncClientCall function [RPC], rpc.ndrdcomasyncclientcall, rpcndr/NdrDcomAsyncClientCall
 ms.topic: function
-f1_keywords: 
- - "rpcndr/NdrDcomAsyncClientCall"
+f1_keywords:
+- rpcndr/NdrDcomAsyncClientCall
 dev_langs:
- - c++
+- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RpcRT4.dll
+- RpcRT4.dll
 api_name:
- - NdrDcomAsyncClientCall
+- NdrDcomAsyncClientCall
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wct.RegisterWaitChainCOMCallback
 title: RegisterWaitChainCOMCallback function (wct.h)
-
 description: Register COM callback functions for WCT.
 old-location: base\registerwaitchaincomcallback.htm
 tech.root: Debug
 ms.assetid: f8adffa3-6e63-4fae-81e8-5f6643e988e9
-
 ms.date: 12/05/2018
 ms.keywords: RegisterWaitChainCOMCallback, RegisterWaitChainCOMCallback function, base.registerwaitchaincomcallback, wct/RegisterWaitChainCOMCallback
 ms.topic: function
-f1_keywords: 
- - "wct/RegisterWaitChainCOMCallback"
+f1_keywords:
+- wct/RegisterWaitChainCOMCallback
 dev_langs:
- - c++
+- c++
 req.header: wct.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - Ext-MS-Win-wer-wct-l1-1-0.dll
- - wer.dll
+- Advapi32.dll
+- Ext-MS-Win-wer-wct-l1-1-0.dll
+- wer.dll
 api_name:
- - RegisterWaitChainCOMCallback
+- RegisterWaitChainCOMCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

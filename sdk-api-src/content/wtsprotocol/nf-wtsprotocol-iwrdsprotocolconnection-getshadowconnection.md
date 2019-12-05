@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetShadowConnection
 title: IWRdsProtocolConnection::GetShadowConnection (wtsprotocol.h)
-
 description: Retrieves a reference to the shadow connection object from the protocol.
 old-location: termserv\iwrdsprotocolconnection_getshadowconnection.htm
 tech.root: TermServ
 ms.assetid: 1b1059af-f673-47fd-85fc-57df76adfbcf
-
 ms.date: 12/05/2018
 ms.keywords: GetShadowConnection, GetShadowConnection method [Remote Desktop Services], GetShadowConnection method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetShadowConnection method, IWRdsProtocolConnection.GetShadowConnection, IWRdsProtocolConnection::GetShadowConnection, termserv.iwrdsprotocolconnection_getshadowconnection, wtsprotocol/IWRdsProtocolConnection::GetShadowConnection
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolConnection.GetShadowConnection"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolConnection.GetShadowConnection
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolConnection.GetShadowConnection
+- IWRdsProtocolConnection.GetShadowConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

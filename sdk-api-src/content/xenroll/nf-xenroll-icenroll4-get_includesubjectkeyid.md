@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.ICEnroll4.get_IncludeSubjectKeyID
 title: ICEnroll4::get_IncludeSubjectKeyID (xenroll.h)
-
 description: Determines whether the subject key ID extension is added to the certificate request that is generated.
 old-location: security\icenroll4_includesubjectkeyid.htm
 tech.root: SecCrypto
 ms.assetid: 12150ca2-59cc-402e-b25e-cc98b940ecf8
-
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],IncludeSubjectKeyID property, ICEnroll4 interface [Security],IncludeSubjectKeyID property, ICEnroll4.IncludeSubjectKeyID, ICEnroll4.get_IncludeSubjectKeyID, ICEnroll4::IncludeSubjectKeyID, ICEnroll4::get_IncludeSubjectKeyID, ICEnroll4::put_IncludeSubjectKeyID, IncludeSubjectKeyID property [Security], IncludeSubjectKeyID property [Security],CEnroll object, IncludeSubjectKeyID property [Security],ICEnroll4 interface, get_IncludeSubjectKeyID, security.icenroll4_includesubjectkeyid, xenroll/ICEnroll4::IncludeSubjectKeyID, xenroll/ICEnroll4::get_IncludeSubjectKeyID, xenroll/ICEnroll4::put_IncludeSubjectKeyID
 ms.topic: method
-f1_keywords: 
- - "xenroll/ICEnroll4.IncludeSubjectKeyID"
+f1_keywords:
+- xenroll/ICEnroll4.IncludeSubjectKeyID
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll4.IncludeSubjectKeyID
- - ICEnroll4.get_IncludeSubjectKeyID
- - ICEnroll4.put_IncludeSubjectKeyID
- - CEnroll.IncludeSubjectKeyID
+- ICEnroll4.IncludeSubjectKeyID
+- ICEnroll4.get_IncludeSubjectKeyID
+- ICEnroll4.put_IncludeSubjectKeyID
+- CEnroll.IncludeSubjectKeyID
 targetos: Windows
 req.typenames: 
 req.redist: 

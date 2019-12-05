@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Region.GetDataSize
 title: Region::GetDataSize (gdiplusheaders.h)
-
 description: The Region::GetDataSize method gets the number of bytes of data that describes this region.
 old-location: gdiplus\_gdiplus_CLASS_Region_GetDataSize_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\getdatasize.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetDataSize, GetDataSize method [GDI+], GetDataSize method [GDI+],Region class, Region class [GDI+],GetDataSize method, Region.GetDataSize, Region::GetDataSize, _gdiplus_CLASS_Region_GetDataSize_, gdiplus._gdiplus_CLASS_Region_GetDataSize_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Region.GetDataSize"
+f1_keywords:
+- gdiplusheaders/Region.GetDataSize
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Region.GetDataSize
+- Region.GetDataSize
 targetos: Windows
 req.typenames: 
 req.redist: 

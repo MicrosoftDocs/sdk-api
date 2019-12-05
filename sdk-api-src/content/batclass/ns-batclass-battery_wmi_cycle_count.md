@@ -1,19 +1,17 @@
 ---
 UID: NS:batclass._BATTERY_WMI_CYCLE_COUNT
 title: BATTERY_WMI_CYCLE_COUNT (batclass.h)
-
 description: Defines information about number of charge cycles of a battery for use with the BatteryClassQueryWmiDataBlock function.
 old-location: battery\battery_wmi_cycle_count.htm
 tech.root: battery
 ms.assetid: DFC94773-C198-4FC4-813C-0986ABA953A5
-
 ms.date: 12/05/2018
-ms.keywords: "*PBATTERY_WMI_CYCLE_COUNT, BATTERY_WMI_CYCLE_COUNT, BATTERY_WMI_CYCLE_COUNT structure [Battery Devices], PBATTERY_WMI_CYCLE_COUNT, PBATTERY_WMI_CYCLE_COUNT structure pointer [Battery Devices], batclass/BATTERY_WMI_CYCLE_COUNT, batclass/PBATTERY_WMI_CYCLE_COUNT, battery.battery_wmi_cycle_count"
+ms.keywords: '*PBATTERY_WMI_CYCLE_COUNT, BATTERY_WMI_CYCLE_COUNT, BATTERY_WMI_CYCLE_COUNT structure [Battery Devices], PBATTERY_WMI_CYCLE_COUNT, PBATTERY_WMI_CYCLE_COUNT structure pointer [Battery Devices], batclass/BATTERY_WMI_CYCLE_COUNT, batclass/PBATTERY_WMI_CYCLE_COUNT, battery.battery_wmi_cycle_count'
 ms.topic: struct
-f1_keywords: 
- - "batclass/BATTERY_WMI_CYCLE_COUNT"
+f1_keywords:
+- batclass/BATTERY_WMI_CYCLE_COUNT
 dev_langs:
- - c++
+- c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Batclass.h
+- Batclass.h
 api_name:
- - BATTERY_WMI_CYCLE_COUNT
+- BATTERY_WMI_CYCLE_COUNT
 targetos: Windows
 req.typenames: BATTERY_WMI_CYCLE_COUNT, *PBATTERY_WMI_CYCLE_COUNT
 req.redist: 

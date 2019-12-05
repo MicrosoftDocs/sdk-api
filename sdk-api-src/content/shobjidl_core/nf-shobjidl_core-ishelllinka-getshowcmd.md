@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellLinkA.GetShowCmd
 title: IShellLinkA::GetShowCmd (shobjidl_core.h)
-
 description: Gets the show command for a Shell link object.
 old-location: shell\IShellLink_GetShowCmd.htm
 tech.root: shell
 ms.assetid: cbd89c28-86e1-4a2c-b3ea-d934f263b59f
-
 ms.date: 12/05/2018
 ms.keywords: GetShowCmd, GetShowCmd method [Windows Shell], GetShowCmd method [Windows Shell],IShellLink interface, GetShowCmd method [Windows Shell],IShellLinkA interface, GetShowCmd method [Windows Shell],IShellLinkW interface, IShellLink interface [Windows Shell],GetShowCmd method, IShellLink::GetShowCmd, IShellLinkA interface [Windows Shell],GetShowCmd method, IShellLinkA.GetShowCmd, IShellLinkA::GetShowCmd, IShellLinkW interface [Windows Shell],GetShowCmd method, IShellLinkW::GetShowCmd, SW_SHOWMAXIMIZED, SW_SHOWMINIMIZED, SW_SHOWNORMAL, _win32_IShellLink_GetShowCmd, shell.IShellLink_GetShowCmd, shobjidl_core/IShellLink::GetShowCmd, shobjidl_core/IShellLinkA::GetShowCmd, shobjidl_core/IShellLinkW::GetShowCmd
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellLink.GetShowCmd"
+f1_keywords:
+- shobjidl_core/IShellLink.GetShowCmd
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellLink.GetShowCmd
- - IShellLinkA.GetShowCmd
- - IShellLinkW.GetShowCmd
+- IShellLink.GetShowCmd
+- IShellLinkA.GetShowCmd
+- IShellLinkW.GetShowCmd
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.UrlGetPartA
 title: UrlGetPartA function (shlwapi.h)
-
 description: Accepts a URL string and returns a specified part of that URL.
 old-location: shell\UrlGetPart.htm
 tech.root: shell
 ms.assetid: 5f43dedd-c543-46b2-b90e-f0af576d2605
-
 ms.date: 12/05/2018
 ms.keywords: URL_PARTFLAG_KEEPSCHEME, URL_PART_HOSTNAME, URL_PART_PASSWORD, URL_PART_PORT, URL_PART_QUERY, URL_PART_SCHEME, URL_PART_USERNAME, UrlGetPart, UrlGetPart function [Windows Shell], UrlGetPartA, UrlGetPartW, _win32_UrlGetPart, shell.UrlGetPart, shlwapi/UrlGetPart, shlwapi/UrlGetPartA, shlwapi/UrlGetPartW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/UrlGetPart"
+f1_keywords:
+- shlwapi/UrlGetPart
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-url-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-url-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - UrlGetPart
- - UrlGetPartA
- - UrlGetPartW
+- UrlGetPart
+- UrlGetPartA
+- UrlGetPartW
 targetos: Windows
 req.typenames: 
 req.redist: 

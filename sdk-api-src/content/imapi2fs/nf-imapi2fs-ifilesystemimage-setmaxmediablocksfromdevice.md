@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.SetMaxMediaBlocksFromDevice
 title: IFileSystemImage::SetMaxMediaBlocksFromDevice (imapi2fs.h)
-
 description: Set maximum number of blocks available based on the capabilities of the recorder.
 old-location: imapi\ifilesystemimage_setmaxmediablocksfromdevice.htm
 tech.root: imapi
 ms.assetid: 201e7390-68f3-48a4-9036-b07219fa3d80
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],SetMaxMediaBlocksFromDevice method, IFileSystemImage.SetMaxMediaBlocksFromDevice, IFileSystemImage::SetMaxMediaBlocksFromDevice, SetMaxMediaBlocksFromDevice, SetMaxMediaBlocksFromDevice method [IMAPI], SetMaxMediaBlocksFromDevice method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_setmaxmediablocksfromdevice, imapi2fs/IFileSystemImage::SetMaxMediaBlocksFromDevice
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImage.SetMaxMediaBlocksFromDevice"
+f1_keywords:
+- imapi2fs/IFileSystemImage.SetMaxMediaBlocksFromDevice
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage.SetMaxMediaBlocksFromDevice
+- IFileSystemImage.SetMaxMediaBlocksFromDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

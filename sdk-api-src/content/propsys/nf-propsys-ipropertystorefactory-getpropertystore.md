@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyStoreFactory.GetPropertyStore
 title: IPropertyStoreFactory::GetPropertyStore (propsys.h)
-
 description: Gets an IPropertyStore object that corresponds to the supplied flags.
 old-location: properties\IPropertyStoreFactory_GetPropertyStore.htm
 tech.root: properties
 ms.assetid: 80cc20e1-88e2-4dee-a0fb-d75fffdfc097
-
 ms.date: 12/05/2018
 ms.keywords: GetPropertyStore, GetPropertyStore method [Windows Properties], GetPropertyStore method [Windows Properties],IPropertyStoreFactory interface, IPropertyStoreFactory interface [Windows Properties],GetPropertyStore method, IPropertyStoreFactory.GetPropertyStore, IPropertyStoreFactory::GetPropertyStore, _shell_IPropertyStoreFactory_GetPropertyStore, properties.IPropertyStoreFactory_GetPropertyStore, propsys/IPropertyStoreFactory::GetPropertyStore, shell.IPropertyStoreFactory_GetPropertyStore
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertyStoreFactory.GetPropertyStore"
+f1_keywords:
+- propsys/IPropertyStoreFactory.GetPropertyStore
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyStoreFactory.GetPropertyStore
+- IPropertyStoreFactory.GetPropertyStore
 targetos: Windows
 req.typenames: 
 req.redist: 

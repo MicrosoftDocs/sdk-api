@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Sibling
 title: CM_Get_Sibling function (cfgmgr32.h)
-
 description: The CM_Get_Sibling function obtains a device instance handle to the next sibling node of a specified device node (devnode) in the local machine's device tree.
 old-location: devinst\cm_get_sibling.htm
 tech.root: devinst
 ms.assetid: ac3b7bca-1504-465a-8dcf-dcde9da686a9
-
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Sibling, CM_Get_Sibling function [Device and Driver Installation], cfgmgr32/CM_Get_Sibling, cfgmgrfn_cc0cd494-9629-4915-a0b3-e634516eb62f.xml, devinst.cm_get_sibling
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Get_Sibling"
+f1_keywords:
+- cfgmgr32/CM_Get_Sibling
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal
@@ -32,16 +30,16 @@ req.lib: Cfgmgr32.lib; OneCoreUAP.lib on Windows 10
 req.dll: CfgMgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CfgMgr32.dll
- - API-MS-Win-devices-config-l1-1-0.dll
- - API-MS-Win-devices-config-l1-1-1.dll
+- CfgMgr32.dll
+- API-MS-Win-devices-config-l1-1-0.dll
+- API-MS-Win-devices-config-l1-1-1.dll
 api_name:
- - CM_Get_Sibling
+- CM_Get_Sibling
 targetos: Windows
 req.typenames: 
 req.redist: 

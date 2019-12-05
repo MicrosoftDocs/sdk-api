@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsGroup.Remove
 title: IADsGroup::Remove (iads.h)
-
 description: The IADsGroup::Remove method removes the specified user object from this group. The operation does not remove the group object itself even when there is no member remaining in the group.
 old-location: adsi\iadsgroup_remove.htm
 tech.root: adsi
 ms.assetid: bf309f0a-1ef5-4123-91c5-ae232ddd6340
-
 ms.date: 12/05/2018
 ms.keywords: IADsGroup interface [ADSI],Remove method, IADsGroup.Remove, IADsGroup::Remove, Remove, Remove method [ADSI], Remove method [ADSI],IADsGroup interface, _ds_iadsgroup_remove, adsi.iadsgroup__remove, adsi.iadsgroup_remove, iads/IADsGroup::Remove
 ms.topic: method
-f1_keywords: 
- - "iads/IADsGroup.Remove"
+f1_keywords:
+- iads/IADsGroup.Remove
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsGroup.Remove
+- IADsGroup.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

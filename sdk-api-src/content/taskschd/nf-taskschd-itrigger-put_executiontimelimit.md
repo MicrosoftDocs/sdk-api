@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITrigger.put_ExecutionTimeLimit
 title: ITrigger::put_ExecutionTimeLimit (taskschd.h)
-
 description: Gets or sets the maximum amount of time that the task launched by this trigger is allowed to run.
 old-location: taskschd\itrigger_executiontimelimit.htm
 tech.root: taskschd
 ms.assetid: cfd0b02b-2040-49c1-88a1-c9663c834450
-
 ms.date: 12/05/2018
 ms.keywords: ExecutionTimeLimit property [Task Scheduler], ExecutionTimeLimit property [Task Scheduler],ITrigger interface, ITrigger interface [Task Scheduler],ExecutionTimeLimit property, ITrigger.ExecutionTimeLimit, ITrigger.put_ExecutionTimeLimit, ITrigger::ExecutionTimeLimit, ITrigger::get_ExecutionTimeLimit, ITrigger::put_ExecutionTimeLimit, put_ExecutionTimeLimit, taskschd.itrigger_executiontimelimit, taskschd/ITrigger::ExecutionTimeLimit, taskschd/ITrigger::get_ExecutionTimeLimit, taskschd/ITrigger::put_ExecutionTimeLimit
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITrigger.ExecutionTimeLimit"
+f1_keywords:
+- taskschd/ITrigger.ExecutionTimeLimit
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITrigger.ExecutionTimeLimit
- - ITrigger.get_ExecutionTimeLimit
- - ITrigger.put_ExecutionTimeLimit
+- ITrigger.ExecutionTimeLimit
+- ITrigger.get_ExecutionTimeLimit
+- ITrigger.put_ExecutionTimeLimit
 targetos: Windows
 req.typenames: 
 req.redist: 

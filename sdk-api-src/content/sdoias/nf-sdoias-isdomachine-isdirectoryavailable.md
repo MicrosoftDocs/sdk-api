@@ -1,19 +1,17 @@
 ---
 UID: NF:sdoias.ISdoMachine.IsDirectoryAvailable
 title: ISdoMachine::IsDirectoryAvailable (sdoias.h)
-
 description: The IsDirectoryAvailable method tests whether an Active Directory service is available on the SDO computer.
 old-location: nps\SDO_isdomachine_isdirectoryavailable.htm
 tech.root: Nps
 ms.assetid: 733d2911-7e1d-4f73-ae24-1bb748213c1c
-
 ms.date: 12/05/2018
 ms.keywords: ISdoMachine interface [Network Policy Server],IsDirectoryAvailable method, ISdoMachine.IsDirectoryAvailable, ISdoMachine::IsDirectoryAvailable, IsDirectoryAvailable, IsDirectoryAvailable method [Network Policy Server], IsDirectoryAvailable method [Network Policy Server],ISdoMachine interface, IsDirectoryAvailable method [Network Policy Server],SdoMachine object, SdoMachine object [Network Policy Server],IsDirectoryAvailable method, _sdo_isdomachine_isdirectoryavailable, nps.SDO_isdomachine_isdirectoryavailable, sdo.isdomachine_isdirectoryavailable, sdoias/ISdoMachine::IsDirectoryAvailable
 ms.topic: method
-f1_keywords: 
- - "sdoias/ISdoMachine.IsDirectoryAvailable"
+f1_keywords:
+- sdoias/ISdoMachine.IsDirectoryAvailable
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Iassdo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Iassdo.dll
+- Iassdo.dll
 api_name:
- - ISdoMachine.IsDirectoryAvailable
- - SdoMachine.IsDirectoryAvailable
+- ISdoMachine.IsDirectoryAvailable
+- SdoMachine.IsDirectoryAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 

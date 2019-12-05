@@ -1,19 +1,17 @@
 ---
 UID: NN:wsmandisp.IWSManConnectionOptions
 title: IWSManConnectionOptions (wsmandisp.h)
-
 description: The IWSManConnectionOptions object is passed to the IWSMan::CreateSession method to provide the user name and password associated with the local account on the remote computer.
 old-location: winrm\iwsmanconnectionoptions.htm
 tech.root: winrm
 ms.assetid: 940097da-c5bb-4170-a2aa-fcbbee622fe6
-
 ms.date: 12/05/2018
 ms.keywords: IWSManConnectionOptions, IWSManConnectionOptions interface [Windows Remote Management], IWSManConnectionOptions interface [Windows Remote Management],described, winrm.iwsmanconnectionoptions, wsmandisp/IWSManConnectionOptions
 ms.topic: interface
-f1_keywords: 
- - "wsmandisp/IWSManConnectionOptions"
+f1_keywords:
+- wsmandisp/IWSManConnectionOptions
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManConnectionOptions
+- IWSManConnectionOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

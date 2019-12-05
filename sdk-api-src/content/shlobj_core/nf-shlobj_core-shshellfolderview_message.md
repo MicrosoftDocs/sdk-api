@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHShellFolderView_Message
 title: SHShellFolderView_Message function (shlobj_core.h)
-
 description: SHShellFolderView_Message may be altered or unavailable.
 old-location: shell\SHShellFolderView_Message.htm
 tech.root: shell
 ms.assetid: f5722a4f-d830-4c31-9275-13e800408681
-
 ms.date: 12/05/2018
 ms.keywords: SHShellFolderView_Message, SHShellFolderView_Message function [Windows Shell], _win32_SHShellFolderView_Message, shell.SHShellFolderView_Message, shlobj_core/SHShellFolderView_Message
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHShellFolderView_Message"
+f1_keywords:
+- shlobj_core/SHShellFolderView_Message
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHShellFolderView_Message
+- SHShellFolderView_Message
 targetos: Windows
 req.typenames: 
 req.redist: 

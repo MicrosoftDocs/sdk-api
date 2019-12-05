@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetDigestMethod
 title: IXpsSigningOptions::GetDigestMethod (xpsdigitalsignature.h)
-
 description: Gets the current digest method.
 old-location: xps\ixpssigningoptions_getdigestmethod.htm
 tech.root: printdocs
 ms.assetid: b8976719-970b-4598-8f1c-0ef2446ae12b
-
 ms.date: 12/05/2018
 ms.keywords: GetDigestMethod, GetDigestMethod method [XPS Documents and Packaging], GetDigestMethod method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetDigestMethod method, IXpsSigningOptions.GetDigestMethod, IXpsSigningOptions::GetDigestMethod, xps.ixpssigningoptions_getdigestmethod, xpsdigitalsignature/IXpsSigningOptions::GetDigestMethod
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSigningOptions.GetDigestMethod"
+f1_keywords:
+- xpsdigitalsignature/IXpsSigningOptions.GetDigestMethod
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSigningOptions.GetDigestMethod
+- IXpsSigningOptions.GetDigestMethod
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:tapi3if.TERMINAL_STATE
 title: TERMINAL_STATE (tapi3if.h)
-
 description: The TERMINAL_STATE enum describes the current state of a terminal device. This enum is returned by the ITTerminal::get_State method.
 old-location: tapi3\terminal_state.htm
 tech.root: Tapi
 ms.assetid: 310c41f5-dfe7-491d-8669-87a98694f5b7
-
 ms.date: 12/05/2018
 ms.keywords: TERMINAL_STATE, TERMINAL_STATE enumeration [TAPI 2.2], TS_INUSE, TS_NOTINUSE, _tapi3_terminal_state, tapi3.terminal_state, tapi3if/TERMINAL_STATE, tapi3if/TS_INUSE, tapi3if/TS_NOTINUSE
 ms.topic: enum
-f1_keywords: 
- - "tapi3if/TERMINAL_STATE"
+f1_keywords:
+- tapi3if/TERMINAL_STATE
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi3if.h
+- Tapi3if.h
 api_name:
- - TERMINAL_STATE
+- TERMINAL_STATE
 targetos: Windows
 req.typenames: TERMINAL_STATE
 req.redist: 

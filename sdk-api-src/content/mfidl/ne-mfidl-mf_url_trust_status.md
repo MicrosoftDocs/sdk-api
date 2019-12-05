@@ -1,19 +1,17 @@
 ---
 UID: NE:mfidl.__MIDL___MIDL_itf_mfidl_0000_0031_0001
 title: MF_URL_TRUST_STATUS (mfidl.h)
-
 description: Indicates whether the URL is from a trusted source.
 old-location: mf\mf_url_trust_status.htm
 tech.root: medfound
 ms.assetid: fd008a23-71f7-4718-a51a-ee88453b6fdd
-
 ms.date: 12/05/2018
 ms.keywords: MF_LICENSE_URL_TAMPERED, MF_LICENSE_URL_TRUSTED, MF_LICENSE_URL_UNTRUSTED, MF_URL_TRUST_STATUS, MF_URL_TRUST_STATUS enumeration [Media Foundation], fd008a23-71f7-4718-a51a-ee88453b6fdd, mf.mf_url_trust_status, mfidl/MF_LICENSE_URL_TAMPERED, mfidl/MF_LICENSE_URL_TRUSTED, mfidl/MF_LICENSE_URL_UNTRUSTED, mfidl/MF_URL_TRUST_STATUS
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MF_URL_TRUST_STATUS"
+f1_keywords:
+- mfidl/MF_URL_TRUST_STATUS
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MF_URL_TRUST_STATUS
+- MF_URL_TRUST_STATUS
 targetos: Windows
 req.typenames: MF_URL_TRUST_STATUS
 req.redist: 

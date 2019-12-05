@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11shader._D3D11_LIBRARY_DESC
 title: D3D11_LIBRARY_DESC (d3d11shader.h)
-
 description: Describes a library.
 old-location: direct3d11\d3d11_library_desc.htm
 tech.root: direct3d11
 ms.assetid: A4AC9733-DB17-4855-AEB0-3DA7819F6627
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_LIBRARY_DESC, D3D11_LIBRARY_DESC structure [Direct3D 11], d3d11shader/D3D11_LIBRARY_DESC, direct3d11.d3d11_library_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d11shader/D3D11_LIBRARY_DESC"
+f1_keywords:
+- d3d11shader/D3D11_LIBRARY_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11Shader.h
+- D3D11Shader.h
 api_name:
- - D3D11_LIBRARY_DESC
+- D3D11_LIBRARY_DESC
 targetos: Windows
 req.typenames: D3D11_LIBRARY_DESC
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.Edit_Scroll
 title: Edit_Scroll macro (windowsx.h)
-
 description: Scrolls the text vertically in a multiline edit or rich edit control. You can use this macro or send the EM_SCROLL message explicitly.
 old-location: controls\Edit_Scroll.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_scroll.htm
-
 ms.date: 12/05/2018
 ms.keywords: Edit_Scroll, Edit_Scroll macro [Windows Controls], _win32_Edit_Scroll, _win32_Edit_Scroll_cpp, controls.Edit_Scroll, controls._win32_Edit_Scroll, windowsx/Edit_Scroll
 ms.topic: macro
-f1_keywords: 
- - "windowsx/Edit_Scroll"
+f1_keywords:
+- windowsx/Edit_Scroll
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - Edit_Scroll
+- Edit_Scroll
 targetos: Windows
 req.typenames: 
 req.redist: 

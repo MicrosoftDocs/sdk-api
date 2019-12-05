@@ -1,19 +1,17 @@
 ---
 UID: NN:bdaiface.IBDA_DRM
 title: IBDA_DRM (bdaiface.h)
-
 description: The IBDA_DRM interface is used to request a tuner to perform a DRM handshake with the user's computer.
 old-location: mstv\ibda_drm.htm
 tech.root: mstv
 ms.assetid: d0bde207-d550-4e98-85c7-b0d47b0cd637
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_DRM, IBDA_DRM interface [Microsoft TV Technologies], IBDA_DRM interface [Microsoft TV Technologies],described, IBDA_DRMInterface, bdaiface/IBDA_DRM, mstv.ibda_drm
 ms.topic: interface
-f1_keywords: 
- - "bdaiface/IBDA_DRM"
+f1_keywords:
+- bdaiface/IBDA_DRM
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bdaiface.h
+- Bdaiface.h
 api_name:
- - IBDA_DRM
+- IBDA_DRM
 targetos: Windows
 req.typenames: 
 req.redist: 

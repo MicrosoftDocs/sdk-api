@@ -1,19 +1,17 @@
 ---
 UID: NF:vdshwprv.IVdsProviderPrivate.OnUnload
 title: IVdsProviderPrivate::OnUnload (vdshwprv.h)
-
 description: Prompts the provider object to uninitialize itself.
 old-location: base\ivdsproviderprivate_onunload.htm
 tech.root: VDS
 ms.assetid: 8c4b2a0b-f056-4d3f-976c-0339c930e3cf
-
 ms.date: 12/05/2018
 ms.keywords: IVdsProviderPrivate interface [VDS],OnUnload method, IVdsProviderPrivate.OnUnload, IVdsProviderPrivate::OnUnload, OnUnload, OnUnload method [VDS], OnUnload method [VDS],IVdsProviderPrivate interface, base.ivdsproviderprivate_onunload, vdshwprv/IVdsProviderPrivate::OnUnload
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsProviderPrivate.OnUnload"
+f1_keywords:
+- vdshwprv/IVdsProviderPrivate.OnUnload
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsProviderPrivate.OnUnload
+- IVdsProviderPrivate.OnUnload
 targetos: Windows
 req.typenames: 
 req.redist: 

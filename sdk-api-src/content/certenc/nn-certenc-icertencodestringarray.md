@@ -1,19 +1,17 @@
 ---
 UID: NN:certenc.ICertEncodeStringArray
 title: ICertEncodeStringArray (certenc.h)
-
 description: Provides methods for handling string arrays used in certificate extensions.
 old-location: security\icertencodestringarray.htm
 tech.root: SecCrypto
 ms.assetid: 5515c25e-f788-4222-8f66-f5d86bd2a3a3
-
 ms.date: 12/05/2018
 ms.keywords: ICertEncodeStringArray, ICertEncodeStringArray interface [Security], ICertEncodeStringArray interface [Security],described, _certsrv_icertencodestringarray, certenc/ICertEncodeStringArray, security.icertencodestringarray
 ms.topic: interface
-f1_keywords: 
- - "certenc/ICertEncodeStringArray"
+f1_keywords:
+- certenc/ICertEncodeStringArray
 dev_langs:
- - c++
+- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenc.dll
+- Certenc.dll
 api_name:
- - ICertEncodeStringArray
+- ICertEncodeStringArray
 targetos: Windows
 req.typenames: 
 req.redist: 

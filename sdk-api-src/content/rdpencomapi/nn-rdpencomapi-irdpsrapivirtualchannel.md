@@ -1,19 +1,17 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIVirtualChannel
 title: IRDPSRAPIVirtualChannel (rdpencomapi.h)
-
 description: Manages the virtual channel.
 old-location: rdp\irdpsrapivirtualchannel.htm
 tech.root: rdp
 ms.assetid: c3cceb22-424d-4ed9-8d4d-0ca523ba5e9c
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIVirtualChannel, IRDPSRAPIVirtualChannel interface [RDP], IRDPSRAPIVirtualChannel interface [RDP],described, rdp.irdpsrapivirtualchannel, rdpencomapi/IRDPSRAPIVirtualChannel
 ms.topic: interface
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIVirtualChannel"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIVirtualChannel
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIVirtualChannel
+- IRDPSRAPIVirtualChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

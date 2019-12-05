@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICreateWithLocalTransaction.CreateInstanceWithSysTx
 title: ICreateWithLocalTransaction::CreateInstanceWithSysTx (comsvcs.h)
-
 description: Creates a COM+ object that executes within the scope of the specified local transaction.
 old-location: cos\icreatewithlocaltransaction_createinstancewithsystx.htm
 tech.root: cossdk
 ms.assetid: e56a1810-77e7-47fa-b8b1-bb1ebc5662fd
-
 ms.date: 12/05/2018
 ms.keywords: CreateInstanceWithSysTx, CreateInstanceWithSysTx method [COM+], CreateInstanceWithSysTx method [COM+],ICreateWithLocalTransaction interface, ICreateWithLocalTransaction interface [COM+],CreateInstanceWithSysTx method, ICreateWithLocalTransaction.CreateInstanceWithSysTx, ICreateWithLocalTransaction::CreateInstanceWithSysTx, comsvcs/ICreateWithLocalTransaction::CreateInstanceWithSysTx, cos.icreatewithlocaltransaction_createinstancewithsystx
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICreateWithLocalTransaction.CreateInstanceWithSysTx"
+f1_keywords:
+- comsvcs/ICreateWithLocalTransaction.CreateInstanceWithSysTx
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICreateWithLocalTransaction.CreateInstanceWithSysTx
+- ICreateWithLocalTransaction.CreateInstanceWithSysTx
 targetos: Windows
 req.typenames: 
 req.redist: 

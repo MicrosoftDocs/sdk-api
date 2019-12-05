@@ -1,19 +1,17 @@
 ---
 UID: NN:adhoc.IDot11AdHocNetwork
 title: IDot11AdHocNetwork (adhoc.h)
-
 description: Represents an available ad hoc network destination within connection range.
 old-location: nwifi\idot11adhocnetwork.htm
 tech.root: NativeWiFi
 ms.assetid: 2736bb81-b66f-4c09-8c76-ca16f3eab192
-
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocNetwork, IDot11AdHocNetwork interface [NativeWIFI], IDot11AdHocNetwork interface [NativeWIFI],described, adhoc/IDot11AdHocNetwork, nwifi.idot11adhocnetwork
 ms.topic: interface
-f1_keywords: 
- - "adhoc/IDot11AdHocNetwork"
+f1_keywords:
+- adhoc/IDot11AdHocNetwork
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IDot11AdHocNetwork
+- IDot11AdHocNetwork
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_ENUM_TEMPLATE0_
 title: IPSEC_SA_ENUM_TEMPLATE0 (ipsectypes.h)
-
 description: Specifies a template used for restricting the enumeration of IPsec security associations (SAs).
 old-location: fwp\ipsec_sa_enum_template0_struct.htm
 tech.root: fwp
 ms.assetid: 6a00af2b-0b39-4d9f-9335-4817df693b52
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_SA_ENUM_TEMPLATE0, IPSEC_SA_ENUM_TEMPLATE0 structure [Filtering], fwp.ipsec_sa_enum_template0_struct, ipsectypes/IPSEC_SA_ENUM_TEMPLATE0
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_SA_ENUM_TEMPLATE0"
+f1_keywords:
+- ipsectypes/IPSEC_SA_ENUM_TEMPLATE0
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_SA_ENUM_TEMPLATE0
+- IPSEC_SA_ENUM_TEMPLATE0
 targetos: Windows
 req.typenames: IPSEC_SA_ENUM_TEMPLATE0
 req.redist: 

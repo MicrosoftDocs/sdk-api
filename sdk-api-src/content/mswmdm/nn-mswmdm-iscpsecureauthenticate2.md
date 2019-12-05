@@ -1,19 +1,17 @@
 ---
 UID: NN:mswmdm.ISCPSecureAuthenticate2
 title: ISCPSecureAuthenticate2 (mswmdm.h)
-
 description: The ISCPSecureAuthenticate2 interface extends ISCPSecureAuthenticate by providing a way to get a session object.
 old-location: wmdm\iscpsecureauthenticate2.htm
 tech.root: WMDM
 ms.assetid: 8123f4d2-dcd4-4ff8-a7cf-be8d5f2bf285
-
 ms.date: 12/05/2018
 ms.keywords: ISCPSecureAuthenticate2, ISCPSecureAuthenticate2 interface [windows Media Device Manager], ISCPSecureAuthenticate2 interface [windows Media Device Manager],described, ISCPSecureAuthenticate2Interface, mswmdm/ISCPSecureAuthenticate2, wmdm.iscpsecureauthenticate2
 ms.topic: interface
-f1_keywords: 
- - "mswmdm/ISCPSecureAuthenticate2"
+f1_keywords:
+- mswmdm/ISCPSecureAuthenticate2
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mswmdm.h
+- mswmdm.h
 api_name:
- - ISCPSecureAuthenticate2
+- ISCPSecureAuthenticate2
 targetos: Windows
 req.typenames: 
 req.redist: 

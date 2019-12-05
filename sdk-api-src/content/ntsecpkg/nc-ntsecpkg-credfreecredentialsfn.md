@@ -1,19 +1,17 @@
 ---
 UID: NC:ntsecpkg.CredFreeCredentialsFn
 title: CredFreeCredentialsFn (ntsecpkg.h)
-
 description: Frees memory used to store credentials used by a security package.
 old-location: security\credifreecredentials.htm
 tech.root: SecAuthN
 ms.assetid: 9da22201-884d-4822-a769-c2ce0d36ec73
-
 ms.date: 12/05/2018
 ms.keywords: CredFreeCredentialsFn, CredFreeCredentialsFn callback, CrediFreeCredentials, CrediFreeCredentials callback function [Security], ntsecpkg/CrediFreeCredentials, security.credifreecredentials
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/CrediFreeCredentials
 dev_langs:
- - c++
+- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

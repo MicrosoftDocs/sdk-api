@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcFactory.CreatePackageRootUri
 title: IOpcFactory::CreatePackageRootUri (msopc.h)
-
 description: Creates an OPC URI object that represents the root of a package.
 old-location: opc\iopcfactory_createpackagerooturi.htm
 tech.root: OPC
 ms.assetid: 5ec33743-d362-43d9-a66e-8223745b9664
-
 ms.date: 12/05/2018
 ms.keywords: CreatePackageRootUri, CreatePackageRootUri method [Open Packaging Conventions], CreatePackageRootUri method [Open Packaging Conventions],IOpcFactory interface, IOpcFactory interface [Open Packaging Conventions],CreatePackageRootUri method, IOpcFactory.CreatePackageRootUri, IOpcFactory::CreatePackageRootUri, msopc/IOpcFactory::CreatePackageRootUri, opc.iopcfactory_createpackagerooturi
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcFactory.CreatePackageRootUri"
+f1_keywords:
+- msopc/IOpcFactory.CreatePackageRootUri
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcFactory.CreatePackageRootUri
+- IOpcFactory.CreatePackageRootUri
 targetos: Windows
 req.typenames: 
 req.redist: 

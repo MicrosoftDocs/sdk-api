@@ -1,19 +1,17 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolListener
 title: IWRdsProtocolListener (wtsprotocol.h)
-
 description: Exposes methods that request that the protocol start and stop listening for client connection requests.
 old-location: termserv\iwrdsprotocollistener.htm
 tech.root: TermServ
 ms.assetid: 19d3176a-3f47-46c1-8bee-8e0f1d9b466e
-
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolListener, IWRdsProtocolListener interface [Remote Desktop Services], IWRdsProtocolListener interface [Remote Desktop Services],described, termserv.iwrdsprotocollistener, wtsprotocol/IWRdsProtocolListener
 ms.topic: interface
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolListener"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolListener
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolListener
+- IWRdsProtocolListener
 targetos: Windows
 req.typenames: 
 req.redist: 

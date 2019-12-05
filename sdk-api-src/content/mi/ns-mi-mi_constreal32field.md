@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_ConstReal32Field
 title: MI_ConstReal32Field (mi.h)
-
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_constreal32field.htm
 tech.root: wmi_v2
 ms.assetid: 3bf3a9fb-215c-44c2-9aa6-40c3af82c949
-
 ms.date: 12/05/2018
 ms.keywords: MI_ConstReal32Field, MI_ConstReal32Field structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_ConstReal32Field, wmi._mi_constreal32field, wmi_v2.mi_constreal32field
 ms.topic: struct
 f1_keywords:
 - mi/MI_ConstReal32Field
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

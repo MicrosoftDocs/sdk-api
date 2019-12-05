@@ -1,19 +1,17 @@
 ---
 UID: NE:mfidl._MF_OPM_CGMSA_PROTECTION_LEVEL
 title: MF_OPM_CGMSA_PROTECTION_LEVEL (mfidl.h)
-
 description: Defines protection levels for MFPROTECTION_CGMSA.
 old-location: mf\mf_opm_cgmsa_protection_level.htm
 tech.root: medfound
 ms.assetid: EEFE04F7-E878-4F09-B973-B0FD3E9431AA
-
 ms.date: 12/05/2018
 ms.keywords: MF_OPM_CGMSA_COPY_FREELY, MF_OPM_CGMSA_COPY_NEVER, MF_OPM_CGMSA_COPY_NO_MORE, MF_OPM_CGMSA_COPY_ONE_GENERATION, MF_OPM_CGMSA_OFF, MF_OPM_CGMSA_PROTECTION_LEVEL, MF_OPM_CGMSA_PROTECTION_LEVEL enumeration [Media Foundation], MF_OPM_CGMSA_REDISTRIBUTION_CONTROL_REQUIRED, mf.mf_opm_cgmsa_protection_level, mfidl/MF_OPM_CGMSA_COPY_FREELY, mfidl/MF_OPM_CGMSA_COPY_NEVER, mfidl/MF_OPM_CGMSA_COPY_NO_MORE, mfidl/MF_OPM_CGMSA_COPY_ONE_GENERATION, mfidl/MF_OPM_CGMSA_OFF, mfidl/MF_OPM_CGMSA_PROTECTION_LEVEL, mfidl/MF_OPM_CGMSA_REDISTRIBUTION_CONTROL_REQUIRED
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MF_OPM_CGMSA_PROTECTION_LEVEL"
+f1_keywords:
+- mfidl/MF_OPM_CGMSA_PROTECTION_LEVEL
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MF_OPM_CGMSA_PROTECTION_LEVEL
+- MF_OPM_CGMSA_PROTECTION_LEVEL
 targetos: Windows
 req.typenames: MF_OPM_CGMSA_PROTECTION_LEVEL
 req.redist: 

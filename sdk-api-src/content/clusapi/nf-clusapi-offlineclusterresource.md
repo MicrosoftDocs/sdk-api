@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.OfflineClusterResource
 title: OfflineClusterResource function (clusapi.h)
-
 description: Takes a resource offline.
 old-location: mscs\offlineclusterresource.htm
 tech.root: MsCS
 ms.assetid: 694dbf3d-3355-44d9-8af0-ea2baae832fd
-
 ms.date: 12/05/2018
 ms.keywords: OfflineClusterResource, OfflineClusterResource function [Failover Cluster], PCLUSAPI_OFFLINE_CLUSTER_RESOURCE, PCLUSAPI_OFFLINE_CLUSTER_RESOURCE function [Failover Cluster], _wolf_offlineclusterresource, clusapi/OfflineClusterResource, clusapi/PCLUSAPI_OFFLINE_CLUSTER_RESOURCE, mscs.offlineclusterresource
 ms.topic: function
-f1_keywords: 
- - "clusapi/OfflineClusterResource"
+f1_keywords:
+- clusapi/OfflineClusterResource
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-L1-1-2.dll
- - ext-ms-win-cluster-clusapi-l1-1-3.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-L1-1-2.dll
+- ext-ms-win-cluster-clusapi-l1-1-3.dll
 api_name:
- - OfflineClusterResource
+- OfflineClusterResource
 targetos: Windows
 req.typenames: 
 req.redist: 

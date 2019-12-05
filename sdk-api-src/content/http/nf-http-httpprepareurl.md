@@ -1,19 +1,17 @@
 ---
 UID: NF:http.HttpPrepareUrl
 title: HttpPrepareUrl function (http.h)
-
 description: Parses, analyzes, and normalizes a non-normalized Unicode or punycode URL so it is safe and valid to use in other HTTP functions.
 old-location: http\httpprepareurl.htm
 tech.root: http
 ms.assetid: 45199AEE-950D-44C4-8590-96077DBDC846
-
 ms.date: 12/05/2018
 ms.keywords: HttpPrepareUrl, HttpPrepareUrl function [HTTP], http.httpprepareurl, http/HttpPrepareUrl
 ms.topic: function
-f1_keywords: 
- - "http/HttpPrepareUrl"
+f1_keywords:
+- http/HttpPrepareUrl
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Httpapi.dll
+- Httpapi.dll
 api_name:
- - HttpPrepareUrl
+- HttpPrepareUrl
 targetos: Windows
 req.typenames: 
 req.redist: 

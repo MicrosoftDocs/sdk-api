@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ICoreFragment.GetRangeCount
 title: ICoreFragment::GetRangeCount (winsync.h)
-
 description: Gets the number of ranges that are contained in this knowledge fragment.
 old-location: winsync\icorefragment_getrangecount.htm
 tech.root: winsync
 ms.assetid: 8eb33224-f017-4f3b-bbf9-14d388d0868f
-
 ms.date: 12/05/2018
 ms.keywords: GetRangeCount, GetRangeCount method [Windows Sync], GetRangeCount method [Windows Sync],ICoreFragment interface, ICoreFragment interface [Windows Sync],GetRangeCount method, ICoreFragment.GetRangeCount, ICoreFragment::GetRangeCount, winsync.icorefragment_getrangecount, winsync/ICoreFragment::GetRangeCount
 ms.topic: method
-f1_keywords: 
- - "winsync/ICoreFragment.GetRangeCount"
+f1_keywords:
+- winsync/ICoreFragment.GetRangeCount
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ICoreFragment.GetRangeCount
+- ICoreFragment.GetRangeCount
 targetos: Windows
 req.typenames: 
 req.redist: 

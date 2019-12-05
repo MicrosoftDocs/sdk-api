@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.CustomLineCap.GetWidthScale
 title: CustomLineCap::GetWidthScale (gdiplusheaders.h)
-
 description: The CustomLineCap::GetWidthScale method gets the value of the scale width. This is the amount to scale the custom line cap relative to the width of the Pen object used to draw a line. The default value of 1.0 does not scale the line cap.
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_GetWidthScale_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\getwidthscale.htm
-
 ms.date: 12/05/2018
 ms.keywords: CustomLineCap class [GDI+],GetWidthScale method, CustomLineCap.GetWidthScale, CustomLineCap::GetWidthScale, GetWidthScale, GetWidthScale method [GDI+], GetWidthScale method [GDI+],CustomLineCap class, _gdiplus_CLASS_CustomLineCap_GetWidthScale_, gdiplus._gdiplus_CLASS_CustomLineCap_GetWidthScale_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/CustomLineCap.GetWidthScale"
+f1_keywords:
+- gdiplusheaders/CustomLineCap.GetWidthScale
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - CustomLineCap.GetWidthScale
+- CustomLineCap.GetWidthScale
 targetos: Windows
 req.typenames: 
 req.redist: 

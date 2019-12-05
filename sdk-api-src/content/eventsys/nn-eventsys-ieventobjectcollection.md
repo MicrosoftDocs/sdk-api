@@ -1,19 +1,17 @@
 ---
 UID: NN:eventsys.IEventObjectCollection
 title: IEventObjectCollection (eventsys.h)
-
 description: Manages objects in an event objects collection.
 old-location: cos\ieventobjectcollection.htm
 tech.root: cossdk
 ms.assetid: 7bb00b80-a48f-49c8-983d-9ff0ea424e4d
-
 ms.date: 12/05/2018
 ms.keywords: IEventObjectCollection, IEventObjectCollection interface [COM+], IEventObjectCollection interface [COM+],described, _cos_IEventObjectCollection, cos.ieventobjectcollection, eventsys/IEventObjectCollection
 ms.topic: interface
-f1_keywords: 
- - "eventsys/IEventObjectCollection"
+f1_keywords:
+- eventsys/IEventObjectCollection
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Eventsys.h
+- Eventsys.h
 api_name:
- - IEventObjectCollection
+- IEventObjectCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

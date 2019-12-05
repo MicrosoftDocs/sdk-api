@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.linelocationentry_tag
 title: LINELOCATIONENTRY (tapi.h)
-
 description: Describes a location used to provide an address translation context.
 old-location: tapi2\linelocationentry_str.htm
 tech.root: Tapi
 ms.assetid: 8b4357d8-6dc9-4fc8-b164-79675ac71870
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLINELOCATIONENTRY, LINELOCATIONENTRY, LINELOCATIONENTRY structure [TAPI 2.2], LPLINELOCATIONENTRY, LPLINELOCATIONENTRY structure pointer [TAPI 2.2], _tapi2_linelocationentry_str, tapi/LINELOCATIONENTRY, tapi/LPLINELOCATIONENTRY, tapi2.linelocationentry_str"
+ms.keywords: '*LPLINELOCATIONENTRY, LINELOCATIONENTRY, LINELOCATIONENTRY structure [TAPI 2.2], LPLINELOCATIONENTRY, LPLINELOCATIONENTRY structure pointer [TAPI 2.2], _tapi2_linelocationentry_str, tapi/LINELOCATIONENTRY, tapi/LPLINELOCATIONENTRY, tapi2.linelocationentry_str'
 ms.topic: struct
-f1_keywords: 
- - "tapi/LINELOCATIONENTRY"
+f1_keywords:
+- tapi/LINELOCATIONENTRY
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - LINELOCATIONENTRY
+- LINELOCATIONENTRY
 targetos: Windows
 req.typenames: LINELOCATIONENTRY, *LPLINELOCATIONENTRY
 req.redist: 

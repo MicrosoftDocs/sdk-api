@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcasync.RpcErrorAddRecord
 title: RpcErrorAddRecord function (rpcasync.h)
-
 description: The RpcErrorAddRecord function adds extended error information to a chain of extended error information records.
 old-location: rpc\rpcerroraddrecord.htm
 tech.root: Rpc
 ms.assetid: b82708ef-0760-49b0-87d2-3d55a07b351f
-
 ms.date: 12/05/2018
 ms.keywords: RpcErrorAddRecord, RpcErrorAddRecord function [RPC], _rpc_rpcerroraddrecord, rpc.rpcerroraddrecord, rpcasync/RpcErrorAddRecord
 ms.topic: function
-f1_keywords: 
- - "rpcasync/RpcErrorAddRecord"
+f1_keywords:
+- rpcasync/RpcErrorAddRecord
 dev_langs:
- - c++
+- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcErrorAddRecord
+- RpcErrorAddRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

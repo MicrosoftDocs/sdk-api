@@ -1,19 +1,17 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.get_InternalPort
 title: IStaticPortMapping::get_InternalPort (natupnp.h)
-
 description: The get_InternalPort method retrieves the internal port on the client computer for this port mapping.
 old-location: ics\istaticportmapping_get_internalport.htm
 tech.root: ics
 ms.assetid: 21b07be3-a838-4e7c-b521-100e2422f8b1
-
 ms.date: 12/05/2018
 ms.keywords: IStaticPortMapping interface [ICS/ICF],get_InternalPort method, IStaticPortMapping.get_InternalPort, IStaticPortMapping::get_InternalPort, _ics_istaticportmapping_get_internalport, get_InternalPort, get_InternalPort method [ICS/ICF], get_InternalPort method [ICS/ICF],IStaticPortMapping interface, ics.istaticportmapping_get_internalport, natupnp/IStaticPortMapping::get_InternalPort
 ms.topic: method
-f1_keywords: 
- - "natupnp/IStaticPortMapping.get_InternalPort"
+f1_keywords:
+- natupnp/IStaticPortMapping.get_InternalPort
 dev_langs:
- - c++
+- c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - IStaticPortMapping.get_InternalPort
+- IStaticPortMapping.get_InternalPort
 targetos: Windows
 req.typenames: 
 req.redist: 

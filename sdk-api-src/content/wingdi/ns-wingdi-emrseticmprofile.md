@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMRSETICMPROFILE
 title: EMRSETICMPROFILE (wingdi.h)
-
 description: The EMRSETICMPROFILE structure contains members for the SetICMProfile enhanced metafile record.
 old-location: gdi\emrseticmprofile.htm
 tech.root: gdi
 ms.assetid: 2f43db1e-95eb-4812-9422-ddc9df634c15
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRSETICMPROFILE, *PEMRSETICMPROFILEA, *PEMRSETICMPROFILEW, EMRSETICMPROFILE, EMRSETICMPROFILE structure [Windows GDI], EMRSETICMPROFILEA, EMRSETICMPROFILEA structure [Windows GDI], EMRSETICMPROFILEW, EMRSETICMPROFILEW structure [Windows GDI], PEMRSETICMPROFILE, PEMRSETICMPROFILE structure pointer [Windows GDI], PEMRSETICMPROFILEA, PEMRSETICMPROFILEA structure pointer [Windows GDI], PEMRSETICMPROFILEW, PEMRSETICMPROFILEW structure pointer [Windows GDI], _win32_EMRSETICMPROFILE_str, gdi.emrseticmprofile, wingdi/EMRSETICMPROFILE, wingdi/EMRSETICMPROFILEA, wingdi/EMRSETICMPROFILEW, wingdi/PEMRSETICMPROFILE, wingdi/PEMRSETICMPROFILEA, wingdi/PEMRSETICMPROFILEW"
+ms.keywords: '*PEMRSETICMPROFILE, *PEMRSETICMPROFILEA, *PEMRSETICMPROFILEW, EMRSETICMPROFILE, EMRSETICMPROFILE structure [Windows GDI], EMRSETICMPROFILEA, EMRSETICMPROFILEA structure [Windows GDI], EMRSETICMPROFILEW, EMRSETICMPROFILEW structure [Windows GDI], PEMRSETICMPROFILE, PEMRSETICMPROFILE structure pointer [Windows GDI], PEMRSETICMPROFILEA, PEMRSETICMPROFILEA structure pointer [Windows GDI], PEMRSETICMPROFILEW, PEMRSETICMPROFILEW structure pointer [Windows GDI], _win32_EMRSETICMPROFILE_str, gdi.emrseticmprofile, wingdi/EMRSETICMPROFILE, wingdi/EMRSETICMPROFILEA, wingdi/EMRSETICMPROFILEW, wingdi/PEMRSETICMPROFILE, wingdi/PEMRSETICMPROFILEA, wingdi/PEMRSETICMPROFILEW'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRSETICMPROFILE"
+f1_keywords:
+- wingdi/EMRSETICMPROFILE
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRSETICMPROFILE
+- EMRSETICMPROFILE
 targetos: Windows
 req.typenames: EMRSETICMPROFILE, *PEMRSETICMPROFILE, EMRSETICMPROFILEA, *PEMRSETICMPROFILEA, EMRSETICMPROFILEW, *PEMRSETICMPROFILEW
 req.redist: 

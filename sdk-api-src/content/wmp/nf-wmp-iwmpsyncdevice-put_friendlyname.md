@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.put_friendlyName
 title: IWMPSyncDevice::put_friendlyName (wmp.h)
-
 description: The put_friendlyName method specifies the user-defined name of the device.
 old-location: wmp\iwmpsyncdevice_put_friendlyname.htm
 tech.root: WMP
 ms.assetid: caea8f34-8d0c-49ce-ae86-fda6c6b0b68b
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],put_friendlyName method, IWMPSyncDevice.put_friendlyName, IWMPSyncDevice::put_friendlyName, IWMPSyncDeviceput_friendlyName, put_friendlyName, put_friendlyName method [Windows Media Player], put_friendlyName method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_put_friendlyname, wmp/IWMPSyncDevice::put_friendlyName
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPSyncDevice.put_friendlyName"
+f1_keywords:
+- wmp/IWMPSyncDevice.put_friendlyName
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPSyncDevice.put_friendlyName
+- IWMPSyncDevice.put_friendlyName
 targetos: Windows
 req.typenames: 
 req.redist: 

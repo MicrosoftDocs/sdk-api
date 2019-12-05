@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_recoveredPackets
 title: IWMPNetwork::get_recoveredPackets (wmp.h)
-
 description: The get_recoveredPackets method retrieves the number of recovered packets.
 old-location: wmp\iwmpnetwork_get_recoveredpackets.htm
 tech.root: WMP
 ms.assetid: 1c1b41c3-286c-4d1f-ab2f-ce088289eaae
-
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_recoveredPackets method, IWMPNetwork.get_recoveredPackets, IWMPNetwork::get_recoveredPackets, IWMPNetworkget_recoveredPackets, get_recoveredPackets, get_recoveredPackets method [Windows Media Player], get_recoveredPackets method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_recoveredpackets, wmp/IWMPNetwork::get_recoveredPackets
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPNetwork.get_recoveredPackets"
+f1_keywords:
+- wmp/IWMPNetwork.get_recoveredPackets
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPNetwork.get_recoveredPackets
+- IWMPNetwork.get_recoveredPackets
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:msclus.CLUSTER_NODE_STATUS
 title: CLUSTER_NODE_STATUS (msclus.h)
-
 description: Describes the status of a cluster node.
 old-location: mscs\cluster_node_status.htm
 tech.root: MsCS
 ms.assetid: DFCCAB22-EF79-4E4D-959A-FE2090E4EA02
-
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_NODE_STATUS, CLUSTER_NODE_STATUS enumeration [Failover Cluster], NodeStatusDrainCompleted, NodeStatusDrainFailed, NodeStatusDrainInProgress, NodeStatusIsolated, NodeStatusMax, NodeStatusNormal, NodeStatusQuarantined, clusapi/CLUSTER_NODE_STATUS, clusapi/NodeStatusDrainCompleted, clusapi/NodeStatusDrainFailed, clusapi/NodeStatusDrainInProgress, clusapi/NodeStatusIsolated, clusapi/NodeStatusMax, clusapi/NodeStatusNormal, clusapi/NodeStatusQuarantined, msclus/CLUSTER_NODE_STATUS, msclus/NodeStatusDrainCompleted, msclus/NodeStatusDrainFailed, msclus/NodeStatusDrainInProgress, msclus/NodeStatusIsolated, msclus/NodeStatusMax, msclus/NodeStatusNormal, msclus/NodeStatusQuarantined, mscs.cluster_node_status
 ms.topic: enum
-f1_keywords: 
- - "msclus/CLUSTER_NODE_STATUS"
+f1_keywords:
+- msclus/CLUSTER_NODE_STATUS
 dev_langs:
- - c++
+- c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
- - MsClus.h
+- ClusAPI.h
+- MsClus.h
 api_name:
- - CLUSTER_NODE_STATUS
+- CLUSTER_NODE_STATUS
 targetos: Windows
 req.typenames: CLUSTER_NODE_STATUS
 req.redist: 

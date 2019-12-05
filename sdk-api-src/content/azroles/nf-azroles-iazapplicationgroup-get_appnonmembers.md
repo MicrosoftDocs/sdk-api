@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.get_AppNonMembers
 title: IAzApplicationGroup::get_AppNonMembers (azroles.h)
-
 description: Retrieves the application groups that are refused membership in this application group.
 old-location: security\iazapplicationgroup_appnonmembers.htm
 tech.root: SecAuthZ
 ms.assetid: a85a9004-f3f5-44ce-a0d7-fa450af74917
-
 ms.date: 12/05/2018
 ms.keywords: AppNonMembers property [Security], AppNonMembers property [Security],AzApplicationGroup object, AppNonMembers property [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AppNonMembers property, IAzApplicationGroup interface [Security],AppNonMembers property, IAzApplicationGroup.AppNonMembers, IAzApplicationGroup.get_AppNonMembers, IAzApplicationGroup::AppNonMembers, IAzApplicationGroup::get_AppNonMembers, azroles/IAzApplicationGroup::AppNonMembers, azroles/IAzApplicationGroup::get_AppNonMembers, get_AppNonMembers, security.iazapplicationgroup_appnonmembers
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplicationGroup.AppNonMembers"
+f1_keywords:
+- azroles/IAzApplicationGroup.AppNonMembers
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplicationGroup.AppNonMembers
- - IAzApplicationGroup.get_AppNonMembers
- - AzApplicationGroup.AppNonMembers
+- IAzApplicationGroup.AppNonMembers
+- IAzApplicationGroup.get_AppNonMembers
+- AzApplicationGroup.AppNonMembers
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_MultisessionInterfaces
 title: IFileSystemImage::get_MultisessionInterfaces (imapi2fs.h)
-
 description: Retrieves the list of multi-session interfaces for the optical media.
 old-location: imapi\ifilesystemimage_get_multisessioninterfaces.htm
 tech.root: imapi
 ms.assetid: 10c0b02e-965e-47ca-95f4-237c21b505ad
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_MultisessionInterfaces method, IFileSystemImage.get_MultisessionInterfaces, IFileSystemImage::get_MultisessionInterfaces, get_MultisessionInterfaces, get_MultisessionInterfaces method [IMAPI], get_MultisessionInterfaces method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_multisessioninterfaces, imapi2fs/IFileSystemImage::get_MultisessionInterfaces
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImage.get_MultisessionInterfaces"
+f1_keywords:
+- imapi2fs/IFileSystemImage.get_MultisessionInterfaces
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage.get_MultisessionInterfaces
+- IFileSystemImage.get_MultisessionInterfaces
 targetos: Windows
 req.typenames: 
 req.redist: 

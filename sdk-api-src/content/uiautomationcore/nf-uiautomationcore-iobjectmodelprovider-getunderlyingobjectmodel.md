@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IObjectModelProvider.GetUnderlyingObjectModel
 title: IObjectModelProvider::GetUnderlyingObjectModel (uiautomationcore.h)
-
 description: Retrieves an interface used to access the underlying object model of the provider.
 old-location: winauto\uiauto_IObjectModelProvider_GetUnderlyingObjectModel.htm
 tech.root: WinAuto
 ms.assetid: 305758A1-D584-45A3-B118-B46B3731820D
-
 ms.date: 12/05/2018
 ms.keywords: GetUnderlyingObjectModel, GetUnderlyingObjectModel method [Windows Accessibility], GetUnderlyingObjectModel method [Windows Accessibility],IObjectModelProvider interface, IObjectModelProvider interface [Windows Accessibility],GetUnderlyingObjectModel method, IObjectModelProvider.GetUnderlyingObjectModel, IObjectModelProvider::GetUnderlyingObjectModel, uiautomationcore/IObjectModelProvider::GetUnderlyingObjectModel, winauto.uiauto_IObjectModelProvider_GetUnderlyingObjectModel
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IObjectModelProvider.GetUnderlyingObjectModel"
+f1_keywords:
+- uiautomationcore/IObjectModelProvider.GetUnderlyingObjectModel
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IObjectModelProvider.GetUnderlyingObjectModel
+- IObjectModelProvider.GetUnderlyingObjectModel
 targetos: Windows
 req.typenames: 
 req.redist: 

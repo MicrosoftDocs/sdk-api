@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptCreateHash
 title: CryptCreateHash function (wincrypt.h)
-
 description: Initiates the hashing of a stream of data. It creates and returns to the calling application a handle to a cryptographic service provider (CSP) hash object.
 old-location: security\cryptcreatehash.htm
 tech.root: SecCrypto
 ms.assetid: 05e3db57-8d83-48e2-8590-68039ea27253
-
 ms.date: 12/05/2018
 ms.keywords: CRYPT_SECRETDIGEST, CryptCreateHash, CryptCreateHash function [Security], _crypto2_cryptcreatehash, security.cryptcreatehash, wincrypt/CryptCreateHash
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptCreateHash"
+f1_keywords:
+- wincrypt/CryptCreateHash
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-cryptoapi-l1-1-0.dll
- - cryptsp.dll
+- Advapi32.dll
+- API-MS-Win-Security-cryptoapi-l1-1-0.dll
+- cryptsp.dll
 api_name:
- - CryptCreateHash
+- CryptCreateHash
 targetos: Windows
 req.typenames: 
 req.redist: 

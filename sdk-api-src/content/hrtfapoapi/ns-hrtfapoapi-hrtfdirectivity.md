@@ -1,19 +1,17 @@
 ---
 UID: NS:hrtfapoapi.HrtfDirectivity
 title: HrtfDirectivity (hrtfapoapi.h)
-
 description: Base directivity pattern descriptor. Describes the type of directivity applied to a sound.
 old-location: xaudio2\hrtfdirectivity.htm
 tech.root: xaudio2
 ms.assetid: 830DB9FC-B2D0-46E5-B0C1-0BBC94D37050
-
 ms.date: 12/05/2018
 ms.keywords: HrtfDirectivity, HrtfDirectivity structure [XAudio2 Audio Mixing APIs], PHrtfDirectivity, PHrtfDirectivity structure pointer [XAudio2 Audio Mixing APIs], hrtfapoapi/HrtfDirectivity, hrtfapoapi/PHrtfDirectivity, xaudio2.hrtfdirectivity
 ms.topic: struct
-f1_keywords: 
- - "hrtfapoapi/HrtfDirectivity"
+f1_keywords:
+- hrtfapoapi/HrtfDirectivity
 dev_langs:
- - c++
+- c++
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - HrtfApoApi.h
+- HrtfApoApi.h
 api_name:
- - HrtfDirectivity
+- HrtfDirectivity
 targetos: Windows
 req.typenames: HrtfDirectivity
 req.redist: 

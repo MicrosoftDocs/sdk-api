@@ -1,19 +1,17 @@
 ---
 UID: NN:windows.ui.xaml.hosting.referencetracker.IFindReferenceTargetsCallback
 title: IFindReferenceTargetsCallback (windows.ui.xaml.hosting.referencetracker.h)
-
 description: Defines the interface for callbacks from IReferenceTracker::FindTrackerTargets. The implementation of this interface must pass any IReferenceTrackerTarget instances it finds to the FoundTrackerTarget method.
 old-location: winrt\ifindreferencetargetscallback.htm
 tech.root: WinRT
 ms.assetid: 1733680a-6b14-4541-b30d-407f5185ac14
-
 ms.date: 12/05/2018
 ms.keywords: IFindReferenceTargetsCallback, IFindReferenceTargetsCallback interface [Windows Runtime], IFindReferenceTargetsCallback interface [Windows Runtime],described, windows/IFindReferenceTargetsCallback, winrt.ifindreferencetargetscallback
 ms.topic: interface
-f1_keywords: 
- - "windows.ui.xaml.hosting.referencetracker/IFindReferenceTargetsCallback"
+f1_keywords:
+- windows.ui.xaml.hosting.referencetracker/IFindReferenceTargetsCallback
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.ui.xaml.hosting.referencetracker.h
+- Windows.ui.xaml.hosting.referencetracker.h
 api_name:
- - IFindReferenceTargetsCallback
+- IFindReferenceTargetsCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

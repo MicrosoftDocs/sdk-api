@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IRegisterTuner.Register
 title: IRegisterTuner::Register (tuner.h)
-
 description: This feature is expected to be available on a future version of the Windows operating system.
 old-location: mstv\iregistertuner_register.htm
 tech.root: mstv
 ms.assetid: 17a59666-1915-496f-9474-ddd6b3da58f5
-
 ms.date: 12/05/2018
 ms.keywords: IRegisterTuner interface [Microsoft TV Technologies],Register method, IRegisterTuner.Register, IRegisterTuner::Register, IRegisterTunerRegister, Register, Register method [Microsoft TV Technologies], Register method [Microsoft TV Technologies],IRegisterTuner interface, mstv.iregistertuner_register, tuner/IRegisterTuner::Register
 ms.topic: method
-f1_keywords: 
- - "tuner/IRegisterTuner.Register"
+f1_keywords:
+- tuner/IRegisterTuner.Register
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IRegisterTuner.Register
+- IRegisterTuner.Register
 targetos: Windows
 req.typenames: 
 req.redist: 

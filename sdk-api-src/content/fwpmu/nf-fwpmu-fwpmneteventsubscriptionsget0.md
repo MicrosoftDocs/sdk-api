@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmNetEventSubscriptionsGet0
 title: FwpmNetEventSubscriptionsGet0 function (fwpmu.h)
-
 description: Retrieves an array of all the current net event notification subscriptions.
 old-location: fwp\fwpmneteventsubscriptionsget0.htm
 tech.root: fwp
 ms.assetid: 08a5378d-b9f7-45d9-b63c-fabcd94b717c
-
 ms.date: 12/05/2018
 ms.keywords: FwpmNetEventSubscriptionsGet0, FwpmNetEventSubscriptionsGet0 function [Filtering], fwp.fwpmneteventsubscriptionsget0, fwpmu/FwpmNetEventSubscriptionsGet0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmNetEventSubscriptionsGet0"
+f1_keywords:
+- fwpmu/FwpmNetEventSubscriptionsGet0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmNetEventSubscriptionsGet0
+- FwpmNetEventSubscriptionsGet0
 targetos: Windows
 req.typenames: 
 req.redist: 

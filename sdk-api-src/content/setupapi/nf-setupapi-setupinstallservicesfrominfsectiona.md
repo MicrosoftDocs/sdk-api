@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupInstallServicesFromInfSectionA
 title: SetupInstallServicesFromInfSectionA function (setupapi.h)
-
 description: The SetupInstallServicesFromInfSection function performs service installation and deletion operations that are specified in the Service Install sections listed in the Service section of an INF file.
 old-location: setup\setupinstallservicesfrominfsection.htm
 tech.root: SetupApi
 ms.assetid: 25a937d3-29f4-46e8-91e5-e956fbe647d7
-
 ms.date: 12/05/2018
 ms.keywords: SPSVCINST_CLOBBER_SECURITY, SPSVCINST_DELETEEVENTLOGENTRY, SPSVCINST_NOCLOBBER_DEPENDENCIES, SPSVCINST_NOCLOBBER_DESCRIPTION, SPSVCINST_NOCLOBBER_DISPLAYNAME, SPSVCINST_NOCLOBBER_ERRORCONTROL, SPSVCINST_NOCLOBBER_LOADORDERGROUP, SPSVCINST_NOCLOBBER_REQUIREDPRIVILEGES, SPSVCINST_NOCLOBBER_STARTTYPE, SPSVCINST_STARTSERVICE, SPSVCINST_STOPSERVICE, SPSVCINST_TAGTOFRONT, SetupInstallServicesFromInfSection, SetupInstallServicesFromInfSection function [Setup API], SetupInstallServicesFromInfSectionA, SetupInstallServicesFromInfSectionW, _setupapi_setupinstallservicesfrominfsection, setup.setupinstallservicesfrominfsection, setupapi/SetupInstallServicesFromInfSection, setupapi/SetupInstallServicesFromInfSectionA, setupapi/SetupInstallServicesFromInfSectionW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupInstallServicesFromInfSection"
+f1_keywords:
+- setupapi/SetupInstallServicesFromInfSection
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
- - Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
- - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
+- Setupapi.dll
+- Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
+- Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
 api_name:
- - SetupInstallServicesFromInfSection
- - SetupInstallServicesFromInfSectionA
- - SetupInstallServicesFromInfSectionW
+- SetupInstallServicesFromInfSection
+- SetupInstallServicesFromInfSectionA
+- SetupInstallServicesFromInfSectionW
 targetos: Windows
 req.typenames: 
 req.redist: 

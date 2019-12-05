@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetTransform
 title: Graphics::GetTransform (gdiplusgraphics.h)
-
 description: The Graphics::GetTransform method gets the world transformation matrix of this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetTransform_matrix_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\gettransform.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetTransform, GetTransform method [GDI+], GetTransform method [GDI+],Graphics class, Graphics class [GDI+],GetTransform method, Graphics.GetTransform, Graphics::GetTransform, _gdiplus_CLASS_Graphics_GetTransform_matrix_, gdiplus._gdiplus_CLASS_Graphics_GetTransform_matrix_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.GetTransform"
+f1_keywords:
+- gdiplusgraphics/Graphics.GetTransform
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.GetTransform
+- Graphics.GetTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

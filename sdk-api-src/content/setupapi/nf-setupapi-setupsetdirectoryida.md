@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupSetDirectoryIdA
 title: SetupSetDirectoryIdA function (setupapi.h)
-
 description: The SetupSetDirectoryId function associates a directory identifier in an INF file with a specific directory.
 old-location: setup\setupsetdirectoryid.htm
 tech.root: SetupApi
 ms.assetid: bacb7b90-a391-4f05-bedb-0c0f52fd15f9
-
 ms.date: 12/05/2018
 ms.keywords: SetupSetDirectoryId, SetupSetDirectoryId function [Setup API], SetupSetDirectoryIdA, SetupSetDirectoryIdW, _setupapi_setupsetdirectoryid, setup.setupsetdirectoryid, setupapi/SetupSetDirectoryId, setupapi/SetupSetDirectoryIdA, setupapi/SetupSetDirectoryIdW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupSetDirectoryId"
+f1_keywords:
+- setupapi/SetupSetDirectoryId
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupSetDirectoryId
- - SetupSetDirectoryIdA
- - SetupSetDirectoryIdW
+- SetupSetDirectoryId
+- SetupSetDirectoryIdA
+- SetupSetDirectoryIdW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:drt.drt_search_result_tag
 title: DRT_SEARCH_RESULT (drt.h)
-
 description: DRT_SEARCH_RESULT.
 old-location: p2p\drt_search_result.htm
 tech.root: P2PSdk
 ms.assetid: 23cf713e-2730-456c-a3da-649c5ed00ffb
-
 ms.date: 12/05/2018
-ms.keywords: "*PDRT_SEARCH_RESULT, DRT_SEARCH_RESULT, DRT_SEARCH_RESULT structure [Peer Networking], PDRT_SEARCH_RESULT, PDRT_SEARCH_RESULT structure pointer [Peer Networking], drt/DRT_SEARCH_RESULT, drt/PDRT_SEARCH_RESULT, p2p.drt_search_result"
+ms.keywords: '*PDRT_SEARCH_RESULT, DRT_SEARCH_RESULT, DRT_SEARCH_RESULT structure [Peer Networking], PDRT_SEARCH_RESULT, PDRT_SEARCH_RESULT structure pointer [Peer Networking], drt/DRT_SEARCH_RESULT, drt/PDRT_SEARCH_RESULT, p2p.drt_search_result'
 ms.topic: struct
-f1_keywords: 
- - "drt/DRT_SEARCH_RESULT"
+f1_keywords:
+- drt/DRT_SEARCH_RESULT
 dev_langs:
- - c++
+- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - drt.h
+- drt.h
 api_name:
- - DRT_SEARCH_RESULT
+- DRT_SEARCH_RESULT
 targetos: Windows
 req.typenames: DRT_SEARCH_RESULT, *PDRT_SEARCH_RESULT
 req.redist: 

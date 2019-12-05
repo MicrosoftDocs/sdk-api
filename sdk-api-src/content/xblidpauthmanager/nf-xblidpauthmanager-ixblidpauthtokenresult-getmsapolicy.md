@@ -1,19 +1,17 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetMsaPolicy
 title: IXblIdpAuthTokenResult::GetMsaPolicy (xblidpauthmanager.h)
-
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getmsapolicy.htm
 tech.root: xblidp
 ms.assetid: C2DFE2D9-EDDF-41BF-9E58-3D35054434DA
-
 ms.date: 12/05/2018
 ms.keywords: GetMsaPolicy, GetMsaPolicy method, GetMsaPolicy method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetMsaPolicy method, IXblIdpAuthTokenResult.GetMsaPolicy, IXblIdpAuthTokenResult::GetMsaPolicy, xblidp.ixblidpauthtokenresult_getmsapolicy, xblidpauthmanager/IXblIdpAuthTokenResult::GetMsaPolicy
 ms.topic: method
-f1_keywords: 
- - "xblidpauthmanager/IXblIdpAuthTokenResult.GetMsaPolicy"
+f1_keywords:
+- xblidpauthmanager/IXblIdpAuthTokenResult.GetMsaPolicy
 dev_langs:
- - c++
+- c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XblIdpAuthManager.h
+- XblIdpAuthManager.h
 api_name:
- - IXblIdpAuthTokenResult.GetMsaPolicy
+- IXblIdpAuthTokenResult.GetMsaPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:relogger.ITraceEvent.SetThreadId
 title: ITraceEvent::SetThreadId (relogger.h)
-
 description: Sets the identifier of a thread that generates an event.
 old-location: etw\ievent_setthreadid.htm
 tech.root: ETW
 ms.assetid: 9f5d293e-da87-4b83-9407-fc4179a42a46
-
 ms.date: 12/05/2018
 ms.keywords: ITraceEvent interface [ETW],SetThreadId method, ITraceEvent.SetThreadId, ITraceEvent::SetThreadId, SetThreadId, SetThreadId method [ETW], SetThreadId method [ETW],ITraceEvent interface, etw.ievent_setthreadid, relogger/ITraceEvent::SetThreadId
 ms.topic: method
-f1_keywords: 
- - "relogger/ITraceEvent.SetThreadId"
+f1_keywords:
+- relogger/ITraceEvent.SetThreadId
 dev_langs:
- - c++
+- c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Relogger.h
+- Relogger.h
 api_name:
- - ITraceEvent.SetThreadId
+- ITraceEvent.SetThreadId
 targetos: Windows
 req.typenames: 
 req.redist: 

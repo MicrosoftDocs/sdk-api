@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateRenderTargetView
 title: ID3D10Device::CreateRenderTargetView (d3d10.h)
-
 description: Create a render-target view for accessing resource data.
 old-location: direct3d10\id3d10device_createrendertargetview.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createrendertargetview.htm
-
 ms.date: 12/05/2018
 ms.keywords: 080acf2e-83e1-3be3-60d6-8385a6585f49, CreateRenderTargetView, CreateRenderTargetView method [Direct3D 10], CreateRenderTargetView method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateRenderTargetView method, ID3D10Device.CreateRenderTargetView, ID3D10Device::CreateRenderTargetView, d3d10/ID3D10Device::CreateRenderTargetView, direct3d10.id3d10device_createrendertargetview
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.CreateRenderTargetView"
+f1_keywords:
+- d3d10/ID3D10Device.CreateRenderTargetView
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.CreateRenderTargetView
+- ID3D10Device.CreateRenderTargetView
 targetos: Windows
 req.typenames: 
 req.redist: 

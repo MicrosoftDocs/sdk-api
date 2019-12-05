@@ -1,19 +1,17 @@
 ---
 UID: NF:winusb.WinUsb_StartTrackingForTimeSync
 title: WinUsb_StartTrackingForTimeSync function (winusb.h)
-
 description: The WinUsb_StartTrackingForTimeSync function starts the time synchronization feature in the USB driver stack that gets the associated system QPC time for USB bus frames and microframes.
 old-location: buses\winusb_starttrackingfortimesync.htm
 tech.root: usbref
 ms.assetid: FC19CDFD-76F1-49E3-A212-E4F490D679E6
-
 ms.date: 12/05/2018
 ms.keywords: WinUsb_StartTrackingForTimeSync, WinUsb_StartTrackingForTimeSync function [Buses], buses.winusb_starttrackingfortimesync, winusb/WinUsb_StartTrackingForTimeSync
 ms.topic: function
-f1_keywords: 
- - "winusb/WinUsb_StartTrackingForTimeSync"
+f1_keywords:
+- winusb/WinUsb_StartTrackingForTimeSync
 dev_langs:
- - c++
+- c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Winusb.lib
 req.dll: Winusb.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winusb.dll
+- Winusb.dll
 api_name:
- - WinUsb_StartTrackingForTimeSync
+- WinUsb_StartTrackingForTimeSync
 targetos: Windows
 req.typenames: 
 req.redist: 

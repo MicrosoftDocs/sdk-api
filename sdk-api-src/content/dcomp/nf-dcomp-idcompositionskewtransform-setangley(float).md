@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionSkewTransform.SetAngleY(float)
 title: IDCompositionSkewTransform::SetAngleY (dcomp.h)
-
 description: Changes the value of the AngleY property of a 2D skew transform.
 old-location: directcomp\idcompositionskewtransform_setangley_float.htm
 tech.root: directcomp
 ms.assetid: 5B356D5E-2F69-4620-880C-14F51786A8A5
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionSkewTransform interface [DirectComposition],SetAngleY method, IDCompositionSkewTransform.SetAngleY, IDCompositionSkewTransform::SetAngleY, IDCompositionSkewTransform::SetAngleY(float), SetAngleY, SetAngleY method [DirectComposition], SetAngleY method [DirectComposition],IDCompositionSkewTransform interface, dcomp/IDCompositionSkewTransform::SetAngleY, directcomp.idcompositionskewtransform_setangley_float
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionSkewTransform.SetAngleY"
+f1_keywords:
+- dcomp/IDCompositionSkewTransform.SetAngleY
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionSkewTransform.SetAngleY
+- IDCompositionSkewTransform.SetAngleY
 targetos: Windows
 req.typenames: 
 req.redist: 

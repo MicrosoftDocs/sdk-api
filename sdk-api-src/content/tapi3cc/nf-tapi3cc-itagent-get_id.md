@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3cc.ITAgent.get_ID
 title: ITAgent::get_ID (tapi3cc.h)
-
 description: The get_ID method gets an agent's ID.
 old-location: tapi3\itagent_get_id.htm
 tech.root: Tapi
 ms.assetid: e5045dd7-5a12-415e-b68a-f483f77f4887
-
 ms.date: 12/05/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_ID method, ITAgent.get_ID, ITAgent::get_ID, _tapi3_itagent_get_id, get_ID, get_ID method [TAPI 2.2], get_ID method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_id, tapi3cc/ITAgent::get_ID
 ms.topic: method
-f1_keywords: 
- - "tapi3cc/ITAgent.get_ID"
+f1_keywords:
+- tapi3cc/ITAgent.get_ID
 dev_langs:
- - c++
+- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAgent.get_ID
+- ITAgent.get_ID
 targetos: Windows
 req.typenames: 
 req.redist: 

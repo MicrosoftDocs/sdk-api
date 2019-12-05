@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrmscreen.IFsrmFileScreenException
 title: IFsrmFileScreenException (fsrmscreen.h)
-
 description: Used to configure an exception that excludes the specified files from the file screening process.
 old-location: fsrm\ifsrmfilescreenexception.htm
 tech.root: fsrm
 ms.assetid: 188e76dd-6df6-412f-8d51-fc727075de80
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileScreenException, IFsrmFileScreenException interface [File Server Resource Manager], IFsrmFileScreenException interface [File Server Resource Manager],described, fs.ifsrmfilescreenexception, fsrm.ifsrmfilescreenexception, fsrmscreen/IFsrmFileScreenException
 ms.topic: interface
-f1_keywords: 
- - "fsrmscreen/IFsrmFileScreenException"
+f1_keywords:
+- fsrmscreen/IFsrmFileScreenException
 dev_langs:
- - c++
+- c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileScreenException
+- IFsrmFileScreenException
 targetos: Windows
 req.typenames: 
 req.redist: 

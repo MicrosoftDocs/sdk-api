@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ISecurityProperty.ReleaseSID
 title: ISecurityProperty::ReleaseSID (comsvcs.h)
-
 description: Releases the security identifier returned by one of the other ISecurityProperty methods.
 old-location: cos\isecurityproperty_releasesid.htm
 tech.root: cossdk
 ms.assetid: 572bf3fd-eb85-40de-b607-26b77b9d9cf8
-
 ms.date: 12/05/2018
 ms.keywords: ISecurityProperty interface [COM+],ReleaseSID method, ISecurityProperty.ReleaseSID, ISecurityProperty::ReleaseSID, ReleaseSID, ReleaseSID method [COM+], ReleaseSID method [COM+],ISecurityProperty interface, _cos_ISecurityProperty_ReleaseSID, comsvcs/ISecurityProperty::ReleaseSID, cos.isecurityproperty_releasesid
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ISecurityProperty.ReleaseSID"
+f1_keywords:
+- comsvcs/ISecurityProperty.ReleaseSID
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISecurityProperty.ReleaseSID
+- ISecurityProperty.ReleaseSID
 targetos: Windows
 req.typenames: 
 req.redist: 

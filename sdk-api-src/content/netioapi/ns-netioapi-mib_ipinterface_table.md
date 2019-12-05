@@ -1,19 +1,17 @@
 ---
 UID: NS:netioapi._MIB_IPINTERFACE_TABLE
 title: MIB_IPINTERFACE_TABLE (netioapi.h)
-
 description: Contains a table of IP interface entries.
 old-location: mib\mib_ipinterface_table.htm
 tech.root: MIB
 ms.assetid: c4bbb949-5573-42cd-bb03-e308ac40d569
-
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_IPINTERFACE_TABLE, MIB_IPINTERFACE_TABLE, MIB_IPINTERFACE_TABLE structure [MIB], PMIB_IPINTERFACE_TABLE, PMIB_IPINTERFACE_TABLE structure pointer [MIB], _MIB_IPINTERFACE_TABLE, mib.mib_ipinterface_table, netioapi/MIB_IPINTERFACE_TABLE, netioapi/PMIB_IPINTERFACE_TABLE"
+ms.keywords: '*PMIB_IPINTERFACE_TABLE, MIB_IPINTERFACE_TABLE, MIB_IPINTERFACE_TABLE structure [MIB], PMIB_IPINTERFACE_TABLE, PMIB_IPINTERFACE_TABLE structure pointer [MIB], _MIB_IPINTERFACE_TABLE, mib.mib_ipinterface_table, netioapi/MIB_IPINTERFACE_TABLE, netioapi/PMIB_IPINTERFACE_TABLE'
 ms.topic: struct
-f1_keywords: 
- - "netioapi/MIB_IPINTERFACE_TABLE"
+f1_keywords:
+- netioapi/MIB_IPINTERFACE_TABLE
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Netioapi.h
+- Netioapi.h
 api_name:
- - MIB_IPINTERFACE_TABLE
+- MIB_IPINTERFACE_TABLE
 targetos: Windows
 req.typenames: MIB_IPINTERFACE_TABLE, *PMIB_IPINTERFACE_TABLE
 req.redist: 

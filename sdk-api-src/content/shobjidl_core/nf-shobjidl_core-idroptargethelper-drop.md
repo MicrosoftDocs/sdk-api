@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IDropTargetHelper.Drop
 title: IDropTargetHelper::Drop (shobjidl_core.h)
-
 description: Notifies the drag-image manager that the drop target's IDropTarget::Drop method has been called.
 old-location: shell\IDropTargetHelper_Drop.htm
 tech.root: shell
 ms.assetid: fe825459-3daa-4e42-b421-302ad6d2a122
-
 ms.date: 12/05/2018
 ms.keywords: Drop, Drop method [Windows Shell], Drop method [Windows Shell],IDropTargetHelper interface, IDropTargetHelper interface [Windows Shell],Drop method, IDropTargetHelper.Drop, IDropTargetHelper::Drop, _win32_IDropTargetHelper_Drop, shell.IDropTargetHelper_Drop, shobjidl_core/IDropTargetHelper::Drop
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IDropTargetHelper.Drop"
+f1_keywords:
+- shobjidl_core/IDropTargetHelper.Drop
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IDropTargetHelper.Drop
+- IDropTargetHelper.Drop
 targetos: Windows
 req.typenames: 
 req.redist: 

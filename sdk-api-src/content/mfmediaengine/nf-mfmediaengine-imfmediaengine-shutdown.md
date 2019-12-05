@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.Shutdown
 title: IMFMediaEngine::Shutdown (mfmediaengine.h)
-
 description: Shuts down the Media Engine and releases the resources it is using.
 old-location: mf\imfmediaengine_shutdown.htm
 tech.root: medfound
 ms.assetid: 8B7BCEAC-7A30-4B60-AD0E-E8DCE404DDE9
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],Shutdown method, IMFMediaEngine.Shutdown, IMFMediaEngine::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_shutdown, mfmediaengine/IMFMediaEngine::Shutdown
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngine.Shutdown"
+f1_keywords:
+- mfmediaengine/IMFMediaEngine.Shutdown
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngine.Shutdown
+- IMFMediaEngine.Shutdown
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMMetadataEditor.Close
 title: IWMMetadataEditor::Close (wmsdkidl.h)
-
 description: The Close method closes the open file without saving any changes.
 old-location: wmformat\iwmmetadataeditor_close.htm
 tech.root: wmformat
 ms.assetid: 7c10d0ea-8a19-4374-94f2-e12d7c1ba553
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [windows Media Format], Close method [windows Media Format],IWMMetadataEditor interface, IWMMetadataEditor interface [windows Media Format],Close method, IWMMetadataEditor.Close, IWMMetadataEditor::Close, IWMMetadataEditorClose, wmformat.iwmmetadataeditor_close, wmsdkidl/IWMMetadataEditor::Close
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMMetadataEditor.Close"
+f1_keywords:
+- wmsdkidl/IWMMetadataEditor.Close
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMMetadataEditor.Close
+- IWMMetadataEditor.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

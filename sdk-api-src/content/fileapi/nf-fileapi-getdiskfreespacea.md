@@ -1,19 +1,17 @@
 ---
 UID: NF:fileapi.GetDiskFreeSpaceA
 title: GetDiskFreeSpaceA function (fileapi.h)
-
 description: Retrieves information about the specified disk, including the amount of free space on the disk.
 old-location: fs\getdiskfreespace.htm
 tech.root: FileIO
 ms.assetid: 4fe14c49-3fd6-48b7-92de-a0c867b2e042
-
 ms.date: 12/05/2018
 ms.keywords: GetDiskFreeSpace, GetDiskFreeSpace function [Files], GetDiskFreeSpaceA, GetDiskFreeSpaceW, _win32_getdiskfreespace, base.getdiskfreespace, fileapi/GetDiskFreeSpace, fileapi/GetDiskFreeSpaceA, fileapi/GetDiskFreeSpaceW, fs.getdiskfreespace, winbase/GetDiskFreeSpace, winbase/GetDiskFreeSpaceA, winbase/GetDiskFreeSpaceW
 ms.topic: function
-f1_keywords: 
- - "fileapi/GetDiskFreeSpace"
+f1_keywords:
+- fileapi/GetDiskFreeSpace
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l1-2-0.dll
- - API-MS-Win-Core-File-l1-2-1.dll
- - API-MS-Win-Core-File-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l1-2-0.dll
+- API-MS-Win-Core-File-l1-2-1.dll
+- API-MS-Win-Core-File-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - GetDiskFreeSpace
- - GetDiskFreeSpaceA
- - GetDiskFreeSpaceW
+- GetDiskFreeSpace
+- GetDiskFreeSpaceA
+- GetDiskFreeSpaceW
 targetos: Windows
 req.typenames: 
 req.redist: 

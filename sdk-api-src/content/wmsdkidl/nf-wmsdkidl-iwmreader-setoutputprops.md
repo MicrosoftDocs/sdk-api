@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReader.SetOutputProps
 title: IWMReader::SetOutputProps (wmsdkidl.h)
-
 description: The SetOutputProps method specifies the media properties of an uncompressed output stream.
 old-location: wmformat\iwmreader_setoutputprops.htm
 tech.root: wmformat
 ms.assetid: 0a5325d1-880b-4d65-96af-9d311dca989b
-
 ms.date: 12/05/2018
 ms.keywords: IWMReader interface [windows Media Format],SetOutputProps method, IWMReader.SetOutputProps, IWMReader::SetOutputProps, IWMReaderSetOutputProps, SetOutputProps, SetOutputProps method [windows Media Format], SetOutputProps method [windows Media Format],IWMReader interface, wmformat.iwmreader_setoutputprops, wmsdkidl/IWMReader::SetOutputProps
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReader.SetOutputProps"
+f1_keywords:
+- wmsdkidl/IWMReader.SetOutputProps
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReader.SetOutputProps
+- IWMReader.SetOutputProps
 targetos: Windows
 req.typenames: 
 req.redist: 

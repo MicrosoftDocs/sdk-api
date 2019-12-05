@@ -1,19 +1,17 @@
 ---
 UID: NF:securitybaseapi.GetAce
 title: GetAce function (securitybaseapi.h)
-
 description: Obtains a pointer to an access control entry (ACE) in an access control list (ACL).
 old-location: security\getace.htm
 tech.root: SecAuthZ
 ms.assetid: 5b5d8751-20d7-40a2-bd70-cfbe956aaa03
-
 ms.date: 12/05/2018
 ms.keywords: GetAce, GetAce function [Security], _win32_getace, security.getace, securitybaseapi/GetAce
 ms.topic: function
-f1_keywords: 
- - "securitybaseapi/GetAce"
+f1_keywords:
+- securitybaseapi/GetAce
 dev_langs:
- - c++
+- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - API-MS-Win-Security-base-l1-1-0.dll
- - API-MS-Win-Security-base-l1-2-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Security-Base-L1-2-1.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- API-MS-Win-Security-base-l1-1-0.dll
+- API-MS-Win-Security-base-l1-2-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - GetAce
+- GetAce
 targetos: Windows
 req.typenames: 
 req.redist: 

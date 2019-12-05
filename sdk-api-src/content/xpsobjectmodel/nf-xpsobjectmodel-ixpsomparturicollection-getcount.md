@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartUriCollection.GetCount
 title: IXpsOMPartUriCollection::GetCount (xpsobjectmodel.h)
-
 description: Gets the number of IOpcPartUri interface pointers in the collection.
 old-location: xps\ixpsomparturicollection_getcount.htm
 tech.root: printdocs
 ms.assetid: fa716168-4584-4622-bfdf-7b022ff202c6
-
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMPartUriCollection interface, IXpsOMPartUriCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMPartUriCollection.GetCount, IXpsOMPartUriCollection::GetCount, xps.ixpsomparturicollection_getcount, xpsobjectmodel/IXpsOMPartUriCollection::GetCount
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPartUriCollection.GetCount"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPartUriCollection.GetCount
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPartUriCollection.GetCount
+- IXpsOMPartUriCollection.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

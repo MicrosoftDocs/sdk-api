@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.IRecordInfo.IsMatchingType
 title: IRecordInfo::IsMatchingType (oaidl.h)
-
 description: Determines whether the record that is passed in matches that of the current record information.
 old-location: automat\irecordinfo_ismatchingtype.htm
 tech.root: automat
 ms.assetid: 3db29912-3864-4750-b255-77dcffe711cf
-
 ms.date: 12/05/2018
 ms.keywords: IRecordInfo interface [Automation],IsMatchingType method, IRecordInfo.IsMatchingType, IRecordInfo::IsMatchingType, IsMatchingType, IsMatchingType method [Automation], IsMatchingType method [Automation],IRecordInfo interface, _oa96_IRecordInfo_IsMatchingType, automat.irecordinfo_ismatchingtype, oaidl/IRecordInfo::IsMatchingType
 ms.topic: method
-f1_keywords: 
- - "oaidl/IRecordInfo.IsMatchingType"
+f1_keywords:
+- oaidl/IRecordInfo.IsMatchingType
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - IRecordInfo.IsMatchingType
+- IRecordInfo.IsMatchingType
 targetos: Windows
 req.typenames: 
 req.redist: 

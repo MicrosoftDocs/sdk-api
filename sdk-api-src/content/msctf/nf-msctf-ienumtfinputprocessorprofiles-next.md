@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.IEnumTfInputProcessorProfiles.Next
 title: IEnumTfInputProcessorProfiles::Next (msctf.h)
-
 description: The IEnumTfInputProcessorProfiles::Next method obtains, from the current position, the specified number of elements in the enumeration sequence.
 old-location: tsf\ienumtfinputprocessorprofiles_next.htm
 tech.root: TSF
 ms.assetid: b936c479-a5f1-47a3-bd5a-f1b83cd84dc0
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTfInputProcessorProfiles interface [Text Services Framework],Next method, IEnumTfInputProcessorProfiles.Next, IEnumTfInputProcessorProfiles::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfInputProcessorProfiles interface, msctf/IEnumTfInputProcessorProfiles::Next, tsf.ienumtfinputprocessorprofiles_next
 ms.topic: method
-f1_keywords: 
- - "msctf/IEnumTfInputProcessorProfiles.Next"
+f1_keywords:
+- msctf/IEnumTfInputProcessorProfiles.Next
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - IEnumTfInputProcessorProfiles.Next
+- IEnumTfInputProcessorProfiles.Next
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

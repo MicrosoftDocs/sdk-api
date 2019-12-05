@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.CreatePropertyCondition
 title: IFsrmFileManagementJob::CreatePropertyCondition (fsrmreports.h)
-
 description: Creates a new property condition and adds it to the collection of property conditions.
 old-location: fsrm\ifsrmfilemanagementjob_createpropertycondition.htm
 tech.root: fsrm
 ms.assetid: 1b264e9c-4ba0-4de2-acdc-94338519c5af
-
 ms.date: 12/05/2018
 ms.keywords: CreatePropertyCondition, CreatePropertyCondition method [File Server Resource Manager], CreatePropertyCondition method [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],CreatePropertyCondition method, IFsrmFileManagementJob.CreatePropertyCondition, IFsrmFileManagementJob::CreatePropertyCondition, fs.ifsrmfilemanagementjob_createpropertycondition, fsrm.ifsrmfilemanagementjob_createpropertycondition, fsrmreports/IFsrmFileManagementJob::CreatePropertyCondition
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmFileManagementJob.CreatePropertyCondition"
+f1_keywords:
+- fsrmreports/IFsrmFileManagementJob.CreatePropertyCondition
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob.CreatePropertyCondition
+- IFsrmFileManagementJob.CreatePropertyCondition
 targetos: Windows
 req.typenames: 
 req.redist: 

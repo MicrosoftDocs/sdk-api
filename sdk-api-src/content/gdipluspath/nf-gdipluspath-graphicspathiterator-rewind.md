@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPathIterator.Rewind
 title: GraphicsPathIterator::Rewind (gdipluspath.h)
-
 description: The GraphicsPathIterator::Rewind method rewinds this iterator to the beginning of its associated path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_Rewind_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\rewind.htm
-
 ms.date: 12/05/2018
 ms.keywords: GraphicsPathIterator class [GDI+],Rewind method, GraphicsPathIterator.Rewind, GraphicsPathIterator::Rewind, Rewind, Rewind method [GDI+], Rewind method [GDI+],GraphicsPathIterator class, _gdiplus_CLASS_GraphicsPathIterator_Rewind_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_Rewind_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPathIterator.Rewind"
+f1_keywords:
+- gdipluspath/GraphicsPathIterator.Rewind
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPathIterator.Rewind
+- GraphicsPathIterator.Rewind
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fileapi.GetTempFileNameW
 title: GetTempFileNameW function (fileapi.h)
-
 description: Creates a name for a temporary file. If a unique file name is generated, an empty file is created and the handle to it is released; otherwise, only a file name is generated.
 old-location: fs\gettempfilename.htm
 tech.root: FileIO
 ms.assetid: 0a30055f-a3b9-439f-9304-40ee8a07b967
-
 ms.date: 12/05/2018
 ms.keywords: GetTempFileName, GetTempFileName function [Files], GetTempFileNameA, GetTempFileNameW, _win32_gettempfilename, base.gettempfilename, fileapi/GetTempFileName, fileapi/GetTempFileNameA, fileapi/GetTempFileNameW, fs.gettempfilename, winbase/GetTempFileName, winbase/GetTempFileNameA, winbase/GetTempFileNameW
 ms.topic: function
-f1_keywords: 
- - "fileapi/GetTempFileName"
+f1_keywords:
+- fileapi/GetTempFileName
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l1-2-0.dll
- - API-MS-Win-Core-File-l1-2-1.dll
- - API-MS-Win-Core-File-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l1-2-0.dll
+- API-MS-Win-Core-File-l1-2-1.dll
+- API-MS-Win-Core-File-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - GetTempFileName
- - GetTempFileNameA
- - GetTempFileNameW
+- GetTempFileName
+- GetTempFileNameA
+- GetTempFileNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

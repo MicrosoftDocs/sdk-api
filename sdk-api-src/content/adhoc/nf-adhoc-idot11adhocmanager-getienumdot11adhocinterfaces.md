@@ -1,19 +1,17 @@
 ---
 UID: NF:adhoc.IDot11AdHocManager.GetIEnumDot11AdHocInterfaces
 title: IDot11AdHocManager::GetIEnumDot11AdHocInterfaces (adhoc.h)
-
 description: Returns the set of wireless network interface cards (NICs) available on the machine.
 old-location: nwifi\idot11adhocmanager_getienumdot11adhocinterfaces.htm
 tech.root: NativeWiFi
 ms.assetid: 2e705533-3657-4997-ae84-e18defbbc02a
-
 ms.date: 12/05/2018
 ms.keywords: GetIEnumDot11AdHocInterfaces, GetIEnumDot11AdHocInterfaces method [NativeWIFI], GetIEnumDot11AdHocInterfaces method [NativeWIFI],IDot11AdHocManager interface, IDot11AdHocManager interface [NativeWIFI],GetIEnumDot11AdHocInterfaces method, IDot11AdHocManager.GetIEnumDot11AdHocInterfaces, IDot11AdHocManager::GetIEnumDot11AdHocInterfaces, adhoc/IDot11AdHocManager::GetIEnumDot11AdHocInterfaces, nwifi.idot11adhocmanager_getienumdot11adhocinterfaces
 ms.topic: method
-f1_keywords: 
- - "adhoc/IDot11AdHocManager.GetIEnumDot11AdHocInterfaces"
+f1_keywords:
+- adhoc/IDot11AdHocManager.GetIEnumDot11AdHocInterfaces
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IDot11AdHocManager.GetIEnumDot11AdHocInterfaces
+- IDot11AdHocManager.GetIEnumDot11AdHocInterfaces
 targetos: Windows
 req.typenames: 
 req.redist: 

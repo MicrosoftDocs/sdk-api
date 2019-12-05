@@ -1,19 +1,17 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerW.SetLinkSource
 title: IOleUILinkContainerW::SetLinkSource (oledlg.h)
-
 description: Changes the source of a link.
 old-location: com\ioleuilinkcontainer_setlinksource.htm
 tech.root: com
 ms.assetid: c76723e8-e895-4ba1-9ba1-7e56a44cc5f2
-
 ms.date: 12/05/2018
 ms.keywords: IOleUILinkContainer interface [COM],SetLinkSource method, IOleUILinkContainer::SetLinkSource, IOleUILinkContainerA interface [COM],SetLinkSource method, IOleUILinkContainerA::SetLinkSource, IOleUILinkContainerW interface [COM],SetLinkSource method, IOleUILinkContainerW.SetLinkSource, IOleUILinkContainerW::SetLinkSource, SetLinkSource, SetLinkSource method [COM], SetLinkSource method [COM],IOleUILinkContainer interface, SetLinkSource method [COM],IOleUILinkContainerA interface, SetLinkSource method [COM],IOleUILinkContainerW interface, com.ioleuilinkcontainer_setlinksource, ole_IOleUILinkContainer_SetLinkSource, oledlg/IOleUILinkContainer::SetLinkSource, oledlg/IOleUILinkContainerA::SetLinkSource, oledlg/IOleUILinkContainerW::SetLinkSource
 ms.topic: method
-f1_keywords: 
- - "oledlg/IOleUILinkContainer.SetLinkSource"
+f1_keywords:
+- oledlg/IOleUILinkContainer.SetLinkSource
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleDlg.h
+- OleDlg.h
 api_name:
- - IOleUILinkContainer.SetLinkSource
- - IOleUILinkContainerA.SetLinkSource
- - IOleUILinkContainerW.SetLinkSource
+- IOleUILinkContainer.SetLinkSource
+- IOleUILinkContainerA.SetLinkSource
+- IOleUILinkContainerW.SetLinkSource
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:joystickapi.joyGetThreshold
 title: joyGetThreshold function (joystickapi.h)
-
 description: The joyGetThreshold function queries a joystick for its current movement threshold.
 old-location: multimedia\joygetthreshold.htm
 tech.root: Multimedia
 ms.assetid: 17084365-3fb2-422c-97dc-4501aec7a86c
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_joyGetThreshold, joyGetThreshold, joyGetThreshold function [Windows Multimedia], joystickapi/joyGetThreshold, multimedia.joygetthreshold"
+ms.keywords: _win32_joyGetThreshold, joyGetThreshold, joyGetThreshold function [Windows Multimedia], joystickapi/joyGetThreshold, multimedia.joygetthreshold
 ms.topic: function
-f1_keywords: 
- - "joystickapi/joyGetThreshold"
+f1_keywords:
+- joystickapi/joyGetThreshold
 dev_langs:
- - c++
+- c++
 req.header: joystickapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-joystick-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-joystick-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - joyGetThreshold
+- joyGetThreshold
 targetos: Windows
 req.typenames: 
 req.redist: 

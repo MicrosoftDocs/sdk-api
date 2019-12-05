@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSource.put_BlockUnrated
 title: IMSVidStreamBufferSource::put_BlockUnrated (segment.h)
-
 description: The put_BlockUnrated method specifies whether to block unrated content.
 old-location: mstv\imsvidstreambuffersource_put_blockunrated.htm
 tech.root: mstv
 ms.assetid: 9dd59b87-708b-4003-9575-54a02b97c272
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],put_BlockUnrated method, IMSVidStreamBufferSource.put_BlockUnrated, IMSVidStreamBufferSource::put_BlockUnrated, IMSVidStreamBufferSourceput_BlockUnrated, mstv.imsvidstreambuffersource_put_blockunrated, put_BlockUnrated, put_BlockUnrated method [Microsoft TV Technologies], put_BlockUnrated method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, segment/IMSVidStreamBufferSource::put_BlockUnrated
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidStreamBufferSource.put_BlockUnrated"
+f1_keywords:
+- segment/IMSVidStreamBufferSource.put_BlockUnrated
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferSource.put_BlockUnrated
+- IMSVidStreamBufferSource.put_BlockUnrated
 targetos: Windows
 req.typenames: 
 req.redist: 

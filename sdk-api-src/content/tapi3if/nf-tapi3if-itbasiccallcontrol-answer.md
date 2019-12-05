@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.Answer
 title: ITBasicCallControl::Answer (tapi3if.h)
-
 description: The Answer method answers an incoming call. This method can succeed only if the call state is CS_OFFERING.
 old-location: tapi3\itbasiccallcontrol_answer.htm
 tech.root: Tapi
 ms.assetid: 81928cf7-082e-44e1-a631-a50a1f01ecec
-
 ms.date: 12/05/2018
 ms.keywords: Answer, Answer method [TAPI 2.2], Answer method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],Answer method, ITBasicCallControl.Answer, ITBasicCallControl::Answer, _tapi3_itbasiccallcontrol_answer, tapi3.itbasiccallcontrol_answer, tapi3if/ITBasicCallControl::Answer
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITBasicCallControl.Answer"
+f1_keywords:
+- tapi3if/ITBasicCallControl.Answer
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITBasicCallControl.Answer
+- ITBasicCallControl.Answer
 targetos: Windows
 req.typenames: 
 req.redist: 

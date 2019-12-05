@@ -1,19 +1,17 @@
 ---
 UID: NN:control.IMediaPosition
 title: IMediaPosition (control.h)
-
 description: The IMediaPosition interface contains methods for seeking to a position within a stream.
 old-location: dshow\imediaposition.htm
 tech.root: DirectShow
 ms.assetid: 325dd9a4-80ca-43e3-9ff8-473df1b833e9
-
 ms.date: 12/05/2018
 ms.keywords: IMediaPosition, IMediaPosition interface [DirectShow], IMediaPosition interface [DirectShow],described, IMediaPositionInterface, control/IMediaPosition, dshow.imediaposition
 ms.topic: interface
-f1_keywords: 
- - "control/IMediaPosition"
+f1_keywords:
+- control/IMediaPosition
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaPosition
+- IMediaPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

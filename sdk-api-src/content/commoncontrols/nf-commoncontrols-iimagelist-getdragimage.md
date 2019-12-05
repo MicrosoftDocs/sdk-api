@@ -1,19 +1,17 @@
 ---
 UID: NF:commoncontrols.IImageList.GetDragImage
 title: IImageList::GetDragImage (commoncontrols.h)
-
 description: Gets the temporary image list that is used for the drag image. The function also retrieves the current drag position and the offset of the drag image relative to the drag position.
 old-location: controls\IImageList_GetDragImage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getdragimage.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetDragImage, GetDragImage method [Windows Controls], GetDragImage method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],GetDragImage method, IImageList.GetDragImage, IImageList::GetDragImage, comctl_IImageList_GetDragImage, comctl_IImageList_GetDragImage_cpp, commoncontrols/IImageList::GetDragImage, controls.IImageList_GetDragImage, controls.comctl_IImageList_GetDragImage
 ms.topic: method
-f1_keywords: 
- - "commoncontrols/IImageList.GetDragImage"
+f1_keywords:
+- commoncontrols/IImageList.GetDragImage
 dev_langs:
- - c++
+- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - IImageList.GetDragImage
+- IImageList.GetDragImage
 targetos: Windows
 req.typenames: 
 req.redist: 

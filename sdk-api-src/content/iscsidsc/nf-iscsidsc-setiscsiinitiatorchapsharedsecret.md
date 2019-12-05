@@ -1,19 +1,17 @@
 ---
 UID: NF:iscsidsc.SetIScsiInitiatorCHAPSharedSecret
 title: SetIScsiInitiatorCHAPSharedSecret function (iscsidsc.h)
-
 description: The SetIscsiInitiatorCHAPSharedSecret function establishes the default Challenge Handshake Authentication Protocol (CHAP) shared secret for all initiators on the computer.
 old-location: iscsidisc\setiscsiinitiatorchapsharedsecret.htm
 tech.root: iSCSIDisc
 ms.assetid: 9b7172a5-3a6e-49ae-8f22-77b088eb1048
-
 ms.date: 12/05/2018
 ms.keywords: SetIScsiInitiatorCHAPSharedSecret, SetIscsiInitiatorCHAPSharedSecret, SetIscsiInitiatorCHAPSharedSecret function [iSCSI Discovery Library API], iscsidisc.setiscsiinitiatorchapsharedsecret, iscsidsc/SetIscsiInitiatorCHAPSharedSecret
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/SetIscsiInitiatorCHAPSharedSecret"
+f1_keywords:
+- iscsidsc/SetIscsiInitiatorCHAPSharedSecret
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - SetIscsiInitiatorCHAPSharedSecret
+- SetIscsiInitiatorCHAPSharedSecret
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpFreeContext
 title: SnmpFreeContext function (winsnmp.h)
-
 description: The WinSNMP SnmpFreeContext function releases resources associated with an SNMP context, which is a set of managed object resources.
 old-location: snmp\snmpfreecontext.htm
 tech.root: SNMP
 ms.assetid: 15ab137e-86ea-43fc-ac8c-cd6a76feaa04
-
 ms.date: 12/05/2018
 ms.keywords: SnmpFreeContext, SnmpFreeContext function [SNMP], _snmp_snmpfreecontext, snmp.snmpfreecontext, winsnmp/SnmpFreeContext
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpFreeContext"
+f1_keywords:
+- winsnmp/SnmpFreeContext
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpFreeContext
+- SnmpFreeContext
 targetos: Windows
 req.typenames: 
 req.redist: 

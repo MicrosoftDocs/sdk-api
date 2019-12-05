@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcnsi.RpcNsProfileEltInqBeginW
 title: RpcNsProfileEltInqBeginW function (rpcnsi.h)
-
 description: The RpcNsProfileEltInqBegin function creates an inquiry context for viewing the elements in a profile.
 old-location: rpc\rpcnsprofileeltinqbegin.htm
 tech.root: Rpc
 ms.assetid: 5b14eb21-0c3e-4f12-b1dc-95b364d87a4f
-
 ms.date: 12/05/2018
 ms.keywords: RPC_C_PROFILE_ALL_ELTS, RPC_C_PROFILE_DEFAULT_ELT, RPC_C_PROFILE_MATCH_BY_BOTH, RPC_C_PROFILE_MATCH_BY_IF, RPC_C_PROFILE_MATCH_BY_MBR, RPC_C_VERS_ALL, RPC_C_VERS_COMPATIBLE, RPC_C_VERS_EXACT, RPC_C_VERS_MAJOR_ONLY, RPC_C_VERS_UPTO, RpcNsProfileEltInqBegin, RpcNsProfileEltInqBegin function [RPC], RpcNsProfileEltInqBeginA, RpcNsProfileEltInqBeginW, _rpc_rpcnsprofileeltinqbegin, rpc.rpcnsprofileeltinqbegin, rpcnsi/RpcNsProfileEltInqBegin, rpcnsi/RpcNsProfileEltInqBeginA, rpcnsi/RpcNsProfileEltInqBeginW
 ms.topic: function
-f1_keywords: 
- - "rpcnsi/RpcNsProfileEltInqBegin"
+f1_keywords:
+- rpcnsi/RpcNsProfileEltInqBegin
 dev_langs:
- - c++
+- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcns4.dll
+- Rpcns4.dll
 api_name:
- - RpcNsProfileEltInqBegin
- - RpcNsProfileEltInqBeginA
- - RpcNsProfileEltInqBeginW
+- RpcNsProfileEltInqBegin
+- RpcNsProfileEltInqBeginA
+- RpcNsProfileEltInqBeginW
 targetos: Windows
 req.typenames: 
 req.redist: 

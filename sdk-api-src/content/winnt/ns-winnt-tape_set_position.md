@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._TAPE_SET_POSITION
 title: TAPE_SET_POSITION (winnt.h)
-
 description: Describes how and where to position the tape.
 old-location: backup\tape_set_position_str.htm
 tech.root: Backup
 ms.assetid: ee5e3f0f-b3dd-49a7-889d-d7b96107dc45
-
 ms.date: 12/05/2018
-ms.keywords: "*PTAPE_SET_POSITION, PTAPE_SET_POSITION, PTAPE_SET_POSITION structure pointer [Backup], TAPE_ABSOLUTE_BLOCK, TAPE_LOGICAL_BLOCK, TAPE_REWIND, TAPE_SET_POSITION, TAPE_SET_POSITION structure [Backup], TAPE_SPACE_END_OF_DATA, TAPE_SPACE_FILEMARKS, TAPE_SPACE_RELATIVE_BLOCKS, TAPE_SPACE_SEQUENTIAL_FMKS, TAPE_SPACE_SEQUENTIAL_SMKS, TAPE_SPACE_SETMARKS, _TAPE_SET_POSITION, _win32_tape_set_position_str, backup.tape_set_position_str, winnt/PTAPE_SET_POSITION, winnt/TAPE_SET_POSITION"
+ms.keywords: '*PTAPE_SET_POSITION, PTAPE_SET_POSITION, PTAPE_SET_POSITION structure pointer [Backup], TAPE_ABSOLUTE_BLOCK, TAPE_LOGICAL_BLOCK, TAPE_REWIND, TAPE_SET_POSITION, TAPE_SET_POSITION structure [Backup], TAPE_SPACE_END_OF_DATA, TAPE_SPACE_FILEMARKS, TAPE_SPACE_RELATIVE_BLOCKS, TAPE_SPACE_SEQUENTIAL_FMKS, TAPE_SPACE_SEQUENTIAL_SMKS, TAPE_SPACE_SETMARKS, _TAPE_SET_POSITION, _win32_tape_set_position_str, backup.tape_set_position_str, winnt/PTAPE_SET_POSITION, winnt/TAPE_SET_POSITION'
 ms.topic: struct
-f1_keywords: 
- - "winnt/TAPE_SET_POSITION"
+f1_keywords:
+- winnt/TAPE_SET_POSITION
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - TAPE_SET_POSITION
+- TAPE_SET_POSITION
 targetos: Windows
 req.typenames: TAPE_SET_POSITION, *PTAPE_SET_POSITION
 req.redist: 

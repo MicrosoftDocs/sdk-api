@@ -1,19 +1,17 @@
 ---
 UID: NS:commdlg._OFNOTIFYEXW
 title: OFNOTIFYEXW (commdlg.h)
-
 description: Contains information about a CDN_INCLUDEITEM notification message.
 old-location: dlgbox\ofnotifyex_str.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\ofnotifyex.htm
-
 ms.date: 12/05/2018
 ms.keywords: '*LPOFNOTIFYEXW, LPOFNOTIFYEX, LPOFNOTIFYEX structure pointer [Dialog Boxes], OFNOTIFYEX, OFNOTIFYEX structure [Dialog Boxes], OFNOTIFYEXA, OFNOTIFYEXW, _win32_OFNOTIFYEX_str, _win32_ofnotifyex_str_cpp, commdlg/LPOFNOTIFYEX, commdlg/OFNOTIFYEX, commdlg/OFNOTIFYEXA, commdlg/OFNOTIFYEXW, dlgbox.ofnotifyex_str, winui._win32_ofnotifyex_str'
 ms.topic: struct
 f1_keywords:
 - commdlg/OFNOTIFYEX
 dev_langs:
- - c++
+- c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows

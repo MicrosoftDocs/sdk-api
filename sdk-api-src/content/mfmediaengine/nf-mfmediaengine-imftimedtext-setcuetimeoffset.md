@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.SetCueTimeOffset
 title: IMFTimedText::SetCueTimeOffset (mfmediaengine.h)
-
 description: Sets the offset to the cue time.
 old-location: mf\imftimedtext_setcuetimeoffset.htm
 tech.root: medfound
 ms.assetid: 42406E51-546F-4714-9179-E5D676805DDE
-
 ms.date: 12/05/2018
 ms.keywords: IMFTimedText interface [Media Foundation],SetCueTimeOffset method, IMFTimedText.SetCueTimeOffset, IMFTimedText::SetCueTimeOffset, SetCueTimeOffset, SetCueTimeOffset method [Media Foundation], SetCueTimeOffset method [Media Foundation],IMFTimedText interface, mf.imftimedtext_setcuetimeoffset, mfmediaengine/IMFTimedText::SetCueTimeOffset
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedText.SetCueTimeOffset"
+f1_keywords:
+- mfmediaengine/IMFTimedText.SetCueTimeOffset
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedText.SetCueTimeOffset
+- IMFTimedText.SetCueTimeOffset
 targetos: Windows
 req.typenames: 
 req.redist: 

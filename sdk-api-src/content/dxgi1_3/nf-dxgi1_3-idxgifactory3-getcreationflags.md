@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_3.IDXGIFactory3.GetCreationFlags
 title: IDXGIFactory3::GetCreationFlags (dxgi1_3.h)
-
 description: Gets the flags that were used when a Microsoft DirectX Graphics Infrastructure (DXGI) object was created.
 old-location: direct3ddxgi\idxgifactory3_getcreationflags.htm
 tech.root: direct3ddxgi
 ms.assetid: 1B4A5DC9-6853-4047-B64D-BD251352AC89
-
 ms.date: 12/05/2018
 ms.keywords: GetCreationFlags, GetCreationFlags method [DXGI], GetCreationFlags method [DXGI],IDXGIFactory3 interface, IDXGIFactory3 interface [DXGI],GetCreationFlags method, IDXGIFactory3.GetCreationFlags, IDXGIFactory3::GetCreationFlags, direct3ddxgi.idxgifactory3_getcreationflags, dxgi1_3/IDXGIFactory3::GetCreationFlags
 ms.topic: method
-f1_keywords: 
- - "dxgi1_3/IDXGIFactory3.GetCreationFlags"
+f1_keywords:
+- dxgi1_3/IDXGIFactory3.GetCreationFlags
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxgi1_3.h
+- dxgi1_3.h
 api_name:
- - IDXGIFactory3.GetCreationFlags
+- IDXGIFactory3.GetCreationFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

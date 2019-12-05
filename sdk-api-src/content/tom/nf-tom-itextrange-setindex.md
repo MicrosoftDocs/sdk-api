@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.SetIndex
 title: ITextRange::SetIndex (tom.h)
-
 description: Changes this range to the specified unit of the story.
 old-location: controls\ITextRange_SetIndex.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setindex.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],SetIndex method, ITextRange.SetIndex, ITextRange::SetIndex, SetIndex, SetIndex method [Windows Controls], SetIndex method [Windows Controls],ITextRange interface, _win32_ITextRange_SetIndex, _win32_ITextRange_SetIndex_cpp, controls.ITextRange_SetIndex, controls._win32_ITextRange_SetIndex, tom/ITextRange::SetIndex
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.SetIndex"
+f1_keywords:
+- tom/ITextRange.SetIndex
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.SetIndex
+- ITextRange.SetIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

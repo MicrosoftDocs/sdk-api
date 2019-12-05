@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwOpenPort.get_Scope
 title: INetFwOpenPort::get_Scope (netfw.h)
-
 description: Controls the network scope from which the port can listen.
 old-location: ics\inetfwopenport_scope.htm
 tech.root: ics
 ms.assetid: a5bd787f-e00c-4a57-adc7-a9618809198a
-
 ms.date: 12/05/2018
 ms.keywords: INetFwOpenPort interface [ICS/ICF],Scope property, INetFwOpenPort.Scope, INetFwOpenPort.get_Scope, INetFwOpenPort::Scope, INetFwOpenPort::get_Scope, INetFwOpenPort::put_Scope, Scope property [ICS/ICF], Scope property [ICS/ICF],INetFwOpenPort interface, get_Scope, ics.inetfwopenport_scope, netfw/INetFwOpenPort::Scope, netfw/INetFwOpenPort::get_Scope, netfw/INetFwOpenPort::put_Scope
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwOpenPort.Scope"
+f1_keywords:
+- netfw/INetFwOpenPort.Scope
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwOpenPort.Scope
- - INetFwOpenPort.get_Scope
- - INetFwOpenPort.put_Scope
+- INetFwOpenPort.Scope
+- INetFwOpenPort.get_Scope
+- INetFwOpenPort.put_Scope
 targetos: Windows
 req.typenames: 
 req.redist: 

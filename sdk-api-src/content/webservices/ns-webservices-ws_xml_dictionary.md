@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_XML_DICTIONARY
 title: WS_XML_DICTIONARY (webservices.h)
-
 description: Represents a set of unique strings. This information is used by the binary encoding to write a more compact xml document.
 old-location: wsw\ws_xml_dictionary.htm
 tech.root: wsw
 ms.assetid: 2cba47fd-a049-4e50-99dd-20ccf91c9e0f
-
 ms.date: 12/05/2018
 ms.keywords: WS_XML_DICTIONARY, WS_XML_DICTIONARY structure [Web Services for Windows], webservices/WS_XML_DICTIONARY, wsw.ws_xml_dictionary
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_XML_DICTIONARY"
+f1_keywords:
+- webservices/WS_XML_DICTIONARY
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_XML_DICTIONARY
+- WS_XML_DICTIONARY
 targetos: Windows
 req.typenames: WS_XML_DICTIONARY
 req.redist: 

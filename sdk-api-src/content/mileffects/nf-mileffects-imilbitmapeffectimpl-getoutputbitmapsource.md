@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectImpl.GetOutputBitmapSource
 title: IMILBitmapEffectImpl::GetOutputBitmapSource (mileffects.h)
-
 description: Gets the output bitmap source of the effect of the given render context.
 old-location: wibe\_wibe_imilbitmapeffectimpl_getoutputbitmapsource.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectimpl\getoutputbitmapsource.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetOutputBitmapSource, GetOutputBitmapSource method [WPF Bitmap Effects], GetOutputBitmapSource method [WPF Bitmap Effects],IMILBitmapEffectImpl interface, IMILBitmapEffectImpl interface [WPF Bitmap Effects],GetOutputBitmapSource method, IMILBitmapEffectImpl.GetOutputBitmapSource, IMILBitmapEffectImpl::GetOutputBitmapSource, _wibe_imilbitmapeffectimpl_getoutputbitmapsource, mileffects/IMILBitmapEffectImpl::GetOutputBitmapSource, wibe._wibe_imilbitmapeffectimpl_getoutputbitmapsource
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectImpl.GetOutputBitmapSource"
+f1_keywords:
+- mileffects/IMILBitmapEffectImpl.GetOutputBitmapSource
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.h
+- Mileffects.h
 api_name:
- - IMILBitmapEffectImpl.GetOutputBitmapSource
+- IMILBitmapEffectImpl.GetOutputBitmapSource
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

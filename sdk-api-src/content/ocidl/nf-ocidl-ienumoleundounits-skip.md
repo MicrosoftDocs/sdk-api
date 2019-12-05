@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IEnumOleUndoUnits.Skip
 title: IEnumOleUndoUnits::Skip (ocidl.h)
-
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: com\ienumoleundounits_skip.htm
 tech.root: com
 ms.assetid: 53c5356d-525a-485f-9618-37efe21be687
-
 ms.date: 12/05/2018
 ms.keywords: IEnumOleUndoUnits interface [COM],Skip method, IEnumOleUndoUnits.Skip, IEnumOleUndoUnits::Skip, Skip, Skip method [COM], Skip method [COM],IEnumOleUndoUnits interface, _ole_ienumoleundounits_skip, com.ienumoleundounits_skip, ocidl/IEnumOleUndoUnits::Skip
 ms.topic: method
-f1_keywords: 
- - "ocidl/IEnumOleUndoUnits.Skip"
+f1_keywords:
+- ocidl/IEnumOleUndoUnits.Skip
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IEnumOleUndoUnits.Skip
+- IEnumOleUndoUnits.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

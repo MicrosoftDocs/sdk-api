@@ -5,11 +5,9 @@ ms.date: 4/26/2019
 ms.keywords: SetHandleCount
 ms.topic: language-reference
 f1_keywords:
- - SetHandleCount
+- winbase/SetHandleCount
 dev_langs:
- - c++
-f1_keywords:
- - "winbase/SetHandleCount"
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,13 +29,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
+- kernel32.dll
 api_name:
- - SetHandleCount
+- SetHandleCount
 ---
 
 ## -description

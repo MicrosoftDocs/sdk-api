@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.GetDWORD
 title: CInstance::GetDWORD (instance.h)
-
 description: The GetDWORD method retrieves a DWORD property.
 old-location: wmi\cinstance_getdword.htm
 tech.root: WmiSdk
 ms.assetid: 02690232-a887-4de3-a850-84ad8ffa9ee0
-
 ms.date: 12/05/2018
-ms.keywords: "?GetDWORD@CInstance@@QBE_NPBGAAK@Z, ?GetDWORD@CInstance@@QEBA_NPEBGAEAK@Z, CInstance interface [Windows Management Instrumentation],GetDWORD method, CInstance.GetDWORD, CInstance::GetDWORD, GetDWORD, GetDWORD method [Windows Management Instrumentation], GetDWORD method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getdword, instance/CInstance::GetDWORD, wmi.cinstance_getdword"
+ms.keywords: ?GetDWORD@CInstance@@QBE_NPBGAAK@Z, ?GetDWORD@CInstance@@QEBA_NPEBGAEAK@Z, CInstance interface [Windows Management Instrumentation],GetDWORD method, CInstance.GetDWORD, CInstance::GetDWORD, GetDWORD, GetDWORD method [Windows Management Instrumentation], GetDWORD method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getdword, instance/CInstance::GetDWORD, wmi.cinstance_getdword
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.GetDWORD"
+f1_keywords:
+- instance/CInstance.GetDWORD
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.GetDWORD
- - ?GetDWORD@CInstance@@QBE_NPBGAAK@Z
- - ?GetDWORD@CInstance@@QEBA_NPEBGAEAK@Z
+- CInstance.GetDWORD
+- ?GetDWORD@CInstance@@QBE_NPBGAAK@Z
+- ?GetDWORD@CInstance@@QEBA_NPEBGAEAK@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

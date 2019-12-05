@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpHlprFreeV4Policy
 title: DhcpHlprFreeV4Policy function (dhcpsapi.h)
-
 description: Frees the memory of all the data structures within a DHCP server policy structure.
 old-location: dhcp\dhcphlprfreev4policy.htm
 tech.root: DHCP
 ms.assetid: ace10974-784b-41f7-aee9-461c8d63b479
-
 ms.date: 12/05/2018
 ms.keywords: DhcpHlprFreeV4Policy, DhcpHlprFreeV4Policy function [DHCP], dhcp.dhcphlprfreev4policy, dhcpsapi/DhcpHlprFreeV4Policy
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpHlprFreeV4Policy
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

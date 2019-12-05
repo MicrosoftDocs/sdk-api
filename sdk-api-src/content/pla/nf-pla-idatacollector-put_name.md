@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollector.put_Name
 title: IDataCollector::put_Name (pla.h)
-
 description: Retrieves or sets the name of the data collector.
 old-location: pla\idatacollector_name.htm
 tech.root: PLA
 ms.assetid: d023fe2f-7b3c-4ce9-9950-ec30ea09181c
-
 ms.date: 12/05/2018
 ms.keywords: IDataCollector interface [PLA],Name property, IDataCollector.Name, IDataCollector.put_Name, IDataCollector::Name, IDataCollector::get_Name, IDataCollector::put_Name, Name property [PLA], Name property [PLA],IDataCollector interface, base.idatacollector_name, pla.idatacollector_name, pla/IDataCollector::Name, pla/IDataCollector::get_Name, pla/IDataCollector::put_Name, put_Name
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollector.Name"
+f1_keywords:
+- pla/IDataCollector.Name
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollector.Name
- - IDataCollector.get_Name
- - IDataCollector.put_Name
+- IDataCollector.Name
+- IDataCollector.get_Name
+- IDataCollector.put_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstci.WdsTransportClientWaitForCompletion
 title: WdsTransportClientWaitForCompletion function (wdstci.h)
-
 description: Blocks until either the multicast session is complete or the specified timeout is reached.
 old-location: wds\wdstransportclientwaitforcompletion.htm
 tech.root: wds
 ms.assetid: b592ae66-5090-468e-a747-346f87e807e8
-
 ms.date: 12/05/2018
 ms.keywords: WdsTransportClientWaitForCompletion, WdsTransportClientWaitForCompletion function [Windows Deployment Services], wds.wdstransportclientwaitforcompletion, wdstci/WdsTransportClientWaitForCompletion
 ms.topic: function
-f1_keywords: 
- - "wdstci/WdsTransportClientWaitForCompletion"
+f1_keywords:
+- wdstci/WdsTransportClientWaitForCompletion
 dev_langs:
- - c++
+- c++
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wdstptc.lib
 req.dll: Wdstptc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wdstptc.dll
+- Wdstptc.dll
 api_name:
- - WdsTransportClientWaitForCompletion
+- WdsTransportClientWaitForCompletion
 targetos: Windows
 req.typenames: 
 req.redist: 

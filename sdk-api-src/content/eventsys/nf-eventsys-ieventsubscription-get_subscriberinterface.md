@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventSubscription.get_SubscriberInterface
 title: IEventSubscription::get_SubscriberInterface (eventsys.h)
-
 description: A marshaled pointer to the event interface on the subscriber (for a transient subscription).
 old-location: cos\ieventsubscription_subscriberinterface.htm
 tech.root: cossdk
 ms.assetid: 207c8e74-d8f8-4576-8f2d-762c97bc048f
-
 ms.date: 12/05/2018
 ms.keywords: IEventSubscription interface [COM+],SubscriberInterface property, IEventSubscription.SubscriberInterface, IEventSubscription.get_SubscriberInterface, IEventSubscription::SubscriberInterface, IEventSubscription::get_SubscriberInterface, IEventSubscription::put_SubscriberInterface, SubscriberInterface property [COM+], SubscriberInterface property [COM+],IEventSubscription interface, cos.ieventsubscription_subscriberinterface, eventsys/IEventSubscription::SubscriberInterface, eventsys/IEventSubscription::get_SubscriberInterface, eventsys/IEventSubscription::put_SubscriberInterface, get_SubscriberInterface
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventSubscription.SubscriberInterface"
+f1_keywords:
+- eventsys/IEventSubscription.SubscriberInterface
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IEventSubscription.SubscriberInterface
- - IEventSubscription.get_SubscriberInterface
- - IEventSubscription.put_SubscriberInterface
+- IEventSubscription.SubscriberInterface
+- IEventSubscription.get_SubscriberInterface
+- IEventSubscription.put_SubscriberInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

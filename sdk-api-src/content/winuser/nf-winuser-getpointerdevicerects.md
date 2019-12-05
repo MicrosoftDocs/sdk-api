@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetPointerDeviceRects
 title: GetPointerDeviceRects function (winuser.h)
-
 description: Gets the x and y range for the pointer device (in himetric) and the x and y range (current resolution) for the display that the pointer device is mapped to.
 old-location: input_pointerdevice\getpointerdevicerects.htm
 tech.root: Input_PointerDevice
 ms.assetid: a6586dec-6d57-4345-be56-89c7308c1097
-
 ms.date: 12/05/2018
 ms.keywords: GetPointerDeviceRects, GetPointerDeviceRects function, input_pointerdevice.getpointerdevicerects, unifiedinputstack.getpointerdevicerects, winuser/GetPointerDeviceRects
 ms.topic: function
-f1_keywords: 
- - "winuser/GetPointerDeviceRects"
+f1_keywords:
+- winuser/GetPointerDeviceRects
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
- - MinUser.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
- - API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
+- MinUser.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
+- API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
 api_name:
- - GetPointerDeviceRects
+- GetPointerDeviceRects
 targetos: Windows
 req.typenames: 
 req.redist: 

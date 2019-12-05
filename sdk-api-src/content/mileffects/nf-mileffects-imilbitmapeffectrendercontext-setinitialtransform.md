@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContext.SetInitialTransform
 title: IMILBitmapEffectRenderContext::SetInitialTransform (mileffects.h)
-
 description: Gets the initial MILMatrixF transform.
 old-location: wibe\_wibe_imilbitmapeffectrendercontext_setinitialtransform.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\setinitialtransform.htm
-
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],SetInitialTransform method, IMILBitmapEffectRenderContext.SetInitialTransform, IMILBitmapEffectRenderContext::SetInitialTransform, SetInitialTransform, SetInitialTransform method [WPF Bitmap Effects], SetInitialTransform method [WPF Bitmap Effects],IMILBitmapEffectRenderContext interface, _wibe_imilbitmapeffectrendercontext_setinitialtransform, mileffects/IMILBitmapEffectRenderContext::SetInitialTransform, wibe._wibe_imilbitmapeffectrendercontext_setinitialtransform
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectRenderContext.SetInitialTransform"
+f1_keywords:
+- mileffects/IMILBitmapEffectRenderContext.SetInitialTransform
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mileffects.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.dll
+- Mileffects.dll
 api_name:
- - IMILBitmapEffectRenderContext.SetInitialTransform
+- IMILBitmapEffectRenderContext.SetInitialTransform
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

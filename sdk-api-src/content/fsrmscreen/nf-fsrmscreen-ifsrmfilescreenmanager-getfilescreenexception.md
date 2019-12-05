@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenManager.GetFileScreenException
 title: IFsrmFileScreenManager::GetFileScreenException (fsrmscreen.h)
-
 description: Retrieves the specified file screen exception.
 old-location: fsrm\ifsrmfilescreenmanager_getfilescreenexception.htm
 tech.root: fsrm
 ms.assetid: 634c54b0-2766-4248-8a27-506eaa3d6a68
-
 ms.date: 12/05/2018
 ms.keywords: FsrmFileScreenManager class [File Server Resource Manager],GetFileScreenException method, GetFileScreenException, GetFileScreenException method [File Server Resource Manager], GetFileScreenException method [File Server Resource Manager],FsrmFileScreenManager class, GetFileScreenException method [File Server Resource Manager],IFsrmFileScreenManager interface, IFsrmFileScreenManager interface [File Server Resource Manager],GetFileScreenException method, IFsrmFileScreenManager.GetFileScreenException, IFsrmFileScreenManager::GetFileScreenException, fs.ifsrmfilescreenmanager_getfilescreenexception, fsrm.ifsrmfilescreenmanager_getfilescreenexception, fsrmscreen/IFsrmFileScreenManager::GetFileScreenException
 ms.topic: method
-f1_keywords: 
- - "fsrmscreen/IFsrmFileScreenManager.GetFileScreenException"
+f1_keywords:
+- fsrmscreen/IFsrmFileScreenManager.GetFileScreenException
 dev_langs:
- - c++
+- c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileScreenManager.GetFileScreenException
- - FsrmFileScreenManager.GetFileScreenException
+- IFsrmFileScreenManager.GetFileScreenException
+- FsrmFileScreenManager.GetFileScreenException
 targetos: Windows
 req.typenames: 
 req.redist: 

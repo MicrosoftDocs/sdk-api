@@ -1,19 +1,17 @@
 ---
 UID: NE:xpsdigitalsignature.__MIDL___MIDL_itf_xpsdigitalsignature_0000_0000_0001
 title: XPS_SIGNATURE_STATUS (xpsdigitalsignature.h)
-
 description: Describes the status of a document's digital signature.
 old-location: xps\xps_signature_status.htm
 tech.root: printdocs
 ms.assetid: 8c03749c-49cf-4d9c-90be-a75412f044ec
-
 ms.date: 12/05/2018
 ms.keywords: XPS_SIGNATURE_STATUS, XPS_SIGNATURE_STATUS enumeration [XPS Documents and Packaging], XPS_SIGNATURE_STATUS_BROKEN, XPS_SIGNATURE_STATUS_INCOMPLETE, XPS_SIGNATURE_STATUS_INCOMPLIANT, XPS_SIGNATURE_STATUS_QUESTIONABLE, XPS_SIGNATURE_STATUS_VALID, xps.xps_signature_status, xpsdigitalsignature/XPS_SIGNATURE_STATUS, xpsdigitalsignature/XPS_SIGNATURE_STATUS_BROKEN, xpsdigitalsignature/XPS_SIGNATURE_STATUS_INCOMPLETE, xpsdigitalsignature/XPS_SIGNATURE_STATUS_INCOMPLIANT, xpsdigitalsignature/XPS_SIGNATURE_STATUS_QUESTIONABLE, xpsdigitalsignature/XPS_SIGNATURE_STATUS_VALID
 ms.topic: enum
-f1_keywords: 
- - "xpsdigitalsignature/XPS_SIGNATURE_STATUS"
+f1_keywords:
+- xpsdigitalsignature/XPS_SIGNATURE_STATUS
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - XPS_SIGNATURE_STATUS
+- XPS_SIGNATURE_STATUS
 targetos: Windows
 req.typenames: XPS_SIGNATURE_STATUS
 req.redist: 

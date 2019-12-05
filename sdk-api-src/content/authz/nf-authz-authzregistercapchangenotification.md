@@ -1,19 +1,17 @@
 ---
 UID: NF:authz.AuthzRegisterCapChangeNotification
 title: AuthzRegisterCapChangeNotification function (authz.h)
-
 description: Registers a CAP update notification callback.
 old-location: security\authzregistercapchangenotification.htm
 tech.root: SecAuthZ
 ms.assetid: B0675BB3-62FA-462E-8DFB-55C47576DFEC
-
 ms.date: 12/05/2018
 ms.keywords: AuthzRegisterCapChangeNotification, AuthzRegisterCapChangeNotification function [Security], authz/AuthzRegisterCapChangeNotification, security.authzregistercapchangenotification
 ms.topic: function
-f1_keywords: 
- - "authz/AuthzRegisterCapChangeNotification"
+f1_keywords:
+- authz/AuthzRegisterCapChangeNotification
 dev_langs:
- - c++
+- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Authz.dll
+- Authz.dll
 api_name:
- - AuthzRegisterCapChangeNotification
+- AuthzRegisterCapChangeNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiCreateDevRegKeyW
 title: SetupDiCreateDevRegKeyW function (setupapi.h)
-
 description: The SetupDiCreateDevRegKey function creates a registry key for device-specific configuration information and returns a handle to the key.
 old-location: devinst\setupdicreatedevregkey.htm
 tech.root: devinst
 ms.assetid: 8c07db95-eb59-4e01-851d-f6a8da169625
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiCreateDevRegKey, SetupDiCreateDevRegKey function [Device and Driver Installation], SetupDiCreateDevRegKeyA, SetupDiCreateDevRegKeyW, devinst.setupdicreatedevregkey, di-rtns_284367d1-6053-4fd1-990b-7028a116ece2.xml, setupapi/SetupDiCreateDevRegKey
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiCreateDevRegKey
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -40,8 +38,7 @@ api_location:
 - Setupapi.lib
 - Setupapi.dll
 api_name:
-- SetupDiCreateDevRegKey
- - SetupDiCreateDevRegKeyW
+- SetupDiCreateDevRegKey - SetupDiCreateDevRegKeyW
 targetos: Windows
 req.typenames: 
 req.redist: 

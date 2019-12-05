@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMediaSession.Stop
 title: IMFMediaSession::Stop (mfidl.h)
-
 description: Stops the Media Session.
 old-location: mf\imfmediasession_stop.htm
 tech.root: medfound
 ms.assetid: 9cc769cc-24ef-4790-a10e-4aec8fb4fc1f
-
 ms.date: 12/05/2018
 ms.keywords: 9cc769cc-24ef-4790-a10e-4aec8fb4fc1f, IMFMediaSession interface [Media Foundation],Stop method, IMFMediaSession.Stop, IMFMediaSession::Stop, Stop, Stop method [Media Foundation], Stop method [Media Foundation],IMFMediaSession interface, mf.imfmediasession_stop, mfidl/IMFMediaSession::Stop
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMediaSession.Stop"
+f1_keywords:
+- mfidl/IMFMediaSession.Stop
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaSession.Stop
+- IMFMediaSession.Stop
 targetos: Windows
 req.typenames: 
 req.redist: 

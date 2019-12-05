@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo.GetAttributeByName
 title: IWMHeaderInfo::GetAttributeByName (wmsdkidl.h)
-
 description: The GetAttributeByName method returns a descriptive attribute that is stored in the header section of the ASF file.
 old-location: wmformat\iwmheaderinfo_getattributebyname.htm
 tech.root: wmformat
 ms.assetid: 8941b989-f052-4e61-a64a-06748947fcf4
-
 ms.date: 12/05/2018
 ms.keywords: GetAttributeByName, GetAttributeByName method [windows Media Format], GetAttributeByName method [windows Media Format],IWMHeaderInfo interface, GetAttributeByName method [windows Media Format],IWMHeaderInfo2 interface, GetAttributeByName method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo interface [windows Media Format],GetAttributeByName method, IWMHeaderInfo.GetAttributeByName, IWMHeaderInfo2 interface [windows Media Format],GetAttributeByName method, IWMHeaderInfo2::GetAttributeByName, IWMHeaderInfo3 interface [windows Media Format],GetAttributeByName method, IWMHeaderInfo3::GetAttributeByName, IWMHeaderInfo::GetAttributeByName, IWMHeaderInfoGetAttributeByName, wmformat.iwmheaderinfo_getattributebyname, wmsdkidl/IWMHeaderInfo2::GetAttributeByName, wmsdkidl/IWMHeaderInfo3::GetAttributeByName, wmsdkidl/IWMHeaderInfo::GetAttributeByName
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMHeaderInfo.GetAttributeByName"
+f1_keywords:
+- wmsdkidl/IWMHeaderInfo.GetAttributeByName
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
- - qasf.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
+- qasf.dll
 api_name:
- - IWMHeaderInfo.GetAttributeByName
- - IWMHeaderInfo2.GetAttributeByName
- - IWMHeaderInfo3.GetAttributeByName
+- IWMHeaderInfo.GetAttributeByName
+- IWMHeaderInfo2.GetAttributeByName
+- IWMHeaderInfo3.GetAttributeByName
 targetos: Windows
 req.typenames: 
 req.redist: 

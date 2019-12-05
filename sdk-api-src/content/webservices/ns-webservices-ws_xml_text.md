@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_XML_TEXT
 title: WS_XML_TEXT (webservices.h)
-
 description: Represents a node of text content in xml.
 old-location: wsw\ws_xml_text.htm
 tech.root: wsw
 ms.assetid: 430edd13-b664-4e10-8d61-ffa6a01dcb90
-
 ms.date: 12/05/2018
 ms.keywords: WS_XML_TEXT, WS_XML_TEXT structure [Web Services for Windows], webservices/WS_XML_TEXT, wsw.ws_xml_text
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_XML_TEXT"
+f1_keywords:
+- webservices/WS_XML_TEXT
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_XML_TEXT
+- WS_XML_TEXT
 targetos: Windows
 req.typenames: WS_XML_TEXT
 req.redist: 

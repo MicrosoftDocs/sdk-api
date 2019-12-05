@@ -1,19 +1,17 @@
 ---
 UID: NN:audioclient.ISimpleAudioVolume
 title: ISimpleAudioVolume (audioclient.h)
-
 description: The ISimpleAudioVolume interface enables a client to control the master volume level of an audio session.
 old-location: coreaudio\isimpleaudiovolume.htm
 tech.root: CoreAudio
 ms.assetid: 360211f2-de82-4ff5-896c-dee1d60cb7b7
-
 ms.date: 12/05/2018
 ms.keywords: ISimpleAudioVolume, ISimpleAudioVolume interface [Core Audio], ISimpleAudioVolume interface [Core Audio],described, audioclient/ISimpleAudioVolume, coreaudio.isimpleaudiovolume
 ms.topic: interface
-f1_keywords: 
- - "audioclient/ISimpleAudioVolume"
+f1_keywords:
+- audioclient/ISimpleAudioVolume
 dev_langs:
- - c++
+- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioclient.h
+- Audioclient.h
 api_name:
- - ISimpleAudioVolume
+- ISimpleAudioVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

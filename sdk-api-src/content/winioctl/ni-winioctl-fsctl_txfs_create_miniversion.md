@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.FSCTL_TXFS_CREATE_MINIVERSION
 title: FSCTL_TXFS_CREATE_MINIVERSION
-
 description: Creates a new miniversion for the specified file. Miniversions allow you to refer to a snapshot of the file during a transaction. Miniversions are discarded when a transaction is committed or rolled back.
 old-location: fs\fsctl_txfs_create_miniversion.htm
 tech.root: FileIO
 ms.assetid: 3d12b149-ab34-46c4-89fc-8ddc12a81fa0
-
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_CREATE_MINIVERSION, FSCTL_TXFS_CREATE_MINIVERSION control, FSCTL_TXFS_CREATE_MINIVERSION control code [Files], fs.fsctl_txfs_create_miniversion, winioctl/FSCTL_TXFS_CREATE_MINIVERSION
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_TXFS_CREATE_MINIVERSION"
+f1_keywords:
+- winioctl/FSCTL_TXFS_CREATE_MINIVERSION
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_TXFS_CREATE_MINIVERSION
+- FSCTL_TXFS_CREATE_MINIVERSION
 targetos: Windows
 req.typenames: 
 req.redist: 

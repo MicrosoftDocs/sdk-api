@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.UiaRectSetEmpty
 title: UiaRectSetEmpty function (uiautomationcoreapi.h)
-
 description: Sets the elements of a UiaRect structure to 0.
 old-location: winauto\uiauto_UiaRectSetEmptyFunction.htm
 tech.root: WinAuto
 ms.assetid: c42ced34-2645-4f10-962b-6e5345c1c439
-
 ms.date: 12/05/2018
 ms.keywords: UiaRectSetEmpty, UiaRectSetEmpty function [Windows Accessibility], uiauto.uiauto_UiaRectSetEmptyFunction, uiauto_UiaRectSetEmptyFunction, uiautomationcoreapi/UiaRectSetEmpty, winauto.uiauto_UiaRectSetEmptyFunction
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/UiaRectSetEmpty"
+f1_keywords:
+- uiautomationcoreapi/UiaRectSetEmpty
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - UiaRectSetEmpty
+- UiaRectSetEmpty
 targetos: Windows
 req.typenames: 
 req.redist: 

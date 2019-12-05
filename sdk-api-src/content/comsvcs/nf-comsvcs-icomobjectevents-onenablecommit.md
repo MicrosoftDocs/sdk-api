@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComObjectEvents.OnEnableCommit
 title: IComObjectEvents::OnEnableCommit (comsvcs.h)
-
 description: Generated when the client calls EnableCommit on a context.
 old-location: cos\icomobjectevents_onenablecommit.htm
 tech.root: cossdk
 ms.assetid: 88fdf857-1dbd-4a6b-87c6-0d72eeeab9b4
-
 ms.date: 12/05/2018
 ms.keywords: IComObjectEvents interface [COM+],OnEnableCommit method, IComObjectEvents.OnEnableCommit, IComObjectEvents::OnEnableCommit, OnEnableCommit, OnEnableCommit method [COM+], OnEnableCommit method [COM+],IComObjectEvents interface, _dtc_IComObjectEvents_OnEnableCommit, comsvcs/IComObjectEvents::OnEnableCommit, cos.icomobjectevents_onenablecommit
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComObjectEvents.OnEnableCommit"
+f1_keywords:
+- comsvcs/IComObjectEvents.OnEnableCommit
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComObjectEvents.OnEnableCommit
+- IComObjectEvents.OnEnableCommit
 targetos: Windows
 req.typenames: 
 req.redist: 

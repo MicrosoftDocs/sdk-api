@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITCallMediaEvent.get_Cause
 title: ITCallMediaEvent::get_Cause (tapi3if.h)
-
 description: The get_Cause method gets the cause of the call media event, such as a timeout on the renderer device.
 old-location: tapi3\itcallmediaevent_get_cause.htm
 tech.root: Tapi
 ms.assetid: 51905e69-ff95-46fb-a73a-785a8d444253
-
 ms.date: 12/05/2018
 ms.keywords: ITCallMediaEvent interface [TAPI 2.2],get_Cause method, ITCallMediaEvent.get_Cause, ITCallMediaEvent::get_Cause, _tapi3_itcallmediaevent_get_cause, get_Cause, get_Cause method [TAPI 2.2], get_Cause method [TAPI 2.2],ITCallMediaEvent interface, tapi3.itcallmediaevent_get_cause, tapi3if/ITCallMediaEvent::get_Cause
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITCallMediaEvent.get_Cause"
+f1_keywords:
+- tapi3if/ITCallMediaEvent.get_Cause
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITCallMediaEvent.get_Cause
+- ITCallMediaEvent.get_Cause
 targetos: Windows
 req.typenames: 
 req.redist: 

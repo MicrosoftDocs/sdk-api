@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1GeometryGroup.GetSourceGeometryCount
 title: ID2D1GeometryGroup::GetSourceGeometryCount (d2d1.h)
-
 description: Indicates the number of geometry objects in the geometry group.
 old-location: direct2d\ID2D1GeometryGroup_GetSourceGeometryCount.htm
 tech.root: Direct2D
 ms.assetid: d5338e38-98b7-4e17-933c-f806bd030f88
-
 ms.date: 12/05/2018
 ms.keywords: GetSourceGeometryCount, GetSourceGeometryCount method [Direct2D], GetSourceGeometryCount method [Direct2D],ID2D1GeometryGroup interface, ID2D1GeometryGroup interface [Direct2D],GetSourceGeometryCount method, ID2D1GeometryGroup.GetSourceGeometryCount, ID2D1GeometryGroup::GetSourceGeometryCount, d2d1/ID2D1GeometryGroup::GetSourceGeometryCount, direct2d.ID2D1GeometryGroup_GetSourceGeometryCount
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1GeometryGroup.GetSourceGeometryCount"
+f1_keywords:
+- d2d1/ID2D1GeometryGroup.GetSourceGeometryCount
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1GeometryGroup.GetSourceGeometryCount
+- ID2D1GeometryGroup.GetSourceGeometryCount
 targetos: Windows
 req.typenames: 
 req.redist: 

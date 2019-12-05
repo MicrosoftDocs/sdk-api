@@ -1,19 +1,17 @@
 ---
 UID: NF:synchapi.InitializeConditionVariable
 title: InitializeConditionVariable function (synchapi.h)
-
 description: Initializes a condition variable.
 old-location: base\initializeconditionvariable.htm
 tech.root: Sync
 ms.assetid: 55cc8d1a-d5a8-4bb2-a5ac-50b4114b1b0b
-
 ms.date: 12/05/2018
 ms.keywords: InitializeConditionVariable, InitializeConditionVariable function, base.initializeconditionvariable, synchapi/InitializeConditionVariable, winbase/InitializeConditionVariable
 ms.topic: function
-f1_keywords: 
- - "synchapi/InitializeConditionVariable"
+f1_keywords:
+- synchapi/InitializeConditionVariable
 dev_langs:
- - c++
+- c++
 req.header: synchapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Synch-l1-2-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Synch-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - vertdll.dll
+- Kernel32.dll
+- API-MS-Win-Core-Synch-l1-2-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Synch-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- vertdll.dll
 api_name:
- - InitializeConditionVariable
+- InitializeConditionVariable
 targetos: Windows
 req.typenames: 
 req.redist: 

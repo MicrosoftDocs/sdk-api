@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentNativeWindowHandle
 title: IUIAutomationElement::get_CurrentNativeWindowHandle (uiautomationclient.h)
-
 description: Retrieves the window handle of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentNativeWindowHandle.htm
 tech.root: WinAuto
 ms.assetid: 9a59f674-6b48-4679-bc24-fe46ebae2041
-
 ms.date: 12/05/2018
 ms.keywords: CurrentNativeWindowHandle property [Windows Accessibility], CurrentNativeWindowHandle property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentNativeWindowHandle property, IUIAutomationElement.CurrentNativeWindowHandle, IUIAutomationElement.get_CurrentNativeWindowHandle, IUIAutomationElement::CurrentNativeWindowHandle, IUIAutomationElement::get_CurrentNativeWindowHandle, get_CurrentNativeWindowHandle, uiauto.uiauto_IUIAutomationElement_CurrentNativeWindowHandle, uiauto_IUIAutomationElement_CurrentNativeWindowHandle, uiautomationclient/IUIAutomationElement::CurrentNativeWindowHandle, uiautomationclient/IUIAutomationElement::get_CurrentNativeWindowHandle, winauto.uiauto_IUIAutomationElement_CurrentNativeWindowHandle
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CurrentNativeWindowHandle"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CurrentNativeWindowHandle
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CurrentNativeWindowHandle
- - IUIAutomationElement.get_CurrentNativeWindowHandle
+- IUIAutomationElement.CurrentNativeWindowHandle
+- IUIAutomationElement.get_CurrentNativeWindowHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

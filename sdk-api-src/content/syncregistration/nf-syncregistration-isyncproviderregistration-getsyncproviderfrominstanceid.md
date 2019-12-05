@@ -1,19 +1,17 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.GetSyncProviderFromInstanceId
 title: ISyncProviderRegistration::GetSyncProviderFromInstanceId (syncregistration.h)
-
 description: Returns an initialized and instantiated IRegisteredSyncProvider object for the specific unique instance ID.
 old-location: winsync\isyncproviderregistration_getsyncproviderfrominstanceid.htm
 tech.root: winsync
 ms.assetid: ed204998-9e9a-4bac-b178-b4137be87ff4
-
 ms.date: 12/05/2018
 ms.keywords: GetSyncProviderFromInstanceId, GetSyncProviderFromInstanceId method [Windows Sync], GetSyncProviderFromInstanceId method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],GetSyncProviderFromInstanceId method, ISyncProviderRegistration.GetSyncProviderFromInstanceId, ISyncProviderRegistration::GetSyncProviderFromInstanceId, syncregistration/ISyncProviderRegistration::GetSyncProviderFromInstanceId, winsync.isyncproviderregistration_getsyncproviderfrominstanceid
 ms.topic: method
-f1_keywords: 
- - "syncregistration/ISyncProviderRegistration.GetSyncProviderFromInstanceId"
+f1_keywords:
+- syncregistration/ISyncProviderRegistration.GetSyncProviderFromInstanceId
 dev_langs:
- - c++
+- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncregistration.h
+- Syncregistration.h
 api_name:
- - ISyncProviderRegistration.GetSyncProviderFromInstanceId
+- ISyncProviderRegistration.GetSyncProviderFromInstanceId
 targetos: Windows
 req.typenames: 
 req.redist: 

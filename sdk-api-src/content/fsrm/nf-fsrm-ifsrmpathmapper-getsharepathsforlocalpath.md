@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrm.IFsrmPathMapper.GetSharePathsForLocalPath
 title: IFsrmPathMapper::GetSharePathsForLocalPath (fsrm.h)
-
 description: Retrieves a list of network shares that point to the specified local path.
 old-location: fsrm\ifsrmpathmapper_getsharepathsforlocalpath.htm
 tech.root: fsrm
 ms.assetid: af5c668f-4675-4568-9b6a-c8d2663d819b
-
 ms.date: 12/05/2018
 ms.keywords: FsrmPathMapper class [File Server Resource Manager],GetSharePathsForLocalPath method, GetSharePathsForLocalPath, GetSharePathsForLocalPath method [File Server Resource Manager], GetSharePathsForLocalPath method [File Server Resource Manager],FsrmPathMapper class, GetSharePathsForLocalPath method [File Server Resource Manager],IFsrmPathMapper interface, IFsrmPathMapper interface [File Server Resource Manager],GetSharePathsForLocalPath method, IFsrmPathMapper.GetSharePathsForLocalPath, IFsrmPathMapper::GetSharePathsForLocalPath, fs.ifsrmpathmapper_getsharepathsforlocalpath, fsrm.ifsrmpathmapper_getsharepathsforlocalpath, fsrm/IFsrmPathMapper::GetSharePathsForLocalPath
 ms.topic: method
-f1_keywords: 
- - "fsrm/IFsrmPathMapper.GetSharePathsForLocalPath"
+f1_keywords:
+- fsrm/IFsrmPathMapper.GetSharePathsForLocalPath
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPathMapper.GetSharePathsForLocalPath
- - FsrmPathMapper.GetSharePathsForLocalPath
+- IFsrmPathMapper.GetSharePathsForLocalPath
+- FsrmPathMapper.GetSharePathsForLocalPath
 targetos: Windows
 req.typenames: 
 req.redist: 

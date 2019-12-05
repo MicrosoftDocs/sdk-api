@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuner.put_PreferredComponentTypes
 title: ITuner::put_PreferredComponentTypes (tuner.h)
-
 description: The put_PreferredComponentTypes method sets the collection of ComponentType objects used for default component selection.
 old-location: mstv\ituner_put_preferredcomponenttypes.htm
 tech.root: mstv
 ms.assetid: cca12a71-c842-4340-9233-f4143f6e0eea
-
 ms.date: 12/05/2018
 ms.keywords: ITuner interface [Microsoft TV Technologies],put_PreferredComponentTypes method, ITuner.put_PreferredComponentTypes, ITuner::put_PreferredComponentTypes, ITunerput_PreferredComponentTypes, mstv.ituner_put_preferredcomponenttypes, put_PreferredComponentTypes, put_PreferredComponentTypes method [Microsoft TV Technologies], put_PreferredComponentTypes method [Microsoft TV Technologies],ITuner interface, tuner/ITuner::put_PreferredComponentTypes
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuner.put_PreferredComponentTypes"
+f1_keywords:
+- tuner/ITuner.put_PreferredComponentTypes
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuner.put_PreferredComponentTypes
+- ITuner.put_PreferredComponentTypes
 targetos: Windows
 req.typenames: 
 req.redist: 

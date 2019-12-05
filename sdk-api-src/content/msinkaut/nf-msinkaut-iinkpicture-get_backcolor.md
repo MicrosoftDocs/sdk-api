@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkPicture.get_BackColor
 title: IInkPicture::get_BackColor (msinkaut.h)
-
 description: Gets or sets the background color for the InkPicture control.
 old-location: tablet\inkpicture_backcolor.htm
 tech.root: tablet
 ms.assetid: f97858c5-a8f9-4d92-9ed2-bdeaeb1e2f5a
-
 ms.date: 12/05/2018
 ms.keywords: BackColor property [Tablet PC], BackColor property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],BackColor property, IInkPicture.BackColor, IInkPicture.get_BackColor, IInkPicture::BackColor, IInkPicture::get_BackColor, IInkPicture::put_BackColor, InkPicture.get_BackColor, InkPicture.put_BackColor, get_BackColor, msinkaut/IInkPicture::BackColor, msinkaut/IInkPicture::get_BackColor, msinkaut/IInkPicture::put_BackColor, put_BackColor, tablet.inkpicture_backcolor
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkPicture.BackColor"
+f1_keywords:
+- msinkaut/IInkPicture.BackColor
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkPicture.BackColor
- - IInkPicture.get_BackColor
- - IInkPicture.put_BackColor
- - InkPicture.get_BackColor
- - InkPicture.put_BackColor
+- IInkPicture.BackColor
+- IInkPicture.get_BackColor
+- IInkPicture.put_BackColor
+- InkPicture.get_BackColor
+- InkPicture.put_BackColor
 targetos: Windows
 req.typenames: 
 req.redist: 

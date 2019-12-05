@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl._RB_HITTESTINFO
 title: RBHITTESTINFO (commctrl.h)
-
 description: Contains information specific to a hit test operation. This structure is used with the RB_HITTEST message.
 old-location: controls\RBHITTESTINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\rbhittestinfo.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPRBHITTESTINFO, LPRBHITTESTINFO, LPRBHITTESTINFO structure pointer [Windows Controls], RBHITTESTINFO, RBHITTESTINFO structure [Windows Controls], RBHT_CAPTION, RBHT_CHEVRON, RBHT_CLIENT, RBHT_GRABBER, RBHT_NOWHERE, RBHT_SPLITTER, _win32_RBHITTESTINFO, _win32_RBHITTESTINFO_cpp, commctrl/LPRBHITTESTINFO, commctrl/RBHITTESTINFO, controls.RBHITTESTINFO, controls._win32_RBHITTESTINFO"
+ms.keywords: '*LPRBHITTESTINFO, LPRBHITTESTINFO, LPRBHITTESTINFO structure pointer [Windows Controls], RBHITTESTINFO, RBHITTESTINFO structure [Windows Controls], RBHT_CAPTION, RBHT_CHEVRON, RBHT_CLIENT, RBHT_GRABBER, RBHT_NOWHERE, RBHT_SPLITTER, _win32_RBHITTESTINFO, _win32_RBHITTESTINFO_cpp, commctrl/LPRBHITTESTINFO, commctrl/RBHITTESTINFO, controls.RBHITTESTINFO, controls._win32_RBHITTESTINFO'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/RBHITTESTINFO"
+f1_keywords:
+- commctrl/RBHITTESTINFO
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - RBHITTESTINFO
+- RBHITTESTINFO
 targetos: Windows
 req.typenames: RBHITTESTINFO, *LPRBHITTESTINFO
 req.redist: 

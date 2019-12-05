@@ -1,19 +1,17 @@
 ---
 UID: NE:bdaiface.UICloseReasonType
 title: UICloseReasonType (bdaiface.h)
-
 description: The UICloseReasonType enumeration type specifies the reason that a user-interface dialog for a smart card was closed.
 old-location: mstv\uiclosereasontype.htm
 tech.root: mstv
 ms.assetid: ed609bf8-9675-40bc-a789-c98cbc96e45f
-
 ms.date: 12/05/2018
 ms.keywords: DeviceClosed, ErrorClosed, NotReady, SystemClosed, UICloseReasonType, UICloseReasonType enumeration [Microsoft TV Technologies], UserClosed, bdaiface/DeviceClosed, bdaiface/ErrorClosed, bdaiface/NotReady, bdaiface/SystemClosed, bdaiface/UICloseReasonType, bdaiface/UserClosed, mstv.uiclosereasontype
 ms.topic: enum
-f1_keywords: 
- - "bdaiface/UICloseReasonType"
+f1_keywords:
+- bdaiface/UICloseReasonType
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bdaiface.h
+- Bdaiface.h
 api_name:
- - UICloseReasonType
+- UICloseReasonType
 targetos: Windows
 req.typenames: UICloseReasonType
 req.redist: 

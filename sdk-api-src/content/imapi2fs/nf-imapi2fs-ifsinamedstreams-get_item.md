@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFsiNamedStreams.get_Item
 title: IFsiNamedStreams::get_Item (imapi2fs.h)
-
 description: Retrieves a single named stream associated with a file in the file system image.
 old-location: imapi\ifsinamedstreams_get_item.htm
 tech.root: imapi
 ms.assetid: e5ab97cc-cc5a-4fc5-b79a-f1e0a8647c77
-
 ms.date: 12/05/2018
 ms.keywords: IFsiNamedStreams interface [IMAPI],get_Item method, IFsiNamedStreams.get_Item, IFsiNamedStreams::get_Item, get_Item, get_Item method [IMAPI], get_Item method [IMAPI],IFsiNamedStreams interface, imapi.ifsinamedstreams_get_item, imapi2fs/IFsiNamedStreams::get_Item
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFsiNamedStreams.get_Item"
+f1_keywords:
+- imapi2fs/IFsiNamedStreams.get_Item
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFsiNamedStreams.get_Item
+- IFsiNamedStreams.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:mfplay.MFP_FRAME_STEP_EVENT
 title: MFP_FRAME_STEP_EVENT (mfplay.h)
-
 description: Event structure for the MFP_EVENT_TYPE_FRAME_STEP event.
 old-location: mf\mfp_frame_step_event.htm
 tech.root: medfound
 ms.assetid: a395e94a-8d6d-48f5-9461-9f329af984c0
-
 ms.date: 12/05/2018
 ms.keywords: MFP_FRAME_STEP_EVENT, MFP_FRAME_STEP_EVENT structure [Media Foundation], mf.mfp_frame_step_event, mfplay/MFP_FRAME_STEP_EVENT
 ms.topic: struct
-f1_keywords: 
- - "mfplay/MFP_FRAME_STEP_EVENT"
+f1_keywords:
+- mfplay/MFP_FRAME_STEP_EVENT
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - MFP_FRAME_STEP_EVENT
+- MFP_FRAME_STEP_EVENT
 targetos: Windows
 req.typenames: MFP_FRAME_STEP_EVENT
 req.redist: 

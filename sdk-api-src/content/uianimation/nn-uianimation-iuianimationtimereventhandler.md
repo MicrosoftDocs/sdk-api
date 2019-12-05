@@ -1,19 +1,17 @@
 ---
 UID: NN:uianimation.IUIAnimationTimerEventHandler
 title: IUIAnimationTimerEventHandler (uianimation.h)
-
 description: Defines methods for handling timing events.
 old-location: uianimation\iuianimationtimereventhandler.htm
 tech.root: UIAnimation
 ms.assetid: 7d5c459e-e1f2-470b-8568-e6847acba63a
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTimerEventHandler, IUIAnimationTimerEventHandler interface [Windows Animation], IUIAnimationTimerEventHandler interface [Windows Animation],described, uianimation.iuianimationtimereventhandler, uianimation/IUIAnimationTimerEventHandler
 ms.topic: interface
-f1_keywords: 
- - "uianimation/IUIAnimationTimerEventHandler"
+f1_keywords:
+- uianimation/IUIAnimationTimerEventHandler
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTimerEventHandler
+- IUIAnimationTimerEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

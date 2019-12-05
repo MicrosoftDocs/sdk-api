@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsDocumentPackageTarget.GetXpsOMPackageWriter
 title: IXpsDocumentPackageTarget::GetXpsOMPackageWriter (xpsobjectmodel_1.h)
-
 description: Gets the IXpsOMPackageWriter object for the document package.
 old-location: xps\ixpsdocumentpackagetarget_getxpsompackagewriter.htm
 tech.root: printdocs
 ms.assetid: D20AE05F-466F-44B6-972A-06AA872FF7BA
-
 ms.date: 12/05/2018
 ms.keywords: GetXpsOMPackageWriter, GetXpsOMPackageWriter method [XPS Documents and Packaging], GetXpsOMPackageWriter method [XPS Documents and Packaging],IXpsDocumentPackageTarget interface, IXpsDocumentPackageTarget interface [XPS Documents and Packaging],GetXpsOMPackageWriter method, IXpsDocumentPackageTarget.GetXpsOMPackageWriter, IXpsDocumentPackageTarget::GetXpsOMPackageWriter, xps.ixpsdocumentpackagetarget_getxpsompackagewriter, xpsobjectmodel_1/IXpsDocumentPackageTarget::GetXpsOMPackageWriter
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel_1/IXpsDocumentPackageTarget.GetXpsOMPackageWriter"
+f1_keywords:
+- xpsobjectmodel_1/IXpsDocumentPackageTarget.GetXpsOMPackageWriter
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xpsobjectmodel_1.h
+- Xpsobjectmodel_1.h
 api_name:
- - IXpsDocumentPackageTarget.GetXpsOMPackageWriter
+- IXpsDocumentPackageTarget.GetXpsOMPackageWriter
 targetos: Windows
 req.typenames: 
 req.redist: 

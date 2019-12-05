@@ -1,19 +1,17 @@
 ---
 UID: NS:dsrole._DSROLE_OPERATION_STATE_INFO
 title: DSROLE_OPERATION_STATE_INFO (dsrole.h)
-
 description: Used with the DsRoleGetPrimaryDomainInformation function to contain the operational state data for a computer.
 old-location: ad\dsrole_operation_state_info.htm
 tech.root: ad
 ms.assetid: c6c8e510-190a-47ad-805c-b8d3fbee836d
-
 ms.date: 12/05/2018
 ms.keywords: '*PDSROLE_OPERATION_STATE_INFO, DSROLE_OPERATION_STATE_INFO, DSROLE_OPERATION_STATE_INFO structure [Active Directory], ad.dsrole_operation_state_info, dsrole/DSROLE_OPERATION_STATE_INFO'
 ms.topic: struct
 f1_keywords:
 - dsrole/DSROLE_OPERATION_STATE_INFO
 dev_langs:
- - c++
+- c++
 req.header: dsrole.h
 req.include-header: 
 req.target-type: Windows

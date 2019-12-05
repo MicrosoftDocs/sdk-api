@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateBitmapFromSourceRect
 title: IWICImagingFactory::CreateBitmapFromSourceRect (wincodec.h)
-
 description: Creates an IWICBitmap from a specified rectangle of an IWICBitmapSource.
 old-location: wic\_wic_codec_iwicimagingfactory_createbitmapfromsourcerect.htm
 tech.root: wic
 ms.assetid: 54111643-523a-4197-b7e9-ee0efeae5b88
-
 ms.date: 12/05/2018
 ms.keywords: CreateBitmapFromSourceRect, CreateBitmapFromSourceRect method [Windows Imaging Component], CreateBitmapFromSourceRect method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateBitmapFromSourceRect method, IWICImagingFactory.CreateBitmapFromSourceRect, IWICImagingFactory::CreateBitmapFromSourceRect, _wic_codec_iwicimagingfactory_createbitmapfromsourcerect, wic._wic_codec_iwicimagingfactory_createbitmapfromsourcerect, wincodec/IWICImagingFactory::CreateBitmapFromSourceRect
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICImagingFactory.CreateBitmapFromSourceRect"
+f1_keywords:
+- wincodec/IWICImagingFactory.CreateBitmapFromSourceRect
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICImagingFactory.CreateBitmapFromSourceRect
+- IWICImagingFactory.CreateBitmapFromSourceRect
 targetos: Windows
 req.typenames: 
 req.redist: 

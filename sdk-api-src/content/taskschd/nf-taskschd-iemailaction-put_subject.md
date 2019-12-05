@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IEmailAction.put_Subject
 title: IEmailAction::put_Subject (taskschd.h)
-
 description: Gets or sets the subject of the email message.
 old-location: taskschd\iemailaction_subject.htm
 tech.root: taskschd
 ms.assetid: 7e5e6e84-7d2f-4aa3-946f-fe7fac6e49db
-
 ms.date: 12/05/2018
 ms.keywords: IEmailAction interface [Task Scheduler],Subject property, IEmailAction.Subject, IEmailAction.put_Subject, IEmailAction::Subject, IEmailAction::get_Subject, IEmailAction::put_Subject, Subject property [Task Scheduler], Subject property [Task Scheduler],IEmailAction interface, put_Subject, taskschd.iemailaction_subject, taskschd/IEmailAction::Subject, taskschd/IEmailAction::get_Subject, taskschd/IEmailAction::put_Subject
 ms.topic: method
-f1_keywords: 
- - "taskschd/IEmailAction.Subject"
+f1_keywords:
+- taskschd/IEmailAction.Subject
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IEmailAction.Subject
- - IEmailAction.get_Subject
- - IEmailAction.put_Subject
+- IEmailAction.Subject
+- IEmailAction.get_Subject
+- IEmailAction.put_Subject
 targetos: Windows
 req.typenames: 
 req.redist: 

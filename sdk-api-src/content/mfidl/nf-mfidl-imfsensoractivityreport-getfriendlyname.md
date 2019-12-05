@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSensorActivityReport.GetFriendlyName
 title: IMFSensorActivityReport::GetFriendlyName (mfidl.h)
-
 description: Gets the friendly name for the sensor associated with the report.
 old-location: mf\imfsensoractivityreport_getfriendlyname.htm
 tech.root: medfound
 ms.assetid: D31EBB3D-53BC-4D11-98ED-B68A04693C68
-
 ms.date: 12/05/2018
 ms.keywords: GetFriendlyName, GetFriendlyName method [Media Foundation], GetFriendlyName method [Media Foundation],IMFSensorActivityReport interface, IMFSensorActivityReport interface [Media Foundation],GetFriendlyName method, IMFSensorActivityReport.GetFriendlyName, IMFSensorActivityReport::GetFriendlyName, mf.imfsensoractivityreport_getfriendlyname, mfidl/IMFSensorActivityReport::GetFriendlyName
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSensorActivityReport.GetFriendlyName"
+f1_keywords:
+- mfidl/IMFSensorActivityReport.GetFriendlyName
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFSensorActivityReport.GetFriendlyName
+- IMFSensorActivityReport.GetFriendlyName
 targetos: Windows
 req.typenames: 
 req.redist: 

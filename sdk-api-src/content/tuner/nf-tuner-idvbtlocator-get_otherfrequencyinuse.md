@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDVBTLocator.get_OtherFrequencyInUse
 title: IDVBTLocator::get_OtherFrequencyInUse (tuner.h)
-
 description: The get_OtherFrequencyInUse method indicates whether the frequency is being used by another DVB-T broadcaster.
 old-location: mstv\idvbtlocator_get_otherfrequencyinuse.htm
 tech.root: mstv
 ms.assetid: fcb39760-901f-4c62-a517-bee7ea96f8d9
-
 ms.date: 12/05/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],get_OtherFrequencyInUse method, IDVBTLocator.get_OtherFrequencyInUse, IDVBTLocator::get_OtherFrequencyInUse, IDVBTLocatorget_OtherFrequencyInUse, get_OtherFrequencyInUse, get_OtherFrequencyInUse method [Microsoft TV Technologies], get_OtherFrequencyInUse method [Microsoft TV Technologies],IDVBTLocator interface, mstv.idvbtlocator_get_otherfrequencyinuse, tuner/IDVBTLocator::get_OtherFrequencyInUse
 ms.topic: method
-f1_keywords: 
- - "tuner/IDVBTLocator.get_OtherFrequencyInUse"
+f1_keywords:
+- tuner/IDVBTLocator.get_OtherFrequencyInUse
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBTLocator.get_OtherFrequencyInUse
+- IDVBTLocator.get_OtherFrequencyInUse
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:p2p.peer_invitation_response_tag
 title: PEER_INVITATION_RESPONSE (p2p.h)
-
 description: The PEER_INVITATION_RESPONSE structure contains a response to an invitation to join a peer collaboration activity.
 old-location: p2p\peer_invitation_response.htm
 tech.root: P2PSdk
 ms.assetid: 9f77c471-ef05-442f-aeae-afe67319b0ff
-
 ms.date: 12/05/2018
-ms.keywords: "*PPEER_INVITATION_RESPONSE, PCPEER_INVITATION_RESPONSE, PCPEER_INVITATION_RESPONSE structure pointer [Peer Networking], PEER_INVITATION_RESPONSE, PEER_INVITATION_RESPONSE structure [Peer Networking], PPEER_INVITATION_RESPONSE, PPEER_INVITATION_RESPONSE structure pointer [Peer Networking], p2p.peer_invitation_response, p2p/PCPEER_INVITATION_RESPONSE, p2p/PEER_INVITATION_RESPONSE, p2p/PPEER_INVITATION_RESPONSE"
+ms.keywords: '*PPEER_INVITATION_RESPONSE, PCPEER_INVITATION_RESPONSE, PCPEER_INVITATION_RESPONSE structure pointer [Peer Networking], PEER_INVITATION_RESPONSE, PEER_INVITATION_RESPONSE structure [Peer Networking], PPEER_INVITATION_RESPONSE, PPEER_INVITATION_RESPONSE structure pointer [Peer Networking], p2p.peer_invitation_response, p2p/PCPEER_INVITATION_RESPONSE, p2p/PEER_INVITATION_RESPONSE, p2p/PPEER_INVITATION_RESPONSE'
 ms.topic: struct
-f1_keywords: 
- - "p2p/PEER_INVITATION_RESPONSE"
+f1_keywords:
+- p2p/PEER_INVITATION_RESPONSE
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - P2P.h
+- P2P.h
 api_name:
- - PEER_INVITATION_RESPONSE
+- PEER_INVITATION_RESPONSE
 targetos: Windows
 req.typenames: PEER_INVITATION_RESPONSE, *PPEER_INVITATION_RESPONSE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetNumberOfStreams
 title: IMFMediaEngineEx::GetNumberOfStreams (mfmediaengine.h)
-
 description: Gets the number of streams in the media resource.
 old-location: mf\imfmediaengineex_getnumberofstreams.htm
 tech.root: medfound
 ms.assetid: 7F3E805A-FE5C-4B75-9333-AE9819CFAFFA
-
 ms.date: 12/05/2018
 ms.keywords: GetNumberOfStreams, GetNumberOfStreams method [Media Foundation], GetNumberOfStreams method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetNumberOfStreams method, IMFMediaEngineEx.GetNumberOfStreams, IMFMediaEngineEx::GetNumberOfStreams, mf.imfmediaengineex_getnumberofstreams, mfmediaengine/IMFMediaEngineEx::GetNumberOfStreams
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineEx.GetNumberOfStreams"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineEx.GetNumberOfStreams
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineEx.GetNumberOfStreams
+- IMFMediaEngineEx.GetNumberOfStreams
 targetos: Windows
 req.typenames: 
 req.redist: 

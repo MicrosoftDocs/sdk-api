@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.GetVectorValue
 title: IUIAnimationVariable2::GetVectorValue (uianimation.h)
-
 description: Gets the value of the animation variable in the specified dimension.
 old-location: uianimation\iuianimationvariable2_getvectorvalue.htm
 tech.root: UIAnimation
 ms.assetid: B53EDC6C-7B1E-4CDE-8F4A-5B0601892630
-
 ms.date: 12/05/2018
 ms.keywords: GetVectorValue, GetVectorValue method [Windows Animation], GetVectorValue method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetVectorValue method, IUIAnimationVariable2.GetVectorValue, IUIAnimationVariable2::GetVectorValue, uianimation.iuianimationvariable2_getvectorvalue, uianimation/IUIAnimationVariable2::GetVectorValue
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationVariable2.GetVectorValue"
+f1_keywords:
+- uianimation/IUIAnimationVariable2.GetVectorValue
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationVariable2.GetVectorValue
+- IUIAnimationVariable2.GetVectorValue
 targetos: Windows
 req.typenames: 
 req.redist: 

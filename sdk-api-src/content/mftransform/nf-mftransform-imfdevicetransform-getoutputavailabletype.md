@@ -1,19 +1,17 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.GetOutputAvailableType
 title: IMFDeviceTransform::GetOutputAvailableType (mftransform.h)
-
 description: The GetOutputAvailableType method gets an available media type for an output stream on this Media Foundation transform (MFT).
 old-location: stream\imfdevicetransform_getoutputavailabletype.htm
 tech.root: stream
 ms.assetid: B4224C70-5864-4AE3-8388-2B9A62517B62
-
 ms.date: 12/05/2018
 ms.keywords: GetOutputAvailableType, GetOutputAvailableType method [Streaming Media Devices], GetOutputAvailableType method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetOutputAvailableType method, IMFDeviceTransform.GetOutputAvailableType, IMFDeviceTransform::GetOutputAvailableType, mftransform/IMFDeviceTransform::GetOutputAvailableType, stream.imfdevicetransform_getoutputavailabletype
 ms.topic: method
-f1_keywords: 
- - "mftransform/IMFDeviceTransform.GetOutputAvailableType"
+f1_keywords:
+- mftransform/IMFDeviceTransform.GetOutputAvailableType
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mftransform.h
+- mftransform.h
 api_name:
- - IMFDeviceTransform.GetOutputAvailableType
+- IMFDeviceTransform.GetOutputAvailableType
 targetos: Windows
 req.typenames: 
 req.redist: 

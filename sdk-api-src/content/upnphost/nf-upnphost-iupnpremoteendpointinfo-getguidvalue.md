@@ -1,19 +1,17 @@
 ---
 UID: NF:upnphost.IUPnPRemoteEndpointInfo.GetGuidValue
 title: IUPnPRemoteEndpointInfo::GetGuidValue (upnphost.h)
-
 description: The GetGuidValue method currently is not supported.
 old-location: upnp\iupnpremoteendpointinfo_getguidvalue.htm
 tech.root: upnp
 ms.assetid: 4cbfaa8c-80f1-49c6-91aa-17764559da8b
-
 ms.date: 12/05/2018
 ms.keywords: GetGuidValue, GetGuidValue method [UPnP APIs], GetGuidValue method [UPnP APIs],IUPnPRemoteEndpointInfo interface, IUPnPRemoteEndpointInfo interface [UPnP APIs],GetGuidValue method, IUPnPRemoteEndpointInfo.GetGuidValue, IUPnPRemoteEndpointInfo::GetGuidValue, upnp.iupnpremoteendpointinfo_getguidvalue, upnphost/IUPnPRemoteEndpointInfo::GetGuidValue
 ms.topic: method
-f1_keywords: 
- - "upnphost/IUPnPRemoteEndpointInfo.GetGuidValue"
+f1_keywords:
+- upnphost/IUPnPRemoteEndpointInfo.GetGuidValue
 dev_langs:
- - c++
+- c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnphost.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnphost.dll
+- Upnphost.dll
 api_name:
- - IUPnPRemoteEndpointInfo.GetGuidValue
+- IUPnPRemoteEndpointInfo.GetGuidValue
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:il21dec._AM_LINE21_CCLEVEL
 title: AM_LINE21_CCLEVEL (il21dec.h)
-
 description: Indicates the closed caption decoder level.
 old-location: dshow\am_line21_cclevel.htm
 tech.root: DirectShow
 ms.assetid: ffdedab0-9a47-4599-86c2-07f90d4d87ff
-
 ms.date: 12/05/2018
-ms.keywords: "*PAM_LINE21_CCLEVEL, AM_L21_CCLEVEL_TC2, AM_LINE21_CCLEVEL, AM_LINE21_CCLEVEL , AM_LINE21_CCLEVEL enumeration [DirectShow], AM_LINE21_CCLEVELEnumeration, PAM_LINE21_CCLEVEL, PAM_LINE21_CCLEVEL enumeration pointer [DirectShow], dshow.am_line21_cclevel, il21dec/AM_L21_CCLEVEL_TC2, il21dec/AM_LINE21_CCLEVEL, il21dec/PAM_LINE21_CCLEVEL"
+ms.keywords: '*PAM_LINE21_CCLEVEL, AM_L21_CCLEVEL_TC2, AM_LINE21_CCLEVEL, AM_LINE21_CCLEVEL , AM_LINE21_CCLEVEL enumeration [DirectShow], AM_LINE21_CCLEVELEnumeration, PAM_LINE21_CCLEVEL, PAM_LINE21_CCLEVEL enumeration pointer [DirectShow], dshow.am_line21_cclevel, il21dec/AM_L21_CCLEVEL_TC2, il21dec/AM_LINE21_CCLEVEL, il21dec/PAM_LINE21_CCLEVEL'
 ms.topic: enum
-f1_keywords: 
- - "il21dec/AM_LINE21_CCLEVEL"
+f1_keywords:
+- il21dec/AM_LINE21_CCLEVEL
 dev_langs:
- - c++
+- c++
 req.header: il21dec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - il21dec.h
+- il21dec.h
 api_name:
- - AM_LINE21_CCLEVEL
+- AM_LINE21_CCLEVEL
 targetos: Windows
 req.typenames: AM_LINE21_CCLEVEL, *PAM_LINE21_CCLEVEL
 req.redist: 

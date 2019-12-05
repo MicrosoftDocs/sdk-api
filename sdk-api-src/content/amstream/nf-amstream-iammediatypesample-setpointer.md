@@ -1,19 +1,17 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.SetPointer
 title: IAMMediaTypeSample::SetPointer (amstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. The SetPointer method sets the pointer to the media sample's memory buffer.
 old-location: dshow\iammediatypesample_setpointer.htm
 tech.root: DirectShow
 ms.assetid: fc7a04c5-3542-41e0-8abc-bb7b40bff2c9
-
 ms.date: 12/05/2018
 ms.keywords: IAMMediaTypeSample interface [DirectShow],SetPointer method, IAMMediaTypeSample.SetPointer, IAMMediaTypeSample::SetPointer, IAMMediaTypeSampleSetPointer, SetPointer, SetPointer method [DirectShow], SetPointer method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::SetPointer, dshow.iammediatypesample_setpointer
 ms.topic: method
-f1_keywords: 
- - "amstream/IAMMediaTypeSample.SetPointer"
+f1_keywords:
+- amstream/IAMMediaTypeSample.SetPointer
 dev_langs:
- - c++
+- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - amstream.h
+- amstream.h
 api_name:
- - IAMMediaTypeSample.SetPointer
+- IAMMediaTypeSample.SetPointer
 targetos: Windows
 req.typenames: 
 req.redist: 

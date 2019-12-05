@@ -1,19 +1,17 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0000_0000_0021
 title: ADS_SCOPEENUM (iads.h)
-
 description: Specifies the scope of a directory search.
 old-location: adsi\ads_scopeenum.htm
 tech.root: adsi
 ms.assetid: 403e45fa-bcd6-4422-9111-e9ca9859550a
-
 ms.date: 12/05/2018
 ms.keywords: ADS_SCOPEENUM, ADS_SCOPEENUM enumeration [ADSI], ADS_SCOPE_BASE, ADS_SCOPE_ONELEVEL, ADS_SCOPE_SUBTREE, _ds_ads_scopeenum, adsi.ads__scopeenum, adsi.ads_scopeenum, iads/ADS_SCOPEENUM, iads/ADS_SCOPE_BASE, iads/ADS_SCOPE_ONELEVEL, iads/ADS_SCOPE_SUBTREE
 ms.topic: enum
-f1_keywords: 
- - "iads/ADS_SCOPEENUM"
+f1_keywords:
+- iads/ADS_SCOPEENUM
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_SCOPEENUM
+- ADS_SCOPEENUM
 targetos: Windows
 req.typenames: ADS_SCOPEENUM
 req.redist: 

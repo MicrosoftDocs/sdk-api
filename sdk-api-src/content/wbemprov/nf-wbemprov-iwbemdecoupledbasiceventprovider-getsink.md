@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemprov.IWbemDecoupledBasicEventProvider.GetSink
 title: IWbemDecoupledBasicEventProvider::GetSink (wbemprov.h)
-
 description: The IWbemDecoupledBasicEventProvider::GetSink method retrieves an IWbemObjectSink object for event forwarding to WMI. This method provides for fully concurrent access.
 old-location: wmi\iwbemdecoupledbasiceventprovider_getsink.htm
 tech.root: WmiSdk
 ms.assetid: 2b33e441-4bc4-47ed-b09b-7af859127b06
-
 ms.date: 12/05/2018
 ms.keywords: GetSink, GetSink method [Windows Management Instrumentation], GetSink method [Windows Management Instrumentation],IWbemDecoupledBasicEventProvider interface, GetSink method [Windows Management Instrumentation],WbemDecoupledBasicEventProvider object, IWbemDecoupledBasicEventProvider interface [Windows Management Instrumentation],GetSink method, IWbemDecoupledBasicEventProvider.GetSink, IWbemDecoupledBasicEventProvider::GetSink, WbemDecoupledBasicEventProvider object [Windows Management Instrumentation],GetSink method, _hmm_iwbemdecoupledbasiceventprovider_getsink, wbemprov/IWbemDecoupledBasicEventProvider::GetSink, wmi.iwbemdecoupledbasiceventprovider_getsink
 ms.topic: method
-f1_keywords: 
- - "wbemprov/IWbemDecoupledBasicEventProvider.GetSink"
+f1_keywords:
+- wbemprov/IWbemDecoupledBasicEventProvider.GetSink
 dev_langs:
- - c++
+- c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wbemuuid.lib
 req.dll: Wmidcprv.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmidcprv.dll
+- Wmidcprv.dll
 api_name:
- - IWbemDecoupledBasicEventProvider.GetSink
- - WbemDecoupledBasicEventProvider.GetSink
+- IWbemDecoupledBasicEventProvider.GetSink
+- WbemDecoupledBasicEventProvider.GetSink
 targetos: Windows
 req.typenames: 
 req.redist: 

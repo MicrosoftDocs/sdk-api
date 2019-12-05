@@ -1,19 +1,17 @@
 ---
 UID: NL:gdiplusimaging.BitmapData
 title: BitmapData (gdiplusimaging.h)
-
 description: The BitmapData class is used by the Bitmap::LockBits and Bitmap::UnlockBits methods of the Bitmap class. A BitmapData object stores attributes of a bitmap.
 old-location: gdiplus\_gdiplus_CLASS_BitmapData_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapdata.htm
-
 ms.date: 12/05/2018
 ms.keywords: BitmapData, BitmapData class [GDI+], BitmapData class [GDI+],described, _gdiplus_CLASS_BitmapData_Class, gdiplus._gdiplus_CLASS_BitmapData_Class, gdiplusimaging/BitmapData
 ms.topic: class
-f1_keywords: 
- - "gdiplusimaging/BitmapData"
+f1_keywords:
+- gdiplusimaging/BitmapData
 dev_langs:
- - c++
+- c++
 req.header: gdiplusimaging.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Gdiplus.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.lib
- - Gdiplus.dll
+- Gdiplus.lib
+- Gdiplus.dll
 api_name:
- - BitmapData
+- BitmapData
 targetos: Windows
 req.typenames: 
 req.redist: 

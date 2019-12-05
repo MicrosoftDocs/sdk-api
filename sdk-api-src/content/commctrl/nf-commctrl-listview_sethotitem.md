@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_SetHotItem
 title: ListView_SetHotItem macro (commctrl.h)
-
 description: Sets the hot item in a list-view control. You can use this macro or send the LVM_SETHOTITEM message explicitly.
 old-location: controls\ListView_SetHotItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_sethotitem.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_SetHotItem, ListView_SetHotItem macro [Windows Controls], _win32_ListView_SetHotItem, _win32_ListView_SetHotItem_cpp, commctrl/ListView_SetHotItem, controls.ListView_SetHotItem, controls._win32_ListView_SetHotItem
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_SetHotItem"
+f1_keywords:
+- commctrl/ListView_SetHotItem
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_SetHotItem
+- ListView_SetHotItem
 targetos: Windows
 req.typenames: 
 req.redist: 

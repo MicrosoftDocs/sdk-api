@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMDRMWriter3.SetProtectStreamSamples
 title: IWMDRMWriter3::SetProtectStreamSamples (wmsdkidl.h)
-
 description: The SetProtectStreamSamples method configures the writer to accept encrypted stream samples. This method is used as part of the process of importing protected content from a third party content protection scheme (CPS) into Windows Media DRM.
 old-location: wmformat\iwmdrmwriter3_setprotectstreamsamples.htm
 tech.root: wmformat
 ms.assetid: 42208d02-8384-494d-b7ae-53072b795723
-
 ms.date: 12/05/2018
 ms.keywords: IWMDRMWriter3 interface [windows Media Format],SetProtectStreamSamples method, IWMDRMWriter3.SetProtectStreamSamples, IWMDRMWriter3::SetProtectStreamSamples, IWMDRMWriter3SetProtectedStreamSamples, SetProtectStreamSamples, SetProtectStreamSamples method [windows Media Format], SetProtectStreamSamples method [windows Media Format],IWMDRMWriter3 interface, wmformat.iwmdrmwriter3_setprotectedstreamsamples, wmformat.iwmdrmwriter3_setprotectstreamsamples, wmsdkidl/IWMDRMWriter3::SetProtectStreamSamples
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMDRMWriter3.SetProtectStreamSamples"
+f1_keywords:
+- wmsdkidl/IWMDRMWriter3.SetProtectStreamSamples
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMStubDRM.lib
- - WMStubDRM.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMDRMWriter3.SetProtectStreamSamples
+- IWMDRMWriter3.SetProtectStreamSamples
 targetos: Windows
 req.typenames: 
 req.redist: 

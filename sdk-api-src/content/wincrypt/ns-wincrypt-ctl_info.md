@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CTL_INFO
 title: CTL_INFO (wincrypt.h)
-
 description: Contains the information stored in a Certificate Trust List (CTL).
 old-location: security\ctl_info.htm
 tech.root: SecCrypto
 ms.assetid: 83b015b5-a650-4a81-a9f0-c3e8a9805c81
-
 ms.date: 12/05/2018
 ms.keywords: '*PCTL_INFO, CTL_INFO, CTL_INFO structure [Security], CTL_V1, PCTL_INFO, PCTL_INFO structure pointer [Security], _crypto2_ctl_info, security.ctl_info, wincrypt/CTL_INFO, wincrypt/PCTL_INFO'
 ms.topic: struct
 f1_keywords:
 - wincrypt/CTL_INFO
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

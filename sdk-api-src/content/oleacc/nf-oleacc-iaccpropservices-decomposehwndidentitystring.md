@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.IAccPropServices.DecomposeHwndIdentityString
 title: IAccPropServices::DecomposeHwndIdentityString (oleacc.h)
-
 description: Use this method to determine the HWND, object ID, and child ID for the accessible element identified by the identity string.
 old-location: winauto\iaccpropservices_iaccpropservices__decomposehwndidentitystring.htm
 tech.root: WinAuto
 ms.assetid: b14932a1-7585-49e4-80eb-498cf48796ee
-
 ms.date: 12/05/2018
 ms.keywords: DecomposeHwndIdentityString, DecomposeHwndIdentityString method [Windows Accessibility], DecomposeHwndIdentityString method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],DecomposeHwndIdentityString method, IAccPropServices.DecomposeHwndIdentityString, IAccPropServices::DecomposeHwndIdentityString, _msaa_IAccPropServices_DecomposeHwndIdentityString, msaa.iaccpropservices_iaccpropservices__decomposehwndidentitystring, oleacc/IAccPropServices::DecomposeHwndIdentityString, winauto.iaccpropservices_iaccpropservices__decomposehwndidentitystring
 ms.topic: method
-f1_keywords: 
- - "oleacc/IAccPropServices.DecomposeHwndIdentityString"
+f1_keywords:
+- oleacc/IAccPropServices.DecomposeHwndIdentityString
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Oleacc.dll
+- Oleacc.dll
 api_name:
- - IAccPropServices.DecomposeHwndIdentityString
+- IAccPropServices.DecomposeHwndIdentityString
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98

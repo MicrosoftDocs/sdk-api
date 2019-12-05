@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbPrivateDataSpecifierDescriptor.GetLength
 title: IDvbPrivateDataSpecifierDescriptor::GetLength (dvbsiparser.h)
-
 description: Gets the body length of a Digital Video Broadcast (DVB) private data descriptor.
 old-location: mstv\idvbprivatedataspecifierdescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 9a3b550c-3082-4ac8-9568-6ccdec26d193
-
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbPrivateDataSpecifierDescriptor interface, IDvbPrivateDataSpecifierDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbPrivateDataSpecifierDescriptor.GetLength, IDvbPrivateDataSpecifierDescriptor::GetLength, dvbsiparser/IDvbPrivateDataSpecifierDescriptor::GetLength, mstv.idvbprivatedataspecifierdescriptor_getlength
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbPrivateDataSpecifierDescriptor.GetLength"
+f1_keywords:
+- dvbsiparser/IDvbPrivateDataSpecifierDescriptor.GetLength
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbPrivateDataSpecifierDescriptor.GetLength
+- IDvbPrivateDataSpecifierDescriptor.GetLength
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingRules.Add
 title: IFaxOutboundRoutingRules::Add (faxcomex.h)
-
 description: The IFaxOutboundRoutingRules::Add method adds an outbound routing rule (IFaxOutboundRoutingRule interface) to the collection defined by the IFaxOutboundRoutingRules interface.
 old-location: fax\_mfax_faxoutboundroutingrules_add_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_50f8_cpp.htm
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Fax Service], Add method [Fax Service],IFaxOutboundRoutingRules interface, IFaxOutboundRoutingRules interface [Fax Service],Add method, IFaxOutboundRoutingRules.Add, IFaxOutboundRoutingRules::Add, _mfax_faxoutboundroutingrules.add_cpp, fax._mfax_faxoutboundroutingrules_add_cpp, faxcomex/IFaxOutboundRoutingRules::Add
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutboundRoutingRules.Add"
+f1_keywords:
+- faxcomex/IFaxOutboundRoutingRules.Add
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutboundRoutingRules.Add
+- IFaxOutboundRoutingRules.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.DrawGlyphRun
 title: ID2D1CommandSink::DrawGlyphRun (d2d1_1.h)
-
 description: Indicates the glyphs to be drawn.
 old-location: direct2d\id2d1commandsink_drawglyphrun.htm
 tech.root: Direct2D
 ms.assetid: 5b40a999-0046-458e-b7bc-95037d73833c
-
 ms.date: 12/05/2018
 ms.keywords: DrawGlyphRun, DrawGlyphRun method [Direct2D], DrawGlyphRun method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],DrawGlyphRun method, ID2D1CommandSink.DrawGlyphRun, ID2D1CommandSink::DrawGlyphRun, d2d1_1/ID2D1CommandSink::DrawGlyphRun, direct2d.id2d1commandsink_drawglyphrun
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1CommandSink.DrawGlyphRun"
+f1_keywords:
+- d2d1_1/ID2D1CommandSink.DrawGlyphRun
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1CommandSink.DrawGlyphRun
+- ID2D1CommandSink.DrawGlyphRun
 targetos: Windows
 req.typenames: 
 req.redist: 

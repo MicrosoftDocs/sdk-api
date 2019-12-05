@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymSetParentWindow
 title: SymSetParentWindow function (dbghelp.h)
-
 description: Sets the window that the caller will use to display a user interface.
 old-location: base\symsetparentwindow.htm
 tech.root: Debug
 ms.assetid: 6c4532cd-695c-45a0-b8ea-3aed47308db1
-
 ms.date: 12/05/2018
 ms.keywords: SymSetParentWindow, SymSetParentWindow function, _win32_symsetparentwindow, base.symsetparentwindow, dbghelp/SymSetParentWindow
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymSetParentWindow"
+f1_keywords:
+- dbghelp/SymSetParentWindow
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymSetParentWindow
+- SymSetParentWindow
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.0 or later

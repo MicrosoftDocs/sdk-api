@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupSetDirectoryIdExA
 title: SetupSetDirectoryIdExA function (setupapi.h)
-
 description: The SetupSetDirectoryIdEx function associates a directory identifier in an INF file with a specific directory.
 old-location: setup\setupsetdirectoryidex.htm
 tech.root: SetupApi
 ms.assetid: 0f8f3fa0-cb98-42da-82dd-9114e6753e61
-
 ms.date: 12/05/2018
 ms.keywords: SetupSetDirectoryIdEx, SetupSetDirectoryIdEx function [Setup API], SetupSetDirectoryIdExA, SetupSetDirectoryIdExW, setup.setupsetdirectoryidex, setupapi/SetupSetDirectoryIdEx, setupapi/SetupSetDirectoryIdExA, setupapi/SetupSetDirectoryIdExW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupSetDirectoryIdEx"
+f1_keywords:
+- setupapi/SetupSetDirectoryIdEx
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupSetDirectoryIdEx
- - SetupSetDirectoryIdExA
- - SetupSetDirectoryIdExW
+- SetupSetDirectoryIdEx
+- SetupSetDirectoryIdExA
+- SetupSetDirectoryIdExW
 targetos: Windows
 req.typenames: 
 req.redist: 

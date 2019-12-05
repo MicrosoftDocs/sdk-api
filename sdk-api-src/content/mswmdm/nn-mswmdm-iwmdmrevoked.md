@@ -1,19 +1,17 @@
 ---
 UID: NN:mswmdm.IWMDMRevoked
 title: IWMDMRevoked (mswmdm.h)
-
 description: The IWMDMRevoked interface retrieves the URL from which updated components can be downloaded, if a transfer fails with a revocation error.
 old-location: wmdm\iwmdmrevoked.htm
 tech.root: WMDM
 ms.assetid: b627f243-3652-4db9-8a5e-6a2146b73424
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMRevoked, IWMDMRevoked interface [windows Media Device Manager], IWMDMRevoked interface [windows Media Device Manager],described, IWMDMRevokedInterface, mswmdm/IWMDMRevoked, wmdm.iwmdmrevoked
 ms.topic: interface
-f1_keywords: 
- - "mswmdm/IWMDMRevoked"
+f1_keywords:
+- mswmdm/IWMDMRevoked
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mswmdm.h
+- mswmdm.h
 api_name:
- - IWMDMRevoked
+- IWMDMRevoked
 targetos: Windows
 req.typenames: 
 req.redist: 

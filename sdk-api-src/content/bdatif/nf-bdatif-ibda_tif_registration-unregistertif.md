@@ -1,19 +1,17 @@
 ---
 UID: NF:bdatif.IBDA_TIF_REGISTRATION.UnregisterTIF
 title: IBDA_TIF_REGISTRATION::UnregisterTIF (bdatif.h)
-
 description: The UnregisterTIF method unregisters a Transport Information Filter (TIF) with the Network Provider.
 old-location: mstv\ibda_tif_registration_unregistertif.htm
 tech.root: mstv
 ms.assetid: 6ba46145-6b77-4577-9611-0e0a155aa308
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_TIF_REGISTRATION interface [Microsoft TV Technologies],UnregisterTIF method, IBDA_TIF_REGISTRATION.UnregisterTIF, IBDA_TIF_REGISTRATION::UnregisterTIF, IBDA_TIF_REGISTRATIONUnregisterTIF, UnregisterTIF, UnregisterTIF method [Microsoft TV Technologies], UnregisterTIF method [Microsoft TV Technologies],IBDA_TIF_REGISTRATION interface, bdatif/IBDA_TIF_REGISTRATION::UnregisterTIF, mstv.ibda_tif_registration_unregistertif
 ms.topic: method
-f1_keywords: 
- - "bdatif/IBDA_TIF_REGISTRATION.UnregisterTIF"
+f1_keywords:
+- bdatif/IBDA_TIF_REGISTRATION.UnregisterTIF
 dev_langs:
- - c++
+- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdatif.h
+- bdatif.h
 api_name:
- - IBDA_TIF_REGISTRATION.UnregisterTIF
+- IBDA_TIF_REGISTRATION.UnregisterTIF
 targetos: Windows
 req.typenames: 
 req.redist: 

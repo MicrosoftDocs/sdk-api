@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_IPSinkControl.GetAdapterIPAddress
 title: IBDA_IPSinkControl::GetAdapterIPAddress (bdaiface.h)
-
 description: This interface is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems. It may be altered or unavailable in subsequent versions.
 old-location: mstv\ibda_ipsinkcontrol_getadapteripaddress.htm
 tech.root: mstv
 ms.assetid: ce9710e6-f611-4457-a282-9a7677b3055e
-
 ms.date: 12/05/2018
 ms.keywords: GetAdapterIPAddress, GetAdapterIPAddress method [Microsoft TV Technologies], GetAdapterIPAddress method [Microsoft TV Technologies],IBDA_IPSinkControl interface, IBDA_IPSinkControl interface [Microsoft TV Technologies],GetAdapterIPAddress method, IBDA_IPSinkControl.GetAdapterIPAddress, IBDA_IPSinkControl::GetAdapterIPAddress, IBDA_IPSinkControlGetAdapterIPAddress, bdaiface/IBDA_IPSinkControl::GetAdapterIPAddress, mstv.ibda_ipsinkcontrol_getadapteripaddress
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_IPSinkControl.GetAdapterIPAddress"
+f1_keywords:
+- bdaiface/IBDA_IPSinkControl.GetAdapterIPAddress
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_IPSinkControl.GetAdapterIPAddress
+- IBDA_IPSinkControl.GetAdapterIPAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

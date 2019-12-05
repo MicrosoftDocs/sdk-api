@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmConnectionEnum0
 title: FwpmConnectionEnum0 function (fwpmu.h)
-
 description: Returns the next page of results from the connection object enumerator.
 old-location: fwp\fwpmconnectionenum0.htm
 tech.root: fwp
 ms.assetid: ad4c8759-f1f8-460f-b1e1-78149ce3b386
-
 ms.date: 12/05/2018
 ms.keywords: FwpmConnectionEnum0, FwpmConnectionEnum0 function [Filtering], fwp.fwpmconnectionenum0, fwpmu/FwpmConnectionEnum0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmConnectionEnum0"
+f1_keywords:
+- fwpmu/FwpmConnectionEnum0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmConnectionEnum0
+- FwpmConnectionEnum0
 targetos: Windows
 req.typenames: 
 req.redist: 

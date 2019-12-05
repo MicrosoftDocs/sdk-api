@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.ChangeClipboardChain
 title: ChangeClipboardChain function (winuser.h)
-
 description: Removes a specified window from the chain of clipboard viewers.
 old-location: dataxchg\changeclipboardchain.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\changeclipboardchain.htm
-
 ms.date: 12/05/2018
 ms.keywords: ChangeClipboardChain, ChangeClipboardChain function [Data Exchange], _win32_ChangeClipboardChain, _win32_changeclipboardchain_cpp, dataxchg.changeclipboardchain, winui._win32_changeclipboardchain, winuser/ChangeClipboardChain
 ms.topic: function
-f1_keywords: 
- - "winuser/ChangeClipboardChain"
+f1_keywords:
+- winuser/ChangeClipboardChain
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
- - ChangeClipboardChain
+- ChangeClipboardChain
 targetos: Windows
 req.typenames: 
 req.redist: 

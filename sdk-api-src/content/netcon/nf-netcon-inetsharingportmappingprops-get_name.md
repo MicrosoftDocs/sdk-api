@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.INetSharingPortMappingProps.get_Name
 title: INetSharingPortMappingProps::get_Name (netcon.h)
-
 description: The get_Name method retrieves the name for this port mapping.
 old-location: ics\inetsharingportmappingprops_get_name.htm
 tech.root: ics
 ms.assetid: 0f2b4d49-a13d-49e1-96d0-276afe4208b2
-
 ms.date: 12/05/2018
 ms.keywords: INetSharingPortMappingProps interface [ICS/ICF],get_Name method, INetSharingPortMappingProps.get_Name, INetSharingPortMappingProps::get_Name, _ics_inetsharingportmappingprops_get_name, get_Name, get_Name method [ICS/ICF], get_Name method [ICS/ICF],INetSharingPortMappingProps interface, ics.inetsharingportmappingprops_get_name, netcon/INetSharingPortMappingProps::get_Name
 ms.topic: method
-f1_keywords: 
- - "netcon/INetSharingPortMappingProps.get_Name"
+f1_keywords:
+- netcon/INetSharingPortMappingProps.get_Name
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetSharingPortMappingProps.get_Name
+- INetSharingPortMappingProps.get_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

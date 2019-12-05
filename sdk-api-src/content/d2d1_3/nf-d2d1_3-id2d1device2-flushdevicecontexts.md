@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1Device2.FlushDeviceContexts
 title: ID2D1Device2::FlushDeviceContexts (d2d1_3.h)
-
 description: Flush all device contexts that reference a given bitmap.
 old-location: direct2d\id2d1device2_flushdevicecontexts.htm
 tech.root: Direct2D
 ms.assetid: 914A64BA-61CD-4A66-91D8-F7CC040AF67A
-
 ms.date: 12/05/2018
 ms.keywords: FlushDeviceContexts, FlushDeviceContexts method [Direct2D], FlushDeviceContexts method [Direct2D],ID2D1Device2 interface, ID2D1Device2 interface [Direct2D],FlushDeviceContexts method, ID2D1Device2.FlushDeviceContexts, ID2D1Device2::FlushDeviceContexts, d2d1_3/ID2D1Device2::FlushDeviceContexts, direct2d.id2d1device2_flushdevicecontexts
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1Device2.FlushDeviceContexts"
+f1_keywords:
+- d2d1_3/ID2D1Device2.FlushDeviceContexts
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1_3.lib
 req.dll: D2d1_3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1_3.dll
+- d2d1_3.dll
 api_name:
- - ID2D1Device2.FlushDeviceContexts
+- ID2D1Device2.FlushDeviceContexts
 targetos: Windows
 req.typenames: 
 req.redist: 

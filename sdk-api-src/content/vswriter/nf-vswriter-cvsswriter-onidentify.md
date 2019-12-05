@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.CVssWriter.OnIdentify
 title: CVssWriter::OnIdentify (vswriter.h)
-
 description: The OnIdentify method is called by a writer following receipt of an Identify event.
 old-location: base\cvsswriter_onidentify.htm
 tech.root: VSS
 ms.assetid: 542d479a-695a-4b1f-94e7-f2ffa08440b7
-
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],OnIdentify method, CVssWriter.OnIdentify, CVssWriter::OnIdentify, OnIdentify, OnIdentify method [VSS], OnIdentify method [VSS],CVssWriter interface, _win32_cvsswriter_onidentify, base.cvsswriter_onidentify, vswriter/CVssWriter::OnIdentify
 ms.topic: method
-f1_keywords: 
- - "vswriter/CVssWriter.OnIdentify"
+f1_keywords:
+- vswriter/CVssWriter.OnIdentify
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - CVssWriter.OnIdentify
+- CVssWriter.OnIdentify
 targetos: Windows
 req.typenames: 
 req.redist: 

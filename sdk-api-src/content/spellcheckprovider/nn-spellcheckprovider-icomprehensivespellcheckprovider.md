@@ -1,19 +1,17 @@
 ---
 UID: NN:spellcheckprovider.IComprehensiveSpellCheckProvider
 title: IComprehensiveSpellCheckProvider (spellcheckprovider.h)
-
 description: Allows the provider to optionally support a more comprehensive spell checking functionality.
 old-location: intl\icomprehensivespellcheckprovider.htm
 tech.root: Intl
 ms.assetid: 303EE887-DCF0-4575-A45F-5A4088DE8F7B
-
 ms.date: 12/05/2018
 ms.keywords: IComprehensiveSpellCheckProvider, IComprehensiveSpellCheckProvider interface [Internationalization for Windows Applications], IComprehensiveSpellCheckProvider interface [Internationalization for Windows Applications],described, intl.icomprehensivespellcheckprovider, spellcheckprovider/IComprehensiveSpellCheckProvider
 ms.topic: interface
-f1_keywords: 
- - "spellcheckprovider/IComprehensiveSpellCheckProvider"
+f1_keywords:
+- spellcheckprovider/IComprehensiveSpellCheckProvider
 dev_langs:
- - c++
+- c++
 req.header: spellcheckprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spellcheckprovider.h
+- spellcheckprovider.h
 api_name:
- - IComprehensiveSpellCheckProvider
+- IComprehensiveSpellCheckProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

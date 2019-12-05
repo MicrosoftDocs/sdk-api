@@ -1,19 +1,17 @@
 ---
 UID: NE:webservices.__unnamed_enum_68
 title: WS_EXTENDED_PROTECTION_SCENARIO (webservices.h)
-
 description: Defines how Extended Protection is validated.
 old-location: wsw\ws_extended_protection_scenario.htm
 tech.root: wsw
 ms.assetid: bd4a41aa-10bc-445c-9664-49f284881bf8
-
 ms.date: 12/05/2018
 ms.keywords: WS_EXTENDED_PROTECTION_SCENARIO, WS_EXTENDED_PROTECTION_SCENARIO enumeration [Web Services for Windows], WS_EXTENDED_PROTECTION_SCENARIO_BOUND_SERVER, WS_EXTENDED_PROTECTION_SCENARIO_TERMINATED_SSL, webservices/WS_EXTENDED_PROTECTION_SCENARIO, webservices/WS_EXTENDED_PROTECTION_SCENARIO_BOUND_SERVER, webservices/WS_EXTENDED_PROTECTION_SCENARIO_TERMINATED_SSL, wsw.ws_extended_protection_scenario
 ms.topic: enum
 f1_keywords:
 - webservices/WS_EXTENDED_PROTECTION_SCENARIO
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

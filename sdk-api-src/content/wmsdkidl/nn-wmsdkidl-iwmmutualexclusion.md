@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMMutualExclusion
 title: IWMMutualExclusion (wmsdkidl.h)
-
 description: The IWMMutualExclusion interface represents a group of streams, of which only one at a time can be played.IWMMutualExclusion is the base interface for mutual exclusion objects.
 old-location: wmformat\iwmmutualexclusion.htm
 tech.root: wmformat
 ms.assetid: 040635fb-de00-4c8c-9c39-c28c409311c3
-
 ms.date: 12/05/2018
 ms.keywords: IWMMutualExclusion, IWMMutualExclusion interface [windows Media Format], IWMMutualExclusion interface [windows Media Format],described, IWMMutualExclusionInterface, wmformat.iwmmutualexclusion, wmsdkidl/IWMMutualExclusion
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMMutualExclusion"
+f1_keywords:
+- wmsdkidl/IWMMutualExclusion
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMMutualExclusion
+- IWMMutualExclusion
 targetos: Windows
 req.typenames: 
 req.redist: 

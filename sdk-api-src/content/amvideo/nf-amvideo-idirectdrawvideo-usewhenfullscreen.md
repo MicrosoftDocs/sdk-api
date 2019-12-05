@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.UseWhenFullScreen
 title: IDirectDrawVideo::UseWhenFullScreen (amvideo.h)
-
 description: The UseWhenFullScreen method determines whether DirectShow should change display mode when going to full-screen mode.
 old-location: dshow\idirectdrawvideo_usewhenfullscreen.htm
 tech.root: DirectShow
 ms.assetid: e50f7f06-6534-4373-a2b8-fa315158729d
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],UseWhenFullScreen method, IDirectDrawVideo.UseWhenFullScreen, IDirectDrawVideo::UseWhenFullScreen, IDirectDrawVideoUseWhenFullScreen, UseWhenFullScreen, UseWhenFullScreen method [DirectShow], UseWhenFullScreen method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::UseWhenFullScreen, dshow.idirectdrawvideo_usewhenfullscreen
 ms.topic: method
-f1_keywords: 
- - "amvideo/IDirectDrawVideo.UseWhenFullScreen"
+f1_keywords:
+- amvideo/IDirectDrawVideo.UseWhenFullScreen
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDirectDrawVideo.UseWhenFullScreen
+- IDirectDrawVideo.UseWhenFullScreen
 targetos: Windows
 req.typenames: 
 req.redist: 

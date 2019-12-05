@@ -1,19 +1,17 @@
 ---
 UID: NF:securitybaseapi.CveEventWrite
 title: CveEventWrite function (securitybaseapi.h)
-
 description: A tracing function for publishing events when an attempted security vulnerability exploit is detected in your user-mode application.
 old-location: etw\cveeventwrite.htm
 tech.root: ETW
 ms.assetid: 81CDC4A8-67B3-40AE-B492-89EF47BC5C4D
-
 ms.date: 12/05/2018
 ms.keywords: CveEventWrite, CveEventWrite function [ETW], etw.cveeventwrite, securitybaseapi/CveEventWrite
 ms.topic: function
-f1_keywords: 
- - "securitybaseapi/CveEventWrite"
+f1_keywords:
+- securitybaseapi/CveEventWrite
 dev_langs:
- - c++
+- c++
 req.header: securitybaseapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - KernelBase.dll
- - API-MS-Win-Eventing-Provider-L1-1-1.dll
- - API-MS-Win-Security-Base-L1-2-1.dll
+- Advapi32.dll
+- KernelBase.dll
+- API-MS-Win-Eventing-Provider-L1-1-1.dll
+- API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - CveEventWrite
+- CveEventWrite
 targetos: Windows
 req.typenames: 
 req.redist: 

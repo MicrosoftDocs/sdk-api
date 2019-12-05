@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngDitherColor
 title: EngDitherColor function (winddi.h)
-
 description: The EngDitherColor function returns a standard 8x8 dither that approximates the specified RGB color.
 old-location: display\engdithercolor.htm
 tech.root: display
 ms.assetid: 6c45fd2a-3bba-4e41-a1ee-b3b10602b65a
-
 ms.date: 12/05/2018
 ms.keywords: EngDitherColor, EngDitherColor function [Display Devices], display.engdithercolor, gdifncs_99024e1a-c511-4b02-80dc-e39dd82a8d57.xml, winddi/EngDitherColor
 ms.topic: function
-f1_keywords: 
- - "winddi/EngDitherColor"
+f1_keywords:
+- winddi/EngDitherColor
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngDitherColor
+- EngDitherColor
 targetos: Windows
 req.typenames: 
 req.redist: 

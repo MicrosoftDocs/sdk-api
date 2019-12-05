@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ExecuteBundle
 title: ID3D12GraphicsCommandList::ExecuteBundle (d3d12.h)
-
 description: Executes a bundle.
 old-location: direct3d12\id3d12graphicscommandlist_executebundle.htm
 tech.root: direct3d12
 ms.assetid: B8AE4448-041D-47F6-9F0F-AE74FFEF6E41
-
 ms.date: 12/05/2018
 ms.keywords: ExecuteBundle, ExecuteBundle method, ExecuteBundle method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,ExecuteBundle method, ID3D12GraphicsCommandList.ExecuteBundle, ID3D12GraphicsCommandList::ExecuteBundle, d3d12/ID3D12GraphicsCommandList::ExecuteBundle, direct3d12.id3d12graphicscommandlist_executebundle
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList.ExecuteBundle"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList.ExecuteBundle
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.ExecuteBundle
+- ID3D12GraphicsCommandList.ExecuteBundle
 targetos: Windows
 req.typenames: 
 req.redist: 

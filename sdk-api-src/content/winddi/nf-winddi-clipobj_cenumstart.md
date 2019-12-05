@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.CLIPOBJ_cEnumStart
 title: CLIPOBJ_cEnumStart function (winddi.h)
-
 description: The CLIPOBJ_cEnumStart function sets parameters for enumerating rectangles in a specified clip region.
 old-location: display\clipobj_cenumstart.htm
 tech.root: display
 ms.assetid: e719f856-04a9-480d-b79a-df2307a48162
-
 ms.date: 12/05/2018
 ms.keywords: CLIPOBJ_cEnumStart, CLIPOBJ_cEnumStart function [Display Devices], display.clipobj_cenumstart, gdifncs_53ccc337-0aa7-442c-a612-facb369b66c6.xml, winddi/CLIPOBJ_cEnumStart
 ms.topic: function
 f1_keywords:
 - winddi/CLIPOBJ_cEnumStart
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

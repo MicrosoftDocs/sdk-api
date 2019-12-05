@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccessEx.CloseMmiDialog
 title: IBDA_ConditionalAccessEx::CloseMmiDialog (bdaiface.h)
-
 description: Notifies the Conditional Access Service (CAS) that the media sink device (MSD) has closed a user interface (MMI) dialog.
 old-location: mstv\ibda_conditionalaccessex_closemmidialog.htm
 tech.root: mstv
 ms.assetid: 30cba76b-ae52-4c87-a88e-faa9ad3f12f9
-
 ms.date: 12/05/2018
 ms.keywords: CloseMmiDialog, CloseMmiDialog method [Microsoft TV Technologies], CloseMmiDialog method [Microsoft TV Technologies],IBDA_ConditionalAccessEx interface, IBDA_ConditionalAccessEx interface [Microsoft TV Technologies],CloseMmiDialog method, IBDA_ConditionalAccessEx.CloseMmiDialog, IBDA_ConditionalAccessEx::CloseMmiDialog, bdaiface/IBDA_ConditionalAccessEx::CloseMmiDialog, mstv.ibda_conditionalaccessex_closemmidialog
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_ConditionalAccessEx.CloseMmiDialog"
+f1_keywords:
+- bdaiface/IBDA_ConditionalAccessEx.CloseMmiDialog
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_ConditionalAccessEx.CloseMmiDialog
+- IBDA_ConditionalAccessEx.CloseMmiDialog
 targetos: Windows
 req.typenames: 
 req.redist: 

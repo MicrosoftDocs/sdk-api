@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont.CanChange
 title: ITextFont::CanChange (tom.h)
-
 description: Determines whether the font can be changed.
 old-location: controls\ITextFont_CanChange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontcanchange.htm
-
 ms.date: 12/05/2018
 ms.keywords: CanChange, CanChange method [Windows Controls], CanChange method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],CanChange method, ITextFont.CanChange, ITextFont::CanChange, _win32_ITextFont_CanChange, _win32_ITextFont_CanChange_cpp, controls.ITextFont_CanChange, controls._win32_ITextFont_CanChange, tom/ITextFont::CanChange
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont.CanChange"
+f1_keywords:
+- tom/ITextFont.CanChange
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont.CanChange
+- ITextFont.CanChange
 targetos: Windows
 req.typenames: 
 req.redist: 

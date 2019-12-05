@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPStorageGlobals.Initialize
 title: IMDSPStorageGlobals::Initialize (mswmdm.h)
-
 description: The Initialize method formats the storage medium.
 old-location: wmdm\imdspstorageglobals_initialize.htm
 tech.root: WMDM
 ms.assetid: 661060dc-5a38-4110-80f6-c67e3be8c96b
-
 ms.date: 12/05/2018
 ms.keywords: IMDSPStorageGlobals interface [windows Media Device Manager],Initialize method, IMDSPStorageGlobals.Initialize, IMDSPStorageGlobals::Initialize, IMDSPStorageGlobalsInitialize, Initialize, Initialize method [windows Media Device Manager], Initialize method [windows Media Device Manager],IMDSPStorageGlobals interface, mswmdm/IMDSPStorageGlobals::Initialize, wmdm.imdspstorageglobals_initialize
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPStorageGlobals.Initialize"
+f1_keywords:
+- mswmdm/IMDSPStorageGlobals.Initialize
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPStorageGlobals.Initialize
+- IMDSPStorageGlobals.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

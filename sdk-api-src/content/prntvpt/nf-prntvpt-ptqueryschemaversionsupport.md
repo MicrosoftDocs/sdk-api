@@ -1,19 +1,17 @@
 ---
 UID: NF:prntvpt.PTQuerySchemaVersionSupport
 title: PTQuerySchemaVersionSupport function (prntvpt.h)
-
 description: Retrieves the highest (latest) version of the Print Schema that the specified printer supports.
 old-location: gdi\ptqueryschemaversionsupport.htm
 tech.root: printdocs
 ms.assetid: a3b5a92f-3a5b-4438-b788-91c9ac5a191f
-
 ms.date: 12/05/2018
 ms.keywords: PTQuerySchemaVersionSupport, PTQuerySchemaVersionSupport function [Windows GDI], _win32_PTQuerySchemaVersionSupport, gdi.ptqueryschemaversionsupport, prntvpt/PTQuerySchemaVersionSupport
 ms.topic: function
-f1_keywords: 
- - "prntvpt/PTQuerySchemaVersionSupport"
+f1_keywords:
+- prntvpt/PTQuerySchemaVersionSupport
 dev_langs:
- - c++
+- c++
 req.header: prntvpt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Prntvpt.lib
 req.dll: Prntvpt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - prntvpt.dll
- - Ext-MS-Win-printer-prntvpt-l1-1-0.dll
+- prntvpt.dll
+- Ext-MS-Win-printer-prntvpt-l1-1-0.dll
 api_name:
- - PTQuerySchemaVersionSupport
+- PTQuerySchemaVersionSupport
 targetos: Windows
 req.typenames: 
 req.redist: 

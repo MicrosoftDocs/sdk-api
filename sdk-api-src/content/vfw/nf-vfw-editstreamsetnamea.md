@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.EditStreamSetNameA
 title: EditStreamSetNameA function (vfw.h)
-
 description: The EditStreamSetName function assigns a descriptive string to a stream.
 old-location: multimedia\editstreamsetname.htm
 tech.root: Multimedia
 ms.assetid: 33542ad1-4bee-4051-8b75-f5328086250b
-
 ms.date: 12/05/2018
 ms.keywords: EditStreamSetName, EditStreamSetName function [Windows Multimedia], EditStreamSetNameA, EditStreamSetNameW, _win32_EditStreamSetName, multimedia.editstreamsetname, vfw/EditStreamSetName, vfw/EditStreamSetNameA, vfw/EditStreamSetNameW
 ms.topic: function
-f1_keywords: 
- - "vfw/EditStreamSetName"
+f1_keywords:
+- vfw/EditStreamSetName
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avifil32.dll
+- Avifil32.dll
 api_name:
- - EditStreamSetName
- - EditStreamSetNameA
- - EditStreamSetNameW
+- EditStreamSetName
+- EditStreamSetNameA
+- EditStreamSetNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

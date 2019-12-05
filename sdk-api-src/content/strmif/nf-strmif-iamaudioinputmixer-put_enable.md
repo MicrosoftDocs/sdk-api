@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.put_Enable
 title: IAMAudioInputMixer::put_Enable (strmif.h)
-
 description: The put_Enable method enables or disables an input.
 old-location: dshow\iamaudioinputmixer_put_enable.htm
 tech.root: DirectShow
 ms.assetid: 84f179bf-2e2f-4ba0-81b7-c20acd09ccea
-
 ms.date: 12/05/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],put_Enable method, IAMAudioInputMixer.put_Enable, IAMAudioInputMixer::put_Enable, IAMAudioInputMixerput_Enable, dshow.iamaudioinputmixer_put_enable, put_Enable, put_Enable method [DirectShow], put_Enable method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::put_Enable
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMAudioInputMixer.put_Enable"
+f1_keywords:
+- strmif/IAMAudioInputMixer.put_Enable
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMAudioInputMixer.put_Enable
+- IAMAudioInputMixer.put_Enable
 targetos: Windows
 req.typenames: 
 req.redist: 

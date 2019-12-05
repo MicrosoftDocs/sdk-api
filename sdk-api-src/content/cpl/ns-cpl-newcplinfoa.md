@@ -1,19 +1,17 @@
 ---
 UID: NS:cpl.tagNEWCPLINFOA
 title: NEWCPLINFOA (cpl.h)
-
 description: Contains resource information and an application-defined value for a dialog box supported by a Control Panel application.
 old-location: shell\NEWCPLINFO.htm
 tech.root: shell
 ms.assetid: a68cd816-6b2c-4cff-9288-9c3758e3fdae
-
 ms.date: 12/05/2018
-ms.keywords: "*LPNEWCPLINFOA, LPNEWCPLINFO, LPNEWCPLINFO structure pointer [Windows Shell], NEWCPLINFO, NEWCPLINFO structure [Windows Shell], NEWCPLINFOA, _win32_NEWCPLINFO, cpl/LPNEWCPLINFO, cpl/NEWCPLINFO, shell.NEWCPLINFO"
+ms.keywords: '*LPNEWCPLINFOA, LPNEWCPLINFO, LPNEWCPLINFO structure pointer [Windows Shell], NEWCPLINFO, NEWCPLINFO structure [Windows Shell], NEWCPLINFOA, _win32_NEWCPLINFO, cpl/LPNEWCPLINFO, cpl/NEWCPLINFO, shell.NEWCPLINFO'
 ms.topic: struct
-f1_keywords: 
- - "cpl/NEWCPLINFO"
+f1_keywords:
+- cpl/NEWCPLINFO
 dev_langs:
- - c++
+- c++
 req.header: cpl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Cpl.h
+- Cpl.h
 api_name:
- - NEWCPLINFO
- - NEWCPLINFOA
+- NEWCPLINFO
+- NEWCPLINFOA
 targetos: Windows
 req.typenames: NEWCPLINFOA, *LPNEWCPLINFOA
 req.redist: 

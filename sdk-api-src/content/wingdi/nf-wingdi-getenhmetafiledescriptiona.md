@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetEnhMetaFileDescriptionA
 title: GetEnhMetaFileDescriptionA function (wingdi.h)
-
 description: The GetEnhMetaFileDescription function retrieves an optional text description from an enhanced-format metafile and copies the string to the specified buffer.
 old-location: gdi\getenhmetafiledescription.htm
 tech.root: gdi
 ms.assetid: 51f4f617-fe53-4463-b222-cb6860d15dd6
-
 ms.date: 12/05/2018
 ms.keywords: GetEnhMetaFileDescription, GetEnhMetaFileDescription function [Windows GDI], GetEnhMetaFileDescriptionA, GetEnhMetaFileDescriptionW, _win32_GetEnhMetaFileDescription, gdi.getenhmetafiledescription, wingdi/GetEnhMetaFileDescription, wingdi/GetEnhMetaFileDescriptionA, wingdi/GetEnhMetaFileDescriptionW
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetEnhMetaFileDescription"
+f1_keywords:
+- wingdi/GetEnhMetaFileDescription
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - GetEnhMetaFileDescription
- - GetEnhMetaFileDescriptionA
- - GetEnhMetaFileDescriptionW
+- GetEnhMetaFileDescription
+- GetEnhMetaFileDescriptionA
+- GetEnhMetaFileDescriptionW
 targetos: Windows
 req.typenames: 
 req.redist: 

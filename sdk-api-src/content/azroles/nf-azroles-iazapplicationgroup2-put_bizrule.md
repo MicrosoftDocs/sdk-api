@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplicationGroup2.put_BizRule
 title: IAzApplicationGroup2::put_BizRule (azroles.h)
-
 description: Gets or sets the script that determines membership for this application group.
 old-location: security\iazapplicationgroup2_bizrule_method.htm
 tech.root: SecAuthZ
 ms.assetid: ed4acfc3-6185-404f-8598-d3fc88b21361
-
 ms.date: 12/05/2018
 ms.keywords: BizRule property [Security], BizRule property [Security],IAzApplicationGroup2 interface, IAzApplicationGroup2 interface [Security],BizRule property, IAzApplicationGroup2.BizRule, IAzApplicationGroup2.put_BizRule, IAzApplicationGroup2::BizRule, IAzApplicationGroup2::get_BizRule, IAzApplicationGroup2::put_BizRule, azroles/IAzApplicationGroup2::BizRule, azroles/IAzApplicationGroup2::get_BizRule, azroles/IAzApplicationGroup2::put_BizRule, put_BizRule, security.iazapplicationgroup2_bizrule_method
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplicationGroup2.BizRule"
+f1_keywords:
+- azroles/IAzApplicationGroup2.BizRule
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.h
+- Azroles.h
 api_name:
- - IAzApplicationGroup2.BizRule
- - IAzApplicationGroup2.get_BizRule
- - IAzApplicationGroup2.put_BizRule
+- IAzApplicationGroup2.BizRule
+- IAzApplicationGroup2.get_BizRule
+- IAzApplicationGroup2.put_BizRule
 targetos: Windows
 req.typenames: 
 req.redist: 

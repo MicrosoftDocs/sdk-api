@@ -1,19 +1,17 @@
 ---
 UID: NF:strsafe.StringCbPrintf_lW
 title: StringCbPrintf_lW function (strsafe.h)
-
 description: Writes formatted data to the specified string. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 old-location: menurc\stringcbprintf_l.htm
 tech.root: menurc
 ms.assetid: d4576e63-32b0-413d-9b8c-ae16e6e15990
-
 ms.date: 12/05/2018
 ms.keywords: StringCbPrintf_l, StringCbPrintf_l function [Menus and Other Resources], StringCbPrintf_lA, StringCbPrintf_lW, menurc.stringcbprintf_l, strsafe/StringCbPrintf_l, strsafe/StringCbPrintf_lA, strsafe/StringCbPrintf_lW
 ms.topic: function
-f1_keywords: 
- - "strsafe/StringCbPrintf_l"
+f1_keywords:
+- strsafe/StringCbPrintf_l
 dev_langs:
- - c++
+- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - StrSafe.h
+- StrSafe.h
 api_name:
- - StringCbPrintf_l
- - StringCbPrintf_lA
- - StringCbPrintf_lW
+- StringCbPrintf_l
+- StringCbPrintf_lA
+- StringCbPrintf_lW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiribbon.IUICollectionChangedEvent.OnChanged
 title: IUICollectionChangedEvent::OnChanged (uiribbon.h)
-
 description: Called when an IUICollection changes.
 old-location: windowsribbon\windowsribbon_iuicollectionchangedevent_onchanged.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollectionchangedevent\onchanged.htm
-
 ms.date: 12/05/2018
 ms.keywords: IUICollectionChangedEvent interface [Windows Ribbon],OnChanged method, IUICollectionChangedEvent.OnChanged, IUICollectionChangedEvent::OnChanged, OnChanged, OnChanged method [Windows Ribbon], OnChanged method [Windows Ribbon],IUICollectionChangedEvent interface, scenicintent_IUICollectionChangedEvent_OnChanged, uiribbon/IUICollectionChangedEvent::OnChanged, windowsribbon.windowsribbon_iuicollectionchangedevent_onchanged
 ms.topic: method
-f1_keywords: 
- - "uiribbon/IUICollectionChangedEvent.OnChanged"
+f1_keywords:
+- uiribbon/IUICollectionChangedEvent.OnChanged
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mshtml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mshtml.dll
+- Mshtml.dll
 api_name:
- - IUICollectionChangedEvent.OnChanged
+- IUICollectionChangedEvent.OnChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

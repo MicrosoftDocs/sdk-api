@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.DllInstall
 title: DllInstall function (shlwapi.h)
-
 description: Handles installation and setup for a DLL.
 old-location: shell\DllInstall.htm
 tech.root: shell
 ms.assetid: d161f2ec-31e6-405e-b76c-9976b0880816
-
 ms.date: 12/05/2018
 ms.keywords: DllInstall, DllInstall function [Windows Shell], _win32_DllInstall, shell.DllInstall, shlwapi/DllInstall
 ms.topic: function
-f1_keywords: 
- - "shlwapi/DllInstall"
+f1_keywords:
+- shlwapi/DllInstall
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
+- Shlwapi.dll
 api_name:
- - DllInstall
+- DllInstall
 targetos: Windows
 req.typenames: 
 req.redist: 

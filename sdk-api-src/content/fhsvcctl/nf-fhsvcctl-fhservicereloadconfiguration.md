@@ -1,19 +1,17 @@
 ---
 UID: NF:fhsvcctl.FhServiceReloadConfiguration
 title: FhServiceReloadConfiguration function (fhsvcctl.h)
-
 description: This function causes the File History Service to reload the current user’s File History configuration files.
 old-location: winprog\fhservicereloadconfiguration.htm
 tech.root: DevNotes
 ms.assetid: DEFD729F-ED84-4C6A-8014-E986C2EB2767
-
 ms.date: 12/05/2018
 ms.keywords: FhServiceReloadConfiguration, FhServiceReloadConfiguration function [Windows API], fhsvcctl/FhServiceReloadConfiguration, winprog.fhservicereloadconfiguration
 ms.topic: function
-f1_keywords: 
- - "fhsvcctl/FhServiceReloadConfiguration"
+f1_keywords:
+- fhsvcctl/FhServiceReloadConfiguration
 dev_langs:
- - c++
+- c++
 req.header: fhsvcctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FhSvcCtl.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - FhSvcCtl.lib
- - FhSvcCtl.dll
+- FhSvcCtl.lib
+- FhSvcCtl.dll
 api_name:
- - FhServiceReloadConfiguration
+- FhServiceReloadConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 

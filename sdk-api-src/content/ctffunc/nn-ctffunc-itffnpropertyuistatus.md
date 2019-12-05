@@ -1,19 +1,17 @@
 ---
 UID: NN:ctffunc.ITfFnPropertyUIStatus
 title: ITfFnPropertyUIStatus (ctffunc.h)
-
 description: The ITfFnPropertyUIStatus interface is implemented by a text service and used by an application or text service to obtain and set the status of the text service property UI.
 old-location: tsf\itffnpropertyuistatus.htm
 tech.root: TSF
 ms.assetid: 5583ae98-02a5-4303-9674-b8a85b52442a
-
 ms.date: 12/05/2018
 ms.keywords: ITfFnPropertyUIStatus, ITfFnPropertyUIStatus interface [Text Services Framework], ITfFnPropertyUIStatus interface [Text Services Framework],described, _tsf_itffnpropertyuistatus_ref, ctffunc/ITfFnPropertyUIStatus, tsf.itffnpropertyuistatus
 ms.topic: interface
-f1_keywords: 
- - "ctffunc/ITfFnPropertyUIStatus"
+f1_keywords:
+- ctffunc/ITfFnPropertyUIStatus
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfFnPropertyUIStatus
+- ITfFnPropertyUIStatus
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

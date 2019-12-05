@@ -1,19 +1,17 @@
 ---
 UID: NN:mfsharingengine.IPlayToSourceClassFactory
 title: IPlayToSourceClassFactory (mfsharingengine.h)
-
 description: Creates an instance of the PlayToSource object.
 old-location: mf\iplaytosourceclassfactory.htm
 tech.root: medfound
 ms.assetid: F8F9FEC6-836C-429A-BADD-5CD1E550AED0
-
 ms.date: 12/05/2018
 ms.keywords: IPlayToSourceClassFactory, IPlayToSourceClassFactory interface [Media Foundation], IPlayToSourceClassFactory interface [Media Foundation],described, mf.iplaytocontrollerclassfactory, mf.iplaytosourceclassfactory, mfsharingengine/IPlayToSourceClassFactory
 ms.topic: interface
-f1_keywords: 
- - "mfsharingengine/IPlayToSourceClassFactory"
+f1_keywords:
+- mfsharingengine/IPlayToSourceClassFactory
 dev_langs:
- - c++
+- c++
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfsharingengine.h
+- mfsharingengine.h
 api_name:
- - IPlayToSourceClassFactory
+- IPlayToSourceClassFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

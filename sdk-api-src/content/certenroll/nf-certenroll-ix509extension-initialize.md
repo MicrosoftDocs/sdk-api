@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509Extension.Initialize
 title: IX509Extension::Initialize (certenroll.h)
-
 description: Initializes an IX509Extension object by using an object identifier (OID) and a byte array that contains the Distinguished Encoding Rules (DER) encoded extension.
 old-location: security\ix509extension_initialize_method.htm
 tech.root: seccertenroll
 ms.assetid: a01a371b-7dc2-4204-8029-269ac4a9c0d5
-
 ms.date: 12/05/2018
 ms.keywords: IX509Extension interface [Security],Initialize method, IX509Extension.Initialize, IX509Extension::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509Extension interface, certenroll/IX509Extension::Initialize, security.ix509extension_initialize_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509Extension.Initialize"
+f1_keywords:
+- certenroll/IX509Extension.Initialize
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509Extension.Initialize
+- IX509Extension.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

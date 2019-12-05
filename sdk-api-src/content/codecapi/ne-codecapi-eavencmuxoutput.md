@@ -1,19 +1,17 @@
 ---
 UID: NE:codecapi.eAVEncMuxOutput
 title: eAVEncMuxOutput (codecapi.h)
-
 description: Specifies the type of output stream produced by a multiplexer. This enumeration is used with the AVEncMuxOutputStreamType property.
 old-location: dshow\eavencmuxoutput.htm
 tech.root: DirectShow
 ms.assetid: 2020192d-0db1-41e0-b03f-d5a7dbc85106
-
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncMuxOutput, codecapi/eAVEncMuxOutputAuto, codecapi/eAVEncMuxOutputPS, codecapi/eAVEncMuxOutputTS, dshow.eavencmuxoutput, eAVEncMuxOutput, eAVEncMuxOutput enumeration [DirectShow], eAVEncMuxOutputAuto, eAVEncMuxOutputPS, eAVEncMuxOutputTS
 ms.topic: enum
-f1_keywords: 
- - "codecapi/eAVEncMuxOutput"
+f1_keywords:
+- codecapi/eAVEncMuxOutput
 dev_langs:
- - c++
+- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - codecapi.h
+- codecapi.h
 api_name:
- - eAVEncMuxOutput
+- eAVEncMuxOutput
 targetos: Windows
 req.typenames: 
 req.redist: 

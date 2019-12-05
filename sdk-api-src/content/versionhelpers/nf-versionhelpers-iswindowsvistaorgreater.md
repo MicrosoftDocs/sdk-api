@@ -1,19 +1,17 @@
 ---
 UID: NF:versionhelpers.IsWindowsVistaOrGreater
 title: IsWindowsVistaOrGreater function (versionhelpers.h)
-
 description: Indicates if the current OS version matches, or is greater than, the Windows Vista version.
 old-location: base\iswindowsvistaorgreater.htm
 tech.root: SysInfo
 ms.assetid: 556C70DC-6A44-4D85-BDBF-C1110D63DC69
-
 ms.date: 12/05/2018
 ms.keywords: IsWindowsVistaOrGreater, IsWindowsVistaOrGreater function, base.iswindowsvistaorgreater, versionhelpers/IsWindowsVistaOrGreater
 ms.topic: function
-f1_keywords: 
- - "versionhelpers/IsWindowsVistaOrGreater"
+f1_keywords:
+- versionhelpers/IsWindowsVistaOrGreater
 dev_langs:
- - c++
+- c++
 req.header: versionhelpers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Kernel32.lib; Ntdll.lib
 req.dll: Kernel32.dll; Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - ntdll.dll
+- Kernel32.dll
+- ntdll.dll
 api_name:
- - IsWindowsVistaOrGreater
+- IsWindowsVistaOrGreater
 targetos: Windows
 req.typenames: 
 req.redist: 

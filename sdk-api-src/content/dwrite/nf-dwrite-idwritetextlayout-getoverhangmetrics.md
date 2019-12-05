@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetOverhangMetrics
 title: IDWriteTextLayout::GetOverhangMetrics (dwrite.h)
-
 description: Returns the overhangs (in DIPs) of the layout and all objects contained in it, including text glyphs and inline objects.
 old-location: directwrite\idwritetextlayout_getoverhangmetrics.htm
 tech.root: DirectWrite
 ms.assetid: 4b23f6c5-cacc-41e2-8934-6f95208b999a
-
 ms.date: 12/05/2018
 ms.keywords: GetOverhangMetrics, GetOverhangMetrics method [Direct Write], GetOverhangMetrics method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetOverhangMetrics method, IDWriteTextLayout.GetOverhangMetrics, IDWriteTextLayout::GetOverhangMetrics, directwrite.idwritetextlayout_getoverhangmetrics, dwrite/IDWriteTextLayout::GetOverhangMetrics
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextLayout.GetOverhangMetrics"
+f1_keywords:
+- dwrite/IDWriteTextLayout.GetOverhangMetrics
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout.GetOverhangMetrics
+- IDWriteTextLayout.GetOverhangMetrics
 targetos: Windows
 req.typenames: 
 req.redist: 

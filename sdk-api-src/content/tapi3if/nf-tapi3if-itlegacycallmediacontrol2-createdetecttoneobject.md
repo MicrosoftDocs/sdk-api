@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITLegacyCallMediaControl2.CreateDetectToneObject
 title: ITLegacyCallMediaControl2::CreateDetectToneObject (tapi3if.h)
-
 description: The CreateDetectToneObject method creates a detect tone object to use with the DetectTonesByCollection method.
 old-location: tapi3\itlegacycallmediacontrol2_createdetecttoneobject.htm
 tech.root: Tapi
 ms.assetid: 3f00391f-b63f-4fa7-82af-44584fbcd8a3
-
 ms.date: 12/05/2018
 ms.keywords: CreateDetectToneObject, CreateDetectToneObject method [TAPI 2.2], CreateDetectToneObject method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],CreateDetectToneObject method, ITLegacyCallMediaControl2.CreateDetectToneObject, ITLegacyCallMediaControl2::CreateDetectToneObject, _tapi3_itlegacycallmediacontrol2_createdetecttoneobject, tapi3.itlegacycallmediacontrol2_createdetecttoneobject, tapi3if/ITLegacyCallMediaControl2::CreateDetectToneObject
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITLegacyCallMediaControl2.CreateDetectToneObject"
+f1_keywords:
+- tapi3if/ITLegacyCallMediaControl2.CreateDetectToneObject
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITLegacyCallMediaControl2.CreateDetectToneObject
+- ITLegacyCallMediaControl2.CreateDetectToneObject
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.QueryRevertStatus
 title: IVssBackupComponents::QueryRevertStatus (vsbackup.h)
-
 description: Returns an IVssAsync interface pointer that can be used to determine the status of the revert operation.
 old-location: base\ivssbackupcomponents_queryrevertstatus.htm
 tech.root: VSS
 ms.assetid: f2e97723-98cb-401c-ab35-20c004f0a73d
-
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],QueryRevertStatus method, IVssBackupComponents.QueryRevertStatus, IVssBackupComponents::QueryRevertStatus, QueryRevertStatus, QueryRevertStatus method [VSS], QueryRevertStatus method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_queryrevertstatus, base.ivssbackupcomponents_queryrevertstatus, vsbackup/IVssBackupComponents::QueryRevertStatus
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.QueryRevertStatus"
+f1_keywords:
+- vsbackup/IVssBackupComponents.QueryRevertStatus
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.QueryRevertStatus
+- IVssBackupComponents.QueryRevertStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

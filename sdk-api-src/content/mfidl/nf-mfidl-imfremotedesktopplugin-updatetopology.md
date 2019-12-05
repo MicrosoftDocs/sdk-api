@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFRemoteDesktopPlugin.UpdateTopology
 title: IMFRemoteDesktopPlugin::UpdateTopology (mfidl.h)
-
 description: Modifies a topology for use in a Terminal Services environment.
 old-location: mf\imfremotedesktopplugin_updatetopology.htm
 tech.root: medfound
 ms.assetid: 799ba0b4-b015-4899-9496-d8c23d033b24
-
 ms.date: 12/05/2018
 ms.keywords: 799ba0b4-b015-4899-9496-d8c23d033b24, IMFRemoteDesktopPlugin interface [Media Foundation],UpdateTopology method, IMFRemoteDesktopPlugin.UpdateTopology, IMFRemoteDesktopPlugin::UpdateTopology, UpdateTopology, UpdateTopology method [Media Foundation], UpdateTopology method [Media Foundation],IMFRemoteDesktopPlugin interface, mf.imfremotedesktopplugin_updatetopology, mfidl/IMFRemoteDesktopPlugin::UpdateTopology
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFRemoteDesktopPlugin.UpdateTopology"
+f1_keywords:
+- mfidl/IMFRemoteDesktopPlugin.UpdateTopology
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFRemoteDesktopPlugin.UpdateTopology
+- IMFRemoteDesktopPlugin.UpdateTopology
 targetos: Windows
 req.typenames: 
 req.redist: 

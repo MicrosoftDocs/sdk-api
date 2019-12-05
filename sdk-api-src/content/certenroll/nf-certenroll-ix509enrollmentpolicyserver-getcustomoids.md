@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetCustomOids
 title: IX509EnrollmentPolicyServer::GetCustomOids (certenroll.h)
-
 description: Is not implemented.
 old-location: security\ix509enrollmentpolicyserver_getcustomoids.htm
 tech.root: seccertenroll
 ms.assetid: 0db4e188-cef1-46af-b5c7-f18a8de5f1a7
-
 ms.date: 12/05/2018
 ms.keywords: GetCustomOids, GetCustomOids method [Security], GetCustomOids method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetCustomOids method, IX509EnrollmentPolicyServer.GetCustomOids, IX509EnrollmentPolicyServer::GetCustomOids, certenroll/IX509EnrollmentPolicyServer::GetCustomOids, security.ix509enrollmentpolicyserver_getcustomoids
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509EnrollmentPolicyServer.GetCustomOids"
+f1_keywords:
+- certenroll/IX509EnrollmentPolicyServer.GetCustomOids
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - IX509EnrollmentPolicyServer.GetCustomOids
+- IX509EnrollmentPolicyServer.GetCustomOids
 targetos: Windows
 req.typenames: 
 req.redist: 

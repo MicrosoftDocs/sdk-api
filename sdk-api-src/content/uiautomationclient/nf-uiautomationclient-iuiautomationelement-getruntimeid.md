@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.GetRuntimeId
 title: IUIAutomationElement::GetRuntimeId (uiautomationclient.h)
-
 description: Retrieves the unique identifier assigned to the UI element.
 old-location: winauto\uiauto_IUIAutomationElement_GetRuntimeId.htm
 tech.root: WinAuto
 ms.assetid: d351f2ca-d9de-4055-8356-9a100a77f397
-
 ms.date: 12/05/2018
 ms.keywords: GetRuntimeId, GetRuntimeId method [Windows Accessibility], GetRuntimeId method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetRuntimeId method, IUIAutomationElement.GetRuntimeId, IUIAutomationElement::GetRuntimeId, uiauto.uiauto_IUIAutomationElement_GetRuntimeId, uiauto_IUIAutomationElement_GetRuntimeId, uiautomationclient/IUIAutomationElement::GetRuntimeId, winauto.uiauto_IUIAutomationElement_GetRuntimeId
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.GetRuntimeId"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.GetRuntimeId
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.GetRuntimeId
+- IUIAutomationElement.GetRuntimeId
 targetos: Windows
 req.typenames: 
 req.redist: 

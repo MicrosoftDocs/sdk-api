@@ -1,19 +1,17 @@
 ---
 UID: NE:strmif.tagCameraControlFlags
 title: CameraControlFlags (strmif.h)
-
 description: The CameraControlFlags enumeration defines whether a camera setting is controlled manually or automatically.
 old-location: dshow\cameracontrolflags.htm
 tech.root: DirectShow
 ms.assetid: 806322e7-9a70-4dc1-8b10-2479fb3ec935
-
 ms.date: 12/05/2018
 ms.keywords: CameraControlFlags, CameraControlFlags enumeration [DirectShow], CameraControlFlagsEnumeration, CameraControl_Flags_Auto, CameraControl_Flags_Manual, dshow.cameracontrolflags, strmif/CameraControlFlags, strmif/CameraControl_Flags_Auto, strmif/CameraControl_Flags_Manual
 ms.topic: enum
-f1_keywords: 
- - "strmif/CameraControlFlags"
+f1_keywords:
+- strmif/CameraControlFlags
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - CameraControlFlags
+- CameraControlFlags
 targetos: Windows
 req.typenames: CameraControlFlags
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winnetwk.WNetGetResourceParentA
 title: WNetGetResourceParentA function (winnetwk.h)
-
 description: The WNetGetResourceParent function returns the parent of a network resource in the network browse hierarchy. Browsing begins at the location of the specified network resource.
 old-location: wnet\wnetgetresourceparent.htm
 tech.root: WNet
 ms.assetid: 6ad5e2c0-d557-43cc-8ccf-a21160e262f8
-
 ms.date: 12/05/2018
 ms.keywords: WNetGetResourceParent, WNetGetResourceParent function [Windows Networking (WNet)], WNetGetResourceParentA, WNetGetResourceParentW, _win32_wnetgetresourceparent, dwType, lpProvider, lpRemoteName, winnetwk/WNetGetResourceParent, winnetwk/WNetGetResourceParentA, winnetwk/WNetGetResourceParentW, wnet.wnetgetresourceparent
 ms.topic: function
-f1_keywords: 
- - "winnetwk/WNetGetResourceParent"
+f1_keywords:
+- winnetwk/WNetGetResourceParent
 dev_langs:
- - c++
+- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mpr.dll
+- Mpr.dll
 api_name:
- - WNetGetResourceParent
- - WNetGetResourceParentA
- - WNetGetResourceParentW
+- WNetGetResourceParent
+- WNetGetResourceParentA
+- WNetGetResourceParentW
 targetos: Windows
 req.typenames: 
 req.redist: 

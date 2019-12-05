@@ -1,19 +1,17 @@
 ---
 UID: NF:snmp.SnmpSvcSetLogLevel
 title: SnmpSvcSetLogLevel function (snmp.h)
-
 description: The SnmpSvcSetLogLevel function adjusts the level of detail of the debug output from the SNMP service and from SNMP extension agents using the SnmpUtilDbgPrint function. This function is an element of the SNMP Utility API.
 old-location: snmp\snmpsvcsetloglevel.htm
 tech.root: SNMP
 ms.assetid: 735eb056-1e2a-49d0-9613-10a326afb872
-
 ms.date: 12/05/2018
 ms.keywords: SNMP_LOG_ERROR, SNMP_LOG_FATAL, SNMP_LOG_SILENT, SNMP_LOG_TRACE, SNMP_LOG_VERBOSE, SNMP_LOG_WARNING, SnmpSvcSetLogLevel, SnmpSvcSetLogLevel function [SNMP], _snmp_snmpsvcsetloglevel, snmp.snmpsvcsetloglevel, snmp/SnmpSvcSetLogLevel
 ms.topic: function
-f1_keywords: 
- - "snmp/SnmpSvcSetLogLevel"
+f1_keywords:
+- snmp/SnmpSvcSetLogLevel
 dev_langs:
- - c++
+- c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Snmpapi.lib
 req.dll: Snmpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Snmpapi.dll
+- Snmpapi.dll
 api_name:
- - SnmpSvcSetLogLevel
+- SnmpSvcSetLogLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

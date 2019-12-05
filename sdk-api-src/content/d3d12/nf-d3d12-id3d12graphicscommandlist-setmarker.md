@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetMarker
 title: ID3D12GraphicsCommandList::SetMarker (d3d12.h)
-
 description: Not intended to be called directly.  Use the PIX event runtime to insert events into a command list.
 old-location: direct3d12\id3d12graphicscommandlist_setmarker.htm
 tech.root: direct3d12
 ms.assetid: 521844B8-0EF8-4F09-ABCE-E8C96129F548
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetMarker method, ID3D12GraphicsCommandList.SetMarker, ID3D12GraphicsCommandList::SetMarker, SetMarker, SetMarker method, SetMarker method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetMarker, direct3d12.id3d12graphicscommandlist_setmarker
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList.SetMarker"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList.SetMarker
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.SetMarker
+- ID3D12GraphicsCommandList.SetMarker
 targetos: Windows
 req.typenames: 
 req.redist: 

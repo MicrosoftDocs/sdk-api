@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_SetGroupHeaderImageList
 title: ListView_SetGroupHeaderImageList macro (commctrl.h)
-
 description: Assigns an image list to the group header of a list-view control.
 old-location: controls\ListView_SetGroupHeaderImageList.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setgroupheaderimagelist.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_SetGroupHeaderImageList, ListView_SetGroupHeaderImageList macro [Windows Controls], _shell_ListView_SetGroupHeaderImageList, _shell_ListView_SetGroupHeaderImageList_cpp, commctrl/ListView_SetGroupHeaderImageList, controls.ListView_SetGroupHeaderImageList, controls._shell_ListView_SetGroupHeaderImageList
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_SetGroupHeaderImageList"
+f1_keywords:
+- commctrl/ListView_SetGroupHeaderImageList
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_SetGroupHeaderImageList
+- ListView_SetGroupHeaderImageList
 targetos: Windows
 req.typenames: 
 req.redist: 

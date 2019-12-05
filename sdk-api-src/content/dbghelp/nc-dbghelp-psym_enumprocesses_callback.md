@@ -1,19 +1,17 @@
 ---
 UID: NC:dbghelp.PSYM_ENUMPROCESSES_CALLBACK
 title: PSYM_ENUMPROCESSES_CALLBACK (dbghelp.h)
-
 description: An application-defined function used with the SymEnumProcesses function.
 old-location: base\symenumprocessesproc.htm
 tech.root: Debug
 ms.assetid: 4748b2a3-0b7b-4d9c-96ed-c4b3ba927107
-
 ms.date: 12/05/2018
 ms.keywords: PSYM_ENUMPROCESSES_CALLBACK, SymEnumProcessesProc, SymEnumProcessesProc callback, SymEnumProcessesProc callback function, base.symenumprocessesproc, dbghelp/SymEnumProcessesProc
 ms.topic: callback
-f1_keywords: 
- - "dbghelp/SymEnumProcessesProc"
+f1_keywords:
+- dbghelp/SymEnumProcessesProc
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - SymEnumProcessesProc
+- SymEnumProcessesProc
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.3 or later

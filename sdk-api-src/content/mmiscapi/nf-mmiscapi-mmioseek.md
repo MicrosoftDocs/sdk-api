@@ -1,19 +1,17 @@
 ---
 UID: NF:mmiscapi.mmioSeek
 title: mmioSeek function (mmiscapi.h)
-
 description: The mmioSeek function changes the current file position in a file opened by using the mmioOpen function.
 old-location: multimedia\mmioseek.htm
 tech.root: Multimedia
 ms.assetid: 11ef0ba9-0b8d-4c1c-981b-3cef5b6ee0e9
-
 ms.date: 12/05/2018
 ms.keywords: SEEK_CUR, SEEK_END, SEEK_SET, _win32_mmioSeek, mmioSeek, mmioSeek function [Windows Multimedia], mmsystem/mmioSeek, multimedia.mmioseek
 ms.topic: function
-f1_keywords: 
- - "mmiscapi/mmioSeek"
+f1_keywords:
+- mmiscapi/mmioSeek
 dev_langs:
- - c++
+- c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-misc-l1-1-0.dll
- - winmmbase.dll
- - API-MS-Win-mm-misc-l1-1-1.dll
+- Winmm.dll
+- API-MS-Win-mm-misc-l1-1-0.dll
+- winmmbase.dll
+- API-MS-Win-mm-misc-l1-1-1.dll
 api_name:
- - mmioSeek
+- mmioSeek
 targetos: Windows
 req.typenames: 
 req.redist: 

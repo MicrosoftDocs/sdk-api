@@ -1,19 +1,17 @@
 ---
 UID: NE:msinkaut.InkRecognizerCapabilities
 title: InkRecognizerCapabilities (msinkaut.h)
-
 description: Specifies the attributes of a recognizer. You also use this enumeration to determine which attributes to use when you search for an installed recognizer.
 old-location: tablet\inkrecognizercapabilities.htm
 tech.root: tablet
 ms.assetid: df405aeb-fefd-4bba-9c02-c1865418f76a
-
 ms.date: 12/05/2018
 ms.keywords: IRC_AdviseInkChange, IRC_ArbitraryAngle, IRC_BoxedInput, IRC_CharacterAutoCompletionInput, IRC_DownAndLeft, IRC_DownAndRight, IRC_FreeInput, IRC_Lattice, IRC_LeftAndDown, IRC_LinedInput, IRC_Object, IRC_Personalizable, IRC_RightAndDown, IRC_StrokeReorder, InkRecognizerCapabilities, InkRecognizerCapabilities enumeration [Tablet PC], [Hidden] IRC_DontCare, df405aeb-fefd-4bba-9c02-c1865418f76a, msinkaut/IRC_AdviseInkChange, msinkaut/IRC_ArbitraryAngle, msinkaut/IRC_BoxedInput, msinkaut/IRC_CharacterAutoCompletionInput, msinkaut/IRC_DownAndLeft, msinkaut/IRC_DownAndRight, msinkaut/IRC_FreeInput, msinkaut/IRC_Lattice, msinkaut/IRC_LeftAndDown, msinkaut/IRC_LinedInput, msinkaut/IRC_Object, msinkaut/IRC_Personalizable, msinkaut/IRC_RightAndDown, msinkaut/IRC_StrokeReorder, msinkaut/InkRecognizerCapabilities, msinkaut/[Hidden] IRC_DontCare, tablet.inkrecognizercapabilities
 ms.topic: enum
-f1_keywords: 
- - "msinkaut/InkRecognizerCapabilities"
+f1_keywords:
+- msinkaut/InkRecognizerCapabilities
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msinkaut.h
+- msinkaut.h
 api_name:
- - InkRecognizerCapabilities
+- InkRecognizerCapabilities
 targetos: Windows
 req.typenames: InkRecognizerCapabilities
 req.redist: 

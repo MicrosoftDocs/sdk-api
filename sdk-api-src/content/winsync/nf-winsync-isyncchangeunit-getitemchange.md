@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncChangeUnit.GetItemChange
 title: ISyncChangeUnit::GetItemChange (winsync.h)
-
 description: Gets the item change that contains this change unit change.
 old-location: winsync\isyncchangeunit_getitemchange.htm
 tech.root: winsync
 ms.assetid: d28b4eb0-ddd2-4abf-9183-4d39b728923b
-
 ms.date: 12/05/2018
 ms.keywords: GetItemChange, GetItemChange method [Windows Sync], GetItemChange method [Windows Sync],ISyncChangeUnit interface, ISyncChangeUnit interface [Windows Sync],GetItemChange method, ISyncChangeUnit.GetItemChange, ISyncChangeUnit::GetItemChange, winsync.isyncchangeunit_getitemchange, winsync/ISyncChangeUnit::GetItemChange
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncChangeUnit.GetItemChange"
+f1_keywords:
+- winsync/ISyncChangeUnit.GetItemChange
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChangeUnit.GetItemChange
+- ISyncChangeUnit.GetItemChange
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:dxgi.IDXGIOutput
 title: IDXGIOutput (dxgi.h)
-
 description: An IDXGIOutput interface represents an adapter output (such as a monitor).
 old-location: direct3ddxgi\idxgioutput.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput.htm
-
 ms.date: 12/05/2018
 ms.keywords: 1d09c573-df6d-db81-0dbe-3135c4704ef8, IDXGIOutput, IDXGIOutput interface [DXGI], IDXGIOutput interface [DXGI],described, direct3ddxgi.idxgioutput, dxgi/IDXGIOutput
 ms.topic: interface
-f1_keywords: 
- - "dxgi/IDXGIOutput"
+f1_keywords:
+- dxgi/IDXGIOutput
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGIOutput
+- IDXGIOutput
 targetos: Windows
 req.typenames: 
 req.redist: 

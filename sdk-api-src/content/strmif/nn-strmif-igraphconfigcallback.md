@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IGraphConfigCallback
 title: IGraphConfigCallback (strmif.h)
-
 description: The IGraphConfigCallback interface contains the callback method passed to IGraphConfig::Reconfigure. The caller (an application or filter) implements this interface. For more information, see IGraphConfig.
 old-location: dshow\igraphconfigcallback.htm
 tech.root: DirectShow
 ms.assetid: b7856181-1616-4984-bf5e-402140ab7b4e
-
 ms.date: 12/05/2018
 ms.keywords: IGraphConfigCallback, IGraphConfigCallback interface [DirectShow], IGraphConfigCallback interface [DirectShow],described, IGraphConfigCallbackInterface, dshow.igraphconfigcallback, strmif/IGraphConfigCallback
 ms.topic: interface
-f1_keywords: 
- - "strmif/IGraphConfigCallback"
+f1_keywords:
+- strmif/IGraphConfigCallback
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IGraphConfigCallback
+- IGraphConfigCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage2.Save
 title: IFaxIncomingMessage2::Save (faxcomex.h)
-
 description: Saves the FaxIncomingMessage object's data.
 old-location: fax\_mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_save_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxincomingmessage2\save.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessage2 interface [Fax Service],Save method, IFaxIncomingMessage2.Save, IFaxIncomingMessage2::Save, Save, Save method [Fax Service], Save method [Fax Service],IFaxIncomingMessage2 interface, _mfax_faxincomingmessage.save, fax._mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_save_cpp, fax._mfax_faxincomingmessage_save, faxcomex/IFaxIncomingMessage2::Save
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxIncomingMessage2.Save"
+f1_keywords:
+- faxcomex/IFaxIncomingMessage2.Save
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxIncomingMessage2.Save
- - IFaxIncomingMessage2.Save
+- IFaxIncomingMessage2.Save
+- IFaxIncomingMessage2.Save
 targetos: Windows
 req.typenames: 
 req.redist: 

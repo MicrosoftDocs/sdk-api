@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.IOCTL_CHANGER_EXCHANGE_MEDIUM
 title: IOCTL_CHANGER_EXCHANGE_MEDIUM
-
 description: Moves a piece of media from a source element to one destination, and the piece of media originally in the first destination to a second destination.
 old-location: base\ioctl_changer_exchange_medium.htm
 tech.root: devio
 ms.assetid: 40550df0-9da4-4b02-bd57-23eae78c68df
-
 ms.date: 12/05/2018
 ms.keywords: IOCTL_CHANGER_EXCHANGE_MEDIUM, IOCTL_CHANGER_EXCHANGE_MEDIUM control, IOCTL_CHANGER_EXCHANGE_MEDIUM control code, _win32_ioctl_changer_exchange_medium, base.ioctl_changer_exchange_medium, winioctl/IOCTL_CHANGER_EXCHANGE_MEDIUM
 ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_CHANGER_EXCHANGE_MEDIUM
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

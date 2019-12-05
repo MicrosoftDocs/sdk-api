@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMDEC4.XMDEC4(XMDEC4 &&)
 title: XMDEC4::XMDEC4(XMDEC4 &&) (directxpackedvector.h)
-
 description: A constructor for XMDEC4.
 old-location: 
 tech.root: dxmath
 ms.assetid: 
-
 ms.date: 05/06/2019
 ms.keywords: XMDEC4, XMDEC4 constructor [DirectX Math Support APIs], XMDEC4 constructor [DirectX Math Support APIs],XMDEC4 structure, XMDEC4 structure [DirectX Math Support APIs],XMDEC4 constructor, XMDEC4.XMDEC4, XMDEC4.XMDEC4(), XMDEC4.XMDEC4(XMDEC4 &&), XMDEC4::XMDEC4, XMDEC4::XMDEC4(XMDEC4 &&), dxmath.xmdec4_ctor_1
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMDEC4.XMDEC4"
+f1_keywords:
+- directxpackedvector/XMDEC4.XMDEC4
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMDEC4.XMDEC4
+- XMDEC4.XMDEC4
 targetos: Windows
 req.typenames: 
 req.redist: 

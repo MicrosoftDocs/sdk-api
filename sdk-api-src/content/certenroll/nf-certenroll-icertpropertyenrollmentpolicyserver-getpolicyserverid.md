@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollmentPolicyServer.GetPolicyServerId
 title: ICertPropertyEnrollmentPolicyServer::GetPolicyServerId (certenroll.h)
-
 description: Retrieves a string that uniquely identifies the certificate enrollment policy (CEP) server.
 old-location: security\icertpropertyenrollmentpolicyserver_getpolicyserverid.htm
 tech.root: seccertenroll
 ms.assetid: e0cd9f41-d697-4c27-9aff-a37de62d1bad
-
 ms.date: 12/05/2018
 ms.keywords: GetPolicyServerId, GetPolicyServerId method [Security], GetPolicyServerId method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetPolicyServerId method, ICertPropertyEnrollmentPolicyServer.GetPolicyServerId, ICertPropertyEnrollmentPolicyServer::GetPolicyServerId, certenroll/ICertPropertyEnrollmentPolicyServer::GetPolicyServerId, security.icertpropertyenrollmentpolicyserver_getpolicyserverid
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICertPropertyEnrollmentPolicyServer.GetPolicyServerId"
+f1_keywords:
+- certenroll/ICertPropertyEnrollmentPolicyServer.GetPolicyServerId
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - ICertPropertyEnrollmentPolicyServer.GetPolicyServerId
+- ICertPropertyEnrollmentPolicyServer.GetPolicyServerId
 targetos: Windows
 req.typenames: 
 req.redist: 

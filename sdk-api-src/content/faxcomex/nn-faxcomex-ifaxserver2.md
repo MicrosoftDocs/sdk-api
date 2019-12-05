@@ -1,19 +1,17 @@
 ---
 UID: NN:faxcomex.IFaxServer2
 title: IFaxServer2 (faxcomex.h)
-
 description: Inherits all the functionality of the IFaxServer interface and adds read-only properties for the server's configuration, account management, security objects, and the current account.
 old-location: fax\_mfax_faxserver2_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxserver2\faxinto_z_ifaxserver2_cpp.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxServer2, IFaxServer2 interface [Fax Service], IFaxServer2 interface [Fax Service],described, _mfax_faxserver2_cpp, fax._mfax_faxserver2_cpp, faxcomex/IFaxServer2
 ms.topic: interface
-f1_keywords: 
- - "faxcomex/IFaxServer2"
+f1_keywords:
+- faxcomex/IFaxServer2
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxServer2
+- IFaxServer2
 targetos: Windows
 req.typenames: 
 req.redist: 

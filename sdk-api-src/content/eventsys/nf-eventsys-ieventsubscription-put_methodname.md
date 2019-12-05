@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_MethodName
 title: IEventSubscription::put_MethodName (eventsys.h)
-
 description: The name of the event method.
 old-location: cos\ieventsubscription_methodname.htm
 tech.root: cossdk
 ms.assetid: 2959e1f3-5b16-40a3-abdf-7fe18be2336b
-
 ms.date: 12/05/2018
 ms.keywords: IEventSubscription interface [COM+],MethodName property, IEventSubscription.MethodName, IEventSubscription.put_MethodName, IEventSubscription::MethodName, IEventSubscription::get_MethodName, IEventSubscription::put_MethodName, MethodName property [COM+], MethodName property [COM+],IEventSubscription interface, cos.ieventsubscription_methodname, eventsys/IEventSubscription::MethodName, eventsys/IEventSubscription::get_MethodName, eventsys/IEventSubscription::put_MethodName, put_MethodName
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventSubscription.MethodName"
+f1_keywords:
+- eventsys/IEventSubscription.MethodName
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IEventSubscription.MethodName
- - IEventSubscription.get_MethodName
- - IEventSubscription.put_MethodName
+- IEventSubscription.MethodName
+- IEventSubscription.get_MethodName
+- IEventSubscription.put_MethodName
 targetos: Windows
 req.typenames: 
 req.redist: 

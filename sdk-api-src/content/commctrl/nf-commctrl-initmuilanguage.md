@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.InitMUILanguage
 title: InitMUILanguage function (commctrl.h)
-
 description: Enables an application to specify a language to be used with the common controls that is different from the system language.
 old-location: controls\InitMUILanguage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\initmuilanguage.htm
-
 ms.date: 12/05/2018
 ms.keywords: InitMUILanguage, InitMUILanguage function [Windows Controls], _win32_InitMUILanguage, _win32_InitMUILanguage_cpp, commctrl/InitMUILanguage, controls.InitMUILanguage, controls._win32_InitMUILanguage
 ms.topic: function
-f1_keywords: 
- - "commctrl/InitMUILanguage"
+f1_keywords:
+- commctrl/InitMUILanguage
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll (version 5.80 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - InitMUILanguage
+- InitMUILanguage
 targetos: Windows
 req.typenames: 
 req.redist: 

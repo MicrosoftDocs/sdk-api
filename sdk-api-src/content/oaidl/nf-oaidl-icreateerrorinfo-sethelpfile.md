@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateErrorInfo.SetHelpFile
 title: ICreateErrorInfo::SetHelpFile (oaidl.h)
-
 description: Sets the path of the Help file that describes the error.
 old-location: automat\icreateerrorinfo_sethelpfile.htm
 tech.root: automat
 ms.assetid: bb439d74-fd52-4c95-afc5-d57e2fe5029d
-
 ms.date: 12/05/2018
 ms.keywords: ICreateErrorInfo interface [Automation],SetHelpFile method, ICreateErrorInfo.SetHelpFile, ICreateErrorInfo::SetHelpFile, SetHelpFile, SetHelpFile method [Automation], SetHelpFile method [Automation],ICreateErrorInfo interface, _oa96_ICreateErrorInfo_SetHelpFile, automat.icreateerrorinfo_sethelpfile, oaidl/ICreateErrorInfo::SetHelpFile
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateErrorInfo.SetHelpFile"
+f1_keywords:
+- oaidl/ICreateErrorInfo.SetHelpFile
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateErrorInfo.SetHelpFile
+- ICreateErrorInfo.SetHelpFile
 targetos: Windows
 req.typenames: 
 req.redist: 

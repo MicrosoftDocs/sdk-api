@@ -1,19 +1,17 @@
 ---
 UID: NE:msxml6._XHR_COOKIE_STATE
 title: XHR_COOKIE_STATE (msxml6.h)
-
 description: Specifies the state of the cookie.
 old-location: ixhr2\xhr_cookie_state.htm
 tech.root: ixhr2
 ms.assetid: 040a5ae8-ec18-44a6-a3e9-376637cc005a
-
 ms.date: 12/05/2018
 ms.keywords: XHR_COOKIE_STATE, XHR_COOKIE_STATE enumeration [XMLHttpRequest2], XHR_COOKIE_STATE_ACCEPT, XHR_COOKIE_STATE_DOWNGRADE, XHR_COOKIE_STATE_LEASH, XHR_COOKIE_STATE_PROMPT, XHR_COOKIE_STATE_REJECT, XHR_COOKIE_STATE_UNKNOWN, ixhr2.xhr_cookie_state, msxml6/XHR_COOKIE_STATE, msxml6/XHR_COOKIE_STATE_ACCEPT, msxml6/XHR_COOKIE_STATE_DOWNGRADE, msxml6/XHR_COOKIE_STATE_LEASH, msxml6/XHR_COOKIE_STATE_PROMPT, msxml6/XHR_COOKIE_STATE_REJECT, msxml6/XHR_COOKIE_STATE_UNKNOWN
 ms.topic: enum
-f1_keywords: 
- - "msxml6/XHR_COOKIE_STATE"
+f1_keywords:
+- msxml6/XHR_COOKIE_STATE
 dev_langs:
- - c++
+- c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msxml6.h
+- msxml6.h
 api_name:
- - XHR_COOKIE_STATE
+- XHR_COOKIE_STATE
 targetos: Windows
 req.typenames: XHR_COOKIE_STATE
 req.redist: 

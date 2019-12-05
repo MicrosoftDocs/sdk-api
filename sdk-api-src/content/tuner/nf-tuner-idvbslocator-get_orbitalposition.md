@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDVBSLocator.get_OrbitalPosition
 title: IDVBSLocator::get_OrbitalPosition (tuner.h)
-
 description: The get_OrbitalPosition method retrieves the setting for the satellite's orbital position.
 old-location: mstv\idvbslocator_get_orbitalposition.htm
 tech.root: mstv
 ms.assetid: 3069cf27-32db-4d3f-9e61-9eddc266b540
-
 ms.date: 12/05/2018
 ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],get_OrbitalPosition method, IDVBSLocator.get_OrbitalPosition, IDVBSLocator::get_OrbitalPosition, IDVBSLocatorget_OrbitalPosition, get_OrbitalPosition, get_OrbitalPosition method [Microsoft TV Technologies], get_OrbitalPosition method [Microsoft TV Technologies],IDVBSLocator interface, mstv.idvbslocator_get_orbitalposition, tuner/IDVBSLocator::get_OrbitalPosition
 ms.topic: method
-f1_keywords: 
- - "tuner/IDVBSLocator.get_OrbitalPosition"
+f1_keywords:
+- tuner/IDVBSLocator.get_OrbitalPosition
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBSLocator.get_OrbitalPosition
+- IDVBSLocator.get_OrbitalPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

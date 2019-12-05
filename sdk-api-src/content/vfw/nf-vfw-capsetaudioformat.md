@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.capSetAudioFormat
 title: capSetAudioFormat macro (vfw.h)
-
 description: The capSetAudioFormat macro sets the audio format to use when performing streaming or step capture. You can use this macro or explicitly call the WM_CAP_SET_AUDIOFORMAT message.
 old-location: multimedia\capsetaudioformat.htm
 tech.root: Multimedia
 ms.assetid: 9f14b76c-3b12-4dfb-937d-e8a173e077bd
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_capSetAudioFormat, capSetAudioFormat, capSetAudioFormat macro [Windows Multimedia], multimedia.capsetaudioformat, vfw/capSetAudioFormat"
+ms.keywords: _win32_capSetAudioFormat, capSetAudioFormat, capSetAudioFormat macro [Windows Multimedia], multimedia.capsetaudioformat, vfw/capSetAudioFormat
 ms.topic: macro
-f1_keywords: 
- - "vfw/capSetAudioFormat"
+f1_keywords:
+- vfw/capSetAudioFormat
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - capSetAudioFormat
+- capSetAudioFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

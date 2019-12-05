@@ -1,19 +1,17 @@
 ---
 UID: NE:inspectable.TrustLevel
 title: TrustLevel (inspectable.h)
-
 description: Represents the trust level of an activatable class.
 old-location: winrt\trustlevel.htm
 tech.root: WinRT
 ms.assetid: 75E30E4B-EE5F-41C4-AC22-91D542E920EB
-
 ms.date: 12/05/2018
 ms.keywords: BaseTrust, FullTrust, PartialTrust, RegisteredTrustLevel, TrustLevel, TrustLevel enumeration [Windows Runtime], inspectable/BaseTrust, inspectable/FullTrust, inspectable/PartialTrust, inspectable/TrustLevel, winrt.trustlevel
 ms.topic: enum
-f1_keywords: 
- - "inspectable/TrustLevel"
+f1_keywords:
+- inspectable/TrustLevel
 dev_langs:
- - c++
+- c++
 req.header: inspectable.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Inspectable.h
+- Inspectable.h
 api_name:
- - TrustLevel
+- TrustLevel
 targetos: Windows
 req.typenames: TrustLevel
 req.redist: 

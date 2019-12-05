@@ -1,19 +1,17 @@
 ---
 UID: NS:mapi.__unnamed_struct_6
 title: MapiMessageW (mapi.h)
-
 description: A MapiMessageW structure contains information about a message.
 old-location: mapi\mapimessagew.htm
 tech.root: WindowsMAPI
 ms.assetid: 3C74A9C0-1483-4A97-94EB-19A0D30D9A08
-
 ms.date: 12/05/2018
-ms.keywords: "*lpMapiMessageW, MAPI_RECEIPT_REQUESTED, MAPI_SENT, MAPI_UNREAD, MapiMessageW, MapiMessageW structure, lpMapiMessageW, lpMapiMessageW structure pointer, mapi.mapimessagew, mapi/MapiMessageW, mapi/lpMapiMessageW"
+ms.keywords: '*lpMapiMessageW, MAPI_RECEIPT_REQUESTED, MAPI_SENT, MAPI_UNREAD, MapiMessageW, MapiMessageW structure, lpMapiMessageW, lpMapiMessageW structure pointer, mapi.mapimessagew, mapi/MapiMessageW, mapi/lpMapiMessageW'
 ms.topic: struct
-f1_keywords: 
- - "mapi/MapiMessageW"
+f1_keywords:
+- mapi/MapiMessageW
 dev_langs:
- - c++
+- c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mapi.h
+- Mapi.h
 api_name:
- - MapiMessageW
+- MapiMessageW
 targetos: Windows
 req.typenames: MapiMessageW, *lpMapiMessageW
 req.redist: 

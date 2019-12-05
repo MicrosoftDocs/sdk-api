@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.SetWallpaper
 title: IActiveDesktop::SetWallpaper (shlobj_core.h)
-
 description: Sets the wallpaper for the Active Desktop.
 old-location: lwef\iactivedesktop_setwallpaper.htm
 tech.root: lwef
 ms.assetid: e789a8f1-3e65-4fa7-a62b-8fad6114ed46
-
 ms.date: 12/05/2018
 ms.keywords: IActiveDesktop interface [Legacy Windows Environment Features],SetWallpaper method, IActiveDesktop.SetWallpaper, IActiveDesktop::SetWallpaper, SetWallpaper, SetWallpaper method [Legacy Windows Environment Features], SetWallpaper method [Legacy Windows Environment Features],IActiveDesktop interface, _win32_IActiveDesktop_SetWallpaper, lwef.iactivedesktop_setwallpaper, shell.iactivedesktop_setwallpaper, shlobj_core/IActiveDesktop::SetWallpaper
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IActiveDesktop.SetWallpaper"
+f1_keywords:
+- shlobj_core/IActiveDesktop.SetWallpaper
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IActiveDesktop.SetWallpaper
+- IActiveDesktop.SetWallpaper
 targetos: Windows
 req.typenames: 
 req.redist: 

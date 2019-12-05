@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.InitializeThreadpoolEnvironment
 title: InitializeThreadpoolEnvironment function (winbase.h)
-
 description: Initializes a callback environment.
 old-location: base\initializethreadpoolenvironment.htm
 tech.root: ProcThread
 ms.assetid: ad610b7a-9865-4feb-81d2-491f9f87ef3e
-
 ms.date: 12/05/2018
 ms.keywords: InitializeThreadpoolEnvironment, InitializeThreadpoolEnvironment function, base.initializethreadpoolenvironment, winbase/InitializeThreadpoolEnvironment
 ms.topic: function
-f1_keywords: 
- - "winbase/InitializeThreadpoolEnvironment"
+f1_keywords:
+- winbase/InitializeThreadpoolEnvironment
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
+- WinBase.h
 api_name:
- - InitializeThreadpoolEnvironment
+- InitializeThreadpoolEnvironment
 targetos: Windows
 req.typenames: 
 req.redist: 

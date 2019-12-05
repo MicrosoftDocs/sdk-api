@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMStoreSInt4
 title: XMStoreSInt4 function (directxmath.h)
-
 description: Stores signed integer data from an XMVECTOR in an XMINT4 structure.
 old-location: dxmath\xmstoresint4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreSInt4(XMINT4@,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMStoreSInt4, XMStoreSInt4, XMStoreSInt4 method [DirectX Math Support APIs], dxmath.xmstoresint4
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMStoreSInt4"
+f1_keywords:
+- directxmath/XMStoreSInt4
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMStoreSInt4
+- XMStoreSInt4
 targetos: Windows
 req.typenames: 
 req.redist: 

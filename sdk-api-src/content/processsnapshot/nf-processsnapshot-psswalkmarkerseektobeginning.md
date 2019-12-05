@@ -1,19 +1,17 @@
 ---
 UID: NF:processsnapshot.PssWalkMarkerSeekToBeginning
 title: PssWalkMarkerSeekToBeginning function (processsnapshot.h)
-
 description: Rewinds a walk marker back to the beginning.
 old-location: proc_snap\psswalkmarkerseektobeginning.htm
 tech.root: proc_snap
 ms.assetid: BE0FA122-3966-4827-9DA3-A98A162EF270
-
 ms.date: 12/05/2018
 ms.keywords: PssWalkMarkerSeekToBeginning, PssWalkMarkerSeekToBeginning function, proc_snap.psswalkmarkerseektobeginning, processsnapshot/PssWalkMarkerSeekToBeginning
 ms.topic: function
-f1_keywords: 
- - "processsnapshot/PssWalkMarkerSeekToBeginning"
+f1_keywords:
+- processsnapshot/PssWalkMarkerSeekToBeginning
 dev_langs:
- - c++
+- c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-Processsnapshot-l1-1-0.dll
- - KernelBase.dll
+- kernel32.dll
+- API-MS-Win-Core-Processsnapshot-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - PssWalkMarkerSeekToBeginning
+- PssWalkMarkerSeekToBeginning
 targetos: Windows
 req.typenames: 
 req.redist: 

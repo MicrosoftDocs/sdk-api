@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.CloseNtmsSession
 title: CloseNtmsSession function (ntmsapi.h)
-
 description: The CloseNtmsSession function closes the specified RSM session.
 old-location: fs\closentmssession.htm
 tech.root: Rsm
 ms.assetid: 54bc354a-fdef-4642-8e53-cf20ed374000
-
 ms.date: 12/05/2018
 ms.keywords: CloseNtmsSession, CloseNtmsSession function [Files], _zaw_closentmssession, base.closentmssession, fs.closentmssession, ntmsapi/CloseNtmsSession
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/CloseNtmsSession"
+f1_keywords:
+- ntmsapi/CloseNtmsSession
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - CloseNtmsSession
+- CloseNtmsSession
 targetos: Windows
 req.typenames: 
 req.redist: 

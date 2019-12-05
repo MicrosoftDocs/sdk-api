@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITPluggableTerminalClassInfo.get_Direction
 title: ITPluggableTerminalClassInfo::get_Direction (tapi3if.h)
-
 description: The get_Direction method gets the direction supported by the terminal.
 old-location: tapi3\itpluggableterminalclassinfo_get_direction.htm
 tech.root: Tapi
 ms.assetid: 843aeedc-08ca-436b-9d43-1e7b9aa1ac8e
-
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalClassInfo interface [TAPI 2.2],get_Direction method, ITPluggableTerminalClassInfo.get_Direction, ITPluggableTerminalClassInfo::get_Direction, _tapi3_itpluggableterminalclassinfo_get_direction, get_Direction, get_Direction method [TAPI 2.2], get_Direction method [TAPI 2.2],ITPluggableTerminalClassInfo interface, tapi3.itpluggableterminalclassinfo_get_direction, tapi3if/ITPluggableTerminalClassInfo::get_Direction
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITPluggableTerminalClassInfo.get_Direction"
+f1_keywords:
+- tapi3if/ITPluggableTerminalClassInfo.get_Direction
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPluggableTerminalClassInfo.get_Direction
+- ITPluggableTerminalClassInfo.get_Direction
 targetos: Windows
 req.typenames: 
 req.redist: 

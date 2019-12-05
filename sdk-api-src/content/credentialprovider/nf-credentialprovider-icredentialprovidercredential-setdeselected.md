@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.SetDeselected
 title: ICredentialProviderCredential::SetDeselected (credentialprovider.h)
-
 description: Called when a credential loses selection.
 old-location: shell\ICredentialProviderCredential_SetDeselected.htm
 tech.root: shell
 ms.assetid: 89c01b7c-0d22-44f8-9934-b01d7410f85f
-
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredential interface [Windows Shell],SetDeselected method, ICredentialProviderCredential.SetDeselected, ICredentialProviderCredential::SetDeselected, SetDeselected, SetDeselected method [Windows Shell], SetDeselected method [Windows Shell],ICredentialProviderCredential interface, _shell_ICredentialProviderCredential_SetDeselected, credentialprovider/ICredentialProviderCredential::SetDeselected, shell.ICredentialProviderCredential_SetDeselected
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderCredential.SetDeselected"
+f1_keywords:
+- credentialprovider/ICredentialProviderCredential.SetDeselected
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - ICredentialProviderCredential.SetDeselected
+- ICredentialProviderCredential.SetDeselected
 targetos: Windows
 req.typenames: 
 req.redist: 

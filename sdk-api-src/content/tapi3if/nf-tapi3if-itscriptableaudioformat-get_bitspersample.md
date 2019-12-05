@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITScriptableAudioFormat.get_BitsPerSample
 title: ITScriptableAudioFormat::get_BitsPerSample (tapi3if.h)
-
 description: The get_BitsPerSample method returns the value for the wBitsPerSample member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_get_bitspersample.htm
 tech.root: Tapi
 ms.assetid: a98a3571-89bf-4625-b495-2d080c86c4b5
-
 ms.date: 12/05/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],get_BitsPerSample method, ITScriptableAudioFormat.get_BitsPerSample, ITScriptableAudioFormat::get_BitsPerSample, _tapi3_itscriptableaudioformat_get_bitspersample, get_BitsPerSample, get_BitsPerSample method [TAPI 2.2], get_BitsPerSample method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_get_bitspersample, tapi3if/ITScriptableAudioFormat::get_BitsPerSample
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITScriptableAudioFormat.get_BitsPerSample"
+f1_keywords:
+- tapi3if/ITScriptableAudioFormat.get_BitsPerSample
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITScriptableAudioFormat.get_BitsPerSample
+- ITScriptableAudioFormat.get_BitsPerSample
 targetos: Windows
 req.typenames: 
 req.redist: 

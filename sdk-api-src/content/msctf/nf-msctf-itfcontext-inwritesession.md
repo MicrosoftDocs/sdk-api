@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfContext.InWriteSession
 title: ITfContext::InWriteSession (msctf.h)
-
 description: ITfContext::InWriteSession method
 old-location: tsf\itfcontext_inwritesession.htm
 tech.root: TSF
 ms.assetid: 88a8a2c1-bd5f-47d2-8612-c7e0cabfe254
-
 ms.date: 12/05/2018
 ms.keywords: ITfContext interface [Text Services Framework],InWriteSession method, ITfContext.InWriteSession, ITfContext::InWriteSession, InWriteSession, InWriteSession method [Text Services Framework], InWriteSession method [Text Services Framework],ITfContext interface, _tsf_itfcontext_inwritesession_ref, msctf/ITfContext::InWriteSession, tsf.itfcontext_inwritesession
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfContext.InWriteSession"
+f1_keywords:
+- msctf/ITfContext.InWriteSession
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfContext.InWriteSession
+- ITfContext.InWriteSession
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

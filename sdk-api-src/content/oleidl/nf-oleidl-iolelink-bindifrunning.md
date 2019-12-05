@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleLink.BindIfRunning
 title: IOleLink::BindIfRunning (oleidl.h)
-
 description: Activates the connection between the linked object and the link source if the link source is already running.
 old-location: com\iolelink_bindifrunning.htm
 tech.root: com
 ms.assetid: 791fbb3c-6b73-490c-a69b-ba58fd386de4
-
 ms.date: 12/05/2018
 ms.keywords: BindIfRunning, BindIfRunning method [COM], BindIfRunning method [COM],IOleLink interface, IOleLink interface [COM],BindIfRunning method, IOleLink.BindIfRunning, IOleLink::BindIfRunning, _ole_iolelink_bindifrunning, com.iolelink_bindifrunning, oleidl/IOleLink::BindIfRunning
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleLink.BindIfRunning"
+f1_keywords:
+- oleidl/IOleLink.BindIfRunning
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleLink.BindIfRunning
+- IOleLink.BindIfRunning
 targetos: Windows
 req.typenames: 
 req.redist: 

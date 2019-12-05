@@ -1,19 +1,17 @@
 ---
 UID: NF:qos2.QOSStartTrackingClient
 title: QOSStartTrackingClient function (qos2.h)
-
 description: The QOSStartTrackingClient function notifies the QOS subsystem of the existence of a new client.
 old-location: qos\qosstarttrackingclient.htm
 tech.root: QOS
 ms.assetid: 36e4a71f-fb6b-42b6-a770-8cbcf98e7eb3
-
 ms.date: 12/05/2018
 ms.keywords: QOSStartTrackingClient, QOSStartTrackingClient function [QOS], qos.qosstarttrackingclient, qos2/QOSStartTrackingClient
 ms.topic: function
-f1_keywords: 
- - "qos2/QOSStartTrackingClient"
+f1_keywords:
+- qos2/QOSStartTrackingClient
 dev_langs:
- - c++
+- c++
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Qwave.lib
 req.dll: Qwave.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - qwave.dll
+- qwave.dll
 api_name:
- - QOSStartTrackingClient
+- QOSStartTrackingClient
 targetos: Windows
 req.typenames: 
 req.redist: 

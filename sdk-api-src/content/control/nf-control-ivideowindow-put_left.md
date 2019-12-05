@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IVideoWindow.put_Left
 title: IVideoWindow::put_Left (control.h)
-
 description: The put_Left method sets the x-coordinate of the video window.
 old-location: dshow\ivideowindow_put_left.htm
 tech.root: DirectShow
 ms.assetid: a614ee46-49cf-40e4-a1f7-b3b3b7065175
-
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_Left method, IVideoWindow.put_Left, IVideoWindow::put_Left, IVideoWindowput_Left, control/IVideoWindow::put_Left, dshow.ivideowindow_put_left, put_Left, put_Left method [DirectShow], put_Left method [DirectShow],IVideoWindow interface
 ms.topic: method
-f1_keywords: 
- - "control/IVideoWindow.put_Left"
+f1_keywords:
+- control/IVideoWindow.put_Left
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVideoWindow.put_Left
+- IVideoWindow.put_Left
 targetos: Windows
 req.typenames: 
 req.redist: 

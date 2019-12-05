@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.AVIStreamEndStreaming
 title: AVIStreamEndStreaming function (vfw.h)
-
 description: The AVIStreamEndStreaming function ends streaming.
 old-location: multimedia\avistreamendstreaming.htm
 tech.root: Multimedia
 ms.assetid: 8555bc24-c017-4d02-854b-e64cf9e8ae1b
-
 ms.date: 12/05/2018
 ms.keywords: AVIStreamEndStreaming, AVIStreamEndStreaming function [Windows Multimedia], _win32_AVIStreamEndStreaming, multimedia.avistreamendstreaming, vfw/AVIStreamEndStreaming
 ms.topic: function
-f1_keywords: 
- - "vfw/AVIStreamEndStreaming"
+f1_keywords:
+- vfw/AVIStreamEndStreaming
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avifil32.dll
+- Avifil32.dll
 api_name:
- - AVIStreamEndStreaming
+- AVIStreamEndStreaming
 targetos: Windows
 req.typenames: 
 req.redist: 

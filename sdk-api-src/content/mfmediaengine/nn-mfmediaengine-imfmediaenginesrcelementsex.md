@@ -1,19 +1,17 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineSrcElementsEx
 title: IMFMediaEngineSrcElementsEx (mfmediaengine.h)
-
 description: Extends the IMFMediaEngineSrcElements interface to provide additional capabilities.
 old-location: mf\imfmediaenginesrcelementsex.htm
 tech.root: medfound
 ms.assetid: f15cb527-0f46-4887-9e02-835f0115bc5b
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineSrcElementsEx, IMFMediaEngineSrcElementsEx interface [Media Foundation], IMFMediaEngineSrcElementsEx interface [Media Foundation],described, mf.imfmediaenginesrcelementsex, mfmediaengine/IMFMediaEngineSrcElementsEx
 ms.topic: interface
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineSrcElementsEx"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineSrcElementsEx
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineSrcElementsEx
+- IMFMediaEngineSrcElementsEx
 targetos: Windows
 req.typenames: 
 req.redist: 

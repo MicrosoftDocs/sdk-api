@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRectangle.put_Data
 title: IInkRectangle::put_Data (msinkaut.h)
-
 description: Gets or sets access to the rectangle structure (C++ only).
 old-location: tablet\inkrectangle_data.htm
 tech.root: tablet
 ms.assetid: fd0d265e-c5d1-463a-bb4f-4dfa23cf6251
-
 ms.date: 12/05/2018
 ms.keywords: Data property [Tablet PC], Data property [Tablet PC],IInkRectangle interface, IInkRectangle interface [Tablet PC],Data property, IInkRectangle.Data, IInkRectangle.put_Data, IInkRectangle::Data, IInkRectangle::get_Data, IInkRectangle::put_Data, InkRectangle.get_Data, InkRectangle.put_Data, fd0d265e-c5d1-463a-bb4f-4dfa23cf6251, msinkaut/IInkRectangle::Data, msinkaut/IInkRectangle::get_Data, msinkaut/IInkRectangle::put_Data, put_Data, tablet.inkrectangle_data
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRectangle.Data"
+f1_keywords:
+- msinkaut/IInkRectangle.Data
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRectangle.Data
- - IInkRectangle.get_Data
- - IInkRectangle.put_Data
- - InkRectangle.get_Data
- - InkRectangle.put_Data
+- IInkRectangle.Data
+- IInkRectangle.get_Data
+- IInkRectangle.put_Data
+- InkRectangle.get_Data
+- InkRectangle.put_Data
 targetos: Windows
 req.typenames: 
 req.redist: 

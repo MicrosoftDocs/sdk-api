@@ -1,19 +1,17 @@
 ---
 UID: NN:windows.foundation.IPropertyValue
 title: IPropertyValue (windows.foundation.h)
-
 description: Represents a value in a Windows Runtime property store.
 old-location: winrt\ipropertyvalue.htm
 tech.root: WinRT
 ms.assetid: 447625BA-F982-4155-9B05-E478E1229443
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyValue, IPropertyValue interface [Windows Runtime], IPropertyValue interface [Windows Runtime],described, windows/IPropertyValue, winrt.ipropertyvalue
 ms.topic: interface
-f1_keywords: 
- - "windows.foundation/IPropertyValue"
+f1_keywords:
+- windows.foundation/IPropertyValue
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValue
+- IPropertyValue
 targetos: Windows
 req.typenames: 
 req.redist: 

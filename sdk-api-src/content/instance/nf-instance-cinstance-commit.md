@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.Commit
 title: CInstance::Commit (instance.h)
-
 description: The Commit method returns the current instance to WMI.
 old-location: wmi\cinstance_commit.htm
 tech.root: WmiSdk
 ms.assetid: 699dadf9-18b5-4c6d-a5c4-59ea8a85f089
-
 ms.date: 12/05/2018
-ms.keywords: "?Commit@CInstance@@QAEJXZ, ?Commit@CInstance@@QEAAJXZ, CInstance interface [Windows Management Instrumentation],Commit method, CInstance.Commit, CInstance::Commit, Commit, Commit method [Windows Management Instrumentation], Commit method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_commit, instance/CInstance::Commit, wmi.cinstance_commit"
+ms.keywords: ?Commit@CInstance@@QAEJXZ, ?Commit@CInstance@@QEAAJXZ, CInstance interface [Windows Management Instrumentation],Commit method, CInstance.Commit, CInstance::Commit, Commit, Commit method [Windows Management Instrumentation], Commit method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_commit, instance/CInstance::Commit, wmi.cinstance_commit
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.Commit"
+f1_keywords:
+- instance/CInstance.Commit
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.Commit
- - ?Commit@CInstance@@QAEJXZ
- - ?Commit@CInstance@@QEAAJXZ
+- CInstance.Commit
+- ?Commit@CInstance@@QAEJXZ
+- ?Commit@CInstance@@QEAAJXZ
 targetos: Windows
 req.typenames: 
 req.redist: 

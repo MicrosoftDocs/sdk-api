@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITAddress2.DeviceSpecificVariant
 title: ITAddress2::DeviceSpecificVariant (tapi3if.h)
-
 description: The DeviceSpecificVariant method enables service providers to provide access to features not offered by other TAPI functions.
 old-location: tapi3\itaddress2_devicespecificvariant.htm
 tech.root: Tapi
 ms.assetid: 27882bb2-dab8-4b8c-acca-35fbdc526362
-
 ms.date: 12/05/2018
 ms.keywords: DeviceSpecificVariant, DeviceSpecificVariant method [TAPI 2.2], DeviceSpecificVariant method [TAPI 2.2],ITAddress2 interface, ITAddress2 interface [TAPI 2.2],DeviceSpecificVariant method, ITAddress2.DeviceSpecificVariant, ITAddress2::DeviceSpecificVariant, _tapi3_itaddress2_devicespecificvariant, tapi3.itaddress2_devicespecificvariant, tapi3if/ITAddress2::DeviceSpecificVariant
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITAddress2.DeviceSpecificVariant"
+f1_keywords:
+- tapi3if/ITAddress2.DeviceSpecificVariant
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAddress2.DeviceSpecificVariant
+- ITAddress2.DeviceSpecificVariant
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADs.PutEx
 title: IADs::PutEx (iads.h)
-
 description: Modifies the values of an attribute in the ADSI attribute cache.
 old-location: adsi\iads_putex.htm
 tech.root: adsi
 ms.assetid: fb9d9b2c-9efc-4462-ac4b-9a2fbf0b5ec7
-
 ms.date: 12/05/2018
 ms.keywords: IADs interface [ADSI],PutEx method, IADs.PutEx, IADs::PutEx, PutEx, PutEx method [ADSI], PutEx method [ADSI],IADs interface, _ds_iads_putex, adsi.iads__putex, adsi.iads_putex, iads/IADs::PutEx
 ms.topic: method
-f1_keywords: 
- - "iads/IADs.PutEx"
+f1_keywords:
+- iads/IADs.PutEx
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADs.PutEx
+- IADs.PutEx
 targetos: Windows
 req.typenames: 
 req.redist: 

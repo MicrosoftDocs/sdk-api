@@ -1,19 +1,17 @@
 ---
 UID: NE:mfidl._MFCLOCK_STATE
 title: MFCLOCK_STATE (mfidl.h)
-
 description: Defines the state of a clock.
 old-location: mf\mfclock_state.htm
 tech.root: medfound
 ms.assetid: 90e04807-c3be-4f38-a508-9dfe62700869
-
 ms.date: 12/05/2018
 ms.keywords: 90e04807-c3be-4f38-a508-9dfe62700869, MFCLOCK_STATE, MFCLOCK_STATE enumeration [Media Foundation], MFCLOCK_STATE_INVALID, MFCLOCK_STATE_PAUSED, MFCLOCK_STATE_RUNNING, MFCLOCK_STATE_STOPPED, MF_CLOCK_STATE, MF_CLOCK_STATE enumeration [Media Foundation], mf.mfclock_state, mfidl/MFCLOCK_STATE, mfidl/MFCLOCK_STATE_INVALID, mfidl/MFCLOCK_STATE_PAUSED, mfidl/MFCLOCK_STATE_RUNNING, mfidl/MFCLOCK_STATE_STOPPED
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MF_CLOCK_STATE"
+f1_keywords:
+- mfidl/MF_CLOCK_STATE
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MF_CLOCK_STATE
+- MF_CLOCK_STATE
 targetos: Windows
 req.typenames: MFCLOCK_STATE
 req.redist: 

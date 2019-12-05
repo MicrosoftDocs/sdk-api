@@ -1,19 +1,17 @@
 ---
 UID: NI:emi.IOCTL_EMI_GET_METADATA
 title: IOCTL_EMI_GET_METADATA (emi.h)
-
 description: The IOCTL_EMI_GET_METADATA control code retrieves EMI metadata from a device.
 old-location: powermeter\ioctl_emi_get_metadata.htm
 tech.root: powermeter
 ms.assetid: 3A1A76B0-2A46-4C15-84BC-CE75701C30B7
-
 ms.date: 12/05/2018
 ms.keywords: IOCTL_EMI_GET_METADATA, IOCTL_EMI_GET_METADATA control, IOCTL_EMI_GET_METADATA control code [Power Metering and Budgeting Devices], emi/IOCTL_EMI_GET_METADATA, powermeter.ioctl_emi_get_metadata
 ms.topic: ioctl
-f1_keywords: 
- - "emi/IOCTL_EMI_GET_METADATA"
+f1_keywords:
+- emi/IOCTL_EMI_GET_METADATA
 dev_langs:
- - c++
+- c++
 req.header: emi.h
 req.include-header: Emi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - emi.h
+- emi.h
 api_name:
- - IOCTL_EMI_GET_METADATA
+- IOCTL_EMI_GET_METADATA
 targetos: Windows
 req.typenames: 
 req.redist: 

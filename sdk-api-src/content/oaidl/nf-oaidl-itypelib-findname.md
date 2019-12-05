@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ITypeLib.FindName
 title: ITypeLib::FindName (oaidl.h)
-
 description: Finds occurrences of a type description in a type library. This may be used to quickly verify that a name exists in a type library.
 old-location: automat\itypelib_findname.htm
 tech.root: automat
 ms.assetid: 932014a8-3a35-487a-b035-788fc28dacc2
-
 ms.date: 12/05/2018
 ms.keywords: FindName, FindName method [Automation], FindName method [Automation],ITypeLib interface, ITypeLib interface [Automation],FindName method, ITypeLib.FindName, ITypeLib::FindName, _oa96_ITypeLib_FindName, automat.itypelib_findname, oaidl/ITypeLib::FindName
 ms.topic: method
-f1_keywords: 
- - "oaidl/ITypeLib.FindName"
+f1_keywords:
+- oaidl/ITypeLib.FindName
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeLib.FindName
+- ITypeLib.FindName
 targetos: Windows
 req.typenames: 
 req.redist: 

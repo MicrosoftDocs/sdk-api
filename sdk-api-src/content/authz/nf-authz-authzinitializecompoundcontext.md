@@ -1,19 +1,17 @@
 ---
 UID: NF:authz.AuthzInitializeCompoundContext
 title: AuthzInitializeCompoundContext function (authz.h)
-
 description: Creates a user-mode context from the given user and device security contexts.
 old-location: security\authzinitializecompoundcontext.htm
 tech.root: SecAuthZ
 ms.assetid: 2EC9EE76-9A92-40DF-9884-547D96FF3E09
-
 ms.date: 12/05/2018
 ms.keywords: AuthzInitializeCompoundContext, AuthzInitializeCompoundContext function [Security], authz/AuthzInitializeCompoundContext, security.authzinitializecompoundcontext
 ms.topic: function
-f1_keywords: 
- - "authz/AuthzInitializeCompoundContext"
+f1_keywords:
+- authz/AuthzInitializeCompoundContext
 dev_langs:
- - c++
+- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Authz.dll
+- Authz.dll
 api_name:
- - AuthzInitializeCompoundContext
+- AuthzInitializeCompoundContext
 targetos: Windows
 req.typenames: 
 req.redist: 

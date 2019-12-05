@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetOverlayPosition
 title: IDirectDrawSurface7::GetOverlayPosition (ddraw.h)
-
 description: Retrieves the display coordinates of this surface. This method is used on a visible, active overlay surface (that is, a surface that has the DDSCAPS_OVERLAY flag set).
 old-location: directdraw\idirectdrawsurface7_getoverlayposition.htm
 tech.root: directdraw
 ms.assetid: 008502f7-468f-4d79-a309-75ebdbe29ff3
-
 ms.date: 12/05/2018
 ms.keywords: GetOverlayPosition, GetOverlayPosition method [DirectDraw], GetOverlayPosition method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetOverlayPosition method, IDirectDrawSurface7.GetOverlayPosition, IDirectDrawSurface7::GetOverlayPosition, ddraw/IDirectDrawSurface7::GetOverlayPosition, directdraw.idirectdrawsurface7_getoverlayposition
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDrawSurface7.GetOverlayPosition"
+f1_keywords:
+- ddraw/IDirectDrawSurface7.GetOverlayPosition
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawSurface7.GetOverlayPosition
+- IDirectDrawSurface7.GetOverlayPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

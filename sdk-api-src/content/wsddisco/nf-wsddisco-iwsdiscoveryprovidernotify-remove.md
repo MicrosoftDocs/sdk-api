@@ -1,19 +1,17 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProviderNotify.Remove
 title: IWSDiscoveryProviderNotify::Remove (wsddisco.h)
-
 description: Provides information on a recently departed discovery host (from a Bye message).
 old-location: ncd\iwsdiscoveryprovidernotify_remove.htm
 tech.root: WsdApi
 ms.assetid: 776fc1d5-9dfe-445f-9af6-36faf971bf37
-
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryProviderNotify interface,Remove method, IWSDiscoveryProviderNotify.Remove, IWSDiscoveryProviderNotify::Remove, Remove, Remove method, Remove method,IWSDiscoveryProviderNotify interface, ncd.iwsdiscoveryprovidernotify_remove, wsddisco/IWSDiscoveryProviderNotify::Remove
 ms.topic: method
-f1_keywords: 
- - "wsddisco/IWSDiscoveryProviderNotify.Remove"
+f1_keywords:
+- wsddisco/IWSDiscoveryProviderNotify.Remove
 dev_langs:
- - c++
+- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDiscoveryProviderNotify.Remove
+- IWSDiscoveryProviderNotify.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

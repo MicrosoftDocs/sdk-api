@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern2.get_CachedZoomMaximum
 title: IUIAutomationTransformPattern2::get_CachedZoomMaximum (uiautomationclient.h)
-
 description: Retrieves the cached maximum zoom level of the control's viewport.
 old-location: winauto\uiauto_iuiautomationtransformpattern2_cachedzoommaximum.htm
 tech.root: WinAuto
 ms.assetid: 482C482F-299D-4948-A794-79F3F7465F8D
-
 ms.date: 12/05/2018
 ms.keywords: CachedZoomMaximum property [Windows Accessibility], CachedZoomMaximum property [Windows Accessibility],IUIAutomationTransformPattern2 interface, IUIAutomationTransformPattern2 interface [Windows Accessibility],CachedZoomMaximum property, IUIAutomationTransformPattern2.CachedZoomMaximum, IUIAutomationTransformPattern2.get_CachedZoomMaximum, IUIAutomationTransformPattern2::CachedZoomMaximum, IUIAutomationTransformPattern2::get_CachedZoomMaximum, get_CachedZoomMaximum, uiautomationclient/IUIAutomationTransformPattern2::CachedZoomMaximum, uiautomationclient/IUIAutomationTransformPattern2::get_CachedZoomMaximum, winauto.uiauto_iuiautomationtransformpattern2_cachedzoommaximum
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTransformPattern2.CachedZoomMaximum"
+f1_keywords:
+- uiautomationclient/IUIAutomationTransformPattern2.CachedZoomMaximum
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTransformPattern2.CachedZoomMaximum
- - IUIAutomationTransformPattern2.get_CachedZoomMaximum
+- IUIAutomationTransformPattern2.CachedZoomMaximum
+- IUIAutomationTransformPattern2.get_CachedZoomMaximum
 targetos: Windows
 req.typenames: 
 req.redist: 

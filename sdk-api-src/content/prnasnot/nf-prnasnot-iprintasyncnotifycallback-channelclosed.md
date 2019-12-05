@@ -1,19 +1,17 @@
 ---
 UID: NF:prnasnot.IPrintAsyncNotifyCallback.ChannelClosed
 title: IPrintAsyncNotifyCallback::ChannelClosed (prnasnot.h)
-
 description: Advises one member of a communication channel to notify the other member that the channel is being closed.
 old-location: gdi\iprintasyncnotifycallback_iprintasyncnotifycallback__channelclosed.htm
 tech.root: printdocs
 ms.assetid: 245f4d86-a6b9-421a-add5-fb7afbbacb45
-
 ms.date: 12/05/2018
 ms.keywords: ChannelClosed, ChannelClosed method [Windows GDI], ChannelClosed method [Windows GDI],IPrintAsyncNotifyCallback interface, IPrintAsyncNotifyCallback interface [Windows GDI],ChannelClosed method, IPrintAsyncNotifyCallback.ChannelClosed, IPrintAsyncNotifyCallback::ChannelClosed, _win32_IPrintAsyncNotifyCallback_ChannelClosed, gdi.iprintasyncnotifycallback_iprintasyncnotifycallback__channelclosed, prnasnot/IPrintAsyncNotifyCallback::ChannelClosed
 ms.topic: method
-f1_keywords: 
- - "prnasnot/IPrintAsyncNotifyCallback.ChannelClosed"
+f1_keywords:
+- prnasnot/IPrintAsyncNotifyCallback.ChannelClosed
 dev_langs:
- - c++
+- c++
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Prnasnot.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - prnasnot.dll
+- prnasnot.dll
 api_name:
- - IPrintAsyncNotifyCallback.ChannelClosed
+- IPrintAsyncNotifyCallback.ChannelClosed
 targetos: Windows
 req.typenames: 
 req.redist: 

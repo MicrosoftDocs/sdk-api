@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IInputObjectSite
 title: IInputObjectSite (shobjidl_core.h)
-
 description: Exposes a method that is used to communicate focus changes for a user input object contained in the Shell.
 old-location: shell\IInputObjectSite.htm
 tech.root: shell
 ms.assetid: fda52080-4117-47d6-8248-ffedd35e7625
-
 ms.date: 12/05/2018
 ms.keywords: IInputObjectSite, IInputObjectSite interface [Windows Shell], IInputObjectSite interface [Windows Shell],described, _win32_IInputObjectSite, shell.IInputObjectSite, shobjidl_core/IInputObjectSite
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IInputObjectSite"
+f1_keywords:
+- shobjidl_core/IInputObjectSite
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IInputObjectSite
+- IInputObjectSite
 targetos: Windows
 req.typenames: 
 req.redist: 

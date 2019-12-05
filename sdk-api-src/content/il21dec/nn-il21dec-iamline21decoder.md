@@ -1,19 +1,17 @@
 ---
 UID: NN:il21dec.IAMLine21Decoder
 title: IAMLine21Decoder (il21dec.h)
-
 description: The IAMLine21Decoder interface sets and retrieves information about closed captions.The Line 21 Decoder filter exposes this interface.
 old-location: dshow\iamline21decoder.htm
 tech.root: DirectShow
 ms.assetid: b6fbb5c3-28af-4db6-8dc4-82271b69bf71
-
 ms.date: 12/05/2018
 ms.keywords: IAMLine21Decoder, IAMLine21Decoder interface [DirectShow], IAMLine21Decoder interface [DirectShow],described, IAMLine21DecoderInterface, dshow.iamline21decoder, il21dec/IAMLine21Decoder
 ms.topic: interface
-f1_keywords: 
- - "il21dec/IAMLine21Decoder"
+f1_keywords:
+- il21dec/IAMLine21Decoder
 dev_langs:
- - c++
+- c++
 req.header: il21dec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMLine21Decoder
+- IAMLine21Decoder
 targetos: Windows
 req.typenames: 
 req.redist: 

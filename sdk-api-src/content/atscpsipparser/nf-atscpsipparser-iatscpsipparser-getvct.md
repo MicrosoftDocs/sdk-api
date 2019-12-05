@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.IAtscPsipParser.GetVCT
 title: IAtscPsipParser::GetVCT (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatscpsipparser_getvct.htm
 tech.root: mstv
 ms.assetid: d3df008e-020f-4ed3-9422-2d5f0f0b865f
-
 ms.date: 12/05/2018
 ms.keywords: GetVCT, GetVCT method [Microsoft TV Technologies], GetVCT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetVCT method, IAtscPsipParser.GetVCT, IAtscPsipParser::GetVCT, IAtscPsipParserGetVCT, atscpsipparser/IAtscPsipParser::GetVCT, mstv.iatscpsipparser_getvct
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/IAtscPsipParser.GetVCT"
+f1_keywords:
+- atscpsipparser/IAtscPsipParser.GetVCT
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IAtscPsipParser.GetVCT
+- IAtscPsipParser.GetVCT
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupPromptForDiskA
 title: SetupPromptForDiskA function (setupapi.h)
-
 description: The SetupPromptForDisk function displays a dialog box that prompts the user for a disk.
 old-location: setup\setuppromptfordisk.htm
 tech.root: SetupApi
 ms.assetid: 65ccd3d1-1846-48cb-9fe6-ab5c69845e01
-
 ms.date: 12/05/2018
 ms.keywords: SetupPromptForDisk, SetupPromptForDisk function [Setup API], SetupPromptForDiskA, SetupPromptForDiskW, _setupapi_setuppromptfordisk, setup.setuppromptfordisk, setupapi/SetupPromptForDisk, setupapi/SetupPromptForDiskA, setupapi/SetupPromptForDiskW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupPromptForDisk"
+f1_keywords:
+- setupapi/SetupPromptForDisk
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupPromptForDisk
- - SetupPromptForDiskA
- - SetupPromptForDiskW
+- SetupPromptForDisk
+- SetupPromptForDiskA
+- SetupPromptForDiskW
 targetos: Windows
 req.typenames: 
 req.redist: 

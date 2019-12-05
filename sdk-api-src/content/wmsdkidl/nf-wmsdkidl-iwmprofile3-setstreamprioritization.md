@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.SetStreamPrioritization
 title: IWMProfile3::SetStreamPrioritization (wmsdkidl.h)
-
 description: The SetStreamPrioritization method assigns a stream prioritization object to the profile. A profile can contain only one stream prioritization object at a time.
 old-location: wmformat\iwmprofile3_setstreamprioritization.htm
 tech.root: wmformat
 ms.assetid: 16dfb205-2a0b-4dc8-a8f2-8981534018f1
-
 ms.date: 12/05/2018
 ms.keywords: IWMProfile3 interface [windows Media Format],SetStreamPrioritization method, IWMProfile3.SetStreamPrioritization, IWMProfile3::SetStreamPrioritization, IWMProfile3SetStreamPrioritization, SetStreamPrioritization, SetStreamPrioritization method [windows Media Format], SetStreamPrioritization method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile3_setstreamprioritization, wmsdkidl/IWMProfile3::SetStreamPrioritization
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMProfile3.SetStreamPrioritization"
+f1_keywords:
+- wmsdkidl/IWMProfile3.SetStreamPrioritization
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMProfile3.SetStreamPrioritization
+- IWMProfile3.SetStreamPrioritization
 targetos: Windows
 req.typenames: 
 req.redist: 

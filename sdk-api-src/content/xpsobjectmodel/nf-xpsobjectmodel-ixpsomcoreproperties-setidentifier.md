@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetIdentifier
 title: IXpsOMCoreProperties::SetIdentifier (xpsobjectmodel.h)
-
 description: Sets the identifier property.
 old-location: xps\ixpsomcoreproperties_setidentifier.htm
 tech.root: printdocs
 ms.assetid: 8ad5a359-77f6-4b11-9c1c-2e4094be65d0
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetIdentifier method, IXpsOMCoreProperties.SetIdentifier, IXpsOMCoreProperties::SetIdentifier, SetIdentifier, SetIdentifier method [XPS Documents and Packaging], SetIdentifier method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setidentifier, xpsobjectmodel/IXpsOMCoreProperties::SetIdentifier
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMCoreProperties.SetIdentifier"
+f1_keywords:
+- xpsobjectmodel/IXpsOMCoreProperties.SetIdentifier
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMCoreProperties.SetIdentifier
+- IXpsOMCoreProperties.SetIdentifier
 targetos: Windows
 req.typenames: 
 req.redist: 

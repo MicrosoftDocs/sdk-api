@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.PathFindOnPathA
 title: PathFindOnPathA function (shlwapi.h)
-
 description: Searches for a file.
 old-location: shell\PathFindOnPath.htm
 tech.root: shell
 ms.assetid: d9281eb2-39b7-444f-85b7-1e1e76c38ae2
-
 ms.date: 12/05/2018
 ms.keywords: PathFindOnPath, PathFindOnPath function [Windows Shell], PathFindOnPathA, PathFindOnPathW, _win32_PathFindOnPath, shell.PathFindOnPath, shlwapi/PathFindOnPath, shlwapi/PathFindOnPathA, shlwapi/PathFindOnPathW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/PathFindOnPath"
+f1_keywords:
+- shlwapi/PathFindOnPath
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-shlwapi-IE-l1-1-0.dll
- - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
- - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-shlwapi-IE-l1-1-0.dll
+- API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
+- api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 api_name:
- - PathFindOnPath
- - PathFindOnPathA
- - PathFindOnPathW
+- PathFindOnPath
+- PathFindOnPathA
+- PathFindOnPathW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dpa_dsa.DSA_GetSize
 title: DSA_GetSize function (dpa_dsa.h)
-
 description: Gets the size of the dynamic structure array (DSA).
 old-location: controls\DSA_GetSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_getsize.htm
-
 ms.date: 12/05/2018
 ms.keywords: DSA_GetSize, DSA_GetSize function [Windows Controls], _shell_DSA_GetSize, _shell_DSA_GetSize_cpp, controls.DSA_GetSize, controls._shell_DSA_GetSize, dpa_dsa/DSA_GetSize
 ms.topic: function
-f1_keywords: 
- - "dpa_dsa/DSA_GetSize"
+f1_keywords:
+- dpa_dsa/DSA_GetSize
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - DSA_GetSize
+- DSA_GetSize
 targetos: Windows
 req.typenames: 
 req.redist: 

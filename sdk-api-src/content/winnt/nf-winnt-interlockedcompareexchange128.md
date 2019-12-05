@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.InterlockedCompareExchange128
 title: InterlockedCompareExchange128 function (winnt.h)
-
 description: Performs an atomic compare-and-exchange operation on the specified values. The function compares two specified 128-bit values and exchanges with another 128-bit value based on the outcome of the comparison.
 old-location: base\interlockedcompareexchange128.htm
 tech.root: Sync
 ms.assetid: 55a5ec1d-9c81-479e-a630-81756bf620d1
-
 ms.date: 12/05/2018
 ms.keywords: InterlockedCompareExchange128, InterlockedCompareExchange128 function, base.interlockedcompareexchange128, winnt/InterlockedCompareExchange128
 ms.topic: function
-f1_keywords: 
- - "winnt/InterlockedCompareExchange128"
+f1_keywords:
+- winnt/InterlockedCompareExchange128
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - InterlockedCompareExchange128
+- InterlockedCompareExchange128
 targetos: Windows
 req.typenames: 
 req.redist: 

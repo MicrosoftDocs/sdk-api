@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ClusterGetVolumeNameForVolumeMountPoint
 title: ClusterGetVolumeNameForVolumeMountPoint function (resapi.h)
-
 description: ClusterGetVolumeNameForVolumeMountPoint may be altered or unavailable. Instead, use GetVolumeNameForVolumeMountPoint.
 old-location: mscs\clustergetvolumenameforvolumemountpoint.htm
 tech.root: MsCS
 ms.assetid: d110e30d-046e-45f3-b326-72160a69c17d
-
 ms.date: 12/05/2018
 ms.keywords: ClusterGetVolumeNameForVolumeMountPoint, ClusterGetVolumeNameForVolumeMountPoint function [Failover Cluster], PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT, PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT function [Failover Cluster], mscs.clustergetvolumenameforvolumemountpoint, resapi/ClusterGetVolumeNameForVolumeMountPoint, resapi/PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT
 ms.topic: function
-f1_keywords: 
- - "resapi/ClusterGetVolumeNameForVolumeMountPoint"
+f1_keywords:
+- resapi/ClusterGetVolumeNameForVolumeMountPoint
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.Lib
 req.dll: ResUtils.Dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.Dll
+- ResUtils.Dll
 api_name:
- - ClusterGetVolumeNameForVolumeMountPoint
+- ClusterGetVolumeNameForVolumeMountPoint
 targetos: Windows
 req.typenames: 
 req.redist: 

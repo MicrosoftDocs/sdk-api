@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITLocationInfo.get_PermanentLocationID
 title: ITLocationInfo::get_PermanentLocationID (tapi3if.h)
-
 description: The get_PermanentLocationID method gets the permanent location identifier.
 old-location: tapi3\itlocationinfo_get_permanentlocationid.htm
 tech.root: Tapi
 ms.assetid: 5dab6a20-6113-46ef-a5d2-855ac1befc1a
-
 ms.date: 12/05/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_PermanentLocationID method, ITLocationInfo.get_PermanentLocationID, ITLocationInfo::get_PermanentLocationID, _tapi3_itlocationinfo_get_permanentlocationid, get_PermanentLocationID, get_PermanentLocationID method [TAPI 2.2], get_PermanentLocationID method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_permanentlocationid, tapi3if/ITLocationInfo::get_PermanentLocationID
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITLocationInfo.get_PermanentLocationID"
+f1_keywords:
+- tapi3if/ITLocationInfo.get_PermanentLocationID
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITLocationInfo.get_PermanentLocationID
+- ITLocationInfo.get_PermanentLocationID
 targetos: Windows
 req.typenames: 
 req.redist: 

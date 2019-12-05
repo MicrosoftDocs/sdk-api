@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TabCtrl_AdjustRect
 title: TabCtrl_AdjustRect macro (commctrl.h)
-
 description: Calculates a tab control's display area given a window rectangle, or calculates the window rectangle that would correspond to a specified display area. You can use this macro or send the TCM_ADJUSTRECT message explicitly.
 old-location: controls\TabCtrl_AdjustRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_adjustrect.htm
-
 ms.date: 12/05/2018
 ms.keywords: TabCtrl_AdjustRect, TabCtrl_AdjustRect macro [Windows Controls], _win32_TabCtrl_AdjustRect, _win32_TabCtrl_AdjustRect_cpp, commctrl/TabCtrl_AdjustRect, controls.TabCtrl_AdjustRect, controls._win32_TabCtrl_AdjustRect
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TabCtrl_AdjustRect"
+f1_keywords:
+- commctrl/TabCtrl_AdjustRect
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TabCtrl_AdjustRect
+- TabCtrl_AdjustRect
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.SetBitrate
 title: IWMStreamConfig::SetBitrate (wmsdkidl.h)
-
 description: The SetBitrate method specifies the bit rate for the stream.
 old-location: wmformat\iwmstreamconfig_setbitrate.htm
 tech.root: wmformat
 ms.assetid: 202be688-e739-4e80-9574-f85b2eb168fc
-
 ms.date: 12/05/2018
 ms.keywords: IWMStreamConfig interface [windows Media Format],SetBitrate method, IWMStreamConfig.SetBitrate, IWMStreamConfig::SetBitrate, IWMStreamConfigSetBitrate, SetBitrate, SetBitrate method [windows Media Format], SetBitrate method [windows Media Format],IWMStreamConfig interface, wmformat.iwmstreamconfig_setbitrate, wmsdkidl/IWMStreamConfig::SetBitrate
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMStreamConfig.SetBitrate"
+f1_keywords:
+- wmsdkidl/IWMStreamConfig.SetBitrate
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMStreamConfig.SetBitrate
+- IWMStreamConfig.SetBitrate
 targetos: Windows
 req.typenames: 
 req.redist: 

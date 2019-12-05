@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometry.GetTransformLocal
 title: IXpsOMGeometry::GetTransformLocal (xpsobjectmodel.h)
-
 description: Gets a pointer to the IXpsOMMatrixTransform interface that contains the local, unshared matrix transform for the geometry.
 old-location: xps\ixpsomgeometry_gettransformlocal.htm
 tech.root: printdocs
 ms.assetid: 1ae895a1-7b63-460c-b066-d8e9c7cd03c2
-
 ms.date: 12/05/2018
 ms.keywords: GetTransformLocal, GetTransformLocal method [XPS Documents and Packaging], GetTransformLocal method [XPS Documents and Packaging],IXpsOMGeometry interface, IXpsOMGeometry interface [XPS Documents and Packaging],GetTransformLocal method, IXpsOMGeometry.GetTransformLocal, IXpsOMGeometry::GetTransformLocal, xps.ixpsomgeometry_gettransformlocal, xpsobjectmodel/IXpsOMGeometry::GetTransformLocal
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGeometry.GetTransformLocal"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGeometry.GetTransformLocal
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGeometry.GetTransformLocal
+- IXpsOMGeometry.GetTransformLocal
 targetos: Windows
 req.typenames: 
 req.redist: 

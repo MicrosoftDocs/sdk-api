@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMRegisterContent
 title: DRMRegisterContent function (msdrm.h)
-
 description: Informs the Active Directory Rights Management Services (AD RMS) client that an AD RMS-protected document is being or is no longer being displayed.
 old-location: rm\drmregistercontent.htm
 tech.root: AdRms_Sdk
 ms.assetid: ddf1ef8d-f509-43c0-87bd-9ea393a7231a
-
 ms.date: 12/05/2018
 ms.keywords: DRMRegisterContent, DRMRegisterContent function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMRegisterContent, rm.drmregistercontent
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMRegisterContent"
+f1_keywords:
+- msdrm/DRMRegisterContent
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMRegisterContent
+- DRMRegisterContent
 targetos: Windows
 req.typenames: 
 req.redist: 

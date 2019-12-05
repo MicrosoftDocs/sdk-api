@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationObjectModelPattern.GetUnderlyingObjectModel
 title: IUIAutomationObjectModelPattern::GetUnderlyingObjectModel (uiautomationclient.h)
-
 description: Retrieves an interface used to access the underlying object model of the provider.
 old-location: winauto\uiauto_IUIAutomationObjectModelPattern_GetUnderlyingObjectModel.htm
 tech.root: WinAuto
 ms.assetid: 7D1C4ABD-38FA-48C4-80ED-C0AA312D45FE
-
 ms.date: 12/05/2018
 ms.keywords: GetUnderlyingObjectModel, GetUnderlyingObjectModel method [Windows Accessibility], GetUnderlyingObjectModel method [Windows Accessibility],IUIAutomationObjectModelPattern interface, IUIAutomationObjectModelPattern interface [Windows Accessibility],GetUnderlyingObjectModel method, IUIAutomationObjectModelPattern.GetUnderlyingObjectModel, IUIAutomationObjectModelPattern::GetUnderlyingObjectModel, uiautomationclient/IUIAutomationObjectModelPattern::GetUnderlyingObjectModel, winauto.uiauto_IUIAutomationObjectModelPattern_GetUnderlyingObjectModel
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationObjectModelPattern.GetUnderlyingObjectModel"
+f1_keywords:
+- uiautomationclient/IUIAutomationObjectModelPattern.GetUnderlyingObjectModel
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationObjectModelPattern.GetUnderlyingObjectModel
+- IUIAutomationObjectModelPattern.GetUnderlyingObjectModel
 targetos: Windows
 req.typenames: 
 req.redist: 

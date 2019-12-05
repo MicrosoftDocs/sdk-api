@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.GetGlyphMappingCount
 title: IXpsOMGlyphsEditor::GetGlyphMappingCount (xpsobjectmodel.h)
-
 description: Gets the number of glyph mappings.
 old-location: xps\ixpsomglyphseditor_getglyphmappingcount.htm
 tech.root: printdocs
 ms.assetid: 06aa2546-c1d1-47d6-9d3d-94d13310e42b
-
 ms.date: 12/05/2018
 ms.keywords: GetGlyphMappingCount, GetGlyphMappingCount method [XPS Documents and Packaging], GetGlyphMappingCount method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],GetGlyphMappingCount method, IXpsOMGlyphsEditor.GetGlyphMappingCount, IXpsOMGlyphsEditor::GetGlyphMappingCount, xps.ixpsomglyphseditor_getglyphmappingcount, xpsobjectmodel/IXpsOMGlyphsEditor::GetGlyphMappingCount
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGlyphsEditor.GetGlyphMappingCount"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGlyphsEditor.GetGlyphMappingCount
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphsEditor.GetGlyphMappingCount
+- IXpsOMGlyphsEditor.GetGlyphMappingCount
 targetos: Windows
 req.typenames: 
 req.redist: 

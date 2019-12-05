@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetCurrentTime
 title: IMFMediaEngine::SetCurrentTime (mfmediaengine.h)
-
 description: Seeks to a new playback position.
 old-location: mf\imfmediaengine_setcurrenttime.htm
 tech.root: medfound
 ms.assetid: C64BCBA0-097E-4035-BFEE-F9EC949B109A
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetCurrentTime method, IMFMediaEngine.SetCurrentTime, IMFMediaEngine::SetCurrentTime, SetCurrentTime, SetCurrentTime method [Media Foundation], SetCurrentTime method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setcurrenttime, mfmediaengine/IMFMediaEngine::SetCurrentTime
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngine.SetCurrentTime"
+f1_keywords:
+- mfmediaengine/IMFMediaEngine.SetCurrentTime
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngine.SetCurrentTime
+- IMFMediaEngine.SetCurrentTime
 targetos: Windows
 req.typenames: 
 req.redist: 

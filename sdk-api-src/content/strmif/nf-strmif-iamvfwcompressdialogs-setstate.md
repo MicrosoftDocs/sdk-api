@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMVfwCompressDialogs.SetState
 title: IAMVfwCompressDialogs::SetState (strmif.h)
-
 description: The SetState method sets configuration for the VCM codec.
 old-location: dshow\iamvfwcompressdialogs_setstate.htm
 tech.root: DirectShow
 ms.assetid: 9b27bbaa-4e2f-4567-a6fc-62fb3f5f31a8
-
 ms.date: 12/05/2018
 ms.keywords: IAMVfwCompressDialogs interface [DirectShow],SetState method, IAMVfwCompressDialogs.SetState, IAMVfwCompressDialogs::SetState, IAMVfwCompressDialogsSetState, SetState, SetState method [DirectShow], SetState method [DirectShow],IAMVfwCompressDialogs interface, dshow.iamvfwcompressdialogs_setstate, strmif/IAMVfwCompressDialogs::SetState
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMVfwCompressDialogs.SetState"
+f1_keywords:
+- strmif/IAMVfwCompressDialogs.SetState
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVfwCompressDialogs.SetState
+- IAMVfwCompressDialogs.SetState
 targetos: Windows
 req.typenames: 
 req.redist: 

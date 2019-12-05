@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPStringCollection.item
 title: IWMPStringCollection::item (wmp.h)
-
 description: The item method retrieves the string at the given index.
 old-location: wmp\iwmpstringcollection_item.htm
 tech.root: WMP
 ms.assetid: 05e7fd0c-1226-4680-a9aa-543111fd2bdf
-
 ms.date: 12/05/2018
 ms.keywords: IWMPStringCollection interface [Windows Media Player],item method, IWMPStringCollection.item, IWMPStringCollection::item, IWMPStringCollectionitem, item, item method [Windows Media Player], item method [Windows Media Player],IWMPStringCollection interface, wmp.iwmpstringcollection_item, wmp/IWMPStringCollection::item
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPStringCollection.item"
+f1_keywords:
+- wmp/IWMPStringCollection.item
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPStringCollection.item
+- IWMPStringCollection.item
 targetos: Windows
 req.typenames: 
 req.redist: 

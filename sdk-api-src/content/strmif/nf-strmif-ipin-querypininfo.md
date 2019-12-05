@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IPin.QueryPinInfo
 title: IPin::QueryPinInfo (strmif.h)
-
 description: The QueryPinInfo method retrieves information about the pin.
 old-location: dshow\ipin_querypininfo.htm
 tech.root: DirectShow
 ms.assetid: 1a7c85ce-46f1-4928-9e2a-3a4bd96dc771
-
 ms.date: 12/05/2018
 ms.keywords: IPin interface [DirectShow],QueryPinInfo method, IPin.QueryPinInfo, IPin::QueryPinInfo, IPinQueryPinInfo, QueryPinInfo, QueryPinInfo method [DirectShow], QueryPinInfo method [DirectShow],IPin interface, dshow.ipin_querypininfo, strmif/IPin::QueryPinInfo
 ms.topic: method
-f1_keywords: 
- - "strmif/IPin.QueryPinInfo"
+f1_keywords:
+- strmif/IPin.QueryPinInfo
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IPin.QueryPinInfo
+- IPin.QueryPinInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

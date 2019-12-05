@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpFreeVbl
 title: SnmpFreeVbl function (winsnmp.h)
-
 description: The WinSNMP SnmpFreeVbl function releases resources associated with a variable bindings list. These are resources allocated previously by a call to the SnmpCreateVbl function or the SnmpDuplicateVbl function in a WinSNMP application.
 old-location: snmp\snmpfreevbl.htm
 tech.root: SNMP
 ms.assetid: d9175523-bbf0-4e20-b4da-140a6ee0ebd4
-
 ms.date: 12/05/2018
 ms.keywords: SnmpFreeVbl, SnmpFreeVbl function [SNMP], _snmp_snmpfreevbl, snmp.snmpfreevbl, winsnmp/SnmpFreeVbl
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpFreeVbl"
+f1_keywords:
+- winsnmp/SnmpFreeVbl
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpFreeVbl
+- SnmpFreeVbl
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:shdeprecated.IBrowserService3
 title: IBrowserService3 (shdeprecated.h)
-
 description: Deprecated.
 old-location: shell\IBrowserService3.htm
 tech.root: shell
 ms.assetid: efca41df-0aae-469e-8b56-77798eb8af19
-
 ms.date: 12/05/2018
 ms.keywords: IBrowserService3, IBrowserService3 interface [Windows Shell], IBrowserService3 interface [Windows Shell],described, shdeprecated/IBrowserService3, shell.IBrowserService3, zone_IBrowserService3
 ms.topic: interface
-f1_keywords: 
- - "shdeprecated/IBrowserService3"
+f1_keywords:
+- shdeprecated/IBrowserService3
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService3
+- IBrowserService3
 targetos: Windows
 req.typenames: 
 req.redist: 

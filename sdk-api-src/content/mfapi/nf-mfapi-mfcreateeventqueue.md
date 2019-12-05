@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCreateEventQueue
 title: MFCreateEventQueue function (mfapi.h)
-
 description: Creates an event queue.
 old-location: mf\mfcreateeventqueue.htm
 tech.root: medfound
 ms.assetid: 214cea99-37cf-4571-aa00-7b3e220a6b84
-
 ms.date: 12/05/2018
 ms.keywords: 214cea99-37cf-4571-aa00-7b3e220a6b84, MFCreateEventQueue, MFCreateEventQueue function [Media Foundation], mf.mfcreateeventqueue, mfapi/MFCreateEventQueue
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCreateEventQueue"
+f1_keywords:
+- mfapi/MFCreateEventQueue
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateEventQueue
+- MFCreateEventQueue
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.SelectionItemPattern_AddToSelection
 title: SelectionItemPattern_AddToSelection function (uiautomationcoreapi.h)
-
 description: Adds an unselected element to a selection in a control.
 old-location: winauto\uiauto_SelectionItemPattern_AddToSelectionConPat.htm
 tech.root: WinAuto
 ms.assetid: 77ded493-cdf5-4e1b-b0eb-640ec46cf43a
-
 ms.date: 12/05/2018
 ms.keywords: SelectionItemPattern_AddToSelection, SelectionItemPattern_AddToSelection function [Windows Accessibility], uiauto.uiauto_SelectionItemPattern_AddToSelectionConPat, uiauto_SelectionItemPattern_AddToSelectionConPat, uiautomationcoreapi/SelectionItemPattern_AddToSelection, winauto.uiauto_SelectionItemPattern_AddToSelectionConPat
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/SelectionItemPattern_AddToSelection"
+f1_keywords:
+- uiautomationcoreapi/SelectionItemPattern_AddToSelection
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - SelectionItemPattern_AddToSelection
+- SelectionItemPattern_AddToSelection
 targetos: Windows
 req.typenames: 
 req.redist: 

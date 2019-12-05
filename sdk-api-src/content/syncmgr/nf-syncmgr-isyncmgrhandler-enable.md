@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandler.Enable
 title: ISyncMgrHandler::Enable (syncmgr.h)
-
 description: Requests that an active handler be enabled or disabled. An enabled handler can be synchronized and a disabled handler cannot.
 old-location: shell\ISyncMgrHandler_Enable.htm
 tech.root: shell
 ms.assetid: ea3efba1-9b7c-4f93-aca5-08475a6005a8
-
 ms.date: 12/05/2018
 ms.keywords: Enable, Enable method [Windows Shell], Enable method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],Enable method, ISyncMgrHandler.Enable, ISyncMgrHandler::Enable, _shell_ISyncMgrHandler_Enable, shell.ISyncMgrHandler_Enable, syncmgr/ISyncMgrHandler::Enable
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrHandler.Enable"
+f1_keywords:
+- syncmgr/ISyncMgrHandler.Enable
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrHandler.Enable
+- ISyncMgrHandler.Enable
 targetos: Windows
 req.typenames: 
 req.redist: 

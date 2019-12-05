@@ -1,19 +1,17 @@
 ---
 UID: NS:mftransform._MFT_INPUT_STREAM_INFO
 title: MFT_INPUT_STREAM_INFO (mftransform.h)
-
 description: Contains information about an input stream on a Media Foundation transform (MFT). To get these values, call IMFTransform::GetInputStreamInfo.
 old-location: mf\mft_input_stream_info.htm
 tech.root: medfound
 ms.assetid: de3d6d70-3525-42a0-bc1a-2625e7ebd918
-
 ms.date: 12/05/2018
 ms.keywords: MFT_INPUT_STREAM_INFO, MFT_INPUT_STREAM_INFO structure [Media Foundation], de3d6d70-3525-42a0-bc1a-2625e7ebd918, mf.mft_input_stream_info, mftransform/MFT_INPUT_STREAM_INFO
 ms.topic: struct
-f1_keywords: 
- - "mftransform/MFT_INPUT_STREAM_INFO"
+f1_keywords:
+- mftransform/MFT_INPUT_STREAM_INFO
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mftransform.h
+- mftransform.h
 api_name:
- - MFT_INPUT_STREAM_INFO
+- MFT_INPUT_STREAM_INFO
 targetos: Windows
 req.typenames: MFT_INPUT_STREAM_INFO
 req.redist: 

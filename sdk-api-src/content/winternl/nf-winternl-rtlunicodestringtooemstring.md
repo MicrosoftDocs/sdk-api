@@ -1,19 +1,17 @@
 ---
 UID: NF:winternl.RtlUnicodeStringToOemString
 title: RtlUnicodeStringToOemString function (winternl.h)
-
 description: Converts the specified Unicode source string into an OEM string. The translation is done with respect to the OEM code page (OCP).
 old-location: winprog\rtlunicodestringtooemstring.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlunicodestringtooemstring.htm
-
 ms.date: 12/05/2018
 ms.keywords: FALSE, RtlUnicodeStringToOemString, RtlUnicodeStringToOemString function [Windows API], TRUE, winprog.rtlunicodestringtooemstring, winternl/RtlUnicodeStringToOemString, winui.rtlunicodestringtooemstring
 ms.topic: function
 f1_keywords:
 - winternl/RtlUnicodeStringToOemString
 dev_langs:
- - c++
+- c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

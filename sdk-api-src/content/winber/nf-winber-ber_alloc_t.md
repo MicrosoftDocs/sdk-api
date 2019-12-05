@@ -1,19 +1,17 @@
 ---
 UID: NF:winber.ber_alloc_t
 title: ber_alloc_t function (winber.h)
-
 description: Allocates and constructs a new BerElement structure.
 old-location: ldap\ber_alloc_t.htm
 tech.root: ldap
 ms.assetid: 2a6fd54a-5ef7-49e3-98dd-da26bd98f89b
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ber_alloc_t, ber_alloc_t, ber_alloc_t function [LDAP], ldap.ber__alloc__t, ldap.ber_alloc_t, winber/ber_alloc_t"
+ms.keywords: _ldap_ber_alloc_t, ber_alloc_t, ber_alloc_t function [LDAP], ldap.ber__alloc__t, ldap.ber_alloc_t, winber/ber_alloc_t
 ms.topic: function
-f1_keywords: 
- - "winber/ber_alloc_t"
+f1_keywords:
+- winber/ber_alloc_t
 dev_langs:
- - c++
+- c++
 req.header: winber.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ber_alloc_t
+- ber_alloc_t
 targetos: Windows
 req.typenames: 
 req.redist: 

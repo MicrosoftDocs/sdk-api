@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationcore.IInvokeProvider
 title: IInvokeProvider (uiautomationcore.h)
-
 description: Provides access to controls that initiate or perform a single, unambiguous action and do not maintain state when activated.
 old-location: winauto\uiauto_IInvokeProvider.htm
 tech.root: WinAuto
 ms.assetid: e522b8d5-c6f6-4f71-a8c8-4332f2824f72
-
 ms.date: 12/05/2018
 ms.keywords: IInvokeProvider, IInvokeProvider interface [Windows Accessibility], IInvokeProvider interface [Windows Accessibility],described, uiauto.uiauto_IInvokeProvider, uiauto_IInvokeProvider, uiautomationcore/IInvokeProvider, winauto.uiauto_IInvokeProvider
 ms.topic: interface
-f1_keywords: 
- - "uiautomationcore/IInvokeProvider"
+f1_keywords:
+- uiautomationcore/IInvokeProvider
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IInvokeProvider
+- IInvokeProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

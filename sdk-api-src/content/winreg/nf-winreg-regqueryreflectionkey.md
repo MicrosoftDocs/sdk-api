@@ -1,19 +1,17 @@
 ---
 UID: NF:winreg.RegQueryReflectionKey
 title: RegQueryReflectionKey function (winreg.h)
-
 description: Determines whether reflection has been disabled or enabled for the specified key.
 old-location: base\regqueryreflectionkey.htm
 tech.root: SysInfo
 ms.assetid: d7516eab-dbcf-4ece-931e-d7bb2a983503
-
 ms.date: 12/05/2018
 ms.keywords: RegQueryReflectionKey, RegQueryReflectionKey function, base.regqueryreflectionkey, winreg/RegQueryReflectionKey
 ms.topic: function
-f1_keywords: 
- - "winreg/RegQueryReflectionKey"
+f1_keywords:
+- winreg/RegQueryReflectionKey
 dev_langs:
- - c++
+- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: AdvApi32.lib
 req.dll: AdvApi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - AdvApi32.dll
+- AdvApi32.dll
 api_name:
- - RegQueryReflectionKey
+- RegQueryReflectionKey
 targetos: Windows
 req.typenames: 
 req.redist: 

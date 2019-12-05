@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResourceCollection.InsertAt
 title: IXpsOMFontResourceCollection::InsertAt (xpsobjectmodel.h)
-
 description: Inserts an IXpsOMFontResource interface pointer at a specified location in the collection.
 old-location: xps\ixpsomfontresourcecollection_insertat.htm
 tech.root: printdocs
 ms.assetid: 39400f6a-10b1-48f8-ae53-cd27bf7c2e1a
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMFontResourceCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMFontResourceCollection.InsertAt, IXpsOMFontResourceCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMFontResourceCollection interface, xps.ixpsomfontresourcecollection_insertat, xpsobjectmodel/IXpsOMFontResourceCollection::InsertAt
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMFontResourceCollection.InsertAt"
+f1_keywords:
+- xpsobjectmodel/IXpsOMFontResourceCollection.InsertAt
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMFontResourceCollection.InsertAt
+- IXpsOMFontResourceCollection.InsertAt
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICertificateAttestationChallenge.Initialize
 title: ICertificateAttestationChallenge::Initialize (certenroll.h)
-
 description: Initialize using the full Certificate Management over CMS (CMC) response returned from the CA.
 old-location: security\icertificateattestationchallenge_initialize.htm
 tech.root: seccertenroll
 ms.assetid: d4dbda92-4523-4adb-9b88-b2bc763570fd
-
 ms.date: 12/05/2018
 ms.keywords: ICertificateAttestationChallenge interface [Security],Initialize method, ICertificateAttestationChallenge.Initialize, ICertificateAttestationChallenge::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertificateAttestationChallenge interface, certenroll/ICertificateAttestationChallenge::Initialize, security.icertificateattestationchallenge_initialize
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICertificateAttestationChallenge.Initialize"
+f1_keywords:
+- certenroll/ICertificateAttestationChallenge.Initialize
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.dll
+- Certenroll.dll
 api_name:
- - ICertificateAttestationChallenge.Initialize
+- ICertificateAttestationChallenge.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

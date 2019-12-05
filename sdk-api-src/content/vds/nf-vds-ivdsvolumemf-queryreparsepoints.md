@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsVolumeMF.QueryReparsePoints
 title: IVdsVolumeMF::QueryReparsePoints (vds.h)
-
 description: Returns all reparse points for the current volume.
 old-location: base\ivdsvolumemf_queryreparsepoints.htm
 tech.root: VDS
 ms.assetid: ae79355d-2012-42bf-930d-2915c4ca502c
-
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumeMF interface [VDS],QueryReparsePoints method, IVdsVolumeMF.QueryReparsePoints, IVdsVolumeMF::QueryReparsePoints, QueryReparsePoints, QueryReparsePoints method [VDS], QueryReparsePoints method [VDS],IVdsVolumeMF interface, base.ivdsvolumemf_queryreparsepoints, vds/IVdsVolumeMF::QueryReparsePoints
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsVolumeMF.QueryReparsePoints"
+f1_keywords:
+- vds/IVdsVolumeMF.QueryReparsePoints
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsVolumeMF.QueryReparsePoints
+- IVdsVolumeMF.QueryReparsePoints
 targetos: Windows
 req.typenames: 
 req.redist: 

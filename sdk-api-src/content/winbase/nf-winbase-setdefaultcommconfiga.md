@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.SetDefaultCommConfigA
 title: SetDefaultCommConfigA function (winbase.h)
-
 description: Sets the default configuration for a communications device.
 old-location: base\setdefaultcommconfig.htm
 tech.root: devio
 ms.assetid: 3b228b56-34ca-4b37-af67-4e4e1fa60df2
-
 ms.date: 12/05/2018
 ms.keywords: SetDefaultCommConfig, SetDefaultCommConfig function, SetDefaultCommConfigA, SetDefaultCommConfigW, _win32_setdefaultcommconfig, base.setdefaultcommconfig, winbase/SetDefaultCommConfig, winbase/SetDefaultCommConfigA, winbase/SetDefaultCommConfigW
 ms.topic: function
 f1_keywords:
 - winbase/SetDefaultCommConfig
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

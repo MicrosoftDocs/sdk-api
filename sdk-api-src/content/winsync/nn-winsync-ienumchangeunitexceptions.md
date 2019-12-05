@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.IEnumChangeUnitExceptions
 title: IEnumChangeUnitExceptions (winsync.h)
-
 description: Enumerates change unit exceptions that are stored in a knowledge object.
 old-location: winsync\ienumchangeunitexceptions.htm
 tech.root: winsync
 ms.assetid: 40b2977e-f3ae-4ad2-89ed-aacf32b1171e
-
 ms.date: 12/05/2018
 ms.keywords: IEnumChangeUnitExceptions, IEnumChangeUnitExceptions interface [Windows Sync], IEnumChangeUnitExceptions interface [Windows Sync],described, winsync.ienumchangeunitexceptions, winsync/IEnumChangeUnitExceptions
 ms.topic: interface
-f1_keywords: 
- - "winsync/IEnumChangeUnitExceptions"
+f1_keywords:
+- winsync/IEnumChangeUnitExceptions
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IEnumChangeUnitExceptions
+- IEnumChangeUnitExceptions
 targetos: Windows
 req.typenames: 
 req.redist: 

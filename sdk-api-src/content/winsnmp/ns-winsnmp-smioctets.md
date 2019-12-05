@@ -1,19 +1,17 @@
 ---
 UID: NS:winsnmp.__unnamed_struct_0
 title: smiOCTETS (winsnmp.h)
-
 description: The WinSNMP smiOCTETS structure passes context strings to multiple WinSNMP functions. The structure also describes and receives encoded SNMP messages.
 old-location: snmp\smioctets_str.htm
 tech.root: SNMP
 ms.assetid: d53da0e8-ce7d-4923-90c3-2469cbd9d9b1
-
 ms.date: 12/05/2018
-ms.keywords: "*smiLPBITS, *smiLPIPADDR, *smiLPNSAPADDR, *smiLPOCTETS, *smiLPOPAQUE, _snmp_smioctets_str, smiBITS, smiIPADDR, smiLPOCTETS, smiLPOCTETS structure pointer [SNMP], smiNSAPADDR, smiOCTETS, smiOCTETS structure [SNMP], smiOPAQUE, snmp.smioctets_str, winsnmp/smiLPOCTETS, winsnmp/smiOCTETS"
+ms.keywords: '*smiLPBITS, *smiLPIPADDR, *smiLPNSAPADDR, *smiLPOCTETS, *smiLPOPAQUE, _snmp_smioctets_str, smiBITS, smiIPADDR, smiLPOCTETS, smiLPOCTETS structure pointer [SNMP], smiNSAPADDR, smiOCTETS, smiOCTETS structure [SNMP], smiOPAQUE, snmp.smioctets_str, winsnmp/smiLPOCTETS, winsnmp/smiOCTETS'
 ms.topic: struct
-f1_keywords: 
- - "winsnmp/smiOCTETS"
+f1_keywords:
+- winsnmp/smiOCTETS
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winsnmp.h
+- Winsnmp.h
 api_name:
- - smiOCTETS
+- smiOCTETS
 targetos: Windows
 req.typenames: smiOCTETS, *smiLPOCTETS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.DirectDrawCreateEx
 title: DirectDrawCreateEx function (ddraw.h)
-
 description: Creates an instance of a DirectDraw object that supports the set of Direct3D interfaces in DirectX 7.0. To use the features of Direct3D in DirectX 7.0, create a DirectDraw object with this function.
 old-location: directdraw\directdrawcreateex.htm
 tech.root: directdraw
 ms.assetid: 67fa1cd0-e47f-4dc4-b92c-b3401b4cbb57
-
 ms.date: 12/05/2018
 ms.keywords: DDCREATE_EMULATIONONLY, DDCREATE_HARDWAREONLY, DirectDrawCreateEx, DirectDrawCreateEx function [DirectDraw], ddraw/DirectDrawCreateEx, directdraw.directdrawcreateex
 ms.topic: function
-f1_keywords: 
- - "ddraw/DirectDrawCreateEx"
+f1_keywords:
+- ddraw/DirectDrawCreateEx
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ddraw.dll
- - Ext-MS-Win-DX-DDraw-L1-1-0.dll
+- Ddraw.dll
+- Ext-MS-Win-DX-DDraw-L1-1-0.dll
 api_name:
- - DirectDrawCreateEx
+- DirectDrawCreateEx
 targetos: Windows
 req.typenames: 
 req.redist: 

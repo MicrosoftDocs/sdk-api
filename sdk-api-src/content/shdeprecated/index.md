@@ -1,7 +1,6 @@
 ---
 UID: NA:shdeprecated
 ms.assetid: 1d2c0e23-f2b0-35f7-bbd5-61e60eaa3283
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

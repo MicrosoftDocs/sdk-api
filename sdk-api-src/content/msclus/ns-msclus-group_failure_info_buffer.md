@@ -1,19 +1,17 @@
 ---
 UID: NS:msclus.GROUP_FAILURE_INFO_BUFFER
 title: GROUP_FAILURE_INFO_BUFFER (msclus.h)
-
 description: Represents a buffer for a GROUP_FAILURE_INFO structure.
 old-location: mscs\group_failure_info_buffer.htm
 tech.root: MsCS
 ms.assetid: 69824D88-B9CE-451B-B65A-84822755CEAC
-
 ms.date: 12/05/2018
-ms.keywords: "*PGROUP_FAILURE_INFO_BUFFER, GROUP_FAILURE_INFO_BUFFER, GROUP_FAILURE_INFO_BUFFER structure [Failover Cluster], PGROUP_FAILURE_INFO_BUFFER, PGROUP_FAILURE_INFO_BUFFER structure pointer [Failover Cluster], clusapi/GROUP_FAILURE_INFO_BUFFER, clusapi/PGROUP_FAILURE_INFO_BUFFER, msclus/GROUP_FAILURE_INFO_BUFFER, msclus/PGROUP_FAILURE_INFO_BUFFER, mscs.group_failure_info_buffer"
+ms.keywords: '*PGROUP_FAILURE_INFO_BUFFER, GROUP_FAILURE_INFO_BUFFER, GROUP_FAILURE_INFO_BUFFER structure [Failover Cluster], PGROUP_FAILURE_INFO_BUFFER, PGROUP_FAILURE_INFO_BUFFER structure pointer [Failover Cluster], clusapi/GROUP_FAILURE_INFO_BUFFER, clusapi/PGROUP_FAILURE_INFO_BUFFER, msclus/GROUP_FAILURE_INFO_BUFFER, msclus/PGROUP_FAILURE_INFO_BUFFER, mscs.group_failure_info_buffer'
 ms.topic: struct
-f1_keywords: 
- - "msclus/GROUP_FAILURE_INFO_BUFFER"
+f1_keywords:
+- msclus/GROUP_FAILURE_INFO_BUFFER
 dev_langs:
- - c++
+- c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusApi.h
- - MsClus.h
+- ClusApi.h
+- MsClus.h
 api_name:
- - GROUP_FAILURE_INFO_BUFFER
+- GROUP_FAILURE_INFO_BUFFER
 targetos: Windows
 req.typenames: GROUP_FAILURE_INFO_BUFFER, *PGROUP_FAILURE_INFO_BUFFER
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:audioengineendpoint.IHardwareAudioEngineBase.SetGfxState
 title: IHardwareAudioEngineBase::SetGfxState (audioengineendpoint.h)
-
 description: The SetGfxState method sets the GFX state of the offloaded audio stream.
 old-location: coreaudio\ihardwareaudioenginebase_setgfxstate.htm
 tech.root: CoreAudio
 ms.assetid: 1B90A629-D41A-4339-918B-DAAF577EB699
-
 ms.date: 12/05/2018
 ms.keywords: IHardwareAudioEngineBase interface [Core Audio],SetGfxState method, IHardwareAudioEngineBase.SetGfxState, IHardwareAudioEngineBase::SetGfxState, SetGfxState, SetGfxState method [Core Audio], SetGfxState method [Core Audio],IHardwareAudioEngineBase interface, audioengineendpoint/IHardwareAudioEngineBase::SetGfxState, coreaudio.ihardwareaudioenginebase_setgfxstate
 ms.topic: method
-f1_keywords: 
- - "audioengineendpoint/IHardwareAudioEngineBase.SetGfxState"
+f1_keywords:
+- audioengineendpoint/IHardwareAudioEngineBase.SetGfxState
 dev_langs:
- - c++
+- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - audioengineendpoint.h
+- audioengineendpoint.h
 api_name:
- - IHardwareAudioEngineBase.SetGfxState
+- IHardwareAudioEngineBase.SetGfxState
 targetos: Windows
 req.typenames: 
 req.redist: 

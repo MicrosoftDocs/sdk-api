@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplication.GetProperty
 title: IAzApplication::GetProperty (azroles.h)
-
 description: Returns the IAzApplication object property with the specified property ID.
 old-location: security\iazapplication_getproperty.htm
 tech.root: SecAuthZ
 ms.assetid: cc2c7a59-497f-403f-8ed1-8a2d5b33c07d
-
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_APPLICATION_AUTHZ_INTERFACE_CLSID, AZ_PROP_APPLICATION_DATA, AZ_PROP_APPLICATION_VERSION, AZ_PROP_APPLY_STORE_SACL, AZ_PROP_CHILD_CREATE, AZ_PROP_DELEGATED_POLICY_USERS, AZ_PROP_DELEGATED_POLICY_USERS_NAME, AZ_PROP_DESCRIPTION, AZ_PROP_GENERATE_AUDITS, AZ_PROP_NAME, AZ_PROP_POLICY_ADMINS, AZ_PROP_POLICY_ADMINS_NAME, AZ_PROP_POLICY_READERS, AZ_PROP_POLICY_READERS_NAME, AZ_PROP_WRITABLE, AzApplication object [Security],GetProperty method, GetProperty, GetProperty method [Security], GetProperty method [Security],AzApplication object, GetProperty method [Security],IAzApplication interface, IAzApplication interface [Security],GetProperty method, IAzApplication.GetProperty, IAzApplication::GetProperty, azroles/IAzApplication::GetProperty, security.iazapplication_getproperty
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplication.GetProperty"
+f1_keywords:
+- azroles/IAzApplication.GetProperty
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplication.GetProperty
- - AzApplication.GetProperty
+- IAzApplication.GetProperty
+- AzApplication.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

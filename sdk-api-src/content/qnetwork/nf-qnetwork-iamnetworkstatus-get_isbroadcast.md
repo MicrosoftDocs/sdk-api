@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMNetworkStatus.get_IsBroadcast
 title: IAMNetworkStatus::get_IsBroadcast (qnetwork.h)
-
 description: The get_IsBroadcast method retrieves a value indicating whether the current stream is a broadcast stream.
 old-location: dshow\iamnetworkstatus_get_isbroadcast.htm
 tech.root: DirectShow
 ms.assetid: 578fe82b-0c87-47ea-9600-91d68f4c733f
-
 ms.date: 12/05/2018
 ms.keywords: IAMNetworkStatus interface [DirectShow],get_IsBroadcast method, IAMNetworkStatus.get_IsBroadcast, IAMNetworkStatus::get_IsBroadcast, IAMNetworkStatusget_IsBroadcast, dshow.iamnetworkstatus_get_isbroadcast, get_IsBroadcast, get_IsBroadcast method [DirectShow], get_IsBroadcast method [DirectShow],IAMNetworkStatus interface, qnetwork/IAMNetworkStatus::get_IsBroadcast
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMNetworkStatus.get_IsBroadcast"
+f1_keywords:
+- qnetwork/IAMNetworkStatus.get_IsBroadcast
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMNetworkStatus.get_IsBroadcast
+- IAMNetworkStatus.get_IsBroadcast
 targetos: Windows
 req.typenames: 
 req.redist: 

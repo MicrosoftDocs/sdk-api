@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRSurface.IsSurfaceLocked
 title: IVMRSurface::IsSurfaceLocked (strmif.h)
-
 description: The IsSurfaceLocked method indicates whether the DirectDraw surface attached to this media sample is locked.
 old-location: dshow\ivmrsurface_issurfacelocked.htm
 tech.root: DirectShow
 ms.assetid: 690194c2-2f40-414f-9130-f2f9c44fe71e
-
 ms.date: 12/05/2018
 ms.keywords: IVMRSurface interface [DirectShow],IsSurfaceLocked method, IVMRSurface.IsSurfaceLocked, IVMRSurface::IsSurfaceLocked, IVMRSurfaceIsSurfaceLocked, IsSurfaceLocked, IsSurfaceLocked method [DirectShow], IsSurfaceLocked method [DirectShow],IVMRSurface interface, dshow.ivmrsurface_issurfacelocked, strmif/IVMRSurface::IsSurfaceLocked
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRSurface.IsSurfaceLocked"
+f1_keywords:
+- strmif/IVMRSurface.IsSurfaceLocked
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRSurface.IsSurfaceLocked
+- IVMRSurface.IsSurfaceLocked
 targetos: Windows
 req.typenames: 
 req.redist: 

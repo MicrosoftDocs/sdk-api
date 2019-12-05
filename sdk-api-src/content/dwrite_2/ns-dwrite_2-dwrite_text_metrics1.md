@@ -1,19 +1,17 @@
 ---
 UID: NS:dwrite_2.DWRITE_TEXT_METRICS1
 title: DWRITE_TEXT_METRICS1 (dwrite_2.h)
-
 description: Contains the metrics associated with text after layout.
 old-location: directwrite\dwrite_text_metrics1.htm
 tech.root: DirectWrite
 ms.assetid: 1C374FD8-8BDC-4719-921F-2E14A919E7EF
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_TEXT_METRICS1, DWRITE_TEXT_METRICS1 structure [Direct Write], PDWRITE_TEXT_METRICS1, PDWRITE_TEXT_METRICS1 structure pointer [Direct Write], directwrite.dwrite_text_metrics1, dwrite_2/DWRITE_TEXT_METRICS1, dwrite_2/PDWRITE_TEXT_METRICS1
 ms.topic: struct
-f1_keywords: 
- - "dwrite_2/DWRITE_TEXT_METRICS1"
+f1_keywords:
+- dwrite_2/DWRITE_TEXT_METRICS1
 dev_langs:
- - c++
+- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite_2.h
+- dwrite_2.h
 api_name:
- - DWRITE_TEXT_METRICS1
+- DWRITE_TEXT_METRICS1
 targetos: Windows
 req.typenames: 
 req.redist: 

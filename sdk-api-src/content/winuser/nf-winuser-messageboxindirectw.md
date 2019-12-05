@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.MessageBoxIndirectW
 title: MessageBoxIndirectW function (winuser.h)
-
 description: Creates, displays, and operates a message box. The message box contains application-defined message text and title, any icon, and any combination of predefined push buttons.
 old-location: dlgbox\messageboxindirect.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\messageboxindirect.htm
-
 ms.date: 12/05/2018
 ms.keywords: MessageBoxIndirect, MessageBoxIndirect function [Dialog Boxes], MessageBoxIndirectA, MessageBoxIndirectW, _win32_MessageBoxIndirect, _win32_messageboxindirect_cpp, dlgbox.messageboxindirect, winui._win32_messageboxindirect, winuser/MessageBoxIndirect, winuser/MessageBoxIndirectA, winuser/MessageBoxIndirectW
 ms.topic: function
-f1_keywords: 
- - "winuser/MessageBoxIndirect"
+f1_keywords:
+- winuser/MessageBoxIndirect
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-DialogBox-l1-1-0.dll
- - Ext-MS-Win-NTUser-DialogBox-l1-1-1.dll
- - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
+- User32.dll
+- Ext-MS-Win-NTUser-DialogBox-l1-1-0.dll
+- Ext-MS-Win-NTUser-DialogBox-l1-1-1.dll
+- ext-ms-win-ntuser-dialogbox-l1-1-2.dll
 api_name:
- - MessageBoxIndirect
- - MessageBoxIndirectA
- - MessageBoxIndirectW
+- MessageBoxIndirect
+- MessageBoxIndirectA
+- MessageBoxIndirectW
 targetos: Windows
 req.typenames: 
 req.redist: 

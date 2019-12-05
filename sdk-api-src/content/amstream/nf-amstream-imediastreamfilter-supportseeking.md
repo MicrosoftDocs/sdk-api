@@ -1,19 +1,17 @@
 ---
 UID: NF:amstream.IMediaStreamFilter.SupportSeeking
 title: IMediaStreamFilter::SupportSeeking (amstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. The SupportSeeking method initializes the filter to support seeking. The multimedia stream object calls this method.
 old-location: dshow\imediastreamfilter_supportseeking.htm
 tech.root: DirectShow
 ms.assetid: 7cb15898-8a22-4621-a6e5-bb5d17640749
-
 ms.date: 12/05/2018
 ms.keywords: IMediaStreamFilter interface [DirectShow],SupportSeeking method, IMediaStreamFilter.SupportSeeking, IMediaStreamFilter::SupportSeeking, IMediaStreamFilterSupportSeeking, SupportSeeking, SupportSeeking method [DirectShow], SupportSeeking method [DirectShow],IMediaStreamFilter interface, amstream/IMediaStreamFilter::SupportSeeking, dshow.imediastreamfilter_supportseeking
 ms.topic: method
-f1_keywords: 
- - "amstream/IMediaStreamFilter.SupportSeeking"
+f1_keywords:
+- amstream/IMediaStreamFilter.SupportSeeking
 dev_langs:
- - c++
+- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - amstream.h
+- amstream.h
 api_name:
- - IMediaStreamFilter.SupportSeeking
+- IMediaStreamFilter.SupportSeeking
 targetos: Windows
 req.typenames: 
 req.redist: 

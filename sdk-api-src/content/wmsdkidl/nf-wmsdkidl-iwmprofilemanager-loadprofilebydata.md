@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMProfileManager.LoadProfileByData
 title: IWMProfileManager::LoadProfileByData (wmsdkidl.h)
-
 description: The LoadProfileByData method creates a profile object and populates it with data from a stored string. You must use this method to manipulate custom profiles. System profiles should be accessed using either LoadProfileByID or LoadSystemProfile.
 old-location: wmformat\iwmprofilemanager_loadprofilebydata.htm
 tech.root: wmformat
 ms.assetid: c645b6cc-e10d-4335-91c4-8bfd430ca76b
-
 ms.date: 12/05/2018
 ms.keywords: IWMProfileManager interface [windows Media Format],LoadProfileByData method, IWMProfileManager.LoadProfileByData, IWMProfileManager::LoadProfileByData, IWMProfileManagerLoadProfileByData, LoadProfileByData, LoadProfileByData method [windows Media Format], LoadProfileByData method [windows Media Format],IWMProfileManager interface, wmformat.iwmprofilemanager_loadprofilebydata, wmsdkidl/IWMProfileManager::LoadProfileByData
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMProfileManager.LoadProfileByData"
+f1_keywords:
+- wmsdkidl/IWMProfileManager.LoadProfileByData
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMProfileManager.LoadProfileByData
+- IWMProfileManager.LoadProfileByData
 targetos: Windows
 req.typenames: 
 req.redist: 

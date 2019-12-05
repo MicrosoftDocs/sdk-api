@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_DiseqCommand.put_DiseqRepeats
 title: IBDA_DiseqCommand::put_DiseqRepeats (bdaiface.h)
-
 description: Enables or disables repeated Digital Satellite Equipment Control (DiSEqC) commands.
 old-location: mstv\ibda_diseqcommand_put_diseqrepeats.htm
 tech.root: mstv
 ms.assetid: de5cbfa9-1509-47cf-b994-24b5dac76d8e
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_DiseqCommand interface [Microsoft TV Technologies],put_DiseqRepeats method, IBDA_DiseqCommand.put_DiseqRepeats, IBDA_DiseqCommand::put_DiseqRepeats, bdaiface/IBDA_DiseqCommand::put_DiseqRepeats, mstv.ibda_diseqcommand_put_diseqrepeats, put_DiseqRepeats, put_DiseqRepeats method [Microsoft TV Technologies], put_DiseqRepeats method [Microsoft TV Technologies],IBDA_DiseqCommand interface
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_DiseqCommand.put_DiseqRepeats"
+f1_keywords:
+- bdaiface/IBDA_DiseqCommand.put_DiseqRepeats
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_DiseqCommand.put_DiseqRepeats
+- IBDA_DiseqCommand.put_DiseqRepeats
 targetos: Windows
 req.typenames: 
 req.redist: 

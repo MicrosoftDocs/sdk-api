@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10shader.D3D10GetVertexShaderProfile
 title: D3D10GetVertexShaderProfile function (d3d10shader.h)
-
 description: Get the vertex shader profile best suited to a given device.
 old-location: direct3d10\d3d10getvertexshaderprofile.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10getvertexshaderprofile.htm
-
 ms.date: 12/05/2018
 ms.keywords: D3D10GetVertexShaderProfile, D3D10GetVertexShaderProfile function [Direct3D 10], d3d10shader/D3D10GetVertexShaderProfile, direct3d10.d3d10getvertexshaderprofile, ed448170-9ae1-2f57-6e8e-b9cf7adec9c1
 ms.topic: function
-f1_keywords: 
- - "d3d10shader/D3D10GetVertexShaderProfile"
+f1_keywords:
+- d3d10shader/D3D10GetVertexShaderProfile
 dev_langs:
- - c++
+- c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D10.lib
 req.dll: D3D10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D3D10.dll
+- D3D10.dll
 api_name:
- - D3D10GetVertexShaderProfile
+- D3D10GetVertexShaderProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

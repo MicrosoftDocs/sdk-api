@@ -1,19 +1,17 @@
 ---
 UID: NN:uianimation.IUIAnimationStoryboard2
 title: IUIAnimationStoryboard2 (uianimation.h)
-
 description: Defines a storyboard, which contains a group of transitions that are synchronized relative to one another.In this sectionTopicDescriptionAbandon MethodTerminates the storyboard, releases all related animation variables, and removes the storyboard from the schedule.AddKeyframeAfterTransition MethodAdds a keyframe at the end of the specified transition.AddKeyframeAtOffset MethodAdds a keyframe at the specified offset from an existing keyframe.AddTransition MethodAdds a transition to the storyboard.AddTransitionAtKeyframe MethodAdds a transition that starts at the specified keyframe.AddTransitionBetweenKeyframes MethodAdds a transition between two keyframes.Conclude MethodCompletes the current iteration of a keyframe loop that is in progress (where the loop is set to UI_ANIMATION_REPEAT_INDEFINITELY), terminates the loop, and continues with the storyboard. Finish MethodFinishes the storyboard within the specified time, compressing the storyboard if necessary.GetElapsedTime MethodGets the time that has elapsed since the storyboard started playing.GetStatus MethodGets the status of the storyboard.GetTag MethodGets the tag for a storyboard.HoldVariable MethodDirects the storyboard to hold the specified animation variable at its final value until the storyboard ends.RepeatBetweenKeyframes MethodCreates a loop between two keyframes.Schedule MethodDirects the storyboard to schedule itself for play.SetSkipDuration MethodSpecifies an offset from the beginning of a storyboard at which to start animating.SetLongestAcceptableDelay MethodSets the longest acceptable delay before the scheduled storyboard begins.SetStoryboardEventHandler MethodSpecifies a handler for storyboard events.SetTag MethodSets the tag for the storyboard. .
 old-location: uianimation\iuianimationstoryboard2.htm
 tech.root: UIAnimation
 ms.assetid: 507B6C2B-92C6-4AEB-82D5-3F14A332D41F
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationStoryboard2, IUIAnimationStoryboard2 interface [Windows Animation], IUIAnimationStoryboard2 interface [Windows Animation],described, uianimation.iuianimationstoryboard2, uianimation/IUIAnimationStoryboard2
 ms.topic: interface
-f1_keywords: 
- - "uianimation/IUIAnimationStoryboard2"
+f1_keywords:
+- uianimation/IUIAnimationStoryboard2
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard2
+- IUIAnimationStoryboard2
 targetos: Windows
 req.typenames: 
 req.redist: 

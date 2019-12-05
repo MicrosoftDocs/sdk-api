@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetEventLogInformation
 title: GetEventLogInformation function (winbase.h)
-
 description: Retrieves information about the specified event log.
 old-location: base\geteventloginformation.htm
 tech.root: EventLog
 ms.assetid: 627e0af2-3ce6-47fe-89c6-d7c0483cb94b
-
 ms.date: 12/05/2018
 ms.keywords: EVENTLOG_FULL_INFO, GetEventLogInformation, GetEventLogInformation function, _win32_geteventloginformation, base.geteventloginformation, winbase/GetEventLogInformation
 ms.topic: function
 f1_keywords:
 - winbase/GetEventLogInformation
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

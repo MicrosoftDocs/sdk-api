@@ -1,19 +1,17 @@
 ---
 UID: NE:photoacquire.tagPROGRESS_DIALOG_IMAGE_TYPE
 title: PROGRESS_DIALOG_IMAGE_TYPE (photoacquire.h)
-
 description: The PROGRESS_DIALOG_IMAGE_TYPE enumeration type indicates the image type set in IPhotoProgressDialog::SetImage.
 old-location: picacq\progress_dialog_image_type.htm
 tech.root: acquisition
 ms.assetid: 05da00c6-e8de-4482-ab2c-f1b969cfa877
-
 ms.date: 12/05/2018
 ms.keywords: PROGRESS_DIALOG_BITMAP_THUMBNAIL, PROGRESS_DIALOG_ICON_LARGE, PROGRESS_DIALOG_ICON_SMALL, PROGRESS_DIALOG_ICON_THUMBNAIL, PROGRESS_DIALOG_IMAGE_TYPE, PROGRESS_DIALOG_IMAGE_TYPE enumeration [Picture Acquisition], enumeration [Picture Acquisition], photoacquire/PROGRESS_DIALOG_BITMAP_THUMBNAIL, photoacquire/PROGRESS_DIALOG_ICON_LARGE, photoacquire/PROGRESS_DIALOG_ICON_SMALL, photoacquire/PROGRESS_DIALOG_ICON_THUMBNAIL, photoacquire/PROGRESS_DIALOG_IMAGE_TYPE, picacq.progress_dialog_image_type
 ms.topic: enum
-f1_keywords: 
- - "photoacquire/PROGRESS_DIALOG_IMAGE_TYPE"
+f1_keywords:
+- photoacquire/PROGRESS_DIALOG_IMAGE_TYPE
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - PhotoAcquire.h
+- PhotoAcquire.h
 api_name:
- - PROGRESS_DIALOG_IMAGE_TYPE
+- PROGRESS_DIALOG_IMAGE_TYPE
 targetos: Windows
 req.typenames: PROGRESS_DIALOG_IMAGE_TYPE
 req.redist: 

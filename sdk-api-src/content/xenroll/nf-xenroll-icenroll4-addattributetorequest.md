@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.ICEnroll4.addAttributeToRequest
 title: ICEnroll4::addAttributeToRequest (xenroll.h)
-
 description: Adds an attribute to the certificate request. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_addattributetorequest.htm
 tech.root: SecCrypto
 ms.assetid: a15fe06c-e2a5-4292-ad82-ea350e652a07
-
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],addAttributeToRequest method, ICEnroll4 interface [Security],addAttributeToRequest method, ICEnroll4.addAttributeToRequest, ICEnroll4::addAttributeToRequest, _xen_icenroll4_addattributetorequest, addAttributeToRequest, addAttributeToRequest method [Security], addAttributeToRequest method [Security],CEnroll object, addAttributeToRequest method [Security],ICEnroll4 interface, security.icenroll4_addattributetorequest, xenroll/ICEnroll4::addAttributeToRequest
 ms.topic: method
-f1_keywords: 
- - "xenroll/ICEnroll4.addAttributeToRequest"
+f1_keywords:
+- xenroll/ICEnroll4.addAttributeToRequest
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll4.addAttributeToRequest
- - CEnroll.addAttributeToRequest
+- ICEnroll4.addAttributeToRequest
+- CEnroll.addAttributeToRequest
 targetos: Windows
 req.typenames: 
 req.redist: 

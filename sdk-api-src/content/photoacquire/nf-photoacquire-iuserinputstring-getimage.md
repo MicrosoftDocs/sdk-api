@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetImage
 title: IUserInputString::GetImage (photoacquire.h)
-
 description: The GetImage method retrieves the default image used to initialize an edit control.
 old-location: picacq\iuserinputstring_getimage.htm
 tech.root: acquisition
 ms.assetid: a626c53d-b9dd-483b-924d-6f5d2d1c2663
-
 ms.date: 12/05/2018
 ms.keywords: GetImage, GetImage method [Picture Acquisition], GetImage method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetImage method, IUserInputString.GetImage, IUserInputString::GetImage, IUserInputStringGetImage, photoacquire/IUserInputString::GetImage, picacq.iuserinputstring_getimage
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IUserInputString.GetImage"
+f1_keywords:
+- photoacquire/IUserInputString.GetImage
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IUserInputString.GetImage
+- IUserInputString.GetImage
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_UINT8_DESCRIPTION
 title: WS_UINT8_DESCRIPTION (webservices.h)
-
 description: An optional type description used with WS_UINT8_TYPE to specify constraints on the set of values which can be deserialized.
 old-location: wsw\ws_uint8_description.htm
 tech.root: wsw
 ms.assetid: 0e878a19-8f64-4fa2-a6a7-9a12c2ec8efc
-
 ms.date: 12/05/2018
 ms.keywords: WS_UINT8_DESCRIPTION, WS_UINT8_DESCRIPTION structure [Web Services for Windows], webservices/WS_UINT8_DESCRIPTION, wsw.ws_uint8_description
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_UINT8_DESCRIPTION"
+f1_keywords:
+- webservices/WS_UINT8_DESCRIPTION
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_UINT8_DESCRIPTION
+- WS_UINT8_DESCRIPTION
 targetos: Windows
 req.typenames: WS_UINT8_DESCRIPTION
 req.redist: 

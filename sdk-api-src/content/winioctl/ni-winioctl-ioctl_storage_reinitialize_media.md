@@ -5,9 +5,9 @@ ms.date: 4/26/2019
 ms.keywords: IOCTL_STORAGE_REINITIALIZE_MEDIA
 ms.topic: language-reference
 f1_keywords:
- - IOCTL_STORAGE_REINITIALIZE_MEDIA
+- IOCTL_STORAGE_REINITIALIZE_MEDIA
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: ioctl
 req.ddi-compliance: 
@@ -25,13 +25,13 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winioctl.h
+- winioctl.h
 api_name:
- - IOCTL_STORAGE_REINITIALIZE_MEDIA
+- IOCTL_STORAGE_REINITIALIZE_MEDIA
 ---
 
 ## -description

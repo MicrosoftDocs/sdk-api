@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetCurrentUmsThread
 title: GetCurrentUmsThread function (winbase.h)
-
 description: Returns the user-mode scheduling (UMS) thread context of the calling UMS thread.
 old-location: base\getcurrentumsthread.htm
 tech.root: ProcThread
 ms.assetid: f2e20816-919a-443d-96d3-94e98afc28f2
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentUmsThread, GetCurrentUmsThread function, base.getcurrentumsthread, winbase/GetCurrentUmsThread
 ms.topic: function
-f1_keywords: 
- - "winbase/GetCurrentUmsThread"
+f1_keywords:
+- winbase/GetCurrentUmsThread
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-ums-l1-1-0.dll
+- kernel32.dll
+- API-MS-Win-Core-ums-l1-1-0.dll
 api_name:
- - GetCurrentUmsThread
+- GetCurrentUmsThread
 targetos: Windows
 req.typenames: 
 req.redist: 

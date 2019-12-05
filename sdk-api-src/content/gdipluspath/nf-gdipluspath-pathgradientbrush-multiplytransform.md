@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.MultiplyTransform
 title: PathGradientBrush::MultiplyTransform (gdipluspath.h)
-
 description: ThePathGradientBrush::MultiplyTransform method updates the brush's transformation matrix with the product of itself and another matrix.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_MultiplyTransform_matrix_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\multiplytransform_47matrix_order.htm
-
 ms.date: 12/05/2018
 ms.keywords: MultiplyTransform, MultiplyTransform method [GDI+], MultiplyTransform method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],MultiplyTransform method, PathGradientBrush.MultiplyTransform, PathGradientBrush::MultiplyTransform, _gdiplus_CLASS_PathGradientBrush_MultiplyTransform_matrix_order_, gdiplus._gdiplus_CLASS_PathGradientBrush_MultiplyTransform_matrix_order_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/PathGradientBrush.MultiplyTransform"
+f1_keywords:
+- gdipluspath/PathGradientBrush.MultiplyTransform
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - PathGradientBrush.MultiplyTransform
+- PathGradientBrush.MultiplyTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

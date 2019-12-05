@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.CreateDirectoryExW
 title: CreateDirectoryExW function (winbase.h)
-
 description: Creates a new directory with the attributes of a specified template directory.
 old-location: fs\createdirectoryex.htm
 tech.root: FileIO
 ms.assetid: 287996f8-e8ca-4b72-a5f6-016754785c5c
-
 ms.date: 12/05/2018
 ms.keywords: CreateDirectoryEx, CreateDirectoryEx function [Files], CreateDirectoryExA, CreateDirectoryExW, _win32_createdirectoryex, base.createdirectoryex, fs.createdirectoryex, winbase/CreateDirectoryEx, winbase/CreateDirectoryExA, winbase/CreateDirectoryExW
 ms.topic: function
-f1_keywords: 
- - "winbase/CreateDirectoryEx"
+f1_keywords:
+- winbase/CreateDirectoryEx
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l2-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l2-1-1.dll
- - API-MS-Win-Core-File-l2-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - API-Ms-Win-Core-File-Ansi-L2-1-0.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l2-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l2-1-1.dll
+- API-MS-Win-Core-File-l2-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- API-Ms-Win-Core-File-Ansi-L2-1-0.dll
+- Kernel32Legacy.dll
 api_name:
- - CreateDirectoryEx
- - CreateDirectoryExA
- - CreateDirectoryExW
+- CreateDirectoryEx
+- CreateDirectoryExA
+- CreateDirectoryExW
 targetos: Windows
 req.typenames: 
 req.redist: 

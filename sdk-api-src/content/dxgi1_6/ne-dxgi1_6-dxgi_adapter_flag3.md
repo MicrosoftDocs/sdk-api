@@ -1,19 +1,17 @@
 ---
 UID: NE:dxgi1_6.DXGI_ADAPTER_FLAG3
 title: DXGI_ADAPTER_FLAG3 (dxgi1_6.h)
-
 description: Identifies the type of DXGI adapter.
 old-location: direct3ddxgi\DXGI_ADAPTER_FLAG3.htm
 tech.root: direct3ddxgi
 ms.assetid: 3CD83EEB-2F13-4B32-9E27-CF8456FB3E39
-
 ms.date: 12/05/2018
 ms.keywords: DXGI_ADAPTER_FLAG3, DXGI_ADAPTER_FLAG3 enumeration [DXGI], DXGI_ADAPTER_FLAG3_ACG_COMPATIBLE, DXGI_ADAPTER_FLAG3_KEYED_MUTEX_CONFORMANCE, DXGI_ADAPTER_FLAG3_NONE, DXGI_ADAPTER_FLAG3_REMOTE, DXGI_ADAPTER_FLAG3_SOFTWARE, DXGI_ADAPTER_FLAG3_SUPPORT_MONITORED_FENCES, DXGI_ADAPTER_FLAG3_SUPPORT_NON_MONITORED_FENCES, DXGI_ADAPTER_FLAG_FORCE_DWORD, direct3ddxgi.DXGI_ADAPTER_FLAG3, dxgi1_6/DXGI_ADAPTER_FLAG3, dxgi1_6/DXGI_ADAPTER_FLAG3_ACG_COMPATIBLE, dxgi1_6/DXGI_ADAPTER_FLAG3_KEYED_MUTEX_CONFORMANCE, dxgi1_6/DXGI_ADAPTER_FLAG3_NONE, dxgi1_6/DXGI_ADAPTER_FLAG3_REMOTE, dxgi1_6/DXGI_ADAPTER_FLAG3_SOFTWARE, dxgi1_6/DXGI_ADAPTER_FLAG3_SUPPORT_MONITORED_FENCES, dxgi1_6/DXGI_ADAPTER_FLAG3_SUPPORT_NON_MONITORED_FENCES, dxgi1_6/DXGI_ADAPTER_FLAG_FORCE_DWORD
 ms.topic: enum
-f1_keywords: 
- - "dxgi1_6/DXGI_ADAPTER_FLAG3"
+f1_keywords:
+- dxgi1_6/DXGI_ADAPTER_FLAG3
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_6.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DXGI1_6.h
+- DXGI1_6.h
 api_name:
- - DXGI_ADAPTER_FLAG3
+- DXGI_ADAPTER_FLAG3
 targetos: Windows
 req.typenames: DXGI_ADAPTER_FLAG3
 req.redist: 

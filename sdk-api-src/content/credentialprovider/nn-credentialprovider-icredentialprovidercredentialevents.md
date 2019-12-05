@@ -1,19 +1,17 @@
 ---
 UID: NN:credentialprovider.ICredentialProviderCredentialEvents
 title: ICredentialProviderCredentialEvents (credentialprovider.h)
-
 description: Provides an asynchronous callback mechanism used by a credential to notify it of state or text change events in the Logon UI or Credential UI.
 old-location: shell\ICredentialProviderCredentialEvents.htm
 tech.root: shell
 ms.assetid: 258449a4-78e2-475e-ab16-6481207e7354
-
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredentialEvents, ICredentialProviderCredentialEvents interface [Windows Shell], ICredentialProviderCredentialEvents interface [Windows Shell],described, credentialprovider/ICredentialProviderCredentialEvents, shell.ICredentialProviderCredentialEvents, shell_ICredentialProviderCredentialEvents
 ms.topic: interface
-f1_keywords: 
- - "credentialprovider/ICredentialProviderCredentialEvents"
+f1_keywords:
+- credentialprovider/ICredentialProviderCredentialEvents
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CredentialProvider.lib
 req.dll: Authui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Authui.dll
+- Authui.dll
 api_name:
- - ICredentialProviderCredentialEvents
+- ICredentialProviderCredentialEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.GetBufferProgress
 title: IWMReaderAdvanced2::GetBufferProgress (wmsdkidl.h)
-
 description: The GetBufferProgress method retrieves the percentage of data that has been buffered, and the time remaining to completion.
 old-location: wmformat\iwmreaderadvanced2_getbufferprogress.htm
 tech.root: wmformat
 ms.assetid: e0419f53-9962-4d81-9153-0538c60861eb
-
 ms.date: 12/05/2018
 ms.keywords: GetBufferProgress, GetBufferProgress method [windows Media Format], GetBufferProgress method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced2 interface [windows Media Format],GetBufferProgress method, IWMReaderAdvanced2.GetBufferProgress, IWMReaderAdvanced2::GetBufferProgress, IWMReaderAdvanced2GetBufferProgress, wmformat.iwmreaderadvanced2_getbufferprogress, wmsdkidl/IWMReaderAdvanced2::GetBufferProgress
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced2.GetBufferProgress"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced2.GetBufferProgress
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced2.GetBufferProgress
+- IWMReaderAdvanced2.GetBufferProgress
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.GetClusterFromNetwork
 title: GetClusterFromNetwork function (clusapi.h)
-
 description: Returns a handle to the cluster associated with a network.
 old-location: mscs\getclusterfromnetwork.htm
 tech.root: MsCS
 ms.assetid: 90ac313a-9f60-4591-b0fa-89d99b007280
-
 ms.date: 12/05/2018
 ms.keywords: GetClusterFromNetwork, GetClusterFromNetwork function [Failover Cluster], PCLUSAPI_GET_CLUSTER_FROM_NETWORK, PCLUSAPI_GET_CLUSTER_FROM_NETWORK function [Failover Cluster], _wolf_getclusterfromnetwork, clusapi/GetClusterFromNetwork, clusapi/PCLUSAPI_GET_CLUSTER_FROM_NETWORK, mscs.getclusterfromnetwork
 ms.topic: function
-f1_keywords: 
- - "clusapi/GetClusterFromNetwork"
+f1_keywords:
+- clusapi/GetClusterFromNetwork
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - GetClusterFromNetwork
+- GetClusterFromNetwork
 targetos: Windows
 req.typenames: 
 req.redist: 

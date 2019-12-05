@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_GET_MEDIA_TYPES_EX
 title: IOCTL_STORAGE_GET_MEDIA_TYPES_EX
-
 description: Retrieves information about the types of media supported by a device.
 old-location: base\ioctl_storage_get_media_types_ex.htm
 tech.root: devio
 ms.assetid: eb3676cb-9f50-4105-89b6-ee2174e197ec
-
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_GET_MEDIA_TYPES_EX, IOCTL_STORAGE_GET_MEDIA_TYPES_EX control, IOCTL_STORAGE_GET_MEDIA_TYPES_EX control code, _win32_ioctl_storage_get_media_types_ex, base.ioctl_storage_get_media_types_ex, winioctl/IOCTL_STORAGE_GET_MEDIA_TYPES_EX
 ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_STORAGE_GET_MEDIA_TYPES_EX
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationVariableCurveChangeHandler2.OnCurveChanged
 title: IUIAnimationVariableCurveChangeHandler2::OnCurveChanged (uianimation.h)
-
 description: Handles events that occur when the animation curve of an animation variable changes.
 old-location: uianimation\iuianimationvariablecurvechangehandler2_oncurvechanged.htm
 tech.root: UIAnimation
 ms.assetid: CD0F59F7-9383-4602-8A97-356AEAB0FD82
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariableCurveChangeHandler2 interface [Windows Animation],OnCurveChanged method, IUIAnimationVariableCurveChangeHandler2.OnCurveChanged, IUIAnimationVariableCurveChangeHandler2::OnCurveChanged, OnCurveChanged, OnCurveChanged method [Windows Animation], OnCurveChanged method [Windows Animation],IUIAnimationVariableCurveChangeHandler2 interface, uianimation.iuianimationvariablecurvechangehandler2_oncurvechanged, uianimation/IUIAnimationVariableCurveChangeHandler2::OnCurveChanged
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationVariableCurveChangeHandler2.OnCurveChanged"
+f1_keywords:
+- uianimation/IUIAnimationVariableCurveChangeHandler2.OnCurveChanged
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationVariableCurveChangeHandler2.OnCurveChanged
+- IUIAnimationVariableCurveChangeHandler2.OnCurveChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

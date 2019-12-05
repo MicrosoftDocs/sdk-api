@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPPlayer.get_enabled
 title: IWMPPlayer::get_enabled (wmp.h)
-
 description: The get_enabled method retrieves a value indicating whether the Windows Media Player control is enabled.
 old-location: wmp\iwmpplayer_get_enabled.htm
 tech.root: WMP
 ms.assetid: 42dc1774-686c-4336-9a61-b658a75ba257
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer interface [Windows Media Player],get_enabled method, IWMPPlayer.get_enabled, IWMPPlayer::get_enabled, IWMPPlayerget_enabled, get_enabled, get_enabled method [Windows Media Player], get_enabled method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_get_enabled, wmp/IWMPPlayer::get_enabled
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPPlayer.get_enabled"
+f1_keywords:
+- wmp/IWMPPlayer.get_enabled
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPPlayer.get_enabled
+- IWMPPlayer.get_enabled
 targetos: Windows
 req.typenames: 
 req.redist: 

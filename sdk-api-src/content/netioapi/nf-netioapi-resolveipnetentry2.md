@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.ResolveIpNetEntry2
 title: ResolveIpNetEntry2 function (netioapi.h)
-
 description: Resolves the physical address for a neighbor IP address entry on the local computer.
 old-location: iphlp\resolveipnetentry2.htm
 tech.root: IpHlp
 ms.assetid: 37f9dc58-362d-413e-a593-4dda52fb7d8b
-
 ms.date: 12/05/2018
 ms.keywords: ResolveIpNetEntry2, ResolveIpNetEntry2 function [IP Helper], iphlp.resolveipnetentry2, netioapi/ResolveIpNetEntry2
 ms.topic: function
-f1_keywords: 
- - "netioapi/ResolveIpNetEntry2"
+f1_keywords:
+- netioapi/ResolveIpNetEntry2
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - ResolveIpNetEntry2
+- ResolveIpNetEntry2
 targetos: Windows
 req.typenames: 
 req.redist: 

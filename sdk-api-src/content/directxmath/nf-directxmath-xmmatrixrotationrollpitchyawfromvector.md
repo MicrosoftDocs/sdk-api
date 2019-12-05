@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMMatrixRotationRollPitchYawFromVector
 title: XMMatrixRotationRollPitchYawFromVector function (directxmath.h)
-
 description: Builds a rotation matrix based on a vector containing the Euler angles (pitch, yaw, and roll).
 old-location: dxmath\xmmatrixrotationrollpitchyawfromvector.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixRotationRollPitchYawFromVector(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixRotationRollPitchYawFromVector, XMMatrixRotationRollPitchYawFromVector, XMMatrixRotationRollPitchYawFromVector method [DirectX Math Support APIs], dxmath.xmmatrixrotationrollpitchyawfromvector
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMMatrixRotationRollPitchYawFromVector"
+f1_keywords:
+- directxmath/XMMatrixRotationRollPitchYawFromVector
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMMatrixRotationRollPitchYawFromVector
+- XMMatrixRotationRollPitchYawFromVector
 targetos: Windows
 req.typenames: 
 req.redist: 

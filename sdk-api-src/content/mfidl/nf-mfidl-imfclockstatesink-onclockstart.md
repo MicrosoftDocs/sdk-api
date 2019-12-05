@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFClockStateSink.OnClockStart
 title: IMFClockStateSink::OnClockStart (mfidl.h)
-
 description: Called when the presentation clock starts.
 old-location: mf\imfclockstatesink_onclockstart.htm
 tech.root: medfound
 ms.assetid: 1a696ffc-b8e6-4ef9-b980-35bfbd3d4128
-
 ms.date: 12/05/2018
 ms.keywords: 1a696ffc-b8e6-4ef9-b980-35bfbd3d4128, IMFClockStateSink interface [Media Foundation],OnClockStart method, IMFClockStateSink.OnClockStart, IMFClockStateSink::OnClockStart, OnClockStart, OnClockStart method [Media Foundation], OnClockStart method [Media Foundation],IMFClockStateSink interface, mf.imfclockstatesink_onclockstart, mfidl/IMFClockStateSink::OnClockStart
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFClockStateSink.OnClockStart"
+f1_keywords:
+- mfidl/IMFClockStateSink.OnClockStart
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFClockStateSink.OnClockStart
+- IMFClockStateSink.OnClockStart
 targetos: Windows
 req.typenames: 
 req.redist: 

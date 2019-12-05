@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig2.GetDataUnitExtension
 title: IWMStreamConfig2::GetDataUnitExtension (wmsdkidl.h)
-
 description: The GetDataUnitExtension method retrieves information about an existing data unit extension system.
 old-location: wmformat\iwmstreamconfig2_getdataunitextension.htm
 tech.root: wmformat
 ms.assetid: 766124f6-b376-421b-b2ee-2c280af3bd16
-
 ms.date: 12/05/2018
 ms.keywords: GetDataUnitExtension, GetDataUnitExtension method [windows Media Format], GetDataUnitExtension method [windows Media Format],IWMStreamConfig2 interface, IWMStreamConfig2 interface [windows Media Format],GetDataUnitExtension method, IWMStreamConfig2.GetDataUnitExtension, IWMStreamConfig2::GetDataUnitExtension, IWMStreamConfig2GetDataUnitExtension, wmformat.iwmstreamconfig2_getdataunitextension, wmsdkidl/IWMStreamConfig2::GetDataUnitExtension
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMStreamConfig2.GetDataUnitExtension"
+f1_keywords:
+- wmsdkidl/IWMStreamConfig2.GetDataUnitExtension
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMStreamConfig2.GetDataUnitExtension
+- IWMStreamConfig2.GetDataUnitExtension
 targetos: Windows
 req.typenames: 
 req.redist: 

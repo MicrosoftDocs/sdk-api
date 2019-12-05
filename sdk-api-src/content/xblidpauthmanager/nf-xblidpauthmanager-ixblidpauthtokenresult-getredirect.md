@@ -1,19 +1,17 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetRedirect
 title: IXblIdpAuthTokenResult::GetRedirect (xblidpauthmanager.h)
-
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getredirect.htm
 tech.root: xblidp
 ms.assetid: 4341F176-5C7C-42C1-8C17-FFBA293AFD53
-
 ms.date: 12/05/2018
 ms.keywords: GetRedirect, GetRedirect method, GetRedirect method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetRedirect method, IXblIdpAuthTokenResult.GetRedirect, IXblIdpAuthTokenResult::GetRedirect, xblidp.ixblidpauthtokenresult_getredirect, xblidpauthmanager/IXblIdpAuthTokenResult::GetRedirect
 ms.topic: method
-f1_keywords: 
- - "xblidpauthmanager/IXblIdpAuthTokenResult.GetRedirect"
+f1_keywords:
+- xblidpauthmanager/IXblIdpAuthTokenResult.GetRedirect
 dev_langs:
- - c++
+- c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XblIdpAuthManager.h
+- XblIdpAuthManager.h
 api_name:
- - IXblIdpAuthTokenResult.GetRedirect
+- IXblIdpAuthTokenResult.GetRedirect
 targetos: Windows
 req.typenames: 
 req.redist: 

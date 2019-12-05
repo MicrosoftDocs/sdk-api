@@ -1,19 +1,17 @@
 ---
 UID: NF:ip2string.RtlIpv6AddressToStringW
 title: RtlIpv6AddressToStringW function (ip2string.h)
-
 description: Converts an IPv6 address to a string in Internet standard format.
 old-location: iphlp\rtlipv6addresstostring.htm
 tech.root: IpHlp
 ms.assetid: a891adb0-6c2d-4b69-a0de-4a615be938e3
-
 ms.date: 12/05/2018
 ms.keywords: RtlIpv6AddressToString, RtlIpv6AddressToString function [IP Helper], RtlIpv6AddressToStringA, RtlIpv6AddressToStringW, ip2string/RtlIpv6AddressToString, ip2string/RtlIpv6AddressToStringA, ip2string/RtlIpv6AddressToStringW, iphlp.rtlipv6addresstostring
 ms.topic: function
-f1_keywords: 
- - "ip2string/RtlIpv6AddressToString"
+f1_keywords:
+- ip2string/RtlIpv6AddressToString
 dev_langs:
- - c++
+- c++
 req.header: ip2string.h
 req.include-header: Mstcpip.h, Ip2string.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdll.dll
+- Ntdll.dll
 api_name:
- - RtlIpv6AddressToString
- - RtlIpv6AddressToStringA
- - RtlIpv6AddressToStringW
+- RtlIpv6AddressToString
+- RtlIpv6AddressToStringA
+- RtlIpv6AddressToStringW
 targetos: Windows
 req.typenames: 
 req.redist: 

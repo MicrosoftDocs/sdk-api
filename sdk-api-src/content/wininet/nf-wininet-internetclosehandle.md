@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetCloseHandle
 title: InternetCloseHandle function (wininet.h)
-
 description: Closes a single Internet handle.
 old-location: wininet\internetclosehandle.htm
 tech.root: wininet
 ms.assetid: 52b57e3c-3cfe-40bc-b87b-90cf39c5c38d
-
 ms.date: 12/05/2018
 ms.keywords: InternetCloseHandle, InternetCloseHandle function [WinINet], _win32_internetclosehandle, wininet.internetclosehandle, wininet/InternetCloseHandle
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetCloseHandle"
+f1_keywords:
+- wininet/InternetCloseHandle
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetCloseHandle
+- InternetCloseHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

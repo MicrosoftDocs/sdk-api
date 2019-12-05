@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.ITaskSettings2
 title: ITaskSettings2 (taskschd.h)
-
 description: Provides the extended settings that the Task Scheduler uses to run the task.
 old-location: taskschd\itasksettings2.htm
 tech.root: taskschd
 ms.assetid: ea08e599-5d4a-4919-abed-c35fe0977f3f
-
 ms.date: 12/05/2018
 ms.keywords: ITaskSettings2, ITaskSettings2 interface [Task Scheduler], ITaskSettings2 interface [Task Scheduler],described, taskschd.itasksettings2, taskschd/ITaskSettings2
 ms.topic: interface
-f1_keywords: 
- - "taskschd/ITaskSettings2"
+f1_keywords:
+- taskschd/ITaskSettings2
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskSettings2
+- ITaskSettings2
 targetos: Windows
 req.typenames: 
 req.redist: 

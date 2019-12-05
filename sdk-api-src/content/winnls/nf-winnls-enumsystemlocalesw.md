@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.EnumSystemLocalesW
 title: EnumSystemLocalesW function (winnls.h)
-
 description: Enumerates the locales that are either installed on or supported by an operating system.Note  For interoperability reasons, the application should prefer the EnumSystemLocalesEx function to EnumSystemLocales because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. Any application that will be run only on Windows Vista and later should use EnumSystemLocalesEx.
 old-location: intl\enumsystemlocales.htm
 tech.root: Intl
 ms.assetid: e6341460-3c4e-4040-8b49-3eb7d279e571
-
 ms.date: 12/05/2018
 ms.keywords: EnumSystemLocales, EnumSystemLocales function [Internationalization for Windows Applications], EnumSystemLocalesA, EnumSystemLocalesW, LCID_ALTERNATE_SORTS, LCID_INSTALLED, LCID_SUPPORTED, _win32_EnumSystemLocales, intl.enumsystemlocales, winnls/EnumSystemLocales, winnls/EnumSystemLocalesA, winnls/EnumSystemLocalesW
 ms.topic: function
-f1_keywords: 
- - "winnls/EnumSystemLocales"
+f1_keywords:
+- winnls/EnumSystemLocales
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l1-2-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-l1-2-1.dll
- - API-MS-Win-Core-misc-l1-1-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l1-2-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-l1-2-1.dll
+- API-MS-Win-Core-misc-l1-1-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
- - EnumSystemLocales
- - EnumSystemLocalesA
- - EnumSystemLocalesW
+- EnumSystemLocales
+- EnumSystemLocalesA
+- EnumSystemLocalesW
 targetos: Windows
 req.typenames: 
 req.redist: 

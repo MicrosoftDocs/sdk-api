@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif.tagDVD_HMSF_TIMECODE
 title: DVD_HMSF_TIMECODE (strmif.h)
-
 description: The DVD_HMSF_TIMECODE structure gives the hours, minutes, seconds, and frames in a DVD timecode.
 old-location: dshow\dvd_hmsf_timecode.htm
 tech.root: DirectShow
 ms.assetid: 8f2990f6-a8f5-4b16-ae30-d51ea55496ea
-
 ms.date: 12/05/2018
 ms.keywords: DVD_HMSF_TIMECODE, DVD_HMSF_TIMECODE structure [DirectShow], DVD_HMSF_TIMECODEStructure, dshow.dvd_hmsf_timecode, strmif/DVD_HMSF_TIMECODE
 ms.topic: struct
-f1_keywords: 
- - "strmif/DVD_HMSF_TIMECODE"
+f1_keywords:
+- strmif/DVD_HMSF_TIMECODE
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - DVD_HMSF_TIMECODE
+- DVD_HMSF_TIMECODE
 targetos: Windows
 req.typenames: DVD_HMSF_TIMECODE
 req.redist: 

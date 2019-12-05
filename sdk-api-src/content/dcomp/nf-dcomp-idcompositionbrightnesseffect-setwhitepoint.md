@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionBrightnessEffect.SetWhitePoint
 title: IDCompositionBrightnessEffect::SetWhitePoint (dcomp.h)
-
 description: Sets the upper portion of the brightness transfer curve.
 old-location: directcomp\idcompositionbrightnesseffect_setwhitepoint.htm
 tech.root: directcomp
 ms.assetid: C06DFD2A-9B97-4254-BFB5-058FB0ED3F83
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionBrightnessEffect interface [DirectComposition],SetWhitePoint method, IDCompositionBrightnessEffect.SetWhitePoint, IDCompositionBrightnessEffect::SetWhitePoint, SetWhitePoint, SetWhitePoint method [DirectComposition], SetWhitePoint method [DirectComposition],IDCompositionBrightnessEffect interface, dcomp/IDCompositionBrightnessEffect::SetWhitePoint, directcomp.idcompositionbrightnesseffect_setwhitepoint
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionBrightnessEffect.SetWhitePoint"
+f1_keywords:
+- dcomp/IDCompositionBrightnessEffect.SetWhitePoint
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionBrightnessEffect.SetWhitePoint
+- IDCompositionBrightnessEffect.SetWhitePoint
 targetos: Windows
 req.typenames: 
 req.redist: 

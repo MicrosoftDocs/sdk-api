@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_GuideDataDeliveryService.GetGuideData
 title: IBDA_GuideDataDeliveryService::GetGuideData (bdaiface.h)
-
 description: Gets the next set of guide data that is available.
 old-location: mstv\ibda_guidedatadeliveryservice_getguidedata.htm
 tech.root: mstv
 ms.assetid: c261d20e-3760-4bf9-905b-f5620df4166b
-
 ms.date: 12/05/2018
 ms.keywords: GetGuideData, GetGuideData method [Microsoft TV Technologies], GetGuideData method [Microsoft TV Technologies],IBDA_GuideDataDeliveryService interface, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],GetGuideData method, IBDA_GuideDataDeliveryService.GetGuideData, IBDA_GuideDataDeliveryService::GetGuideData, bdaiface/IBDA_GuideDataDeliveryService::GetGuideData, mstv.ibda_guidedatadeliveryservice_getguidedata
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_GuideDataDeliveryService.GetGuideData"
+f1_keywords:
+- bdaiface/IBDA_GuideDataDeliveryService.GetGuideData
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_GuideDataDeliveryService.GetGuideData
+- IBDA_GuideDataDeliveryService.GetGuideData
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfreadwrite.MFCreateSourceReaderFromMediaSource
 title: MFCreateSourceReaderFromMediaSource function (mfreadwrite.h)
-
 description: Creates the source reader from a media source.
 old-location: mf\mfcreatesourcereaderfrommediasource.htm
 tech.root: medfound
 ms.assetid: 924e1813-b025-435b-9770-52503a9eb619
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateSourceReaderFromMediaSource, MFCreateSourceReaderFromMediaSource function [Media Foundation], mf.mfcreatesourcereaderfrommediasource, mfreadwrite/MFCreateSourceReaderFromMediaSource
 ms.topic: function
-f1_keywords: 
- - "mfreadwrite/MFCreateSourceReaderFromMediaSource"
+f1_keywords:
+- mfreadwrite/MFCreateSourceReaderFromMediaSource
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfreadwrite.lib
 req.dll: Mfreadwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfreadwrite.dll
+- mfreadwrite.dll
 api_name:
- - MFCreateSourceReaderFromMediaSource
+- MFCreateSourceReaderFromMediaSource
 targetos: Windows
 req.typenames: 
 req.redist: 

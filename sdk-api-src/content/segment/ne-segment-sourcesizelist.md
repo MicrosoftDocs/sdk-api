@@ -1,19 +1,17 @@
 ---
 UID: NE:segment.SourceSizeList
 title: SourceSizeList (segment.h)
-
 description: This topic applies to Windows XP or later.
 old-location: mstv\sourcesizelist.htm
 tech.root: mstv
 ms.assetid: 579c4993-6238-47c7-b61c-398568c1fb94
-
 ms.date: 12/05/2018
 ms.keywords: MSVidCtlSourceSizeListEnumeration, SourceSizeList, SourceSizeList enumeration [Microsoft TV Technologies], enumeration [Microsoft TV Technologies], mstv.sourcesizelist, segment/SourceSizeList, segment/sslClipByClipRect, segment/sslClipByOverScan, segment/sslFullSize, sslClipByClipRect, sslClipByOverScan, sslFullSize
 ms.topic: enum
-f1_keywords: 
- - "segment/SourceSizeList"
+f1_keywords:
+- segment/SourceSizeList
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - segment.h
+- segment.h
 api_name:
- - SourceSizeList
+- SourceSizeList
 targetos: Windows
 req.typenames: SourceSizeList
 req.redist: 

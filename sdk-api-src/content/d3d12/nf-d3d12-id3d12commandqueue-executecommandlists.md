@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12CommandQueue.ExecuteCommandLists
 title: ID3D12CommandQueue::ExecuteCommandLists (d3d12.h)
-
 description: Submits an array of command lists for execution.
 old-location: direct3d12\id3d12commandqueue_executecommandlists.htm
 tech.root: direct3d12
 ms.assetid: 653C15CD-0996-4B3B-A5F6-3E85CD0516AD
-
 ms.date: 12/05/2018
 ms.keywords: ExecuteCommandLists, ExecuteCommandLists method, ExecuteCommandLists method,ID3D12CommandQueue interface, ID3D12CommandQueue interface,ExecuteCommandLists method, ID3D12CommandQueue.ExecuteCommandLists, ID3D12CommandQueue::ExecuteCommandLists, d3d12/ID3D12CommandQueue::ExecuteCommandLists, direct3d12.id3d12commandqueue_executecommandlists
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12CommandQueue.ExecuteCommandLists"
+f1_keywords:
+- d3d12/ID3D12CommandQueue.ExecuteCommandLists
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - ID3D12CommandQueue.ExecuteCommandLists
+- ID3D12CommandQueue.ExecuteCommandLists
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:roerrorapi.RoInspectCapturedStackBackTrace
 title: RoInspectCapturedStackBackTrace function
-
 description: Provides a way to for debuggers to inspect a call stack from a target process.
 old-location: winrt\roinspectcapturedstackbacktrace.htm
 tech.root: WinRT
 ms.assetid: 2C5B04DD-888B-4400-A01D-CDF9DD870584
-
 ms.date: 12/5/2018
 ms.keywords: RoInspectCapturedStackBackTrace, RoInspectCapturedStackBackTrace function [Windows Runtime], roerrorapi/RoInspectCapturedStackBackTrace, winrt.roinspectcapturedstackbacktrace
 ms.topic: function
-f1_keywords: 
- - "roerrorapi/RoInspectCapturedStackBackTrace"
+f1_keywords:
+- roerrorapi/RoInspectCapturedStackBackTrace
 dev_langs:
- - c++
+- c++
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: RuntimeObject.lib
 req.dll: ComBase.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComBase.dll
- - API-MS-Win-Core-WinRT-error-l1-1-1.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-error-l1-1-1.dll
 api_name:
- - RoInspectCapturedStackBackTrace
+- RoInspectCapturedStackBackTrace
 targetos: Windows
 req.typenames: 
 req.redist: 

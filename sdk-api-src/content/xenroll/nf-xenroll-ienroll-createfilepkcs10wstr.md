@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll.createFilePKCS10WStr
 title: IEnroll::createFilePKCS10WStr (xenroll.h)
-
-description: Creates a base64-encoded PKCS #10 certificate request and saves it in a file.
+description: Creates a base64-encoded PKCS
 old-location: security\ienroll4_createfilepkcs10wstr.htm
 tech.root: SecCrypto
 ms.assetid: 5edd54c5-9dfb-44b8-a293-4fe6a8de45e3
-
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],createFilePKCS10WStr method, IEnroll.createFilePKCS10WStr, IEnroll::createFilePKCS10WStr, createFilePKCS10WStr, createFilePKCS10WStr method [Security], createFilePKCS10WStr method [Security],IEnroll interface, security.ienroll4_createfilepkcs10wstr, xenroll/IEnroll::createFilePKCS10WStr
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll.createFilePKCS10WStr"
+f1_keywords:
+- xenroll/IEnroll.createFilePKCS10WStr
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll.createFilePKCS10WStr
+- IEnroll.createFilePKCS10WStr
 targetos: Windows
 req.typenames: 
 req.redist: 

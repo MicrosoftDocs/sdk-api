@@ -1,19 +1,17 @@
 ---
 UID: NF:spellcheck.ISpellChecker.add_SpellCheckerChanged
 title: ISpellChecker::add_SpellCheckerChanged (spellcheck.h)
-
 description: Adds an event handler (ISpellCheckerChangedEventHandler) for the SpellCheckerChanged event.
 old-location: intl\ispellchecker_add_spellcheckerchanged.htm
 tech.root: Intl
 ms.assetid: d539ab54-8a09-4857-8b48-5d19a34a5865
-
 ms.date: 12/05/2018
 ms.keywords: ISpellChecker interface [Internationalization for Windows Applications],add_SpellCheckerChanged method, ISpellChecker.add_SpellCheckerChanged, ISpellChecker::add_SpellCheckerChanged, add_SpellCheckerChanged, add_SpellCheckerChanged method [Internationalization for Windows Applications], add_SpellCheckerChanged method [Internationalization for Windows Applications],ISpellChecker interface, intl.ispellchecker_add_spellcheckerchanged, spellcheck/ISpellChecker::add_SpellCheckerChanged
 ms.topic: method
-f1_keywords: 
- - "spellcheck/ISpellChecker.add_SpellCheckerChanged"
+f1_keywords:
+- spellcheck/ISpellChecker.add_SpellCheckerChanged
 dev_langs:
- - c++
+- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Spellcheck.h
+- Spellcheck.h
 api_name:
- - ISpellChecker.add_SpellCheckerChanged
+- ISpellChecker.add_SpellCheckerChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

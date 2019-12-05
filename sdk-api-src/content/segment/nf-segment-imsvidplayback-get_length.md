@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidPlayback.get_Length
 title: IMSVidPlayback::get_Length (segment.h)
-
 description: The get_Length method retrieves the length of the playback source.
 old-location: mstv\imsvidplayback_get_length.htm
 tech.root: mstv
 ms.assetid: a559c0b4-ed63-47ef-b99a-866c87939d5b
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],get_Length method, IMSVidPlayback.get_Length, IMSVidPlayback::get_Length, IMSVidPlaybackget_Length, get_Length, get_Length method [Microsoft TV Technologies], get_Length method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_get_length, segment/IMSVidPlayback::get_Length
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidPlayback.get_Length"
+f1_keywords:
+- segment/IMSVidPlayback.get_Length
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidPlayback.get_Length
+- IMSVidPlayback.get_Length
 targetos: Windows
 req.typenames: 
 req.redist: 

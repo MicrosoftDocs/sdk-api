@@ -1,19 +1,17 @@
 ---
 UID: NS:richole._reobject
 title: REOBJECT (richole.h)
-
 description: Contains information about an OLE or image object in a rich edit control.
 old-location: controls\REOBJECT.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\reobject.htm
-
 ms.date: 12/05/2018
 ms.keywords: REOBJECT, REOBJECT structure [Windows Controls], REO_ALIGNTORIGHT, REO_BELOWBASELINE, REO_BLANK, REO_CANROTATE, REO_DONTNEEDPALETTE, REO_DYNAMICSIZE, REO_GETMETAFILE, REO_HILITED, REO_INPLACEACTIVE, REO_INVERTEDSELECT, REO_LINK, REO_LINKAVAILABLE, REO_OPEN, REO_OWNERDRAWSELECT, REO_RESIZABLE, REO_SELECTED, REO_STATIC, REO_USEASBACKGROUND, REO_WRAPTEXTAROUND, _win32_REOBJECT_str, _win32_REOBJECT_str_cpp, controls.REOBJECT, controls._win32_REOBJECT_str, richole/REOBJECT
 ms.topic: struct
-f1_keywords: 
- - "richole/REOBJECT"
+f1_keywords:
+- richole/REOBJECT
 dev_langs:
- - c++
+- c++
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Richole.h
+- Richole.h
 api_name:
- - REOBJECT
+- REOBJECT
 targetos: Windows
 req.typenames: REOBJECT
 req.redist: 

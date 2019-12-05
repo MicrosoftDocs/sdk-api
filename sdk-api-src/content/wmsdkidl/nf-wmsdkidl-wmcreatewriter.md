@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.WMCreateWriter
 title: WMCreateWriter function (wmsdkidl.h)
-
 description: The WMCreateWriter function creates a writer object.
 old-location: wmformat\wmcreatewriter.htm
 tech.root: wmformat
 ms.assetid: 26d42213-40a1-4e2c-805b-c0803ee015b4
-
 ms.date: 12/05/2018
 ms.keywords: WMCreateWriter, WMCreateWriter function [windows Media Format], wmformat.wmcreatewriter, wmsdkidl/WMCreateWriter
 ms.topic: function
-f1_keywords: 
- - "wmsdkidl/WMCreateWriter"
+f1_keywords:
+- wmsdkidl/WMCreateWriter
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wmvcore.lib
 req.dll: Wmvcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wmvcore.dll
+- Wmvcore.dll
 api_name:
- - WMCreateWriter
+- WMCreateWriter
 targetos: Windows
 req.typenames: 
 req.redist: 

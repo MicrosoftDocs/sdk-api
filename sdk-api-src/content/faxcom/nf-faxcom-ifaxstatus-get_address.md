@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_Address
 title: IFaxStatus::get_Address (faxcom.h)
-
 description: Retrieves the Address property for the FaxStatus object of a parent FaxPort object. The Address property is a null-terminated string that contains the destination of a fax job.
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_address_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_76er.htm
-
 ms.date: 12/05/2018
 ms.keywords: Address property [Fax Service], Address property [Fax Service],IFaxStatus interface, IFaxStatus interface [Fax Service],Address property, IFaxStatus.Address, IFaxStatus.get_Address, IFaxStatus::Address, IFaxStatus::get_Address, _mfax_ifaxstatus_get_address, fax._mfax_ifaxstatus_get_address, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_address_cpp, faxcom/IFaxStatus::Address, faxcom/IFaxStatus::get_Address, get_Address
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxStatus.Address"
+f1_keywords:
+- faxcom/IFaxStatus.Address
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxStatus.Address
- - IFaxStatus.get_Address
+- IFaxStatus.Address
+- IFaxStatus.get_Address
 targetos: Windows
 req.typenames: 
 req.redist: 

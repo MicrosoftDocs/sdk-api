@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarDecInt
 title: VarDecInt function (oleauto.h)
-
 description: Retrieves the integer portion of a variant of type decimal.
 old-location: automat\vardecint.htm
 tech.root: automat
 ms.assetid: 65ac2bad-26f4-43b0-b90d-9a44131dbe6f
-
 ms.date: 12/05/2018
 ms.keywords: VarDecInt, VarDecInt function [Automation], _oa96_VarDecInt, automat.vardecint, oleauto/VarDecInt
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarDecInt"
+f1_keywords:
+- oleauto/VarDecInt
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarDecInt
+- VarDecInt
 targetos: Windows
 req.typenames: 
 req.redist: 

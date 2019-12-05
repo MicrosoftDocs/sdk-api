@@ -1,19 +1,17 @@
 ---
 UID: NS:netioapi._MIB_UNICASTIPADDRESS_ROW
 title: MIB_UNICASTIPADDRESS_ROW (netioapi.h)
-
 description: Stores information about a unicast IP address.
 old-location: mib\mib_unicastipaddress_row.htm
 tech.root: MIB
 ms.assetid: f329bafd-9e83-4754-a9a9-e7e111229c90
-
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_UNICASTIPADDRESS_ROW, IpDadStateDeprecated, IpDadStateDuplicate, IpDadStateInvalid, IpDadStatePreferred, IpDadStateTentative, IpPrefixOriginDhcp, IpPrefixOriginManual, IpPrefixOriginOther, IpPrefixOriginRouterAdvertisement, IpPrefixOriginUnchanged, IpPrefixOriginWellKnown, IpSuffixOriginDhcp, IpSuffixOriginLinkLayerAddress, IpSuffixOriginManual, IpSuffixOriginOther, IpSuffixOriginRandom, IpSuffixOriginUnchanged, IpSuffixOriginWellKnown, MIB_UNICASTIPADDRESS_ROW, MIB_UNICASTIPADDRESS_ROW structure [MIB], PMIB_UNICASTIPADDRESS_ROW, PMIB_UNICASTIPADDRESS_ROW structure pointer [MIB], _MIB_UNICASTIPADDRESS_ROW, mib.mib_unicastipaddress_row, netioapi/MIB_UNICASTIPADDRESS_ROW, netioapi/PMIB_UNICASTIPADDRESS_ROW"
+ms.keywords: '*PMIB_UNICASTIPADDRESS_ROW, IpDadStateDeprecated, IpDadStateDuplicate, IpDadStateInvalid, IpDadStatePreferred, IpDadStateTentative, IpPrefixOriginDhcp, IpPrefixOriginManual, IpPrefixOriginOther, IpPrefixOriginRouterAdvertisement, IpPrefixOriginUnchanged, IpPrefixOriginWellKnown, IpSuffixOriginDhcp, IpSuffixOriginLinkLayerAddress, IpSuffixOriginManual, IpSuffixOriginOther, IpSuffixOriginRandom, IpSuffixOriginUnchanged, IpSuffixOriginWellKnown, MIB_UNICASTIPADDRESS_ROW, MIB_UNICASTIPADDRESS_ROW structure [MIB], PMIB_UNICASTIPADDRESS_ROW, PMIB_UNICASTIPADDRESS_ROW structure pointer [MIB], _MIB_UNICASTIPADDRESS_ROW, mib.mib_unicastipaddress_row, netioapi/MIB_UNICASTIPADDRESS_ROW, netioapi/PMIB_UNICASTIPADDRESS_ROW'
 ms.topic: struct
-f1_keywords: 
- - "netioapi/MIB_UNICASTIPADDRESS_ROW"
+f1_keywords:
+- netioapi/MIB_UNICASTIPADDRESS_ROW
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Netioapi.h
+- Netioapi.h
 api_name:
- - MIB_UNICASTIPADDRESS_ROW
+- MIB_UNICASTIPADDRESS_ROW
 targetos: Windows
 req.typenames: MIB_UNICASTIPADDRESS_ROW, *PMIB_UNICASTIPADDRESS_ROW
 req.redist: 

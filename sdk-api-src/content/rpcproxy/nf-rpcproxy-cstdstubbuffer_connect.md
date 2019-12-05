@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcproxy.CStdStubBuffer_Connect
 title: CStdStubBuffer_Connect function (rpcproxy.h)
-
 description: The CStdStubBuffer_Connect function implements the IRpcStubBuffer::Connect method and connects the server object to the stub.
 old-location: rpc\cstdstubbuffer_connect.htm
 tech.root: Rpc
 ms.assetid: 73aacc1f-b501-4e63-b69a-e64a85664f79
-
 ms.date: 12/05/2018
 ms.keywords: CStdStubBuffer_Connect, CStdStubBuffer_Connect function [RPC], rpc.cstdstubbuffer_connect, rpcproxy/CStdStubBuffer_Connect
 ms.topic: function
-f1_keywords: 
- - "rpcproxy/CStdStubBuffer_Connect"
+f1_keywords:
+- rpcproxy/CStdStubBuffer_Connect
 dev_langs:
- - c++
+- c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RpcRT4.dll
+- RpcRT4.dll
 api_name:
- - CStdStubBuffer_Connect
+- CStdStubBuffer_Connect
 targetos: Windows
 req.typenames: 
 req.redist: 

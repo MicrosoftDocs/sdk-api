@@ -1,19 +1,17 @@
 ---
 UID: NF:synchapi.InitializeSynchronizationBarrier
 title: InitializeSynchronizationBarrier function (synchapi.h)
-
 description: Initializes a new synchronization barrier.
 old-location: base\initializesynchronizationbarrier.htm
 tech.root: Sync
 ms.assetid: f69934a1-ee1f-4400-ae3e-cb9a19feff93
-
 ms.date: 12/05/2018
 ms.keywords: InitializeSynchronizationBarrier, InitializeSynchronizationBarrier function, base.initializesynchronizationbarrier, synchapi/InitializeSynchronizationBarrier
 ms.topic: function
-f1_keywords: 
- - "synchapi/InitializeSynchronizationBarrier"
+f1_keywords:
+- synchapi/InitializeSynchronizationBarrier
 dev_langs:
- - c++
+- c++
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Synch-l1-2-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Synch-l1-2-1.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Synch-l1-2-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Synch-l1-2-1.dll
+- MinKernelBase.dll
 api_name:
- - InitializeSynchronizationBarrier
+- InitializeSynchronizationBarrier
 targetos: Windows
 req.typenames: 
 req.redist: 

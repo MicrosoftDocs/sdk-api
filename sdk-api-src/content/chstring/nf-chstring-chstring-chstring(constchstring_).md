@@ -1,19 +1,17 @@
 ---
 UID: NF:chstring.CHString.CHString(const CHString &)
 title: CHString::CHString(const CHString &) (chstring.h)
-
 description: Initializes a new CHString object with the specified data.
 old-location: wmi\chstring_chstring_const_chstring__.htm
 tech.root: WmiSdk
 ms.assetid: 2b799ee3-e54f-4911-ac0c-4bca91a830d4
-
 ms.date: 12/05/2018
-ms.keywords: "??0CHString@@QAE@ABV0@@Z, ??0CHString@@QEAA@AEBV0@@Z, CHString, CHString constructor [Windows Management Instrumentation], CHString constructor [Windows Management Instrumentation],CHString interface, CHString interface [Windows Management Instrumentation],CHString constructor, CHString.CHString, CHString.CHString(const CHString &), CHString::CHString, CHString::CHString(const CHString &), CHString::CHString(const CHString&), chstring/CHString::CHString, wmi.chstring_chstring_const_chstring__"
+ms.keywords: ??0CHString@@QAE@ABV0@@Z, ??0CHString@@QEAA@AEBV0@@Z, CHString, CHString constructor [Windows Management Instrumentation], CHString constructor [Windows Management Instrumentation],CHString interface, CHString interface [Windows Management Instrumentation],CHString constructor, CHString.CHString, CHString.CHString(const CHString &), CHString::CHString, CHString::CHString(const CHString &), CHString::CHString(const CHString&), chstring/CHString::CHString, wmi.chstring_chstring_const_chstring__
 ms.topic: method
-f1_keywords: 
- - "chstring/CHString.CHString"
+f1_keywords:
+- chstring/CHString.CHString
 dev_langs:
- - c++
+- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHString.CHString
- - ??0CHString@@QAE@ABV0@@Z
- - ??0CHString@@QEAA@AEBV0@@Z
+- CHString.CHString
+- ??0CHString@@QAE@ABV0@@Z
+- ??0CHString@@QEAA@AEBV0@@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

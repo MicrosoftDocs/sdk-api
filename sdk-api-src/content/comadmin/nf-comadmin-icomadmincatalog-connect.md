@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.Connect
 title: ICOMAdminCatalog::Connect (comadmin.h)
-
 description: Connects to the COM+ catalog on a specified remote computer.
 old-location: cos\icomadmincatalog_connect.htm
 tech.root: cossdk
 ms.assetid: 0fc65ec0-79a7-4544-934d-543f2946c70a
-
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [COM+], Connect method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],Connect method, ICOMAdminCatalog.Connect, ICOMAdminCatalog::Connect, _cos_ICOMAdminCatalog_Connect, comadmin/ICOMAdminCatalog::Connect, cos.icomadmincatalog_connect
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog.Connect"
+f1_keywords:
+- comadmin/ICOMAdminCatalog.Connect
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog.Connect
+- ICOMAdminCatalog.Connect
 targetos: Windows
 req.typenames: 
 req.redist: 

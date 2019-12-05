@@ -1,19 +1,17 @@
 ---
 UID: NE:msclus.CLUSTER_NETWORK_STATE
 title: CLUSTER_NETWORK_STATE (msclus.h)
-
 description: Enumerates the possible values of the state of a network.
 old-location: mscs\cluster_network_state.htm
 tech.root: MsCS
 ms.assetid: 1a9e3ff0-eb5a-4a2e-ae19-e70213dc1a4a
-
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_NETWORK_STATE, CLUSTER_NETWORK_STATE enumeration [Failover Cluster], ClusterNetworkDown, ClusterNetworkPartitioned, ClusterNetworkStateUnknown, ClusterNetworkUnavailable, ClusterNetworkUp, _CLUSTER_NETWORK_STATE, _CLUSTER_NETWORK_STATE enumeration [Failover Cluster], clusapi/CLUSTER_NETWORK_STATE, clusapi/ClusterNetworkDown, clusapi/ClusterNetworkPartitioned, clusapi/ClusterNetworkStateUnknown, clusapi/ClusterNetworkUnavailable, clusapi/ClusterNetworkUp, clusapi/_CLUSTER_NETWORK_STATE, msclus/CLUSTER_NETWORK_STATE, msclus/ClusterNetworkDown, msclus/ClusterNetworkPartitioned, msclus/ClusterNetworkStateUnknown, msclus/ClusterNetworkUnavailable, msclus/ClusterNetworkUp, msclus/_CLUSTER_NETWORK_STATE, mscs.cluster_network_state
 ms.topic: enum
-f1_keywords: 
- - "msclus/CLUSTER_NETWORK_STATE"
+f1_keywords:
+- msclus/CLUSTER_NETWORK_STATE
 dev_langs:
- - c++
+- c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
- - MsClus.h
+- ClusAPI.h
+- MsClus.h
 api_name:
- - CLUSTER_NETWORK_STATE
+- CLUSTER_NETWORK_STATE
 targetos: Windows
 req.typenames: CLUSTER_NETWORK_STATE
 req.redist: 

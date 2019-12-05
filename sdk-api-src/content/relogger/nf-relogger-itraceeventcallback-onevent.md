@@ -1,19 +1,17 @@
 ---
 UID: NF:relogger.ITraceEventCallback.OnEvent
 title: ITraceEventCallback::OnEvent (relogger.h)
-
 description: Indicates that an event has been received on the trace streams associated with a relogger.
 old-location: etw\ieventcallback_onevent.htm
 tech.root: ETW
 ms.assetid: 2099db80-89fd-4ce1-a7ca-e79abbd7b9e5
-
 ms.date: 12/05/2018
 ms.keywords: ITraceEventCallback interface [ETW],OnEvent method, ITraceEventCallback.OnEvent, ITraceEventCallback::OnEvent, OnEvent, OnEvent method [ETW], OnEvent method [ETW],ITraceEventCallback interface, etw.ieventcallback_onevent, relogger/ITraceEventCallback::OnEvent
 ms.topic: method
-f1_keywords: 
- - "relogger/ITraceEventCallback.OnEvent"
+f1_keywords:
+- relogger/ITraceEventCallback.OnEvent
 dev_langs:
- - c++
+- c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Relogger.h
+- Relogger.h
 api_name:
- - ITraceEventCallback.OnEvent
+- ITraceEventCallback.OnEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

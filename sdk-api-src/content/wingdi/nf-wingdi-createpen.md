@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CreatePen
 title: CreatePen function (wingdi.h)
-
 description: The CreatePen function creates a logical pen that has the specified style, width, and color. The pen can subsequently be selected into a device context and used to draw lines and curves.
 old-location: gdi\createpen.htm
 tech.root: gdi
 ms.assetid: 882facd2-7e06-48f6-82e4-f20e4d5adc92
-
 ms.date: 12/05/2018
 ms.keywords: CreatePen, CreatePen function [Windows GDI], PS_DASH, PS_DASHDOT, PS_DASHDOTDOT, PS_DOT, PS_INSIDEFRAME, PS_NULL, PS_SOLID, _win32_CreatePen, gdi.createpen, wingdi/CreatePen
 ms.topic: function
-f1_keywords: 
- - "wingdi/CreatePen"
+f1_keywords:
+- wingdi/CreatePen
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Draw-l1-1-1.dll
- - ext-ms-win-gdi-draw-l1-1-2.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Draw-l1-1-1.dll
+- ext-ms-win-gdi-draw-l1-1-2.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - CreatePen
+- CreatePen
 targetos: Windows
 req.typenames: 
 req.redist: 

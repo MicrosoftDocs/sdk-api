@@ -1,19 +1,17 @@
 ---
 UID: NS:minwinbase._DEBUG_EVENT
 title: DEBUG_EVENT (minwinbase.h)
-
 description: Describes a debugging event.
 old-location: base\debug_event_str.htm
 tech.root: Debug
 ms.assetid: 056aa7ee-51ca-48ec-9cd7-26085bb85b11
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDEBUG_EVENT, CREATE_PROCESS_DEBUG_EVENT, CREATE_THREAD_DEBUG_EVENT, DEBUG_EVENT, DEBUG_EVENT structure, EXCEPTION_DEBUG_EVENT, EXIT_PROCESS_DEBUG_EVENT, EXIT_THREAD_DEBUG_EVENT, LOAD_DLL_DEBUG_EVENT, LPDEBUG_EVENT, LPDEBUG_EVENT structure pointer, OUTPUT_DEBUG_STRING_EVENT, RIP_EVENT, UNLOAD_DLL_DEBUG_EVENT, _win32_debug_event_str, base.debug_event_str, minwinbase/DEBUG_EVENT, minwinbase/LPDEBUG_EVENT"
+ms.keywords: '*LPDEBUG_EVENT, CREATE_PROCESS_DEBUG_EVENT, CREATE_THREAD_DEBUG_EVENT, DEBUG_EVENT, DEBUG_EVENT structure, EXCEPTION_DEBUG_EVENT, EXIT_PROCESS_DEBUG_EVENT, EXIT_THREAD_DEBUG_EVENT, LOAD_DLL_DEBUG_EVENT, LPDEBUG_EVENT, LPDEBUG_EVENT structure pointer, OUTPUT_DEBUG_STRING_EVENT, RIP_EVENT, UNLOAD_DLL_DEBUG_EVENT, _win32_debug_event_str, base.debug_event_str, minwinbase/DEBUG_EVENT, minwinbase/LPDEBUG_EVENT'
 ms.topic: struct
-f1_keywords: 
- - "minwinbase/DEBUG_EVENT"
+f1_keywords:
+- minwinbase/DEBUG_EVENT
 dev_langs:
- - c++
+- c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minwinbase.h
+- minwinbase.h
 api_name:
- - DEBUG_EVENT
+- DEBUG_EVENT
 targetos: Windows
 req.typenames: DEBUG_EVENT, *LPDEBUG_EVENT
 req.redist: 

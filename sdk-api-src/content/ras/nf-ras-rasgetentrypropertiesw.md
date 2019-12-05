@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasGetEntryPropertiesW
 title: RasGetEntryPropertiesW function (ras.h)
-
 description: The RasGetEntryProperties function retrieves the properties of a phone-book entry.
 old-location: rras\rasgetentryproperties.htm
 tech.root: RRAS
 ms.assetid: eef9c197-04b3-4f3c-a7bd-8c62f9fac560
-
 ms.date: 12/05/2018
 ms.keywords: RasGetEntryProperties, RasGetEntryProperties function [RAS], RasGetEntryPropertiesA, RasGetEntryPropertiesW, _ras_rasgetentryproperties, ras/RasGetEntryProperties, ras/RasGetEntryPropertiesA, ras/RasGetEntryPropertiesW, rras.rasgetentryproperties
 ms.topic: function
-f1_keywords: 
- - "ras/RasGetEntryProperties"
+f1_keywords:
+- ras/RasGetEntryProperties
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
- - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
- - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
+- Rasapi32.dll
+- Ext-MS-Win-ras-rasapi32-l1-1-0.dll
+- Ext-MS-Win-ras-rasapi32-l1-1-1.dll
 api_name:
- - RasGetEntryProperties
- - RasGetEntryPropertiesA
- - RasGetEntryPropertiesW
+- RasGetEntryProperties
+- RasGetEntryPropertiesA
+- RasGetEntryPropertiesW
 targetos: Windows
 req.typenames: 
 req.redist: 

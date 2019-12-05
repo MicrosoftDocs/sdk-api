@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetHelpContext
 title: ICreateTypeInfo::SetHelpContext (oaidl.h)
-
 description: Sets the Help context ID of the type information.
 old-location: automat\icreatetypeinfo_sethelpcontext.htm
 tech.root: automat
 ms.assetid: 8f61500a-29b5-48e4-b8ee-584cf5430274
-
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetHelpContext method, ICreateTypeInfo.SetHelpContext, ICreateTypeInfo::SetHelpContext, SetHelpContext, SetHelpContext method [Automation], SetHelpContext method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetHelpContext, automat.icreatetypeinfo_sethelpcontext, oaidl/ICreateTypeInfo::SetHelpContext
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateTypeInfo.SetHelpContext"
+f1_keywords:
+- oaidl/ICreateTypeInfo.SetHelpContext
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateTypeInfo.SetHelpContext
+- ICreateTypeInfo.SetHelpContext
 targetos: Windows
 req.typenames: 
 req.redist: 

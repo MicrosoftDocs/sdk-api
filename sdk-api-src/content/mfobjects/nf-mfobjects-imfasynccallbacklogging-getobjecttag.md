@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFAsyncCallbackLogging.GetObjectTag
 title: IMFAsyncCallbackLogging::GetObjectTag (mfobjects.h)
-
 description: Gets the tag of the parent object the async callback is associated object.
 old-location: mf\imfasynccallbacklogging_getobjecttag.htm
 tech.root: medfound
 ms.assetid: f556a163-54d1-4353-ab9e-e8aa6bf35958
-
 ms.date: 12/05/2018
 ms.keywords: GetObjectTag, GetObjectTag method [Media Foundation], GetObjectTag method [Media Foundation],IMFAsyncCallbackLogging interface, IMFAsyncCallbackLogging interface [Media Foundation],GetObjectTag method, IMFAsyncCallbackLogging.GetObjectTag, IMFAsyncCallbackLogging::GetObjectTag, mf.imfasynccallbacklogging_getobjecttag, mfobjects/IMFAsyncCallbackLogging::GetObjectTag
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFAsyncCallbackLogging.GetObjectTag"
+f1_keywords:
+- mfobjects/IMFAsyncCallbackLogging.GetObjectTag
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mfobjects.h
+- Mfobjects.h
 api_name:
- - IMFAsyncCallbackLogging.GetObjectTag
+- IMFAsyncCallbackLogging.GetObjectTag
 targetos: Windows
 req.typenames: 
 req.redist: 

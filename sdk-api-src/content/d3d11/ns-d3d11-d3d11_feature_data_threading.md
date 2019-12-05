@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_FEATURE_DATA_THREADING
 title: D3D11_FEATURE_DATA_THREADING (d3d11.h)
-
 description: Describes the multi-threading features that are supported by the current graphics driver.
 old-location: direct3d11\d3d11_feature_data_threading.htm
 tech.root: direct3d11
 ms.assetid: 1ad7d4c4-9da2-42b0-a461-e514060e3005
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_FEATURE_DATA_THREADING, D3D11_FEATURE_DATA_THREADING structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_THREADING, direct3d11.d3d11_feature_data_threading, ef972430-170a-436c-cbf4-65409cc60040
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_FEATURE_DATA_THREADING"
+f1_keywords:
+- d3d11/D3D11_FEATURE_DATA_THREADING
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_FEATURE_DATA_THREADING
+- D3D11_FEATURE_DATA_THREADING
 targetos: Windows
 req.typenames: D3D11_FEATURE_DATA_THREADING
 req.redist: 

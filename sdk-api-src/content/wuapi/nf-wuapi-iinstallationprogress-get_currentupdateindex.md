@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IInstallationProgress.get_CurrentUpdateIndex
 title: IInstallationProgress::get_CurrentUpdateIndex (wuapi.h)
-
 description: Gets a zero-based index value. This value specifies the update that is currently being installed or uninstalled when multiple updates have been selected.
 old-location: wua\iinstallationprogress_currentupdateindex.htm
 tech.root: Wua_Sdk
 ms.assetid: 9e52e1f3-2115-49b9-8f94-daa89378a371
-
 ms.date: 12/05/2018
 ms.keywords: CurrentUpdateIndex property [Windows Update Agent], CurrentUpdateIndex property [Windows Update Agent],IInstallationProgress interface, IInstallationProgress interface [Windows Update Agent],CurrentUpdateIndex property, IInstallationProgress.CurrentUpdateIndex, IInstallationProgress.get_CurrentUpdateIndex, IInstallationProgress::CurrentUpdateIndex, IInstallationProgress::get_CurrentUpdateIndex, get_CurrentUpdateIndex, wua.iinstallationprogress_currentupdateindex, wuapi/IInstallationProgress::CurrentUpdateIndex, wuapi/IInstallationProgress::get_CurrentUpdateIndex
 ms.topic: method
-f1_keywords: 
- - "wuapi/IInstallationProgress.CurrentUpdateIndex"
+f1_keywords:
+- wuapi/IInstallationProgress.CurrentUpdateIndex
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IInstallationProgress.CurrentUpdateIndex
- - IInstallationProgress.get_CurrentUpdateIndex
+- IInstallationProgress.CurrentUpdateIndex
+- IInstallationProgress.get_CurrentUpdateIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

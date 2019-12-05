@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.GetThreadDescription
 title: GetThreadDescription function (processthreadsapi.h)
-
 description: Retrieves the description that was assigned to a thread by calling SetThreadDescription.
 old-location: base\getthreaddescription.htm
 tech.root: ProcThread
 ms.assetid: 9CFF0A2D-2196-4AE0-8F77-229A8AB7A3E8
-
 ms.date: 12/05/2018
 ms.keywords: GetThreadDescription, GetThreadDescription function, base.getthreaddescription, processthreadsapi/GetThreadDescription
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/GetThreadDescription"
+f1_keywords:
+- processthreadsapi/GetThreadDescription
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - Kernelbase.dll
- - Api-ms-win-core-processthreads-l1-1-3.dll
+- Kernel32.dll
+- Kernelbase.dll
+- Api-ms-win-core-processthreads-l1-1-3.dll
 api_name:
- - GetThreadDescription
+- GetThreadDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

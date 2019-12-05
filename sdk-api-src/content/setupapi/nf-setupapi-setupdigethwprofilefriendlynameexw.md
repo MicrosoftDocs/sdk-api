@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiGetHwProfileFriendlyNameExW
 title: SetupDiGetHwProfileFriendlyNameExW function (setupapi.h)
-
 description: The SetupDiGetHwProfileFriendlyNameEx function retrieves the friendly name associated with a hardware profile ID on a local or remote computer.
 old-location: devinst\setupdigethwprofilefriendlynameex.htm
 tech.root: devinst
 ms.assetid: 839c1e4c-cfa6-4f59-979c-24623a040d5c
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetHwProfileFriendlyNameEx, SetupDiGetHwProfileFriendlyNameEx function [Device and Driver Installation], SetupDiGetHwProfileFriendlyNameExA, SetupDiGetHwProfileFriendlyNameExW, devinst.setupdigethwprofilefriendlynameex, di-rtns_43d54c1e-047c-491c-93a1-cd5eff918a58.xml, setupapi/SetupDiGetHwProfileFriendlyNameEx
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDiGetHwProfileFriendlyNameEx"
+f1_keywords:
+- setupapi/SetupDiGetHwProfileFriendlyNameEx
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Setupapi.lib
- - Setupapi.dll
+- Setupapi.lib
+- Setupapi.dll
 api_name:
- - SetupDiGetHwProfileFriendlyNameEx
- - SetupDiGetHwProfileFriendlyNameExW
+- SetupDiGetHwProfileFriendlyNameEx
+- SetupDiGetHwProfileFriendlyNameExW
 targetos: Windows
 req.typenames: 
 req.redist: 

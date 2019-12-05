@@ -1,19 +1,17 @@
 ---
 UID: NS:schannel._SecPkgContext_SessionAppData
 title: SecPkgContext_SessionAppData (schannel.h)
-
 description: Stores application data for a session context.
 old-location: security\secpkgcontext_sessionappdata.htm
 tech.root: SecAuthN
 ms.assetid: 7bda791a-dd60-4651-bfe8-13333017d6a3
-
 ms.date: 12/05/2018
-ms.keywords: "*PSecPkgContext_SessionAppData, SecPkgContext_SessionAppData, SecPkgContext_SessionAppData structure [Security], schannel/SecPkgContext_SessionAppData, security.secpkgcontext_sessionappdata"
+ms.keywords: '*PSecPkgContext_SessionAppData, SecPkgContext_SessionAppData, SecPkgContext_SessionAppData structure [Security], schannel/SecPkgContext_SessionAppData, security.secpkgcontext_sessionappdata'
 ms.topic: struct
-f1_keywords: 
- - "schannel/SecPkgContext_SessionAppData"
+f1_keywords:
+- schannel/SecPkgContext_SessionAppData
 dev_langs:
- - c++
+- c++
 req.header: schannel.h
 req.include-header: Schnlsp.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Schannel.h
+- Schannel.h
 api_name:
- - SecPkgContext_SessionAppData
+- SecPkgContext_SessionAppData
 targetos: Windows
 req.typenames: SecPkgContext_SessionAppData, *PSecPkgContext_SessionAppData
 req.redist: 

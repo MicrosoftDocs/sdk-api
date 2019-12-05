@@ -1,19 +1,17 @@
 ---
 UID: NE:webservices.__unnamed_enum_105
 title: WS_POLICY_STATE (webservices.h)
-
 description: The state of the policy object.
 old-location: wsw\ws_policy_state.htm
 tech.root: wsw
 ms.assetid: 0f6252f4-ab99-4244-be77-92144eed4e3a
-
 ms.date: 12/05/2018
 ms.keywords: WS_POLICY_STATE, WS_POLICY_STATE enumeration [Web Services for Windows], WS_POLICY_STATE_CREATED, WS_POLICY_STATE_FAULTED, webservices/WS_POLICY_STATE, webservices/WS_POLICY_STATE_CREATED, webservices/WS_POLICY_STATE_FAULTED, wsw.ws_policy_state
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_POLICY_STATE"
+f1_keywords:
+- webservices/WS_POLICY_STATE
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_POLICY_STATE
+- WS_POLICY_STATE
 targetos: Windows
 req.typenames: WS_POLICY_STATE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.IRtwqAsyncResult.SetStatus
 title: IRtwqAsyncResult::SetStatus (rtworkq.h)
-
 description: Sets the status of the asynchronous operation.
 old-location: base\irtwqasyncresult_setstatus.htm
 tech.root: ProcThread
 ms.assetid: 9F3A74F5-615B-40B2-8E69-145D0ECA22A9
-
 ms.date: 12/05/2018
 ms.keywords: IRtwqAsyncResult interface,SetStatus method, IRtwqAsyncResult.SetStatus, IRtwqAsyncResult::SetStatus, SetStatus, SetStatus method, SetStatus method,IRtwqAsyncResult interface, base.irtwqasyncresult_setstatus, rtworkq/IRtwqAsyncResult::SetStatus
 ms.topic: method
-f1_keywords: 
- - "rtworkq/IRtwqAsyncResult.SetStatus"
+f1_keywords:
+- rtworkq/IRtwqAsyncResult.SetStatus
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - IRtwqAsyncResult.SetStatus
+- IRtwqAsyncResult.SetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

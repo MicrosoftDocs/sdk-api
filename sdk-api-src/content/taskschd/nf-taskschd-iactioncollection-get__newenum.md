@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IActionCollection.get__NewEnum
 title: IActionCollection::get__NewEnum (taskschd.h)
-
 description: Gets the collection enumerator for the action collection.
 old-location: taskschd\iactioncollection__newenum.htm
 tech.root: taskschd
 ms.assetid: 09d8924e-5153-4911-9662-93f71e39e583
-
 ms.date: 12/05/2018
 ms.keywords: IActionCollection interface [Task Scheduler],_NewEnum property, IActionCollection._NewEnum, IActionCollection.get__NewEnum, IActionCollection::_NewEnum, IActionCollection::get__NewEnum, _NewEnum property [Task Scheduler], _NewEnum property [Task Scheduler],IActionCollection interface, get__NewEnum, taskschd.iactioncollection__newenum, taskschd/IActionCollection::_NewEnum, taskschd/IActionCollection::get__NewEnum
 ms.topic: method
-f1_keywords: 
- - "taskschd/IActionCollection._NewEnum"
+f1_keywords:
+- taskschd/IActionCollection._NewEnum
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IActionCollection._NewEnum
- - IActionCollection.get__NewEnum
+- IActionCollection._NewEnum
+- IActionCollection.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

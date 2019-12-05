@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcRelationshipSelectorSet.Create
 title: IOpcRelationshipSelectorSet::Create (msopc.h)
-
 description: Creates an IOpcRelationshipSelector interface pointer to represent how a subset of relationships are selected to be signed, and adds the new pointer to the set.
 old-location: opc\iopcrelationshipselectorset_create.htm
 tech.root: OPC
 ms.assetid: 801d1924-c75c-47b5-99fe-9d97ea8dfee1
-
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Open Packaging Conventions], Create method [Open Packaging Conventions],IOpcRelationshipSelectorSet interface, IOpcRelationshipSelectorSet interface [Open Packaging Conventions],Create method, IOpcRelationshipSelectorSet.Create, IOpcRelationshipSelectorSet::Create, msopc/IOpcRelationshipSelectorSet::Create, opc.iopcrelationshipselectorset_create
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcRelationshipSelectorSet.Create"
+f1_keywords:
+- msopc/IOpcRelationshipSelectorSet.Create
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcRelationshipSelectorSet.Create
+- IOpcRelationshipSelectorSet.Create
 targetos: Windows
 req.typenames: 
 req.redist: 

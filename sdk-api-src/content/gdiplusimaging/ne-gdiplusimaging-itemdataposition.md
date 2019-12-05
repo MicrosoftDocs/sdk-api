@@ -1,19 +1,17 @@
 ---
 UID: NE:gdiplusimaging.ItemDataPosition
 title: ItemDataPosition (gdiplusimaging.h)
-
 description: The ItemDataPosition enumeration is used to specify the location of custom metadata in an image file.
 old-location: gdiplus\_gdiplus_ENUM_ItemDataPosition.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\itemdataposition.htm
-
 ms.date: 12/05/2018
 ms.keywords: ItemDataPosition, ItemDataPosition enumeration [GDI+], ItemDataPositionAfterBits, ItemDataPositionAfterHeader, ItemDataPositionAfterPalette, _gdiplus_ENUM_ItemDataPosition, gdiplus._gdiplus_ENUM_ItemDataPosition, gdiplusimaging/ItemDataPosition, gdiplusimaging/ItemDataPositionAfterBits, gdiplusimaging/ItemDataPositionAfterHeader, gdiplusimaging/ItemDataPositionAfterPalette
 ms.topic: enum
-f1_keywords: 
- - "gdiplusimaging/ItemDataPosition"
+f1_keywords:
+- gdiplusimaging/ItemDataPosition
 dev_langs:
- - c++
+- c++
 req.header: gdiplusimaging.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - GdiplusImaging.h
+- GdiplusImaging.h
 api_name:
- - ItemDataPosition
+- ItemDataPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

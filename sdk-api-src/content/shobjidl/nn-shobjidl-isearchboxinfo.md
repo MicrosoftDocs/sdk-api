@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.ISearchBoxInfo
 title: ISearchBoxInfo (shobjidl.h)
-
 description: Exposes methods that allow the caller to retrieve information entered into a search box.
 old-location: shell\ISearchBoxInfo.htm
 tech.root: shell
 ms.assetid: 7b2082e9-b075-488a-a6c1-f9dc99409474
-
 ms.date: 12/05/2018
 ms.keywords: ISearchBoxInfo, ISearchBoxInfo interface [Windows Shell], ISearchBoxInfo interface [Windows Shell],described, _shell_ISearchBoxInfo, shell.ISearchBoxInfo, shobjidl/ISearchBoxInfo
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/ISearchBoxInfo"
+f1_keywords:
+- shobjidl/ISearchBoxInfo
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Explorerframe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Explorerframe.dll
+- Explorerframe.dll
 api_name:
- - ISearchBoxInfo
+- ISearchBoxInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

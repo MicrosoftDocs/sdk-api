@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.UnregisterGUIDDWORD
 title: ITfCategoryMgr::UnregisterGUIDDWORD (msctf.h)
-
 description: ITfCategoryMgr::UnregisterGUIDDWORD method
 old-location: tsf\itfcategorymgr_unregisterguiddword.htm
 tech.root: TSF
 ms.assetid: 37161b4b-7dfc-4b8d-8e0b-3b9f794eb3b0
-
 ms.date: 12/05/2018
 ms.keywords: ITfCategoryMgr interface [Text Services Framework],UnregisterGUIDDWORD method, ITfCategoryMgr.UnregisterGUIDDWORD, ITfCategoryMgr::UnregisterGUIDDWORD, UnregisterGUIDDWORD, UnregisterGUIDDWORD method [Text Services Framework], UnregisterGUIDDWORD method [Text Services Framework],ITfCategoryMgr interface, _tsf_itfcategorymgr_unregisterguiddword_ref, msctf/ITfCategoryMgr::UnregisterGUIDDWORD, tsf.itfcategorymgr_unregisterguiddword
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfCategoryMgr.UnregisterGUIDDWORD"
+f1_keywords:
+- msctf/ITfCategoryMgr.UnregisterGUIDDWORD
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfCategoryMgr.UnregisterGUIDDWORD
+- ITfCategoryMgr.UnregisterGUIDDWORD
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

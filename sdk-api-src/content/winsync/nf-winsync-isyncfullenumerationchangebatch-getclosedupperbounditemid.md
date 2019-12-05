@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncFullEnumerationChangeBatch.GetClosedUpperBoundItemId
 title: ISyncFullEnumerationChangeBatch::GetClosedUpperBoundItemId (winsync.h)
-
 description: Gets the closed upper bound on item IDs that require destination versions.
 old-location: winsync\isyncfullenumerationchangebatch_getclosedupperbounditemid.htm
 tech.root: winsync
 ms.assetid: b06b01b2-2f31-4117-92eb-e72e31a2f20b
-
 ms.date: 12/05/2018
 ms.keywords: GetClosedUpperBoundItemId, GetClosedUpperBoundItemId method [Windows Sync], GetClosedUpperBoundItemId method [Windows Sync],ISyncFullEnumerationChangeBatch interface, ISyncFullEnumerationChangeBatch interface [Windows Sync],GetClosedUpperBoundItemId method, ISyncFullEnumerationChangeBatch.GetClosedUpperBoundItemId, ISyncFullEnumerationChangeBatch::GetClosedUpperBoundItemId, winsync.isyncfullenumerationchangebatch_getclosedupperbounditemid, winsync/ISyncFullEnumerationChangeBatch::GetClosedUpperBoundItemId
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncFullEnumerationChangeBatch.GetClosedUpperBoundItemId"
+f1_keywords:
+- winsync/ISyncFullEnumerationChangeBatch.GetClosedUpperBoundItemId
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncFullEnumerationChangeBatch.GetClosedUpperBoundItemId
+- ISyncFullEnumerationChangeBatch.GetClosedUpperBoundItemId
 targetos: Windows
 req.typenames: 
 req.redist: 

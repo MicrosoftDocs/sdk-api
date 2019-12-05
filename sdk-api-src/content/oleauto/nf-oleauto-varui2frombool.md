@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarUI2FromBool
 title: VarUI2FromBool function (oleauto.h)
-
 description: Converts a Boolean value to an unsigned short value.
 old-location: automat\varui2frombool.htm
 tech.root: automat
 ms.assetid: 0d1ee7cf-3d3b-49a3-9afa-9ee5afc49d19
-
 ms.date: 12/05/2018
 ms.keywords: VarUI2FromBool, VarUI2FromBool function [Automation], _oa96_VarUI2FromBool, automat.varui2frombool, oleauto/VarUI2FromBool
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarUI2FromBool"
+f1_keywords:
+- oleauto/VarUI2FromBool
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarUI2FromBool
+- VarUI2FromBool
 targetos: Windows
 req.typenames: 
 req.redist: 

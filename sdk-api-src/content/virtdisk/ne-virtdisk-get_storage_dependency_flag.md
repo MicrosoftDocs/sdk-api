@@ -1,19 +1,17 @@
 ---
 UID: NE:virtdisk._GET_STORAGE_DEPENDENCY_FLAG
 title: GET_STORAGE_DEPENDENCY_FLAG (virtdisk.h)
-
 description: Contains virtual hard disk (VHD) storage dependency request flags.
 old-location: vhd\get_storage_dependency_flag.htm
 tech.root: VStor
 ms.assetid: 6a438edf-698b-4b2d-8864-c97fbf9eaa9f
-
 ms.date: 12/05/2018
 ms.keywords: GET_STORAGE_DEPENDENCY_FLAG, GET_STORAGE_DEPENDENCY_FLAG enumeration [VHD], GET_STORAGE_DEPENDENCY_FLAG_DISK_HANDLE, GET_STORAGE_DEPENDENCY_FLAG_HOST_VOLUMES, GET_STORAGE_DEPENDENCY_FLAG_NONE, vdssys/GET_STORAGE_DEPENDENCY_FLAG, vdssys/GET_STORAGE_DEPENDENCY_FLAG_DISK_HANDLE, vdssys/GET_STORAGE_DEPENDENCY_FLAG_HOST_VOLUMES, vdssys/GET_STORAGE_DEPENDENCY_FLAG_NONE, vhd.get_storage_dependency_flag, virtdisk/GET_STORAGE_DEPENDENCY_FLAG, virtdisk/GET_STORAGE_DEPENDENCY_FLAG_DISK_HANDLE, virtdisk/GET_STORAGE_DEPENDENCY_FLAG_HOST_VOLUMES, virtdisk/GET_STORAGE_DEPENDENCY_FLAG_NONE
 ms.topic: enum
-f1_keywords: 
- - "virtdisk/GET_STORAGE_DEPENDENCY_FLAG"
+f1_keywords:
+- virtdisk/GET_STORAGE_DEPENDENCY_FLAG
 dev_langs:
- - c++
+- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VirtDisk.h
- - vdssys.h
+- VirtDisk.h
+- vdssys.h
 api_name:
- - GET_STORAGE_DEPENDENCY_FLAG
+- GET_STORAGE_DEPENDENCY_FLAG
 targetos: Windows
 req.typenames: GET_STORAGE_DEPENDENCY_FLAG
 req.redist: 

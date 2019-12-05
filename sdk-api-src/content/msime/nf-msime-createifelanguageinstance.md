@@ -1,19 +1,17 @@
 ---
 UID: NF:msime.CreateIFELanguageInstance
 title: CreateIFELanguageInstance function (msime.h)
-
 description: Returns a pointer to an IFELanguage interface.
 old-location: intl\createifelanguageinstance.htm
 tech.root: Intl
 ms.assetid: DF79C260-F43B-4580-B252-6D906C235CD4
-
 ms.date: 12/05/2018
 ms.keywords: CreateIFELanguageInstance, CreateIFELanguageInstance function [Internationalization for Windows Applications], intl.createifelanguageinstance, msime/CreateIFELanguageInstance
 ms.topic: function
-f1_keywords: 
- - "msime/CreateIFELanguageInstance"
+f1_keywords:
+- msime/CreateIFELanguageInstance
 dev_langs:
- - c++
+- c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msime.h
+- msime.h
 api_name:
- - CreateIFELanguageInstance
+- CreateIFELanguageInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

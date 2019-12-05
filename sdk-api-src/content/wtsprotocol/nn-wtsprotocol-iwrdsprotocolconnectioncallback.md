@@ -1,19 +1,17 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolConnectionCallback
 title: IWRdsProtocolConnectionCallback (wtsprotocol.h)
-
 description: Exposes methods that provide information about the status of a client connection and that perform actions for the client. This interface is implemented by the Remote Desktop Services service and called by the protocol.
 old-location: termserv\iwrdsprotocolconnectioncallback.htm
 tech.root: TermServ
 ms.assetid: 81a73688-f39e-4960-8587-602d56c11e7e
-
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolConnectionCallback, IWRdsProtocolConnectionCallback interface [Remote Desktop Services], IWRdsProtocolConnectionCallback interface [Remote Desktop Services],described, termserv.iwrdsprotocolconnectioncallback, wtsprotocol/IWRdsProtocolConnectionCallback
 ms.topic: interface
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolConnectionCallback"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolConnectionCallback
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolConnectionCallback
+- IWRdsProtocolConnectionCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

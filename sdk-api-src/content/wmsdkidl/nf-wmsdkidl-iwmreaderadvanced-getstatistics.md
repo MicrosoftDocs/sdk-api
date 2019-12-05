@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.GetStatistics
 title: IWMReaderAdvanced::GetStatistics (wmsdkidl.h)
-
 description: The GetStatistics method retrieves the current reader statistics.
 old-location: wmformat\iwmreaderadvanced_getstatistics.htm
 tech.root: wmformat
 ms.assetid: 9ed2a3fe-c31d-42fc-9ee9-27dd9aef7e06
-
 ms.date: 12/05/2018
 ms.keywords: GetStatistics, GetStatistics method [windows Media Format], GetStatistics method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetStatistics method, IWMReaderAdvanced.GetStatistics, IWMReaderAdvanced::GetStatistics, IWMReaderAdvancedGetStatistics, wmformat.iwmreaderadvanced_getstatistics, wmsdkidl/IWMReaderAdvanced::GetStatistics
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced.GetStatistics"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced.GetStatistics
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced.GetStatistics
+- IWMReaderAdvanced.GetStatistics
 targetos: Windows
 req.typenames: 
 req.redist: 

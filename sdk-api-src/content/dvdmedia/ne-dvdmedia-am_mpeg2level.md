@@ -1,19 +1,17 @@
 ---
 UID: NE:dvdmedia.AM_MPEG2Level
 title: AM_MPEG2Level (dvdmedia.h)
-
 description: Indicates an MPEG-2 video level as specified in the MPEG-2 video standard (ISO13818-2).
 old-location: dshow\am_mpeg2level.htm
 tech.root: DirectShow
 ms.assetid: 78446b44-7b83-4266-a591-5f70a0542c20
-
 ms.date: 12/05/2018
 ms.keywords: AM_MPEG2Level, AM_MPEG2Level enumeration [DirectShow], AM_MPEG2Level_High, AM_MPEG2Level_High1440, AM_MPEG2Level_Low, AM_MPEG2Level_Main, MPEG2LevelEnumeration, dshow.am_mpeg2level, dvdmedia/AM_MPEG2Level, dvdmedia/AM_MPEG2Level_High, dvdmedia/AM_MPEG2Level_High1440, dvdmedia/AM_MPEG2Level_Low, dvdmedia/AM_MPEG2Level_Main
 ms.topic: enum
-f1_keywords: 
- - "dvdmedia/AM_MPEG2Level"
+f1_keywords:
+- dvdmedia/AM_MPEG2Level
 dev_langs:
- - c++
+- c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dvdmedia.h
+- Dvdmedia.h
 api_name:
- - AM_MPEG2Level
+- AM_MPEG2Level
 targetos: Windows
 req.typenames: 
 req.redist: 

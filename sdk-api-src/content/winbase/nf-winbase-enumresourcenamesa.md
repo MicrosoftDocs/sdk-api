@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.EnumResourceNamesA
 title: EnumResourceNamesA function (winbase.h)
-
 description: Enumerates resources of a specified type within a binary module.
 old-location: menurc\enumresourcenames.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresourcenames.htm
-
 ms.date: 12/05/2018
 ms.keywords: EnumResourceNames, EnumResourceNames function [Menus and Other Resources], EnumResourceNamesA, EnumResourceNamesW, _win32_EnumResourceNames, _win32_enumresourcenames_cpp, menurc.enumresourcenames, winbase/EnumResourceNames, winbase/EnumResourceNamesA, winbase/EnumResourceNamesW, winui._win32_enumresourcenames
 ms.topic: function
-f1_keywords: 
- - "winbase/EnumResourceNames"
+f1_keywords:
+- winbase/EnumResourceNames
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-LibraryLoader-L1-2-2.dll
+- KernelBase.dll
 api_name:
- - EnumResourceNames
- - EnumResourceNamesA
- - EnumResourceNamesW
+- EnumResourceNames
+- EnumResourceNamesA
+- EnumResourceNamesW
 targetos: Windows
 req.typenames: 
 req.redist: 

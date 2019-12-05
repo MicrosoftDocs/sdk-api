@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.StopWatchFlush
 title: StopWatchFlush function (shlwapi.h)
-
 description: StopWatchFlush may be altered or unavailable.
 old-location: shell\StopWatchFlush.htm
 tech.root: shell
 ms.assetid: 52b79602-6e24-4d66-a400-5745149e744b
-
 ms.date: 12/05/2018
 ms.keywords: StopWatchFlush, StopWatchFlush function [Windows Shell], _win32_StopWatchFlush, shell.StopWatchFlush, shlwapi/StopWatchFlush
 ms.topic: function
-f1_keywords: 
- - "shlwapi/StopWatchFlush"
+f1_keywords:
+- shlwapi/StopWatchFlush
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
+- Shlwapi.dll
 api_name:
- - StopWatchFlush
+- StopWatchFlush
 targetos: Windows
 req.typenames: 
 req.redist: 

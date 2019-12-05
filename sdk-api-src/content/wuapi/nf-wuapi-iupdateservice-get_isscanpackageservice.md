@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateService.get_IsScanPackageService
 title: IUpdateService::get_IsScanPackageService (wuapi.h)
-
 description: Gets a Boolean value that indicates whether a service is based on a scan package.
 old-location: wua\iupdateservice_isscanpackageservice.htm
 tech.root: Wua_Sdk
 ms.assetid: 1fbd0bb7-23f9-4030-a61e-a85ddc177744
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],IsScanPackageService property, IUpdateService.IsScanPackageService, IUpdateService.get_IsScanPackageService, IUpdateService::IsScanPackageService, IUpdateService::get_IsScanPackageService, IsScanPackageService property [Windows Update Agent], IsScanPackageService property [Windows Update Agent],IUpdateService interface, get_IsScanPackageService, wua.iupdateservice_isscanpackageservice, wuapi/IUpdateService::IsScanPackageService, wuapi/IUpdateService::get_IsScanPackageService
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateService.IsScanPackageService"
+f1_keywords:
+- wuapi/IUpdateService.IsScanPackageService
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateService.IsScanPackageService
- - IUpdateService.get_IsScanPackageService
+- IUpdateService.IsScanPackageService
+- IUpdateService.get_IsScanPackageService
 targetos: Windows
 req.typenames: 
 req.redist: 

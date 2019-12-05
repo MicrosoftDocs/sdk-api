@@ -1,19 +1,17 @@
 ---
 UID: NE:sdoias._PROFILEPROPERTIES
 title: PROFILEPROPERTIES (sdoias.h)
-
 description: The PROFILEPROPERTIES enumeration type enumerates properties associated with a profile.
 old-location: nps\SDO_profileproperties.htm
 tech.root: Nps
 ms.assetid: 54a498c4-af27-4438-a78e-ce92c632a122
-
 ms.date: 12/05/2018
 ms.keywords: PROFILEPROPERTIES, PROFILEPROPERTIES enumeration [Network Policy Server], PROPERTY_PROFILE_ATTRIBUTES_COLLECTION, _sdo_profileproperties, nps.SDO_profileproperties, sdo.profileproperties, sdoias/PROFILEPROPERTIES, sdoias/PROPERTY_PROFILE_ATTRIBUTES_COLLECTION
 ms.topic: enum
 f1_keywords:
 - sdoias/PROFILEPROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.tapiRequestDrop
 title: tapiRequestDrop function (tapi.h)
-
 description: Closes a call request made by a previous call to tapiRequestMediaCall.
 old-location: tapi2\tapirequestdrop.htm
 tech.root: Tapi
 ms.assetid: 57fe47c8-5a03-4c31-8008-0ebca88a840c
-
 ms.date: 12/05/2018
 ms.keywords: tapi/tapiRequestDrop, tapi2.tapirequestdrop, tapiRequestDrop, tapiRequestDrop function [TAPI 2.2]
 ms.topic: function
-f1_keywords: 
- - "tapi/tapiRequestDrop"
+f1_keywords:
+- tapi/tapiRequestDrop
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - tapiRequestDrop
+- tapiRequestDrop
 targetos: Windows
 req.typenames: 
 req.redist: 

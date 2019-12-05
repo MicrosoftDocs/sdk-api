@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMClockSlave.SetErrorTolerance
 title: IAMClockSlave::SetErrorTolerance (strmif.h)
-
 description: The SetErrorTolerance method sets the audio renderer's rate-matching tolerance.
 old-location: dshow\iamclockslave_seterrortolerance.htm
 tech.root: DirectShow
 ms.assetid: 6c93e345-4e4a-4019-9c18-d3d43736fee3
-
 ms.date: 12/05/2018
 ms.keywords: IAMClockSlave interface [DirectShow],SetErrorTolerance method, IAMClockSlave.SetErrorTolerance, IAMClockSlave::SetErrorTolerance, IAMClockSlaveSetErrorTolerance, SetErrorTolerance, SetErrorTolerance method [DirectShow], SetErrorTolerance method [DirectShow],IAMClockSlave interface, dshow.iamclockslave_seterrortolerance, strmif/IAMClockSlave::SetErrorTolerance
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMClockSlave.SetErrorTolerance"
+f1_keywords:
+- strmif/IAMClockSlave.SetErrorTolerance
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMClockSlave.SetErrorTolerance
+- IAMClockSlave.SetErrorTolerance
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont.GetProtected
 title: ITextFont::GetProtected (tom.h)
-
 description: Gets whether characters are protected against attempts to modify them.
 old-location: controls\ITextFont_GetProtected.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getprotected.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetProtected, GetProtected method [Windows Controls], GetProtected method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetProtected method, ITextFont.GetProtected, ITextFont::GetProtected, _win32_ITextFont_GetProtected, _win32_ITextFont_GetProtected_cpp, controls.ITextFont_GetProtected, controls._win32_ITextFont_GetProtected, tom/ITextFont::GetProtected
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont.GetProtected"
+f1_keywords:
+- tom/ITextFont.GetProtected
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont.GetProtected
+- ITextFont.GetProtected
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwPolicy2.put_FirewallEnabled
 title: INetFwPolicy2::put_FirewallEnabled (netfw.h)
-
 description: Indicates whether a firewall is enabled locally (the effective result may differ due to group policy settings).
 old-location: ics\inetfwpolicy2_firewallenabled.htm
 tech.root: ics
 ms.assetid: 6c3ca9dd-a562-454f-bb9a-856beba772f3
-
 ms.date: 12/05/2018
 ms.keywords: FirewallEnabled property [ICS/ICF], FirewallEnabled property [ICS/ICF],INetFwPolicy2 interface, INetFwPolicy2 interface [ICS/ICF],FirewallEnabled property, INetFwPolicy2.FirewallEnabled, INetFwPolicy2.put_FirewallEnabled, INetFwPolicy2::FirewallEnabled, INetFwPolicy2::get_FirewallEnabled, INetFwPolicy2::put_FirewallEnabled, ics.inetfwpolicy2_firewallenabled, netfw/INetFwPolicy2::FirewallEnabled, netfw/INetFwPolicy2::get_FirewallEnabled, netfw/INetFwPolicy2::put_FirewallEnabled, put_FirewallEnabled
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwPolicy2.FirewallEnabled"
+f1_keywords:
+- netfw/INetFwPolicy2.FirewallEnabled
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwPolicy2.FirewallEnabled
- - INetFwPolicy2.get_FirewallEnabled
- - INetFwPolicy2.put_FirewallEnabled
+- INetFwPolicy2.FirewallEnabled
+- INetFwPolicy2.get_FirewallEnabled
+- INetFwPolicy2.put_FirewallEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

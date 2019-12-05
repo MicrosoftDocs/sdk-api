@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.DeleteDC
 title: DeleteDC function (wingdi.h)
-
 description: The DeleteDC function deletes the specified device context (DC).
 old-location: gdi\deletedc.htm
 tech.root: gdi
 ms.assetid: 1aa549a0-c95f-4385-a30e-8906f67e39cd
-
 ms.date: 12/05/2018
 ms.keywords: DeleteDC, DeleteDC function [Windows GDI], _win32_DeleteDC, gdi.deletedc, wingdi/DeleteDC
 ms.topic: function
-f1_keywords: 
- - "wingdi/DeleteDC"
+f1_keywords:
+- wingdi/DeleteDC
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-DC-Create-l1-1-0.dll
- - Ext-MS-Win-GDI-DC-Create-l1-1-1.dll
- - ext-ms-win-gdi-dc-create-l1-1-2.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-DC-Create-l1-1-0.dll
+- Ext-MS-Win-GDI-DC-Create-l1-1-1.dll
+- ext-ms-win-gdi-dc-create-l1-1-2.dll
+- GDI32Full.dll
 api_name:
- - DeleteDC
+- DeleteDC
 targetos: Windows
 req.typenames: 
 req.redist: 

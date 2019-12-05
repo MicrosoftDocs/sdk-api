@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IExtractIconW.GetIconLocation
 title: IExtractIconW::GetIconLocation (shlobj_core.h)
-
 description: Gets the location and index of an icon.
 old-location: shell\IExtractIcon_GetIconLocation.htm
 tech.root: shell
 ms.assetid: 56138982-c062-4b07-aea7-6023037451fe
-
 ms.date: 12/05/2018
 ms.keywords: GIL_ASYNC, GIL_CHECKSHIELD, GIL_DEFAULTICON, GIL_DONTCACHE, GIL_FORCENOSHIELD, GIL_FORSHELL, GIL_FORSHORTCUT, GIL_NOTFILENAME, GIL_OPENICON, GIL_PERCLASS, GIL_PERINSTANCE, GIL_SHIELD, GIL_SIMULATEDOC, GetIconLocation, GetIconLocation method [Windows Shell], GetIconLocation method [Windows Shell],IExtractIcon interface, IExtractIcon interface [Windows Shell],GetIconLocation method, IExtractIcon::GetIconLocation, IExtractIconA, IExtractIconA::GetIconLocation, IExtractIconW, IExtractIconW.GetIconLocation, IExtractIconW::GetIconLocation, _win32_IExtractIcon_GetIconLocation, shell.IExtractIcon_GetIconLocation, shlobj_core/IExtractIcon::GetIconLocation
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IExtractIcon.GetIconLocation"
+f1_keywords:
+- shlobj_core/IExtractIcon.GetIconLocation
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IExtractIcon.GetIconLocation
- - IExtractIconA::GetIconLocation
- - IExtractIconW::GetIconLocation
+- IExtractIcon.GetIconLocation
+- IExtractIconA::GetIconLocation
+- IExtractIconW::GetIconLocation
 targetos: Windows
 req.typenames: 
 req.redist: 

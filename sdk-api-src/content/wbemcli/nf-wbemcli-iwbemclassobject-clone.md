@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.Clone
 title: IWbemClassObject::Clone (wbemcli.h)
-
 description: The IWbemClassObject::Clone method returns a new object that is a complete clone of the current object. The new object has a COM reference count of 1.
 old-location: wmi\iwbemclassobject_clone.htm
 tech.root: WmiSdk
 ms.assetid: 4a708963-f677-4419-800d-02a01908e7cb
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Management Instrumentation], Clone method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],Clone method, IWbemClassObject.Clone, IWbemClassObject::Clone, _hmm_iwbemclassobject_clone, wbemcli/IWbemClassObject::Clone, wmi.iwbemclassobject_clone
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemClassObject.Clone"
+f1_keywords:
+- wbemcli/IWbemClassObject.Clone
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: WbemUuid.lib
 req.dll: CIMWin32.dll; Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll; Wbemess.dll; Wmipiprt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CIMWin32.dll
- - Esscli.dll
- - Fastprox.dll
- - FrameDyn.dll
- - FrameDynOS.dll
- - Krnlprov.dll
- - Ncprov.dll
- - Wbemcore.dll
- - Wbemess.dll
- - Wmipiprt.dll
+- CIMWin32.dll
+- Esscli.dll
+- Fastprox.dll
+- FrameDyn.dll
+- FrameDynOS.dll
+- Krnlprov.dll
+- Ncprov.dll
+- Wbemcore.dll
+- Wbemess.dll
+- Wmipiprt.dll
 api_name:
- - IWbemClassObject.Clone
+- IWbemClassObject.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

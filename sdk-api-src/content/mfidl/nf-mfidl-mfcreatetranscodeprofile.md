@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateTranscodeProfile
 title: MFCreateTranscodeProfile function (mfidl.h)
-
 description: Creates an empty transcode profile object.
 old-location: mf\mfcreatetranscodeprofile.htm
 tech.root: medfound
 ms.assetid: 2a482c6f-6e20-419a-a7eb-085c41cc8186
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateTranscodeProfile, MFCreateTranscodeProfile function [Media Foundation], mf.mfcreatetranscodeprofile, mfidl/MFCreateTranscodeProfile
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateTranscodeProfile"
+f1_keywords:
+- mfidl/MFCreateTranscodeProfile
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreateTranscodeProfile
+- MFCreateTranscodeProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wsdbase._WSDUdpRetransmitParams
 title: WSDUdpRetransmitParams (wsdbase.h)
-
 description: Defines the parameters for repeating a message transimission.
 old-location: ncd\wsdupdretransmitparams.htm
 tech.root: WsdApi
 ms.assetid: 41bf73d8-0b20-4c38-b8b4-85c39eff0d91
-
 ms.date: 12/05/2018
 ms.keywords: PWSDUdpRetransmitParams, PWSDUdpRetransmitParams structure pointer, WSDUdpRetransmitParams, WSDUdpRetransmitParams structure, _WSDUdpRetransmitParams, ncd.wsdupdretransmitparams, wsdbase/PWSDUdpRetransmitParams, wsdbase/WSDUdpRetransmitParams
 ms.topic: struct
-f1_keywords: 
- - "wsdbase/WSDUdpRetransmitParams"
+f1_keywords:
+- wsdbase/WSDUdpRetransmitParams
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wsdbase.h
+- Wsdbase.h
 api_name:
- - WSDUdpRetransmitParams
+- WSDUdpRetransmitParams
 targetos: Windows
 req.typenames: WSDUdpRetransmitParams
 req.redist: 

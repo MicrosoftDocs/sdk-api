@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.CreateMediaItemFromURL
 title: IMFPMediaPlayer::CreateMediaItemFromURL (mfplay.h)
-
 description: Creates a media item from a URL.
 old-location: mf\imfpmediaplayer_createmediaitemfromurl.htm
 tech.root: medfound
 ms.assetid: 7dc2a7f3-81b4-46c6-b45e-44c6a20afc6b
-
 ms.date: 12/05/2018
 ms.keywords: CreateMediaItemFromURL, CreateMediaItemFromURL method [Media Foundation], CreateMediaItemFromURL method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],CreateMediaItemFromURL method, IMFPMediaPlayer.CreateMediaItemFromURL, IMFPMediaPlayer::CreateMediaItemFromURL, mf.imfpmediaplayer_createmediaitemfromurl, mfplay/IMFPMediaPlayer::CreateMediaItemFromURL
 ms.topic: method
-f1_keywords: 
- - "mfplay/IMFPMediaPlayer.CreateMediaItemFromURL"
+f1_keywords:
+- mfplay/IMFPMediaPlayer.CreateMediaItemFromURL
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaPlayer.CreateMediaItemFromURL
+- IMFPMediaPlayer.CreateMediaItemFromURL
 targetos: Windows
 req.typenames: 
 req.redist: 

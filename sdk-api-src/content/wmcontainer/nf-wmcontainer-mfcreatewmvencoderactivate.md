@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.MFCreateWMVEncoderActivate
 title: MFCreateWMVEncoderActivate function (wmcontainer.h)
-
 description: Creates an activation object that can be used to create a Windows Media Video (WMV) encoder.
 old-location: mf\mfcreatewmvencoderactivate.htm
 tech.root: medfound
 ms.assetid: f818dba1-e28f-4fd4-813d-33f638d979d7
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateWMVEncoderActivate, MFCreateWMVEncoderActivate function [Media Foundation], f818dba1-e28f-4fd4-813d-33f638d979d7, mf.mfcreatewmvencoderactivate, wmcontainer/MFCreateWMVEncoderActivate
 ms.topic: function
-f1_keywords: 
- - "wmcontainer/MFCreateWMVEncoderActivate"
+f1_keywords:
+- wmcontainer/MFCreateWMVEncoderActivate
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreateWMVEncoderActivate
+- MFCreateWMVEncoderActivate
 targetos: Windows
 req.typenames: 
 req.redist: 

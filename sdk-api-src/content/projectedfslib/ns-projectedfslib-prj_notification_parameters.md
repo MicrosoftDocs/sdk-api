@@ -1,19 +1,17 @@
 ---
 UID: NS:projectedfslib.PRJ_NOTIFICATION_PARAMETERS
 title: PRJ_NOTIFICATION_PARAMETERS (projectedfslib.h)
-
 description: Extra parameters for notifications.
 old-location: projfs\prj_notification_parameters.htm
 tech.root: ProjFS
 ms.assetid: 596DC712-C6DD-4834-9E0F-CA21B0BC3BB3
-
 ms.date: 12/05/2018
 ms.keywords: PRJ_NOTIFICATION_PARAMETERS, PRJ_NOTIFICATION_PARAMETERS union, ProjFS.prj_notification_parameters, projectedfslib/PRJ_NOTIFICATION_PARAMETERS
 ms.topic: struct
-f1_keywords: 
- - "projectedfslib/PRJ_NOTIFICATION_PARAMETERS"
+f1_keywords:
+- projectedfslib/PRJ_NOTIFICATION_PARAMETERS
 dev_langs:
- - c++
+- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - projectedfslib.h
+- projectedfslib.h
 api_name:
- - PRJ_NOTIFICATION_PARAMETERS
+- PRJ_NOTIFICATION_PARAMETERS
 targetos: Windows
 req.typenames: PRJ_NOTIFICATION_PARAMETERS
 req.redist: 

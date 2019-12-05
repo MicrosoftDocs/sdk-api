@@ -1,19 +1,17 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportTftpClient
 title: IWdsTransportTftpClient (wdstptmgmt.h)
-
 description: This interface is used to specify information of a TFTP client session currently active in the server.
 old-location: wds\iwdstransporttftpclient.htm
 tech.root: wds
 ms.assetid: B612A719-247E-40CC-B7BC-E2A6144DA329
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportTftpClient, IWdsTransportTftpClient interface [Windows Deployment Services], IWdsTransportTftpClient interface [Windows Deployment Services],described, wds.iwdstransporttftpclient, wdstptmgmt/IWdsTransportTftpClient
 ms.topic: interface
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportTftpClient"
+f1_keywords:
+- wdstptmgmt/IWdsTransportTftpClient
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportTftpClient
+- IWdsTransportTftpClient
 targetos: Windows
 req.typenames: 
 req.redist: 

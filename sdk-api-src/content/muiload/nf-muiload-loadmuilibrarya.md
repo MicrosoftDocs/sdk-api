@@ -1,19 +1,17 @@
 ---
 UID: NF:muiload.LoadMUILibraryA
 title: LoadMUILibraryA function (muiload.h)
-
 description: Returns a handle to the language-specific resources associated with a particular language-neutral (LN) file.
 old-location: intl\loadmuilibrary.htm
 tech.root: Intl
 ms.assetid: 277067d8-c38d-4e79-9c1a-4e4af1987228
-
 ms.date: 12/05/2018
 ms.keywords: LoadMUILibrary, LoadMUILibrary function [Internationalization for Windows Applications], LoadMUILibraryA, LoadMUILibraryW, MUI_LANGUAGE_EXACT, MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, _win32_LoadMUILibrary, intl.loadmuilibrary, muiload/LoadMUILibrary, muiload/LoadMUILibraryA, muiload/LoadMUILibraryW
 ms.topic: function
-f1_keywords: 
- - "muiload/LoadMUILibrary"
+f1_keywords:
+- muiload/LoadMUILibrary
 dev_langs:
- - c++
+- c++
 req.header: muiload.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Muiload.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Muiload.lib
+- Muiload.lib
 api_name:
- - LoadMUILibrary
- - LoadMUILibraryA
- - LoadMUILibraryW
+- LoadMUILibrary
+- LoadMUILibraryA
+- LoadMUILibraryW
 targetos: Windows
 req.typenames: 
 req.redist: Muiload.lib, included in the Windows SDK for Windows 7 which can be run on Windows 2000 Professional, Windows 2000 Server, Windows XP, Windows Server 2003, Windows Vista, Windows Server 2008, and Windows 7.

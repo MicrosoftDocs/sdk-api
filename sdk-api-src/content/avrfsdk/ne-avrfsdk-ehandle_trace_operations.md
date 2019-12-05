@@ -1,19 +1,17 @@
 ---
 UID: NE:avrfsdk.eHANDLE_TRACE_OPERATIONS
 title: eHANDLE_TRACE_OPERATIONS (avrfsdk.h)
-
 description: Identifies the type of handle operation that has occurred.
 old-location: winprog\ehandle_trace_operations.htm
 tech.root: DevNotes
 ms.assetid: bcaaa52a-8eb1-4ad7-9ee5-97cca91a2238
-
 ms.date: 12/05/2018
 ms.keywords: OperationDbBADREF, OperationDbCLOSE, OperationDbOPEN, OperationDbUnused, avrfsdk/OperationDbBADREF, avrfsdk/OperationDbCLOSE, avrfsdk/OperationDbOPEN, avrfsdk/OperationDbUnused, avrfsdk/eHANDLE_TRACE_OPERATIONS, base.ehandle_trace_operations, eHANDLE_TRACE_OPERATIONS, eHANDLE_TRACE_OPERATIONS enumeration [Windows API], winprog.ehandle_trace_operations
 ms.topic: enum
-f1_keywords: 
- - "avrfsdk/eHANDLE_TRACE_OPERATIONS"
+f1_keywords:
+- avrfsdk/eHANDLE_TRACE_OPERATIONS
 dev_langs:
- - c++
+- c++
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Avrfsdk.h
+- Avrfsdk.h
 api_name:
- - eHANDLE_TRACE_OPERATIONS
+- eHANDLE_TRACE_OPERATIONS
 targetos: Windows
 req.typenames: 
 req.redist: 

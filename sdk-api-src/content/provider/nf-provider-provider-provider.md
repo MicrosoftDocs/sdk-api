@@ -1,19 +1,17 @@
 ---
 UID: NF:provider.Provider.Provider
 title: Provider::Provider (provider.h)
-
 description: The Provider method creates an instance of a provider. This method is part of the WMI Provider Framework.
 old-location: wmi\provider_provider.htm
 tech.root: WmiSdk
 ms.assetid: 1859c921-a0dc-4fd4-9c0b-680a24eab936
-
 ms.date: 12/05/2018
-ms.keywords: "??0Provider@@QAE@PBG0@Z, ??0Provider@@QEAA@PEBG0@Z, Provider, Provider interface [Windows Management Instrumentation],Provider method, Provider method [Windows Management Instrumentation], Provider method [Windows Management Instrumentation],Provider interface, Provider.Provider, Provider::Provider, provider/Provider::Provider, wmi.provider_provider"
+ms.keywords: ??0Provider@@QAE@PBG0@Z, ??0Provider@@QEAA@PEBG0@Z, Provider, Provider interface [Windows Management Instrumentation],Provider method, Provider method [Windows Management Instrumentation], Provider method [Windows Management Instrumentation],Provider interface, Provider.Provider, Provider::Provider, provider/Provider::Provider, wmi.provider_provider
 ms.topic: method
-f1_keywords: 
- - "provider/Provider.Provider"
+f1_keywords:
+- provider/Provider.Provider
 dev_langs:
- - c++
+- c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - Provider.Provider
- - ??0Provider@@QAE@PBG0@Z
- - ??0Provider@@QEAA@PEBG0@Z
+- Provider.Provider
+- ??0Provider@@QAE@PBG0@Z
+- ??0Provider@@QEAA@PEBG0@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.IEnumTfDocumentMgrs
 title: IEnumTfDocumentMgrs (msctf.h)
-
 description: The IEnumTfDocumentMgrs interface is implemented by the TSF manager to provide an enumeration of document manager objects.
 old-location: tsf\ienumtfdocumentmgrs.htm
 tech.root: TSF
 ms.assetid: 5b276752-715b-4426-ad37-8658bae4c1a6
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTfDocumentMgrs, IEnumTfDocumentMgrs interface [Text Services Framework], IEnumTfDocumentMgrs interface [Text Services Framework],described, _tsf_ienumtfdocumentmgrs_ref, msctf/IEnumTfDocumentMgrs, tsf.ienumtfdocumentmgrs
 ms.topic: interface
-f1_keywords: 
- - "msctf/IEnumTfDocumentMgrs"
+f1_keywords:
+- msctf/IEnumTfDocumentMgrs
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - IEnumTfDocumentMgrs
+- IEnumTfDocumentMgrs
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

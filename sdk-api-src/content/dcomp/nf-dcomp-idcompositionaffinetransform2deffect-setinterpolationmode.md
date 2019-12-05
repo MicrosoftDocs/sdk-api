@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionAffineTransform2DEffect.SetInterpolationMode
 title: IDCompositionAffineTransform2DEffect::SetInterpolationMode (dcomp.h)
-
 description: Sets the interpolation mode of the effect.
 old-location: directcomp\idcompositionaffinetransform2deffect_setinterpolationmode.htm
 tech.root: directcomp
 ms.assetid: 29994FF1-F720-4D2A-9B66-1D5E9F1EDFF5
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionAffineTransform2DEffect interface [DirectComposition],SetInterpolationMode method, IDCompositionAffineTransform2DEffect.SetInterpolationMode, IDCompositionAffineTransform2DEffect::SetInterpolationMode, SetInterpolationMode, SetInterpolationMode method [DirectComposition], SetInterpolationMode method [DirectComposition],IDCompositionAffineTransform2DEffect interface, dcomp/IDCompositionAffineTransform2DEffect::SetInterpolationMode, directcomp.idcompositionaffinetransform2deffect_setinterpolationmode
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionAffineTransform2DEffect.SetInterpolationMode"
+f1_keywords:
+- dcomp/IDCompositionAffineTransform2DEffect.SetInterpolationMode
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionAffineTransform2DEffect.SetInterpolationMode
+- IDCompositionAffineTransform2DEffect.SetInterpolationMode
 targetos: Windows
 req.typenames: 
 req.redist: 

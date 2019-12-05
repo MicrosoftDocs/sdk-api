@@ -1,19 +1,17 @@
 ---
 UID: NN:shimgdata.IShellImageDataFactory
 title: IShellImageDataFactory (shimgdata.h)
-
 description: Exposes methods that create IShellImageData instances based on various image sources.
 old-location: shell\IShellImageDataFactory.htm
 tech.root: shell
 ms.assetid: c3de35de-9bf5-415c-93e9-ac0085195c27
-
 ms.date: 12/05/2018
 ms.keywords: IShellImageDataFactory, IShellImageDataFactory interface [Windows Shell], IShellImageDataFactory interface [Windows Shell],described, _shell_IShellImageDataFactory, shell.IShellImageDataFactory, shimgdata/IShellImageDataFactory
 ms.topic: interface
-f1_keywords: 
- - "shimgdata/IShellImageDataFactory"
+f1_keywords:
+- shimgdata/IShellImageDataFactory
 dev_langs:
- - c++
+- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellImageDataFactory
+- IShellImageDataFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

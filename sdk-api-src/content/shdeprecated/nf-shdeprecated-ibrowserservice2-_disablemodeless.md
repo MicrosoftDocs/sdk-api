@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._DisableModeless
 title: IBrowserService2::_DisableModeless (shdeprecated.h)
-
 description: Deprecated. Enables a derived class to ask the base class whether a modal UI is visible. A modal UI blocks minimize and close behavior in the browser window.
 old-location: shell\IBrowserService2__DisableModeless.htm
 tech.root: shell
 ms.assetid: e13763de-a3cb-42ea-a3bc-e9324e14d336
-
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_DisableModeless method, IBrowserService2._DisableModeless, IBrowserService2::_DisableModeless, _DisableModeless, _DisableModeless method [Windows Shell], _DisableModeless method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_DisableModeless, shell.IBrowserService2__DisableModeless, zone_IBrowserService2__DisableModeless
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService2._DisableModeless"
+f1_keywords:
+- shdeprecated/IBrowserService2._DisableModeless
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService2._DisableModeless
+- IBrowserService2._DisableModeless
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationPropertyCondition
 title: IUIAutomationPropertyCondition (uiautomationclient.h)
-
 description: Represents a condition based on a property value that is used to find UI Automation elements.
 old-location: winauto\uiauto_IUIAutomationPropertyCondition.htm
 tech.root: WinAuto
 ms.assetid: fedf003e-0921-4f9e-b1a8-c8faae9e95a4
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationPropertyCondition, IUIAutomationPropertyCondition interface [Windows Accessibility], IUIAutomationPropertyCondition interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationPropertyCondition, uiauto_IUIAutomationPropertyCondition, uiautomationclient/IUIAutomationPropertyCondition, winauto.uiauto_IUIAutomationPropertyCondition
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationPropertyCondition"
+f1_keywords:
+- uiautomationclient/IUIAutomationPropertyCondition
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationPropertyCondition
+- IUIAutomationPropertyCondition
 targetos: Windows
 req.typenames: 
 req.redist: 

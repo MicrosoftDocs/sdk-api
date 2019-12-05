@@ -1,19 +1,17 @@
 ---
 UID: NF:uiribbon.IUIApplication.OnViewChanged
 title: IUIApplication::OnViewChanged (uiribbon.h)
-
 description: Called when the state of a View changes.
 old-location: windowsribbon\windowsribbon_iuiapplication_onviewchanged.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiapplication\onviewchanged.htm
-
 ms.date: 12/05/2018
 ms.keywords: IUIApplication interface [Windows Ribbon],OnViewChanged method, IUIApplication.OnViewChanged, IUIApplication::OnViewChanged, OnViewChanged, OnViewChanged method [Windows Ribbon], OnViewChanged method [Windows Ribbon],IUIApplication interface, scenicintent_IUIApplication_OnViewChanged, uiribbon/IUIApplication::OnViewChanged, windowsribbon.windowsribbon_iuiapplication_onviewchanged
 ms.topic: method
-f1_keywords: 
- - "uiribbon/IUIApplication.OnViewChanged"
+f1_keywords:
+- uiribbon/IUIApplication.OnViewChanged
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mshtml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mshtml.dll
+- Mshtml.dll
 api_name:
- - IUIApplication.OnViewChanged
+- IUIApplication.OnViewChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

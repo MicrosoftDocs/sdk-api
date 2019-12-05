@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Set_DevNode_Property_ExW
 title: CM_Set_DevNode_Property_ExW function (cfgmgr32.h)
-
 description: The CM_Set_DevNode_Property_ExW function sets a device instance property.
 old-location: devinst\cm_set_devnode_property_exw.htm
 tech.root: devinst
 ms.assetid: FB725245-DB20-4363-BEC0-D7C837BED78A
-
 ms.date: 12/05/2018
 ms.keywords: CM_Set_DevNode_Property_ExW, CM_Set_DevNode_Property_ExW function [Device and Driver Installation], cfgmgr32/CM_Set_DevNode_Property_ExW, devinst.cm_set_devnode_property_exw
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Set_DevNode_Property_ExW"
+f1_keywords:
+- cfgmgr32/CM_Set_DevNode_Property_ExW
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -32,15 +30,15 @@ req.lib: Cfgmgr32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Cfgmgr32.lib
- - Cfgmgr32.dll
+- Cfgmgr32.lib
+- Cfgmgr32.dll
 api_name:
- - CM_Set_DevNode_Property_ExW
+- CM_Set_DevNode_Property_ExW
 targetos: Windows
 req.typenames: 
 req.redist: 

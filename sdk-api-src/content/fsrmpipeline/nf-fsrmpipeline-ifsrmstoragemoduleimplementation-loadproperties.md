@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmStorageModuleImplementation.LoadProperties
 title: IFsrmStorageModuleImplementation::LoadProperties (fsrmpipeline.h)
-
 description: Instructs the storage module to load all properties.
 old-location: fsrm\ifsrmstoragemoduleimplementation_loadproperties.htm
 tech.root: fsrm
 ms.assetid: 05de6dfe-0f90-4866-bedc-72b8fea9dfac
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmStorageModuleImplementation interface [File Server Resource Manager],LoadProperties method, IFsrmStorageModuleImplementation.LoadProperties, IFsrmStorageModuleImplementation::LoadProperties, LoadProperties, LoadProperties method [File Server Resource Manager], LoadProperties method [File Server Resource Manager],IFsrmStorageModuleImplementation interface, fs.ifsrmstoragemoduleimplementation_loadproperties, fsrm.ifsrmstoragemoduleimplementation_loadproperties, fsrmpipeline/IFsrmStorageModuleImplementation::LoadProperties
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmStorageModuleImplementation.LoadProperties"
+f1_keywords:
+- fsrmpipeline/IFsrmStorageModuleImplementation.LoadProperties
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmStorageModuleImplementation.LoadProperties
+- IFsrmStorageModuleImplementation.LoadProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

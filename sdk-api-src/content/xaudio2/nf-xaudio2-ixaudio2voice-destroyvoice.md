@@ -1,19 +1,17 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.DestroyVoice
 title: IXAudio2Voice::DestroyVoice (xaudio2.h)
-
 description: Destroys the voice. If necessary, stops the voice and removes it from the XAudio2 graph.
 old-location: xaudio2\ixaudio2voice_interface_destroyvoice.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.DestroyVoice
-
 ms.date: 12/05/2018
 ms.keywords: DestroyVoice, DestroyVoice method [XAudio2 Audio Mixing APIs], DestroyVoice method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, IXAudio2Voice interface [XAudio2 Audio Mixing APIs],DestroyVoice method, IXAudio2Voice.DestroyVoice, IXAudio2Voice::DestroyVoice, xaudio2.ixaudio2voice_interface_destroyvoice, xaudio2/IXAudio2Voice::DestroyVoice
 ms.topic: method
-f1_keywords: 
- - "xaudio2/IXAudio2Voice.DestroyVoice"
+f1_keywords:
+- xaudio2/IXAudio2Voice.DestroyVoice
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xaudio2.h
+- xaudio2.h
 api_name:
- - IXAudio2Voice.DestroyVoice
+- IXAudio2Voice.DestroyVoice
 targetos: Windows
 req.typenames: 
 req.redist: 

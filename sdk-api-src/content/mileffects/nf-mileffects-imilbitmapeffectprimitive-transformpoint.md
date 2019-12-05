@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectPrimitive.TransformPoint
 title: IMILBitmapEffectPrimitive::TransformPoint (mileffects.h)
-
 description: Transforms the given point.
 old-location: wibe\_wibe_imilbitmapeffectprimitive_transformpoint.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitive\transformpoint.htm
-
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectPrimitive interface [WPF Bitmap Effects],TransformPoint method, IMILBitmapEffectPrimitive.TransformPoint, IMILBitmapEffectPrimitive::TransformPoint, TransformPoint, TransformPoint method [WPF Bitmap Effects], TransformPoint method [WPF Bitmap Effects],IMILBitmapEffectPrimitive interface, _wibe_imilbitmapeffectprimitive_transformpoint, mileffects/IMILBitmapEffectPrimitive::TransformPoint, wibe._wibe_imilbitmapeffectprimitive_transformpoint
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectPrimitive.TransformPoint"
+f1_keywords:
+- mileffects/IMILBitmapEffectPrimitive.TransformPoint
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.h
+- Mileffects.h
 api_name:
- - IMILBitmapEffectPrimitive.TransformPoint
+- IMILBitmapEffectPrimitive.TransformPoint
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

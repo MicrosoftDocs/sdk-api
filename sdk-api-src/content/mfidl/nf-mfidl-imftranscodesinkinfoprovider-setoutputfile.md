@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTranscodeSinkInfoProvider.SetOutputFile
 title: IMFTranscodeSinkInfoProvider::SetOutputFile (mfidl.h)
-
 description: Sets the name of the encoded output file.
 old-location: mf\imftranscodesinkinfoprovider_setoutputfile.htm
 tech.root: medfound
 ms.assetid: 048d1822-9349-4d49-a468-c89bc9c51583
-
 ms.date: 12/05/2018
 ms.keywords: IMFTranscodeSinkInfoProvider interface [Media Foundation],SetOutputFile method, IMFTranscodeSinkInfoProvider.SetOutputFile, IMFTranscodeSinkInfoProvider::SetOutputFile, SetOutputFile, SetOutputFile method [Media Foundation], SetOutputFile method [Media Foundation],IMFTranscodeSinkInfoProvider interface, mf.imftranscodesinkinfoprovider_setoutputfile, mfidl/IMFTranscodeSinkInfoProvider::SetOutputFile
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTranscodeSinkInfoProvider.SetOutputFile"
+f1_keywords:
+- mfidl/IMFTranscodeSinkInfoProvider.SetOutputFile
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFTranscodeSinkInfoProvider.SetOutputFile
+- IMFTranscodeSinkInfoProvider.SetOutputFile
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidStreamBufferSink3
 title: IMSVidStreamBufferSink3 (segment.h)
-
 description: The IMSVidStreamBufferSink3 interface represents the Stream Buffer Sink filter within the Video Control.
 old-location: mstv\imsvidstreambuffersink3.htm
 tech.root: mstv
 ms.assetid: 5768936b-9c0a-4177-82da-cc6ebe62ea67
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink3, IMSVidStreamBufferSink3 interface [Microsoft TV Technologies], IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],described, IMSVidStreamBufferSink3Interface, mstv.imsvidstreambuffersink3, segment/IMSVidStreamBufferSink3
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidStreamBufferSink3"
+f1_keywords:
+- segment/IMSVidStreamBufferSink3
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferSink3
+- IMSVidStreamBufferSink3
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,18 +1,16 @@
 ---
 UID: NF:d3d12.ID3D12DeviceRemovedExtendedData.GetPageFaultAllocationOutput
 title: ID3D12DeviceRemovedExtendedData::GetPageFaultAllocationOutput
-
 description: Retrieves the Device Removed Extended Data (DRED) page fault data.
 old-location: direct3d12\id3d12deviceremovedextendeddata_getpagefaultallocationoutput.htm
 tech.root: direct3d12
-
 ms.date: 02/08/2019
 ms.keywords: GetPageFaultAllocationOutput, GetPageFaultAllocationOutput method, ID3D12DeviceRemovedExtendedData, ID3D12DeviceRemovedExtendedData interface, ID3D12DeviceRemovedExtendedData.GetPageFaultAllocationOutput, ID3D12DeviceRemovedExtendedData::GetPageFaultAllocationOutput, d3d12/ID3D12DeviceRemovedExtendedData::GetPageFaultAllocationOutput, direct3d12.id3d12deviceremovedextendeddata_getpagefaultallocationoutput
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12DeviceRemovedExtendedData::GetPageFaultAllocationOutput"
+f1_keywords:
+- d3d12/ID3D12DeviceRemovedExtendedData::GetPageFaultAllocationOutput
 dev_langs:
- - c++
+- c++
 req.construct-type: function
 req.ddi-compliance: 
 req.header: d3d12.h
@@ -22,7 +20,6 @@ req.target-min-winverclnt: Windows 10, version 1903
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
 req.max-support: 
@@ -33,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - apiref
- - kbSyntax
+- apiref
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - ID3D12DeviceRemovedExtendedData::GetPageFaultAllocationOutput
+- ID3D12DeviceRemovedExtendedData::GetPageFaultAllocationOutput
 targetos: Windows
 req.typenames: 
 req.redist: 

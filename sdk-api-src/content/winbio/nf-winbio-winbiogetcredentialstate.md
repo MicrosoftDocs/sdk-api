@@ -1,19 +1,17 @@
 ---
 UID: NF:winbio.WinBioGetCredentialState
 title: WinBioGetCredentialState function (winbio.h)
-
 description: Retrieves a value that specifies whether credentials have been set for the specified user. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbiogetcredentialstate.htm
 tech.root: SecBioMet
 ms.assetid: 738b7efb-c796-4f64-95e3-feaaa50ac673
-
 ms.date: 12/05/2018
 ms.keywords: WINBIO_CREDENTIAL_NOT_SET, WINBIO_CREDENTIAL_PASSWORD, WINBIO_CREDENTIAL_SET, WinBioGetCredentialState, WinBioGetCredentialState function [Windows Biometric Framework API], secbiomet.winbiogetcredentialstate, winbio/WinBioGetCredentialState
 ms.topic: function
-f1_keywords: 
- - "winbio/WinBioGetCredentialState"
+f1_keywords:
+- winbio/WinBioGetCredentialState
 dev_langs:
- - c++
+- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winbio.dll
- - ext-ms-win-biometrics-winbio-core-l1-1-0.dll
- - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
+- Winbio.dll
+- ext-ms-win-biometrics-winbio-core-l1-1-0.dll
+- Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
 api_name:
- - WinBioGetCredentialState
+- WinBioGetCredentialState
 targetos: Windows
 req.typenames: 
 req.redist: 

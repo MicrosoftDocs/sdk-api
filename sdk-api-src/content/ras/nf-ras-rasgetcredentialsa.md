@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasGetCredentialsA
 title: RasGetCredentialsA function (ras.h)
-
 description: The RasGetCredentials function retrieves the user credentials associated with a specified RAS phone-book entry.
 old-location: rras\rasgetcredentials.htm
 tech.root: RRAS
 ms.assetid: 37b67845-dd9f-4adc-a33a-f0e5c0bdb6f7
-
 ms.date: 12/05/2018
 ms.keywords: RasGetCredentials, RasGetCredentials function [RAS], RasGetCredentialsA, RasGetCredentialsW, _ras_rasgetcredentials, ras/RasGetCredentials, ras/RasGetCredentialsA, ras/RasGetCredentialsW, rras.rasgetcredentials
 ms.topic: function
-f1_keywords: 
- - "ras/RasGetCredentials"
+f1_keywords:
+- ras/RasGetCredentials
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
- - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
- - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
+- Rasapi32.dll
+- Ext-MS-Win-ras-rasapi32-l1-1-0.dll
+- Ext-MS-Win-ras-rasapi32-l1-1-1.dll
 api_name:
- - RasGetCredentials
- - RasGetCredentialsA
- - RasGetCredentialsW
+- RasGetCredentials
+- RasGetCredentialsA
+- RasGetCredentialsW
 targetos: Windows
 req.typenames: 
 req.redist: 

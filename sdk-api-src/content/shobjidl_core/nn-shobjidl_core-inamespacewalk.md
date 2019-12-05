@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.INamespaceWalk
 title: INamespaceWalk (shobjidl_core.h)
-
 description: Exposes methods that walk a namespace from a given root node. The depth of the walk is specified and an optional array is returned containing the IDs of all nodes walked.
 old-location: shell\INamespaceWalk.htm
 tech.root: shell
 ms.assetid: 164732ae-1c72-465c-a16b-a8eeaa9cc185
-
 ms.date: 12/05/2018
 ms.keywords: INamespaceWalk, INamespaceWalk interface [Windows Shell], INamespaceWalk interface [Windows Shell],described, _win32_INamespaceWalk, shell.INamespaceWalk, shobjidl_core/INamespaceWalk
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/INamespaceWalk"
+f1_keywords:
+- shobjidl_core/INamespaceWalk
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - INamespaceWalk
+- INamespaceWalk
 targetos: Windows
 req.typenames: 
 req.redist: 

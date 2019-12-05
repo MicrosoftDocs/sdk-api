@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMPluginControl.SetPreferredClsid
 title: IAMPluginControl::SetPreferredClsid (strmif.h)
-
 description: Adds a class identifier (CLSID) to the preferred list or removes a CLSID from the list.
 old-location: dshow\iamplugincontrol_setpreferredclsid.htm
 tech.root: DirectShow
 ms.assetid: 45702714-6b35-4863-885e-55049258a4ae
-
 ms.date: 12/05/2018
 ms.keywords: IAMPluginControl interface [DirectShow],SetPreferredClsid method, IAMPluginControl.SetPreferredClsid, IAMPluginControl::SetPreferredClsid, SetPreferredClsid, SetPreferredClsid method [DirectShow], SetPreferredClsid method [DirectShow],IAMPluginControl interface, dshow.iamplugincontrol_setpreferredclsid, strmif/IAMPluginControl::SetPreferredClsid
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMPluginControl.SetPreferredClsid"
+f1_keywords:
+- strmif/IAMPluginControl.SetPreferredClsid
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IAMPluginControl.SetPreferredClsid
+- IAMPluginControl.SetPreferredClsid
 targetos: Windows
 req.typenames: 
 req.redist: 

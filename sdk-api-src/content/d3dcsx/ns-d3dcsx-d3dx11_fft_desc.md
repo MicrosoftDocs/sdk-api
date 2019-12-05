@@ -1,19 +1,17 @@
 ---
 UID: NS:d3dcsx.D3DX11_FFT_DESC
 title: D3DX11_FFT_DESC (d3dcsx.h)
-
 description: Describes an FFT.
 old-location: direct3d11\d3dx11_fft_desc.htm
 tech.root: direct3d11
 ms.assetid: b410e7c4-3b16-4510-9555-fc8b22fd3e2c
-
 ms.date: 12/05/2018
 ms.keywords: 68cda090-9f5e-c349-40c7-a6e3b2bd2960, D3DX11_FFT_DESC, D3DX11_FFT_DESC structure [Direct3D 11], d3dcsx/D3DX11_FFT_DESC, direct3d11.d3dx11_fft_desc
 ms.topic: struct
-f1_keywords: 
- - "d3dcsx/D3DX11_FFT_DESC"
+f1_keywords:
+- d3dcsx/D3DX11_FFT_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3dcsx.h
+- d3dcsx.h
 api_name:
- - D3DX11_FFT_DESC
+- D3DX11_FFT_DESC
 targetos: Windows
 req.typenames: D3DX11_FFT_DESC
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IManagedPoolAction
 title: IManagedPoolAction (comsvcs.h)
-
 description: Enables an object to be notified before it is released from a COM+ object pool.
 old-location: cos\imanagedpoolaction.htm
 tech.root: cossdk
 ms.assetid: 6c29bbe0-840f-4eaf-97ad-40b0f89cadfd
-
 ms.date: 12/05/2018
 ms.keywords: IManagedPoolAction, IManagedPoolAction interface [COM+], IManagedPoolAction interface [COM+],described, _cos_IManagedPoolAction, comsvcs/IManagedPoolAction, cos.imanagedpoolaction
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IManagedPoolAction"
+f1_keywords:
+- comsvcs/IManagedPoolAction
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IManagedPoolAction
+- IManagedPoolAction
 targetos: Windows
 req.typenames: 
 req.redist: 

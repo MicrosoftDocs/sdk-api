@@ -1,19 +1,17 @@
 ---
 UID: NS:perflib._STRING_BUFFER_HEADER
 title: PERF_STRING_BUFFER_HEADER (perflib.h)
-
 description: Provides information about the PERF_STRING_BUFFER_HEADER block that contains the structure.
 old-location: perf\perf_string_buffer_header.htm
 tech.root: perfctrs
 ms.assetid: 874A97BA-708E-4001-A7CA-1C3114577D7D
-
 ms.date: 12/05/2018
-ms.keywords: "*PPERF_STRING_BUFFER_HEADER, PERF_STRING_BUFFER_HEADER, PERF_STRING_BUFFER_HEADER structure [Perf], PPERF_STRING_BUFFER_HEADER, PPERF_STRING_BUFFER_HEADER structure pointer [Perf], perf.perf_string_buffer_header, perflib/PERF_STRING_BUFFER_HEADER, perflib/PPERF_STRING_BUFFER_HEADER"
+ms.keywords: '*PPERF_STRING_BUFFER_HEADER, PERF_STRING_BUFFER_HEADER, PERF_STRING_BUFFER_HEADER structure [Perf], PPERF_STRING_BUFFER_HEADER, PPERF_STRING_BUFFER_HEADER structure pointer [Perf], perf.perf_string_buffer_header, perflib/PERF_STRING_BUFFER_HEADER, perflib/PPERF_STRING_BUFFER_HEADER'
 ms.topic: struct
-f1_keywords: 
- - "perflib/PERF_STRING_BUFFER_HEADER"
+f1_keywords:
+- perflib/PERF_STRING_BUFFER_HEADER
 dev_langs:
- - c++
+- c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Perflib.h
+- Perflib.h
 api_name:
- - PERF_STRING_BUFFER_HEADER
+- PERF_STRING_BUFFER_HEADER
 targetos: Windows
 req.typenames: PERF_STRING_BUFFER_HEADER, *PPERF_STRING_BUFFER_HEADER
 req.redist: 

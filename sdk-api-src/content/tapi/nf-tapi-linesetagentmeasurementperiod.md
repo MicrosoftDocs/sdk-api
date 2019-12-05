@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineSetAgentMeasurementPeriod
 title: lineSetAgentMeasurementPeriod function (tapi.h)
-
 description: The lineSetAgentMeasurementPeriod function sets the measurement period associated with a particular agent.
 old-location: tapi2\linesetagentmeasurementperiod.htm
 tech.root: Tapi
 ms.assetid: bb84f18f-0052-45f8-8049-8576e1eb6fef
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linesetagentmeasurementperiod, lineSetAgentMeasurementPeriod, lineSetAgentMeasurementPeriod function [TAPI 2.2], tapi/lineSetAgentMeasurementPeriod, tapi2.linesetagentmeasurementperiod"
+ms.keywords: _tapi2_linesetagentmeasurementperiod, lineSetAgentMeasurementPeriod, lineSetAgentMeasurementPeriod function [TAPI 2.2], tapi/lineSetAgentMeasurementPeriod, tapi2.linesetagentmeasurementperiod
 ms.topic: function
-f1_keywords: 
- - "tapi/lineSetAgentMeasurementPeriod"
+f1_keywords:
+- tapi/lineSetAgentMeasurementPeriod
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineSetAgentMeasurementPeriod
+- lineSetAgentMeasurementPeriod
 targetos: Windows
 req.typenames: 
 req.redist: 

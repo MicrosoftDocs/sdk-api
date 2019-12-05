@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.OpenInputDesktop
 title: OpenInputDesktop function (winuser.h)
-
 description: Opens the desktop that receives user input.
 old-location: winstation\openinputdesktop.htm
 tech.root: winstation
 ms.assetid: 023d421e-bf32-4e08-b5b3-b7b2ca6c4e00
-
 ms.date: 12/05/2018
 ms.keywords: DF_ALLOWOTHERACCOUNTHOOK, OpenInputDesktop, OpenInputDesktop function [Windows Stations and Desktops], base.openinputdesktop, winstation.openinputdesktop, winuser/OpenInputDesktop
 ms.topic: function
-f1_keywords: 
- - "winuser/OpenInputDesktop"
+f1_keywords:
+- winuser/OpenInputDesktop
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Windowstation-l1-1-1.dll
- - api-ms-win-rtcore-ntuser-windowstation-l1-1-0.dll
- - Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Windowstation-l1-1-1.dll
+- api-ms-win-rtcore-ntuser-windowstation-l1-1-0.dll
+- Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
 api_name:
- - OpenInputDesktop
+- OpenInputDesktop
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineClassFactoryEx.IsTypeSupported
 title: IMFMediaEngineClassFactoryEx::IsTypeSupported (mfmediaengine.h)
-
 description: Gets a value that indicates if the specified key system supports the specified media type.
 old-location: mf\imfmediaengineclassfactoryex_istypesupported.htm
 tech.root: medfound
 ms.assetid: 6f4f50db-e491-46c2-a8b2-1b8e51033b5b
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineClassFactoryEx interface [Media Foundation],IsTypeSupported method, IMFMediaEngineClassFactoryEx.IsTypeSupported, IMFMediaEngineClassFactoryEx::IsTypeSupported, IsTypeSupported, IsTypeSupported method [Media Foundation], IsTypeSupported method [Media Foundation],IMFMediaEngineClassFactoryEx interface, mf.imfmediaengineclassfactoryex_istypesupported, mfmediaengine/IMFMediaEngineClassFactoryEx::IsTypeSupported
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineClassFactoryEx.IsTypeSupported"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineClassFactoryEx.IsTypeSupported
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineClassFactoryEx.IsTypeSupported
+- IMFMediaEngineClassFactoryEx.IsTypeSupported
 targetos: Windows
 req.typenames: 
 req.redist: 

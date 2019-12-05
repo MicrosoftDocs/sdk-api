@@ -1,19 +1,17 @@
 ---
 UID: NE:windns._DNS_CHARSET
 title: DNS_CHARSET (windns.h)
-
 description: The DNS_CHARSET enumeration specifies the character set used.
 old-location: dns\dns_charset.htm
 tech.root: DNS
 ms.assetid: 2674a4e5-c3e2-4a25-bd6f-1fc6b4db3012
-
 ms.date: 12/05/2018
 ms.keywords: DNS_CHARSET, DNS_CHARSET enumeration [DNS], DnsCharSetAnsi, DnsCharSetUnicode, DnsCharSetUnknown, DnsCharSetUtf8, dns.dns_charset, windns/DNS_CHARSET, windns/DnsCharSetAnsi, windns/DnsCharSetUnicode, windns/DnsCharSetUnknown, windns/DnsCharSetUtf8
 ms.topic: enum
-f1_keywords: 
- - "windns/DNS_CHARSET"
+f1_keywords:
+- windns/DNS_CHARSET
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - DNS_CHARSET
+- DNS_CHARSET
 targetos: Windows
 req.typenames: DNS_CHARSET
 req.redist: 

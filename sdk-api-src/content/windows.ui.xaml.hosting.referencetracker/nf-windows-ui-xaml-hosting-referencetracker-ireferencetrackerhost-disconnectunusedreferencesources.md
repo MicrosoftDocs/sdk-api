@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerHost.DisconnectUnusedReferenceSources
 title: IReferenceTrackerHost::xaml (windows.ui.xaml.hosting.referencetracker.h)
-
 description: Requests that the host perform a garbage collection and remove all unnecessary reference sources.
 old-location: winrt\ireferencetrackerhost_disconnectunusedreferencesources.htm
 tech.root: WinRT
 ms.assetid: c962299e-f813-45b8-a83b-1c1887e8c0f9
-
 ms.date: 12/05/2018
 ms.keywords: DisconnectUnusedReferenceSources, DisconnectUnusedReferenceSources method [Windows Runtime], DisconnectUnusedReferenceSources method [Windows Runtime],IReferenceTrackerHost interface, IReferenceTrackerHost interface [Windows Runtime],DisconnectUnusedReferenceSources method, IReferenceTrackerHost.DisconnectUnusedReferenceSources, IReferenceTrackerHost.xaml, IReferenceTrackerHost::DisconnectUnusedReferenceSources, IReferenceTrackerHost::xaml, windows/IReferenceTrackerHost::DisconnectUnusedReferenceSources, winrt.ireferencetrackerhost_disconnectunusedreferencesources
 ms.topic: method
-f1_keywords: 
- - "windows.ui.xaml.hosting.referencetracker/IReferenceTrackerHost.DisconnectUnusedReferenceSources"
+f1_keywords:
+- windows.ui.xaml.hosting.referencetracker/IReferenceTrackerHost.DisconnectUnusedReferenceSources
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.ui.xaml.hosting.referencetracker.h
+- Windows.ui.xaml.hosting.referencetracker.h
 api_name:
- - IReferenceTrackerHost.DisconnectUnusedReferenceSources
+- IReferenceTrackerHost.DisconnectUnusedReferenceSources
 targetos: Windows
 req.typenames: 
 req.redist: 

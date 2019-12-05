@@ -1,19 +1,17 @@
 ---
 UID: NS:shellapi._NOTIFYICONDATAA
 title: NOTIFYICONDATAA (shellapi.h)
-
 description: Contains information that the system needs to display notifications in the notification area. Used by Shell_NotifyIcon.
 old-location: shell\NOTIFYICONDATA.htm
 tech.root: shell
 ms.assetid: fdcc42c1-b3e5-4b04-8d79-7b6c29699d53
-
 ms.date: 12/05/2018
-ms.keywords: "*PNOTIFYICONDATAA, 0, NIF_GUID, NIF_ICON, NIF_INFO, NIF_MESSAGE, NIF_REALTIME, NIF_SHOWTIP, NIF_STATE, NIF_TIP, NIIF_ERROR, NIIF_ICON_MASK, NIIF_INFO, NIIF_LARGE_ICON, NIIF_NONE, NIIF_NOSOUND, NIIF_RESPECT_QUIET_TIME, NIIF_USER, NIIF_WARNING, NIS_HIDDEN, NIS_SHAREDICON, NOTIFYICONDATA, NOTIFYICONDATA structure [Windows Shell], NOTIFYICONDATAA, NOTIFYICON_VERSION, NOTIFYICON_VERSION_4, PNOTIFYICONDATA, PNOTIFYICONDATA structure pointer [Windows Shell], _win32_NOTIFYICONDATA, shell.NOTIFYICONDATA, shellapi/NOTIFYICONDATA, shellapi/PNOTIFYICONDATA"
+ms.keywords: '*PNOTIFYICONDATAA, 0, NIF_GUID, NIF_ICON, NIF_INFO, NIF_MESSAGE, NIF_REALTIME, NIF_SHOWTIP, NIF_STATE, NIF_TIP, NIIF_ERROR, NIIF_ICON_MASK, NIIF_INFO, NIIF_LARGE_ICON, NIIF_NONE, NIIF_NOSOUND, NIIF_RESPECT_QUIET_TIME, NIIF_USER, NIIF_WARNING, NIS_HIDDEN, NIS_SHAREDICON, NOTIFYICONDATA, NOTIFYICONDATA structure [Windows Shell], NOTIFYICONDATAA, NOTIFYICON_VERSION, NOTIFYICON_VERSION_4, PNOTIFYICONDATA, PNOTIFYICONDATA structure pointer [Windows Shell], _win32_NOTIFYICONDATA, shell.NOTIFYICONDATA, shellapi/NOTIFYICONDATA, shellapi/PNOTIFYICONDATA'
 ms.topic: struct
-f1_keywords: 
- - "shellapi/NOTIFYICONDATA"
+f1_keywords:
+- shellapi/NOTIFYICONDATA
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shellapi.h
+- Shellapi.h
 api_name:
- - NOTIFYICONDATA
- - NOTIFYICONDATAA
+- NOTIFYICONDATA
+- NOTIFYICONDATAA
 targetos: Windows
 req.typenames: NOTIFYICONDATAA, *PNOTIFYICONDATAA
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.DrawThemeText
 title: DrawThemeText function (uxtheme.h)
-
 description: Draws text using the color and font defined by the visual style.
 old-location: controls\DrawThemeText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemetext.htm
-
 ms.date: 12/05/2018
 ms.keywords: DrawThemeText, DrawThemeText function [Windows Controls], controls.DrawThemeText, controls.inet_DrawThemeText, inet_DrawThemeText, inet_DrawThemeText_cpp, uxtheme/DrawThemeText
 ms.topic: function
-f1_keywords: 
- - "uxtheme/DrawThemeText"
+f1_keywords:
+- uxtheme/DrawThemeText
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
+- UxTheme.dll
 api_name:
- - DrawThemeText
+- DrawThemeText
 targetos: Windows
 req.typenames: 
 req.redist: 

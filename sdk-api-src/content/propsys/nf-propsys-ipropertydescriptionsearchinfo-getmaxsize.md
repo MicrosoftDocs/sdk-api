@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyDescriptionSearchInfo.GetMaxSize
 title: IPropertyDescriptionSearchInfo::GetMaxSize (propsys.h)
-
 description: Gets the maximum size value from the property schema's searchInfo element.
 old-location: properties\IPropertyDescriptionSearchInfo_GetMaxSize.htm
 tech.root: properties
 ms.assetid: a1d5812a-0166-4d63-93a7-c6dc2a6e247d
-
 ms.date: 12/05/2018
 ms.keywords: GetMaxSize, GetMaxSize method [Windows Properties], GetMaxSize method [Windows Properties],IPropertyDescriptionSearchInfo interface, IPropertyDescriptionSearchInfo interface [Windows Properties],GetMaxSize method, IPropertyDescriptionSearchInfo.GetMaxSize, IPropertyDescriptionSearchInfo::GetMaxSize, _shell_IPropertyDescriptionSearchInfo_GetMaxSize, properties.IPropertyDescriptionSearchInfo_GetMaxSize, propsys/IPropertyDescriptionSearchInfo::GetMaxSize, shell.IPropertyDescriptionSearchInfo_GetMaxSize
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertyDescriptionSearchInfo.GetMaxSize"
+f1_keywords:
+- propsys/IPropertyDescriptionSearchInfo.GetMaxSize
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyDescriptionSearchInfo.GetMaxSize
+- IPropertyDescriptionSearchInfo.GetMaxSize
 targetos: Windows
 req.typenames: 
 req.redist: 

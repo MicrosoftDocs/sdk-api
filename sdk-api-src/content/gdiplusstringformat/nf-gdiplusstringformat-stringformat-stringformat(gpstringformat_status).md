@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.StringFormat(GpStringFormat,Status)
 title: StringFormat::StringFormat(GpStringFormat,Status) (gdiplusstringformat.h)
-
 description: This topic lists the constructors of the StringFormat class. For a complete class listing, see StringFormat Class.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_Constructors.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatconstructors.htm
-
 ms.date: 12/05/2018
 ms.keywords: StringFormat, StringFormat constructors [GDI+], StringFormat.StringFormat, StringFormat.StringFormat(GpStringFormat,Status), StringFormat::StringFormat, StringFormat::StringFormat(GpStringFormat,Status), _gdiplus_CLASS_StringFormat_Constructors, gdiplus._gdiplus_CLASS_StringFormat_Constructors, gdiplusstringformat/StringFormat
 ms.topic: method
-f1_keywords: 
- - "gdiplusstringformat/StringFormat.StringFormat"
+f1_keywords:
+- gdiplusstringformat/StringFormat.StringFormat
 dev_langs:
- - c++
+- c++
 req.header: gdiplusstringformat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - gdiplusstringformat.h
+- gdiplusstringformat.h
 api_name:
- - StringFormat.StringFormat
+- StringFormat.StringFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

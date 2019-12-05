@@ -1,19 +1,17 @@
 ---
 UID: NE:wmp.WMPSyncState
 title: WMPSyncState (wmp.h)
-
 description: The WMPSyncState enumeration type defines the possible operational states of Windows Media Player as it synchronizes digital media to a device. To use this enumeration you must create a remoted instance of the Windows Media Player 10 or later control.
 old-location: wmp\wmpsyncstate.htm
 tech.root: WMP
 ms.assetid: 8f1e8026-bbde-42bc-8ac8-555cc363b0b9
-
 ms.date: 12/05/2018
 ms.keywords: WMPSyncState, WMPSyncState enumeration [Windows Media Player], wmp.wmpsyncstate, wmp/WMPSyncState, wmp/wmpssEstimating, wmp/wmpssLast, wmp/wmpssStopped, wmp/wmpssSynchronizing, wmp/wmpssUnknown, wmpssEstimating, wmpssLast, wmpssStopped, wmpssSynchronizing, wmpssUnknown
 ms.topic: enum
-f1_keywords: 
- - "wmp/WMPSyncState"
+f1_keywords:
+- wmp/WMPSyncState
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - WMPSyncState
+- WMPSyncState
 targetos: Windows
 req.typenames: WMPSyncState
 req.redist: 

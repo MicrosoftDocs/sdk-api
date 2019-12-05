@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage.get_OriginalScheduledTime
 title: IFaxOutgoingMessage::get_OriginalScheduledTime (faxcomex.h)
-
 description: The IFaxOutgoingMessage::get_OriginalScheduledTime property specifies the time that the fax message was originally scheduled for transmission.
 old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_originalscheduledtime_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_97s5.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingMessage interface [Fax Service],OriginalScheduledTime property, IFaxOutgoingMessage.OriginalScheduledTime, IFaxOutgoingMessage.get_OriginalScheduledTime, IFaxOutgoingMessage::OriginalScheduledTime, IFaxOutgoingMessage::get_OriginalScheduledTime, OriginalScheduledTime property [Fax Service], OriginalScheduledTime property [Fax Service],IFaxOutgoingMessage interface, _mfax_faxoutgoingmessage.originalscheduledtime, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_originalscheduledtime_cpp, fax._mfax_faxoutgoingmessage_originalscheduledtime, faxcomex/IFaxOutgoingMessage::OriginalScheduledTime, faxcomex/IFaxOutgoingMessage::get_OriginalScheduledTime, get_OriginalScheduledTime
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingMessage.OriginalScheduledTime"
+f1_keywords:
+- faxcomex/IFaxOutgoingMessage.OriginalScheduledTime
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingMessage.OriginalScheduledTime
- - IFaxOutgoingMessage.get_OriginalScheduledTime
- - IFaxOutgoingMessage.get_OriginalScheduledTime
+- IFaxOutgoingMessage.OriginalScheduledTime
+- IFaxOutgoingMessage.get_OriginalScheduledTime
+- IFaxOutgoingMessage.get_OriginalScheduledTime
 targetos: Windows
 req.typenames: 
 req.redist: 

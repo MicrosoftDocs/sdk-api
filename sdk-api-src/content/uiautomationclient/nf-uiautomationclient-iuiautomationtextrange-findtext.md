@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.FindText
 title: IUIAutomationTextRange::FindText (uiautomationclient.h)
-
 description: Retrieves a text range subset that contains the specified text.
 old-location: winauto\uiauto_IUIAutomationTextRange_FindText.htm
 tech.root: WinAuto
 ms.assetid: 1d6e9216-747b-45b5-90ac-ec19d36e5a0a
-
 ms.date: 12/05/2018
 ms.keywords: FindText, FindText method [Windows Accessibility], FindText method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],FindText method, IUIAutomationTextRange.FindText, IUIAutomationTextRange::FindText, uiauto.uiauto_IUIAutomationTextRange_FindText, uiauto_IUIAutomationTextRange_FindText, uiautomationclient/IUIAutomationTextRange::FindText, winauto.uiauto_IUIAutomationTextRange_FindText
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTextRange.FindText"
+f1_keywords:
+- uiautomationclient/IUIAutomationTextRange.FindText
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTextRange.FindText
+- IUIAutomationTextRange.FindText
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantGetElementCount
 title: PropVariantGetElementCount function (propvarutil.h)
-
 description: Retrieves the element count of a PROPVARIANT structure.
 old-location: properties\PropVariantGetElementCount.htm
 tech.root: properties
 ms.assetid: 1d02f06e-f90b-40f2-923b-a89d2d4d535c
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantGetElementCount, PropVariantGetElementCount function [Windows Properties], _shell_PropVariantGetElementCount, properties.PropVariantGetElementCount, propvarutil/PropVariantGetElementCount, shell.PropVariantGetElementCount
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantGetElementCount"
+f1_keywords:
+- propvarutil/PropVariantGetElementCount
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantGetElementCount
+- PropVariantGetElementCount
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

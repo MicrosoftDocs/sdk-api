@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncChange.GetChangeUnits
 title: ISyncChange::GetChangeUnits (winsync.h)
-
 description: Gets an object that can enumerate change units that are contained in this change.
 old-location: winsync\isyncchange_getchangeunits.htm
 tech.root: winsync
 ms.assetid: d3d0d805-ed29-4c88-925a-a16e130a3fe5
-
 ms.date: 12/05/2018
 ms.keywords: GetChangeUnits, GetChangeUnits method [Windows Sync], GetChangeUnits method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetChangeUnits method, ISyncChange.GetChangeUnits, ISyncChange::GetChangeUnits, winsync.isyncchange_getchangeunits, winsync/ISyncChange::GetChangeUnits
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncChange.GetChangeUnits"
+f1_keywords:
+- winsync/ISyncChange.GetChangeUnits
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChange.GetChangeUnits
+- ISyncChange.GetChangeUnits
 targetos: Windows
 req.typenames: 
 req.redist: 

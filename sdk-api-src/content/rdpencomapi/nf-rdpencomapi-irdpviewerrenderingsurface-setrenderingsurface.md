@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPViewerRenderingSurface.SetRenderingSurface
 title: IRDPViewerRenderingSurface::SetRenderingSurface (rdpencomapi.h)
-
 description: Sets the rendering surface to be used by the viewer.
 old-location: rdp\irdpviewerrenderingsurface_setrenderingsurface.htm
 tech.root: rdp
 ms.assetid: e70541ab-fc23-4960-be38-8eb6849ab14f
-
 ms.date: 12/05/2018
 ms.keywords: IRDPViewerRenderingSurface interface [RDP],SetRenderingSurface method, IRDPViewerRenderingSurface.SetRenderingSurface, IRDPViewerRenderingSurface::SetRenderingSurface, SetRenderingSurface, SetRenderingSurface method [RDP], SetRenderingSurface method [RDP],IRDPViewerRenderingSurface interface, rdp.irdpviewerrenderingsurface_setrenderingsurface, rdpencomapi/IRDPViewerRenderingSurface::SetRenderingSurface
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPViewerRenderingSurface.SetRenderingSurface"
+f1_keywords:
+- rdpencomapi/IRDPViewerRenderingSurface.SetRenderingSurface
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPViewerRenderingSurface.SetRenderingSurface
+- IRDPViewerRenderingSurface.SetRenderingSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

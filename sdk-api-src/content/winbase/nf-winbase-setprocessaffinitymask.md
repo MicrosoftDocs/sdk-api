@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.SetProcessAffinityMask
 title: SetProcessAffinityMask function (winbase.h)
-
 description: Sets a processor affinity mask for the threads of the specified process.
 old-location: base\setprocessaffinitymask.htm
 tech.root: ProcThread
 ms.assetid: 210b4c95-4072-4039-aa4f-6b0d85758359
-
 ms.date: 12/05/2018
 ms.keywords: SetProcessAffinityMask, SetProcessAffinityMask function, _win32_setprocessaffinitymask, base.setprocessaffinitymask, winbase/SetProcessAffinityMask
 ms.topic: function
-f1_keywords: 
- - "winbase/SetProcessAffinityMask"
+f1_keywords:
+- winbase/SetProcessAffinityMask
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-ProcessTopology-Obsolete-l1-1-0.dll
- - API-MS-Win-Core-ProcessTopology-Obsolete-L1-1-1.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-Core-ProcessTopology-Obsolete-l1-1-0.dll
+- API-MS-Win-Core-ProcessTopology-Obsolete-L1-1-1.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- Kernel32Legacy.dll
 api_name:
- - SetProcessAffinityMask
+- SetProcessAffinityMask
 targetos: Windows
 req.typenames: 
 req.redist: 

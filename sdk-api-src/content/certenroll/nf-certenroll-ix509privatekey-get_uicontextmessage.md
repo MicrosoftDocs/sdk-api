@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.get_UIContextMessage
 title: IX509PrivateKey::get_UIContextMessage (certenroll.h)
-
 description: Specifies or retrieves a string that contains user interface text associated with the private key.
 old-location: security\ix509privatekey_uicontextmessage_property.htm
 tech.root: seccertenroll
 ms.assetid: a1a6a474-5ffa-4b68-b84f-b0c9bea30ee5
-
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey interface [Security],UIContextMessage property, IX509PrivateKey.UIContextMessage, IX509PrivateKey.get_UIContextMessage, IX509PrivateKey::UIContextMessage, IX509PrivateKey::get_UIContextMessage, IX509PrivateKey::put_UIContextMessage, UIContextMessage property [Security], UIContextMessage property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::UIContextMessage, certenroll/IX509PrivateKey::get_UIContextMessage, certenroll/IX509PrivateKey::put_UIContextMessage, get_UIContextMessage, security.ix509privatekey_uicontextmessage_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509PrivateKey.UIContextMessage"
+f1_keywords:
+- certenroll/IX509PrivateKey.UIContextMessage
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509PrivateKey.UIContextMessage
- - IX509PrivateKey.get_UIContextMessage
- - IX509PrivateKey.put_UIContextMessage
+- IX509PrivateKey.UIContextMessage
+- IX509PrivateKey.get_UIContextMessage
+- IX509PrivateKey.put_UIContextMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

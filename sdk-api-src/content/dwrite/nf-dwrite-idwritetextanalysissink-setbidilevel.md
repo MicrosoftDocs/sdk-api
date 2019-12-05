@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalysisSink.SetBidiLevel
 title: IDWriteTextAnalysisSink::SetBidiLevel (dwrite.h)
-
 description: Sets a bidirectional level on the range, which is called once per run change (either explicit or resolved implicit).
 old-location: directwrite\idwritetextanalysissink_setbidilevel.htm
 tech.root: DirectWrite
 ms.assetid: f51bae22-b4a0-4f72-a341-4479d66cfec5
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextAnalysisSink interface [Direct Write],SetBidiLevel method, IDWriteTextAnalysisSink.SetBidiLevel, IDWriteTextAnalysisSink::SetBidiLevel, SetBidiLevel, SetBidiLevel method [Direct Write], SetBidiLevel method [Direct Write],IDWriteTextAnalysisSink interface, directwrite.idwritetextanalysissink_setbidilevel, dwrite/IDWriteTextAnalysisSink::SetBidiLevel
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextAnalysisSink.SetBidiLevel"
+f1_keywords:
+- dwrite/IDWriteTextAnalysisSink.SetBidiLevel
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextAnalysisSink.SetBidiLevel
+- IDWriteTextAnalysisSink.SetBidiLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

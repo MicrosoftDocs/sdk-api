@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoGetMalloc
 title: CoGetMalloc function (combaseapi.h)
-
 description: Retrieves a pointer to the default OLE task memory allocator (which supports the system implementation of the IMalloc interface) so applications can call its methods to manage memory.
 old-location: com\cogetmalloc.htm
 tech.root: com
 ms.assetid: d1d09fbe-ca5c-4480-b807-3afcc043ccb9
-
 ms.date: 12/05/2018
 ms.keywords: CoGetMalloc, CoGetMalloc function [COM], _com_CoGetMalloc, com.cogetmalloc, combaseapi/CoGetMalloc
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoGetMalloc"
+f1_keywords:
+- combaseapi/CoGetMalloc
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoGetMalloc
+- CoGetMalloc
 targetos: Windows
 req.typenames: 
 req.redist: 

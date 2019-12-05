@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ILaunchSourceViewSizePreference.GetSourceViewSizePreference
 title: ILaunchSourceViewSizePreference::GetSourceViewSizePreference (shobjidl_core.h)
-
 description: Retrieves the view size preference of the application after the application has launched.
 old-location: shell\ILaunchSourceViewSizePreference_GetSourceViewSizePreference.htm
 tech.root: shell
 ms.assetid: A151EA3D-42EE-4F22-B2A8-C696F582F81C
-
 ms.date: 12/05/2018
 ms.keywords: GetSourceViewSizePreference, GetSourceViewSizePreference method [Windows Shell], GetSourceViewSizePreference method [Windows Shell],ILaunchSourceViewSizePreference interface, ILaunchSourceViewSizePreference interface [Windows Shell],GetSourceViewSizePreference method, ILaunchSourceViewSizePreference.GetSourceViewSizePreference, ILaunchSourceViewSizePreference::GetSourceViewSizePreference, shell.ILaunchSourceViewSizePreference_GetSourceViewSizePreference, shobjidl_core/ILaunchSourceViewSizePreference::GetSourceViewSizePreference
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ILaunchSourceViewSizePreference.GetSourceViewSizePreference"
+f1_keywords:
+- shobjidl_core/ILaunchSourceViewSizePreference.GetSourceViewSizePreference
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ILaunchSourceViewSizePreference.GetSourceViewSizePreference
+- ILaunchSourceViewSizePreference.GetSourceViewSizePreference
 targetos: Windows
 req.typenames: 
 req.redist: 

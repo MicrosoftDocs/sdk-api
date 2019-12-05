@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmLayerEnum0
 title: FwpmLayerEnum0 function (fwpmu.h)
-
 description: Returns the next page of results from the layer enumerator.
 old-location: fwp\fwpmlayerenum0_func.htm
 tech.root: fwp
 ms.assetid: 0bcf0b85-713f-4f82-9cb5-cb1725c8167b
-
 ms.date: 12/05/2018
 ms.keywords: FwpmLayerEnum0, FwpmLayerEnum0 function [Filtering], fwp.fwpmlayerenum0_func, fwpmu/FwpmLayerEnum0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmLayerEnum0"
+f1_keywords:
+- fwpmu/FwpmLayerEnum0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmLayerEnum0
+- FwpmLayerEnum0
 targetos: Windows
 req.typenames: 
 req.redist: 

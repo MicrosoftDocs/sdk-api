@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupQuerySourceListW
 title: SetupQuerySourceListW function (setupapi.h)
-
 description: The SetupQuerySourceList function queries the current list of installation sources. The list is built from the system and user-specific lists, and potentially overridden by a temporary list (see SetupSetSourceList).
 old-location: setup\setupquerysourcelist.htm
 tech.root: SetupApi
 ms.assetid: 8d1de1d5-5b82-45ae-b29c-4f9a93d28c6e
-
 ms.date: 12/05/2018
 ms.keywords: SetupQuerySourceList, SetupQuerySourceList function [Setup API], SetupQuerySourceListA, SetupQuerySourceListW, _setupapi_setupquerysourcelist, setup.setupquerysourcelist, setupapi/SetupQuerySourceList, setupapi/SetupQuerySourceListA, setupapi/SetupQuerySourceListW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupQuerySourceList"
+f1_keywords:
+- setupapi/SetupQuerySourceList
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupQuerySourceList
- - SetupQuerySourceListA
- - SetupQuerySourceListW
+- SetupQuerySourceList
+- SetupQuerySourceListA
+- SetupQuerySourceListW
 targetos: Windows
 req.typenames: 
 req.redist: 

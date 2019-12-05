@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToFileTimeVector
 title: PropVariantToFileTimeVector function (propvarutil.h)
-
 description: Extracts data from a PROPVARIANT structure into a FILETIME vector.
 old-location: properties\PropVariantToFileTimeVector.htm
 tech.root: properties
 ms.assetid: ef665f50-3f3b-47db-9133-490305da5341
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToFileTimeVector, PropVariantToFileTimeVector function [Windows Properties], _shell_PropVariantToFileTimeVector, properties.PropVariantToFileTimeVector, propvarutil/PropVariantToFileTimeVector, shell.PropVariantToFileTimeVector
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToFileTimeVector"
+f1_keywords:
+- propvarutil/PropVariantToFileTimeVector
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToFileTimeVector
+- PropVariantToFileTimeVector
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

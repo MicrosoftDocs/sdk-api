@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcRelationshipSet.CreateRelationship
 title: IOpcRelationshipSet::CreateRelationship (msopc.h)
-
 description: Creates a relationship object that represents a specified relationship, then adds to the set a pointer to the object's IOpcRelationship interface.
 old-location: opc\iopcrelationshipset_createrelationship.htm
 tech.root: OPC
 ms.assetid: 0cbf7446-d94e-447f-a82b-3d56a8036c19
-
 ms.date: 12/05/2018
 ms.keywords: CreateRelationship, CreateRelationship method [Open Packaging Conventions], CreateRelationship method [Open Packaging Conventions],IOpcRelationshipSet interface, IOpcRelationshipSet interface [Open Packaging Conventions],CreateRelationship method, IOpcRelationshipSet.CreateRelationship, IOpcRelationshipSet::CreateRelationship, msopc/IOpcRelationshipSet::CreateRelationship, opc.iopcrelationshipset_createrelationship
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcRelationshipSet.CreateRelationship"
+f1_keywords:
+- msopc/IOpcRelationshipSet.CreateRelationship
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcRelationshipSet.CreateRelationship
+- IOpcRelationshipSet.CreateRelationship
 targetos: Windows
 req.typenames: 
 req.redist: 

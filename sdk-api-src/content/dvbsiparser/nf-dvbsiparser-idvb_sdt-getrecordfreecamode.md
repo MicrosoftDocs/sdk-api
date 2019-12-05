@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDVB_SDT.GetRecordFreeCAMode
 title: IDVB_SDT::GetRecordFreeCAMode (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_sdt_getrecordfreecamode.htm
 tech.root: mstv
 ms.assetid: 95dfb36b-e6bc-4cfe-bff1-08763a8e245d
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordFreeCAMode, GetRecordFreeCAMode method [Microsoft TV Technologies], GetRecordFreeCAMode method [Microsoft TV Technologies],IDVB_SDT interface, IDVB_SDT interface [Microsoft TV Technologies],GetRecordFreeCAMode method, IDVB_SDT.GetRecordFreeCAMode, IDVB_SDT::GetRecordFreeCAMode, IDVB_SDTGetRecordFreeCAMode, dvbsiparser/IDVB_SDT::GetRecordFreeCAMode, mstv.idvb_sdt_getrecordfreecamode
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDVB_SDT.GetRecordFreeCAMode"
+f1_keywords:
+- dvbsiparser/IDVB_SDT.GetRecordFreeCAMode
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDVB_SDT.GetRecordFreeCAMode
+- IDVB_SDT.GetRecordFreeCAMode
 targetos: Windows
 req.typenames: 
 req.redist: 

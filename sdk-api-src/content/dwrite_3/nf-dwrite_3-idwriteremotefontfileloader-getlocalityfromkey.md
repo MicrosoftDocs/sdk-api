@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteRemoteFontFileLoader.GetLocalityFromKey
 title: IDWriteRemoteFontFileLoader::GetLocalityFromKey (dwrite_3.h)
-
 description: Gets the locality of the file resource identified by the unique key.
 old-location: directwrite\idwriteremotefontfileloader_getlocalityfromkey.htm
 tech.root: DirectWrite
 ms.assetid: 997D8F04-8667-4D90-B097-CD48F979BE02
-
 ms.date: 12/05/2018
 ms.keywords: GetLocalityFromKey, GetLocalityFromKey method [Direct Write], GetLocalityFromKey method [Direct Write],IDWriteRemoteFontFileLoader interface, IDWriteRemoteFontFileLoader interface [Direct Write],GetLocalityFromKey method, IDWriteRemoteFontFileLoader.GetLocalityFromKey, IDWriteRemoteFontFileLoader::GetLocalityFromKey, directwrite.idwriteremotefontfileloader_getlocalityfromkey, dwrite_3/IDWriteRemoteFontFileLoader::GetLocalityFromKey
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteRemoteFontFileLoader.GetLocalityFromKey"
+f1_keywords:
+- dwrite_3/IDWriteRemoteFontFileLoader.GetLocalityFromKey
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteRemoteFontFileLoader.GetLocalityFromKey
+- IDWriteRemoteFontFileLoader.GetLocalityFromKey
 targetos: Windows
 req.typenames: 
 req.redist: 

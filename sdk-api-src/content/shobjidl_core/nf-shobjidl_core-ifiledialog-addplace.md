@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.AddPlace
 title: IFileDialog::AddPlace (shobjidl_core.h)
-
 description: Adds a folder to the list of places available for the user to open or save items.
 old-location: shell\IFileDialog_AddPlace.htm
 tech.root: shell
 ms.assetid: 2196e73f-4e0f-4213-b0a2-13a047486f40
-
 ms.date: 12/05/2018
 ms.keywords: AddPlace, AddPlace method [Windows Shell], AddPlace method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],AddPlace method, IFileDialog.AddPlace, IFileDialog::AddPlace, shell.IFileDialog_AddPlace, shell_IFileDialog_AddPlace, shobjidl_core/IFileDialog::AddPlace
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialog.AddPlace"
+f1_keywords:
+- shobjidl_core/IFileDialog.AddPlace
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialog.AddPlace
+- IFileDialog.AddPlace
 targetos: Windows
 req.typenames: 
 req.redist: 

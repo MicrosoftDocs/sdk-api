@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.QISearch
 title: QISearch function (shlwapi.h)
-
 description: A table-driven implementation of the IUnknown::QueryInterface method.
 old-location: shell\QISearch.htm
 tech.root: shell
 ms.assetid: 8429778b-bc9c-43f6-8d75-0fb78e36e790
-
 ms.date: 12/05/2018
 ms.keywords: QISearch, QISearch function [Windows Shell], _win32_QISearch, shell.QISearch, shlwapi/QISearch
 ms.topic: function
-f1_keywords: 
- - "shlwapi/QISearch"
+f1_keywords:
+- shlwapi/QISearch
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - QISearch
+- QISearch
 targetos: Windows
 req.typenames: 
 req.redist: 

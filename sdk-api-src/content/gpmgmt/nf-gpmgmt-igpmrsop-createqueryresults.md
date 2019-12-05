@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMRSOP.CreateQueryResults
 title: IGPMRSOP::CreateQueryResults (gpmgmt.h)
-
 description: Executes a Resultant Set of Policy (RSoP) query.
 old-location: gpmc\igpmrsop_createqueryresults.htm
 tech.root: gpmc
 ms.assetid: 2259a014-3ecb-480d-ab65-9d27c0acf26c
-
 ms.date: 12/05/2018
 ms.keywords: CreateQueryResults, CreateQueryResults method [GPMC], CreateQueryResults method [GPMC],GPMRSOP object, CreateQueryResults method [GPMC],IGPMRSOP interface, GPMRSOP object [GPMC],CreateQueryResults method, IGPMRSOP interface [GPMC],CreateQueryResults method, IGPMRSOP.CreateQueryResults, IGPMRSOP::CreateQueryResults, _win32_igpmrsop_createqueryresults, gpmc.igpmrsop_createqueryresults, gpmgmt/IGPMRSOP::CreateQueryResults
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMRSOP.CreateQueryResults"
+f1_keywords:
+- gpmgmt/IGPMRSOP.CreateQueryResults
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMRSOP.CreateQueryResults
- - GPMRSOP.CreateQueryResults
+- IGPMRSOP.CreateQueryResults
+- GPMRSOP.CreateQueryResults
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfUIElementMgr.UpdateUIElement
 title: ITfUIElementMgr::UpdateUIElement (msctf.h)
-
 description: The ITfUIElementMgr::UpdateUIElement method is called by a text service when the UI element must be updated.
 old-location: tsf\itfuielementmgr_updateuielement.htm
 tech.root: TSF
 ms.assetid: c7df9abf-53a0-41a4-aac5-d90b9abfbeec
-
 ms.date: 12/05/2018
 ms.keywords: ITfUIElementMgr interface [Text Services Framework],UpdateUIElement method, ITfUIElementMgr.UpdateUIElement, ITfUIElementMgr::UpdateUIElement, UpdateUIElement, UpdateUIElement method [Text Services Framework], UpdateUIElement method [Text Services Framework],ITfUIElementMgr interface, msctf/ITfUIElementMgr::UpdateUIElement, tsf.itfuielementmgr_updateuielement
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfUIElementMgr.UpdateUIElement"
+f1_keywords:
+- msctf/ITfUIElementMgr.UpdateUIElement
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfUIElementMgr.UpdateUIElement
+- ITfUIElementMgr.UpdateUIElement
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

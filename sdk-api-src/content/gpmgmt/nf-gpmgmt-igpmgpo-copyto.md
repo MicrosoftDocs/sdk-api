@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.CopyTo
 title: IGPMGPO::CopyTo (gpmgmt.h)
-
 description: Copies the current Group Policy object (GPO) to the specified domain and then returns a pointer to the copy of the GPO.
 old-location: gpmc\igpmgpo_copyto.htm
 tech.root: gpmc
 ms.assetid: 17f4c6b2-6c75-4d4c-88c5-6d9ef2cb7a07
-
 ms.date: 12/05/2018
 ms.keywords: CopyTo, CopyTo method [GPMC], CopyTo method [GPMC],GPMGPO object, CopyTo method [GPMC],IGPMGPO interface, GPMGPO object [GPMC],CopyTo method, IGPMGPO interface [GPMC],CopyTo method, IGPMGPO.CopyTo, IGPMGPO::CopyTo, _win32_igpmgpo_copyto, gpmc.igpmgpo_copyto, gpmgmt/IGPMGPO::CopyTo
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMGPO.CopyTo"
+f1_keywords:
+- gpmgmt/IGPMGPO.CopyTo
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMGPO.CopyTo
- - GPMGPO.CopyTo
+- IGPMGPO.CopyTo
+- GPMGPO.CopyTo
 targetos: Windows
 req.typenames: 
 req.redist: 

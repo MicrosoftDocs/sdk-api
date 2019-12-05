@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingLookupNext
 title: RpcNsBindingLookupNext function (rpcnsi.h)
-
 description: The RpcNsBindingLookupNext function returns a list of compatible binding handles for a specified interface and optionally an object.
 old-location: rpc\rpcnsbindinglookupnext.htm
 tech.root: Rpc
 ms.assetid: 068913fb-f9ca-4e03-93d7-3484ba43472e
-
 ms.date: 12/05/2018
 ms.keywords: RpcNsBindingLookupNext, RpcNsBindingLookupNext function [RPC], _rpc_rpcnsbindinglookupnext, rpc.rpcnsbindinglookupnext, rpcnsi/RpcNsBindingLookupNext
 ms.topic: function
-f1_keywords: 
- - "rpcnsi/RpcNsBindingLookupNext"
+f1_keywords:
+- rpcnsi/RpcNsBindingLookupNext
 dev_langs:
- - c++
+- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcns4.dll
+- Rpcns4.dll
 api_name:
- - RpcNsBindingLookupNext
+- RpcNsBindingLookupNext
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiInstallProductA
 title: MsiInstallProductA function (msi.h)
-
 description: Installs or uninstalls a product.
 old-location: setup\msiinstallproduct.htm
 tech.root: Msi
 ms.assetid: ec8d6710-ecfe-432c-ba1d-2e3532a25988
-
 ms.date: 12/05/2018
 ms.keywords: MsiInstallProduct, MsiInstallProduct function, MsiInstallProductA, MsiInstallProductW, _msi_msiinstallproduct, msi/MsiInstallProduct, msi/MsiInstallProductA, msi/MsiInstallProductW, setup.msiinstallproduct
 ms.topic: function
-f1_keywords: 
- - "msi/MsiInstallProduct"
+f1_keywords:
+- msi/MsiInstallProduct
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
- - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+- Msi.dll
+- Ext-MS-Win-MSi-Misc-L1-1-0.dll
 api_name:
- - MsiInstallProduct
- - MsiInstallProductA
- - MsiInstallProductW
+- MsiInstallProduct
+- MsiInstallProductA
+- MsiInstallProductW
 targetos: Windows
 req.typenames: 
 req.redist: 

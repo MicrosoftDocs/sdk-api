@@ -1,19 +1,17 @@
 ---
 UID: NE:appmodel.AppPolicyClrCompat
 title: AppPolicyClrCompat (appmodel.h)
-
 description: The AppPolicyClrCompat enumeration indicates the application type of a process so that you can determine whether to enable private reflection and/or make managed objects agile.
 old-location: appxpkg\apppolicyclrcompat.htm
 tech.root: appxpkg
 ms.assetid: 2653340E-FCDD-41B7-B72C-F99C92920645
-
 ms.date: 12/05/2018
 ms.keywords: AppPolicyClrCompat, AppPolicyClrCompat enumeration [App packaging and management], AppPolicyClrCompat_ClassicDesktop, AppPolicyClrCompat_Other, AppPolicyClrCompat_PackagedDesktop, AppPolicyClrCompat_Universal, appmodel/AppPolicyClrCompat, appmodel/AppPolicyClrCompat_ClassicDesktop, appmodel/AppPolicyClrCompat_Other, appmodel/AppPolicyClrCompat_PackagedDesktop, appmodel/AppPolicyClrCompat_Universal, appxpkg.apppolicyclrcompat
 ms.topic: enum
-f1_keywords: 
- - "appmodel/AppPolicyClrCompat"
+f1_keywords:
+- appmodel/AppPolicyClrCompat
 dev_langs:
- - c++
+- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AppModel.h
+- AppModel.h
 api_name:
- - AppPolicyClrCompat
+- AppPolicyClrCompat
 targetos: Windows
 req.typenames: AppPolicyClrCompat
 req.redist: 

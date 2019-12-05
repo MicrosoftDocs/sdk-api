@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.IAccessibilityDockingServiceCallback
 title: IAccessibilityDockingServiceCallback (shobjidl.h)
-
 description: Receives Acessibility Window Docking events.
 old-location: com\iaccessibilitydockingservicecallback.htm
 tech.root: com
 ms.assetid: D69C8040-AAC4-4149-ACDA-948FDBACAB48
-
 ms.date: 12/05/2018
 ms.keywords: IAccessibilityDockingServiceCallback, IAccessibilityDockingServiceCallback interface [COM], IAccessibilityDockingServiceCallback interface [COM],described, com.iaccessibilitydockingservicecallback, shobjidl/IAccessibilityDockingServiceCallback
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/IAccessibilityDockingServiceCallback"
+f1_keywords:
+- shobjidl/IAccessibilityDockingServiceCallback
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl.h
+- shobjidl.h
 api_name:
- - IAccessibilityDockingServiceCallback
- - IAccessibilityDockingServiceCallback.Undocked
+- IAccessibilityDockingServiceCallback
+- IAccessibilityDockingServiceCallback.Undocked
 targetos: Windows
 req.typenames: 
 req.redist: 

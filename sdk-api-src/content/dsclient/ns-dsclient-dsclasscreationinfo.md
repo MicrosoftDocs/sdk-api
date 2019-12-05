@@ -1,19 +1,17 @@
 ---
 UID: NS:dsclient.__unnamed_struct_4
 title: DSCLASSCREATIONINFO (dsclient.h)
-
 description: Used with the IDsDisplaySpecifier::GetClassCreationInfo method to hold data about the class creation wizard objects for an object class.
 old-location: ad\dsclasscreationinfo.htm
 tech.root: ad
 ms.assetid: 5c1551f7-f651-4b87-829a-ec9a07fb0ec2
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDSCLASSCREATIONINFO, DSCCIF_HASWIZARDDIALOG, DSCCIF_HASWIZARDPRIMARYPAGE, DSCLASSCREATIONINFO, DSCLASSCREATIONINFO structure [Active Directory], LPDSCLASSCREATIONINFO, LPDSCLASSCREATIONINFO structure pointer [Active Directory], _glines_dsclasscreationinfo, ad.dsclasscreationinfo, dsclient/DSCLASSCREATIONINFO, dsclient/LPDSCLASSCREATIONINFO"
+ms.keywords: '*LPDSCLASSCREATIONINFO, DSCCIF_HASWIZARDDIALOG, DSCCIF_HASWIZARDPRIMARYPAGE, DSCLASSCREATIONINFO, DSCLASSCREATIONINFO structure [Active Directory], LPDSCLASSCREATIONINFO, LPDSCLASSCREATIONINFO structure pointer [Active Directory], _glines_dsclasscreationinfo, ad.dsclasscreationinfo, dsclient/DSCLASSCREATIONINFO, dsclient/LPDSCLASSCREATIONINFO'
 ms.topic: struct
-f1_keywords: 
- - "dsclient/DSCLASSCREATIONINFO"
+f1_keywords:
+- dsclient/DSCLASSCREATIONINFO
 dev_langs:
- - c++
+- c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dsclient.h
+- Dsclient.h
 api_name:
- - DSCLASSCREATIONINFO
+- DSCLASSCREATIONINFO
 targetos: Windows
 req.typenames: DSCLASSCREATIONINFO, *LPDSCLASSCREATIONINFO
 req.redist: 

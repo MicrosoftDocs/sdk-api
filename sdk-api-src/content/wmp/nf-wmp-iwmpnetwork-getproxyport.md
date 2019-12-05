@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPNetwork.getProxyPort
 title: IWMPNetwork::getProxyPort (wmp.h)
-
 description: The getProxyPort method retrieves the proxy port being used.
 old-location: wmp\iwmpnetwork_getproxyport.htm
 tech.root: WMP
 ms.assetid: 0d636e61-a5c1-495a-8d1d-ce2937dd3f18
-
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],getProxyPort method, IWMPNetwork.getProxyPort, IWMPNetwork::getProxyPort, IWMPNetworkgetProxyPort, getProxyPort, getProxyPort method [Windows Media Player], getProxyPort method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_getproxyport, wmp/IWMPNetwork::getProxyPort
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPNetwork.getProxyPort"
+f1_keywords:
+- wmp/IWMPNetwork.getProxyPort
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPNetwork.getProxyPort
+- IWMPNetwork.getProxyPort
 targetos: Windows
 req.typenames: 
 req.redist: 

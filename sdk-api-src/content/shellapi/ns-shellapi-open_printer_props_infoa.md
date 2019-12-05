@@ -1,19 +1,17 @@
 ---
 UID: NS:shellapi._OPEN_PRINTER_PROPS_INFOA
 title: OPEN_PRINTER_PROPS_INFOA (shellapi.h)
-
 description: Identifies a particular property sheet in a printer's property pages and whether that property sheet should be modal. Optionally used with the SHInvokePrinterCommand function.
 old-location: shell\OPEN_PRINTER_PROPS_INFO.htm
 tech.root: shell
 ms.assetid: c5cabb04-20a2-40ce-aa4d-180b73db8eac
-
 ms.date: 12/05/2018
-ms.keywords: "*POPEN_PRINTER_PROPS_INFOA, OPEN_PRINTER_PROPS_INFO, OPEN_PRINTER_PROPS_INFO structure [Windows Shell], OPEN_PRINTER_PROPS_INFOA, OPEN_PRINTER_PROPS_INFOW, POPEN_PRINTER_PROPS_INFO, POPEN_PRINTER_PROPS_INFO structure pointer [Windows Shell], _shell_OPEN_PRINTER_PROPS_INFO, shell.OPEN_PRINTER_PROPS_INFO, shellapi/OPEN_PRINTER_PROPS_INFO, shellapi/OPEN_PRINTER_PROPS_INFOA, shellapi/OPEN_PRINTER_PROPS_INFOW, shellapi/POPEN_PRINTER_PROPS_INFO"
+ms.keywords: '*POPEN_PRINTER_PROPS_INFOA, OPEN_PRINTER_PROPS_INFO, OPEN_PRINTER_PROPS_INFO structure [Windows Shell], OPEN_PRINTER_PROPS_INFOA, OPEN_PRINTER_PROPS_INFOW, POPEN_PRINTER_PROPS_INFO, POPEN_PRINTER_PROPS_INFO structure pointer [Windows Shell], _shell_OPEN_PRINTER_PROPS_INFO, shell.OPEN_PRINTER_PROPS_INFO, shellapi/OPEN_PRINTER_PROPS_INFO, shellapi/OPEN_PRINTER_PROPS_INFOA, shellapi/OPEN_PRINTER_PROPS_INFOW, shellapi/POPEN_PRINTER_PROPS_INFO'
 ms.topic: struct
-f1_keywords: 
- - "shellapi/OPEN_PRINTER_PROPS_INFO"
+f1_keywords:
+- shellapi/OPEN_PRINTER_PROPS_INFO
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shellapi.h
+- Shellapi.h
 api_name:
- - OPEN_PRINTER_PROPS_INFO
- - OPEN_PRINTER_PROPS_INFOA
- - OPEN_PRINTER_PROPS_INFOW
+- OPEN_PRINTER_PROPS_INFO
+- OPEN_PRINTER_PROPS_INFOA
+- OPEN_PRINTER_PROPS_INFOW
 targetos: Windows
 req.typenames: OPEN_PRINTER_PROPS_INFOA, *POPEN_PRINTER_PROPS_INFOA
 req.redist: 

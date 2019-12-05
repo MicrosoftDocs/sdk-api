@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
 title: STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
-
 description: Reserved for future use.
 old-location: fs\storage_device_attributes_descriptor.htm
 tech.root: FileIO
 ms.assetid: E911C72C-E4AF-438D-B718-798AF2E07227
-
 ms.date: 12/05/2018
-ms.keywords: "*PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure pointer [Files], STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure [Files], fs.storage_device_attributes_descriptor, winioctl/PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, winioctl/STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR"
+ms.keywords: '*PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure pointer [Files], STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure [Files], fs.storage_device_attributes_descriptor, winioctl/PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, winioctl/STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR"
+f1_keywords:
+- winioctl/STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winioctl.h
+- winioctl.h
 api_name:
- - STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
+- STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
 targetos: Windows
 req.typenames: STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR, *PSTORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
 req.redist: 

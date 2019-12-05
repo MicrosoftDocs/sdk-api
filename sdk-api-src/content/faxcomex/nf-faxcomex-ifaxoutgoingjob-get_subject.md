@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_Subject
 title: IFaxOutgoingJob::get_Subject (faxcomex.h)
-
 description: The IFaxOutgoingJob::get_Subject property is a null-terminated string that contains the contents of the subject field on the cover page of the fax.
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_subject_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0fqs.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],Subject property, IFaxOutgoingJob.Subject, IFaxOutgoingJob.get_Subject, IFaxOutgoingJob::Subject, IFaxOutgoingJob::get_Subject, Subject property [Fax Service], Subject property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.subject, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_subject_cpp, fax._mfax_faxoutgoingjob_subject, faxcomex/IFaxOutgoingJob::Subject, faxcomex/IFaxOutgoingJob::get_Subject, get_Subject
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingJob.Subject"
+f1_keywords:
+- faxcomex/IFaxOutgoingJob.Subject
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingJob.Subject
- - IFaxOutgoingJob.get_Subject
- - IFaxOutgoingJob.get_Subject
+- IFaxOutgoingJob.Subject
+- IFaxOutgoingJob.get_Subject
+- IFaxOutgoingJob.get_Subject
 targetos: Windows
 req.typenames: 
 req.redist: 

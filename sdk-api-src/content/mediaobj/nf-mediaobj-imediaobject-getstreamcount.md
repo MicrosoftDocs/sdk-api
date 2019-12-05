@@ -1,19 +1,17 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetStreamCount
 title: IMediaObject::GetStreamCount (mediaobj.h)
-
 description: The GetStreamCount method retrieves the number of input and output streams.
 old-location: dshow\imediaobject_getstreamcount.htm
 tech.root: DirectShow
 ms.assetid: 05c28b44-6b92-418b-bb3f-889e59f4e0c1
-
 ms.date: 12/05/2018
 ms.keywords: GetStreamCount, GetStreamCount method [DirectShow], GetStreamCount method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetStreamCount method, IMediaObject.GetStreamCount, IMediaObject::GetStreamCount, IMediaObjectGetStreamCount, dshow.imediaobject_getstreamcount, mediaobj/IMediaObject::GetStreamCount
 ms.topic: method
-f1_keywords: 
- - "mediaobj/IMediaObject.GetStreamCount"
+f1_keywords:
+- mediaobj/IMediaObject.GetStreamCount
 dev_langs:
- - c++
+- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IMediaObject.GetStreamCount
+- IMediaObject.GetStreamCount
 targetos: Windows
 req.typenames: 
 req.redist: 

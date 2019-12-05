@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.MCIWndSeek
 title: MCIWndSeek macro (vfw.h)
-
 description: The MCIWndSeek macro moves the playback position to the specified location in the content. You can use this macro or explicitly use the MCI_SEEK command.
 old-location: multimedia\mciwndseek.htm
 tech.root: Multimedia
 ms.assetid: 96d42e1a-03d5-4007-95d8-0e4b8d2018d5
-
 ms.date: 12/05/2018
 ms.keywords: MCIWndSeek, MCIWndSeek macro [Windows Multimedia], _win32_MCIWndSeek, multimedia.mciwndseek, vfw/MCIWndSeek
 ms.topic: macro
-f1_keywords: 
- - "vfw/MCIWndSeek"
+f1_keywords:
+- vfw/MCIWndSeek
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - MCIWndSeek
+- MCIWndSeek
 targetos: Windows
 req.typenames: 
 req.redist: 

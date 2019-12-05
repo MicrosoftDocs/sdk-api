@@ -1,19 +1,17 @@
 ---
 UID: NF:rtmv2.RtmDeleteRouteList
 title: RtmDeleteRouteList function (rtmv2.h)
-
 description: The RtmDeleteRouteList function removes all routes from a client-specific route list, then frees any resources allocated to the list.
 old-location: rras\rtmdeleteroutelist.htm
 tech.root: RRAS
 ms.assetid: 0f8f04af-6ef6-42a7-a086-ba1706815ccb
-
 ms.date: 12/05/2018
 ms.keywords: RtmDeleteRouteList, RtmDeleteRouteList function [RAS], _rtmv2ref_rtmdeleteroutelist, rras.rtmdeleteroutelist, rtmv2/RtmDeleteRouteList
 ms.topic: function
-f1_keywords: 
- - "rtmv2/RtmDeleteRouteList"
+f1_keywords:
+- rtmv2/RtmDeleteRouteList
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rtm.dll
+- Rtm.dll
 api_name:
- - RtmDeleteRouteList
+- RtmDeleteRouteList
 targetos: Windows
 req.typenames: 
 req.redist: 

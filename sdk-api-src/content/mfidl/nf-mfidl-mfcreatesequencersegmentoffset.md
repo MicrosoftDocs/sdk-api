@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateSequencerSegmentOffset
 title: MFCreateSequencerSegmentOffset function (mfidl.h)
-
 description: Creates a PROPVARIANT that can be used to seek within a sequencer source presentation.
 old-location: mf\mfcreatesequencersegmentoffset.htm
 tech.root: medfound
 ms.assetid: 5999af23-03a6-4fd9-8a56-23179164ff32
-
 ms.date: 12/05/2018
 ms.keywords: 5999af23-03a6-4fd9-8a56-23179164ff32, MFCreateSequencerSegmentOffset, MFCreateSequencerSegmentOffset function [Media Foundation], mf.mfcreatesequencersegmentoffset, mfidl/MFCreateSequencerSegmentOffset
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateSequencerSegmentOffset"
+f1_keywords:
+- mfidl/MFCreateSequencerSegmentOffset
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreateSequencerSegmentOffset
+- MFCreateSequencerSegmentOffset
 targetos: Windows
 req.typenames: 
 req.redist: 

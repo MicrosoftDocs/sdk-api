@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IEnumString
 title: IEnumString (objidl.h)
-
 description: Enumerate strings. LPWSTR is the type that indicates a pointer to a zero-terminated string of wide, or Unicode, characters.
 old-location: com\ienumstring.htm
 tech.root: com
 ms.assetid: 7f3e642a-17c7-4646-8c70-da6b0946a415
-
 ms.date: 12/05/2018
 ms.keywords: IEnumString, IEnumString interface [COM], IEnumString interface [COM],described, _com_ienumstring, com.ienumstring, objidlbase/IEnumString
 ms.topic: interface
-f1_keywords: 
- - "objidl/IEnumString"
+f1_keywords:
+- objidl/IEnumString
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IEnumString
+- IEnumString
 targetos: Windows
 req.typenames: 
 req.redist: 

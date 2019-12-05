@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprConfigTransportSetInfo
 title: MprConfigTransportSetInfo function (mprapi.h)
-
 description: The MprConfigTransportSetInfo function changes the configuration for the specified transport protocol in the specified router configuration.
 old-location: rras\mprconfigtransportsetinfo.htm
 tech.root: RRAS
 ms.assetid: 571149a5-5a09-4a04-9327-47aecca7d17f
-
 ms.date: 12/05/2018
 ms.keywords: MprConfigTransportSetInfo, MprConfigTransportSetInfo function [RAS], _mpr_mprconfigtransportsetinfo, mprapi/MprConfigTransportSetInfo, rras.mprconfigtransportsetinfo
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprConfigTransportSetInfo"
+f1_keywords:
+- mprapi/MprConfigTransportSetInfo
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprConfigTransportSetInfo
+- MprConfigTransportSetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

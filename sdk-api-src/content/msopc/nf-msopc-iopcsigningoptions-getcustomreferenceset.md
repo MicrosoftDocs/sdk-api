@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetCustomReferenceSet
 title: IOpcSigningOptions::GetCustomReferenceSet (msopc.h)
-
 description: Gets an IOpcSignatureReferenceSet interface pointer.
 old-location: opc\iopcsigningoptions_getcustomreferenceset.htm
 tech.root: OPC
 ms.assetid: 2222772a-e396-4d78-a7e4-a12f19ec689b
-
 ms.date: 12/05/2018
 ms.keywords: GetCustomReferenceSet, GetCustomReferenceSet method [Open Packaging Conventions], GetCustomReferenceSet method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetCustomReferenceSet method, IOpcSigningOptions.GetCustomReferenceSet, IOpcSigningOptions::GetCustomReferenceSet, msopc/IOpcSigningOptions::GetCustomReferenceSet, opc.iopcsigningoptions_getcustomreferenceset
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSigningOptions.GetCustomReferenceSet"
+f1_keywords:
+- msopc/IOpcSigningOptions.GetCustomReferenceSet
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSigningOptions.GetCustomReferenceSet
+- IOpcSigningOptions.GetCustomReferenceSet
 targetos: Windows
 req.typenames: 
 req.redist: 

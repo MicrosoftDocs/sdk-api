@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.ITraceDataCollector.put_BufferSize
 title: ITraceDataCollector::put_BufferSize (pla.h)
-
 description: Retrieves or sets the suggested buffer size for each buffer in the event tracing session.
 old-location: pla\itracedatacollector_buffersize.htm
 tech.root: PLA
 ms.assetid: 2a735f9e-964a-4949-8660-fe3b40ce711e
-
 ms.date: 12/05/2018
 ms.keywords: BufferSize property [PLA], BufferSize property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],BufferSize property, ITraceDataCollector.BufferSize, ITraceDataCollector.put_BufferSize, ITraceDataCollector::BufferSize, ITraceDataCollector::get_BufferSize, ITraceDataCollector::put_BufferSize, base.itracedatacollector_buffersize, pla.itracedatacollector_buffersize, pla/ITraceDataCollector::BufferSize, pla/ITraceDataCollector::get_BufferSize, pla/ITraceDataCollector::put_BufferSize, put_BufferSize
 ms.topic: method
-f1_keywords: 
- - "pla/ITraceDataCollector.BufferSize"
+f1_keywords:
+- pla/ITraceDataCollector.BufferSize
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - ITraceDataCollector.BufferSize
- - ITraceDataCollector.get_BufferSize
- - ITraceDataCollector.put_BufferSize
+- ITraceDataCollector.BufferSize
+- ITraceDataCollector.get_BufferSize
+- ITraceDataCollector.put_BufferSize
 targetos: Windows
 req.typenames: 
 req.redist: 

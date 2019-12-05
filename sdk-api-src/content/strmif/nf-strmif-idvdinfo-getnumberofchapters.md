@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo.GetNumberOfChapters
 title: IDvdInfo::GetNumberOfChapters (strmif.h)
-
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the number of chapters that are defined for a given title.
 old-location: dshow\idvdinfo_getnumberofchapters.htm
 tech.root: DirectShow
 ms.assetid: 65d36d1c-956f-480f-adbb-1682eafc9c93
-
 ms.date: 12/05/2018
 ms.keywords: GetNumberOfChapters, GetNumberOfChapters method [DirectShow], GetNumberOfChapters method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetNumberOfChapters method, IDvdInfo.GetNumberOfChapters, IDvdInfo::GetNumberOfChapters, IDvdInfoGetNumberOfChapters, dshow.idvdinfo_getnumberofchapters, strmif/IDvdInfo::GetNumberOfChapters
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo.GetNumberOfChapters"
+f1_keywords:
+- strmif/IDvdInfo.GetNumberOfChapters
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDvdInfo.GetNumberOfChapters
+- IDvdInfo.GetNumberOfChapters
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:manipulations.IInertiaProcessor
 title: IInertiaProcessor (manipulations.h)
-
 description: The IInertiaProcessor interface handles calculations regarding object motion for Windows Touch.
 old-location: wintouch\iinertiaprocessor.htm
 tech.root: wintouch
 ms.assetid: 8dc171eb-0c6e-41dd-b506-5f91ea703a53
-
 ms.date: 12/05/2018
 ms.keywords: IInertiaProcessor, IInertiaProcessor interface [Windows Touch], IInertiaProcessor interface [Windows Touch],described, manipulations/IInertiaProcessor, wintouch.iinertiaprocessor
 ms.topic: interface
-f1_keywords: 
- - "manipulations/IInertiaProcessor"
+f1_keywords:
+- manipulations/IInertiaProcessor
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - IInertiaProcessor
+- IInertiaProcessor
 targetos: Windows
 req.typenames: 
 req.redist: 

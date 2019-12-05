@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpGetVb
 title: SnmpGetVb function (winsnmp.h)
-
 description: A WinSNMP application calls the SnmpGetVb function to retrieve information from a variable bindings list. This WinSNMP function retrieves a variable name and its associated value from the variable binding entry specified by the index parameter.
 old-location: snmp\snmpgetvb.htm
 tech.root: SNMP
 ms.assetid: a6598b4e-6797-4e18-8ab5-059c75bc84ef
-
 ms.date: 12/05/2018
 ms.keywords: SNMP_SYNTAX_CNTR32, SNMP_SYNTAX_CNTR64, SNMP_SYNTAX_ENDOFMIBVIEW, SNMP_SYNTAX_GAUGE32, SNMP_SYNTAX_INT, SNMP_SYNTAX_INT32, SNMP_SYNTAX_IPADDR, SNMP_SYNTAX_NOSUCHINSTANCE, SNMP_SYNTAX_NOSUCHOBJECT, SNMP_SYNTAX_NULL, SNMP_SYNTAX_OCTETS, SNMP_SYNTAX_OID, SNMP_SYNTAX_OPAQUE, SNMP_SYNTAX_TIMETICKS, SNMP_SYNTAX_UINT32, SnmpGetVb, SnmpGetVb function [SNMP], _snmp_snmpgetvb, snmp.snmpgetvb, winsnmp/SnmpGetVb
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpGetVb"
+f1_keywords:
+- winsnmp/SnmpGetVb
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpGetVb
+- SnmpGetVb
 targetos: Windows
 req.typenames: 
 req.redist: 

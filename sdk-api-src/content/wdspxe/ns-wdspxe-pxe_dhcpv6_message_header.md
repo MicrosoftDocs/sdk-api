@@ -1,19 +1,17 @@
 ---
 UID: NS:wdspxe.tagPXE_DHCPV6_MESSAGE_HEADER
 title: PXE_DHCPV6_MESSAGE_HEADER (wdspxe.h)
-
 description: Describes the fields in common between the PXE_DHCPV6_MESSAGE and PXE_DHCPV6_RELAY_MESSAGE structures.
 old-location: wds\pxe_dhcpv6_message_header.htm
 tech.root: wds
 ms.assetid: D6D387EB-85CC-413E-926D-A222274ABD52
-
 ms.date: 12/05/2018
-ms.keywords: "*PPXE_DHCPV6_MESSAGE_HEADER, PPXE_DHCPV6_MESSAGE_HEADER, PPXE_DHCPV6_MESSAGE_HEADER structure pointer [Windows Deployment Services], PXE_DHCPV6_MESSAGE_HEADER, PXE_DHCPV6_MESSAGE_HEADER structure [Windows Deployment Services], wds.pxe_dhcpv6_message_header, wdspxe/PPXE_DHCPV6_MESSAGE_HEADER, wdspxe/PXE_DHCPV6_MESSAGE_HEADER"
+ms.keywords: '*PPXE_DHCPV6_MESSAGE_HEADER, PPXE_DHCPV6_MESSAGE_HEADER, PPXE_DHCPV6_MESSAGE_HEADER structure pointer [Windows Deployment Services], PXE_DHCPV6_MESSAGE_HEADER, PXE_DHCPV6_MESSAGE_HEADER structure [Windows Deployment Services], wds.pxe_dhcpv6_message_header, wdspxe/PPXE_DHCPV6_MESSAGE_HEADER, wdspxe/PXE_DHCPV6_MESSAGE_HEADER'
 ms.topic: struct
-f1_keywords: 
- - "wdspxe/PXE_DHCPV6_MESSAGE_HEADER"
+f1_keywords:
+- wdspxe/PXE_DHCPV6_MESSAGE_HEADER
 dev_langs:
- - c++
+- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WdsPxe.h
+- WdsPxe.h
 api_name:
- - PXE_DHCPV6_MESSAGE_HEADER
+- PXE_DHCPV6_MESSAGE_HEADER
 targetos: Windows
 req.typenames: PXE_DHCPV6_MESSAGE_HEADER, *PPXE_DHCPV6_MESSAGE_HEADER
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.get_ControlViewCondition
 title: IUIAutomation::get_ControlViewCondition (uiautomationclient.h)
-
 description: Retrieves a predefined IUIAutomationCondition interface that selects control elements.
 old-location: winauto\uiauto_IUIAutomation_ControlViewCondition.htm
 tech.root: WinAuto
 ms.assetid: 1dbe6ce9-6fa4-42c6-bece-e9ae20ef9837
-
 ms.date: 12/05/2018
 ms.keywords: ControlViewCondition property [Windows Accessibility], ControlViewCondition property [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],ControlViewCondition property, IUIAutomation.ControlViewCondition, IUIAutomation.get_ControlViewCondition, IUIAutomation::ControlViewCondition, IUIAutomation::get_ControlViewCondition, get_ControlViewCondition, uiauto.uiauto_IUIAutomation_ControlViewCondition, uiauto_IUIAutomation_ControlViewCondition, uiautomationclient/IUIAutomation::ControlViewCondition, uiautomationclient/IUIAutomation::get_ControlViewCondition, winauto.uiauto_IUIAutomation_ControlViewCondition
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation.ControlViewCondition"
+f1_keywords:
+- uiautomationclient/IUIAutomation.ControlViewCondition
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation.ControlViewCondition
- - IUIAutomation.get_ControlViewCondition
+- IUIAutomation.ControlViewCondition
+- IUIAutomation.get_ControlViewCondition
 targetos: Windows
 req.typenames: 
 req.redist: 

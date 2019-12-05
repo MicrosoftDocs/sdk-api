@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader.GetDeviceCapabilities
 title: IAppxManifestReader::GetDeviceCapabilities (appxpackaging.h)
-
 description: Gets an enumerator that iterates through the device capabilities defined in the manifest.
 old-location: appxpkg\iappxmanifestreader_getdevicecapabilities.htm
 tech.root: appxpkg
 ms.assetid: 06257DB1-992E-4A8D-8221-76DA3DF0FA1F
-
 ms.date: 12/05/2018
 ms.keywords: GetDeviceCapabilities, GetDeviceCapabilities method [App packaging and management], GetDeviceCapabilities method [App packaging and management],IAppxManifestReader interface, IAppxManifestReader interface [App packaging and management],GetDeviceCapabilities method, IAppxManifestReader.GetDeviceCapabilities, IAppxManifestReader::GetDeviceCapabilities, appxpackaging/IAppxManifestReader::GetDeviceCapabilities, appxpkg.iappxmanifestreader_getdevicecapabilities
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxManifestReader.GetDeviceCapabilities"
+f1_keywords:
+- appxpackaging/IAppxManifestReader.GetDeviceCapabilities
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestReader.GetDeviceCapabilities
+- IAppxManifestReader.GetDeviceCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 

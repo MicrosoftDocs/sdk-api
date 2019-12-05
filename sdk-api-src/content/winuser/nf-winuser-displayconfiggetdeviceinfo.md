@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.DisplayConfigGetDeviceInfo
 title: DisplayConfigGetDeviceInfo function (winuser.h)
-
 description: The DisplayConfigGetDeviceInfo function retrieves display configuration information about the device.
 old-location: display\displayconfiggetdeviceinfo.htm
 tech.root: display
 ms.assetid: 249dcb1a-4ce3-4478-8331-fb81e91313b0
-
 ms.date: 12/05/2018
 ms.keywords: CCD_Functions_e8c6c762-da08-4b21-b016-e66bb44c248d.xml, DisplayConfigGetDeviceInfo, DisplayConfigGetDeviceInfo function [Display Devices], display.displayconfiggetdeviceinfo, winuser/DisplayConfigGetDeviceInfo
 ms.topic: function
-f1_keywords: 
- - "winuser/DisplayConfigGetDeviceInfo"
+f1_keywords:
+- winuser/DisplayConfigGetDeviceInfo
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Universal
@@ -32,17 +30,17 @@ req.lib: User32.lib; OneCoreUAP.lib on Windows 10
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-NTUser-SysParams-l1-1-0.dll
- - MinUser.dll
- - Ext-MS-Win-RTCore-NTUser-SysParams-l1-1-0.dll
+- User32.dll
+- API-MS-Win-NTUser-SysParams-l1-1-0.dll
+- MinUser.dll
+- Ext-MS-Win-RTCore-NTUser-SysParams-l1-1-0.dll
 api_name:
- - DisplayConfigGetDeviceInfo
+- DisplayConfigGetDeviceInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

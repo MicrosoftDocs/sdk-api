@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialogEvents.OnFileOk
 title: IFileDialogEvents::OnFileOk (shobjidl_core.h)
-
 description: Called just before the dialog is about to return with a result.
 old-location: shell\IFileDialogEvents_OnFileOk.htm
 tech.root: shell
 ms.assetid: 81277122-b2fe-40af-85f8-d578925856a1
-
 ms.date: 12/05/2018
 ms.keywords: IFileDialogEvents interface [Windows Shell],OnFileOk method, IFileDialogEvents.OnFileOk, IFileDialogEvents::OnFileOk, OnFileOk, OnFileOk method [Windows Shell], OnFileOk method [Windows Shell],IFileDialogEvents interface, shell.IFileDialogEvents_OnFileOk, shell_IFileDialogEvents_OnFileOk, shobjidl_core/IFileDialogEvents::OnFileOk
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialogEvents.OnFileOk"
+f1_keywords:
+- shobjidl_core/IFileDialogEvents.OnFileOk
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialogEvents.OnFileOk
+- IFileDialogEvents.OnFileOk
 targetos: Windows
 req.typenames: 
 req.redist: 

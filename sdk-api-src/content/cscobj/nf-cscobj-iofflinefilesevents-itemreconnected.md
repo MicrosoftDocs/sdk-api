@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.ItemReconnected
 title: IOfflineFilesEvents::ItemReconnected (cscobj.h)
-
 description: Reports that an item in the Offline Files cache has transitioned from offline to online.
 old-location: of\iofflinefilesevents_itemreconnected.htm
 tech.root: offlinefiles
 ms.assetid: beafae9d-3ef8-401f-8ab6-79d2ae3366a4
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemReconnected method, IOfflineFilesEvents.ItemReconnected, IOfflineFilesEvents::ItemReconnected, ItemReconnected, ItemReconnected method [Offline Files], ItemReconnected method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemReconnected, of.iofflinefilesevents_itemreconnected
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesEvents.ItemReconnected"
+f1_keywords:
+- cscobj/IOfflineFilesEvents.ItemReconnected
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesEvents.ItemReconnected
+- IOfflineFilesEvents.ItemReconnected
 targetos: Windows
 req.typenames: 
 req.redist: 

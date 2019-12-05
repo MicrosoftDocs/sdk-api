@@ -1,19 +1,17 @@
 ---
 UID: NN:objidlbase.IRpcOptions
 title: IRpcOptions (objidlbase.h)
-
 description: Enables callers to set or query the values of various properties that control how COM handles remote procedure calls (RPC).
 old-location: com\irpcoptions.htm
 tech.root: com
 ms.assetid: aa5db8ac-4c29-43cf-a7ed-a870df9dfb82
-
 ms.date: 12/05/2018
 ms.keywords: IRpcOptions, IRpcOptions interface [COM], IRpcOptions interface [COM],described, _com_irpcoptions, com.irpcoptions, objidlbase/IRpcOptions
 ms.topic: interface
-f1_keywords: 
- - "objidlbase/IRpcOptions"
+f1_keywords:
+- objidlbase/IRpcOptions
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IRpcOptions
+- IRpcOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

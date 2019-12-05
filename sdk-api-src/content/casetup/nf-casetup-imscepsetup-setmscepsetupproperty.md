@@ -1,19 +1,17 @@
 ---
 UID: NF:casetup.IMSCEPSetup.SetMSCEPSetupProperty
 title: IMSCEPSetup::SetMSCEPSetupProperty (casetup.h)
-
 description: Sets a property value for a Network Device Enrollment Service (NDES) configuration.
 old-location: security\imscepsetup_setmscepsetupproperty.htm
 tech.root: SecCrypto
 ms.assetid: 868f3e5f-1345-414b-a75f-d2e68213469b
-
 ms.date: 12/05/2018
 ms.keywords: IMSCEPSetup interface [Security],SetMSCEPSetupProperty method, IMSCEPSetup.SetMSCEPSetupProperty, IMSCEPSetup::SetMSCEPSetupProperty, SetMSCEPSetupProperty, SetMSCEPSetupProperty method [Security], SetMSCEPSetupProperty method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::SetMSCEPSetupProperty, security.imscepsetup_setmscepsetupproperty
 ms.topic: method
-f1_keywords: 
- - "casetup/IMSCEPSetup.SetMSCEPSetupProperty"
+f1_keywords:
+- casetup/IMSCEPSetup.SetMSCEPSetupProperty
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - IMSCEPSetup.SetMSCEPSetupProperty
+- IMSCEPSetup.SetMSCEPSetupProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

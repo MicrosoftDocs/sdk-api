@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.FSCTL_MAKE_MEDIA_COMPATIBLE
 title: FSCTL_MAKE_MEDIA_COMPATIBLE
-
 description: Closes an open UDF session on write-once media to make the media ROM compatible.
 old-location: fs\fsctl_make_media_compatible.htm
 tech.root: FileIO
 ms.assetid: bbe58c35-d0da-4c29-a412-a84a138dc9fb
-
 ms.date: 12/05/2018
 ms.keywords: FSCTL_MAKE_MEDIA_COMPATIBLE, FSCTL_MAKE_MEDIA_COMPATIBLE control, FSCTL_MAKE_MEDIA_COMPATIBLE control code [Files], fs.fsctl_make_media_compatible, winioctl/FSCTL_MAKE_MEDIA_COMPATIBLE
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_MAKE_MEDIA_COMPATIBLE
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

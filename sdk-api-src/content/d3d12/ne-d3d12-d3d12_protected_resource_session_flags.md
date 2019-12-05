@@ -1,17 +1,15 @@
 ---
 UID: NE:d3d12.D3D12_PROTECTED_RESOURCE_SESSION_FLAGS
 title: D3D12_PROTECTED_RESOURCE_SESSION_FLAGS
-
 description: Defines constants that specify protected resource session flags.
 tech.root: direct3d12
-
 ms.date: 10/15/2019
 ms.keywords: D3D12_PROTECTED_RESOURCE_SESSION_FLAGS, D3D12_PROTECTED_RESOURCE_SESSION_FLAGS enumeration, direct3d12.d3d12_protected_resource_session_flags
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_PROTECTED_RESOURCE_SESSION_FLAGS"
+f1_keywords:
+- d3d12/D3D12_PROTECTED_RESOURCE_SESSION_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +28,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_PROTECTED_RESOURCE_SESSION_FLAGS
+- D3D12_PROTECTED_RESOURCE_SESSION_FLAGS
 targetos: Windows
 req.typenames: D3D12_PROTECTED_RESOURCE_SESSION_FLAGS
 req.redist: 

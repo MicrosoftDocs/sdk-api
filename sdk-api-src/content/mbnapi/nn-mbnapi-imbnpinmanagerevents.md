@@ -1,19 +1,17 @@
 ---
 UID: NN:mbnapi.IMbnPinManagerEvents
 title: IMbnPinManagerEvents (mbnapi.h)
-
 description: Notification interface used to indicate when PIN Manager events have occurred.
 old-location: mbn\imbnpinmanagerevents.htm
 tech.root: mbn
 ms.assetid: 2942bd4d-5bdb-45eb-a008-352bf44eec80
-
 ms.date: 12/05/2018
 ms.keywords: IMbnPinManagerEvents, IMbnPinManagerEvents interface [Microsoft Broadband Networks], IMbnPinManagerEvents interface [Microsoft Broadband Networks],described, mbn.imbnpinmanagerevents, mbnapi/IMbnPinManagerEvents
 ms.topic: interface
-f1_keywords: 
- - "mbnapi/IMbnPinManagerEvents"
+f1_keywords:
+- mbnapi/IMbnPinManagerEvents
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnPinManagerEvents
+- IMbnPinManagerEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

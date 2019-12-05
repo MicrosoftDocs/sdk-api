@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IFilterGraph.Reconnect
 title: IFilterGraph::Reconnect (strmif.h)
-
 description: The Reconnect method disconnects a pin and then reconnects it to the same pin.
 old-location: dshow\ifiltergraph_reconnect.htm
 tech.root: DirectShow
 ms.assetid: 98a46014-031b-4f35-b1bc-58aef411360b
-
 ms.date: 12/05/2018
 ms.keywords: IFilterGraph interface [DirectShow],Reconnect method, IFilterGraph.Reconnect, IFilterGraph::Reconnect, IFilterGraphReconnect, Reconnect, Reconnect method [DirectShow], Reconnect method [DirectShow],IFilterGraph interface, dshow.ifiltergraph_reconnect, strmif/IFilterGraph::Reconnect
 ms.topic: method
-f1_keywords: 
- - "strmif/IFilterGraph.Reconnect"
+f1_keywords:
+- strmif/IFilterGraph.Reconnect
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFilterGraph.Reconnect
+- IFilterGraph.Reconnect
 targetos: Windows
 req.typenames: 
 req.redist: 

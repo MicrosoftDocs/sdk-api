@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemtime.WBEMTime.WBEMTime(const SYSTEMTIME &)
 title: WBEMTime::WBEMTime(const SYSTEMTIME &) (wbemtime.h)
-
 description: The WBEMTime overload class constructor takes a SYSTEMTIME parameter.
 old-location: wmi\wbemtime_wbemtime_const_systemtime__.htm
 tech.root: WmiSdk
 ms.assetid: 02bc92e3-17cd-4102-bbaa-cc3216b426ff
-
 ms.date: 12/05/2018
-ms.keywords: "??0WBEMTime@@QAE@ABU_SYSTEMTIME@@@Z, ??0WBEMTime@@QEAA@AEBU_SYSTEMTIME@@@Z, WBEMTime, WBEMTime constructor [Windows Management Instrumentation], WBEMTime constructor [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],WBEMTime constructor, WBEMTime.WBEMTime, WBEMTime.WBEMTime(const SYSTEMTIME &), WBEMTime::WBEMTime, WBEMTime::WBEMTime(const SYSTEMTIME &), WBEMTime::WBEMTime(const SYSTEMTIME&), wbemtime/WBEMTime::WBEMTime, wmi.wbemtime_wbemtime_const_systemtime__"
+ms.keywords: ??0WBEMTime@@QAE@ABU_SYSTEMTIME@@@Z, ??0WBEMTime@@QEAA@AEBU_SYSTEMTIME@@@Z, WBEMTime, WBEMTime constructor [Windows Management Instrumentation], WBEMTime constructor [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],WBEMTime constructor, WBEMTime.WBEMTime, WBEMTime.WBEMTime(const SYSTEMTIME &), WBEMTime::WBEMTime, WBEMTime::WBEMTime(const SYSTEMTIME &), WBEMTime::WBEMTime(const SYSTEMTIME&), wbemtime/WBEMTime::WBEMTime, wmi.wbemtime_wbemtime_const_systemtime__
 ms.topic: method
-f1_keywords: 
- - "wbemtime/WBEMTime.WBEMTime"
+f1_keywords:
+- wbemtime/WBEMTime.WBEMTime
 dev_langs:
- - c++
+- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - WBEMTime.WBEMTime
- - ??0WBEMTime@@QAE@ABU_SYSTEMTIME@@@Z
- - ??0WBEMTime@@QEAA@AEBU_SYSTEMTIME@@@Z
+- WBEMTime.WBEMTime
+- ??0WBEMTime@@QAE@ABU_SYSTEMTIME@@@Z
+- ??0WBEMTime@@QEAA@AEBU_SYSTEMTIME@@@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

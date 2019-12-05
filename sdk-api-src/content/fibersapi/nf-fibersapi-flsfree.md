@@ -1,19 +1,17 @@
 ---
 UID: NF:fibersapi.FlsFree
 title: FlsFree function
-
 description: Releases a fiber local storage (FLS) index, making it available for reuse.
 old-location: base\flsfree.htm
 tech.root: ProcThread
 ms.assetid: ef996c6b-77d0-4b06-97a4-14773cb67146
-
 ms.date: 12/05/2018
 ms.keywords: FlsFree, FlsFree function, _win32_flsfree, base.flsfree, fibersapi/FlsFree, winbase/FlsFree
 ms.topic: function
-f1_keywords: 
- - "fibersapi/FlsFree"
+f1_keywords:
+- fibersapi/FlsFree
 dev_langs:
- - c++
+- c++
 req.header: fibersapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-fibers-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-fibers-l1-1-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-fibers-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-fibers-l1-1-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - FlsFree
+- FlsFree
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoUnmarshalHresult
 title: CoUnmarshalHresult function (combaseapi.h)
-
 description: Unmarshals an HRESULT type from the specified stream.
 old-location: com\counmarshalhresult.htm
 tech.root: com
 ms.assetid: a45ef72c-d385-4012-9683-7d2cc6d68b6d
-
 ms.date: 12/05/2018
 ms.keywords: CoUnmarshalHresult, CoUnmarshalHresult function [COM], _com_CoUnmarshalHresult, com.counmarshalhresult, combaseapi/CoUnmarshalHresult
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoUnmarshalHresult"
+f1_keywords:
+- combaseapi/CoUnmarshalHresult
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoUnmarshalHresult
+- CoUnmarshalHresult
 targetos: Windows
 req.typenames: 
 req.redist: 

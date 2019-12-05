@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext3.DrawSpriteBatch(ID2D1SpriteBatch,ID2D1Bitmap,D2D1_BITMAP_INTERPOLATION_MODE,D2D1_SPRITE_OPTIONS)
 title: ID2D1DeviceContext3::DrawSpriteBatch(ID2D1SpriteBatch,ID2D1Bitmap,D2D1_BITMAP_INTERPOLATION_MODE,D2D1_SPRITE_OPTIONS) (d2d1_3.h)
-
 description: Renders all sprites in the given sprite batch to the device context using the specified drawing options.
 old-location: direct2d\id2d1devicecontext3_drawspritebatch_2.htm
 tech.root: Direct2D
 ms.assetid: 28A499C2-7B77-4DF0-9EA7-21B7640B9D22
-
 ms.date: 12/05/2018
 ms.keywords: DrawSpriteBatch, DrawSpriteBatch method [Direct2D], DrawSpriteBatch method [Direct2D],ID2D1DeviceContext3 interface, ID2D1DeviceContext3 interface [Direct2D],DrawSpriteBatch method, ID2D1DeviceContext3.DrawSpriteBatch, ID2D1DeviceContext3.DrawSpriteBatch(ID2D1SpriteBatch,ID2D1Bitmap,D2D1_BITMAP_INTERPOLATION_MODE,D2D1_SPRITE_OPTIONS), ID2D1DeviceContext3::DrawSpriteBatch, ID2D1DeviceContext3::DrawSpriteBatch(ID2D1SpriteBatch,ID2D1Bitmap,D2D1_BITMAP_INTERPOLATION_MODE,D2D1_SPRITE_OPTIONS), d2d1_3/ID2D1DeviceContext3::DrawSpriteBatch, direct2d.id2d1devicecontext3_drawspritebatch_2
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1DeviceContext3.DrawSpriteBatch"
+f1_keywords:
+- d2d1_3/ID2D1DeviceContext3.DrawSpriteBatch
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1DeviceContext3.DrawSpriteBatch
+- ID2D1DeviceContext3.DrawSpriteBatch
 targetos: Windows
 req.typenames: 
 req.redist: 

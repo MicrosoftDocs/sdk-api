@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPDevice.GetSerialNumber
 title: IMDSPDevice::GetSerialNumber (mswmdm.h)
-
 description: The GetSerialNumber method retrieves the serial number that uniquely identifies the device.
 old-location: wmdm\imdspdevice_getserialnumber.htm
 tech.root: WMDM
 ms.assetid: dfff9660-fc74-421c-91d2-3d6be1c753da
-
 ms.date: 12/05/2018
 ms.keywords: GetSerialNumber, GetSerialNumber method [windows Media Device Manager], GetSerialNumber method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],GetSerialNumber method, IMDSPDevice.GetSerialNumber, IMDSPDevice::GetSerialNumber, IMDSPDeviceGetSerialNumber, mswmdm/IMDSPDevice::GetSerialNumber, wmdm.imdspdevice_getserialnumber
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPDevice.GetSerialNumber"
+f1_keywords:
+- mswmdm/IMDSPDevice.GetSerialNumber
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPDevice.GetSerialNumber
+- IMDSPDevice.GetSerialNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

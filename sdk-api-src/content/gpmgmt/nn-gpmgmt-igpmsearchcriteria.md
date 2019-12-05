@@ -1,19 +1,17 @@
 ---
 UID: NN:gpmgmt.IGPMSearchCriteria
 title: IGPMSearchCriteria (gpmgmt.h)
-
 description: The IGPMSearchCriteria interface allows you to define the criteria to use for search operations when using the Group Policy Management Console (GPMC) interfaces. To create a GPMSearchCriteria object, call the IGPM::CreateSearchCriteria method.
 old-location: gpmc\igpmsearchcriteria.htm
 tech.root: gpmc
 ms.assetid: 6d24ffd1-987c-468f-a8cc-08992b7deb9d
-
 ms.date: 12/05/2018
 ms.keywords: GPMSearchCriteria, IGPMSearchCriteria, IGPMSearchCriteria interface [GPMC], IGPMSearchCriteria interface [GPMC],described, _win32_igpmsearchcriteria, gpmc.igpmsearchcriteria, gpmgmt/IGPMSearchCriteria
 ms.topic: interface
-f1_keywords: 
- - "gpmgmt/IGPMSearchCriteria"
+f1_keywords:
+- gpmgmt/IGPMSearchCriteria
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMSearchCriteria
- - GPMSearchCriteria
+- IGPMSearchCriteria
+- GPMSearchCriteria
 targetos: Windows
 req.typenames: 
 req.redist: 

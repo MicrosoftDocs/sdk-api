@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IControlbar.Detach
 title: IControlbar::Detach (mmc.h)
-
 description: The IControlbar::Detach method breaks the association between a control and the control bar. This command removes or detaches the control from the control bar on which it is displayed.
 old-location: mmc\icontrolbar_detach.htm
 tech.root: mmc
 ms.assetid: a40fc3a4-40ff-4752-abd9-e4dd906bc27f
-
 ms.date: 12/05/2018
 ms.keywords: Detach, Detach method [MMC], Detach method [MMC],IControlbar interface, IControlbar interface [MMC],Detach method, IControlbar.Detach, IControlbar::Detach, _slate_icontrolbar_detach, mmc.icontrolbar_detach, mmc/IControlbar::Detach
 ms.topic: method
-f1_keywords: 
- - "mmc/IControlbar.Detach"
+f1_keywords:
+- mmc/IControlbar.Detach
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IControlbar.Detach
+- IControlbar.Detach
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_CULL_MODE
 title: D3D12_CULL_MODE (d3d12.h)
-
 description: Specifies triangles facing a particular direction are not drawn.
 old-location: direct3d12\d3d12_cull_mode.htm
 tech.root: direct3d12
 ms.assetid: C605D9C3-6188-4307-81C0-753D2043EF4E
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_CULL_MODE, D3D12_CULL_MODE enumeration, D3D12_CULL_MODE_BACK, D3D12_CULL_MODE_FRONT, D3D12_CULL_MODE_NONE, d3d12/D3D12_CULL_MODE, d3d12/D3D12_CULL_MODE_BACK, d3d12/D3D12_CULL_MODE_FRONT, d3d12/D3D12_CULL_MODE_NONE, direct3d12.d3d12_cull_mode
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_CULL_MODE"
+f1_keywords:
+- d3d12/D3D12_CULL_MODE
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_CULL_MODE
+- D3D12_CULL_MODE
 targetos: Windows
 req.typenames: D3D12_CULL_MODE
 req.redist: 

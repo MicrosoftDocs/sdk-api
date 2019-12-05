@@ -1,19 +1,17 @@
 ---
 UID: NF:winreg.RegFlushKey
 title: RegFlushKey function (winreg.h)
-
 description: Writes all the attributes of the specified open registry key into the registry.
 old-location: base\regflushkey.htm
 tech.root: SysInfo
 ms.assetid: ae1160be-1da7-4621-a0fc-727aa229ec06
-
 ms.date: 12/05/2018
 ms.keywords: RegFlushKey, RegFlushKey function, _win32_regflushkey, base.regflushkey, winreg/RegFlushKey
 ms.topic: function
-f1_keywords: 
- - "winreg/RegFlushKey"
+f1_keywords:
+- winreg/RegFlushKey
 dev_langs:
- - c++
+- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-Localregistry-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Registry-l1-1-0.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - MinKernelBase.dll
- - api-ms-win-core-registry-l1-1-1.dll
+- Advapi32.dll
+- API-MS-Win-Core-Localregistry-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Registry-l1-1-0.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- MinKernelBase.dll
+- api-ms-win-core-registry-l1-1-1.dll
 api_name:
- - RegFlushKey
+- RegFlushKey
 targetos: Windows
 req.typenames: 
 req.redist: 

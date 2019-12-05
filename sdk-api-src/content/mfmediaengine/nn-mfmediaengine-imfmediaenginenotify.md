@@ -1,19 +1,17 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineNotify
 title: IMFMediaEngineNotify (mfmediaengine.h)
-
 description: Callback interface for the IMFMediaEngine interface.
 old-location: mf\imfmediaenginenotify.htm
 tech.root: medfound
 ms.assetid: 85D702D4-3C9B-4848-81F2-3634C2B6AE1A
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineNotify, IMFMediaEngineNotify interface [Media Foundation], IMFMediaEngineNotify interface [Media Foundation],described, mf.imfmediaenginenotify, mfmediaengine/IMFMediaEngineNotify
 ms.topic: interface
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineNotify"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineNotify
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineNotify
+- IMFMediaEngineNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

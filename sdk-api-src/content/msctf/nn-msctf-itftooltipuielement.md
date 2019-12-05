@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfToolTipUIElement
 title: ITfToolTipUIElement (msctf.h)
-
 description: The ITfToolTipUIElement interface is implemented by a text service that wants to show a tooltip on its UI.
 old-location: tsf\itftooltipuielement.htm
 tech.root: TSF
 ms.assetid: c881b251-a3fb-4f80-b2e8-08db1754f8f5
-
 ms.date: 12/05/2018
 ms.keywords: ITfToolTipUIElement, ITfToolTipUIElement interface [Text Services Framework], ITfToolTipUIElement interface [Text Services Framework],described, _tsf_itftooltipuielement_ref, msctf/ITfToolTipUIElement, tsf.itftooltipuielement
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfToolTipUIElement"
+f1_keywords:
+- msctf/ITfToolTipUIElement
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.h
+- Msctf.h
 api_name:
- - ITfToolTipUIElement
+- ITfToolTipUIElement
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

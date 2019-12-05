@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetCompressedFileSizeTransactedW
 title: GetCompressedFileSizeTransactedW function (winbase.h)
-
 description: Retrieves the actual number of bytes of disk storage used to store a specified file as a transacted operation.
 old-location: fs\getcompressedfilesizetransacted.htm
 tech.root: FileIO
 ms.assetid: df062eb4-70e1-4ee7-b489-624938af7834
-
 ms.date: 12/05/2018
 ms.keywords: GetCompressedFileSizeTransacted, GetCompressedFileSizeTransacted function [Files], GetCompressedFileSizeTransactedA, GetCompressedFileSizeTransactedW, fs.getcompressedfilesizetransacted, winbase/GetCompressedFileSizeTransacted, winbase/GetCompressedFileSizeTransactedA, winbase/GetCompressedFileSizeTransactedW
 ms.topic: function
-f1_keywords: 
- - "winbase/GetCompressedFileSizeTransacted"
+f1_keywords:
+- winbase/GetCompressedFileSizeTransacted
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - Kernel32Legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- Kernel32Legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - GetCompressedFileSizeTransacted
- - GetCompressedFileSizeTransactedA
- - GetCompressedFileSizeTransactedW
+- GetCompressedFileSizeTransacted
+- GetCompressedFileSizeTransactedA
+- GetCompressedFileSizeTransactedW
 targetos: Windows
 req.typenames: 
 req.redist: 

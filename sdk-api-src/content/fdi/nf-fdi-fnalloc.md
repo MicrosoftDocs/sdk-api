@@ -1,19 +1,17 @@
 ---
 UID: NF:fdi.FNALLOC
 title: FNALLOC macro (fdi.h)
-
 description: The FNALLOC provides the declaration for the application-defined callback function to allocate memory in an FDI context.
 old-location: winprog\fnalloc.htm
 tech.root: DevNotes
 ms.assetid: 3104267d-3efd-40da-a8b6-af2acf379ff8
-
 ms.date: 12/05/2018
 ms.keywords: FNALLOC, FNALLOC macro [Windows API], fdi/FNALLOC, winprog.fnalloc
 ms.topic: macro
-f1_keywords: 
- - "fdi/FNALLOC"
+f1_keywords:
+- fdi/FNALLOC
 dev_langs:
- - c++
+- c++
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - fdi.h
+- fdi.h
 api_name:
- - FNALLOC
+- FNALLOC
 targetos: Windows
 req.typenames: 
 req.redist: 

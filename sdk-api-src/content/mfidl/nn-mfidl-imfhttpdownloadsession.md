@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFHttpDownloadSession
 title: IMFHttpDownloadSession (mfidl.h)
-
 description: Applications implement this interface to override the default implementation of the HTTP and HTTPS protocols used by Microsoft Media Foundation.
 old-location: mf\imfhttpdownloadsession.htm
 tech.root: medfound
 ms.assetid: 048B2922-3B77-4F2D-9437-0FA54F94C67E
-
 ms.date: 12/05/2018
 ms.keywords: IMFHttpDownloadSession, IMFHttpDownloadSession interface [Media Foundation], IMFHttpDownloadSession interface [Media Foundation],described, mf.imfhttpdownloadsession, mfidl/IMFHttpDownloadSession
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFHttpDownloadSession"
+f1_keywords:
+- mfidl/IMFHttpDownloadSession
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFHttpDownloadSession
+- IMFHttpDownloadSession
 targetos: Windows
 req.typenames: 
 req.redist: 

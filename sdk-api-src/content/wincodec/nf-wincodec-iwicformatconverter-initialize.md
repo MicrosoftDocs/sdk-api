@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICFormatConverter.Initialize
 title: IWICFormatConverter::Initialize (wincodec.h)
-
 description: Initializes the format converter.
 old-location: wic\_wic_codec_iwicformatconverter_initialize.htm
 tech.root: wic
 ms.assetid: ff046b2c-a863-48dd-9cbe-3c559c84b682
-
 ms.date: 12/05/2018
 ms.keywords: IWICFormatConverter interface [Windows Imaging Component],Initialize method, IWICFormatConverter.Initialize, IWICFormatConverter::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICFormatConverter interface, _wic_codec_iwicformatconverter_initialize, wic._wic_codec_iwicformatconverter_initialize, wincodec/IWICFormatConverter::Initialize
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICFormatConverter.Initialize"
+f1_keywords:
+- wincodec/IWICFormatConverter.Initialize
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICFormatConverter.Initialize
+- IWICFormatConverter.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMStorage3.SetEnumPreference
 title: IWMDMStorage3::SetEnumPreference (mswmdm.h)
-
 description: The SetEnumPreference method sets the preferred view mode for the storage.
 old-location: wmdm\iwmdmstorage3_setenumpreference.htm
 tech.root: WMDM
 ms.assetid: 74916098-07d2-4dc9-932d-b174a10032dd
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorage3 interface [windows Media Device Manager],SetEnumPreference method, IWMDMStorage3.SetEnumPreference, IWMDMStorage3::SetEnumPreference, IWMDMStorage3SetEnumPreference, SetEnumPreference, SetEnumPreference method [windows Media Device Manager], SetEnumPreference method [windows Media Device Manager],IWMDMStorage3 interface, mswmdm/IWMDMStorage3::SetEnumPreference, wmdm.iwmdmstorage3_setenumpreference
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMStorage3.SetEnumPreference"
+f1_keywords:
+- mswmdm/IWMDMStorage3.SetEnumPreference
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMStorage3.SetEnumPreference
+- IWMDMStorage3.SetEnumPreference
 targetos: Windows
 req.typenames: 
 req.redist: 

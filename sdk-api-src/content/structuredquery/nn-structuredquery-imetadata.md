@@ -1,19 +1,17 @@
 ---
 UID: NN:structuredquery.IMetaData
 title: IMetaData (structuredquery.h)
-
 description: Provides a method for retrieving a key/value pair of strings from an IEntity, IRelationship or ISchemaProvider object.
 old-location: search\_search_IMetaData.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\imetadata\imetadata.htm
-
 ms.date: 12/05/2018
 ms.keywords: IMetaData, IMetaData interface [search], IMetaData interface [search],described, _search_IMetaData, search._search_IMetaData, structuredquery/IMetaData
 ms.topic: interface
-f1_keywords: 
- - "structuredquery/IMetaData"
+f1_keywords:
+- structuredquery/IMetaData
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IMetaData
+- IMetaData
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

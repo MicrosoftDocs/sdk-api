@@ -1,19 +1,17 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.GetDSPath
 title: IGroupPolicyObject::GetDSPath (gpedit.h)
-
 description: The GetDSPath method retrieves the Active Directory path to the root of the specified GPO section.
 old-location: policy\igrouppolicyobject_getdspath.htm
 tech.root: Policy
 ms.assetid: 0d6d0b3d-5ad4-4363-a123-f074193b75e2
-
 ms.date: 12/05/2018
 ms.keywords: GPO_SECTION_MACHINE, GPO_SECTION_ROOT, GPO_SECTION_USER, GetDSPath, GetDSPath method [Group Policy], GetDSPath method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetDSPath method, IGroupPolicyObject.GetDSPath, IGroupPolicyObject::GetDSPath, _win32_igrouppolicyobject_getdspath, gpedit/IGroupPolicyObject::GetDSPath, policy.igrouppolicyobject_getdspath
 ms.topic: method
-f1_keywords: 
- - "gpedit/IGroupPolicyObject.GetDSPath"
+f1_keywords:
+- gpedit/IGroupPolicyObject.GetDSPath
 dev_langs:
- - c++
+- c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpedit.dll
+- Gpedit.dll
 api_name:
- - IGroupPolicyObject.GetDSPath
+- IGroupPolicyObject.GetDSPath
 targetos: Windows
 req.typenames: 
 req.redist: 

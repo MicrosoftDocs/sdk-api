@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.IsStyleAvailable
 title: FontFamily::IsStyleAvailable (gdiplusheaders.h)
-
 description: The FontFamily::IsStyleAvailable method determines whether the specified style is available for this font family.
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_IsStyleAvailable_style_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\isstyleavailable.htm
-
 ms.date: 12/05/2018
 ms.keywords: FontFamily class [GDI+],IsStyleAvailable method, FontFamily.IsStyleAvailable, FontFamily::IsStyleAvailable, IsStyleAvailable, IsStyleAvailable method [GDI+], IsStyleAvailable method [GDI+],FontFamily class, _gdiplus_CLASS_FontFamily_IsStyleAvailable_style_, gdiplus._gdiplus_CLASS_FontFamily_IsStyleAvailable_style_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/FontFamily.IsStyleAvailable"
+f1_keywords:
+- gdiplusheaders/FontFamily.IsStyleAvailable
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - FontFamily.IsStyleAvailable
+- FontFamily.IsStyleAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 

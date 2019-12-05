@@ -1,19 +1,17 @@
 ---
 UID: NF:directxcollision.BoundingSphere.Intersects(const BoundingBox &)
 title: BoundingSphere::Intersects(const BoundingBox &)
-
 description: Tests the BoundingSphere for intersection with a BoundingBox.
 old-location: dxmath\boundingsphere_intersects_4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingSphere.Intersects(BoundingBox)
-
 ms.date: 12/05/2018
 ms.keywords: BoundingSphere interface [DirectX Math Support APIs],Intersects method, BoundingSphere.Intersects, BoundingSphere.Intersects(const BoundingBox &), BoundingSphere.Intersects(const BoundingBox&), BoundingSphere::Intersects, BoundingSphere::Intersects(const BoundingBox &), Intersects, Intersects method [DirectX Math Support APIs], Intersects method [DirectX Math Support APIs],BoundingSphere interface, dxmath.boundingsphere_intersects_4
 ms.topic: method
-f1_keywords: 
- - "directxcollision/BoundingSphere.Intersects"
+f1_keywords:
+- directxcollision/BoundingSphere.Intersects
 dev_langs:
- - c++
+- c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXCollision.h
+- DirectXCollision.h
 api_name:
- - BoundingSphere.Intersects
+- BoundingSphere.Intersects
 targetos: Windows
 req.typenames: 
 req.redist: 

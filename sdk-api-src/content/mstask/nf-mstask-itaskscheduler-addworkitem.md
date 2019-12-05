@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.ITaskScheduler.AddWorkItem
 title: ITaskScheduler::AddWorkItem (mstask.h)
-
 description: The AddWorkItem method adds a task to the schedule of tasks.
 old-location: taskschd\itaskscheduler_addworkitem.htm
 tech.root: taskschd
 ms.assetid: 5d776e19-c40e-4e0a-8ae1-a14c4f23b442
-
 ms.date: 12/05/2018
 ms.keywords: AddWorkItem, AddWorkItem method [Task Scheduler], AddWorkItem method [Task Scheduler],ITaskScheduler interface, ITaskScheduler interface [Task Scheduler],AddWorkItem method, ITaskScheduler.AddWorkItem, ITaskScheduler::AddWorkItem, _msb_itaskscheduler_addworkitem, mstask/ITaskScheduler::AddWorkItem, taskschd.itaskscheduler_addworkitem
 ms.topic: method
-f1_keywords: 
- - "mstask/ITaskScheduler.AddWorkItem"
+f1_keywords:
+- mstask/ITaskScheduler.AddWorkItem
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - ITaskScheduler.AddWorkItem
+- ITaskScheduler.AddWorkItem
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCompareFullToPartialMediaType
 title: MFCompareFullToPartialMediaType function (mfapi.h)
-
 description: Compares a full media type to a partial media type.
 old-location: mf\mfcomparefulltopartialmediatype.htm
 tech.root: medfound
 ms.assetid: 5659cc69-46dc-4b08-96c4-e9ec787a310a
-
 ms.date: 12/05/2018
 ms.keywords: 5659cc69-46dc-4b08-96c4-e9ec787a310a, MFCompareFullToPartialMediaType, MFCompareFullToPartialMediaType function [Media Foundation], mf.mfcomparefulltopartialmediatype, mfapi/MFCompareFullToPartialMediaType
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCompareFullToPartialMediaType"
+f1_keywords:
+- mfapi/MFCompareFullToPartialMediaType
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCompareFullToPartialMediaType
+- MFCompareFullToPartialMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

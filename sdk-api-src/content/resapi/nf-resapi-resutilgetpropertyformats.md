@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilGetPropertyFormats
 title: ResUtilGetPropertyFormats function (resapi.h)
-
 description: Returns a property format list describing the format of a specified set of properties. The PRESUTIL_GET_PROPERTY_FORMATS type defines a pointer to this function.
 old-location: mscs\resutilgetpropertyformats.htm
 tech.root: MsCS
 ms.assetid: 034c7a4f-4219-47ea-afb0-a7c634d1b544
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_PROPERTY_FORMATS, PRESUTIL_GET_PROPERTY_FORMATS function [Failover Cluster], ResUtilGetPropertyFormats, ResUtilGetPropertyFormats function [Failover Cluster], _wolf_resutilgetpropertyformats, mscs.resutilgetpropertyformats, resapi/PRESUTIL_GET_PROPERTY_FORMATS, resapi/ResUtilGetPropertyFormats
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilGetPropertyFormats"
+f1_keywords:
+- resapi/ResUtilGetPropertyFormats
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilGetPropertyFormats
+- ResUtilGetPropertyFormats
 targetos: Windows
 req.typenames: 
 req.redist: 

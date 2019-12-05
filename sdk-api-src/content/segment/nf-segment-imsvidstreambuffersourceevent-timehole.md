@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSourceEvent.TimeHole
 title: IMSVidStreamBufferSourceEvent::TimeHole (segment.h)
-
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\imsvidstreambuffersourceevent_timehole.htm
 tech.root: mstv
 ms.assetid: 6f1c3d20-7ae2-4223-8481-c22ef8422531
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],TimeHole method, IMSVidStreamBufferSourceEvent.TimeHole, IMSVidStreamBufferSourceEvent::TimeHole, IMSVidStreamBufferSourceEventTimeHole, TimeHole, TimeHole method [Microsoft TV Technologies], TimeHole method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, mstv.imsvidstreambuffersourceevent_timehole, segment/IMSVidStreamBufferSourceEvent::TimeHole
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidStreamBufferSourceEvent.TimeHole"
+f1_keywords:
+- segment/IMSVidStreamBufferSourceEvent.TimeHole
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferSourceEvent.TimeHole
+- IMSVidStreamBufferSourceEvent.TimeHole
 targetos: Windows
 req.typenames: 
 req.redist: 

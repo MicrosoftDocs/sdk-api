@@ -1,19 +1,17 @@
 ---
 UID: NF:rtmv2.RtmGetRouteInfo
 title: RtmGetRouteInfo function (rtmv2.h)
-
 description: The RtmGetRouteInfo function returns information for the specified route.
 old-location: rras\rtmgetrouteinfo.htm
 tech.root: RRAS
 ms.assetid: 13fc70de-f6cd-4e7a-b79d-c2fe811e08a4
-
 ms.date: 12/05/2018
 ms.keywords: RtmGetRouteInfo, RtmGetRouteInfo function [RAS], _rtmv2ref_rtmgetrouteinfo, rras.rtmgetrouteinfo, rtmv2/RtmGetRouteInfo
 ms.topic: function
 f1_keywords:
 - rtmv2/RtmGetRouteInfo
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

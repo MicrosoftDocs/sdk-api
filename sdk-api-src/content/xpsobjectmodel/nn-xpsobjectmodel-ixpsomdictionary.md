@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMDictionary
 title: IXpsOMDictionary (xpsobjectmodel.h)
-
 description: The dictionary is used by an XPS package to share resources.
 old-location: xps\ixpsomdictionary.htm
 tech.root: printdocs
 ms.assetid: f887e3d3-973c-4267-a785-6bc190c13082
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDictionary, IXpsOMDictionary interface [XPS Documents and Packaging], IXpsOMDictionary interface [XPS Documents and Packaging],described, xps.ixpsomdictionary, xpsobjectmodel/IXpsOMDictionary
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMDictionary"
+f1_keywords:
+- xpsobjectmodel/IXpsOMDictionary
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMDictionary
+- IXpsOMDictionary
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsWriteEndElement
 title: WsWriteEndElement function (webservices.h)
-
 description: Writes an end element to a Writer.
 old-location: wsw\wswriteendelement.htm
 tech.root: wsw
 ms.assetid: cfb23857-bc51-4467-9aeb-6ce8810ae1b0
-
 ms.date: 12/05/2018
 ms.keywords: WsWriteEndElement, WsWriteEndElement function [Web Services for Windows], webservices/WsWriteEndElement, wsw.wswriteendelement
 ms.topic: function
-f1_keywords: 
- - "webservices/WsWriteEndElement"
+f1_keywords:
+- webservices/WsWriteEndElement
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsWriteEndElement
+- WsWriteEndElement
 targetos: Windows
 req.typenames: 
 req.redist: 

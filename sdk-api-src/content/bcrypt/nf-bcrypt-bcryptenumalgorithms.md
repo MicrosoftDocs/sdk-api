@@ -1,19 +1,17 @@
 ---
 UID: NF:bcrypt.BCryptEnumAlgorithms
 title: BCryptEnumAlgorithms function (bcrypt.h)
-
 description: Gets a list of the registered algorithm identifiers.
 old-location: security\bcryptenumalgorithms_func.htm
 tech.root: SecCNG
 ms.assetid: 7fa227c0-2b80-49ab-8a19-72f8444d5507
-
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION, BCRYPT_CIPHER_OPERATION, BCRYPT_HASH_OPERATION, BCRYPT_RNG_OPERATION, BCRYPT_SECRET_AGREEMENT_OPERATION, BCRYPT_SIGNATURE_OPERATION, BCryptEnumAlgorithms, BCryptEnumAlgorithms function [Security], bcrypt/BCryptEnumAlgorithms, security.bcryptenumalgorithms_func
 ms.topic: function
 f1_keywords:
 - bcrypt/BCryptEnumAlgorithms
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITFileTrack.get_ControllingTerminal
 title: ITFileTrack::get_ControllingTerminal (tapi3if.h)
-
 description: The get_ControllingTerminal method returns the multitrack terminal that controls the current track.
 old-location: tapi3\itfiletrack_get_controllingterminal.htm
 tech.root: Tapi
 ms.assetid: a3a2c5e7-0134-4dad-b192-7a6c71dabe54
-
 ms.date: 12/05/2018
 ms.keywords: ITFileTrack interface [TAPI 2.2],get_ControllingTerminal method, ITFileTrack.get_ControllingTerminal, ITFileTrack::get_ControllingTerminal, _tapi3_itfiletrack_get_controllingterminal, get_ControllingTerminal, get_ControllingTerminal method [TAPI 2.2], get_ControllingTerminal method [TAPI 2.2],ITFileTrack interface, tapi3.itfiletrack_get_controllingterminal, tapi3if/ITFileTrack::get_ControllingTerminal
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITFileTrack.get_ControllingTerminal"
+f1_keywords:
+- tapi3if/ITFileTrack.get_ControllingTerminal
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITFileTrack.get_ControllingTerminal
+- ITFileTrack.get_ControllingTerminal
 targetos: Windows
 req.typenames: 
 req.redist: 

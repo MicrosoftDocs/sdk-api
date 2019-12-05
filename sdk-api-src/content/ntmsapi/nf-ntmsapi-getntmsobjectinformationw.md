@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.GetNtmsObjectInformationW
 title: GetNtmsObjectInformationW function (ntmsapi.h)
-
 description: The GetNtmsObjectInformation function returns an object's information structure for the specified object.
 old-location: fs\getntmsobjectinformation.htm
 tech.root: Rsm
 ms.assetid: e5c1b165-2c55-40c3-94d8-c996c5db4250
-
 ms.date: 12/05/2018
 ms.keywords: GetNtmsObjectInformation, GetNtmsObjectInformation function [Files], GetNtmsObjectInformationA, GetNtmsObjectInformationW, _zaw_getntmsobjectinformation, base.getntmsobjectinformation, fs.getntmsobjectinformation, ntmsapi/GetNtmsObjectInformation, ntmsapi/GetNtmsObjectInformationA, ntmsapi/GetNtmsObjectInformationW
 ms.topic: function
 f1_keywords:
 - ntmsapi/GetNtmsObjectInformation
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

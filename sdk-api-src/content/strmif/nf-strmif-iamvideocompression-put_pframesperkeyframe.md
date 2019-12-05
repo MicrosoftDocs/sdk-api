@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMVideoCompression.put_PFramesPerKeyFrame
 title: IAMVideoCompression::put_PFramesPerKeyFrame (strmif.h)
-
 description: The put_PFramesPerKeyFrame method sets the rate of predicted (P) frames per key frame.
 old-location: dshow\iamvideocompression_put_pframesperkeyframe.htm
 tech.root: DirectShow
 ms.assetid: bf1dfc28-a6c7-4c0d-96ea-8cf417b13a10
-
 ms.date: 12/05/2018
 ms.keywords: IAMVideoCompression interface [DirectShow],put_PFramesPerKeyFrame method, IAMVideoCompression.put_PFramesPerKeyFrame, IAMVideoCompression::put_PFramesPerKeyFrame, IAMVideoCompressionput_PFramesPerKeyFrame, dshow.iamvideocompression_put_pframesperkeyframe, put_PFramesPerKeyFrame, put_PFramesPerKeyFrame method [DirectShow], put_PFramesPerKeyFrame method [DirectShow],IAMVideoCompression interface, strmif/IAMVideoCompression::put_PFramesPerKeyFrame
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMVideoCompression.put_PFramesPerKeyFrame"
+f1_keywords:
+- strmif/IAMVideoCompression.put_PFramesPerKeyFrame
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVideoCompression.put_PFramesPerKeyFrame
+- IAMVideoCompression.put_PFramesPerKeyFrame
 targetos: Windows
 req.typenames: 
 req.redist: 

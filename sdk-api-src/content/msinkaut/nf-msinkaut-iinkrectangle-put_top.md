@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRectangle.put_Top
 title: IInkRectangle::put_Top (msinkaut.h)
-
 description: Gets or sets the top position of the InkRectangle object.
 old-location: tablet\inkrectangle_top.htm
 tech.root: tablet
 ms.assetid: f97145cf-9de9-427a-9701-36c6f4286910
-
 ms.date: 12/05/2018
 ms.keywords: IInkRectangle interface [Tablet PC],Top property, IInkRectangle.Top, IInkRectangle.put_Top, IInkRectangle::Top, IInkRectangle::get_Top, IInkRectangle::put_Top, InkRectangle.get_Top, InkRectangle.put_Top, Top property [Tablet PC], Top property [Tablet PC],IInkRectangle interface, f97145cf-9de9-427a-9701-36c6f4286910, get_Top, msinkaut/IInkRectangle::Top, msinkaut/IInkRectangle::get_Top, msinkaut/IInkRectangle::put_Top, put_Top, tablet.inkrectangle_top
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRectangle.Top"
+f1_keywords:
+- msinkaut/IInkRectangle.Top
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRectangle.Top
- - IInkRectangle.get_Top
- - IInkRectangle.put_Top
- - InkRectangle.get_Top
- - InkRectangle.put_Top
+- IInkRectangle.Top
+- IInkRectangle.get_Top
+- IInkRectangle.put_Top
+- InkRectangle.get_Top
+- InkRectangle.put_Top
 targetos: Windows
 req.typenames: 
 req.redist: 

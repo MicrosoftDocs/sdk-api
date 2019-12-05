@@ -1,19 +1,17 @@
 ---
 UID: NS:lmserver._SERVER_INFO_100
 title: SERVER_INFO_100 (lmserver.h)
-
 description: The SERVER_INFO_100 structure contains information about the specified server, including the name and platform.
 old-location: netmgmt\server_info_100_str.htm
 tech.root: NetMgmt
 ms.assetid: b027a669-b4d8-4d42-aedc-94834bf099da
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSERVER_INFO_100, *PSERVER_INFO_100, LPSERVER_INFO_100, LPSERVER_INFO_100 structure pointer [Network Management], PLATFORM_ID_DOS, PLATFORM_ID_NT, PLATFORM_ID_OS2, PLATFORM_ID_OSF, PLATFORM_ID_VMS, PSERVER_INFO_100, PSERVER_INFO_100 structure pointer [Network Management], SERVER_INFO_100, SERVER_INFO_100 structure [Network Management], _win32_server_info_100_str, lmserver/LPSERVER_INFO_100, lmserver/PSERVER_INFO_100, lmserver/SERVER_INFO_100, netmgmt.server_info_100_str"
+ms.keywords: '*LPSERVER_INFO_100, *PSERVER_INFO_100, LPSERVER_INFO_100, LPSERVER_INFO_100 structure pointer [Network Management], PLATFORM_ID_DOS, PLATFORM_ID_NT, PLATFORM_ID_OS2, PLATFORM_ID_OSF, PLATFORM_ID_VMS, PSERVER_INFO_100, PSERVER_INFO_100 structure pointer [Network Management], SERVER_INFO_100, SERVER_INFO_100 structure [Network Management], _win32_server_info_100_str, lmserver/LPSERVER_INFO_100, lmserver/PSERVER_INFO_100, lmserver/SERVER_INFO_100, netmgmt.server_info_100_str'
 ms.topic: struct
-f1_keywords: 
- - "lmserver/SERVER_INFO_100"
+f1_keywords:
+- lmserver/SERVER_INFO_100
 dev_langs:
- - c++
+- c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmserver.h
+- Lmserver.h
 api_name:
- - SERVER_INFO_100
+- SERVER_INFO_100
 targetos: Windows
 req.typenames: SERVER_INFO_100, *PSERVER_INFO_100, *LPSERVER_INFO_100
 req.redist: 

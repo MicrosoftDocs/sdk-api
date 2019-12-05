@@ -1,19 +1,17 @@
 ---
 UID: NF:pnpxassoc.IPNPXAssociation.Unassociate
 title: IPNPXAssociation::Unassociate (pnpxassoc.h)
-
 description: Marks an association database entry as unassociated.
 old-location: ncd\ipnpxassociation_unassociate.htm
 tech.root: FunDisc
 ms.assetid: 92f0cc10-03a0-498f-acd1-4b03302aa33b
-
 ms.date: 12/05/2018
 ms.keywords: IPNPXAssociation interface,Unassociate method, IPNPXAssociation.Unassociate, IPNPXAssociation::Unassociate, Unassociate, Unassociate method, Unassociate method,IPNPXAssociation interface, ncd.ipnpxassociation_unassociate, pnpxassoc/IPNPXAssociation::Unassociate
 ms.topic: method
-f1_keywords: 
- - "pnpxassoc/IPNPXAssociation.Unassociate"
+f1_keywords:
+- pnpxassoc/IPNPXAssociation.Unassociate
 dev_langs:
- - c++
+- c++
 req.header: pnpxassoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - pnpxassoc.h
+- pnpxassoc.h
 api_name:
- - IPNPXAssociation.Unassociate
+- IPNPXAssociation.Unassociate
 targetos: Windows
 req.typenames: 
 req.redist: 

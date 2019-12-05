@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrEventStore.GetEvent
 title: ISyncMgrEventStore::GetEvent (syncmgr.h)
-
 description: Gets a specified event object.
 old-location: shell\ISyncMgrEventStore_GetEvent.htm
 tech.root: shell
 ms.assetid: 6800ac62-1fd5-43a4-bd37-831449274a7b
-
 ms.date: 12/05/2018
 ms.keywords: GetEvent, GetEvent method [Windows Shell], GetEvent method [Windows Shell],ISyncMgrEventStore interface, ISyncMgrEventStore interface [Windows Shell],GetEvent method, ISyncMgrEventStore.GetEvent, ISyncMgrEventStore::GetEvent, _shell_ISyncMgrEventStore_GetEvent, shell.ISyncMgrEventStore_GetEvent, syncmgr/ISyncMgrEventStore::GetEvent
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrEventStore.GetEvent"
+f1_keywords:
+- syncmgr/ISyncMgrEventStore.GetEvent
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrEventStore.GetEvent
+- ISyncMgrEventStore.GetEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

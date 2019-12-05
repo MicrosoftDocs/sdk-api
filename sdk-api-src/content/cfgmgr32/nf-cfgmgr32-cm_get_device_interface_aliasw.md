@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_Interface_AliasW
 title: CM_Get_Device_Interface_AliasW function (cfgmgr32.h)
-
 description: The CM_Get_Device_Interface_Alias function returns the alias of the specified device interface instance, if the alias exists.
 old-location: devinst\cm_get_device_interface_alias.htm
 tech.root: devinst
 ms.assetid: 855d1b3b-1c65-4a0d-a591-d9fbc235c4ca
-
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Device_Interface_Alias, CM_Get_Device_Interface_Alias function [Device and Driver Installation], CM_Get_Device_Interface_AliasW, cfgmgr32/CM_Get_Device_Interface_Alias, cfgmgr32/CM_Get_Device_Interface_AliasW, cfgmgrfn_7650eacc-4b5e-4f88-81f2-a7f75462dfc1.xml, devinst.cm_get_device_interface_alias
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Get_Device_Interface_Alias"
+f1_keywords:
+- cfgmgr32/CM_Get_Device_Interface_Alias
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -32,16 +30,16 @@ req.lib: Cfgmgr32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Cfgmgr32.lib
- - Cfgmgr32.dll
+- Cfgmgr32.lib
+- Cfgmgr32.dll
 api_name:
- - CM_Get_Device_Interface_Alias
- - CM_Get_Device_Interface_AliasW
+- CM_Get_Device_Interface_Alias
+- CM_Get_Device_Interface_AliasW
 targetos: Windows
 req.typenames: 
 req.redist: 

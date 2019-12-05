@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxJob.get_SenderDept
 title: IFaxJob::get_SenderDept (faxcom.h)
-
 description: The IFaxJob::get_SenderDept property is a null-terminated string that contains the department identifier for the sender of the fax job. The IFaxJob::get_SenderDept property applies only to outgoing fax transmissions.
 old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_senderdept_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_71mc.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxJob interface [Fax Service],SenderDept property, IFaxJob.SenderDept, IFaxJob.get_SenderDept, IFaxJob::SenderDept, IFaxJob::get_SenderDept, SenderDept property [Fax Service], SenderDept property [Fax Service],IFaxJob interface, _mfax_ifaxjob_get_senderdept, fax._mfax_ifaxjob_get_senderdept, fax._mfax_ifaxjob_mfax_ifaxjob_get_senderdept_cpp, faxcom/IFaxJob::SenderDept, faxcom/IFaxJob::get_SenderDept, get_SenderDept
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxJob.SenderDept"
+f1_keywords:
+- faxcom/IFaxJob.SenderDept
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxJob.SenderDept
- - IFaxJob.get_SenderDept
+- IFaxJob.SenderDept
+- IFaxJob.get_SenderDept
 targetos: Windows
 req.typenames: 
 req.redist: 

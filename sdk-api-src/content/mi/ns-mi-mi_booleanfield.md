@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_BooleanField
 title: MI_BooleanField (mi.h)
-
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_booleanfield.htm
 tech.root: wmi_v2
 ms.assetid: 65af60f6-2814-44e2-97e5-2301e1021347
-
 ms.date: 12/05/2018
 ms.keywords: MI_BooleanField, MI_BooleanField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_BooleanField, wmi._mi_booleanfield, wmi_v2.mi_booleanfield
 ms.topic: struct
 f1_keywords:
 - mi/MI_BooleanField
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

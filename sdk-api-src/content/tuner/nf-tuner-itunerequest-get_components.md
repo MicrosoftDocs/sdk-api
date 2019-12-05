@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuneRequest.get_Components
 title: ITuneRequest::get_Components (tuner.h)
-
 description: The get_Components method retrieves the components contained in this tune request.
 old-location: mstv\itunerequest_get_components.htm
 tech.root: mstv
 ms.assetid: f15ef4f6-ca36-4d46-93c7-26f1fbcb21cd
-
 ms.date: 12/05/2018
 ms.keywords: ITuneRequest interface [Microsoft TV Technologies],get_Components method, ITuneRequest.get_Components, ITuneRequest::get_Components, ITuneRequestget_Components, get_Components, get_Components method [Microsoft TV Technologies], get_Components method [Microsoft TV Technologies],ITuneRequest interface, mstv.itunerequest_get_components, tuner/ITuneRequest::get_Components
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuneRequest.get_Components"
+f1_keywords:
+- tuner/ITuneRequest.get_Components
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuneRequest.get_Components
+- ITuneRequest.get_Components
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certpol.INDESPolicy.GenerateChallenge
 title: INDESPolicy::GenerateChallenge (certpol.h)
-
 description: Performs the policy decision whether to issue a challenge password to the SCEP client.
 old-location: security\indespolicy_generatechallenge.htm
 tech.root: SecCrypto
 ms.assetid: e09ef64c-5b4c-41ef-942a-1080cd566a5b
-
 ms.date: 12/05/2018
 ms.keywords: GenerateChallenge, GenerateChallenge method [Security], GenerateChallenge method [Security],INDESPolicy interface, INDESPolicy interface [Security],GenerateChallenge method, INDESPolicy.GenerateChallenge, INDESPolicy::GenerateChallenge, certpol/INDESPolicy::GenerateChallenge, security.indespolicy_generatechallenge
 ms.topic: method
-f1_keywords: 
- - "certpol/INDESPolicy.GenerateChallenge"
+f1_keywords:
+- certpol/INDESPolicy.GenerateChallenge
 dev_langs:
- - c++
+- c++
 req.header: certpol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - certpol.h
+- certpol.h
 api_name:
- - INDESPolicy.GenerateChallenge
+- INDESPolicy.GenerateChallenge
 targetos: Windows
 req.typenames: 
 req.redist: 

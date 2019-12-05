@@ -1,19 +1,17 @@
 ---
 UID: NF:certbcli.CertSrvRestoreRegisterComplete
 title: CertSrvRestoreRegisterComplete function (certbcli.h)
-
 description: Completes a registered Certificate Services restore operation.
 old-location: security\certsrvrestoreregistercomplete.htm
 tech.root: SecCrypto
 ms.assetid: 1459d5b2-2c12-48df-ae01-c713c86f1c2e
-
 ms.date: 12/05/2018
 ms.keywords: CertSrvRestoreRegisterComplete, CertSrvRestoreRegisterComplete function [Security], _certsrv_certsrvrestoreregistercomplete, certbcli/CertSrvRestoreRegisterComplete, security.certsrvrestoreregistercomplete
 ms.topic: function
-f1_keywords: 
- - "certbcli/CertSrvRestoreRegisterComplete"
+f1_keywords:
+- certbcli/CertSrvRestoreRegisterComplete
 dev_langs:
- - c++
+- c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - CertSrvRestoreRegisterComplete
+- CertSrvRestoreRegisterComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

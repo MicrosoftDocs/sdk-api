@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange2.BuildUpMath
 title: ITextRange2::BuildUpMath (tom.h)
-
 description: Converts the linear-format math in a range to a built-up form, or modifies the current built-up form.
 old-location: controls\itextrange2_buildupmath.htm
 tech.root: Controls
 ms.assetid: b6382f09-126e-4107-a4b9-288777549181
-
 ms.date: 12/05/2018
 ms.keywords: BuildUpMath, BuildUpMath method [Windows Controls], BuildUpMath method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],BuildUpMath method, ITextRange2.BuildUpMath, ITextRange2::BuildUpMath, controls.itextrange2_buildupmath, tom/ITextRange2::BuildUpMath, tomChemicalFormula, tomHaveDelimiter, tomMathAlphabetics, tomMathApplyTemplate, tomMathArabicAlphabetics, tomMathAutoCorrect, tomMathAutoCorrectExt, tomMathAutoCorrectOpPairs, tomMathBackspace, tomMathBuildDown, tomMathBuildDownOutermost, tomMathBuildUpArgOrZone, tomMathBuildUpRecurse, tomMathChangeMask, tomMathCollapseSel, tomMathDeleteArg, tomMathDeleteArg1, tomMathDeleteArg2, tomMathDeleteCol, tomMathDeleteRow, tomMathEnter, tomMathInsColAfter, tomMathInsColBefore, tomMathInsRowAfter, tomMathInsRowBefore, tomMathMakeFracLinear, tomMathMakeFracSlashed, tomMathMakeFracStacked, tomMathMakeLeftSubSup, tomMathMakeSubSup, tomMathRemoveOutermost, tomMathRichEdit, tomMathShiftTab, tomMathSingleChar, tomMathSubscript, tomMathSuperscript, tomMathTab, tomNeedTermOp, tomPlain, tomShowEmptyArgPlaceholders, tomTeX
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange2.BuildUpMath"
+f1_keywords:
+- tom/ITextRange2.BuildUpMath
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange2.BuildUpMath
+- ITextRange2.BuildUpMath
 targetos: Windows
 req.typenames: 
 req.redist: 

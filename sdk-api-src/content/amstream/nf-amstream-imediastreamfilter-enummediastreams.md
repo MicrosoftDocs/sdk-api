@@ -1,19 +1,17 @@
 ---
 UID: NF:amstream.IMediaStreamFilter.EnumMediaStreams
 title: IMediaStreamFilter::EnumMediaStreams (amstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. The EnumMediaStreams method retrieves a media stream, specified by index.
 old-location: dshow\imediastreamfilter_enummediastreams.htm
 tech.root: DirectShow
 ms.assetid: 5f62abda-6192-4adb-985d-9bffe310b407
-
 ms.date: 12/05/2018
 ms.keywords: EnumMediaStreams, EnumMediaStreams method [DirectShow], EnumMediaStreams method [DirectShow],IMediaStreamFilter interface, IMediaStreamFilter interface [DirectShow],EnumMediaStreams method, IMediaStreamFilter.EnumMediaStreams, IMediaStreamFilter::EnumMediaStreams, IMediaStreamFilterEnumMediaStreams, amstream/IMediaStreamFilter::EnumMediaStreams, dshow.imediastreamfilter_enummediastreams
 ms.topic: method
-f1_keywords: 
- - "amstream/IMediaStreamFilter.EnumMediaStreams"
+f1_keywords:
+- amstream/IMediaStreamFilter.EnumMediaStreams
 dev_langs:
- - c++
+- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - amstream.h
+- amstream.h
 api_name:
- - IMediaStreamFilter.EnumMediaStreams
+- IMediaStreamFilter.EnumMediaStreams
 targetos: Windows
 req.typenames: 
 req.redist: 

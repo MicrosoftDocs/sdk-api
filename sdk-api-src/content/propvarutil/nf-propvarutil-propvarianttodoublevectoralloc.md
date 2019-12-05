@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToDoubleVectorAlloc
 title: PropVariantToDoubleVectorAlloc function (propvarutil.h)
-
 description: Extracts data from a PROPVARIANT structure into a newly-allocated double vector.
 old-location: properties\PropVariantToDoubleVectorAlloc.htm
 tech.root: properties
 ms.assetid: 80f05530-a92b-4877-80fa-efac8e999510
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToDoubleVectorAlloc, PropVariantToDoubleVectorAlloc function [Windows Properties], _shell_PropVariantToDoubleVectorAlloc, properties.PropVariantToDoubleVectorAlloc, propvarutil/PropVariantToDoubleVectorAlloc, shell.PropVariantToDoubleVectorAlloc
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToDoubleVectorAlloc"
+f1_keywords:
+- propvarutil/PropVariantToDoubleVectorAlloc
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToDoubleVectorAlloc
+- PropVariantToDoubleVectorAlloc
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

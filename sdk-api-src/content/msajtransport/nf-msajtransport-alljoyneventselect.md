@@ -1,19 +1,17 @@
 ---
 UID: NF:msajtransport.AllJoynEventSelect
 title: AllJoynEventSelect function (msajtransport.h)
-
 description: Provides AllJoyn transport functionality similar to the TCP socket WSAEventSelect functionality.
 old-location: alljoyn\alljoyneventselect.htm
 tech.root: AllJoyn
 ms.assetid: 8E3A3631-50D5-4947-9C0E-672C08D7292A
-
 ms.date: 12/05/2018
 ms.keywords: AllJoynEventSelect, AllJoynEventSelect function [AllJoyn API], alljoyn.alljoyneventselect, msajtransport/AllJoynEventSelect
 ms.topic: function
-f1_keywords: 
- - "msajtransport/AllJoynEventSelect"
+f1_keywords:
+- msajtransport/AllJoynEventSelect
 dev_langs:
- - c++
+- c++
 req.header: msajtransport.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: MSAJApi.lib
 req.dll: MSAJApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - MSAJApi.dll
+- MSAJApi.dll
 api_name:
- - AllJoynEventSelect
+- AllJoynEventSelect
 targetos: Windows
 req.typenames: 
 req.redist: 

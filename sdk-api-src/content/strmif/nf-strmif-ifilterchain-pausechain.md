@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IFilterChain.PauseChain
 title: IFilterChain::PauseChain (strmif.h)
-
 description: The PauseChain method switches all the filters in a filter chain into a paused state.
 old-location: dshow\ifilterchain_pausechain.htm
 tech.root: DirectShow
 ms.assetid: a153ebf6-1d0a-45d0-ad2a-eb1eda62da2c
-
 ms.date: 12/05/2018
 ms.keywords: IFilterChain interface [DirectShow],PauseChain method, IFilterChain.PauseChain, IFilterChain::PauseChain, IFilterChainPauseChain, PauseChain, PauseChain method [DirectShow], PauseChain method [DirectShow],IFilterChain interface, dshow.ifilterchain_pausechain, strmif/IFilterChain::PauseChain
 ms.topic: method
-f1_keywords: 
- - "strmif/IFilterChain.PauseChain"
+f1_keywords:
+- strmif/IFilterChain.PauseChain
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFilterChain.PauseChain
+- IFilterChain.PauseChain
 targetos: Windows
 req.typenames: 
 req.redist: 

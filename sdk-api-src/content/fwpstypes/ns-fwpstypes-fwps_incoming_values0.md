@@ -1,19 +1,17 @@
 ---
 UID: NS:fwpstypes.FWPS_INCOMING_VALUES0_
 title: FWPS_INCOMING_VALUES0 (fwpstypes.h)
-
 description: The FWPS_INCOMING_VALUES0 structure defines data values that are passed by the filter engine to a callout's classifyFn callout function.Note  FWPS_INCOMING_VALUES0 is a specific version of FWPS_INCOMING_VALUES.
 old-location: netvista\fwps_incoming_values0.htm
 tech.root: NetVista
 ms.assetid: 62cec782-3d55-4bf0-a3a1-4eb2f11d5813
-
 ms.date: 12/05/2018
 ms.keywords: FWPS_INCOMING_VALUES0, FWPS_INCOMING_VALUES0 structure [Network Drivers Starting with Windows Vista], fwpstypes/FWPS_INCOMING_VALUES0, netvista.fwps_incoming_values0, wfp_ref_3_struct_3_fwps_F-O_8a5ec685-98ff-49f2-9e78-72d409fece93.xml
 ms.topic: struct
-f1_keywords: 
- - "fwpstypes/FWPS_INCOMING_VALUES0"
+f1_keywords:
+- fwpstypes/FWPS_INCOMING_VALUES0
 dev_langs:
- - c++
+- c++
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - fwpstypes.h
+- fwpstypes.h
 api_name:
- - FWPS_INCOMING_VALUES0
+- FWPS_INCOMING_VALUES0
 targetos: Windows
 req.typenames: FWPS_INCOMING_VALUES0
 req.redist: 

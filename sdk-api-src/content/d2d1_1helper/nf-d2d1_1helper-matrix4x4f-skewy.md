@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1helper.Matrix4x4F.SkewY
 title: Matrix4x4F::SkewY (d2d1_1helper.h)
-
 description: Skews the matrix in the Y direction.
 old-location: direct2d\matrix4x4f_skewy.htm
 tech.root: Direct2D
 ms.assetid: 481D428F-C070-4112-83BB-3B4E8E0C7319
-
 ms.date: 12/05/2018
 ms.keywords: Matrix4x4F interface [Direct2D],SkewY method, Matrix4x4F.SkewY, Matrix4x4F::SkewY, SkewY, SkewY method [Direct2D], SkewY method [Direct2D],Matrix4x4F interface, d2d1_1helper/Matrix4x4F::SkewY, direct2d.matrix4x4f_skewy
 ms.topic: method
-f1_keywords: 
- - "d2d1_1helper/Matrix4x4F.SkewY"
+f1_keywords:
+- d2d1_1helper/Matrix4x4F.SkewY
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1_1helper.h
+- d2d1_1helper.h
 api_name:
- - Matrix4x4F.SkewY
+- Matrix4x4F.SkewY
 targetos: Windows
 req.typenames: 
 req.redist: 

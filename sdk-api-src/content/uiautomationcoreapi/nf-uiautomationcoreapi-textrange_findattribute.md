@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_FindAttribute
 title: TextRange_FindAttribute function (uiautomationcoreapi.h)
-
 description: Searches in a specified direction for the first piece of text supporting a specified text attribute.
 old-location: winauto\uiauto_TextRange_FindAttributeConPat.htm
 tech.root: WinAuto
 ms.assetid: b5fac0d6-77d7-4fbf-a1b0-4ae0effbd23a
-
 ms.date: 12/05/2018
 ms.keywords: TextRange_FindAttribute, TextRange_FindAttribute function [Windows Accessibility], uiauto.uiauto_TextRange_FindAttributeConPat, uiauto_TextRange_FindAttributeConPat, uiautomationcoreapi/TextRange_FindAttribute, winauto.uiauto_TextRange_FindAttributeConPat
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/TextRange_FindAttribute"
+f1_keywords:
+- uiautomationcoreapi/TextRange_FindAttribute
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - TextRange_FindAttribute
+- TextRange_FindAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 

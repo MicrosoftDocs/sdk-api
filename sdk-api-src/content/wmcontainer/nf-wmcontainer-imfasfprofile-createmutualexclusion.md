@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.CreateMutualExclusion
 title: IMFASFProfile::CreateMutualExclusion (wmcontainer.h)
-
 description: Creates a new Advanced Systems Format (ASF) mutual exclusion object. Mutual exclusion objects can be added to a profile by calling the AddMutualExclusion method.
 old-location: mf\imfasfprofile_createmutualexclusion.htm
 tech.root: medfound
 ms.assetid: 457b7b73-34c0-48fe-882a-9cdc3516e20d
-
 ms.date: 12/05/2018
 ms.keywords: 457b7b73-34c0-48fe-882a-9cdc3516e20d, CreateMutualExclusion, CreateMutualExclusion method [Media Foundation], CreateMutualExclusion method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],CreateMutualExclusion method, IMFASFProfile.CreateMutualExclusion, IMFASFProfile::CreateMutualExclusion, mf.imfasfprofile_createmutualexclusion, wmcontainer/IMFASFProfile::CreateMutualExclusion
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFProfile.CreateMutualExclusion"
+f1_keywords:
+- wmcontainer/IMFASFProfile.CreateMutualExclusion
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFProfile.CreateMutualExclusion
+- IMFASFProfile.CreateMutualExclusion
 targetos: Windows
 req.typenames: 
 req.redist: 

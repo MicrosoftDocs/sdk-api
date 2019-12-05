@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.TAPIERROR_FORMATMESSAGE
 title: TAPIERROR_FORMATMESSAGE macro (tapi.h)
-
 description: The TAPIERROR_FORMATMESSAGE macro generates an identifier for standard TAPI error codes that can be used in the FormatMessage function.
 old-location: tapi2\tapierror_formatmessage.htm
 tech.root: Tapi
 ms.assetid: 95817592-467f-438e-ae81-b4c2fff42d1f
-
 ms.date: 12/05/2018
 ms.keywords: TAPIERROR_FORMATMESSAGE, TAPIERROR_FORMATMESSAGE macro [TAPI 2.2], _tapi2_tapierror_formatmessage, tapi/TAPIERROR_FORMATMESSAGE, tapi2.tapierror_formatmessage
 ms.topic: macro
-f1_keywords: 
- - "tapi/TAPIERROR_FORMATMESSAGE"
+f1_keywords:
+- tapi/TAPIERROR_FORMATMESSAGE
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - TAPIERROR_FORMATMESSAGE
+- TAPIERROR_FORMATMESSAGE
 targetos: Windows
 req.typenames: 
 req.redist: 

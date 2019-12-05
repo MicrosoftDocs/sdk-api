@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.RemoveStylusAsyncPlugin
 title: IRealTimeStylus::RemoveStylusAsyncPlugin (rtscom.h)
-
 description: Removes and optionally returns an IStylusAsyncPlugin with the specified index in the asynchronous plug-in collection.
 old-location: tablet\irealtimestylus_removestylusasyncplugin.htm
 tech.root: tablet
 ms.assetid: 9c993147-3711-45ad-8996-e1434fd4b657
-
 ms.date: 12/05/2018
 ms.keywords: 9c993147-3711-45ad-8996-e1434fd4b657, IRealTimeStylus interface [Tablet PC],RemoveStylusAsyncPlugin method, IRealTimeStylus.RemoveStylusAsyncPlugin, IRealTimeStylus::RemoveStylusAsyncPlugin, RemoveStylusAsyncPlugin, RemoveStylusAsyncPlugin method [Tablet PC], RemoveStylusAsyncPlugin method [Tablet PC],IRealTimeStylus interface, rtscom/IRealTimeStylus::RemoveStylusAsyncPlugin, tablet.irealtimestylus_removestylusasyncplugin
 ms.topic: method
-f1_keywords: 
- - "rtscom/IRealTimeStylus.RemoveStylusAsyncPlugin"
+f1_keywords:
+- rtscom/IRealTimeStylus.RemoveStylusAsyncPlugin
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IRealTimeStylus.RemoveStylusAsyncPlugin
+- IRealTimeStylus.RemoveStylusAsyncPlugin
 targetos: Windows
 req.typenames: 
 req.redist: 

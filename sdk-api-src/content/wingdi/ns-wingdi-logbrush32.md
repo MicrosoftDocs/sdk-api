@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagLOGBRUSH32
 title: LOGBRUSH32 (wingdi.h)
-
 description: The LOGBRUSH32 structure defines the style, color, and pattern of a physical brush.
 old-location: gdi\logbrush32.htm
 tech.root: gdi
 ms.assetid: 8e2053a9-d7b6-4bf7-b915-4c3871a46b37
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLOGBRUSH32, *NPLOGBRUSH32, *PLOGBRUSH32, LOGBRUSH32, LOGBRUSH32 structure [Windows GDI], PLOGBRUSH32, PLOGBRUSH32 structure pointer [Windows GDI], _win32_LOGBRUSH32_str, gdi.logbrush32, wingdi/LOGBRUSH32, wingdi/PLOGBRUSH32"
+ms.keywords: '*LPLOGBRUSH32, *NPLOGBRUSH32, *PLOGBRUSH32, LOGBRUSH32, LOGBRUSH32 structure [Windows GDI], PLOGBRUSH32, PLOGBRUSH32 structure pointer [Windows GDI], _win32_LOGBRUSH32_str, gdi.logbrush32, wingdi/LOGBRUSH32, wingdi/PLOGBRUSH32'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/LOGBRUSH32"
+f1_keywords:
+- wingdi/LOGBRUSH32
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - LOGBRUSH32
+- LOGBRUSH32
 targetos: Windows
 req.typenames: LOGBRUSH32, *PLOGBRUSH32, *NPLOGBRUSH32, *LPLOGBRUSH32
 req.redist: 

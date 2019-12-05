@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.ICommDlgBrowser2
 title: ICommDlgBrowser2 (shobjidl_core.h)
-
 description: Extends the capabilities of ICommDlgBrowser. This interface is exposed by the common file dialog boxes when they host a Shell browser. A pointer to ICommDlgBrowser2 can be obtained by calling QueryInterface on the IShellBrowser object.
 old-location: shell\ICommDlgBrowser2.htm
 tech.root: shell
 ms.assetid: 07a416a2-340d-4308-a6f3-cf6f19f3c906
-
 ms.date: 12/05/2018
 ms.keywords: ICommDlgBrowser2, ICommDlgBrowser2 interface [Windows Shell], ICommDlgBrowser2 interface [Windows Shell],described, _win32_ICommDlgBrowser2, shell.ICommDlgBrowser2, shobjidl_core/ICommDlgBrowser2
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/ICommDlgBrowser2"
+f1_keywords:
+- shobjidl_core/ICommDlgBrowser2
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ICommDlgBrowser2
+- ICommDlgBrowser2
 targetos: Windows
 req.typenames: 
 req.redist: 

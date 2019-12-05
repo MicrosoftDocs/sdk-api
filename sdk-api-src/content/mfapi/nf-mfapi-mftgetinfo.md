@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFTGetInfo
 title: MFTGetInfo function (mfapi.h)
-
 description: Gets information from the registry about a Media Foundation transform (MFT).
 old-location: mf\mftgetinfo.htm
 tech.root: medfound
 ms.assetid: d1bac1c7-3f9b-46b7-bdf7-c32983c648ee
-
 ms.date: 12/05/2018
 ms.keywords: MFTGetInfo, MFTGetInfo function [Media Foundation], d1bac1c7-3f9b-46b7-bdf7-c32983c648ee, mf.mftgetinfo, mfapi/MFTGetInfo
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFTGetInfo"
+f1_keywords:
+- mfapi/MFTGetInfo
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFTGetInfo
+- MFTGetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

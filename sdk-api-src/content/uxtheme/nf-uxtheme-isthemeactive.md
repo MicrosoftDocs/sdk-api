@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.IsThemeActive
 title: IsThemeActive function (uxtheme.h)
-
 description: Tests if a visual style for the current application is active.
 old-location: controls\IsThemeActive.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\isthemeactive.htm
-
 ms.date: 12/05/2018
 ms.keywords: IsThemeActive, IsThemeActive function [Windows Controls], controls.IsThemeActive, controls.inet_IsThemeActive, inet_IsThemeActive, inet_IsThemeActive_cpp, uxtheme/IsThemeActive
 ms.topic: function
-f1_keywords: 
- - "uxtheme/IsThemeActive"
+f1_keywords:
+- uxtheme/IsThemeActive
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
- - Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
- - xamlpalwp.dll
- - ext-ms-win-uxtheme-themes-l1-1-1.dll
+- UxTheme.dll
+- Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
+- xamlpalwp.dll
+- ext-ms-win-uxtheme-themes-l1-1-1.dll
 api_name:
- - IsThemeActive
+- IsThemeActive
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.IUrlAccessor3.GetImpersonationSidBlobs
 title: IUrlAccessor3::GetImpersonationSidBlobs (searchapi.h)
-
 description: Retrieves an array of user security identifiers (SIDs) for a specified URL. This method enables protocol handlers to specify which users can access the file and the search protocol host to impersonate a user in order to index the file.
 old-location: search\_search_IUrlAccessor3_GetImpersonationSidBlobs.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor3\getimpersonationsidblobs.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetImpersonationSidBlobs, GetImpersonationSidBlobs method [search], GetImpersonationSidBlobs method [search],IUrlAccessor3 interface, GetImpersonationSidBlobs method [search],IUrlAccessor4 interface, IUrlAccessor3 interface [search],GetImpersonationSidBlobs method, IUrlAccessor3.GetImpersonationSidBlobs, IUrlAccessor3::GetImpersonationSidBlobs, IUrlAccessor4 interface [search],GetImpersonationSidBlobs method, IUrlAccessor4::GetImpersonationSidBlobs, _search_IUrlAccessor3_GetImpersonationSidBlobs, search._search_IUrlAccessor3_GetImpersonationSidBlobs, searchapi/IUrlAccessor3::GetImpersonationSidBlobs, searchapi/IUrlAccessor4::GetImpersonationSidBlobs
 ms.topic: method
-f1_keywords: 
- - "searchapi/IUrlAccessor3.GetImpersonationSidBlobs"
+f1_keywords:
+- searchapi/IUrlAccessor3.GetImpersonationSidBlobs
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IUrlAccessor3.GetImpersonationSidBlobs
- - IUrlAccessor4.GetImpersonationSidBlobs
+- IUrlAccessor3.GetImpersonationSidBlobs
+- IUrlAccessor4.GetImpersonationSidBlobs
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search (WS) 4.0

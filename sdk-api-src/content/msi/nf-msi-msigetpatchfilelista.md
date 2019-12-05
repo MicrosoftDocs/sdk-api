@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiGetPatchFileListA
 title: MsiGetPatchFileListA function (msi.h)
-
 description: The MsiGetPatchFileList function is provided a list of .msp files, delimited by semicolons, and retrieves the list of files that can be updated by the patches.
 old-location: setup\msigetpatchfilelist.htm
 tech.root: Msi
 ms.assetid: c0a98ae4-d348-462d-8907-87116a64f79e
-
 ms.date: 12/05/2018
 ms.keywords: MsiGetPatchFileList, MsiGetPatchFileList function, MsiGetPatchFileListA, MsiGetPatchFileListW, msi/MsiGetPatchFileList, msi/MsiGetPatchFileListA, msi/MsiGetPatchFileListW, setup.msigetpatchfilelist
 ms.topic: function
-f1_keywords: 
- - "msi/MsiGetPatchFileList"
+f1_keywords:
+- msi/MsiGetPatchFileList
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiGetPatchFileList
- - MsiGetPatchFileListA
- - MsiGetPatchFileListW
+- MsiGetPatchFileList
+- MsiGetPatchFileListA
+- MsiGetPatchFileListW
 targetos: Windows
 req.typenames: 
 req.redist: 

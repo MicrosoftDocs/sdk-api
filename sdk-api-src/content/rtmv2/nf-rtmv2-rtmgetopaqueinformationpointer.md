@@ -1,19 +1,17 @@
 ---
 UID: NF:rtmv2.RtmGetOpaqueInformationPointer
 title: RtmGetOpaqueInformationPointer function (rtmv2.h)
-
 description: The RtmGetOpaqueInformationPointer function returns a pointer to the opaque information field in a destination that is reserved for this client.
 old-location: rras\rtmgetopaqueinformationpointer.htm
 tech.root: RRAS
 ms.assetid: 7ad948fa-cd00-4496-bd62-433d7faa0f85
-
 ms.date: 12/05/2018
 ms.keywords: RtmGetOpaqueInformationPointer, RtmGetOpaqueInformationPointer function [RAS], _rtmv2ref_rtmgetopaqueinformationpointer, rras.rtmgetopaqueinformationpointer, rtmv2/RtmGetOpaqueInformationPointer
 ms.topic: function
-f1_keywords: 
- - "rtmv2/RtmGetOpaqueInformationPointer"
+f1_keywords:
+- rtmv2/RtmGetOpaqueInformationPointer
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rtm.dll
+- Rtm.dll
 api_name:
- - RtmGetOpaqueInformationPointer
+- RtmGetOpaqueInformationPointer
 targetos: Windows
 req.typenames: 
 req.redist: 

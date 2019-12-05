@@ -1,19 +1,17 @@
 ---
 UID: NF:syncregistration.IRegisteredSyncProvider.Reset
 title: IRegisteredSyncProvider::Reset (syncregistration.h)
-
 description: Resets a synchronization provider so that it looks like a new replica in the next synchronization session.
 old-location: winsync\iregisteredsyncprovider_reset.htm
 tech.root: winsync
 ms.assetid: 05fe5db8-9a21-4e09-a1fb-d50d1f08a540
-
 ms.date: 12/05/2018
 ms.keywords: IRegisteredSyncProvider interface [Windows Sync],Reset method, IRegisteredSyncProvider.Reset, IRegisteredSyncProvider::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IRegisteredSyncProvider interface, syncregistration/IRegisteredSyncProvider::Reset, winsync.iregisteredsyncprovider_reset
 ms.topic: method
-f1_keywords: 
- - "syncregistration/IRegisteredSyncProvider.Reset"
+f1_keywords:
+- syncregistration/IRegisteredSyncProvider.Reset
 dev_langs:
- - c++
+- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncregistration.h
+- Syncregistration.h
 api_name:
- - IRegisteredSyncProvider.Reset
+- IRegisteredSyncProvider.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

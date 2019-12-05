@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagEVENTMSG
 title: EVENTMSG (winuser.h)
-
 description: Contains information about a hardware message sent to the system message queue. This structure is used to store message information for the JournalPlaybackProc callback function.
 old-location: winmsg\eventmsg.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookstructures\eventmsg.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPEVENTMSG, *LPEVENTMSGMSG, *NPEVENTMSG, *NPEVENTMSGMSG, *PEVENTMSG, *PEVENTMSGMSG, EVENTMSG, EVENTMSG structure [Windows and Messages], LPEVENTMSG, LPEVENTMSG structure pointer [Windows and Messages], PEVENTMSG, PEVENTMSG structure pointer [Windows and Messages], _win32_EVENTMSG_str, _win32_eventmsg_str_cpp, winmsg.eventmsg, winui._win32_eventmsg_str, winuser/EVENTMSG, winuser/LPEVENTMSG, winuser/PEVENTMSG"
+ms.keywords: '*LPEVENTMSG, *LPEVENTMSGMSG, *NPEVENTMSG, *NPEVENTMSGMSG, *PEVENTMSG, *PEVENTMSGMSG, EVENTMSG, EVENTMSG structure [Windows and Messages], LPEVENTMSG, LPEVENTMSG structure pointer [Windows and Messages], PEVENTMSG, PEVENTMSG structure pointer [Windows and Messages], _win32_EVENTMSG_str, _win32_eventmsg_str_cpp, winmsg.eventmsg, winui._win32_eventmsg_str, winuser/EVENTMSG, winuser/LPEVENTMSG, winuser/PEVENTMSG'
 ms.topic: struct
-f1_keywords: 
- - "winuser/EVENTMSG"
+f1_keywords:
+- winuser/EVENTMSG
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - EVENTMSG
+- EVENTMSG
 targetos: Windows
 req.typenames: EVENTMSG, *PEVENTMSGMSG, *NPEVENTMSGMSG, *LPEVENTMSGMSG, *PEVENTMSG, *NPEVENTMSG, *LPEVENTMSG
 req.redist: 

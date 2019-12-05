@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.UiaNavigate
 title: UiaNavigate function (uiautomationcoreapi.h)
-
 description: Navigates in the UI Automation tree, optionally retrieving cached information.
 old-location: winauto\uiauto_UiaNavigateAutoMeth.htm
 tech.root: WinAuto
 ms.assetid: 11f0d52a-11be-4038-bf9e-94e44b118a22
-
 ms.date: 12/05/2018
 ms.keywords: UiaNavigate, UiaNavigate function [Windows Accessibility], uiauto.uiauto_UiaNavigateAutoMeth, uiauto_UiaNavigateAutoMeth, uiautomationcoreapi/UiaNavigate, winauto.uiauto_UiaNavigateAutoMeth
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/UiaNavigate"
+f1_keywords:
+- uiautomationcoreapi/UiaNavigate
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - UiaNavigate
+- UiaNavigate
 targetos: Windows
 req.typenames: 
 req.redist: 

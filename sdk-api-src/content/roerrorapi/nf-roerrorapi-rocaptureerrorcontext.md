@@ -1,19 +1,17 @@
 ---
 UID: NF:roerrorapi.RoCaptureErrorContext
 title: RoCaptureErrorContext function
-
 description: Saves the current error context so that it's available for later calls to the RoFailFastWithErrorContext function.
 old-location: winrt\rocaptureerrorcontext.htm
 tech.root: WinRT
 ms.assetid: 4102CAD6-B5EC-4633-91CC-D56F6C0E287E
-
 ms.date: 12/5/2018
 ms.keywords: RoCaptureErrorContext, RoCaptureErrorContext function [Windows Runtime], roerrorapi/RoCaptureErrorContext, winrt.rocaptureerrorcontext
 ms.topic: function
-f1_keywords: 
- - "roerrorapi/RoCaptureErrorContext"
+f1_keywords:
+- roerrorapi/RoCaptureErrorContext
 dev_langs:
- - c++
+- c++
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: RuntimeObject.lib
 req.dll: ComBase.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComBase.dll
- - API-MS-Win-Core-WinRT-error-l1-1-0.dll
- - API-MS-Win-Core-WinRT-error-l1-1-1.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-error-l1-1-0.dll
+- API-MS-Win-Core-WinRT-error-l1-1-1.dll
 api_name:
- - RoCaptureErrorContext
+- RoCaptureErrorContext
 targetos: Windows
 req.typenames: 
 req.redist: 

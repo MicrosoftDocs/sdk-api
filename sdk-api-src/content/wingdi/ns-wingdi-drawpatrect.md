@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi._DRAWPATRECT
 title: DRAWPATRECT (wingdi.h)
-
 description: The DRAWPATRECT structure defines a rectangle to be created.
 old-location: gdi\drawpatrect.htm
 tech.root: printdocs
 ms.assetid: 8b374a0e-8ad0-40d4-a082-e90aff6336ba
-
 ms.date: 12/05/2018
-ms.keywords: "*PDRAWPATRECT, DRAWPATRECT, DRAWPATRECT structure [Windows GDI], PDRAWPATRECT, PDRAWPATRECT structure pointer [Windows GDI], _win32_DRAWPATRECT_str, gdi.drawpatrect, wingdi/DRAWPATRECT, wingdi/PDRAWPATRECT"
+ms.keywords: '*PDRAWPATRECT, DRAWPATRECT, DRAWPATRECT structure [Windows GDI], PDRAWPATRECT, PDRAWPATRECT structure pointer [Windows GDI], _win32_DRAWPATRECT_str, gdi.drawpatrect, wingdi/DRAWPATRECT, wingdi/PDRAWPATRECT'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/DRAWPATRECT"
+f1_keywords:
+- wingdi/DRAWPATRECT
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - DRAWPATRECT
+- DRAWPATRECT
 targetos: Windows
 req.typenames: DRAWPATRECT, *PDRAWPATRECT
 req.redist: 

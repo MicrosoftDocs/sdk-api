@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetMops
 title: ITypeInfo::GetMops (oaidl.h)
-
 description: Retrieves marshaling information.
 old-location: automat\itypeinfo_getmops.htm
 tech.root: automat
 ms.assetid: 6f8f4d4a-c51d-46d3-ad0f-1ee357bb7104
-
 ms.date: 12/05/2018
 ms.keywords: GetMops, GetMops method [Automation], GetMops method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetMops method, ITypeInfo.GetMops, ITypeInfo::GetMops, _oa96_ITypeInfo_GetMops, automat.itypeinfo_getmops, oaidl/ITypeInfo::GetMops
 ms.topic: method
-f1_keywords: 
- - "oaidl/ITypeInfo.GetMops"
+f1_keywords:
+- oaidl/ITypeInfo.GetMops
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeInfo.GetMops
+- ITypeInfo.GetMops
 targetos: Windows
 req.typenames: 
 req.redist: 

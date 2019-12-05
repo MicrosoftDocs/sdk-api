@@ -1,19 +1,17 @@
 ---
 UID: NN:emptyvc.IEmptyVolumeCache2
 title: IEmptyVolumeCache2 (emptyvc.h)
-
 description: Extends IEmptyVolumeCache. This interface defines one additional method, InitializeEx, that provides better localization support than IEmptyVolumeCache::Initialize.
 old-location: lwef\iemptyvolumecache2.htm
 tech.root: lwef
 ms.assetid: a3e941ee-0477-48a8-96bd-c9d74c66ca41
-
 ms.date: 12/05/2018
 ms.keywords: IEmptyVolumeCache2, IEmptyVolumeCache2 interface [Legacy Windows Environment Features], IEmptyVolumeCache2 interface [Legacy Windows Environment Features],described, _win32_IEmptyVolumeCache2, emptyvc/IEmptyVolumeCache2, lwef.iemptyvolumecache2, shell.iemptyvolumecache2
 ms.topic: interface
-f1_keywords: 
- - "emptyvc/IEmptyVolumeCache2"
+f1_keywords:
+- emptyvc/IEmptyVolumeCache2
 dev_langs:
- - c++
+- c++
 req.header: emptyvc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IEmptyVolumeCache2
+- IEmptyVolumeCache2
 targetos: Windows
 req.typenames: 
 req.redist: 

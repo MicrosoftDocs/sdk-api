@@ -1,19 +1,17 @@
 ---
 UID: NF:bits1_5.IBackgroundCopyJob2.GetReplyData
 title: IBackgroundCopyJob2::GetReplyData
-
 description: Retrieves an in-memory copy of the reply data from the server application. Call this method only if the job's type is BG_JOB_TYPE_UPLOAD_REPLY and its state is BG_JOB_STATE_TRANSFERRED.
 old-location: bits\ibackgroundcopyjob2_getreplydata.htm
 tech.root: Bits
 ms.assetid: f29df35f-48c2-4837-9809-46bd04f08bfb
-
 ms.date: 12/05/2018
 ms.keywords: GetReplyData, GetReplyData method [BITS], GetReplyData method [BITS],IBackgroundCopyJob2 interface, IBackgroundCopyJob2 interface [BITS],GetReplyData method, IBackgroundCopyJob2.GetReplyData, IBackgroundCopyJob2::GetReplyData, _drz_ibackgroundcopyjob2_getreplydata, bits.ibackgroundcopyjob2_getreplydata, bits1_5/IBackgroundCopyJob2::GetReplyData
 ms.topic: method
-f1_keywords: 
- - "bits1_5/IBackgroundCopyJob2.GetReplyData"
+f1_keywords:
+- bits1_5/IBackgroundCopyJob2.GetReplyData
 dev_langs:
- - c++
+- c++
 req.header: bits1_5.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: BitsPrx2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - BitsPrx2.dll
+- BitsPrx2.dll
 api_name:
- - IBackgroundCopyJob2.GetReplyData
+- IBackgroundCopyJob2.GetReplyData
 targetos: Windows
 req.typenames: 
 req.redist: BITS 1.5 on  Windows XP

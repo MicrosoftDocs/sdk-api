@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerCollabDeleteObject
 title: PeerCollabDeleteObject function (p2p.h)
-
 description: Deletes a peer object from the calling endpoint.
 old-location: p2p\peercollabdeleteobject.htm
 tech.root: P2PSdk
 ms.assetid: 4849f8da-7f8a-4951-94eb-624ee186ec83
-
 ms.date: 12/05/2018
 ms.keywords: PeerCollabDeleteObject, PeerCollabDeleteObject function [Peer Networking], p2p.peercollabdeleteobject, p2p/PeerCollabDeleteObject
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerCollabDeleteObject"
+f1_keywords:
+- p2p/PeerCollabDeleteObject
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerCollabDeleteObject
+- PeerCollabDeleteObject
 targetos: Windows
 req.typenames: 
 req.redist: 

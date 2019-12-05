@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStop.Clone
 title: IXpsOMGradientStop::Clone (xpsobjectmodel.h)
-
 description: Makes a deep copy of the IXpsOMGradientStop interface.
 old-location: xps\ixpsomgradientstop_clone.htm
 tech.root: printdocs
 ms.assetid: ea4cdf1d-bb65-4a1b-b5bc-3eb1e90929ff
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMGradientStop interface, IXpsOMGradientStop interface [XPS Documents and Packaging],Clone method, IXpsOMGradientStop.Clone, IXpsOMGradientStop::Clone, xps.ixpsomgradientstop_clone, xpsobjectmodel/IXpsOMGradientStop::Clone
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGradientStop.Clone"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGradientStop.Clone
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGradientStop.Clone
+- IXpsOMGradientStop.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

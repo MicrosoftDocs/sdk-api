@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrResolutionHandler.RemoveFromSyncSet
 title: ISyncMgrResolutionHandler::RemoveFromSyncSet (syncmgr.h)
-
 description: Deletes the conflict and removes the IShellItem from synchronization.
 old-location: shell\ISyncMgrResolutionHandler_RemoveFromSyncSet.htm
 tech.root: shell
 ms.assetid: 3f65f844-efa2-43b9-91f2-c9c0ed4e3a9e
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrResolutionHandler interface [Windows Shell],RemoveFromSyncSet method, ISyncMgrResolutionHandler.RemoveFromSyncSet, ISyncMgrResolutionHandler::RemoveFromSyncSet, RemoveFromSyncSet, RemoveFromSyncSet method [Windows Shell], RemoveFromSyncSet method [Windows Shell],ISyncMgrResolutionHandler interface, _shell_ISyncMgrResolutionHandler_RemoveFromSyncSet, shell.ISyncMgrResolutionHandler_RemoveFromSyncSet, syncmgr/ISyncMgrResolutionHandler::RemoveFromSyncSet
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrResolutionHandler.RemoveFromSyncSet"
+f1_keywords:
+- syncmgr/ISyncMgrResolutionHandler.RemoveFromSyncSet
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrResolutionHandler.RemoveFromSyncSet
+- ISyncMgrResolutionHandler.RemoveFromSyncSet
 targetos: Windows
 req.typenames: 
 req.redist: 

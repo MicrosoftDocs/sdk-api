@@ -1,19 +1,17 @@
 ---
 UID: NE:virtdisk._SET_VIRTUAL_DISK_INFO_VERSION
 title: SET_VIRTUAL_DISK_INFO_VERSION (virtdisk.h)
-
 description: Contains the version of the virtual disk SET_VIRTUAL_DISK_INFO structure to use in calls to VHD functions.
 old-location: vhd\set_virtual_disk_info_version.htm
 tech.root: VStor
 ms.assetid: c9dd9d64-f96b-48f0-bc85-2f81ea3e2cb5
-
 ms.date: 12/05/2018
 ms.keywords: SET_VIRTUAL_DISK_INFO_CHANGE_TRACKING_STATE, SET_VIRTUAL_DISK_INFO_IDENTIFIER, SET_VIRTUAL_DISK_INFO_PARENT_LOCATOR, SET_VIRTUAL_DISK_INFO_PARENT_PATH, SET_VIRTUAL_DISK_INFO_PARENT_PATH_WITH_DEPTH, SET_VIRTUAL_DISK_INFO_PHYSICAL_SECTOR_SIZE, SET_VIRTUAL_DISK_INFO_UNSPECIFIED, SET_VIRTUAL_DISK_INFO_VERSION, SET_VIRTUAL_DISK_INFO_VERSION enumeration [VHD], SET_VIRTUAL_DISK_INFO_VIRTUAL_DISK_ID, vdssys/SET_VIRTUAL_DISK_INFO_CHANGE_TRACKING_STATE, vdssys/SET_VIRTUAL_DISK_INFO_IDENTIFIER, vdssys/SET_VIRTUAL_DISK_INFO_PARENT_LOCATOR, vdssys/SET_VIRTUAL_DISK_INFO_PARENT_PATH, vdssys/SET_VIRTUAL_DISK_INFO_PARENT_PATH_WITH_DEPTH, vdssys/SET_VIRTUAL_DISK_INFO_PHYSICAL_SECTOR_SIZE, vdssys/SET_VIRTUAL_DISK_INFO_UNSPECIFIED, vdssys/SET_VIRTUAL_DISK_INFO_VERSION, vdssys/SET_VIRTUAL_DISK_INFO_VIRTUAL_DISK_ID, vhd.set_virtual_disk_info_version, virtdisk/SET_VIRTUAL_DISK_INFO_CHANGE_TRACKING_STATE, virtdisk/SET_VIRTUAL_DISK_INFO_IDENTIFIER, virtdisk/SET_VIRTUAL_DISK_INFO_PARENT_LOCATOR, virtdisk/SET_VIRTUAL_DISK_INFO_PARENT_PATH, virtdisk/SET_VIRTUAL_DISK_INFO_PARENT_PATH_WITH_DEPTH, virtdisk/SET_VIRTUAL_DISK_INFO_PHYSICAL_SECTOR_SIZE, virtdisk/SET_VIRTUAL_DISK_INFO_UNSPECIFIED, virtdisk/SET_VIRTUAL_DISK_INFO_VERSION, virtdisk/SET_VIRTUAL_DISK_INFO_VIRTUAL_DISK_ID
 ms.topic: enum
-f1_keywords: 
- - "virtdisk/SET_VIRTUAL_DISK_INFO_VERSION"
+f1_keywords:
+- virtdisk/SET_VIRTUAL_DISK_INFO_VERSION
 dev_langs:
- - c++
+- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VirtDisk.h
- - vdssys.h
+- VirtDisk.h
+- vdssys.h
 api_name:
- - SET_VIRTUAL_DISK_INFO_VERSION
+- SET_VIRTUAL_DISK_INFO_VERSION
 targetos: Windows
 req.typenames: SET_VIRTUAL_DISK_INFO_VERSION
 req.redist: 

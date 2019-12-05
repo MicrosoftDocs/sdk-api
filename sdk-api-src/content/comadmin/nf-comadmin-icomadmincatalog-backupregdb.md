@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.BackupREGDB
 title: ICOMAdminCatalog::BackupREGDB (comadmin.h)
-
 description: Backs up the COM+ class registration database to a specified file.
 old-location: cos\icomadmincatalog_backupregdb.htm
 tech.root: cossdk
 ms.assetid: dd350abd-3b59-4a5d-b2e4-1ddeec2b1953
-
 ms.date: 12/05/2018
 ms.keywords: BackupREGDB, BackupREGDB method [COM+], BackupREGDB method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],BackupREGDB method, ICOMAdminCatalog.BackupREGDB, ICOMAdminCatalog::BackupREGDB, _cos_ICOMAdminCatalog_BackupREGDB, comadmin/ICOMAdminCatalog::BackupREGDB, cos.icomadmincatalog_backupregdb
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog.BackupREGDB"
+f1_keywords:
+- comadmin/ICOMAdminCatalog.BackupREGDB
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog.BackupREGDB
+- ICOMAdminCatalog.BackupREGDB
 targetos: Windows
 req.typenames: 
 req.redist: 

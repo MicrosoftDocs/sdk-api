@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IFilterGraph.FindFilterByName
 title: IFilterGraph::FindFilterByName (strmif.h)
-
 description: The FindFilterByName method finds a filter that was added to the filter graph with a specific name.
 old-location: dshow\ifiltergraph_findfilterbyname.htm
 tech.root: DirectShow
 ms.assetid: 59d90274-ac00-4e19-bcee-2282e26994b5
-
 ms.date: 12/05/2018
 ms.keywords: FindFilterByName, FindFilterByName method [DirectShow], FindFilterByName method [DirectShow],IFilterGraph interface, IFilterGraph interface [DirectShow],FindFilterByName method, IFilterGraph.FindFilterByName, IFilterGraph::FindFilterByName, IFilterGraphFindFilterByName, dshow.ifiltergraph_findfilterbyname, strmif/IFilterGraph::FindFilterByName
 ms.topic: method
-f1_keywords: 
- - "strmif/IFilterGraph.FindFilterByName"
+f1_keywords:
+- strmif/IFilterGraph.FindFilterByName
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFilterGraph.FindFilterByName
+- IFilterGraph.FindFilterByName
 targetos: Windows
 req.typenames: 
 req.redist: 

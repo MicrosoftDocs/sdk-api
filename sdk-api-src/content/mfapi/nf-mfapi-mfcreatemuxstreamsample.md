@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCreateMuxStreamSample
 title: MFCreateMuxStreamSample function (mfapi.h)
-
 description: Creates an IMFSample containing the samples of multiplexed substreams.
 old-location: mf\mfcreatemuxstreamsample.htm
 tech.root: medfound
 ms.assetid: D7E7B260-54E0-47F4-9762-ADB06103CDF3
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateMuxStreamSample, MFCreateMuxStreamSample function [Media Foundation], mf.mfcreatemuxstreamsample, mfapi/MFCreateMuxStreamSample
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCreateMuxStreamSample"
+f1_keywords:
+- mfapi/MFCreateMuxStreamSample
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateMuxStreamSample
+- MFCreateMuxStreamSample
 targetos: Windows
 req.typenames: 
 req.redist: 

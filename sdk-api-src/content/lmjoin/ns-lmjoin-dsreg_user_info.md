@@ -1,19 +1,17 @@
 ---
 UID: NS:lmjoin._DSREG_USER_INFO
 title: DSREG_USER_INFO (lmjoin.h)
-
 description: Contains information about a user account that is used to join a device to Microsoft Azure Active Directory.
 old-location: netmgmt\dsreg_user_info.htm
 tech.root: NetMgmt
 ms.assetid: 5E639988-0F53-40D7-BBEC-F78B3D124CC0
-
 ms.date: 12/05/2018
-ms.keywords: "*PDSREG_USER_INFO, DSREG_USER_INFO, DSREG_USER_INFO structure [Network Management], PDSREG_USER_INFO, PDSREG_USER_INFO structure pointer [Network Management], lmjoin/DSREG_USER_INFO, lmjoin/PDSREG_USER_INFO, netmgmt.dsreg_user_info"
+ms.keywords: '*PDSREG_USER_INFO, DSREG_USER_INFO, DSREG_USER_INFO structure [Network Management], PDSREG_USER_INFO, PDSREG_USER_INFO structure pointer [Network Management], lmjoin/DSREG_USER_INFO, lmjoin/PDSREG_USER_INFO, netmgmt.dsreg_user_info'
 ms.topic: struct
-f1_keywords: 
- - "lmjoin/DSREG_USER_INFO"
+f1_keywords:
+- lmjoin/DSREG_USER_INFO
 dev_langs:
- - c++
+- c++
 req.header: lmjoin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - lmjoin.h
+- lmjoin.h
 api_name:
- - DSREG_USER_INFO
+- DSREG_USER_INFO
 targetos: Windows
 req.typenames: DSREG_USER_INFO, *PDSREG_USER_INFO
 req.redist: 

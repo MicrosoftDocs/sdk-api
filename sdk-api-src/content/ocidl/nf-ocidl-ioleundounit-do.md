@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IOleUndoUnit.Do
 title: IOleUndoUnit::Do (ocidl.h)
-
 description: Instructs the undo unit to carry out its action. Note that if it contains child undo units, it must call their Do methods as well.
 old-location: com\ioleundounit_do.htm
 tech.root: com
 ms.assetid: 5f087779-ef92-41c9-94e6-61d07d5731a7
-
 ms.date: 12/05/2018
 ms.keywords: Do, Do method [COM], Do method [COM],IOleUndoUnit interface, IOleUndoUnit interface [COM],Do method, IOleUndoUnit.Do, IOleUndoUnit::Do, _ole_ioleundounit_do, com.ioleundounit_do, ocidl/IOleUndoUnit::Do
 ms.topic: method
-f1_keywords: 
- - "ocidl/IOleUndoUnit.Do"
+f1_keywords:
+- ocidl/IOleUndoUnit.Do
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IOleUndoUnit.Do
+- IOleUndoUnit.Do
 targetos: Windows
 req.typenames: 
 req.redist: 

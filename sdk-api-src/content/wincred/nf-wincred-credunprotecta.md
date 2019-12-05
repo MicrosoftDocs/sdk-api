@@ -1,19 +1,17 @@
 ---
 UID: NF:wincred.CredUnprotectA
 title: CredUnprotectA function (wincred.h)
-
 description: Decrypts credentials that were previously encrypted by using the CredProtect function.
 old-location: security\credunprotect.htm
 tech.root: SecAuthN
 ms.assetid: 7a22fb2b-edfc-45f2-b2d2-729f3761584d
-
 ms.date: 12/05/2018
 ms.keywords: CredUnprotect, CredUnprotect function [Security], CredUnprotectA, CredUnprotectW, security.credunprotect, wincred/CredUnprotect, wincred/CredUnprotectA, wincred/CredUnprotectW
 ms.topic: function
-f1_keywords: 
- - "wincred/CredUnprotect"
+f1_keywords:
+- wincred/CredUnprotect
 dev_langs:
- - c++
+- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
- - sechost.dll
- - API-MS-Win-Security-credentials-l1-1-0.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+- sechost.dll
+- API-MS-Win-Security-credentials-l1-1-0.dll
 api_name:
- - CredUnprotect
- - CredUnprotectA
- - CredUnprotectW
+- CredUnprotect
+- CredUnprotectA
+- CredUnprotectW
 targetos: Windows
 req.typenames: 
 req.redist: 

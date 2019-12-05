@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupGetIntField
 title: SetupGetIntField function (setupapi.h)
-
 description: The SetupGetIntField function retrieves an integer value from the specified field of a line in an INF file.
 old-location: setup\setupgetintfield.htm
 tech.root: SetupApi
 ms.assetid: 4c77052a-46ef-4154-82c0-5ec447861bcf
-
 ms.date: 12/05/2018
 ms.keywords: SetupGetIntField, SetupGetIntField function [Setup API], _setupapi_setupgetintfield, setup.setupgetintfield, setupapi/SetupGetIntField
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupGetIntField"
+f1_keywords:
+- setupapi/SetupGetIntField
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
- - Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
+- Setupapi.dll
+- Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
 api_name:
- - SetupGetIntField
+- SetupGetIntField
 targetos: Windows
 req.typenames: 
 req.redist: 

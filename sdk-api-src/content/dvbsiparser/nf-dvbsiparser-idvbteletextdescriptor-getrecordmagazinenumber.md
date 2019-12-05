@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbTeletextDescriptor.GetRecordMagazineNumber
 title: IDvbTeletextDescriptor::GetRecordMagazineNumber (dvbsiparser.h)
-
 description: Gets the magazine number from a Digital Video Broadcast (DVB) teletext descriptor.
 old-location: mstv\idvbteletextdescriptor_getrecordmagazinenumber.htm
 tech.root: mstv
 ms.assetid: bb3c39b6-dc85-42ca-9d4b-ad27eae077dd
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordMagazineNumber, GetRecordMagazineNumber method [Microsoft TV Technologies], GetRecordMagazineNumber method [Microsoft TV Technologies],IDvbTeletextDescriptor interface, IDvbTeletextDescriptor interface [Microsoft TV Technologies],GetRecordMagazineNumber method, IDvbTeletextDescriptor.GetRecordMagazineNumber, IDvbTeletextDescriptor::GetRecordMagazineNumber, dvbsiparser/IDvbTeletextDescriptor::GetRecordMagazineNumber, mstv.idvbteletextdescriptor_getrecordmagazinenumber
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbTeletextDescriptor.GetRecordMagazineNumber"
+f1_keywords:
+- dvbsiparser/IDvbTeletextDescriptor.GetRecordMagazineNumber
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbTeletextDescriptor.GetRecordMagazineNumber
+- IDvbTeletextDescriptor.GetRecordMagazineNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

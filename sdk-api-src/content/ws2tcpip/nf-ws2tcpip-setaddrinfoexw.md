@@ -1,19 +1,17 @@
 ---
 UID: NF:ws2tcpip.SetAddrInfoExW
 title: SetAddrInfoExW function (ws2tcpip.h)
-
 description: Registers or deregisters a name, a service name, and associated addresses with a specific namespace provider.
 old-location: winsock\setaddrinfoex.htm
 tech.root: WinSock
 ms.assetid: 6d3c5b97-32ce-4eb5-a047-d9b37c37cdda
-
 ms.date: 12/05/2018
 ms.keywords: NS_ALL, NS_BTH, NS_DNS, NS_EMAIL, NS_NLA, NS_PNRPCLOUD, NS_PNRPNAME, SetAddrInfoEx, SetAddrInfoEx function [Winsock], SetAddrInfoExA, SetAddrInfoExW, winsock.setaddrinfoex, ws2tcpip/SetAddrInfoEx, ws2tcpip/SetAddrInfoExA, ws2tcpip/SetAddrInfoExW
 ms.topic: function
-f1_keywords: 
- - "ws2tcpip/SetAddrInfoEx"
+f1_keywords:
+- ws2tcpip/SetAddrInfoEx
 dev_langs:
- - c++
+- c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - SetAddrInfoEx
- - SetAddrInfoExA
- - SetAddrInfoExW
+- SetAddrInfoEx
+- SetAddrInfoExA
+- SetAddrInfoExW
 targetos: Windows
 req.typenames: 
 req.redist: 

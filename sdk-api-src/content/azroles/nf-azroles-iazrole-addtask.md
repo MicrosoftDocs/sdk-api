@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzRole.AddTask
 title: IAzRole::AddTask (azroles.h)
-
 description: Adds the IAzTask object with the specified name to the role.
 old-location: security\iazrole_addtask.htm
 tech.root: SecAuthZ
 ms.assetid: 51ba30c3-8067-4aca-b8aa-8e64d4427b98
-
 ms.date: 12/05/2018
 ms.keywords: AddTask, AddTask method [Security], AddTask method [Security],AzRole object, AddTask method [Security],IAzRole interface, AzRole object [Security],AddTask method, IAzRole interface [Security],AddTask method, IAzRole.AddTask, IAzRole::AddTask, azroles/IAzRole::AddTask, security.iazrole_addtask
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzRole.AddTask"
+f1_keywords:
+- azroles/IAzRole.AddTask
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzRole.AddTask
- - AzRole.AddTask
+- IAzRole.AddTask
+- AzRole.AddTask
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

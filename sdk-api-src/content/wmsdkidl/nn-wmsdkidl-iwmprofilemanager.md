@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMProfileManager
 title: IWMProfileManager (wmsdkidl.h)
-
 description: The IWMProfileManager interface is used to create profiles, load existing profiles, and save profiles.
 old-location: wmformat\iwmprofilemanager.htm
 tech.root: wmformat
 ms.assetid: e5ec945c-4513-48ad-8bef-e0fb54826991
-
 ms.date: 12/05/2018
 ms.keywords: IWMProfileManager, IWMProfileManager interface [windows Media Format], IWMProfileManager interface [windows Media Format],described, IWMProfileManagerInterface, wmformat.iwmprofilemanager, wmsdkidl/IWMProfileManager
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMProfileManager"
+f1_keywords:
+- wmsdkidl/IWMProfileManager
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMProfileManager
+- IWMProfileManager
 targetos: Windows
 req.typenames: 
 req.redist: 

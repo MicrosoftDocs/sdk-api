@@ -1,19 +1,17 @@
 ---
 UID: NF:xapobase.CXAPOBase.GetRegistrationPropertiesInternal
 title: CXAPOBase::GetRegistrationPropertiesInternal (xapobase.h)
-
 description: Returns a pointer to the XAPO_REGISTRATION_PROPERTIES structure containing the registration properties the XAPO was created with.
 old-location: xaudio2\cxapobase_getregistrationpropertiesinternal.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapobase.CXAPOBaseClass.GetRegistrationPropertiesInternal
-
 ms.date: 12/05/2018
 ms.keywords: CXAPOBase interface [XAudio2 Audio Mixing APIs],GetRegistrationPropertiesInternal method, CXAPOBase.GetRegistrationPropertiesInternal, CXAPOBase::GetRegistrationPropertiesInternal, GetRegistrationPropertiesInternal, GetRegistrationPropertiesInternal method [XAudio2 Audio Mixing APIs], GetRegistrationPropertiesInternal method [XAudio2 Audio Mixing APIs],CXAPOBase interface, xapobase/CXAPOBase::GetRegistrationPropertiesInternal, xaudio2.cxapobase_getregistrationpropertiesinternal
 ms.topic: method
-f1_keywords: 
- - "xapobase/CXAPOBase.GetRegistrationPropertiesInternal"
+f1_keywords:
+- xapobase/CXAPOBase.GetRegistrationPropertiesInternal
 dev_langs:
- - c++
+- c++
 req.header: xapobase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: XAPOBase.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XAPOBase.lib
- - XAPOBase.dll
+- XAPOBase.lib
+- XAPOBase.dll
 api_name:
- - CXAPOBase.GetRegistrationPropertiesInternal
+- CXAPOBase.GetRegistrationPropertiesInternal
 targetos: Windows
 req.typenames: 
 req.redist: 

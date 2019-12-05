@@ -1,19 +1,17 @@
 ---
 UID: NF:tsvirtualchannels.IWTSVirtualChannel.Close
 title: IWTSVirtualChannel::Close (tsvirtualchannels.h)
-
 description: Closes the channel.
 old-location: termserv\iwtsvirtualchannel_close.htm
 tech.root: TermServ
 ms.assetid: b900789d-c7da-4974-8c46-72ea8ffd6892
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Remote Desktop Services], Close method [Remote Desktop Services],IWTSVirtualChannel interface, IWTSVirtualChannel interface [Remote Desktop Services],Close method, IWTSVirtualChannel.Close, IWTSVirtualChannel::Close, termserv.iwtsvirtualchannel_close, tsvirtualchannels/IWTSVirtualChannel::Close
 ms.topic: method
-f1_keywords: 
- - "tsvirtualchannels/IWTSVirtualChannel.Close"
+f1_keywords:
+- tsvirtualchannels/IWTSVirtualChannel.Close
 dev_langs:
- - c++
+- c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - TsVirtualChannels.h
+- TsVirtualChannels.h
 api_name:
- - IWTSVirtualChannel.Close
+- IWTSVirtualChannel.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

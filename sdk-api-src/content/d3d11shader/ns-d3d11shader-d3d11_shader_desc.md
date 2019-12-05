@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11shader._D3D11_SHADER_DESC
 title: D3D11_SHADER_DESC (d3d11shader.h)
-
 description: Describes a shader.
 old-location: direct3d11\d3d11_shader_desc.htm
 tech.root: direct3d11
 ms.assetid: 25c8f773-e319-4ba1-b332-d45b8323e8c8
-
 ms.date: 12/05/2018
 ms.keywords: 60a58f35-71f5-ec69-15ed-a355dd62d5f7, D3D11_SHADER_DESC, D3D11_SHADER_DESC structure [Direct3D 11], d3d11shader/D3D11_SHADER_DESC, direct3d11.d3d11_shader_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d11shader/D3D11_SHADER_DESC"
+f1_keywords:
+- d3d11shader/D3D11_SHADER_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11Shader.h
+- D3D11Shader.h
 api_name:
- - D3D11_SHADER_DESC
+- D3D11_SHADER_DESC
 targetos: Windows
 req.typenames: D3D11_SHADER_DESC
 req.redist: 

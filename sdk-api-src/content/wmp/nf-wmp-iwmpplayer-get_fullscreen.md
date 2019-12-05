@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPPlayer.get_fullScreen
 title: IWMPPlayer::get_fullScreen (wmp.h)
-
 description: The get_fullScreen method retrieves a value indicating whether video content is played back in full-screen mode.
 old-location: wmp\iwmpplayer_get_fullscreen.htm
 tech.root: WMP
 ms.assetid: 5a8bb0b5-76c6-424f-ba37-5e913b6ed542
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer interface [Windows Media Player],get_fullScreen method, IWMPPlayer.get_fullScreen, IWMPPlayer::get_fullScreen, IWMPPlayerget_fullScreen, get_fullScreen, get_fullScreen method [Windows Media Player], get_fullScreen method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_get_fullscreen, wmp/IWMPPlayer::get_fullScreen
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPPlayer.get_fullScreen"
+f1_keywords:
+- wmp/IWMPPlayer.get_fullScreen
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPPlayer.get_fullScreen
+- IWMPPlayer.get_fullScreen
 targetos: Windows
 req.typenames: 
 req.redist: 

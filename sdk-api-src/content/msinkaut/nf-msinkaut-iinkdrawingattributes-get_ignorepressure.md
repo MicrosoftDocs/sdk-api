@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkDrawingAttributes.get_IgnorePressure
 title: IInkDrawingAttributes::get_IgnorePressure (msinkaut.h)
-
 description: Gets or sets the value that specifies whether drawn ink automatically gets wider with increased pressure of the pen tip on the tablet surface.
 old-location: tablet\inkdrawingattributes_ignorepressure.htm
 tech.root: tablet
 ms.assetid: adf5beec-75df-46a3-91e4-33595340aca2
-
 ms.date: 12/05/2018
 ms.keywords: IInkDrawingAttributes interface [Tablet PC],IgnorePressure property, IInkDrawingAttributes.IgnorePressure, IInkDrawingAttributes.get_IgnorePressure, IInkDrawingAttributes::IgnorePressure, IInkDrawingAttributes::get_IgnorePressure, IInkDrawingAttributes::put_IgnorePressure, IgnorePressure property [Tablet PC], IgnorePressure property [Tablet PC],IInkDrawingAttributes interface, InkDrawingAttributes.get_IgnorePressure, InkDrawingAttributes.put_IgnorePressure, adf5beec-75df-46a3-91e4-33595340aca2, get_IgnorePressure, get_Width, msinkaut/IInkDrawingAttributes::IgnorePressure, msinkaut/IInkDrawingAttributes::get_IgnorePressure, msinkaut/IInkDrawingAttributes::put_IgnorePressure, put_Width, tablet.inkdrawingattributes_ignorepressure
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkDrawingAttributes.IgnorePressure"
+f1_keywords:
+- msinkaut/IInkDrawingAttributes.IgnorePressure
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkDrawingAttributes.IgnorePressure
- - IInkDrawingAttributes.get_IgnorePressure
- - IInkDrawingAttributes.put_IgnorePressure
- - InkDrawingAttributes.get_IgnorePressure
- - InkDrawingAttributes.put_IgnorePressure
+- IInkDrawingAttributes.IgnorePressure
+- IInkDrawingAttributes.get_IgnorePressure
+- IInkDrawingAttributes.put_IgnorePressure
+- InkDrawingAttributes.get_IgnorePressure
+- InkDrawingAttributes.put_IgnorePressure
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.GetCellAlignment
 title: ITextRow::GetCellAlignment (tom.h)
-
 description: Gets the vertical alignment of the active cell.
 old-location: controls\itextrow_getcellalignment.htm
 tech.root: Controls
 ms.assetid: 379d6fa5-ea73-4b72-9251-942f66925d8a
-
 ms.date: 12/05/2018
 ms.keywords: GetCellAlignment, GetCellAlignment method [Windows Controls], GetCellAlignment method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellAlignment method, ITextRow.GetCellAlignment, ITextRow::GetCellAlignment, controls.itextrow_getcellalignment, tom/ITextRow::GetCellAlignment
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.GetCellAlignment"
+f1_keywords:
+- tom/ITextRow.GetCellAlignment
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.GetCellAlignment
+- ITextRow.GetCellAlignment
 targetos: Windows
 req.typenames: 
 req.redist: 

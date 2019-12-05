@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDrawPalette.SetEntries
 title: IDirectDrawPalette::SetEntries (ddraw.h)
-
 description: Changes entries in a DirectDrawPalette object immediately.
 old-location: directdraw\idirectdrawpalette_setentries.htm
 tech.root: directdraw
 ms.assetid: c12247b9-ecb3-4fdf-b25f-373da06df791
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawPalette interface [DirectDraw],SetEntries method, IDirectDrawPalette.SetEntries, IDirectDrawPalette::SetEntries, SetEntries, SetEntries method [DirectDraw], SetEntries method [DirectDraw],IDirectDrawPalette interface, ddraw/IDirectDrawPalette::SetEntries, directdraw.idirectdrawpalette_setentries
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDrawPalette.SetEntries"
+f1_keywords:
+- ddraw/IDirectDrawPalette.SetEntries
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawPalette.SetEntries
+- IDirectDrawPalette.SetEntries
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:micaut.IMathInputControl.EnableExtendedButtons
 title: IMathInputControl::EnableExtendedButtons (micaut.h)
-
 description: Determines whether the extended set of control buttons is shown.
 old-location: tablet\imathinputcontrol_enableextendedbuttons.htm
 tech.root: tablet
 ms.assetid: e8cdae54-ff0b-4361-bd38-1b99137736ab
-
 ms.date: 12/05/2018
 ms.keywords: EnableExtendedButtons, EnableExtendedButtons method [Tablet PC], EnableExtendedButtons method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],EnableExtendedButtons method, IMathInputControl.EnableExtendedButtons, IMathInputControl::EnableExtendedButtons, micaut/IMathInputControl::EnableExtendedButtons, tablet.imathinputcontrol_enableextendedbuttons
 ms.topic: method
-f1_keywords: 
- - "micaut/IMathInputControl.EnableExtendedButtons"
+f1_keywords:
+- micaut/IMathInputControl.EnableExtendedButtons
 dev_langs:
- - c++
+- c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - micaut.h
+- micaut.h
 api_name:
- - IMathInputControl.EnableExtendedButtons
+- IMathInputControl.EnableExtendedButtons
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:oleidl.IDropSource
 title: IDropSource (oleidl.h)
-
 description: The IDropSource interface is one of the interfaces you implement to provide drag-and-drop operations in your application.
 old-location: com\idropsource.htm
 tech.root: com
 ms.assetid: 963a36bc-4ad7-4591-bffc-a96b4310177d
-
 ms.date: 12/05/2018
 ms.keywords: IDropSource, IDropSource interface [COM], IDropSource interface [COM],described, _ole_idropsource, com.idropsource, oleidl/IDropSource
 ms.topic: interface
-f1_keywords: 
- - "oleidl/IDropSource"
+f1_keywords:
+- oleidl/IDropSource
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IDropSource
+- IDropSource
 targetos: Windows
 req.typenames: 
 req.redist: 

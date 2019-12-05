@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMGetBoundLicenseObject
 title: DRMGetBoundLicenseObject function (msdrm.h)
-
 description: Returns an object from a bound license.
 old-location: rm\drmgetboundlicenseobject.htm
 tech.root: AdRms_Sdk
 ms.assetid: d1be0668-fb5a-4541-92dc-34255ba3fdad
-
 ms.date: 12/05/2018
 ms.keywords: DRMGetBoundLicenseObject, DRMGetBoundLicenseObject function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetBoundLicenseObject, rm.drmgetboundlicenseobject
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMGetBoundLicenseObject"
+f1_keywords:
+- msdrm/DRMGetBoundLicenseObject
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMGetBoundLicenseObject
+- DRMGetBoundLicenseObject
 targetos: Windows
 req.typenames: 
 req.redist: 

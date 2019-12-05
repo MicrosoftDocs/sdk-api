@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostViewCallback.OnPostViewSample
 title: IWMWriterPostViewCallback::OnPostViewSample (wmsdkidl.h)
-
 description: The OnPostViewSample method is called when new postview data is available. The application implements this method.
 old-location: wmformat\iwmwriterpostviewcallback_onpostviewsample.htm
 tech.root: wmformat
 ms.assetid: 5d29a746-70fe-495e-a7f2-dbf085829496
-
 ms.date: 12/05/2018
 ms.keywords: IWMWriterPostViewCallback interface [windows Media Format],OnPostViewSample method, IWMWriterPostViewCallback.OnPostViewSample, IWMWriterPostViewCallback::OnPostViewSample, IWMWriterPostViewCallbackOnPostViewSample, OnPostViewSample, OnPostViewSample method [windows Media Format], OnPostViewSample method [windows Media Format],IWMWriterPostViewCallback interface, wmformat.iwmwriterpostviewcallback_onpostviewsample, wmsdkidl/IWMWriterPostViewCallback::OnPostViewSample
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterPostViewCallback.OnPostViewSample"
+f1_keywords:
+- wmsdkidl/IWMWriterPostViewCallback.OnPostViewSample
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - IWMWriterPostViewCallback.OnPostViewSample
+- IWMWriterPostViewCallback.OnPostViewSample
 targetos: Windows
 req.typenames: 
 req.redist: 

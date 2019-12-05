@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.Remove
 title: ITraceDataProviderCollection::Remove (pla.h)
-
 description: Removes a trace provider from the collection.
 old-location: pla\itracedataprovidercollection_remove.htm
 tech.root: PLA
 ms.assetid: 553ec66e-d38a-46cc-9b01-f4d7947eda91
-
 ms.date: 12/05/2018
 ms.keywords: ITraceDataProviderCollection interface [PLA],Remove method, ITraceDataProviderCollection.Remove, ITraceDataProviderCollection::Remove, Remove, Remove method [PLA], Remove method [PLA],ITraceDataProviderCollection interface, base.itracedataprovidercollection_remove, pla.itracedataprovidercollection_remove, pla/ITraceDataProviderCollection::Remove
 ms.topic: method
-f1_keywords: 
- - "pla/ITraceDataProviderCollection.Remove"
+f1_keywords:
+- pla/ITraceDataProviderCollection.Remove
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - ITraceDataProviderCollection.Remove
+- ITraceDataProviderCollection.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewportEventHandler.OnViewportUpdated
 title: IDirectManipulationViewportEventHandler::OnViewportUpdated (directmanipulation.h)
-
 description: Called after all content in the viewport has been updated.
 old-location: directmanipulation\idirectmanipulationviewporteventhandler_onviewportupdated.htm
 tech.root: directmanipulation
 ms.assetid: dfb70d6f-ce3c-4d39-b7b5-21812ff7e56b
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewportEventHandler interface [Direct Manipulation],OnViewportUpdated method, IDirectManipulationViewportEventHandler.OnViewportUpdated, IDirectManipulationViewportEventHandler::OnViewportUpdated, OnViewportUpdated, OnViewportUpdated method [Direct Manipulation], OnViewportUpdated method [Direct Manipulation],IDirectManipulationViewportEventHandler interface, directmanipulation.idirectmanipulationviewporteventhandler_onviewportupdated, directmanipulation/IDirectManipulationViewportEventHandler::OnViewportUpdated
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationViewportEventHandler.OnViewportUpdated"
+f1_keywords:
+- directmanipulation/IDirectManipulationViewportEventHandler.OnViewportUpdated
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directmanipulation.h
+- directmanipulation.h
 api_name:
- - IDirectManipulationViewportEventHandler.OnViewportUpdated
+- IDirectManipulationViewportEventHandler.OnViewportUpdated
 targetos: Windows
 req.typenames: 
 req.redist: 

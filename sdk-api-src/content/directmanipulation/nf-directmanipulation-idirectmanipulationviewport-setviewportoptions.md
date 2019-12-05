@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetViewportOptions
 title: IDirectManipulationViewport::SetViewportOptions (directmanipulation.h)
-
 description: Sets how the viewport handles input and output.
 old-location: directmanipulation\idirectmanipulationviewport_setviewportoptions.htm
 tech.root: directmanipulation
 ms.assetid: F2B861B9-9E86-4AEE-B86C-03BF37F0988B
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetViewportOptions method, IDirectManipulationViewport.SetViewportOptions, IDirectManipulationViewport::SetViewportOptions, SetViewportOptions, SetViewportOptions method [Direct Manipulation], SetViewportOptions method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setviewportoptions, directmanipulation/IDirectManipulationViewport::SetViewportOptions
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationViewport.SetViewportOptions"
+f1_keywords:
+- directmanipulation/IDirectManipulationViewport.SetViewportOptions
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.SetViewportOptions
+- IDirectManipulationViewport.SetViewportOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

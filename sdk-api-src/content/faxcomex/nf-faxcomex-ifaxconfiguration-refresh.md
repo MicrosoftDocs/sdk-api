@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.Refresh
 title: IFaxConfiguration::Refresh (faxcomex.h)
-
 description: Refreshes the object.
 old-location: fax\_mfax_IFaxConfiguration_Refresh.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\refresh.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxConfiguration interface [Fax Service],Refresh method, IFaxConfiguration.Refresh, IFaxConfiguration::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_Refresh, fax._mfax_IFaxConfiguration_Refresh, faxcomex/IFaxConfiguration::Refresh
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxConfiguration.Refresh"
+f1_keywords:
+- faxcomex/IFaxConfiguration.Refresh
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxConfiguration.Refresh
+- IFaxConfiguration.Refresh
 targetos: Windows
 req.typenames: 
 req.redist: 

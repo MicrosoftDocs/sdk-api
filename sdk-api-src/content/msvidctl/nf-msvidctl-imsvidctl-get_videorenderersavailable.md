@@ -1,19 +1,17 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_VideoRenderersAvailable
 title: IMSVidCtl::get_VideoRenderersAvailable (msvidctl.h)
-
 description: The get_VideoRenderersAvailable method retrieves a collection of video renderers available on the local system.
 old-location: mstv\imsvidctl_get_videorenderersavailable.htm
 tech.root: mstv
 ms.assetid: 20e5b2f3-33ea-4b0d-84b8-e4b0b61e0348
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_VideoRenderersAvailable method, IMSVidCtl.get_VideoRenderersAvailable, IMSVidCtl::get_VideoRenderersAvailable, IMSVidCtlget_VideoRenderersAvailable, get_VideoRenderersAvailable, get_VideoRenderersAvailable method [Microsoft TV Technologies], get_VideoRenderersAvailable method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_videorenderersavailable, msvidctl/IMSVidCtl::get_VideoRenderersAvailable
 ms.topic: method
-f1_keywords: 
- - "msvidctl/IMSVidCtl.get_VideoRenderersAvailable"
+f1_keywords:
+- msvidctl/IMSVidCtl.get_VideoRenderersAvailable
 dev_langs:
- - c++
+- c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msvidctl.h
+- msvidctl.h
 api_name:
- - IMSVidCtl.get_VideoRenderersAvailable
+- IMSVidCtl.get_VideoRenderersAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 

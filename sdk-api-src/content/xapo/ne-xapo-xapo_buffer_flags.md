@@ -1,19 +1,17 @@
 ---
 UID: NE:xapo.XAPO_BUFFER_FLAGS
 title: XAPO_BUFFER_FLAGS (xapo.h)
-
 description: Describes the contents of a stream buffer.
 old-location: xaudio2\xapo_buffer_flags.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapo.XAPO_BUFFER_FLAGS
-
 ms.date: 12/05/2018
 ms.keywords: XAPO_BUFFER_FLAGS, XAPO_BUFFER_FLAGS enumeration [XAudio2 Audio Mixing APIs], XAPO_BUFFER_SILENT, XAPO_BUFFER_VALID, xapo/XAPO_BUFFER_FLAGS, xapo/XAPO_BUFFER_SILENT, xapo/XAPO_BUFFER_VALID, xaudio2.xapo_buffer_flags
 ms.topic: enum
-f1_keywords: 
- - "xapo/XAPO_BUFFER_FLAGS"
+f1_keywords:
+- xapo/XAPO_BUFFER_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xapo.h
+- xapo.h
 api_name:
- - XAPO_BUFFER_FLAGS
+- XAPO_BUFFER_FLAGS
 targetos: Windows
 req.typenames: XAPO_BUFFER_FLAGS
 req.redist: 

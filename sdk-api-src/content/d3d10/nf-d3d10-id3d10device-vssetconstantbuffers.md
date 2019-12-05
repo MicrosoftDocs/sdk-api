@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.VSSetConstantBuffers
 title: ID3D10Device::VSSetConstantBuffers (d3d10.h)
-
 description: Set the constant buffers used by the vertex shader pipeline stage.
 old-location: direct3d10\id3d10device_vssetconstantbuffers.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_vssetconstantbuffers.htm
-
 ms.date: 12/05/2018
 ms.keywords: 0d5cae40-4657-71de-c28a-96c76e11a621, ID3D10Device interface [Direct3D 10],VSSetConstantBuffers method, ID3D10Device.VSSetConstantBuffers, ID3D10Device::VSSetConstantBuffers, VSSetConstantBuffers, VSSetConstantBuffers method [Direct3D 10], VSSetConstantBuffers method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::VSSetConstantBuffers, direct3d10.id3d10device_vssetconstantbuffers
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.VSSetConstantBuffers"
+f1_keywords:
+- d3d10/ID3D10Device.VSSetConstantBuffers
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.VSSetConstantBuffers
+- ID3D10Device.VSSetConstantBuffers
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IExplorerCommand.GetIcon
 title: IExplorerCommand::GetIcon (shobjidl_core.h)
-
 description: Gets an icon resource string of the icon associated with the specified Windows Explorer command item.
 old-location: shell\IExplorerCommand_GetIcon.htm
 tech.root: shell
 ms.assetid: e71b6748-84fc-4944-90b8-a5b0bf97079d
-
 ms.date: 12/05/2018
 ms.keywords: GetIcon, GetIcon method [Windows Shell], GetIcon method [Windows Shell],IExplorerCommand interface, IExplorerCommand interface [Windows Shell],GetIcon method, IExplorerCommand.GetIcon, IExplorerCommand::GetIcon, _shell_IExplorerCommand_GetIcon, shell.IExplorerCommand_GetIcon, shobjidl_core/IExplorerCommand::GetIcon
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IExplorerCommand.GetIcon"
+f1_keywords:
+- shobjidl_core/IExplorerCommand.GetIcon
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExplorerCommand.GetIcon
+- IExplorerCommand.GetIcon
 targetos: Windows
 req.typenames: 
 req.redist: 

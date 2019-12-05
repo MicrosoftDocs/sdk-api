@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetOpacityMaskBrushLocal
 title: IXpsOMVisual::SetOpacityMaskBrushLocal (xpsobjectmodel.h)
-
 description: Sets the IXpsOMBrush interface pointer as the local, unshared opacity mask brush.
 old-location: xps\ixpsomvisual_setopacitymaskbrushlocal.htm
 tech.root: printdocs
 ms.assetid: d1b84156-b7ad-4dac-97d9-60aaedcee210
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetOpacityMaskBrushLocal method, IXpsOMVisual.SetOpacityMaskBrushLocal, IXpsOMVisual::SetOpacityMaskBrushLocal, SetOpacityMaskBrushLocal, SetOpacityMaskBrushLocal method [XPS Documents and Packaging], SetOpacityMaskBrushLocal method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setopacitymaskbrushlocal, xpsobjectmodel/IXpsOMVisual::SetOpacityMaskBrushLocal
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMVisual.SetOpacityMaskBrushLocal"
+f1_keywords:
+- xpsobjectmodel/IXpsOMVisual.SetOpacityMaskBrushLocal
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMVisual.SetOpacityMaskBrushLocal
+- IXpsOMVisual.SetOpacityMaskBrushLocal
 targetos: Windows
 req.typenames: 
 req.redist: 

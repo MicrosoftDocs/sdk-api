@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITTAPIObjectEvent.get_TAPIObject
 title: ITTAPIObjectEvent::get_TAPIObject (tapi3if.h)
-
 description: The get_TAPIObject method gets a pointer to the TAPI object on which the event occurred.
 old-location: tapi3\ittapiobjectevent_get_tapiobject.htm
 tech.root: Tapi
 ms.assetid: d0dcf3ca-e6b7-4eb4-b3f2-8ddeea16d746
-
 ms.date: 12/05/2018
 ms.keywords: ITTAPIObjectEvent interface [TAPI 2.2],get_TAPIObject method, ITTAPIObjectEvent.get_TAPIObject, ITTAPIObjectEvent::get_TAPIObject, _tapi3_ittapiobjectevent_get_tapiobject, get_TAPIObject, get_TAPIObject method [TAPI 2.2], get_TAPIObject method [TAPI 2.2],ITTAPIObjectEvent interface, tapi3.ittapiobjectevent_get_tapiobject, tapi3if/ITTAPIObjectEvent::get_TAPIObject
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITTAPIObjectEvent.get_TAPIObject"
+f1_keywords:
+- tapi3if/ITTAPIObjectEvent.get_TAPIObject
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITTAPIObjectEvent.get_TAPIObject
+- ITTAPIObjectEvent.get_TAPIObject
 targetos: Windows
 req.typenames: 
 req.redist: 

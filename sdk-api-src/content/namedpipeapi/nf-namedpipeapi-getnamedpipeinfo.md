@@ -1,19 +1,17 @@
 ---
 UID: NF:namedpipeapi.GetNamedPipeInfo
 title: GetNamedPipeInfo function (namedpipeapi.h)
-
 description: Retrieves information about the specified named pipe.
 old-location: base\getnamedpipeinfo.htm
 tech.root: ipc
 ms.assetid: 91081373-60cd-4a90-a304-1e67fff9a483
-
 ms.date: 12/05/2018
 ms.keywords: GetNamedPipeInfo, GetNamedPipeInfo function, PIPE_CLIENT_END, PIPE_SERVER_END, PIPE_TYPE_BYTE, PIPE_TYPE_MESSAGE, _win32_getnamedpipeinfo, base.getnamedpipeinfo, namedpipeapi/GetNamedPipeInfo
 ms.topic: function
-f1_keywords: 
- - "namedpipeapi/GetNamedPipeInfo"
+f1_keywords:
+- namedpipeapi/GetNamedPipeInfo
 dev_langs:
- - c++
+- c++
 req.header: namedpipeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-NamedPipe-l1-2-1.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-NamedPipe-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-NamedPipe-l1-2-1.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-NamedPipe-L1-2-2.dll
 api_name:
- - GetNamedPipeInfo
+- GetNamedPipeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

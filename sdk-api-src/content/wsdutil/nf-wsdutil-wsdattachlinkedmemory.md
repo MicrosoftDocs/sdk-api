@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdutil.WSDAttachLinkedMemory
 title: WSDAttachLinkedMemory function (wsdutil.h)
-
 description: Attaches a child memory block to a parent memory block.
 old-location: ncd\wsdattachlinkedmemory_func.htm
 tech.root: WsdApi
 ms.assetid: 4f7bc268-6fcf-42f2-8457-e5094bee6e68
-
 ms.date: 12/05/2018
 ms.keywords: WSDAttachLinkedMemory, WSDAttachLinkedMemory function, ncd.wsdattachlinkedmemory_func, wsdutil/WSDAttachLinkedMemory
 ms.topic: function
-f1_keywords: 
- - "wsdutil/WSDAttachLinkedMemory"
+f1_keywords:
+- wsdutil/WSDAttachLinkedMemory
 dev_langs:
- - c++
+- c++
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - WSDAttachLinkedMemory
+- WSDAttachLinkedMemory
 targetos: Windows
 req.typenames: 
 req.redist: 

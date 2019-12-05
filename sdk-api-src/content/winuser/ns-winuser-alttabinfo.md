@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagALTTABINFO
 title: ALTTABINFO (winuser.h)
-
 description: Contains status information for the application-switching (ALT+TAB) window.
 old-location: winmsg\alttabinfo.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\alttabinfo.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPALTTABINFO, *PALTTABINFO, ALTTABINFO, ALTTABINFO structure [Windows and Messages], LPALTTABINFO, LPALTTABINFO structure pointer [Windows and Messages], PALTTABINFO, PALTTABINFO structure pointer [Windows and Messages], _win32_ALTTABINFO_str, _win32_alttabinfo_str_cpp, winmsg.alttabinfo, winui._win32_alttabinfo_str, winuser/ALTTABINFO, winuser/LPALTTABINFO, winuser/PALTTABINFO"
+ms.keywords: '*LPALTTABINFO, *PALTTABINFO, ALTTABINFO, ALTTABINFO structure [Windows and Messages], LPALTTABINFO, LPALTTABINFO structure pointer [Windows and Messages], PALTTABINFO, PALTTABINFO structure pointer [Windows and Messages], _win32_ALTTABINFO_str, _win32_alttabinfo_str_cpp, winmsg.alttabinfo, winui._win32_alttabinfo_str, winuser/ALTTABINFO, winuser/LPALTTABINFO, winuser/PALTTABINFO'
 ms.topic: struct
-f1_keywords: 
- - "winuser/ALTTABINFO"
+f1_keywords:
+- winuser/ALTTABINFO
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - ALTTABINFO
+- ALTTABINFO
 targetos: Windows
 req.typenames: ALTTABINFO, *PALTTABINFO, *LPALTTABINFO
 req.redist: 

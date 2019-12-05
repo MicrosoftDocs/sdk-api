@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationDragPattern.get_CurrentDropEffect
 title: IUIAutomationDragPattern::get_CurrentDropEffect (uiautomationclient.h)
-
 description: Retrieves a localized string that indicates what happens when the user drops this element as part of a drag-drop operation.
 old-location: winauto\uiauto_iuiautomationdragpattern_currentdropeffect.htm
 tech.root: WinAuto
 ms.assetid: 8F5459DE-4BAA-412D-88E9-A81125150CAA
-
 ms.date: 12/05/2018
 ms.keywords: CurrentDropEffect property [Windows Accessibility], CurrentDropEffect property [Windows Accessibility],IUIAutomationDragPattern interface, IUIAutomationDragPattern interface [Windows Accessibility],CurrentDropEffect property, IUIAutomationDragPattern.CurrentDropEffect, IUIAutomationDragPattern.get_CurrentDropEffect, IUIAutomationDragPattern::CurrentDropEffect, IUIAutomationDragPattern::get_CurrentDropEffect, get_CurrentDropEffect, uiautomationclient/IUIAutomationDragPattern::CurrentDropEffect, uiautomationclient/IUIAutomationDragPattern::get_CurrentDropEffect, winauto.uiauto_iuiautomationdragpattern_currentdropeffect
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationDragPattern.CurrentDropEffect"
+f1_keywords:
+- uiautomationclient/IUIAutomationDragPattern.CurrentDropEffect
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationDragPattern.CurrentDropEffect
- - IUIAutomationDragPattern.get_CurrentDropEffect
+- IUIAutomationDragPattern.CurrentDropEffect
+- IUIAutomationDragPattern.get_CurrentDropEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

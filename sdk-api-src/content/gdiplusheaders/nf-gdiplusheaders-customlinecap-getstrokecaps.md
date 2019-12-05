@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.CustomLineCap.GetStrokeCaps
 title: CustomLineCap::GetStrokeCaps (gdiplusheaders.h)
-
 description: The CustomLineCap::GetStrokeCaps method gets the end cap styles for both the start line cap and the end line cap. Line caps are LineCap objects that end the individual lines within a path.
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_GetStrokeCaps_startCap_endCap_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\getstrokecaps.htm
-
 ms.date: 12/05/2018
 ms.keywords: CustomLineCap class [GDI+],GetStrokeCaps method, CustomLineCap.GetStrokeCaps, CustomLineCap::GetStrokeCaps, GetStrokeCaps, GetStrokeCaps method [GDI+], GetStrokeCaps method [GDI+],CustomLineCap class, _gdiplus_CLASS_CustomLineCap_GetStrokeCaps_startCap_endCap_, gdiplus._gdiplus_CLASS_CustomLineCap_GetStrokeCaps_startCap_endCap_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/CustomLineCap.GetStrokeCaps"
+f1_keywords:
+- gdiplusheaders/CustomLineCap.GetStrokeCaps
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - CustomLineCap.GetStrokeCaps
+- CustomLineCap.GetStrokeCaps
 targetos: Windows
 req.typenames: 
 req.redist: 

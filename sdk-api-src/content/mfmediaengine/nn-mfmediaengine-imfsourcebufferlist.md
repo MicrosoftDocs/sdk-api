@@ -1,19 +1,17 @@
 ---
 UID: NN:mfmediaengine.IMFSourceBufferList
 title: IMFSourceBufferList (mfmediaengine.h)
-
 description: Represents a collection of IMFSourceBuffer objects.
 old-location: mf\imfsourcebufferlist.htm
 tech.root: medfound
 ms.assetid: 26f66c2d-5f84-485f-bc86-c8399666c9f1
-
 ms.date: 12/05/2018
 ms.keywords: IMFSourceBufferList, IMFSourceBufferList interface [Media Foundation], IMFSourceBufferList interface [Media Foundation],described, mf.imfsourcebufferlist, mfmediaengine/IMFSourceBufferList
 ms.topic: interface
-f1_keywords: 
- - "mfmediaengine/IMFSourceBufferList"
+f1_keywords:
+- mfmediaengine/IMFSourceBufferList
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFSourceBufferList
+- IMFSourceBufferList
 targetos: Windows
 req.typenames: 
 req.redist: 

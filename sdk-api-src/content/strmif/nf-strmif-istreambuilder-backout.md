@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IStreamBuilder.Backout
 title: IStreamBuilder::Backout (strmif.h)
-
 description: The Backout method undoes steps taken in the IStreamBuilder::Render method. This includes disconnecting and removing any filters that were added inside Render.
 old-location: dshow\istreambuilder_backout.htm
 tech.root: DirectShow
 ms.assetid: b8f895a7-7f71-4c0d-af9d-e2b0ed433172
-
 ms.date: 12/05/2018
 ms.keywords: Backout, Backout method [DirectShow], Backout method [DirectShow],IStreamBuilder interface, IStreamBuilder interface [DirectShow],Backout method, IStreamBuilder.Backout, IStreamBuilder::Backout, IStreamBuilderBackout, dshow.istreambuilder_backout, strmif/IStreamBuilder::Backout
 ms.topic: method
-f1_keywords: 
- - "strmif/IStreamBuilder.Backout"
+f1_keywords:
+- strmif/IStreamBuilder.Backout
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IStreamBuilder.Backout
+- IStreamBuilder.Backout
 targetos: Windows
 req.typenames: 
 req.redist: 

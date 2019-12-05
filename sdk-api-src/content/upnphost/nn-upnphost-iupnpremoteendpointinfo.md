@@ -1,19 +1,17 @@
 ---
 UID: NN:upnphost.IUPnPRemoteEndpointInfo
 title: IUPnPRemoteEndpointInfo (upnphost.h)
-
 description: The IUPnPRemoteEndpointInfo interface allows a hosted device to obtain information about a requester (that is, a control point) and the request.
 old-location: upnp\iupnpremoteendpointinfo.htm
 tech.root: upnp
 ms.assetid: 32e246cd-50eb-4221-8166-a7cd8ed42d69
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPRemoteEndpointInfo, IUPnPRemoteEndpointInfo interface [UPnP APIs], IUPnPRemoteEndpointInfo interface [UPnP APIs],described, upnp.iupnpremoteendpointinfo, upnphost/IUPnPRemoteEndpointInfo
 ms.topic: interface
-f1_keywords: 
- - "upnphost/IUPnPRemoteEndpointInfo"
+f1_keywords:
+- upnphost/IUPnPRemoteEndpointInfo
 dev_langs:
- - c++
+- c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnphost.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnphost.dll
+- Upnphost.dll
 api_name:
- - IUPnPRemoteEndpointInfo
+- IUPnPRemoteEndpointInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

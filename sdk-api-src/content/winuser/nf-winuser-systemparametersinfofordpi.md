@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SystemParametersInfoForDpi
 title: SystemParametersInfoForDpi function (winuser.h)
-
 description: Retrieves the value of one of the system-wide parameters, taking into account the provided DPI value.
 old-location: hidpi\systemparametersinfofordpi.htm
 tech.root: hidpi
 ms.assetid: BA460A5B-5356-43A5-B232-03E6E72D15A2
-
 ms.date: 12/05/2018
 ms.keywords: SystemParametersInfoForDpi, SystemParametersInfoForDpi function [High DPI], hidpi.systemparametersinfofordpi, winuser/SystemParametersInfoForDpi
 ms.topic: function
-f1_keywords: 
- - "winuser/SystemParametersInfoForDpi"
+f1_keywords:
+- winuser/SystemParametersInfoForDpi
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Window-l1-1-0.dll
- - Ext-MS-Win-NTUser-Window-l1-1-1.dll
- - Ext-MS-Win-NTUser-Window-l1-1-2.dll
- - ext-ms-win-ntuser-window-l1-1-3.dll
- - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Window-l1-1-0.dll
+- Ext-MS-Win-NTUser-Window-l1-1-1.dll
+- Ext-MS-Win-NTUser-Window-l1-1-2.dll
+- ext-ms-win-ntuser-window-l1-1-3.dll
+- Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
- - SystemParametersInfoForDpi
+- SystemParametersInfoForDpi
 targetos: Windows
 req.typenames: 
 req.redist: 

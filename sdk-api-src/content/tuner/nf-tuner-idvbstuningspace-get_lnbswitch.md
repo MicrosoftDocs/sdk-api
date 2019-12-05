@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDVBSTuningSpace.get_LNBSwitch
 title: IDVBSTuningSpace::get_LNBSwitch (tuner.h)
-
 description: The get_LNBSwitch method retrieves the LNB switch.
 old-location: mstv\idvbstuningspace_get_lnbswitch.htm
 tech.root: mstv
 ms.assetid: 56cea4ef-7679-4b78-883d-194c9259032f
-
 ms.date: 12/05/2018
 ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],get_LNBSwitch method, IDVBSTuningSpace.get_LNBSwitch, IDVBSTuningSpace::get_LNBSwitch, IDVBSTuningSpaceget_LNBSwitch, get_LNBSwitch, get_LNBSwitch method [Microsoft TV Technologies], get_LNBSwitch method [Microsoft TV Technologies],IDVBSTuningSpace interface, mstv.idvbstuningspace_get_lnbswitch, tuner/IDVBSTuningSpace::get_LNBSwitch
 ms.topic: method
-f1_keywords: 
- - "tuner/IDVBSTuningSpace.get_LNBSwitch"
+f1_keywords:
+- tuner/IDVBSTuningSpace.get_LNBSwitch
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBSTuningSpace.get_LNBSwitch
+- IDVBSTuningSpace.get_LNBSwitch
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:mfapi._MFVideoPadFlags
 title: MFVideoPadFlags (mfapi.h)
-
 description: Specifies whether to pad a video image so that it fits within a specified aspect ratio.
 old-location: mf\mfvideopadflags.htm
 tech.root: medfound
 ms.assetid: c68fdd6e-4fc9-4d70-91f0-dab70315ec21
-
 ms.date: 12/05/2018
 ms.keywords: MFVideoPadFlag_PAD_TO_16x9, MFVideoPadFlag_PAD_TO_4x3, MFVideoPadFlag_PAD_TO_None, MFVideoPadFlags, MFVideoPadFlags enumeration [Media Foundation], c68fdd6e-4fc9-4d70-91f0-dab70315ec21, mf.mfvideopadflags, mfapi/MFVideoPadFlag_PAD_TO_16x9, mfapi/MFVideoPadFlag_PAD_TO_4x3, mfapi/MFVideoPadFlag_PAD_TO_None, mfapi/MFVideoPadFlags
 ms.topic: enum
-f1_keywords: 
- - "mfapi/MFVideoPadFlags"
+f1_keywords:
+- mfapi/MFVideoPadFlags
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfapi.h
+- mfapi.h
 api_name:
- - MFVideoPadFlags
+- MFVideoPadFlags
 targetos: Windows
 req.typenames: MFVideoPadFlags
 req.redist: 

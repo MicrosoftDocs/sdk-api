@@ -1,19 +1,17 @@
 ---
 UID: NF:ntdsapi.DsClientMakeSpnForTargetServerW
 title: DsClientMakeSpnForTargetServerW function (ntdsapi.h)
-
 description: Constructs a service principal name (SPN) that identifies a specific server to use for authentication.
 old-location: ad\dsclientmakespnfortargetserver.htm
 tech.root: ad
 ms.assetid: d205e7cc-4879-41a4-baa7-75e7dd177cd0
-
 ms.date: 12/05/2018
 ms.keywords: DsClientMakeSpnForTargetServer, DsClientMakeSpnForTargetServer function [Active Directory], DsClientMakeSpnForTargetServerA, DsClientMakeSpnForTargetServerW, _glines_dsclientmakespnfortargetserver, ad.dsclientmakespnfortargetserver, ntdsapi/DsClientMakeSpnForTargetServer, ntdsapi/DsClientMakeSpnForTargetServerA, ntdsapi/DsClientMakeSpnForTargetServerW
 ms.topic: function
-f1_keywords: 
- - "ntdsapi/DsClientMakeSpnForTargetServer"
+f1_keywords:
+- ntdsapi/DsClientMakeSpnForTargetServer
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
+- Ntdsapi.dll
 api_name:
- - DsClientMakeSpnForTargetServer
- - DsClientMakeSpnForTargetServerA
- - DsClientMakeSpnForTargetServerW
+- DsClientMakeSpnForTargetServer
+- DsClientMakeSpnForTargetServerA
+- DsClientMakeSpnForTargetServerW
 targetos: Windows
 req.typenames: 
 req.redist: 

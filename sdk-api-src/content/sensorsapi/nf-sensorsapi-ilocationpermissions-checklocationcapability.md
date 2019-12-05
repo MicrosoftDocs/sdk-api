@@ -1,19 +1,17 @@
 ---
 UID: NF:sensorsapi.ILocationPermissions.CheckLocationCapability
 title: ILocationPermissions::CheckLocationCapability (sensorsapi.h)
-
 description: Gets the location capability of the Windows Store app of the given thread.
 old-location: winsensors\ilocationpermissions_checklocationcapability.htm
 tech.root: SensorsAPI
 ms.assetid: B7D6268C-4A0D-490F-B1E7-573159EF7CFF
-
 ms.date: 12/05/2018
 ms.keywords: CheckLocationCapability, CheckLocationCapability method, CheckLocationCapability method,ILocationPermissions interface, ILocationPermissions interface,CheckLocationCapability method, ILocationPermissions.CheckLocationCapability, ILocationPermissions::CheckLocationCapability, sensorsapi/ILocationPermissions::CheckLocationCapability, winsensors.ilocationpermissions_checklocationcapability
 ms.topic: method
-f1_keywords: 
- - "sensorsapi/ILocationPermissions.CheckLocationCapability"
+f1_keywords:
+- sensorsapi/ILocationPermissions.CheckLocationCapability
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sensorsapi.h
+- sensorsapi.h
 api_name:
- - ILocationPermissions.CheckLocationCapability
+- ILocationPermissions.CheckLocationCapability
 targetos: Windows
 req.typenames: 
 req.redist: 

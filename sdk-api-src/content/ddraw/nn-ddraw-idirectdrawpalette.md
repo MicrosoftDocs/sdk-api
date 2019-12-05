@@ -1,19 +1,17 @@
 ---
 UID: NN:ddraw.IDirectDrawPalette
 title: IDirectDrawPalette (ddraw.h)
-
 description: Applications use the methods of the IDirectDrawPalette interface to create DirectDrawPalette objects and work with system-level variables. This section is a reference to the methods of this interface.
 old-location: directdraw\idirectdrawpalette.htm
 tech.root: directdraw
 ms.assetid: 82dad1d4-2368-4cb0-a45c-0de894b016b7
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawPalette, IDirectDrawPalette interface [DirectDraw], IDirectDrawPalette interface [DirectDraw],described, ddraw/IDirectDrawPalette, directdraw.idirectdrawpalette
 ms.topic: interface
-f1_keywords: 
- - "ddraw/IDirectDrawPalette"
+f1_keywords:
+- ddraw/IDirectDrawPalette
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawPalette
+- IDirectDrawPalette
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msp.ITMSPAddress.Initialize
 title: ITMSPAddress::Initialize (msp.h)
-
 description: The Initialize method is called when the MSP is loaded.
 old-location: tapi3\itmspaddress_initialize.htm
 tech.root: Tapi
 ms.assetid: 5df2c486-0133-4705-8d37-10b56b40c85d
-
 ms.date: 12/05/2018
 ms.keywords: ITMSPAddress interface [TAPI 2.2],Initialize method, ITMSPAddress.Initialize, ITMSPAddress::Initialize, Initialize, Initialize method [TAPI 2.2], Initialize method [TAPI 2.2],ITMSPAddress interface, _tapi3_itmspaddress_initialize, msp/ITMSPAddress::Initialize, tapi3.itmspaddress_initialize
 ms.topic: method
-f1_keywords: 
- - "msp/ITMSPAddress.Initialize"
+f1_keywords:
+- msp/ITMSPAddress.Initialize
 dev_langs:
- - c++
+- c++
 req.header: msp.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msp.h
+- msp.h
 api_name:
- - ITMSPAddress.Initialize
+- ITMSPAddress.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

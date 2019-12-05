@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetWindowRgnBox
 title: GetWindowRgnBox function (winuser.h)
-
 description: The GetWindowRgnBox function retrieves the dimensions of the tightest bounding rectangle for the window region of a window.
 old-location: gdi\getwindowrgnbox.htm
 tech.root: gdi
 ms.assetid: 20e23474-a1c5-4afe-976e-a7e5790fb91b
-
 ms.date: 12/05/2018
 ms.keywords: GetWindowRgnBox, GetWindowRgnBox function [Windows GDI], _win32_GetWindowRgnBox, gdi.getwindowrgnbox, winuser/GetWindowRgnBox
 ms.topic: function
-f1_keywords: 
- - "winuser/GetWindowRgnBox"
+f1_keywords:
+- winuser/GetWindowRgnBox
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-NTUser-Draw-l1-1-0.dll
- - Ext-MS-Win-NTUser-Draw-l1-1-1.dll
- - ext-ms-win-ntuser-draw-l1-1-2.dll
+- user32.dll
+- Ext-MS-Win-NTUser-Draw-l1-1-0.dll
+- Ext-MS-Win-NTUser-Draw-l1-1-1.dll
+- ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
- - GetWindowRgnBox
+- GetWindowRgnBox
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusimagecodec.GetImageEncodersSize
 title: GetImageEncodersSize function (gdiplusimagecodec.h)
-
 description: The GetImageEncodersSize function gets the number of available image encoders and the total size of the array of ImageCodecInfo objects that is returned by the GetImageEncoders function.
 old-location: gdiplus\_gdiplus_FUNC_GetImageEncodersSize_numEncoders_size_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\getimageencoderssize.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetImageEncodersSize, GetImageEncodersSize function [GDI+], _gdiplus_FUNC_GetImageEncodersSize_numEncoders_size_, gdiplus._gdiplus_FUNC_GetImageEncodersSize_numEncoders_size_, gdiplusimagecodec/GetImageEncodersSize
 ms.topic: function
-f1_keywords: 
- - "gdiplusimagecodec/GetImageEncodersSize"
+f1_keywords:
+- gdiplusimagecodec/GetImageEncodersSize
 dev_langs:
- - c++
+- c++
 req.header: gdiplusimagecodec.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Gdiplus.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Gdiplus.lib
- - Gdiplus.dll
+- Gdiplus.lib
+- Gdiplus.dll
 api_name:
- - GetImageEncodersSize
+- GetImageEncodersSize
 targetos: Windows
 req.typenames: 
 req.redist: 

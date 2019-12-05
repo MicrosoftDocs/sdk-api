@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectTechnique.GetPassByIndex
 title: ID3D10EffectTechnique::GetPassByIndex (d3d10effect.h)
-
 description: Get a pass by index.
 old-location: direct3d10\id3d10effecttechnique_getpassbyindex.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effecttechnique_getpassbyindex.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetPassByIndex, GetPassByIndex method [Direct3D 10], GetPassByIndex method [Direct3D 10],ID3D10EffectTechnique interface, ID3D10EffectTechnique interface [Direct3D 10],GetPassByIndex method, ID3D10EffectTechnique.GetPassByIndex, ID3D10EffectTechnique::GetPassByIndex, bf6a09f2-4226-0743-fbab-24f41fc1fd18, d3d10effect/ID3D10EffectTechnique::GetPassByIndex, direct3d10.id3d10effecttechnique_getpassbyindex
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectTechnique.GetPassByIndex"
+f1_keywords:
+- d3d10effect/ID3D10EffectTechnique.GetPassByIndex
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectTechnique.GetPassByIndex
+- ID3D10EffectTechnique.GetPassByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

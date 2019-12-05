@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.TuningSpacesForName
 title: ITuningSpaceContainer::TuningSpacesForName (tuner.h)
-
 description: The TuningSpacesForName method retrieves a collection of tuning spaces that match the specified name.
 old-location: mstv\ituningspacecontainer_tuningspacesforname.htm
 tech.root: mstv
 ms.assetid: de16a50e-7f5d-41e5-a17f-bb6d97179e4e
-
 ms.date: 12/05/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],TuningSpacesForName method, ITuningSpaceContainer.TuningSpacesForName, ITuningSpaceContainer::TuningSpacesForName, ITuningSpaceContainerTuningSpacesForName, TuningSpacesForName, TuningSpacesForName method [Microsoft TV Technologies], TuningSpacesForName method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_tuningspacesforname, tuner/ITuningSpaceContainer::TuningSpacesForName
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuningSpaceContainer.TuningSpacesForName"
+f1_keywords:
+- tuner/ITuningSpaceContainer.TuningSpacesForName
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuningSpaceContainer.TuningSpacesForName
+- ITuningSpaceContainer.TuningSpacesForName
 targetos: Windows
 req.typenames: 
 req.redist: 

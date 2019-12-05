@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.SHLoadLibraryFromKnownFolder
 title: SHLoadLibraryFromKnownFolder function (shobjidl_core.h)
-
 description: Creates and loads an IShellLibrary object for a specified known folder ID.
 old-location: shell\SHLoadLibraryFromKnownFolder.htm
 tech.root: shell
 ms.assetid: 9486252b-9aaf-4daf-b307-5a5adddfaa99
-
 ms.date: 12/05/2018
 ms.keywords: SHLoadLibraryFromKnownFolder, SHLoadLibraryFromKnownFolder function [Windows Shell], _shell_SHLoadLibraryFromKnownFolder, shell.SHLoadLibraryFromKnownFolder, shobjidl_core/SHLoadLibraryFromKnownFolder
 ms.topic: function
-f1_keywords: 
- - "shobjidl_core/SHLoadLibraryFromKnownFolder"
+f1_keywords:
+- shobjidl_core/SHLoadLibraryFromKnownFolder
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - SHLoadLibraryFromKnownFolder
+- SHLoadLibraryFromKnownFolder
 targetos: Windows
 req.typenames: 
 req.redist: 

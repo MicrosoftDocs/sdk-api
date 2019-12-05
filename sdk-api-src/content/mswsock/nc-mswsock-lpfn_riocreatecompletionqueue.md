@@ -1,19 +1,17 @@
 ---
 UID: NC:mswsock.LPFN_RIOCREATECOMPLETIONQUEUE
 title: LPFN_RIOCREATECOMPLETIONQUEUE
-
 description: Creates an I/O completion queue of a specific size for use with the Winsock registered I/O extensions.
 old-location: 
 tech.root: WinSock
 ms.assetid: A5700ACD-3F4B-4AFF-8BA1-6AC59402E06C
-
 ms.date: 01/30/19
 ms.keywords: LPFN_RIOCREATECOMPLETIONQUEUE
 ms.topic: language-reference
-f1_keywords: 
- - "mswsock/LPFN_RIOCREATECOMPLETIONQUEUE"
+f1_keywords:
+- mswsock/LPFN_RIOCREATECOMPLETIONQUEUE
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -35,13 +33,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - LibDef
+- LibDef
 api_location:
- - mswsock.h
+- mswsock.h
 api_name:
- - LPFN_RIOCREATECOMPLETIONQUEUE
+- LPFN_RIOCREATECOMPLETIONQUEUE
 ---
 
 ## -description

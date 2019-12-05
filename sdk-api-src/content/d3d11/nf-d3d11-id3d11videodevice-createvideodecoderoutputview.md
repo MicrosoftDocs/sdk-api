@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.CreateVideoDecoderOutputView
 title: ID3D11VideoDevice::CreateVideoDecoderOutputView (d3d11.h)
-
 description: Creates a resource view for a video decoder, describing the output sample for the decoding operation.
 old-location: mf\id3d11videodevice_createvideodecoderoutputview.htm
 tech.root: medfound
 ms.assetid: 8A3D72CF-B641-4219-8C88-FCE5231CF2F6
-
 ms.date: 12/05/2018
 ms.keywords: CreateVideoDecoderOutputView, CreateVideoDecoderOutputView method [Media Foundation], CreateVideoDecoderOutputView method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],CreateVideoDecoderOutputView method, ID3D11VideoDevice.CreateVideoDecoderOutputView, ID3D11VideoDevice::CreateVideoDecoderOutputView, d3d11/ID3D11VideoDevice::CreateVideoDecoderOutputView, mf.id3d11videodevice_createvideodecoderoutputview
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoDevice.CreateVideoDecoderOutputView"
+f1_keywords:
+- d3d11/ID3D11VideoDevice.CreateVideoDecoderOutputView
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoDevice.CreateVideoDecoderOutputView
+- ID3D11VideoDevice.CreateVideoDecoderOutputView
 targetos: Windows
 req.typenames: 
 req.redist: 

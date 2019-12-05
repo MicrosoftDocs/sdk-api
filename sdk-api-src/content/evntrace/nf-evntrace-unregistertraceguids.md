@@ -1,19 +1,17 @@
 ---
 UID: NF:evntrace.UnregisterTraceGuids
 title: UnregisterTraceGuids function (evntrace.h)
-
 description: The UnregisterTraceGuids function unregisters an event trace provider and its event trace classes.
 old-location: etw\unregistertraceguids.htm
 tech.root: ETW
 ms.assetid: 1fa10f66-a78b-4f40-9518-72d48365246e
-
 ms.date: 12/05/2018
 ms.keywords: UnregisterTraceGuids, UnregisterTraceGuids function [ETW], _evt_unregistertraceguids, base.unregistertraceguids, etw.unregistertraceguids, evntrace/UnregisterTraceGuids
 ms.topic: function
-f1_keywords: 
- - "evntrace/UnregisterTraceGuids"
+f1_keywords:
+- evntrace/UnregisterTraceGuids
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - API-MS-Win-eventing-classicprovider-l1-1-0.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- API-MS-Win-eventing-classicprovider-l1-1-0.dll
 api_name:
- - UnregisterTraceGuids
+- UnregisterTraceGuids
 targetos: Windows
 req.typenames: 
 req.redist: 

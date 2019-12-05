@@ -1,19 +1,17 @@
 ---
 UID: NN:tsgpolicyengine.ITSGAccountingEngine
 title: ITSGAccountingEngine (tsgpolicyengine.h)
-
 description: Exposes methods that provide information about the creation or closing of sessions for a connection.
 old-location: termserv\itsgaccountingengine.htm
 tech.root: TermServ
 ms.assetid: 49b402a9-137a-4cfa-89f5-12bf89c3ebb6
-
 ms.date: 12/05/2018
 ms.keywords: ITSGAccountingEngine, ITSGAccountingEngine interface [Remote Desktop Services], ITSGAccountingEngine interface [Remote Desktop Services],described, termserv.itsgaccountingengine, tsgpolicyengine/ITSGAccountingEngine
 ms.topic: interface
-f1_keywords: 
- - "tsgpolicyengine/ITSGAccountingEngine"
+f1_keywords:
+- tsgpolicyengine/ITSGAccountingEngine
 dev_langs:
- - c++
+- c++
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - TSGPolicyEngine.h
+- TSGPolicyEngine.h
 api_name:
- - ITSGAccountingEngine
+- ITSGAccountingEngine
 targetos: Windows
 req.typenames: 
 req.redist: 

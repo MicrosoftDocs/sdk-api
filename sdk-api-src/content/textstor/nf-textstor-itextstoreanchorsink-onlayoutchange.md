@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreAnchorSink.OnLayoutChange
 title: ITextStoreAnchorSink::OnLayoutChange (textstor.h)
-
 description: The ITextStoreAnchorSink::OnLayoutChange method is called when the layout (on-screen representation) of the document changes.
 old-location: tsf\itextstoreanchorsink_onlayoutchange.htm
 tech.root: TSF
 ms.assetid: 22629ca6-5701-4f6f-b797-bb71c8d31da6
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnLayoutChange method, ITextStoreAnchorSink.OnLayoutChange, ITextStoreAnchorSink::OnLayoutChange, OnLayoutChange, OnLayoutChange method [Text Services Framework], OnLayoutChange method [Text Services Framework],ITextStoreAnchorSink interface, _tsf_itextstoreanchorsink_onlayoutchange_ref, textstor/ITextStoreAnchorSink::OnLayoutChange, tsf.itextstoreanchorsink_onlayoutchange
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreAnchorSink.OnLayoutChange"
+f1_keywords:
+- textstor/ITextStoreAnchorSink.OnLayoutChange
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreAnchorSink.OnLayoutChange
+- ITextStoreAnchorSink.OnLayoutChange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

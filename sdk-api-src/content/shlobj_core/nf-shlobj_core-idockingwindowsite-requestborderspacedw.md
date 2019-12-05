@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IDockingWindowSite.RequestBorderSpaceDW
 title: IDockingWindowSite::RequestBorderSpaceDW (shlobj_core.h)
-
 description: Approves, modifies, or refuses a request for an IDockingWindow object's border space. The border space is not allocated until the SetBorderSpaceDW method is called.
 old-location: shell\IDockingWindowSite_RequestBorderSpaceDW.htm
 tech.root: shell
 ms.assetid: a104c58b-44da-47e7-b10b-f0116024bee1
-
 ms.date: 12/05/2018
 ms.keywords: IDockingWindowSite interface [Windows Shell],RequestBorderSpaceDW method, IDockingWindowSite.RequestBorderSpaceDW, IDockingWindowSite::RequestBorderSpaceDW, RequestBorderSpaceDW, RequestBorderSpaceDW method [Windows Shell], RequestBorderSpaceDW method [Windows Shell],IDockingWindowSite interface, _win32_IDockingWindowSite_RequestBorderSpaceDW, shell.IDockingWindowSite_RequestBorderSpaceDW, shlobj_core/IDockingWindowSite::RequestBorderSpaceDW
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IDockingWindowSite.RequestBorderSpaceDW"
+f1_keywords:
+- shlobj_core/IDockingWindowSite.RequestBorderSpaceDW
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IDockingWindowSite.RequestBorderSpaceDW
+- IDockingWindowSite.RequestBorderSpaceDW
 targetos: Windows
 req.typenames: 
 req.redist: 

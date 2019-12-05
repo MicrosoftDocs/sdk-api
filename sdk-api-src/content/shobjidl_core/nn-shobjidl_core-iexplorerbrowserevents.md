@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IExplorerBrowserEvents
 title: IExplorerBrowserEvents (shobjidl_core.h)
-
 description: Exposes methods for notification of Explorer browser navigation and view creation events.
 old-location: shell\IExplorerBrowserEvents.htm
 tech.root: shell
 ms.assetid: 802d547f-41c2-4c4a-9f07-be615d7b86eb
-
 ms.date: 12/05/2018
 ms.keywords: IExplorerBrowserEvents, IExplorerBrowserEvents interface [Windows Shell], IExplorerBrowserEvents interface [Windows Shell],described, _shell_IExplorerBrowserEvents, shell.IExplorerBrowserEvents, shobjidl_core/IExplorerBrowserEvents
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IExplorerBrowserEvents"
+f1_keywords:
+- shobjidl_core/IExplorerBrowserEvents
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExplorerBrowserEvents
+- IExplorerBrowserEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

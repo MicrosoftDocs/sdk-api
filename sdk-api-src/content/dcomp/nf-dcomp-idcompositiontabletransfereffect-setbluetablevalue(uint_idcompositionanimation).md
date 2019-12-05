@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetBlueTableValue(UINT,IDCompositionAnimation)
 title: IDCompositionTableTransferEffect::SetBlueTableValue(UINT,IDCompositionAnimation) (dcomp.h)
-
 description: Sets a value in the blue table.
 old-location: directcomp\idcompositiontabletransfereffect_setbluetablevalue_2.htm
 tech.root: directcomp
 ms.assetid: 82CF79D8-1CA6-4A02-B806-4A2672B4BBF3
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetBlueTableValue method, IDCompositionTableTransferEffect.SetBlueTableValue, IDCompositionTableTransferEffect.SetBlueTableValue(UINT,IDCompositionAnimation), IDCompositionTableTransferEffect::SetBlueTableValue, IDCompositionTableTransferEffect::SetBlueTableValue(UINT,IDCompositionAnimation), SetBlueTableValue, SetBlueTableValue method [DirectComposition], SetBlueTableValue method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetBlueTableValue, directcomp.idcompositiontabletransfereffect_setbluetablevalue_2
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionTableTransferEffect.SetBlueTableValue"
+f1_keywords:
+- dcomp/IDCompositionTableTransferEffect.SetBlueTableValue
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionTableTransferEffect.SetBlueTableValue
+- IDCompositionTableTransferEffect.SetBlueTableValue
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPO.Delete
 title: IGPMStarterGPO::Delete (gpmgmt.h)
-
 description: Deletes the GPO from the current domain's system volume folder(SysVol).
 old-location: gpmc\igpmstartergpo_delete.htm
 tech.root: gpmc
 ms.assetid: 1392326e-68f0-4d55-8a6b-3abbb60b51ee
-
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [GPMC], Delete method [GPMC],IGPMStarterGPO interface, IGPMStarterGPO interface [GPMC],Delete method, IGPMStarterGPO.Delete, IGPMStarterGPO::Delete, gpmc.igpmstartergpo_delete, gpmgmt/IGPMStarterGPO::Delete
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMStarterGPO.Delete"
+f1_keywords:
+- gpmgmt/IGPMStarterGPO.Delete
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gpmgmt.dll
+- gpmgmt.dll
 api_name:
- - IGPMStarterGPO.Delete
+- IGPMStarterGPO.Delete
 targetos: Windows
 req.typenames: 
 req.redist: 

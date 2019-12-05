@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.ICategory.get_Parent
 title: ICategory::get_Parent (wuapi.h)
-
 description: Gets an interface that describes the parent category of this category.
 old-location: wua\icategory_parent.htm
 tech.root: Wua_Sdk
 ms.assetid: 29d93cd6-3ecf-44f8-8481-267c3e88be50
-
 ms.date: 12/05/2018
 ms.keywords: ICategory interface [Windows Update Agent],Parent property, ICategory.Parent, ICategory.get_Parent, ICategory::Parent, ICategory::get_Parent, Parent property [Windows Update Agent], Parent property [Windows Update Agent],ICategory interface, get_Parent, wua.icategory_parent, wuapi/ICategory::Parent, wuapi/ICategory::get_Parent
 ms.topic: method
-f1_keywords: 
- - "wuapi/ICategory.Parent"
+f1_keywords:
+- wuapi/ICategory.Parent
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - ICategory.Parent
- - ICategory.get_Parent
+- ICategory.Parent
+- ICategory.get_Parent
 targetos: Windows
 req.typenames: 
 req.redist: 

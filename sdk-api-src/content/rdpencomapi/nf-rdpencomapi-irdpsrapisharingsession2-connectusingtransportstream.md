@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession2.ConnectUsingTransportStream
 title: IRDPSRAPISharingSession2::ConnectUsingTransportStream (rdpencomapi.h)
-
 description: Connects using the specified transport stream.
 old-location: rdp\irdpsrapisharingsession2_connectusingtransportstream.htm
 tech.root: rdp
 ms.assetid: 78f517c9-0870-4dfd-a318-3bd510e05dfa
-
 ms.date: 12/05/2018
 ms.keywords: ConnectUsingTransportStream, ConnectUsingTransportStream method [RDP], ConnectUsingTransportStream method [RDP],IRDPSRAPISharingSession2 interface, IRDPSRAPISharingSession2 interface [RDP],ConnectUsingTransportStream method, IRDPSRAPISharingSession2.ConnectUsingTransportStream, IRDPSRAPISharingSession2::ConnectUsingTransportStream, rdp.irdpsrapisharingsession2_connectusingtransportstream, rdpencomapi/IRDPSRAPISharingSession2::ConnectUsingTransportStream
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPISharingSession2.ConnectUsingTransportStream"
+f1_keywords:
+- rdpencomapi/IRDPSRAPISharingSession2.ConnectUsingTransportStream
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPISharingSession2.ConnectUsingTransportStream
+- IRDPSRAPISharingSession2.ConnectUsingTransportStream
 targetos: Windows
 req.typenames: 
 req.redist: 

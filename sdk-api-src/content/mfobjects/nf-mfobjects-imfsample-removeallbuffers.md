@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFSample.RemoveAllBuffers
 title: IMFSample::RemoveAllBuffers (mfobjects.h)
-
 description: Removes all of the buffers from the sample.
 old-location: mf\imfsample_removeallbuffers.htm
 tech.root: medfound
 ms.assetid: c7ce734f-64da-4d45-905e-54a8898aa710
-
 ms.date: 12/05/2018
 ms.keywords: IMFSample interface [Media Foundation],RemoveAllBuffers method, IMFSample.RemoveAllBuffers, IMFSample::RemoveAllBuffers, RemoveAllBuffers, RemoveAllBuffers method [Media Foundation], RemoveAllBuffers method [Media Foundation],IMFSample interface, c7ce734f-64da-4d45-905e-54a8898aa710, mf.imfsample_removeallbuffers, mfobjects/IMFSample::RemoveAllBuffers
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFSample.RemoveAllBuffers"
+f1_keywords:
+- mfobjects/IMFSample.RemoveAllBuffers
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSample.RemoveAllBuffers
+- IMFSample.RemoveAllBuffers
 targetos: Windows
 req.typenames: 
 req.redist: 

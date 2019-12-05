@@ -1,19 +1,17 @@
 ---
 UID: NF:fltuser.FilterLoad
 title: FilterLoad function (fltuser.h)
-
 description: The FilterLoad function dynamically loads a minifilter driver into the system.
 old-location: ifsk\filterload.htm
 tech.root: ifsk
 ms.assetid: 248e05e6-570a-45fc-8b63-16625ffda1dd
-
 ms.date: 12/05/2018
 ms.keywords: FilterLoad, FilterLoad function [Installable File System Drivers], FltWin32ApiRef_273c18c5-9474-4605-80a1-1bc4cb9e4e7b.xml, fltuser/FilterLoad, ifsk.filterload
 ms.topic: function
-f1_keywords: 
- - "fltuser/FilterLoad"
+f1_keywords:
+- fltuser/FilterLoad
 dev_langs:
- - c++
+- c++
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: FltLib.lib
 req.dll: FltLib.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FltLib.dll
+- FltLib.dll
 api_name:
- - FilterLoad
+- FilterLoad
 targetos: Windows
 req.typenames: 
 req.redist: 

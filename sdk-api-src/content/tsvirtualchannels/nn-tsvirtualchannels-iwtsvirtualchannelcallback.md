@@ -1,19 +1,17 @@
 ---
 UID: NN:tsvirtualchannels.IWTSVirtualChannelCallback
 title: IWTSVirtualChannelCallback (tsvirtualchannels.h)
-
 description: Receives notifications about channel state changes or data received.
 old-location: termserv\iwtsvirtualchannelcallback.htm
 tech.root: TermServ
 ms.assetid: d90c6f80-ed4c-4b99-af85-d2c5816ade85
-
 ms.date: 12/05/2018
 ms.keywords: IWTSVirtualChannelCallback, IWTSVirtualChannelCallback interface [Remote Desktop Services], IWTSVirtualChannelCallback interface [Remote Desktop Services],described, termserv.iwtsvirtualchannelcallback, tsvirtualchannels/IWTSVirtualChannelCallback
 ms.topic: interface
-f1_keywords: 
- - "tsvirtualchannels/IWTSVirtualChannelCallback"
+f1_keywords:
+- tsvirtualchannels/IWTSVirtualChannelCallback
 dev_langs:
- - c++
+- c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - TsVirtualChannels.h
+- TsVirtualChannels.h
 api_name:
- - IWTSVirtualChannelCallback
+- IWTSVirtualChannelCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

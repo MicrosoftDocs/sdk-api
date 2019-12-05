@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetPackageObjectReference
 title: IOpcDigitalSignature::GetPackageObjectReference (msopc.h)
-
 description: Gets an IOpcSignatureReference interface pointer that represents the reference to the package-specific Object element that has been signed.
 old-location: opc\iopcdigitalsignature_getpackageobjectreference.htm
 tech.root: OPC
 ms.assetid: 67f4404f-518c-4a47-8c8e-b5b8d13e18cb
-
 ms.date: 12/05/2018
 ms.keywords: GetPackageObjectReference, GetPackageObjectReference method [Open Packaging Conventions], GetPackageObjectReference method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetPackageObjectReference method, IOpcDigitalSignature.GetPackageObjectReference, IOpcDigitalSignature::GetPackageObjectReference, msopc/IOpcDigitalSignature::GetPackageObjectReference, opc.iopcdigitalsignature_getpackageobjectreference
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcDigitalSignature.GetPackageObjectReference"
+f1_keywords:
+- msopc/IOpcDigitalSignature.GetPackageObjectReference
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcDigitalSignature.GetPackageObjectReference
+- IOpcDigitalSignature.GetPackageObjectReference
 targetos: Windows
 req.typenames: 
 req.redist: 

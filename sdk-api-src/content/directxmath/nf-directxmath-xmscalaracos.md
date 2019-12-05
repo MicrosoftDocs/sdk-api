@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMScalarACos
 title: XMScalarACos function (directxmath.h)
-
 description: Computes the arccosine of a floating-point number.
 old-location: dxmath\xmscalaracos.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.scalar.XMScalarACos(float)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMScalarACos, XMScalarACos, XMScalarACos method [DirectX Math Support APIs], dxmath.xmscalaracos
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMScalarACos"
+f1_keywords:
+- directxmath/XMScalarACos
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMScalarACos
+- XMScalarACos
 targetos: Windows
 req.typenames: 
 req.redist: 

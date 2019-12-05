@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange2.SetDropCap
 title: ITextRange2::SetDropCap (tom.h)
-
 description: Sets the drop-cap parameters for the paragraph that contains the current range.
 old-location: controls\itextrange2_setdropcap.htm
 tech.root: Controls
 ms.assetid: 189c1a69-44eb-4de0-8ffc-9a026d9e6f16
-
 ms.date: 12/05/2018
 ms.keywords: ITextRange2 interface [Windows Controls],SetDropCap method, ITextRange2.SetDropCap, ITextRange2::SetDropCap, SetDropCap, SetDropCap method [Windows Controls], SetDropCap method [Windows Controls],ITextRange2 interface, controls.itextrange2_setdropcap, tom/ITextRange2::SetDropCap
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange2.SetDropCap"
+f1_keywords:
+- tom/ITextRange2.SetDropCap
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: Tom.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange2.SetDropCap
+- ITextRange2.SetDropCap
 targetos: Windows
 req.typenames: 
 req.redist: 

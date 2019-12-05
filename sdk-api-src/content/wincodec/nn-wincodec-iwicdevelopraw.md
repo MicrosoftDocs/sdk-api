@@ -1,19 +1,17 @@
 ---
 UID: NN:wincodec.IWICDevelopRaw
 title: IWICDevelopRaw (wincodec.h)
-
 description: Exposes methods that provide access to the capabilites of a raw codec format.
 old-location: wic\_wic_codec_iwicdevelopraw.htm
 tech.root: wic
 ms.assetid: d449f3f7-fd43-44b0-ab7f-2ae307a74191
-
 ms.date: 12/05/2018
 ms.keywords: IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], IWICDevelopRaw interface [Windows Imaging Component],described, _wic_codec_iwicdevelopraw, wic._wic_codec_iwicdevelopraw, wincodec/IWICDevelopRaw
 ms.topic: interface
-f1_keywords: 
- - "wincodec/IWICDevelopRaw"
+f1_keywords:
+- wincodec/IWICDevelopRaw
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICDevelopRaw
+- IWICDevelopRaw
 targetos: Windows
 req.typenames: 
 req.redist: 

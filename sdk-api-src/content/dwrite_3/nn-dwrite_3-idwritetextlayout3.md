@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite_3.IDWriteTextLayout3
 title: IDWriteTextLayout3 (dwrite_3.h)
-
 description: Represents a block of text after it has been fully analyzed and formatted.
 old-location: directwrite\idwritetextlayout3.htm
 tech.root: DirectWrite
 ms.assetid: a7741740-9524-caf0-650b-56808abcf328
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout3, IDWriteTextLayout3 interface [Direct Write], IDWriteTextLayout3 interface [Direct Write],described, directwrite.idwritetextlayout3, dwrite_3/IDWriteTextLayout3
 ms.topic: interface
-f1_keywords: 
- - "dwrite_3/IDWriteTextLayout3"
+f1_keywords:
+- dwrite_3/IDWriteTextLayout3
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout3
+- IDWriteTextLayout3
 targetos: Windows
 req.typenames: 
 req.redist: 

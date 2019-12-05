@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IEnumTASK.Skip
 title: IEnumTASK::Skip (mmc.h)
-
 description: The IEnumTASK::Skip method skips the specified number of tasks in the snap-in's list of tasks. MMC does not use this method. It must be included for completeness.
 old-location: mmc\ienumtask_skip.htm
 tech.root: mmc
 ms.assetid: 6c002cbe-db0c-40f6-9d6f-fee0daeb9a43
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTASK interface [MMC],Skip method, IEnumTASK.Skip, IEnumTASK::Skip, Skip, Skip method [MMC], Skip method [MMC],IEnumTASK interface, _slate_ienumtask_skip, mmc.ienumtask_skip, mmc/IEnumTASK::Skip
 ms.topic: method
-f1_keywords: 
- - "mmc/IEnumTASK.Skip"
+f1_keywords:
+- mmc/IEnumTASK.Skip
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IEnumTASK.Skip
+- IEnumTASK.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

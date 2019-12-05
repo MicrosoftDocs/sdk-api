@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.CLUSTER_GET_UPGRADE_VERSION
 title: CLUSTER_GET_UPGRADE_VERSION macro (clusapi.h)
-
 description: Extracts the upgrade version portion of a Cluster service version number.
 old-location: mscs\cluster_get_upgrade_version.htm
 tech.root: MsCS
 ms.assetid: 28C51A05-7BCC-4394-B4D7-505750C045E2
-
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_GET_UPGRADE_VERSION, CLUSTER_GET_UPGRADE_VERSION macro [Failover Cluster], clusapi/CLUSTER_GET_UPGRADE_VERSION, mscs.cluster_get_upgrade_version
 ms.topic: macro
-f1_keywords: 
- - "clusapi/CLUSTER_GET_UPGRADE_VERSION"
+f1_keywords:
+- clusapi/CLUSTER_GET_UPGRADE_VERSION
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUSTER_GET_UPGRADE_VERSION
+- CLUSTER_GET_UPGRADE_VERSION
 targetos: Windows
 req.typenames: 
 req.redist: 

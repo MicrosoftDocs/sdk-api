@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxManifestApplicationsEnumerator
 title: IAppxManifestApplicationsEnumerator (appxpackaging.h)
-
 description: Enumerates the applications defined in the package manifest.
 old-location: appxpkg\iappxmanifestapplicationsenumerator.htm
 tech.root: appxpkg
 ms.assetid: 49955DE0-A6BE-4FD7-B8E3-E4126B3C4B8F
-
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestApplicationsEnumerator, IAppxManifestApplicationsEnumerator interface [App packaging and management], IAppxManifestApplicationsEnumerator interface [App packaging and management],described, appxpackaging/IAppxManifestApplicationsEnumerator, appxpkg.iappxmanifestapplicationsenumerator
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxManifestApplicationsEnumerator"
+f1_keywords:
+- appxpackaging/IAppxManifestApplicationsEnumerator
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestApplicationsEnumerator
+- IAppxManifestApplicationsEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

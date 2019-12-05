@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateSampler
 title: ID3D12Device::CreateSampler (d3d12.h)
-
 description: Create a sampler object that encapsulates sampling information for a texture.
 old-location: direct3d12\id3d12device_createsampler.htm
 tech.root: direct3d12
 ms.assetid: 453B2D3D-843E-4DB0-BC47-59BD9C78BFD6
-
 ms.date: 12/05/2018
 ms.keywords: CreateSampler, CreateSampler method, CreateSampler method,ID3D12Device interface, ID3D12Device interface,CreateSampler method, ID3D12Device.CreateSampler, ID3D12Device::CreateSampler, d3d12/ID3D12Device::CreateSampler, direct3d12.id3d12device_createsampler
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Device.CreateSampler"
+f1_keywords:
+- d3d12/ID3D12Device.CreateSampler
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12Device.CreateSampler
+- ID3D12Device.CreateSampler
 targetos: Windows
 req.typenames: 
 req.redist: 

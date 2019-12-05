@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._GetBorderDWHelper
 title: IBrowserService2::_GetBorderDWHelper (shdeprecated.h)
-
 description: Deprecated. A helper method for the implementation of GetBorderDW.
 old-location: shell\IBrowserService2__GetBorderDWHelper.htm
 tech.root: shell
 ms.assetid: 44477311-61c6-48d0-bef8-349ca114a891
-
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_GetBorderDWHelper method, IBrowserService2._GetBorderDWHelper, IBrowserService2::_GetBorderDWHelper, _GetBorderDWHelper, _GetBorderDWHelper method [Windows Shell], _GetBorderDWHelper method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_GetBorderDWHelper, shell.IBrowserService2__GetBorderDWHelper, zone_IBrowserService2__GetBorderDWHelper
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService2._GetBorderDWHelper"
+f1_keywords:
+- shdeprecated/IBrowserService2._GetBorderDWHelper
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService2._GetBorderDWHelper
+- IBrowserService2._GetBorderDWHelper
 targetos: Windows
 req.typenames: 
 req.redist: 

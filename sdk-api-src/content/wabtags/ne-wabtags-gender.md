@@ -1,19 +1,17 @@
 ---
 UID: NE:wabtags.Gender
 title: Gender (wabtags.h)
-
 description: Do not use. The Gender enumeration specifies the possible values for the PR_GENDER property.
 old-location: wab\_wab_gender.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\enums\gender.htm
-
 ms.date: 12/05/2018
 ms.keywords: Gender, Gender enumeration [Windows Address Book], _wab_gender, genderFemale, genderMale, genderUnspecified, wab._wab_gender, wabtags/Gender, wabtags/genderFemale, wabtags/genderMale, wabtags/genderUnspecified
 ms.topic: enum
-f1_keywords: 
- - "wabtags/Gender"
+f1_keywords:
+- wabtags/Gender
 dev_langs:
- - c++
+- c++
 req.header: wabtags.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wabtags.h
+- Wabtags.h
 api_name:
- - Gender
+- Gender
 targetos: Windows
 req.typenames: 
 req.redist: 

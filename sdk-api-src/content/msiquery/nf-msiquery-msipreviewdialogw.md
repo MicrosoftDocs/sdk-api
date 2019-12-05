@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiPreviewDialogW
 title: MsiPreviewDialogW function (msiquery.h)
-
 description: The MsiPreviewDialog function displays a dialog box as modeless and inactive.
 old-location: setup\msipreviewdialog.htm
 tech.root: Msi
 ms.assetid: 4017e122-8214-4158-ade3-5dac1fda428a
-
 ms.date: 12/05/2018
 ms.keywords: MsiPreviewDialog, MsiPreviewDialog function, MsiPreviewDialogA, MsiPreviewDialogW, _msi_msipreviewdialog, msiquery/MsiPreviewDialog, msiquery/MsiPreviewDialogA, msiquery/MsiPreviewDialogW, setup.msipreviewdialog
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiPreviewDialog"
+f1_keywords:
+- msiquery/MsiPreviewDialog
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiPreviewDialog
- - MsiPreviewDialogA
- - MsiPreviewDialogW
+- MsiPreviewDialog
+- MsiPreviewDialogA
+- MsiPreviewDialogW
 targetos: Windows
 req.typenames: 
 req.redist: 

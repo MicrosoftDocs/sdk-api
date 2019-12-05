@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsPathname.Set
 title: IADsPathname::Set (iads.h)
-
 description: Sets up the Pathname object for parsing a directory path.
 old-location: adsi\iadspathname_set.htm
 tech.root: adsi
 ms.assetid: 1672c1b0-1008-41e7-8ca4-eefb559f523d
-
 ms.date: 12/05/2018
 ms.keywords: IADsPathname interface [ADSI],Set method, IADsPathname.Set, IADsPathname::Set, Set, Set method [ADSI], Set method [ADSI],IADsPathname interface, _ds_iadspathname_set, adsi.iadspathname__set, adsi.iadspathname_set, iads/IADsPathname::Set
 ms.topic: method
-f1_keywords: 
- - "iads/IADsPathname.Set"
+f1_keywords:
+- iads/IADsPathname.Set
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsPathname.Set
+- IADsPathname.Set
 targetos: Windows
 req.typenames: 
 req.redist: 

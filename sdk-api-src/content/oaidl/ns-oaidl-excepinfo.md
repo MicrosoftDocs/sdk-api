@@ -1,19 +1,17 @@
 ---
 UID: NS:oaidl.tagEXCEPINFO
 title: EXCEPINFO (oaidl.h)
-
 description: Describes an exception that occurred during IDispatch::Invoke.
 old-location: automat\excepinfo.htm
 tech.root: automat
 ms.assetid: 29583e58-10a6-4679-a5c6-d51f2b50b074
-
 ms.date: 12/05/2018
-ms.keywords: "*LPEXCEPINFO, EXCEPINFO, EXCEPINFO structure [Automation], LPEXCEPINFO, LPEXCEPINFO structure pointer [Automation], _oa96_EXCEPINFO, automat.excepinfo, oaidl/EXCEPINFO, oaidl/LPEXCEPINFO"
+ms.keywords: '*LPEXCEPINFO, EXCEPINFO, EXCEPINFO structure [Automation], LPEXCEPINFO, LPEXCEPINFO structure pointer [Automation], _oa96_EXCEPINFO, automat.excepinfo, oaidl/EXCEPINFO, oaidl/LPEXCEPINFO'
 ms.topic: struct
-f1_keywords: 
- - "oaidl/EXCEPINFO"
+f1_keywords:
+- oaidl/EXCEPINFO
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OaIdl.h
+- OaIdl.h
 api_name:
- - EXCEPINFO
+- EXCEPINFO
 targetos: Windows
 req.typenames: EXCEPINFO, *LPEXCEPINFO
 req.redist: 

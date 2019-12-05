@@ -1,19 +1,17 @@
 ---
 UID: NS:wsman._WSMAN_ERROR
 title: WSMAN_ERROR (wsman.h)
-
 description: Contains error information that is returned by a Windows Remote Management (WinRM) client.
 old-location: winrm\wsman_error_struct.htm
 tech.root: winrm
 ms.assetid: 6705b560-9c72-4cb9-a290-f7c65cd470b2
-
 ms.date: 12/05/2018
 ms.keywords: WSMAN_ERROR, WSMAN_ERROR structure [Windows Remote Management], winrm.wsman_error_struct, wsman/WSMAN_ERROR
 ms.topic: struct
-f1_keywords: 
- - "wsman/WSMAN_ERROR"
+f1_keywords:
+- wsman/WSMAN_ERROR
 dev_langs:
- - c++
+- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wsman.h
+- Wsman.h
 api_name:
- - WSMAN_ERROR
+- WSMAN_ERROR
 targetos: Windows
 req.typenames: WSMAN_ERROR
 req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2

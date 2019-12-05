@@ -1,19 +1,17 @@
 ---
 UID: NF:ddeml.DdeClientTransaction
 title: DdeClientTransaction function (ddeml.h)
-
 description: Begins a data transaction between a client and a server. Only a Dynamic Data Exchange (DDE) client application can call this function, and the application can use it only after establishing a conversation with the server.
 old-location: dataxchg\ddeclienttransaction.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddeclienttransaction.htm
-
 ms.date: 12/05/2018
 ms.keywords: DdeClientTransaction, DdeClientTransaction function [Data Exchange], XTYP_ADVSTART, XTYP_ADVSTOP, XTYP_EXECUTE, XTYP_POKE, XTYP_REQUEST, _win32_DdeClientTransaction, _win32_ddeclienttransaction_cpp, dataxchg.ddeclienttransaction, ddeml/DdeClientTransaction, winui._win32_ddeclienttransaction
 ms.topic: function
-f1_keywords: 
- - "ddeml/DdeClientTransaction"
+f1_keywords:
+- ddeml/DdeClientTransaction
 dev_langs:
- - c++
+- c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - DdeClientTransaction
+- DdeClientTransaction
 targetos: Windows
 req.typenames: 
 req.redist: 

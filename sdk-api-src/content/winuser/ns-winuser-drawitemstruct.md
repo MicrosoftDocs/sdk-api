@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagDRAWITEMSTRUCT
 title: DRAWITEMSTRUCT (winuser.h)
-
 description: Provides information that the owner window uses to determine how to paint an owner-drawn control or menu item.
 old-location: controls\DRAWITEMSTRUCT.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxstructures\drawitemstruct.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDRAWITEMSTRUCT, *PDRAWITEMSTRUCT, DRAWITEMSTRUCT, DRAWITEMSTRUCT structure [Windows Controls], ODA_DRAWENTIRE, ODA_FOCUS, ODA_SELECT, ODS_CHECKED, ODS_COMBOBOXEDIT, ODS_DEFAULT, ODS_DISABLED, ODS_FOCUS, ODS_GRAYED, ODS_HOTLIGHT, ODS_INACTIVE, ODS_NOACCEL, ODS_NOFOCUSRECT, ODS_SELECTED, ODT_BUTTON, ODT_COMBOBOX, ODT_LISTBOX, ODT_LISTVIEW, ODT_MENU, ODT_STATIC, ODT_TAB, _win32_DRAWITEMSTRUCT_str, _win32_DRAWITEMSTRUCT_str_cpp, controls.DRAWITEMSTRUCT, controls._win32_DRAWITEMSTRUCT_str, winuser/DRAWITEMSTRUCT"
+ms.keywords: '*LPDRAWITEMSTRUCT, *PDRAWITEMSTRUCT, DRAWITEMSTRUCT, DRAWITEMSTRUCT structure [Windows Controls], ODA_DRAWENTIRE, ODA_FOCUS, ODA_SELECT, ODS_CHECKED, ODS_COMBOBOXEDIT, ODS_DEFAULT, ODS_DISABLED, ODS_FOCUS, ODS_GRAYED, ODS_HOTLIGHT, ODS_INACTIVE, ODS_NOACCEL, ODS_NOFOCUSRECT, ODS_SELECTED, ODT_BUTTON, ODT_COMBOBOX, ODT_LISTBOX, ODT_LISTVIEW, ODT_MENU, ODT_STATIC, ODT_TAB, _win32_DRAWITEMSTRUCT_str, _win32_DRAWITEMSTRUCT_str_cpp, controls.DRAWITEMSTRUCT, controls._win32_DRAWITEMSTRUCT_str, winuser/DRAWITEMSTRUCT'
 ms.topic: struct
-f1_keywords: 
- - "winuser/DRAWITEMSTRUCT"
+f1_keywords:
+- winuser/DRAWITEMSTRUCT
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - DRAWITEMSTRUCT
+- DRAWITEMSTRUCT
 targetos: Windows
 req.typenames: DRAWITEMSTRUCT, *PDRAWITEMSTRUCT, *LPDRAWITEMSTRUCT
 req.redist: 

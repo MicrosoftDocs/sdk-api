@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IAnnotationProvider.get_Author
 title: IAnnotationProvider::get_Author (uiautomationcore.h)
-
 description: The name of the annotation author.
 old-location: winauto\uiauto_IAnnotationProvider_Author.htm
 tech.root: WinAuto
 ms.assetid: 7A5DB431-FCB8-4AE6-AA55-EC0A5DE64470
-
 ms.date: 12/05/2018
 ms.keywords: Author property [Windows Accessibility], Author property [Windows Accessibility],IAnnotationProvider interface, IAnnotationProvider interface [Windows Accessibility],Author property, IAnnotationProvider.Author, IAnnotationProvider.get_Author, IAnnotationProvider::Author, IAnnotationProvider::get_Author, get_Author, uiautomationcore/IAnnotationProvider::Author, uiautomationcore/IAnnotationProvider::get_Author, winauto.uiauto_IAnnotationProvider_Author
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IAnnotationProvider.Author"
+f1_keywords:
+- uiautomationcore/IAnnotationProvider.Author
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IAnnotationProvider.Author
- - IAnnotationProvider.get_Author
+- IAnnotationProvider.Author
+- IAnnotationProvider.get_Author
 targetos: Windows
 req.typenames: 
 req.redist: 

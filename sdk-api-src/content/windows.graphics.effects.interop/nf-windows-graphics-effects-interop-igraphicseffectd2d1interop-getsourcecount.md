@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.graphics.effects.interop.IGraphicsEffectD2D1Interop.GetSourceCount
 title: IGraphicsEffectD2D1Interop::effects (windows.graphics.effects.interop.h)
-
 description: Retrieves the source count for the effect.
 old-location: w_graph_fx\igraphicseffectd2d1interop_getsourcecount.htm
 tech.root: w_graph_fx
 ms.assetid: C2287E81-4CCC-471B-833C-84B37F245084
-
 ms.date: 12/05/2018
 ms.keywords: GetSourceCount, GetSourceCount method, GetSourceCount method,IGraphicsEffectD2D1Interop interface, IGraphicsEffectD2D1Interop interface,GetSourceCount method, IGraphicsEffectD2D1Interop.GetSourceCount, IGraphicsEffectD2D1Interop.effects, IGraphicsEffectD2D1Interop::GetSourceCount, IGraphicsEffectD2D1Interop::effects, w_graph_fx.igraphicseffectd2d1interop_getsourcecount, windows/IGraphicsEffectD2D1Interop::GetSourceCount
 ms.topic: method
-f1_keywords: 
- - "windows.graphics.effects.interop/IGraphicsEffectD2D1Interop.GetSourceCount"
+f1_keywords:
+- windows.graphics.effects.interop/IGraphicsEffectD2D1Interop.GetSourceCount
 dev_langs:
- - c++
+- c++
 req.header: windows.graphics.effects.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.graphics.effects.interop.h
+- windows.graphics.effects.interop.h
 api_name:
- - IGraphicsEffectD2D1Interop.GetSourceCount
+- IGraphicsEffectD2D1Interop.GetSourceCount
 targetos: Windows
 req.typenames: 
 req.redist: 

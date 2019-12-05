@@ -1,19 +1,17 @@
 ---
 UID: NF:fileapi.GetCompressedFileSizeW
 title: GetCompressedFileSizeW function (fileapi.h)
-
 description: Retrieves the actual number of bytes of disk storage used to store a specified file.
 old-location: fs\getcompressedfilesize.htm
 tech.root: FileIO
 ms.assetid: cca91080-2270-4996-8693-933c585ff168
-
 ms.date: 12/05/2018
 ms.keywords: GetCompressedFileSize, GetCompressedFileSize function [Files], GetCompressedFileSizeA, GetCompressedFileSizeW, _win32_getcompressedfilesize, base.getcompressedfilesize, fileapi/GetCompressedFileSize, fileapi/GetCompressedFileSizeA, fileapi/GetCompressedFileSizeW, fs.getcompressedfilesize
 ms.topic: function
-f1_keywords: 
- - "fileapi/GetCompressedFileSize"
+f1_keywords:
+- fileapi/GetCompressedFileSize
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h, Fileapi.h, Windows.h, WinBase.h, Fileapi.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l1-2-1.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l1-2-1.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - GetCompressedFileSize
- - GetCompressedFileSizeA
- - GetCompressedFileSizeW
+- GetCompressedFileSize
+- GetCompressedFileSizeA
+- GetCompressedFileSizeW
 targetos: Windows
 req.typenames: 
 req.redist: 

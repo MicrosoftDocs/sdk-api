@@ -1,19 +1,17 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetOutputSizeInfo
 title: IMediaObject::GetOutputSizeInfo (mediaobj.h)
-
 description: The GetOutputSizeInfo method retrieves the buffer requirements for a specified output stream.
 old-location: dshow\imediaobject_getoutputsizeinfo.htm
 tech.root: DirectShow
 ms.assetid: 497bc88e-4e26-409f-9d42-6a214a5d56e9
-
 ms.date: 12/05/2018
 ms.keywords: GetOutputSizeInfo, GetOutputSizeInfo method [DirectShow], GetOutputSizeInfo method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetOutputSizeInfo method, IMediaObject.GetOutputSizeInfo, IMediaObject::GetOutputSizeInfo, IMediaObjectGetOutputSizeInfo, dshow.imediaobject_getoutputsizeinfo, mediaobj/IMediaObject::GetOutputSizeInfo
 ms.topic: method
-f1_keywords: 
- - "mediaobj/IMediaObject.GetOutputSizeInfo"
+f1_keywords:
+- mediaobj/IMediaObject.GetOutputSizeInfo
 dev_langs:
- - c++
+- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IMediaObject.GetOutputSizeInfo
+- IMediaObject.GetOutputSizeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mmiscapi.mmioRename
 title: mmioRename function (mmiscapi.h)
-
 description: The mmioRename function renames the specified file.
 old-location: multimedia\mmiorename.htm
 tech.root: Multimedia
 ms.assetid: f47ef581-b3c8-409b-9edf-cbc8cfa04036
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_mmioRename, mmioRename, mmioRename function [Windows Multimedia], mmioRenameA, mmioRenameW, mmsystem/mmioRename, mmsystem/mmioRenameA, mmsystem/mmioRenameW, multimedia.mmiorename"
+ms.keywords: _win32_mmioRename, mmioRename, mmioRename function [Windows Multimedia], mmioRenameA, mmioRenameW, mmsystem/mmioRename, mmsystem/mmioRenameA, mmsystem/mmioRenameW, multimedia.mmiorename
 ms.topic: function
-f1_keywords: 
- - "mmiscapi/mmioRename"
+f1_keywords:
+- mmiscapi/mmioRename
 dev_langs:
- - c++
+- c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-misc-l1-1-0.dll
- - winmmbase.dll
- - API-MS-Win-mm-misc-l1-1-1.dll
+- Winmm.dll
+- API-MS-Win-mm-misc-l1-1-0.dll
+- winmmbase.dll
+- API-MS-Win-mm-misc-l1-1-1.dll
 api_name:
- - mmioRename
- - mmioRenameA
- - mmioRenameW
+- mmioRename
+- mmioRenameA
+- mmioRenameW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt2.MigrateDiffAreas
 title: IVssDifferentialSoftwareSnapshotMgmt2::MigrateDiffAreas (vsmgmt.h)
-
 description: This method is reserved for future use.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt2_migratediffareas.htm
 tech.root: VSS
 ms.assetid: c452dfad-fbc6-45d0-895d-566f12dbfa70
-
 ms.date: 12/05/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt2 interface,MigrateDiffAreas method, IVssDifferentialSoftwareSnapshotMgmt2.MigrateDiffAreas, IVssDifferentialSoftwareSnapshotMgmt2::MigrateDiffAreas, MigrateDiffAreas, MigrateDiffAreas method, MigrateDiffAreas method,IVssDifferentialSoftwareSnapshotMgmt2 interface, base.ivssdifferentialsoftwaresnapshotmgmt2_migratediffareas, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::MigrateDiffAreas
 ms.topic: method
-f1_keywords: 
- - "vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2.MigrateDiffAreas"
+f1_keywords:
+- vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2.MigrateDiffAreas
 dev_langs:
- - c++
+- c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsMgmt.h
+- VsMgmt.h
 api_name:
- - IVssDifferentialSoftwareSnapshotMgmt2.MigrateDiffAreas
+- IVssDifferentialSoftwareSnapshotMgmt2.MigrateDiffAreas
 targetos: Windows
 req.typenames: 
 req.redist: 

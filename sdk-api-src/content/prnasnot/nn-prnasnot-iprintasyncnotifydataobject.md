@@ -1,19 +1,17 @@
 ---
 UID: NN:prnasnot.IPrintAsyncNotifyDataObject
 title: IPrintAsyncNotifyDataObject (prnasnot.h)
-
 description: Encapsulates the data sent in a notification channel.
 old-location: gdi\iprintasyncnotifydataobject.htm
 tech.root: printdocs
 ms.assetid: fd0e1f30-c54e-418c-8081-664edebaad61
-
 ms.date: 12/05/2018
 ms.keywords: IPrintAsyncNotifyDataObject, IPrintAsyncNotifyDataObject interface [Windows GDI], IPrintAsyncNotifyDataObject interface [Windows GDI],described, _win32_IPrintAsyncNotifyDataObject, gdi.iprintasyncnotifydataobject, prnasnot/IPrintAsyncNotifyDataObject
 ms.topic: interface
-f1_keywords: 
- - "prnasnot/IPrintAsyncNotifyDataObject"
+f1_keywords:
+- prnasnot/IPrintAsyncNotifyDataObject
 dev_langs:
- - c++
+- c++
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - prnasnot.h
+- prnasnot.h
 api_name:
- - IPrintAsyncNotifyDataObject
+- IPrintAsyncNotifyDataObject
 targetos: Windows
 req.typenames: 
 req.redist: 

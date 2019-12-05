@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.IsExternal
 title: IMFTimedTextStyle::IsExternal (mfmediaengine.h)
-
 description: Determines whether the timed-text style is external.
 old-location: mf\imftimedtextstyle_isexternal.htm
 tech.root: medfound
 ms.assetid: D24C7503-F7BB-44F9-B668-538B604F0394
-
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextStyle interface [Media Foundation],IsExternal method, IMFTimedTextStyle.IsExternal, IMFTimedTextStyle::IsExternal, IsExternal, IsExternal method [Media Foundation], IsExternal method [Media Foundation],IMFTimedTextStyle interface, mf.imftimedtextstyle_isexternal, mfmediaengine/IMFTimedTextStyle::IsExternal
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextStyle.IsExternal"
+f1_keywords:
+- mfmediaengine/IMFTimedTextStyle.IsExternal
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextStyle.IsExternal
+- IMFTimedTextStyle.IsExternal
 targetos: Windows
 req.typenames: 
 req.redist: 

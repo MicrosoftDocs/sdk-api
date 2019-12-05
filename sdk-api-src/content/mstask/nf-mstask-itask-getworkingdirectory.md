@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.ITask.GetWorkingDirectory
 title: ITask::GetWorkingDirectory (mstask.h)
-
 description: This method retrieves the task'sworking directory.
 old-location: taskschd\itask_getworkingdirectory.htm
 tech.root: taskschd
 ms.assetid: 737259f6-63d3-43f1-83a7-a10c95aff0e1
-
 ms.date: 12/05/2018
 ms.keywords: GetWorkingDirectory, GetWorkingDirectory method [Task Scheduler], GetWorkingDirectory method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetWorkingDirectory method, ITask.GetWorkingDirectory, ITask::GetWorkingDirectory, _msb_itask_getworkingdirectory, mstask/ITask::GetWorkingDirectory, taskschd.itask_getworkingdirectory
 ms.topic: method
-f1_keywords: 
- - "mstask/ITask.GetWorkingDirectory"
+f1_keywords:
+- mstask/ITask.GetWorkingDirectory
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - ITask.GetWorkingDirectory
+- ITask.GetWorkingDirectory
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

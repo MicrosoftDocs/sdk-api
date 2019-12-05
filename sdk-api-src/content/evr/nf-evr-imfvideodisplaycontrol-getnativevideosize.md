@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.GetNativeVideoSize
 title: IMFVideoDisplayControl::GetNativeVideoSize (evr.h)
-
 description: Gets the size and aspect ratio of the video, prior to any stretching by the video renderer.
 old-location: mf\imfvideodisplaycontrol_getnativevideosize.htm
 tech.root: medfound
 ms.assetid: 12630035-dd07-44bd-98f7-79974c9cc58b
-
 ms.date: 12/05/2018
 ms.keywords: 12630035-dd07-44bd-98f7-79974c9cc58b, GetNativeVideoSize, GetNativeVideoSize method [Media Foundation], GetNativeVideoSize method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetNativeVideoSize method, IMFVideoDisplayControl.GetNativeVideoSize, IMFVideoDisplayControl::GetNativeVideoSize, evr/IMFVideoDisplayControl::GetNativeVideoSize, mf.imfvideodisplaycontrol_getnativevideosize
 ms.topic: method
-f1_keywords: 
- - "evr/IMFVideoDisplayControl.GetNativeVideoSize"
+f1_keywords:
+- evr/IMFVideoDisplayControl.GetNativeVideoSize
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoDisplayControl.GetNativeVideoSize
+- IMFVideoDisplayControl.GetNativeVideoSize
 targetos: Windows
 req.typenames: 
 req.redist: 

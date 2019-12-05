@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetAutoPlay
 title: IMFMediaEngine::SetAutoPlay (mfmediaengine.h)
-
 description: Specifies whether the Media Engine automatically begins playback.
 old-location: mf\imfmediaengine_setautoplay.htm
 tech.root: medfound
 ms.assetid: 867FE1D2-39AE-4A44-99DD-98A8ABD234A2
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetAutoPlay method, IMFMediaEngine.SetAutoPlay, IMFMediaEngine::SetAutoPlay, SetAutoPlay, SetAutoPlay method [Media Foundation], SetAutoPlay method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setautoplay, mfmediaengine/IMFMediaEngine::SetAutoPlay
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngine.SetAutoPlay"
+f1_keywords:
+- mfmediaengine/IMFMediaEngine.SetAutoPlay
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngine.SetAutoPlay
+- IMFMediaEngine.SetAutoPlay
 targetos: Windows
 req.typenames: 
 req.redist: 

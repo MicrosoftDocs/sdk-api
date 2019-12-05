@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPControls.put_currentPosition
 title: IWMPControls::put_currentPosition (wmp.h)
-
 description: The put_currentPosition method specifies the current position in the media item in seconds from the beginning.
 old-location: wmp\iwmpcontrols_put_currentposition.htm
 tech.root: WMP
 ms.assetid: 7deedeed-8ce9-4fd7-9825-817204a9cb3e
-
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],put_currentPosition method, IWMPControls.put_currentPosition, IWMPControls::put_currentPosition, IWMPControlsput_currentPosition, put_currentPosition, put_currentPosition method [Windows Media Player], put_currentPosition method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_put_currentposition, wmp/IWMPControls::put_currentPosition
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPControls.put_currentPosition"
+f1_keywords:
+- wmp/IWMPControls.put_currentPosition
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPControls.put_currentPosition
+- IWMPControls.put_currentPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

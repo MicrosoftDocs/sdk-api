@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.ImportComponents
 title: ICOMAdminCatalog2::ImportComponents (comadmin.h)
-
 description: Imports the specified components that are already registered into an application.
 old-location: cos\icomadmincatalog2_importcomponents.htm
 tech.root: cossdk
 ms.assetid: a7ae28f9-6be6-4774-974a-a5d7f3ebbc02
-
 ms.date: 12/05/2018
 ms.keywords: COMAdmin32BitComponent, COMAdmin64BitComponent, ICOMAdminCatalog2 interface [COM+],ImportComponents method, ICOMAdminCatalog2.ImportComponents, ICOMAdminCatalog2::ImportComponents, ImportComponents, ImportComponents method [COM+], ImportComponents method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_ImportComponents, comadmin/ICOMAdminCatalog2::ImportComponents, cos.icomadmincatalog2_importcomponents
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog2.ImportComponents"
+f1_keywords:
+- comadmin/ICOMAdminCatalog2.ImportComponents
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog2.ImportComponents
+- ICOMAdminCatalog2.ImportComponents
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:oledlg.tagOLEUIPASTEENTRYW
 title: OLEUIPASTEENTRYW (oledlg.h)
-
 description: An array of entries to be specified in the OLEUIPASTESPECIAL structure for the Paste Special dialog box.
 old-location: com\oleuipasteentry_struct.htm
 tech.root: com
 ms.assetid: 9c84bb0e-d998-4e35-bf34-2377f5cd0cb7
-
 ms.date: 12/05/2018
-ms.keywords: "*LPOLEUIPASTEENTRYW, *POLEUIPASTEENTRYW, LPOLEUIPASTEENTRY, LPOLEUIPASTEENTRY structure pointer [COM], OLEUIPASTEENTRY, OLEUIPASTEENTRY structure [COM], OLEUIPASTEENTRYA, OLEUIPASTEENTRYW, POLEUIPASTEENTRY, POLEUIPASTEENTRY structure pointer [COM], _ole_OLEUIPASTEENTRY, com.oleuipasteentry_struct, oledlg/LPOLEUIPASTEENTRY, oledlg/OLEUIPASTEENTRY, oledlg/OLEUIPASTEENTRYA, oledlg/OLEUIPASTEENTRYW, oledlg/POLEUIPASTEENTRY"
+ms.keywords: '*LPOLEUIPASTEENTRYW, *POLEUIPASTEENTRYW, LPOLEUIPASTEENTRY, LPOLEUIPASTEENTRY structure pointer [COM], OLEUIPASTEENTRY, OLEUIPASTEENTRY structure [COM], OLEUIPASTEENTRYA, OLEUIPASTEENTRYW, POLEUIPASTEENTRY, POLEUIPASTEENTRY structure pointer [COM], _ole_OLEUIPASTEENTRY, com.oleuipasteentry_struct, oledlg/LPOLEUIPASTEENTRY, oledlg/OLEUIPASTEENTRY, oledlg/OLEUIPASTEENTRYA, oledlg/OLEUIPASTEENTRYW, oledlg/POLEUIPASTEENTRY'
 ms.topic: struct
-f1_keywords: 
- - "oledlg/OLEUIPASTEENTRY"
+f1_keywords:
+- oledlg/OLEUIPASTEENTRY
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OleDlg.h
+- OleDlg.h
 api_name:
- - OLEUIPASTEENTRY
- - OLEUIPASTEENTRYA
- - OLEUIPASTEENTRYW
+- OLEUIPASTEENTRY
+- OLEUIPASTEENTRYA
+- OLEUIPASTEENTRYW
 targetos: Windows
 req.typenames: OLEUIPASTEENTRYW, *POLEUIPASTEENTRYW, *LPOLEUIPASTEENTRYW
 req.redist: 

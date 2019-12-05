@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcRelationshipSet.RelationshipExists
 title: IOpcRelationshipSet::RelationshipExists (msopc.h)
-
 description: Gets a value that indicates whether a specified relationship is represented as a relationship object in the set.
 old-location: opc\iopcrelationshipset_relationshipexists.htm
 tech.root: OPC
 ms.assetid: 18c989e2-8def-492d-ac57-014f9b6fcb22
-
 ms.date: 12/05/2018
 ms.keywords: IOpcRelationshipSet interface [Open Packaging Conventions],RelationshipExists method, IOpcRelationshipSet.RelationshipExists, IOpcRelationshipSet::RelationshipExists, RelationshipExists, RelationshipExists method [Open Packaging Conventions], RelationshipExists method [Open Packaging Conventions],IOpcRelationshipSet interface, msopc/IOpcRelationshipSet::RelationshipExists, opc.iopcrelationshipset_relationshipexists
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcRelationshipSet.RelationshipExists"
+f1_keywords:
+- msopc/IOpcRelationshipSet.RelationshipExists
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcRelationshipSet.RelationshipExists
+- IOpcRelationshipSet.RelationshipExists
 targetos: Windows
 req.typenames: 
 req.redist: 

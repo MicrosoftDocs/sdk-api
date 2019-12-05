@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerCollabGetPresenceInfo
 title: PeerCollabGetPresenceInfo function (p2p.h)
-
 description: Retrieves the presence information for the endpoint associated with a specific contact.
 old-location: p2p\peercollabgetpresenceinfo.htm
 tech.root: P2PSdk
 ms.assetid: 596191a1-94cf-4497-aaf0-951e2c63b145
-
 ms.date: 12/05/2018
 ms.keywords: PeerCollabGetPresenceInfo, PeerCollabGetPresenceInfo function [Peer Networking], p2p.peercollabgetpresenceinfo, p2p/PeerCollabGetPresenceInfo
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerCollabGetPresenceInfo"
+f1_keywords:
+- p2p/PeerCollabGetPresenceInfo
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerCollabGetPresenceInfo
+- PeerCollabGetPresenceInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

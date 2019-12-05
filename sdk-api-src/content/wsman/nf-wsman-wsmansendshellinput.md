@@ -1,19 +1,17 @@
 ---
 UID: NF:wsman.WSManSendShellInput
 title: WSManSendShellInput function (wsman.h)
-
 description: Ipes the input stream to a running command or to the shell.
 old-location: winrm\wsmansendshellinput.htm
 tech.root: winrm
 ms.assetid: 2336671e-0f60-407f-86a2-9918bbf7f66b
-
 ms.date: 12/05/2018
 ms.keywords: WSManSendShellInput, WSManSendShellInput function [Windows Remote Management], winrm.wsmansendshellinput, wsman/WSManSendShellInput
 ms.topic: function
 f1_keywords:
 - wsman/WSManSendShellInput
 dev_langs:
- - c++
+- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

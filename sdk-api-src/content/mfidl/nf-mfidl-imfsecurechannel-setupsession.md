@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSecureChannel.SetupSession
 title: IMFSecureChannel::SetupSession (mfidl.h)
-
 description: Passes the encrypted session key to the client.
 old-location: mf\imfsecurechannel_setupsession.htm
 tech.root: medfound
 ms.assetid: a4d38056-ea6a-441e-8b77-39ffd316cb5a
-
 ms.date: 12/05/2018
 ms.keywords: IMFSecureChannel interface [Media Foundation],SetupSession method, IMFSecureChannel.SetupSession, IMFSecureChannel::SetupSession, SetupSession, SetupSession method [Media Foundation], SetupSession method [Media Foundation],IMFSecureChannel interface, a4d38056-ea6a-441e-8b77-39ffd316cb5a, mf.imfsecurechannel_setupsession, mfidl/IMFSecureChannel::SetupSession
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSecureChannel.SetupSession"
+f1_keywords:
+- mfidl/IMFSecureChannel.SetupSession
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSecureChannel.SetupSession
+- IMFSecureChannel.SetupSession
 targetos: Windows
 req.typenames: 
 req.redist: 

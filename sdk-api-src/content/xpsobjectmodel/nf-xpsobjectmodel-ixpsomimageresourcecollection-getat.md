@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResourceCollection.GetAt
 title: IXpsOMImageResourceCollection::GetAt (xpsobjectmodel.h)
-
 description: Gets an IXpsOMImageResource interface pointer from a specified location in the collection.
 old-location: xps\ixpsomimageresourcecollection_getat.htm
 tech.root: printdocs
 ms.assetid: 31d4989d-72bd-4065-a0d7-c1ba5bea8391
-
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMImageResourceCollection interface, IXpsOMImageResourceCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMImageResourceCollection.GetAt, IXpsOMImageResourceCollection::GetAt, xps.ixpsomimageresourcecollection_getat, xpsobjectmodel/IXpsOMImageResourceCollection::GetAt
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMImageResourceCollection.GetAt"
+f1_keywords:
+- xpsobjectmodel/IXpsOMImageResourceCollection.GetAt
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMImageResourceCollection.GetAt
+- IXpsOMImageResourceCollection.GetAt
 targetos: Windows
 req.typenames: 
 req.redist: 

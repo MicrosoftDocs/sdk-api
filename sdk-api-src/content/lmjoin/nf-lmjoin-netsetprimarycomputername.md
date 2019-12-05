@@ -1,19 +1,17 @@
 ---
 UID: NF:lmjoin.NetSetPrimaryComputerName
 title: NetSetPrimaryComputerName function (lmjoin.h)
-
 description: Sets the primary computer name for the specified computer.
 old-location: netmgmt\netsetprimarycomputername.htm
 tech.root: NetMgmt
 ms.assetid: 524c8219-a303-45ab-95e2-91319b477568
-
 ms.date: 12/05/2018
 ms.keywords: NetSetPrimaryComputerName, NetSetPrimaryComputerName function [Network Management], lmjoin/NetSetPrimaryComputerName, netmgmt.netsetprimarycomputername
 ms.topic: function
-f1_keywords: 
- - "lmjoin/NetSetPrimaryComputerName"
+f1_keywords:
+- lmjoin/NetSetPrimaryComputerName
 dev_langs:
- - c++
+- c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetSetPrimaryComputerName
+- NetSetPrimaryComputerName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.GetCellShading
 title: ITextRow::GetCellShading (tom.h)
-
 description: Gets the shading of the active cell.
 old-location: controls\itextrow_getcellshading.htm
 tech.root: Controls
 ms.assetid: 450f97ea-b5b4-44e4-92b8-155c1a9c9c1b
-
 ms.date: 12/05/2018
 ms.keywords: GetCellShading, GetCellShading method [Windows Controls], GetCellShading method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellShading method, ITextRow.GetCellShading, ITextRow::GetCellShading, controls.itextrow_getcellshading, tom/ITextRow::GetCellShading
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.GetCellShading"
+f1_keywords:
+- tom/ITextRow.GetCellShading
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.GetCellShading
+- ITextRow.GetCellShading
 targetos: Windows
 req.typenames: 
 req.redist: 

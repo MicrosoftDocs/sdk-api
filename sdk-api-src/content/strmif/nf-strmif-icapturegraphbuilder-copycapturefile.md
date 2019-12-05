@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder.CopyCaptureFile
 title: ICaptureGraphBuilder::CopyCaptureFile (strmif.h)
-
 description: Note  The ICaptureGraphBuilder interface is deprecated. Use ICaptureGraphBuilder2 instead. Copies the valid media data from the preallocated capture file.
 old-location: dshow\icapturegraphbuilder_copycapturefile.htm
 tech.root: DirectShow
 ms.assetid: 6eb4a3ed-6914-4839-ab1f-18510483ab49
-
 ms.date: 12/05/2018
 ms.keywords: CopyCaptureFile, CopyCaptureFile method [DirectShow], CopyCaptureFile method [DirectShow],ICaptureGraphBuilder interface, ICaptureGraphBuilder interface [DirectShow],CopyCaptureFile method, ICaptureGraphBuilder.CopyCaptureFile, ICaptureGraphBuilder::CopyCaptureFile, ICaptureGraphBuilderCopyCaptureFile, dshow.icapturegraphbuilder_copycapturefile, strmif/ICaptureGraphBuilder::CopyCaptureFile
 ms.topic: method
-f1_keywords: 
- - "strmif/ICaptureGraphBuilder.CopyCaptureFile"
+f1_keywords:
+- strmif/ICaptureGraphBuilder.CopyCaptureFile
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - ICaptureGraphBuilder.CopyCaptureFile
+- ICaptureGraphBuilder.CopyCaptureFile
 targetos: Windows
 req.typenames: 
 req.redist: 

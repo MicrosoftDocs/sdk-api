@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_HostDepth
 title: ISearchRoot::get_HostDepth (searchapi.h)
-
 description: Gets a value that indicates how far into a host tree to crawl when indexing.
 old-location: search\_search_ISearchRoot_get_HostDepth.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_hostdepth.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchRoot interface [search],get_HostDepth method, ISearchRoot.get_HostDepth, ISearchRoot::get_HostDepth, _search_ISearchRoot_get_HostDepth, get_HostDepth, get_HostDepth method [search], get_HostDepth method [search],ISearchRoot interface, search._search_ISearchRoot_get_HostDepth, searchapi/ISearchRoot::get_HostDepth
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchRoot.get_HostDepth"
+f1_keywords:
+- searchapi/ISearchRoot.get_HostDepth
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchRoot.get_HostDepth
+- ISearchRoot.get_HostDepth
 targetos: Windows
 req.typenames: 
 req.redist: 

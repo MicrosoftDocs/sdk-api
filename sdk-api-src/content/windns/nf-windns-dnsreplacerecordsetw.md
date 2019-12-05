@@ -1,19 +1,17 @@
 ---
 UID: NF:windns.DnsReplaceRecordSetW
 title: DnsReplaceRecordSetW function (windns.h)
-
 description: Replaces an existing resource record (RR) set.
 old-location: dns\dnsreplacerecordset.htm
 tech.root: DNS
 ms.assetid: 7b99f440-72fa-4cf4-9267-98f436e99a50
-
 ms.date: 12/05/2018
 ms.keywords: DnsReplaceRecordSet, DnsReplaceRecordSet function [DNS], DnsReplaceRecordSetA, DnsReplaceRecordSetUTF8, DnsReplaceRecordSetW, _dns_dnsreplacerecordset, dns.dnsreplacerecordset, windns/DnsReplaceRecordSet, windns/DnsReplaceRecordSetA, windns/DnsReplaceRecordSetUTF8, windns/DnsReplaceRecordSetW
 ms.topic: function
-f1_keywords: 
- - "windns/DnsReplaceRecordSet"
+f1_keywords:
+- windns/DnsReplaceRecordSet
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Dnsapi.lib
 req.dll: Dnsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dnsapi.dll
+- Dnsapi.dll
 api_name:
- - DnsReplaceRecordSet
- - DnsReplaceRecordSetW
- - DnsReplaceRecordSetA
- - DnsReplaceRecordSetUTF8
+- DnsReplaceRecordSet
+- DnsReplaceRecordSetW
+- DnsReplaceRecordSetA
+- DnsReplaceRecordSetUTF8
 targetos: Windows
 req.typenames: 
 req.redist: 

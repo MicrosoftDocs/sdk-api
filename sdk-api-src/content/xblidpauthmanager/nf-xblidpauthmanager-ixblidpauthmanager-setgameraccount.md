@@ -1,19 +1,17 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthManager.SetGamerAccount
 title: IXblIdpAuthManager::SetGamerAccount (xblidpauthmanager.h)
-
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthmanager_setgameraccount.htm
 tech.root: xblidp
 ms.assetid: F9C1FE38-C7AC-4E4C-BEF8-8EB3E47899B1
-
 ms.date: 12/05/2018
 ms.keywords: IXblIdpAuthManager interface,SetGamerAccount method, IXblIdpAuthManager.SetGamerAccount, IXblIdpAuthManager::SetGamerAccount, SetGamerAccount, SetGamerAccount method, SetGamerAccount method,IXblIdpAuthManager interface, xblidp.ixblidpauthmanager_setgameraccount, xblidpauthmanager/IXblIdpAuthManager::SetGamerAccount
 ms.topic: method
-f1_keywords: 
- - "xblidpauthmanager/IXblIdpAuthManager.SetGamerAccount"
+f1_keywords:
+- xblidpauthmanager/IXblIdpAuthManager.SetGamerAccount
 dev_langs:
- - c++
+- c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XblIdpAuthManager.h
+- XblIdpAuthManager.h
 api_name:
- - IXblIdpAuthManager.SetGamerAccount
+- IXblIdpAuthManager.SetGamerAccount
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo.GetDVDTextInfo
 title: IDvdInfo::GetDVDTextInfo (strmif.h)
-
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the TXTDT_MG structure, which can contain text descriptions for title name, volume name, producer name, vocalist name, and so on, in various languages.
 old-location: dshow\idvdinfo_getdvdtextinfo.htm
 tech.root: DirectShow
 ms.assetid: e58fcd07-682a-4c41-9501-d55ba092a150
-
 ms.date: 12/05/2018
 ms.keywords: GetDVDTextInfo, GetDVDTextInfo method [DirectShow], GetDVDTextInfo method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetDVDTextInfo method, IDvdInfo.GetDVDTextInfo, IDvdInfo::GetDVDTextInfo, IDvdInfoGetDVDTextInfo, dshow.idvdinfo_getdvdtextinfo, strmif/IDvdInfo::GetDVDTextInfo
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo.GetDVDTextInfo"
+f1_keywords:
+- strmif/IDvdInfo.GetDVDTextInfo
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDvdInfo.GetDVDTextInfo
+- IDvdInfo.GetDVDTextInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

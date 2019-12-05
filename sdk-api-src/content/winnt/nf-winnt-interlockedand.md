@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.InterlockedAnd
 title: InterlockedAnd function (winnt.h)
-
 description: Performs an atomic AND operation on the specified LONG values.
 old-location: base\interlockedand.htm
 tech.root: Sync
 ms.assetid: 463b579e-d1cd-4ad5-b2f2-bae599849401
-
 ms.date: 12/05/2018
 ms.keywords: InterlockedAnd, InterlockedAnd function, base.interlockedand, winnt/InterlockedAnd
 ms.topic: function
-f1_keywords: 
- - "winnt/InterlockedAnd"
+f1_keywords:
+- winnt/InterlockedAnd
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - InterlockedAnd
+- InterlockedAnd
 targetos: Windows
 req.typenames: 
 req.redist: 

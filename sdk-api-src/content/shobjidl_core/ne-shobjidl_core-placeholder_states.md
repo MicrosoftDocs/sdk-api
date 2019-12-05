@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.PLACEHOLDER_STATES
 title: PLACEHOLDER_STATES (shobjidl_core.h)
-
 description: Specifies the states that a placeholder file can have. Retrieve this value through the System.FilePlaceholderStatus (PKEY_FilePlaceholderStatus) property.
 old-location: properties\PLACEHOLDER_STATES.htm
 tech.root: properties
 ms.assetid: BF4E0A9F-CD78-4D29-AD0C-7DF14AE88447
-
 ms.date: 12/05/2018
 ms.keywords: PLACEHOLDER_STATES, PLACEHOLDER_STATES enumeration [Windows Properties], PS_ALL, PS_CREATE_FILE_ACCESSIBLE, PS_FULL_PRIMARY_STREAM_AVAILABLE, PS_MARKED_FOR_OFFLINE_AVAILABILITY, PS_NONE, properties.PLACEHOLDER_STATES, shobjidl_core/PLACEHOLDER_STATES, shobjidl_core/PS_ALL, shobjidl_core/PS_CREATE_FILE_ACCESSIBLE, shobjidl_core/PS_FULL_PRIMARY_STREAM_AVAILABLE, shobjidl_core/PS_MARKED_FOR_OFFLINE_AVAILABILITY, shobjidl_core/PS_NONE
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/PLACEHOLDER_STATES"
+f1_keywords:
+- shobjidl_core/PLACEHOLDER_STATES
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shobjidl_core.h
+- Shobjidl_core.h
 api_name:
- - PLACEHOLDER_STATES
+- PLACEHOLDER_STATES
 targetos: Windows
 req.typenames: PLACEHOLDER_STATES
 req.redist: 

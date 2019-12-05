@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.InstallHinfSectionA
 title: InstallHinfSectionA function (setupapi.h)
-
 description: InstallHinfSection is an entry-point function exported by Setupapi.dll that you can use to execute a section of an .inf file. InstallHinfSection can be invoked by calling the Rundll32.exe utility as described in the Remarks section.
 old-location: setup\installhinfsection.htm
 tech.root: SetupApi
 ms.assetid: 151aa91b-9b3d-45e8-94a3-2bc395cd466d
-
 ms.date: 12/05/2018
 ms.keywords: InstallHinfSection, InstallHinfSection function [Setup API], InstallHinfSectionA, InstallHinfSectionW, _setupapi_installhinfsection, setup.installhinfsection, setupapi/InstallHinfSection, setupapi/InstallHinfSectionA, setupapi/InstallHinfSectionW
 ms.topic: function
-f1_keywords: 
- - "setupapi/InstallHinfSection"
+f1_keywords:
+- setupapi/InstallHinfSection
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - InstallHinfSection
- - InstallHinfSectionA
- - InstallHinfSectionW
+- InstallHinfSection
+- InstallHinfSectionA
+- InstallHinfSectionW
 targetos: Windows
 req.typenames: 
 req.redist: 

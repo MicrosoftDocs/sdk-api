@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.GetBufferedPaintBits
 title: GetBufferedPaintBits function (uxtheme.h)
-
 description: Retrieves a pointer to the buffer bitmap if the buffer is a device-independent bitmap (DIB).
 old-location: controls\GetBufferedPaintBits.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getbufferedpaintbits.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetBufferedPaintBits, GetBufferedPaintBits function [Windows Controls], _shell_GetBufferedPaintBits, _shell_GetBufferedPaintBits_cpp, controls.GetBufferedPaintBits, controls._shell_GetBufferedPaintBits, uxtheme/GetBufferedPaintBits
 ms.topic: function
 f1_keywords:
 - uxtheme/GetBufferedPaintBits
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

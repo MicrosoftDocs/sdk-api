@@ -1,19 +1,17 @@
 ---
 UID: NN:ctffunc.IEnumTfLatticeElements
 title: IEnumTfLatticeElements (ctffunc.h)
-
 description: The IEnumTfLatticeElements interface is implemented by the TSF manager to provide an enumeration of lattice elements.
 old-location: tsf\ienumtflatticeelements.htm
 tech.root: TSF
 ms.assetid: 5e36f052-a539-4020-8899-fb14c792c666
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTfLatticeElements, IEnumTfLatticeElements interface [Text Services Framework], IEnumTfLatticeElements interface [Text Services Framework],described, _tsf_ienumtflatticeelements_ref, ctffunc/IEnumTfLatticeElements, tsf.ienumtflatticeelements
 ms.topic: interface
-f1_keywords: 
- - "ctffunc/IEnumTfLatticeElements"
+f1_keywords:
+- ctffunc/IEnumTfLatticeElements
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sptip.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sptip.dll
+- Sptip.dll
 api_name:
- - IEnumTfLatticeElements
+- IEnumTfLatticeElements
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

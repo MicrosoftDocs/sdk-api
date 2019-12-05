@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IDropTarget.DragEnter
 title: IDropTarget::DragEnter (oleidl.h)
-
 description: Indicates whether a drop can be accepted, and, if so, the effect of the drop.
 old-location: com\idroptarget_dragenter.htm
 tech.root: com
 ms.assetid: 2e4d7013-910c-4a6e-8eee-818e1f2302ac
-
 ms.date: 12/05/2018
 ms.keywords: DragEnter, DragEnter method [COM], DragEnter method [COM],IDropTarget interface, IDropTarget interface [COM],DragEnter method, IDropTarget.DragEnter, IDropTarget::DragEnter, _ole_idroptarget_dragenter, com.idroptarget_dragenter, oleidl/IDropTarget::DragEnter
 ms.topic: method
-f1_keywords: 
- - "oleidl/IDropTarget.DragEnter"
+f1_keywords:
+- oleidl/IDropTarget.DragEnter
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IDropTarget.DragEnter
+- IDropTarget.DragEnter
 targetos: Windows
 req.typenames: 
 req.redist: 

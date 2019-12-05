@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IQuerySolution.GetLexicalData
 title: IQuerySolution::GetLexicalData (structuredquery.h)
-
 description: Reports the query string, how it was tokenized, and what language code identifier (LCID) and word breaker were used to parse it.
 old-location: search\_search_IQuerySolution_GetLexicalData.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iquerysolution\getlexicaldata.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetLexicalData, GetLexicalData method [search], GetLexicalData method [search],IQuerySolution interface, IQuerySolution interface [search],GetLexicalData method, IQuerySolution.GetLexicalData, IQuerySolution::GetLexicalData, _search_IQuerySolution_GetLexicalData, search._search_IQuerySolution_GetLexicalData, structuredquery/IQuerySolution::GetLexicalData
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IQuerySolution.GetLexicalData"
+f1_keywords:
+- structuredquery/IQuerySolution.GetLexicalData
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IQuerySolution.GetLexicalData
+- IQuerySolution.GetLexicalData
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

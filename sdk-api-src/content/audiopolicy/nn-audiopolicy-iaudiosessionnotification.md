@@ -1,19 +1,17 @@
 ---
 UID: NN:audiopolicy.IAudioSessionNotification
 title: IAudioSessionNotification (audiopolicy.h)
-
 description: The IAudioSessionNotification interface provides notification when an audio session is created.
 old-location: coreaudio\iaudiosessionnotification.htm
 tech.root: CoreAudio
 ms.assetid: 69222168-87d7-4f5a-93b1-6d91263a54bd
-
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionNotification, IAudioSessionNotification interface [Core Audio], IAudioSessionNotification interface [Core Audio],described, audiopolicy/IAudioSessionNotification, coreaudio.iaudiosessionnotification
 ms.topic: interface
-f1_keywords: 
- - "audiopolicy/IAudioSessionNotification"
+f1_keywords:
+- audiopolicy/IAudioSessionNotification
 dev_langs:
- - c++
+- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - audiopolicy.h
+- audiopolicy.h
 api_name:
- - IAudioSessionNotification
+- IAudioSessionNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

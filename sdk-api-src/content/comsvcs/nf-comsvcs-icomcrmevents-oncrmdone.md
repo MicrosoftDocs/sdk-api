@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMDone
 title: IComCRMEvents::OnCRMDone (comsvcs.h)
-
 description: Generated when CRM clerk is done processing transaction outcome notifications.
 old-location: cos\icomcrmevents_oncrmdone.htm
 tech.root: cossdk
 ms.assetid: 8845fd4d-a1a8-40cf-9359-5a2900432f32
-
 ms.date: 12/05/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMDone method, IComCRMEvents.OnCRMDone, IComCRMEvents::OnCRMDone, OnCRMDone, OnCRMDone method [COM+], OnCRMDone method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMDone, comsvcs/IComCRMEvents::OnCRMDone, cos.icomcrmevents_oncrmdone
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComCRMEvents.OnCRMDone"
+f1_keywords:
+- comsvcs/IComCRMEvents.OnCRMDone
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComCRMEvents.OnCRMDone
+- IComCRMEvents.OnCRMDone
 targetos: Windows
 req.typenames: 
 req.redist: 

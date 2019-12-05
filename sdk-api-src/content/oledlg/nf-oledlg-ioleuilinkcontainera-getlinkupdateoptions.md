@@ -1,19 +1,17 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerA.GetLinkUpdateOptions
 title: IOleUILinkContainerA::GetLinkUpdateOptions (oledlg.h)
-
 description: Determines the current update options for a link.
 old-location: com\ioleuilinkcontainer_getlinkupdateoptions.htm
 tech.root: com
 ms.assetid: 136894a6-ddf6-4a47-80f5-997625362536
-
 ms.date: 12/05/2018
 ms.keywords: GetLinkUpdateOptions, GetLinkUpdateOptions method [COM], GetLinkUpdateOptions method [COM],IOleUILinkContainer interface, GetLinkUpdateOptions method [COM],IOleUILinkContainerA interface, GetLinkUpdateOptions method [COM],IOleUILinkContainerW interface, IOleUILinkContainer interface [COM],GetLinkUpdateOptions method, IOleUILinkContainer::GetLinkUpdateOptions, IOleUILinkContainerA interface [COM],GetLinkUpdateOptions method, IOleUILinkContainerA.GetLinkUpdateOptions, IOleUILinkContainerA::GetLinkUpdateOptions, IOleUILinkContainerW interface [COM],GetLinkUpdateOptions method, IOleUILinkContainerW::GetLinkUpdateOptions, _ole_IOleUILinkContainer_GetLinkUpdateOptions, com.ioleuilinkcontainer_getlinkupdateoptions, oledlg/IOleUILinkContainer::GetLinkUpdateOptions, oledlg/IOleUILinkContainerA::GetLinkUpdateOptions, oledlg/IOleUILinkContainerW::GetLinkUpdateOptions
 ms.topic: method
-f1_keywords: 
- - "oledlg/IOleUILinkContainer.GetLinkUpdateOptions"
+f1_keywords:
+- oledlg/IOleUILinkContainer.GetLinkUpdateOptions
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleDlg.h
+- OleDlg.h
 api_name:
- - IOleUILinkContainer.GetLinkUpdateOptions
- - IOleUILinkContainerA.GetLinkUpdateOptions
- - IOleUILinkContainerW.GetLinkUpdateOptions
+- IOleUILinkContainer.GetLinkUpdateOptions
+- IOleUILinkContainerA.GetLinkUpdateOptions
+- IOleUILinkContainerW.GetLinkUpdateOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

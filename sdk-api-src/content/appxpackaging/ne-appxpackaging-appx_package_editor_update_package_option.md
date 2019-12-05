@@ -1,19 +1,17 @@
 ---
 UID: NE:appxpackaging.APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 title: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION (appxpackaging.h)
-
 description: Options to use when updating an app package.
 old-location: appxpkg\appx_package_editor_update_package_option.htm
 tech.root: appxpkg
 ms.assetid: 62023009-97F6-40DF-ACB0-EA4D42CDB636
-
 ms.date: 12/05/2018
 ms.keywords: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION, APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION enumeration [App packaging and management], APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION_APPEND_DELTA, appxpackaging/APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION, appxpackaging/APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION_APPEND_DELTA, appxpkg.appx_package_editor_update_package_option
 ms.topic: enum
-f1_keywords: 
- - "appxpackaging/APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION"
+f1_keywords:
+- appxpackaging/APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
+- APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 targetos: Windows
 req.typenames: APPX_PACKAGE_EDITOR_UPDATE_PACKAGE_OPTION
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectOutputConnector.GetNumberConnections
 title: IMILBitmapEffectOutputConnector::GetNumberConnections (mileffects.h)
-
 description: Retrieves the number of connections the output connector has.
 old-location: wibe\_wibe_imilbitmapeffectoutputconnector_getnumberconnections.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectoutputconnector\getnumberconnections.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetNumberConnections, GetNumberConnections method [WPF Bitmap Effects], GetNumberConnections method [WPF Bitmap Effects],IMILBitmapEffectOutputConnector interface, IMILBitmapEffectOutputConnector interface [WPF Bitmap Effects],GetNumberConnections method, IMILBitmapEffectOutputConnector.GetNumberConnections, IMILBitmapEffectOutputConnector::GetNumberConnections, _wibe_imilbitmapeffectoutputconnector_getnumberconnections, mileffects/IMILBitmapEffectOutputConnector::GetNumberConnections, wibe._wibe_imilbitmapeffectoutputconnector_getnumberconnections
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectOutputConnector.GetNumberConnections"
+f1_keywords:
+- mileffects/IMILBitmapEffectOutputConnector.GetNumberConnections
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mileffects.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.dll
+- Mileffects.dll
 api_name:
- - IMILBitmapEffectOutputConnector.GetNumberConnections
+- IMILBitmapEffectOutputConnector.GetNumberConnections
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

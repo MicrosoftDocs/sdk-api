@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecOutputTimestamp.GetNextOutputTime
 title: IWMCodecOutputTimestamp::GetNextOutputTime (wmcodecdsp.h)
-
 description: Queries the decoder for the time stamp of the upcoming output sample. Use this method if you need to know the time of the sample before calling IMediaObject::ProcessOutput or IMFTransform::ProcessOutput to get the sample.
 old-location: mf\iwmcodecoutputtimestampgetnextoutputtime.htm
 tech.root: medfound
 ms.assetid: 8af7e77b-da10-4d6a-b7a1-515a54aa3a20
-
 ms.date: 12/05/2018
 ms.keywords: GetNextOutputTime, GetNextOutputTime method [Media Foundation], GetNextOutputTime method [Media Foundation],IWMCodecOutputTimestamp interface, IWMCodecOutputTimestamp interface [Media Foundation],GetNextOutputTime method, IWMCodecOutputTimestamp.GetNextOutputTime, IWMCodecOutputTimestamp::GetNextOutputTime, codecapi.iwmcodecoutputtimestampgetnextoutputtime, mf.iwmcodecoutputtimestampgetnextoutputtime, wmcodecdsp/IWMCodecOutputTimestamp::GetNextOutputTime
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/IWMCodecOutputTimestamp.GetNextOutputTime"
+f1_keywords:
+- wmcodecdsp/IWMCodecOutputTimestamp.GetNextOutputTime
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - IWMCodecOutputTimestamp.GetNextOutputTime
+- IWMCodecOutputTimestamp.GetNextOutputTime
 targetos: Windows
 req.typenames: 
 req.redist: 

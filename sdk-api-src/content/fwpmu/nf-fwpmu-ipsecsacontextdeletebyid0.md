@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.IPsecSaContextDeleteById0
 title: IPsecSaContextDeleteById0 function (fwpmu.h)
-
 description: Deletes an IPsec security association (SA) context.
 old-location: fwp\ipsecsacontextdeletebyid0.htm
 tech.root: fwp
 ms.assetid: 4e3b1c5e-3da4-4c6b-aacf-beb90aa96923
-
 ms.date: 12/05/2018
 ms.keywords: IPsecSaContextDeleteById0, IPsecSaContextDeleteById0 function [Filtering], fwp.ipsecsacontextdeletebyid0, fwpmu/IPsecSaContextDeleteById0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/IPsecSaContextDeleteById0"
+f1_keywords:
+- fwpmu/IPsecSaContextDeleteById0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - IPsecSaContextDeleteById0
+- IPsecSaContextDeleteById0
 targetos: Windows
 req.typenames: 
 req.redist: 

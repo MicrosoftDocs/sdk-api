@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.GetMirrorState
 title: IMFCapturePreviewSink::GetMirrorState (mfcaptureengine.h)
-
 description: Gets the current mirroring state of the video preview stream.
 old-location: mf\imfcapturepreviewsink_getmirrorstate.htm
 tech.root: medfound
 ms.assetid: 6EFC9DFF-4029-46F0-9357-983FE528D4FE
-
 ms.date: 12/05/2018
 ms.keywords: GetMirrorState, GetMirrorState method [Media Foundation], GetMirrorState method [Media Foundation],IMFCapturePreviewSink interface, IMFCapturePreviewSink interface [Media Foundation],GetMirrorState method, IMFCapturePreviewSink.GetMirrorState, IMFCapturePreviewSink::GetMirrorState, mf.imfcapturepreviewsink_getmirrorstate, mfcaptureengine/IMFCapturePreviewSink::GetMirrorState
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCapturePreviewSink.GetMirrorState"
+f1_keywords:
+- mfcaptureengine/IMFCapturePreviewSink.GetMirrorState
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCapturePreviewSink.GetMirrorState
+- IMFCapturePreviewSink.GetMirrorState
 targetos: Windows
 req.typenames: 
 req.redist: 

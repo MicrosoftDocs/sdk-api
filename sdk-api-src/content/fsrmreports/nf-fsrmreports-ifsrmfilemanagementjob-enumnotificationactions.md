@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.EnumNotificationActions
 title: IFsrmFileManagementJob::EnumNotificationActions (fsrmreports.h)
-
 description: Enumerates the actions associated with a notification value.
 old-location: fsrm\ifsrmfilemanagementjob_enumnotificationactions.htm
 tech.root: fsrm
 ms.assetid: cfb58db2-39af-434e-95e2-abbd21f4487a
-
 ms.date: 12/05/2018
 ms.keywords: EnumNotificationActions, EnumNotificationActions method [File Server Resource Manager], EnumNotificationActions method [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],EnumNotificationActions method, IFsrmFileManagementJob.EnumNotificationActions, IFsrmFileManagementJob::EnumNotificationActions, fs.ifsrmfilemanagementjob_enumnotificationactions, fsrm.ifsrmfilemanagementjob_enumnotificationactions, fsrmreports/IFsrmFileManagementJob::EnumNotificationActions
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmFileManagementJob.EnumNotificationActions"
+f1_keywords:
+- fsrmreports/IFsrmFileManagementJob.EnumNotificationActions
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob.EnumNotificationActions
+- IFsrmFileManagementJob.EnumNotificationActions
 targetos: Windows
 req.typenames: 
 req.redist: 

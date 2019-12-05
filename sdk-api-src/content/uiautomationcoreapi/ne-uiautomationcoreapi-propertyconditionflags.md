@@ -1,19 +1,17 @@
 ---
 UID: NE:uiautomationcoreapi.PropertyConditionFlags
 title: PropertyConditionFlags (uiautomationcoreapi.h)
-
 description: Contains values used in creating property conditions.
 old-location: winauto\uiauto_PropertyConditionFlagsEnum.htm
 tech.root: WinAuto
 ms.assetid: debe8141-2a91-4774-b533-d6f3ccfc7744
-
 ms.date: 12/05/2018
 ms.keywords: PropertyConditionFlags, PropertyConditionFlags enumeration [Windows Accessibility], PropertyConditionFlags_IgnoreCase, PropertyConditionFlags_MatchSubstring, PropertyConditionFlags_None, uiauto.uiauto_PropertyConditionFlagsEnum, uiauto_PropertyConditionFlagsEnum, uiautomationclient/PropertyConditionFlags, uiautomationclient/PropertyConditionFlags_IgnoreCase, uiautomationclient/PropertyConditionFlags_MatchSubstring, uiautomationclient/PropertyConditionFlags_None, winauto.uiauto_PropertyConditionFlagsEnum
 ms.topic: enum
-f1_keywords: 
- - "uiautomationcoreapi/PropertyConditionFlags"
+f1_keywords:
+- uiautomationcoreapi/PropertyConditionFlags
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: UIAutomation.h, Uiautomationcoreapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - PropertyConditionFlags
+- PropertyConditionFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

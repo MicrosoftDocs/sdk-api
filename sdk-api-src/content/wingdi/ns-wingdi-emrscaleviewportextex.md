@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMRSCALEVIEWPORTEXTEX
 title: EMRSCALEVIEWPORTEXTEX (wingdi.h)
-
 description: The EMRSCALEVIEWPORTEXTEX and EMRSCALEWINDOWEXTEX structures contain members for the ScaleViewportExtEx and ScaleWindowExtEx enhanced metafile records.
 old-location: gdi\emrscaleviewportextex__emrscalewindowextex.htm
 tech.root: gdi
 ms.assetid: 712e8b00-d9ab-4b23-aed4-d7aadd0cb3e1
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRSCALEVIEWPORTEXTEX, *PEMRSCALEWINDOWEXTEX, EMRSCALEVIEWPORTEXTEX, EMRSCALEVIEWPORTEXTEX structure [Windows GDI], EMRSCALEVIEWPORTEXTEX,EMRSCALEWINDOWEXTEX, EMRSCALEVIEWPORTEXTEX,EMRSCALEWINDOWEXTEX structure [Windows GDI], EMRSCALEWINDOWEXTEX, EMRSCALEWINDOWEXTEX structure [Windows GDI], PEMRSCALEVIEWPORTEXTEX, PEMRSCALEVIEWPORTEXTEX structure pointer [Windows GDI], PEMRSCALEWINDOWEXTEX, PEMRSCALEWINDOWEXTEX structure pointer [Windows GDI], _win32_EMRSCALEVIEWPORTEXTEX_str, gdi.emrscaleviewportextex__emrscalewindowextex, wingdi/EMRSCALEVIEWPORTEXTEX,EMRSCALEWINDOWEXTEX, wingdi/EMRSCALEWINDOWEXTEX, wingdi/PEMRSCALEVIEWPORTEXTEX, wingdi/PEMRSCALEWINDOWEXTEX"
+ms.keywords: '*PEMRSCALEVIEWPORTEXTEX, *PEMRSCALEWINDOWEXTEX, EMRSCALEVIEWPORTEXTEX, EMRSCALEVIEWPORTEXTEX structure [Windows GDI], EMRSCALEVIEWPORTEXTEX,EMRSCALEWINDOWEXTEX, EMRSCALEVIEWPORTEXTEX,EMRSCALEWINDOWEXTEX structure [Windows GDI], EMRSCALEWINDOWEXTEX, EMRSCALEWINDOWEXTEX structure [Windows GDI], PEMRSCALEVIEWPORTEXTEX, PEMRSCALEVIEWPORTEXTEX structure pointer [Windows GDI], PEMRSCALEWINDOWEXTEX, PEMRSCALEWINDOWEXTEX structure pointer [Windows GDI], _win32_EMRSCALEVIEWPORTEXTEX_str, gdi.emrscaleviewportextex__emrscalewindowextex, wingdi/EMRSCALEVIEWPORTEXTEX,EMRSCALEWINDOWEXTEX, wingdi/EMRSCALEWINDOWEXTEX, wingdi/PEMRSCALEVIEWPORTEXTEX, wingdi/PEMRSCALEWINDOWEXTEX'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRSCALEVIEWPORTEXTEX"
+f1_keywords:
+- wingdi/EMRSCALEVIEWPORTEXTEX
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRSCALEVIEWPORTEXTEX
+- EMRSCALEVIEWPORTEXTEX
 targetos: Windows
 req.typenames: EMRSCALEVIEWPORTEXTEX, *PEMRSCALEVIEWPORTEXTEX, EMRSCALEWINDOWEXTEX, *PEMRSCALEWINDOWEXTEX
 req.redist: 

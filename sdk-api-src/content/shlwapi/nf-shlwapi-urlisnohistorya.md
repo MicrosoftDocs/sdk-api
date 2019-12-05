@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.UrlIsNoHistoryA
 title: UrlIsNoHistoryA function (shlwapi.h)
-
 description: Returns whether a URL is a URL that browsers typically do not include in navigation history.
 old-location: shell\UrlIsNoHistory.htm
 tech.root: shell
 ms.assetid: 7602d2ef-1f21-4b2f-8ac9-195bb21d6ae7
-
 ms.date: 12/05/2018
 ms.keywords: UrlIsNoHistory, UrlIsNoHistory function [Windows Shell], UrlIsNoHistoryA, UrlIsNoHistoryW, _win32_UrlIsNoHistory, shell.UrlIsNoHistory, shlwapi/UrlIsNoHistory, shlwapi/UrlIsNoHistoryA, shlwapi/UrlIsNoHistoryW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/UrlIsNoHistory"
+f1_keywords:
+- shlwapi/UrlIsNoHistory
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-url-l1-1-0.dll
- - KernelBase.dll
+- Shlwapi.dll
+- API-MS-Win-Core-url-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - UrlIsNoHistory
- - UrlIsNoHistoryA
- - UrlIsNoHistoryW
+- UrlIsNoHistory
+- UrlIsNoHistoryA
+- UrlIsNoHistoryW
 targetos: Windows
 req.typenames: 
 req.redist: 

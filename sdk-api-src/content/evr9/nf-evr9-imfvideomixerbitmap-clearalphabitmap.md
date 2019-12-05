@@ -1,19 +1,17 @@
 ---
 UID: NF:evr9.IMFVideoMixerBitmap.ClearAlphaBitmap
 title: IMFVideoMixerBitmap::ClearAlphaBitmap (evr9.h)
-
 description: Removes the current bitmap and releases any resources associated with it.
 old-location: mf\imfvideomixerbitmap_clearalphabitmap.htm
 tech.root: medfound
 ms.assetid: 79a0f24c-9388-4c64-885f-5d04e671669e
-
 ms.date: 12/05/2018
 ms.keywords: 79a0f24c-9388-4c64-885f-5d04e671669e, ClearAlphaBitmap, ClearAlphaBitmap method [Media Foundation], ClearAlphaBitmap method [Media Foundation],IMFVideoMixerBitmap interface, IMFVideoMixerBitmap interface [Media Foundation],ClearAlphaBitmap method, IMFVideoMixerBitmap.ClearAlphaBitmap, IMFVideoMixerBitmap::ClearAlphaBitmap, evr9/IMFVideoMixerBitmap::ClearAlphaBitmap, mf.imfvideomixerbitmap_clearalphabitmap
 ms.topic: method
-f1_keywords: 
- - "evr9/IMFVideoMixerBitmap.ClearAlphaBitmap"
+f1_keywords:
+- evr9/IMFVideoMixerBitmap.ClearAlphaBitmap
 dev_langs:
- - c++
+- c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoMixerBitmap.ClearAlphaBitmap
+- IMFVideoMixerBitmap.ClearAlphaBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

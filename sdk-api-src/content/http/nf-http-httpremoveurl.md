@@ -1,19 +1,17 @@
 ---
 UID: NF:http.HttpRemoveUrl
 title: HttpRemoveUrl function (http.h)
-
 description: Causes the system to stop routing requests that match a specified UrlPrefix string to a specified request queue.
 old-location: http\httpremoveurl.htm
 tech.root: http
 ms.assetid: 21740d08-c280-44c1-8efb-1d21b4006039
-
 ms.date: 12/05/2018
 ms.keywords: HttpRemoveUrl, HttpRemoveUrl function [HTTP], _http_httpremoveurl, http.httpremoveurl, http/HttpRemoveUrl
 ms.topic: function
-f1_keywords: 
- - "http/HttpRemoveUrl"
+f1_keywords:
+- http/HttpRemoveUrl
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Httpapi.dll
+- Httpapi.dll
 api_name:
- - HttpRemoveUrl
+- HttpRemoveUrl
 targetos: Windows
 req.typenames: 
 req.redist: 

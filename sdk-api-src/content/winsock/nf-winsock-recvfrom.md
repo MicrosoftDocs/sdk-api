@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock.recvfrom
 title: recvfrom function (winsock.h)
-
 description: The recvfrom function receives a datagram and stores the source address.
 old-location: winsock\recvfrom_2.htm
 tech.root: WinSock
 ms.assetid: 3e4282e0-3ed0-43e7-9b27-72ec36b9cfa1
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_recvfrom_2, recvfrom, recvfrom function [Winsock], winsock.recvfrom_2, winsock/recvfrom"
+ms.keywords: _win32_recvfrom_2, recvfrom, recvfrom function [Winsock], winsock.recvfrom_2, winsock/recvfrom
 ms.topic: function
-f1_keywords: 
- - "winsock/recvfrom"
+f1_keywords:
+- winsock/recvfrom
 dev_langs:
- - c++
+- c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - recvfrom
+- recvfrom
 targetos: Windows
 req.typenames: 
 req.redist: 

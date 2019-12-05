@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspen.Pen.GetLastStatus
 title: Pen::GetLastStatus (gdipluspen.h)
-
 description: The Pen::GetLastStatus method returns a value that indicates the nature of this Pen object's most recent method failure.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetLastStatus_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getlaststatus_88.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],Pen class, Pen class [GDI+],GetLastStatus method, Pen.GetLastStatus, Pen::GetLastStatus, _gdiplus_CLASS_Pen_GetLastStatus_, gdiplus._gdiplus_CLASS_Pen_GetLastStatus_
 ms.topic: method
-f1_keywords: 
- - "gdipluspen/Pen.GetLastStatus"
+f1_keywords:
+- gdipluspen/Pen.GetLastStatus
 dev_langs:
- - c++
+- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Pen.GetLastStatus
+- Pen.GetLastStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NL:gdiplusheaders.Region
 title: Region (gdiplusheaders.h)
-
 description: The Region class describes an area of the display surface.
 old-location: gdiplus\_gdiplus_CLASS_Region_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\region.htm
-
 ms.date: 12/05/2018
 ms.keywords: Region, Region class [GDI+], Region class [GDI+],described, _gdiplus_CLASS_Region_Class, gdiplus._gdiplus_CLASS_Region_Class, gdiplusheaders/Region
 ms.topic: class
-f1_keywords: 
- - "gdiplusheaders/Region"
+f1_keywords:
+- gdiplusheaders/Region
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusheaders.h
+- gdiplusheaders.h
 api_name:
- - Region
+- Region
 targetos: Windows
 req.typenames: 
 req.redist: 

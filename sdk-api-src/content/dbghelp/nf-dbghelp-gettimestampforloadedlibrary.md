@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.GetTimestampForLoadedLibrary
 title: GetTimestampForLoadedLibrary function (dbghelp.h)
-
 description: Retrieves the time stamp of a loaded image.
 old-location: base\gettimestampforloadedlibrary.htm
 tech.root: Debug
 ms.assetid: 9ce7b211-5447-4624-b197-85730c4a7a10
-
 ms.date: 12/05/2018
 ms.keywords: GetTimestampForLoadedLibrary, GetTimestampForLoadedLibrary function, _win32_gettimestampforloadedlibrary, base.gettimestampforloadedlibrary, dbghelp/GetTimestampForLoadedLibrary
 ms.topic: function
-f1_keywords: 
- - "dbghelp/GetTimestampForLoadedLibrary"
+f1_keywords:
+- dbghelp/GetTimestampForLoadedLibrary
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - GetTimestampForLoadedLibrary
+- GetTimestampForLoadedLibrary
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

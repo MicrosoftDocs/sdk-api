@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.Rect.Equals
 title: Rect::Equals (gdiplustypes.h)
-
 description: The Rect::Equals method determines whether two rectangles are the same.
 old-location: gdiplus\_gdiplus_CLASS_Rect_Equals_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\equals_42rect.htm
-
 ms.date: 12/05/2018
 ms.keywords: Equals, Equals method [GDI+], Equals method [GDI+],Rect class, Rect class [GDI+],Equals method, Rect.Equals, Rect::Equals, _gdiplus_CLASS_Rect_Equals_rect_, gdiplus._gdiplus_CLASS_Rect_Equals_rect_
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/Rect.Equals"
+f1_keywords:
+- gdiplustypes/Rect.Equals
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Rect.Equals
+- Rect.Equals
 targetos: Windows
 req.typenames: 
 req.redist: 

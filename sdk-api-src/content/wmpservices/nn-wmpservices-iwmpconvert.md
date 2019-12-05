@@ -1,19 +1,17 @@
 ---
 UID: NN:wmpservices.IWMPConvert
 title: IWMPConvert (wmpservices.h)
-
 description: The IWMPConvert interface provides methods to enable Windows Media Player conversion plug-ins to convert digital media files that are created using technologies not provided by Microsoft, into Advanced Systems Format (ASF).
 old-location: wmp\iwmpconvert.htm
 tech.root: WMP
 ms.assetid: 316d1a13-0803-4414-8c51-0d5c4768b06d
-
 ms.date: 12/05/2018
 ms.keywords: IWMPConvert, IWMPConvert interface [Windows Media Player], IWMPConvert interface [Windows Media Player],described, IWMPConvertInterface, wmp.iwmpconvert, wmpservices/IWMPConvert
 ms.topic: interface
-f1_keywords: 
- - "wmpservices/IWMPConvert"
+f1_keywords:
+- wmpservices/IWMPConvert
 dev_langs:
- - c++
+- c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmpservices.h
+- wmpservices.h
 api_name:
- - IWMPConvert
+- IWMPConvert
 targetos: Windows
 req.typenames: 
 req.redist: 

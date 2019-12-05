@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IVideoWindow.put_Visible
 title: IVideoWindow::put_Visible (control.h)
-
 description: The put_Visible method shows or hides the video window.
 old-location: dshow\ivideowindow_put_visible.htm
 tech.root: DirectShow
 ms.assetid: ae789f07-4d50-488c-b57e-2b003a8cde3e
-
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_Visible method, IVideoWindow.put_Visible, IVideoWindow::put_Visible, IVideoWindowput_Visible, control/IVideoWindow::put_Visible, dshow.ivideowindow_put_visible, put_Visible, put_Visible method [DirectShow], put_Visible method [DirectShow],IVideoWindow interface
 ms.topic: method
-f1_keywords: 
- - "control/IVideoWindow.put_Visible"
+f1_keywords:
+- control/IVideoWindow.put_Visible
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVideoWindow.put_Visible
+- IVideoWindow.put_Visible
 targetos: Windows
 req.typenames: 
 req.redist: 

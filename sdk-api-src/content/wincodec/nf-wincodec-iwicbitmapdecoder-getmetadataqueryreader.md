@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoder.GetMetadataQueryReader
 title: IWICBitmapDecoder::GetMetadataQueryReader (wincodec.h)
-
 description: Retrieves the metadata query reader from the decoder.
 old-location: wic\_wic_codec_iwicbitmapdecoder_getmetadataqueryreader.htm
 tech.root: wic
 ms.assetid: 353ce6d8-ef33-44b6-ab8a-7c5903a024f6
-
 ms.date: 12/05/2018
 ms.keywords: GetMetadataQueryReader, GetMetadataQueryReader method [Windows Imaging Component], GetMetadataQueryReader method [Windows Imaging Component],IWICBitmapDecoder interface, IWICBitmapDecoder interface [Windows Imaging Component],GetMetadataQueryReader method, IWICBitmapDecoder.GetMetadataQueryReader, IWICBitmapDecoder::GetMetadataQueryReader, _wic_codec_iwicbitmapdecoder_getmetadataqueryreader, wic._wic_codec_iwicbitmapdecoder_getmetadataqueryreader, wincodec/IWICBitmapDecoder::GetMetadataQueryReader
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapDecoder.GetMetadataQueryReader"
+f1_keywords:
+- wincodec/IWICBitmapDecoder.GetMetadataQueryReader
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapDecoder.GetMetadataQueryReader
+- IWICBitmapDecoder.GetMetadataQueryReader
 targetos: Windows
 req.typenames: 
 req.redist: 

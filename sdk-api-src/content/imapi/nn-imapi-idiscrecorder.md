@@ -1,19 +1,17 @@
 ---
 UID: NN:imapi.IDiscRecorder
 title: IDiscRecorder (imapi.h)
-
 description: The IDiscRecorder interface enables access to a single disc recorder device, labeled the active disc recorder. An IMAPI object such as MSDiscMasterObj maintains an active disc recorder.
 old-location: imapi\idiscrecorder.htm
 tech.root: imapi
 ms.assetid: fc861cbb-a14e-499e-8b80-f5912e4f6076
-
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder, IDiscRecorder interface [IMAPI], IDiscRecorder interface [IMAPI],described, _win32_idiscrecorder, base.idiscrecorder, imapi.idiscrecorder, imapi/IDiscRecorder
 ms.topic: interface
-f1_keywords: 
- - "imapi/IDiscRecorder"
+f1_keywords:
+- imapi/IDiscRecorder
 dev_langs:
- - c++
+- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Actxprxy.dll
+- Actxprxy.dll
 api_name:
- - IDiscRecorder
- - IDiscRecorder.Init
+- IDiscRecorder
+- IDiscRecorder.Init
 targetos: Windows
 req.typenames: 
 req.redist: 

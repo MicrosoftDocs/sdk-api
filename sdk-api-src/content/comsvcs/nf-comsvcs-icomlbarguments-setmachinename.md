@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICOMLBArguments.SetMachineName
 title: ICOMLBArguments::SetMachineName (comsvcs.h)
-
 description: Sets the computer name for the load balancing server.
 old-location: cos\icomlbarguments_setmachinename.htm
 tech.root: cossdk
 ms.assetid: 55f9d45e-5c36-4f02-9a9d-111ad4abf016
-
 ms.date: 12/05/2018
 ms.keywords: ICOMLBArguments interface [COM+],SetMachineName method, ICOMLBArguments.SetMachineName, ICOMLBArguments::SetMachineName, SetMachineName, SetMachineName method [COM+], SetMachineName method [COM+],ICOMLBArguments interface, _cos_ICOMLBArguments_SetMachineName, comsvcs/ICOMLBArguments::SetMachineName, cos.icomlbarguments_setmachinename
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICOMLBArguments.SetMachineName"
+f1_keywords:
+- comsvcs/ICOMLBArguments.SetMachineName
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICOMLBArguments.SetMachineName
+- ICOMLBArguments.SetMachineName
 targetos: Windows
 req.typenames: 
 req.redist: 

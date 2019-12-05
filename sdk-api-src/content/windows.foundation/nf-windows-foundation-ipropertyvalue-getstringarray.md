@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetStringArray
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-
 description: Gets the array of string values that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getstringarray.htm
 tech.root: WinRT
 ms.assetid: d256b888-efa0-470e-b54f-5cf8ddd6fd8a
-
 ms.date: 12/05/2018
 ms.keywords: GetStringArray, GetStringArray method [Windows Runtime], GetStringArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetStringArray method, IPropertyValue.GetStringArray, IPropertyValue.IPropertyValue, IPropertyValue::GetStringArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetStringArray, winrt.ipropertyvalue_getstringarray
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValue.GetStringArray"
+f1_keywords:
+- windows.foundation/IPropertyValue.GetStringArray
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValue.GetStringArray
+- IPropertyValue.GetStringArray
 targetos: Windows
 req.typenames: 
 req.redist: 

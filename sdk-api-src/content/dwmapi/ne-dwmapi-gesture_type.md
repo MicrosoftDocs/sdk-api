@@ -1,19 +1,17 @@
 ---
 UID: NE:dwmapi.GESTURE_TYPE
 title: GESTURE_TYPE (dwmapi.h)
-
 description: Identifies the gesture type specified in DwmRenderGesture.
 old-location: dwm\gesture_type.htm
 tech.root: dwm
 ms.assetid: 3FBDDFC9-A3E7-43DC-B7C6-A23976861C28
-
 ms.date: 12/05/2018
 ms.keywords: GESTURE_TYPE, GESTURE_TYPE enumeration [Desktop Window Manager], GT_PEN_DOUBLETAP, GT_PEN_PRESSANDHOLD, GT_PEN_PRESSANDHOLDABORT, GT_PEN_RIGHTTAP, GT_PEN_TAP, GT_TOUCH_DOUBLETAP, GT_TOUCH_PRESSANDHOLD, GT_TOUCH_PRESSANDHOLDABORT, GT_TOUCH_PRESSANDTAP, GT_TOUCH_RIGHTTAP, GT_TOUCH_TAP, dwm.gesture_type, dwmapi/GESTURE_TYPE, dwmapi/GT_PEN_DOUBLETAP, dwmapi/GT_PEN_PRESSANDHOLD, dwmapi/GT_PEN_PRESSANDHOLDABORT, dwmapi/GT_PEN_RIGHTTAP, dwmapi/GT_PEN_TAP, dwmapi/GT_TOUCH_DOUBLETAP, dwmapi/GT_TOUCH_PRESSANDHOLD, dwmapi/GT_TOUCH_PRESSANDHOLDABORT, dwmapi/GT_TOUCH_PRESSANDTAP, dwmapi/GT_TOUCH_RIGHTTAP, dwmapi/GT_TOUCH_TAP
 ms.topic: enum
-f1_keywords: 
- - "dwmapi/GESTURE_TYPE"
+f1_keywords:
+- dwmapi/GESTURE_TYPE
 dev_langs:
- - c++
+- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dwmapi.h
+- Dwmapi.h
 api_name:
- - GESTURE_TYPE
+- GESTURE_TYPE
 targetos: Windows
 req.typenames: 
 req.redist: 

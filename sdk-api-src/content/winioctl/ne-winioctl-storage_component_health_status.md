@@ -1,19 +1,17 @@
 ---
 UID: NE:winioctl._STORAGE_COMPONENT_HEALTH_STATUS
 title: STORAGE_COMPONENT_HEALTH_STATUS
-
 description: Specifies the health status of a storage component.
 old-location: fs\storage_component_health_status.htm
 tech.root: FileIO
 ms.assetid: ECC5A745-EA8B-4FBE-840D-0D959C9ED5BA
-
 ms.date: 12/05/2018
-ms.keywords: "*PSTORAGE_COMPONENT_HEALTH_STATUS, HealthStatusDisabled, HealthStatusFailed, HealthStatusNormal, HealthStatusThrottled, HealthStatusUnknown, HealthStatusWarning, PSTORAGE_COMPONENT_HEALTH_STATUS, PSTORAGE_COMPONENT_HEALTH_STATUS enumeration pointer [Files], STORAGE_COMPONENT_HEALTH_STATUS, _STORAGE_COMPONENT_HEALTH_STATUS, _STORAGE_COMPONENT_HEALTH_STATUS enumeration [Files], fs.storage_component_health_status, winioctl/HealthStatusDisabled, winioctl/HealthStatusFailed, winioctl/HealthStatusNormal, winioctl/HealthStatusThrottled, winioctl/HealthStatusUnknown, winioctl/HealthStatusWarning, winioctl/PSTORAGE_COMPONENT_HEALTH_STATUS, winioctl/_STORAGE_COMPONENT_HEALTH_STATUS"
+ms.keywords: '*PSTORAGE_COMPONENT_HEALTH_STATUS, HealthStatusDisabled, HealthStatusFailed, HealthStatusNormal, HealthStatusThrottled, HealthStatusUnknown, HealthStatusWarning, PSTORAGE_COMPONENT_HEALTH_STATUS, PSTORAGE_COMPONENT_HEALTH_STATUS enumeration pointer [Files], STORAGE_COMPONENT_HEALTH_STATUS, _STORAGE_COMPONENT_HEALTH_STATUS, _STORAGE_COMPONENT_HEALTH_STATUS enumeration [Files], fs.storage_component_health_status, winioctl/HealthStatusDisabled, winioctl/HealthStatusFailed, winioctl/HealthStatusNormal, winioctl/HealthStatusThrottled, winioctl/HealthStatusUnknown, winioctl/HealthStatusWarning, winioctl/PSTORAGE_COMPONENT_HEALTH_STATUS, winioctl/_STORAGE_COMPONENT_HEALTH_STATUS'
 ms.topic: enum
-f1_keywords: 
- - "winioctl/STORAGE_COMPONENT_HEALTH_STATUS"
+f1_keywords:
+- winioctl/STORAGE_COMPONENT_HEALTH_STATUS
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - STORAGE_COMPONENT_HEALTH_STATUS
+- STORAGE_COMPONENT_HEALTH_STATUS
 targetos: Windows
 req.typenames: STORAGE_COMPONENT_HEALTH_STATUS, *PSTORAGE_COMPONENT_HEALTH_STATUS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.UnRegisterTypeLib
 title: UnRegisterTypeLib function (oleauto.h)
-
 description: Removes type library information from the system registry. Use this API to allow applications to properly uninstall themselves.
 old-location: automat\unregistertypelib.htm
 tech.root: automat
 ms.assetid: 36c763f0-562c-4fc8-9449-b37e993d5f5c
-
 ms.date: 12/05/2018
 ms.keywords: UnRegisterTypeLib, UnRegisterTypeLib function [Automation], _oa96_UnRegisterTypeLib, automat.unregistertypelib, oleauto/UnRegisterTypeLib
 ms.topic: function
-f1_keywords: 
- - "oleauto/UnRegisterTypeLib"
+f1_keywords:
+- oleauto/UnRegisterTypeLib
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - UnRegisterTypeLib
+- UnRegisterTypeLib
 targetos: Windows
 req.typenames: 
 req.redist: 

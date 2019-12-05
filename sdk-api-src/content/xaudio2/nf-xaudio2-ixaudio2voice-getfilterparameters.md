@@ -1,19 +1,17 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.GetFilterParameters
 title: IXAudio2Voice::GetFilterParameters (xaudio2.h)
-
 description: Gets the voice's filter parameters.
 old-location: xaudio2\ixaudio2voice_interface_getfilterparameters.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.GetFilterParameters(XAUDIO2_FILTER_PARAMETERS@)
-
 ms.date: 12/05/2018
 ms.keywords: GetFilterParameters, GetFilterParameters method [XAudio2 Audio Mixing APIs], GetFilterParameters method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, IXAudio2Voice interface [XAudio2 Audio Mixing APIs],GetFilterParameters method, IXAudio2Voice.GetFilterParameters, IXAudio2Voice::GetFilterParameters, xaudio2.ixaudio2voice_interface_getfilterparameters, xaudio2/IXAudio2Voice::GetFilterParameters
 ms.topic: method
-f1_keywords: 
- - "xaudio2/IXAudio2Voice.GetFilterParameters"
+f1_keywords:
+- xaudio2/IXAudio2Voice.GetFilterParameters
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XAudio2.h
+- XAudio2.h
 api_name:
- - IXAudio2Voice.GetFilterParameters
+- IXAudio2Voice.GetFilterParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

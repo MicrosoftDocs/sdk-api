@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICPngItxtProperties
 title: WICPngItxtProperties (wincodec.h)
-
 description: Specifies the Portable Network Graphics (PNG) iTXT chunk metadata properties.
 old-location: wic\_wic_codec_wicpngitxtproperties.htm
 tech.root: wic
 ms.assetid: 905d37e2-39f3-4990-b737-f9194f798d83
-
 ms.date: 12/05/2018
 ms.keywords: WICPngItxtCompressionFlag, WICPngItxtKeyword, WICPngItxtLanguageTag, WICPngItxtProperties, WICPngItxtProperties enumeration [Windows Imaging Component], WICPngItxtText, WICPngItxtTranslatedKeyword, _wic_codec_wicpngitxtproperties, wic._wic_codec_wicpngitxtproperties, wincodec/WICPngItxtCompressionFlag, wincodec/WICPngItxtKeyword, wincodec/WICPngItxtLanguageTag, wincodec/WICPngItxtProperties, wincodec/WICPngItxtText, wincodec/WICPngItxtTranslatedKeyword
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICPngItxtProperties"
+f1_keywords:
+- wincodec/WICPngItxtProperties
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICPngItxtProperties
+- WICPngItxtProperties
 targetos: Windows
 req.typenames: WICPngItxtProperties
 req.redist: 

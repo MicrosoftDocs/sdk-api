@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollectorCollection.CreateDataCollectorFromXml
 title: IDataCollectorCollection::CreateDataCollectorFromXml (pla.h)
-
 description: Creates a data collector using the specified XML.
 old-location: pla\idatacollectorcollection_createdatacollectorfromxml.htm
 tech.root: PLA
 ms.assetid: 32a1aba6-24f4-416a-b2ba-9be264fce3fc
-
 ms.date: 12/05/2018
 ms.keywords: CreateDataCollectorFromXml, CreateDataCollectorFromXml method [PLA], CreateDataCollectorFromXml method [PLA],IDataCollectorCollection interface, IDataCollectorCollection interface [PLA],CreateDataCollectorFromXml method, IDataCollectorCollection.CreateDataCollectorFromXml, IDataCollectorCollection::CreateDataCollectorFromXml, pla.idatacollectorcollection_createdatacollectorfromxml, pla/IDataCollectorCollection::CreateDataCollectorFromXml
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollectorCollection.CreateDataCollectorFromXml"
+f1_keywords:
+- pla/IDataCollectorCollection.CreateDataCollectorFromXml
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollectorCollection.CreateDataCollectorFromXml
+- IDataCollectorCollection.CreateDataCollectorFromXml
 targetos: Windows
 req.typenames: 
 req.redist: 

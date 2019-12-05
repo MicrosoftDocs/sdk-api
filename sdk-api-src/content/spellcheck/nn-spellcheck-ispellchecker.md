@@ -1,19 +1,17 @@
 ---
 UID: NN:spellcheck.ISpellChecker
 title: ISpellChecker (spellcheck.h)
-
 description: Represents a particular spell checker for a particular language.
 old-location: intl\ispellchecker.htm
 tech.root: Intl
 ms.assetid: 3cc5f675-048d-4ef3-9b66-5f081ee17a18
-
 ms.date: 12/05/2018
 ms.keywords: ISpellChecker, ISpellChecker interface [Internationalization for Windows Applications], ISpellChecker interface [Internationalization for Windows Applications],described, intl.ispellchecker, spellcheck/ISpellChecker
 ms.topic: interface
-f1_keywords: 
- - "spellcheck/ISpellChecker"
+f1_keywords:
+- spellcheck/ISpellChecker
 dev_langs:
- - c++
+- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Spellcheck.h
+- Spellcheck.h
 api_name:
- - ISpellChecker
+- ISpellChecker
 targetos: Windows
 req.typenames: 
 req.redist: 

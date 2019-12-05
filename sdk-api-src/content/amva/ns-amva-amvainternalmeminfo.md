@@ -1,19 +1,17 @@
 ---
 UID: NS:amva._tag_AMVAInternalMemInfo
 title: AMVAInternalMemInfo (amva.h)
-
 description: The AMVAInternalMemInfo structure specifies the amount of scratch memory the hardware abstraction layer (HAL) will allocate for its private use.
 old-location: dshow\amvainternalmeminfo.htm
 tech.root: DirectShow
 ms.assetid: 8ce27daa-cd8e-4dbd-a949-0c07c370d504
-
 ms.date: 12/05/2018
-ms.keywords: "*LPAMVAInternalMemInfo, AMVAInternalMemInfo, AMVAInternalMemInfo structure [DirectShow], AMVAInternalMemInfoStructure, LPAMVAInternalMemInfo, LPAMVAInternalMemInfo structure pointer [DirectShow], amva/AMVAInternalMemInfo, amva/LPAMVAInternalMemInfo, dshow.amvainternalmeminfo"
+ms.keywords: '*LPAMVAInternalMemInfo, AMVAInternalMemInfo, AMVAInternalMemInfo structure [DirectShow], AMVAInternalMemInfoStructure, LPAMVAInternalMemInfo, LPAMVAInternalMemInfo structure pointer [DirectShow], amva/AMVAInternalMemInfo, amva/LPAMVAInternalMemInfo, dshow.amvainternalmeminfo'
 ms.topic: struct
-f1_keywords: 
- - "amva/AMVAInternalMemInfo"
+f1_keywords:
+- amva/AMVAInternalMemInfo
 dev_langs:
- - c++
+- c++
 req.header: amva.h
 req.include-header: Videoacc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - amva.h
+- amva.h
 api_name:
- - AMVAInternalMemInfo
+- AMVAInternalMemInfo
 targetos: Windows
 req.typenames: AMVAInternalMemInfo, *LPAMVAInternalMemInfo
 req.redist: 

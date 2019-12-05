@@ -1,19 +1,17 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_20
 title: QualTspecParms (lpmapi.h)
-
 description: The QualTspecParms structure contains qualitative Tspec parameters.
 old-location: qos\qualtspecparms.htm
 tech.root: QOS
 ms.assetid: f9afa6f9-1de7-469e-a317-2dea98c8291c
-
 ms.date: 12/05/2018
 ms.keywords: QualTspecParms, QualTspecParms structure [QOS], lpmapi/QualTspecParms, qos.qualtspecparms
 ms.topic: struct
-f1_keywords: 
- - "lpmapi/QualTspecParms"
+f1_keywords:
+- lpmapi/QualTspecParms
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - QualTspecParms
+- QualTspecParms
 targetos: Windows
 req.typenames: QualTspecParms
 req.redist: 

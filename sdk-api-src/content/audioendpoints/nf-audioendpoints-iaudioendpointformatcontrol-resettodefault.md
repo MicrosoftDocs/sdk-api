@@ -1,19 +1,17 @@
 ---
 UID: NF:audioendpoints.IAudioEndpointFormatControl.ResetToDefault
 title: IAudioEndpointFormatControl::ResetToDefault (audioendpoints.h)
-
 description: Resets the format to the default setting provided by the device manufacturer.
 old-location: coreaudio\iaudioendpointformatcontrol_resettodefault.htm
 tech.root: CoreAudio
 ms.assetid: EAE5206D-8BDF-4016-A0E6-D56D0F6B3566
-
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointFormatControl interface [Core Audio],ResetToDefault method, IAudioEndpointFormatControl.ResetToDefault, IAudioEndpointFormatControl::ResetToDefault, ResetToDefault, ResetToDefault method [Core Audio], ResetToDefault method [Core Audio],IAudioEndpointFormatControl interface, audioendpoints/IAudioEndpointFormatControl::ResetToDefault, coreaudio.iaudioendpointformatcontrol_resettodefault
 ms.topic: method
-f1_keywords: 
- - "audioendpoints/IAudioEndpointFormatControl.ResetToDefault"
+f1_keywords:
+- audioendpoints/IAudioEndpointFormatControl.ResetToDefault
 dev_langs:
- - c++
+- c++
 req.header: audioendpoints.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AudioEndpoints.h
+- AudioEndpoints.h
 api_name:
- - IAudioEndpointFormatControl.ResetToDefault
+- IAudioEndpointFormatControl.ResetToDefault
 targetos: Windows
 req.typenames: 
 req.redist: 

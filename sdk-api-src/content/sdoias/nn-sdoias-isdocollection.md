@@ -1,19 +1,17 @@
 ---
 UID: NN:sdoias.ISdoCollection
 title: ISdoCollection (sdoias.h)
-
 description: Use the ISdoCollection interface to manipulate a collection of SDO objects.
 old-location: nps\SDO_isdocollection.htm
 tech.root: Nps
 ms.assetid: 26470906-1cba-41fc-96f3-078208ab3d51
-
 ms.date: 12/05/2018
 ms.keywords: ISdoCollection, ISdoCollection interface [Network Policy Server], ISdoCollection interface [Network Policy Server],described, _sdo_isdocollection, nps.SDO_isdocollection, sdo.isdocollection, sdoias/ISdoCollection
 ms.topic: interface
-f1_keywords: 
- - "sdoias/ISdoCollection"
+f1_keywords:
+- sdoias/ISdoCollection
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Iassdo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Iassdo.dll
+- Iassdo.dll
 api_name:
- - ISdoCollection
+- ISdoCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

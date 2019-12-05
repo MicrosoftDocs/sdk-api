@@ -1,19 +1,17 @@
 ---
 UID: NS:winddi._SURFOBJ
 title: SURFOBJ (winddi.h)
-
 description: The SURFOBJ structure is the user object for a surface. A device driver usually calls methods on a surface object only when the surface object represents a GDI bitmap or a device-managed surface.
 old-location: display\surfobj.htm
 tech.root: display
 ms.assetid: cee7cb50-1e8a-422b-aebe-7030ae96fb34
-
 ms.date: 12/05/2018
 ms.keywords: SURFOBJ, SURFOBJ structure [Display Devices], display.surfobj, grstrcts_ef22095d-660f-4276-9a10-1ce7451327fc.xml, winddi/SURFOBJ
 ms.topic: struct
-f1_keywords: 
- - "winddi/SURFOBJ"
+f1_keywords:
+- winddi/SURFOBJ
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - SURFOBJ
+- SURFOBJ
 targetos: Windows
 req.typenames: SURFOBJ
 req.redist: 

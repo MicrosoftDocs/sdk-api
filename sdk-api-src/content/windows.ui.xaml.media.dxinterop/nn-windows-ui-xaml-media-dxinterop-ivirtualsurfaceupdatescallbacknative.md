@@ -1,19 +1,17 @@
 ---
 UID: NN:windows.ui.xaml.media.dxinterop.IVirtualSurfaceUpdatesCallbackNative
 title: IVirtualSurfaceUpdatesCallbackNative (windows.ui.xaml.media.dxinterop.h)
-
 description: Provides an interface for the implementation of drawing behaviors when a VirtualSurfaceImageSource requests an update.
 old-location: winrt\ivirtualsurfaceupdatescallbacknative.htm
 tech.root: WinRT
 ms.assetid: 76B5E0B6-7DE4-41A4-B33B-2C6A32D47DB1
-
 ms.date: 12/05/2018
 ms.keywords: IVirtualSurfaceUpdatesCallbackNative, IVirtualSurfaceUpdatesCallbackNative interface [Windows Runtime], IVirtualSurfaceUpdatesCallbackNative interface [Windows Runtime],described, windows/IVirtualSurfaceUpdatesCallbackNative, winrt.ivirtualsurfaceupdatescallbacknative
 ms.topic: interface
-f1_keywords: 
- - "windows.ui.xaml.media.dxinterop/IVirtualSurfaceUpdatesCallbackNative"
+f1_keywords:
+- windows.ui.xaml.media.dxinterop/IVirtualSurfaceUpdatesCallbackNative
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Windows.UI.Xaml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.UI.Xaml.dll
+- Windows.UI.Xaml.dll
 api_name:
- - IVirtualSurfaceUpdatesCallbackNative
+- IVirtualSurfaceUpdatesCallbackNative
 targetos: Windows
 req.typenames: 
 req.redist: 

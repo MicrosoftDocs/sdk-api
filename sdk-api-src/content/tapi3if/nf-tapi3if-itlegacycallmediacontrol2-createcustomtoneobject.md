@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITLegacyCallMediaControl2.CreateCustomToneObject
 title: ITLegacyCallMediaControl2::CreateCustomToneObject (tapi3if.h)
-
 description: The CreateCustomToneObject method creates a custom tone object to use with the GenerateCustomTonesByCollection method.
 old-location: tapi3\itlegacycallmediacontrol2_createcustomtoneobject.htm
 tech.root: Tapi
 ms.assetid: addef387-9d92-4da3-af4c-b4d40bde2e36
-
 ms.date: 12/05/2018
 ms.keywords: CreateCustomToneObject, CreateCustomToneObject method [TAPI 2.2], CreateCustomToneObject method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],CreateCustomToneObject method, ITLegacyCallMediaControl2.CreateCustomToneObject, ITLegacyCallMediaControl2::CreateCustomToneObject, _tapi3_itlegacycallmediacontrol2_createcustomtoneobject, tapi3.itlegacycallmediacontrol2_createcustomtoneobject, tapi3if/ITLegacyCallMediaControl2::CreateCustomToneObject
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITLegacyCallMediaControl2.CreateCustomToneObject"
+f1_keywords:
+- tapi3if/ITLegacyCallMediaControl2.CreateCustomToneObject
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITLegacyCallMediaControl2.CreateCustomToneObject
+- ITLegacyCallMediaControl2.CreateCustomToneObject
 targetos: Windows
 req.typenames: 
 req.redist: 

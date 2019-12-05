@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.Edit_SetHilite
 title: Edit_SetHilite macro (commctrl.h)
-
 description: This macro is not implemented.
 old-location: controls\Edit_SetHilite.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_sethilite.htm
-
 ms.date: 12/05/2018
 ms.keywords: Edit_SetHilite, Edit_SetHilite macro [Windows Controls], _shell_Edit_SetHilite, _shell_Edit_SetHilite_cpp, commctrl/Edit_SetHilite, controls.Edit_SetHilite, controls._shell_Edit_SetHilite
 ms.topic: macro
-f1_keywords: 
- - "commctrl/Edit_SetHilite"
+f1_keywords:
+- commctrl/Edit_SetHilite
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - Edit_SetHilite
+- Edit_SetHilite
 targetos: Windows
 req.typenames: 
 req.redist: 

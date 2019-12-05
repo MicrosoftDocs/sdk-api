@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IServicePoolConfig.put_MinPoolSize
 title: IServicePoolConfig::put_MinPoolSize (comsvcs.h)
-
 description: Sets the minimum number of objects in the pool.
 old-location: cos\iservicepoolconfig_put_minpoolsize.htm
 tech.root: cossdk
 ms.assetid: 6280b4ed-704e-464e-bde2-64c1f2353730
-
 ms.date: 12/05/2018
 ms.keywords: IServicePoolConfig interface [COM+],put_MinPoolSize method, IServicePoolConfig.put_MinPoolSize, IServicePoolConfig::put_MinPoolSize, comsvcs/IServicePoolConfig::put_MinPoolSize, cos.iservicepoolconfig_put_minpoolsize, put_MinPoolSize, put_MinPoolSize method [COM+], put_MinPoolSize method [COM+],IServicePoolConfig interface
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IServicePoolConfig.put_MinPoolSize"
+f1_keywords:
+- comsvcs/IServicePoolConfig.put_MinPoolSize
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServicePoolConfig.put_MinPoolSize
+- IServicePoolConfig.put_MinPoolSize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:dxgi1_2.DXGI_OUTDUPL_FRAME_INFO
 title: DXGI_OUTDUPL_FRAME_INFO (dxgi1_2.h)
-
 description: The DXGI_OUTDUPL_FRAME_INFO structure describes the current desktop image.
 old-location: direct3ddxgi\dxgi_outdupl_frame_info.htm
 tech.root: direct3ddxgi
 ms.assetid: 2A5C6F99-0610-457D-9850-867DCDA8F293
-
 ms.date: 12/05/2018
 ms.keywords: DXGI_OUTDUPL_FRAME_INFO, DXGI_OUTDUPL_FRAME_INFO structure [DXGI], direct3ddxgi.dxgi_outdupl_frame_info, dxgi1_2/DXGI_OUTDUPL_FRAME_INFO
 ms.topic: struct
-f1_keywords: 
- - "dxgi1_2/DXGI_OUTDUPL_FRAME_INFO"
+f1_keywords:
+- dxgi1_2/DXGI_OUTDUPL_FRAME_INFO
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DXGI1_2.h
+- DXGI1_2.h
 api_name:
- - DXGI_OUTDUPL_FRAME_INFO
+- DXGI_OUTDUPL_FRAME_INFO
 targetos: Windows
 req.typenames: DXGI_OUTDUPL_FRAME_INFO
 req.redist: 

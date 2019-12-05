@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkTransform.get_eM21
 title: IInkTransform::get_eM21 (msinkaut.h)
-
 description: Gets or sets the element in the second row, first column of the affine transform matrix that is represented by an InkTransform object.
 old-location: tablet\inktransform_em21.htm
 tech.root: tablet
 ms.assetid: 66fd4f89-7e50-4594-9010-54baed20f2e6
-
 ms.date: 12/05/2018
 ms.keywords: 66fd4f89-7e50-4594-9010-54baed20f2e6, IInkTransform interface [Tablet PC],eM21 property, IInkTransform.eM21, IInkTransform.get_eM21, IInkTransform::eM21, IInkTransform::get_eM21, IInkTransform::put_eM21, InkTransform.get_eM21, InkTransform.put_eM21, eM21 property [Tablet PC], eM21 property [Tablet PC],IInkTransform interface, get_eM21, msinkaut/IInkTransform::eM21, msinkaut/IInkTransform::get_eM21, msinkaut/IInkTransform::put_eM21, put_eM21, tablet.inktransform_em21
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkTransform.eM21"
+f1_keywords:
+- msinkaut/IInkTransform.eM21
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkTransform.eM21
- - IInkTransform.get_eM21
- - IInkTransform.put_eM21
- - InkTransform.get_eM21
- - InkTransform.put_eM21
+- IInkTransform.eM21
+- IInkTransform.get_eM21
+- IInkTransform.put_eM21
+- InkTransform.get_eM21
+- InkTransform.put_eM21
 targetos: Windows
 req.typenames: 
 req.redist: 

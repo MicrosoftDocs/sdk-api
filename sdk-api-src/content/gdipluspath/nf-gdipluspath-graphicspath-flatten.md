@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.Flatten
 title: GraphicsPath::Flatten (gdipluspath.h)
-
 description: The GraphicsPath::Flatten method applies a transformation to this path and converts each curve in the path to a sequence of connected lines.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Flatten_matrix_flatness_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\flatten.htm
-
 ms.date: 12/05/2018
 ms.keywords: Flatten, Flatten method [GDI+], Flatten method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],Flatten method, GraphicsPath.Flatten, GraphicsPath::Flatten, _gdiplus_CLASS_GraphicsPath_Flatten_matrix_flatness_, gdiplus._gdiplus_CLASS_GraphicsPath_Flatten_matrix_flatness_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPath.Flatten"
+f1_keywords:
+- gdipluspath/GraphicsPath.Flatten
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPath.Flatten
+- GraphicsPath.Flatten
 targetos: Windows
 req.typenames: 
 req.redist: 

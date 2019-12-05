@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_IPV6Filter.GetMulticastList
 title: IBDA_IPV6Filter::GetMulticastList (bdaiface.h)
-
 description: The GetMulticastList method retrieves the list of multicast addresses on the Network Provider.
 old-location: mstv\ibda_ipv6filter_getmulticastlist.htm
 tech.root: mstv
 ms.assetid: 545c6bcb-f96c-47d7-ac33-92da016dbabf
-
 ms.date: 12/05/2018
 ms.keywords: GetMulticastList, GetMulticastList method [Microsoft TV Technologies], GetMulticastList method [Microsoft TV Technologies],IBDA_IPV6Filter interface, IBDA_IPV6Filter interface [Microsoft TV Technologies],GetMulticastList method, IBDA_IPV6Filter.GetMulticastList, IBDA_IPV6Filter::GetMulticastList, IBDA_IPV6FilterGetMulticastList, bdaiface/IBDA_IPV6Filter::GetMulticastList, mstv.ibda_ipv6filter_getmulticastlist
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_IPV6Filter.GetMulticastList"
+f1_keywords:
+- bdaiface/IBDA_IPV6Filter.GetMulticastList
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_IPV6Filter.GetMulticastList
+- IBDA_IPV6Filter.GetMulticastList
 targetos: Windows
 req.typenames: 
 req.redist: 

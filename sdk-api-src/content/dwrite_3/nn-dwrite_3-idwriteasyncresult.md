@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite_3.IDWriteAsyncResult
 title: IDWriteAsyncResult (dwrite_3.h)
-
 description: Represents the result of an asynchronous operation. A client can use the interface to wait for the operation to complete and to get the result.
 old-location: directwrite\idwriteasyncresult.htm
 tech.root: DirectWrite
 ms.assetid: 8F267213-EB98-4AD9-826A-7D4E34FEB3E4
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteAsyncResult, IDWriteAsyncResult interface [Direct Write], IDWriteAsyncResult interface [Direct Write],described, directwrite.idwriteasyncresult, dwrite_3/IDWriteAsyncResult
 ms.topic: interface
-f1_keywords: 
- - "dwrite_3/IDWriteAsyncResult"
+f1_keywords:
+- dwrite_3/IDWriteAsyncResult
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteAsyncResult
+- IDWriteAsyncResult
 targetos: Windows
 req.typenames: 
 req.redist: 

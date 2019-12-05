@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_GetGroupInfoByIndex
 title: ListView_GetGroupInfoByIndex macro (commctrl.h)
-
 description: Gets information on a specified group. Use this macro or send the LVM_GETGROUPINFOBYINDEX message explicitly.
 old-location: controls\ListView_GetGroupInfoByIndex.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgroupinfobyindex.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_GetGroupInfoByIndex, ListView_GetGroupInfoByIndex macro [Windows Controls], _shell_ListView_GetGroupInfoByIndex, _shell_ListView_GetGroupInfoByIndex_cpp, commctrl/ListView_GetGroupInfoByIndex, controls.ListView_GetGroupInfoByIndex, controls._shell_ListView_GetGroupInfoByIndex
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_GetGroupInfoByIndex"
+f1_keywords:
+- commctrl/ListView_GetGroupInfoByIndex
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_GetGroupInfoByIndex
+- ListView_GetGroupInfoByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

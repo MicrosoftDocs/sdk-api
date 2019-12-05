@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITextStoreACPServices.Unserialize
 title: ITextStoreACPServices::Unserialize (msctf.h)
-
 description: ITextStoreACPServices::Unserialize method
 old-location: tsf\itextstoreacpservices_unserialize.htm
 tech.root: TSF
 ms.assetid: 4eb2f2b9-51fb-4970-a195-c05e1d19ff99
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACPServices interface [Text Services Framework],Unserialize method, ITextStoreACPServices.Unserialize, ITextStoreACPServices::Unserialize, Unserialize, Unserialize method [Text Services Framework], Unserialize method [Text Services Framework],ITextStoreACPServices interface, _tsf_itextstoreacpservices_unserialize_ref, msctf/ITextStoreACPServices::Unserialize, tsf.itextstoreacpservices_unserialize
 ms.topic: method
-f1_keywords: 
- - "msctf/ITextStoreACPServices.Unserialize"
+f1_keywords:
+- msctf/ITextStoreACPServices.Unserialize
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreACPServices.Unserialize
+- ITextStoreACPServices.Unserialize
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

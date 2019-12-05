@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CertAlgIdToOID
 title: CertAlgIdToOID function (wincrypt.h)
-
 description: Converts a CryptoAPI algorithm identifier (ALG_ID) to an Abstract Syntax Notation One (ASN.1) object identifier (OID) string.
 old-location: security\certalgidtooid.htm
 tech.root: SecCrypto
 ms.assetid: 2a66c6da-22dd-4192-9f3d-2fb85f8032e0
-
 ms.date: 12/05/2018
 ms.keywords: CertAlgIdToOID, CertAlgIdToOID function [Security], _crypto2_certalgidtooid, security.certalgidtooid, wincrypt/CertAlgIdToOID
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertAlgIdToOID"
+f1_keywords:
+- wincrypt/CertAlgIdToOID
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertAlgIdToOID
+- CertAlgIdToOID
 targetos: Windows
 req.typenames: 
 req.redist: 

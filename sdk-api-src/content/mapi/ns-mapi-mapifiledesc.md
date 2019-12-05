@@ -1,19 +1,17 @@
 ---
 UID: NS:mapi.__unnamed_struct_0
 title: MapiFileDesc (mapi.h)
-
 description: A MapiFileDesc structure contains information about a file containing a message attachment stored as a temporary file.
 old-location: mapi\mapifiledesc.htm
 tech.root: WindowsMAPI
 ms.assetid: c2193551-85c3-4293-b632-d6c8ab84800a
-
 ms.date: 12/05/2018
-ms.keywords: "*lpMapiFileDesc, MAPI_OLE, MAPI_OLE_STATIC, MapiFileDesc, MapiFileDesc structure, lpMapiFileDesc, lpMapiFileDesc structure pointer, mapi.mapifiledesc, mapi/MapiFileDesc, mapi/lpMapiFileDesc"
+ms.keywords: '*lpMapiFileDesc, MAPI_OLE, MAPI_OLE_STATIC, MapiFileDesc, MapiFileDesc structure, lpMapiFileDesc, lpMapiFileDesc structure pointer, mapi.mapifiledesc, mapi/MapiFileDesc, mapi/lpMapiFileDesc'
 ms.topic: struct
-f1_keywords: 
- - "mapi/MapiFileDesc"
+f1_keywords:
+- mapi/MapiFileDesc
 dev_langs:
- - c++
+- c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mapi.h
+- Mapi.h
 api_name:
- - MapiFileDesc
+- MapiFileDesc
 targetos: Windows
 req.typenames: MapiFileDesc, *lpMapiFileDesc
 req.redist: 

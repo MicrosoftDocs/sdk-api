@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.StrFormatByteSize64A
 title: StrFormatByteSize64A function (shlwapi.h)
-
 description: Converts a numeric value into a string that represents the number expressed as a size value in bytes, kilobytes, megabytes, or gigabytes, depending on the size.
 old-location: shell\StrFormatByteSize64A.htm
 tech.root: shell
 ms.assetid: b56dd90a-7033-409b-a8ea-e81a7a8a2342
-
 ms.date: 12/05/2018
 ms.keywords: StrFormatByteSize64, StrFormatByteSize64 function [Windows Shell], StrFormatByteSize64A, _win32_StrFormatByteSize64A, shell.StrFormatByteSize64A, shlwapi/StrFormatByteSize64, shlwapi/StrFormatByteSize64A
 ms.topic: function
-f1_keywords: 
- - "shlwapi/StrFormatByteSize64"
+f1_keywords:
+- shlwapi/StrFormatByteSize64
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
+- Shlwapi.dll
 api_name:
- - StrFormatByteSize64
- - StrFormatByteSize64A
+- StrFormatByteSize64
+- StrFormatByteSize64A
 targetos: Windows
 req.typenames: 
 req.redist: 

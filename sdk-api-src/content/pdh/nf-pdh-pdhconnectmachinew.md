@@ -1,19 +1,17 @@
 ---
 UID: NF:pdh.PdhConnectMachineW
 title: PdhConnectMachineW function (pdh.h)
-
 description: Connects to the specified computer.
 old-location: perf\pdhconnectmachine.htm
 tech.root: perfctrs
 ms.assetid: 8f8b4651-b550-4b34-bb2f-d2497c56b572
-
 ms.date: 12/05/2018
 ms.keywords: PdhConnectMachine, PdhConnectMachine function [Perf], PdhConnectMachineA, PdhConnectMachineW, _win32_pdhconnectmachine, base.pdhconnectmachine, pdh/PdhConnectMachine, pdh/PdhConnectMachineA, pdh/PdhConnectMachineW, perf.pdhconnectmachine
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhConnectMachine"
+f1_keywords:
+- pdh/PdhConnectMachine
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhConnectMachine
- - PdhConnectMachineA
- - PdhConnectMachineW
+- PdhConnectMachine
+- PdhConnectMachineA
+- PdhConnectMachineW
 targetos: Windows
 req.typenames: 
 req.redist: 

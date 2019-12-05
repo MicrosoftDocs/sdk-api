@@ -1,19 +1,17 @@
 ---
 UID: NF:recapis.DestroyWordList
 title: DestroyWordList function (recapis.h)
-
 description: Destroys the current word list.
 old-location: tablet\destroywordlist.htm
 tech.root: tablet
 ms.assetid: 380e81a0-1df1-48b8-a582-a52badfc9ca6
-
 ms.date: 12/05/2018
 ms.keywords: 380e81a0-1df1-48b8-a582-a52badfc9ca6, DestroyWordList, DestroyWordList function [Tablet PC], recapis/DestroyWordList, tablet.destroywordlist
 ms.topic: function
-f1_keywords: 
- - "recapis/DestroyWordList"
+f1_keywords:
+- recapis/DestroyWordList
 dev_langs:
- - c++
+- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - recapis.h
+- recapis.h
 api_name:
- - DestroyWordList
+- DestroyWordList
 targetos: Windows
 req.typenames: 
 req.redist: 

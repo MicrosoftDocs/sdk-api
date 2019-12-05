@@ -1,19 +1,17 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.CompleteTime
 title: IInertiaProcessor::CompleteTime (manipulations.h)
-
 description: Finishes the current manipulation at the given tick, stops inertia on the inertia processor, and raises the ManipulationCompleted event.
 old-location: wintouch\iinertiaprocessor_completetime.htm
 tech.root: wintouch
 ms.assetid: 325e04c2-a477-43c7-9513-36a2a92eef8e
-
 ms.date: 12/05/2018
 ms.keywords: CompleteTime, CompleteTime method [Windows Touch], CompleteTime method [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],CompleteTime method, IInertiaProcessor.CompleteTime, IInertiaProcessor::CompleteTime, manipulations/IInertiaProcessor::CompleteTime, wintouch.iinertiaprocessor_completetime
 ms.topic: method
-f1_keywords: 
- - "manipulations/IInertiaProcessor.CompleteTime"
+f1_keywords:
+- manipulations/IInertiaProcessor.CompleteTime
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - IInertiaProcessor.CompleteTime
+- IInertiaProcessor.CompleteTime
 targetos: Windows
 req.typenames: 
 req.redist: 

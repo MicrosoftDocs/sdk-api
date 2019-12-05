@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.RectF.Inflate(IN REAL,IN REAL)
 title: RectF::Inflate (gdiplustypes.h)
-
 description: This topic lists the Inflate methods of the RectF class. For a complete list of methods for the RectF class, see RectF Methods.
 old-location: gdiplus\_gdiplus_CLASS_RectF_Inflate_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfinflatemethods.htm
-
 ms.date: 12/05/2018
 ms.keywords: Inflate, Inflate methods [GDI+], RectF.Inflate, RectF::Inflate, _gdiplus_CLASS_RectF_Inflate_Methods, gdiplus._gdiplus_CLASS_RectF_Inflate_Methods, gdiplustypes/Inflate
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/RectF.Inflate"
+f1_keywords:
+- gdiplustypes/RectF.Inflate
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - gdiplustypes.h
+- gdiplustypes.h
 api_name:
- - RectF.Inflate
+- RectF.Inflate
 targetos: Windows
 req.typenames: 
 req.redist: 

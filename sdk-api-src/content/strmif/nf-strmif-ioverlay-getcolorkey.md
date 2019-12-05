@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IOverlay.GetColorKey
 title: IOverlay::GetColorKey (strmif.h)
-
 description: The GetColorKey method retrieves the current color key used for chroma keying.
 old-location: dshow\ioverlay_getcolorkey.htm
 tech.root: DirectShow
 ms.assetid: fc9e414e-be53-46e7-b329-23f17fc23725
-
 ms.date: 12/05/2018
 ms.keywords: GetColorKey, GetColorKey method [DirectShow], GetColorKey method [DirectShow],IOverlay interface, IOverlay interface [DirectShow],GetColorKey method, IOverlay.GetColorKey, IOverlay::GetColorKey, IOverlayGetColorKey, dshow.ioverlay_getcolorkey, strmif/IOverlay::GetColorKey
 ms.topic: method
-f1_keywords: 
- - "strmif/IOverlay.GetColorKey"
+f1_keywords:
+- strmif/IOverlay.GetColorKey
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IOverlay.GetColorKey
+- IOverlay.GetColorKey
 targetos: Windows
 req.typenames: 
 req.redist: 

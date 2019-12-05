@@ -1,19 +1,17 @@
 ---
 UID: NE:mfidl._MFRATE_DIRECTION
 title: MFRATE_DIRECTION (mfidl.h)
-
 description: Specifies the direction of playback (forward or reverse).
 old-location: mf\mfrate_direction.htm
 tech.root: medfound
 ms.assetid: 34cc861c-ab15-48f4-bb6e-736b70383546
-
 ms.date: 12/05/2018
 ms.keywords: 34cc861c-ab15-48f4-bb6e-736b70383546, MFRATE_DIRECTION, MFRATE_DIRECTION enumeration [Media Foundation], MFRATE_FORWARD, MFRATE_REVERSE, mf.mfrate_direction, mfidl/MFRATE_DIRECTION, mfidl/MFRATE_FORWARD, mfidl/MFRATE_REVERSE
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MFRATE_DIRECTION"
+f1_keywords:
+- mfidl/MFRATE_DIRECTION
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MFRATE_DIRECTION
+- MFRATE_DIRECTION
 targetos: Windows
 req.typenames: MFRATE_DIRECTION
 req.redist: 

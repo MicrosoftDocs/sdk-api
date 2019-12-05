@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi.IJolietDiscMaster.GetJolietProperties
 title: IJolietDiscMaster::GetJolietProperties (imapi.h)
-
 description: Retrieves a pointer to an IPropertyStorage interface that contains the Joliet properties.
 old-location: imapi\ijolietdiscmaster_getjolietproperties.htm
 tech.root: imapi
 ms.assetid: 660657b3-b378-4c16-9294-89309e4da569
-
 ms.date: 12/05/2018
 ms.keywords: GetJolietProperties, GetJolietProperties method [IMAPI], GetJolietProperties method [IMAPI],IJolietDiscMaster interface, IJolietDiscMaster interface [IMAPI],GetJolietProperties method, IJolietDiscMaster.GetJolietProperties, IJolietDiscMaster::GetJolietProperties, _win32_ijolietdiscmaster_getjolietproperties, base.ijolietdiscmaster_getjolietproperties, imapi.ijolietdiscmaster_getjolietproperties, imapi/IJolietDiscMaster::GetJolietProperties
 ms.topic: method
-f1_keywords: 
- - "imapi/IJolietDiscMaster.GetJolietProperties"
+f1_keywords:
+- imapi/IJolietDiscMaster.GetJolietProperties
 dev_langs:
- - c++
+- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Actxprxy.dll
+- Actxprxy.dll
 api_name:
- - IJolietDiscMaster.GetJolietProperties
+- IJolietDiscMaster.GetJolietProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

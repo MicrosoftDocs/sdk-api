@@ -1,19 +1,17 @@
 ---
 UID: NN:wuapi.IUpdateServiceCollection
 title: IUpdateServiceCollection (wuapi.h)
-
 description: Represents a list of IUpdateService interfaces.
 old-location: wua\iupdateservicecollection.htm
 tech.root: Wua_Sdk
 ms.assetid: ae742fe2-c9f3-4116-b98a-3cf3906cfda2
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceCollection, IUpdateServiceCollection interface [Windows Update Agent], IUpdateServiceCollection interface [Windows Update Agent],described, wua.iupdateservicecollection, wuapi/IUpdateServiceCollection
 ms.topic: interface
-f1_keywords: 
- - "wuapi/IUpdateServiceCollection"
+f1_keywords:
+- wuapi/IUpdateServiceCollection
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateServiceCollection
+- IUpdateServiceCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

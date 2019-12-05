@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFMediaStreamSourceSampleRequest
 title: IMFMediaStreamSourceSampleRequest (mfidl.h)
-
 description: Represents a request for a sample from a MediaStreamSource.
 old-location: mf\imfmediastreamsourcesamplerequest.htm
 tech.root: medfound
 ms.assetid: 43617cda-84b1-405f-8a20-be793413c186
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaStreamSourceSampleRequest, IMFMediaStreamSourceSampleRequest interface [Media Foundation], IMFMediaStreamSourceSampleRequest interface [Media Foundation],described, mf.imfmediastreamsourcesamplerequest, mfidl/IMFMediaStreamSourceSampleRequest
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFMediaStreamSourceSampleRequest"
+f1_keywords:
+- mfidl/IMFMediaStreamSourceSampleRequest
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFMediaStreamSourceSampleRequest
+- IMFMediaStreamSourceSampleRequest
 targetos: Windows
 req.typenames: 
 req.redist: 

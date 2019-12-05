@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetPriority
 title: IBackgroundCopyJob::GetPriority (bits.h)
-
 description: Retrieves the priority level for the job. The priority level determines when the job is processed relative to other jobs in the transfer queue.
 old-location: bits\ibackgroundcopyjob_getpriority.htm
 tech.root: Bits
 ms.assetid: 8602ed59-a372-4cb3-bbda-cf1c7afc3669
-
 ms.date: 12/05/2018
 ms.keywords: GetPriority, GetPriority method [BITS], GetPriority method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetPriority method, IBackgroundCopyJob.GetPriority, IBackgroundCopyJob::GetPriority, _drz_ibackgroundcopyjob_getpriority, bits.ibackgroundcopyjob_getpriority, bits/IBackgroundCopyJob::GetPriority
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyJob.GetPriority"
+f1_keywords:
+- bits/IBackgroundCopyJob.GetPriority
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.GetPriority
+- IBackgroundCopyJob.GetPriority
 targetos: Windows
 req.typenames: 
 req.redist: 

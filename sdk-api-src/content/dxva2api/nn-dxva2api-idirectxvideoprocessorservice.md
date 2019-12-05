@@ -1,19 +1,17 @@
 ---
 UID: NN:dxva2api.IDirectXVideoProcessorService
 title: IDirectXVideoProcessorService (dxva2api.h)
-
 description: Provides access to DirectX Video Acceleration (DXVA) video processing services.
 old-location: mf\idirectxvideoprocessorservice.htm
 tech.root: medfound
 ms.assetid: fa33a9e9-4e91-4eb7-91c2-5b0c63ab7688
-
 ms.date: 12/05/2018
 ms.keywords: IDirectXVideoProcessorService, IDirectXVideoProcessorService interface [Media Foundation], IDirectXVideoProcessorService interface [Media Foundation],described, dxva2api/IDirectXVideoProcessorService, fa33a9e9-4e91-4eb7-91c2-5b0c63ab7688, mf.idirectxvideoprocessorservice
 ms.topic: interface
-f1_keywords: 
- - "dxva2api/IDirectXVideoProcessorService"
+f1_keywords:
+- dxva2api/IDirectXVideoProcessorService
 dev_langs:
- - c++
+- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - IDirectXVideoProcessorService
+- IDirectXVideoProcessorService
 targetos: Windows
 req.typenames: 
 req.redist: 

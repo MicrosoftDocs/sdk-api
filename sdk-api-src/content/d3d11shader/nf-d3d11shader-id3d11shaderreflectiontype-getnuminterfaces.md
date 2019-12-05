@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflectionType.GetNumInterfaces
 title: ID3D11ShaderReflectionType::GetNumInterfaces (d3d11shader.h)
-
 description: Gets the number of interfaces.
 old-location: direct3d11\id3d11shaderreflectiontype_getnuminterfaces.htm
 tech.root: direct3d11
 ms.assetid: d4f3d671-3f3b-4273-afef-9b0ddc61f83d
-
 ms.date: 12/05/2018
 ms.keywords: 79155c21-6096-6e00-a9ec-bc54062bd29f, GetNumInterfaces, GetNumInterfaces method [Direct3D 11], GetNumInterfaces method [Direct3D 11],ID3D11ShaderReflectionType interface, ID3D11ShaderReflectionType interface [Direct3D 11],GetNumInterfaces method, ID3D11ShaderReflectionType.GetNumInterfaces, ID3D11ShaderReflectionType::GetNumInterfaces, d3d11shader/ID3D11ShaderReflectionType::GetNumInterfaces, direct3d11.id3d11shaderreflectiontype_getnuminterfaces
 ms.topic: method
-f1_keywords: 
- - "d3d11shader/ID3D11ShaderReflectionType.GetNumInterfaces"
+f1_keywords:
+- d3d11shader/ID3D11ShaderReflectionType.GetNumInterfaces
 dev_langs:
- - c++
+- c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - ID3D11ShaderReflectionType.GetNumInterfaces
+- ID3D11ShaderReflectionType.GetNumInterfaces
 targetos: Windows
 req.typenames: 
 req.redist: 

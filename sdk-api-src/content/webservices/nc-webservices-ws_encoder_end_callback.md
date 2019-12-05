@@ -1,19 +1,17 @@
 ---
 UID: NC:webservices.WS_ENCODER_END_CALLBACK
 title: WS_ENCODER_END_CALLBACK (webservices.h)
-
 description: Encodes the end of a message.
 old-location: wsw\ws_encoder_end_callback.htm
 tech.root: wsw
 ms.assetid: ab0f88f7-e2b4-48e0-9041-ac4aa66f1575
-
 ms.date: 12/05/2018
 ms.keywords: WS_ENCODER_END_CALLBACK, WS_ENCODER_END_CALLBACK callback, WS_ENCODER_END_CALLBACK callback function [Web Services for Windows], webservices/WS_ENCODER_END_CALLBACK, wsw.ws_encoder_end_callback
 ms.topic: callback
-f1_keywords: 
- - "webservices/WS_ENCODER_END_CALLBACK"
+f1_keywords:
+- webservices/WS_ENCODER_END_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_ENCODER_END_CALLBACK
+- WS_ENCODER_END_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

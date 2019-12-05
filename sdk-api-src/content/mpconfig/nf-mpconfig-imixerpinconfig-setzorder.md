@@ -1,19 +1,17 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.SetZOrder
 title: IMixerPinConfig::SetZOrder (mpconfig.h)
-
 description: The SetZOrder method sets the z-order of a particular video stream.
 old-location: dshow\imixerpinconfig_setzorder.htm
 tech.root: DirectShow
 ms.assetid: fe8e71b8-9aaf-438e-b370-5ba9f131bf7a
-
 ms.date: 12/05/2018
 ms.keywords: IMixerPinConfig interface [DirectShow],SetZOrder method, IMixerPinConfig.SetZOrder, IMixerPinConfig::SetZOrder, IMixerPinConfigSetZOrder, SetZOrder, SetZOrder method [DirectShow], SetZOrder method [DirectShow],IMixerPinConfig interface, dshow.imixerpinconfig_setzorder, mpconfig/IMixerPinConfig::SetZOrder
 ms.topic: method
-f1_keywords: 
- - "mpconfig/IMixerPinConfig.SetZOrder"
+f1_keywords:
+- mpconfig/IMixerPinConfig.SetZOrder
 dev_langs:
- - c++
+- c++
 req.header: mpconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMixerPinConfig.SetZOrder
+- IMixerPinConfig.SetZOrder
 targetos: Windows
 req.typenames: 
 req.redist: 

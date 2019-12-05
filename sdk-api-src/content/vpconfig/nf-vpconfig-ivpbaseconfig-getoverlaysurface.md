@@ -1,19 +1,17 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.GetOverlaySurface
 title: IVPBaseConfig::GetOverlaySurface (vpconfig.h)
-
 description: The GetOverlaySurface method queries whether the caller should use the driver's overlay surface. If so, the method returns a pointer to the surface.
 old-location: dshow\ivpbaseconfig_getoverlaysurface.htm
 tech.root: DirectShow
 ms.assetid: a4d4b63f-b84c-4831-b16e-c0042b54a215
-
 ms.date: 12/05/2018
 ms.keywords: GetOverlaySurface, GetOverlaySurface method [DirectShow], GetOverlaySurface method [DirectShow],IVPBaseConfig interface, IVPBaseConfig interface [DirectShow],GetOverlaySurface method, IVPBaseConfig.GetOverlaySurface, IVPBaseConfig::GetOverlaySurface, IVPBaseConfigGetOverlaySurface, dshow.ivpbaseconfig_getoverlaysurface, vpconfig/IVPBaseConfig::GetOverlaySurface
 ms.topic: method
-f1_keywords: 
- - "vpconfig/IVPBaseConfig.GetOverlaySurface"
+f1_keywords:
+- vpconfig/IVPBaseConfig.GetOverlaySurface
 dev_langs:
- - c++
+- c++
 req.header: vpconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vpconfig.h
+- Vpconfig.h
 api_name:
- - IVPBaseConfig.GetOverlaySurface
+- IVPBaseConfig.GetOverlaySurface
 targetos: Windows
 req.typenames: 
 req.redist: 

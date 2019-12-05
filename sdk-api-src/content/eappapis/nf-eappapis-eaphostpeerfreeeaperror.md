@@ -1,19 +1,17 @@
 ---
 UID: NF:eappapis.EapHostPeerFreeEapError
 title: EapHostPeerFreeEapError function (eappapis.h)
-
 description: Frees EAP_ERROR structures returned by EAPHost run-time APIs.
 old-location: eaphost\eaphostpeerfreeeaperror.htm
 tech.root: eaphost
 ms.assetid: 36f9b5dd-821d-4cc5-a1dd-587098635d17
-
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerFreeEapError, EapHostPeerFreeEapError function [EAPHost], eaphost.eaphostpeerfreeeaperror, eappapis/EapHostPeerFreeEapError
 ms.topic: function
 f1_keywords:
 - eappapis/EapHostPeerFreeEapError
 dev_langs:
- - c++
+- c++
 req.header: eappapis.h
 req.include-header: 
 req.target-type: Windows

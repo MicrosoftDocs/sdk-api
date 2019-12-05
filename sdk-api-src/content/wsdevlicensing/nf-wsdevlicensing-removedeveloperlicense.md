@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdevlicensing.RemoveDeveloperLicense
 title: RemoveDeveloperLicense function (wsdevlicensing.h)
-
 description: Removes a developer license.
 old-location: devlic\removedeveloperlicense.htm
 tech.root: devlic
 ms.assetid: C75F8B6E-EAFB-48E2-93B1-CEC1A1FF5FC0
-
 ms.date: 12/05/2018
 ms.keywords: RemoveDeveloperLicense, RemoveDeveloperLicense function, devlic.removedeveloperlicense, wsdevlicensing/RemoveDeveloperLicense
 ms.topic: function
-f1_keywords: 
- - "wsdevlicensing/RemoveDeveloperLicense"
+f1_keywords:
+- wsdevlicensing/RemoveDeveloperLicense
 dev_langs:
- - c++
+- c++
 req.header: wsdevlicensing.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: WSClient.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WSClient.dll
+- WSClient.dll
 api_name:
- - RemoveDeveloperLicense
+- RemoveDeveloperLicense
 targetos: Windows
 req.typenames: 
 req.redist: 

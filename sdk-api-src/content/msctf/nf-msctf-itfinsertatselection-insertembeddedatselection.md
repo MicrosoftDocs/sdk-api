@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfInsertAtSelection.InsertEmbeddedAtSelection
 title: ITfInsertAtSelection::InsertEmbeddedAtSelection (msctf.h)
-
 description: The ITfInsertAtSelection::InsertEmbeddedAtSelection method inserts an IDataObject object at the selection or insertion point.
 old-location: tsf\itfinsertatselection_insertembeddedatselection.htm
 tech.root: TSF
 ms.assetid: 13fa9955-0087-4dd9-8a1d-814ab801e956
-
 ms.date: 12/05/2018
 ms.keywords: ITfInsertAtSelection interface [Text Services Framework],InsertEmbeddedAtSelection method, ITfInsertAtSelection.InsertEmbeddedAtSelection, ITfInsertAtSelection::InsertEmbeddedAtSelection, InsertEmbeddedAtSelection, InsertEmbeddedAtSelection method [Text Services Framework], InsertEmbeddedAtSelection method [Text Services Framework],ITfInsertAtSelection interface, _tsf_itfinsertatselection_insertembeddedatselection_ref, msctf/ITfInsertAtSelection::InsertEmbeddedAtSelection, tsf.itfinsertatselection_insertembeddedatselection
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfInsertAtSelection.InsertEmbeddedAtSelection"
+f1_keywords:
+- msctf/ITfInsertAtSelection.InsertEmbeddedAtSelection
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfInsertAtSelection.InsertEmbeddedAtSelection
+- ITfInsertAtSelection.InsertEmbeddedAtSelection
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

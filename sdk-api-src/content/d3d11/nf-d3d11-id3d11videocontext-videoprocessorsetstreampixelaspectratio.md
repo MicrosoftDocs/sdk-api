@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamPixelAspectRatio
 title: ID3D11VideoContext::VideoProcessorSetStreamPixelAspectRatio (d3d11.h)
-
 description: Sets the pixel aspect ratio for an input stream on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorsetstreampixelaspectratio.htm
 tech.root: medfound
 ms.assetid: 4205F6F0-4AF3-42B1-8636-64FCFC865856
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamPixelAspectRatio method, ID3D11VideoContext.VideoProcessorSetStreamPixelAspectRatio, ID3D11VideoContext::VideoProcessorSetStreamPixelAspectRatio, VideoProcessorSetStreamPixelAspectRatio, VideoProcessorSetStreamPixelAspectRatio method [Media Foundation], VideoProcessorSetStreamPixelAspectRatio method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamPixelAspectRatio, mf.id3d11videocontext_videoprocessorsetstreampixelaspectratio
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoContext.VideoProcessorSetStreamPixelAspectRatio"
+f1_keywords:
+- d3d11/ID3D11VideoContext.VideoProcessorSetStreamPixelAspectRatio
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoContext.VideoProcessorSetStreamPixelAspectRatio
+- ID3D11VideoContext.VideoProcessorSetStreamPixelAspectRatio
 targetos: Windows
 req.typenames: 
 req.redist: 

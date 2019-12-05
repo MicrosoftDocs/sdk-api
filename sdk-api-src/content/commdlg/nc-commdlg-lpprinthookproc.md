@@ -1,19 +1,17 @@
 ---
 UID: NC:commdlg.LPPRINTHOOKPROC
 title: LPPRINTHOOKPROC (commdlg.h)
-
 description: Receives messages or notifications intended for the default dialog box procedure of the Print dialog box. This is an application-defined or library-defined callback function that is used with the PrintDlg function.
 old-location: dlgbox\printhookproc.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\printhookproc.htm
-
 ms.date: 12/05/2018
 ms.keywords: LPPRINTHOOKPROC, LPPRINTHOOKPROC callback, LPPRINTHOOKPROC callback function [Dialog Boxes], _win32_PrintHookProc, _win32_printhookproc_cpp, commdlg/LPPRINTHOOKPROC, dlgbox.printhookproc, winui._win32_printhookproc
 ms.topic: callback
-f1_keywords: 
- - "commdlg/LPPRINTHOOKPROC"
+f1_keywords:
+- commdlg/LPPRINTHOOKPROC
 dev_langs:
- - c++
+- c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Commdlg.h
+- Commdlg.h
 api_name:
- - LPPRINTHOOKPROC
+- LPPRINTHOOKPROC
 targetos: Windows
 req.typenames: 
 req.redist: 

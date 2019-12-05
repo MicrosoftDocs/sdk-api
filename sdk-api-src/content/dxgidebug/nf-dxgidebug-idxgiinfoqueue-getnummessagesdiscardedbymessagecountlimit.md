@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetNumMessagesDiscardedByMessageCountLimit
 title: IDXGIInfoQueue::GetNumMessagesDiscardedByMessageCountLimit (dxgidebug.h)
-
 description: Gets the number of messages that were discarded due to the message count limit.
 old-location: direct3ddxgi\idxgiinfoqueue_getnummessagesdiscardedbymessagecountlimit.htm
 tech.root: direct3ddxgi
 ms.assetid: 8F97E69B-5534-409F-9702-9FC6D7940D65
-
 ms.date: 12/05/2018
 ms.keywords: GetNumMessagesDiscardedByMessageCountLimit, GetNumMessagesDiscardedByMessageCountLimit method [DXGI], GetNumMessagesDiscardedByMessageCountLimit method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetNumMessagesDiscardedByMessageCountLimit method, IDXGIInfoQueue.GetNumMessagesDiscardedByMessageCountLimit, IDXGIInfoQueue::GetNumMessagesDiscardedByMessageCountLimit, direct3ddxgi.idxgiinfoqueue_getnummessagesdiscardedbymessagecountlimit, dxgidebug/IDXGIInfoQueue::GetNumMessagesDiscardedByMessageCountLimit
 ms.topic: method
-f1_keywords: 
- - "dxgidebug/IDXGIInfoQueue.GetNumMessagesDiscardedByMessageCountLimit"
+f1_keywords:
+- dxgidebug/IDXGIInfoQueue.GetNumMessagesDiscardedByMessageCountLimit
 dev_langs:
- - c++
+- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DXGIDebug.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGIDebug.dll
+- DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue.GetNumMessagesDiscardedByMessageCountLimit
+- IDXGIInfoQueue.GetNumMessagesDiscardedByMessageCountLimit
 targetos: Windows
 req.typenames: 
 req.redist: 

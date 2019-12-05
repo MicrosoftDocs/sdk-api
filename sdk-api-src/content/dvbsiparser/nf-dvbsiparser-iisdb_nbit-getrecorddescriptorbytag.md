@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_NBIT.GetRecordDescriptorByTag
 title: IISDB_NBIT::GetRecordDescriptorByTag (dvbsiparser.h)
-
 description: Gets a descriptor from a record in an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT) by using the standard tag for the descriptor.
 old-location: mstv\iisdb_nbit_getrecorddescriptorbytag.htm
 tech.root: mstv
 ms.assetid: baec7c6a-67a7-4081-96ee-3cb35a72ff4e
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordDescriptorByTag, GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetRecordDescriptorByTag method, IISDB_NBIT.GetRecordDescriptorByTag, IISDB_NBIT::GetRecordDescriptorByTag, dvbsiparser/IISDB_NBIT::GetRecordDescriptorByTag, mstv.iisdb_nbit_getrecorddescriptorbytag
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_NBIT.GetRecordDescriptorByTag"
+f1_keywords:
+- dvbsiparser/IISDB_NBIT.GetRecordDescriptorByTag
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_NBIT.GetRecordDescriptorByTag
+- IISDB_NBIT.GetRecordDescriptorByTag
 targetos: Windows
 req.typenames: 
 req.redist: 

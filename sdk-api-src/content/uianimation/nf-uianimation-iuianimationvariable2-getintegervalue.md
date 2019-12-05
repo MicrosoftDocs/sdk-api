@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.GetIntegerValue
 title: IUIAnimationVariable2::GetIntegerValue (uianimation.h)
-
 description: Gets the integer value of the animation variable.
 old-location: uianimation\iuianimationvariable2_getintegervalue.htm
 tech.root: UIAnimation
 ms.assetid: C878B86A-87AD-457A-802A-9A329B401B08
-
 ms.date: 12/05/2018
 ms.keywords: GetIntegerValue, GetIntegerValue method [Windows Animation], GetIntegerValue method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetIntegerValue method, IUIAnimationVariable2.GetIntegerValue, IUIAnimationVariable2::GetIntegerValue, uianimation.iuianimationvariable2_getintegervalue, uianimation/IUIAnimationVariable2::GetIntegerValue
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationVariable2.GetIntegerValue"
+f1_keywords:
+- uianimation/IUIAnimationVariable2.GetIntegerValue
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationVariable2.GetIntegerValue
+- IUIAnimationVariable2.GetIntegerValue
 targetos: Windows
 req.typenames: 
 req.redist: 

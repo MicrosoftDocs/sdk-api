@@ -1,19 +1,17 @@
 ---
 UID: NS:spatialaudiohrtf.SpatialAudioHrtfDirectivityCone
 title: SpatialAudioHrtfDirectivityCone (spatialaudiohrtf.h)
-
 description: Represents a cone-shaped directivity model for an ISpatialAudioObjectForHrtf.
 old-location: coreaudio\spatialaudiohrtfdirectivitycone.htm
 tech.root: CoreAudio
 ms.assetid: C34F26C2-4979-4C06-8EAC-64547745238F
-
 ms.date: 12/05/2018
 ms.keywords: PSpatialAudioHrtfDirectivityCone, PSpatialAudioHrtfDirectivityCone structure pointer [Core Audio], SpatialAudioHrtfDirectivityCone, SpatialAudioHrtfDirectivityCone structure [Core Audio], coreaudio.spatialaudiohrtfdirectivitycone, spatialaudiohrtf/PSpatialAudioHrtfDirectivityCone, spatialaudiohrtf/SpatialAudioHrtfDirectivityCone
 ms.topic: struct
-f1_keywords: 
- - "spatialaudiohrtf/SpatialAudioHrtfDirectivityCone"
+f1_keywords:
+- spatialaudiohrtf/SpatialAudioHrtfDirectivityCone
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - spatialaudiohrtf.h
+- spatialaudiohrtf.h
 api_name:
- - SpatialAudioHrtfDirectivityCone
+- SpatialAudioHrtfDirectivityCone
 targetos: Windows
 req.typenames: SpatialAudioHrtfDirectivityCone
 req.redist: 

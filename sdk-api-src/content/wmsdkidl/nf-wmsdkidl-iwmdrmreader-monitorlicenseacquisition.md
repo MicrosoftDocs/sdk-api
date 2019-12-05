@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader.MonitorLicenseAcquisition
 title: IWMDRMReader::MonitorLicenseAcquisition (wmsdkidl.h)
-
 description: The MonitorLicenseAcquisition method, in non-silent license acquisition, informs the application when a license has been successfully acquired.
 old-location: wmformat\iwmdrmreader_monitorlicenseacquisition.htm
 tech.root: wmformat
 ms.assetid: 0b15dce6-7591-479a-b28e-5006418a1c7b
-
 ms.date: 12/05/2018
 ms.keywords: IWMDRMReader interface [windows Media Format],MonitorLicenseAcquisition method, IWMDRMReader.MonitorLicenseAcquisition, IWMDRMReader::MonitorLicenseAcquisition, IWMDRMReaderMonitorLicenseAcquisition, MonitorLicenseAcquisition, MonitorLicenseAcquisition method [windows Media Format], MonitorLicenseAcquisition method [windows Media Format],IWMDRMReader interface, wmformat.iwmdrmreader_monitorlicenseacquisition, wmsdkidl/IWMDRMReader::MonitorLicenseAcquisition
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMDRMReader.MonitorLicenseAcquisition"
+f1_keywords:
+- wmsdkidl/IWMDRMReader.MonitorLicenseAcquisition
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMStubDRM.lib
- - WMStubDRM.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMDRMReader.MonitorLicenseAcquisition
+- IWMDRMReader.MonitorLicenseAcquisition
 targetos: Windows
 req.typenames: 
 req.redist: 

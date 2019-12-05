@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetPageScale
 title: Graphics::GetPageScale (gdiplusgraphics.h)
-
 description: The Graphics::GetPageScale method gets the scaling factor currently set for the page transformation of this Graphics object. The page transformation converts page coordinates to device coordinates.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetPageScale_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getpagescale.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetPageScale, GetPageScale method [GDI+], GetPageScale method [GDI+],Graphics class, Graphics class [GDI+],GetPageScale method, Graphics.GetPageScale, Graphics::GetPageScale, _gdiplus_CLASS_Graphics_GetPageScale_, gdiplus._gdiplus_CLASS_Graphics_GetPageScale_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.GetPageScale"
+f1_keywords:
+- gdiplusgraphics/Graphics.GetPageScale
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.GetPageScale
+- Graphics.GetPageScale
 targetos: Windows
 req.typenames: 
 req.redist: 

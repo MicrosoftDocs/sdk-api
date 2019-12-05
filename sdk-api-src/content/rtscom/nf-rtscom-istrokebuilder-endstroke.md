@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IStrokeBuilder.EndStroke
 title: IStrokeBuilder::EndStroke (rtscom.h)
-
 description: Ends a stroke and returns the stroke object.
 old-location: tablet\istrokebuilder_endstroke.htm
 tech.root: tablet
 ms.assetid: a535cd20-d24a-4044-a757-fb2b593650b9
-
 ms.date: 12/05/2018
 ms.keywords: EndStroke, EndStroke method [Tablet PC], EndStroke method [Tablet PC],IStrokeBuilder interface, IStrokeBuilder interface [Tablet PC],EndStroke method, IStrokeBuilder.EndStroke, IStrokeBuilder::EndStroke, a535cd20-d24a-4044-a757-fb2b593650b9, rtscom/IStrokeBuilder::EndStroke, tablet.istrokebuilder_endstroke
 ms.topic: method
-f1_keywords: 
- - "rtscom/IStrokeBuilder.EndStroke"
+f1_keywords:
+- rtscom/IStrokeBuilder.EndStroke
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IStrokeBuilder.EndStroke
+- IStrokeBuilder.EndStroke
 targetos: Windows
 req.typenames: 
 req.redist: 

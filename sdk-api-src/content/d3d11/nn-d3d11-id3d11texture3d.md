@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11.ID3D11Texture3D
 title: ID3D11Texture3D (d3d11.h)
-
 description: A 3D texture interface accesses texel data, which is structured memory.
 old-location: direct3d11\id3d11texture3d.htm
 tech.root: direct3d11
 ms.assetid: 178d4ac4-c71f-40cb-bcaf-45ca96b36350
-
 ms.date: 12/05/2018
 ms.keywords: 28ce947f-3bc9-9f8f-f8e7-667b8d30bf8e, ID3D11Texture3D, ID3D11Texture3D interface [Direct3D 11], ID3D11Texture3D interface [Direct3D 11],described, d3d11/ID3D11Texture3D, direct3d11.id3d11texture3d
 ms.topic: interface
-f1_keywords: 
- - "d3d11/ID3D11Texture3D"
+f1_keywords:
+- d3d11/ID3D11Texture3D
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Texture3D
+- ID3D11Texture3D
 targetos: Windows
 req.typenames: 
 req.redist: 

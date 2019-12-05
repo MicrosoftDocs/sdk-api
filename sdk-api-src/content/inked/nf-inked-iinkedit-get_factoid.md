@@ -1,19 +1,17 @@
 ---
 UID: NF:inked.IInkEdit.get_Factoid
 title: IInkEdit::get_Factoid (inked.h)
-
 description: Gets or sets the Factoid constant that a IInkRecognizer object uses to constrain its search for the recognition result.
 old-location: tablet\inkedit_factoid.htm
 tech.root: tablet
 ms.assetid: 150325e4-dd8b-4abf-baa6-f0fda05d2fd9
-
 ms.date: 12/05/2018
 ms.keywords: 150325e4-dd8b-4abf-baa6-f0fda05d2fd9, Factoid property [Tablet PC], Factoid property [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],Factoid property, IInkEdit.Factoid, IInkEdit.get_Factoid, IInkEdit::Factoid, IInkEdit::get_Factoid, IInkEdit::put_Factoid, InkEdit.get_Factoid, InkEdit.put_Factoid, get_Factoid, inked/IInkEdit::Factoid, inked/IInkEdit::get_Factoid, inked/IInkEdit::put_Factoid, put_Factoid, tablet.inkedit_factoid
 ms.topic: method
-f1_keywords: 
- - "inked/IInkEdit.Factoid"
+f1_keywords:
+- inked/IInkEdit.Factoid
 dev_langs:
- - c++
+- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkEd.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkEd.dll
- - InkEd.dll.dll
+- InkEd.dll
+- InkEd.dll.dll
 api_name:
- - IInkEdit.Factoid
- - IInkEdit.get_Factoid
- - IInkEdit.put_Factoid
- - InkEdit.get_Factoid
- - InkEdit.put_Factoid
+- IInkEdit.Factoid
+- IInkEdit.get_Factoid
+- IInkEdit.put_Factoid
+- InkEdit.get_Factoid
+- InkEdit.put_Factoid
 targetos: Windows
 req.typenames: 
 req.redist: 

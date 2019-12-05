@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDDrawExclModeVideo.GetDDrawSurface
 title: IDDrawExclModeVideo::GetDDrawSurface (strmif.h)
-
 description: The GetDDrawSurface method retrieves the DirectDraw surface being used by the Overlay Mixer.
 old-location: dshow\iddrawexclmodevideo_getddrawsurface.htm
 tech.root: DirectShow
 ms.assetid: 0fb29af3-5f6f-4502-8785-72c64f72fec4
-
 ms.date: 12/05/2018
 ms.keywords: GetDDrawSurface, GetDDrawSurface method [DirectShow], GetDDrawSurface method [DirectShow],IDDrawExclModeVideo interface, IDDrawExclModeVideo interface [DirectShow],GetDDrawSurface method, IDDrawExclModeVideo.GetDDrawSurface, IDDrawExclModeVideo::GetDDrawSurface, IDDrawExclModeVideoGetDDrawSurface, dshow.iddrawexclmodevideo_getddrawsurface, strmif/IDDrawExclModeVideo::GetDDrawSurface
 ms.topic: method
-f1_keywords: 
- - "strmif/IDDrawExclModeVideo.GetDDrawSurface"
+f1_keywords:
+- strmif/IDDrawExclModeVideo.GetDDrawSurface
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDDrawExclModeVideo.GetDDrawSurface
+- IDDrawExclModeVideo.GetDDrawSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

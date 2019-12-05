@@ -1,19 +1,17 @@
 ---
 UID: NE:xamlom.VisualMutationType
 title: VisualMutationType (xamlom.h)
-
 description: Defines constants that specify whether the element was added to or removed from the live visual tree.
 old-location: xaml_diagnostics\visualmutationtype.htm
 tech.root: xaml_diagnostics
 ms.assetid: 9DAABF59-AC88-4B14-A7F1-470D4C0879FF
-
 ms.date: 12/05/2018
 ms.keywords: Add, Remove, VisualMutationType, VisualMutationType enumeration, xaml_diagnostics.visualmutationtype, xamlom/Add, xamlom/Remove, xamlom/VisualMutationType
 ms.topic: enum
-f1_keywords: 
- - "xamlom/VisualMutationType"
+f1_keywords:
+- xamlom/VisualMutationType
 dev_langs:
- - c++
+- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xamlom.h
+- xamlom.h
 api_name:
- - VisualMutationType
+- VisualMutationType
 targetos: Windows
 req.typenames: VisualMutationType
 req.redist: 

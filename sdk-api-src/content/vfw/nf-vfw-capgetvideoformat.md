@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.capGetVideoFormat
 title: capGetVideoFormat macro (vfw.h)
-
 description: The capGetVideoFormat macro retrieves a copy of the video format in use. You can use this macro or explicitly call the WM_CAP_GET_VIDEOFORMAT message.
 old-location: multimedia\capgetvideoformat.htm
 tech.root: Multimedia
 ms.assetid: 2013bf9c-3759-440a-a62c-2ba3c54441c1
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_capGetVideoFormat, capGetVideoFormat, capGetVideoFormat macro [Windows Multimedia], multimedia.capgetvideoformat, vfw/capGetVideoFormat"
+ms.keywords: _win32_capGetVideoFormat, capGetVideoFormat, capGetVideoFormat macro [Windows Multimedia], multimedia.capgetvideoformat, vfw/capGetVideoFormat
 ms.topic: macro
-f1_keywords: 
- - "vfw/capGetVideoFormat"
+f1_keywords:
+- vfw/capGetVideoFormat
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - capGetVideoFormat
+- capGetVideoFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

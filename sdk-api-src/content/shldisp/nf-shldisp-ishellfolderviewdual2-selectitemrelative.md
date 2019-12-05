@@ -1,19 +1,17 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual2.SelectItemRelative
 title: IShellFolderViewDual2::SelectItemRelative (shldisp.h)
-
 description: Selects an item relative to the current item.
 old-location: shell\IShellFolderViewDual2_SelectItemRelative.htm
 tech.root: shell
 ms.assetid: 421a039e-49d6-4a93-958a-48c7e847fa6b
-
 ms.date: 12/05/2018
 ms.keywords: IShellFolderViewDual2 interface [Windows Shell],SelectItemRelative method, IShellFolderViewDual2.SelectItemRelative, IShellFolderViewDual2::SelectItemRelative, SelectItemRelative, SelectItemRelative method [Windows Shell], SelectItemRelative method [Windows Shell],IShellFolderViewDual2 interface, _shell_IShellFolderViewDual2_SelectItemRelative, shell.IShellFolderViewDual2_SelectItemRelative, shldisp/IShellFolderViewDual2::SelectItemRelative
 ms.topic: method
-f1_keywords: 
- - "shldisp/IShellFolderViewDual2.SelectItemRelative"
+f1_keywords:
+- shldisp/IShellFolderViewDual2.SelectItemRelative
 dev_langs:
- - c++
+- c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shldisp.h
+- Shldisp.h
 api_name:
- - IShellFolderViewDual2.SelectItemRelative
+- IShellFolderViewDual2.SelectItemRelative
 targetos: Windows
 req.typenames: 
 req.redist: 

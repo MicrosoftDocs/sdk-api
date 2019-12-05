@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPDescriptionDocumentCallback.LoadComplete
 title: IUPnPDescriptionDocumentCallback::LoadComplete (upnp.h)
-
 description: The LoadComplete method is invoked when the UPnP framework has finished loading a device description.
 old-location: upnp\iupnpdescriptiondocumentcallback_loadcomplete.htm
 tech.root: upnp
 ms.assetid: 899b1aa4-597c-4434-80cc-2ea22759fbc8
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPDescriptionDocumentCallback interface [UPnP APIs],LoadComplete method, IUPnPDescriptionDocumentCallback.LoadComplete, IUPnPDescriptionDocumentCallback::LoadComplete, LoadComplete, LoadComplete method [UPnP APIs], LoadComplete method [UPnP APIs],IUPnPDescriptionDocumentCallback interface, UPNP_E_DEVICE_ELEMENT_EXPECTED, UPNP_E_DEVICE_NODE_INCOMPLETE, UPNP_E_ICON_ELEMENT_EXPECTED, UPNP_E_ICON_NODE_INCOMPLETE, UPNP_E_ROOT_ELEMENT_EXPECTED, UPNP_E_SERVICE_ELEMENT_EXPECTED, UPNP_E_SERVICE_NODE_INCOMPLETE, _upnp_iupnpdescriptiondocumentcallback_loadcomplete, upnp.iupnpdescriptiondocumentcallback_loadcomplete, upnp/IUPnPDescriptionDocumentCallback::LoadComplete
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPDescriptionDocumentCallback.LoadComplete"
+f1_keywords:
+- upnp/IUPnPDescriptionDocumentCallback.LoadComplete
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPDescriptionDocumentCallback.LoadComplete
+- IUPnPDescriptionDocumentCallback.LoadComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

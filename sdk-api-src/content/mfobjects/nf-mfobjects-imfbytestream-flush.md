@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFByteStream.Flush
 title: IMFByteStream::Flush (mfobjects.h)
-
 description: Clears any internal buffers used by the stream. If you are writing to the stream, the buffered data is written to the underlying file or device.
 old-location: mf\imfbytestream_flush.htm
 tech.root: medfound
 ms.assetid: 16ea6c38-52f3-405e-8a8f-be5d0527099c
-
 ms.date: 12/05/2018
 ms.keywords: 16ea6c38-52f3-405e-8a8f-be5d0527099c, Flush, Flush method [Media Foundation], Flush method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],Flush method, IMFByteStream.Flush, IMFByteStream::Flush, mf.imfbytestream_flush, mfobjects/IMFByteStream::Flush
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFByteStream.Flush"
+f1_keywords:
+- mfobjects/IMFByteStream.Flush
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFByteStream.Flush
+- IMFByteStream.Flush
 targetos: Windows
 req.typenames: 
 req.redist: 

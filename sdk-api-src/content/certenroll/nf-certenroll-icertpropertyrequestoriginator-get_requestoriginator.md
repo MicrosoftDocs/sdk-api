@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICertPropertyRequestOriginator.get_RequestOriginator
 title: ICertPropertyRequestOriginator::get_RequestOriginator (certenroll.h)
-
 description: Retrieves a string that contains the DNS name of the originating computer.
 old-location: security\icertpropertyrequestoriginator_requestoriginator_property.htm
 tech.root: seccertenroll
 ms.assetid: 0ac6b8da-9183-4683-a172-a9742b40da64
-
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyRequestOriginator interface [Security],RequestOriginator property, ICertPropertyRequestOriginator.RequestOriginator, ICertPropertyRequestOriginator.get_RequestOriginator, ICertPropertyRequestOriginator::RequestOriginator, ICertPropertyRequestOriginator::get_RequestOriginator, RequestOriginator property [Security], RequestOriginator property [Security],ICertPropertyRequestOriginator interface, certenroll/ICertPropertyRequestOriginator::RequestOriginator, certenroll/ICertPropertyRequestOriginator::get_RequestOriginator, get_RequestOriginator, security.icertpropertyrequestoriginator_requestoriginator_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICertPropertyRequestOriginator.RequestOriginator"
+f1_keywords:
+- certenroll/ICertPropertyRequestOriginator.RequestOriginator
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertPropertyRequestOriginator.RequestOriginator
- - ICertPropertyRequestOriginator.get_RequestOriginator
+- ICertPropertyRequestOriginator.RequestOriginator
+- ICertPropertyRequestOriginator.get_RequestOriginator
 targetos: Windows
 req.typenames: 
 req.redist: 

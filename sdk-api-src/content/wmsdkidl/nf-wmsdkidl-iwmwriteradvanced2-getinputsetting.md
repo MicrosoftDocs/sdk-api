@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced2.GetInputSetting
 title: IWMWriterAdvanced2::GetInputSetting (wmsdkidl.h)
-
 description: The GetInputSetting method retrieves a setting for a particular input by name.
 old-location: wmformat\iwmwriteradvanced2_getinputsetting.htm
 tech.root: wmformat
 ms.assetid: 3aea0bc6-94e7-41ab-aec3-7366f183bb01
-
 ms.date: 12/05/2018
 ms.keywords: GetInputSetting, GetInputSetting method [windows Media Format], GetInputSetting method [windows Media Format],IWMWriterAdvanced2 interface, IWMWriterAdvanced2 interface [windows Media Format],GetInputSetting method, IWMWriterAdvanced2.GetInputSetting, IWMWriterAdvanced2::GetInputSetting, IWMWriterAdvanced2GetInputSetting, wmformat.iwmwriteradvanced2_getinputsetting, wmsdkidl/IWMWriterAdvanced2::GetInputSetting
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterAdvanced2.GetInputSetting"
+f1_keywords:
+- wmsdkidl/IWMWriterAdvanced2.GetInputSetting
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterAdvanced2.GetInputSetting
+- IWMWriterAdvanced2.GetInputSetting
 targetos: Windows
 req.typenames: 
 req.redist: 

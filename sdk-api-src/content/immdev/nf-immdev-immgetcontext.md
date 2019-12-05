@@ -1,19 +1,17 @@
 ---
 UID: NF:immdev.ImmGetContext
 title: ImmGetContext function (immdev.h)
-
 description: Returns the input context associated with the specified window.
 old-location: intl\immgetcontext.htm
 tech.root: Intl
 ms.assetid: 2b7502ac-fa1e-4104-a7ad-051303131a73
-
 ms.date: 12/05/2018
 ms.keywords: ImmGetContext, ImmGetContext function [Internationalization for Windows Applications], _win32_ImmGetContext, imm/ImmGetContext, intl.immgetcontext
 ms.topic: function
-f1_keywords: 
- - "immdev/ImmGetContext"
+f1_keywords:
+- immdev/ImmGetContext
 dev_langs:
- - c++
+- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imm32.dll
- - Ext-MS-Win-imm-l1-1-0.dll
- - ext-ms-win-imm-l1-1-1.dll
+- Imm32.dll
+- Ext-MS-Win-imm-l1-1-0.dll
+- ext-ms-win-imm-l1-1-1.dll
 api_name:
- - ImmGetContext
+- ImmGetContext
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:mbnapi.MBN_SMS_FORMAT
 title: MBN_SMS_FORMAT (mbnapi.h)
-
 description: Format of SMS messages.
 old-location: mbn\mbn_sms_format.htm
 tech.root: mbn
 ms.assetid: ece079e2-43a2-4ca9-9aa7-1b9484f0176e
-
 ms.date: 12/05/2018
 ms.keywords: MBN_SMS_FORMAT, MBN_SMS_FORMAT enumeration [Microsoft Broadband Networks], MBN_SMS_FORMAT_NONE, MBN_SMS_FORMAT_PDU, MBN_SMS_FORMAT_TEXT, mbn.mbn_sms_format, mbnapi/MBN_SMS_FORMAT, mbnapi/MBN_SMS_FORMAT_NONE, mbnapi/MBN_SMS_FORMAT_PDU, mbnapi/MBN_SMS_FORMAT_TEXT
 ms.topic: enum
-f1_keywords: 
- - "mbnapi/MBN_SMS_FORMAT"
+f1_keywords:
+- mbnapi/MBN_SMS_FORMAT
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - MBN_SMS_FORMAT
+- MBN_SMS_FORMAT
 targetos: Windows
 req.typenames: MBN_SMS_FORMAT
 req.redist: 

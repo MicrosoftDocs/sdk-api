@@ -1,19 +1,17 @@
 ---
 UID: NN:webapplication.IWebApplicationActivation
 title: IWebApplicationActivation (webapplication.h)
-
 description: Enables debugging applications to manage activations.
 old-location: debug\iwebapplicationactivation.htm
 tech.root: debug_wwahost
 ms.assetid: 51127F64-2FE1-49F9-9E68-E38F4DDB8D1B
-
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationActivation, IWebApplicationActivation interface [Debugging Windows Store apps], IWebApplicationActivation interface [Debugging Windows Store apps],described, debug.iwebapplicationactivation, webapplication/IWebApplicationActivation
 ms.topic: interface
-f1_keywords: 
- - "webapplication/IWebApplicationActivation"
+f1_keywords:
+- webapplication/IWebApplicationActivation
 dev_langs:
- - c++
+- c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: WWAHost.exe
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WWAHost.exe
- - WWAHost.exe.dll
+- WWAHost.exe
+- WWAHost.exe.dll
 api_name:
- - IWebApplicationActivation
+- IWebApplicationActivation
 targetos: Windows
 req.typenames: 
 req.redist: 

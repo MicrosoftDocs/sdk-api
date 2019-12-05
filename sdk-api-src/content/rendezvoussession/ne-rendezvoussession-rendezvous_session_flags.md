@@ -1,19 +1,17 @@
 ---
 UID: NE:rendezvoussession.__MIDL___MIDL_itf_rendezvoussession_0000_0000_0002
 title: RENDEZVOUS_SESSION_FLAGS (rendezvoussession.h)
-
 description: Provides the list of possible flags for the session invitation.
 old-location: remoteassist\remoteassist_RENDEZVOUS_SESSION_FLAGS.htm
 tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\enums\rendezvous_session_flags.htm
-
 ms.date: 12/05/2018
 ms.keywords: RENDEZVOUS_SESSION_FLAGS, RENDEZVOUS_SESSION_FLAGS enumeration [Remote Assistance], RSF_INVITEE, RSF_INVITER, RSF_NONE, RSF_ORIGINAL_INVITER, RSF_REMOTE_LEGACYSESSION, remoteassist.remoteassist_RENDEZVOUS_SESSION_FLAGS, remoteassist_RENDEZVOUS_SESSION_FLAGS, rendezvoussession/RENDEZVOUS_SESSION_FLAGS, rendezvoussession/RSF_INVITEE, rendezvoussession/RSF_INVITER, rendezvoussession/RSF_NONE, rendezvoussession/RSF_ORIGINAL_INVITER, rendezvoussession/RSF_REMOTE_LEGACYSESSION
 ms.topic: enum
-f1_keywords: 
- - "rendezvoussession/RENDEZVOUS_SESSION_FLAGS"
+f1_keywords:
+- rendezvoussession/RENDEZVOUS_SESSION_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: rendezvoussession.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - RendezvousSession.h
+- RendezvousSession.h
 api_name:
- - RENDEZVOUS_SESSION_FLAGS
+- RENDEZVOUS_SESSION_FLAGS
 targetos: Windows
 req.typenames: RENDEZVOUS_SESSION_FLAGS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:ntmsmli.__unnamed_struct_0
 title: MediaLabelInfo (ntmsmli.h)
-
 description: The MediaLabelInfo structure conveys information to the RSM database about a tape OMID. The media label library fills in this structure for all media labels the library recognizes.
 old-location: fs\medialabelinfo.htm
 tech.root: Rsm
 ms.assetid: 8641e9e6-e251-4bf9-935a-f8888705f9a1
-
 ms.date: 12/05/2018
-ms.keywords: "*pMediaLabelInfo, MediaLabelInfo, MediaLabelInfo structure [Files], _zaw_medialabelinfo, base.medialabelinfo, fs.medialabelinfo, ntmsmli/MediaLabelInfo"
+ms.keywords: '*pMediaLabelInfo, MediaLabelInfo, MediaLabelInfo structure [Files], _zaw_medialabelinfo, base.medialabelinfo, fs.medialabelinfo, ntmsmli/MediaLabelInfo'
 ms.topic: struct
-f1_keywords: 
- - "ntmsmli/MediaLabelInfo"
+f1_keywords:
+- ntmsmli/MediaLabelInfo
 dev_langs:
- - c++
+- c++
 req.header: ntmsmli.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - NtmsMli.h
+- NtmsMli.h
 api_name:
- - MediaLabelInfo
+- MediaLabelInfo
 targetos: Windows
 req.typenames: MediaLabelInfo, *pMediaLabelInfo
 req.redist: 

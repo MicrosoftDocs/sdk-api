@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.INetSharingPortMapping.Enable
 title: INetSharingPortMapping::Enable (netcon.h)
-
 description: The Enable method enables a port mapping for a particular connection.
 old-location: ics\inetsharingportmapping_enable.htm
 tech.root: ics
 ms.assetid: 55a639f3-9180-4d02-9d10-659a398fa32f
-
 ms.date: 12/05/2018
 ms.keywords: Enable, Enable method [ICS/ICF], Enable method [ICS/ICF],INetSharingPortMapping interface, INetSharingPortMapping interface [ICS/ICF],Enable method, INetSharingPortMapping.Enable, INetSharingPortMapping::Enable, _ics_inetsharingportmapping_enable, ics.inetsharingportmapping_enable, netcon/INetSharingPortMapping::Enable
 ms.topic: method
-f1_keywords: 
- - "netcon/INetSharingPortMapping.Enable"
+f1_keywords:
+- netcon/INetSharingPortMapping.Enable
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetSharingPortMapping.Enable
+- INetSharingPortMapping.Enable
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:dcommon.DWRITE_MEASURING_MODE
 title: DWRITE_MEASURING_MODE (dcommon.h)
-
 description: Indicates the measuring method used for text layout.
 old-location: directwrite\dwrite_text_measuring_method.htm
 tech.root: DirectWrite
 ms.assetid: 99e89754-8bc2-457d-bfdb-a3c9ccfe00c1
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_MEASURING_MODE, DWRITE_MEASURING_MODE enumeration [Direct Write], DWRITE_MEASURING_MODE_GDI_CLASSIC, DWRITE_MEASURING_MODE_GDI_NATURAL, DWRITE_MEASURING_MODE_NATURAL, dcommon/DWRITE_MEASURING_MODE, dcommon/DWRITE_MEASURING_MODE_GDI_CLASSIC, dcommon/DWRITE_MEASURING_MODE_GDI_NATURAL, dcommon/DWRITE_MEASURING_MODE_NATURAL, directwrite.dwrite_text_measuring_method
 ms.topic: enum
-f1_keywords: 
- - "dcommon/DWRITE_MEASURING_MODE"
+f1_keywords:
+- dcommon/DWRITE_MEASURING_MODE
 dev_langs:
- - c++
+- c++
 req.header: dcommon.h
 req.include-header: Dwrite.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dcommon.h
+- dcommon.h
 api_name:
- - DWRITE_MEASURING_MODE
+- DWRITE_MEASURING_MODE
 targetos: Windows
 req.typenames: DWRITE_MEASURING_MODE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern2.get_CachedLastSelectedItem
 title: IUIAutomationSelectionPattern2::get_CachedLastSelectedItem (uiautomationclient.h)
-
 description: Gets a cached IUIAutomationElement object representing the last item in a group of selected items.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern2_CachedLastSelectedItem.htm
 tech.root: WinAuto
 ms.assetid: B0A3D3C6-75A4-4E4A-A104-B09EF6C77751
-
 ms.date: 12/05/2018
 ms.keywords: CachedLastSelectedItem property [Windows Accessibility], CachedLastSelectedItem property [Windows Accessibility],IUIAutomationSelectionPattern2 interface, IUIAutomationSelectionPattern2 interface [Windows Accessibility],CachedLastSelectedItem property, IUIAutomationSelectionPattern2.CachedLastSelectedItem, IUIAutomationSelectionPattern2.get_CachedLastSelectedItem, IUIAutomationSelectionPattern2::CachedLastSelectedItem, IUIAutomationSelectionPattern2::get_CachedLastSelectedItem, get_CachedLastSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::CachedLastSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::get_CachedLastSelectedItem, winauto.uiauto_IUIAutomationSelectionPattern2_CachedLastSelectedItem
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationSelectionPattern2.CachedLastSelectedItem"
+f1_keywords:
+- uiautomationclient/IUIAutomationSelectionPattern2.CachedLastSelectedItem
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationSelectionPattern2.CachedLastSelectedItem
- - IUIAutomationSelectionPattern2.get_CachedLastSelectedItem
+- IUIAutomationSelectionPattern2.CachedLastSelectedItem
+- IUIAutomationSelectionPattern2.get_CachedLastSelectedItem
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:tspi.ASYNC_COMPLETION
 title: ASYNC_COMPLETION (tspi.h)
-
 description: Completion_Proc is a callback function implemented by TAPI and supplied to the service provider as a parameter to TSPI_providerInit.
 old-location: tspi\completion_proc.htm
 tech.root: Tapi
 ms.assetid: 673c9d23-e380-49f7-bd06-23552634d5b9
-
 ms.date: 12/05/2018
 ms.keywords: ASYNC_COMPLETION, ASYNC_COMPLETION callback, CompletionProc, CompletionProc callback function [TAPI 2.2], _tspi_async_completion, tspi.async_completion, tspi.completion_proc, tspi/CompletionProc
 ms.topic: callback
-f1_keywords: 
- - "tspi/CompletionProc"
+f1_keywords:
+- tspi/CompletionProc
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - CompletionProc
+- CompletionProc
 targetos: Windows
 req.typenames: 
 req.redist: 

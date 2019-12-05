@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMCodecInfo3.SetCodecEnumerationSetting
 title: IWMCodecInfo3::SetCodecEnumerationSetting (wmsdkidl.h)
-
 description: The SetCodecEnumerationSetting method sets the value of one codec enumeration setting. Codec enumeration settings dictate the codec formats that can be enumerated by the methods of IWMCodecInfo.
 old-location: wmformat\iwmcodecinfo3_setcodecenumerationsetting.htm
 tech.root: wmformat
 ms.assetid: 5b4883b8-63c0-40ff-b13f-303d30ebfe15
-
 ms.date: 12/05/2018
 ms.keywords: IWMCodecInfo3 interface [windows Media Format],SetCodecEnumerationSetting method, IWMCodecInfo3.SetCodecEnumerationSetting, IWMCodecInfo3::SetCodecEnumerationSetting, IWMCodecInfo3SetCodecEnumerationSetting, SetCodecEnumerationSetting, SetCodecEnumerationSetting method [windows Media Format], SetCodecEnumerationSetting method [windows Media Format],IWMCodecInfo3 interface, wmformat.iwmcodecinfo3_setcodecenumerationsetting, wmsdkidl/IWMCodecInfo3::SetCodecEnumerationSetting
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMCodecInfo3.SetCodecEnumerationSetting"
+f1_keywords:
+- wmsdkidl/IWMCodecInfo3.SetCodecEnumerationSetting
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMCodecInfo3.SetCodecEnumerationSetting
+- IWMCodecInfo3.SetCodecEnumerationSetting
 targetos: Windows
 req.typenames: 
 req.redist: 

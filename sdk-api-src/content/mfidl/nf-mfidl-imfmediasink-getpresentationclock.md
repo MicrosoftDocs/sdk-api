@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMediaSink.GetPresentationClock
 title: IMFMediaSink::GetPresentationClock (mfidl.h)
-
 description: Gets the presentation clock that was set on the media sink.
 old-location: mf\imfmediasink_getpresentationclock.htm
 tech.root: medfound
 ms.assetid: ffa6a7b5-cd79-4c45-a5e3-9d133ffc89a6
-
 ms.date: 12/05/2018
 ms.keywords: GetPresentationClock, GetPresentationClock method [Media Foundation], GetPresentationClock method [Media Foundation],IMFMediaSink interface, IMFMediaSink interface [Media Foundation],GetPresentationClock method, IMFMediaSink.GetPresentationClock, IMFMediaSink::GetPresentationClock, ffa6a7b5-cd79-4c45-a5e3-9d133ffc89a6, mf.imfmediasink_getpresentationclock, mfidl/IMFMediaSink::GetPresentationClock
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMediaSink.GetPresentationClock"
+f1_keywords:
+- mfidl/IMFMediaSink.GetPresentationClock
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaSink.GetPresentationClock
+- IMFMediaSink.GetPresentationClock
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAudioStream.FreeBuffer
 title: IRDPSRAPIAudioStream::FreeBuffer (rdpencomapi.h)
-
 description: Releases the hold on the buffer after the GetBuffer method is called.
 old-location: rdp\irdpsrapiaudiostream_freebuffer.htm
 tech.root: rdp
 ms.assetid: 03926ABF-D5D0-4D13-B081-0085EC698E9F
-
 ms.date: 12/05/2018
 ms.keywords: FreeBuffer, FreeBuffer method [RDP], FreeBuffer method [RDP],IRDPSRAPIAudioStream interface, IRDPSRAPIAudioStream interface [RDP],FreeBuffer method, IRDPSRAPIAudioStream.FreeBuffer, IRDPSRAPIAudioStream::FreeBuffer, rdp.irdpsrapiaudiostream_freebuffer, rdpencomapi/IRDPSRAPIAudioStream::FreeBuffer
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIAudioStream.FreeBuffer"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIAudioStream.FreeBuffer
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIAudioStream.FreeBuffer
+- IRDPSRAPIAudioStream.FreeBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dsadmin.IDsAdminNewObjExt.OnError
 title: IDsAdminNewObjExt::OnError (dsadmin.h)
-
 description: Called when an error has occurred in the wizard pages.
 old-location: ad\idsadminnewobjext_onerror.htm
 tech.root: ad
 ms.assetid: d1bb1eb6-db96-4322-8beb-0b9a3c6b0318
-
 ms.date: 12/05/2018
 ms.keywords: DSA_NEWOBJ_CTX_CLEANUP, DSA_NEWOBJ_CTX_COMMIT, DSA_NEWOBJ_CTX_POSTCOMMIT, DSA_NEWOBJ_CTX_PRECOMMIT, IDsAdminNewObjExt interface [Active Directory],OnError method, IDsAdminNewObjExt.OnError, IDsAdminNewObjExt::OnError, OnError, OnError method [Active Directory], OnError method [Active Directory],IDsAdminNewObjExt interface, _glines_idsadminnewobjext_onerror, ad.idsadminnewobjext__onerror, ad.idsadminnewobjext_onerror, dsadmin/IDsAdminNewObjExt::OnError
 ms.topic: method
-f1_keywords: 
- - "dsadmin/IDsAdminNewObjExt.OnError"
+f1_keywords:
+- dsadmin/IDsAdminNewObjExt.OnError
 dev_langs:
- - c++
+- c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DSAdmin.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DSAdmin.dll
+- DSAdmin.dll
 api_name:
- - IDsAdminNewObjExt.OnError
+- IDsAdminNewObjExt.OnError
 targetos: Windows
 req.typenames: 
 req.redist: 

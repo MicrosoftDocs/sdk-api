@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMGetClientVersion
 title: DRMGetClientVersion function (msdrm.h)
-
 description: Returns the version number of the Active Directory Rights Management Services client software and whether the hierarchy is for Production or Pre-production purposes.
 old-location: rm\drmgetclientversion.htm
 tech.root: AdRms_Sdk
 ms.assetid: 51f15900-4d7a-414e-ab2a-9120cd23a03b
-
 ms.date: 12/05/2018
 ms.keywords: DRMGetClientVersion, DRMGetClientVersion function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetClientVersion, rm.drmgetclientversion
 ms.topic: function
 f1_keywords:
 - msdrm/DRMGetClientVersion
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

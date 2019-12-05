@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsFileServiceOperations.Sessions
 title: IADsFileServiceOperations::Sessions (iads.h)
-
 description: The IADsFileServiceOperations::Sessions method gets a pointer to a pointer to the IADsCollection interface on a collection of the session objects that represent the current open sessions for this file service.
 old-location: adsi\iadsfileserviceoperations_sessions.htm
 tech.root: adsi
 ms.assetid: 97b485c9-650a-4d87-adbb-51799581c3bc
-
 ms.date: 12/05/2018
 ms.keywords: IADsFileServiceOperations interface [ADSI],Sessions method, IADsFileServiceOperations.Sessions, IADsFileServiceOperations::Sessions, Sessions, Sessions method [ADSI], Sessions method [ADSI],IADsFileServiceOperations interface, _ds_iadsfileserviceoperations_sessions, adsi.iadsfileserviceoperations__sessions, adsi.iadsfileserviceoperations_sessions, iads/IADsFileServiceOperations::Sessions
 ms.topic: method
-f1_keywords: 
- - "iads/IADsFileServiceOperations.Sessions"
+f1_keywords:
+- iads/IADsFileServiceOperations.Sessions
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsFileServiceOperations.Sessions
+- IADsFileServiceOperations.Sessions
 targetos: Windows
 req.typenames: 
 req.redist: 

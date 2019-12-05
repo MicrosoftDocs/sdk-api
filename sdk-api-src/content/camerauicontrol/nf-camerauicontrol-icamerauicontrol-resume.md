@@ -1,19 +1,17 @@
 ---
 UID: NF:camerauicontrol.ICameraUIControl.Resume
 title: ICameraUIControl::Resume (camerauicontrol.h)
-
 description: Simulates resume of the user interface control.
 old-location: winprog\icamerauicontrol_resume.htm
 tech.root: DevNotes
 ms.assetid: 42bd87ab-8877-48cd-abc1-6fae2cb111aa
-
 ms.date: 12/05/2018
 ms.keywords: ICameraUIControl interface [Windows API],Resume method, ICameraUIControl.Resume, ICameraUIControl::Resume, Resume, Resume method [Windows API], Resume method [Windows API],ICameraUIControl interface, camerauicontrol/ICameraUIControl::Resume, winprog.icamerauicontrol_resume
 ms.topic: method
-f1_keywords: 
- - "camerauicontrol/ICameraUIControl.Resume"
+f1_keywords:
+- camerauicontrol/ICameraUIControl.Resume
 dev_langs:
- - c++
+- c++
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - camerauicontrol.h
+- camerauicontrol.h
 api_name:
- - ICameraUIControl.Resume
+- ICameraUIControl.Resume
 targetos: Windows
 req.typenames: 
 req.redist: 

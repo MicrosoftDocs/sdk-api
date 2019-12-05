@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_RecipientCompany
 title: IFaxDoc::put_RecipientCompany (faxcom.h)
-
 description: Sets or retrieves the RecipientCompany property of a FaxDoc object. The RecipientCompany property is a null-terminated string that contains the company name of the recipient of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_recipientcompany_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0rjt.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxDoc interface [Fax Service],RecipientCompany property, IFaxDoc.RecipientCompany, IFaxDoc.put_RecipientCompany, IFaxDoc::RecipientCompany, IFaxDoc::get_RecipientCompany, IFaxDoc::put_RecipientCompany, RecipientCompany property [Fax Service], RecipientCompany property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_recipientcompany, fax._mfax_ifaxdoc_get_recipientcompany, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipientcompany_cpp, faxcom/IFaxDoc::RecipientCompany, faxcom/IFaxDoc::get_RecipientCompany, faxcom/IFaxDoc::put_RecipientCompany, put_RecipientCompany
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxDoc.RecipientCompany"
+f1_keywords:
+- faxcom/IFaxDoc.RecipientCompany
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxDoc.RecipientCompany
- - IFaxDoc.get_RecipientCompany
- - IFaxDoc.put_RecipientCompany
+- IFaxDoc.RecipientCompany
+- IFaxDoc.get_RecipientCompany
+- IFaxDoc.put_RecipientCompany
 targetos: Windows
 req.typenames: 
 req.redist: 

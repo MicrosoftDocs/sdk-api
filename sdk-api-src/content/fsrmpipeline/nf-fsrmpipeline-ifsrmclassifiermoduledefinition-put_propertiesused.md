@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassifierModuleDefinition.put_PropertiesUsed
 title: IFsrmClassifierModuleDefinition::put_PropertiesUsed (fsrmpipeline.h)
-
 description: The list of property names that the classifier inspects.
 old-location: fsrm\ifsrmclassifiermoduledefinition_propertiesused.htm
 tech.root: fsrm
 ms.assetid: 89bf8836-8d6d-41a1-a47c-ec92d2fd4a36
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmClassifierModuleDefinition interface [File Server Resource Manager],PropertiesUsed property, IFsrmClassifierModuleDefinition.PropertiesUsed, IFsrmClassifierModuleDefinition.put_PropertiesUsed, IFsrmClassifierModuleDefinition::PropertiesUsed, IFsrmClassifierModuleDefinition::get_PropertiesUsed, IFsrmClassifierModuleDefinition::put_PropertiesUsed, PropertiesUsed property [File Server Resource Manager], PropertiesUsed property [File Server Resource Manager],IFsrmClassifierModuleDefinition interface, fs.ifsrmclassifiermoduledefinition_propertiesused, fsrm.ifsrmclassifiermoduledefinition_propertiesused, fsrmpipeline/IFsrmClassifierModuleDefinition::PropertiesUsed, fsrmpipeline/IFsrmClassifierModuleDefinition::get_PropertiesUsed, fsrmpipeline/IFsrmClassifierModuleDefinition::put_PropertiesUsed, put_PropertiesUsed
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmClassifierModuleDefinition.PropertiesUsed"
+f1_keywords:
+- fsrmpipeline/IFsrmClassifierModuleDefinition.PropertiesUsed
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmClassifierModuleDefinition.PropertiesUsed
- - IFsrmClassifierModuleDefinition.get_PropertiesUsed
- - IFsrmClassifierModuleDefinition.put_PropertiesUsed
+- IFsrmClassifierModuleDefinition.PropertiesUsed
+- IFsrmClassifierModuleDefinition.get_PropertiesUsed
+- IFsrmClassifierModuleDefinition.put_PropertiesUsed
 targetos: Windows
 req.typenames: 
 req.redist: 

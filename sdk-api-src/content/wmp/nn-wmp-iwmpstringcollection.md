@@ -1,19 +1,17 @@
 ---
 UID: NN:wmp.IWMPStringCollection
 title: IWMPStringCollection (wmp.h)
-
 description: The IWMPStringCollection interface provides methods that work with a collection of strings.
 old-location: wmp\iwmpstringcollection.htm
 tech.root: WMP
 ms.assetid: 8cdabea9-7e37-4e63-9d6c-b6f63aa536ea
-
 ms.date: 12/05/2018
 ms.keywords: IWMPStringCollection, IWMPStringCollection interface [Windows Media Player], IWMPStringCollection interface [Windows Media Player],described, IWMPStringCollectionInterface, wmp.iwmpstringcollection, wmp/IWMPStringCollection
 ms.topic: interface
-f1_keywords: 
- - "wmp/IWMPStringCollection"
+f1_keywords:
+- wmp/IWMPStringCollection
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - IWMPStringCollection
+- IWMPStringCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

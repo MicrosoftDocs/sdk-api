@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.SetOptions
 title: IShellLibrary::SetOptions (shobjidl_core.h)
-
 description: Sets the library options.
 old-location: shell\IShellLibrary_SetOptions.htm
 tech.root: shell
 ms.assetid: 8bec0c71-3170-4ff9-aa87-4880d6ac7e32
-
 ms.date: 12/05/2018
 ms.keywords: IShellLibrary interface [Windows Shell],SetOptions method, IShellLibrary.SetOptions, IShellLibrary::SetOptions, SetOptions, SetOptions method [Windows Shell], SetOptions method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_SetOptions, shell.IShellLibrary_SetOptions, shobjidl_core/IShellLibrary::SetOptions
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellLibrary.SetOptions"
+f1_keywords:
+- shobjidl_core/IShellLibrary.SetOptions
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IShellLibrary.SetOptions
+- IShellLibrary.SetOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

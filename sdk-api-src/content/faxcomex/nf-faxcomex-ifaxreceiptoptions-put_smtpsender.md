@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxReceiptOptions.put_SMTPSender
 title: IFaxReceiptOptions::put_SMTPSender (faxcomex.h)
-
 description: The IFaxReceiptOptions::get_SMTPSender property is a null-terminated string that contains the Simple Mail Transport Protocol (SMTP) email address for the sender of the mail message receipt.
 old-location: fax\_mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtpsender_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_41bm.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxReceiptOptions interface [Fax Service],SMTPSender property, IFaxReceiptOptions.SMTPSender, IFaxReceiptOptions.get_SMTPSender, IFaxReceiptOptions.put_SMTPSender, IFaxReceiptOptions::SMTPSender, IFaxReceiptOptions::get_SMTPSender, IFaxReceiptOptions::put_SMTPSender, SMTPSender property [Fax Service], SMTPSender property [Fax Service],IFaxReceiptOptions interface, _mfax_faxreceiptoptions.smtpsender, fax._mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtpsender_cpp, fax._mfax_faxreceiptoptions_smtpsender, faxcomex/IFaxReceiptOptions::SMTPSender, faxcomex/IFaxReceiptOptions::get_SMTPSender, faxcomex/IFaxReceiptOptions::put_SMTPSender, put_SMTPSender
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxReceiptOptions.SMTPSender"
+f1_keywords:
+- faxcomex/IFaxReceiptOptions.SMTPSender
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxReceiptOptions.SMTPSender
- - IFaxReceiptOptions.get_SMTPSender
- - IFaxReceiptOptions.put_SMTPSender
- - IFaxReceiptOptions.get_SMTPSender
- - IFaxReceiptOptions.put_SMTPSender
+- IFaxReceiptOptions.SMTPSender
+- IFaxReceiptOptions.get_SMTPSender
+- IFaxReceiptOptions.put_SMTPSender
+- IFaxReceiptOptions.get_SMTPSender
+- IFaxReceiptOptions.put_SMTPSender
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:rtmv2._RTM_ENTITY_METHOD_INPUT
 title: RTM_ENTITY_METHOD_INPUT (rtmv2.h)
-
 description: The RTM_ENTITY_METHOD_INPUT structure is used to pass information to a client when invoking its method.
 old-location: rras\rtm_entity_method_input.htm
 tech.root: RRAS
 ms.assetid: 1f900e85-c522-47c9-bfc8-5a1c1d01ab78
-
 ms.date: 12/05/2018
-ms.keywords: "*PRTM_ENTITY_METHOD_INPUT, PRTM_ENTITY_METHOD_INPUT, PRTM_ENTITY_METHOD_INPUT structure pointer [RAS], RTM_ENTITY_METHOD_INPUT, RTM_ENTITY_METHOD_INPUT structure [RAS], _rtmv2ref_rtm_entity_method_input, rras.rtm_entity_method_input, rtmv2/PRTM_ENTITY_METHOD_INPUT, rtmv2/RTM_ENTITY_METHOD_INPUT"
+ms.keywords: '*PRTM_ENTITY_METHOD_INPUT, PRTM_ENTITY_METHOD_INPUT, PRTM_ENTITY_METHOD_INPUT structure pointer [RAS], RTM_ENTITY_METHOD_INPUT, RTM_ENTITY_METHOD_INPUT structure [RAS], _rtmv2ref_rtm_entity_method_input, rras.rtm_entity_method_input, rtmv2/PRTM_ENTITY_METHOD_INPUT, rtmv2/RTM_ENTITY_METHOD_INPUT'
 ms.topic: struct
-f1_keywords: 
- - "rtmv2/RTM_ENTITY_METHOD_INPUT"
+f1_keywords:
+- rtmv2/RTM_ENTITY_METHOD_INPUT
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rtmv2.h
+- Rtmv2.h
 api_name:
- - RTM_ENTITY_METHOD_INPUT
+- RTM_ENTITY_METHOD_INPUT
 targetos: Windows
 req.typenames: RTM_ENTITY_METHOD_INPUT, *PRTM_ENTITY_METHOD_INPUT
 req.redist: 

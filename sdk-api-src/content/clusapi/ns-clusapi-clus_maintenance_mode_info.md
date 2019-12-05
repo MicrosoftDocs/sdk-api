@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi.CLUS_MAINTENANCE_MODE_INFO
 title: CLUS_MAINTENANCE_MODE_INFO (clusapi.h)
-
 description: Enables or disables maintenance mode on a cluster node.
 old-location: mscs\clus_maintenance_mode_info.htm
 tech.root: MsCS
 ms.assetid: dc53dc5e-b7ed-49f8-a08f-495e2c0e45e2
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUS_MAINTENANCE_MODE_INFO, CLUS_MAINTENANCE_MODE_INFO, CLUS_MAINTENANCE_MODE_INFO structure [Failover Cluster], PCLUS_MAINTENANCE_MODE_INFO, PCLUS_MAINTENANCE_MODE_INFO structure pointer [Failover Cluster], clusapi/CLUS_MAINTENANCE_MODE_INFO, clusapi/PCLUS_MAINTENANCE_MODE_INFO, mscs.clus_maintenance_mode_info"
+ms.keywords: '*PCLUS_MAINTENANCE_MODE_INFO, CLUS_MAINTENANCE_MODE_INFO, CLUS_MAINTENANCE_MODE_INFO structure [Failover Cluster], PCLUS_MAINTENANCE_MODE_INFO, PCLUS_MAINTENANCE_MODE_INFO structure pointer [Failover Cluster], clusapi/CLUS_MAINTENANCE_MODE_INFO, clusapi/PCLUS_MAINTENANCE_MODE_INFO, mscs.clus_maintenance_mode_info'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/CLUS_MAINTENANCE_MODE_INFO"
+f1_keywords:
+- clusapi/CLUS_MAINTENANCE_MODE_INFO
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUS_MAINTENANCE_MODE_INFO
+- CLUS_MAINTENANCE_MODE_INFO
 targetos: Windows
 req.typenames: CLUS_MAINTENANCE_MODE_INFO, *PCLUS_MAINTENANCE_MODE_INFO
 req.redist: 

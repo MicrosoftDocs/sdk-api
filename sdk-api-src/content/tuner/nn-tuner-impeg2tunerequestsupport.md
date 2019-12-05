@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.IMPEG2TuneRequestSupport
 title: IMPEG2TuneRequestSupport
-
 description: Indicates that the default network provider for a tuning space allows tuning through the IMPEG2TuneRequest interface as well as tuning through the native tuning request type implemented by that tuning space's CreateTuneRequest method.
 old-location: mstv\impeg2tunerequestsupport.htm
 tech.root: mstv
 ms.assetid: 22ba436f-8ccf-4f78-b33c-2328bd495df6
-
 ms.date: 12/05/2018
 ms.keywords: IMPEG2TuneRequestSupport, IMPEG2TuneRequestSupport interface [Microsoft TV Technologies], IMPEG2TuneRequestSupport interface [Microsoft TV Technologies],described, mstv.impeg2tunerequestsupport, tuner/IMPEG2TuneRequestSupport
 ms.topic: interface
-f1_keywords: 
- - "tuner/IMPEG2TuneRequestSupport"
+f1_keywords:
+- tuner/IMPEG2TuneRequestSupport
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IMPEG2TuneRequestSupport
+- IMPEG2TuneRequestSupport
 targetos: Windows
 req.typenames: 
 req.redist: 

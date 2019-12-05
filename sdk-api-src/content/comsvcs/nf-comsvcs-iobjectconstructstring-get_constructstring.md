@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IObjectConstructString.get_ConstructString
 title: IObjectConstructString::get_ConstructString (comsvcs.h)
-
 description: Retrieves the constructor string for the object.
 old-location: cos\iobjectconstructstring_get_constructstring.htm
 tech.root: cossdk
 ms.assetid: 154b7567-0f25-49c3-90b2-58c95f0ebfee
-
 ms.date: 12/05/2018
 ms.keywords: IObjectConstructString interface [COM+],get_ConstructString method, IObjectConstructString.get_ConstructString, IObjectConstructString::get_ConstructString, _cos_IObjectConstructString_get_ConstructString, comsvcs/IObjectConstructString::get_ConstructString, cos.iobjectconstructstring_get_constructstring, get_ConstructString, get_ConstructString method [COM+], get_ConstructString method [COM+],IObjectConstructString interface
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IObjectConstructString.get_ConstructString"
+f1_keywords:
+- comsvcs/IObjectConstructString.get_ConstructString
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IObjectConstructString.get_ConstructString
+- IObjectConstructString.get_ConstructString
 targetos: Windows
 req.typenames: 
 req.redist: 

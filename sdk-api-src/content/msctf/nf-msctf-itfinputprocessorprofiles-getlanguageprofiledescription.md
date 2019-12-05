@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.GetLanguageProfileDescription
 title: ITfInputProcessorProfiles::GetLanguageProfileDescription (msctf.h)
-
 description: ITfInputProcessorProfiles::GetLanguageProfileDescription method
 old-location: tsf\itfinputprocessorprofiles_getlanguageprofiledescription.htm
 tech.root: TSF
 ms.assetid: f5838d26-1065-498c-8361-8929c07fc725
-
 ms.date: 12/05/2018
 ms.keywords: GetLanguageProfileDescription, GetLanguageProfileDescription method [Text Services Framework], GetLanguageProfileDescription method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],GetLanguageProfileDescription method, ITfInputProcessorProfiles.GetLanguageProfileDescription, ITfInputProcessorProfiles::GetLanguageProfileDescription, _tsf_itfinputprocessorprofiles_getlanguageprofiledescription_ref, msctf/ITfInputProcessorProfiles::GetLanguageProfileDescription, tsf.itfinputprocessorprofiles_getlanguageprofiledescription
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfInputProcessorProfiles.GetLanguageProfileDescription"
+f1_keywords:
+- msctf/ITfInputProcessorProfiles.GetLanguageProfileDescription
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfInputProcessorProfiles.GetLanguageProfileDescription
+- ITfInputProcessorProfiles.GetLanguageProfileDescription
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.GetManifestResourceProps
 title: IMetaDataAssemblyImport::GetManifestResourceProps (rometadataapi.h)
-
 description: Gets the set of properties of the manifest resource with the specified metadata signature.
 old-location: winrt\imetadataassemblyimport_getmanifestresourceprops.htm
 tech.root: WinRT
 ms.assetid: caa859c8-de40-4de6-bf90-41104cef91b2
-
 ms.date: 12/05/2018
 ms.keywords: GetManifestResourceProps, GetManifestResourceProps method [Windows Runtime], GetManifestResourceProps method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],GetManifestResourceProps method, IMetaDataAssemblyImport.GetManifestResourceProps, IMetaDataAssemblyImport::GetManifestResourceProps, rometadataapi/IMetaDataAssemblyImport::GetManifestResourceProps, winrt.imetadataassemblyimport_getmanifestresourceprops
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataAssemblyImport.GetManifestResourceProps"
+f1_keywords:
+- rometadataapi/IMetaDataAssemblyImport.GetManifestResourceProps
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataAssemblyImport.GetManifestResourceProps
+- IMetaDataAssemblyImport.GetManifestResourceProps
 targetos: Windows
 req.typenames: 
 req.redist: 

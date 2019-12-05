@@ -1,19 +1,17 @@
 ---
 UID: NS:raseapif._PPP_EAP_INFO
 title: PPP_EAP_INFO (raseapif.h)
-
 description: The PPP_EAP_INFO structure provides information to the Connection Manager about the authentication protocol, including pointers to functions located in the EAP DLL.
 old-location: eap\ppp_eap_info.htm
 tech.root: EAP
 ms.assetid: 722e8185-3408-418b-ae80-e2ed261edcd1
-
 ms.date: 12/05/2018
 ms.keywords: '*PPPP_EAP_INFO, PPPP_EAP_INFO, PPPP_EAP_INFO structure pointer [EAP], PPP_EAP_INFO, PPP_EAP_INFO structure [EAP], _eap_ppp_eap_info, eap.ppp_eap_info, raseapif/PPPP_EAP_INFO, raseapif/PPP_EAP_INFO'
 ms.topic: struct
 f1_keywords:
 - raseapif/PPP_EAP_INFO
 dev_langs:
- - c++
+- c++
 req.header: raseapif.h
 req.include-header: 
 req.target-type: Windows

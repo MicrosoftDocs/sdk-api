@@ -1,19 +1,17 @@
 ---
 UID: NF:mdhcp.IMcastLeaseInfo.get_LeaseStartTime
 title: IMcastLeaseInfo::get_LeaseStartTime (mdhcp.h)
-
 description: The get_LeaseStartTime method obtains the start time of the lease.
 old-location: tapi3\imcastleaseinfo_get_leasestarttime.htm
 tech.root: Tapi
 ms.assetid: b0998a2d-6ec5-4d39-ba75-ede352b4cbe8
-
 ms.date: 12/05/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],get_LeaseStartTime method, IMcastLeaseInfo.get_LeaseStartTime, IMcastLeaseInfo::get_LeaseStartTime, _tapi3_imcastleaseinfo_get_leasestarttime, get_LeaseStartTime, get_LeaseStartTime method [TAPI 2.2], get_LeaseStartTime method [TAPI 2.2],IMcastLeaseInfo interface, mdhcp/IMcastLeaseInfo::get_LeaseStartTime, tapi3.imcastleaseinfo_get_leasestarttime
 ms.topic: method
-f1_keywords: 
- - "mdhcp/IMcastLeaseInfo.get_LeaseStartTime"
+f1_keywords:
+- mdhcp/IMcastLeaseInfo.get_LeaseStartTime
 dev_langs:
- - c++
+- c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Mdhcp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mdhcp.dll
+- Mdhcp.dll
 api_name:
- - IMcastLeaseInfo.get_LeaseStartTime
+- IMcastLeaseInfo.get_LeaseStartTime
 targetos: Windows
 req.typenames: 
 req.redist: 

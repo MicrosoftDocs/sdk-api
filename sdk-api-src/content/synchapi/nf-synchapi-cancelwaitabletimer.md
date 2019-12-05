@@ -1,19 +1,17 @@
 ---
 UID: NF:synchapi.CancelWaitableTimer
 title: CancelWaitableTimer function (synchapi.h)
-
 description: Sets the specified waitable timer to the inactive state.
 old-location: base\cancelwaitabletimer.htm
 tech.root: Sync
 ms.assetid: 614a237b-71b3-4091-975d-4c0b3cd6ec69
-
 ms.date: 12/05/2018
 ms.keywords: CancelWaitableTimer, CancelWaitableTimer function, _win32_cancelwaitabletimer, base.cancelwaitabletimer, synchapi/CancelWaitableTimer, winbase/CancelWaitableTimer
 ms.topic: function
-f1_keywords: 
- - "synchapi/CancelWaitableTimer"
+f1_keywords:
+- synchapi/CancelWaitableTimer
 dev_langs:
- - c++
+- c++
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Synch-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Synch-l1-2-0.dll
- - API-MS-Win-Core-Synch-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Synch-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Synch-l1-2-0.dll
+- API-MS-Win-Core-Synch-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - CancelWaitableTimer
+- CancelWaitableTimer
 targetos: Windows
 req.typenames: 
 req.redist: 

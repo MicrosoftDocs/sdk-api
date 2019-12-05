@@ -1,19 +1,17 @@
 ---
 UID: NN:windows.media.streaming.IMediaRendererFactory
 title: IMediaRendererFactory (windows.media.streaming.h)
-
 description: Encapsulates the methods needed to asynchronously create a new instance of an object that implements the IMediaRenderer interface.
 old-location: mediastreaming\imediarendererfactory.htm
 tech.root: mediastreaming
 ms.assetid: E07EC208-CF00-46D0-B00D-AA8E59F12A0A
-
 ms.date: 12/05/2018
 ms.keywords: IMediaRendererFactory, IMediaRendererFactory interface [Media Streaming API], IMediaRendererFactory interface [Media Streaming API],described, mediastreaming.imediarendererfactory, windows/IMediaRendererFactory
 ms.topic: interface
-f1_keywords: 
- - "windows.media.streaming/IMediaRendererFactory"
+f1_keywords:
+- windows.media.streaming/IMediaRendererFactory
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.media.streaming.h
+- windows.media.streaming.h
 api_name:
- - IMediaRendererFactory
+- IMediaRendererFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

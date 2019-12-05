@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediacapture.IAdvancedMediaCaptureSettings.GetDirectxDeviceManager
 title: IAdvancedMediaCaptureSettings::GetDirectxDeviceManager (mfmediacapture.h)
-
 description: Gets the DirectX device manager.
 old-location: mf\iadvancedmediacapturesettings_getdirectxdevicemanager.htm
 tech.root: medfound
 ms.assetid: 3fd6ead4-bc37-4ac9-bbdd-e7e2fbbcbcde
-
 ms.date: 12/05/2018
 ms.keywords: GetDirectxDeviceManager, GetDirectxDeviceManager method [Media Foundation], GetDirectxDeviceManager method [Media Foundation],IAdvancedMediaCaptureSettings interface, IAdvancedMediaCaptureSettings interface [Media Foundation],GetDirectxDeviceManager method, IAdvancedMediaCaptureSettings.GetDirectxDeviceManager, IAdvancedMediaCaptureSettings::GetDirectxDeviceManager, mf.iadvancedmediacapturesettings_getdirectxdevicemanager, mfmediacapture/IAdvancedMediaCaptureSettings::GetDirectxDeviceManager
 ms.topic: method
-f1_keywords: 
- - "mfmediacapture/IAdvancedMediaCaptureSettings.GetDirectxDeviceManager"
+f1_keywords:
+- mfmediacapture/IAdvancedMediaCaptureSettings.GetDirectxDeviceManager
 dev_langs:
- - c++
+- c++
 req.header: mfmediacapture.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mfmediacapture.h
+- Mfmediacapture.h
 api_name:
- - IAdvancedMediaCaptureSettings.GetDirectxDeviceManager
+- IAdvancedMediaCaptureSettings.GetDirectxDeviceManager
 targetos: Windows
 req.typenames: 
 req.redist: 

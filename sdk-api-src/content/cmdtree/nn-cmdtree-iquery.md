@@ -1,19 +1,17 @@
 ---
 UID: NN:cmdtree.IQuery
 title: IQuery (cmdtree.h)
-
 description: The IQuery interface is reserved for future use.
 old-location: indexsrv\iquery.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_2c55.htm
-
 ms.date: 12/05/2018
 ms.keywords: IQuery, IQuery interface [Indexing Service], IQuery interface [Indexing Service],described, _idxs_IQuery, cmdtree/IQuery, indexsrv.iquery
 ms.topic: interface
-f1_keywords: 
- - "cmdtree/IQuery"
+f1_keywords:
+- cmdtree/IQuery
 dev_langs:
- - c++
+- c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cmdtree.h
+- cmdtree.h
 api_name:
- - IQuery
- - IQuery.AddPostProcessing
- - IQuery.GetCardinalityEstimate
+- IQuery
+- IQuery.AddPostProcessing
+- IQuery.GetCardinalityEstimate
 targetos: Windows
 req.typenames: 
 req.redist: 

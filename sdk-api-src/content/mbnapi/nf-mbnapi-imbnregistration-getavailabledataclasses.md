@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.GetAvailableDataClasses
 title: IMbnRegistration::GetAvailableDataClasses (mbnapi.h)
-
 description: Gets the available data classes in the current network.
 old-location: mbn\imbnregistration_getavailabledataclasses.htm
 tech.root: mbn
 ms.assetid: fb799232-0ef5-4fbd-9b7f-a106ef440a68
-
 ms.date: 12/05/2018
 ms.keywords: GetAvailableDataClasses, GetAvailableDataClasses method [Microsoft Broadband Networks], GetAvailableDataClasses method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetAvailableDataClasses method, IMbnRegistration.GetAvailableDataClasses, IMbnRegistration::GetAvailableDataClasses, mbn.imbnregistration_getavailabledataclasses, mbnapi/IMbnRegistration::GetAvailableDataClasses
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnRegistration.GetAvailableDataClasses"
+f1_keywords:
+- mbnapi/IMbnRegistration.GetAvailableDataClasses
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnRegistration.GetAvailableDataClasses
+- IMbnRegistration.GetAvailableDataClasses
 targetos: Windows
 req.typenames: 
 req.redist: 

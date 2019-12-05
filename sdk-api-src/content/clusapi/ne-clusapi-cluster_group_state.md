@@ -1,19 +1,17 @@
 ---
 UID: NE:clusapi.CLUSTER_GROUP_STATE
 title: CLUSTER_GROUP_STATE (clusapi.h)
-
 description: Enumerates the possible states of a group.
 old-location: mscs\cluster_group_state.htm
 tech.root: MsCS
 ms.assetid: 1dbc5494-a830-4ee7-b982-48792ad87c51
-
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_GROUP_STATE, CLUSTER_GROUP_STATE enumeration [Failover Cluster], ClusterGroupFailed, ClusterGroupOffline, ClusterGroupOnline, ClusterGroupPartialOnline, ClusterGroupPending, ClusterGroupStateUnknown, _CLUSTER_GROUP_STATE, _CLUSTER_GROUP_STATE enumeration [Failover Cluster], clusapi/CLUSTER_GROUP_STATE, clusapi/ClusterGroupFailed, clusapi/ClusterGroupOffline, clusapi/ClusterGroupOnline, clusapi/ClusterGroupPartialOnline, clusapi/ClusterGroupPending, clusapi/ClusterGroupStateUnknown, clusapi/_CLUSTER_GROUP_STATE, msclus/CLUSTER_GROUP_STATE, msclus/ClusterGroupFailed, msclus/ClusterGroupOffline, msclus/ClusterGroupOnline, msclus/ClusterGroupPartialOnline, msclus/ClusterGroupPending, msclus/ClusterGroupStateUnknown, msclus/_CLUSTER_GROUP_STATE, mscs.cluster_group_state
 ms.topic: enum
-f1_keywords: 
- - "clusapi/CLUSTER_GROUP_STATE"
+f1_keywords:
+- clusapi/CLUSTER_GROUP_STATE
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
- - MsClus.h
+- ClusAPI.h
+- MsClus.h
 api_name:
- - CLUSTER_GROUP_STATE
+- CLUSTER_GROUP_STATE
 targetos: Windows
 req.typenames: CLUSTER_GROUP_STATE
 req.redist: 

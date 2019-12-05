@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflection.GetVariableByName
 title: ID3D11ShaderReflection::GetVariableByName (d3d11shader.h)
-
 description: Gets a variable by name.
 old-location: direct3d11\id3d11shaderreflection_getvariablebyname.htm
 tech.root: direct3d11
 ms.assetid: 8c21756f-40f0-4459-852b-445053aa03e8
-
 ms.date: 12/05/2018
 ms.keywords: 714dbbf5-52e2-8540-c5c1-aa03dcf32bf2, GetVariableByName, GetVariableByName method [Direct3D 11], GetVariableByName method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetVariableByName method, ID3D11ShaderReflection.GetVariableByName, ID3D11ShaderReflection::GetVariableByName, d3d11shader/ID3D11ShaderReflection::GetVariableByName, direct3d11.id3d11shaderreflection_getvariablebyname
 ms.topic: method
-f1_keywords: 
- - "d3d11shader/ID3D11ShaderReflection.GetVariableByName"
+f1_keywords:
+- d3d11shader/ID3D11ShaderReflection.GetVariableByName
 dev_langs:
- - c++
+- c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - ID3D11ShaderReflection.GetVariableByName
+- ID3D11ShaderReflection.GetVariableByName
 targetos: Windows
 req.typenames: 
 req.redist: 

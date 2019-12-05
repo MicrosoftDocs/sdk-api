@@ -1,19 +1,17 @@
 ---
 UID: NF:memoryapi.AllocateUserPhysicalPagesNuma
 title: AllocateUserPhysicalPagesNuma function (memoryapi.h)
-
 description: Allocates physical memory pages to be mapped and unmapped within any Address Windowing Extensions (AWE) region of a specified process and specifies the NUMA node for the physical memory.
 old-location: base\allocateuserphysicalpagesnuma.htm
 tech.root: Memory
 ms.assetid: 33af02c8-609f-4490-b17e-e116d24c217c
-
 ms.date: 12/05/2018
 ms.keywords: AllocateUserPhysicalPagesNuma, AllocateUserPhysicalPagesNuma function, base.allocateuserphysicalpagesnuma, winbase/AllocateUserPhysicalPagesNuma
 ms.topic: function
-f1_keywords: 
- - "memoryapi/AllocateUserPhysicalPagesNuma"
+f1_keywords:
+- memoryapi/AllocateUserPhysicalPagesNuma
 dev_langs:
- - c++
+- c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-memory-l1-1-2.dll
- - KernelBase.dll
- - API-MS-Win-Core-memory-l1-1-3.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Memory-L1-1-4.dll
+- Kernel32.dll
+- API-MS-Win-Core-memory-l1-1-2.dll
+- KernelBase.dll
+- API-MS-Win-Core-memory-l1-1-3.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Memory-L1-1-4.dll
 api_name:
- - AllocateUserPhysicalPagesNuma
+- AllocateUserPhysicalPagesNuma
 targetos: Windows
 req.typenames: 
 req.redist: 

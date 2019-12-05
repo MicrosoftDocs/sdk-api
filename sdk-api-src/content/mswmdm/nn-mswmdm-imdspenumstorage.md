@@ -1,19 +1,17 @@
 ---
 UID: NN:mswmdm.IMDSPEnumStorage
 title: IMDSPEnumStorage (mswmdm.h)
-
 description: The IMDSPEnumStorage interface is used to enumerate the storage media on a device.
 old-location: wmdm\imdspenumstorage.htm
 tech.root: WMDM
 ms.assetid: fc2fed46-1f4d-4d53-a843-0f699b687a18
-
 ms.date: 12/05/2018
 ms.keywords: IMDSPEnumStorage, IMDSPEnumStorage interface [windows Media Device Manager], IMDSPEnumStorage interface [windows Media Device Manager],described, IMDSPEnumStorageInterface, mswmdm/IMDSPEnumStorage, wmdm.imdspenumstorage
 ms.topic: interface
-f1_keywords: 
- - "mswmdm/IMDSPEnumStorage"
+f1_keywords:
+- mswmdm/IMDSPEnumStorage
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mswmdm.h
+- mswmdm.h
 api_name:
- - IMDSPEnumStorage
+- IMDSPEnumStorage
 targetos: Windows
 req.typenames: 
 req.redist: 

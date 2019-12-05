@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.EnableOpenDropDown
 title: IFileDialogCustomize::EnableOpenDropDown (shobjidl_core.h)
-
 description: Enables a drop-down list on the Open or Save button in the dialog.
 old-location: shell\IFileDialogCustomize_EnableOpenDropDown.htm
 tech.root: shell
 ms.assetid: b4626030-0fc7-4329-b897-01f4ce8728a0
-
 ms.date: 12/05/2018
 ms.keywords: EnableOpenDropDown, EnableOpenDropDown method [Windows Shell], EnableOpenDropDown method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],EnableOpenDropDown method, IFileDialogCustomize.EnableOpenDropDown, IFileDialogCustomize::EnableOpenDropDown, shell.IFileDialogCustomize_EnableOpenDropDown, shell_IFileDialogCustomize_EnableOpenDropDown, shobjidl_core/IFileDialogCustomize::EnableOpenDropDown
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialogCustomize.EnableOpenDropDown"
+f1_keywords:
+- shobjidl_core/IFileDialogCustomize.EnableOpenDropDown
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialogCustomize.EnableOpenDropDown
+- IFileDialogCustomize.EnableOpenDropDown
 targetos: Windows
 req.typenames: 
 req.redist: 

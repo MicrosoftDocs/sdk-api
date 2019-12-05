@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMREXCLUDECLIPRECT
 title: EMREXCLUDECLIPRECT (wingdi.h)
-
 description: The EMREXCLUDECLIPRECT and EMRINTERSECTCLIPRECT structures contain members for the ExcludeClipRect and IntersectClipRect enhanced metafile records.
 old-location: gdi\emrexcludecliprect__emrintersectcliprect.htm
 tech.root: gdi
 ms.assetid: a8969bfd-cd60-485f-bbcc-4bf015526d56
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMREXCLUDECLIPRECT, *PEMRINTERSECTCLIPRECT, EMREXCLUDECLIPRECT, EMREXCLUDECLIPRECT structure [Windows GDI], EMREXCLUDECLIPRECT,EMRINTERSECTCLIPRECT, EMREXCLUDECLIPRECT,EMRINTERSECTCLIPRECT structure [Windows GDI], EMRINTERSECTCLIPRECT, EMRINTERSECTCLIPRECT structure [Windows GDI], PEMREXCLUDECLIPRECT, PEMREXCLUDECLIPRECT structure pointer [Windows GDI], PEMRINTERSECTCLIPRECT, PEMRINTERSECTCLIPRECT structure pointer [Windows GDI], _win32_EMREXCLUDECLIPRECT_str, gdi.emrexcludecliprect__emrintersectcliprect, wingdi/EMREXCLUDECLIPRECT,EMRINTERSECTCLIPRECT, wingdi/EMRINTERSECTCLIPRECT, wingdi/PEMREXCLUDECLIPRECT, wingdi/PEMRINTERSECTCLIPRECT"
+ms.keywords: '*PEMREXCLUDECLIPRECT, *PEMRINTERSECTCLIPRECT, EMREXCLUDECLIPRECT, EMREXCLUDECLIPRECT structure [Windows GDI], EMREXCLUDECLIPRECT,EMRINTERSECTCLIPRECT, EMREXCLUDECLIPRECT,EMRINTERSECTCLIPRECT structure [Windows GDI], EMRINTERSECTCLIPRECT, EMRINTERSECTCLIPRECT structure [Windows GDI], PEMREXCLUDECLIPRECT, PEMREXCLUDECLIPRECT structure pointer [Windows GDI], PEMRINTERSECTCLIPRECT, PEMRINTERSECTCLIPRECT structure pointer [Windows GDI], _win32_EMREXCLUDECLIPRECT_str, gdi.emrexcludecliprect__emrintersectcliprect, wingdi/EMREXCLUDECLIPRECT,EMRINTERSECTCLIPRECT, wingdi/EMRINTERSECTCLIPRECT, wingdi/PEMREXCLUDECLIPRECT, wingdi/PEMRINTERSECTCLIPRECT'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMREXCLUDECLIPRECT"
+f1_keywords:
+- wingdi/EMREXCLUDECLIPRECT
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMREXCLUDECLIPRECT
+- EMREXCLUDECLIPRECT
 targetos: Windows
 req.typenames: EMREXCLUDECLIPRECT, *PEMREXCLUDECLIPRECT, EMRINTERSECTCLIPRECT, *PEMRINTERSECTCLIPRECT
 req.redist: 

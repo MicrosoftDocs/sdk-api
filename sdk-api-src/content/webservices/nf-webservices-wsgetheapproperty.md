@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsGetHeapProperty
 title: WsGetHeapProperty function (webservices.h)
-
 description: Retrieves a particular property of a specified Heap.
 old-location: wsw\wsgetheapproperty.htm
 tech.root: wsw
 ms.assetid: c463924a-1491-4d65-86ed-827327e560b9
-
 ms.date: 12/05/2018
 ms.keywords: WsGetHeapProperty, WsGetHeapProperty function [Web Services for Windows], webservices/WsGetHeapProperty, wsw.wsgetheapproperty
 ms.topic: function
 f1_keywords:
 - webservices/WsGetHeapProperty
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

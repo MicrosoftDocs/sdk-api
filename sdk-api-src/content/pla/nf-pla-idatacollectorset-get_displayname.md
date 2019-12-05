@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_DisplayName
 title: IDataCollectorSet::get_DisplayName (pla.h)
-
 description: Retrieves or sets the display name of the data collector set.
 old-location: pla\idatacollectorset_displayname.htm
 tech.root: PLA
 ms.assetid: 4be6d1a1-54de-45fa-8d00-36f8b95e30a5
-
 ms.date: 12/05/2018
 ms.keywords: DisplayName property [PLA], DisplayName property [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],DisplayName property, IDataCollectorSet.DisplayName, IDataCollectorSet.get_DisplayName, IDataCollectorSet::DisplayName, IDataCollectorSet::get_DisplayName, IDataCollectorSet::put_DisplayName, get_DisplayName, pla.idatacollectorset_displayname, pla/IDataCollectorSet::DisplayName, pla/IDataCollectorSet::get_DisplayName, pla/IDataCollectorSet::put_DisplayName
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollectorSet.DisplayName"
+f1_keywords:
+- pla/IDataCollectorSet.DisplayName
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollectorSet.DisplayName
- - IDataCollectorSet.get_DisplayName
- - IDataCollectorSet.put_DisplayName
+- IDataCollectorSet.DisplayName
+- IDataCollectorSet.get_DisplayName
+- IDataCollectorSet.put_DisplayName
 targetos: Windows
 req.typenames: 
 req.redist: 

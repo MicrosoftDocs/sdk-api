@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcasync.RpcBindingUnbind
 title: RpcBindingUnbind function (rpcasync.h)
-
 description: Unbinds a binding handle previously bound by RpcBindingBind.
 old-location: rpc\rpcbindingunbind.htm
 tech.root: Rpc
 ms.assetid: a9e30764-22ea-4dbf-9311-f37bd55ed2c4
-
 ms.date: 12/05/2018
 ms.keywords: RpcBindingUnbind, RpcBindingUnbind function [RPC], rpc.rpcbindingunbind, rpcasync/RpcBindingUnbind
 ms.topic: function
-f1_keywords: 
- - "rpcasync/RpcBindingUnbind"
+f1_keywords:
+- rpcasync/RpcBindingUnbind
 dev_langs:
- - c++
+- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcBindingUnbind
+- RpcBindingUnbind
 targetos: Windows
 req.typenames: 
 req.redist: 

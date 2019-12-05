@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.GetEnclosingElement
 title: IUIAutomationTextRange::GetEnclosingElement (uiautomationclient.h)
-
 description: Returns the innermost UI Automation element that encloses the text range.
 old-location: winauto\uiauto_IUIAutomationTextRange_GetEnclosingElement.htm
 tech.root: WinAuto
 ms.assetid: 0120b4af-6f08-4bbd-b649-0f8e84cda3b9
-
 ms.date: 12/05/2018
 ms.keywords: GetEnclosingElement, GetEnclosingElement method [Windows Accessibility], GetEnclosingElement method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],GetEnclosingElement method, IUIAutomationTextRange.GetEnclosingElement, IUIAutomationTextRange::GetEnclosingElement, uiauto.uiauto_IUIAutomationTextRange_GetEnclosingElement, uiauto_IUIAutomationTextRange_GetEnclosingElement, uiautomationclient/IUIAutomationTextRange::GetEnclosingElement, winauto.uiauto_IUIAutomationTextRange_GetEnclosingElement
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTextRange.GetEnclosingElement"
+f1_keywords:
+- uiautomationclient/IUIAutomationTextRange.GetEnclosingElement
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTextRange.GetEnclosingElement
+- IUIAutomationTextRange.GetEnclosingElement
 targetos: Windows
 req.typenames: 
 req.redist: 

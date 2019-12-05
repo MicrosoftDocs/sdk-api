@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ITransactionResourcePool.PutResource
 title: ITransactionResourcePool::PutResource (comsvcs.h)
-
 description: Adds an object to the list of pooled objects.
 old-location: cos\itransactionresourcepool_putresource.htm
 tech.root: cossdk
 ms.assetid: 6e05f075-0fa8-4605-9f68-3ef7fc9f0132
-
 ms.date: 12/05/2018
 ms.keywords: ITransactionResourcePool interface [COM+],PutResource method, ITransactionResourcePool.PutResource, ITransactionResourcePool::PutResource, PutResource, PutResource method [COM+], PutResource method [COM+],ITransactionResourcePool interface, _cos_ITransactionResourcePool_PutResource, comsvcs/ITransactionResourcePool::PutResource, cos.itransactionresourcepool_putresource
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ITransactionResourcePool.PutResource"
+f1_keywords:
+- comsvcs/ITransactionResourcePool.PutResource
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ITransactionResourcePool.PutResource
+- ITransactionResourcePool.PutResource
 targetos: Windows
 req.typenames: 
 req.redist: 

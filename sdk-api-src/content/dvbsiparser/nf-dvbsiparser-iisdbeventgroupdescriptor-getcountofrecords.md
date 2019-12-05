@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbEventGroupDescriptor.GetCountOfRecords
 title: IIsdbEventGroupDescriptor::GetCountOfRecords (dvbsiparser.h)
-
 description: Gets the number of event records from an Integrated Services Digital Broadcasting (ISDB) event group descriptor.
 old-location: mstv\iisdbeventgroupdescriptor_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: a254840c-c6bd-4245-a0fc-b0b0b63e637a
-
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IIsdbEventGroupDescriptor interface, IIsdbEventGroupDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IIsdbEventGroupDescriptor.GetCountOfRecords, IIsdbEventGroupDescriptor::GetCountOfRecords, dvbsiparser/IIsdbEventGroupDescriptor::GetCountOfRecords, mstv.iisdbeventgroupdescriptor_getcountofrecords
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbEventGroupDescriptor.GetCountOfRecords"
+f1_keywords:
+- dvbsiparser/IIsdbEventGroupDescriptor.GetCountOfRecords
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbEventGroupDescriptor.GetCountOfRecords
+- IIsdbEventGroupDescriptor.GetCountOfRecords
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3cc.ITAgent.CreateSessionWithPIN
 title: ITAgent::CreateSessionWithPIN (tapi3cc.h)
-
 description: The CreateSessionWithPIN method creates a new agent session for the input ACD group and address, with Personal Identification Number (PIN).
 old-location: tapi3\itagent_createsessionwithpin.htm
 tech.root: Tapi
 ms.assetid: d901ad31-8ccc-4bca-9413-dff838a33088
-
 ms.date: 12/05/2018
 ms.keywords: CreateSessionWithPIN, CreateSessionWithPIN method [TAPI 2.2], CreateSessionWithPIN method [TAPI 2.2],ITAgent interface, ITAgent interface [TAPI 2.2],CreateSessionWithPIN method, ITAgent.CreateSessionWithPIN, ITAgent::CreateSessionWithPIN, _tapi3_itagent_createsessionwithpin, tapi3.itagent_createsessionwithpin, tapi3cc/ITAgent::CreateSessionWithPIN
 ms.topic: method
-f1_keywords: 
- - "tapi3cc/ITAgent.CreateSessionWithPIN"
+f1_keywords:
+- tapi3cc/ITAgent.CreateSessionWithPIN
 dev_langs:
- - c++
+- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAgent.CreateSessionWithPIN
+- ITAgent.CreateSessionWithPIN
 targetos: Windows
 req.typenames: 
 req.redist: 

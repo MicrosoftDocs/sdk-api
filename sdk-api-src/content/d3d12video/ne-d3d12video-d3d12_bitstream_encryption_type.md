@@ -1,37 +1,35 @@
 ---
 UID: NE:d3d12video.D3D12_BITSTREAM_ENCRYPTION_TYPE
 title: D3D12_BITSTREAM_ENCRYPTION_TYPE
-
 description: Specifies a bitstream encryption type.
 tech.root: mf
 ms.assetid: 54de4ba4-fa73-4d1b-9d57-86387bbb90b0
-
-ms.date: 05/28/2019 
+ms.date: 05/28/2019
 ms.topic: enum
 f1_keywords:
- - D3D12_BITSTREAM_ENCRYPTION_TYPE
+- D3D12_BITSTREAM_ENCRYPTION_TYPE
 dev_langs:
- - c++
-ms.keywords: D3D12_BITSTREAM_ENCRYPTION_TYPE, D3D12_BITSTREAM_ENCRYPTION_TYPE, 
+- c++
+ms.keywords: D3D12_BITSTREAM_ENCRYPTION_TYPE, D3D12_BITSTREAM_ENCRYPTION_TYPE,
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: D3D12_BITSTREAM_ENCRYPTION_TYPE
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12video.h
-api_name: 
- - D3D12_BITSTREAM_ENCRYPTION_TYPE
+topic_type:
+- apiref
+api_type:
+- HeaderDef
+api_location:
+- d3d12video.h
+api_name:
+- D3D12_BITSTREAM_ENCRYPTION_TYPE
 targetos: Windows
 ---
 

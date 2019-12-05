@@ -1,19 +1,17 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_AUTHENTICATE_RESPONSE
 title: BLUETOOTH_AUTHENTICATE_RESPONSE (bluetoothapis.h)
-
 description: BLUETOOTH_AUTHENTICATE_RESPONSE structure contains information passed in response to a BTH_REMOTE_AUTHENTICATE_REQUEST event.
 old-location: bluetooth\bluetooth_authenticate_response.htm
 tech.root: bluetooth
 ms.assetid: fc7eda84-3e7b-49e9-a1a6-e1759c894e1a
-
 ms.date: 12/05/2018
 ms.keywords: '*PBLUETOOTH_AUTHENTICATE_RESPONSE, BLUETOOTH_AUTHENTICATE_RESPONSE, BLUETOOTH_AUTHENTICATE_RESPONSE structure [Bluetooth], PBLUETOOTH_AUTHENTICATE_RESPONSE, PBLUETOOTH_AUTHENTICATE_RESPONSE structure pointer [Bluetooth], bluetooth.bluetooth_authenticate_response, bluetoothapis/BLUETOOTH_AUTHENTICATE_RESPONSE, bluetoothapis/PBLUETOOTH_AUTHENTICATE_RESPONSE'
 ms.topic: struct
 f1_keywords:
 - bluetoothapis/BLUETOOTH_AUTHENTICATE_RESPONSE
 dev_langs:
- - c++
+- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

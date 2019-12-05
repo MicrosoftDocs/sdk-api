@@ -1,19 +1,17 @@
 ---
 UID: NF:mmiscapi.CloseDriver
 title: CloseDriver function (mmiscapi.h)
-
 description: Closes an installable driver.
 old-location: multimedia\closedriver.htm
 tech.root: Multimedia
 ms.assetid: 47d5c666-614d-4836-8e7d-0fe6b53d399f
-
 ms.date: 12/05/2018
 ms.keywords: CloseDriver, CloseDriver function [Windows Multimedia], _win32_CloseDriver, mmsystem/CloseDriver, multimedia.closedriver
 ms.topic: function
-f1_keywords: 
- - "mmiscapi/CloseDriver"
+f1_keywords:
+- mmiscapi/CloseDriver
 dev_langs:
- - c++
+- c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-misc-l1-1-0.dll
- - winmmbase.dll
- - API-MS-Win-mm-misc-l1-1-1.dll
- - ext-ms-win-mf-winmm-l1-1-0.dll
+- Winmm.dll
+- API-MS-Win-mm-misc-l1-1-0.dll
+- winmmbase.dll
+- API-MS-Win-mm-misc-l1-1-1.dll
+- ext-ms-win-mf-winmm-l1-1-0.dll
 api_name:
- - CloseDriver
+- CloseDriver
 targetos: Windows
 req.typenames: 
 req.redist: 

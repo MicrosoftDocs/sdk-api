@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerCollabGetInvitationResponse
 title: PeerCollabGetInvitationResponse function (p2p.h)
-
 description: Obtains the response from a peer previously invited to join a peer collaboration activity.
 old-location: p2p\peercollabgetinvitationresponse.htm
 tech.root: P2PSdk
 ms.assetid: f9471e51-5eec-4927-bd12-7d362f5101ee
-
 ms.date: 12/05/2018
 ms.keywords: PeerCollabGetInvitationResponse, PeerCollabGetInvitationResponse function [Peer Networking], p2p.peercollabgetinvitationresponse, p2p/PeerCollabGetInvitationResponse
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerCollabGetInvitationResponse"
+f1_keywords:
+- p2p/PeerCollabGetInvitationResponse
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerCollabGetInvitationResponse
+- PeerCollabGetInvitationResponse
 targetos: Windows
 req.typenames: 
 req.redist: 

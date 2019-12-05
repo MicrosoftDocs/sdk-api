@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.SetFileNameLabel
 title: IFileDialog::SetFileNameLabel (shobjidl_core.h)
-
 description: Sets the text of the label next to the file name edit box.
 old-location: shell\IFileDialog_SetFileNameLabel.htm
 tech.root: shell
 ms.assetid: 4dc456c4-e06a-4bbf-b7c3-a6f93b46a044
-
 ms.date: 12/05/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetFileNameLabel method, IFileDialog.SetFileNameLabel, IFileDialog::SetFileNameLabel, SetFileNameLabel, SetFileNameLabel method [Windows Shell], SetFileNameLabel method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetFileNameLabel, shell_IFileDialog_SetFileNameLabel, shobjidl_core/IFileDialog::SetFileNameLabel
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialog.SetFileNameLabel"
+f1_keywords:
+- shobjidl_core/IFileDialog.SetFileNameLabel
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialog.SetFileNameLabel
+- IFileDialog.SetFileNameLabel
 targetos: Windows
 req.typenames: 
 req.redist: 

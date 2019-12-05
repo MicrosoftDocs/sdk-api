@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IContextProperties.Count
 title: IContextProperties::Count (comsvcs.h)
-
 description: Retrieves the number of context object properties.
 old-location: cos\icontextproperties_count.htm
 tech.root: cossdk
 ms.assetid: 96259fe8-138d-498e-8be0-1fe1cc3f0d83
-
 ms.date: 12/05/2018
 ms.keywords: Count, Count method [COM+], Count method [COM+],IContextProperties interface, IContextProperties interface [COM+],Count method, IContextProperties.Count, IContextProperties::Count, _cos_IContextProperties_Count, comsvcs/IContextProperties::Count, cos.icontextproperties_count
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IContextProperties.Count"
+f1_keywords:
+- comsvcs/IContextProperties.Count
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IContextProperties.Count
+- IContextProperties.Count
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dshowasf.IConfigAsfWriter.ConfigureFilterUsingProfile
 title: IConfigAsfWriter::ConfigureFilterUsingProfile (dshowasf.h)
-
 description: The ConfigureFilterUsingProfile method sets an ASF profile on the WM ASF Writer filter. This method is the recommended way to set a profile on the WM ASF Writer filter.
 old-location: dshow\iconfigasfwriter_configurefilterusingprofile.htm
 tech.root: DirectShow
 ms.assetid: 89156f64-7a20-4226-9f01-5b1bd4a1fe98
-
 ms.date: 12/05/2018
 ms.keywords: ConfigureFilterUsingProfile, ConfigureFilterUsingProfile method [DirectShow], ConfigureFilterUsingProfile method [DirectShow],IConfigAsfWriter interface, IConfigAsfWriter interface [DirectShow],ConfigureFilterUsingProfile method, IConfigAsfWriter.ConfigureFilterUsingProfile, IConfigAsfWriter::ConfigureFilterUsingProfile, IConfigAsfWriterConfigureFilterUsingProfile, dshow.iconfigasfwriter_configurefilterusingprofile, dshowasf/IConfigAsfWriter::ConfigureFilterUsingProfile
 ms.topic: method
-f1_keywords: 
- - "dshowasf/IConfigAsfWriter.ConfigureFilterUsingProfile"
+f1_keywords:
+- dshowasf/IConfigAsfWriter.ConfigureFilterUsingProfile
 dev_langs:
- - c++
+- c++
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dshowasf.h
+- Dshowasf.h
 api_name:
- - IConfigAsfWriter.ConfigureFilterUsingProfile
+- IConfigAsfWriter.ConfigureFilterUsingProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

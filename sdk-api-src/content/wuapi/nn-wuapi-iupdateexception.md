@@ -1,19 +1,17 @@
 ---
 UID: NN:wuapi.IUpdateException
 title: IUpdateException (wuapi.h)
-
 description: Represents info about the aspects of search results returned in the ISearchResult object that were incomplete.
 old-location: wua\iupdateexception.htm
 tech.root: Wua_Sdk
 ms.assetid: 9e7458be-b411-4395-98f2-c92308f78371
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateException, IUpdateException interface [Windows Update Agent], IUpdateException interface [Windows Update Agent],described, wua.iupdateexception, wuapi/IUpdateException
 ms.topic: interface
-f1_keywords: 
- - "wuapi/IUpdateException"
+f1_keywords:
+- wuapi/IUpdateException
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateException
+- IUpdateException
 targetos: Windows
 req.typenames: 
 req.redist: 

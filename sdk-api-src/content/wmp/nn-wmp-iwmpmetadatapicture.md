@@ -1,19 +1,17 @@
 ---
 UID: NN:wmp.IWMPMetadataPicture
 title: IWMPMetadataPicture (wmp.h)
-
 description: The IWMPMetadataPicture interface provides methods for retrieving information about the WM/Picture metadata attribute.
 old-location: wmp\iwmpmetadatapicture.htm
 tech.root: WMP
 ms.assetid: 385819d0-cf27-4f39-86be-140d1bc87d12
-
 ms.date: 12/05/2018
 ms.keywords: IWMPMetadataPicture, IWMPMetadataPicture interface [Windows Media Player], IWMPMetadataPicture interface [Windows Media Player],described, IWMPMetadataPictureInterface, wmp.iwmpmetadatapicture, wmp/IWMPMetadataPicture
 ms.topic: interface
-f1_keywords: 
- - "wmp/IWMPMetadataPicture"
+f1_keywords:
+- wmp/IWMPMetadataPicture
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - IWMPMetadataPicture
+- IWMPMetadataPicture
 targetos: Windows
 req.typenames: 
 req.redist: 

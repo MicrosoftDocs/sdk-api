@@ -1,19 +1,17 @@
 ---
 UID: NF:fileapi.WriteFileGather
 title: WriteFileGather function (fileapi.h)
-
 description: Retrieves data from an array of buffers and writes the data to a file.
 old-location: fs\writefilegather.htm
 tech.root: FileIO
 ms.assetid: 9590eabb-6e85-406e-8101-e67f87e6850b
-
 ms.date: 12/05/2018
 ms.keywords: WriteFileGather, WriteFileGather function [Files], _win32_writefilegather, base.writefilegather, fileapi/WriteFileGather, fs.writefilegather, winbase/WriteFileGather
 ms.topic: function
 f1_keywords:
 - fileapi/WriteFileGather
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

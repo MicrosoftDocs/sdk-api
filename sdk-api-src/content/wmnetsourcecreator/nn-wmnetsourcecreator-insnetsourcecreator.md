@@ -1,19 +1,17 @@
 ---
 UID: NN:wmnetsourcecreator.INSNetSourceCreator
 title: INSNetSourceCreator (wmnetsourcecreator.h)
-
 description: The INSNetSourceCreator interface creates an administrative network source plug-in.
 old-location: wmformat\insnetsourcecreator.htm
 tech.root: wmformat
 ms.assetid: 39e692a6-fb68-447f-bd28-8d216776157a
-
 ms.date: 12/05/2018
 ms.keywords: INSNetSourceCreator, INSNetSourceCreator interface [windows Media Format], INSNetSourceCreator interface [windows Media Format],described, INSNetSourceCreatorInterface, wmformat.insnetsourcecreator, wmnetsourcecreator/INSNetSourceCreator
 ms.topic: interface
-f1_keywords: 
- - "wmnetsourcecreator/INSNetSourceCreator"
+f1_keywords:
+- wmnetsourcecreator/INSNetSourceCreator
 dev_langs:
- - c++
+- c++
 req.header: wmnetsourcecreator.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmnetsourcecreator.h
+- wmnetsourcecreator.h
 api_name:
- - INSNetSourceCreator
- - INSNetSourceCreator.CreateNetSource
- - INSNetSourceCreator.GetNetSourceProperties
- - INSNetSourceCreator.GetNetSourceSharedNamespace
- - INSNetSourceCreator.GetNumProtocolsSupported
- - INSNetSourceCreator.GetProtocolName
+- INSNetSourceCreator
+- INSNetSourceCreator.CreateNetSource
+- INSNetSourceCreator.GetNetSourceProperties
+- INSNetSourceCreator.GetNetSourceSharedNamespace
+- INSNetSourceCreator.GetNumProtocolsSupported
+- INSNetSourceCreator.GetProtocolName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionDiscovery.GetInstanceCollection
 title: IFunctionDiscovery::GetInstanceCollection (functiondiscoveryapi.h)
-
 description: Gets the specified collection of function instances, based on category and subcategory.
 old-location: ncd\ifunctiondiscovery_getinstancecollection_method.htm
 tech.root: FunDisc
 ms.assetid: 615d252c-7365-4ef5-9e4f-94a49783a1bb
-
 ms.date: 12/05/2018
 ms.keywords: GetInstanceCollection, GetInstanceCollection method, GetInstanceCollection method,IFunctionDiscovery interface, IFunctionDiscovery interface,GetInstanceCollection method, IFunctionDiscovery.GetInstanceCollection, IFunctionDiscovery::GetInstanceCollection, functiondiscoveryapi/IFunctionDiscovery::GetInstanceCollection, ncd.ifunctiondiscovery_getinstancecollection_method
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryapi/IFunctionDiscovery.GetInstanceCollection"
+f1_keywords:
+- functiondiscoveryapi/IFunctionDiscovery.GetInstanceCollection
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FunDisc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunDisc.dll
+- FunDisc.dll
 api_name:
- - IFunctionDiscovery.GetInstanceCollection
+- IFunctionDiscovery.GetInstanceCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

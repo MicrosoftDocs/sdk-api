@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetBleedBox
 title: IXpsOMPage::GetBleedBox (xpsobjectmodel.h)
-
 description: Gets the dimensions of the page's bleed box.
 old-location: xps\ixpsompage_getbleedbox.htm
 tech.root: printdocs
 ms.assetid: 2ce82a0e-b01c-4c1e-8907-31f51dc51f10
-
 ms.date: 12/05/2018
 ms.keywords: GetBleedBox, GetBleedBox method [XPS Documents and Packaging], GetBleedBox method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetBleedBox method, IXpsOMPage.GetBleedBox, IXpsOMPage::GetBleedBox, xps.ixpsompage_getbleedbox, xpsobjectmodel/IXpsOMPage::GetBleedBox
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPage.GetBleedBox"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPage.GetBleedBox
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPage.GetBleedBox
+- IXpsOMPage.GetBleedBox
 targetos: Windows
 req.typenames: 
 req.redist: 

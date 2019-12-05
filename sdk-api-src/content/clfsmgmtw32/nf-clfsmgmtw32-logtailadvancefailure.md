@@ -1,19 +1,17 @@
 ---
 UID: NF:clfsmgmtw32.LogTailAdvanceFailure
 title: LogTailAdvanceFailure function (clfsmgmtw32.h)
-
 description: The LogTailAdvanceFailure function is called by a log client to indicate that it cannot comply with a request from log management to advance its tail.
 old-location: fs\logtailadvancefailure.htm
 tech.root: Clfs
 ms.assetid: 4f57f7c9-e54b-4e64-a3d7-53e6f3d7ec98
-
 ms.date: 12/05/2018
 ms.keywords: LogTailAdvanceFailure, LogTailAdvanceFailure function [Files], clfsmgmtw32/LogTailAdvanceFailure, fs.logtailadvancefailure
 ms.topic: function
-f1_keywords: 
- - "clfsmgmtw32/LogTailAdvanceFailure"
+f1_keywords:
+- clfsmgmtw32/LogTailAdvanceFailure
 dev_langs:
- - c++
+- c++
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClfsW32.lib
 req.dll: ClfsW32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClfsW32.dll
+- ClfsW32.dll
 api_name:
- - LogTailAdvanceFailure
+- LogTailAdvanceFailure
 targetos: Windows
 req.typenames: 
 req.redist: 

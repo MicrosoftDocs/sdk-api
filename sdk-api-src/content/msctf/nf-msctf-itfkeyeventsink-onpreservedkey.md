@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfKeyEventSink.OnPreservedKey
 title: ITfKeyEventSink::OnPreservedKey (msctf.h)
-
 description: ITfKeyEventSink::OnPreservedKey method
 old-location: tsf\itfkeyeventsink_onpreservedkey.htm
 tech.root: TSF
 ms.assetid: 90b3f2f4-5655-42e3-bdef-62c090800e5e
-
 ms.date: 12/05/2018
 ms.keywords: ITfKeyEventSink interface [Text Services Framework],OnPreservedKey method, ITfKeyEventSink.OnPreservedKey, ITfKeyEventSink::OnPreservedKey, OnPreservedKey, OnPreservedKey method [Text Services Framework], OnPreservedKey method [Text Services Framework],ITfKeyEventSink interface, _tsf_itfkeyeventsink_onpreservedkey_ref, msctf/ITfKeyEventSink::OnPreservedKey, tsf.itfkeyeventsink_onpreservedkey
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfKeyEventSink.OnPreservedKey"
+f1_keywords:
+- msctf/ITfKeyEventSink.OnPreservedKey
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfKeyEventSink.OnPreservedKey
+- ITfKeyEventSink.OnPreservedKey
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

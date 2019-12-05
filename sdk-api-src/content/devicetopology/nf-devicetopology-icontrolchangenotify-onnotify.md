@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IControlChangeNotify.OnNotify
 title: IControlChangeNotify::OnNotify (devicetopology.h)
-
 description: The OnNotify method notifies the client when the status of a connector or subunit changes.
 old-location: coreaudio\icontrolchangenotify_onnotify.htm
 tech.root: CoreAudio
 ms.assetid: a2f32cb9-3c8b-4b44-96a2-dd70afcca71a
-
 ms.date: 12/05/2018
 ms.keywords: IControlChangeNotify interface [Core Audio],OnNotify method, IControlChangeNotify.OnNotify, IControlChangeNotify::OnNotify, IControlChangeNotifyOnNotify, OnNotify, OnNotify method [Core Audio], OnNotify method [Core Audio],IControlChangeNotify interface, coreaudio.icontrolchangenotify_onnotify, devicetopology/IControlChangeNotify::OnNotify
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IControlChangeNotify.OnNotify"
+f1_keywords:
+- devicetopology/IControlChangeNotify.OnNotify
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IControlChangeNotify.OnNotify
+- IControlChangeNotify.OnNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

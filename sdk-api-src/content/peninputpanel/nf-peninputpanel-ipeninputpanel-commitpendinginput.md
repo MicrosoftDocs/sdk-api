@@ -1,19 +1,17 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.CommitPendingInput
 title: IPenInputPanel::CommitPendingInput (peninputpanel.h)
-
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Sends collected ink to the recognizer and posts the recognition result.
 old-location: tablet\peninputpanel_commitpendinginput.htm
 tech.root: tablet
 ms.assetid: 4dd0f334-174a-495c-b363-149960ae2253
-
 ms.date: 12/05/2018
 ms.keywords: 4dd0f334-174a-495c-b363-149960ae2253, CommitPendingInput, CommitPendingInput method [Tablet PC], CommitPendingInput method [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],CommitPendingInput method, IPenInputPanel.CommitPendingInput, IPenInputPanel::CommitPendingInput, peninputpanel/IPenInputPanel::CommitPendingInput, tablet.peninputpanel_commitpendinginput
 ms.topic: method
-f1_keywords: 
- - "peninputpanel/IPenInputPanel.CommitPendingInput"
+f1_keywords:
+- peninputpanel/IPenInputPanel.CommitPendingInput
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IPenInputPanel.CommitPendingInput
+- IPenInputPanel.CommitPendingInput
 targetos: Windows
 req.typenames: 
 req.redist: 

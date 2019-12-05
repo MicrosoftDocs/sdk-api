@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.RemoveStructureChangedEventHandler
 title: IUIAutomation::RemoveStructureChangedEventHandler (uiautomationclient.h)
-
 description: Removes a structure-changed event handler.
 old-location: winauto\uiauto_IUIAutomation_RemoveStructureChangedEventHandler.htm
 tech.root: WinAuto
 ms.assetid: b0f8bb2a-003f-471f-b1a6-ffec97e2752a
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],RemoveStructureChangedEventHandler method, IUIAutomation.RemoveStructureChangedEventHandler, IUIAutomation::RemoveStructureChangedEventHandler, RemoveStructureChangedEventHandler, RemoveStructureChangedEventHandler method [Windows Accessibility], RemoveStructureChangedEventHandler method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_RemoveStructureChangedEventHandler, uiauto_IUIAutomation_RemoveStructureChangedEventHandler, uiautomationclient/IUIAutomation::RemoveStructureChangedEventHandler, winauto.uiauto_IUIAutomation_RemoveStructureChangedEventHandler
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation.RemoveStructureChangedEventHandler"
+f1_keywords:
+- uiautomationclient/IUIAutomation.RemoveStructureChangedEventHandler
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation.RemoveStructureChangedEventHandler
+- IUIAutomation.RemoveStructureChangedEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

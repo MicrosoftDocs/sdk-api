@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont2.GetDoubleStrike
 title: ITextFont2::GetDoubleStrike (tom.h)
-
 description: Gets whether characters are displayed with double horizontal lines through the center.
 old-location: controls\itextfont2_getdoublestrike.htm
 tech.root: Controls
 ms.assetid: 9e599c29-4b47-4043-b9c7-75a736ca64fa
-
 ms.date: 12/05/2018
 ms.keywords: GetDoubleStrike, GetDoubleStrike method [Windows Controls], GetDoubleStrike method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetDoubleStrike method, ITextFont2.GetDoubleStrike, ITextFont2::GetDoubleStrike, controls.itextfont2_getdoublestrike, tom/ITextFont2::GetDoubleStrike
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont2.GetDoubleStrike"
+f1_keywords:
+- tom/ITextFont2.GetDoubleStrike
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont2.GetDoubleStrike
+- ITextFont2.GetDoubleStrike
 targetos: Windows
 req.typenames: 
 req.redist: 

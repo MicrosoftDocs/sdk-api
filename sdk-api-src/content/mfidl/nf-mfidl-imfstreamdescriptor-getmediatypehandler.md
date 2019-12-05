@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFStreamDescriptor.GetMediaTypeHandler
 title: IMFStreamDescriptor::GetMediaTypeHandler (mfidl.h)
-
 description: Retrieves a media type handler for the stream. The media type handler can be used to enumerate supported media types for the stream, get the current media type, and set the media type.
 old-location: mf\imfstreamdescriptor_getmediatypehandler.htm
 tech.root: medfound
 ms.assetid: 8e991417-fe15-4749-94c4-26c621692b52
-
 ms.date: 12/05/2018
 ms.keywords: 8e991417-fe15-4749-94c4-26c621692b52, GetMediaTypeHandler, GetMediaTypeHandler method [Media Foundation], GetMediaTypeHandler method [Media Foundation],IMFStreamDescriptor interface, IMFStreamDescriptor interface [Media Foundation],GetMediaTypeHandler method, IMFStreamDescriptor.GetMediaTypeHandler, IMFStreamDescriptor::GetMediaTypeHandler, mf.imfstreamdescriptor_getmediatypehandler, mfidl/IMFStreamDescriptor::GetMediaTypeHandler
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFStreamDescriptor.GetMediaTypeHandler"
+f1_keywords:
+- mfidl/IMFStreamDescriptor.GetMediaTypeHandler
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFStreamDescriptor.GetMediaTypeHandler
+- IMFStreamDescriptor.GetMediaTypeHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

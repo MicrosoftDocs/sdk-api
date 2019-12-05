@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IAction.get_Type
 title: IAction::get_Type (taskschd.h)
-
 description: Gets the type of action.
 old-location: taskschd\iaction_type.htm
 tech.root: taskschd
 ms.assetid: 720aae58-b58c-4948-9e94-94c5a041a2db
-
 ms.date: 12/05/2018
 ms.keywords: IAction interface [Task Scheduler],Type property, IAction.Type, IAction.get_Type, IAction::Type, IAction::get_Type, TASK_ACTION_COM_HANDLER, TASK_ACTION_EXEC, TASK_ACTION_SEND_EMAIL, TASK_ACTION_SHOW_MESSAGE, Type property [Task Scheduler], Type property [Task Scheduler],IAction interface, get_Type, taskschd.iaction_type, taskschd/IAction::Type, taskschd/IAction::get_Type
 ms.topic: method
 f1_keywords:
 - taskschd/IAction.Type
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

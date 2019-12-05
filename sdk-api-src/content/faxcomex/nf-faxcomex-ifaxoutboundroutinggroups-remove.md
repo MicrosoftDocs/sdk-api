@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingGroups.Remove
 title: IFaxOutboundRoutingGroups::Remove (faxcomex.h)
-
 description: The Remove method removes an item from the FaxOutboundRoutingGroups collection.
 old-location: fax\_mfax_faxoutboundroutinggroups_cpp_mfax_faxoutboundroutinggroups_remove_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5h45.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxOutboundRoutingGroups interface [Fax Service],Remove method, IFaxOutboundRoutingGroups.Remove, IFaxOutboundRoutingGroups::Remove, Remove, Remove method [Fax Service], Remove method [Fax Service],IFaxOutboundRoutingGroups interface, _mfax_faxoutboundroutinggroups.remove, fax._mfax_faxoutboundroutinggroups_cpp_mfax_faxoutboundroutinggroups_remove_cpp, fax._mfax_faxoutboundroutinggroups_remove, faxcomex/IFaxOutboundRoutingGroups::Remove
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutboundRoutingGroups.Remove"
+f1_keywords:
+- faxcomex/IFaxOutboundRoutingGroups.Remove
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutboundRoutingGroups.Remove
- - IFaxOutboundRoutingGroups.Remove
+- IFaxOutboundRoutingGroups.Remove
+- IFaxOutboundRoutingGroups.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

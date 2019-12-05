@@ -1,19 +1,17 @@
 ---
 UID: NF:winsafer.SaferiIsExecutableFileType
 title: SaferiIsExecutableFileType function (winsafer.h)
-
 description: Determines whether a specified file is an executable file.
 old-location: security\saferiisexecutablefiletype.htm
 tech.root: SecMgmt
 ms.assetid: f122ceaa-65bb-4cfe-a760-adf4f910c487
-
 ms.date: 12/05/2018
 ms.keywords: SaferiIsExecutableFileType, SaferiIsExecutableFileType function [Security], security.saferiisexecutablefiletype, winsafer/SaferiIsExecutableFileType
 ms.topic: function
-f1_keywords: 
- - "winsafer/SaferiIsExecutableFileType"
+f1_keywords:
+- winsafer/SaferiIsExecutableFileType
 dev_langs:
- - c++
+- c++
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - Ext-MS-Win-AdvAPI32-safer-l1-1-0.dll
+- Advapi32.dll
+- Ext-MS-Win-AdvAPI32-safer-l1-1-0.dll
 api_name:
- - SaferiIsExecutableFileType
+- SaferiIsExecutableFileType
 targetos: Windows
 req.typenames: 
 req.redist: 

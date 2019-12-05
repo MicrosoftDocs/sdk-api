@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.ITextHost.TxGetScrollBars
 title: ITextHost::TxGetScrollBars (textserv.h)
-
 description: Requests information about the scroll bars supported by the text host.
 old-location: controls\ITextHost_TxGetScrollBars.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxgetscrollbars.htm
-
 ms.date: 12/05/2018
 ms.keywords: ES_AUTOHSCROLL, ES_AUTOVSCROLL, ES_DISABLENOSCROLL, ITextHost interface [Windows Controls],TxGetScrollBars method, ITextHost.TxGetScrollBars, ITextHost::TxGetScrollBars, TxGetScrollBars, TxGetScrollBars method [Windows Controls], TxGetScrollBars method [Windows Controls],ITextHost interface, WS_HSCROLL, WS_VSCROLL, _win32_ITextHost_TxGetScrollBars, _win32_ITextHost_TxGetScrollBars_cpp, controls.ITextHost_TxGetScrollBars, controls._win32_ITextHost_TxGetScrollBars, textserv/ITextHost::TxGetScrollBars
 ms.topic: method
-f1_keywords: 
- - "textserv/ITextHost.TxGetScrollBars"
+f1_keywords:
+- textserv/ITextHost.TxGetScrollBars
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextHost.TxGetScrollBars
+- ITextHost.TxGetScrollBars
 targetos: Windows
 req.typenames: 
 req.redist: 

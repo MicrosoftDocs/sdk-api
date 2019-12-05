@@ -1,19 +1,17 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.UnregisterControlChangeNotify
 title: IAudioEndpointVolume::UnregisterControlChangeNotify (endpointvolume.h)
-
 description: The UnregisterControlChangeNotify method deletes the registration of a client's notification callback interface that the client registered in a previous call to the IAudioEndpointVolume::RegisterControlChangeNotify method.
 old-location: coreaudio\iaudioendpointvolume_unregistercontrolchangenotify.htm
 tech.root: CoreAudio
 ms.assetid: 4ae8263b-83f5-4d9f-9e48-d78fae98c7ad
-
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],UnregisterControlChangeNotify method, IAudioEndpointVolume.UnregisterControlChangeNotify, IAudioEndpointVolume::UnregisterControlChangeNotify, IAudioEndpointVolumeUnregisterControlChangeNotify, UnregisterControlChangeNotify, UnregisterControlChangeNotify method [Core Audio], UnregisterControlChangeNotify method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_unregistercontrolchangenotify, endpointvolume/IAudioEndpointVolume::UnregisterControlChangeNotify
 ms.topic: method
-f1_keywords: 
- - "endpointvolume/IAudioEndpointVolume.UnregisterControlChangeNotify"
+f1_keywords:
+- endpointvolume/IAudioEndpointVolume.UnregisterControlChangeNotify
 dev_langs:
- - c++
+- c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Endpointvolume.h
+- Endpointvolume.h
 api_name:
- - IAudioEndpointVolume.UnregisterControlChangeNotify
+- IAudioEndpointVolume.UnregisterControlChangeNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

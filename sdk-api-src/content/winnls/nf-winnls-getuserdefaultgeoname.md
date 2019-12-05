@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.GetUserDefaultGeoName
 title: GetUserDefaultGeoName function (winnls.h)
-
 description: Retrieves the two-letter International Organization for Standardization (ISO) 3166-1 code or numeric United Nations (UN) Series M, Number 49 (M.49) code for the default geographical location of the user.
 old-location: intl\getuserdefaultgeoname.htm
 tech.root: Intl
 ms.assetid: 7938A5A1-E18E-4643-A07C-3354B4E94B5D
-
 ms.date: 12/05/2018
 ms.keywords: GetUserDefaultGeoName, GetUserDefaultGeoName function [Internationalization for Windows Applications], intl.getuserdefaultgeoname, winnls/GetUserDefaultGeoName
 ms.topic: function
-f1_keywords: 
- - "winnls/GetUserDefaultGeoName"
+f1_keywords:
+- winnls/GetUserDefaultGeoName
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - GetUserDefaultGeoName
+- GetUserDefaultGeoName
 targetos: Windows
 req.typenames: 
 req.redist: 

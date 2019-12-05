@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpV4DeletePolicy
 title: DhcpV4DeletePolicy function (dhcpsapi.h)
-
 description: Deletes an existing policy from the DHCP Server.
 old-location: dhcp\dhcpv4deletepolicy.htm
 tech.root: DHCP
 ms.assetid: 94e6ad23-3e38-4ee2-bc3a-8d7ff1b21eca
-
 ms.date: 12/05/2018
 ms.keywords: DhcpV4DeletePolicy, DhcpV4DeletePolicy function [DHCP], dhcp.dhcpv4deletepolicy, dhcpsapi/DhcpV4DeletePolicy
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpV4DeletePolicy"
+f1_keywords:
+- dhcpsapi/DhcpV4DeletePolicy
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpV4DeletePolicy
+- DhcpV4DeletePolicy
 targetos: Windows
 req.typenames: 
 req.redist: 

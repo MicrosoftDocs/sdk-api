@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminIsServiceRunning
 title: MprAdminIsServiceRunning function (mprapi.h)
-
 description: The MprAdminIsServiceRunning function checks whether the RRAS service is running on a specified server if the calling process has access.
 old-location: rras\mpradminisservicerunning.htm
 tech.root: RRAS
 ms.assetid: 3722e5f2-3cd7-490a-84b7-4a1c9fa11de7
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminIsServiceRunning, MprAdminIsServiceRunning function [RAS], _mpr_mpradminisservicerunning, mprapi/MprAdminIsServiceRunning, rras.mpradminisservicerunning
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminIsServiceRunning"
+f1_keywords:
+- mprapi/MprAdminIsServiceRunning
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminIsServiceRunning
+- MprAdminIsServiceRunning
 targetos: Windows
 req.typenames: 
 req.redist: 

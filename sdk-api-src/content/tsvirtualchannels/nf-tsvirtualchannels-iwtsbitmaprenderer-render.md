@@ -1,19 +1,17 @@
 ---
 UID: NF:tsvirtualchannels.IWTSBitmapRenderer.Render
 title: IWTSBitmapRenderer::Render (tsvirtualchannels.h)
-
 description: Called by a dynamic virtual channel plug-in to render bitmaps.
 old-location: termserv\iwtsbitmaprenderer_render.htm
 tech.root: TermServ
 ms.assetid: 536c6954-0cde-48d1-ba5b-a97c9942f0f6
-
 ms.date: 12/05/2018
 ms.keywords: IWTSBitmapRenderer interface [Remote Desktop Services],Render method, IWTSBitmapRenderer.Render, IWTSBitmapRenderer::Render, Render, Render method [Remote Desktop Services], Render method [Remote Desktop Services],IWTSBitmapRenderer interface, termserv.iwtsbitmaprenderer_render, tsvirtualchannels/IWTSBitmapRenderer::Render
 ms.topic: method
-f1_keywords: 
- - "tsvirtualchannels/IWTSBitmapRenderer.Render"
+f1_keywords:
+- tsvirtualchannels/IWTSBitmapRenderer.Render
 dev_langs:
- - c++
+- c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tsvirtualchannels.h
+- tsvirtualchannels.h
 api_name:
- - IWTSBitmapRenderer.Render
+- IWTSBitmapRenderer.Render
 targetos: Windows
 req.typenames: 
 req.redist: 

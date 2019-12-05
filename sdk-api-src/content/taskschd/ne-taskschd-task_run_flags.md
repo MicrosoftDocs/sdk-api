@@ -1,19 +1,17 @@
 ---
 UID: NE:taskschd._TASK_RUN_FLAGS
 title: TASK_RUN_FLAGS (taskschd.h)
-
 description: Defines how a task is run.
 old-location: taskschd\task_run_flags.htm
 tech.root: taskschd
 ms.assetid: 6c5a4ab6-b3ca-4d60-918d-82797782d66a
-
 ms.date: 12/05/2018
 ms.keywords: TASK_RUN_AS_SELF, TASK_RUN_FLAGS, TASK_RUN_FLAGS enumeration [Task Scheduler], TASK_RUN_IGNORE_CONSTRAINTS, TASK_RUN_NO_FLAGS, TASK_RUN_USER_SID, TASK_RUN_USE_SESSION_ID, taskschd.task_run_flags, taskschd/TASK_RUN_AS_SELF, taskschd/TASK_RUN_FLAGS, taskschd/TASK_RUN_IGNORE_CONSTRAINTS, taskschd/TASK_RUN_NO_FLAGS, taskschd/TASK_RUN_USER_SID, taskschd/TASK_RUN_USE_SESSION_ID
 ms.topic: enum
-f1_keywords: 
- - "taskschd/TASK_RUN_FLAGS"
+f1_keywords:
+- taskschd/TASK_RUN_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - taskschd.h
+- taskschd.h
 api_name:
- - TASK_RUN_FLAGS
+- TASK_RUN_FLAGS
 targetos: Windows
 req.typenames: TASK_RUN_FLAGS
 req.redist: 

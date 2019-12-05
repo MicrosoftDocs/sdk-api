@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxReceiptOptions.Save
 title: IFaxReceiptOptions::Save (faxcomex.h)
-
 description: The IFaxReceiptOptions::Save method saves the FaxReceiptOptions object data.
 old-location: fax\_mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_save_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_25ph.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxReceiptOptions interface [Fax Service],Save method, IFaxReceiptOptions.Save, IFaxReceiptOptions::Save, Save, Save method [Fax Service], Save method [Fax Service],IFaxReceiptOptions interface, _mfax_faxreceiptoptions.save, fax._mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_save_cpp, fax._mfax_faxreceiptoptions_save, faxcomex/IFaxReceiptOptions::Save
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxReceiptOptions.Save"
+f1_keywords:
+- faxcomex/IFaxReceiptOptions.Save
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxReceiptOptions.Save
- - IFaxReceiptOptions.Save
+- IFaxReceiptOptions.Save
+- IFaxReceiptOptions.Save
 targetos: Windows
 req.typenames: 
 req.redist: 

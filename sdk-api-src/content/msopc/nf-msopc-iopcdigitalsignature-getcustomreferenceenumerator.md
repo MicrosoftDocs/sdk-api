@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetCustomReferenceEnumerator
 title: IOpcDigitalSignature::GetCustomReferenceEnumerator (msopc.h)
-
 description: Gets an enumerator of the IOpcSignatureReference interface pointers that represent references to application-specific XML elements that have been signed.
 old-location: opc\iopcdigitalsignature_getcustomreferenceenumerator.htm
 tech.root: OPC
 ms.assetid: 8cc5ae5d-faef-451d-8ad8-db4b8b5c0e22
-
 ms.date: 12/05/2018
 ms.keywords: GetCustomReferenceEnumerator, GetCustomReferenceEnumerator method [Open Packaging Conventions], GetCustomReferenceEnumerator method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetCustomReferenceEnumerator method, IOpcDigitalSignature.GetCustomReferenceEnumerator, IOpcDigitalSignature::GetCustomReferenceEnumerator, msopc/IOpcDigitalSignature::GetCustomReferenceEnumerator, opc.iopcdigitalsignature_getcustomreferenceenumerator
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcDigitalSignature.GetCustomReferenceEnumerator"
+f1_keywords:
+- msopc/IOpcDigitalSignature.GetCustomReferenceEnumerator
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcDigitalSignature.GetCustomReferenceEnumerator
+- IOpcDigitalSignature.GetCustomReferenceEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

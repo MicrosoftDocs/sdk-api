@@ -1,19 +1,17 @@
 ---
 UID: NS:dbghelp._IMAGEHLP_STACK_FRAME
 title: IMAGEHLP_STACK_FRAME (dbghelp.h)
-
 description: Contains the stack frame information.
 old-location: base\imagehlp_stack_frame_str.htm
 tech.root: Debug
 ms.assetid: b6c89cf2-b108-4518-9f4c-4a3684b3f0a7
-
 ms.date: 12/05/2018
 ms.keywords: '*PIMAGEHLP_STACK_FRAME, IMAGEHLP_STACK_FRAME, IMAGEHLP_STACK_FRAME structure, PIMAGEHLP_STACK_FRAME, PIMAGEHLP_STACK_FRAME structure pointer, _IMAGEHLP_STACK_FRAME, _win32_imagehlp_stack_frame_str, base.imagehlp_stack_frame_str, dbghelp/IMAGEHLP_STACK_FRAME, dbghelp/PIMAGEHLP_STACK_FRAME'
 ms.topic: struct
 f1_keywords:
 - dbghelp/IMAGEHLP_STACK_FRAME
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

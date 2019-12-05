@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsReadType
 title: WsReadType function (webservices.h)
-
 description: Read a value of a given WS_TYPE from XML according to the WS_TYPE_MAPPING.
 old-location: wsw\wsreadtype.htm
 tech.root: wsw
 ms.assetid: 6d026b2e-f2c2-4990-9178-152585a7749a
-
 ms.date: 12/05/2018
 ms.keywords: WsReadType, WsReadType function [Web Services for Windows], webservices/WsReadType, wsw.wsreadtype
 ms.topic: function
-f1_keywords: 
- - "webservices/WsReadType"
+f1_keywords:
+- webservices/WsReadType
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsReadType
+- WsReadType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wofapi._WOF_FILE_COMPRESSION_INFO_V1
 title: WOF_FILE_COMPRESSION_INFO_V1 (wofapi.h)
-
 description: Defines metadata specific to files provided by WOF_PROVIDER_FILE.
 old-location: fs\wof_file_compression_info_v1.htm
 tech.root: FileIO
 ms.assetid: 84FC5525-43BC-436C-AADC-C58882D48C1F
-
 ms.date: 12/05/2018
-ms.keywords: "*PWOF_FILE_COMPRESSION_INFO_V1, PWOF_FILE_COMPRESSION_INFO_V1, PWOF_FILE_COMPRESSION_INFO_V1 structure pointer [Files], WOF_FILE_COMPRESSION_INFO, WOF_FILE_COMPRESSION_INFO_V1, WOF_FILE_COMPRESSION_INFO_V1 structure [Files], fs.wof_file_compression_info_v1, wofapi/PWOF_FILE_COMPRESSION_INFO_V1, wofapi/WOF_FILE_COMPRESSION_INFO_V1"
+ms.keywords: '*PWOF_FILE_COMPRESSION_INFO_V1, PWOF_FILE_COMPRESSION_INFO_V1, PWOF_FILE_COMPRESSION_INFO_V1 structure pointer [Files], WOF_FILE_COMPRESSION_INFO, WOF_FILE_COMPRESSION_INFO_V1, WOF_FILE_COMPRESSION_INFO_V1 structure [Files], fs.wof_file_compression_info_v1, wofapi/PWOF_FILE_COMPRESSION_INFO_V1, wofapi/WOF_FILE_COMPRESSION_INFO_V1'
 ms.topic: struct
-f1_keywords: 
- - "wofapi/WOF_FILE_COMPRESSION_INFO_V1"
+f1_keywords:
+- wofapi/WOF_FILE_COMPRESSION_INFO_V1
 dev_langs:
- - c++
+- c++
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wofapi.h
+- wofapi.h
 api_name:
- - WOF_FILE_COMPRESSION_INFO_V1
+- WOF_FILE_COMPRESSION_INFO_V1
 targetos: Windows
 req.typenames: WOF_FILE_COMPRESSION_INFO_V1, *PWOF_FILE_COMPRESSION_INFO_V1
 req.redist: 

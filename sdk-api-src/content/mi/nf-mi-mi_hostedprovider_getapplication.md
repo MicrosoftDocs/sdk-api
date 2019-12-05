@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_HostedProvider_GetApplication
 title: MI_HostedProvider_GetApplication function (mi.h)
-
 description: Gets the top-level application handle from which the hosted provider handle was created.
 old-location: wmi_v2\mi_hostedprovider_getapplication.htm
 tech.root: wmi_v2
 ms.assetid: 26afde05-6ef6-4044-b8a1-fad2a3bb4385
-
 ms.date: 12/05/2018
 ms.keywords: MI_HostedProvider_GetApplication, MI_HostedProvider_GetApplication function [Windows Management Infrastructure (MI)], mi/MI_HostedProvider_GetApplication, wmi_v2.mi_hostedprovider_getapplication
 ms.topic: function
 f1_keywords:
 - mi/MI_HostedProvider_GetApplication
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

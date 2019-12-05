@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineSecureCall
 title: TSPI_lineSecureCall function (tspi.h)
-
 description: The TSPI_lineSecureCall function secures the call from any interruptions or interference that can affect the call's media stream.
 old-location: tspi\tspi_linesecurecall.htm
 tech.root: Tapi
 ms.assetid: a064bf4b-3401-4f92-b318-a9f66de1e61f
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSecureCall, TSPI_lineSecureCall function [TAPI 2.2], _tspi_tspi_linesecurecall, tspi.tspi_linesecurecall, tspi/TSPI_lineSecureCall
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineSecureCall"
+f1_keywords:
+- tspi/TSPI_lineSecureCall
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineSecureCall
+- TSPI_lineSecureCall
 targetos: Windows
 req.typenames: 
 req.redist: 

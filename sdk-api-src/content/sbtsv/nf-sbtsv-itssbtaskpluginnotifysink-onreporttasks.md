@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbTaskPluginNotifySink.OnReportTasks
 title: ITsSbTaskPluginNotifySink::OnReportTasks (sbtsv.h)
-
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) of a new task report.
 old-location: termserv\itssbtaskpluginnotifysink_onreporttasks.htm
 tech.root: TermServ
 ms.assetid: e3b722c2-e6fa-46c5-a851-a039553b8e95
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbTaskPluginNotifySink interface [Remote Desktop Services],OnReportTasks method, ITsSbTaskPluginNotifySink.OnReportTasks, ITsSbTaskPluginNotifySink::OnReportTasks, OnReportTasks, OnReportTasks method [Remote Desktop Services], OnReportTasks method [Remote Desktop Services],ITsSbTaskPluginNotifySink interface, sbtsv/ITsSbTaskPluginNotifySink::OnReportTasks, termserv.itssbtaskpluginnotifysink_onreporttasks
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbTaskPluginNotifySink.OnReportTasks"
+f1_keywords:
+- sbtsv/ITsSbTaskPluginNotifySink.OnReportTasks
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbTaskPluginNotifySink.OnReportTasks
+- ITsSbTaskPluginNotifySink.OnReportTasks
 targetos: Windows
 req.typenames: 
 req.redist: 

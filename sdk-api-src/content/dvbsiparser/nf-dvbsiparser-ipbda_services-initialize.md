@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IPBDA_Services.Initialize
 title: IPBDA_Services::Initialize (dvbsiparser.h)
-
 description: Initializes an object that retrieves service records from a Program and System Information Protocol (PSIP) table in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_services_initialize.htm
 tech.root: mstv
 ms.assetid: 2504627a-a5e3-4ed1-9aa2-93d9621bf2e6
-
 ms.date: 12/05/2018
 ms.keywords: IPBDA_Services interface [Microsoft TV Technologies],Initialize method, IPBDA_Services.Initialize, IPBDA_Services::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IPBDA_Services interface, dvbsiparser/IPBDA_Services::Initialize, mstv.ipbda_services_initialize
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IPBDA_Services.Initialize"
+f1_keywords:
+- dvbsiparser/IPBDA_Services.Initialize
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IPBDA_Services.Initialize
+- IPBDA_Services.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

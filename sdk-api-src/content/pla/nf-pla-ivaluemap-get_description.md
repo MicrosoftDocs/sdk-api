@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IValueMap.get_Description
 title: IValueMap::get_Description (pla.h)
-
 description: Retrieves or sets a description of the collection.
 old-location: pla\ivaluemap_description.htm
 tech.root: PLA
 ms.assetid: 04936082-e377-46f3-b218-28a2403eee9d
-
 ms.date: 12/05/2018
 ms.keywords: Description property [PLA], Description property [PLA],IValueMap interface, IValueMap interface [PLA],Description property, IValueMap.Description, IValueMap.get_Description, IValueMap::Description, IValueMap::get_Description, IValueMap::put_Description, base.ivaluemap_description, get_Description, pla.ivaluemap_description, pla/IValueMap::Description, pla/IValueMap::get_Description, pla/IValueMap::put_Description
 ms.topic: method
-f1_keywords: 
- - "pla/IValueMap.Description"
+f1_keywords:
+- pla/IValueMap.Description
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IValueMap.Description
- - IValueMap.get_Description
- - IValueMap.put_Description
+- IValueMap.Description
+- IValueMap.get_Description
+- IValueMap.put_Description
 targetos: Windows
 req.typenames: 
 req.redist: 

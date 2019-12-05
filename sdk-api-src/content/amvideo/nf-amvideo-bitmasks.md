@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.BITMASKS
 title: BITMASKS macro (amvideo.h)
-
 description: The BITMASKS macro retrieves the color masks from a VIDEOINFO structure.
 old-location: dshow\bitmasks.htm
 tech.root: DirectShow
 ms.assetid: e90ddeab-a3d6-4d34-8608-4d8831d81fe5
-
 ms.date: 12/05/2018
 ms.keywords: BITMASKS, BITMASKS macro [DirectShow], amvideo/BITMASKS, dshow.bitmasks
 ms.topic: macro
-f1_keywords: 
- - "amvideo/BITMASKS"
+f1_keywords:
+- amvideo/BITMASKS
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Streams.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Amvideo.h
+- Amvideo.h
 api_name:
- - BITMASKS
+- BITMASKS
 targetos: Windows
 req.typenames: 
 req.redist: 

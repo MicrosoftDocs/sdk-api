@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceService.Cancel
 title: IPortableDeviceService::Cancel (portabledeviceapi.h)
-
 description: Cancels a pending operation on this interface.
 old-location: wpdsdk\iportabledeviceservice_cancel.htm
 tech.root: wpd_sdk
 ms.assetid: 1fb07c56-4e7a-4c20-8e1e-65d8a2c719ab
-
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [Windows Portable Devices SDK], Cancel method [Windows Portable Devices SDK],IPortableDeviceService interface, IPortableDeviceService interface [Windows Portable Devices SDK],Cancel method, IPortableDeviceService.Cancel, IPortableDeviceService::Cancel, portabledeviceapi/IPortableDeviceService::Cancel, wpdsdk.iportabledeviceservice_cancel
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceService.Cancel"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceService.Cancel
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceAPI.h
+- PortableDeviceAPI.h
 api_name:
- - IPortableDeviceService.Cancel
+- IPortableDeviceService.Cancel
 targetos: Windows
 req.typenames: 
 req.redist: 

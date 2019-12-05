@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPM.GetDomain
 title: IGPM::GetDomain (gpmgmt.h)
-
 description: Creates and returns a GPMDomain object that corresponds to the specified domain.
 old-location: gpmc\igpm_getdomain.htm
 tech.root: gpmc
 ms.assetid: 32aee72f-96fa-4ebd-9ff7-643972b82cf6
-
 ms.date: 12/05/2018
 ms.keywords: GPM object [GPMC],GetDomain method, GetDomain, GetDomain method [GPMC], GetDomain method [GPMC],GPM object, GetDomain method [GPMC],IGPM interface, IGPM interface [GPMC],GetDomain method, IGPM.GetDomain, IGPM::GetDomain, _win32_igpm_getdomain, gpmc.igpm_getdomain, gpmgmt/IGPM::GetDomain
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPM.GetDomain"
+f1_keywords:
+- gpmgmt/IGPM.GetDomain
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPM.GetDomain
- - GPM.GetDomain
+- IGPM.GetDomain
+- GPM.GetDomain
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.ExtractIconA
 title: ExtractIconA function (shellapi.h)
-
 description: Gets a handle to an icon from the specified executable file, DLL, or icon file. To retrieve an array of handles to large or small icons, use the ExtractIconEx function.
 old-location: shell\ExtractIcon.htm
 tech.root: shell
 ms.assetid: a0314423-79d6-416e-8be0-be946477da3e
-
 ms.date: 12/05/2018
 ms.keywords: ExtractIcon, ExtractIcon function [Windows Shell], ExtractIconA, ExtractIconW, _shell_ExtractIcon, shell.ExtractIcon, shellapi/ExtractIcon, shellapi/ExtractIconA, shellapi/ExtractIconW
 ms.topic: function
-f1_keywords: 
- - "shellapi/ExtractIcon"
+f1_keywords:
+- shellapi/ExtractIcon
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - ExtractIcon
- - ExtractIconA
- - ExtractIconW
+- ExtractIcon
+- ExtractIconA
+- ExtractIconW
 targetos: Windows
 req.typenames: 
 req.redist: 

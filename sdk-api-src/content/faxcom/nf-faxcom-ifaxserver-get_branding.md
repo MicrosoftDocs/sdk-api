@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxServer.get_Branding
 title: IFaxServer::get_Branding (faxcom.h)
-
 description: Sets or retrieves the Branding property for a FaxServer object. The Branding property is a Boolean value that indicates whether the fax server generates branding information at the top of fax transmissions.
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_get_branding_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1v1j.htm
-
 ms.date: 12/05/2018
 ms.keywords: Branding property [Fax Service], Branding property [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],Branding property, IFaxServer.Branding, IFaxServer.get_Branding, IFaxServer.put_Branding, IFaxServer::Branding, IFaxServer::get_Branding, IFaxServer::put_Branding, _mfax_ifaxserver_get_branding, fax._mfax_ifaxserver_client_mfax_ifaxserver_get_branding_cpp, fax._mfax_ifaxserver_get_branding, faxcom/IFaxServer::Branding, faxcom/IFaxServer::get_Branding, faxcom/IFaxServer::put_Branding, get_Branding
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxServer.Branding"
+f1_keywords:
+- faxcom/IFaxServer.Branding
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxServer.Branding
- - IFaxServer.get_Branding
- - IFaxServer.put_Branding
- - IFaxServer.get_Branding
- - IFaxServer.put_Branding
+- IFaxServer.Branding
+- IFaxServer.get_Branding
+- IFaxServer.put_Branding
+- IFaxServer.get_Branding
+- IFaxServer.put_Branding
 targetos: Windows
 req.typenames: 
 req.redist: 

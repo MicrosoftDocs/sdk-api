@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut15.IInkDivisionUnit.get_Strokes
 title: IInkDivisionUnit::get_Strokes (msinkaut15.h)
-
 description: Gets the collection of strokes that are contained in an object or used to create an object.
 old-location: tablet\iinkdivisionunit_strokes.htm
 tech.root: tablet
 ms.assetid: 505df3d7-740e-46fc-a942-2820b3428564
-
 ms.date: 12/05/2018
 ms.keywords: IInkDivisionUnit interface [Tablet PC],Strokes property, IInkDivisionUnit.Strokes, IInkDivisionUnit.get_Strokes, IInkDivisionUnit::Strokes, IInkDivisionUnit::get_Strokes, Strokes property [Tablet PC], Strokes property [Tablet PC],IInkDivisionUnit interface, get_Strokes, msinkaut15/IInkDivisionUnit::Strokes, msinkaut15/IInkDivisionUnit::get_Strokes, tablet.iinkdivisionunit_strokes
 ms.topic: method
-f1_keywords: 
- - "msinkaut15/IInkDivisionUnit.Strokes"
+f1_keywords:
+- msinkaut15/IInkDivisionUnit.Strokes
 dev_langs:
- - c++
+- c++
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Inkdiv.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Inkdiv.dll
- - Inkdiv.dll.dll
+- Inkdiv.dll
+- Inkdiv.dll.dll
 api_name:
- - IInkDivisionUnit.Strokes
- - IInkDivisionUnit.get_Strokes
- - IInkDivisionUnit.get_Strokes
+- IInkDivisionUnit.Strokes
+- IInkDivisionUnit.get_Strokes
+- IInkDivisionUnit.get_Strokes
 targetos: Windows
 req.typenames: 
 req.redist: 

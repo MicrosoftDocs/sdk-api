@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymGetSourceVarFromToken
 title: SymGetSourceVarFromToken function (dbghelp.h)
-
 description: Retrieves the value associated with the specified variable name from the Source Server token.
 old-location: base\symgetsourcevarfromtoken.htm
 tech.root: Debug
 ms.assetid: 05e9005a-aef3-44a3-a73b-21830799a3d5
-
 ms.date: 12/05/2018
 ms.keywords: SymGetSourceVarFromToken, SymGetSourceVarFromToken function, SymGetSourceVarFromTokenW, base.symgetsourcevarfromtoken, dbghelp/SymGetSourceVarFromToken, dbghelp/SymGetSourceVarFromTokenW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymGetSourceVarFromToken"
+f1_keywords:
+- dbghelp/SymGetSourceVarFromToken
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymGetSourceVarFromToken
- - SymGetSourceVarFromToken
- - SymGetSourceVarFromTokenW
+- SymGetSourceVarFromToken
+- SymGetSourceVarFromToken
+- SymGetSourceVarFromTokenW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.8 or later

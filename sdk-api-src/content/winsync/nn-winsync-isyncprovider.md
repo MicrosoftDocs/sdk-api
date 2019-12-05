@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.ISyncProvider
 title: ISyncProvider (winsync.h)
-
 description: Represents a synchronization provider that can be used by a synchronization session to synchronize data with another synchronization provider.
 old-location: winsync\isyncprovider.htm
 tech.root: winsync
 ms.assetid: 0664267f-90ba-4123-bfe5-7cf748b78c10
-
 ms.date: 12/05/2018
 ms.keywords: ISyncProvider, ISyncProvider interface [Windows Sync], ISyncProvider interface [Windows Sync],described, winsync.isyncprovider, winsync/ISyncProvider
 ms.topic: interface
-f1_keywords: 
- - "winsync/ISyncProvider"
+f1_keywords:
+- winsync/ISyncProvider
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncProvider
+- ISyncProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

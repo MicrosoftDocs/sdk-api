@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1BitmapBrush.GetBitmap
 title: ID2D1BitmapBrush::GetBitmap (d2d1.h)
-
 description: Gets the bitmap source that this brush uses to paint.
 old-location: direct2d\ID2D1BitmapBrush_GetBitmap.htm
 tech.root: Direct2D
 ms.assetid: 754eb1d7-bce6-42bd-9b51-9565e31f1d73
-
 ms.date: 12/05/2018
 ms.keywords: GetBitmap, GetBitmap method [Direct2D], GetBitmap method [Direct2D],ID2D1BitmapBrush interface, ID2D1BitmapBrush interface [Direct2D],GetBitmap method, ID2D1BitmapBrush.GetBitmap, ID2D1BitmapBrush::GetBitmap, d2d1/ID2D1BitmapBrush::GetBitmap, direct2d.ID2D1BitmapBrush_GetBitmap
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1BitmapBrush.GetBitmap"
+f1_keywords:
+- d2d1/ID2D1BitmapBrush.GetBitmap
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1BitmapBrush.GetBitmap
+- ID2D1BitmapBrush.GetBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

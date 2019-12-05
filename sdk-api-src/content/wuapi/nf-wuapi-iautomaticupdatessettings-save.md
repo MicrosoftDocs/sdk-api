@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings.Save
 title: IAutomaticUpdatesSettings::Save (wuapi.h)
-
 description: Applies the current Automatic Updates settings.
 old-location: wua\iautomaticupdatessettings_save.htm
 tech.root: Wua_Sdk
 ms.assetid: fb54b900-345a-4b36-b16d-52790c0266f6
-
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdatesSettings interface [Windows Update Agent],Save method, IAutomaticUpdatesSettings.Save, IAutomaticUpdatesSettings::Save, Save, Save method [Windows Update Agent], Save method [Windows Update Agent],IAutomaticUpdatesSettings interface, wua.iautomaticupdatessettings_save, wuapi/IAutomaticUpdatesSettings::Save
 ms.topic: method
-f1_keywords: 
- - "wuapi/IAutomaticUpdatesSettings.Save"
+f1_keywords:
+- wuapi/IAutomaticUpdatesSettings.Save
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IAutomaticUpdatesSettings.Save
+- IAutomaticUpdatesSettings.Save
 targetos: Windows
 req.typenames: 
 req.redist: 

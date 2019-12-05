@@ -1,19 +1,17 @@
 ---
 UID: NF:wow64apiset.IsWow64GuestMachineSupported
 title: IsWow64GuestMachineSupported function (wow64apiset.h)
-
 description: Determines which architectures are supported (under WOW64) on the given machine architecture.
 old-location: base\iswow64guestmachinesupported.htm
 tech.root: SysInfo
 ms.assetid: B6DAAE7A-21B0-475C-AC28-30E83B39F417
-
 ms.date: 12/05/2018
 ms.keywords: IsWow64GuestMachineSupported, IsWow64GuestMachineSupported function, base.iswow64guestmachinesupported, wow64apiset/IsWow64GuestMachineSupported
 ms.topic: function
-f1_keywords: 
- - "wow64apiset/IsWow64GuestMachineSupported"
+f1_keywords:
+- wow64apiset/IsWow64GuestMachineSupported
 dev_langs:
- - c++
+- c++
 req.header: wow64apiset.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.dll
 req.dll: Kernel32.lib
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.lib
- - API-MS-Win-Core-Wow64-L1-1-1.dll
- - KernelBase.dll
+- kernel32.lib
+- API-MS-Win-Core-Wow64-L1-1-1.dll
+- KernelBase.dll
 api_name:
- - IsWow64GuestMachineSupported
+- IsWow64GuestMachineSupported
 targetos: Windows
 req.typenames: 
 req.redist: 

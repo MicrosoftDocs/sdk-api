@@ -1,19 +1,17 @@
 ---
 UID: NN:mfcaptureengine.IMFCaptureSource
 title: IMFCaptureSource (mfcaptureengine.h)
-
 description: Controls the capture source object. The capture source manages the audio and video capture devices.
 old-location: mf\imfcapturesource.htm
 tech.root: medfound
 ms.assetid: 864B6B5D-EB7E-4C49-A326-9B6704A27635
-
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureSource, IMFCaptureSource interface [Media Foundation], IMFCaptureSource interface [Media Foundation],described, mf.imfcapturesource, mfcaptureengine/IMFCaptureSource
 ms.topic: interface
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureSource"
+f1_keywords:
+- mfcaptureengine/IMFCaptureSource
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureSource
+- IMFCaptureSource
 targetos: Windows
 req.typenames: 
 req.redist: 

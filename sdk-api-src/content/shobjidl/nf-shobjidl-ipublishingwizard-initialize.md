@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IPublishingWizard.Initialize
 title: IPublishingWizard::Initialize (shobjidl.h)
-
 description: Initializes the Publishing Wizard object with the files to transfer, the settings to use, and the type of wizard to create.
 old-location: shell\IPublishingWizard_Initialize.htm
 tech.root: shell
 ms.assetid: 8312bb2e-cc06-4440-a72c-cf153a5d61b6
-
 ms.date: 12/05/2018
 ms.keywords: AddNetPlace, IPublishingWizard interface [Windows Shell],Initialize method, IPublishingWizard.Initialize, IPublishingWizard::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IPublishingWizard interface, InternetPhotoPrinting, SHPWHF_ANYLOCATION, SHPWHF_NOFILESELECTOR, SHPWHF_NONETPLACECREATE, SHPWHF_NORECOMPRESS, SHPWHF_USEMRU, SHPWHF_VALIDATEVIAWEBFOLDERS, _shell_IPublishingWizard_Initialize, shell.IPublishingWizard_Initialize, shobjidl/IPublishingWizard::Initialize
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IPublishingWizard.Initialize"
+f1_keywords:
+- shobjidl/IPublishingWizard.Initialize
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Netplwiz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netplwiz.dll
+- Netplwiz.dll
 api_name:
- - IPublishingWizard.Initialize
+- IPublishingWizard.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

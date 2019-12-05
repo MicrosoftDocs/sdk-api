@@ -1,19 +1,17 @@
 ---
 UID: NF:werapi.WerReportAddDump
 title: WerReportAddDump function (werapi.h)
-
 description: Adds a dump of the specified type to the specified report.
 old-location: wer\werreportadddump.htm
 tech.root: wer
 ms.assetid: b40dac44-f7c5-43f0-876d-6f97c26bf461
-
 ms.date: 12/05/2018
 ms.keywords: WER_DUMP_NOHEAP_ONQUEUE, WerDumpTypeHeapDump, WerDumpTypeMicroDump, WerDumpTypeMiniDump, WerReportAddDump, WerReportAddDump function [Windows Error Reporting], base.werreportadddump, wer.werreportadddump, werapi/WerReportAddDump
 ms.topic: function
 f1_keywords:
 - werapi/WerReportAddDump
 dev_langs:
- - c++
+- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

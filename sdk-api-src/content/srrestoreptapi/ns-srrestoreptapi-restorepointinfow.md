@@ -1,19 +1,17 @@
 ---
 UID: NS:srrestoreptapi._RESTOREPTINFOW
 title: RESTOREPOINTINFOW (srrestoreptapi.h)
-
 description: Contains information used by the SRSetRestorePoint function.
 old-location: sr\restorepointinfo_str.htm
 tech.root: sr
 ms.assetid: 6f3c1fab-5298-47bb-ba38-87d11f111245
-
 ms.date: 12/05/2018
-ms.keywords: "*PRESTOREPOINTINFOW, APPLICATION_INSTALL, APPLICATION_UNINSTALL, BEGIN_NESTED_SYSTEM_CHANGE, BEGIN_SYSTEM_CHANGE, CANCELLED_OPERATION, DEVICE_DRIVER_INSTALL, END_NESTED_SYSTEM_CHANGE, END_SYSTEM_CHANGE, MODIFY_SETTINGS, PRESTOREPOINTINFO, PRESTOREPOINTINFO structure pointer [System Restore], RESTOREPOINTINFO, RESTOREPOINTINFO structure [System Restore], RESTOREPOINTINFOA, RESTOREPOINTINFOW, _sr_restorepointinfo_str, sr.restorepointinfo_str, srrestoreptapi/PRESTOREPOINTINFO, srrestoreptapi/RESTOREPOINTINFO, srrestoreptapi/RESTOREPOINTINFOA, srrestoreptapi/RESTOREPOINTINFOW"
+ms.keywords: '*PRESTOREPOINTINFOW, APPLICATION_INSTALL, APPLICATION_UNINSTALL, BEGIN_NESTED_SYSTEM_CHANGE, BEGIN_SYSTEM_CHANGE, CANCELLED_OPERATION, DEVICE_DRIVER_INSTALL, END_NESTED_SYSTEM_CHANGE, END_SYSTEM_CHANGE, MODIFY_SETTINGS, PRESTOREPOINTINFO, PRESTOREPOINTINFO structure pointer [System Restore], RESTOREPOINTINFO, RESTOREPOINTINFO structure [System Restore], RESTOREPOINTINFOA, RESTOREPOINTINFOW, _sr_restorepointinfo_str, sr.restorepointinfo_str, srrestoreptapi/PRESTOREPOINTINFO, srrestoreptapi/RESTOREPOINTINFO, srrestoreptapi/RESTOREPOINTINFOA, srrestoreptapi/RESTOREPOINTINFOW'
 ms.topic: struct
-f1_keywords: 
- - "srrestoreptapi/RESTOREPOINTINFO"
+f1_keywords:
+- srrestoreptapi/RESTOREPOINTINFO
 dev_langs:
- - c++
+- c++
 req.header: srrestoreptapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SRRestorePtAPI.h
+- SRRestorePtAPI.h
 api_name:
- - RESTOREPOINTINFO
- - RESTOREPOINTINFOA
- - RESTOREPOINTINFOW
+- RESTOREPOINTINFO
+- RESTOREPOINTINFOA
+- RESTOREPOINTINFOW
 targetos: Windows
 req.typenames: RESTOREPOINTINFOW, *PRESTOREPOINTINFOW
 req.redist: 

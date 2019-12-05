@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMDeviceControl.Stop
 title: IWMDMDeviceControl::Stop (mswmdm.h)
-
 description: The Stop method stops the current record or play operation.
 old-location: wmdm\iwmdmdevicecontrol_stop.htm
 tech.root: WMDM
 ms.assetid: 842b7de7-dde2-40d1-8028-9ffebcaea90e
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMDeviceControl interface [windows Media Device Manager],Stop method, IWMDMDeviceControl.Stop, IWMDMDeviceControl::Stop, IWMDMDeviceControlStop, Stop, Stop method [windows Media Device Manager], Stop method [windows Media Device Manager],IWMDMDeviceControl interface, mswmdm/IWMDMDeviceControl::Stop, wmdm.iwmdmdevicecontrol_stop
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMDeviceControl.Stop"
+f1_keywords:
+- mswmdm/IWMDMDeviceControl.Stop
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMDeviceControl.Stop
+- IWMDMDeviceControl.Stop
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPFolderMonitorServices.get_count
 title: IWMPFolderMonitorServices::get_count (wmp.h)
-
 description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The get_count method retrieves the count of monitored folders.
 old-location: wmp\iwmpfoldermonitorservices_get_count.htm
 tech.root: WMP
 ms.assetid: cf80820a-d126-4af6-ba5e-c1188c5c00a4
-
 ms.date: 12/05/2018
 ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],get_count method, IWMPFolderMonitorServices.get_count, IWMPFolderMonitorServices::get_count, IWMPFolderMonitorServicesget_count, get_count, get_count method [Windows Media Player], get_count method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_get_count, wmp/IWMPFolderMonitorServices::get_count
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPFolderMonitorServices.get_count"
+f1_keywords:
+- wmp/IWMPFolderMonitorServices.get_count
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPFolderMonitorServices.get_count
+- IWMPFolderMonitorServices.get_count
 targetos: Windows
 req.typenames: 
 req.redist: 

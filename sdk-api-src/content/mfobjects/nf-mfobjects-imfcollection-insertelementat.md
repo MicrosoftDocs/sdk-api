@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFCollection.InsertElementAt
 title: IMFCollection::InsertElementAt (mfobjects.h)
-
 description: Adds an object at the specified index in the collection.
 old-location: mf\imfcollection_insertelementat.htm
 tech.root: medfound
 ms.assetid: d8f64bf8-eb5b-4673-91be-796f4ea8dce0
-
 ms.date: 12/05/2018
 ms.keywords: IMFCollection interface [Media Foundation],InsertElementAt method, IMFCollection.InsertElementAt, IMFCollection::InsertElementAt, InsertElementAt, InsertElementAt method [Media Foundation], InsertElementAt method [Media Foundation],IMFCollection interface, d8f64bf8-eb5b-4673-91be-796f4ea8dce0, mf.imfcollection_insertelementat, mfobjects/IMFCollection::InsertElementAt
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFCollection.InsertElementAt"
+f1_keywords:
+- mfobjects/IMFCollection.InsertElementAt
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFCollection.InsertElementAt
+- IMFCollection.InsertElementAt
 targetos: Windows
 req.typenames: 
 req.redist: 

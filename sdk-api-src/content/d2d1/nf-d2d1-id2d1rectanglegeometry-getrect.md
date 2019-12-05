@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1RectangleGeometry.GetRect
 title: ID2D1RectangleGeometry::GetRect (d2d1.h)
-
 description: Retrieves the rectangle that describes the rectangle geometry's dimensions.
 old-location: direct2d\ID2D1RectangleGeometry_GetRect.htm
 tech.root: Direct2D
 ms.assetid: 9c9858d0-abb0-4ab5-8e7f-e613b256bbd7
-
 ms.date: 12/05/2018
 ms.keywords: GetRect, GetRect method [Direct2D], GetRect method [Direct2D],ID2D1RectangleGeometry interface, ID2D1RectangleGeometry interface [Direct2D],GetRect method, ID2D1RectangleGeometry.GetRect, ID2D1RectangleGeometry::GetRect, d2d1/ID2D1RectangleGeometry::GetRect, direct2d.ID2D1RectangleGeometry_GetRect
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1RectangleGeometry.GetRect"
+f1_keywords:
+- d2d1/ID2D1RectangleGeometry.GetRect
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1RectangleGeometry.GetRect
+- ID2D1RectangleGeometry.GetRect
 targetos: Windows
 req.typenames: 
 req.redist: 

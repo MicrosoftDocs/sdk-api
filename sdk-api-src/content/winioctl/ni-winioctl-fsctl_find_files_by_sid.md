@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.FSCTL_FIND_FILES_BY_SID
 title: FSCTL_FIND_FILES_BY_SID
-
 description: Searches a directory for a file whose creator owner matches the specified SID.
 old-location: fs\fsctl_find_files_by_sid.htm
 tech.root: FileIO
 ms.assetid: 10d46c2e-9403-4c8a-8847-f427fbc6c905
-
 ms.date: 12/05/2018
 ms.keywords: FSCTL_FIND_FILES_BY_SID, FSCTL_FIND_FILES_BY_SID control, FSCTL_FIND_FILES_BY_SID control code [Files], base.fsctl_find_files_by_sid, fs.fsctl_find_files_by_sid, winioctl/FSCTL_FIND_FILES_BY_SID
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_FIND_FILES_BY_SID"
+f1_keywords:
+- winioctl/FSCTL_FIND_FILES_BY_SID
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_FIND_FILES_BY_SID
+- FSCTL_FIND_FILES_BY_SID
 targetos: Windows
 req.typenames: 
 req.redist: 

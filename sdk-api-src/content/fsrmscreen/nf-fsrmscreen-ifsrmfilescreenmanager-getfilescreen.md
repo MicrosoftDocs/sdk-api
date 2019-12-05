@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenManager.GetFileScreen
 title: IFsrmFileScreenManager::GetFileScreen (fsrmscreen.h)
-
 description: Retrieves the specified file screen.
 old-location: fsrm\ifsrmfilescreenmanager_getfilescreen.htm
 tech.root: fsrm
 ms.assetid: 9af0d9a7-80a2-4cc8-a703-c1af8ac5b7c9
-
 ms.date: 12/05/2018
 ms.keywords: FsrmFileScreenManager class [File Server Resource Manager],GetFileScreen method, GetFileScreen, GetFileScreen method [File Server Resource Manager], GetFileScreen method [File Server Resource Manager],FsrmFileScreenManager class, GetFileScreen method [File Server Resource Manager],IFsrmFileScreenManager interface, IFsrmFileScreenManager interface [File Server Resource Manager],GetFileScreen method, IFsrmFileScreenManager.GetFileScreen, IFsrmFileScreenManager::GetFileScreen, fs.ifsrmfilescreenmanager_getfilescreen, fsrm.ifsrmfilescreenmanager_getfilescreen, fsrmscreen/IFsrmFileScreenManager::GetFileScreen
 ms.topic: method
-f1_keywords: 
- - "fsrmscreen/IFsrmFileScreenManager.GetFileScreen"
+f1_keywords:
+- fsrmscreen/IFsrmFileScreenManager.GetFileScreen
 dev_langs:
- - c++
+- c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileScreenManager.GetFileScreen
- - FsrmFileScreenManager.GetFileScreen
+- IFsrmFileScreenManager.GetFileScreen
+- FsrmFileScreenManager.GetFileScreen
 targetos: Windows
 req.typenames: 
 req.redist: 

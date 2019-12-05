@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineGetCallInfo
 title: lineGetCallInfo function (tapi.h)
-
 description: The lineGetCallInfo function enables an application to obtain fixed information about the specified call.
 old-location: tapi2\linegetcallinfo.htm
 tech.root: Tapi
 ms.assetid: e69722cb-9c45-4f1a-a855-64afa3c33276
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linegetcallinfo, lineGetCallInfo, lineGetCallInfo function [TAPI 2.2], lineGetCallInfoA, lineGetCallInfoW, tapi/lineGetCallInfo, tapi/lineGetCallInfoA, tapi/lineGetCallInfoW, tapi2.linegetcallinfo"
+ms.keywords: _tapi2_linegetcallinfo, lineGetCallInfo, lineGetCallInfo function [TAPI 2.2], lineGetCallInfoA, lineGetCallInfoW, tapi/lineGetCallInfo, tapi/lineGetCallInfoA, tapi/lineGetCallInfoW, tapi2.linegetcallinfo
 ms.topic: function
-f1_keywords: 
- - "tapi/lineGetCallInfo"
+f1_keywords:
+- tapi/lineGetCallInfo
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineGetCallInfo
- - lineGetCallInfoA
- - lineGetCallInfoW
+- lineGetCallInfo
+- lineGetCallInfoA
+- lineGetCallInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 

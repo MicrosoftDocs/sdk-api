@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPDeviceFinderCallback.DeviceAdded
 title: IUPnPDeviceFinderCallback::DeviceAdded (upnp.h)
-
 description: The DeviceAdded method is invoked by the UPnP framework to notify the application that a device has been added to the network.
 old-location: upnp\iupnpdevicefindercallback_deviceadded.htm
 tech.root: upnp
 ms.assetid: 4a61ca43-cbc6-4db2-9706-23cadbae9c3e
-
 ms.date: 12/05/2018
 ms.keywords: DeviceAdded, DeviceAdded method [UPnP APIs], DeviceAdded method [UPnP APIs],IUPnPDeviceFinderCallback interface, IUPnPDeviceFinderCallback interface [UPnP APIs],DeviceAdded method, IUPnPDeviceFinderCallback.DeviceAdded, IUPnPDeviceFinderCallback::DeviceAdded, _upnp_iupnpdevicefindercallback_deviceadded, upnp.iupnpdevicefindercallback_deviceadded, upnp/IUPnPDeviceFinderCallback::DeviceAdded
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPDeviceFinderCallback.DeviceAdded"
+f1_keywords:
+- upnp/IUPnPDeviceFinderCallback.DeviceAdded
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPDeviceFinderCallback.DeviceAdded
+- IUPnPDeviceFinderCallback.DeviceAdded
 targetos: Windows
 req.typenames: 
 req.redist: 

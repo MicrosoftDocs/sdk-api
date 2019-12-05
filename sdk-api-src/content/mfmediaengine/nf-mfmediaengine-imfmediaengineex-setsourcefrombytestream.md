@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.SetSourceFromByteStream
 title: IMFMediaEngineEx::SetSourceFromByteStream (mfmediaengine.h)
-
 description: Opens a media resource from a byte stream.
 old-location: mf\imfmediaengineex_setsourcefrombytestream.htm
 tech.root: medfound
 ms.assetid: F643383E-AABA-4F32-BCE9-0AA4FD635A0F
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetSourceFromByteStream method, IMFMediaEngineEx.SetSourceFromByteStream, IMFMediaEngineEx::SetSourceFromByteStream, SetSourceFromByteStream, SetSourceFromByteStream method [Media Foundation], SetSourceFromByteStream method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_setsourcefrombytestream, mfmediaengine/IMFMediaEngineEx::SetSourceFromByteStream
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineEx.SetSourceFromByteStream"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineEx.SetSourceFromByteStream
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineEx.SetSourceFromByteStream
+- IMFMediaEngineEx.SetSourceFromByteStream
 targetos: Windows
 req.typenames: 
 req.redist: 

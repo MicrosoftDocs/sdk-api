@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi.CLUSPROP_LONG
 title: CLUSPROP_LONG (clusapi.h)
-
 description: Describes signed LONG data.
 old-location: mscs\clusprop_long.htm
 tech.root: MsCS
 ms.assetid: aa214e43-cadc-4f06-8c98-e6a5b13258b8
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUSPROP_LONG, CLUSPROP_LONG, CLUSPROP_LONG structure [Failover Cluster], PCLUSPROP_LONG, PCLUSPROP_LONG structure pointer [Failover Cluster], _wolf_clusprop_long, clusapi/CLUSPROP_LONG, clusapi/PCLUSPROP_LONG, mscs.clusprop_long"
+ms.keywords: '*PCLUSPROP_LONG, CLUSPROP_LONG, CLUSPROP_LONG structure [Failover Cluster], PCLUSPROP_LONG, PCLUSPROP_LONG structure pointer [Failover Cluster], _wolf_clusprop_long, clusapi/CLUSPROP_LONG, clusapi/PCLUSPROP_LONG, mscs.clusprop_long'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/CLUSPROP_LONG"
+f1_keywords:
+- clusapi/CLUSPROP_LONG
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUSPROP_LONG
+- CLUSPROP_LONG
 targetos: Windows
 req.typenames: CLUSPROP_LONG, *PCLUSPROP_LONG
 req.redist: 

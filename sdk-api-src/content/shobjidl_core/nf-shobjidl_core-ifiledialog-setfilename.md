@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.SetFileName
 title: IFileDialog::SetFileName (shobjidl_core.h)
-
 description: Sets the file name that appears in the File name edit box when that dialog box is opened.
 old-location: shell\IFileDialog_SetFileName.htm
 tech.root: shell
 ms.assetid: b8b72a76-6cdb-4675-8d84-f3c7171b8576
-
 ms.date: 12/05/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetFileName method, IFileDialog.SetFileName, IFileDialog::SetFileName, SetFileName, SetFileName method [Windows Shell], SetFileName method [Windows Shell],IFileDialog interface, _shell_IFileDialog_SetFileName, shell.IFileDialog_SetFileName, shobjidl_core/IFileDialog::SetFileName
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialog.SetFileName"
+f1_keywords:
+- shobjidl_core/IFileDialog.SetFileName
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialog.SetFileName
+- IFileDialog.SetFileName
 targetos: Windows
 req.typenames: 
 req.redist: 

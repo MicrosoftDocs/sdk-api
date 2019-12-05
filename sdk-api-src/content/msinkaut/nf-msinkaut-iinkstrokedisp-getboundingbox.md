@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.GetBoundingBox
 title: IInkStrokeDisp::GetBoundingBox (msinkaut.h)
-
 description: Retrieves the bounding box in ink space coordinates for either all of the strokes in an InkDisp object, an individual stroke, or an InkStrokes collection.
 old-location: tablet\iinkstrokedisp_getboundingbox.htm
 tech.root: tablet
 ms.assetid: 3b2c8cfc-05e6-4b53-b709-72291ee78471
-
 ms.date: 12/05/2018
 ms.keywords: 3b2c8cfc-05e6-4b53-b709-72291ee78471, GetBoundingBox, GetBoundingBox method [Tablet PC], GetBoundingBox method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],GetBoundingBox method, IInkStrokeDisp.GetBoundingBox, IInkStrokeDisp::GetBoundingBox, msinkaut/IInkStrokeDisp::GetBoundingBox, tablet.iinkstrokedisp_getboundingbox
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkStrokeDisp.GetBoundingBox"
+f1_keywords:
+- msinkaut/IInkStrokeDisp.GetBoundingBox
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.GetBoundingBox
+- IInkStrokeDisp.GetBoundingBox
 targetos: Windows
 req.typenames: 
 req.redist: 

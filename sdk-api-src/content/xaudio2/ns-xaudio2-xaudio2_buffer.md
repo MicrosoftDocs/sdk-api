@@ -1,19 +1,17 @@
 ---
 UID: NS:xaudio2.XAUDIO2_BUFFER
 title: XAUDIO2_BUFFER (xaudio2.h)
-
 description: Represents an audio data buffer, used with IXAudio2SourceVoice::SubmitSourceBuffer.
 old-location: xaudio2\xaudio2_buffer.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_BUFFER
-
 ms.date: 12/05/2018
 ms.keywords: XAUDIO2_BUFFER, XAUDIO2_BUFFER structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_buffer, xaudio2/XAUDIO2_BUFFER
 ms.topic: struct
-f1_keywords: 
- - "xaudio2/XAUDIO2_BUFFER"
+f1_keywords:
+- xaudio2/XAUDIO2_BUFFER
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xaudio2.h
+- xaudio2.h
 api_name:
- - XAUDIO2_BUFFER
+- XAUDIO2_BUFFER
 targetos: Windows
 req.typenames: XAUDIO2_BUFFER
 req.redist: 

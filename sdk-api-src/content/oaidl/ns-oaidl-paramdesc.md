@@ -1,19 +1,17 @@
 ---
 UID: NS:oaidl.tagPARAMDESC
 title: PARAMDESC (oaidl.h)
-
 description: Contains information needed for transferring a structure element, parameter, or function return value between processes.
 old-location: automat\paramdesc.htm
 tech.root: automat
 ms.assetid: 3b3b2c54-1997-4d1f-9934-81621500b2b9
-
 ms.date: 12/05/2018
-ms.keywords: "*LPPARAMDESC, LPPARAMDESC, LPPARAMDESC structure pointer [Automation], PARAMDESC, PARAMDESC structure [Automation], _oa96_PARAMDESC, automat.paramdesc, oaidl/LPPARAMDESC, oaidl/PARAMDESC"
+ms.keywords: '*LPPARAMDESC, LPPARAMDESC, LPPARAMDESC structure pointer [Automation], PARAMDESC, PARAMDESC structure [Automation], _oa96_PARAMDESC, automat.paramdesc, oaidl/LPPARAMDESC, oaidl/PARAMDESC'
 ms.topic: struct
-f1_keywords: 
- - "oaidl/PARAMDESC"
+f1_keywords:
+- oaidl/PARAMDESC
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OaIdl.h
+- OaIdl.h
 api_name:
- - PARAMDESC
+- PARAMDESC
 targetos: Windows
 req.typenames: PARAMDESC, *LPPARAMDESC
 req.redist: 

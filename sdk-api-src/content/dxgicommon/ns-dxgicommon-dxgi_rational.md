@@ -1,19 +1,17 @@
 ---
 UID: NS:dxgicommon.DXGI_RATIONAL
 title: DXGI_RATIONAL (dxgicommon.h)
-
 description: Represents a rational number.
 old-location: direct3ddxgi\dxgi_rational.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_rational.htm
-
 ms.date: 12/05/2018
 ms.keywords: 5deaf109-e4cc-0f12-82f4-0d4d0b2e387a, DXGI_RATIONAL, DXGI_RATIONAL structure [DXGI], direct3ddxgi.dxgi_rational, dxgicommon/DXGI_RATIONAL
 ms.topic: struct
-f1_keywords: 
- - "dxgicommon/DXGI_RATIONAL"
+f1_keywords:
+- dxgicommon/DXGI_RATIONAL
 dev_langs:
- - c++
+- c++
 req.header: dxgicommon.h
 req.include-header: DXGI.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxgicommon.h
+- dxgicommon.h
 api_name:
- - DXGI_RATIONAL
+- DXGI_RATIONAL
 targetos: Windows
 req.typenames: DXGI_RATIONAL
 req.redist: 

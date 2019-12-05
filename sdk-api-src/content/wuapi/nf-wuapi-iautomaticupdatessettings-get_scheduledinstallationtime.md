@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings.get_ScheduledInstallationTime
 title: IAutomaticUpdatesSettings::get_ScheduledInstallationTime (wuapi.h)
-
 description: Gets and sets the time at which Automatic Updates installs or uninstalls updates.
 old-location: wua\iautomaticupdatessettings_scheduledinstallationtime.htm
 tech.root: Wua_Sdk
 ms.assetid: 1b1adefc-785e-46ad-8984-d2beb1c2202c
-
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdatesSettings interface [Windows Update Agent],ScheduledInstallationTime property, IAutomaticUpdatesSettings.ScheduledInstallationTime, IAutomaticUpdatesSettings.get_ScheduledInstallationTime, IAutomaticUpdatesSettings::ScheduledInstallationTime, IAutomaticUpdatesSettings::get_ScheduledInstallationTime, IAutomaticUpdatesSettings::put_ScheduledInstallationTime, ScheduledInstallationTime property [Windows Update Agent], ScheduledInstallationTime property [Windows Update Agent],IAutomaticUpdatesSettings interface, get_ScheduledInstallationTime, wua.iautomaticupdatessettings_scheduledinstallationtime, wuapi/IAutomaticUpdatesSettings::ScheduledInstallationTime, wuapi/IAutomaticUpdatesSettings::get_ScheduledInstallationTime, wuapi/IAutomaticUpdatesSettings::put_ScheduledInstallationTime
 ms.topic: method
-f1_keywords: 
- - "wuapi/IAutomaticUpdatesSettings.ScheduledInstallationTime"
+f1_keywords:
+- wuapi/IAutomaticUpdatesSettings.ScheduledInstallationTime
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IAutomaticUpdatesSettings.ScheduledInstallationTime
- - IAutomaticUpdatesSettings.get_ScheduledInstallationTime
- - IAutomaticUpdatesSettings.put_ScheduledInstallationTime
+- IAutomaticUpdatesSettings.ScheduledInstallationTime
+- IAutomaticUpdatesSettings.get_ScheduledInstallationTime
+- IAutomaticUpdatesSettings.put_ScheduledInstallationTime
 targetos: Windows
 req.typenames: 
 req.redist: 

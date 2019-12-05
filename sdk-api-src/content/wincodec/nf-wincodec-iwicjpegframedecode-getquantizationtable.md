@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICJpegFrameDecode.GetQuantizationTable
 title: IWICJpegFrameDecode::GetQuantizationTable (wincodec.h)
-
 description: Retrieves a copy of the quantization table.
 old-location: wic\iwicjpegframedecode_getquantizationtable.htm
 tech.root: wic
 ms.assetid: 58A0FA55-7626-4FB7-BA35-1806B6C3AAAA
-
 ms.date: 12/05/2018
 ms.keywords: GetQuantizationTable, GetQuantizationTable method [Windows Imaging Component], GetQuantizationTable method [Windows Imaging Component],IWICJpegFrameDecode interface, IWICJpegFrameDecode interface [Windows Imaging Component],GetQuantizationTable method, IWICJpegFrameDecode.GetQuantizationTable, IWICJpegFrameDecode::GetQuantizationTable, wic.iwicjpegframedecode_getquantizationtable, wincodec/IWICJpegFrameDecode::GetQuantizationTable
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICJpegFrameDecode.GetQuantizationTable"
+f1_keywords:
+- wincodec/IWICJpegFrameDecode.GetQuantizationTable
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICJpegFrameDecode.GetQuantizationTable
+- IWICJpegFrameDecode.GetQuantizationTable
 targetos: Windows
 req.typenames: 
 req.redist: 

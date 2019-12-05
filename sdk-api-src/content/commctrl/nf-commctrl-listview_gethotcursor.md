@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_GetHotCursor
 title: ListView_GetHotCursor macro (commctrl.h)
-
 description: Gets the HCURSOR used when the pointer is over an item while hot tracking is enabled. You can use this macro or send the LVM_GETHOTCURSOR message explicitly.
 old-location: controls\ListView_GetHotCursor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gethotcursor.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_GetHotCursor, ListView_GetHotCursor macro [Windows Controls], _win32_ListView_GetHotCursor, _win32_ListView_GetHotCursor_cpp, commctrl/ListView_GetHotCursor, controls.ListView_GetHotCursor, controls._win32_ListView_GetHotCursor
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_GetHotCursor"
+f1_keywords:
+- commctrl/ListView_GetHotCursor
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_GetHotCursor
+- ListView_GetHotCursor
 targetos: Windows
 req.typenames: 
 req.redist: 

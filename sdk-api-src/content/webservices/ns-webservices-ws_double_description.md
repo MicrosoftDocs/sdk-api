@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_DOUBLE_DESCRIPTION
 title: WS_DOUBLE_DESCRIPTION (webservices.h)
-
 description: An optional type description used with WS_DOUBLE_TYPE. It is used to specify constraints on the set of values which can be deserialized.
 old-location: wsw\ws_double_description.htm
 tech.root: wsw
 ms.assetid: cc845d24-4bbd-4491-9d4e-7a39c6c251da
-
 ms.date: 12/05/2018
 ms.keywords: WS_DOUBLE_DESCRIPTION, WS_DOUBLE_DESCRIPTION structure [Web Services for Windows], webservices/WS_DOUBLE_DESCRIPTION, wsw.ws_double_description
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_DOUBLE_DESCRIPTION"
+f1_keywords:
+- webservices/WS_DOUBLE_DESCRIPTION
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_DOUBLE_DESCRIPTION
+- WS_DOUBLE_DESCRIPTION
 targetos: Windows
 req.typenames: WS_DOUBLE_DESCRIPTION
 req.redist: 

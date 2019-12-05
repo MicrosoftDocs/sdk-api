@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHDoDragDrop
 title: SHDoDragDrop function (shlobj_core.h)
-
 description: Executes a drag-and-drop operation. Supports drag source creation on demand, as well as drag images.
 old-location: shell\SHDoDragDrop.htm
 tech.root: shell
 ms.assetid: 76c98516-ede9-47de-b4ad-257a162775b9
-
 ms.date: 12/05/2018
 ms.keywords: SHDoDragDrop, SHDoDragDrop function [Windows Shell], _win32_SHDoDragDrop, shell.SHDoDragDrop, shlobj_core/SHDoDragDrop
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHDoDragDrop"
+f1_keywords:
+- shlobj_core/SHDoDragDrop
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - SHDoDragDrop
+- SHDoDragDrop
 targetos: Windows
 req.typenames: 
 req.redist: 

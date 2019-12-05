@@ -1,19 +1,17 @@
 ---
 UID: NS:ras._RAS_STATS
 title: RAS_STATS (ras.h)
-
 description: The RAS_STATS structure stores the statistics for a single-link RAS connection, or for one of the links in a multilink RAS connection.
 old-location: rras\ras_stats.htm
 tech.root: RRAS
 ms.assetid: f55852f9-fa6f-480c-9c65-d6631d5270a0
-
 ms.date: 12/05/2018
-ms.keywords: "*PRAS_STATS, RAS_STATS, RAS_STATS structure [RAS], _ras_ras_stats, ras/RAS_STATS, rras.ras_stats"
+ms.keywords: '*PRAS_STATS, RAS_STATS, RAS_STATS structure [RAS], _ras_ras_stats, ras/RAS_STATS, rras.ras_stats'
 ms.topic: struct
-f1_keywords: 
- - "ras/RAS_STATS"
+f1_keywords:
+- ras/RAS_STATS
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ras.h
+- Ras.h
 api_name:
- - RAS_STATS
+- RAS_STATS
 targetos: Windows
 req.typenames: RAS_STATS, *PRAS_STATS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.SetHeight
 title: ITextRow::SetHeight (tom.h)
-
 description: Sets the height of a row.
 old-location: controls\itextrow_setheight.htm
 tech.root: Controls
 ms.assetid: c377bdef-d906-4f7b-98f0-13633906ced9
-
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetHeight method, ITextRow.SetHeight, ITextRow::SetHeight, SetHeight, SetHeight method [Windows Controls], SetHeight method [Windows Controls],ITextRow interface, controls.itextrow_setheight, tom/ITextRow::SetHeight
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.SetHeight"
+f1_keywords:
+- tom/ITextRow.SetHeight
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.SetHeight
+- ITextRow.SetHeight
 targetos: Windows
 req.typenames: 
 req.redist: 

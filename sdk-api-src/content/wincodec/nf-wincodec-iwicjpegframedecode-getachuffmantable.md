@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICJpegFrameDecode.GetAcHuffmanTable
 title: IWICJpegFrameDecode::GetAcHuffmanTable (wincodec.h)
-
 description: Retrieves a copy of the AC Huffman table for the specified scan and table.
 old-location: wic\iwicjpegframedecode_getachuffmantable.htm
 tech.root: wic
 ms.assetid: 6063E147-70A4-46F8-940E-42DBD87A500F
-
 ms.date: 12/05/2018
 ms.keywords: GetAcHuffmanTable, GetAcHuffmanTable method [Windows Imaging Component], GetAcHuffmanTable method [Windows Imaging Component],IWICJpegFrameDecode interface, IWICJpegFrameDecode interface [Windows Imaging Component],GetAcHuffmanTable method, IWICJpegFrameDecode.GetAcHuffmanTable, IWICJpegFrameDecode::GetAcHuffmanTable, wic.iwicjpegframedecode_getachuffmantable, wincodec/IWICJpegFrameDecode::GetAcHuffmanTable
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICJpegFrameDecode.GetAcHuffmanTable"
+f1_keywords:
+- wincodec/IWICJpegFrameDecode.GetAcHuffmanTable
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICJpegFrameDecode.GetAcHuffmanTable
+- IWICJpegFrameDecode.GetAcHuffmanTable
 targetos: Windows
 req.typenames: 
 req.redist: 

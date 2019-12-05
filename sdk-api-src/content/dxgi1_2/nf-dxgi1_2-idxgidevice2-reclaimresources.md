@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_2.IDXGIDevice2.ReclaimResources
 title: IDXGIDevice2::ReclaimResources (dxgi1_2.h)
-
 description: Restores access to resources that were previously offered by calling IDXGIDevice2::OfferResources.
 old-location: direct3ddxgi\idxgidevice2_reclaimresources.htm
 tech.root: direct3ddxgi
 ms.assetid: 30533605-0F5A-4D15-B01E-7C23E2AE775E
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIDevice2 interface [DXGI],ReclaimResources method, IDXGIDevice2.ReclaimResources, IDXGIDevice2::ReclaimResources, ReclaimResources, ReclaimResources method [DXGI], ReclaimResources method [DXGI],IDXGIDevice2 interface, direct3ddxgi.idxgidevice2_reclaimresources, dxgi1_2/IDXGIDevice2::ReclaimResources
 ms.topic: method
-f1_keywords: 
- - "dxgi1_2/IDXGIDevice2.ReclaimResources"
+f1_keywords:
+- dxgi1_2/IDXGIDevice2.ReclaimResources
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGIDevice2.ReclaimResources
+- IDXGIDevice2.ReclaimResources
 targetos: Windows
 req.typenames: 
 req.redist: 

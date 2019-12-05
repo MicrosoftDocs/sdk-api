@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRMixerControl.GetMixingPrefs
 title: IVMRMixerControl::GetMixingPrefs (strmif.h)
-
 description: Retrieves the mixing preferences for the stream.
 old-location: dshow\ivmrmixercontrol_getmixingprefs.htm
 tech.root: DirectShow
 ms.assetid: ee410a7e-e021-408a-bf40-cb58dc8eca1c
-
 ms.date: 12/05/2018
 ms.keywords: GetMixingPrefs, GetMixingPrefs method [DirectShow], GetMixingPrefs method [DirectShow],IVMRMixerControl interface, IVMRMixerControl interface [DirectShow],GetMixingPrefs method, IVMRMixerControl.GetMixingPrefs, IVMRMixerControl::GetMixingPrefs, IVMRMixerControlGetMixingPrefs, dshow.ivmrmixercontrol_getmixingprefs, strmif/IVMRMixerControl::GetMixingPrefs
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRMixerControl.GetMixingPrefs"
+f1_keywords:
+- strmif/IVMRMixerControl.GetMixingPrefs
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRMixerControl.GetMixingPrefs
+- IVMRMixerControl.GetMixingPrefs
 targetos: Windows
 req.typenames: 
 req.redist: 

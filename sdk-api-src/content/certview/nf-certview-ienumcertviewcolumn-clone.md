@@ -1,19 +1,17 @@
 ---
 UID: NF:certview.IEnumCERTVIEWCOLUMN.Clone
 title: IEnumCERTVIEWCOLUMN::Clone (certview.h)
-
 description: Creates a copy of the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_clone.htm
 tech.root: SecCrypto
 ms.assetid: a0870155-3f16-4cfb-b180-7a8e617dfcd8
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Security], Clone method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],Clone method, IEnumCERTVIEWCOLUMN.Clone, IEnumCERTVIEWCOLUMN::Clone, _certsrv_ienumcertviewcolumn_clone, certview/IEnumCERTVIEWCOLUMN::Clone, security.ienumcertviewcolumn_clone
 ms.topic: method
-f1_keywords: 
- - "certview/IEnumCERTVIEWCOLUMN.Clone"
+f1_keywords:
+- certview/IEnumCERTVIEWCOLUMN.Clone
 dev_langs:
- - c++
+- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IEnumCERTVIEWCOLUMN.Clone
- - IEnumCERTVIEWCOLUMN.Clone
+- IEnumCERTVIEWCOLUMN.Clone
+- IEnumCERTVIEWCOLUMN.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

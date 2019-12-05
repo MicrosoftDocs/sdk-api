@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFMutualExclusion.RemoveRecord
 title: IMFASFMutualExclusion::RemoveRecord (wmcontainer.h)
-
 description: Removes a record from the Advanced Systems Format (ASF) mutual exclusion object.
 old-location: mf\imfasfmutualexclusion_removerecord.htm
 tech.root: medfound
 ms.assetid: ecfb5e10-5102-4f6a-b67b-ba0ed06d0ed8
-
 ms.date: 12/05/2018
 ms.keywords: IMFASFMutualExclusion interface [Media Foundation],RemoveRecord method, IMFASFMutualExclusion.RemoveRecord, IMFASFMutualExclusion::RemoveRecord, RemoveRecord, RemoveRecord method [Media Foundation], RemoveRecord method [Media Foundation],IMFASFMutualExclusion interface, ecfb5e10-5102-4f6a-b67b-ba0ed06d0ed8, mf.imfasfmutualexclusion_removerecord, wmcontainer/IMFASFMutualExclusion::RemoveRecord
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFMutualExclusion.RemoveRecord"
+f1_keywords:
+- wmcontainer/IMFASFMutualExclusion.RemoveRecord
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFMutualExclusion.RemoveRecord
+- IMFASFMutualExclusion.RemoveRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

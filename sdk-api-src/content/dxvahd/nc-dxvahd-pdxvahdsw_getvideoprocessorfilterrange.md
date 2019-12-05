@@ -1,19 +1,17 @@
 ---
 UID: NC:dxvahd.PDXVAHDSW_GetVideoProcessorFilterRange
 title: PDXVAHDSW_GetVideoProcessorFilterRange (dxvahd.h)
-
 description: Gets the supported range of image filter values from a software plug-in Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\pdxvahdsw_getvideoprocessorfilterrange.htm
 tech.root: medfound
 ms.assetid: 3c28ffcf-dad5-4ed1-8b04-12e22fd566a4
-
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_GetVideoProcessorFilterRange, PDXVAHDSW_GetVideoProcessorFilterRange callback, PDXVAHDSW_GetVideoProcessorFilterRange callback function [Media Foundation], dxvahd/PDXVAHDSW_GetVideoProcessorFilterRange, mf.pdxvahdsw_getvideoprocessorfilterrange
 ms.topic: callback
 f1_keywords:
 - dxvahd/PDXVAHDSW_GetVideoProcessorFilterRange
 dev_langs:
- - c++
+- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.UpdateColors
 title: UpdateColors function (wingdi.h)
-
 description: The UpdateColors function updates the client area of the specified device context by remapping the current colors in the client area to the currently realized logical palette.
 old-location: gdi\updatecolors.htm
 tech.root: gdi
 ms.assetid: 61dfd579-3fc9-4e0a-bfd9-d04c6f918fd8
-
 ms.date: 12/05/2018
 ms.keywords: UpdateColors, UpdateColors function [Windows GDI], _win32_UpdateColors, gdi.updatecolors, wingdi/UpdateColors
 ms.topic: function
-f1_keywords: 
- - "wingdi/UpdateColors"
+f1_keywords:
+- wingdi/UpdateColors
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - UpdateColors
+- UpdateColors
 targetos: Windows
 req.typenames: 
 req.redist: 

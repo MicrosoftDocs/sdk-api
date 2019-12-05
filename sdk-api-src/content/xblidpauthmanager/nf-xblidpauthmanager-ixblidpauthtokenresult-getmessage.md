@@ -1,19 +1,17 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetMessage
 title: IXblIdpAuthTokenResult::GetMessage (xblidpauthmanager.h)
-
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getmessage.htm
 tech.root: xblidp
 ms.assetid: 733EF96D-EDB5-4C8C-83C9-9CE225C510FC
-
 ms.date: 12/05/2018
 ms.keywords: GetMessage, GetMessage method, GetMessage method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetMessage method, IXblIdpAuthTokenResult.GetMessage, IXblIdpAuthTokenResult::GetMessage, xblidp.ixblidpauthtokenresult_getmessage, xblidpauthmanager/IXblIdpAuthTokenResult::GetMessage
 ms.topic: method
-f1_keywords: 
- - "xblidpauthmanager/IXblIdpAuthTokenResult.GetMessage"
+f1_keywords:
+- xblidpauthmanager/IXblIdpAuthTokenResult.GetMessage
 dev_langs:
- - c++
+- c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XblIdpAuthManager.h
+- XblIdpAuthManager.h
 api_name:
- - IXblIdpAuthTokenResult.GetMessage
+- IXblIdpAuthTokenResult.GetMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

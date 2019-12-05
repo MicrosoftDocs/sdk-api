@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11shader.ID3D11FunctionLinkingGraph
 title: ID3D11FunctionLinkingGraph (d3d11shader.h)
-
 description: A function-linking-graph interface is used for constructing shaders that consist of a sequence of precompiled function calls that pass values to each other.
 old-location: direct3d11\id3d11functionlinkinggraph.htm
 tech.root: direct3d11
 ms.assetid: B1952085-CCD2-40F6-9A23-83B4F18FC30A
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11FunctionLinkingGraph, ID3D11FunctionLinkingGraph interface [Direct3D 11], ID3D11FunctionLinkingGraph interface [Direct3D 11],described, d3d11shader/ID3D11FunctionLinkingGraph, direct3d11.id3d11functionlinkinggraph
 ms.topic: interface
-f1_keywords: 
- - "d3d11shader/ID3D11FunctionLinkingGraph"
+f1_keywords:
+- d3d11shader/ID3D11FunctionLinkingGraph
 dev_langs:
- - c++
+- c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - ID3D11FunctionLinkingGraph
+- ID3D11FunctionLinkingGraph
 targetos: Windows
 req.typenames: 
 req.redist: 

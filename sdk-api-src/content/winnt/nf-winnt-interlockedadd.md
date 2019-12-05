@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.InterlockedAdd
 title: InterlockedAdd function (winnt.h)
-
 description: Performs an atomic addition operation on the specified LONG values.
 old-location: base\interlockedadd.htm
 tech.root: Sync
 ms.assetid: c3ff4c2f-ac84-4046-ac4e-600569b874be
-
 ms.date: 12/05/2018
 ms.keywords: InterlockedAdd, InterlockedAdd function, base.interlockedadd, winnt/InterlockedAdd
 ms.topic: function
-f1_keywords: 
- - "winnt/InterlockedAdd"
+f1_keywords:
+- winnt/InterlockedAdd
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - InterlockedAdd
+- InterlockedAdd
 targetos: Windows
 req.typenames: 
 req.redist: 

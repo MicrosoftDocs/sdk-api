@@ -1,19 +1,17 @@
 ---
 UID: NN:audioenginebaseapo.IAudioSystemEffectsCustomFormats
 title: IAudioSystemEffectsCustomFormats (audioenginebaseapo.h)
-
 description: The IAudioSystemEffectsCustomFormats interface is supported in Windows Vista and later versions of Windows.
 old-location: audio\iaudiosystemeffectscustomformats.htm
 tech.root: audio
 ms.assetid: 29b758c0-5bbe-489c-9950-bc92a185fbaf
-
 ms.date: 12/05/2018
 ms.keywords: IAudioSystemEffectsCustomFormats, IAudioSystemEffectsCustomFormats interface [Audio Devices], IAudioSystemEffectsCustomFormats interface [Audio Devices],described, audio.iaudiosystemeffectscustomformats, audio_syseffects_r_c8bb1589-9952-4e31-8153-653c3dd0f174.xml, audioenginebaseapo/IAudioSystemEffectsCustomFormats
 ms.topic: interface
-f1_keywords: 
- - "audioenginebaseapo/IAudioSystemEffectsCustomFormats"
+f1_keywords:
+- audioenginebaseapo/IAudioSystemEffectsCustomFormats
 dev_langs:
- - c++
+- c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - audioenginebaseapo.h
+- audioenginebaseapo.h
 api_name:
- - IAudioSystemEffectsCustomFormats
+- IAudioSystemEffectsCustomFormats
 targetos: Windows
 req.typenames: 
 req.redist: 

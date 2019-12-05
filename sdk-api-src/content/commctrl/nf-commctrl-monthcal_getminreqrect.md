@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.MonthCal_GetMinReqRect
 title: MonthCal_GetMinReqRect macro (commctrl.h)
-
 description: Retrieves the minimum size required to display a full month in a month calendar control. Size information is presented in the form of a RECT structure. You can use this macro or send the MCM_GETMINREQRECT message explicitly.
 old-location: controls\MonthCal_GetMinReqRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getminreqrect.htm
-
 ms.date: 12/05/2018
 ms.keywords: MonthCal_GetMinReqRect, MonthCal_GetMinReqRect macro [Windows Controls], _win32_MonthCal_GetMinReqRect, _win32_MonthCal_GetMinReqRect_cpp, commctrl/MonthCal_GetMinReqRect, controls.MonthCal_GetMinReqRect, controls._win32_MonthCal_GetMinReqRect
 ms.topic: macro
-f1_keywords: 
- - "commctrl/MonthCal_GetMinReqRect"
+f1_keywords:
+- commctrl/MonthCal_GetMinReqRect
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - MonthCal_GetMinReqRect
+- MonthCal_GetMinReqRect
 targetos: Windows
 req.typenames: 
 req.redist: 

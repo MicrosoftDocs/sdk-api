@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_CPU_PAGE_PROPERTY
 title: D3D12_CPU_PAGE_PROPERTY (d3d12.h)
-
 description: Specifies the CPU-page properties for the heap.
 old-location: direct3d12\d3d12_cpu_page_property.htm
 tech.root: direct3d12
 ms.assetid: 92C1DBB9-213C-4623-B6AA-B790E081F123
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_CPU_PAGE_PROPERTY, D3D12_CPU_PAGE_PROPERTY enumeration, D3D12_CPU_PAGE_PROPERTY_NOT_AVAILABLE, D3D12_CPU_PAGE_PROPERTY_UNKNOWN, D3D12_CPU_PAGE_PROPERTY_WRITE_BACK, D3D12_CPU_PAGE_PROPERTY_WRITE_COMBINE, d3d12/D3D12_CPU_PAGE_PROPERTY, d3d12/D3D12_CPU_PAGE_PROPERTY_NOT_AVAILABLE, d3d12/D3D12_CPU_PAGE_PROPERTY_UNKNOWN, d3d12/D3D12_CPU_PAGE_PROPERTY_WRITE_BACK, d3d12/D3D12_CPU_PAGE_PROPERTY_WRITE_COMBINE, direct3d12.d3d12_cpu_page_property
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_CPU_PAGE_PROPERTY"
+f1_keywords:
+- d3d12/D3D12_CPU_PAGE_PROPERTY
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_CPU_PAGE_PROPERTY
+- D3D12_CPU_PAGE_PROPERTY
 targetos: Windows
 req.typenames: D3D12_CPU_PAGE_PROPERTY
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsWriteType
 title: WsWriteType function (webservices.h)
-
 description: Write a value of a given WS_TYPE to XML according to the WS_TYPE_MAPPING.
 old-location: wsw\wswritetype.htm
 tech.root: wsw
 ms.assetid: cab1b4d6-c18b-4740-b4a4-61e70ea181d9
-
 ms.date: 12/05/2018
 ms.keywords: WsWriteType, WsWriteType function [Web Services for Windows], webservices/WsWriteType, wsw.wswritetype
 ms.topic: function
-f1_keywords: 
- - "webservices/WsWriteType"
+f1_keywords:
+- webservices/WsWriteType
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsWriteType
+- WsWriteType
 targetos: Windows
 req.typenames: 
 req.redist: 

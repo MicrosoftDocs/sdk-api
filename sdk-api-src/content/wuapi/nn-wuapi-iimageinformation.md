@@ -1,19 +1,17 @@
 ---
 UID: NN:wuapi.IImageInformation
 title: IImageInformation (wuapi.h)
-
 description: Contains information about a localized image that is associated with an update or a category.
 old-location: wua\iimageinformation.htm
 tech.root: Wua_Sdk
 ms.assetid: 869c10c3-a4d1-4001-86f1-30ebf2abe96f
-
 ms.date: 12/05/2018
 ms.keywords: IImageInformation, IImageInformation interface [Windows Update Agent], IImageInformation interface [Windows Update Agent],described, wua.iimageinformation, wuapi/IImageInformation
 ms.topic: interface
-f1_keywords: 
- - "wuapi/IImageInformation"
+f1_keywords:
+- wuapi/IImageInformation
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IImageInformation
+- IImageInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

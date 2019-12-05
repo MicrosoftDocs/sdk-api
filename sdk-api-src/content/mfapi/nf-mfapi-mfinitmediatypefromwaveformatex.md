@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFInitMediaTypeFromWaveFormatEx
 title: MFInitMediaTypeFromWaveFormatEx function (mfapi.h)
-
 description: Initializes a media type from a WAVEFORMATEX structure.
 old-location: mf\mfinitmediatypefromwaveformatex.htm
 tech.root: medfound
 ms.assetid: 91a201a6-06cf-4445-ad62-fdabb3848d51
-
 ms.date: 12/05/2018
 ms.keywords: 91a201a6-06cf-4445-ad62-fdabb3848d51, MFInitMediaTypeFromWaveFormatEx, MFInitMediaTypeFromWaveFormatEx function [Media Foundation], mf.mfinitmediatypefromwaveformatex, mfapi/MFInitMediaTypeFromWaveFormatEx
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFInitMediaTypeFromWaveFormatEx"
+f1_keywords:
+- mfapi/MFInitMediaTypeFromWaveFormatEx
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFInitMediaTypeFromWaveFormatEx
+- MFInitMediaTypeFromWaveFormatEx
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:prntvpt.PTGetPrintDeviceCapabilities
 title: PTGetPrintDeviceCapabilities function (prntvpt.h)
-
 description: Retrieves the device printer's capabilities formatted in compliance with the XML Print Schema.
 old-location: xps\ptgetprintdevicecapabilities.htm
 tech.root: printdocs
 ms.assetid: DB9D63B1-2703-47F7-8F31-30FA0110E1E9
-
 ms.date: 12/05/2018
 ms.keywords: PTGetPrintDeviceCapabilities, PTGetPrintDeviceCapabilities function [XPS Documents and Packaging], prntvpt/PTGetPrintDeviceCapabilities, xps.ptgetprintdevicecapabilities
 ms.topic: function
-f1_keywords: 
- - "prntvpt/PTGetPrintDeviceCapabilities"
+f1_keywords:
+- prntvpt/PTGetPrintDeviceCapabilities
 dev_langs:
- - c++
+- c++
 req.header: prntvpt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Prntvpt.lib
 req.dll: Prntvpt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - prntvpt.dll
+- prntvpt.dll
 api_name:
- - PTGetPrintDeviceCapabilities
+- PTGetPrintDeviceCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 

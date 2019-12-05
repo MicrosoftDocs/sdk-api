@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITPhone.EnumerateTerminals
 title: ITPhone::EnumerateTerminals (tapi3if.h)
-
 description: The EnumerateTerminals method retrieves an enumeration of terminals that are associated with the phone. The application does not have to call ITPhone::Open before executing this method.
 old-location: tapi3\itphone_enumerateterminals.htm
 tech.root: Tapi
 ms.assetid: 87c756e3-abd0-4dff-b815-ff7dd60902f7
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateTerminals, EnumerateTerminals method [TAPI 2.2], EnumerateTerminals method [TAPI 2.2],ITPhone interface, ITPhone interface [TAPI 2.2],EnumerateTerminals method, ITPhone.EnumerateTerminals, ITPhone::EnumerateTerminals, _tapi3_itphone_enumerateterminals, tapi3.itphone_enumerateterminals, tapi3if/ITPhone::EnumerateTerminals
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITPhone.EnumerateTerminals"
+f1_keywords:
+- tapi3if/ITPhone.EnumerateTerminals
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPhone.EnumerateTerminals
+- ITPhone.EnumerateTerminals
 targetos: Windows
 req.typenames: 
 req.redist: 

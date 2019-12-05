@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderRefreshSettings
 title: WdsTransportProviderRefreshSettings function (wdstpdi.h)
-
 description: Instructs the transport provider to reread any relevant settings.
 old-location: wds\wdstransportproviderrefreshsettings.htm
 tech.root: wds
 ms.assetid: b5fc2340-6820-4b11-b96b-dcf3186f0786
-
 ms.date: 12/05/2018
 ms.keywords: WdsTransportProviderRefreshSettings, WdsTransportProviderRefreshSettings callback, WdsTransportProviderRefreshSettings callback function [Windows Deployment Services], wds.wdstransportproviderrefreshsettings, wdstpdi/WdsTransportProviderRefreshSettings
 ms.topic: function
-f1_keywords: 
- - "wdstpdi/WdsTransportProviderRefreshSettings"
+f1_keywords:
+- wdstpdi/WdsTransportProviderRefreshSettings
 dev_langs:
- - c++
+- c++
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - wdstpdi.h
+- wdstpdi.h
 api_name:
- - WdsTransportProviderRefreshSettings
+- WdsTransportProviderRefreshSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

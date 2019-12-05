@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowserEvents.OnNavigationComplete
 title: IExplorerBrowserEvents::OnNavigationComplete (shobjidl_core.h)
-
 description: Notifies clients that the Explorer browser has successfully navigated to a Shell folder.
 old-location: shell\IExplorerBrowserEvents_OnNavigationComplete.htm
 tech.root: shell
 ms.assetid: 54c97a55-a8d1-4635-a1e0-2f92d52ddc10
-
 ms.date: 12/05/2018
 ms.keywords: IExplorerBrowserEvents interface [Windows Shell],OnNavigationComplete method, IExplorerBrowserEvents.OnNavigationComplete, IExplorerBrowserEvents::OnNavigationComplete, OnNavigationComplete, OnNavigationComplete method [Windows Shell], OnNavigationComplete method [Windows Shell],IExplorerBrowserEvents interface, _shell_IExplorerBrowserEvents_OnNavigationComplete, shell.IExplorerBrowserEvents_OnNavigationComplete, shobjidl_core/IExplorerBrowserEvents::OnNavigationComplete
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IExplorerBrowserEvents.OnNavigationComplete"
+f1_keywords:
+- shobjidl_core/IExplorerBrowserEvents.OnNavigationComplete
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExplorerBrowserEvents.OnNavigationComplete
+- IExplorerBrowserEvents.OnNavigationComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

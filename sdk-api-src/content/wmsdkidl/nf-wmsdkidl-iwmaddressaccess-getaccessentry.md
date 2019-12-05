@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMAddressAccess.GetAccessEntry
 title: IWMAddressAccess::GetAccessEntry (wmsdkidl.h)
-
 description: The GetAccessEntry method retrieves an entry from the IP address access list.
 old-location: wmformat\iwmaddressaccess_getaccessentry.htm
 tech.root: wmformat
 ms.assetid: b01b921b-0bb8-447b-877c-8ac218422d36
-
 ms.date: 12/05/2018
 ms.keywords: GetAccessEntry, GetAccessEntry method [windows Media Format], GetAccessEntry method [windows Media Format],IWMAddressAccess interface, IWMAddressAccess interface [windows Media Format],GetAccessEntry method, IWMAddressAccess.GetAccessEntry, IWMAddressAccess::GetAccessEntry, IWMAddressAccessGetAccessEntry, wmformat.iwmaddressaccess_getaccessentry, wmsdkidl/IWMAddressAccess::GetAccessEntry
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMAddressAccess.GetAccessEntry"
+f1_keywords:
+- wmsdkidl/IWMAddressAccess.GetAccessEntry
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMAddressAccess.GetAccessEntry
+- IWMAddressAccess.GetAccessEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

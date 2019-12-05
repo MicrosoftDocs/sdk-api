@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaKeys.get_KeySystem
 title: IMFMediaKeys::get_KeySystem (mfmediaengine.h)
-
 description: Gets the key system string the IMFMediaKeys object was created with.
 old-location: mf\imfmediakeys_get_keysystem.htm
 tech.root: medfound
 ms.assetid: d60ee85b-b5fc-4d06-a3a2-f61ff3635d99
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaKeys interface [Media Foundation],get_KeySystem method, IMFMediaKeys.get_KeySystem, IMFMediaKeys::get_KeySystem, get_KeySystem, get_KeySystem method [Media Foundation], get_KeySystem method [Media Foundation],IMFMediaKeys interface, mf.imfmediakeys_get_keysystem, mfmediaengine/IMFMediaKeys::get_KeySystem
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaKeys.get_KeySystem"
+f1_keywords:
+- mfmediaengine/IMFMediaKeys.get_KeySystem
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaKeys.get_KeySystem
+- IMFMediaKeys.get_KeySystem
 targetos: Windows
 req.typenames: 
 req.redist: 

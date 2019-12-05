@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d10sdklayers.ID3D10InfoQueue
 title: ID3D10InfoQueue (d3d10sdklayers.h)
-
 description: An information-queue interface stores, retrieves, and filters debug messages. The queue consists of a message queue, an optional storage filter stack, and a optional retrieval filter stack.
 old-location: direct3d10\id3d10infoqueue.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue.htm
-
 ms.date: 12/05/2018
 ms.keywords: 1ef0bd38-23d3-fa53-cf27-ff502bb674f2, ID3D10InfoQueue, ID3D10InfoQueue interface [Direct3D 10], ID3D10InfoQueue interface [Direct3D 10],described, d3d10sdklayers/ID3D10InfoQueue, direct3d10.id3d10infoqueue
 ms.topic: interface
-f1_keywords: 
- - "d3d10sdklayers/ID3D10InfoQueue"
+f1_keywords:
+- d3d10sdklayers/ID3D10InfoQueue
 dev_langs:
- - c++
+- c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10InfoQueue
+- ID3D10InfoQueue
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11_1.D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA
 title: D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA (d3d11_1.h)
-
 description: Represents key exchange output data for hardware content protection.
 old-location: mf\d3d11_key_exchange_hw_protection_output_data.htm
 tech.root: medfound
 ms.assetid: D8F987CA-0BD2-42D1-AE95-8D2D118655B1
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA, D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA structure [Media Foundation], d3d11_1/D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA, mf.d3d11_key_exchange_hw_protection_output_data
 ms.topic: struct
-f1_keywords: 
- - "d3d11_1/D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA"
+f1_keywords:
+- d3d11_1/D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA
 dev_langs:
- - c++
+- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11_1.h
+- d3d11_1.h
 api_name:
- - D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA
+- D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA
 targetos: Windows
 req.typenames: D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA
 req.redist: 

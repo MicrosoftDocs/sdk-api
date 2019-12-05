@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetComputeRootUnorderedAccessView
 title: ID3D12GraphicsCommandList::SetComputeRootUnorderedAccessView (d3d12.h)
-
 description: Sets a CPU descriptor handle for the unordered-access-view resource in the compute root signature.
 old-location: direct3d12\id3d12graphicscommandlist_setcomputerootunorderedaccessview.htm
 tech.root: direct3d12
 ms.assetid: 7C91B305-ABB2-4355-AA4B-3E1641ACF9E0
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetComputeRootUnorderedAccessView method, ID3D12GraphicsCommandList.SetComputeRootUnorderedAccessView, ID3D12GraphicsCommandList::SetComputeRootUnorderedAccessView, SetComputeRootUnorderedAccessView, SetComputeRootUnorderedAccessView method, SetComputeRootUnorderedAccessView method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetComputeRootUnorderedAccessView, direct3d12.id3d12graphicscommandlist_setcomputerootunorderedaccessview
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList.SetComputeRootUnorderedAccessView"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList.SetComputeRootUnorderedAccessView
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.SetComputeRootUnorderedAccessView
+- ID3D12GraphicsCommandList.SetComputeRootUnorderedAccessView
 targetos: Windows
 req.typenames: 
 req.redist: 

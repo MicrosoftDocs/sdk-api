@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IX509PrivateKey
 title: IX509PrivateKey (certenroll.h)
-
 description: Represents an asymmetric private key that can be used for encryption, signing, and key agreement.
 old-location: security\ix509privatekey.htm
 tech.root: seccertenroll
 ms.assetid: 72612ea4-ed45-46ac-9dad-614a9a754d83
-
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey, IX509PrivateKey interface [Security], IX509PrivateKey interface [Security],described, certenroll/IX509PrivateKey, security.ix509privatekey
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IX509PrivateKey"
+f1_keywords:
+- certenroll/IX509PrivateKey
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509PrivateKey
+- IX509PrivateKey
 targetos: Windows
 req.typenames: 
 req.redist: 

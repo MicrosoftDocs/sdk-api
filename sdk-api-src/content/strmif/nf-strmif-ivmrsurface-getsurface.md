@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRSurface.GetSurface
 title: IVMRSurface::GetSurface (strmif.h)
-
 description: The GetSurface method retrieves the attached DirectDraw surface interface.
 old-location: dshow\ivmrsurface_getsurface.htm
 tech.root: DirectShow
 ms.assetid: 2fba7818-6395-47d3-98b3-347f1d4a7c6f
-
 ms.date: 12/05/2018
 ms.keywords: GetSurface, GetSurface method [DirectShow], GetSurface method [DirectShow],IVMRSurface interface, IVMRSurface interface [DirectShow],GetSurface method, IVMRSurface.GetSurface, IVMRSurface::GetSurface, IVMRSurfaceGetSurface, dshow.ivmrsurface_getsurface, strmif/IVMRSurface::GetSurface
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRSurface.GetSurface"
+f1_keywords:
+- strmif/IVMRSurface.GetSurface
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRSurface.GetSurface
+- IVMRSurface.GetSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

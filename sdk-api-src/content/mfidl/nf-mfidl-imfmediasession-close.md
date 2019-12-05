@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMediaSession.Close
 title: IMFMediaSession::Close (mfidl.h)
-
 description: Closes the Media Session and releases all of the resources it is using.
 old-location: mf\imfmediasession_close.htm
 tech.root: medfound
 ms.assetid: 6ed118ae-7538-4ef6-81fc-b762f709838f
-
 ms.date: 12/05/2018
 ms.keywords: 6ed118ae-7538-4ef6-81fc-b762f709838f, Close, Close method [Media Foundation], Close method [Media Foundation],IMFMediaSession interface, IMFMediaSession interface [Media Foundation],Close method, IMFMediaSession.Close, IMFMediaSession::Close, mf.imfmediasession_close, mfidl/IMFMediaSession::Close
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMediaSession.Close"
+f1_keywords:
+- mfidl/IMFMediaSession.Close
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaSession.Close
+- IMFMediaSession.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

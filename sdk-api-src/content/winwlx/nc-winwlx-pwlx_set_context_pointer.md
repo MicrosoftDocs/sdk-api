@@ -1,19 +1,17 @@
 ---
 UID: NC:winwlx.PWLX_SET_CONTEXT_POINTER
 title: PWLX_SET_CONTEXT_POINTER (winwlx.h)
-
 description: Called by GINA to specify the context pointer passed by Winlogon as the first parameter to all future calls to GINA functions.
 old-location: security\wlxsetcontextpointer.htm
 tech.root: SecAuthN
 ms.assetid: 592d05f4-be7c-4606-91ad-77e3fb4f6b7a
-
 ms.date: 12/05/2018
 ms.keywords: PWLX_SET_CONTEXT_POINTER, PWLX_SET_CONTEXT_POINTER callback, WlxSetContextPointer, WlxSetContextPointer callback function [Security], _gina_wlxsetcontextpointer, security.wlxsetcontextpointer, winwlx/WlxSetContextPointer
 ms.topic: callback
-f1_keywords: 
- - "winwlx/WlxSetContextPointer"
+f1_keywords:
+- winwlx/WlxSetContextPointer
 dev_langs:
- - c++
+- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - winwlx.h
+- winwlx.h
 api_name:
- - WlxSetContextPointer
+- WlxSetContextPointer
 targetos: Windows
 req.typenames: 
 req.redist: 

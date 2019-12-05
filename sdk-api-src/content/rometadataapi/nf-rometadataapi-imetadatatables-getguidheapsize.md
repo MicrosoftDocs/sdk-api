@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetGuidHeapSize
 title: IMetaDataTables::GetGuidHeapSize (rometadataapi.h)
-
 description: Gets the size, in bytes, of the GUID heap.
 old-location: winrt\imetadatatables_getguidheapsize.htm
 tech.root: WinRT
 ms.assetid: 56b0f15f-caf3-44e0-8cec-7ca3f2edb74d
-
 ms.date: 12/05/2018
 ms.keywords: GetGuidHeapSize, GetGuidHeapSize method [Windows Runtime], GetGuidHeapSize method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetGuidHeapSize method, IMetaDataTables.GetGuidHeapSize, IMetaDataTables::GetGuidHeapSize, rometadataapi/IMetaDataTables::GetGuidHeapSize, winrt.imetadatatables_getguidheapsize
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataTables.GetGuidHeapSize"
+f1_keywords:
+- rometadataapi/IMetaDataTables.GetGuidHeapSize
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataTables.GetGuidHeapSize
+- IMetaDataTables.GetGuidHeapSize
 targetos: Windows
 req.typenames: 
 req.redist: 

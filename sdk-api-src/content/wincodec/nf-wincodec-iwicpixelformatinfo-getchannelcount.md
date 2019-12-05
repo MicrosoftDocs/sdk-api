@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICPixelFormatInfo.GetChannelCount
 title: IWICPixelFormatInfo::GetChannelCount (wincodec.h)
-
 description: Gets the number of channels the pixel format contains.
 old-location: wic\_wic_codec_iwicpixelformatinfo_getchannelcount.htm
 tech.root: wic
 ms.assetid: 884262b8-dddf-4b8b-87aa-52d9e7952c91
-
 ms.date: 12/05/2018
 ms.keywords: GetChannelCount, GetChannelCount method [Windows Imaging Component], GetChannelCount method [Windows Imaging Component],IWICPixelFormatInfo interface, IWICPixelFormatInfo interface [Windows Imaging Component],GetChannelCount method, IWICPixelFormatInfo.GetChannelCount, IWICPixelFormatInfo::GetChannelCount, _wic_codec_iwicpixelformatinfo_getchannelcount, wic._wic_codec_iwicpixelformatinfo_getchannelcount, wincodec/IWICPixelFormatInfo::GetChannelCount
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICPixelFormatInfo.GetChannelCount"
+f1_keywords:
+- wincodec/IWICPixelFormatInfo.GetChannelCount
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Windowscodecs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.lib
- - Windowscodecs.dll
+- Windowscodecs.lib
+- Windowscodecs.dll
 api_name:
- - IWICPixelFormatInfo.GetChannelCount
+- IWICPixelFormatInfo.GetChannelCount
 targetos: Windows
 req.typenames: 
 req.redist: 

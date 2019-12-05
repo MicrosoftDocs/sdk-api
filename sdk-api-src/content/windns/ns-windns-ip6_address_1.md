@@ -1,19 +1,17 @@
 ---
 UID: NS:windns.__unnamed_union_1
 title: IP6_ADDRESS (windns.h)
-
 description: The IP6_ADDRESS structure stores an IPv6 address.
 old-location: dns\ip6_address.htm
 tech.root: DNS
 ms.assetid: 789400be-03c7-4c4f-9e78-fa2573cf114d
-
 ms.date: 12/05/2018
-ms.keywords: "*PIP6_ADDRESS, *PIP6_ADDRESS structure [DNS], IP6_ADDRESS, IP6_ADDRESS structure [DNS], dns.ip6_address, windns/*PIP6_ADDRESS, windns/IP6_ADDRESS"
+ms.keywords: '*PIP6_ADDRESS, *PIP6_ADDRESS structure [DNS], IP6_ADDRESS, IP6_ADDRESS structure [DNS], dns.ip6_address, windns/*PIP6_ADDRESS, windns/IP6_ADDRESS'
 ms.topic: struct
-f1_keywords: 
- - "windns/IP6_ADDRESS"
+f1_keywords:
+- windns/IP6_ADDRESS
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - IP6_ADDRESS
+- IP6_ADDRESS
 targetos: Windows
 req.typenames: IP6_ADDRESS, *PIP6_ADDRESS
 req.redist: 

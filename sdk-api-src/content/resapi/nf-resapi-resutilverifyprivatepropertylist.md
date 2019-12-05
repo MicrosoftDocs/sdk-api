@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilVerifyPrivatePropertyList
 title: ResUtilVerifyPrivatePropertyList function (resapi.h)
-
 description: Verifies that a property list is correctly formatted.
 old-location: mscs\resutilverifyprivatepropertylist.htm
 tech.root: MsCS
 ms.assetid: 3d2eaa83-dd82-4023-8466-0131f7b90abc
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_VERIFY_PRIVATE_PROPERTY_LIST, PRESUTIL_VERIFY_PRIVATE_PROPERTY_LIST function [Failover Cluster], ResUtilVerifyPrivatePropertyList, ResUtilVerifyPrivatePropertyList function [Failover Cluster], _wolf_resutilverifyprivatepropertylist, mscs.resutilverifyprivatepropertylist, resapi/PRESUTIL_VERIFY_PRIVATE_PROPERTY_LIST, resapi/ResUtilVerifyPrivatePropertyList
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilVerifyPrivatePropertyList"
+f1_keywords:
+- resapi/ResUtilVerifyPrivatePropertyList
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilVerifyPrivatePropertyList
+- ResUtilVerifyPrivatePropertyList
 targetos: Windows
 req.typenames: 
 req.redist: 

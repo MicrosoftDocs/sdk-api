@@ -1,19 +1,17 @@
 ---
 UID: NF:roregistrationapi.RoGetActivatableClassRegistration
 title: RoGetActivatableClassRegistration function (roregistrationapi.h)
-
 description: Enables retrieving class registration information.
 old-location: winrt\rogetactivatableclassregistration.htm
 tech.root: WinRT
 ms.assetid: 9D9B74C9-9D9A-4E10-A222-C8F3658F2C48
-
 ms.date: 12/05/2018
 ms.keywords: RoGetActivatableClassRegistration, RoGetActivatableClassRegistration function [Windows Runtime], roregistrationapi/RoGetActivatableClassRegistration, winrt.rogetactivatableclassregistration
 ms.topic: function
-f1_keywords: 
- - "roregistrationapi/RoGetActivatableClassRegistration"
+f1_keywords:
+- roregistrationapi/RoGetActivatableClassRegistration
 dev_langs:
- - c++
+- c++
 req.header: roregistrationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Runtimeobject.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - runtimeobject.lib
- - runtimeobject.dll
- - API-MS-Win-Core-WinRT-registration-l1-1-0.dll
- - ComBase.dll
+- runtimeobject.lib
+- runtimeobject.dll
+- API-MS-Win-Core-WinRT-registration-l1-1-0.dll
+- ComBase.dll
 api_name:
- - RoGetActivatableClassRegistration
+- RoGetActivatableClassRegistration
 targetos: Windows
 req.typenames: 
 req.redist: 

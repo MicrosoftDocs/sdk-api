@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetGestureInfo
 title: GetGestureInfo function (winuser.h)
-
 description: Retrieves a GESTUREINFO structure given a handle to the gesture information.
 old-location: wintouch\getgestureinfo.htm
 tech.root: wintouch
 ms.assetid: 407ed585-09aa-4174-8907-8bb9590f1795
-
 ms.date: 12/05/2018
 ms.keywords: GetGestureInfo, GetGestureInfo function [Windows Touch], wintouch.getgestureinfo, winuser/GetGestureInfo
 ms.topic: function
-f1_keywords: 
- - "winuser/GetGestureInfo"
+f1_keywords:
+- winuser/GetGestureInfo
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
- - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
- - ext-ms-win-ntuser-misc-l1-3-1.dll
- - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
- - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
- - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+- user32.dll
+- Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+- Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+- ext-ms-win-ntuser-misc-l1-3-1.dll
+- Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+- Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
- - GetGestureInfo
+- GetGestureInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara.GetWidowControl
 title: ITextPara::GetWidowControl (tom.h)
-
 description: Retrieves the widow and orphan control state for the paragraphs in a range.
 old-location: controls\ITextPara_GetWidowControl.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getwidowcontrol.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetWidowControl, GetWidowControl method [Windows Controls], GetWidowControl method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetWidowControl method, ITextPara.GetWidowControl, ITextPara::GetWidowControl, _win32_ITextPara_GetWidowControl, _win32_ITextPara_GetWidowControl_cpp, controls.ITextPara_GetWidowControl, controls._win32_ITextPara_GetWidowControl, tom/ITextPara::GetWidowControl
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara.GetWidowControl"
+f1_keywords:
+- tom/ITextPara.GetWidowControl
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara.GetWidowControl
+- ITextPara.GetWidowControl
 targetos: Windows
 req.typenames: 
 req.redist: 

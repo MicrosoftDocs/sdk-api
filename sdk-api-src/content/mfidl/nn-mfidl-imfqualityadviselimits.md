@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFQualityAdviseLimits
 title: IMFQualityAdviseLimits (mfidl.h)
-
 description: Queries an object for the number of quality modes it supports.
 old-location: mf\imfqualityadviselimits.htm
 tech.root: medfound
 ms.assetid: 8ef7088c-2f49-4be9-b719-481616e1737d
-
 ms.date: 12/05/2018
 ms.keywords: IMFQualityAdviseLimits, IMFQualityAdviseLimits interface [Media Foundation], IMFQualityAdviseLimits interface [Media Foundation],described, mf.imfqualityadviselimits, mfidl/IMFQualityAdviseLimits
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFQualityAdviseLimits"
+f1_keywords:
+- mfidl/IMFQualityAdviseLimits
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFQualityAdviseLimits
+- IMFQualityAdviseLimits
 targetos: Windows
 req.typenames: 
 req.redist: 

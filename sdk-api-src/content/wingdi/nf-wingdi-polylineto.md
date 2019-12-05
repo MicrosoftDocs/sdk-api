@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.PolylineTo
 title: PolylineTo function (wingdi.h)
-
 description: The PolylineTo function draws one or more straight lines.
 old-location: gdi\polylineto.htm
 tech.root: gdi
 ms.assetid: 76020742-b651-4244-82c3-13034573c306
-
 ms.date: 12/05/2018
 ms.keywords: PolylineTo, PolylineTo function [Windows GDI], _win32_PolylineTo, gdi.polylineto, wingdi/PolylineTo
 ms.topic: function
-f1_keywords: 
- - "wingdi/PolylineTo"
+f1_keywords:
+- wingdi/PolylineTo
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 api_name:
- - PolylineTo
+- PolylineTo
 targetos: Windows
 req.typenames: 
 req.redist: 

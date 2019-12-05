@@ -1,19 +1,17 @@
 ---
 UID: NF:wmiutils.IWbemPath.GetKeyList
 title: IWbemPath::GetKeyList (wmiutils.h)
-
 description: Retrieves an IWbemPathKeyList pointer so that the individual key may be accessed.
 old-location: wmi\iwbempath_getkeylist.htm
 tech.root: WmiSdk
 ms.assetid: bf62727f-6ce7-4c7a-b757-c36d8cf64652
-
 ms.date: 12/05/2018
 ms.keywords: GetKeyList, GetKeyList method [Windows Management Instrumentation], GetKeyList method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],GetKeyList method, IWbemPath.GetKeyList, IWbemPath::GetKeyList, _hmm_iwbempath_getkeylist, wmi.iwbempath_getkeylist, wmiutils/IWbemPath::GetKeyList
 ms.topic: method
-f1_keywords: 
- - "wmiutils/IWbemPath.GetKeyList"
+f1_keywords:
+- wmiutils/IWbemPath.GetKeyList
 dev_langs:
- - c++
+- c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Wmiutils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmiutils.dll
+- Wmiutils.dll
 api_name:
- - IWbemPath.GetKeyList
+- IWbemPath.GetKeyList
 targetos: Windows
 req.typenames: 
 req.redist: 

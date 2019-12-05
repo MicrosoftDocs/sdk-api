@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreAnchorSink.OnStatusChange
 title: ITextStoreAnchorSink::OnStatusChange (textstor.h)
-
 description: ITextStoreAnchorSink::OnStatusChange method
 old-location: tsf\itextstoreanchorsink_onstatuschange.htm
 tech.root: TSF
 ms.assetid: 28bdfa93-29c1-4a9f-b85e-20c39a1b429b
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnStatusChange method, ITextStoreAnchorSink.OnStatusChange, ITextStoreAnchorSink::OnStatusChange, OnStatusChange, OnStatusChange method [Text Services Framework], OnStatusChange method [Text Services Framework],ITextStoreAnchorSink interface, _tsf_itextstoreanchorsink_onstatuschange_ref, textstor/ITextStoreAnchorSink::OnStatusChange, tsf.itextstoreanchorsink_onstatuschange
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreAnchorSink.OnStatusChange"
+f1_keywords:
+- textstor/ITextStoreAnchorSink.OnStatusChange
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreAnchorSink.OnStatusChange
+- ITextStoreAnchorSink.OnStatusChange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

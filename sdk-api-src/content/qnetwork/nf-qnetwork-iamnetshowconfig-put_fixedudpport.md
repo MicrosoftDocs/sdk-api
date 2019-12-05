@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.put_FixedUDPPort
 title: IAMNetShowConfig::put_FixedUDPPort (qnetwork.h)
-
 description: The put_FixedUDPPort method specifies the fixed UDP port.
 old-location: dshow\iamnetshowconfig_put_fixedudpport.htm
 tech.root: DirectShow
 ms.assetid: 461b3999-ee1f-4d2a-9ebc-38faf344eba0
-
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_FixedUDPPort method, IAMNetShowConfig.put_FixedUDPPort, IAMNetShowConfig::put_FixedUDPPort, IAMNetShowConfigput_FixedUDPPort, dshow.iamnetshowconfig_put_fixedudpport, put_FixedUDPPort, put_FixedUDPPort method [DirectShow], put_FixedUDPPort method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_FixedUDPPort
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMNetShowConfig.put_FixedUDPPort"
+f1_keywords:
+- qnetwork/IAMNetShowConfig.put_FixedUDPPort
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMNetShowConfig.put_FixedUDPPort
+- IAMNetShowConfig.put_FixedUDPPort
 targetos: Windows
 req.typenames: 
 req.redist: 

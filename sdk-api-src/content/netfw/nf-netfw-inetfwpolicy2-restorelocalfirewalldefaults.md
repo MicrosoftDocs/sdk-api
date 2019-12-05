@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwPolicy2.RestoreLocalFirewallDefaults
 title: INetFwPolicy2::RestoreLocalFirewallDefaults (netfw.h)
-
 description: Restores the local firewall configuration to its default state.
 old-location: ics\inetfwpolicy2_restorelocalfirewalldefaults.htm
 tech.root: ics
 ms.assetid: 420b07ff-e851-41cf-96c4-064430f292a1
-
 ms.date: 12/05/2018
 ms.keywords: INetFwPolicy2 interface [ICS/ICF],RestoreLocalFirewallDefaults method, INetFwPolicy2.RestoreLocalFirewallDefaults, INetFwPolicy2::RestoreLocalFirewallDefaults, RestoreLocalFirewallDefaults, RestoreLocalFirewallDefaults method [ICS/ICF], RestoreLocalFirewallDefaults method [ICS/ICF],INetFwPolicy2 interface, ics.inetfwpolicy2_restorelocalfirewalldefaults, netfw/INetFwPolicy2::RestoreLocalFirewallDefaults
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwPolicy2.RestoreLocalFirewallDefaults"
+f1_keywords:
+- netfw/INetFwPolicy2.RestoreLocalFirewallDefaults
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwPolicy2.RestoreLocalFirewallDefaults
+- INetFwPolicy2.RestoreLocalFirewallDefaults
 targetos: Windows
 req.typenames: 
 req.redist: 

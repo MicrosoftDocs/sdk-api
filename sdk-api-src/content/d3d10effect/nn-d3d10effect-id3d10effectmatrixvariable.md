@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectMatrixVariable
 title: ID3D10EffectMatrixVariable (d3d10effect.h)
-
 description: A matrix-variable interface accesses a matrix.
 old-location: direct3d10\id3d10effectmatrixvariable.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectmatrixvariable.htm
-
 ms.date: 12/05/2018
 ms.keywords: 04e04746-d9a8-5507-39e7-6dbc6cf434c2, ID3D10EffectMatrixVariable, ID3D10EffectMatrixVariable interface [Direct3D 10], ID3D10EffectMatrixVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectMatrixVariable, direct3d10.id3d10effectmatrixvariable
 ms.topic: interface
-f1_keywords: 
- - "d3d10effect/ID3D10EffectMatrixVariable"
+f1_keywords:
+- d3d10effect/ID3D10EffectMatrixVariable
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10EffectMatrixVariable
+- ID3D10EffectMatrixVariable
 targetos: Windows
 req.typenames: 
 req.redist: 

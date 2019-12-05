@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ScrollBar_Enable
 title: ScrollBar_Enable macro (windowsx.h)
-
 description: Enables or disables a scroll bar control.
 old-location: controls\ScrollBar_Enable.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarmacros\scrollbar_enable.htm
-
 ms.date: 12/05/2018
 ms.keywords: ScrollBar_Enable, ScrollBar_Enable macro [Windows Controls], _win32_ScrollBar_Enable, _win32_ScrollBar_Enable_cpp, controls.ScrollBar_Enable, controls._win32_ScrollBar_Enable, windowsx/ScrollBar_Enable
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ScrollBar_Enable"
+f1_keywords:
+- windowsx/ScrollBar_Enable
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ScrollBar_Enable
+- ScrollBar_Enable
 targetos: Windows
 req.typenames: 
 req.redist: 

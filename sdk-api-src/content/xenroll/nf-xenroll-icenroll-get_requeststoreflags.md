@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.ICEnroll.get_RequestStoreFlags
 title: ICEnroll::get_RequestStoreFlags (xenroll.h)
-
 description: Sets or retrieves the registry location used for the request store.
 old-location: security\icenroll4_requeststoreflags.htm
 tech.root: SecCrypto
 ms.assetid: 399870f0-69e1-4a21-a7fa-c3de9ee66876
-
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],RequestStoreFlags property, ICEnroll interface [Security],RequestStoreFlags property, ICEnroll.RequestStoreFlags, ICEnroll.get_RequestStoreFlags, ICEnroll2 interface [Security],RequestStoreFlags property, ICEnroll2.RequestStoreFlags, ICEnroll2::get_RequestStoreFlags, ICEnroll2::put_RequestStoreFlags, ICEnroll3 interface [Security],RequestStoreFlags property, ICEnroll3.RequestStoreFlags, ICEnroll3::get_RequestStoreFlags, ICEnroll3::put_RequestStoreFlags, ICEnroll4 interface [Security],RequestStoreFlags property, ICEnroll4.RequestStoreFlags, ICEnroll4::RequestStoreFlags, ICEnroll4::get_RequestStoreFlags, ICEnroll4::put_RequestStoreFlags, ICEnroll::get_RequestStoreFlags, ICEnroll::put_RequestStoreFlags, RequestStoreFlags property [Security], RequestStoreFlags property [Security],CEnroll object, RequestStoreFlags property [Security],ICEnroll interface, RequestStoreFlags property [Security],ICEnroll2 interface, RequestStoreFlags property [Security],ICEnroll3 interface, RequestStoreFlags property [Security],ICEnroll4 interface, get_RequestStoreFlags, security.icenroll4_requeststoreflags, xenroll/ICEnroll2::RequestStoreFlags, xenroll/ICEnroll2::get_RequestStoreFlags, xenroll/ICEnroll2::put_RequestStoreFlags, xenroll/ICEnroll3::RequestStoreFlags, xenroll/ICEnroll3::get_RequestStoreFlags, xenroll/ICEnroll3::put_RequestStoreFlags, xenroll/ICEnroll4::RequestStoreFlags, xenroll/ICEnroll4::get_RequestStoreFlags, xenroll/ICEnroll4::put_RequestStoreFlags, xenroll/ICEnroll::RequestStoreFlags, xenroll/ICEnroll::get_RequestStoreFlags, xenroll/ICEnroll::put_RequestStoreFlags
 ms.topic: method
-f1_keywords: 
- - "xenroll/ICEnroll4.RequestStoreFlags"
+f1_keywords:
+- xenroll/ICEnroll4.RequestStoreFlags
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,26 +30,26 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll4.RequestStoreFlags
- - ICEnroll4.get_RequestStoreFlags
- - ICEnroll4.put_RequestStoreFlags
- - ICEnroll3.RequestStoreFlags
- - ICEnroll3.get_RequestStoreFlags
- - ICEnroll3.put_RequestStoreFlags
- - ICEnroll2.RequestStoreFlags
- - ICEnroll2.get_RequestStoreFlags
- - ICEnroll2.put_RequestStoreFlags
- - ICEnroll.RequestStoreFlags
- - ICEnroll.get_RequestStoreFlags
- - ICEnroll.put_RequestStoreFlags
- - CEnroll.RequestStoreFlags
+- ICEnroll4.RequestStoreFlags
+- ICEnroll4.get_RequestStoreFlags
+- ICEnroll4.put_RequestStoreFlags
+- ICEnroll3.RequestStoreFlags
+- ICEnroll3.get_RequestStoreFlags
+- ICEnroll3.put_RequestStoreFlags
+- ICEnroll2.RequestStoreFlags
+- ICEnroll2.get_RequestStoreFlags
+- ICEnroll2.put_RequestStoreFlags
+- ICEnroll.RequestStoreFlags
+- ICEnroll.get_RequestStoreFlags
+- ICEnroll.put_RequestStoreFlags
+- CEnroll.RequestStoreFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

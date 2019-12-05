@@ -1,19 +1,17 @@
 ---
 UID: NN:eventsys.IEventSystem
 title: IEventSystem (eventsys.h)
-
 description: Provides access to the event data store.
 old-location: cos\ieventsystem.htm
 tech.root: cossdk
 ms.assetid: 29b3e552-b717-4d10-9fa4-1386da3c5460
-
 ms.date: 12/05/2018
 ms.keywords: IEventSystem, IEventSystem interface [COM+], IEventSystem interface [COM+],described, _cos_IEventSystem, cos.ieventsystem, eventsys/IEventSystem
 ms.topic: interface
-f1_keywords: 
- - "eventsys/IEventSystem"
+f1_keywords:
+- eventsys/IEventSystem
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IEventSystem
+- IEventSystem
 targetos: Windows
 req.typenames: 
 req.redist: 

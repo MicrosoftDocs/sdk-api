@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHAutoComplete
 title: SHAutoComplete function (shlwapi.h)
-
 description: Instructs system edit controls to use AutoComplete to help complete URLs or file system paths.
 old-location: shell\SHAutoComplete.htm
 tech.root: shell
 ms.assetid: b47efa8d-2118-4805-bb04-97bd143228dc
-
 ms.date: 12/05/2018
 ms.keywords: SHACF_AUTOAPPEND_FORCE_OFF, SHACF_AUTOAPPEND_FORCE_ON, SHACF_AUTOSUGGEST_FORCE_OFF, SHACF_AUTOSUGGEST_FORCE_ON, SHACF_DEFAULT, SHACF_FILESYSTEM, SHACF_FILESYS_DIRS, SHACF_FILESYS_ONLY, SHACF_URLALL, SHACF_URLHISTORY, SHACF_URLMRU, SHACF_USETAB, SHACF_VIRTUAL_NAMESPACE, SHAutoComplete, SHAutoComplete function [Windows Shell], _win32_ShAutoComplete, shell.SHAutoComplete, shlwapi/SHAutoComplete
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHAutoComplete"
+f1_keywords:
+- shlwapi/SHAutoComplete
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
+- Shlwapi.dll
 api_name:
- - SHAutoComplete
+- SHAutoComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

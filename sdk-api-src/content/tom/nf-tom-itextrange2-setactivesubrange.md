@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange2.SetActiveSubrange
 title: ITextRange2::SetActiveSubrange (tom.h)
-
 description: Makes the specified subrange the active subrange of this range.
 old-location: controls\itextrange2_setactivesubrange.htm
 tech.root: Controls
 ms.assetid: a635edd3-dcb9-4f1f-bf6e-774ce3f0c505
-
 ms.date: 12/05/2018
 ms.keywords: ITextRange2 interface [Windows Controls],SetActiveSubrange method, ITextRange2.SetActiveSubrange, ITextRange2::SetActiveSubrange, SetActiveSubrange, SetActiveSubrange method [Windows Controls], SetActiveSubrange method [Windows Controls],ITextRange2 interface, controls.itextrange2_setactivesubrange, tom/ITextRange2::SetActiveSubrange
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange2.SetActiveSubrange"
+f1_keywords:
+- tom/ITextRange2.SetActiveSubrange
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange2.SetActiveSubrange
+- ITextRange2.SetActiveSubrange
 targetos: Windows
 req.typenames: 
 req.redist: 

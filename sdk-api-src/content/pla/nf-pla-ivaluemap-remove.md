@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IValueMap.Remove
 title: IValueMap::Remove (pla.h)
-
 description: Removes an item from the collection.
 old-location: pla\ivaluemap_remove.htm
 tech.root: PLA
 ms.assetid: dc674243-ec0f-496f-bffb-faf4262a42c7
-
 ms.date: 12/05/2018
 ms.keywords: IValueMap interface [PLA],Remove method, IValueMap.Remove, IValueMap::Remove, Remove, Remove method [PLA], Remove method [PLA],IValueMap interface, base.ivaluemap_remove, pla.ivaluemap_remove, pla/IValueMap::Remove
 ms.topic: method
-f1_keywords: 
- - "pla/IValueMap.Remove"
+f1_keywords:
+- pla/IValueMap.Remove
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IValueMap.Remove
+- IValueMap.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

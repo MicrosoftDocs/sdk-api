@@ -1,19 +1,17 @@
 ---
 UID: NE:ipsectypes.IPSEC_TOKEN_MODE_
 title: IPSEC_TOKEN_MODE (ipsectypes.h)
-
 description: Different IPsec modes in which a token can be obtained.
 old-location: fwp\ipsec_token_mode.htm
 tech.root: fwp
 ms.assetid: 5f90e473-39e1-4eed-9ea1-1f20929d5a07
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_TOKEN_MODE, IPSEC_TOKEN_MODE enumeration [Filtering], IPSEC_TOKEN_MODE_EXTENDED, IPSEC_TOKEN_MODE_MAIN, IPSEC_TOKEN_MODE_MAX, fwp.ipsec_token_mode, ipsectypes/IPSEC_TOKEN_MODE, ipsectypes/IPSEC_TOKEN_MODE_EXTENDED, ipsectypes/IPSEC_TOKEN_MODE_MAIN, ipsectypes/IPSEC_TOKEN_MODE_MAX
 ms.topic: enum
-f1_keywords: 
- - "ipsectypes/IPSEC_TOKEN_MODE"
+f1_keywords:
+- ipsectypes/IPSEC_TOKEN_MODE
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_TOKEN_MODE
+- IPSEC_TOKEN_MODE
 targetos: Windows
 req.typenames: IPSEC_TOKEN_MODE
 req.redist: 

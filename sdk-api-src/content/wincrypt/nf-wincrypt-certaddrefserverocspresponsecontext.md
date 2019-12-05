@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CertAddRefServerOcspResponseContext
 title: CertAddRefServerOcspResponseContext function (wincrypt.h)
-
 description: Increments the reference count for a CERT_SERVER_OCSP_RESPONSE_CONTEXT structure.
 old-location: security\certaddrefserverocspresponsecontext.htm
 tech.root: SecCrypto
 ms.assetid: b7cdce9b-25fe-4fb9-b266-61989793699b
-
 ms.date: 12/05/2018
 ms.keywords: CertAddRefServerOcspResponseContext, CertAddRefServerOcspResponseContext function [Security], security.certaddrefserverocspresponsecontext, wincrypt/CertAddRefServerOcspResponseContext
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertAddRefServerOcspResponseContext"
+f1_keywords:
+- wincrypt/CertAddRefServerOcspResponseContext
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertAddRefServerOcspResponseContext
+- CertAddRefServerOcspResponseContext
 targetos: Windows
 req.typenames: 
 req.redist: 

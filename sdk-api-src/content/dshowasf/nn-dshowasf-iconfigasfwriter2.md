@@ -1,19 +1,17 @@
 ---
 UID: NN:dshowasf.IConfigAsfWriter2
 title: IConfigAsfWriter2 (dshowasf.h)
-
 description: The IConfigAsfWriter2 interface extends the IConfigAsfWriter interface, which configures the WM ASF Writer filter.
 old-location: dshow\iconfigasfwriter2.htm
 tech.root: DirectShow
 ms.assetid: fd931a95-3678-46de-8f17-9e7c27087398
-
 ms.date: 12/05/2018
 ms.keywords: IConfigAsfWriter2, IConfigAsfWriter2 interface [DirectShow], IConfigAsfWriter2 interface [DirectShow],described, IConfigAsfWriter2Interface, dshow.iconfigasfwriter2, dshowasf/IConfigAsfWriter2
 ms.topic: interface
-f1_keywords: 
- - "dshowasf/IConfigAsfWriter2"
+f1_keywords:
+- dshowasf/IConfigAsfWriter2
 dev_langs:
- - c++
+- c++
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dshowasf.h
+- Dshowasf.h
 api_name:
- - IConfigAsfWriter2
+- IConfigAsfWriter2
 targetos: Windows
 req.typenames: 
 req.redist: 

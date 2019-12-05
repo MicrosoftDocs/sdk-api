@@ -1,19 +1,17 @@
 ---
 UID: NC:webservices.WS_FREE_CHANNEL_CALLBACK
 title: WS_FREE_CHANNEL_CALLBACK (webservices.h)
-
 description: Handles the WsFreeChannel call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_free_channel_callback.htm
 tech.root: wsw
 ms.assetid: f1781c50-824e-4b79-91b6-97e31581617a
-
 ms.date: 12/05/2018
 ms.keywords: WS_FREE_CHANNEL_CALLBACK, WS_FREE_CHANNEL_CALLBACK callback, WS_FREE_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_FREE_CHANNEL_CALLBACK, wsw.ws_free_channel_callback
 ms.topic: callback
-f1_keywords: 
- - "webservices/WS_FREE_CHANNEL_CALLBACK"
+f1_keywords:
+- webservices/WS_FREE_CHANNEL_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_FREE_CHANNEL_CALLBACK
+- WS_FREE_CHANNEL_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_2.ID3D11DeviceContext2.TiledResourceBarrier
 title: ID3D11DeviceContext2::TiledResourceBarrier (d3d11_2.h)
-
 description: Specifies a data access ordering constraint between multiple tiled resources.
 old-location: direct3d11\id3d11devicecontext2_tiledresourcebarrier.htm
 tech.root: direct3d11
 ms.assetid: D53A4336-53D8-4264-9A9B-B775AA026939
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11DeviceContext2 interface [Direct3D 11],TiledResourceBarrier method, ID3D11DeviceContext2.TiledResourceBarrier, ID3D11DeviceContext2::TiledResourceBarrier, TiledResourceBarrier, TiledResourceBarrier method [Direct3D 11], TiledResourceBarrier method [Direct3D 11],ID3D11DeviceContext2 interface, d3d11_2/ID3D11DeviceContext2::TiledResourceBarrier, direct3d11.id3d11devicecontext2_tiledresourcebarrier
 ms.topic: method
-f1_keywords: 
- - "d3d11_2/ID3D11DeviceContext2.TiledResourceBarrier"
+f1_keywords:
+- d3d11_2/ID3D11DeviceContext2.TiledResourceBarrier
 dev_langs:
- - c++
+- c++
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext2.TiledResourceBarrier
+- ID3D11DeviceContext2.TiledResourceBarrier
 targetos: Windows
 req.typenames: 
 req.redist: 

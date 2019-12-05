@@ -1,19 +1,17 @@
 ---
 UID: NF:ncrypt.NCryptEnumStorageProviders
 title: NCryptEnumStorageProviders function (ncrypt.h)
-
 description: Obtains the names of the registered key storage providers.
 old-location: security\ncryptenumstorageproviders_func.htm
 tech.root: SecCNG
 ms.assetid: 24a8ee01-b716-4f36-9df5-b6476b1df4f0
-
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptEnumStorageProviders, NCryptEnumStorageProviders function [Security], ncrypt/NCryptEnumStorageProviders, security.ncryptenumstorageproviders_func
 ms.topic: function
-f1_keywords: 
- - "ncrypt/NCryptEnumStorageProviders"
+f1_keywords:
+- ncrypt/NCryptEnumStorageProviders
 dev_langs:
- - c++
+- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ncrypt.dll
+- Ncrypt.dll
 api_name:
- - NCryptEnumStorageProviders
+- NCryptEnumStorageProviders
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellLinkW.SetPath
 title: IShellLinkW::SetPath (shobjidl_core.h)
-
 description: Sets the path and file name for the target of a Shell link object.
 old-location: shell\IShellLink_SetPath.htm
 tech.root: shell
 ms.assetid: 032610ba-d6ff-4200-8fd3-455460587dec
-
 ms.date: 12/05/2018
 ms.keywords: IShellLink interface [Windows Shell],SetPath method, IShellLink::SetPath, IShellLinkA interface [Windows Shell],SetPath method, IShellLinkA::SetPath, IShellLinkW interface [Windows Shell],SetPath method, IShellLinkW.SetPath, IShellLinkW::SetPath, SetPath, SetPath method [Windows Shell], SetPath method [Windows Shell],IShellLink interface, SetPath method [Windows Shell],IShellLinkA interface, SetPath method [Windows Shell],IShellLinkW interface, _win32_IShellLink_SetPath, shell.IShellLink_SetPath, shobjidl_core/IShellLink::SetPath, shobjidl_core/IShellLinkA::SetPath, shobjidl_core/IShellLinkW::SetPath
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellLink.SetPath"
+f1_keywords:
+- shobjidl_core/IShellLink.SetPath
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellLink.SetPath
- - IShellLinkA.SetPath
- - IShellLinkW.SetPath
+- IShellLink.SetPath
+- IShellLinkA.SetPath
+- IShellLinkW.SetPath
 targetos: Windows
 req.typenames: 
 req.redist: 

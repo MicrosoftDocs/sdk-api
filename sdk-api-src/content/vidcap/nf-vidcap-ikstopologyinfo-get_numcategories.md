@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.IKsTopologyInfo.get_NumCategories
 title: IKsTopologyInfo::get_NumCategories (vidcap.h)
-
 description: The get_NumCategories method returns the number of categories for this filter.
 old-location: dshow\ikstopologyinfo_get_numcategories.htm
 tech.root: DirectShow
 ms.assetid: 86bbe461-37c1-4dbc-bebd-fa8784d49083
-
 ms.date: 12/05/2018
 ms.keywords: IKsTopologyInfo interface [DirectShow],get_NumCategories method, IKsTopologyInfo.get_NumCategories, IKsTopologyInfo::get_NumCategories, IKsTopologyInfoget_NumCategories, dshow.ikstopologyinfo_get_numcategories, get_NumCategories, get_NumCategories method [DirectShow], get_NumCategories method [DirectShow],IKsTopologyInfo interface, vidcap/IKsTopologyInfo::get_NumCategories
 ms.topic: method
-f1_keywords: 
- - "vidcap/IKsTopologyInfo.get_NumCategories"
+f1_keywords:
+- vidcap/IKsTopologyInfo.get_NumCategories
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vidcap.h
+- Vidcap.h
 api_name:
- - IKsTopologyInfo.get_NumCategories
+- IKsTopologyInfo.get_NumCategories
 targetos: Windows
 req.typenames: 
 req.redist: 

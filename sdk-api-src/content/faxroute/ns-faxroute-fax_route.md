@@ -1,19 +1,17 @@
 ---
 UID: NS:faxroute._FAX_ROUTE
 title: FAX_ROUTE (faxroute.h)
-
 description: The FAX_ROUTE structure contains information about a received fax document. The fax service passes the structure to a fax routing method in a call to the FaxRouteMethod function.
 old-location: fax\_mfax_fax_route_str.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_3gj6.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PFAX_ROUTE, FAX_ROUTE, FAX_ROUTE structure [Fax Service], PFAX_ROUTE, PFAX_ROUTE structure pointer [Fax Service], _mfax_fax_route_str, fax._mfax_fax_route_str, faxroute/FAX_ROUTE, faxroute/PFAX_ROUTE"
+ms.keywords: '*PFAX_ROUTE, FAX_ROUTE, FAX_ROUTE structure [Fax Service], PFAX_ROUTE, PFAX_ROUTE structure pointer [Fax Service], _mfax_fax_route_str, fax._mfax_fax_route_str, faxroute/FAX_ROUTE, faxroute/PFAX_ROUTE'
 ms.topic: struct
-f1_keywords: 
- - "faxroute/FAX_ROUTE"
+f1_keywords:
+- faxroute/FAX_ROUTE
 dev_langs:
- - c++
+- c++
 req.header: faxroute.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FaxRoute.h
+- FaxRoute.h
 api_name:
- - FAX_ROUTE
+- FAX_ROUTE
 targetos: Windows
 req.typenames: FAX_ROUTE, *PFAX_ROUTE
 req.redist: 

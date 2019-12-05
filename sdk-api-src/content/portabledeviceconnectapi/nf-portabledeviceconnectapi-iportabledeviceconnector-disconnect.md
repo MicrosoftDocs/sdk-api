@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceconnectapi.IPortableDeviceConnector.Disconnect
 title: IPortableDeviceConnector::Disconnect (portabledeviceconnectapi.h)
-
 description: Sends an asynchronous disconnect request to the MTP/Bluetooth device.
 old-location: wpdsdk\iportabledeviceconnector_disconnect.htm
 tech.root: wpd_sdk
 ms.assetid: 0cc104e6-5e3a-4fce-ba3b-68f3fb94196b
-
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [Windows Portable Devices SDK], Disconnect method [Windows Portable Devices SDK],IPortableDeviceConnector interface, IPortableDeviceConnector interface [Windows Portable Devices SDK],Disconnect method, IPortableDeviceConnector.Disconnect, IPortableDeviceConnector::Disconnect, devpkey/IPortableDeviceConnector::Disconnect, portabledeviceconnectapi/IPortableDeviceConnector::Disconnect, wpdsdk.iportabledeviceconnector_disconnect
 ms.topic: method
-f1_keywords: 
- - "portabledeviceconnectapi/IPortableDeviceConnector.Disconnect"
+f1_keywords:
+- portabledeviceconnectapi/IPortableDeviceConnector.Disconnect
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceconnectapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGuids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGuids.lib
- - PortableDeviceGuids.dll
+- PortableDeviceGuids.lib
+- PortableDeviceGuids.dll
 api_name:
- - IPortableDeviceConnector.Disconnect
+- IPortableDeviceConnector.Disconnect
 targetos: Windows
 req.typenames: 
 req.redist: 

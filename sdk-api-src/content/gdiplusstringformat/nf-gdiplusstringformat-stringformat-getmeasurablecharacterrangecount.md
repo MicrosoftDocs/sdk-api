@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.GetMeasurableCharacterRangeCount
 title: StringFormat::GetMeasurableCharacterRangeCount (gdiplusstringformat.h)
-
 description: The StringFormat::GetMeasurableCharacterRangeCount method gets the number of measurable character ranges that are currently set. The character ranges that are set can be measured in a string by using the MeasureCharacterRanges method.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetMeasurableCharacterRangeCount_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\getmeasurablecharacterrangecount.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetMeasurableCharacterRangeCount, GetMeasurableCharacterRangeCount method [GDI+], GetMeasurableCharacterRangeCount method [GDI+],StringFormat class, StringFormat class [GDI+],GetMeasurableCharacterRangeCount method, StringFormat.GetMeasurableCharacterRangeCount, StringFormat::GetMeasurableCharacterRangeCount, _gdiplus_CLASS_StringFormat_GetMeasurableCharacterRangeCount_, gdiplus._gdiplus_CLASS_StringFormat_GetMeasurableCharacterRangeCount_
 ms.topic: method
-f1_keywords: 
- - "gdiplusstringformat/StringFormat.GetMeasurableCharacterRangeCount"
+f1_keywords:
+- gdiplusstringformat/StringFormat.GetMeasurableCharacterRangeCount
 dev_langs:
- - c++
+- c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - StringFormat.GetMeasurableCharacterRangeCount
+- StringFormat.GetMeasurableCharacterRangeCount
 targetos: Windows
 req.typenames: 
 req.redist: 

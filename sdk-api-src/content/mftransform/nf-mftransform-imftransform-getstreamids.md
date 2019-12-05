@@ -1,19 +1,17 @@
 ---
 UID: NF:mftransform.IMFTransform.GetStreamIDs
 title: IMFTransform::GetStreamIDs (mftransform.h)
-
 description: Gets the stream identifiers for the input and output streams on this Media Foundation transform (MFT).
 old-location: mf\imftransform_getstreamids.htm
 tech.root: medfound
 ms.assetid: 0715c78e-de92-439d-a4f3-078e19f78a8e
-
 ms.date: 12/05/2018
 ms.keywords: 0715c78e-de92-439d-a4f3-078e19f78a8e, GetStreamIDs, GetStreamIDs method [Media Foundation], GetStreamIDs method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetStreamIDs method, IMFTransform.GetStreamIDs, IMFTransform::GetStreamIDs, mf.imftransform_getstreamids, mftransform/IMFTransform::GetStreamIDs
 ms.topic: method
-f1_keywords: 
- - "mftransform/IMFTransform.GetStreamIDs"
+f1_keywords:
+- mftransform/IMFTransform.GetStreamIDs
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTransform.GetStreamIDs
+- IMFTransform.GetStreamIDs
 targetos: Windows
 req.typenames: 
 req.redist: 

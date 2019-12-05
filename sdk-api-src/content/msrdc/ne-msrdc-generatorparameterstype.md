@@ -1,19 +1,17 @@
 ---
 UID: NE:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0002
 title: GeneratorParametersType (msrdc.h)
-
 description: Defines the set of supported generator parameters.
 old-location: rdc\generatorparameterstype.htm
 tech.root: rdc
 ms.assetid: 55abafd5-4c55-498c-a567-a64d9bb76856
-
 ms.date: 12/05/2018
 ms.keywords: GeneratorParametersType, GeneratorParametersType enumeration [Remote Differential Compression], RDCGENTYPE_FilterMax, RDCGENTYPE_Unused, fs.generatorparameterstype, msrdc/GeneratorParametersType, msrdc/RDCGENTYPE_FilterMax, msrdc/RDCGENTYPE_Unused, rdc.generatorparameterstype
 ms.topic: enum
-f1_keywords: 
- - "msrdc/GeneratorParametersType"
+f1_keywords:
+- msrdc/GeneratorParametersType
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - MsRdc.h
+- MsRdc.h
 api_name:
- - GeneratorParametersType
+- GeneratorParametersType
 targetos: Windows
 req.typenames: GeneratorParametersType
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IAMBufferNegotiation
 title: IAMBufferNegotiation (strmif.h)
-
 description: The IAMBufferNegotiation interface requests the number of buffers for a filter to create and size of each buffer.
 old-location: dshow\iambuffernegotiation.htm
 tech.root: DirectShow
 ms.assetid: 68e98afd-3275-49bb-b165-48ed40026e76
-
 ms.date: 12/05/2018
 ms.keywords: IAMBufferNegotiation, IAMBufferNegotiation interface [DirectShow], IAMBufferNegotiation interface [DirectShow],described, IAMBufferNegotiationInterface, dshow.iambuffernegotiation, strmif/IAMBufferNegotiation
 ms.topic: interface
-f1_keywords: 
- - "strmif/IAMBufferNegotiation"
+f1_keywords:
+- strmif/IAMBufferNegotiation
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMBufferNegotiation
+- IAMBufferNegotiation
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetStrokeEndLineCap
 title: IXpsOMPath::SetStrokeEndLineCap (xpsobjectmodel.h)
-
 description: Sets the style of the stroke line's end cap.
 old-location: xps\ixpsompath_setstrokeendlinecap.htm
 tech.root: printdocs
 ms.assetid: f223503c-4934-4b3d-b489-c8f6488b05d0
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeEndLineCap method, IXpsOMPath.SetStrokeEndLineCap, IXpsOMPath::SetStrokeEndLineCap, SetStrokeEndLineCap, SetStrokeEndLineCap method [XPS Documents and Packaging], SetStrokeEndLineCap method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setstrokeendlinecap, xpsobjectmodel/IXpsOMPath::SetStrokeEndLineCap
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPath.SetStrokeEndLineCap"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPath.SetStrokeEndLineCap
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPath.SetStrokeEndLineCap
+- IXpsOMPath.SetStrokeEndLineCap
 targetos: Windows
 req.typenames: 
 req.redist: 

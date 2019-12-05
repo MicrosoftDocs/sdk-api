@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.GetVideoDecoderConfigCount
 title: ID3D11VideoDevice::GetVideoDecoderConfigCount (d3d11.h)
-
 description: Gets the number of decoder configurations that the driver supports for a specified video description.
 old-location: mf\id3d11videodevice_getvideodecoderconfigcount.htm
 tech.root: medfound
 ms.assetid: C6650546-2F6D-4B91-888D-3A5A1AE86DCB
-
 ms.date: 12/05/2018
 ms.keywords: GetVideoDecoderConfigCount, GetVideoDecoderConfigCount method [Media Foundation], GetVideoDecoderConfigCount method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],GetVideoDecoderConfigCount method, ID3D11VideoDevice.GetVideoDecoderConfigCount, ID3D11VideoDevice::GetVideoDecoderConfigCount, d3d11/ID3D11VideoDevice::GetVideoDecoderConfigCount, mf.id3d11videodevice_getvideodecoderconfigcount
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoDevice.GetVideoDecoderConfigCount"
+f1_keywords:
+- d3d11/ID3D11VideoDevice.GetVideoDecoderConfigCount
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoDevice.GetVideoDecoderConfigCount
+- ID3D11VideoDevice.GetVideoDecoderConfigCount
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DVertexDeclaration9.GetDeclaration
 title: IDirect3DVertexDeclaration9::GetDeclaration (d3d9.h)
-
 description: Gets the vertex shader declaration.
 old-location: direct3d9\idirect3dvertexdeclaration9__getdeclaration.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvertexdeclaration9__getdeclaration.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetDeclaration, GetDeclaration method [Direct3D 9], GetDeclaration method [Direct3D 9],IDirect3DVertexDeclaration9 interface, IDirect3DVertexDeclaration9 interface [Direct3D 9],GetDeclaration method, IDirect3DVertexDeclaration9.GetDeclaration, IDirect3DVertexDeclaration9::GetDeclaration, bd1cb4cd-85cf-525d-1ac3-ebd3eb527b1a, d3d9helper/IDirect3DVertexDeclaration9::GetDeclaration, direct3d9.idirect3dvertexdeclaration9__getdeclaration
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DVertexDeclaration9.GetDeclaration"
+f1_keywords:
+- d3d9/IDirect3DVertexDeclaration9.GetDeclaration
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DVertexDeclaration9.GetDeclaration
+- IDirect3DVertexDeclaration9.GetDeclaration
 targetos: Windows
 req.typenames: 
 req.redist: 

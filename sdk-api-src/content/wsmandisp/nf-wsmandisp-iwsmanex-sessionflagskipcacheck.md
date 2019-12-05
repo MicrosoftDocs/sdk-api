@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagSkipCACheck
 title: IWSManEx::SessionFlagSkipCACheck (wsmandisp.h)
-
 description: Returns the value of the WSManFlagSkipCACheck authentication flag for use in the flags parameter of the IWSMan::CreateSession method.
 old-location: winrm\iwsmanex_sessionflagskipcacheck.htm
 tech.root: winrm
 ms.assetid: 683054fd-7ee3-4c90-a5cd-234e7d60349d
-
 ms.date: 12/05/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagSkipCACheck method, IWSManEx.SessionFlagSkipCACheck, IWSManEx::SessionFlagSkipCACheck, SessionFlagSkipCACheck, SessionFlagSkipCACheck method [Windows Remote Management], SessionFlagSkipCACheck method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagskipcacheck, wsmandisp/IWSManEx::SessionFlagSkipCACheck
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManEx.SessionFlagSkipCACheck"
+f1_keywords:
+- wsmandisp/IWSManEx.SessionFlagSkipCACheck
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManEx.SessionFlagSkipCACheck
+- IWSManEx.SessionFlagSkipCACheck
 targetos: Windows
 req.typenames: 
 req.redist: 

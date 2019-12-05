@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1Ink.SetStartPoint(const D2D1_INK_POINT)
 title: ID2D1Ink::SetStartPoint(const D2D1_INK_POINT) (d2d1_3.h)
-
 description: Sets the starting point for this ink object. This determines where this ink object will start rendering.
 old-location: direct2d\id2d1ink_setstartpoint.htm
 tech.root: Direct2D
 ms.assetid: AA9EDF9A-A6E4-4E79-8300-558151067A32
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1Ink interface [Direct2D],SetStartPoint method, ID2D1Ink.SetStartPoint, ID2D1Ink.SetStartPoint(const D2D1_INK_POINT), ID2D1Ink::SetStartPoint, ID2D1Ink::SetStartPoint(const D2D1_INK_POINT), SetStartPoint, SetStartPoint method [Direct2D], SetStartPoint method [Direct2D],ID2D1Ink interface, d2d1_3/ID2D1Ink::SetStartPoint, direct2d.id2d1ink_setstartpoint
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1Ink.SetStartPoint"
+f1_keywords:
+- d2d1_3/ID2D1Ink.SetStartPoint
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1_3.lib
 req.dll: D2d1_3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1_3.dll
+- d2d1_3.dll
 api_name:
- - ID2D1Ink.SetStartPoint
+- ID2D1Ink.SetStartPoint
 targetos: Windows
 req.typenames: 
 req.redist: 

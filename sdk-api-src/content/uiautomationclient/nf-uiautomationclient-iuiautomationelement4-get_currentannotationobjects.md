@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement4.get_CurrentAnnotationObjects
 title: IUIAutomationElement4::get_CurrentAnnotationObjects (uiautomationclient.h)
-
 description: Returns the current list of annotation objects associated with this element, such as comment, header, footer, and so on.
 old-location: winauto\uiauto_IUIAutomationElement4_CurrentAnnotationObjects.htm
 tech.root: WinAuto
 ms.assetid: 504EB3B3-0241-4164-B775-F2D727D6B5B1
-
 ms.date: 12/05/2018
 ms.keywords: CurrentAnnotationObjects property [Windows Accessibility], CurrentAnnotationObjects property [Windows Accessibility],IUIAutomationElement4 interface, IUIAutomationElement4 interface [Windows Accessibility],CurrentAnnotationObjects property, IUIAutomationElement4.CurrentAnnotationObjects, IUIAutomationElement4.get_CurrentAnnotationObjects, IUIAutomationElement4::CurrentAnnotationObjects, IUIAutomationElement4::get_CurrentAnnotationObjects, get_CurrentAnnotationObjects, uiautomationclient/IUIAutomationElement4::CurrentAnnotationObjects, uiautomationclient/IUIAutomationElement4::get_CurrentAnnotationObjects, winauto.uiauto_IUIAutomationElement4_CurrentAnnotationObjects
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement4.CurrentAnnotationObjects"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement4.CurrentAnnotationObjects
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationElement4.CurrentAnnotationObjects
- - IUIAutomationElement4.get_CurrentAnnotationObjects
+- IUIAutomationElement4.CurrentAnnotationObjects
+- IUIAutomationElement4.get_CurrentAnnotationObjects
 targetos: Windows
 req.typenames: 
 req.redist: 

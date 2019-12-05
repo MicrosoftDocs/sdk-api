@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarDateFromUI1
 title: VarDateFromUI1 function (oleauto.h)
-
 description: Converts an unsigned char value to a date value.
 old-location: automat\vardatefromui1.htm
 tech.root: automat
 ms.assetid: 9ab0cee6-7eea-4594-bdf1-77d21307a30c
-
 ms.date: 12/05/2018
 ms.keywords: VarDateFromUI1, VarDateFromUI1 function [Automation], _oa96_VarDateFromUI1, automat.vardatefromui1, oleauto/VarDateFromUI1
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarDateFromUI1"
+f1_keywords:
+- oleauto/VarDateFromUI1
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarDateFromUI1
+- VarDateFromUI1
 targetos: Windows
 req.typenames: 
 req.redist: 

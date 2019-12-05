@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemLocator.ConnectServer
 title: IWbemLocator::ConnectServer (wbemcli.h)
-
 description: The IWbemLocator::ConnectServer method creates a connection through DCOM to a WMI namespace on the computer specified in the strNetworkResource parameter.
 old-location: wmi\iwbemlocator_connectserver.htm
 tech.root: WmiSdk
 ms.assetid: 92222e08-8622-46c3-9465-cd12260a2ca0
-
 ms.date: 12/05/2018
 ms.keywords: ConnectServer, ConnectServer method [Windows Management Instrumentation], ConnectServer method [Windows Management Instrumentation],IWbemLocator interface, ConnectServer method [Windows Management Instrumentation],WbemAdministrativeLocator object, ConnectServer method [Windows Management Instrumentation],WbemAuthenticatedLocator object, ConnectServer method [Windows Management Instrumentation],WbemLocator object, ConnectServer method [Windows Management Instrumentation],WbemUnauthenticatedLocator object, IWbemLocator interface [Windows Management Instrumentation],ConnectServer method, IWbemLocator.ConnectServer, IWbemLocator::ConnectServer, WBEM_FLAG_CONNECT_REPOSITORY_ONLY, WBEM_FLAG_CONNECT_USE_MAX_WAIT, WbemAdministrativeLocator object [Windows Management Instrumentation],ConnectServer method, WbemAuthenticatedLocator object [Windows Management Instrumentation],ConnectServer method, WbemLocator object [Windows Management Instrumentation],ConnectServer method, WbemUnauthenticatedLocator object [Windows Management Instrumentation],ConnectServer method, _hmm_iwbemlocator_connectserver, wbemcli/IWbemLocator::ConnectServer, wmi.iwbemlocator_connectserver
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemLocator.ConnectServer"
+f1_keywords:
+- wbemcli/IWbemLocator.ConnectServer
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Wbemuuid.lib
 req.dll: Wbemcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wbemcore.dll
+- Wbemcore.dll
 api_name:
- - IWbemLocator.ConnectServer
- - WbemAuthenticatedLocator.ConnectServer
- - WbemAdministrativeLocator.ConnectServer
- - WbemUnauthenticatedLocator.ConnectServer
- - WbemLocator.ConnectServer
+- IWbemLocator.ConnectServer
+- WbemAuthenticatedLocator.ConnectServer
+- WbemAdministrativeLocator.ConnectServer
+- WbemUnauthenticatedLocator.ConnectServer
+- WbemLocator.ConnectServer
 targetos: Windows
 req.typenames: 
 req.redist: 

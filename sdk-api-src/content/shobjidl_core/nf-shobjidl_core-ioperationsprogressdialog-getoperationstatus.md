@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IOperationsProgressDialog.GetOperationStatus
 title: IOperationsProgressDialog::GetOperationStatus (shobjidl_core.h)
-
 description: Gets operation status for progress dialog.
 old-location: shell\IOperationsProgressDialog_GetOperationStatus.htm
 tech.root: shell
 ms.assetid: bd796369-9789-4c69-b699-eb0ec0e571b2
-
 ms.date: 12/05/2018
 ms.keywords: GetOperationStatus, GetOperationStatus method [Windows Shell], GetOperationStatus method [Windows Shell],IOperationsProgressDialog interface, IOperationsProgressDialog interface [Windows Shell],GetOperationStatus method, IOperationsProgressDialog.GetOperationStatus, IOperationsProgressDialog::GetOperationStatus, _shell_IOperationsProgressDialog_GetOperationStatus, shell.IOperationsProgressDialog_GetOperationStatus, shobjidl_core/IOperationsProgressDialog::GetOperationStatus
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IOperationsProgressDialog.GetOperationStatus"
+f1_keywords:
+- shobjidl_core/IOperationsProgressDialog.GetOperationStatus
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IOperationsProgressDialog.GetOperationStatus
+- IOperationsProgressDialog.GetOperationStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

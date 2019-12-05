@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsDisk.GetPack
 title: IVdsDisk::GetPack (vds.h)
-
 description: Returns the disk pack to which the current disk is a member.
 old-location: base\ivdsdisk_getpack.htm
 tech.root: VDS
 ms.assetid: 52c7edb5-a92d-423d-8115-e8c3cccd95b5
-
 ms.date: 12/05/2018
 ms.keywords: GetPack, GetPack method [VDS], GetPack method [VDS],IVdsDisk interface, IVdsDisk interface [VDS],GetPack method, IVdsDisk.GetPack, IVdsDisk::GetPack, base.ivdsdisk_getpack, vds/IVdsDisk::GetPack
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsDisk.GetPack"
+f1_keywords:
+- vds/IVdsDisk.GetPack
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsDisk.GetPack
+- IVdsDisk.GetPack
 targetos: Windows
 req.typenames: 
 req.redist: 

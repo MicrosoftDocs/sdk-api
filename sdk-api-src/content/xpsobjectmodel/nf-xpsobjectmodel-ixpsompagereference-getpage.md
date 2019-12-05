@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.GetPage
 title: IXpsOMPageReference::GetPage (xpsobjectmodel.h)
-
 description: Gets a pointer to the IXpsOMPage interface that contains the page.
 old-location: xps\ixpsompagereference_getpage.htm
 tech.root: printdocs
 ms.assetid: 0004217f-f379-4175-bbce-eea93d96f37f
-
 ms.date: 12/05/2018
 ms.keywords: GetPage, GetPage method [XPS Documents and Packaging], GetPage method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],GetPage method, IXpsOMPageReference.GetPage, IXpsOMPageReference::GetPage, xps.ixpsompagereference_getpage, xpsobjectmodel/IXpsOMPageReference::GetPage
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPageReference.GetPage"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPageReference.GetPage
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPageReference.GetPage
+- IXpsOMPageReference.GetPage
 targetos: Windows
 req.typenames: 
 req.redist: 

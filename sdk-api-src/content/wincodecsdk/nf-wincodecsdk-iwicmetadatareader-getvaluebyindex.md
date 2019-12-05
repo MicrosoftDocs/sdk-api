@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataReader.GetValueByIndex
 title: IWICMetadataReader::GetValueByIndex (wincodecsdk.h)
-
 description: Gets the metadata item at the given index.
 old-location: wic\_wic_codec_iwicmetadatareader_getvaluebyindex.htm
 tech.root: wic
 ms.assetid: dd22e0e6-d607-48ae-a51c-b49003004f1f
-
 ms.date: 12/05/2018
 ms.keywords: GetValueByIndex, GetValueByIndex method [Windows Imaging Component], GetValueByIndex method [Windows Imaging Component],IWICMetadataReader interface, IWICMetadataReader interface [Windows Imaging Component],GetValueByIndex method, IWICMetadataReader.GetValueByIndex, IWICMetadataReader::GetValueByIndex, _wic_codec_iwicmetadatareader_getvaluebyindex, wic._wic_codec_iwicmetadatareader_getvaluebyindex, wincodecsdk/IWICMetadataReader::GetValueByIndex
 ms.topic: method
-f1_keywords: 
- - "wincodecsdk/IWICMetadataReader.GetValueByIndex"
+f1_keywords:
+- wincodecsdk/IWICMetadataReader.GetValueByIndex
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICMetadataReader.GetValueByIndex
+- IWICMetadataReader.GetValueByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

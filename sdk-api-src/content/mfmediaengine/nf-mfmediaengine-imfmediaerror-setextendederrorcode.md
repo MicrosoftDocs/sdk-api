@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaError.SetExtendedErrorCode
 title: IMFMediaError::SetExtendedErrorCode (mfmediaengine.h)
-
 description: Sets the extended error code.
 old-location: mf\imfmediaerror_setextendederrorcode.htm
 tech.root: medfound
 ms.assetid: F3B52C1A-E235-492D-93C2-393FF2321B7E
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaError interface [Media Foundation],SetExtendedErrorCode method, IMFMediaError.SetExtendedErrorCode, IMFMediaError::SetExtendedErrorCode, SetExtendedErrorCode, SetExtendedErrorCode method [Media Foundation], SetExtendedErrorCode method [Media Foundation],IMFMediaError interface, mf.imfmediaerror_setextendederrorcode, mfmediaengine/IMFMediaError::SetExtendedErrorCode
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaError.SetExtendedErrorCode"
+f1_keywords:
+- mfmediaengine/IMFMediaError.SetExtendedErrorCode
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaError.SetExtendedErrorCode
+- IMFMediaError.SetExtendedErrorCode
 targetos: Windows
 req.typenames: 
 req.redist: 

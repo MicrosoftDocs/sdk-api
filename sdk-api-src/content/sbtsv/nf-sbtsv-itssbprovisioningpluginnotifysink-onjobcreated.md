@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbProvisioningPluginNotifySink.OnJobCreated
 title: ITsSbProvisioningPluginNotifySink::OnJobCreated (sbtsv.h)
-
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that a provisioning job is created.
 old-location: termserv\itssbprovisioningpluginnotifysink_onjobcreated.htm
 tech.root: TermServ
 ms.assetid: daab9172-d984-4b47-9f64-59216513aff7
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services],OnJobCreated method, ITsSbProvisioningPluginNotifySink.OnJobCreated, ITsSbProvisioningPluginNotifySink::OnJobCreated, OnJobCreated, OnJobCreated method [Remote Desktop Services], OnJobCreated method [Remote Desktop Services],ITsSbProvisioningPluginNotifySink interface, sbtsv/ITsSbProvisioningPluginNotifySink::OnJobCreated, termserv.itssbprovisioningpluginnotifysink_onjobcreated
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbProvisioningPluginNotifySink.OnJobCreated"
+f1_keywords:
+- sbtsv/ITsSbProvisioningPluginNotifySink.OnJobCreated
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbProvisioningPluginNotifySink.OnJobCreated
+- ITsSbProvisioningPluginNotifySink.OnJobCreated
 targetos: Windows
 req.typenames: 
 req.redist: 

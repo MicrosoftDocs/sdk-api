@@ -1,19 +1,17 @@
 ---
 UID: NF:slpublic.SLSetAuthenticationData
 title: SLSetAuthenticationData function (slpublic.h)
-
 description: Sets authentication data.
 old-location: security\slsetauthenticationdata.htm
 tech.root: SecSLApi
 ms.assetid: 68906873-6c49-4221-ad87-1e1f1463c0d4
-
 ms.date: 12/05/2018
 ms.keywords: SLSetAuthenticationData, SLSetAuthenticationData function [Security], security.slsetauthenticationdata, slpublic/SLSetAuthenticationData
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLSetAuthenticationData"
+f1_keywords:
+- slpublic/SLSetAuthenticationData
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slc.dll
+- Slc.dll
 api_name:
- - SLSetAuthenticationData
+- SLSetAuthenticationData
 targetos: Windows
 req.typenames: 
 req.redist: 

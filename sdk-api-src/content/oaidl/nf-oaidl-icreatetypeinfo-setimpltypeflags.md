@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetImplTypeFlags
 title: ICreateTypeInfo::SetImplTypeFlags (oaidl.h)
-
 description: Sets the attributes for an implemented or inherited interface of a type.
 old-location: automat\icreatetypeinfo_setimpltypeflags.htm
 tech.root: automat
 ms.assetid: 712b7d02-0181-4a21-9221-514c062af171
-
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetImplTypeFlags method, ICreateTypeInfo.SetImplTypeFlags, ICreateTypeInfo::SetImplTypeFlags, SetImplTypeFlags, SetImplTypeFlags method [Automation], SetImplTypeFlags method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetImplTypeFlags, automat.icreatetypeinfo_setimpltypeflags, oaidl/ICreateTypeInfo::SetImplTypeFlags
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateTypeInfo.SetImplTypeFlags"
+f1_keywords:
+- oaidl/ICreateTypeInfo.SetImplTypeFlags
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateTypeInfo.SetImplTypeFlags
+- ICreateTypeInfo.SetImplTypeFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.Static_Enable
 title: Static_Enable macro (windowsx.h)
-
 description: Enables or disables a static control.
 old-location: controls\Static_Enable.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\staticcontrols\staticcontrolreference\staticcontrolmacros\static_enable.htm
-
 ms.date: 12/05/2018
 ms.keywords: Static_Enable, Static_Enable macro [Windows Controls], _win32_Static_Enable, _win32_Static_Enable_cpp, controls.Static_Enable, controls._win32_Static_Enable, windowsx/Static_Enable
 ms.topic: macro
-f1_keywords: 
- - "windowsx/Static_Enable"
+f1_keywords:
+- windowsx/Static_Enable
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - Static_Enable
+- Static_Enable
 targetos: Windows
 req.typenames: 
 req.redist: 

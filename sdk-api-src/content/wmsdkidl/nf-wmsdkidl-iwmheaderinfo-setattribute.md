@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo.SetAttribute
 title: IWMHeaderInfo::SetAttribute (wmsdkidl.h)
-
 description: The SetAttribute method sets a descriptive attribute that is stored in the header section of the ASF file. This method is replaced by IWMHeaderInfo3::AddAttribute, and should not be used.
 old-location: wmformat\iwmheaderinfo_setattribute.htm
 tech.root: wmformat
 ms.assetid: 174969a2-4fe2-477b-9990-051d23bf8a29
-
 ms.date: 12/05/2018
 ms.keywords: IWMHeaderInfo interface [windows Media Format],SetAttribute method, IWMHeaderInfo.SetAttribute, IWMHeaderInfo2 interface [windows Media Format],SetAttribute method, IWMHeaderInfo2::SetAttribute, IWMHeaderInfo3 interface [windows Media Format],SetAttribute method, IWMHeaderInfo3::SetAttribute, IWMHeaderInfo::SetAttribute, IWMHeaderInfoSetAttribute, SetAttribute, SetAttribute method [windows Media Format], SetAttribute method [windows Media Format],IWMHeaderInfo interface, SetAttribute method [windows Media Format],IWMHeaderInfo2 interface, SetAttribute method [windows Media Format],IWMHeaderInfo3 interface, wmformat.iwmheaderinfo_setattribute, wmsdkidl/IWMHeaderInfo2::SetAttribute, wmsdkidl/IWMHeaderInfo3::SetAttribute, wmsdkidl/IWMHeaderInfo::SetAttribute
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMHeaderInfo.SetAttribute"
+f1_keywords:
+- wmsdkidl/IWMHeaderInfo.SetAttribute
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
- - qasf.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
+- qasf.dll
 api_name:
- - IWMHeaderInfo.SetAttribute
- - IWMHeaderInfo2.SetAttribute
- - IWMHeaderInfo3.SetAttribute
+- IWMHeaderInfo.SetAttribute
+- IWMHeaderInfo2.SetAttribute
+- IWMHeaderInfo3.SetAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 

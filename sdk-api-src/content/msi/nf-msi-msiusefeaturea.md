@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiUseFeatureA
 title: MsiUseFeatureA function (msi.h)
-
 description: The MsiUseFeature function increments the usage count for a particular feature and indicates the installation state for that feature. This function should be used to indicate an application's intent to use a feature.
 old-location: setup\msiusefeature.htm
 tech.root: Msi
 ms.assetid: 7a4dc671-d82e-4775-8198-79b80a4dd9e4
-
 ms.date: 12/05/2018
 ms.keywords: MsiUseFeature, MsiUseFeature function, MsiUseFeatureA, MsiUseFeatureW, _msi_msiusefeature, msi/MsiUseFeature, msi/MsiUseFeatureA, msi/MsiUseFeatureW, setup.msiusefeature
 ms.topic: function
-f1_keywords: 
- - "msi/MsiUseFeature"
+f1_keywords:
+- msi/MsiUseFeature
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiUseFeature
- - MsiUseFeatureA
- - MsiUseFeatureW
+- MsiUseFeature
+- MsiUseFeatureA
+- MsiUseFeatureW
 targetos: Windows
 req.typenames: 
 req.redist: 

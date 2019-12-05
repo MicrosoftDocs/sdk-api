@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IAsynchronousDataRetriever.RegisterCallback
 title: IAsynchronousDataRetriever::RegisterCallback (winsync.h)
-
 description: Registers a callback interface that will be called by the IAsynchronousDataRetriever object when an asynchronous method finishes processing.
 old-location: winsync\iasynchronousdataretriever_registercallback.htm
 tech.root: winsync
 ms.assetid: 4148db4a-a460-40ca-863a-861065f89c5c
-
 ms.date: 12/05/2018
 ms.keywords: IAsynchronousDataRetriever interface [Windows Sync],RegisterCallback method, IAsynchronousDataRetriever.RegisterCallback, IAsynchronousDataRetriever::RegisterCallback, RegisterCallback, RegisterCallback method [Windows Sync], RegisterCallback method [Windows Sync],IAsynchronousDataRetriever interface, winsync.iasynchronousdataretriever_registercallback, winsync/IAsynchronousDataRetriever::RegisterCallback
 ms.topic: method
-f1_keywords: 
- - "winsync/IAsynchronousDataRetriever.RegisterCallback"
+f1_keywords:
+- winsync/IAsynchronousDataRetriever.RegisterCallback
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IAsynchronousDataRetriever.RegisterCallback
+- IAsynchronousDataRetriever.RegisterCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

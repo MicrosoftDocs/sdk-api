@@ -1,19 +1,17 @@
 ---
 UID: NE:nldef._NL_ROUTER_DISCOVERY_BEHAVIOR
 title: NL_ROUTER_DISCOVERY_BEHAVIOR (nldef.h)
-
 description: The NL_ROUTER_DISCOVERY_BEHAVIOR enumeration type defines the router discovery behavior, as described in RFC 2461.
 old-location: netvista\nl_router_discovery_behavior.htm
 tech.root: NetVista
 ms.assetid: d3a0d872-c90a-4eb5-9011-c5913b9912c6
-
 ms.date: 12/05/2018
 ms.keywords: NL_ROUTER_DISCOVERY_BEHAVIOR, NL_ROUTER_DISCOVERY_BEHAVIOR enumeration [Network Drivers Starting with Windows Vista], RouterDiscoveryDhcp, RouterDiscoveryDisabled, RouterDiscoveryEnabled, RouterDiscoveryUnchanged, iphelper_fbaacfeb-efe8-45a1-8cf9-c600ed0214e0.xml, netvista.nl_router_discovery_behavior, nldef/NL_ROUTER_DISCOVERY_BEHAVIOR, nldef/RouterDiscoveryDhcp, nldef/RouterDiscoveryDisabled, nldef/RouterDiscoveryEnabled, nldef/RouterDiscoveryUnchanged
 ms.topic: enum
-f1_keywords: 
- - "nldef/NL_ROUTER_DISCOVERY_BEHAVIOR"
+f1_keywords:
+- nldef/NL_ROUTER_DISCOVERY_BEHAVIOR
 dev_langs:
- - c++
+- c++
 req.header: nldef.h
 req.include-header: Netioapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - nldef.h
+- nldef.h
 api_name:
- - NL_ROUTER_DISCOVERY_BEHAVIOR
+- NL_ROUTER_DISCOVERY_BEHAVIOR
 targetos: Windows
 req.typenames: NL_ROUTER_DISCOVERY_BEHAVIOR
 req.redist: 

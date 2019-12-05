@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.CreateNtmsMediaPoolW
 title: CreateNtmsMediaPoolW function (ntmsapi.h)
-
 description: The CreateNtmsMediaPool function creates a new application media pool.
 old-location: fs\createntmsmediapool.htm
 tech.root: Rsm
 ms.assetid: a55a8952-2b64-4082-9422-31484c7e777f
-
 ms.date: 12/05/2018
 ms.keywords: CreateNtmsMediaPool, CreateNtmsMediaPool function [Files], CreateNtmsMediaPoolA, CreateNtmsMediaPoolW, NTMS_CREATE_NEW, NTMS_OPEN_ALWAYS, NTMS_OPEN_EXISTING, _zaw_createntmsmediapool, base.createntmsmediapool, fs.createntmsmediapool, ntmsapi/CreateNtmsMediaPool, ntmsapi/CreateNtmsMediaPoolA, ntmsapi/CreateNtmsMediaPoolW
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/CreateNtmsMediaPool"
+f1_keywords:
+- ntmsapi/CreateNtmsMediaPool
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - CreateNtmsMediaPool
- - CreateNtmsMediaPoolA
- - CreateNtmsMediaPoolW
+- CreateNtmsMediaPool
+- CreateNtmsMediaPoolA
+- CreateNtmsMediaPoolW
 targetos: Windows
 req.typenames: 
 req.redist: 

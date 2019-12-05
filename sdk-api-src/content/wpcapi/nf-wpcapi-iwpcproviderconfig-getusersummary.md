@@ -1,19 +1,17 @@
 ---
 UID: NF:wpcapi.IWPCProviderConfig.GetUserSummary
 title: IWPCProviderConfig::GetUserSummary (wpcapi.h)
-
 description: Retrieves the information for each user by using the Parental Controls Control Panel.
 old-location: parcon\iwpcproviderconfig_getusersummary.htm
 tech.root: parcon
 ms.assetid: 89d70aef-9bca-4984-99d1-082041257393
-
 ms.date: 12/05/2018
 ms.keywords: GetUserSummary, GetUserSummary method, GetUserSummary method,IWPCProviderConfig interface, IWPCProviderConfig interface,GetUserSummary method, IWPCProviderConfig.GetUserSummary, IWPCProviderConfig::GetUserSummary, parcon.iwpcproviderconfig_getusersummary, wpcapi/IWPCProviderConfig::GetUserSummary
 ms.topic: method
-f1_keywords: 
- - "wpcapi/IWPCProviderConfig.GetUserSummary"
+f1_keywords:
+- wpcapi/IWPCProviderConfig.GetUserSummary
 dev_langs:
- - c++
+- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wpcapi.h
+- Wpcapi.h
 api_name:
- - IWPCProviderConfig.GetUserSummary
+- IWPCProviderConfig.GetUserSummary
 targetos: Windows
 req.typenames: 
 req.redist: 

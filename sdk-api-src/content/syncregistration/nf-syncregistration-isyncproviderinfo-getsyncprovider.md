@@ -1,19 +1,17 @@
 ---
 UID: NF:syncregistration.ISyncProviderInfo.GetSyncProvider
 title: ISyncProviderInfo::GetSyncProvider (syncregistration.h)
-
 description: Creates an instance of the synchronization provider.
 old-location: winsync\isyncproviderinfo_getsyncprovider.htm
 tech.root: winsync
 ms.assetid: 74b70f31-0934-4599-9515-e94b6622d440
-
 ms.date: 12/05/2018
 ms.keywords: GetSyncProvider, GetSyncProvider method [Windows Sync], GetSyncProvider method [Windows Sync],ISyncProviderInfo interface, ISyncProviderInfo interface [Windows Sync],GetSyncProvider method, ISyncProviderInfo.GetSyncProvider, ISyncProviderInfo::GetSyncProvider, syncregistration/ISyncProviderInfo::GetSyncProvider, winsync.isyncproviderinfo_getsyncprovider
 ms.topic: method
-f1_keywords: 
- - "syncregistration/ISyncProviderInfo.GetSyncProvider"
+f1_keywords:
+- syncregistration/ISyncProviderInfo.GetSyncProvider
 dev_langs:
- - c++
+- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncregistration.h
+- Syncregistration.h
 api_name:
- - ISyncProviderInfo.GetSyncProvider
+- ISyncProviderInfo.GetSyncProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

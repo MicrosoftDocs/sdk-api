@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuner.get_PreferredComponentTypes
 title: ITuner::get_PreferredComponentTypes (tuner.h)
-
 description: The get_PreferredComponentTypes method gets the collection of ComponentType objects used for default component selection.
 old-location: mstv\ituner_get_preferredcomponenttypes.htm
 tech.root: mstv
 ms.assetid: 1ed2d1b5-8ba3-4230-8cc3-f8207635a78a
-
 ms.date: 12/05/2018
 ms.keywords: ITuner interface [Microsoft TV Technologies],get_PreferredComponentTypes method, ITuner.get_PreferredComponentTypes, ITuner::get_PreferredComponentTypes, ITunerget_PreferredComponentTypes, get_PreferredComponentTypes, get_PreferredComponentTypes method [Microsoft TV Technologies], get_PreferredComponentTypes method [Microsoft TV Technologies],ITuner interface, mstv.ituner_get_preferredcomponenttypes, tuner/ITuner::get_PreferredComponentTypes
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuner.get_PreferredComponentTypes"
+f1_keywords:
+- tuner/ITuner.get_PreferredComponentTypes
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuner.get_PreferredComponentTypes
+- ITuner.get_PreferredComponentTypes
 targetos: Windows
 req.typenames: 
 req.redist: 

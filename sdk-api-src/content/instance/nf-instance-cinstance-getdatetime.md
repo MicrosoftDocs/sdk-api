@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.GetDateTime
 title: CInstance::GetDateTime (instance.h)
-
 description: The GetDateTime method returns a datetime property.
 old-location: wmi\cinstance_getdatetime.htm
 tech.root: WmiSdk
 ms.assetid: b7474d1c-4ed9-4669-a0e6-01230a3bf8fa
-
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetDateTime method, CInstance.GetDateTime, CInstance::GetDateTime, GetDateTime, GetDateTime method [Windows Management Instrumentation], GetDateTime method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getdatetime, instance/CInstance::GetDateTime, wmi.cinstance_getdatetime
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.GetDateTime"
+f1_keywords:
+- instance/CInstance.GetDateTime
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.GetDateTime
+- CInstance.GetDateTime
 targetos: Windows
 req.typenames: 
 req.redist: 

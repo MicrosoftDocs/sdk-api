@@ -1,19 +1,17 @@
 ---
 UID: NF:netsh.MatchEnumTag
 title: MatchEnumTag function (netsh.h)
-
 description: Searches a table of legal values to find a value that matches a specific token.
 old-location: netshell\matchenumtag.htm
 tech.root: netshell
 ms.assetid: def20f98-76a2-4d92-a954-152474e25f05
-
 ms.date: 12/05/2018
 ms.keywords: MatchEnumTag, MatchEnumTag function [NetShell], _netsh_matchenumtag, netsh/MatchEnumTag, netshell.matchenumtag
 ms.topic: function
-f1_keywords: 
- - "netsh/MatchEnumTag"
+f1_keywords:
+- netsh/MatchEnumTag
 dev_langs:
- - c++
+- c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netsh.lib
 req.dll: Netsh.exe
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netsh.exe
+- Netsh.exe
 api_name:
- - MatchEnumTag
+- MatchEnumTag
 targetos: Windows
 req.typenames: 
 req.redist: 

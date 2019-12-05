@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiGetLanguage
 title: MsiGetLanguage function (msiquery.h)
-
 description: The MsiGetLanguage function returns the numeric language of the installation that is currently running.
 old-location: setup\msigetlanguage.htm
 tech.root: Msi
 ms.assetid: e959dbdc-141c-41be-8752-220aa8e96064
-
 ms.date: 12/05/2018
 ms.keywords: MsiGetLanguage, MsiGetLanguage function, _msi_msigetlanguage, msiquery/MsiGetLanguage, setup.msigetlanguage
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiGetLanguage"
+f1_keywords:
+- msiquery/MsiGetLanguage
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiGetLanguage
+- MsiGetLanguage
 targetos: Windows
 req.typenames: 
 req.redist: 

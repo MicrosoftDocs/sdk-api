@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataReaderInfo.MatchesPattern
 title: IWICMetadataReaderInfo::MatchesPattern (wincodecsdk.h)
-
 description: Determines if a stream contains a metadata item pattern.
 old-location: wic\_wic_codec_iwicmetadatareaderinfo_matchespattern.htm
 tech.root: wic
 ms.assetid: 58ac58f4-25e0-4fc4-8d2a-854bb89e4af6
-
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataReaderInfo interface [Windows Imaging Component],MatchesPattern method, IWICMetadataReaderInfo.MatchesPattern, IWICMetadataReaderInfo::MatchesPattern, MatchesPattern, MatchesPattern method [Windows Imaging Component], MatchesPattern method [Windows Imaging Component],IWICMetadataReaderInfo interface, _wic_codec_iwicmetadatareaderinfo_matchespattern, wic._wic_codec_iwicmetadatareaderinfo_matchespattern, wincodecsdk/IWICMetadataReaderInfo::MatchesPattern
 ms.topic: method
-f1_keywords: 
- - "wincodecsdk/IWICMetadataReaderInfo.MatchesPattern"
+f1_keywords:
+- wincodecsdk/IWICMetadataReaderInfo.MatchesPattern
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICMetadataReaderInfo.MatchesPattern
+- IWICMetadataReaderInfo.MatchesPattern
 targetos: Windows
 req.typenames: 
 req.redist: 

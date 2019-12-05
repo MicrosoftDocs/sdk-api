@@ -1,19 +1,17 @@
 ---
 UID: NF:robuffer.RoGetBufferMarshaler
 title: RoGetBufferMarshaler function (robuffer.h)
-
 description: Provides a standard IBuffer marshaler to implement the semantics associated with the IBuffer interface when it is marshaled.
 old-location: winrt\rogetbuffermarshaler.htm
 tech.root: WinRT
 ms.assetid: 7F40FDC9-C6CF-44C3-AC30-EA56AB72E635
-
 ms.date: 12/05/2018
 ms.keywords: RoGetBufferMarshaler, RoGetBufferMarshaler function [Windows Runtime], robuffer/RoGetBufferMarshaler, winrt.rogetbuffermarshaler
 ms.topic: function
-f1_keywords: 
- - "robuffer/RoGetBufferMarshaler"
+f1_keywords:
+- robuffer/RoGetBufferMarshaler
 dev_langs:
- - c++
+- c++
 req.header: robuffer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Wintypes.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wintypes.dll
- - API-MS-Win-Core-Winrt-robuffer-l1-1-0.dll
+- wintypes.dll
+- API-MS-Win-Core-Winrt-robuffer-l1-1-0.dll
 api_name:
- - RoGetBufferMarshaler
+- RoGetBufferMarshaler
 targetos: Windows
 req.typenames: 
 req.redist: 

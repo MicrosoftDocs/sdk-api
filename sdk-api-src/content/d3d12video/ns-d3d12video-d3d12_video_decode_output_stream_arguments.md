@@ -1,40 +1,38 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS
 title: D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS
-
 description: Specifies the parameters for the output stream for a video decode operation.
 tech.root: mf
 ms.assetid: c614b7f3-dd5e-4415-a90b-2419bff17b61
-
-ms.date: 05/28/2019 
+ms.date: 05/28/2019
 ms.topic: struct
 f1_keywords:
- - D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS
+- D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS
 dev_langs:
- - c++
-ms.keywords: D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS, D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS, 
+- c++
+ms.keywords: D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS, D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS,
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
 req.dll: d3d12.dll
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12video.h
-api_name: 
- - D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS
+topic_type:
+- apiref
+api_type:
+- HeaderDef
+api_location:
+- d3d12video.h
+api_name:
+- D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS
 targetos: Windows
 ---
 

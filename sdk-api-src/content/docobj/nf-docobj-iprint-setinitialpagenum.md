@@ -1,19 +1,17 @@
 ---
 UID: NF:docobj.IPrint.SetInitialPageNum
 title: IPrint::SetInitialPageNum (docobj.h)
-
 description: Sets the page number of the first page of a document.
 old-location: com\iprint_setinitialpagenum.htm
 tech.root: com
 ms.assetid: 352a4dc0-c79e-46e3-8212-55fd7d2916bc
-
 ms.date: 12/05/2018
 ms.keywords: IPrint interface [COM],SetInitialPageNum method, IPrint.SetInitialPageNum, IPrint::SetInitialPageNum, SetInitialPageNum, SetInitialPageNum method [COM], SetInitialPageNum method [COM],IPrint interface, _ctrl_iprint_setinitialpagenum, com.iprint_setinitialpagenum, docobj/IPrint::SetInitialPageNum
 ms.topic: method
-f1_keywords: 
- - "docobj/IPrint.SetInitialPageNum"
+f1_keywords:
+- docobj/IPrint.SetInitialPageNum
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - IPrint.SetInitialPageNum
+- IPrint.SetInitialPageNum
 targetos: Windows
 req.typenames: 
 req.redist: 

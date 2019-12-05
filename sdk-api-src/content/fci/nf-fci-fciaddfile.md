@@ -1,19 +1,17 @@
 ---
 UID: NF:fci.FCIAddFile
 title: FCIAddFile function (fci.h)
-
 description: The FCIAddFile adds a file to the cabinet under construction.
 old-location: winprog\fciaddfile.htm
 tech.root: DevNotes
 ms.assetid: f99e8718-853b-4d35-98ae-61a8333dbaba
-
 ms.date: 12/05/2018
 ms.keywords: FCIAddFile, FCIAddFile function [Windows API], fci/FCIAddFile, tcompTYPE_MSZIP, tcompTYPE_NONE, winprog.fciaddfile
 ms.topic: function
-f1_keywords: 
- - "fci/FCIAddFile"
+f1_keywords:
+- fci/FCIAddFile
 dev_langs:
- - c++
+- c++
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Cabinet.lib
 req.dll: Cabinet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cabinet.dll
+- Cabinet.dll
 api_name:
- - FCIAddFile
+- FCIAddFile
 targetos: Windows
 req.typenames: 
 req.redist: 

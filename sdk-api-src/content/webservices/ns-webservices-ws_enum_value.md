@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_ENUM_VALUE
 title: WS_ENUM_VALUE (webservices.h)
-
 description: Provides serialization information about a single value that is part of an enumeration (WS_ENUM_DESCRIPTION).
 old-location: wsw\ws_enum_value.htm
 tech.root: wsw
 ms.assetid: 4d1ec30a-d8fe-41b2-b689-4011dbb55d34
-
 ms.date: 12/05/2018
 ms.keywords: WS_ENUM_VALUE, WS_ENUM_VALUE structure [Web Services for Windows], webservices/WS_ENUM_VALUE, wsw.ws_enum_value
 ms.topic: struct
 f1_keywords:
 - webservices/WS_ENUM_VALUE
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

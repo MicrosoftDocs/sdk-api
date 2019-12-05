@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidVideoRendererEvent
 title: IMSVidVideoRendererEvent (segment.h)
-
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsvidvideorendererevent.htm
 tech.root: mstv
 ms.assetid: ff451fa3-a755-4969-bccc-3a014865e7a9
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRendererEvent, IMSVidVideoRendererEvent interface [Microsoft TV Technologies], IMSVidVideoRendererEvent interface [Microsoft TV Technologies],described, IMSVidVideoRendererEventInterface, mstv.imsvidvideorendererevent, segment/IMSVidVideoRendererEvent
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidVideoRendererEvent"
+f1_keywords:
+- segment/IMSVidVideoRendererEvent
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidVideoRendererEvent
+- IMSVidVideoRendererEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

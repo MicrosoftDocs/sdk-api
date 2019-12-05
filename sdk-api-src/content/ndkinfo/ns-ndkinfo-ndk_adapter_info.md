@@ -1,19 +1,17 @@
 ---
 UID: NS:ndkinfo._NDK_ADAPTER_INFO
 title: NDK_ADAPTER_INFO (ndkinfo.h)
-
 description: The NDK_ADAPTER_INFO structure specifies information about limits and capabilities of an NDK adapter.
 old-location: netvista\ndk_adapter_info.htm
 tech.root: NetVista
 ms.assetid: 3F8EAA7F-20CE-4948-9F10-E23025B174E7
-
 ms.date: 12/05/2018
 ms.keywords: NDK_ADAPTER_FLAG_CQ_INTERRUPT_MODERATION_SUPPORTED, NDK_ADAPTER_FLAG_CQ_RESIZE_SUPPORTED, NDK_ADAPTER_FLAG_IN_ORDER_DMA_SUPPORTED, NDK_ADAPTER_FLAG_LOOPBACK_CONNECTIONS_SUPPORTED, NDK_ADAPTER_FLAG_MULTI_ENGINE_SUPPORTED, NDK_ADAPTER_FLAG_RDMA_READ_LOCAL_INVALIDATE_SUPPORTED, NDK_ADAPTER_FLAG_RDMA_READ_SINK_NOT_REQUIRED, NDK_ADAPTER_INFO, NDK_ADAPTER_INFO structure [Network Drivers Starting with Windows Vista], ndkinfo/NDK_ADAPTER_INFO, netvista.ndk_adapter_info
 ms.topic: struct
-f1_keywords: 
- - "ndkinfo/NDK_ADAPTER_INFO"
+f1_keywords:
+- ndkinfo/NDK_ADAPTER_INFO
 dev_langs:
- - c++
+- c++
 req.header: ndkinfo.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ndkinfo.h
+- ndkinfo.h
 api_name:
- - NDK_ADAPTER_INFO
+- NDK_ADAPTER_INFO
 targetos: Windows
 req.typenames: NDK_ADAPTER_INFO
 req.redist: 

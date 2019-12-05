@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetSegmentCount
 title: IXpsOMGeometryFigure::GetSegmentCount (xpsobjectmodel.h)
-
 description: Gets the number of segments in the figure.
 old-location: xps\ixpsomgeometryfigure_getsegmentcount.htm
 tech.root: printdocs
 ms.assetid: 17b302c0-31e3-460b-9771-3f293c94447a
-
 ms.date: 12/05/2018
 ms.keywords: GetSegmentCount, GetSegmentCount method [XPS Documents and Packaging], GetSegmentCount method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetSegmentCount method, IXpsOMGeometryFigure.GetSegmentCount, IXpsOMGeometryFigure::GetSegmentCount, xps.ixpsomgeometryfigure_getsegmentcount, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentCount
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGeometryFigure.GetSegmentCount"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGeometryFigure.GetSegmentCount
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGeometryFigure.GetSegmentCount
+- IXpsOMGeometryFigure.GetSegmentCount
 targetos: Windows
 req.typenames: 
 req.redist: 

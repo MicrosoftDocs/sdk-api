@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineNegotiateExtVersion
 title: lineNegotiateExtVersion function (tapi.h)
-
 description: The lineNegotiateExtVersion function allows an application to negotiate an extension version to use with the specified line device. This operation need not be called if the application does not support extensions.
 old-location: tapi2\linenegotiateextversion.htm
 tech.root: Tapi
 ms.assetid: 89a49709-a15b-4358-984a-fd836d8e237b
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linenegotiateextversion, lineNegotiateExtVersion, lineNegotiateExtVersion function [TAPI 2.2], tapi/lineNegotiateExtVersion, tapi2.linenegotiateextversion"
+ms.keywords: _tapi2_linenegotiateextversion, lineNegotiateExtVersion, lineNegotiateExtVersion function [TAPI 2.2], tapi/lineNegotiateExtVersion, tapi2.linenegotiateextversion
 ms.topic: function
-f1_keywords: 
- - "tapi/lineNegotiateExtVersion"
+f1_keywords:
+- tapi/lineNegotiateExtVersion
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineNegotiateExtVersion
+- lineNegotiateExtVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:projectedfslib.PRJ_FILE_STATE
 title: PRJ_FILE_STATE (projectedfslib.h)
-
 description: The state of an item.
 old-location: projfs\prj_file_state.htm
 tech.root: ProjFS
 ms.assetid: 9474C21B-47D4-468F-A970-0B0CBCF357A3
-
 ms.date: 12/05/2018
 ms.keywords: PRJ_FILE_STATE, PRJ_FILE_STATE enumeration, PRJ_FILE_STATE_DIRTY_PLACEHOLDER, PRJ_FILE_STATE_FULL, PRJ_FILE_STATE_HYDRATED_PLACEHOLDER, PRJ_FILE_STATE_PLACEHOLDER, PRJ_FILE_STATE_TOMBSTONE, ProjFS.prj_file_state, projectedfslib/PRJ_FILE_STATE, projectedfslib/PRJ_FILE_STATE_DIRTY_PLACEHOLDER, projectedfslib/PRJ_FILE_STATE_FULL, projectedfslib/PRJ_FILE_STATE_HYDRATED_PLACEHOLDER, projectedfslib/PRJ_FILE_STATE_PLACEHOLDER, projectedfslib/PRJ_FILE_STATE_TOMBSTONE
 ms.topic: enum
-f1_keywords: 
- - "projectedfslib/PRJ_FILE_STATE"
+f1_keywords:
+- projectedfslib/PRJ_FILE_STATE
 dev_langs:
- - c++
+- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - projectedfslib.h
+- projectedfslib.h
 api_name:
- - PRJ_FILE_STATE
+- PRJ_FILE_STATE
 targetos: Windows
 req.typenames: PRJ_FILE_STATE
 req.redist: 

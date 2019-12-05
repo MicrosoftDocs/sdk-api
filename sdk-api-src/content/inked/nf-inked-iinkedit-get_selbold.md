@@ -1,19 +1,17 @@
 ---
 UID: NF:inked.IInkEdit.get_SelBold
 title: IInkEdit::get_SelBold (inked.h)
-
 description: Gets or sets a value that specifies whether the font style of the currently selected text in the InkEdit control is bold.
 old-location: tablet\inkedit_selbold.htm
 tech.root: tablet
 ms.assetid: 423f9303-38e9-4d70-88cd-e6503a9f0a64
-
 ms.date: 12/05/2018
 ms.keywords: FALSE, IInkEdit interface [Tablet PC],SelBold property, IInkEdit.SelBold, IInkEdit.get_SelBold, IInkEdit::SelBold, IInkEdit::get_SelBold, IInkEdit::put_SelBold, InkEdit.get_SelBold, InkEdit.put_SelBold, NULL, SelBold property [Tablet PC], SelBold property [Tablet PC],IInkEdit interface, TRUE, get_SelBold, inked/IInkEdit::SelBold, inked/IInkEdit::get_SelBold, inked/IInkEdit::put_SelBold, put_SelBold, tablet.inkedit_selbold
 ms.topic: method
-f1_keywords: 
- - "inked/IInkEdit.SelBold"
+f1_keywords:
+- inked/IInkEdit.SelBold
 dev_langs:
- - c++
+- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkEd.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkEd.dll
- - InkEd.dll.dll
+- InkEd.dll
+- InkEd.dll.dll
 api_name:
- - IInkEdit.SelBold
- - IInkEdit.get_SelBold
- - IInkEdit.put_SelBold
- - InkEdit.get_SelBold
- - InkEdit.put_SelBold
+- IInkEdit.SelBold
+- IInkEdit.get_SelBold
+- IInkEdit.put_SelBold
+- InkEdit.get_SelBold
+- InkEdit.put_SelBold
 targetos: Windows
 req.typenames: 
 req.redist: 

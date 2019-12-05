@@ -1,19 +1,17 @@
 ---
 UID: NF:rasdlg.RasEntryDlgA
 title: RasEntryDlgA function (rasdlg.h)
-
 description: The RasEntryDlg function displays modal property sheets that allow a user to manipulate phone-book entries.
 old-location: rras\rasentrydlg.htm
 tech.root: RRAS
 ms.assetid: 9259502d-c31b-4ebd-ace7-70f02bbb7873
-
 ms.date: 12/05/2018
 ms.keywords: RasEntryDlg, RasEntryDlg function [RAS], RasEntryDlgA, RasEntryDlgW, _ras_rasentrydlg, rasdlg/RasEntryDlg, rasdlg/RasEntryDlgA, rasdlg/RasEntryDlgW, rras.rasentrydlg
 ms.topic: function
-f1_keywords: 
- - "rasdlg/RasEntryDlg"
+f1_keywords:
+- rasdlg/RasEntryDlg
 dev_langs:
- - c++
+- c++
 req.header: rasdlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rasdlg.lib
 req.dll: Rasdlg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasdlg.dll
+- Rasdlg.dll
 api_name:
- - RasEntryDlg
- - RasEntryDlgA
- - RasEntryDlgW
+- RasEntryDlg
+- RasEntryDlgA
+- RasEntryDlgW
 targetos: Windows
 req.typenames: 
 req.redist: 

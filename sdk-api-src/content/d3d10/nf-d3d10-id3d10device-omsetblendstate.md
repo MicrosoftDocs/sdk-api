@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.OMSetBlendState
 title: ID3D10Device::OMSetBlendState (d3d10.h)
-
 description: Set the blend state of the output-merger stage.
 old-location: direct3d10\id3d10device_omsetblendstate.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_omsetblendstate.htm
-
 ms.date: 12/05/2018
 ms.keywords: 9b71ab4c-dc5e-607f-4d02-0f408a6d4f30, ID3D10Device interface [Direct3D 10],OMSetBlendState method, ID3D10Device.OMSetBlendState, ID3D10Device::OMSetBlendState, OMSetBlendState, OMSetBlendState method [Direct3D 10], OMSetBlendState method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::OMSetBlendState, direct3d10.id3d10device_omsetblendstate
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.OMSetBlendState"
+f1_keywords:
+- d3d10/ID3D10Device.OMSetBlendState
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.OMSetBlendState
+- ID3D10Device.OMSetBlendState
 targetos: Windows
 req.typenames: 
 req.redist: 

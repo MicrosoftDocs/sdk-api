@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetLayout
 title: GetLayout function (wingdi.h)
-
 description: The GetLayout function returns the layout of a device context (DC).
 old-location: gdi\getlayout.htm
 tech.root: gdi
 ms.assetid: 2bbc0bef-55e5-4f11-a195-d379e95e44bf
-
 ms.date: 12/05/2018
 ms.keywords: GetLayout, GetLayout function [Windows GDI], _win32_GetLayout, gdi.getlayout, wingdi/GetLayout
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetLayout"
+f1_keywords:
+- wingdi/GetLayout
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - ext-ms-win-gdi-dc-l1-2-1.dll
- - GDI32Full.dll
+- gdi32.dll
+- ext-ms-win-gdi-dc-l1-2-1.dll
+- GDI32Full.dll
 api_name:
- - GetLayout
+- GetLayout
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IDeferredCommand.GetHResult
 title: IDeferredCommand::GetHResult (control.h)
-
 description: The GetHResult method retrieves the return value from the invoked command.
 old-location: dshow\ideferredcommand_gethresult.htm
 tech.root: DirectShow
 ms.assetid: ce047464-d283-4ff4-a5eb-9e394d4ac3fd
-
 ms.date: 12/05/2018
 ms.keywords: GetHResult, GetHResult method [DirectShow], GetHResult method [DirectShow],IDeferredCommand interface, IDeferredCommand interface [DirectShow],GetHResult method, IDeferredCommand.GetHResult, IDeferredCommand::GetHResult, IDeferredCommandGetHResult, control/IDeferredCommand::GetHResult, dshow.ideferredcommand_gethresult
 ms.topic: method
-f1_keywords: 
- - "control/IDeferredCommand.GetHResult"
+f1_keywords:
+- control/IDeferredCommand.GetHResult
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDeferredCommand.GetHResult
+- IDeferredCommand.GetHResult
 targetos: Windows
 req.typenames: 
 req.redist: 

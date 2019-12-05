@@ -1,17 +1,15 @@
 ---
 UID: NS:dwrite_3.DWRITE_FONT_AXIS_RANGE
 title: DWRITE_FONT_AXIS_RANGE
-
 description: Represents the minimum and maximum range of the possible values for a font axis.
 tech.root: DirectWrite
-
 ms.date: 09/10/2019
 ms.keywords: DWRITE_FONT_AXIS_RANGE, DWRITE_FONT_AXIS_RANGE structure [Direct Write], directwrite.dwrite_font_axis_range, dwrite_3/DWRITE_FONT_AXIS_RANGE
 ms.topic: struct
-f1_keywords: 
- - "dwrite_3/DWRITE_FONT_AXIS_RANGE"
+f1_keywords:
+- dwrite_3/DWRITE_FONT_AXIS_RANGE
 dev_langs:
- - c++
+- c++
 req.construct-type: structure
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,14 +29,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite_3.h
+- dwrite_3.h
 api_name:
- - DWRITE_FONT_AXIS_RANGE
+- DWRITE_FONT_AXIS_RANGE
 targetos: Windows
 req.typenames: 
 req.redist: 

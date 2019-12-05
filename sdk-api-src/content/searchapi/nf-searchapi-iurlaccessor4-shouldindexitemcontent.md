@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.IUrlAccessor4.ShouldIndexItemContent
 title: IUrlAccessor4::ShouldIndexItemContent (searchapi.h)
-
 description: Identifies whether the item's content should be indexed.
 old-location: search\_search_IUrlAccessor4_ShouldIndexItemContent.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor4\shouldindexitemcontent.htm
-
 ms.date: 12/05/2018
 ms.keywords: IUrlAccessor4 interface [search],ShouldIndexItemContent method, IUrlAccessor4.ShouldIndexItemContent, IUrlAccessor4::ShouldIndexItemContent, ShouldIndexItemContent, ShouldIndexItemContent method [search], ShouldIndexItemContent method [search],IUrlAccessor4 interface, _search_IUrlAccessor4_ShouldIndexItemContent, search._search_IUrlAccessor4_ShouldIndexItemContent, searchapi/IUrlAccessor4::ShouldIndexItemContent
 ms.topic: method
-f1_keywords: 
- - "searchapi/IUrlAccessor4.ShouldIndexItemContent"
+f1_keywords:
+- searchapi/IUrlAccessor4.ShouldIndexItemContent
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IUrlAccessor4.ShouldIndexItemContent
+- IUrlAccessor4.ShouldIndexItemContent
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search (WS) 4.0

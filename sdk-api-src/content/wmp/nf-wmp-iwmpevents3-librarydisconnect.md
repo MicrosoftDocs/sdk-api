@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPEvents3.LibraryDisconnect
 title: IWMPEvents3::LibraryDisconnect (wmp.h)
-
 description: The LibraryDisconnect event occurs when a library is no longer available.
 old-location: wmp\iwmpevents3_iwmpevents3__librarydisconnect.htm
 tech.root: WMP
 ms.assetid: eb0f4d9f-23b7-4fe7-b45d-152a2f64af30
-
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents3 interface [Windows Media Player],LibraryDisconnect method, IWMPEvents3.LibraryDisconnect, IWMPEvents3::LibraryDisconnect, IWMPEvents3LibraryDisconnect, LibraryDisconnect, LibraryDisconnect method [Windows Media Player], LibraryDisconnect method [Windows Media Player],IWMPEvents3 interface, wmp.iwmpevents3_iwmpevents3__librarydisconnect, wmp/IWMPEvents3::LibraryDisconnect
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPEvents3.LibraryDisconnect"
+f1_keywords:
+- wmp/IWMPEvents3.LibraryDisconnect
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPEvents3.LibraryDisconnect
+- IWMPEvents3.LibraryDisconnect
 targetos: Windows
 req.typenames: 
 req.redist: 

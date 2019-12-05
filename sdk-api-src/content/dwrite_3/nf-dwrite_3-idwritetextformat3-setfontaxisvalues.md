@@ -1,17 +1,15 @@
 ---
 UID: NF:dwrite_3.IDWriteTextFormat3.SetFontAxisValues
 title: IDWriteTextFormat3::SetFontAxisValues
-
 description: Sets values for the font axes of the format.
 tech.root: DirectWrite
-
 ms.date: 09/17/2019
 ms.keywords: IDWriteTextFormat3 interface [Direct Write],SetFontAxisValues method, IDWriteTextFormat3.SetFontAxisValues, IDWriteTextFormat3::SetFontAxisValues, SetFontAxisValues, SetFontAxisValues method [Direct Write], SetFontAxisValues method [Direct Write],IDWriteTextFormat3 interface, directwrite.idwritetextformat3_setfontaxisvalues, dwrite_3/IDWriteTextFormat3::SetFontAxisValues
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteTextFormat3.SetFontAxisValues"
+f1_keywords:
+- dwrite_3/IDWriteTextFormat3.SetFontAxisValues
 dev_langs:
- - c++
+- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,15 +29,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteTextFormat3::SetFontAxisValues
+- IDWriteTextFormat3::SetFontAxisValues
 targetos: Windows
 req.typenames: 
 req.redist: 

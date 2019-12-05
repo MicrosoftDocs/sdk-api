@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IPropertyPageSite.OnStatusChange
 title: IPropertyPageSite::OnStatusChange (ocidl.h)
-
 description: Informs the frame that the property page managed by this site has changed its state, that is, one or more property values have been changed in the page. Property pages should call this method whenever changes occur in their dialog boxes.
 old-location: com\ipropertypagesite_onstatuschange.htm
 tech.root: com
 ms.assetid: cea36260-b0f6-489a-b02a-3ca3576c6431
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyPageSite interface [COM],OnStatusChange method, IPropertyPageSite.OnStatusChange, IPropertyPageSite::OnStatusChange, OnStatusChange, OnStatusChange method [COM], OnStatusChange method [COM],IPropertyPageSite interface, PROPPAGESTATUS_DIRTY, PROPPAGESTATUS_VALIDATE, _ctrl_ipropertypagesite_onstatuschange, com.ipropertypagesite_onstatuschange, ocidl/IPropertyPageSite::OnStatusChange
 ms.topic: method
-f1_keywords: 
- - "ocidl/IPropertyPageSite.OnStatusChange"
+f1_keywords:
+- ocidl/IPropertyPageSite.OnStatusChange
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPropertyPageSite.OnStatusChange
+- IPropertyPageSite.OnStatusChange
 targetos: Windows
 req.typenames: 
 req.redist: 

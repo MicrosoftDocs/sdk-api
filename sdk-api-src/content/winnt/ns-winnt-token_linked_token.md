@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._TOKEN_LINKED_TOKEN
 title: TOKEN_LINKED_TOKEN (winnt.h)
-
 description: Contains a handle to a token. This token is linked to the token being queried by the GetTokenInformation function or set by the SetTokenInformation function.
 old-location: security\token_linked_token.htm
 tech.root: SecAuthZ
 ms.assetid: a77dd410-1074-4196-8323-ccf52ed0375a
-
 ms.date: 12/05/2018
-ms.keywords: "*PTOKEN_LINKED_TOKEN, PTOKEN_LINKED_TOKEN, PTOKEN_LINKED_TOKEN structure pointer [Security], TOKEN_LINKED_TOKEN, TOKEN_LINKED_TOKEN structure [Security], _TOKEN_LINKED_TOKEN, security.token_linked_token, winnt/PTOKEN_LINKED_TOKEN, winnt/TOKEN_LINKED_TOKEN"
+ms.keywords: '*PTOKEN_LINKED_TOKEN, PTOKEN_LINKED_TOKEN, PTOKEN_LINKED_TOKEN structure pointer [Security], TOKEN_LINKED_TOKEN, TOKEN_LINKED_TOKEN structure [Security], _TOKEN_LINKED_TOKEN, security.token_linked_token, winnt/PTOKEN_LINKED_TOKEN, winnt/TOKEN_LINKED_TOKEN'
 ms.topic: struct
-f1_keywords: 
- - "winnt/TOKEN_LINKED_TOKEN"
+f1_keywords:
+- winnt/TOKEN_LINKED_TOKEN
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - TOKEN_LINKED_TOKEN
+- TOKEN_LINKED_TOKEN
 targetos: Windows
 req.typenames: TOKEN_LINKED_TOKEN, *PTOKEN_LINKED_TOKEN
 req.redist: 

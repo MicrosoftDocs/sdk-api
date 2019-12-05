@@ -1,19 +1,17 @@
 ---
 UID: NS:dxva9typ._DXVABufferInfo
 title: DXVABufferInfo (dxva9typ.h)
-
 description: Specifies a buffer for the IDirect3DDXVADevice9::Execute method.
 old-location: mf\dxvabufferinfo.htm
 tech.root: medfound
 ms.assetid: 048a3fcf-6076-4500-b5cc-edfe782f467b
-
 ms.date: 12/05/2018
 ms.keywords: DXVABufferInfo, DXVABufferInfo structure [Media Foundation], _DXVABufferInfo, dxva9typ/DXVABufferInfo, mf.dxvabufferinfo
 ms.topic: struct
-f1_keywords: 
- - "dxva9typ/DXVABufferInfo"
+f1_keywords:
+- dxva9typ/DXVABufferInfo
 dev_langs:
- - c++
+- c++
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxva9typ.h
+- dxva9typ.h
 api_name:
- - DXVABufferInfo
+- DXVABufferInfo
 targetos: Windows
 req.typenames: DXVABufferInfo
 req.redist: 

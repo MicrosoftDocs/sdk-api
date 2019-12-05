@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.SHGetPropertyStoreFromParsingName
 title: SHGetPropertyStoreFromParsingName function (shobjidl_core.h)
-
 description: Returns a property store for an item, given a path or parsing name.
 old-location: properties\SHGetPropertyStoreFromParsingName.htm
 tech.root: properties
 ms.assetid: 0d8d2e70-8200-4153-bd52-f7d839fd0909
-
 ms.date: 12/05/2018
 ms.keywords: SHGetPropertyStoreFromParsingName, SHGetPropertyStoreFromParsingName function [Windows Properties], _shell_SHGetPropertyStoreFromParsingName, properties.SHGetPropertyStoreFromParsingName, shell.SHGetPropertyStoreFromParsingName, shobjidl_core/SHGetPropertyStoreFromParsingName
 ms.topic: function
-f1_keywords: 
- - "shobjidl_core/SHGetPropertyStoreFromParsingName"
+f1_keywords:
+- shobjidl_core/SHGetPropertyStoreFromParsingName
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHGetPropertyStoreFromParsingName
+- SHGetPropertyStoreFromParsingName
 targetos: Windows
 req.typenames: 
 req.redist: 

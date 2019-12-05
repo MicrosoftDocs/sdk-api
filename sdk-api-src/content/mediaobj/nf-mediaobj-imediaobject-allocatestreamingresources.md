@@ -1,19 +1,17 @@
 ---
 UID: NF:mediaobj.IMediaObject.AllocateStreamingResources
 title: IMediaObject::AllocateStreamingResources (mediaobj.h)
-
 description: The AllocateStreamingResources method allocates any resources needed by the DMO. Calling this method is always optional.
 old-location: dshow\imediaobject_allocatestreamingresources.htm
 tech.root: DirectShow
 ms.assetid: cd608bf2-50a5-4037-aeb5-c5c380c3d6df
-
 ms.date: 12/05/2018
 ms.keywords: AllocateStreamingResources, AllocateStreamingResources method [DirectShow], AllocateStreamingResources method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],AllocateStreamingResources method, IMediaObject.AllocateStreamingResources, IMediaObject::AllocateStreamingResources, IMediaObjectAllocateStreamingResources, dshow.imediaobject_allocatestreamingresources, mediaobj/IMediaObject::AllocateStreamingResources
 ms.topic: method
-f1_keywords: 
- - "mediaobj/IMediaObject.AllocateStreamingResources"
+f1_keywords:
+- mediaobj/IMediaObject.AllocateStreamingResources
 dev_langs:
- - c++
+- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IMediaObject.AllocateStreamingResources
+- IMediaObject.AllocateStreamingResources
 targetos: Windows
 req.typenames: 
 req.redist: 

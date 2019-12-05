@@ -1,19 +1,17 @@
 ---
 UID: NF:infotech.IStemmerConfig.SetLocaleInfo
 title: IStemmerConfig::SetLocaleInfo (infotech.h)
-
 description: Sets locale information for the stemmer.
 old-location: htmlhelp\istemmerconfig_setlocaleinfo.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refistemmerconfigsetlocaleinfo.htm
-
 ms.date: 12/05/2018
 ms.keywords: IStemmerConfig interface [HTML Help Workshop],SetLocaleInfo method, IStemmerConfig.SetLocaleInfo, IStemmerConfig::SetLocaleInfo, SetLocaleInfo, SetLocaleInfo method [HTML Help Workshop], SetLocaleInfo method [HTML Help Workshop],IStemmerConfig interface, htmlhelp.istemmerconfig_setlocaleinfo, infotech/IStemmerConfig::SetLocaleInfo, refIStemmerConfigSetLocaleInfo
 ms.topic: method
-f1_keywords: 
- - "infotech/IStemmerConfig.SetLocaleInfo"
+f1_keywords:
+- infotech/IStemmerConfig.SetLocaleInfo
 dev_langs:
- - c++
+- c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Infotech.h
+- Infotech.h
 api_name:
- - IStemmerConfig.SetLocaleInfo
+- IStemmerConfig.SetLocaleInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

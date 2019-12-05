@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsWriteText
 title: WsWriteText function (webservices.h)
-
 description: Writes the specified text to the XML writer.
 old-location: wsw\wswritetext.htm
 tech.root: wsw
 ms.assetid: a4ffc05e-d04a-4cc3-bdb6-71b2090bc32f
-
 ms.date: 12/05/2018
 ms.keywords: WsWriteText, WsWriteText function [Web Services for Windows], webservices/WsWriteText, wsw.wswritetext
 ms.topic: function
 f1_keywords:
 - webservices/WsWriteText
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

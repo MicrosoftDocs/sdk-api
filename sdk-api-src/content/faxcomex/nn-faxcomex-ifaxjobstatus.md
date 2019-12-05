@@ -1,19 +1,17 @@
 ---
 UID: NN:faxcomex.IFaxJobStatus
 title: IFaxJobStatus (faxcomex.h)
-
 description: The IFaxJobStatus interface is used for notifications and to hold the dynamic information of the job.
 old-location: fax\_mfax_faxjobstatus_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_3p6b_cpp.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxJobStatus, IFaxJobStatus interface [Fax Service], IFaxJobStatus interface [Fax Service],described, _mfax_faxjobstatus_cpp, fax._mfax_faxjobstatus_cpp, faxcomex/IFaxJobStatus
 ms.topic: interface
-f1_keywords: 
- - "faxcomex/IFaxJobStatus"
+f1_keywords:
+- faxcomex/IFaxJobStatus
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxJobStatus
+- IFaxJobStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

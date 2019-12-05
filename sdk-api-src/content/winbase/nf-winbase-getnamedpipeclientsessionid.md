@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetNamedPipeClientSessionId
 title: GetNamedPipeClientSessionId function (winbase.h)
-
 description: Retrieves the client session identifier for the specified named pipe.
 old-location: base\getnamedpipeclientsessionid.htm
 tech.root: ipc
 ms.assetid: b3ea0b7f-fead-4369-b87a-2f522a2a1984
-
 ms.date: 12/05/2018
 ms.keywords: GetNamedPipeClientSessionId, GetNamedPipeClientSessionId function, base.getnamedpipeclientsessionid, winbase/GetNamedPipeClientSessionId
 ms.topic: function
-f1_keywords: 
- - "winbase/GetNamedPipeClientSessionId"
+f1_keywords:
+- winbase/GetNamedPipeClientSessionId
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - GetNamedPipeClientSessionId
+- GetNamedPipeClientSessionId
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleObject.GetClientSite
 title: IOleObject::GetClientSite (oleidl.h)
-
 description: Retrieves a pointer to an embedded object's client site.
 old-location: com\ioleobject_getclientsite.htm
 tech.root: com
 ms.assetid: bf26b989-445c-48d3-b279-29e4cef0ad97
-
 ms.date: 12/05/2018
 ms.keywords: GetClientSite, GetClientSite method [COM], GetClientSite method [COM],IOleObject interface, IOleObject interface [COM],GetClientSite method, IOleObject.GetClientSite, IOleObject::GetClientSite, _ole_ioleobject_getclientsite, com.ioleobject_getclientsite, oleidl/IOleObject::GetClientSite
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleObject.GetClientSite"
+f1_keywords:
+- oleidl/IOleObject.GetClientSite
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleObject.GetClientSite
+- IOleObject.GetClientSite
 targetos: Windows
 req.typenames: 
 req.redist: 

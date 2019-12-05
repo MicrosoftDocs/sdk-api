@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsPathname.CopyPath
 title: IADsPathname::CopyPath (iads.h)
-
 description: Creates a copy of the Pathname object.
 old-location: adsi\iadspathname_copypath.htm
 tech.root: adsi
 ms.assetid: 00c4a0b8-4961-4ceb-86fe-5cdc4e0a45c0
-
 ms.date: 12/05/2018
 ms.keywords: CopyPath, CopyPath method [ADSI], CopyPath method [ADSI],IADsPathname interface, IADsPathname interface [ADSI],CopyPath method, IADsPathname.CopyPath, IADsPathname::CopyPath, _ds_iadspathname_copypath, adsi.iadspathname__copypath, adsi.iadspathname_copypath, iads/IADsPathname::CopyPath
 ms.topic: method
-f1_keywords: 
- - "iads/IADsPathname.CopyPath"
+f1_keywords:
+- iads/IADsPathname.CopyPath
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsPathname.CopyPath
+- IADsPathname.CopyPath
 targetos: Windows
 req.typenames: 
 req.redist: 

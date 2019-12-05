@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IAlternativeNames
 title: IAlternativeNames (certenroll.h)
-
 description: Contains methods and properties that enable you to manage a collection of IAlternativeName objects.
 old-location: security\ialternativenames.htm
 tech.root: seccertenroll
 ms.assetid: 6ebd5bd5-7bf3-43e3-9b72-47b2c9743174
-
 ms.date: 12/05/2018
 ms.keywords: IAlternativeNames, IAlternativeNames interface [Security], IAlternativeNames interface [Security],described, certenroll/IAlternativeNames, security.ialternativenames
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IAlternativeNames"
+f1_keywords:
+- certenroll/IAlternativeNames
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IAlternativeNames
+- IAlternativeNames
 targetos: Windows
 req.typenames: 
 req.redist: 

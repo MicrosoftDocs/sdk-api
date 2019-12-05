@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.GetProperty
 title: IAzApplicationGroup::GetProperty (azroles.h)
-
 description: Returns the IAzApplicationGroup object property with the specified property ID.
 old-location: security\iazapplicationgroup_getproperty.htm
 tech.root: SecAuthZ
 ms.assetid: b91c21c0-3042-457b-9f53-b03d9805f255
-
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_CHILD_CREATE, AZ_PROP_DESCRIPTION, AZ_PROP_GROUP_APP_MEMBERS, AZ_PROP_GROUP_APP_NON_MEMBERS, AZ_PROP_GROUP_LDAP_QUERY, AZ_PROP_GROUP_MEMBERS, AZ_PROP_GROUP_MEMBERS_NAME, AZ_PROP_GROUP_NON_MEMBERS, AZ_PROP_GROUP_NON_MEMBERS_NAME, AZ_PROP_GROUP_TYPE, AZ_PROP_NAME, AZ_PROP_WRITABLE, AzApplicationGroup object [Security],GetProperty method, GetProperty, GetProperty method [Security], GetProperty method [Security],AzApplicationGroup object, GetProperty method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],GetProperty method, IAzApplicationGroup.GetProperty, IAzApplicationGroup::GetProperty, azroles/IAzApplicationGroup::GetProperty, security.iazapplicationgroup_getproperty
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplicationGroup.GetProperty"
+f1_keywords:
+- azroles/IAzApplicationGroup.GetProperty
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplicationGroup.GetProperty
- - AzApplicationGroup.GetProperty
+- IAzApplicationGroup.GetProperty
+- AzApplicationGroup.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

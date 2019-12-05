@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGroupUniversalTimeToPeerTime
 title: PeerGroupUniversalTimeToPeerTime function (p2p.h)
-
 description: The PeerGroupUniversalTimeToPeerTime function converts a local time value from a peer's computer to a common peer group time value.
 old-location: p2p\peergroupuniversaltimetopeertime.htm
 tech.root: P2PSdk
 ms.assetid: 8d64c66a-96c3-48c4-82fa-c57554074729
-
 ms.date: 12/05/2018
 ms.keywords: PeerGroupUniversalTimeToPeerTime, PeerGroupUniversalTimeToPeerTime function [Peer Networking], p2p.peergroupuniversaltimetopeertime, p2p/PeerGroupUniversalTimeToPeerTime
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGroupUniversalTimeToPeerTime"
+f1_keywords:
+- p2p/PeerGroupUniversalTimeToPeerTime
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerGroupUniversalTimeToPeerTime
+- PeerGroupUniversalTimeToPeerTime
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:qos2._QOS_NOTIFY_FLOW
 title: QOS_NOTIFY_FLOW (qos2.h)
-
 description: The QOS_NOTIFY_FLOW enumeration specifies the circumstances that must be present for the QOSNotifyFlow function to send a notification.
 old-location: qos\qos_notify_flow.htm
 tech.root: QOS
 ms.assetid: 96072c6e-8282-4373-bb0b-14fbeb5573c3
-
 ms.date: 12/05/2018
-ms.keywords: "*PQOS_NOTIFY_FLOW, PQOS_NOTIFY_FLOW, PQOS_NOTIFY_FLOW enumeration pointer [QOS], QOSNotifyAvailable, QOSNotifyCongested, QOSNotifyUncongested, QOS_NOTIFY_FLOW, QOS_NOTIFY_FLOW enumeration [QOS], qos.qos_notify_flow, qos2/PQOS_NOTIFY_FLOW, qos2/QOSNotifyAvailable, qos2/QOSNotifyCongested, qos2/QOSNotifyUncongested, qos2/QOS_NOTIFY_FLOW"
+ms.keywords: '*PQOS_NOTIFY_FLOW, PQOS_NOTIFY_FLOW, PQOS_NOTIFY_FLOW enumeration pointer [QOS], QOSNotifyAvailable, QOSNotifyCongested, QOSNotifyUncongested, QOS_NOTIFY_FLOW, QOS_NOTIFY_FLOW enumeration [QOS], qos.qos_notify_flow, qos2/PQOS_NOTIFY_FLOW, qos2/QOSNotifyAvailable, qos2/QOSNotifyCongested, qos2/QOSNotifyUncongested, qos2/QOS_NOTIFY_FLOW'
 ms.topic: enum
-f1_keywords: 
- - "qos2/QOS_NOTIFY_FLOW"
+f1_keywords:
+- qos2/QOS_NOTIFY_FLOW
 dev_langs:
- - c++
+- c++
 req.header: qos2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Qos2.h
+- Qos2.h
 api_name:
- - QOS_NOTIFY_FLOW
+- QOS_NOTIFY_FLOW
 targetos: Windows
 req.typenames: QOS_NOTIFY_FLOW, *PQOS_NOTIFY_FLOW
 req.redist: 

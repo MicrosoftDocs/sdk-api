@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ICreateProcessInputs.SetTitle
 title: ICreateProcessInputs::SetTitle (shobjidl_core.h)
-
 description: Sets the title that will be passed CreateProcess.
 old-location: shell\icreateprocessinputs_settitle.htm
 tech.root: shell
 ms.assetid: BFCDC5B1-740E-4CE9-8E06-75F3ECA7B7E6
-
 ms.date: 12/05/2018
 ms.keywords: ICreateProcessInputs interface [Windows Shell],SetTitle method, ICreateProcessInputs.SetTitle, ICreateProcessInputs::SetTitle, SetTitle, SetTitle method [Windows Shell], SetTitle method [Windows Shell],ICreateProcessInputs interface, shell.icreateprocessinputs_settitle, shobjidl_core/ICreateProcessInputs::SetTitle
 ms.topic: method
 f1_keywords:
 - shobjidl_core/ICreateProcessInputs.SetTitle
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

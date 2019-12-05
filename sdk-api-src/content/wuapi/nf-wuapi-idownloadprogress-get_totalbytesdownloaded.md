@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IDownloadProgress.get_TotalBytesDownloaded
 title: IDownloadProgress::get_TotalBytesDownloaded (wuapi.h)
-
 description: Gets a string that specifies the total amount of data that has been downloaded, in bytes.
 old-location: wua\idownloadprogress_totalbytesdownloaded.htm
 tech.root: Wua_Sdk
 ms.assetid: 83d8f7d2-e06d-461a-be45-ebbb448b2480
-
 ms.date: 12/05/2018
 ms.keywords: IDownloadProgress interface [Windows Update Agent],TotalBytesDownloaded property, IDownloadProgress.TotalBytesDownloaded, IDownloadProgress.get_TotalBytesDownloaded, IDownloadProgress::TotalBytesDownloaded, IDownloadProgress::get_TotalBytesDownloaded, TotalBytesDownloaded property [Windows Update Agent], TotalBytesDownloaded property [Windows Update Agent],IDownloadProgress interface, get_TotalBytesDownloaded, wua.idownloadprogress_totalbytesdownloaded, wuapi/IDownloadProgress::TotalBytesDownloaded, wuapi/IDownloadProgress::get_TotalBytesDownloaded
 ms.topic: method
-f1_keywords: 
- - "wuapi/IDownloadProgress.TotalBytesDownloaded"
+f1_keywords:
+- wuapi/IDownloadProgress.TotalBytesDownloaded
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IDownloadProgress.TotalBytesDownloaded
- - IDownloadProgress.get_TotalBytesDownloaded
+- IDownloadProgress.TotalBytesDownloaded
+- IDownloadProgress.get_TotalBytesDownloaded
 targetos: Windows
 req.typenames: 
 req.redist: 

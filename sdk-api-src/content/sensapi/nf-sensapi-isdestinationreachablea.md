@@ -1,19 +1,17 @@
 ---
 UID: NF:sensapi.IsDestinationReachableA
 title: IsDestinationReachableA function (sensapi.h)
-
 description: The IsDestinationReachable function determines whether or not a specified destination can be reached, and provides Quality of Connection (QOC) information for a destination.
 old-location: sens\isdestinationreachable.htm
 tech.root: Sens
 ms.assetid: 377af331-8494-4a3d-b822-78c2b568239c
-
 ms.date: 12/05/2018
 ms.keywords: IsDestinationReachable, IsDestinationReachable function [SENS], IsDestinationReachableA, IsDestinationReachableW, _zaw_isdestinationreachable, sens.isdestinationreachable, sensapi/IsDestinationReachable, sensapi/IsDestinationReachableA, sensapi/IsDestinationReachableW, syncmgr.isdestinationreachable
 ms.topic: function
-f1_keywords: 
- - "sensapi/IsDestinationReachable"
+f1_keywords:
+- sensapi/IsDestinationReachable
 dev_langs:
- - c++
+- c++
 req.header: sensapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Sensapi.lib
 req.dll: Sensapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Sensapi.dll
+- Sensapi.dll
 api_name:
- - IsDestinationReachable
- - IsDestinationReachableA
- - IsDestinationReachableW
+- IsDestinationReachable
+- IsDestinationReachableA
+- IsDestinationReachableW
 targetos: Windows
 req.typenames: 
 req.redist: 

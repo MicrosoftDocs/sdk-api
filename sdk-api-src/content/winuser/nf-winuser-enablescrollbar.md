@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.EnableScrollBar
 title: EnableScrollBar function (winuser.h)
-
 description: The EnableScrollBar function enables or disables one or both scroll bar arrows.
 old-location: controls\EnableScrollBar.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\enablescrollbar.htm
-
 ms.date: 12/05/2018
 ms.keywords: ESB_DISABLE_BOTH, ESB_DISABLE_DOWN, ESB_DISABLE_LEFT, ESB_DISABLE_LTUP, ESB_DISABLE_RIGHT, ESB_DISABLE_RTDN, ESB_DISABLE_UP, ESB_ENABLE_BOTH, EnableScrollBar, EnableScrollBar function [Windows Controls], SB_BOTH, SB_CTL, SB_HORZ, SB_VERT, _win32_EnableScrollBar, _win32_EnableScrollBar_cpp, controls.EnableScrollBar, controls._win32_EnableScrollBar, winuser/EnableScrollBar
 ms.topic: function
-f1_keywords: 
- - "winuser/EnableScrollBar"
+f1_keywords:
+- winuser/EnableScrollBar
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
- - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
- - ext-ms-win-ntuser-misc-l1-3-1.dll
- - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
- - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
- - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+- Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+- ext-ms-win-ntuser-misc-l1-3-1.dll
+- Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+- Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
- - EnableScrollBar
+- EnableScrollBar
 targetos: Windows
 req.typenames: 
 req.redist: 

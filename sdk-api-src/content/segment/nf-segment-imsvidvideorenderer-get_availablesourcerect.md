@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get_AvailableSourceRect
 title: IMSVidVideoRenderer::get_AvailableSourceRect (segment.h)
-
 description: The get_AvailableSourceRect method retrieves the size of the native video.
 old-location: mstv\imsvidvideorenderer_get_availablesourcerect.htm
 tech.root: mstv
 ms.assetid: 33747e97-3e1c-4220-89c9-cc8310b77c4e
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_AvailableSourceRect method, IMSVidVideoRenderer.get_AvailableSourceRect, IMSVidVideoRenderer::get_AvailableSourceRect, IMSVidVideoRendererget_AvailableSourceRect, get_AvailableSourceRect, get_AvailableSourceRect method [Microsoft TV Technologies], get_AvailableSourceRect method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_availablesourcerect, segment/IMSVidVideoRenderer::get_AvailableSourceRect
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidVideoRenderer.get_AvailableSourceRect"
+f1_keywords:
+- segment/IMSVidVideoRenderer.get_AvailableSourceRect
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidVideoRenderer.get_AvailableSourceRect
+- IMSVidVideoRenderer.get_AvailableSourceRect
 targetos: Windows
 req.typenames: 
 req.redist: 

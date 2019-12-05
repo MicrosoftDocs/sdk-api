@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.DialogBoxIndirectParamW
 title: DialogBoxIndirectParamW function (winuser.h)
-
 description: Creates a modal dialog box from a dialog box template in memory.
 old-location: dlgbox\dialogboxindirectparam.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\dialogboxindirectparam.htm
-
 ms.date: 12/05/2018
 ms.keywords: DialogBoxIndirectParam, DialogBoxIndirectParam function [Dialog Boxes], DialogBoxIndirectParamA, DialogBoxIndirectParamW, _win32_DialogBoxIndirectParam, _win32_dialogboxindirectparam_cpp, dlgbox.dialogboxindirectparam, winui._win32_dialogboxindirectparam, winuser/DialogBoxIndirectParam, winuser/DialogBoxIndirectParamA, winuser/DialogBoxIndirectParamW
 ms.topic: function
-f1_keywords: 
- - "winuser/DialogBoxIndirectParam"
+f1_keywords:
+- winuser/DialogBoxIndirectParam
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-DialogBox-l1-1-0.dll
- - Ext-MS-Win-NTUser-DialogBox-l1-1-1.dll
- - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
+- User32.dll
+- Ext-MS-Win-NTUser-DialogBox-l1-1-0.dll
+- Ext-MS-Win-NTUser-DialogBox-l1-1-1.dll
+- ext-ms-win-ntuser-dialogbox-l1-1-2.dll
 api_name:
- - DialogBoxIndirectParam
- - DialogBoxIndirectParamA
- - DialogBoxIndirectParamW
+- DialogBoxIndirectParam
+- DialogBoxIndirectParamA
+- DialogBoxIndirectParamW
 targetos: Windows
 req.typenames: 
 req.redist: 

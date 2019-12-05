@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateDownloader.BeginDownload
 title: IUpdateDownloader::BeginDownload (wuapi.h)
-
 description: Starts an asynchronous download of the content files that are associated with the updates.
 old-location: wua\iupdatedownloader_begindownload.htm
 tech.root: Wua_Sdk
 ms.assetid: 9a953240-3d8e-4876-92a9-cc7efca62780
-
 ms.date: 12/05/2018
 ms.keywords: BeginDownload, BeginDownload method [Windows Update Agent], BeginDownload method [Windows Update Agent],IUpdateDownloader interface, IUpdateDownloader interface [Windows Update Agent],BeginDownload method, IUpdateDownloader.BeginDownload, IUpdateDownloader::BeginDownload, wua.iupdatedownloader_begindownload, wuapi/IUpdateDownloader::BeginDownload
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateDownloader.BeginDownload"
+f1_keywords:
+- wuapi/IUpdateDownloader.BeginDownload
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateDownloader.BeginDownload
+- IUpdateDownloader.BeginDownload
 targetos: Windows
 req.typenames: 
 req.redist: 

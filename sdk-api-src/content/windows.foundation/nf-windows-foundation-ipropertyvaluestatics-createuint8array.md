@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateUInt8Array
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-
 description: Creates a new IPropertyValue object that contains the specified array of unsigned 8-bit integer values.
 old-location: winrt\ipropertyvaluestatics_createuint8array.htm
 tech.root: WinRT
 ms.assetid: fc666379-4992-47da-b97b-b296219e26c1
-
 ms.date: 12/05/2018
 ms.keywords: CreateUInt8Array, CreateUInt8Array method [Windows Runtime], CreateUInt8Array method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateUInt8Array method, IPropertyValueStatics.CreateUInt8Array, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateUInt8Array, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateUInt8Array, winrt.ipropertyvaluefactory_createuint8array, winrt.ipropertyvaluestatics_createuint8array
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValueStatics.CreateUInt8Array"
+f1_keywords:
+- windows.foundation/IPropertyValueStatics.CreateUInt8Array
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValueStatics.CreateUInt8Array
+- IPropertyValueStatics.CreateUInt8Array
 targetos: Windows
 req.typenames: 
 req.redist: 

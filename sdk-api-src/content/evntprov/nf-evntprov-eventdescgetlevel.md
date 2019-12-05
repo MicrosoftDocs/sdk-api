@@ -1,19 +1,17 @@
 ---
 UID: NF:evntprov.EventDescGetLevel
 title: EventDescGetLevel function (evntprov.h)
-
 description: Retrieves the severity level from the event descriptor.
 old-location: etw\eventdescgetlevel_func.htm
 tech.root: ETW
 ms.assetid: 29f356ad-c957-4a1e-abf8-5c7e6212c92e
-
 ms.date: 12/05/2018
 ms.keywords: EventDescGetLevel, EventDescGetLevel function [ETW], base.eventdescgetlevel_func, etw.eventdescgetlevel_func, evntprov/EventDescGetLevel
 ms.topic: function
 f1_keywords:
 - evntprov/EventDescGetLevel
 dev_langs:
- - c++
+- c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

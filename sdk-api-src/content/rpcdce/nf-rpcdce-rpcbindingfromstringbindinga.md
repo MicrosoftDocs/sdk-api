@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcBindingFromStringBindingA
 title: RpcBindingFromStringBindingA function (rpcdce.h)
-
 description: Returns a binding handle from a string representation of a binding handle.
 old-location: rpc\rpcbindingfromstringbinding.htm
 tech.root: Rpc
 ms.assetid: fd82fb9f-da0e-46fb-9c11-a75a9b6ee858
-
 ms.date: 12/05/2018
 ms.keywords: RpcBindingFromStringBinding, RpcBindingFromStringBinding function [RPC], RpcBindingFromStringBindingA, RpcBindingFromStringBindingW, _rpc_rpcbindingfromstringbinding, rpc.rpcbindingfromstringbinding, rpcdce/RpcBindingFromStringBinding, rpcdce/RpcBindingFromStringBindingA, rpcdce/RpcBindingFromStringBindingW
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcBindingFromStringBinding"
+f1_keywords:
+- rpcdce/RpcBindingFromStringBinding
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcBindingFromStringBinding
- - RpcBindingFromStringBindingA
- - RpcBindingFromStringBindingW
+- RpcBindingFromStringBinding
+- RpcBindingFromStringBindingA
+- RpcBindingFromStringBindingW
 targetos: Windows
 req.typenames: 
 req.redist: 

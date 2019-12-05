@@ -1,19 +1,17 @@
 ---
 UID: NE:netiodef.__unnamed_enum_0
 title: DL_ADDRESS_TYPE (netiodef.h)
-
 description: The DL_ADDRESS_TYPE enumerated type.
 old-location: fwp\dl_address_type.htm
 tech.root: fwp
 ms.assetid: 1ef0195a-af46-4eb3-8cc0-0408b644a7e9
-
 ms.date: 12/05/2018
-ms.keywords: "*PDL_ADDRESS_TYPE, DL_ADDRESS_TYPE, DL_ADDRESS_TYPE enumeration [Filtering], DlBroadcast, DlMulticast, DlUnicast, PDL_ADDRESS_TYPE, PDL_ADDRESS_TYPE enumeration pointer [Filtering], fwp.dl_address_type, netiodef/DL_ADDRESS_TYPE, netiodef/DlBroadcast, netiodef/DlMulticast, netiodef/DlUnicast, netiodef/PDL_ADDRESS_TYPE"
+ms.keywords: '*PDL_ADDRESS_TYPE, DL_ADDRESS_TYPE, DL_ADDRESS_TYPE enumeration [Filtering], DlBroadcast, DlMulticast, DlUnicast, PDL_ADDRESS_TYPE, PDL_ADDRESS_TYPE enumeration pointer [Filtering], fwp.dl_address_type, netiodef/DL_ADDRESS_TYPE, netiodef/DlBroadcast, netiodef/DlMulticast, netiodef/DlUnicast, netiodef/PDL_ADDRESS_TYPE'
 ms.topic: enum
-f1_keywords: 
- - "netiodef/DL_ADDRESS_TYPE"
+f1_keywords:
+- netiodef/DL_ADDRESS_TYPE
 dev_langs:
- - c++
+- c++
 req.header: netiodef.h
 req.include-header: Fwpmtypes.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - netiodef.h
+- netiodef.h
 api_name:
- - DL_ADDRESS_TYPE
+- DL_ADDRESS_TYPE
 targetos: Windows
 req.typenames: DL_ADDRESS_TYPE, *PDL_ADDRESS_TYPE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSensorStream.GetMediaTypeCount
 title: IMFSensorStream::GetMediaTypeCount (mfidl.h)
-
 description: Gets the count of media types supported by the sensor stream.
 old-location: mf\imfsensorstream_getmediatypecount.htm
 tech.root: medfound
 ms.assetid: DCC5645E-2E0C-4AA7-8790-3552AD343F90
-
 ms.date: 12/05/2018
 ms.keywords: GetMediaTypeCount, GetMediaTypeCount method [Media Foundation], GetMediaTypeCount method [Media Foundation],IMFSensorStream interface, IMFSensorStream interface [Media Foundation],GetMediaTypeCount method, IMFSensorStream.GetMediaTypeCount, IMFSensorStream::GetMediaTypeCount, mf.imfsensorstream_getmediatypecount, mfidl/IMFSensorStream::GetMediaTypeCount
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSensorStream.GetMediaTypeCount"
+f1_keywords:
+- mfidl/IMFSensorStream.GetMediaTypeCount
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFSensorStream.GetMediaTypeCount
+- IMFSensorStream.GetMediaTypeCount
 targetos: Windows
 req.typenames: 
 req.redist: 

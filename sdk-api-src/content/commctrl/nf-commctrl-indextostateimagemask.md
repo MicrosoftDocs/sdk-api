@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.INDEXTOSTATEIMAGEMASK
 title: INDEXTOSTATEIMAGEMASK macro (commctrl.h)
-
 description: Prepares the index of a state image so that a tree-view control or list-view control can use the index to retrieve the state image for an item.
 old-location: controls\INDEXTOSTATEIMAGEMASK.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\indextostateimagemask.htm
-
 ms.date: 12/05/2018
 ms.keywords: INDEXTOSTATEIMAGEMASK, INDEXTOSTATEIMAGEMASK macro [Windows Controls], _win32_INDEXTOSTATEIMAGEMASK, _win32_INDEXTOSTATEIMAGEMASK_cpp, commctrl/INDEXTOSTATEIMAGEMASK, controls.INDEXTOSTATEIMAGEMASK, controls._win32_INDEXTOSTATEIMAGEMASK
 ms.topic: macro
-f1_keywords: 
- - "commctrl/INDEXTOSTATEIMAGEMASK"
+f1_keywords:
+- commctrl/INDEXTOSTATEIMAGEMASK
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - INDEXTOSTATEIMAGEMASK
+- INDEXTOSTATEIMAGEMASK
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptRegisterDefaultOIDFunction
 title: CryptRegisterDefaultOIDFunction function (wincrypt.h)
-
 description: The CryptRegisterDefaultOIDFunction registers a DLL containing the default function to be called for the specified encoding type and function name. Unlike CryptRegisterOIDFunction, the function name to be exported by the DLL cannot be overridden.
 old-location: security\cryptregisterdefaultoidfunction.htm
 tech.root: SecCrypto
 ms.assetid: 9633cce4-538e-490e-8a5a-6b28f161a09d
-
 ms.date: 12/05/2018
 ms.keywords: CryptRegisterDefaultOIDFunction, CryptRegisterDefaultOIDFunction function [Security], _crypto2_cryptregisterdefaultoidfunction, security.cryptregisterdefaultoidfunction, wincrypt/CryptRegisterDefaultOIDFunction
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptRegisterDefaultOIDFunction"
+f1_keywords:
+- wincrypt/CryptRegisterDefaultOIDFunction
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptRegisterDefaultOIDFunction
+- CryptRegisterDefaultOIDFunction
 targetos: Windows
 req.typenames: 
 req.redist: 

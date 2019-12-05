@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IOleControl.OnAmbientPropertyChange
 title: IOleControl::OnAmbientPropertyChange (ocidl.h)
-
 description: Informs a control that one or more of the container's ambient properties has changed.
 old-location: com\iolecontrol_onambientpropertychange.htm
 tech.root: com
 ms.assetid: 9ca43723-a14e-4f03-8eec-e10ab34ecb4d
-
 ms.date: 12/05/2018
 ms.keywords: IOleControl interface [COM],OnAmbientPropertyChange method, IOleControl.OnAmbientPropertyChange, IOleControl::OnAmbientPropertyChange, OnAmbientPropertyChange, OnAmbientPropertyChange method [COM], OnAmbientPropertyChange method [COM],IOleControl interface, _ctrl_iolecontrol_onambientpropertychange, com.iolecontrol_onambientpropertychange, ocidl/IOleControl::OnAmbientPropertyChange
 ms.topic: method
-f1_keywords: 
- - "ocidl/IOleControl.OnAmbientPropertyChange"
+f1_keywords:
+- ocidl/IOleControl.OnAmbientPropertyChange
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IOleControl.OnAmbientPropertyChange
+- IOleControl.OnAmbientPropertyChange
 targetos: Windows
 req.typenames: 
 req.redist: 

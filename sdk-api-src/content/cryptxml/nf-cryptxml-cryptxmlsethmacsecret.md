@@ -1,19 +1,17 @@
 ---
 UID: NF:cryptxml.CryptXmlSetHMACSecret
 title: CryptXmlSetHMACSecret function (cryptxml.h)
-
 description: Sets the HMAC secret on the handle before calling the CryptXmlSign or CryptXmlVerify function.
 old-location: security\cryptxmlsethmacsecret.htm
 tech.root: SecCrypto
 ms.assetid: 3e7d0280-c10e-4328-b7f7-208ea5a4285c
-
 ms.date: 12/05/2018
 ms.keywords: CryptXmlSetHMACSecret, CryptXmlSetHMACSecret function [Security], cryptxml/CryptXmlSetHMACSecret, security.cryptxmlsethmacsecret
 ms.topic: function
-f1_keywords: 
- - "cryptxml/CryptXmlSetHMACSecret"
+f1_keywords:
+- cryptxml/CryptXmlSetHMACSecret
 dev_langs:
- - c++
+- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Cryptxml.lib
 req.dll: Cryptxml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cryptxml.dll
+- Cryptxml.dll
 api_name:
- - CryptXmlSetHMACSecret
+- CryptXmlSetHMACSecret
 targetos: Windows
 req.typenames: 
 req.redist: 

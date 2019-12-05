@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.SspiIsPromptingNeeded
 title: SspiIsPromptingNeeded function (sspi.h)
-
 description: Indicates whether an error returned after a call to either the InitializeSecurityContext or the AcceptSecurityContext function requires an additional call to the SspiPromptForCredentials function.
 old-location: security\sspiispromptingneeded.htm
 tech.root: SecAuthN
 ms.assetid: aaafcf49-df28-45e9-8c06-e57863a2e300
-
 ms.date: 12/05/2018
 ms.keywords: SspiIsPromptingNeeded, SspiIsPromptingNeeded function [Security], security.sspiispromptingneeded, sspi/SspiIsPromptingNeeded
 ms.topic: function
-f1_keywords: 
- - "sspi/SspiIsPromptingNeeded"
+f1_keywords:
+- sspi/SspiIsPromptingNeeded
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Credui.lib
 req.dll: Credui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Credui.dll
- - Ext-MS-Win-security-credui-l1-1-0.dll
- - Ext-MS-Win-security-credui-l1-1-1.dll
- - AnalogCredUI.dll
+- Credui.dll
+- Ext-MS-Win-security-credui-l1-1-0.dll
+- Ext-MS-Win-security-credui-l1-1-1.dll
+- AnalogCredUI.dll
 api_name:
- - SspiIsPromptingNeeded
+- SspiIsPromptingNeeded
 targetos: Windows
 req.typenames: 
 req.redist: 

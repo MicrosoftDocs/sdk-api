@@ -1,19 +1,17 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.DegaussMonitor
 title: DegaussMonitor function (highlevelmonitorconfigurationapi.h)
-
 description: Degausses a monitor.
 old-location: monitor\degaussmonitor.htm
 tech.root: Monitor
 ms.assetid: 8f476ba3-24d2-456a-9335-873368993d71
-
 ms.date: 12/05/2018
 ms.keywords: DegaussMonitor, DegaussMonitor function [Monitor Configuration], highlevelmonitorconfigurationapi/DegaussMonitor, monitor.degaussmonitor
 ms.topic: function
-f1_keywords: 
- - "highlevelmonitorconfigurationapi/DegaussMonitor"
+f1_keywords:
+- highlevelmonitorconfigurationapi/DegaussMonitor
 dev_langs:
- - c++
+- c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dxva2.dll
+- dxva2.dll
 api_name:
- - DegaussMonitor
+- DegaussMonitor
 targetos: Windows
 req.typenames: 
 req.redist: 

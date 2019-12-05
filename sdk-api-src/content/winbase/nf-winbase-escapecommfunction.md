@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.EscapeCommFunction
 title: EscapeCommFunction function (winbase.h)
-
 description: Directs the specified communications device to perform an extended function.
 old-location: base\escapecommfunction.htm
 tech.root: devio
 ms.assetid: 27c4ebdf-1c06-4a60-8e49-dcccba10789c
-
 ms.date: 12/05/2018
 ms.keywords: CLRBREAK, CLRDTR, CLRRTS, EscapeCommFunction, EscapeCommFunction function, SETBREAK, SETDTR, SETRTS, SETXOFF, SETXON, _win32_escapecommfunction, base.escapecommfunction, winbase/EscapeCommFunction
 ms.topic: function
-f1_keywords: 
- - "winbase/EscapeCommFunction"
+f1_keywords:
+- winbase/EscapeCommFunction
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-comm-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-comm-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - EscapeCommFunction
+- EscapeCommFunction
 targetos: Windows
 req.typenames: 
 req.redist: 

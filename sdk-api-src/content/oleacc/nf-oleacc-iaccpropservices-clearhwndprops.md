@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.IAccPropServices.ClearHwndProps
 title: IAccPropServices::ClearHwndProps (oleacc.h)
-
 description: This method wraps SetPropValue, SetPropServer, and ClearProps, and provides a convenient entry point for callers who are annotating HWND-based accessible elements.
 old-location: winauto\iaccpropservices_iaccpropservices__clearhwndprops.htm
 tech.root: WinAuto
 ms.assetid: 7fd3f595-4897-481f-972e-04cf1a4c6046
-
 ms.date: 12/05/2018
 ms.keywords: ClearHwndProps, ClearHwndProps method [Windows Accessibility], ClearHwndProps method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],ClearHwndProps method, IAccPropServices.ClearHwndProps, IAccPropServices::ClearHwndProps, _msaa_IAccPropServices_ClearHwndProps, msaa.iaccpropservices_iaccpropservices__clearhwndprops, oleacc/IAccPropServices::ClearHwndProps, winauto.iaccpropservices_iaccpropservices__clearhwndprops
 ms.topic: method
-f1_keywords: 
- - "oleacc/IAccPropServices.ClearHwndProps"
+f1_keywords:
+- oleacc/IAccPropServices.ClearHwndProps
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Oleacc.dll
+- Oleacc.dll
 api_name:
- - IAccPropServices.ClearHwndProps
+- IAccPropServices.ClearHwndProps
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98

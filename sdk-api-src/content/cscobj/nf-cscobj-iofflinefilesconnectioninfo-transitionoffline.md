@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesConnectionInfo.TransitionOffline
 title: IOfflineFilesConnectionInfo::TransitionOffline (cscobj.h)
-
 description: Transitions an item offline if possible.
 old-location: of\iofflinefilesconnectioninfo_transitionoffline.htm
 tech.root: offlinefiles
 ms.assetid: cb32238d-c8f2-4228-8472-4a699b24c621
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesConnectionInfo interface [Offline Files],TransitionOffline method, IOfflineFilesConnectionInfo.TransitionOffline, IOfflineFilesConnectionInfo::TransitionOffline, OFFLINEFILES_TRANSITION_FLAG_CONSOLE, OFFLINEFILES_TRANSITION_FLAG_INTERACTIVE, TransitionOffline, TransitionOffline method [Offline Files], TransitionOffline method [Offline Files],IOfflineFilesConnectionInfo interface, cscobj/IOfflineFilesConnectionInfo::TransitionOffline, of.iofflinefilesconnectioninfo_transitionoffline
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesConnectionInfo.TransitionOffline"
+f1_keywords:
+- cscobj/IOfflineFilesConnectionInfo.TransitionOffline
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesConnectionInfo.TransitionOffline
+- IOfflineFilesConnectionInfo.TransitionOffline
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tssbx.IWTSSBPlugin.Initialize
 title: IWTSSBPlugin::Initialize (tssbx.h)
-
 description: Initializes the plug-in and returns a value that indicates the redirection capabilities of the plug-in.
 old-location: termserv\iwtssbplugin_initialize.htm
 tech.root: TermServ
 ms.assetid: b9304f4a-49ed-4a5e-87a1-7a9bc1c01b3d
-
 ms.date: 12/05/2018
 ms.keywords: IWTSSBPlugin interface [Remote Desktop Services],Initialize method, IWTSSBPlugin.Initialize, IWTSSBPlugin::Initialize, Initialize, Initialize method [Remote Desktop Services], Initialize method [Remote Desktop Services],IWTSSBPlugin interface, termserv.iwtssbplugin_initialize, tssbx/IWTSSBPlugin::Initialize
 ms.topic: method
-f1_keywords: 
- - "tssbx/IWTSSBPlugin.Initialize"
+f1_keywords:
+- tssbx/IWTSSBPlugin.Initialize
 dev_langs:
- - c++
+- c++
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tssbx.h
+- Tssbx.h
 api_name:
- - IWTSSBPlugin.Initialize
+- IWTSSBPlugin.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

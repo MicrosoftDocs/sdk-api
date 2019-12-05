@@ -1,19 +1,17 @@
 ---
 UID: NF:winsafer.SaferSetLevelInformation
 title: SaferSetLevelInformation function (winsafer.h)
-
 description: Sets the information about a policy level.
 old-location: security\safersetlevelinformation.htm
 tech.root: SecMgmt
 ms.assetid: 8DB13F94-1736-4C05-B072-BFBFC076A726
-
 ms.date: 12/05/2018
 ms.keywords: SaferObjectDescription, SaferObjectFriendlyName, SaferObjectLevelId, SaferObjectScopeId, SaferSetLevelInformation, SaferSetLevelInformation function [Security], security.safersetlevelinformation, winsafer/SaferSetLevelInformation
 ms.topic: function
 f1_keywords:
 - winsafer/SaferSetLevelInformation
 dev_langs:
- - c++
+- c++
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows

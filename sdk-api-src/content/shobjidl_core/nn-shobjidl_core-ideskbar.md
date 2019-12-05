@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IDeskBar
 title: IDeskBar (shobjidl_core.h)
-
 description: Exposes methods that enable desk bar manipulation.
 old-location: shell\IDeskBar.htm
 tech.root: shell
 ms.assetid: 78b9666b-f913-4745-975e-f8dd6e9f89b4
-
 ms.date: 12/05/2018
 ms.keywords: IDeskBar, IDeskBar interface [Windows Shell], IDeskBar interface [Windows Shell],described, _win32_IDeskBar, shell.IDeskBar, shobjidl_core/IDeskBar
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IDeskBar"
+f1_keywords:
+- shobjidl_core/IDeskBar
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IDeskBar
+- IDeskBar
 targetos: Windows
 req.typenames: 
 req.redist: 

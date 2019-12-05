@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaBase.AddThreshold
 title: IFsrmQuotaBase::AddThreshold (fsrmquota.h)
-
 description: Adds a threshold to the quota object.
 old-location: fsrm\ifsrmquotabase_addthreshold.htm
 tech.root: fsrm
 ms.assetid: 9571e169-01a3-4b72-bc84-2f9b2609a6e2
-
 ms.date: 12/05/2018
 ms.keywords: AddThreshold, AddThreshold method [File Server Resource Manager], AddThreshold method [File Server Resource Manager],IFsrmQuotaBase interface, IFsrmQuotaBase interface [File Server Resource Manager],AddThreshold method, IFsrmQuotaBase.AddThreshold, IFsrmQuotaBase::AddThreshold, fs.ifsrmquotabase_addthreshold, fsrm.ifsrmquotabase_addthreshold, fsrmquota/IFsrmQuotaBase::AddThreshold
 ms.topic: method
-f1_keywords: 
- - "fsrmquota/IFsrmQuotaBase.AddThreshold"
+f1_keywords:
+- fsrmquota/IFsrmQuotaBase.AddThreshold
 dev_langs:
- - c++
+- c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmQuotaBase.AddThreshold
+- IFsrmQuotaBase.AddThreshold
 targetos: Windows
 req.typenames: 
 req.redist: 

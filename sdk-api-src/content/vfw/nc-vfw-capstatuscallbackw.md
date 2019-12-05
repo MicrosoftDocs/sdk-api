@@ -1,19 +1,17 @@
 ---
 UID: NC:vfw.CAPSTATUSCALLBACKW
 title: CAPSTATUSCALLBACKW (vfw.h)
-
 description: The capStatusCallback function is the status callback function used with video capture. The name capStatusCallback is a placeholder for the application-supplied function name.
 old-location: multimedia\capstatuscallback.htm
 tech.root: Multimedia
 ms.assetid: b48021a7-7fa1-4837-a6ca-af266fd55f4f
-
 ms.date: 12/05/2018
 ms.keywords: CAPSTATUSCALLBACKA, CAPSTATUSCALLBACKW, _win32_capStatusCallback, capStatusCallback, capStatusCallback callback, capStatusCallback callback function [Windows Multimedia], multimedia.capstatuscallback, vfw/CAPSTATUSCALLBACKA, vfw/CAPSTATUSCALLBACKW, vfw/capStatusCallback
 ms.topic: callback
-f1_keywords: 
- - "vfw/capStatusCallback"
+f1_keywords:
+- vfw/capStatusCallback
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - capStatusCallback
- - CAPSTATUSCALLBACKA
- - CAPSTATUSCALLBACKW
+- capStatusCallback
+- CAPSTATUSCALLBACKA
+- CAPSTATUSCALLBACKW
 targetos: Windows
 req.typenames: 
 req.redist: 

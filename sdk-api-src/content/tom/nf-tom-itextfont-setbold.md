@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont.SetBold
 title: ITextFont::SetBold (tom.h)
-
 description: Sets whether characters are bold.
 old-location: controls\ITextFont_SetBold.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setbold.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetBold method, ITextFont.SetBold, ITextFont::SetBold, SetBold, SetBold method [Windows Controls], SetBold method [Windows Controls],ITextFont interface, _win32_ITextFont_SetBold, _win32_ITextFont_SetBold_cpp, controls.ITextFont_SetBold, controls._win32_ITextFont_SetBold, tom/ITextFont::SetBold
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont.SetBold"
+f1_keywords:
+- tom/ITextFont.SetBold
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont.SetBold
+- ITextFont.SetBold
 targetos: Windows
 req.typenames: 
 req.redist: 

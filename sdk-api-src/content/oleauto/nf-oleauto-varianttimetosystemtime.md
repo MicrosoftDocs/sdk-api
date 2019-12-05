@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VariantTimeToSystemTime
 title: VariantTimeToSystemTime function (oleauto.h)
-
 description: Converts the variant representation of time to system time values.
 old-location: automat\varianttimetosystemtime.htm
 tech.root: automat
 ms.assetid: 954eb6f3-f9f0-4586-9dd7-1632ebc6ef58
-
 ms.date: 12/05/2018
 ms.keywords: VariantTimeToSystemTime, VariantTimeToSystemTime function [Automation], _oa96_VariantTimeToSystemTime, automat.varianttimetosystemtime, oleauto/VariantTimeToSystemTime
 ms.topic: function
-f1_keywords: 
- - "oleauto/VariantTimeToSystemTime"
+f1_keywords:
+- oleauto/VariantTimeToSystemTime
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VariantTimeToSystemTime
+- VariantTimeToSystemTime
 targetos: Windows
 req.typenames: 
 req.redist: 

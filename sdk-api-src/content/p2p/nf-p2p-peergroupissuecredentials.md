@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGroupIssueCredentials
 title: PeerGroupIssueCredentials function (p2p.h)
-
 description: The PeerGroupIssueCredentials function issues credentials, including a GMC, to a specific identity, and optionally returns an invitation XML string the invited peer can use to join a peer group.
 old-location: p2p\peergroupissuecredentials.htm
 tech.root: P2PSdk
 ms.assetid: 81284e61-fc31-47c3-a296-c9c02a2889ec
-
 ms.date: 12/05/2018
 ms.keywords: PEER_GROUP_STORE_CREDENTIALS, PeerGroupIssueCredentials, PeerGroupIssueCredentials function [Peer Networking], p2p.peergroupissuecredentials, p2p/PeerGroupIssueCredentials
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGroupIssueCredentials"
+f1_keywords:
+- p2p/PeerGroupIssueCredentials
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerGroupIssueCredentials
+- PeerGroupIssueCredentials
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.GetDeviceManufacturer
 title: IWICBitmapCodecInfo::GetDeviceManufacturer (wincodec.h)
-
 description: Retrieves the name of the device manufacture associated with the codec.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_getdevicemanufacturer.htm
 tech.root: wic
 ms.assetid: a69e8195-5dc1-4a25-ab3c-9ea0cb3de074
-
 ms.date: 12/05/2018
 ms.keywords: GetDeviceManufacturer, GetDeviceManufacturer method [Windows Imaging Component], GetDeviceManufacturer method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],GetDeviceManufacturer method, IWICBitmapCodecInfo.GetDeviceManufacturer, IWICBitmapCodecInfo::GetDeviceManufacturer, _wic_codec_iwicbitmapcodecinfo_getdevicemanufacturer, wic._wic_codec_iwicbitmapcodecinfo_getdevicemanufacturer, wincodec/IWICBitmapCodecInfo::GetDeviceManufacturer
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapCodecInfo.GetDeviceManufacturer"
+f1_keywords:
+- wincodec/IWICBitmapCodecInfo.GetDeviceManufacturer
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapCodecInfo.GetDeviceManufacturer
+- IWICBitmapCodecInfo.GetDeviceManufacturer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.get_PivotRadius
 title: IManipulationProcessor::get_PivotRadius (manipulations.h)
-
 description: The PivotRadius property is used to determine how much rotation is used in single finger manipulation.
 old-location: wintouch\imanipulationprocessor_pivotradius.htm
 tech.root: wintouch
 ms.assetid: 793999b6-abb1-4912-9e9c-764f6f68ea29
-
 ms.date: 12/05/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],PivotRadius property, IManipulationProcessor.PivotRadius, IManipulationProcessor.get_PivotRadius, IManipulationProcessor::PivotRadius, IManipulationProcessor::get_PivotRadius, IManipulationProcessor::put_PivotRadius, PivotRadius property [Windows Touch], PivotRadius property [Windows Touch],IManipulationProcessor interface, get_PivotRadius, manipulations/IManipulationProcessor::PivotRadius, manipulations/IManipulationProcessor::get_PivotRadius, manipulations/IManipulationProcessor::put_PivotRadius, wintouch.imanipulationprocessor_pivotradius
 ms.topic: method
-f1_keywords: 
- - "manipulations/IManipulationProcessor.PivotRadius"
+f1_keywords:
+- manipulations/IManipulationProcessor.PivotRadius
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - IManipulationProcessor.PivotRadius
- - IManipulationProcessor.get_PivotRadius
- - IManipulationProcessor.put_PivotRadius
+- IManipulationProcessor.PivotRadius
+- IManipulationProcessor.get_PivotRadius
+- IManipulationProcessor.put_PivotRadius
 targetos: Windows
 req.typenames: 
 req.redist: 

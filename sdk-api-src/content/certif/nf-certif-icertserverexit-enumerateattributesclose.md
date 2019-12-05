@@ -1,19 +1,17 @@
 ---
 UID: NF:certif.ICertServerExit.EnumerateAttributesClose
 title: ICertServerExit::EnumerateAttributesClose (certif.h)
-
 description: Frees any resources connected with attribute enumeration.
 old-location: security\icertserverexit_enumerateattributesclose.htm
 tech.root: SecCrypto
 ms.assetid: 6ac7afbb-49c6-45b3-a27e-5ba995684848
-
 ms.date: 12/05/2018
 ms.keywords: CCertServerExit object [Security],EnumerateAttributesClose method, EnumerateAttributesClose, EnumerateAttributesClose method [Security], EnumerateAttributesClose method [Security],CCertServerExit object, EnumerateAttributesClose method [Security],ICertServerExit interface, ICertServerExit interface [Security],EnumerateAttributesClose method, ICertServerExit.EnumerateAttributesClose, ICertServerExit::EnumerateAttributesClose, _certsrv_icertserverexit_enumerateattributesclose, certif/ICertServerExit::EnumerateAttributesClose, security.icertserverexit_enumerateattributesclose
 ms.topic: method
-f1_keywords: 
- - "certif/ICertServerExit.EnumerateAttributesClose"
+f1_keywords:
+- certif/ICertServerExit.EnumerateAttributesClose
 dev_langs:
- - c++
+- c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certcli.dll
+- Certcli.dll
 api_name:
- - ICertServerExit.EnumerateAttributesClose
- - CCertServerExit.EnumerateAttributesClose
+- ICertServerExit.EnumerateAttributesClose
+- CCertServerExit.EnumerateAttributesClose
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:commdlg.IPrintDialogServices.GetCurrentPrinterName
 title: IPrintDialogServices::GetCurrentPrinterName (commdlg.h)
-
 description: Retrieves the name of the currently selected printer, for use with PrintDlgEx.
 old-location: dlgbox\iprintdialogservices_getcurrentprintername.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxinterfaces\iprintdialogservices\iprintdialogservicesgetcurrentprintername.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPrinterName, GetCurrentPrinterName function, GetCurrentPrinterName method [Dialog Boxes], GetCurrentPrinterName method [Dialog Boxes],IPrintDialogServices interface, IPrintDialogServices interface [Dialog Boxes],GetCurrentPrinterName method, IPrintDialogServices.GetCurrentPrinterName, IPrintDialogServices::GetCurrentPrinterName, _win32_IPrintDialogServices_GetCurrentPrinterName, _win32_iprintdialogservices_getcurrentprintername_cpp, commdlg/IPrintDialogServices::GetCurrentPrinterName, dlgbox.iprintdialogservices_getcurrentprintername, winui._win32_iprintdialogservices_getcurrentprintername
 ms.topic: method
-f1_keywords: 
- - "commdlg/IPrintDialogServices.GetCurrentPrinterName"
+f1_keywords:
+- commdlg/IPrintDialogServices.GetCurrentPrinterName
 dev_langs:
- - c++
+- c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comdlg32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comdlg32.dll
+- Comdlg32.dll
 api_name:
- - IPrintDialogServices.GetCurrentPrinterName
+- IPrintDialogServices.GetCurrentPrinterName
 targetos: Windows
 req.typenames: 
 req.redist: 

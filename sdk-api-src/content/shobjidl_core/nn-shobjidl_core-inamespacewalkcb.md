@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.INamespaceWalkCB
 title: INamespaceWalkCB (shobjidl_core.h)
-
 description: A callback interface exposing methods used with INamespaceWalk.
 old-location: shell\INamespaceWalkCB.htm
 tech.root: shell
 ms.assetid: 15244d6e-6cd7-4dee-8e4e-2533d5a60ae7
-
 ms.date: 12/05/2018
 ms.keywords: INamespaceWalkCB, INamespaceWalkCB interface [Windows Shell], INamespaceWalkCB interface [Windows Shell],described, _win32_INamespaceWalkCB, shell.INamespaceWalkCB, shobjidl_core/INamespaceWalkCB
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/INamespaceWalkCB"
+f1_keywords:
+- shobjidl_core/INamespaceWalkCB
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - INamespaceWalkCB
+- INamespaceWalkCB
 targetos: Windows
 req.typenames: 
 req.redist: 

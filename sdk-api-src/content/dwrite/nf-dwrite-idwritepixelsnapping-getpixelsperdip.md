@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWritePixelSnapping.GetPixelsPerDip
 title: IDWritePixelSnapping::GetPixelsPerDip (dwrite.h)
-
 description: Gets the number of physical pixels per DIP.
 old-location: directwrite\IDWritePixelSnapping_GetPixelsPerDip.htm
 tech.root: DirectWrite
 ms.assetid: 41b07197-e50c-4145-a931-e35e778541cc
-
 ms.date: 12/05/2018
 ms.keywords: GetPixelsPerDip, GetPixelsPerDip method [Direct Write], GetPixelsPerDip method [Direct Write],IDWritePixelSnapping interface, IDWritePixelSnapping interface [Direct Write],GetPixelsPerDip method, IDWritePixelSnapping.GetPixelsPerDip, IDWritePixelSnapping::GetPixelsPerDip, directwrite.IDWritePixelSnapping_GetPixelsPerDip, dwrite/IDWritePixelSnapping::GetPixelsPerDip
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWritePixelSnapping.GetPixelsPerDip"
+f1_keywords:
+- dwrite/IDWritePixelSnapping.GetPixelsPerDip
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWritePixelSnapping.GetPixelsPerDip
+- IDWritePixelSnapping.GetPixelsPerDip
 targetos: Windows
 req.typenames: 
 req.redist: 

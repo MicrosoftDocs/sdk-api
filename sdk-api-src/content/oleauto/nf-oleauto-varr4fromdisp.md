@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarR4FromDisp
 title: VarR4FromDisp function (oleauto.h)
-
 description: Converts the default property of an IDispatch instance to a float value.
 old-location: automat\varr4fromdisp.htm
 tech.root: automat
 ms.assetid: 9ce82c5e-cdcd-45f8-9b58-1dfbbfccd65d
-
 ms.date: 12/05/2018
 ms.keywords: VarR4FromDisp, VarR4FromDisp function [Automation], _oa96_VarR4FromDisp, automat.varr4fromdisp, oleauto/VarR4FromDisp
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarR4FromDisp"
+f1_keywords:
+- oleauto/VarR4FromDisp
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarR4FromDisp
+- VarR4FromDisp
 targetos: Windows
 req.typenames: 
 req.redist: 

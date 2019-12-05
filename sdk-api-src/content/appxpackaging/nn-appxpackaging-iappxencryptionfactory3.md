@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxEncryptionFactory3
 title: IAppxEncryptionFactory3 (appxpackaging.h)
-
 description: Creates objects for encrypting, decrypting, reading, and writing Windows app packages and bundles.
 old-location: appxpkg\iappxencryptionfactory3.htm
 tech.root: appxpkg
 ms.assetid: ABF2F4BE-FC6A-4AF5-BD15-243ABFA055D9
-
 ms.date: 12/05/2018
 ms.keywords: IAppxEncryptionFactory3, IAppxEncryptionFactory3 interface [App packaging and management], IAppxEncryptionFactory3 interface [App packaging and management],described, appxpackaging/IAppxEncryptionFactory3, appxpkg.iappxencryptionfactory3
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxEncryptionFactory3"
+f1_keywords:
+- appxpackaging/IAppxEncryptionFactory3
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxEncryptionFactory3
+- IAppxEncryptionFactory3
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,7 +1,6 @@
 ---
 UID: TP:wsl
 ms.assetid: 6050dbda-ec04-3dd4-a492-e2713ff71245
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

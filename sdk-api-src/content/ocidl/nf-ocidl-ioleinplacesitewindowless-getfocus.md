@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.GetFocus
 title: IOleInPlaceSiteWindowless::GetFocus (ocidl.h)
-
 description: Called by an in-place active, windowless object to determine whether it still has the keyboard focus.
 old-location: com\ioleinplacesitewindowless_getfocus.htm
 tech.root: com
 ms.assetid: 282f350c-d196-40c2-880f-55f28dc48f2b
-
 ms.date: 12/05/2018
 ms.keywords: GetFocus, GetFocus method [COM], GetFocus method [COM],IOleInPlaceSiteWindowless interface, IOleInPlaceSiteWindowless interface [COM],GetFocus method, IOleInPlaceSiteWindowless.GetFocus, IOleInPlaceSiteWindowless::GetFocus, _ole_ioleinplacesitewindowless_getfocus, com.ioleinplacesitewindowless_getfocus, ocidl/IOleInPlaceSiteWindowless::GetFocus
 ms.topic: method
-f1_keywords: 
- - "ocidl/IOleInPlaceSiteWindowless.GetFocus"
+f1_keywords:
+- ocidl/IOleInPlaceSiteWindowless.GetFocus
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IOleInPlaceSiteWindowless.GetFocus
+- IOleInPlaceSiteWindowless.GetFocus
 targetos: Windows
 req.typenames: 
 req.redist: 

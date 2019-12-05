@@ -1,19 +1,17 @@
 ---
 UID: NF:ntdsapi.DsFreePasswordCredentials
 title: DsFreePasswordCredentials function (ntdsapi.h)
-
 description: Frees memory allocated for a credentials structure by the DsMakePasswordCredentials function.
 old-location: ad\dsfreepasswordcredentials.htm
 tech.root: ad
 ms.assetid: 3d008aa8-feff-426f-911b-a447257076c2
-
 ms.date: 12/05/2018
 ms.keywords: DsFreePasswordCredentials, DsFreePasswordCredentials function [Active Directory], _glines_dsfreepasswordcredentials, ad.dsfreepasswordcredentials, ntdsapi/DsFreePasswordCredentials
 ms.topic: function
-f1_keywords: 
- - "ntdsapi/DsFreePasswordCredentials"
+f1_keywords:
+- ntdsapi/DsFreePasswordCredentials
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
- - API-MS-Win-Security-ActiveDirectoryClient-l1-1-0.dll
- - KernelBase.dll
- - API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
+- Ntdsapi.dll
+- API-MS-Win-Security-ActiveDirectoryClient-l1-1-0.dll
+- KernelBase.dll
+- API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
 api_name:
- - DsFreePasswordCredentials
+- DsFreePasswordCredentials
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.SuspendGroup
 title: IBackgroundCopyGroup::SuspendGroup (qmgr.h)
-
 description: Use the SuspendGroup method to pause a group in the download queue. New groups, groups that are in error, or groups that have finished downloading are automatically suspended.
 old-location: bits\ibackgroundcopygroup_suspendgroup.htm
 tech.root: Bits
 ms.assetid: ac7600dd-3943-46cf-ad2d-f33d0099f2af
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyGroup interface [BITS],SuspendGroup method, IBackgroundCopyGroup.SuspendGroup, IBackgroundCopyGroup::SuspendGroup, SuspendGroup, SuspendGroup method [BITS], SuspendGroup method [BITS],IBackgroundCopyGroup interface, bits.ibackgroundcopygroup_suspendgroup, qmgr/IBackgroundCopyGroup::SuspendGroup
 ms.topic: method
-f1_keywords: 
- - "qmgr/IBackgroundCopyGroup.SuspendGroup"
+f1_keywords:
+- qmgr/IBackgroundCopyGroup.SuspendGroup
 dev_langs:
- - c++
+- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyGroup.SuspendGroup
+- IBackgroundCopyGroup.SuspendGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

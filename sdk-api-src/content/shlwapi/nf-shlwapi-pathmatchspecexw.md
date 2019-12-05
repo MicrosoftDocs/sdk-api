@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.PathMatchSpecExW
 title: PathMatchSpecExW function (shlwapi.h)
-
 description: Matches a file name from a path against one or more file name patterns.
 old-location: shell\PathMatchSpecEx.htm
 tech.root: shell
 ms.assetid: bd9bf950-e349-4b67-8608-7acad84c0907
-
 ms.date: 12/05/2018
 ms.keywords: PMSF_DONT_STRIP_SPACES, PMSF_MULTIPLE, PMSF_NORMAL, PathMatchSpecEx, PathMatchSpecEx function [Windows Shell], PathMatchSpecExA, PathMatchSpecExW, _win32_PathMatchSpecEx, shell.PathMatchSpecEx, shlwapi/PathMatchSpecEx, shlwapi/PathMatchSpecExA, shlwapi/PathMatchSpecExW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/PathMatchSpecEx"
+f1_keywords:
+- shlwapi/PathMatchSpecEx
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 7.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - PathMatchSpecEx
- - PathMatchSpecExA
- - PathMatchSpecExW
+- PathMatchSpecEx
+- PathMatchSpecExA
+- PathMatchSpecExW
 targetos: Windows
 req.typenames: 
 req.redist: 

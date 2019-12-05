@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3cc.ITAgent.get_NumberOfIncomingCalls
 title: ITAgent::get_NumberOfIncomingCalls (tapi3cc.h)
-
 description: The get_NumberOfIncomingCalls method gets the number of incoming non-ACD calls handled by this agent.
 old-location: tapi3\itagent_get_numberofincomingcalls.htm
 tech.root: Tapi
 ms.assetid: d70073e9-a181-4f8d-b34f-95c8a24fe8d6
-
 ms.date: 12/05/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_NumberOfIncomingCalls method, ITAgent.get_NumberOfIncomingCalls, ITAgent::get_NumberOfIncomingCalls, _tapi3_itagent_get_numberofincomingcalls, get_NumberOfIncomingCalls, get_NumberOfIncomingCalls method [TAPI 2.2], get_NumberOfIncomingCalls method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_numberofincomingcalls, tapi3cc/ITAgent::get_NumberOfIncomingCalls
 ms.topic: method
-f1_keywords: 
- - "tapi3cc/ITAgent.get_NumberOfIncomingCalls"
+f1_keywords:
+- tapi3cc/ITAgent.get_NumberOfIncomingCalls
 dev_langs:
- - c++
+- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAgent.get_NumberOfIncomingCalls
+- ITAgent.get_NumberOfIncomingCalls
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:dvdmedia._DVD_REGION
 title: DVD_REGION (dvdmedia.h)
-
 description: Identifies the DVD region as reported by the local system components.
 old-location: dshow\dvd_region.htm
 tech.root: DirectShow
 ms.assetid: 2a555f98-5037-4a99-a1b7-bea36527309b
-
 ms.date: 12/05/2018
-ms.keywords: "*PDVD_REGION, DVD_REGION, DVD_REGION structure [DirectShow], DVD_REGIONStructure, PDVD_REGION, PDVD_REGION structure pointer [DirectShow], dshow.dvd_region, dvdmedia/DVD_REGION, dvdmedia/PDVD_REGION"
+ms.keywords: '*PDVD_REGION, DVD_REGION, DVD_REGION structure [DirectShow], DVD_REGIONStructure, PDVD_REGION, PDVD_REGION structure pointer [DirectShow], dshow.dvd_region, dvdmedia/DVD_REGION, dvdmedia/PDVD_REGION'
 ms.topic: struct
-f1_keywords: 
- - "dvdmedia/DVD_REGION"
+f1_keywords:
+- dvdmedia/DVD_REGION
 dev_langs:
- - c++
+- c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dvdmedia.h
+- Dvdmedia.h
 api_name:
- - DVD_REGION
+- DVD_REGION
 targetos: Windows
 req.typenames: DVD_REGION, *PDVD_REGION
 req.redist: 

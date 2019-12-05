@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_RetryDelay
 title: IFaxConfiguration::put_RetryDelay (faxcomex.h)
-
 description: Sets or retrieves a value that indicates the length of time the fax service should wait before retrying a failed fax transmission.
 old-location: fax\_mfax_IFaxConfiguration_RetryDelay.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\retrydelay.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxConfiguration interface [Fax Service],RetryDelay property, IFaxConfiguration.RetryDelay, IFaxConfiguration.put_RetryDelay, IFaxConfiguration::RetryDelay, IFaxConfiguration::get_RetryDelay, IFaxConfiguration::put_RetryDelay, RetryDelay property [Fax Service], RetryDelay property [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_RetryDelay, fax._mfax_IFaxConfiguration_RetryDelay, faxcomex/IFaxConfiguration::RetryDelay, faxcomex/IFaxConfiguration::get_RetryDelay, faxcomex/IFaxConfiguration::put_RetryDelay, put_RetryDelay
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxConfiguration.RetryDelay"
+f1_keywords:
+- faxcomex/IFaxConfiguration.RetryDelay
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxConfiguration.RetryDelay
- - IFaxConfiguration.get_RetryDelay
- - IFaxConfiguration.put_RetryDelay
+- IFaxConfiguration.RetryDelay
+- IFaxConfiguration.get_RetryDelay
+- IFaxConfiguration.put_RetryDelay
 targetos: Windows
 req.typenames: 
 req.redist: 

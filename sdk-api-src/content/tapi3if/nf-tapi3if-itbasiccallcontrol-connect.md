@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.Connect
 title: ITBasicCallControl::Connect (tapi3if.h)
-
 description: The Connect method attempts to complete the connection of an outgoing call.
 old-location: tapi3\itbasiccallcontrol_connect.htm
 tech.root: Tapi
 ms.assetid: cc9a8bfd-14c0-459c-a911-325b73323c08
-
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [TAPI 2.2], Connect method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],Connect method, ITBasicCallControl.Connect, ITBasicCallControl::Connect, _tapi3_itbasiccallcontrol_connect, tapi3.itbasiccallcontrol_connect, tapi3if/ITBasicCallControl::Connect
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITBasicCallControl.Connect"
+f1_keywords:
+- tapi3if/ITBasicCallControl.Connect
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITBasicCallControl.Connect
+- ITBasicCallControl.Connect
 targetos: Windows
 req.typenames: 
 req.redist: 

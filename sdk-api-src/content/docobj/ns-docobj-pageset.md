@@ -1,19 +1,17 @@
 ---
 UID: NS:docobj.tagPAGESET
 title: PAGESET (docobj.h)
-
 description: Identifies one or more page-ranges to be printed and, optionally, identifies only the even or odd pages as part of a pageset.
 old-location: com\pageset.htm
 tech.root: com
 ms.assetid: 9639c743-2509-4611-833b-16d16fce420a
-
 ms.date: 12/05/2018
 ms.keywords: PAGESET, PAGESET structure [COM], _ctrl_PAGESET, com.pageset, docobj/PAGESET
 ms.topic: struct
-f1_keywords: 
- - "docobj/PAGESET"
+f1_keywords:
+- docobj/PAGESET
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Docobj.h
+- Docobj.h
 api_name:
- - PAGESET
+- PAGESET
 targetos: Windows
 req.typenames: PAGESET
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.PauseApplicationInstances
 title: ICOMAdminCatalog2::PauseApplicationInstances (comadmin.h)
-
 description: Pauses the specified application server processes.
 old-location: cos\icomadmincatalog2_pauseapplicationinstances.htm
 tech.root: cossdk
 ms.assetid: 59771a5d-894b-46de-9874-ece4aca7232f
-
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog2 interface [COM+],PauseApplicationInstances method, ICOMAdminCatalog2.PauseApplicationInstances, ICOMAdminCatalog2::PauseApplicationInstances, PauseApplicationInstances, PauseApplicationInstances method [COM+], PauseApplicationInstances method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_PauseApplicationInstances, comadmin/ICOMAdminCatalog2::PauseApplicationInstances, cos.icomadmincatalog2_pauseapplicationinstances
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog2.PauseApplicationInstances"
+f1_keywords:
+- comadmin/ICOMAdminCatalog2.PauseApplicationInstances
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog2.PauseApplicationInstances
+- ICOMAdminCatalog2.PauseApplicationInstances
 targetos: Windows
 req.typenames: 
 req.redist: 

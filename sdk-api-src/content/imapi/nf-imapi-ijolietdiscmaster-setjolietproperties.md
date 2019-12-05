@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi.IJolietDiscMaster.SetJolietProperties
 title: IJolietDiscMaster::SetJolietProperties (imapi.h)
-
 description: Sets the Joliet properties.
 old-location: imapi\ijolietdiscmaster_setjolietproperties.htm
 tech.root: imapi
 ms.assetid: 467f8fb8-2a82-46d2-b304-3c3a600a9c63
-
 ms.date: 12/05/2018
 ms.keywords: IJolietDiscMaster interface [IMAPI],SetJolietProperties method, IJolietDiscMaster.SetJolietProperties, IJolietDiscMaster::SetJolietProperties, SetJolietProperties, SetJolietProperties method [IMAPI], SetJolietProperties method [IMAPI],IJolietDiscMaster interface, _win32_ijolietdiscmaster_setjolietproperties, base.ijolietdiscmaster_setjolietproperties, imapi.ijolietdiscmaster_setjolietproperties, imapi/IJolietDiscMaster::SetJolietProperties
 ms.topic: method
-f1_keywords: 
- - "imapi/IJolietDiscMaster.SetJolietProperties"
+f1_keywords:
+- imapi/IJolietDiscMaster.SetJolietProperties
 dev_langs:
- - c++
+- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Actxprxy.dll
+- Actxprxy.dll
 api_name:
- - IJolietDiscMaster.SetJolietProperties
+- IJolietDiscMaster.SetJolietProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

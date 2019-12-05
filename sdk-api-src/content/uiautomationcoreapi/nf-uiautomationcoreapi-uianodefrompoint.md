@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.UiaNodeFromPoint
 title: UiaNodeFromPoint function (uiautomationcoreapi.h)
-
 description: Retrieves the UI Automation node for the element at the specified point.
 old-location: winauto\uiauto_UiaNodeFromPointFunction.htm
 tech.root: WinAuto
 ms.assetid: 46da2f6a-3cb7-4220-b578-4fcf9711b99f
-
 ms.date: 12/05/2018
 ms.keywords: UiaNodeFromPoint, UiaNodeFromPoint function [Windows Accessibility], uiauto.uiauto_UiaNodeFromPointFunction, uiauto_UiaNodeFromPointFunction, uiautomationcoreapi/UiaNodeFromPoint, winauto.uiauto_UiaNodeFromPointFunction
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/UiaNodeFromPoint"
+f1_keywords:
+- uiautomationcoreapi/UiaNodeFromPoint
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - UiaNodeFromPoint
+- UiaNodeFromPoint
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagINPUT_TRANSFORM
 title: INPUT_TRANSFORM (winuser.h)
-
 description: Defines the matrix that represents a transform on a message consumer.
 old-location: inputmsg\input_transform.htm
 tech.root: InputMsg
 ms.assetid: DE6854F0-17D8-4E4B-97CB-A135910A300C
-
 ms.date: 12/05/2018
 ms.keywords: INPUT_TRANSFORM, INPUT_TRANSFORM structure [Windows and Messages], _INPUT_TRANSFORM, inputmsg.input_transform, winuser/INPUT_TRANSFORM
 ms.topic: struct
-f1_keywords: 
- - "winuser/INPUT_TRANSFORM"
+f1_keywords:
+- winuser/INPUT_TRANSFORM
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - INPUT_TRANSFORM
+- INPUT_TRANSFORM
 targetos: Windows
 req.typenames: INPUT_TRANSFORM
 req.redist: 

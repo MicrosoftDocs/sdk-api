@@ -1,19 +1,17 @@
 ---
 UID: NE:strmif.CompressionCaps
 title: CompressionCaps (strmif.h)
-
 description: Indicates video compression capabilities.
 old-location: dshow\compressioncaps.htm
 tech.root: DirectShow
 ms.assetid: e964756f-1c60-42fd-8497-637d5fc005d7
-
 ms.date: 12/05/2018
 ms.keywords: CompressionCaps, CompressionCaps enumeration [DirectShow], CompressionCapsEnumeration, CompressionCaps_CanBFrame, CompressionCaps_CanCrunch, CompressionCaps_CanKeyFrame, CompressionCaps_CanQuality, CompressionCaps_CanWindow, dshow.compressioncaps, strmif/CompressionCaps, strmif/CompressionCaps_CanBFrame, strmif/CompressionCaps_CanCrunch, strmif/CompressionCaps_CanKeyFrame, strmif/CompressionCaps_CanQuality, strmif/CompressionCaps_CanWindow
 ms.topic: enum
-f1_keywords: 
- - "strmif/CompressionCaps"
+f1_keywords:
+- strmif/CompressionCaps
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - CompressionCaps
+- CompressionCaps
 targetos: Windows
 req.typenames: CompressionCaps
 req.redist: 

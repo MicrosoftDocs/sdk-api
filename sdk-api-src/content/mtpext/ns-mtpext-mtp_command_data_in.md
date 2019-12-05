@@ -1,19 +1,17 @@
 ---
 UID: NS:mtpext._MTP_COMMAND_DATA_IN
 title: MTP_COMMAND_DATA_IN (mtpext.h)
-
 description: The MTP_COMMAND_DATA_IN structure contains Media Transport Protocol (MTP) custom commands that are sent to the device by using the IWMDMDevice3::DeviceIoControl method.
 old-location: wmdm\mtp_command_data_in.htm
 tech.root: WMDM
 ms.assetid: a7a6871b-3d53-4134-9877-398c532b489f
-
 ms.date: 12/05/2018
-ms.keywords: "*PMTP_COMMAND_DATA_IN, MTP_COMMAND_DATA_IN, MTP_COMMAND_DATA_IN structure [windows Media Device Manager], PMTP_COMMAND_DATA_IN, PMTP_COMMAND_DATA_IN structure pointer [windows Media Device Manager], mtpext/MTP_COMMAND_DATA_IN, mtpext/PMTP_COMMAND_DATA_IN, wmdm.mtp_command_data_in"
+ms.keywords: '*PMTP_COMMAND_DATA_IN, MTP_COMMAND_DATA_IN, MTP_COMMAND_DATA_IN structure [windows Media Device Manager], PMTP_COMMAND_DATA_IN, PMTP_COMMAND_DATA_IN structure pointer [windows Media Device Manager], mtpext/MTP_COMMAND_DATA_IN, mtpext/PMTP_COMMAND_DATA_IN, wmdm.mtp_command_data_in'
 ms.topic: struct
-f1_keywords: 
- - "mtpext/MTP_COMMAND_DATA_IN"
+f1_keywords:
+- mtpext/MTP_COMMAND_DATA_IN
 dev_langs:
- - c++
+- c++
 req.header: mtpext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - MtpExt.h
+- MtpExt.h
 api_name:
- - MTP_COMMAND_DATA_IN
+- MTP_COMMAND_DATA_IN
 targetos: Windows
 req.typenames: MTP_COMMAND_DATA_IN, *PMTP_COMMAND_DATA_IN
 req.redist: 

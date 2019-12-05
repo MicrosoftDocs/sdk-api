@@ -1,19 +1,17 @@
 ---
 UID: NE:shlwapi.tagSFBS_FLAGS
 title: tagSFBS_FLAGS (shlwapi.h)
-
 description: Specifies how the StrFormatByteSizeEx function should handle rounding of undisplayed digits.
 old-location: shell\SFBS_FLAGS.htm
 tech.root: shell
 ms.assetid: 9b26734b-bda4-4b60-92a3-fe5b3d360dd0
-
 ms.date: 12/05/2018
 ms.keywords: SFBS_FLAGS, SFBS_FLAGS enumeration [Windows Shell], SFBS_FLAGS_ROUND_TO_NEAREST_DISPLAYED_DIGIT, SFBS_FLAGS_TRUNCATE_UNDISPLAYED_DECIMAL_DIGITS, _shell_SFBS_FLAGS, shell.SFBS_FLAGS, shlwapi/SFBS_FLAGS, shlwapi/SFBS_FLAGS_ROUND_TO_NEAREST_DISPLAYED_DIGIT, shlwapi/SFBS_FLAGS_TRUNCATE_UNDISPLAYED_DECIMAL_DIGITS, tagSFBS_FLAGS
 ms.topic: enum
-f1_keywords: 
- - "shlwapi/SFBS_FLAGS"
+f1_keywords:
+- shlwapi/SFBS_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shlwapi.h
+- Shlwapi.h
 api_name:
- - SFBS_FLAGS
+- SFBS_FLAGS
 targetos: Windows
 req.typenames: 
 req.redist: 

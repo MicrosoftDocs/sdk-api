@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMLoadUDecN4_XR
 title: XMLoadUDecN4_XR function (directxpackedvector.h)
-
 description: Loads an extended range XMUDECN4 into an XMVECTOR.
 old-location: dxmath\_xmloadudecn4_xr.htm
 tech.root: dxmath
 ms.assetid: C67EEA1C-C416-4E8F-A0D9-F061EF1CD119
-
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMLoadUDecN4_XR, XMLoadUDecN4_XR, XMLoadUDecN4_XR method [DirectX Math Support APIs], dxmath._xmloadudecn4_xr
 ms.topic: function
-f1_keywords: 
- - "directxpackedvector/XMLoadUDecN4_XR"
+f1_keywords:
+- directxpackedvector/XMLoadUDecN4_XR
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxpackedvector.inl
+- directxpackedvector.inl
 api_name:
- - XMLoadUDecN4_XR
+- XMLoadUDecN4_XR
 targetos: Windows
 req.typenames: 
 req.redist: 

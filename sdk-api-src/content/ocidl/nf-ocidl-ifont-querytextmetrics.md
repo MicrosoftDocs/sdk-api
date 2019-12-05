@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IFont.QueryTextMetrics
 title: IFont::QueryTextMetrics (ocidl.h)
-
 description: Fills a caller-allocated structure with information about the font.
 old-location: com\ifont_querytextmetrics.htm
 tech.root: com
 ms.assetid: 960dcc0b-8769-415c-9d5a-eaf9f4b3aeac
-
 ms.date: 12/05/2018
 ms.keywords: IFont interface [COM],QueryTextMetrics method, IFont.QueryTextMetrics, IFont::QueryTextMetrics, QueryTextMetrics, QueryTextMetrics method [COM], QueryTextMetrics method [COM],IFont interface, _ctrl_ifont_querytextmetrics, com.ifont_querytextmetrics, ocidl/IFont::QueryTextMetrics
 ms.topic: method
-f1_keywords: 
- - "ocidl/IFont.QueryTextMetrics"
+f1_keywords:
+- ocidl/IFont.QueryTextMetrics
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IFont.QueryTextMetrics
+- IFont.QueryTextMetrics
 targetos: Windows
 req.typenames: 
 req.redist: 

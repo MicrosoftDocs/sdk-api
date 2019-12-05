@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IIsdbCAContractInformationDescriptor
 title: IIsdbCAContractInformationDescriptor (dvbsiparser.h)
-
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor.
 old-location: mstv\iisdbcacontractinformationdescriptor.htm
 tech.root: mstv
 ms.assetid: d877a625-d683-4472-98de-f24c165c753a
-
 ms.date: 12/05/2018
 ms.keywords: IIsdbCAContractInformationDescriptor, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies], IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbCAContractInformationDescriptor, mstv.iisdbcacontractinformationdescriptor
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IIsdbCAContractInformationDescriptor"
+f1_keywords:
+- dvbsiparser/IIsdbCAContractInformationDescriptor
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbCAContractInformationDescriptor
+- IIsdbCAContractInformationDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

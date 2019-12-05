@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetPrivateProfileSectionA
 title: GetPrivateProfileSectionA function (winbase.h)
-
 description: Retrieves all the keys and values for the specified section of an initialization file.
 old-location: base\getprivateprofilesection.htm
 tech.root: SysInfo
 ms.assetid: 17e01d6b-e1de-45a5-a620-c967694c24b9
-
 ms.date: 12/05/2018
 ms.keywords: GetPrivateProfileSection, GetPrivateProfileSection function, GetPrivateProfileSectionA, GetPrivateProfileSectionW, _win32_getprivateprofilesection, base.getprivateprofilesection, winbase/GetPrivateProfileSection, winbase/GetPrivateProfileSectionA, winbase/GetPrivateProfileSectionW
 ms.topic: function
-f1_keywords: 
- - "winbase/GetPrivateProfileSection"
+f1_keywords:
+- winbase/GetPrivateProfileSection
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Privateprofile-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Privateprofile-l1-1-1.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-Privateprofile-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Privateprofile-l1-1-1.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
- - GetPrivateProfileSection
- - GetPrivateProfileSectionA
- - GetPrivateProfileSectionW
+- GetPrivateProfileSection
+- GetPrivateProfileSectionA
+- GetPrivateProfileSectionW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualBrush.SetVisualLookup
 title: IXpsOMVisualBrush::SetVisualLookup (xpsobjectmodel.h)
-
 description: Sets the lookup key name of the shared visual, which is stored in a resource dictionary, to be used as the source for the brush.
 old-location: xps\ixpsomvisualbrush_setvisuallookup.htm
 tech.root: printdocs
 ms.assetid: ab98d93c-76fe-477b-9032-c54c0e22a176
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisualBrush interface [XPS Documents and Packaging],SetVisualLookup method, IXpsOMVisualBrush.SetVisualLookup, IXpsOMVisualBrush::SetVisualLookup, SetVisualLookup, SetVisualLookup method [XPS Documents and Packaging], SetVisualLookup method [XPS Documents and Packaging],IXpsOMVisualBrush interface, xps.ixpsomvisualbrush_setvisuallookup, xpsobjectmodel/IXpsOMVisualBrush::SetVisualLookup
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMVisualBrush.SetVisualLookup"
+f1_keywords:
+- xpsobjectmodel/IXpsOMVisualBrush.SetVisualLookup
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMVisualBrush.SetVisualLookup
+- IXpsOMVisualBrush.SetVisualLookup
 targetos: Windows
 req.typenames: 
 req.redist: 

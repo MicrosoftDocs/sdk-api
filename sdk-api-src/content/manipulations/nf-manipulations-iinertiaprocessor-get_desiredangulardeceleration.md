@@ -1,19 +1,17 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.get_DesiredAngularDeceleration
 title: IInertiaProcessor::get_DesiredAngularDeceleration (manipulations.h)
-
 description: The DesiredAngularDeceleration property specifies the desired rate that the target object will stop spinning in radians per msec squared.
 old-location: wintouch\iinertiaprocessor_desiredangulardeceleration.htm
 tech.root: wintouch
 ms.assetid: ee3bb3c8-4d7d-424b-abc9-db7307793794
-
 ms.date: 12/05/2018
 ms.keywords: DesiredAngularDeceleration property [Windows Touch], DesiredAngularDeceleration property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],DesiredAngularDeceleration property, IInertiaProcessor.DesiredAngularDeceleration, IInertiaProcessor.get_DesiredAngularDeceleration, IInertiaProcessor::DesiredAngularDeceleration, IInertiaProcessor::get_DesiredAngularDeceleration, IInertiaProcessor::put_DesiredAngularDeceleration, get_DesiredAngularDeceleration, manipulations/IInertiaProcessor::DesiredAngularDeceleration, manipulations/IInertiaProcessor::get_DesiredAngularDeceleration, manipulations/IInertiaProcessor::put_DesiredAngularDeceleration, wintouch.iinertiaprocessor_desiredangulardeceleration
 ms.topic: method
-f1_keywords: 
- - "manipulations/IInertiaProcessor.DesiredAngularDeceleration"
+f1_keywords:
+- manipulations/IInertiaProcessor.DesiredAngularDeceleration
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - IInertiaProcessor.DesiredAngularDeceleration
- - IInertiaProcessor.get_DesiredAngularDeceleration
- - IInertiaProcessor.put_DesiredAngularDeceleration
+- IInertiaProcessor.DesiredAngularDeceleration
+- IInertiaProcessor.get_DesiredAngularDeceleration
+- IInertiaProcessor.put_DesiredAngularDeceleration
 targetos: Windows
 req.typenames: 
 req.redist: 

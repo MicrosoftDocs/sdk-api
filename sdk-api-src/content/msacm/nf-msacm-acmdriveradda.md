@@ -1,19 +1,17 @@
 ---
 UID: NF:msacm.acmDriverAddA
 title: acmDriverAddA function (msacm.h)
-
 description: The acmDriverAdd function adds a driver to the list of available ACM drivers.
 old-location: multimedia\acmdriveradd.htm
 tech.root: Multimedia
 ms.assetid: f037cab8-a1f4-487f-ab0a-11e11993b007
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_acmDriverAdd, acmDriverAdd, acmDriverAdd function [Windows Multimedia], acmDriverAddA, acmDriverAddW, msacm/acmDriverAdd, msacm/acmDriverAddA, msacm/acmDriverAddW, multimedia.acmdriveradd"
+ms.keywords: _win32_acmDriverAdd, acmDriverAdd, acmDriverAdd function [Windows Multimedia], acmDriverAddA, acmDriverAddW, msacm/acmDriverAdd, msacm/acmDriverAddA, msacm/acmDriverAddW, multimedia.acmdriveradd
 ms.topic: function
-f1_keywords: 
- - "msacm/acmDriverAdd"
+f1_keywords:
+- msacm/acmDriverAdd
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msacm32.dll
- - Ext-MS-Win-mm-msacm-l1-1-0.dll
+- Msacm32.dll
+- Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
- - acmDriverAdd
- - acmDriverAddA
- - acmDriverAddW
+- acmDriverAdd
+- acmDriverAddA
+- acmDriverAddW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:cchannel.CHANNEL_INIT_EVENT_FN
 title: CHANNEL_INIT_EVENT_FN (cchannel.h)
-
 description: An application-defined callback function that Remote Desktop Services calls to notify the client DLL of virtual channel events.
 old-location: termserv\virtualchannelinitevent.htm
 tech.root: TermServ
 ms.assetid: 8a074b6c-7fc1-411f-a50c-64f40c0c4dd6
-
 ms.date: 12/05/2018
 ms.keywords: CHANNEL_EVENT_CONNECTED, CHANNEL_EVENT_DISCONNECTED, CHANNEL_EVENT_INITIALIZED, CHANNEL_EVENT_REMOTE_CONTROL_START, CHANNEL_EVENT_REMOTE_CONTROL_STOP, CHANNEL_EVENT_TERMINATED, CHANNEL_EVENT_V1_CONNECTED, CHANNEL_INIT_EVENT_FN, CHANNEL_INIT_EVENT_FN callback function [Remote Desktop Services], VirtualChannelInitEvent callback, _win32_virtualchannelinitevent, cchannel/CHANNEL_INIT_EVENT_FN, termserv.virtualchannelinitevent
 ms.topic: callback
-f1_keywords: 
- - "cchannel/CHANNEL_INIT_EVENT_FN"
+f1_keywords:
+- cchannel/CHANNEL_INIT_EVENT_FN
 dev_langs:
- - c++
+- c++
 req.header: cchannel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Cchannel.h
+- Cchannel.h
 api_name:
- - CHANNEL_INIT_EVENT_FN
+- CHANNEL_INIT_EVENT_FN
 targetos: Windows
 req.typenames: 
 req.redist: 

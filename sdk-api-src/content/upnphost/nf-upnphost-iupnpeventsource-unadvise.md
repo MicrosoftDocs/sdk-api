@@ -1,19 +1,17 @@
 ---
 UID: NF:upnphost.IUPnPEventSource.Unadvise
 title: IUPnPEventSource::Unadvise (upnphost.h)
-
 description: The Unadvise method is invoked by the device host to stop receiving events. The device host passes in the same pointer that it did when it invoked the IUPnPEventSource::Advise method.
 old-location: upnp\iupnpeventsource_unadvise.htm
 tech.root: upnp
 ms.assetid: 6ae9c53f-eb82-4396-ba85-c95e252911c8
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPEventSource interface [UPnP APIs],Unadvise method, IUPnPEventSource.Unadvise, IUPnPEventSource::Unadvise, Unadvise, Unadvise method [UPnP APIs], Unadvise method [UPnP APIs],IUPnPEventSource interface, _upnp_iupnpeventsource_unadvise, upnp.iupnpeventsource_unadvise, upnphost/IUPnPEventSource::Unadvise
 ms.topic: method
-f1_keywords: 
- - "upnphost/IUPnPEventSource.Unadvise"
+f1_keywords:
+- upnphost/IUPnPEventSource.Unadvise
 dev_langs:
- - c++
+- c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnphost.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnphost.dll
+- Upnphost.dll
 api_name:
- - IUPnPEventSource.Unadvise
+- IUPnPEventSource.Unadvise
 targetos: Windows
 req.typenames: 
 req.redist: 

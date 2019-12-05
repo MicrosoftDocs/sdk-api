@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetWindowTextLengthA
 title: GetWindowTextLengthA function (winuser.h)
-
 description: Retrieves the length, in characters, of the specified window's title bar text (if the window has a title bar).
 old-location: winmsg\getwindowtextlength.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getwindowtextlength.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetWindowTextLength, GetWindowTextLength function [Windows and Messages], GetWindowTextLengthA, GetWindowTextLengthW, _win32_GetWindowTextLength, _win32_getwindowtextlength_cpp, winmsg.getwindowtextlength, winui._win32_getwindowtextlength, winuser/GetWindowTextLength, winuser/GetWindowTextLengthA, winuser/GetWindowTextLengthW
 ms.topic: function
-f1_keywords: 
- - "winuser/GetWindowTextLength"
+f1_keywords:
+- winuser/GetWindowTextLength
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Window-l1-1-1.dll
- - Ext-MS-Win-NTUser-Window-l1-1-2.dll
- - ext-ms-win-ntuser-window-l1-1-3.dll
- - Ext-MS-Win-NTUser-Window-L1-1-0.dll
- - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Window-l1-1-1.dll
+- Ext-MS-Win-NTUser-Window-l1-1-2.dll
+- ext-ms-win-ntuser-window-l1-1-3.dll
+- Ext-MS-Win-NTUser-Window-L1-1-0.dll
+- Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
- - GetWindowTextLength
- - GetWindowTextLengthA
- - GetWindowTextLengthW
+- GetWindowTextLength
+- GetWindowTextLengthA
+- GetWindowTextLengthW
 targetos: Windows
 req.typenames: 
 req.redist: 

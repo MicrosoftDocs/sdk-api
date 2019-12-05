@@ -1,19 +1,17 @@
 ---
 UID: NS:directml.DML_BUFFER_TENSOR_DESC
 title: DML_BUFFER_TENSOR_DESC
-
 description: Describes a tensor that will be stored in a Direct3D 12 buffer resource.
 old-location: direct3d12\dml_buffer_tensor_desc.htm
 tech.root: direct3d12
 ms.assetid: 03EAFF60-1703-47BA-BD77-225BEAC4DFAE
-
 ms.date: 12/5/2018
 ms.keywords: DML_BUFFER_TENSOR_DESC, DML_BUFFER_TENSOR_DESC structure, direct3d12.dml_buffer_tensor_desc, directml/DML_BUFFER_TENSOR_DESC
 ms.topic: struct
-f1_keywords: 
- - "directml/DML_BUFFER_TENSOR_DESC"
+f1_keywords:
+- directml/DML_BUFFER_TENSOR_DESC
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectML.h
+- DirectML.h
 api_name:
- - DML_BUFFER_TENSOR_DESC
+- DML_BUFFER_TENSOR_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 

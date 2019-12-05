@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.IMPEG2TuneRequestFactory
 title: IMPEG2TuneRequestFactory (tuner.h)
-
 description: The IMPEG2TuneRequestFactory interface creates a tune request for a basic MPEG-2 transport stream containing the minimal tables. To obtain this interface, call CoCreateInstance with the class identifier CLSID_MPEG2TuneRequestFactory.
 old-location: mstv\impeg2tunerequestfactory.htm
 tech.root: mstv
 ms.assetid: 0fbeab7d-0c54-45e3-a73c-755df28a16d5
-
 ms.date: 12/05/2018
 ms.keywords: IMPEG2TuneRequestFactory, IMPEG2TuneRequestFactory interface [Microsoft TV Technologies], IMPEG2TuneRequestFactory interface [Microsoft TV Technologies],described, IMPEG2TuneRequestFactoryInterface, mstv.impeg2tunerequestfactory, tuner/IMPEG2TuneRequestFactory
 ms.topic: interface
-f1_keywords: 
- - "tuner/IMPEG2TuneRequestFactory"
+f1_keywords:
+- tuner/IMPEG2TuneRequestFactory
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IMPEG2TuneRequestFactory
+- IMPEG2TuneRequestFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

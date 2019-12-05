@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.GraphicsPath(GpPath)
 title: GraphicsPath::GraphicsPath(GpPath) (gdipluspath.h)
-
 description: This topic lists the constructors of the GraphicsPath class. For a complete class listing, see GraphicsPath Class.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Constructors.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathconstructors.htm
-
 ms.date: 12/05/2018
 ms.keywords: GraphicsPath, GraphicsPath constructors [GDI+], GraphicsPath.GraphicsPath, GraphicsPath.GraphicsPath(GpPath), GraphicsPath::GraphicsPath, GraphicsPath::GraphicsPath(GpPath), _gdiplus_CLASS_GraphicsPath_Constructors, gdiplus._gdiplus_CLASS_GraphicsPath_Constructors, gdipluspath/GraphicsPath
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPath.GraphicsPath"
+f1_keywords:
+- gdipluspath/GraphicsPath.GraphicsPath
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - gdipluspath.h
+- gdipluspath.h
 api_name:
- - GraphicsPath.GraphicsPath
+- GraphicsPath.GraphicsPath
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IHolder.TrackResourceS
 title: IHolder::TrackResourceS (comsvcs.h)
-
 description: Tracks the resource (string version).
 old-location: cos\iholder_trackresources.htm
 tech.root: cossdk
 ms.assetid: 1971820f-49aa-455d-a533-1a88fd8c28b8
-
 ms.date: 12/05/2018
 ms.keywords: IHolder interface [COM+],TrackResourceS method, IHolder.TrackResourceS, IHolder::TrackResourceS, TrackResourceS, TrackResourceS method [COM+], TrackResourceS method [COM+],IHolder interface, _dtc_IHolder_TrackResourceS, comsvcs/IHolder::TrackResourceS, cos.iholder_trackresources
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IHolder.TrackResourceS"
+f1_keywords:
+- comsvcs/IHolder.TrackResourceS
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IHolder.TrackResourceS
+- IHolder.TrackResourceS
 targetos: Windows
 req.typenames: 
 req.redist: 

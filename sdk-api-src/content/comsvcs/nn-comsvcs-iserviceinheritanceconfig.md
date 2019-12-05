@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IServiceInheritanceConfig
 title: IServiceInheritanceConfig (comsvcs.h)
-
 description: Determines whether to construct a new context based on the current context or to create a new context based solely on the information in CServiceConfig.
 old-location: cos\iserviceinheritanceconfig.htm
 tech.root: cossdk
 ms.assetid: 8bb95aef-7470-43cc-941d-2105cdf48f37
-
 ms.date: 12/05/2018
 ms.keywords: IServiceInheritanceConfig, IServiceInheritanceConfig interface [COM+], IServiceInheritanceConfig interface [COM+],described, _cos_IServiceInheritanceConfig, comsvcs/IServiceInheritanceConfig, cos.iserviceinheritanceconfig
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IServiceInheritanceConfig"
+f1_keywords:
+- comsvcs/IServiceInheritanceConfig
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServiceInheritanceConfig
+- IServiceInheritanceConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

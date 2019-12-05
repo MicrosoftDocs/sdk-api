@@ -1,19 +1,17 @@
 ---
 UID: NL:mspcall.CMSPCallMultiGraph
 title: CMSPCallMultiGraph (mspcall.h)
-
 description: Derived from CMSPCallBase, this class defines a call that uses a filter graph for each stream. This extra increased specificity allows this class to implement more of the call's functionality than CMSPCallBase. Defined in MSPcall.h.
 old-location: tapi3\cmspcallmultigraph.htm
 tech.root: Tapi
 ms.assetid: 86512d40-380b-4e98-840d-b7be99a86623
-
 ms.date: 12/05/2018
 ms.keywords: CMSPCallMultiGraph, CMSPCallMultiGraph class [TAPI 2.2], CMSPCallMultiGraph class [TAPI 2.2],described, _tapi3_cmspcallmultigraph, mspcall/CMSPCallMultiGraph, tapi3.cmspcallmultigraph
 ms.topic: class
-f1_keywords: 
- - "mspcall/CMSPCallMultiGraph"
+f1_keywords:
+- mspcall/CMSPCallMultiGraph
 dev_langs:
- - c++
+- c++
 req.header: mspcall.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mspcall.h
+- Mspcall.h
 api_name:
- - CMSPCallMultiGraph
+- CMSPCallMultiGraph
 targetos: Windows
 req.typenames: 
 req.redist: 

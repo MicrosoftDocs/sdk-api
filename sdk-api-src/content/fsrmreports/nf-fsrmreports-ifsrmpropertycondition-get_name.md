@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmPropertyCondition.get_Name
 title: IFsrmPropertyCondition::get_Name (fsrmreports.h)
-
 description: The name of the classification property whose value you want to compare to the property condition's value.
 old-location: fsrm\ifsrmpropertycondition_name.htm
 tech.root: fsrm
 ms.assetid: 45efc964-9632-434a-a4ae-93a65fcb2951
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyCondition interface [File Server Resource Manager],Name property, IFsrmPropertyCondition.Name, IFsrmPropertyCondition.get_Name, IFsrmPropertyCondition::Name, IFsrmPropertyCondition::get_Name, IFsrmPropertyCondition::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmPropertyCondition interface, fs.ifsrmpropertycondition_name, fsrm.ifsrmpropertycondition_name, fsrmreports/IFsrmPropertyCondition::Name, fsrmreports/IFsrmPropertyCondition::get_Name, fsrmreports/IFsrmPropertyCondition::put_Name, get_Name
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmPropertyCondition.Name"
+f1_keywords:
+- fsrmreports/IFsrmPropertyCondition.Name
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPropertyCondition.Name
- - IFsrmPropertyCondition.get_Name
- - IFsrmPropertyCondition.put_Name
+- IFsrmPropertyCondition.Name
+- IFsrmPropertyCondition.get_Name
+- IFsrmPropertyCondition.put_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

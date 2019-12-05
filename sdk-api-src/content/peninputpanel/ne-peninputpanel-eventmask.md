@@ -1,19 +1,17 @@
 ---
 UID: NE:peninputpanel.__MIDL___MIDL_itf_peninputpanel_0000_0000_0007
 title: EventMask (peninputpanel.h)
-
 description: The events on the ITextInputPanel Interface that you can set attention for.
 old-location: tablet\eventmask.htm
 tech.root: tablet
 ms.assetid: 83fefdcf-eb5f-4fb6-b107-dc8abce02bb6
-
 ms.date: 12/05/2018
 ms.keywords: 83fefdcf-eb5f-4fb6-b107-dc8abce02bb6, EventMask, EventMask enumeration [Tablet PC], EventMask_All, EventMask_CorrectionModeChanged, EventMask_CorrectionModeChanging, EventMask_InPlaceSizeChanged, EventMask_InPlaceSizeChanging, EventMask_InPlaceStateChanged, EventMask_InPlaceStateChanging, EventMask_InPlaceVisibilityChanged, EventMask_InPlaceVisibilityChanging, EventMask_InputAreaChanged, EventMask_InputAreaChanging, EventMask_TextInserted, EventMask_TextInserting, peninputpanel/EventMask, peninputpanel/EventMask_All, peninputpanel/EventMask_CorrectionModeChanged, peninputpanel/EventMask_CorrectionModeChanging, peninputpanel/EventMask_InPlaceSizeChanged, peninputpanel/EventMask_InPlaceSizeChanging, peninputpanel/EventMask_InPlaceStateChanged, peninputpanel/EventMask_InPlaceStateChanging, peninputpanel/EventMask_InPlaceVisibilityChanged, peninputpanel/EventMask_InPlaceVisibilityChanging, peninputpanel/EventMask_InputAreaChanged, peninputpanel/EventMask_InputAreaChanging, peninputpanel/EventMask_TextInserted, peninputpanel/EventMask_TextInserting, tablet.eventmask
 ms.topic: enum
-f1_keywords: 
- - "peninputpanel/EventMask"
+f1_keywords:
+- peninputpanel/EventMask
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - peninputpanel.h
+- peninputpanel.h
 api_name:
- - EventMask
+- EventMask
 targetos: Windows
 req.typenames: EventMask
 req.redist: 

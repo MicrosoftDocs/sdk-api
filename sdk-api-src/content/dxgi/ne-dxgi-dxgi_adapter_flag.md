@@ -1,19 +1,17 @@
 ---
 UID: NE:dxgi.DXGI_ADAPTER_FLAG
 title: DXGI_ADAPTER_FLAG (dxgi.h)
-
 description: Identifies the type of DXGI adapter.
 old-location: direct3ddxgi\DXGI_ADAPTER_FLAG.htm
 tech.root: direct3ddxgi
 ms.assetid: 9c3c78cd-4f4e-4753-969a-54ea63583be1
-
 ms.date: 12/05/2018
 ms.keywords: DXGI_ADAPTER_FLAG, DXGI_ADAPTER_FLAG enumeration [DXGI], DXGI_ADAPTER_FLAG_FORCE_DWORD, DXGI_ADAPTER_FLAG_NONE, DXGI_ADAPTER_FLAG_REMOTE, DXGI_ADAPTER_FLAG_SOFTWARE, direct3ddxgi.DXGI_ADAPTER_FLAG, dxgi/DXGI_ADAPTER_FLAG, dxgi/DXGI_ADAPTER_FLAG_FORCE_DWORD, dxgi/DXGI_ADAPTER_FLAG_NONE, dxgi/DXGI_ADAPTER_FLAG_REMOTE, dxgi/DXGI_ADAPTER_FLAG_SOFTWARE, fe5be6dc-81d9-654f-5f9d-829d3affe8d9
 ms.topic: enum
-f1_keywords: 
- - "dxgi/DXGI_ADAPTER_FLAG"
+f1_keywords:
+- dxgi/DXGI_ADAPTER_FLAG
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DXGI.h
+- DXGI.h
 api_name:
- - DXGI_ADAPTER_FLAG
+- DXGI_ADAPTER_FLAG
 targetos: Windows
 req.typenames: DXGI_ADAPTER_FLAG
 req.redist: 

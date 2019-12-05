@@ -1,19 +1,17 @@
 ---
 UID: NN:bdaiface.IBDA_TransportStreamInfo
 title: IBDA_TransportStreamInfo (bdaiface.h)
-
 description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. The IBDA_TransportStreamInfo interface returns the time when the most recent Program Association Table (PAT) section was received.
 old-location: mstv\ibda_transportstreaminfo.htm
 tech.root: mstv
 ms.assetid: c5f37790-f276-41a5-b5bd-7d8c7a7f587f
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_TransportStreamInfo, IBDA_TransportStreamInfo interface [Microsoft TV Technologies], IBDA_TransportStreamInfo interface [Microsoft TV Technologies],described, IBDA_TransportStreamInfoInterface, bdaiface/IBDA_TransportStreamInfo, mstv.ibda_transportstreaminfo
 ms.topic: interface
-f1_keywords: 
- - "bdaiface/IBDA_TransportStreamInfo"
+f1_keywords:
+- bdaiface/IBDA_TransportStreamInfo
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_TransportStreamInfo
+- IBDA_TransportStreamInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

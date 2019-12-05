@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_BYTES_DESCRIPTION
 title: WS_BYTES_DESCRIPTION (webservices.h)
-
 description: Specifies constraints on the set of values which can be deserialized.
 old-location: wsw\ws_bytes_description.htm
 tech.root: wsw
 ms.assetid: 0c5384f9-0f6c-4523-bacb-ec3dd7321648
-
 ms.date: 12/05/2018
 ms.keywords: WS_BYTES_DESCRIPTION, WS_BYTES_DESCRIPTION structure [Web Services for Windows], webservices/WS_BYTES_DESCRIPTION, wsw.ws_bytes_description
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_BYTES_DESCRIPTION"
+f1_keywords:
+- webservices/WS_BYTES_DESCRIPTION
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_BYTES_DESCRIPTION
+- WS_BYTES_DESCRIPTION
 targetos: Windows
 req.typenames: WS_BYTES_DESCRIPTION
 req.redist: 

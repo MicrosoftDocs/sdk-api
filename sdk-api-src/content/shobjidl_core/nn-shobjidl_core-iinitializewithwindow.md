@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IInitializeWithWindow
 title: IInitializeWithWindow (shobjidl_core.h)
-
 description: Exposes a method through which a client can provide an owner window to a Windows Runtime object used in a desktop application.
 old-location: shell\IInitializeWithWindow.htm
 tech.root: shell
 ms.assetid: 8421BFA0-0655-447c-99BB-3D4F049C572D
-
 ms.date: 12/05/2018
 ms.keywords: IInitializeWithWindow, IInitializeWithWindow interface [Windows Shell], IInitializeWithWindow interface [Windows Shell],described, shell.IInitializeWithWindow, shobjidl_core/IInitializeWithWindow
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IInitializeWithWindow"
+f1_keywords:
+- shobjidl_core/IInitializeWithWindow
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IInitializeWithWindow
+- IInitializeWithWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

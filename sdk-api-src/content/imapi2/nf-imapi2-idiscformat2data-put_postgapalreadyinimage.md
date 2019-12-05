@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.put_PostgapAlreadyInImage
 title: IDiscFormat2Data::put_PostgapAlreadyInImage (imapi2.h)
-
 description: Determines if the data stream contains post-writing gaps.
 old-location: imapi\idiscformat2data_put_postgapalreadyinimage.htm
 tech.root: imapi
 ms.assetid: 68dba44b-ac14-4473-9b74-917ce2c5054a
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],put_PostgapAlreadyInImage method, IDiscFormat2Data.put_PostgapAlreadyInImage, IDiscFormat2Data::put_PostgapAlreadyInImage, imapi.idiscformat2data_put_postgapalreadyinimage, imapi2/IDiscFormat2Data::put_PostgapAlreadyInImage, put_PostgapAlreadyInImage, put_PostgapAlreadyInImage method [IMAPI], put_PostgapAlreadyInImage method [IMAPI],IDiscFormat2Data interface
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2Data.put_PostgapAlreadyInImage"
+f1_keywords:
+- imapi2/IDiscFormat2Data.put_PostgapAlreadyInImage
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2Data.put_PostgapAlreadyInImage
+- IDiscFormat2Data.put_PostgapAlreadyInImage
 targetos: Windows
 req.typenames: 
 req.redist: 

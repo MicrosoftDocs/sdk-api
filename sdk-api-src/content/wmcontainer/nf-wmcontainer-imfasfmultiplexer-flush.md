@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFMultiplexer.Flush
 title: IMFASFMultiplexer::Flush (wmcontainer.h)
-
 description: Signals the multiplexer to process all queued output media samples. Call this method after passing the last sample to the multiplexer.
 old-location: mf\imfasfmultiplexer_flush.htm
 tech.root: medfound
 ms.assetid: 44a66374-ad9d-4c76-8c95-21a15e071c6d
-
 ms.date: 12/05/2018
 ms.keywords: 44a66374-ad9d-4c76-8c95-21a15e071c6d, Flush, Flush method [Media Foundation], Flush method [Media Foundation],IMFASFMultiplexer interface, IMFASFMultiplexer interface [Media Foundation],Flush method, IMFASFMultiplexer.Flush, IMFASFMultiplexer::Flush, mf.imfasfmultiplexer_flush, wmcontainer/IMFASFMultiplexer::Flush
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFMultiplexer.Flush"
+f1_keywords:
+- wmcontainer/IMFASFMultiplexer.Flush
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFMultiplexer.Flush
+- IMFASFMultiplexer.Flush
 targetos: Windows
 req.typenames: 
 req.redist: 

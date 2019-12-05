@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_DEPTH_STENCIL_VIEW_DESC
 title: D3D11_DEPTH_STENCIL_VIEW_DESC (d3d11.h)
-
 description: Specifies the subresources of a texture that are accessible from a depth-stencil view.
 old-location: direct3d11\d3d11_depth_stencil_view_desc.htm
 tech.root: direct3d11
 ms.assetid: f073a798-edd5-4e6a-a8a7-1592721ce35d
-
 ms.date: 12/05/2018
 ms.keywords: 3b37b2e7-77a6-e3c7-bed5-e8584a152e68, D3D11_DEPTH_STENCIL_VIEW_DESC, D3D11_DEPTH_STENCIL_VIEW_DESC structure [Direct3D 11], d3d11/D3D11_DEPTH_STENCIL_VIEW_DESC, direct3d11.d3d11_depth_stencil_view_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_DEPTH_STENCIL_VIEW_DESC"
+f1_keywords:
+- d3d11/D3D11_DEPTH_STENCIL_VIEW_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_DEPTH_STENCIL_VIEW_DESC
+- D3D11_DEPTH_STENCIL_VIEW_DESC
 targetos: Windows
 req.typenames: D3D11_DEPTH_STENCIL_VIEW_DESC
 req.redist: 

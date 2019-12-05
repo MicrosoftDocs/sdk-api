@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetNearestColor
 title: GetNearestColor function (wingdi.h)
-
 description: The GetNearestColor function retrieves a color value identifying a color from the system palette that will be displayed when the specified color value is used.
 old-location: gdi\getnearestcolor.htm
 tech.root: gdi
 ms.assetid: 89e4e19b-47be-442e-8eb4-c867bb78f36a
-
 ms.date: 12/05/2018
 ms.keywords: GetNearestColor, GetNearestColor function [Windows GDI], _win32_GetNearestColor, gdi.getnearestcolor, wingdi/GetNearestColor
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetNearestColor"
+f1_keywords:
+- wingdi/GetNearestColor
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - GetNearestColor
+- GetNearestColor
 targetos: Windows
 req.typenames: 
 req.redist: 

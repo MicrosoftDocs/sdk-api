@@ -1,19 +1,17 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual.get_ViewOptions
 title: IShellFolderViewDual::get_ViewOptions (shldisp.h)
-
 description: Gets a set of flags that indicate the current options of the view.
 old-location: shell\IShellFolderViewDual_get_ViewOptions.htm
 tech.root: shell
 ms.assetid: 1ef3a163-bc38-40b2-aa3e-dcd36f87964f
-
 ms.date: 12/05/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],get_ViewOptions method, IShellFolderViewDual.get_ViewOptions, IShellFolderViewDual::get_ViewOptions, _shell_IShellFolderViewDual_get_ViewOptions, get_ViewOptions, get_ViewOptions method [Windows Shell], get_ViewOptions method [Windows Shell],IShellFolderViewDual interface, shell.IShellFolderViewDual_get_ViewOptions, shldisp/IShellFolderViewDual::get_ViewOptions
 ms.topic: method
-f1_keywords: 
- - "shldisp/IShellFolderViewDual.get_ViewOptions"
+f1_keywords:
+- shldisp/IShellFolderViewDual.get_ViewOptions
 dev_langs:
- - c++
+- c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shldisp.h
+- Shldisp.h
 api_name:
- - IShellFolderViewDual.get_ViewOptions
+- IShellFolderViewDual.get_ViewOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

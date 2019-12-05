@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannelDescriptor.GetTag
 title: IDvbLogicalChannelDescriptor::GetTag (dvbsiparser.h)
-
 description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.  .
 old-location: mstv\idvblogicalchanneldescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: fce4b74e-e7bb-419d-bd5a-849c2d050ee9
-
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [DirectShow], GetTag method [DirectShow],IDvbLogicalChannelDescriptor interface, IDvbLogicalChannelDescriptor interface [DirectShow],GetTag method, IDvbLogicalChannelDescriptor.GetTag, IDvbLogicalChannelDescriptor::GetTag, IDvbLogicalChannelDescriptorGetTag, dvbsiparser/IDvbLogicalChannelDescriptor::GetTag, mstv.idvblogicalchanneldescriptor_gettag
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbLogicalChannelDescriptor.GetTag"
+f1_keywords:
+- dvbsiparser/IDvbLogicalChannelDescriptor.GetTag
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbLogicalChannelDescriptor.GetTag
+- IDvbLogicalChannelDescriptor.GetTag
 targetos: Windows
 req.typenames: 
 req.redist: 

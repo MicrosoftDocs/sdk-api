@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFQualityAdvise2.NotifyQualityEvent
 title: IMFQualityAdvise2::NotifyQualityEvent (mfidl.h)
-
 description: Forwards an MEQualityNotify event from the media sink.
 old-location: mf\imfqualityadvise2_notifyqualityevent.htm
 tech.root: medfound
 ms.assetid: 7e39d421-1e7c-4b6d-beba-e24429271378
-
 ms.date: 12/05/2018
 ms.keywords: IMFQualityAdvise2 interface [Media Foundation],NotifyQualityEvent method, IMFQualityAdvise2.NotifyQualityEvent, IMFQualityAdvise2::NotifyQualityEvent, NotifyQualityEvent, NotifyQualityEvent method [Media Foundation], NotifyQualityEvent method [Media Foundation],IMFQualityAdvise2 interface, mf.imfqualityadvise2_notifyqualityevent, mfidl/IMFQualityAdvise2::NotifyQualityEvent
 ms.topic: method
 f1_keywords:
 - mfidl/IMFQualityAdvise2.NotifyQualityEvent
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

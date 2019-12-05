@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnItemDeleted
 title: INameSpaceTreeControlEvents::OnItemDeleted (shobjidl.h)
-
 description: Called after an IShellItem has been deleted.
 old-location: shell\INameSpaceTreeControlEvents_OnItemDeleted.htm
 tech.root: shell
 ms.assetid: be5894ce-bf4c-4738-9096-da9c9d8688ee
-
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnItemDeleted method, INameSpaceTreeControlEvents.OnItemDeleted, INameSpaceTreeControlEvents::OnItemDeleted, OnItemDeleted, OnItemDeleted method [Windows Shell], OnItemDeleted method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnItemDeleted, shell.INameSpaceTreeControlEvents_OnItemDeleted, shobjidl/INameSpaceTreeControlEvents::OnItemDeleted
 ms.topic: method
-f1_keywords: 
- - "shobjidl/INameSpaceTreeControlEvents.OnItemDeleted"
+f1_keywords:
+- shobjidl/INameSpaceTreeControlEvents.OnItemDeleted
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - INameSpaceTreeControlEvents.OnItemDeleted
+- INameSpaceTreeControlEvents.OnItemDeleted
 targetos: Windows
 req.typenames: 
 req.redist: 

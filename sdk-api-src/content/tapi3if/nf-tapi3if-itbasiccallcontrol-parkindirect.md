@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.ParkIndirect
 title: ITBasicCallControl::ParkIndirect (tapi3if.h)
-
 description: The ParkIndirect method parks the call and returns the parked address.
 old-location: tapi3\itbasiccallcontrol_parkindirect.htm
 tech.root: Tapi
 ms.assetid: 661ad11c-b653-4b70-9553-59d484527c29
-
 ms.date: 12/05/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],ParkIndirect method, ITBasicCallControl.ParkIndirect, ITBasicCallControl::ParkIndirect, ParkIndirect, ParkIndirect method [TAPI 2.2], ParkIndirect method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_parkindirect, tapi3.itbasiccallcontrol_parkindirect, tapi3if/ITBasicCallControl::ParkIndirect
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITBasicCallControl.ParkIndirect"
+f1_keywords:
+- tapi3if/ITBasicCallControl.ParkIndirect
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITBasicCallControl.ParkIndirect
+- ITBasicCallControl.ParkIndirect
 targetos: Windows
 req.typenames: 
 req.redist: 

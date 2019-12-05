@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceContent.EnumObjects
 title: IPortableDeviceContent::EnumObjects (portabledeviceapi.h)
-
 description: The EnumObjects method retrieves an interface that is used to enumerate the immediate child objects of an object. It has an optional filter that can enumerate objects with specific properties.
 old-location: wpdsdk\iportabledevicecontent_enumobjects.htm
 tech.root: wpd_sdk
 ms.assetid: 72526019-58c9-4a18-a925-e0a900f3e35a
-
 ms.date: 12/05/2018
 ms.keywords: EnumObjects, EnumObjects method [Windows Portable Devices SDK], EnumObjects method [Windows Portable Devices SDK],IPortableDeviceContent interface, IPortableDeviceContent interface [Windows Portable Devices SDK],EnumObjects method, IPortableDeviceContent.EnumObjects, IPortableDeviceContent::EnumObjects, IPortableDeviceContentEnumObjects, portabledeviceapi/IPortableDeviceContent::EnumObjects, wpdsdk.iportabledevicecontent_enumobjects
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceContent.EnumObjects"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceContent.EnumObjects
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceContent.EnumObjects
+- IPortableDeviceContent.EnumObjects
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:timezoneapi.FileTimeToSystemTime
 title: FileTimeToSystemTime function (timezoneapi.h)
-
 description: Converts a file time to system time format. System time is based on Coordinated Universal Time (UTC).
 old-location: base\filetimetosystemtime.htm
 tech.root: SysInfo
 ms.assetid: d1d55f1f-4daa-4b9d-9962-873e38b1e0cf
-
 ms.date: 12/05/2018
 ms.keywords: FileTimeToSystemTime, FileTimeToSystemTime function, _win32_filetimetosystemtime, base.filetimetosystemtime, timezoneapi/FileTimeToSystemTime, winbase/FileTimeToSystemTime
 ms.topic: function
-f1_keywords: 
- - "timezoneapi/FileTimeToSystemTime"
+f1_keywords:
+- timezoneapi/FileTimeToSystemTime
 dev_langs:
- - c++
+- c++
 req.header: timezoneapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-TimeZone-l1-1-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-TimeZone-l1-1-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - FileTimeToSystemTime
+- FileTimeToSystemTime
 targetos: Windows
 req.typenames: 
 req.redist: 

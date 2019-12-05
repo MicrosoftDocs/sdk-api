@@ -1,19 +1,17 @@
 ---
 UID: NF:winternl.NtQuerySystemInformation
 title: NtQuerySystemInformation function (winternl.h)
-
 description: Retrieves the specified system information.
 old-location: base\ntquerysysteminformation.htm
 tech.root: SysInfo
 ms.assetid: 553ec7b9-c5eb-4955-8dc0-f1c06f59fe31
-
 ms.date: 12/05/2018
 ms.keywords: NtQuerySystemInformation, NtQuerySystemInformation function, SYSTEM_BASIC_INFORMATION, SYSTEM_CODEINTEGRITY_INFORMATION, SYSTEM_EXCEPTION_INFORMATION, SYSTEM_INFORMATION_CLASS, SYSTEM_INTERRUPT_INFORMATION, SYSTEM_KERNEL_VA_SHADOW_INFORMATION, SYSTEM_LEAP_SECOND_INFORMATION, SYSTEM_LOOKASIDE_INFORMATION, SYSTEM_PERFORMANCE_INFORMATION, SYSTEM_POLICY_INFORMATION, SYSTEM_PROCESSOR_PERFORMANCE_INFORMATION, SYSTEM_PROCESS_INFORMATION, SYSTEM_QUERY_PERFORMANCE_COUNTER_INFORMATION, SYSTEM_REGISTRY_QUOTA_INFORMATION, SYSTEM_SPECULATION_CONTROL_INFORMATION, SYSTEM_THREAD_INFORMATION, SYSTEM_TIMEOFDAY_INFORMATION, SYSTEM_VHD_BOOT_INFORMATION, SystemBasicInformation, SystemCodeIntegrityInformation, SystemExceptionInformation, SystemInterruptInformation, SystemKernelVaShadowInformation, SystemLeapSecondInformation, SystemLookasideInformation, SystemPerformanceInformation, SystemPolicyInformation, SystemProcessInformation, SystemProcessorPerformanceInformation, SystemQueryPerformanceCounterInformation, SystemRegistryQuotaInformation, SystemSpeculationControlInformation, SystemTimeOfDayInformation, base.ntquerysysteminformation, winternl/NtQuerySystemInformation
 ms.topic: function
-f1_keywords: 
- - "winternl/NtQuerySystemInformation"
+f1_keywords:
+- winternl/NtQuerySystemInformation
 dev_langs:
- - c++
+- c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdll.dll
+- Ntdll.dll
 api_name:
- - NtQuerySystemInformation
+- NtQuerySystemInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

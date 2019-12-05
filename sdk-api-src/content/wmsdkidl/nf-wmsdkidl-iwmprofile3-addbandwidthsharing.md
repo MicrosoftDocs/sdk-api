@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.AddBandwidthSharing
 title: IWMProfile3::AddBandwidthSharing (wmsdkidl.h)
-
 description: The AddBandwidthSharing method adds an existing bandwidth sharing object to the profile. Bandwidth sharing objects are created with a call to CreateNewBandwidthSharing. You must configure the bandwidth sharing object before adding it to the profile.
 old-location: wmformat\iwmprofile3_addbandwidthsharing.htm
 tech.root: wmformat
 ms.assetid: 174a4583-93fb-41cd-ba14-a959a28c1ea3
-
 ms.date: 12/05/2018
 ms.keywords: AddBandwidthSharing, AddBandwidthSharing method [windows Media Format], AddBandwidthSharing method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],AddBandwidthSharing method, IWMProfile3.AddBandwidthSharing, IWMProfile3::AddBandwidthSharing, IWMProfile3AddBandwidthSharing, wmformat.iwmprofile3_addbandwidthsharing, wmsdkidl/IWMProfile3::AddBandwidthSharing
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMProfile3.AddBandwidthSharing"
+f1_keywords:
+- wmsdkidl/IWMProfile3.AddBandwidthSharing
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMProfile3.AddBandwidthSharing
+- IWMProfile3.AddBandwidthSharing
 targetos: Windows
 req.typenames: 
 req.redist: 

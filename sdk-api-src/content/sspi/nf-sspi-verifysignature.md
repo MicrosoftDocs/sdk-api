@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.VerifySignature
 title: VerifySignature function (sspi.h)
-
 description: Verifies that a message signed by using the MakeSignature function was received in the correct sequence and has not been modified.
 old-location: security\verifysignature.htm
 tech.root: SecAuthN
 ms.assetid: bebeef92-1d6e-4879-846f-12d706db0653
-
 ms.date: 12/05/2018
 ms.keywords: VerifySignature, VerifySignature function [Security], _ssp_verifysignature, security.verifysignature, sspi/VerifySignature
 ms.topic: function
 f1_keywords:
 - sspi/VerifySignature
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

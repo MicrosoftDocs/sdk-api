@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx2.UnexposeSnapshot
 title: IVssBackupComponentsEx2::UnexposeSnapshot (vsbackup.h)
-
 description: Unexposes a shadow copy either by deleting the file share or by removing the drive letter or mounted folder.
 old-location: base\ivssbackupcomponentsex2_unexposesnapshot.htm
 tech.root: VSS
 ms.assetid: b6946b65-b142-41b9-88c0-a1b11caba08e
-
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponentsEx2 interface,UnexposeSnapshot method, IVssBackupComponentsEx2.UnexposeSnapshot, IVssBackupComponentsEx2::UnexposeSnapshot, UnexposeSnapshot, UnexposeSnapshot method, UnexposeSnapshot method,IVssBackupComponentsEx2 interface, base.ivssbackupcomponentsex2_unexposesnapshot, vsbackup/IVssBackupComponentsEx2::UnexposeSnapshot
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponentsEx2.UnexposeSnapshot"
+f1_keywords:
+- vsbackup/IVssBackupComponentsEx2.UnexposeSnapshot
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponentsEx2.UnexposeSnapshot
+- IVssBackupComponentsEx2.UnexposeSnapshot
 targetos: Windows
 req.typenames: 
 req.redist: 

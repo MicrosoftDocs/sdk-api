@@ -1,17 +1,15 @@
 ---
 UID: NE:dwrite_3.DWRITE_FONT_AXIS_ATTRIBUTES
 title: DWRITE_FONT_AXIS_ATTRIBUTES
-
 description: Defines constants that specify attributes for a font axis.
 tech.root: DirectWrite
-
 ms.date: 09/16/2019
 ms.keywords: DWRITE_FONT_AXIS_ATTRIBUTES, DWRITE_FONT_AXIS_ATTRIBUTES enumeration [Direct Write], directwrite.dwrite_font_axis_attributes, dwrite_3/DWRITE_FONT_AXIS_ATTRIBUTES
 ms.topic: enum
-f1_keywords: 
- - "dwrite_3/DWRITE_FONT_AXIS_ATTRIBUTES"
+f1_keywords:
+- dwrite_3/DWRITE_FONT_AXIS_ATTRIBUTES
 dev_langs:
- - c++
+- c++
 req.construct-type: enumeration
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,14 +29,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite_3.h
+- dwrite_3.h
 api_name:
- - DWRITE_FONT_AXIS_ATTRIBUTES
+- DWRITE_FONT_AXIS_ATTRIBUTES
 targetos: Windows
 req.typenames: 
 req.redist: 

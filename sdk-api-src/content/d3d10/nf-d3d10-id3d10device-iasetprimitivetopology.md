@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.IASetPrimitiveTopology
 title: ID3D10Device::IASetPrimitiveTopology (d3d10.h)
-
 description: Bind information about the primitive type, and data order that describes input data for the input assembler stage.
 old-location: direct3d10\id3d10device_iasetprimitivetopology.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_iasetprimitivetopology.htm
-
 ms.date: 12/05/2018
 ms.keywords: 574e830c-3db9-ca52-4b41-1b3e8224137a, IASetPrimitiveTopology, IASetPrimitiveTopology method [Direct3D 10], IASetPrimitiveTopology method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],IASetPrimitiveTopology method, ID3D10Device.IASetPrimitiveTopology, ID3D10Device::IASetPrimitiveTopology, d3d10/ID3D10Device::IASetPrimitiveTopology, direct3d10.id3d10device_iasetprimitivetopology
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.IASetPrimitiveTopology"
+f1_keywords:
+- d3d10/ID3D10Device.IASetPrimitiveTopology
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.IASetPrimitiveTopology
+- ID3D10Device.IASetPrimitiveTopology
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_modify_extW
 title: ldap_modify_extW function (winldap.h)
-
 description: The ldap_modify_ext function changes an existing entry.
 old-location: ldap\ldap_modify_ext.htm
 tech.root: ldap
 ms.assetid: a11f4944-d574-4215-a25e-536adf21c469
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_modify_ext, ldap.ldap__modify__ext, ldap.ldap_modify_ext, ldap_modify_ext, ldap_modify_ext function [LDAP], ldap_modify_extA, ldap_modify_extW, winldap/ldap_modify_ext, winldap/ldap_modify_extA, winldap/ldap_modify_extW"
+ms.keywords: _ldap_ldap_modify_ext, ldap.ldap__modify__ext, ldap.ldap_modify_ext, ldap_modify_ext, ldap_modify_ext function [LDAP], ldap_modify_extA, ldap_modify_extW, winldap/ldap_modify_ext, winldap/ldap_modify_extA, winldap/ldap_modify_extW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_modify_ext"
+f1_keywords:
+- winldap/ldap_modify_ext
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_modify_ext
- - ldap_modify_extA
- - ldap_modify_extW
+- ldap_modify_ext
+- ldap_modify_extA
+- ldap_modify_extW
 targetos: Windows
 req.typenames: 
 req.redist: 

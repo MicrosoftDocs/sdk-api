@@ -1,19 +1,17 @@
 ---
 UID: NN:windowsstoragecom.IStorageItemHandleAccess
 title: IStorageItemHandleAccess (windowsstoragecom.h)
-
 description: Provides access to the operating system handle of a storage file.
 old-location: winrt\istoragehandleaccess.htm
 tech.root: WinRT
 ms.assetid: 802E6D88-7AFC-4C15-8906-3C08CB44707B
-
 ms.date: 12/05/2018
 ms.keywords: IStorageHandleAccess, IStorageItemHandleAccess, IStorageItemHandleAccess interface [Windows Runtime], IStorageItemHandleAccess interface [Windows Runtime],described, windowsstoragecom/IStorageHandleAccess, winrt.istoragehandleaccess
 ms.topic: interface
-f1_keywords: 
- - "windowsstoragecom/IStorageItemHandleAccess"
+f1_keywords:
+- windowsstoragecom/IStorageItemHandleAccess
 dev_langs:
- - c++
+- c++
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Windows.storage.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.storage.dll
+- windows.storage.dll
 api_name:
- - IStorageItemHandleAccess
+- IStorageItemHandleAccess
 targetos: Windows
 req.typenames: 
 req.redist: 

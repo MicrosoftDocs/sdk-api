@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpcsdk.DhcpRegisterParamChange
 title: DhcpRegisterParamChange function (dhcpcsdk.h)
-
 description: The DhcpRegisterParamChange function enables clients to register for notification of changes in DHCP configuration parameters.
 old-location: dhcp\dhcpregisterparamchange.htm
 tech.root: DHCP
 ms.assetid: e0099827-2f88-4309-a5e7-3bc1395de5a2
-
 ms.date: 12/05/2018
 ms.keywords: DhcpRegisterParamChange, DhcpRegisterParamChange function [DHCP], _dhcp_dhcpregisterparamchange, dhcp.dhcpregisterparamchange, dhcpcsdk/DhcpRegisterParamChange
 ms.topic: function
-f1_keywords: 
- - "dhcpcsdk/DhcpRegisterParamChange"
+f1_keywords:
+- dhcpcsdk/DhcpRegisterParamChange
 dev_langs:
- - c++
+- c++
 req.header: dhcpcsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpcsvc.lib
 req.dll: Dhcpcsvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpcsvc.dll
+- Dhcpcsvc.dll
 api_name:
- - DhcpRegisterParamChange
+- DhcpRegisterParamChange
 targetos: Windows
 req.typenames: 
 req.redist: 

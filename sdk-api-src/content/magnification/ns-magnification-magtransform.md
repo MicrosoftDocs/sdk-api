@@ -1,19 +1,17 @@
 ---
 UID: NS:magnification.tagMAGTRANSFORM
 title: MAGTRANSFORM (magnification.h)
-
 description: Describes a transformation matrix that a magnifier control uses to magnify screen content.
 old-location: magapi\magapi_magtransform.htm
 tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\structures\magtransformstruct.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PMAGTRANSFORM, MAGTRANSFORM, MAGTRANSFORM structure [Magnification API], PMAGTRANSFORM, PMAGTRANSFORM structure pointer [Magnification API], magapi.magapi_magtransform, magapi_magtransform, magnification/MAGTRANSFORM, magnification/PMAGTRANSFORM"
+ms.keywords: '*PMAGTRANSFORM, MAGTRANSFORM, MAGTRANSFORM structure [Magnification API], PMAGTRANSFORM, PMAGTRANSFORM structure pointer [Magnification API], magapi.magapi_magtransform, magapi_magtransform, magnification/MAGTRANSFORM, magnification/PMAGTRANSFORM'
 ms.topic: struct
-f1_keywords: 
- - "magnification/MAGTRANSFORM"
+f1_keywords:
+- magnification/MAGTRANSFORM
 dev_langs:
- - c++
+- c++
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Magnification.h
+- Magnification.h
 api_name:
- - MAGTRANSFORM
+- MAGTRANSFORM
 targetos: Windows
 req.typenames: MAGTRANSFORM, *PMAGTRANSFORM
 req.redist: 

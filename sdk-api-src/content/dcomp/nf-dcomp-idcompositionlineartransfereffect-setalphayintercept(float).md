@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetAlphaYIntercept(float)
 title: IDCompositionLinearTransferEffect::SetAlphaYIntercept (dcomp.h)
-
 description: Sets the Y-intercept of the linear function for the alpha channel.
 old-location: directcomp\idcompositionlineartransfereffect_setalphayintercept.htm
 tech.root: directcomp
 ms.assetid: D234752E-E69D-4D64-A052-720BC4424BAE
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetAlphaYIntercept method, IDCompositionLinearTransferEffect.SetAlphaYIntercept, IDCompositionLinearTransferEffect::SetAlphaYIntercept, IDCompositionLinearTransferEffect::SetAlphaYIntercept(float), SetAlphaYIntercept, SetAlphaYIntercept method [DirectComposition], SetAlphaYIntercept method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetAlphaYIntercept, directcomp.idcompositionlineartransfereffect_setalphayintercept
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionLinearTransferEffect.SetAlphaYIntercept"
+f1_keywords:
+- dcomp/IDCompositionLinearTransferEffect.SetAlphaYIntercept
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionLinearTransferEffect.SetAlphaYIntercept
+- IDCompositionLinearTransferEffect.SetAlphaYIntercept
 targetos: Windows
 req.typenames: 
 req.redist: 

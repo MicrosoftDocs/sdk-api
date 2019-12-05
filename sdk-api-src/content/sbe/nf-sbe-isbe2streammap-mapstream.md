@@ -1,19 +1,17 @@
 ---
 UID: NF:sbe.ISBE2StreamMap.MapStream
 title: ISBE2StreamMap::MapStream (sbe.h)
-
 description: Maps a stream to an output pin for a Stream Buffer Source filter.
 old-location: mstv\isbe2streammap_mapstream.htm
 tech.root: mstv
 ms.assetid: efe3b21d-9664-4367-9bfe-4c02589370c4
-
 ms.date: 12/05/2018
 ms.keywords: ISBE2StreamMap interface [Microsoft TV Technologies],MapStream method, ISBE2StreamMap.MapStream, ISBE2StreamMap::MapStream, MapStream, MapStream method [Microsoft TV Technologies], MapStream method [Microsoft TV Technologies],ISBE2StreamMap interface, mstv.isbe2streammap_mapstream, sbe/ISBE2StreamMap::MapStream
 ms.topic: method
-f1_keywords: 
- - "sbe/ISBE2StreamMap.MapStream"
+f1_keywords:
+- sbe/ISBE2StreamMap.MapStream
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbe.h
+- sbe.h
 api_name:
- - ISBE2StreamMap.MapStream
+- ISBE2StreamMap.MapStream
 targetos: Windows
 req.typenames: 
 req.redist: 

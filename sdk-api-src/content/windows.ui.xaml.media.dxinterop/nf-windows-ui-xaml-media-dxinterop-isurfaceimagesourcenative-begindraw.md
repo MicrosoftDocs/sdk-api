@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.ISurfaceImageSourceNative.BeginDraw
 title: ISurfaceImageSourceNative::xaml (windows.ui.xaml.media.dxinterop.h)
-
 description: Opens the supplied DXGI surface for drawing.
 old-location: winrt\isurfaceimagesourcenative_begindraw.htm
 tech.root: WinRT
 ms.assetid: 9F08AF78-AD8B-4AFC-ABFF-7006873FA506
-
 ms.date: 12/05/2018
 ms.keywords: BeginDraw, BeginDraw method [Windows Runtime], BeginDraw method [Windows Runtime],ISurfaceImageSourceNative interface, ISurfaceImageSourceNative interface [Windows Runtime],BeginDraw method, ISurfaceImageSourceNative.BeginDraw, ISurfaceImageSourceNative.xaml, ISurfaceImageSourceNative::BeginDraw, ISurfaceImageSourceNative::xaml, windows/ISurfaceImageSourceNative::BeginDraw, winrt.isurfaceimagesourcenative_begindraw
 ms.topic: method
-f1_keywords: 
- - "windows.ui.xaml.media.dxinterop/ISurfaceImageSourceNative.BeginDraw"
+f1_keywords:
+- windows.ui.xaml.media.dxinterop/ISurfaceImageSourceNative.BeginDraw
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Windows.UI.Xaml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.UI.Xaml.dll
+- Windows.UI.Xaml.dll
 api_name:
- - ISurfaceImageSourceNative.BeginDraw
+- ISurfaceImageSourceNative.BeginDraw
 targetos: Windows
 req.typenames: 
 req.redist: 

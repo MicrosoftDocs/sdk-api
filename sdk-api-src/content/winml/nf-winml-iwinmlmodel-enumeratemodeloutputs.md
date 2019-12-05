@@ -1,19 +1,17 @@
 ---
 UID: NF:winml.IWinMLModel.EnumerateModelOutputs
 title: IWinMLModel::EnumerateModelOutputs (winml.h)
-
 description: Enumerates the WinML model outputs.
 old-location: machinelearning\iwinmlmodel_enumeratemodeloutputs.htm
 tech.root: MachineLearning
 ms.assetid: F946AF8E-67BE-4F4B-9BE3-2142CE646B0B
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateModelOutputs, EnumerateModelOutputs method, EnumerateModelOutputs method,IWinMLModel interface, IWinMLModel interface,EnumerateModelOutputs method, IWinMLModel.EnumerateModelOutputs, IWinMLModel::EnumerateModelOutputs, MachineLearning.iwinmlmodel_enumeratemodeloutputs, winml/IWinMLModel::EnumerateModelOutputs
 ms.topic: method
-f1_keywords: 
- - "winml/IWinMLModel.EnumerateModelOutputs"
+f1_keywords:
+- winml/IWinMLModel.EnumerateModelOutputs
 dev_langs:
- - c++
+- c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winml.lib
 req.dll: Winml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winml.dll
+- winml.dll
 api_name:
- - IWinMLModel.EnumerateModelOutputs
+- IWinMLModel.EnumerateModelOutputs
 targetos: Windows
 req.typenames: 
 req.redist: 

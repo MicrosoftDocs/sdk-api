@@ -1,19 +1,17 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.SetOutputFormat
 title: IAMWstDecoder::SetOutputFormat (iwstdec.h)
-
 description: Downstream filters use the SetOutputFormat method to define an output video format.
 old-location: dshow\iamwstdecoder_setoutputformat.htm
 tech.root: DirectShow
 ms.assetid: 92d19d2b-dce5-4dd6-ac96-a39fa48fa1aa
-
 ms.date: 12/05/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetOutputFormat method, IAMWstDecoder.SetOutputFormat, IAMWstDecoder::SetOutputFormat, IAMWstDecoderSetOutputFormat, SetOutputFormat, SetOutputFormat method [DirectShow], SetOutputFormat method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setoutputformat, iwstdec/IAMWstDecoder::SetOutputFormat
 ms.topic: method
-f1_keywords: 
- - "iwstdec/IAMWstDecoder.SetOutputFormat"
+f1_keywords:
+- iwstdec/IAMWstDecoder.SetOutputFormat
 dev_langs:
- - c++
+- c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMWstDecoder.SetOutputFormat
+- IAMWstDecoder.SetOutputFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

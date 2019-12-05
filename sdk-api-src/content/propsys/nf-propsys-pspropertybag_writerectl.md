@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSPropertyBag_WriteRECTL
 title: PSPropertyBag_WriteRECTL function (propsys.h)
-
 description: Stores the coordinates of a rectangle in a property in a property bag.
 old-location: properties\PSPropertyBag_WriteRECTL.htm
 tech.root: properties
 ms.assetid: 83C29519-CAB0-4989-85B5-70AD79E69D04
-
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_WriteRECTL, PSPropertyBag_WriteRECTL function [Windows Properties], properties.PSPropertyBag_WriteRECTL, propsys/PSPropertyBag_WriteRECTL, shell.PSPropertyBag_WriteRECTL, shell_PSPropertyBag_WriteRECTL
 ms.topic: function
-f1_keywords: 
- - "propsys/PSPropertyBag_WriteRECTL"
+f1_keywords:
+- propsys/PSPropertyBag_WriteRECTL
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSPropertyBag_WriteRECTL
+- PSPropertyBag_WriteRECTL
 targetos: Windows
 req.typenames: 
 req.redist: 

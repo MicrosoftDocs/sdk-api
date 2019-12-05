@@ -1,19 +1,17 @@
 ---
 UID: NF:rend.ITRendezvous.EnumerateDefaultDirectories
 title: ITRendezvous::EnumerateDefaultDirectories (rend.h)
-
 description: The EnumerateDefaultDirectories method enumerates all configured default directories. This method is similar to get_DefaultDirectories but is designed for C/C++.
 old-location: tapi3\itrendezvous_enumeratedefaultdirectories.htm
 tech.root: Tapi
 ms.assetid: fe89a370-32ed-4519-bb98-9d9ea7615eb7
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateDefaultDirectories, EnumerateDefaultDirectories method [TAPI 2.2], EnumerateDefaultDirectories method [TAPI 2.2],ITRendezvous interface, ITRendezvous interface [TAPI 2.2],EnumerateDefaultDirectories method, ITRendezvous.EnumerateDefaultDirectories, ITRendezvous::EnumerateDefaultDirectories, _tapi3_itrendezvous_enumeratedefaultdirectories, rend/ITRendezvous::EnumerateDefaultDirectories, tapi3.itrendezvous_enumeratedefaultdirectories
 ms.topic: method
-f1_keywords: 
- - "rend/ITRendezvous.EnumerateDefaultDirectories"
+f1_keywords:
+- rend/ITRendezvous.EnumerateDefaultDirectories
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - ITRendezvous.EnumerateDefaultDirectories
+- ITRendezvous.EnumerateDefaultDirectories
 targetos: Windows
 req.typenames: 
 req.redist: 

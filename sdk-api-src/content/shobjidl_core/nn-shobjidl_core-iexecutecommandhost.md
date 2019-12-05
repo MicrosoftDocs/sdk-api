@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IExecuteCommandHost
 title: IExecuteCommandHost (shobjidl_core.h)
-
 description: Provides a method that enables an IExplorerCommand-based Shell verb handler to query the UI mode of the host component from which the application was invoked.
 old-location: shell\IExecuteCommandHost.htm
 tech.root: shell
 ms.assetid: ab75d502-c488-4511-9aa1-3af863b8e425
-
 ms.date: 12/05/2018
 ms.keywords: IExecuteCommandHost, IExecuteCommandHost interface [Windows Shell], IExecuteCommandHost interface [Windows Shell],described, shell.IExecuteCommandHost, shobjidl_core/IExecuteCommandHost
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IExecuteCommandHost"
+f1_keywords:
+- shobjidl_core/IExecuteCommandHost
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExecuteCommandHost
+- IExecuteCommandHost
 targetos: Windows
 req.typenames: 
 req.redist: 

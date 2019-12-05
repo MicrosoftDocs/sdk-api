@@ -1,19 +1,17 @@
 ---
 UID: NF:icmpapi.IcmpSendEcho2Ex
 title: IcmpSendEcho2Ex function (icmpapi.h)
-
 description: Sends an IPv4 ICMP echo request and returns either immediately (if Event or ApcRoutine is non-NULL) or returns after the specified time-out. The ReplyBuffer contains the ICMP responses, if any.
 old-location: iphlp\icmpsendecho2ex.htm
 tech.root: IpHlp
 ms.assetid: 7b2b2cae-650f-4ecb-aa2e-a55ee4026999
-
 ms.date: 12/05/2018
 ms.keywords: IcmpSendEcho2Ex, IcmpSendEcho2Ex function [IP Helper], icmpapi/IcmpSendEcho2Ex, iphlp.icmpsendecho2ex
 ms.topic: function
-f1_keywords: 
- - "icmpapi/IcmpSendEcho2Ex"
+f1_keywords:
+- icmpapi/IcmpSendEcho2Ex
 dev_langs:
- - c++
+- c++
 req.header: icmpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - IcmpSendEcho2Ex
+- IcmpSendEcho2Ex
 targetos: Windows
 req.typenames: 
 req.redist: 

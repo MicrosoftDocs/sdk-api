@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetNumaAvailableMemoryNodeEx
 title: GetNumaAvailableMemoryNodeEx function (winbase.h)
-
 description: Retrieves the amount of memory that is available in a node specified as a USHORT value.
 old-location: base\getnumaavailablememorynodeex.htm
 tech.root: ProcThread
 ms.assetid: 59382114-f3da-45e0-843e-51c0fd52a164
-
 ms.date: 12/05/2018
 ms.keywords: GetNumaAvailableMemoryNodeEx, GetNumaAvailableMemoryNodeEx function, base.getnumaavailablememorynodeex, winbase/GetNumaAvailableMemoryNodeEx
 ms.topic: function
-f1_keywords: 
- - "winbase/GetNumaAvailableMemoryNodeEx"
+f1_keywords:
+- winbase/GetNumaAvailableMemoryNodeEx
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - GetNumaAvailableMemoryNodeEx
+- GetNumaAvailableMemoryNodeEx
 targetos: Windows
 req.typenames: 
 req.redist: 

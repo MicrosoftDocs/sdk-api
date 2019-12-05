@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnections.GetOutputConnector
 title: IMILBitmapEffectConnections::GetOutputConnector (mileffects.h)
-
 description: Retrieves the output connector associated with the given pin index.
 old-location: wibe\_wibe_imilbitmapeffectconnections_getoutputconnector.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnections\getoutputconnector.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetOutputConnector, GetOutputConnector method [WPF Bitmap Effects], GetOutputConnector method [WPF Bitmap Effects],IMILBitmapEffectConnections interface, IMILBitmapEffectConnections interface [WPF Bitmap Effects],GetOutputConnector method, IMILBitmapEffectConnections.GetOutputConnector, IMILBitmapEffectConnections::GetOutputConnector, _wibe_imilbitmapeffectconnections_getoutputconnector, mileffects/IMILBitmapEffectConnections::GetOutputConnector, wibe._wibe_imilbitmapeffectconnections_getoutputconnector
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectConnections.GetOutputConnector"
+f1_keywords:
+- mileffects/IMILBitmapEffectConnections.GetOutputConnector
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.h
+- Mileffects.h
 api_name:
- - IMILBitmapEffectConnections.GetOutputConnector
+- IMILBitmapEffectConnections.GetOutputConnector
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

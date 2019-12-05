@@ -1,19 +1,17 @@
 ---
 UID: NF:authz.AuthzSetAppContainerInformation
 title: AuthzSetAppContainerInformation function (authz.h)
-
 description: Sets the app container and capability information in a current Authz context.
 old-location: security\authzsetappcontainerinformation.htm
 tech.root: SecAuthZ
 ms.assetid: CD01C5E1-2367-4CC1-A495-A295E3C82B46
-
 ms.date: 12/05/2018
 ms.keywords: AuthzSetAppContainerInformation, AuthzSetAppContainerInformation function [Security], authz/AuthzSetAppContainerInformation, security.authzsetappcontainerinformation
 ms.topic: function
-f1_keywords: 
- - "authz/AuthzSetAppContainerInformation"
+f1_keywords:
+- authz/AuthzSetAppContainerInformation
 dev_langs:
- - c++
+- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Authz.dll
+- Authz.dll
 api_name:
- - AuthzSetAppContainerInformation
+- AuthzSetAppContainerInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

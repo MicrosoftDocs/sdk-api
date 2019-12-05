@@ -1,19 +1,17 @@
 ---
 UID: NF:ntdsapi.DsAddSidHistoryA
 title: DsAddSidHistoryA function (ntdsapi.h)
-
 description: Retrieves the primary account security identifier (SID) of a security principal from one domain and adds it to the sIDHistory attribute of a security principal in another domain in a different forest.
 old-location: ad\dsaddsidhistory.htm
 tech.root: ad
 ms.assetid: 36ef8734-717a-4c3a-a839-6591d85c9734
-
 ms.date: 12/05/2018
 ms.keywords: DsAddSidHistory, DsAddSidHistory function [Active Directory], DsAddSidHistoryA, DsAddSidHistoryW, _glines_dsaddsidhistory, ad.dsaddsidhistory, ntdsapi/DsAddSidHistory, ntdsapi/DsAddSidHistoryA, ntdsapi/DsAddSidHistoryW
 ms.topic: function
-f1_keywords: 
- - "ntdsapi/DsAddSidHistory"
+f1_keywords:
+- ntdsapi/DsAddSidHistory
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
+- Ntdsapi.dll
 api_name:
- - DsAddSidHistory
- - DsAddSidHistoryA
- - DsAddSidHistoryW
+- DsAddSidHistory
+- DsAddSidHistoryA
+- DsAddSidHistoryW
 targetos: Windows
 req.typenames: 
 req.redist: 

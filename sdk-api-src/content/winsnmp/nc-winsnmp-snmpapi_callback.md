@@ -1,19 +1,17 @@
 ---
 UID: NC:winsnmp.SNMPAPI_CALLBACK
 title: SNMPAPI_CALLBACK (winsnmp.h)
-
 description: The Microsoft WinSNMP implementation calls the SNMPAPI_CALLBACK function to notify a WinSNMP session that an SNMP message or asynchronous event is available.
 old-location: snmp\snmpapi_callback.htm
 tech.root: SNMP
 ms.assetid: 9871b4a8-c96c-48a7-9e7e-7fe1c259545e
-
 ms.date: 12/05/2018
 ms.keywords: SNMPAPI_CALLBACK, SNMPAPI_CALLBACK callback, SNMPAPI_CALLBACK callback function [SNMP], _snmp_snmpapi_callback, snmp.snmpapi_callback, winsnmp/SNMPAPI_CALLBACK
 ms.topic: callback
-f1_keywords: 
- - "winsnmp/SNMPAPI_CALLBACK"
+f1_keywords:
+- winsnmp/SNMPAPI_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winsnmp.h
+- Winsnmp.h
 api_name:
- - SNMPAPI_CALLBACK
+- SNMPAPI_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.GetStringTypeA
 title: GetStringTypeA function (winnls.h)
-
 description: Deprecated.
 old-location: intl\getstringtypea.htm
 tech.root: Intl
 ms.assetid: 8fe771ae-80f6-473d-b2d8-8331c58ffb5a
-
 ms.date: 12/05/2018
 ms.keywords: GetStringTypeA, GetStringTypeA function [Internationalization for Windows Applications], _win32_GetStringTypeA, _win32_GetStringTypeA_cpp, intl.getstringtypea, winnls/GetStringTypeA, winui._win32_GetStringTypeA
 ms.topic: function
-f1_keywords: 
- - "winnls/GetStringTypeA"
+f1_keywords:
+- winnls/GetStringTypeA
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-Obsolete-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-Obsolete-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-Obsolete-L1-3-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-Obsolete-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-Obsolete-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-Obsolete-L1-3-0.dll
 api_name:
- - GetStringTypeA
+- GetStringTypeA
 targetos: Windows
 req.typenames: 
 req.redist: 

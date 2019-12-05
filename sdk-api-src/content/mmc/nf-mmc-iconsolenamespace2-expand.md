@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IConsoleNameSpace2.Expand
 title: IConsoleNameSpace2::Expand (mmc.h)
-
 description: The IConsoleNameSpace2::Expand method enables the snap-in to expand an item in the namespace without visibly expanding the item in the scope pane.
 old-location: mmc\iconsolenamespace2_expand.htm
 tech.root: mmc
 ms.assetid: 3672babb-b172-4f25-8d95-61f3aacce2f0
-
 ms.date: 12/05/2018
 ms.keywords: Expand, Expand method [MMC], Expand method [MMC],IConsoleNameSpace2 interface, IConsoleNameSpace2 interface [MMC],Expand method, IConsoleNameSpace2.Expand, IConsoleNameSpace2::Expand, _slate_iconsolenamespace2_expand, mmc.iconsolenamespace2_expand, mmc/IConsoleNameSpace2::Expand
 ms.topic: method
-f1_keywords: 
- - "mmc/IConsoleNameSpace2.Expand"
+f1_keywords:
+- mmc/IConsoleNameSpace2.Expand
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IConsoleNameSpace2.Expand
+- IConsoleNameSpace2.Expand
 targetos: Windows
 req.typenames: 
 req.redist: 

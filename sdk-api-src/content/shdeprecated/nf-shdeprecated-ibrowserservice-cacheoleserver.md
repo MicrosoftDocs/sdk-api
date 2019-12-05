@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService.CacheOLEServer
 title: IBrowserService::CacheOLEServer (shdeprecated.h)
-
 description: Deprecated. Caches a reference to an external object to avoid reloading the server on reuse.
 old-location: shell\IBrowserService_CacheOLEServer.htm
 tech.root: shell
 ms.assetid: 8999e7d7-f29d-4fc8-8f1f-7a8e8b8f45e6
-
 ms.date: 12/05/2018
 ms.keywords: CacheOLEServer, CacheOLEServer method [Windows Shell], CacheOLEServer method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],CacheOLEServer method, IBrowserService.CacheOLEServer, IBrowserService::CacheOLEServer, shdeprecated/IBrowserService::CacheOLEServer, shell.IBrowserService_CacheOLEServer, zone_IBrowserService_CacheOLEServer
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService.CacheOLEServer"
+f1_keywords:
+- shdeprecated/IBrowserService.CacheOLEServer
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService.CacheOLEServer
+- IBrowserService.CacheOLEServer
 targetos: Windows
 req.typenames: 
 req.redist: 

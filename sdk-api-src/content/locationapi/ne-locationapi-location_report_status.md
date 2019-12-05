@@ -1,19 +1,17 @@
 ---
 UID: NE:locationapi.LOCATION_REPORT_STATUS
 title: LOCATION_REPORT_STATUS (locationapi.h)
-
 description: Defines possible status for new reports of a particular report type.
 old-location: winlocation_com_ref\location_report_status.htm
 tech.root: locationapi
 ms.assetid: 440e64cb-d09c-47cd-9434-8d4479fa52e2
-
 ms.date: 12/05/2018
 ms.keywords: LOCATION_REPORT_STATUS, LOCATION_REPORT_STATUS enumeration [WinLocation], REPORT_ACCESS_DENIED, REPORT_ERROR, REPORT_INITIALIZING, REPORT_NOT_SUPPORTED, REPORT_RUNNING, WinLocation_COM_Ref.location_report_status, locationapi/LOCATION_REPORT_STATUS, locationapi/REPORT_ACCESS_DENIED, locationapi/REPORT_ERROR, locationapi/REPORT_INITIALIZING, locationapi/REPORT_NOT_SUPPORTED, locationapi/REPORT_RUNNING
 ms.topic: enum
-f1_keywords: 
- - "locationapi/LOCATION_REPORT_STATUS"
+f1_keywords:
+- locationapi/LOCATION_REPORT_STATUS
 dev_langs:
- - c++
+- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - LocationApi.h
+- LocationApi.h
 api_name:
- - LOCATION_REPORT_STATUS
+- LOCATION_REPORT_STATUS
 targetos: Windows
 req.typenames: LOCATION_REPORT_STATUS
 req.redist: 

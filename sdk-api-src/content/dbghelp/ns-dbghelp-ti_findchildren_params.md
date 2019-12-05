@@ -1,19 +1,17 @@
 ---
 UID: NS:dbghelp._TI_FINDCHILDREN_PARAMS
 title: TI_FINDCHILDREN_PARAMS (dbghelp.h)
-
 description: Contains type index information. It is used by the SymGetTypeInfo function.
 old-location: base\ti_findchildren_params_str.htm
 tech.root: Debug
 ms.assetid: 618717d2-879d-4284-a4c2-0a5102698ed9
-
 ms.date: 12/05/2018
 ms.keywords: TI_FINDCHILDREN_PARAMS, TI_FINDCHILDREN_PARAMS structure, _TI_FINDCHILDREN_PARAMS, _win32_ti_findchildren_params_str, base.ti_findchildren_params_str, dbghelp/TI_FINDCHILDREN_PARAMS
 ms.topic: struct
-f1_keywords: 
- - "dbghelp/TI_FINDCHILDREN_PARAMS"
+f1_keywords:
+- dbghelp/TI_FINDCHILDREN_PARAMS
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - TI_FINDCHILDREN_PARAMS
+- TI_FINDCHILDREN_PARAMS
 targetos: Windows
 req.typenames: TI_FINDCHILDREN_PARAMS
 req.redist: DbgHelp.dll 5.1 or later

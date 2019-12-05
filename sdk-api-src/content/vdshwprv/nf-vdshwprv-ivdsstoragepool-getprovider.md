@@ -1,19 +1,17 @@
 ---
 UID: NF:vdshwprv.IVdsStoragePool.GetProvider
 title: IVdsStoragePool::GetProvider (vdshwprv.h)
-
 description: Returns the hardware provider that manages the storage pool.
 old-location: base\ivdsstoragepool_getprovider.htm
 tech.root: VDS
 ms.assetid: 46265fca-eabd-4d42-b1fd-6a09c566cde9
-
 ms.date: 12/05/2018
 ms.keywords: GetProvider, GetProvider method, GetProvider method,IVdsStoragePool interface, IVdsStoragePool interface,GetProvider method, IVdsStoragePool.GetProvider, IVdsStoragePool::GetProvider, base.ivdsstoragepool_getprovider, vds/IVdsStoragePool::GetProvider, vdshwprv/IVdsStoragePool::GetProvider
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsStoragePool.GetProvider"
+f1_keywords:
+- vdshwprv/IVdsStoragePool.GetProvider
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsStoragePool.GetProvider
+- IVdsStoragePool.GetProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

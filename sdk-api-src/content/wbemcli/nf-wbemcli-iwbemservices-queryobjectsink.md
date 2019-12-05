@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemServices.QueryObjectSink
 title: IWbemServices::QueryObjectSink (wbemcli.h)
-
 description: The IWbemServices::QueryObjectSink method allows the caller to obtain a notification handler that is exported by Windows Management.
 old-location: wmi\iwbemservices_queryobjectsink.htm
 tech.root: WmiSdk
 ms.assetid: 218b42f2-838d-4d8f-98d2-9334ec29d279
-
 ms.date: 12/05/2018
 ms.keywords: IWbemServices interface [Windows Management Instrumentation],QueryObjectSink method, IWbemServices.QueryObjectSink, IWbemServices::QueryObjectSink, QueryObjectSink, QueryObjectSink method [Windows Management Instrumentation], QueryObjectSink method [Windows Management Instrumentation],IWbemServices interface, _hmm_iwbemservices_queryobjectsink, wbemcli/IWbemServices::QueryObjectSink, wmi.iwbemservices_queryobjectsink
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemServices.QueryObjectSink"
+f1_keywords:
+- wbemcli/IWbemServices.QueryObjectSink
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,28 +30,28 @@ req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll; Esscli.dll; FrameDyn.dll; FrameDynOS.dll; Ntevt.dll; Stdprov.dll; Viewprov.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wbemsvc.dll; Wmipicmp.dll; Wmidcprv.dll; Wmipjobj.dll; Wmiprvsd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fastprox.dll
- - Esscli.dll
- - FrameDyn.dll
- - FrameDynOS.dll
- - Ntevt.dll
- - Stdprov.dll
- - Viewprov.dll
- - Wbemcomn.dll
- - Wbemcore.dll
- - Wbemess.dll
- - Wbemsvc.dll
- - Wmipicmp.dll
- - Wmidcprv.dll
- - Wmipjobj.dll
- - Wmiprvsd.dll
+- Fastprox.dll
+- Esscli.dll
+- FrameDyn.dll
+- FrameDynOS.dll
+- Ntevt.dll
+- Stdprov.dll
+- Viewprov.dll
+- Wbemcomn.dll
+- Wbemcore.dll
+- Wbemess.dll
+- Wbemsvc.dll
+- Wmipicmp.dll
+- Wmidcprv.dll
+- Wmipjobj.dll
+- Wmiprvsd.dll
 api_name:
- - IWbemServices.QueryObjectSink
+- IWbemServices.QueryObjectSink
 targetos: Windows
 req.typenames: 
 req.redist: 

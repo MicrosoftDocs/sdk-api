@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMapping.ResizeMapping
 title: ISimilarityTraitsMapping::ResizeMapping (msrdc.h)
-
 description: Resizes the file mapping object for a similarity traits table file.
 old-location: rdc\isimilaritytraitsmapping_resizemapping.htm
 tech.root: rdc
 ms.assetid: ea4fe3f9-7422-4673-90e4-4907fb8dd690
-
 ms.date: 12/05/2018
 ms.keywords: ISimilarityTraitsMapping interface [Remote Differential Compression],ResizeMapping method, ISimilarityTraitsMapping.ResizeMapping, ISimilarityTraitsMapping::ResizeMapping, ResizeMapping, ResizeMapping method [Remote Differential Compression], ResizeMapping method [Remote Differential Compression],ISimilarityTraitsMapping interface, fs.isimilaritytraitsmapping_resizemapping, msrdc/ISimilarityTraitsMapping::ResizeMapping, rdc.isimilaritytraitsmapping_resizemapping
 ms.topic: method
-f1_keywords: 
- - "msrdc/ISimilarityTraitsMapping.ResizeMapping"
+f1_keywords:
+- msrdc/ISimilarityTraitsMapping.ResizeMapping
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - ISimilarityTraitsMapping.ResizeMapping
+- ISimilarityTraitsMapping.ResizeMapping
 targetos: Windows
 req.typenames: 
 req.redist: 

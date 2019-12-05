@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAContractInformationDescriptor.GetContractVerificationInfo
 title: IIsdbCAContractInformationDescriptor::GetContractVerificationInfo (dvbsiparser.h)
-
 description: Gets data from the contract_verification_info field in an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor. This field is used to determine allowable uses of the conditional access service.
 old-location: mstv\iisdbcacontractinformationdescriptor_getcontractverificationinfo.htm
 tech.root: mstv
 ms.assetid: bfec246a-df34-46c3-9529-dc1fa75582da
-
 ms.date: 12/05/2018
 ms.keywords: GetContractVerificationInfo, GetContractVerificationInfo method [Microsoft TV Technologies], GetContractVerificationInfo method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetContractVerificationInfo method, IIsdbCAContractInformationDescriptor.GetContractVerificationInfo, IIsdbCAContractInformationDescriptor::GetContractVerificationInfo, dvbsiparser/IIsdbCAContractInformationDescriptor::GetContractVerificationInfo, mstv.iisdbcacontractinformationdescriptor_getcontractverificationinfo
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbCAContractInformationDescriptor.GetContractVerificationInfo"
+f1_keywords:
+- dvbsiparser/IIsdbCAContractInformationDescriptor.GetContractVerificationInfo
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbCAContractInformationDescriptor.GetContractVerificationInfo
+- IIsdbCAContractInformationDescriptor.GetContractVerificationInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

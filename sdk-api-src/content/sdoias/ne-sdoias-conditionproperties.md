@@ -1,19 +1,17 @@
 ---
 UID: NE:sdoias._CONDITIONPROPERTIES
 title: CONDITIONPROPERTIES (sdoias.h)
-
 description: The values of the CONDITIONPROPERTIES enumeration type specify the properties of a Network Access Policy (NAP) condition.
 old-location: nps\SDO_conditionproperties.htm
 tech.root: Nps
 ms.assetid: 09cb8457-9baf-4139-ba80-6eb608db6a65
-
 ms.date: 12/05/2018
 ms.keywords: CONDITIONPROPERTIES, CONDITIONPROPERTIES enumeration [Network Policy Server], PROPERTY_CONDITION_TEXT, _sdo_conditionproperties, nps.SDO_conditionproperties, sdo.conditionproperties, sdoias/CONDITIONPROPERTIES, sdoias/PROPERTY_CONDITION_TEXT
 ms.topic: enum
 f1_keywords:
 - sdoias/CONDITIONPROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

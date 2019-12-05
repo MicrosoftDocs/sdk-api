@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToInt64WithDefault
 title: PropVariantToInt64WithDefault function (propvarutil.h)
-
 description: Extracts the Int64 property value of a PROPVARIANT structure. If no value exists, then specified default value is returned.
 old-location: properties\PropVariantToInt64WithDefault.htm
 tech.root: properties
 ms.assetid: 6a051235-3e32-40d3-a17e-efc571592dae
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToInt64WithDefault, PropVariantToInt64WithDefault function [Windows Properties], properties.PropVariantToInt64WithDefault, propvarutil/PropVariantToInt64WithDefault, shell.PropVariantToInt64WithDefault, shell_PropVariantToInt64WithDefault
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToInt64WithDefault"
+f1_keywords:
+- propvarutil/PropVariantToInt64WithDefault
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToInt64WithDefault
+- PropVariantToInt64WithDefault
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

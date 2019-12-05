@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSensorProfileCollection.RemoveProfileByIndex
 title: IMFSensorProfileCollection::RemoveProfileByIndex (mfidl.h)
-
 description: Removes a profile based on the specified index.
 old-location: mf\imfsensorprofilecollection_removeprofilebyindex.htm
 tech.root: medfound
 ms.assetid: 9E1EB9BC-E124-4F26-9CCB-100B139AE0A8
-
 ms.date: 12/05/2018
 ms.keywords: IMFSensorProfileCollection interface [Media Foundation],RemoveProfileByIndex method, IMFSensorProfileCollection.RemoveProfileByIndex, IMFSensorProfileCollection::RemoveProfileByIndex, RemoveProfileByIndex, RemoveProfileByIndex method [Media Foundation], RemoveProfileByIndex method [Media Foundation],IMFSensorProfileCollection interface, mf.imfsensorprofilecollection_removeprofilebyindex, mfidl/IMFSensorProfileCollection::RemoveProfileByIndex
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSensorProfileCollection.RemoveProfileByIndex"
+f1_keywords:
+- mfidl/IMFSensorProfileCollection.RemoveProfileByIndex
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfsensorgroup.lib
 req.dll: Mfsensorgroup.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mfsensorgroup.dll
+- Mfsensorgroup.dll
 api_name:
- - IMFSensorProfileCollection.RemoveProfileByIndex
+- IMFSensorProfileCollection.RemoveProfileByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

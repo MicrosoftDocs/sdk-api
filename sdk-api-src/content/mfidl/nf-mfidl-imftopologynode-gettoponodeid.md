@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.GetTopoNodeID
 title: IMFTopologyNode::GetTopoNodeID (mfidl.h)
-
 description: Retrieves the identifier of the node.
 old-location: mf\imftopologynode_gettoponodeid.htm
 tech.root: medfound
 ms.assetid: 9c0e5be9-6481-4132-ad5b-9db13fb07391
-
 ms.date: 12/05/2018
 ms.keywords: 9c0e5be9-6481-4132-ad5b-9db13fb07391, GetTopoNodeID, GetTopoNodeID method [Media Foundation], GetTopoNodeID method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetTopoNodeID method, IMFTopologyNode.GetTopoNodeID, IMFTopologyNode::GetTopoNodeID, mf.imftopologynode_gettoponodeid, mfidl/IMFTopologyNode::GetTopoNodeID
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTopologyNode.GetTopoNodeID"
+f1_keywords:
+- mfidl/IMFTopologyNode.GetTopoNodeID
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTopologyNode.GetTopoNodeID
+- IMFTopologyNode.GetTopoNodeID
 targetos: Windows
 req.typenames: 
 req.redist: 

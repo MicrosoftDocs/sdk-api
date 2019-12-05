@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector2Less
 title: XMVector2Less function (directxmath.h)
-
 description: Tests whether one 2D vector is less than another 2D vector.
 old-location: dxmath\xmvector2less.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector2Less(XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2Less, XMVector2Less, XMVector2Less method [DirectX Math Support APIs], dxmath.xmvector2less
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector2Less"
+f1_keywords:
+- directxmath/XMVector2Less
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector2Less
+- XMVector2Less
 targetos: Windows
 req.typenames: 
 req.redist: 

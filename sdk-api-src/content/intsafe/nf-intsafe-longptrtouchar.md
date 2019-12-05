@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.LongPtrToUChar
 title: LongPtrToUChar function (intsafe.h)
-
 description: Converts a value of type LONG_PTR to a value of type UCHAR.
 old-location: shell\LongPtrToUChar.htm
 tech.root: shell
 ms.assetid: f509120e-3cb4-4696-b68b-4304155eff3b
-
 ms.date: 12/05/2018
 ms.keywords: LongPtrToUChar, LongPtrToUChar function [Windows Shell], intsafe/LongPtrToUChar, shell.LongPtrToUChar
 ms.topic: function
-f1_keywords: 
- - "intsafe/LongPtrToUChar"
+f1_keywords:
+- intsafe/LongPtrToUChar
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - LongPtrToUChar
+- LongPtrToUChar
 targetos: Windows
 req.typenames: 
 req.redist: 

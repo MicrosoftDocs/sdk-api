@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1svg.D2D1_SVG_ASPECT_SCALING
 title: D2D1_SVG_ASPECT_SCALING (d2d1svg.h)
-
 description: The meetOrSlice portion of the SVG preserveAspectRatio attribute.
 old-location: direct2d\d2d1_svg_aspect_scaling.htm
 tech.root: Direct2D
 ms.assetid: 9053FD0F-7A6C-473D-AB88-C5555A8E1652
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_SVG_ASPECT_SCALING, D2D1_SVG_ASPECT_SCALING enumeration [Direct2D], D2D1_SVG_ASPECT_SCALING_FORCE_DWORD, D2D1_SVG_ASPECT_SCALING_MEET, D2D1_SVG_ASPECT_SCALING_SLICE, d2d1svg/D2D1_SVG_ASPECT_SCALING, d2d1svg/D2D1_SVG_ASPECT_SCALING_FORCE_DWORD, d2d1svg/D2D1_SVG_ASPECT_SCALING_MEET, d2d1svg/D2D1_SVG_ASPECT_SCALING_SLICE, direct2d.d2d1_svg_aspect_scaling
 ms.topic: enum
-f1_keywords: 
- - "d2d1svg/D2D1_SVG_ASPECT_SCALING"
+f1_keywords:
+- d2d1svg/D2D1_SVG_ASPECT_SCALING
 dev_langs:
- - c++
+- c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1svg.h
+- d2d1svg.h
 api_name:
- - D2D1_SVG_ASPECT_SCALING
+- D2D1_SVG_ASPECT_SCALING
 targetos: Windows
 req.typenames: D2D1_SVG_ASPECT_SCALING
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winreg.RegOverridePredefKey
 title: RegOverridePredefKey function (winreg.h)
-
 description: Maps a predefined registry key to the specified registry key.
 old-location: base\regoverridepredefkey.htm
 tech.root: SysInfo
 ms.assetid: ad58b7ff-cd61-4719-9028-b470ae7e9bb0
-
 ms.date: 12/05/2018
 ms.keywords: RegOverridePredefKey, RegOverridePredefKey function, _win32_regoverridepredefkey, base.regoverridepredefkey, winreg/RegOverridePredefKey
 ms.topic: function
-f1_keywords: 
- - "winreg/RegOverridePredefKey"
+f1_keywords:
+- winreg/RegOverridePredefKey
 dev_langs:
- - c++
+- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-Registry-l2-1-0.dll
- - advapi32legacy.dll
- - API-MS-Win-Core-Registry-l2-2-0.dll
+- Advapi32.dll
+- API-MS-Win-Core-Registry-l2-1-0.dll
+- advapi32legacy.dll
+- API-MS-Win-Core-Registry-l2-2-0.dll
 api_name:
- - RegOverridePredefKey
+- RegOverridePredefKey
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.SetTransform
 title: TextureBrush::SetTransform (gdiplusbrush.h)
-
 description: The TextureBrush::SetTransform method sets the transformation matrix of this texture brush.
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_SetTransform_matrix_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushmethods\settransform_41matrix.htm
-
 ms.date: 12/05/2018
 ms.keywords: SetTransform, SetTransform method [GDI+], SetTransform method [GDI+],TextureBrush class, TextureBrush class [GDI+],SetTransform method, TextureBrush.SetTransform, TextureBrush::SetTransform, _gdiplus_CLASS_TextureBrush_SetTransform_matrix_, gdiplus._gdiplus_CLASS_TextureBrush_SetTransform_matrix_
 ms.topic: method
-f1_keywords: 
- - "gdiplusbrush/TextureBrush.SetTransform"
+f1_keywords:
+- gdiplusbrush/TextureBrush.SetTransform
 dev_langs:
- - c++
+- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - TextureBrush.SetTransform
+- TextureBrush.SetTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

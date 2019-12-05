@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectRenderTargetViewVariable.SetRenderTargetArray
 title: ID3D10EffectRenderTargetViewVariable::SetRenderTargetArray (d3d10effect.h)
-
 description: Set an array of render-targets.
 old-location: direct3d10\id3d10effectrendertargetviewvariable_setrendertargetarray.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectrendertargetviewvariable_setrendertargetarray.htm
-
 ms.date: 12/05/2018
 ms.keywords: ID3D10EffectRenderTargetViewVariable interface [Direct3D 10],SetRenderTargetArray method, ID3D10EffectRenderTargetViewVariable.SetRenderTargetArray, ID3D10EffectRenderTargetViewVariable::SetRenderTargetArray, SetRenderTargetArray, SetRenderTargetArray method [Direct3D 10], SetRenderTargetArray method [Direct3D 10],ID3D10EffectRenderTargetViewVariable interface, a376af5c-f301-a40d-27a2-6baa3ac58c55, d3d10effect/ID3D10EffectRenderTargetViewVariable::SetRenderTargetArray, direct3d10.id3d10effectrendertargetviewvariable_setrendertargetarray
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectRenderTargetViewVariable.SetRenderTargetArray"
+f1_keywords:
+- d3d10effect/ID3D10EffectRenderTargetViewVariable.SetRenderTargetArray
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: D3d10
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d10effect.h
+- d3d10effect.h
 api_name:
- - ID3D10EffectRenderTargetViewVariable.SetRenderTargetArray
+- ID3D10EffectRenderTargetViewVariable.SetRenderTargetArray
 targetos: Windows
 req.typenames: 
 req.redist: 

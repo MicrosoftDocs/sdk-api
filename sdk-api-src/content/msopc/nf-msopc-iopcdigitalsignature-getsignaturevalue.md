@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetSignatureValue
 title: IOpcDigitalSignature::GetSignatureValue (msopc.h)
-
 description: Gets the decoded value in the SignatureValue element of the signature markup.
 old-location: opc\iopcdigitalsignature_getsignaturevalue.htm
 tech.root: OPC
 ms.assetid: c918d156-ad32-4a0c-83cc-dd37fe884744
-
 ms.date: 12/05/2018
 ms.keywords: GetSignatureValue, GetSignatureValue method [Open Packaging Conventions], GetSignatureValue method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetSignatureValue method, IOpcDigitalSignature.GetSignatureValue, IOpcDigitalSignature::GetSignatureValue, msopc/IOpcDigitalSignature::GetSignatureValue, opc.iopcdigitalsignature_getsignaturevalue
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcDigitalSignature.GetSignatureValue"
+f1_keywords:
+- msopc/IOpcDigitalSignature.GetSignatureValue
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcDigitalSignature.GetSignatureValue
+- IOpcDigitalSignature.GetSignatureValue
 targetos: Windows
 req.typenames: 
 req.redist: 

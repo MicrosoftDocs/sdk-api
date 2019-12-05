@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Texture3D.Map
 title: ID3D10Texture3D::Map (d3d10.h)
-
 description: Get a pointer to the data contained in a subresource, and deny GPU access to that subresource.
 old-location: direct3d10\id3d10texture3d_map.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10texture3d_map.htm
-
 ms.date: 12/05/2018
 ms.keywords: 0a753acc-a6b4-f192-8a52-1069da27bbff, ID3D10Texture3D interface [Direct3D 10],Map method, ID3D10Texture3D.Map, ID3D10Texture3D::Map, Map, Map method [Direct3D 10], Map method [Direct3D 10],ID3D10Texture3D interface, d3d10/ID3D10Texture3D::Map, direct3d10.id3d10texture3d_map
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Texture3D.Map"
+f1_keywords:
+- d3d10/ID3D10Texture3D.Map
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Texture3D.Map
+- ID3D10Texture3D.Map
 targetos: Windows
 req.typenames: 
 req.redist: 

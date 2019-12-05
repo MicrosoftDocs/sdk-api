@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1VertexBuffer.Map
 title: ID2D1VertexBuffer::Map (d2d1effectauthor.h)
-
 description: Maps the provided data into user memory.
 old-location: direct2d\id2d1vertexbuffer_map.htm
 tech.root: Direct2D
 ms.assetid: 3EFC0584-2F03-4B35-8C6C-E46CDD9D9057
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1VertexBuffer interface [Direct2D],Map method, ID2D1VertexBuffer.Map, ID2D1VertexBuffer::Map, Map, Map method [Direct2D], Map method [Direct2D],ID2D1VertexBuffer interface, d2d1effectauthor/ID2D1VertexBuffer::Map, direct2d.id2d1vertexbuffer_map
 ms.topic: method
-f1_keywords: 
- - "d2d1effectauthor/ID2D1VertexBuffer.Map"
+f1_keywords:
+- d2d1effectauthor/ID2D1VertexBuffer.Map
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1VertexBuffer.Map
+- ID2D1VertexBuffer.Map
 targetos: Windows
 req.typenames: 
 req.redist: 

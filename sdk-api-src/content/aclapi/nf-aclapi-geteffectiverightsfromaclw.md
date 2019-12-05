@@ -1,19 +1,17 @@
 ---
 UID: NF:aclapi.GetEffectiveRightsFromAclW
 title: GetEffectiveRightsFromAclW function (aclapi.h)
-
 description: Retrieves the effective access rights that an ACL structure grants to a specified trustee. The trustee's effective access rights are the access rights that the ACL grants to the trustee or to any groups of which the trustee is a member.
 old-location: security\geteffectiverightsfromacl.htm
 tech.root: SecAuthZ
 ms.assetid: c40973e8-72a9-43a2-9873-ea5c666a094c
-
 ms.date: 12/05/2018
 ms.keywords: GetEffectiveRightsFromAcl, GetEffectiveRightsFromAcl function [Security], GetEffectiveRightsFromAclA, GetEffectiveRightsFromAclW, _win32_geteffectiverightsfromacl, aclapi/GetEffectiveRightsFromAcl, aclapi/GetEffectiveRightsFromAclA, aclapi/GetEffectiveRightsFromAclW, security.geteffectiverightsfromacl
 ms.topic: function
 f1_keywords:
 - aclapi/GetEffectiveRightsFromAcl
 dev_langs:
- - c++
+- c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

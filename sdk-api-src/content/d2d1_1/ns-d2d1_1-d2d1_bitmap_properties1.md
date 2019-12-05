@@ -1,19 +1,17 @@
 ---
 UID: NS:d2d1_1.D2D1_BITMAP_PROPERTIES1
 title: D2D1_BITMAP_PROPERTIES1 (d2d1_1.h)
-
 description: This structure allows a ID2D1Bitmap1 to be created with bitmap options and color context information available.
 old-location: direct2d\d2d1_bitmap_properties1.htm
 tech.root: Direct2D
 ms.assetid: c9371ce3-f6fc-4fe6-ada6-0aa64a8f29a2
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_BITMAP_PROPERTIES1, D2D1_BITMAP_PROPERTIES1 structure [Direct2D], PD2D1_BITMAP_PROPERTIES1, PD2D1_BITMAP_PROPERTIES1 structure pointer [Direct2D], d2d1_1/D2D1_BITMAP_PROPERTIES1, d2d1_1/PD2D1_BITMAP_PROPERTIES1, direct2d.d2d1_bitmap_properties1
 ms.topic: struct
-f1_keywords: 
- - "d2d1_1/D2D1_BITMAP_PROPERTIES1"
+f1_keywords:
+- d2d1_1/D2D1_BITMAP_PROPERTIES1
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - D2D1.lib
+- D2D1.lib
 api_name:
- - D2D1_BITMAP_PROPERTIES1
+- D2D1_BITMAP_PROPERTIES1
 targetos: Windows
 req.typenames: D2D1_BITMAP_PROPERTIES1
 req.redist: 

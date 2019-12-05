@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.TextureBrush(IN Image,IN const RectF &,IN const ImageAttributes)
 title: TextureBrush::TextureBrush(IN Image,IN const RectF &,IN const ImageAttributes) (gdiplusbrush.h)
-
 description: Creates a TextureBrush object based on an image, a defining rectangle, and a set of image properties.
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_RectF_dstRect_ImageAttributes_imageAttributes_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushconstructors\texturebrush_76imageimage_rectfampdstrect_imageattrib.htm
-
 ms.date: 12/05/2018
 ms.keywords: TextureBrush, TextureBrush class [GDI+],TextureBrush constructor, TextureBrush constructor [GDI+], TextureBrush constructor [GDI+],TextureBrush class, TextureBrush.TextureBrush, TextureBrush.TextureBrush(IN Image,IN const RectF &,IN const ImageAttributes), TextureBrush.TextureBrush(Image*,RectF&,ImageAttributes*), TextureBrush::TextureBrush, TextureBrush::TextureBrush(IN Image,IN const RectF &,IN const ImageAttributes), _gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_RectF_dstRect_ImageAttributes_imageAttributes_, gdiplus._gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_RectF_dstRect_ImageAttributes_imageAttributes_
 ms.topic: method
-f1_keywords: 
- - "gdiplusbrush/TextureBrush.TextureBrush"
+f1_keywords:
+- gdiplusbrush/TextureBrush.TextureBrush
 dev_langs:
- - c++
+- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - TextureBrush.TextureBrush
+- TextureBrush.TextureBrush
 targetos: Windows
 req.typenames: 
 req.redist: 

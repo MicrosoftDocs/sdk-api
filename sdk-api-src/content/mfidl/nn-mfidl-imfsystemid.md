@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFSystemId
 title: IMFSystemId (mfidl.h)
-
 description: Provides a method that retireves system id data.
 old-location: mf\imfsystemid.htm
 tech.root: medfound
 ms.assetid: 45c80fc5-5ea7-4d4e-9c9c-5a38f62b2d28
-
 ms.date: 12/05/2018
 ms.keywords: IMFSystemId, IMFSystemId interface [Media Foundation], IMFSystemId interface [Media Foundation],described, mf.imfsystemid, mfidl/IMFSystemId
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFSystemId"
+f1_keywords:
+- mfidl/IMFSystemId
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFSystemId
+- IMFSystemId
 targetos: Windows
 req.typenames: 
 req.redist: 

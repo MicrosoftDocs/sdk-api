@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTuner.put_TuningSpace
 title: IAMTuner::put_TuningSpace (strmif.h)
-
 description: The put_TuningSpace method sets a storage index for regional channel-to-frequency mappings.
 old-location: dshow\iamtuner_put_tuningspace.htm
 tech.root: DirectShow
 ms.assetid: fd0c0bc5-2c46-4c5a-8f93-9021f37a6e6a
-
 ms.date: 12/05/2018
 ms.keywords: IAMTuner interface [DirectShow],put_TuningSpace method, IAMTuner.put_TuningSpace, IAMTuner::put_TuningSpace, IAMTunerput_TuningSpace, dshow.iamtuner_put_tuningspace, put_TuningSpace, put_TuningSpace method [DirectShow], put_TuningSpace method [DirectShow],IAMTuner interface, strmif/IAMTuner::put_TuningSpace
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTuner.put_TuningSpace"
+f1_keywords:
+- strmif/IAMTuner.put_TuningSpace
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTuner.put_TuningSpace
+- IAMTuner.put_TuningSpace
 targetos: Windows
 req.typenames: 
 req.redist: 

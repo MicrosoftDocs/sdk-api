@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IBandSite.AddBand
 title: IBandSite::AddBand (shobjidl_core.h)
-
 description: Adds a band to a band site object.
 old-location: shell\IBandSite_AddBand.htm
 tech.root: shell
 ms.assetid: a954aaf2-f862-4aea-8643-a5b453a8d8ee
-
 ms.date: 12/05/2018
 ms.keywords: AddBand, AddBand method [Windows Shell], AddBand method [Windows Shell],IBandSite interface, IBandSite interface [Windows Shell],AddBand method, IBandSite.AddBand, IBandSite::AddBand, _win32_IBandSite_AddBand, shell.IBandSite_AddBand, shobjidl_core/IBandSite::AddBand
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IBandSite.AddBand"
+f1_keywords:
+- shobjidl_core/IBandSite.AddBand
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shldisp.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IBandSite.AddBand
+- IBandSite.AddBand
 targetos: Windows
 req.typenames: 
 req.redist: 

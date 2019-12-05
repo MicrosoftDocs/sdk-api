@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfo.GetFileName
 title: IAppxBundleManifestPackageInfo::GetFileName (appxpackaging.h)
-
 description: Retrieves the file-name attribute of the package.
 old-location: appxpkg\iappxbundlemanifestpackageinfo_getfilename.htm
 tech.root: appxpkg
 ms.assetid: D8E827D4-0256-4598-A99A-EDB5FA14EDC2
-
 ms.date: 12/05/2018
 ms.keywords: GetFileName, GetFileName method [App packaging and management], GetFileName method [App packaging and management],IAppxBundleManifestPackageInfo interface, IAppxBundleManifestPackageInfo interface [App packaging and management],GetFileName method, IAppxBundleManifestPackageInfo.GetFileName, IAppxBundleManifestPackageInfo::GetFileName, appxpackaging/IAppxBundleManifestPackageInfo::GetFileName, appxpkg.iappxbundlemanifestpackageinfo_getfilename
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxBundleManifestPackageInfo.GetFileName"
+f1_keywords:
+- appxpackaging/IAppxBundleManifestPackageInfo.GetFileName
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBundleManifestPackageInfo.GetFileName
+- IAppxBundleManifestPackageInfo.GetFileName
 targetos: Windows
 req.typenames: 
 req.redist: 

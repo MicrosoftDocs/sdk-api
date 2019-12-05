@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.IEnumTfUIElements.Skip
 title: IEnumTfUIElements::Skip (msctf.h)
-
 description: The IEnumTfUIElements::Skip method obtains, from the current position, the specified number of elements in the enumeration sequence.
 old-location: tsf\ienumtfuielements_skip.htm
 tech.root: TSF
 ms.assetid: 44ba8fb1-e702-4f53-b95a-719b4fdfcaa0
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTfUIElements interface [Text Services Framework],Skip method, IEnumTfUIElements.Skip, IEnumTfUIElements::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfUIElements interface, msctf/IEnumTfUIElements::Skip, tsf.ienumtfuielements_skip
 ms.topic: method
-f1_keywords: 
- - "msctf/IEnumTfUIElements.Skip"
+f1_keywords:
+- msctf/IEnumTfUIElements.Skip
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - IEnumTfUIElements.Skip
+- IEnumTfUIElements.Skip
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

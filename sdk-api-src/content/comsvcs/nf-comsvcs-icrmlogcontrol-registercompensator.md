@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmLogControl.RegisterCompensator
 title: ICrmLogControl::RegisterCompensator (comsvcs.h)
-
 description: The CRM Worker uses this method to register the CRM Compensator with the CRM infrastructure.
 old-location: cos\icrmlogcontrol_registercompensator.htm
 tech.root: cossdk
 ms.assetid: f7907dff-a4a1-4526-8dab-547e819199ec
-
 ms.date: 12/05/2018
 ms.keywords: ICrmLogControl interface [COM+],RegisterCompensator method, ICrmLogControl.RegisterCompensator, ICrmLogControl::RegisterCompensator, RegisterCompensator, RegisterCompensator method [COM+], RegisterCompensator method [COM+],ICrmLogControl interface, _dtc_ICrmLogControl_RegisterCompensator, comsvcs/ICrmLogControl::RegisterCompensator, cos.icrmlogcontrol_registercompensator
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmLogControl.RegisterCompensator"
+f1_keywords:
+- comsvcs/ICrmLogControl.RegisterCompensator
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmLogControl.RegisterCompensator
+- ICrmLogControl.RegisterCompensator
 targetos: Windows
 req.typenames: 
 req.redist: 

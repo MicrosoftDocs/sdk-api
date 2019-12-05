@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionSkewTransform.SetCenterX(IDCompositionAnimation)
 title: IDCompositionSkewTransform::SetCenterX(IDCompositionAnimation) (dcomp.h)
-
 description: Animates the value of the CenterX property of a 2D skew transform.
 old-location: directcomp\idcompositionskewtransform_setcenterx_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: 99f954cf-620a-48e4-b2ff-dc4fb9657fc4
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionSkewTransform interface [DirectComposition],SetCenterX method, IDCompositionSkewTransform.SetCenterX, IDCompositionSkewTransform.SetCenterX(IDCompositionAnimation), IDCompositionSkewTransform::SetCenterX, IDCompositionSkewTransform::SetCenterX(IDCompositionAnimation), IDCompositionSkewTransform::SetCenterX(IDCompositionAnimation*), SetCenterX, SetCenterX method [DirectComposition], SetCenterX method [DirectComposition],IDCompositionSkewTransform interface, dcomp/IDCompositionSkewTransform::SetCenterX, directcomp.idcompositionskewtransform_setcenterx_idcompositionanimation
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionSkewTransform.SetCenterX"
+f1_keywords:
+- dcomp/IDCompositionSkewTransform.SetCenterX
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionSkewTransform.SetCenterX
+- IDCompositionSkewTransform.SetCenterX
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:schannel.SslFreeCertificate
 title: SslFreeCertificate function (schannel.h)
-
 description: Frees a certificate that was allocated by a previous call to the SslCrackCertificate function.
 old-location: security\sslfreecertificate.htm
 tech.root: SecAuthN
 ms.assetid: bf643ece-fe79-4f6e-a216-108fce6757a4
-
 ms.date: 12/05/2018
 ms.keywords: SslFreeCertificate, SslFreeCertificate function [Security], schannel/SslFreeCertificate, security.sslfreecertificate
 ms.topic: function
-f1_keywords: 
- - "schannel/SslFreeCertificate"
+f1_keywords:
+- schannel/SslFreeCertificate
 dev_langs:
- - c++
+- c++
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Schannel.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Schannel.dll
+- Schannel.dll
 api_name:
- - SslFreeCertificate
+- SslFreeCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

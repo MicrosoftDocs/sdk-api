@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminGetIpv6AddressForUser
 title: MprAdminGetIpv6AddressForUser function (mprapi.h)
-
 description: RAS calls the MprAdminGetIpv6AddressForUser function once for each user that requires an IPv6 address.
 old-location: rras\mpradmingetipv6addressforuser.htm
 tech.root: RRAS
 ms.assetid: ec4b4130-4864-470f-8647-1fcadd359c58
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminGetIpv6AddressForUser, MprAdminGetIpv6AddressForUser callback, MprAdminGetIpv6AddressForUser callback function [RAS], mprapi/MprAdminGetIpv6AddressForUser, rras.mpradmingetipv6addressforuser
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminGetIpv6AddressForUser"
+f1_keywords:
+- mprapi/MprAdminGetIpv6AddressForUser
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - MprAdminGetIpv6AddressForUser
+- MprAdminGetIpv6AddressForUser
 targetos: Windows
 req.typenames: 
 req.redist: 

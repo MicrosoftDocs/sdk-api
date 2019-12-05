@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CERT_ECC_SIGNATURE
 title: CERT_ECC_SIGNATURE (wincrypt.h)
-
 description: Contains the r and s values for an Elliptic Curve Digital Signature Algorithm (ECDSA) signature.
 old-location: security\cert_ecc_signature.htm
 tech.root: SecCrypto
 ms.assetid: f341d839-c06d-40e9-a6ed-79a627918110
-
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_ECC_SIGNATURE, CERT_ECC_SIGNATURE, CERT_ECC_SIGNATURE structure [Security], PCERT_ECC_SIGNATURE, PCERT_ECC_SIGNATURE structure pointer [Security], security.cert_ecc_signature, wincrypt/CERT_ECC_SIGNATURE, wincrypt/PCERT_ECC_SIGNATURE"
+ms.keywords: '*PCERT_ECC_SIGNATURE, CERT_ECC_SIGNATURE, CERT_ECC_SIGNATURE structure [Security], PCERT_ECC_SIGNATURE, PCERT_ECC_SIGNATURE structure pointer [Security], security.cert_ecc_signature, wincrypt/CERT_ECC_SIGNATURE, wincrypt/PCERT_ECC_SIGNATURE'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_ECC_SIGNATURE"
+f1_keywords:
+- wincrypt/CERT_ECC_SIGNATURE
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_ECC_SIGNATURE
+- CERT_ECC_SIGNATURE
 targetos: Windows
 req.typenames: CERT_ECC_SIGNATURE, *PCERT_ECC_SIGNATURE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mscat.CryptCATCDFClose
 title: CryptCATCDFClose function (mscat.h)
-
 description: Closes a catalog definition file (CDF) and frees the memory for the corresponding CRYPTCATCDF structure.
 old-location: security\cryptcatcdfclose.htm
 tech.root: SecCrypto
 ms.assetid: 9f2a1175-f9fe-4f4d-bf6f-e4f4c59739ec
-
 ms.date: 12/05/2018
 ms.keywords: CryptCATCDFClose, CryptCATCDFClose function [Security], mscat/CryptCATCDFClose, security.cryptcatcdfclose
 ms.topic: function
-f1_keywords: 
- - "mscat/CryptCATCDFClose"
+f1_keywords:
+- mscat/CryptCATCDFClose
 dev_langs:
- - c++
+- c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wintrust.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wintrust.dll
+- Wintrust.dll
 api_name:
- - CryptCATCDFClose
+- CryptCATCDFClose
 targetos: Windows
 req.typenames: 
 req.redist: 

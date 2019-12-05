@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder.FindInterface
 title: ICaptureGraphBuilder::FindInterface (strmif.h)
-
 description: Note  The ICaptureGraphBuilder interface is deprecated. Use ICaptureGraphBuilder2 instead. Looks for the specified interface on the filter, upstream and downstream from the filter, and, optionally, only on the output pin of the given category.
 old-location: dshow\icapturegraphbuilder_findinterface.htm
 tech.root: DirectShow
 ms.assetid: 23fe9a5a-0f3b-44b3-9d37-6889214657bf
-
 ms.date: 12/05/2018
 ms.keywords: FindInterface, FindInterface method [DirectShow], FindInterface method [DirectShow],ICaptureGraphBuilder interface, ICaptureGraphBuilder interface [DirectShow],FindInterface method, ICaptureGraphBuilder.FindInterface, ICaptureGraphBuilder::FindInterface, ICaptureGraphBuilderFindInterface, dshow.icapturegraphbuilder_findinterface, strmif/ICaptureGraphBuilder::FindInterface
 ms.topic: method
-f1_keywords: 
- - "strmif/ICaptureGraphBuilder.FindInterface"
+f1_keywords:
+- strmif/ICaptureGraphBuilder.FindInterface
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - ICaptureGraphBuilder.FindInterface
+- ICaptureGraphBuilder.FindInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

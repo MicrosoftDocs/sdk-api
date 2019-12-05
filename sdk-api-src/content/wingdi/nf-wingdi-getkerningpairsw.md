@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetKerningPairsW
 title: GetKerningPairsW function (wingdi.h)
-
 description: The GetKerningPairs function retrieves the character-kerning pairs for the currently selected font for the specified device context.
 old-location: gdi\getkerningpairs.htm
 tech.root: gdi
 ms.assetid: 9aba629f-afab-4ef3-8e1d-d0b90e122e94
-
 ms.date: 12/05/2018
 ms.keywords: GetKerningPairs, GetKerningPairs function [Windows GDI], GetKerningPairsA, GetKerningPairsW, _win32_GetKerningPairs, gdi.getkerningpairs, wingdi/GetKerningPairs, wingdi/GetKerningPairsA, wingdi/GetKerningPairsW
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetKerningPairs"
+f1_keywords:
+- wingdi/GetKerningPairs
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Gdi32.dll
- - Ext-MS-Win-GDI-Font-l1-1-1.dll
- - ext-ms-win-gdi-font-l1-1-2.dll
- - Ext-MS-Win-GDI-Font-L1-1-3.dll
- - GDI32Full.dll
+- Gdi32.dll
+- Ext-MS-Win-GDI-Font-l1-1-1.dll
+- ext-ms-win-gdi-font-l1-1-2.dll
+- Ext-MS-Win-GDI-Font-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - GetKerningPairs
- - GetKerningPairsA
- - GetKerningPairsW
+- GetKerningPairs
+- GetKerningPairsA
+- GetKerningPairsW
 targetos: Windows
 req.typenames: 
 req.redist: 

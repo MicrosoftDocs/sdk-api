@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFAttributes.CompareItem
 title: IMFAttributes::CompareItem (mfobjects.h)
-
 description: Queries whether a stored attribute value equals to a specified PROPVARIANT.
 old-location: mf\imfattributes_compareitem.htm
 tech.root: medfound
 ms.assetid: f0a6073b-fce6-4a1f-b7d1-ef6543e7648f
-
 ms.date: 12/05/2018
 ms.keywords: CompareItem, CompareItem method [Media Foundation], CompareItem method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],CompareItem method, IMFAttributes.CompareItem, IMFAttributes::CompareItem, f0a6073b-fce6-4a1f-b7d1-ef6543e7648f, mf.imfattributes_compareitem, mfobjects/IMFAttributes::CompareItem
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFAttributes.CompareItem"
+f1_keywords:
+- mfobjects/IMFAttributes.CompareItem
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFAttributes.CompareItem
+- IMFAttributes.CompareItem
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NL:vsbackup.IVssExamineWriterMetadataEx
 title: IVssExamineWriterMetadataEx (vsbackup.h)
-
 description: Provides a method to retrieve the writer instance name and other basic information for a specific writer instance.
 old-location: base\ivssexaminewritermetadataex.htm
 tech.root: VSS
 ms.assetid: 363c987c-7d6c-4efe-988a-1b288f9b4d3c
-
 ms.date: 12/05/2018
 ms.keywords: IVssExamineWriterMetadataEx, IVssExamineWriterMetadataEx interface [VSS], IVssExamineWriterMetadataEx interface [VSS],described, base.ivssexaminewritermetadataex, vsbackup/IVssExamineWriterMetadataEx
 ms.topic: class
-f1_keywords: 
- - "vsbackup/IVssExamineWriterMetadataEx"
+f1_keywords:
+- vsbackup/IVssExamineWriterMetadataEx
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsBackup.h
+- VsBackup.h
 api_name:
- - IVssExamineWriterMetadataEx
+- IVssExamineWriterMetadataEx
 targetos: Windows
 req.typenames: 
 req.redist: 

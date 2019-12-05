@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFGetService
 title: MFGetService function (mfidl.h)
-
 description: Queries an object for a specified service interface.
 old-location: mf\mfgetservice.htm
 tech.root: medfound
 ms.assetid: 119e9e2f-0e26-4dfc-9c89-156b63a63640
-
 ms.date: 12/05/2018
 ms.keywords: 119e9e2f-0e26-4dfc-9c89-156b63a63640, MFGetService, MFGetService function [Media Foundation], mf.mfgetservice, mfidl/MFGetService
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFGetService"
+f1_keywords:
+- mfidl/MFGetService
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFGetService
+- MFGetService
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:vds._VDS_RECOVER_ACTION
 title: VDS_RECOVER_ACTION (vds.h)
-
 description: This enumeration is reserved for system use.
 old-location: base\vds_recover_action.htm
 tech.root: VDS
 ms.assetid: 478c133b-36f3-426c-a1b3-5691e312ce5a
-
 ms.date: 12/05/2018
 ms.keywords: VDS_RECOVER_ACTION, VDS_RECOVER_ACTION enumeration, base.vds_recover_action, vds/VDS_RECOVER_ACTION, vdshwprv/VDS_RECOVER_ACTION
 ms.topic: enum
-f1_keywords: 
- - "vds/VDS_RECOVER_ACTION"
+f1_keywords:
+- vds/VDS_RECOVER_ACTION
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_RECOVER_ACTION
+- VDS_RECOVER_ACTION
 targetos: Windows
 req.typenames: VDS_RECOVER_ACTION
 req.redist: 

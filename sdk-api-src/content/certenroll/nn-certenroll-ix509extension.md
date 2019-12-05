@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IX509Extension
 title: IX509Extension (certenroll.h)
-
 description: Can be used to define an extension for a certificate request.
 old-location: security\ix509extension.htm
 tech.root: seccertenroll
 ms.assetid: f04e3f63-c826-4401-a1c8-b2614e0dc374
-
 ms.date: 12/05/2018
 ms.keywords: IX509Extension, IX509Extension interface [Security], IX509Extension interface [Security],described, certenroll/IX509Extension, security.ix509extension
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IX509Extension"
+f1_keywords:
+- certenroll/IX509Extension
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509Extension
+- IX509Extension
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigureCollection.RemoveAt
 title: IXpsOMGeometryFigureCollection::RemoveAt (xpsobjectmodel.h)
-
 description: Removes and releases an IXpsOMGeometryFigure interface pointer from a specified location in the collection.
 old-location: xps\ixpsomgeometryfigurecollection_removeat.htm
 tech.root: printdocs
 ms.assetid: f3030eea-e87f-4bb8-9835-e6bc052ff0ef
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMGeometryFigureCollection.RemoveAt, IXpsOMGeometryFigureCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMGeometryFigureCollection interface, xps.ixpsomgeometryfigurecollection_removeat, xpsobjectmodel/IXpsOMGeometryFigureCollection::RemoveAt
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGeometryFigureCollection.RemoveAt"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGeometryFigureCollection.RemoveAt
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGeometryFigureCollection.RemoveAt
+- IXpsOMGeometryFigureCollection.RemoveAt
 targetos: Windows
 req.typenames: 
 req.redist: 

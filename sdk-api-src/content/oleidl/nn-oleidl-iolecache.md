@@ -1,19 +1,17 @@
 ---
 UID: NN:oleidl.IOleCache
 title: IOleCache (oleidl.h)
-
 description: Provides control of the presentation data that gets cached inside of an object. Cached presentation data is available to the container of the object even when the server application is not running or is unavailable.
 old-location: com\iolecache.htm
 tech.root: com
 ms.assetid: b5ef85d0-b54e-4831-87f1-ac6763179181
-
 ms.date: 12/05/2018
 ms.keywords: IOleCache, IOleCache interface [COM], IOleCache interface [COM],described, _ole_iolecache, com.iolecache, oleidl/IOleCache
 ms.topic: interface
-f1_keywords: 
- - "oleidl/IOleCache"
+f1_keywords:
+- oleidl/IOleCache
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleCache
+- IOleCache
 targetos: Windows
 req.typenames: 
 req.redist: 

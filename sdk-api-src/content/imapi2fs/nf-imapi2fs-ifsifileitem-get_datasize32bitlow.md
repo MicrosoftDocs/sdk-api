@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem.get_DataSize32BitLow
 title: IFsiFileItem::get_DataSize32BitLow (imapi2fs.h)
-
 description: Retrieves the least significant 32 bits of the IFsiFileItem::get_DataSize property.
 old-location: imapi\ifsifileitem_get_datasize32bitlow.htm
 tech.root: imapi
 ms.assetid: beeec2bc-5f0e-4a53-afed-50c0b6069f54
-
 ms.date: 12/05/2018
 ms.keywords: IFsiFileItem interface [IMAPI],get_DataSize32BitLow method, IFsiFileItem.get_DataSize32BitLow, IFsiFileItem::get_DataSize32BitLow, get_DataSize32BitLow, get_DataSize32BitLow method [IMAPI], get_DataSize32BitLow method [IMAPI],IFsiFileItem interface, imapi.ifsifileitem_get_datasize32bitlow, imapi2fs/IFsiFileItem::get_DataSize32BitLow
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFsiFileItem.get_DataSize32BitLow"
+f1_keywords:
+- imapi2fs/IFsiFileItem.get_DataSize32BitLow
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFsiFileItem.get_DataSize32BitLow
+- IFsiFileItem.get_DataSize32BitLow
 targetos: Windows
 req.typenames: 
 req.redist: 

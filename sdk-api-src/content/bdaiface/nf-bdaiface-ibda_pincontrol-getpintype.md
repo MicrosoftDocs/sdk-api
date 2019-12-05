@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_PinControl.GetPinType
 title: IBDA_PinControl::GetPinType (bdaiface.h)
-
 description: The GetPinType method retrieves the type of the pin.
 old-location: mstv\ibda_pincontrol_getpintype.htm
 tech.root: mstv
 ms.assetid: 97ab3873-be75-48a5-b854-303aec3d7058
-
 ms.date: 12/05/2018
 ms.keywords: GetPinType, GetPinType method [Microsoft TV Technologies], GetPinType method [Microsoft TV Technologies],IBDA_PinControl interface, IBDA_PinControl interface [Microsoft TV Technologies],GetPinType method, IBDA_PinControl.GetPinType, IBDA_PinControl::GetPinType, IBDA_PinControlGetPinType, bdaiface/IBDA_PinControl::GetPinType, mstv.ibda_pincontrol_getpintype
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_PinControl.GetPinType"
+f1_keywords:
+- bdaiface/IBDA_PinControl.GetPinType
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_PinControl.GetPinType
+- IBDA_PinControl.GetPinType
 targetos: Windows
 req.typenames: 
 req.redist: 

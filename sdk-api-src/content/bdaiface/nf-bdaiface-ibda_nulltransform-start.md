@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_NullTransform.Start
 title: IBDA_NullTransform::Start (bdaiface.h)
-
 description: The Start method restarts the transforms on data flowing through the control node.
 old-location: mstv\ibda_nulltransform_start.htm
 tech.root: mstv
 ms.assetid: c3f86317-66b6-449e-9db8-4ec09fac8adc
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_NullTransform interface [Microsoft TV Technologies],Start method, IBDA_NullTransform.Start, IBDA_NullTransform::Start, IBDA_NullTransformStart, Start, Start method [Microsoft TV Technologies], Start method [Microsoft TV Technologies],IBDA_NullTransform interface, bdaiface/IBDA_NullTransform::Start, mstv.ibda_nulltransform_start
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_NullTransform.Start"
+f1_keywords:
+- bdaiface/IBDA_NullTransform.Start
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_NullTransform.Start
+- IBDA_NullTransform.Start
 targetos: Windows
 req.typenames: 
 req.redist: 

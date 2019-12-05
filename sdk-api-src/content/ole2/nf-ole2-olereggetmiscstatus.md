@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleRegGetMiscStatus
 title: OleRegGetMiscStatus function (ole2.h)
-
 description: Returns miscellaneous information about the presentation and behaviors supported by the specified CLSID from the registry.
 old-location: com\olereggetmiscstatus.htm
 tech.root: com
 ms.assetid: 3166955f-4f7a-4904-a7fb-ebdfb8e56baf
-
 ms.date: 12/05/2018
 ms.keywords: OleRegGetMiscStatus, OleRegGetMiscStatus function [COM], _com_OleRegGetMiscStatus, com.olereggetmiscstatus, ole2/OleRegGetMiscStatus
 ms.topic: function
-f1_keywords: 
- - "ole2/OleRegGetMiscStatus"
+f1_keywords:
+- ole2/OleRegGetMiscStatus
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - ext-ms-win-com-ole32-l1-1-3.dll
- - Ext-MS-Win-Com-Ole32-L1-1-4.dll
+- Ole32.dll
+- ext-ms-win-com-ole32-l1-1-3.dll
+- Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
- - OleRegGetMiscStatus
+- OleRegGetMiscStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

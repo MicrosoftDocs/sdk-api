@@ -1,19 +1,17 @@
 ---
 UID: NE:p2p.peer_graph_status_flags_tag
 title: PEER_GRAPH_STATUS_FLAGS (p2p.h)
-
 description: The PEER_GRAPH_STATUS_FLAGS enumeration is a set of flags that show the current status of a node within the peer graph.
 old-location: p2p\peer_graph_status_flags.htm
 tech.root: P2PSdk
 ms.assetid: 71910437-4ebd-4fcc-977c-0a56c5f26d61
-
 ms.date: 12/05/2018
 ms.keywords: PEER_GRAPH_STATUS_FLAGS, PEER_GRAPH_STATUS_FLAGS enumeration [Peer Networking], PEER_GRAPH_STATUS_HAS_CONNECTIONS, PEER_GRAPH_STATUS_LISTENING, PEER_GRAPH_STATUS_SYNCHRONIZED, p2p.peer_graph_status_flags, p2p/PEER_GRAPH_STATUS_FLAGS, p2p/PEER_GRAPH_STATUS_HAS_CONNECTIONS, p2p/PEER_GRAPH_STATUS_LISTENING, p2p/PEER_GRAPH_STATUS_SYNCHRONIZED
 ms.topic: enum
-f1_keywords: 
- - "p2p/PEER_GRAPH_STATUS_FLAGS"
+f1_keywords:
+- p2p/PEER_GRAPH_STATUS_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - P2P.h
+- P2P.h
 api_name:
- - PEER_GRAPH_STATUS_FLAGS
+- PEER_GRAPH_STATUS_FLAGS
 targetos: Windows
 req.typenames: PEER_GRAPH_STATUS_FLAGS
 req.redist: 

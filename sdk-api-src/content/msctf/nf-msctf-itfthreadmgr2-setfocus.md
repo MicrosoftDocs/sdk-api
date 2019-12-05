@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.SetFocus
 title: ITfThreadMgr2::SetFocus (msctf.h)
-
 description: Sets the input focus to the specified document manager.
 old-location: tsf\itfthreadmgr2_setfocus.htm
 tech.root: TSF
 ms.assetid: 62BC0797-668D-4CA1-8313-338FF7F40D89
-
 ms.date: 12/05/2018
 ms.keywords: ITfThreadMgr2 interface [Text Services Framework],SetFocus method, ITfThreadMgr2.SetFocus, ITfThreadMgr2::SetFocus, SetFocus, SetFocus method [Text Services Framework], SetFocus method [Text Services Framework],ITfThreadMgr2 interface, msctf/ITfThreadMgr2::SetFocus, tsf.itfthreadmgr2_setfocus
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfThreadMgr2.SetFocus"
+f1_keywords:
+- msctf/ITfThreadMgr2.SetFocus
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.h
+- msctf.h
 api_name:
- - ITfThreadMgr2.SetFocus
+- ITfThreadMgr2.SetFocus
 targetos: Windows
 req.typenames: 
 req.redist: 

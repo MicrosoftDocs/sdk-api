@@ -1,19 +1,17 @@
 ---
 UID: NF:indexsrv.IWordBreaker.Init
 title: IWordBreaker::Init (indexsrv.h)
-
 description: Initializes the IWordBreaker implementation and indicates the mode in which the component operates.
 old-location: search\_search_IWordBreaker_Init.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\init.htm
-
 ms.date: 12/05/2018
 ms.keywords: IWordBreaker interface [search],Init method, IWordBreaker.Init, IWordBreaker::Init, Init, Init method [search], Init method [search],IWordBreaker interface, _search_IWordBreaker_Init, indexsrv/IWordBreaker::Init, search._search_IWordBreaker_Init
 ms.topic: method
-f1_keywords: 
- - "indexsrv/IWordBreaker.Init"
+f1_keywords:
+- indexsrv/IWordBreaker.Init
 dev_langs:
- - c++
+- c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Indexsrv.h
+- Indexsrv.h
 api_name:
- - IWordBreaker.Init
+- IWordBreaker.Init
 targetos: Windows
 req.typenames: 
 req.redist: Windows NT 4.0 Option Pack

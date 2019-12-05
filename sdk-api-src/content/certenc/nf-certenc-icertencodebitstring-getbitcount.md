@@ -1,19 +1,17 @@
 ---
 UID: NF:certenc.ICertEncodeBitString.GetBitCount
 title: ICertEncodeBitString::GetBitCount (certenc.h)
-
 description: Returns the number of bits in a bit string that belongs to the CertEncodeBitString object and has been initialized by an earlier call to ICertEncodeBitString::Decode.
 old-location: security\icertencodebitstring_getbitcount.htm
 tech.root: SecCrypto
 ms.assetid: 9fbaaf03-02b8-4c6f-8cc2-3fd897fdc81d
-
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeBitString object [Security],GetBitCount method, GetBitCount, GetBitCount method [Security], GetBitCount method [Security],CCertEncodeBitString object, GetBitCount method [Security],ICertEncodeBitString interface, ICertEncodeBitString interface [Security],GetBitCount method, ICertEncodeBitString.GetBitCount, ICertEncodeBitString::GetBitCount, _certsrv_icertencodebitstring_getbitcount, certenc/ICertEncodeBitString::GetBitCount, security.icertencodebitstring_getbitcount
 ms.topic: method
-f1_keywords: 
- - "certenc/ICertEncodeBitString.GetBitCount"
+f1_keywords:
+- certenc/ICertEncodeBitString.GetBitCount
 dev_langs:
- - c++
+- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenc.dll
+- Certenc.dll
 api_name:
- - ICertEncodeBitString.GetBitCount
- - CCertEncodeBitString.GetBitCount
+- ICertEncodeBitString.GetBitCount
+- CCertEncodeBitString.GetBitCount
 targetos: Windows
 req.typenames: 
 req.redist: 

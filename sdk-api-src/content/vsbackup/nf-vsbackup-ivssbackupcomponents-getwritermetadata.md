@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.GetWriterMetadata
 title: IVssBackupComponents::GetWriterMetadata (vsbackup.h)
-
 description: The GetWriterMetadata method returns the metadata for a specific writer running on the system.
 old-location: base\ivssbackupcomponents_getwritermetadata.htm
 tech.root: VSS
 ms.assetid: a577d06a-4c9d-4ebe-b4d4-685f96ec9c83
-
 ms.date: 12/05/2018
 ms.keywords: GetWriterMetadata, GetWriterMetadata method [VSS], GetWriterMetadata method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterMetadata method, IVssBackupComponents.GetWriterMetadata, IVssBackupComponents::GetWriterMetadata, _win32_ivssbackupcomponents_getwritermetadata, base.ivssbackupcomponents_getwritermetadata, vsbackup/IVssBackupComponents::GetWriterMetadata
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.GetWriterMetadata"
+f1_keywords:
+- vsbackup/IVssBackupComponents.GetWriterMetadata
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.GetWriterMetadata
+- IVssBackupComponents.GetWriterMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 

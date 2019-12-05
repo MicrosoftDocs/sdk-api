@@ -3,14 +3,13 @@ UID: NF:gdipluspath.GraphicsPath.AddRectangle(IN const RectF &)
 title: GraphicsPath::AddRectangle
 description: The GraphicsPath::AddRectangle method adds a rectangle to this path.
 ms.assetid: 3b7288d2-c5b9-4b3b-be6f-218ad8511217
-
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddRectangle
 ms.topic: language-reference
-f1_keywords: 
- - "gdipluspath/GraphicsPath::AddRectangle"
+f1_keywords:
+- gdipluspath/GraphicsPath::AddRectangle
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdipluspath.h
+- gdipluspath.h
 api_name:
- - GraphicsPath::AddRectangle
+- GraphicsPath::AddRectangle
 ---
 
 # GraphicsPath::AddRectangle

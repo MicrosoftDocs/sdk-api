@@ -1,19 +1,17 @@
 ---
 UID: NE:iprtrmib._UDP_TABLE_CLASS
 title: UDP_TABLE_CLASS (iprtrmib.h)
-
 description: Defines the set of values used to indicate the type of table returned by calls to GetExtendedUdpTable.
 old-location: iphlp\udp_table_class.htm
 tech.root: IpHlp
 ms.assetid: 2e7304d1-b89c-46d4-9121-936a1c38cc51
-
 ms.date: 12/05/2018
 ms.keywords: '*PUDP_TABLE_CLASS, PUDP_TABLE_CLASS, PUDP_TABLE_CLASS enumeration pointer [IP Helper], UDP_TABLE_BASIC, UDP_TABLE_CLASS, UDP_TABLE_CLASS enumeration [IP Helper], UDP_TABLE_OWNER_MODULE, UDP_TABLE_OWNER_PID, iphlp.udp_table_class, iphlpapi/PUDP_TABLE_CLASS, iphlpapi/UDP_TABLE_BASIC, iphlpapi/UDP_TABLE_CLASS, iphlpapi/UDP_TABLE_OWNER_MODULE, iphlpapi/UDP_TABLE_OWNER_PID, iprtrmib/PUDP_TABLE_CLASS, iprtrmib/UDP_TABLE_BASIC, iprtrmib/UDP_TABLE_CLASS, iprtrmib/UDP_TABLE_OWNER_MODULE, iprtrmib/UDP_TABLE_OWNER_PID'
 ms.topic: enum
 f1_keywords:
 - iprtrmib/UDP_TABLE_CLASS
 dev_langs:
- - c++
+- c++
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

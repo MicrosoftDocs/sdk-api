@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMMediaContent2.get_MediaParameter
 title: IAMMediaContent2::get_MediaParameter (qnetwork.h)
-
 description: The get_MediaParameter method retrieves the value of a custom parameter in the ASX file.
 old-location: dshow\iammediacontent2_get_mediaparameter.htm
 tech.root: DirectShow
 ms.assetid: 87e018bb-2073-46df-860a-c4de99a88189
-
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent2 interface [DirectShow],get_MediaParameter method, IAMMediaContent2.get_MediaParameter, IAMMediaContent2::get_MediaParameter, IAMMediaContent2get_MediaParameter, dshow.iammediacontent2_get_mediaparameter, get_MediaParameter, get_MediaParameter method [DirectShow], get_MediaParameter method [DirectShow],IAMMediaContent2 interface, qnetwork/IAMMediaContent2::get_MediaParameter
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMMediaContent2.get_MediaParameter"
+f1_keywords:
+- qnetwork/IAMMediaContent2.get_MediaParameter
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMMediaContent2.get_MediaParameter
+- IAMMediaContent2.get_MediaParameter
 targetos: Windows
 req.typenames: 
 req.redist: 

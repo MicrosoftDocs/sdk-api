@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.ExpandToEnclosingUnit
 title: IUIAutomationTextRange::ExpandToEnclosingUnit (uiautomationclient.h)
-
 description: Normalizes the text range by the specified text unit. The range is expanded if it is smaller than the specified unit, or shortened if it is longer than the specified unit.
 old-location: winauto\uiauto_IUIAutomationTextRange_ExpandToEnclosingUnit.htm
 tech.root: WinAuto
 ms.assetid: 09ec62c1-f738-43af-bd6c-b45fdfb32236
-
 ms.date: 12/05/2018
 ms.keywords: ExpandToEnclosingUnit, ExpandToEnclosingUnit method [Windows Accessibility], ExpandToEnclosingUnit method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],ExpandToEnclosingUnit method, IUIAutomationTextRange.ExpandToEnclosingUnit, IUIAutomationTextRange::ExpandToEnclosingUnit, uiauto.uiauto_IUIAutomationTextRange_ExpandToEnclosingUnit, uiauto_IUIAutomationTextRange_ExpandToEnclosingUnit, uiautomationclient/IUIAutomationTextRange::ExpandToEnclosingUnit, winauto.uiauto_IUIAutomationTextRange_ExpandToEnclosingUnit
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTextRange.ExpandToEnclosingUnit"
+f1_keywords:
+- uiautomationclient/IUIAutomationTextRange.ExpandToEnclosingUnit
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTextRange.ExpandToEnclosingUnit
+- IUIAutomationTextRange.ExpandToEnclosingUnit
 targetos: Windows
 req.typenames: 
 req.redist: 

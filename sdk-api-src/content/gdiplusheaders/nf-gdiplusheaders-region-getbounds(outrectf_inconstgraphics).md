@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Region.GetBounds(OUT RectF,IN const Graphics)
 title: Region::GetBounds(OUT RectF,IN const Graphics) (gdiplusheaders.h)
-
 description: The Region::GetBounds method gets a rectangle that encloses this region.
 old-location: gdiplus\_gdiplus_CLASS_Region_GetBounds_RectF_rect_Graphics_g_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regiongetboundsmethods\getbounds_96rectfrect_graphicsg.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetBounds, GetBounds method [GDI+], GetBounds method [GDI+],Region class, Region class [GDI+],GetBounds method, Region.GetBounds, Region.GetBounds(OUT RectF,IN const Graphics), Region.GetBounds(RectF*,const Graphics*), Region::GetBounds, Region::GetBounds(OUT RectF,IN const Graphics), _gdiplus_CLASS_Region_GetBounds_RectF_rect_Graphics_g_, gdiplus._gdiplus_CLASS_Region_GetBounds_RectF_rect_Graphics_g_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Region.GetBounds"
+f1_keywords:
+- gdiplusheaders/Region.GetBounds
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Region.GetBounds
+- Region.GetBounds
 targetos: Windows
 req.typenames: 
 req.redist: 

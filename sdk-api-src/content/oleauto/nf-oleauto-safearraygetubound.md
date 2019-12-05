@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.SafeArrayGetUBound
 title: SafeArrayGetUBound function (oleauto.h)
-
 description: Gets the upper bound for any dimension of the specified safe array.
 old-location: automat\safearraygetubound.htm
 tech.root: automat
 ms.assetid: aed339d5-d962-4adc-ac01-6c15a54c51ca
-
 ms.date: 12/05/2018
 ms.keywords: SafeArrayGetUBound, SafeArrayGetUBound function [Automation], _oa96_SafeArrayGetUBound, automat.safearraygetubound, oleauto/SafeArrayGetUBound
 ms.topic: function
-f1_keywords: 
- - "oleauto/SafeArrayGetUBound"
+f1_keywords:
+- oleauto/SafeArrayGetUBound
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - SafeArrayGetUBound
+- SafeArrayGetUBound
 targetos: Windows
 req.typenames: 
 req.redist: 

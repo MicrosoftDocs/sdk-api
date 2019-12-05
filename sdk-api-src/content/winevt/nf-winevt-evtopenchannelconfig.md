@@ -1,19 +1,17 @@
 ---
 UID: NF:winevt.EvtOpenChannelConfig
 title: EvtOpenChannelConfig function (winevt.h)
-
 description: Gets a handle that you use to read or modify a channel's configuration property.
 old-location: wes\evtopenchannelconfig.htm
 tech.root: wes
 ms.assetid: d197f04e-01e8-4ef6-a9ca-61e5178d825b
-
 ms.date: 12/05/2018
 ms.keywords: EvtOpenChannelConfig, EvtOpenChannelConfig function [EventLog], wes.evtopenchannelconfig, winevt/EvtOpenChannelConfig
 ms.topic: function
-f1_keywords: 
- - "winevt/EvtOpenChannelConfig"
+f1_keywords:
+- winevt/EvtOpenChannelConfig
 dev_langs:
- - c++
+- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wevtapi.lib
 req.dll: Wevtapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wevtapi.dll
- - Ext-MS-Win-WEvtAPI-EventLog-L1-1-0.dll
- - Ext-MS-Win-WEvtAPI-EventLog-L1-1-1.dll
- - Ext-MS-Win-WEvtAPI-EventLog-L1-1-2.dll
+- Wevtapi.dll
+- Ext-MS-Win-WEvtAPI-EventLog-L1-1-0.dll
+- Ext-MS-Win-WEvtAPI-EventLog-L1-1-1.dll
+- Ext-MS-Win-WEvtAPI-EventLog-L1-1-2.dll
 api_name:
- - EvtOpenChannelConfig
+- EvtOpenChannelConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

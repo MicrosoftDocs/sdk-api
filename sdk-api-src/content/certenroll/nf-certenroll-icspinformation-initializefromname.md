@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspInformation.InitializeFromName
 title: ICspInformation::InitializeFromName (certenroll.h)
-
 description: Initializes the object from a string that contains a provider name.
 old-location: security\icspinformation_initializefromname_method.htm
 tech.root: seccertenroll
 ms.assetid: b405503f-2af5-4a2f-abdb-e2eb108c4b1b
-
 ms.date: 12/05/2018
 ms.keywords: ICspInformation interface [Security],InitializeFromName method, ICspInformation.InitializeFromName, ICspInformation::InitializeFromName, InitializeFromName, InitializeFromName method [Security], InitializeFromName method [Security],ICspInformation interface, certenroll/ICspInformation::InitializeFromName, security.icspinformation_initializefromname_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspInformation.InitializeFromName"
+f1_keywords:
+- certenroll/ICspInformation.InitializeFromName
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspInformation.InitializeFromName
+- ICspInformation.InitializeFromName
 targetos: Windows
 req.typenames: 
 req.redist: 

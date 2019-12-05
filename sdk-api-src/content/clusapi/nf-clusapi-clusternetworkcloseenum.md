@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterNetworkCloseEnum
 title: ClusterNetworkCloseEnum function (clusapi.h)
-
 description: Closes a network enumeration handle.
 old-location: mscs\clusternetworkcloseenum.htm
 tech.root: MsCS
 ms.assetid: 725164c5-dc6d-42f4-a703-06336711e72e
-
 ms.date: 12/05/2018
 ms.keywords: ClusterNetworkCloseEnum, ClusterNetworkCloseEnum function [Failover Cluster], PCLUSAPI_CLUSTER_NETWORK_CLOSE_ENUM, PCLUSAPI_CLUSTER_NETWORK_CLOSE_ENUM function [Failover Cluster], _wolf_clusternetworkcloseenum, clusapi/ClusterNetworkCloseEnum, clusapi/PCLUSAPI_CLUSTER_NETWORK_CLOSE_ENUM, mscs.clusternetworkcloseenum
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterNetworkCloseEnum"
+f1_keywords:
+- clusapi/ClusterNetworkCloseEnum
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - ClusterNetworkCloseEnum
+- ClusterNetworkCloseEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

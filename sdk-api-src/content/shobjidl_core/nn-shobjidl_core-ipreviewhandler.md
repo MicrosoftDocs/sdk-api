@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IPreviewHandler
 title: IPreviewHandler (shobjidl_core.h)
-
 description: Exposes methods for the display of rich previews.
 old-location: shell\IPreviewHandler.htm
 tech.root: shell
 ms.assetid: a4e6507c-10b1-4c21-9359-92ba635a2a2c
-
 ms.date: 12/05/2018
 ms.keywords: IPreviewHandler, IPreviewHandler interface [Windows Shell], IPreviewHandler interface [Windows Shell],described, _shell_IPreviewHandler, shell.IPreviewHandler, shobjidl_core/IPreviewHandler
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IPreviewHandler"
+f1_keywords:
+- shobjidl_core/IPreviewHandler
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IPreviewHandler
+- IPreviewHandler
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search 4 or later

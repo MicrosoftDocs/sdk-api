@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMMatrixShadow
 title: XMMatrixShadow function (directxmath.h)
-
 description: Builds a transformation matrix that flattens geometry into a plane.
 old-location: dxmath\xmmatrixshadow.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixShadow(XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixShadow, XMMatrixShadow, XMMatrixShadow method [DirectX Math Support APIs], dxmath.xmmatrixshadow
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMMatrixShadow"
+f1_keywords:
+- directxmath/XMMatrixShadow
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMMatrixShadow
+- XMMatrixShadow
 targetos: Windows
 req.typenames: 
 req.redist: 

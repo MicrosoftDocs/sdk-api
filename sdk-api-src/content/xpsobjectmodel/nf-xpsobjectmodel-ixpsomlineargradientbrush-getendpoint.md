@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMLinearGradientBrush.GetEndPoint
 title: IXpsOMLinearGradientBrush::GetEndPoint (xpsobjectmodel.h)
-
 description: Gets the end point of the gradient.
 old-location: xps\ixpsomlineargradientbrush_getendpoint.htm
 tech.root: printdocs
 ms.assetid: c8f34c4b-28f1-4a8f-bf8e-9872debc9eb1
-
 ms.date: 12/05/2018
 ms.keywords: GetEndPoint, GetEndPoint method [XPS Documents and Packaging], GetEndPoint method [XPS Documents and Packaging],IXpsOMLinearGradientBrush interface, IXpsOMLinearGradientBrush interface [XPS Documents and Packaging],GetEndPoint method, IXpsOMLinearGradientBrush.GetEndPoint, IXpsOMLinearGradientBrush::GetEndPoint, xps.ixpsomlineargradientbrush_getendpoint, xpsobjectmodel/IXpsOMLinearGradientBrush::GetEndPoint
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMLinearGradientBrush.GetEndPoint"
+f1_keywords:
+- xpsobjectmodel/IXpsOMLinearGradientBrush.GetEndPoint
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMLinearGradientBrush.GetEndPoint
+- IXpsOMLinearGradientBrush.GetEndPoint
 targetos: Windows
 req.typenames: 
 req.redist: 

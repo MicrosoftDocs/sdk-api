@@ -1,19 +1,17 @@
 ---
 UID: NF:directml.IDMLDebugDevice.SetMuteDebugOutput
 title: IDMLDebugDevice::SetMuteDebugOutput
-
 description: Determine whether to mute DirectML from sending messages to the ID3D12InfoQueue.
 old-location: direct3d12\idmldebugdevice_setmutedebugoutput.htm
 tech.root: direct3d12
 ms.assetid: 74BA5FE6-1197-4BF0-A5FE-FAFE650C4C8E
-
 ms.date: 12/5/2018
 ms.keywords: IDMLDebugDevice interface,SetMuteDebugOutput method, IDMLDebugDevice.SetMuteDebugOutput, IDMLDebugDevice::SetMuteDebugOutput, SetMuteDebugOutput, SetMuteDebugOutput method, SetMuteDebugOutput method,IDMLDebugDevice interface, direct3d12.idmldebugdevice_setmutedebugoutput, directml/IDMLDebugDevice::SetMuteDebugOutput
 ms.topic: method
-f1_keywords: 
- - "directml/IDMLDebugDevice.SetMuteDebugOutput"
+f1_keywords:
+- directml/IDMLDebugDevice.SetMuteDebugOutput
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: DirectML.lib
 req.dll: DirectML.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectML.dll
+- DirectML.dll
 api_name:
- - IDMLDebugDevice.SetMuteDebugOutput
+- IDMLDebugDevice.SetMuteDebugOutput
 targetos: Windows
 req.typenames: 
 req.redist: 

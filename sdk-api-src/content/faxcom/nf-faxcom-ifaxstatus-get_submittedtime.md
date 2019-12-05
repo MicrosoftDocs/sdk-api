@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_SubmittedTime
 title: IFaxStatus::get_SubmittedTime (faxcom.h)
-
 description: Retrieves the SubmittedTime property for the FaxStatus object of a parent FaxPort object. The SubmittedTime property is a number that represents the time the user submitted the active fax job.
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_submittedtime_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_46n9.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxStatus interface [Fax Service],SubmittedTime property, IFaxStatus.SubmittedTime, IFaxStatus.get_SubmittedTime, IFaxStatus::SubmittedTime, IFaxStatus::get_SubmittedTime, SubmittedTime property [Fax Service], SubmittedTime property [Fax Service],IFaxStatus interface, _mfax_ifaxstatus_get_submittedtime, fax._mfax_ifaxstatus_get_submittedtime, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_submittedtime_cpp, faxcom/IFaxStatus::SubmittedTime, faxcom/IFaxStatus::get_SubmittedTime, get_SubmittedTime
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxStatus.SubmittedTime"
+f1_keywords:
+- faxcom/IFaxStatus.SubmittedTime
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxStatus.SubmittedTime
- - IFaxStatus.get_SubmittedTime
+- IFaxStatus.SubmittedTime
+- IFaxStatus.get_SubmittedTime
 targetos: Windows
 req.typenames: 
 req.redist: 

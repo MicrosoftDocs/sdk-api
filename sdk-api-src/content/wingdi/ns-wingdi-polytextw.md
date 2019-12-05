@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagPOLYTEXTW
 title: POLYTEXTW (wingdi.h)
-
 description: The POLYTEXT structure describes how the PolyTextOut function should draw a string of text.
 old-location: gdi\polytext.htm
 tech.root: gdi
 ms.assetid: 6f03e2ff-c15f-498c-8c3d-33106222279e
-
 ms.date: 12/05/2018
-ms.keywords: "*LPPOLYTEXTW, *NPPOLYTEXTW, *PPOLYTEXTW, POLYTEXT, POLYTEXT structure [Windows GDI], POLYTEXTA, POLYTEXTW, PPOLYTEXT, PPOLYTEXT structure pointer [Windows GDI], _win32_POLYTEXT_str, gdi.polytext, wingdi/POLYTEXT, wingdi/POLYTEXTA, wingdi/POLYTEXTW, wingdi/PPOLYTEXT"
+ms.keywords: '*LPPOLYTEXTW, *NPPOLYTEXTW, *PPOLYTEXTW, POLYTEXT, POLYTEXT structure [Windows GDI], POLYTEXTA, POLYTEXTW, PPOLYTEXT, PPOLYTEXT structure pointer [Windows GDI], _win32_POLYTEXT_str, gdi.polytext, wingdi/POLYTEXT, wingdi/POLYTEXTA, wingdi/POLYTEXTW, wingdi/PPOLYTEXT'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/POLYTEXT"
+f1_keywords:
+- wingdi/POLYTEXT
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - POLYTEXT
- - POLYTEXTA
- - POLYTEXTW
+- POLYTEXT
+- POLYTEXTA
+- POLYTEXTW
 targetos: Windows
 req.typenames: POLYTEXTW, *PPOLYTEXTW, *NPPOLYTEXTW, *LPPOLYTEXTW
 req.redist: 

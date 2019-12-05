@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CERT_LOGOTYPE_INFO
 title: CERT_LOGOTYPE_INFO (wincrypt.h)
-
 description: Contains information about logotype data.
 old-location: security\cert_logotype_info.htm
 tech.root: SecCrypto
 ms.assetid: 7ce801bf-38fd-4490-8465-40ed5078bbff
-
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_LOGOTYPE_INFO, CERT_LOGOTYPE_DIRECT_INFO_CHOICE, CERT_LOGOTYPE_INDIRECT_INFO_CHOICE, CERT_LOGOTYPE_INFO, CERT_LOGOTYPE_INFO structure [Security], PCERT_LOGOTYPE_INFO, PCERT_LOGOTYPE_INFO structure pointer [Security], security.cert_logotype_info, wincrypt/CERT_LOGOTYPE_INFO, wincrypt/PCERT_LOGOTYPE_INFO'
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_LOGOTYPE_INFO
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

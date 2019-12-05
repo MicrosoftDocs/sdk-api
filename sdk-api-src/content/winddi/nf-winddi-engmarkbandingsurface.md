@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngMarkBandingSurface
 title: EngMarkBandingSurface function (winddi.h)
-
 description: The EngMarkBandingSurface function marks the specified surface as a banding surface.
 old-location: display\engmarkbandingsurface.htm
 tech.root: display
 ms.assetid: 0ee3d697-42aa-4117-9d85-63472e4a042f
-
 ms.date: 12/05/2018
 ms.keywords: EngMarkBandingSurface, EngMarkBandingSurface function [Display Devices], display.engmarkbandingsurface, gdifncs_b597b27e-e521-40ec-a16f-7961b64dead2.xml, winddi/EngMarkBandingSurface
 ms.topic: function
-f1_keywords: 
- - "winddi/EngMarkBandingSurface"
+f1_keywords:
+- winddi/EngMarkBandingSurface
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngMarkBandingSurface
+- EngMarkBandingSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

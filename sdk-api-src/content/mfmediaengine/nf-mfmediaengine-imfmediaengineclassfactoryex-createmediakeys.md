@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineClassFactoryEx.CreateMediaKeys
 title: IMFMediaEngineClassFactoryEx::CreateMediaKeys (mfmediaengine.h)
-
 description: Creates a media keys object based on the specified key system.
 old-location: mf\imfmediaengineclassfactoryex_createmediakeys.htm
 tech.root: medfound
 ms.assetid: 40b2b978-f12c-4066-acf5-e0c68b0fa928
-
 ms.date: 12/05/2018
 ms.keywords: CreateMediaKeys, CreateMediaKeys method [Media Foundation], CreateMediaKeys method [Media Foundation],IMFMediaEngineClassFactoryEx interface, IMFMediaEngineClassFactoryEx interface [Media Foundation],CreateMediaKeys method, IMFMediaEngineClassFactoryEx.CreateMediaKeys, IMFMediaEngineClassFactoryEx::CreateMediaKeys, mf.imfmediaengineclassfactoryex_createmediakeys, mfmediaengine/IMFMediaEngineClassFactoryEx::CreateMediaKeys
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineClassFactoryEx.CreateMediaKeys"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineClassFactoryEx.CreateMediaKeys
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineClassFactoryEx.CreateMediaKeys
+- IMFMediaEngineClassFactoryEx.CreateMediaKeys
 targetos: Windows
 req.typenames: 
 req.redist: 

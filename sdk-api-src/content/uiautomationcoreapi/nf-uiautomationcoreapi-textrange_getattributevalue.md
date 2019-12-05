@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_GetAttributeValue
 title: TextRange_GetAttributeValue function (uiautomationcoreapi.h)
-
 description: Gets the value of an text attribute for a text range.
 old-location: winauto\uiauto_TextRange_GetAttributeValueConPat.htm
 tech.root: WinAuto
 ms.assetid: f5d90dba-7c84-45a8-be84-898d6079c428
-
 ms.date: 12/05/2018
 ms.keywords: TextRange_GetAttributeValue, TextRange_GetAttributeValue function [Windows Accessibility], uiauto.uiauto_TextRange_GetAttributeValueConPat, uiauto_TextRange_GetAttributeValueConPat, uiautomationcoreapi/TextRange_GetAttributeValue, winauto.uiauto_TextRange_GetAttributeValueConPat
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/TextRange_GetAttributeValue"
+f1_keywords:
+- uiautomationcoreapi/TextRange_GetAttributeValue
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - TextRange_GetAttributeValue
+- TextRange_GetAttributeValue
 targetos: Windows
 req.typenames: 
 req.redist: 

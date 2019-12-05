@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.Import
 title: IGPMGPO::Import (gpmgmt.h)
-
 description: Imports the policy settings from the specified GPMBackup object.
 old-location: gpmc\igpmgpo_import.htm
 tech.root: gpmc
 ms.assetid: 3b16eefb-89af-408b-a84c-c8ab958b4cc7
-
 ms.date: 12/05/2018
 ms.keywords: GPMGPO object [GPMC],Import method, IGPMGPO interface [GPMC],Import method, IGPMGPO.Import, IGPMGPO::Import, Import, Import method [GPMC], Import method [GPMC],GPMGPO object, Import method [GPMC],IGPMGPO interface, _win32_igpmgpo_import, gpmc.igpmgpo_import, gpmgmt/IGPMGPO::Import
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMGPO.Import"
+f1_keywords:
+- gpmgmt/IGPMGPO.Import
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMGPO.Import
- - GPMGPO.Import
+- IGPMGPO.Import
+- GPMGPO.Import
 targetos: Windows
 req.typenames: 
 req.redist: 

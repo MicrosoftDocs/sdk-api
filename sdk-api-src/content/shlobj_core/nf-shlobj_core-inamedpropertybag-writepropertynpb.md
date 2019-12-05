@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.INamedPropertyBag.WritePropertyNPB
 title: INamedPropertyBag::WritePropertyNPB (shlobj_core.h)
-
 description: Saves a property to the named property bag.
 old-location: shell\INamedPropertyBag_WritePropertyNPB.htm
 tech.root: shell
 ms.assetid: f91764ee-85eb-47ec-b983-49ec410b8c2c
-
 ms.date: 12/05/2018
 ms.keywords: INamedPropertyBag interface [Windows Shell],WritePropertyNPB method, INamedPropertyBag.WritePropertyNPB, INamedPropertyBag::WritePropertyNPB, WritePropertyNPB, WritePropertyNPB method [Windows Shell], WritePropertyNPB method [Windows Shell],INamedPropertyBag interface, _shell_INamedPropertyBag_WritePropertyNPB, shell.INamedPropertyBag_WritePropertyNPB, shlobj_core/INamedPropertyBag::WritePropertyNPB
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/INamedPropertyBag.WritePropertyNPB"
+f1_keywords:
+- shlobj_core/INamedPropertyBag.WritePropertyNPB
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shdocvw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdocvw.dll
+- Shdocvw.dll
 api_name:
- - INamedPropertyBag.WritePropertyNPB
+- INamedPropertyBag.WritePropertyNPB
 targetos: Windows
 req.typenames: 
 req.redist: 

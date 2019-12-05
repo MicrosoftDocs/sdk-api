@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationRule.get_ExecutionOption
 title: IFsrmClassificationRule::get_ExecutionOption (fsrmpipeline.h)
-
 description: Determines how to apply the rule to the file.
 old-location: fsrm\ifsrmclassificationrule_executionoption.htm
 tech.root: fsrm
 ms.assetid: e084c056-18b1-4089-bab9-fce2ef58cd05
-
 ms.date: 12/05/2018
 ms.keywords: ExecutionOption property [File Server Resource Manager], ExecutionOption property [File Server Resource Manager],IFsrmClassificationRule interface, IFsrmClassificationRule interface [File Server Resource Manager],ExecutionOption property, IFsrmClassificationRule.ExecutionOption, IFsrmClassificationRule.get_ExecutionOption, IFsrmClassificationRule::ExecutionOption, IFsrmClassificationRule::get_ExecutionOption, IFsrmClassificationRule::put_ExecutionOption, fs.ifsrmclassificationrule_executionoption, fsrm.ifsrmclassificationrule_executionoption, fsrmpipeline/IFsrmClassificationRule::ExecutionOption, fsrmpipeline/IFsrmClassificationRule::get_ExecutionOption, fsrmpipeline/IFsrmClassificationRule::put_ExecutionOption, get_ExecutionOption
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmClassificationRule.ExecutionOption"
+f1_keywords:
+- fsrmpipeline/IFsrmClassificationRule.ExecutionOption
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmClassificationRule.ExecutionOption
- - IFsrmClassificationRule.get_ExecutionOption
- - IFsrmClassificationRule.put_ExecutionOption
+- IFsrmClassificationRule.ExecutionOption
+- IFsrmClassificationRule.get_ExecutionOption
+- IFsrmClassificationRule.put_ExecutionOption
 targetos: Windows
 req.typenames: 
 req.redist: 

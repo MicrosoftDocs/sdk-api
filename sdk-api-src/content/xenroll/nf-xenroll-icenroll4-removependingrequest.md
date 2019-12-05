@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.ICEnroll4.removePendingRequest
 title: ICEnroll4::removePendingRequest (xenroll.h)
-
 description: Removes a pending request from the client's request store. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_removependingrequest.htm
 tech.root: SecCrypto
 ms.assetid: 22ddd7f8-b2c0-4b9a-a2b3-c2cb470d0502
-
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],removePendingRequest method, ICEnroll4 interface [Security],removePendingRequest method, ICEnroll4.removePendingRequest, ICEnroll4::removePendingRequest, _xen_icenroll4_removependingrequest, removePendingRequest, removePendingRequest method [Security], removePendingRequest method [Security],CEnroll object, removePendingRequest method [Security],ICEnroll4 interface, security.icenroll4_removependingrequest, xenroll/ICEnroll4::removePendingRequest
 ms.topic: method
-f1_keywords: 
- - "xenroll/ICEnroll4.removePendingRequest"
+f1_keywords:
+- xenroll/ICEnroll4.removePendingRequest
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll4.removePendingRequest
- - CEnroll.removePendingRequest
+- ICEnroll4.removePendingRequest
+- CEnroll.removePendingRequest
 targetos: Windows
 req.typenames: 
 req.redist: 

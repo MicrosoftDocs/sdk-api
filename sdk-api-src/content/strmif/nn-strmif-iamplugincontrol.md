@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IAMPluginControl
 title: IAMPluginControl (strmif.h)
-
 description: Controls the preferred and blocked filter lists.
 old-location: dshow\iamplugincontrol.htm
 tech.root: DirectShow
 ms.assetid: 66720991-3a3f-4c45-a543-b8050d31fcc3
-
 ms.date: 12/05/2018
 ms.keywords: IAMPluginControl, IAMPluginControl interface [DirectShow], IAMPluginControl interface [DirectShow],described, dshow.iamplugincontrol, strmif/IAMPluginControl
 ms.topic: interface
-f1_keywords: 
- - "strmif/IAMPluginControl"
+f1_keywords:
+- strmif/IAMPluginControl
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IAMPluginControl
+- IAMPluginControl
 targetos: Windows
 req.typenames: 
 req.redist: 

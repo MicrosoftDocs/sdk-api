@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.NcFreeNetconProperties
 title: NcFreeNetconProperties function (netcon.h)
-
 description: The NcFreeNetconProperties function frees memory associated with NETCON_PROPERTIES structures.
 old-location: ics\ncfreenetconproperties.htm
 tech.root: ics
 ms.assetid: ac73b831-81da-48e7-858b-7ca1ee03768e
-
 ms.date: 12/05/2018
 ms.keywords: NcFreeNetconProperties, NcFreeNetconProperties function [ICS/ICF], ics.ncfreenetconproperties, netcon/NcFreeNetconProperties
 ms.topic: function
-f1_keywords: 
- - "netcon/NcFreeNetconProperties"
+f1_keywords:
+- netcon/NcFreeNetconProperties
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Netshell.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netshell.dll
+- Netshell.dll
 api_name:
- - NcFreeNetconProperties
+- NcFreeNetconProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

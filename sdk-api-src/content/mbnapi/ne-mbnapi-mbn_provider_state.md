@@ -1,19 +1,17 @@
 ---
 UID: NE:mbnapi.MBN_PROVIDER_STATE
 title: MBN_PROVIDER_STATE (mbnapi.h)
-
 description: The MBN_PROVIDER_STATE enumerated type specifies the various states with which a provider entry can be tagged.
 old-location: mbn\mbn_provider_state.htm
 tech.root: mbn
 ms.assetid: c9bbda5d-96bc-410c-afac-eba3e5bd23ee
-
 ms.date: 12/05/2018
 ms.keywords: MBN_PROVIDER_STATE, MBN_PROVIDER_STATE enumeration [Microsoft Broadband Networks], MBN_PROVIDER_STATE_FORBIDDEN, MBN_PROVIDER_STATE_HOME, MBN_PROVIDER_STATE_NONE, MBN_PROVIDER_STATE_PREFERRED, MBN_PROVIDER_STATE_PREFERRED_MULTICARRIER, MBN_PROVIDER_STATE_REGISTERED, MBN_PROVIDER_STATE_VISIBLE, mbn.mbn_provider_state, mbnapi/MBN_PROVIDER_STATE, mbnapi/MBN_PROVIDER_STATE_FORBIDDEN, mbnapi/MBN_PROVIDER_STATE_HOME, mbnapi/MBN_PROVIDER_STATE_NONE, mbnapi/MBN_PROVIDER_STATE_PREFERRED, mbnapi/MBN_PROVIDER_STATE_PREFERRED_MULTICARRIER, mbnapi/MBN_PROVIDER_STATE_REGISTERED, mbnapi/MBN_PROVIDER_STATE_VISIBLE
 ms.topic: enum
-f1_keywords: 
- - "mbnapi/MBN_PROVIDER_STATE"
+f1_keywords:
+- mbnapi/MBN_PROVIDER_STATE
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - MBN_PROVIDER_STATE
+- MBN_PROVIDER_STATE
 targetos: Windows
 req.typenames: MBN_PROVIDER_STATE
 req.redist: 

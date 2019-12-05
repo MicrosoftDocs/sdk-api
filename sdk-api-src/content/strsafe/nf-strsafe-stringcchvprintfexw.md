@@ -1,19 +1,17 @@
 ---
 UID: NF:strsafe.StringCchVPrintfExW
 title: StringCchVPrintfExW function (strsafe.h)
-
 description: Writes formatted data to the specified string using a pointer to a list of arguments.
 old-location: menurc\stringcchvprintfex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchvprintfex.htm
-
 ms.date: 12/05/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCchVPrintfEx, StringCchVPrintfEx function [Menus and Other Resources], StringCchVPrintfExA, StringCchVPrintfExW, _shell_StringCchVPrintfEx, _shell_stringcchvprintfex_cpp, menurc.stringcchvprintfex, strsafe/StringCchVPrintfEx, strsafe/StringCchVPrintfExA, strsafe/StringCchVPrintfExW, winui._shell_stringcchvprintfex
 ms.topic: function
-f1_keywords: 
- - "strsafe/StringCchVPrintfEx"
+f1_keywords:
+- strsafe/StringCchVPrintfEx
 dev_langs:
- - c++
+- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Strsafe.h
+- Strsafe.h
 api_name:
- - StringCchVPrintfEx
- - StringCchVPrintfExA
- - StringCchVPrintfExW
+- StringCchVPrintfEx
+- StringCchVPrintfExA
+- StringCchVPrintfExW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.GetAspectRatioMode
 title: IMFVideoDisplayControl::GetAspectRatioMode (evr.h)
-
 description: Queries how the enhanced video renderer (EVR) handles the aspect ratio of the source video.
 old-location: mf\imfvideodisplaycontrol_getaspectratiomode.htm
 tech.root: medfound
 ms.assetid: b5e81f80-e5c9-4ecf-8f10-d52a0533f086
-
 ms.date: 12/05/2018
 ms.keywords: GetAspectRatioMode, GetAspectRatioMode method [Media Foundation], GetAspectRatioMode method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetAspectRatioMode method, IMFVideoDisplayControl.GetAspectRatioMode, IMFVideoDisplayControl::GetAspectRatioMode, b5e81f80-e5c9-4ecf-8f10-d52a0533f086, evr/IMFVideoDisplayControl::GetAspectRatioMode, mf.imfvideodisplaycontrol_getaspectratiomode
 ms.topic: method
-f1_keywords: 
- - "evr/IMFVideoDisplayControl.GetAspectRatioMode"
+f1_keywords:
+- evr/IMFVideoDisplayControl.GetAspectRatioMode
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoDisplayControl.GetAspectRatioMode
+- IMFVideoDisplayControl.GetAspectRatioMode
 targetos: Windows
 req.typenames: 
 req.redist: 

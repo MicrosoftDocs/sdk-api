@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagNMCUSTOMDRAWINFO
 title: NMCUSTOMDRAW (commctrl.h)
-
 description: Contains information specific to an NM_CUSTOMDRAW notification code.
 old-location: controls\NMCUSTOMDRAW.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\custdraw\structures\nmcustomdraw.htm
-
 ms.date: 12/05/2018
 ms.keywords: '*LPNMCUSTOMDRAW, CDDS_ITEM, CDDS_ITEMPOSTERASE, CDDS_ITEMPOSTPAINT, CDDS_ITEMPREERASE, CDDS_ITEMPREPAINT, CDDS_POSTERASE, CDDS_POSTPAINT, CDDS_PREERASE, CDDS_PREPAINT, CDDS_SUBITEM, CDIS_CHECKED, CDIS_DEFAULT, CDIS_DISABLED, CDIS_DROPHILITED, CDIS_FOCUS, CDIS_GRAYED, CDIS_HOT, CDIS_INDETERMINATE, CDIS_MARKED, CDIS_NEARHOT, CDIS_OTHERSIDEHOT, CDIS_SELECTED, CDIS_SHOWKEYBOARDCUES, Global Values:, Item-specific Values:, LPNMCUSTOMDRAW, LPNMCUSTOMDRAW structure pointer [Windows Controls], NMCUSTOMDRAW, NMCUSTOMDRAW structure [Windows Controls], _win32_NMCUSTOMDRAW, _win32_NMCUSTOMDRAW_cpp, commctrl/LPNMCUSTOMDRAW, commctrl/NMCUSTOMDRAW, controls.NMCUSTOMDRAW, controls._win32_NMCUSTOMDRAW'
 ms.topic: struct
 f1_keywords:
 - commctrl/NMCUSTOMDRAW
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

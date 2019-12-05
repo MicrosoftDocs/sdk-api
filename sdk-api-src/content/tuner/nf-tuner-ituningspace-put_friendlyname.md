@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuningSpace.put_FriendlyName
 title: ITuningSpace::put_FriendlyName (tuner.h)
-
 description: The put_FriendlyName method sets the localized, user-friendly name of the tuning space.
 old-location: mstv\ituningspace_put_friendlyname.htm
 tech.root: mstv
 ms.assetid: 97457657-9d28-4c8e-9db6-61271aa127e3
-
 ms.date: 12/05/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],put_FriendlyName method, ITuningSpace.put_FriendlyName, ITuningSpace::put_FriendlyName, ITuningSpaceput_FriendlyName, mstv.ituningspace_put_friendlyname, put_FriendlyName, put_FriendlyName method [Microsoft TV Technologies], put_FriendlyName method [Microsoft TV Technologies],ITuningSpace interface, tuner/ITuningSpace::put_FriendlyName
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuningSpace.put_FriendlyName"
+f1_keywords:
+- tuner/ITuningSpace.put_FriendlyName
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuningSpace.put_FriendlyName
+- ITuningSpace.put_FriendlyName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:dpa_dsa.PFNDPAMERGECONST
 title: PFNDPAMERGECONST (dpa_dsa.h)
-
 description: Defines the prototype for the merge function used by DPA_Merge, using constant values.
 old-location: controls\PFNDPAMERGECONST.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndpamergeconst.htm
-
 ms.date: 12/05/2018
 ms.keywords: DPAMM_DELETE, DPAMM_INSERT, DPAMM_MERGE, PFNDPAMERGECONST, PFNDPAMERGECONST callback, PFNDPAMERGECONST callback function [Windows Controls], _shell_PFNDPAMERGECONST, _shell_PFNDPAMERGECONST_cpp, controls.PFNDPAMERGECONST, controls._shell_PFNDPAMERGECONST, dpa_dsa/PFNDPAMERGECONST
 ms.topic: callback
-f1_keywords: 
- - "dpa_dsa/PFNDPAMERGECONST"
+f1_keywords:
+- dpa_dsa/PFNDPAMERGECONST
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - dpa_dsa.h
+- dpa_dsa.h
 api_name:
- - PFNDPAMERGECONST
+- PFNDPAMERGECONST
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:cfapi.CfReportProviderProgress
 title: CfReportProviderProgress function (cfapi.h)
-
 description: Allows a sync provider to report progress out-of-band.
 old-location: cloudapi\cfreportproviderprogress.htm
 tech.root: cfApi
 ms.assetid: 33AB46FD-200E-40FF-B061-5842C6433069
-
 ms.date: 12/05/2018
 ms.keywords: CfReportProviderProgress, CfReportProviderProgress function, cfapi/CfReportProviderProgress, cloudApi.cfreportproviderprogress
 ms.topic: function
-f1_keywords: 
- - "cfapi/CfReportProviderProgress"
+f1_keywords:
+- cfapi/CfReportProviderProgress
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CldApi.dll
+- CldApi.dll
 api_name:
- - CfReportProviderProgress
+- CfReportProviderProgress
 targetos: Windows
 req.typenames: 
 req.redist: 

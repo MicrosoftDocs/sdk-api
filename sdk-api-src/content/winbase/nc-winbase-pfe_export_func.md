@@ -1,19 +1,17 @@
 ---
 UID: NC:winbase.PFE_EXPORT_FUNC
 title: PFE_EXPORT_FUNC (winbase.h)
-
 description: An application-defined callback function used with ReadEncryptedFileRaw.
 old-location: fs\exportcallback.htm
 tech.root: FileIO
 ms.assetid: 156948c9-d7b4-4491-bdb1-e1864a32caab
-
 ms.date: 12/05/2018
 ms.keywords: ExportCallback, ExportCallback callback, ExportCallback callback function [Files], PFE_EXPORT_FUNC, PFE_EXPORT_FUNC callback function [Files], base.exportcallback, fs.exportcallback, winbase/ExportCallback, winbase/PFE_EXPORT_FUNC
 ms.topic: callback
-f1_keywords: 
- - "winbase/ExportCallback"
+f1_keywords:
+- winbase/ExportCallback
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WinBase.h
+- WinBase.h
 api_name:
- - ExportCallback
- - PFE_EXPORT_FUNC
+- ExportCallback
+- PFE_EXPORT_FUNC
 targetos: Windows
 req.typenames: 
 req.redist: 

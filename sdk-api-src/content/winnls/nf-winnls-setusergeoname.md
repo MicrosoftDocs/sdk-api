@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.SetUserGeoName
 title: SetUserGeoName function (winnls.h)
-
 description: Sets the geographic location for the current user to the specified two-letter International Organization for Standardization (ISO) 3166-1 code or numeric United Nations (UN) Series M, Number 49 (M.49) code.
 old-location: intl\setusergeoname.htm
 tech.root: Intl
 ms.assetid: 0E5934DE-F526-45B4-9DAF-C8941F00C162
-
 ms.date: 12/05/2018
 ms.keywords: SetUserGeoName, SetUserGeoName function [Internationalization for Windows Applications], intl.setusergeoname, winnls/SetUserGeoName
 ms.topic: function
-f1_keywords: 
- - "winnls/SetUserGeoName"
+f1_keywords:
+- winnls/SetUserGeoName
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - SetUserGeoName
+- SetUserGeoName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdxml.WSDXMLGetNameFromBuiltinNamespace
 title: WSDXMLGetNameFromBuiltinNamespace function (wsdxml.h)
-
 description: Gets a specified name from the built-in namespace.
 old-location: ncd\wsdxmlgetnamefrombuiltinnamespace.htm
 tech.root: WsdApi
 ms.assetid: b7a5ac45-ee87-4290-9cbb-de523c0f2775
-
 ms.date: 12/05/2018
 ms.keywords: WSDXMLGetNameFromBuiltinNamespace, WSDXMLGetNameFromBuiltinNamespace function, ncd.wsdxmlgetnamefrombuiltinnamespace, wsdxml/WSDXMLGetNameFromBuiltinNamespace
 ms.topic: function
 f1_keywords:
 - wsdxml/WSDXMLGetNameFromBuiltinNamespace
 dev_langs:
- - c++
+- c++
 req.header: wsdxml.h
 req.include-header: 
 req.target-type: Windows

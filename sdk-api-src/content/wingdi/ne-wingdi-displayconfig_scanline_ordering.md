@@ -1,19 +1,17 @@
 ---
 UID: NE:wingdi.__unnamed_enum_1
 title: DISPLAYCONFIG_SCANLINE_ORDERING (wingdi.h)
-
 description: The DISPLAYCONFIG_SCANLINE_ORDERING enumeration specifies the method that the display uses to create an image on a screen.
 old-location: display\displayconfig_scanline_ordering.htm
 tech.root: display
 ms.assetid: 5b8d6c83-e8fb-4529-8d61-557ed0e4da37
-
 ms.date: 12/05/2018
 ms.keywords: CCD_Enumerations_e6c7a4af-750c-4a3c-a89d-562448487abc.xml, DISPLAYCONFIG_SCANLINE_ORDERING, DISPLAYCONFIG_SCANLINE_ORDERING enumeration [Display Devices], DISPLAYCONFIG_SCANLINE_ORDERING_FORCE_UINT32, DISPLAYCONFIG_SCANLINE_ORDERING_INTERLACED, DISPLAYCONFIG_SCANLINE_ORDERING_INTERLACED_LOWERFIELDFIRST, DISPLAYCONFIG_SCANLINE_ORDERING_INTERLACED_UPPERFIELDFIRST, DISPLAYCONFIG_SCANLINE_ORDERING_PROGRESSIVE, DISPLAYCONFIG_SCANLINE_ORDERING_UNSPECIFIED, display.displayconfig_scanline_ordering, wingdi/DISPLAYCONFIG_SCANLINE_ORDERING, wingdi/DISPLAYCONFIG_SCANLINE_ORDERING_FORCE_UINT32, wingdi/DISPLAYCONFIG_SCANLINE_ORDERING_INTERLACED, wingdi/DISPLAYCONFIG_SCANLINE_ORDERING_INTERLACED_LOWERFIELDFIRST, wingdi/DISPLAYCONFIG_SCANLINE_ORDERING_INTERLACED_UPPERFIELDFIRST, wingdi/DISPLAYCONFIG_SCANLINE_ORDERING_PROGRESSIVE, wingdi/DISPLAYCONFIG_SCANLINE_ORDERING_UNSPECIFIED
 ms.topic: enum
-f1_keywords: 
- - "wingdi/DISPLAYCONFIG_SCANLINE_ORDERING"
+f1_keywords:
+- wingdi/DISPLAYCONFIG_SCANLINE_ORDERING
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wingdi.h
+- wingdi.h
 api_name:
- - DISPLAYCONFIG_SCANLINE_ORDERING
+- DISPLAYCONFIG_SCANLINE_ORDERING
 targetos: Windows
 req.typenames: DISPLAYCONFIG_SCANLINE_ORDERING
 req.redist: 

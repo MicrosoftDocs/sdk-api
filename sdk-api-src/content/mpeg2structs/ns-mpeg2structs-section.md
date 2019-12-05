@@ -1,19 +1,17 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0006
 title: SECTION (mpeg2structs.h)
-
 description: The SECTION structure represents a short header from an MPEG-2 table section.
 old-location: mstv\section.htm
 tech.root: mstv
 ms.assetid: 6ee07b84-ae97-413f-a3b4-0078ad740194
-
 ms.date: 12/05/2018
-ms.keywords: "*PSECTION, PSECTION, PSECTION structure pointer [Microsoft TV Technologies], SECTION, SECTION structure [Microsoft TV Technologies], mpeg2structs/PSECTION, mpeg2structs/SECTION, mstv.section"
+ms.keywords: '*PSECTION, PSECTION, PSECTION structure pointer [Microsoft TV Technologies], SECTION, SECTION structure [Microsoft TV Technologies], mpeg2structs/PSECTION, mpeg2structs/SECTION, mstv.section'
 ms.topic: struct
-f1_keywords: 
- - "mpeg2structs/SECTION"
+f1_keywords:
+- mpeg2structs/SECTION
 dev_langs:
- - c++
+- c++
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mpeg2Structs.h
+- Mpeg2Structs.h
 api_name:
- - SECTION
+- SECTION
 targetos: Windows
 req.typenames: SECTION, *PSECTION
 req.redist: 

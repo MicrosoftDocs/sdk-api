@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextDocument.SetSaved
 title: ITextDocument::SetSaved (tom.h)
-
 description: Sets the document Saved property.
 old-location: controls\ITextDocument_SetSaved.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setsaved.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextDocument interface [Windows Controls],SetSaved method, ITextDocument.SetSaved, ITextDocument::SetSaved, SetSaved, SetSaved method [Windows Controls], SetSaved method [Windows Controls],ITextDocument interface, _win32_ITextDocument_SetSaved, _win32_ITextDocument_SetSaved_cpp, controls.ITextDocument_SetSaved, controls._win32_ITextDocument_SetSaved, tom/ITextDocument::SetSaved, tomFalse, tomTrue
 ms.topic: method
-f1_keywords: 
- - "tom/ITextDocument.SetSaved"
+f1_keywords:
+- tom/ITextDocument.SetSaved
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextDocument.SetSaved
+- ITextDocument.SetSaved
 targetos: Windows
 req.typenames: 
 req.redist: 

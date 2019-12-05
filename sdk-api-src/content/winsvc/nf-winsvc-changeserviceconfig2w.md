@@ -1,19 +1,17 @@
 ---
 UID: NF:winsvc.ChangeServiceConfig2W
 title: ChangeServiceConfig2W function (winsvc.h)
-
 description: Changes the optional configuration parameters of a service.
 old-location: base\changeserviceconfig2.htm
 tech.root: Services
 ms.assetid: 6e5b79ed-52e1-460e-b076-01afbd08775c
-
 ms.date: 12/05/2018
 ms.keywords: ChangeServiceConfig2, ChangeServiceConfig2 function, ChangeServiceConfig2A, ChangeServiceConfig2W, SERVICE_CONFIG_DELAYED_AUTO_START_INFO, SERVICE_CONFIG_DESCRIPTION, SERVICE_CONFIG_FAILURE_ACTIONS, SERVICE_CONFIG_FAILURE_ACTIONS_FLAG, SERVICE_CONFIG_LAUNCH_PROTECTED, SERVICE_CONFIG_PREFERRED_NODE, SERVICE_CONFIG_PRESHUTDOWN_INFO, SERVICE_CONFIG_REQUIRED_PRIVILEGES_INFO, SERVICE_CONFIG_SERVICE_SID_INFO, SERVICE_CONFIG_TRIGGER_INFO, _win32_changeserviceconfig2, base.changeserviceconfig2, winsvc/ChangeServiceConfig2, winsvc/ChangeServiceConfig2A, winsvc/ChangeServiceConfig2W
 ms.topic: function
 f1_keywords:
 - winsvc/ChangeServiceConfig2
 dev_langs:
- - c++
+- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

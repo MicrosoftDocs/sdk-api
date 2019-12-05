@@ -1,19 +1,17 @@
 ---
 UID: NE:p2p.peer_group_event_type_tag
 title: PEER_GROUP_EVENT_TYPE (p2p.h)
-
 description: The PEER_GROUP_EVENT_TYPE enumeration contains the specific peer event types that can occur within a peer group.
 old-location: p2p\peer_group_event_type.htm
 tech.root: P2PSdk
 ms.assetid: 9c28eb24-f158-4313-9a7c-0f271013d03a
-
 ms.date: 12/05/2018
 ms.keywords: PEER_GROUP_EVENT_CONNECTION_FAILED, PEER_GROUP_EVENT_DIRECT_CONNECTION, PEER_GROUP_EVENT_INCOMING_DATA, PEER_GROUP_EVENT_MEMBER_CHANGED, PEER_GROUP_EVENT_NEIGHBOR_CONNECTION, PEER_GROUP_EVENT_PROPERTY_CHANGED, PEER_GROUP_EVENT_RECORD_CHANGED, PEER_GROUP_EVENT_STATUS_CHANGED, PEER_GROUP_EVENT_TYPE, PEER_GROUP_EVENT_TYPE enumeration [Peer Networking], p2p.peer_group_event_type, p2p/PEER_GROUP_EVENT_CONNECTION_FAILED, p2p/PEER_GROUP_EVENT_DIRECT_CONNECTION, p2p/PEER_GROUP_EVENT_INCOMING_DATA, p2p/PEER_GROUP_EVENT_MEMBER_CHANGED, p2p/PEER_GROUP_EVENT_NEIGHBOR_CONNECTION, p2p/PEER_GROUP_EVENT_PROPERTY_CHANGED, p2p/PEER_GROUP_EVENT_RECORD_CHANGED, p2p/PEER_GROUP_EVENT_STATUS_CHANGED, p2p/PEER_GROUP_EVENT_TYPE
 ms.topic: enum
-f1_keywords: 
- - "p2p/PEER_GROUP_EVENT_TYPE"
+f1_keywords:
+- p2p/PEER_GROUP_EVENT_TYPE
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - P2P.h
+- P2P.h
 api_name:
- - PEER_GROUP_EVENT_TYPE
+- PEER_GROUP_EVENT_TYPE
 targetos: Windows
 req.typenames: PEER_GROUP_EVENT_TYPE
 req.redist: 

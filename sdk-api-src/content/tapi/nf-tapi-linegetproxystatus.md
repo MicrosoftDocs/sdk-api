@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineGetProxyStatus
 title: lineGetProxyStatus function (tapi.h)
-
 description: The lineGetProxyStatus function returns a list of proxy request types that are currently being serviced for the specified device.
 old-location: tapi2\linegetproxystatus.htm
 tech.root: Tapi
 ms.assetid: 0684f52f-13dd-4734-9242-acd03f7a25ae
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linegetproxystatus, lineGetProxyStatus, lineGetProxyStatus function [TAPI 2.2], tapi/lineGetProxyStatus, tapi2.linegetproxystatus"
+ms.keywords: _tapi2_linegetproxystatus, lineGetProxyStatus, lineGetProxyStatus function [TAPI 2.2], tapi/lineGetProxyStatus, tapi2.linegetproxystatus
 ms.topic: function
-f1_keywords: 
- - "tapi/lineGetProxyStatus"
+f1_keywords:
+- tapi/lineGetProxyStatus
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineGetProxyStatus
+- lineGetProxyStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

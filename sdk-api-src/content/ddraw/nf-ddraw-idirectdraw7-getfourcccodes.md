@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDraw7.GetFourCCCodes
 title: IDirectDraw7::GetFourCCCodes (ddraw.h)
-
 description: Retrieves the four-character codes (FOURCC) that are supported by the DirectDraw object. This method can also retrieve the number of codes that are supported.
 old-location: directdraw\idirectdraw7_getfourcccodes.htm
 tech.root: directdraw
 ms.assetid: 980b1cfe-d466-42f4-865f-6ddc7a41ea94
-
 ms.date: 12/05/2018
 ms.keywords: GetFourCCCodes, GetFourCCCodes method [DirectDraw], GetFourCCCodes method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetFourCCCodes method, IDirectDraw7.GetFourCCCodes, IDirectDraw7::GetFourCCCodes, ddraw/IDirectDraw7::GetFourCCCodes, directdraw.idirectdraw7_getfourcccodes
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDraw7.GetFourCCCodes"
+f1_keywords:
+- ddraw/IDirectDraw7.GetFourCCCodes
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDraw7.GetFourCCCodes
+- IDirectDraw7.GetFourCCCodes
 targetos: Windows
 req.typenames: 
 req.redist: 

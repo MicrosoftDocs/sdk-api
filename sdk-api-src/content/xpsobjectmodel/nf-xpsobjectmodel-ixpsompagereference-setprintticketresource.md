@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.SetPrintTicketResource
 title: IXpsOMPageReference::SetPrintTicketResource (xpsobjectmodel.h)
-
 description: Sets the IXpsOMPrintTicketResource interface pointer of the page-level print ticket resource that is to be assigned to the page.
 old-location: xps\ixpsompagereference_setprintticketresource.htm
 tech.root: printdocs
 ms.assetid: 76594c7d-327d-45a5-8947-c587ada7b758
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPageReference interface [XPS Documents and Packaging],SetPrintTicketResource method, IXpsOMPageReference.SetPrintTicketResource, IXpsOMPageReference::SetPrintTicketResource, SetPrintTicketResource, SetPrintTicketResource method [XPS Documents and Packaging], SetPrintTicketResource method [XPS Documents and Packaging],IXpsOMPageReference interface, xps.ixpsompagereference_setprintticketresource, xpsobjectmodel/IXpsOMPageReference::SetPrintTicketResource
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPageReference.SetPrintTicketResource"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPageReference.SetPrintTicketResource
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPageReference.SetPrintTicketResource
+- IXpsOMPageReference.SetPrintTicketResource
 targetos: Windows
 req.typenames: 
 req.redist: 

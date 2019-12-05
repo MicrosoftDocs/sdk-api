@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IMTSLocator
 title: IMTSLocator (comsvcs.h)
-
 description: Describes a single event that provides access to the IMtsEvents interface of the event dispatcher for the current process.
 old-location: cos\imtslocator.htm
 tech.root: cossdk
 ms.assetid: afa559bc-5ac2-4487-bb13-25f30c5f4033
-
 ms.date: 12/05/2018
 ms.keywords: IMTSLocator, IMTSLocator interface [COM+], IMTSLocator interface [COM+],described, _dtc_IMtsLocator_Interface, comsvcs/IMTSLocator, cos.imtslocator
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IMTSLocator"
+f1_keywords:
+- comsvcs/IMTSLocator
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IMTSLocator
+- IMTSLocator
 targetos: Windows
 req.typenames: 
 req.redist: 

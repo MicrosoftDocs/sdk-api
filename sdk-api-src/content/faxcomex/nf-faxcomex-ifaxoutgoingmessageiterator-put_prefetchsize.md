@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessageIterator.put_PrefetchSize
 title: IFaxOutgoingMessageIterator::put_PrefetchSize (faxcomex.h)
-
 description: The IFaxOutgoingMessageIterator::get_PrefetchSize property indicates the size of the prefetch (read-ahead) buffer. This determines how many fax messages the iterator object retrieves from the fax server when the object needs to refresh its contents.
 old-location: fax\_mfax_faxoutgoingmessageiterator_cpp_mfax_faxoutgoingmessageiterator_prefetchsize_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_12w5.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingMessageIterator interface [Fax Service],PrefetchSize property, IFaxOutgoingMessageIterator.PrefetchSize, IFaxOutgoingMessageIterator.get_PrefetchSize, IFaxOutgoingMessageIterator.put_PrefetchSize, IFaxOutgoingMessageIterator::PrefetchSize, IFaxOutgoingMessageIterator::get_PrefetchSize, IFaxOutgoingMessageIterator::put_PrefetchSize, PrefetchSize property [Fax Service], PrefetchSize property [Fax Service],IFaxOutgoingMessageIterator interface, _mfax_faxoutgoingmessageiterator.prefetchsize, fax._mfax_faxoutgoingmessageiterator_cpp_mfax_faxoutgoingmessageiterator_prefetchsize_cpp, fax._mfax_faxoutgoingmessageiterator_prefetchsize, faxcomex/IFaxOutgoingMessageIterator::PrefetchSize, faxcomex/IFaxOutgoingMessageIterator::get_PrefetchSize, faxcomex/IFaxOutgoingMessageIterator::put_PrefetchSize, lDEFAULT_PREFETCH_SIZE, put_PrefetchSize
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingMessageIterator.PrefetchSize"
+f1_keywords:
+- faxcomex/IFaxOutgoingMessageIterator.PrefetchSize
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingMessageIterator.PrefetchSize
- - IFaxOutgoingMessageIterator.get_PrefetchSize
- - IFaxOutgoingMessageIterator.put_PrefetchSize
- - IFaxOutgoingMessageIterator.get_PrefetchSize
- - IFaxOutgoingMessageIterator.put_PrefetchSize
+- IFaxOutgoingMessageIterator.PrefetchSize
+- IFaxOutgoingMessageIterator.get_PrefetchSize
+- IFaxOutgoingMessageIterator.put_PrefetchSize
+- IFaxOutgoingMessageIterator.get_PrefetchSize
+- IFaxOutgoingMessageIterator.put_PrefetchSize
 targetos: Windows
 req.typenames: 
 req.redist: 

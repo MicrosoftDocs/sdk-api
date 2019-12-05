@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.waveOutSetPitch
 title: waveOutSetPitch function (mmeapi.h)
-
 description: The waveOutSetPitch function sets the pitch for the specified waveform-audio output device.
 old-location: multimedia\waveoutsetpitch.htm
 tech.root: Multimedia
 ms.assetid: 103560b6-a93a-42ac-8c62-839091c56433
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_waveOutSetPitch, mmeapi/waveOutSetPitch, multimedia.waveoutsetpitch, waveOutSetPitch, waveOutSetPitch function [Windows Multimedia]"
+ms.keywords: _win32_waveOutSetPitch, mmeapi/waveOutSetPitch, multimedia.waveoutsetpitch, waveOutSetPitch, waveOutSetPitch function [Windows Multimedia]
 ms.topic: function
-f1_keywords: 
- - "mmeapi/waveOutSetPitch"
+f1_keywords:
+- mmeapi/waveOutSetPitch
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - waveOutSetPitch
+- waveOutSetPitch
 targetos: Windows
 req.typenames: 
 req.redist: 

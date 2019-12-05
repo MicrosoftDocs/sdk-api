@@ -1,19 +1,17 @@
 ---
 UID: NF:winreg.RegQueryValueExW
 title: RegQueryValueExW function (winreg.h)
-
 description: Retrieves the type and data for the specified value name associated with an open registry key.
 old-location: base\regqueryvalueex.htm
 tech.root: SysInfo
 ms.assetid: 202d253a-10ff-40e7-8eec-a49717443b81
-
 ms.date: 12/05/2018
 ms.keywords: RegQueryValueEx, RegQueryValueEx function, RegQueryValueExA, RegQueryValueExW, _win32_regqueryvalueex, base.regqueryvalueex, winreg/RegQueryValueEx, winreg/RegQueryValueExA, winreg/RegQueryValueExW
 ms.topic: function
-f1_keywords: 
- - "winreg/RegQueryValueEx"
+f1_keywords:
+- winreg/RegQueryValueEx
 dev_langs:
- - c++
+- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,24 +30,24 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-Localregistry-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Registry-l1-1-0.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - MinKernelBase.dll
- - api-ms-win-core-registry-l1-1-1.dll
- - kernel32.dll
+- Advapi32.dll
+- API-MS-Win-Core-Localregistry-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Registry-l1-1-0.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- MinKernelBase.dll
+- api-ms-win-core-registry-l1-1-1.dll
+- kernel32.dll
 api_name:
- - RegQueryValueEx
- - RegQueryValueExA
- - RegQueryValueExW
+- RegQueryValueEx
+- RegQueryValueExA
+- RegQueryValueExW
 targetos: Windows
 req.typenames: 
 req.redist: 

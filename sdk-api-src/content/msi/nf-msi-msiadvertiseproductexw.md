@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiAdvertiseProductExW
 title: MsiAdvertiseProductExW function (msi.h)
-
 description: The MsiAdvertiseProductEx function generates an advertise script or advertises a product to the computer.
 old-location: setup\msiadvertiseproductex.htm
 tech.root: Msi
 ms.assetid: 27e8deb6-912f-4103-97a6-ec505340dccc
-
 ms.date: 12/05/2018
 ms.keywords: ADVERTISEFLAGS_MACHINEASSIGN, ADVERTISEFLAGS_USERASSIGN, MSIADVERTISEOPTIONS_INSTANCE, MSIARCHITECTUREFLAGS_AMD64, MSIARCHITECTUREFLAGS_IA64, MSIARCHITECTUREFLAGS_X86, MsiAdvertiseProductEx, MsiAdvertiseProductEx function, MsiAdvertiseProductExA, MsiAdvertiseProductExW, _msi_msiadvertiseproductex, msi/MsiAdvertiseProductEx, msi/MsiAdvertiseProductExA, msi/MsiAdvertiseProductExW, none, setup.msiadvertiseproductex
 ms.topic: function
-f1_keywords: 
- - "msi/MsiAdvertiseProductEx"
+f1_keywords:
+- msi/MsiAdvertiseProductEx
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiAdvertiseProductEx
- - MsiAdvertiseProductExA
- - MsiAdvertiseProductExW
+- MsiAdvertiseProductEx
+- MsiAdvertiseProductExA
+- MsiAdvertiseProductExW
 targetos: Windows
 req.typenames: 
 req.redist: 

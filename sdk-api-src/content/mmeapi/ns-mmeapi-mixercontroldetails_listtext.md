@@ -1,19 +1,17 @@
 ---
 UID: NS:mmeapi.tMIXERCONTROLDETAILS_LISTTEXT
 title: MIXERCONTROLDETAILS_LISTTEXT (mmeapi.h)
-
 description: The MIXERCONTROLDETAILS structure refers to control-detail structures, retrieving or setting state information of an audio mixer control.
 old-location: multimedia\mixercontroldetails.htm
 tech.root: Multimedia
 ms.assetid: 171605e0-4bfc-47cf-b667-3e73c172aebd
-
 ms.date: 12/05/2018
-ms.keywords: "*LPMIXERCONTROLDETAILS_LISTTEXT, *PMIXERCONTROLDETAILS_LISTTEXT, 0, 1, MIXERCONTROL cMultipleItems member, MIXERCONTROLDETAILS, MIXERCONTROLDETAILS hwndOwner member, MIXERCONTROLDETAILS structure [Windows Multimedia], MIXERCONTROLDETAILS_BOOLEAN, MIXERCONTROLDETAILS_LISTTEXT, MIXERCONTROLDETAILS_SIGNED, MIXERCONTROLDETAILS_UNSIGNED, MIXERLINE cChannels, _win32_MIXERCONTROLDETAILS_str, mmeapi/MIXERCONTROLDETAILS, multimedia.mixercontroldetails, tMIXERCONTROLDETAILS"
+ms.keywords: '*LPMIXERCONTROLDETAILS_LISTTEXT, *PMIXERCONTROLDETAILS_LISTTEXT, 0, 1, MIXERCONTROL cMultipleItems member, MIXERCONTROLDETAILS, MIXERCONTROLDETAILS hwndOwner member, MIXERCONTROLDETAILS structure [Windows Multimedia], MIXERCONTROLDETAILS_BOOLEAN, MIXERCONTROLDETAILS_LISTTEXT, MIXERCONTROLDETAILS_SIGNED, MIXERCONTROLDETAILS_UNSIGNED, MIXERLINE cChannels, _win32_MIXERCONTROLDETAILS_str, mmeapi/MIXERCONTROLDETAILS, multimedia.mixercontroldetails, tMIXERCONTROLDETAILS'
 ms.topic: struct
-f1_keywords: 
- - "mmeapi/MIXERCONTROLDETAILS"
+f1_keywords:
+- mmeapi/MIXERCONTROLDETAILS
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mmeapi.h
+- mmeapi.h
 api_name:
- - MIXERCONTROLDETAILS
+- MIXERCONTROLDETAILS
 targetos: Windows
 req.typenames: MIXERCONTROLDETAILS_LISTTEXT, *PMIXERCONTROLDETAILS_LISTTEXT, *LPMIXERCONTROLDETAILS_LISTTEXT
 req.redist: 

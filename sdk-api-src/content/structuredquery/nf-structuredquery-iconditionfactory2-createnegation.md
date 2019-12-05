@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IConditionFactory2.CreateNegation
 title: IConditionFactory2::CreateNegation (structuredquery.h)
-
 description: Creates a condition node that is a logical negation (NOT) of another condition (a subnode of this node).
 old-location: search\_search_IConditionFactory2_CreateNegation.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\createnegation.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateNegation, CreateNegation method [search], CreateNegation method [search],IConditionFactory2 interface, IConditionFactory2 interface [search],CreateNegation method, IConditionFactory2.CreateNegation, IConditionFactory2::CreateNegation, _search_IConditionFactory2_CreateNegation, search._search_IConditionFactory2_CreateNegation, structuredquery/IConditionFactory2::CreateNegation
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IConditionFactory2.CreateNegation"
+f1_keywords:
+- structuredquery/IConditionFactory2.CreateNegation
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IConditionFactory2.CreateNegation
+- IConditionFactory2.CreateNegation
 targetos: Windows
 req.typenames: 
 req.redist: 

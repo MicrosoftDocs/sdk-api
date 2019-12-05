@@ -1,19 +1,17 @@
 ---
 UID: NS:gamingdeviceinformation.GAMING_DEVICE_MODEL_INFORMATION
 title: GAMING_DEVICE_MODEL_INFORMATION (gamingdeviceinformation.h)
-
 description: Contains information about the device that the game is running on.
 old-location: gamingdvcinfo\gaming_device_model_information.htm
 tech.root: gamingdvcinfo
 ms.assetid: 0D5A6358-0F82-4414-BD17-BDE22EDBBB15
-
 ms.date: 12/05/2018
 ms.keywords: GAMING_DEVICE_MODEL_INFORMATION, GAMING_DEVICE_MODEL_INFORMATION structure, gamingdeviceinformation/GAMING_DEVICE_MODEL_INFORMATION, gamingdvcinfo.gaming_device_model_information
 ms.topic: struct
-f1_keywords: 
- - "gamingdeviceinformation/GAMING_DEVICE_MODEL_INFORMATION"
+f1_keywords:
+- gamingdeviceinformation/GAMING_DEVICE_MODEL_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: gamingdeviceinformation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - gamingdeviceinformation.h
+- gamingdeviceinformation.h
 api_name:
- - GAMING_DEVICE_MODEL_INFORMATION
+- GAMING_DEVICE_MODEL_INFORMATION
 targetos: Windows
 req.typenames: GAMING_DEVICE_MODEL_INFORMATION
 req.redist: 

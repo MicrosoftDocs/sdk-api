@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetDetailsAudioOOBSourceID
 title: ISCTE_EAS::GetDetailsAudioOOBSourceID (atscpsipparser.h)
-
 description: The GetDetailsAudioOOBSourceID method returns the source identifier of the virtual audio channel for the emergency alert.
 old-location: mstv\iscte_eas_getdetailsaudiooobsourceid.htm
 tech.root: mstv
 ms.assetid: ab054225-e8e6-4f78-9010-15fc8e5ad15b
-
 ms.date: 12/05/2018
 ms.keywords: GetDetailsAudioOOBSourceID, GetDetailsAudioOOBSourceID method [Microsoft TV Technologies], GetDetailsAudioOOBSourceID method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetDetailsAudioOOBSourceID method, ISCTE_EAS.GetDetailsAudioOOBSourceID, ISCTE_EAS::GetDetailsAudioOOBSourceID, ISCTE_EASGetDetailsAudioOOBSourceID, atscpsipparser/ISCTE_EAS::GetDetailsAudioOOBSourceID, mstv.iscte_eas_getdetailsaudiooobsourceid
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/ISCTE_EAS.GetDetailsAudioOOBSourceID"
+f1_keywords:
+- atscpsipparser/ISCTE_EAS.GetDetailsAudioOOBSourceID
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - ISCTE_EAS.GetDetailsAudioOOBSourceID
+- ISCTE_EAS.GetDetailsAudioOOBSourceID
 targetos: Windows
 req.typenames: 
 req.redist: 

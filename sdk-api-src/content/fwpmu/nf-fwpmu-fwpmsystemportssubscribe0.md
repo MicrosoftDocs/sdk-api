@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmSystemPortsSubscribe0
 title: FwpmSystemPortsSubscribe0 function (fwpmu.h)
-
 description: Is used to request the delivery of notifications regarding a particular system port.
 old-location: fwp\fwpmsystemportssubscribe0.htm
 tech.root: fwp
 ms.assetid: e0eecf0e-e6b2-4df9-8a8e-766ee5c8189f
-
 ms.date: 12/05/2018
 ms.keywords: FwpmSystemPortsSubscribe0, FwpmSystemPortsSubscribe0 function [Filtering], fwp.fwpmsystemportssubscribe0, fwpmu/FwpmSystemPortsSubscribe0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmSystemPortsSubscribe0"
+f1_keywords:
+- fwpmu/FwpmSystemPortsSubscribe0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmSystemPortsSubscribe0
+- FwpmSystemPortsSubscribe0
 targetos: Windows
 req.typenames: 
 req.redist: 

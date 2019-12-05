@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.GetClusterInformation
 title: GetClusterInformation function (clusapi.h)
-
 description: Retrieves a cluster's name and version.
 old-location: mscs\getclusterinformation.htm
 tech.root: MsCS
 ms.assetid: 5b259eb9-c5d0-4f4f-8a6b-14eaed716612
-
 ms.date: 12/05/2018
 ms.keywords: GetClusterInformation, GetClusterInformation function [Failover Cluster], PCLUSAPI_GET_CLUSTER_INFORMATION, PCLUSAPI_GET_CLUSTER_INFORMATION function [Failover Cluster], _wolf_getclusterinformation, clusapi/GetClusterInformation, clusapi/PCLUSAPI_GET_CLUSTER_INFORMATION, mscs.getclusterinformation
 ms.topic: function
-f1_keywords: 
- - "clusapi/GetClusterInformation"
+f1_keywords:
+- clusapi/GetClusterInformation
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
- - ext-ms-win-cluster-clusapi-l1-1-3.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ext-ms-win-cluster-clusapi-l1-1-3.dll
 api_name:
- - GetClusterInformation
+- GetClusterInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

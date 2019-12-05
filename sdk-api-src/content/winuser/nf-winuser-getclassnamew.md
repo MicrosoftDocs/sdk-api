@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetClassNameW
 title: GetClassNameW function (winuser.h)
-
 description: Retrieves the name of the class to which the specified window belongs.
 old-location: winmsg\getclassname.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getclassname.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetClassName, GetClassName function [Windows and Messages], GetClassNameA, GetClassNameW, _win32_GetClassName, _win32_getclassname_cpp, winmsg.getclassname, winui._win32_getclassname, winuser/GetClassName, winuser/GetClassNameA, winuser/GetClassNameW
 ms.topic: function
-f1_keywords: 
- - "winuser/GetClassName"
+f1_keywords:
+- winuser/GetClassName
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,24 +30,24 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
- - ie_shims.dll
- - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-Windowclass-l1-1-0.dll
- - Ext-MS-Win-NTUser-Windowclass-l1-1-1.dll
- - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
- - ext-ms-win-ntuser-windowclass-l1-1-2.dll
+- User32.dll
+- API-MS-Win-NTUser-IE-Window-l1-1-0.dll
+- ie_shims.dll
+- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-Windowclass-l1-1-0.dll
+- Ext-MS-Win-NTUser-Windowclass-l1-1-1.dll
+- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+- ext-ms-win-ntuser-windowclass-l1-1-2.dll
 api_name:
- - GetClassName
- - GetClassNameA
- - GetClassNameW
+- GetClassName
+- GetClassNameA
+- GetClassNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

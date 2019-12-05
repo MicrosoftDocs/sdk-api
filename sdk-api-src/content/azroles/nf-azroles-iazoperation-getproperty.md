@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzOperation.GetProperty
 title: IAzOperation::GetProperty (azroles.h)
-
 description: Returns the IAzOperation object property with the specified property ID.
 old-location: security\iazoperation_getproperty.htm
 tech.root: SecAuthZ
 ms.assetid: 211def10-d696-4b23-b54c-21f1f9b8f7ff
-
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_CHILD_CREATE, AZ_PROP_DESCRIPTION, AZ_PROP_NAME, AZ_PROP_OPERATION_ID, AZ_PROP_WRITABLE, AzOperation object [Security],GetProperty method, GetProperty, GetProperty method [Security], GetProperty method [Security],AzOperation object, GetProperty method [Security],IAzOperation interface, IAzOperation interface [Security],GetProperty method, IAzOperation.GetProperty, IAzOperation::GetProperty, azroles/IAzOperation::GetProperty, security.iazoperation_getproperty
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzOperation.GetProperty"
+f1_keywords:
+- azroles/IAzOperation.GetProperty
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzOperation.GetProperty
- - AzOperation.GetProperty
+- IAzOperation.GetProperty
+- AzOperation.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

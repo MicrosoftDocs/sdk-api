@@ -1,19 +1,17 @@
 ---
 UID: NF:datetimeapi.GetTimeFormatEx
 title: GetTimeFormatEx function (datetimeapi.h)
-
 description: Formats time as a time string for a locale specified by name.
 old-location: intl\gettimeformatex.htm
 tech.root: Intl
 ms.assetid: 4d63888e-4496-4315-ac87-bf60c54daa37
-
 ms.date: 12/05/2018
 ms.keywords: GetTimeFormatEx, GetTimeFormatEx function [Internationalization for Windows Applications], TIME_FORCE24HOURFORMAT, TIME_NOMINUTESORSECONDS, TIME_NOSECONDS, TIME_NOTIMEMARKER, _win32_GetTimeFormatEx, datetimeapi/GetTimeFormatEx, intl.gettimeformatex
 ms.topic: function
-f1_keywords: 
- - "datetimeapi/GetTimeFormatEx"
+f1_keywords:
+- datetimeapi/GetTimeFormatEx
 dev_langs:
- - c++
+- c++
 req.header: datetimeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-datetime-l1-1-1.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-DateTime-L1-1-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-datetime-l1-1-1.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-DateTime-L1-1-2.dll
 api_name:
- - GetTimeFormatEx
+- GetTimeFormatEx
 targetos: Windows
 req.typenames: 
 req.redist: 

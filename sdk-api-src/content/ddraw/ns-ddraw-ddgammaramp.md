@@ -1,19 +1,17 @@
 ---
 UID: NS:ddraw._DDGAMMARAMP
 title: DDGAMMARAMP (ddraw.h)
-
 description: The DDGAMMARAMP structure contains red, green, and blue ramp data for the IDirectDrawGammaControl::GetGammaRamp and IDirectDrawGammaControl::SetGammaRamp methods.
 old-location: directdraw\ddgammaramp.htm
 tech.root: directdraw
 ms.assetid: ec4cb111-3b12-4470-b1e3-e4379f7f2632
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDDGAMMARAMP, DDGAMMARAMP, DDGAMMARAMP structure [DirectDraw], LPDDGAMMARAMP, LPDDGAMMARAMP structure pointer [DirectDraw], ddraw/DDGAMMARAMP, ddraw/LPDDGAMMARAMP, directdraw.ddgammaramp"
+ms.keywords: '*LPDDGAMMARAMP, DDGAMMARAMP, DDGAMMARAMP structure [DirectDraw], LPDDGAMMARAMP, LPDDGAMMARAMP structure pointer [DirectDraw], ddraw/DDGAMMARAMP, ddraw/LPDDGAMMARAMP, directdraw.ddgammaramp'
 ms.topic: struct
-f1_keywords: 
- - "ddraw/DDGAMMARAMP"
+f1_keywords:
+- ddraw/DDGAMMARAMP
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ddraw.h
+- Ddraw.h
 api_name:
- - DDGAMMARAMP
+- DDGAMMARAMP
 targetos: Windows
 req.typenames: DDGAMMARAMP
 req.redist: 

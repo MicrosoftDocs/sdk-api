@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiSourceListEnumMediaDisksW
 title: MsiSourceListEnumMediaDisksW function (msi.h)
-
 description: The MsiSourceListEnumMediaDisks function enumerates the list of disks registered for the media source for a patch or product.
 old-location: setup\msisourcelistenummediadisks.htm
 tech.root: Msi
 ms.assetid: 29bf12f4-f9e0-4853-8f03-a31a855b2ad6
-
 ms.date: 12/05/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiSourceListEnumMediaDisks, MsiSourceListEnumMediaDisks function, MsiSourceListEnumMediaDisksA, MsiSourceListEnumMediaDisksW, NULL, User SID, msi/MsiSourceListEnumMediaDisks, msi/MsiSourceListEnumMediaDisksA, msi/MsiSourceListEnumMediaDisksW, s-1-1-0, setup.msisourcelistenummediadisks
 ms.topic: function
-f1_keywords: 
- - "msi/MsiSourceListEnumMediaDisks"
+f1_keywords:
+- msi/MsiSourceListEnumMediaDisks
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiSourceListEnumMediaDisks
- - MsiSourceListEnumMediaDisksA
- - MsiSourceListEnumMediaDisksW
+- MsiSourceListEnumMediaDisks
+- MsiSourceListEnumMediaDisksA
+- MsiSourceListEnumMediaDisksW
 targetos: Windows
 req.typenames: 
 req.redist: 

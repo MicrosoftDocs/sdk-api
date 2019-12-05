@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMLoadLibrary
 title: DRMLoadLibrary function (msdrm.h)
-
 description: Loads a handle to an approved library, as determined by the credentials.
 old-location: rm\drmloadlibrary.htm
 tech.root: AdRms_Sdk
 ms.assetid: b0a95d3f-4252-4685-bc51-547620b5dcf7
-
 ms.date: 12/05/2018
 ms.keywords: DRMLoadLibrary, DRMLoadLibrary function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMLoadLibrary, rm.drmloadlibrary
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMLoadLibrary"
+f1_keywords:
+- msdrm/DRMLoadLibrary
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMLoadLibrary
+- DRMLoadLibrary
 targetos: Windows
 req.typenames: 
 req.redist: 

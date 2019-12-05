@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.ValuePattern_SetValue
 title: ValuePattern_SetValue function (uiautomationcoreapi.h)
-
 description: Sets the text value of an element.
 old-location: winauto\uiauto_ValuePattern_SetValueConPat.htm
 tech.root: WinAuto
 ms.assetid: 6233abb0-7d18-4d1f-a611-28931d874bda
-
 ms.date: 12/05/2018
 ms.keywords: ValuePattern_SetValue, ValuePattern_SetValue function [Windows Accessibility], uiauto.uiauto_ValuePattern_SetValueConPat, uiauto_ValuePattern_SetValueConPat, uiautomationcoreapi/ValuePattern_SetValue, winauto.uiauto_ValuePattern_SetValueConPat
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/ValuePattern_SetValue"
+f1_keywords:
+- uiautomationcoreapi/ValuePattern_SetValue
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - ValuePattern_SetValue
+- ValuePattern_SetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

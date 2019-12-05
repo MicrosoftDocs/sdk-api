@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetFontFamilyNameLength
 title: IDWriteTextLayout::GetFontFamilyNameLength (dwrite.h)
-
 description: Get the length of the font family name at the current position.
 old-location: directwrite\IDWriteTextLayout_GetFontFamilyNameLength.htm
 tech.root: DirectWrite
 ms.assetid: e3b3d111-04a7-409b-98dd-b0fc3947f24b
-
 ms.date: 12/05/2018
 ms.keywords: GetFontFamilyNameLength, GetFontFamilyNameLength method [Direct Write], GetFontFamilyNameLength method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetFontFamilyNameLength method, IDWriteTextLayout.GetFontFamilyNameLength, IDWriteTextLayout::GetFontFamilyNameLength, directwrite.IDWriteTextLayout_GetFontFamilyNameLength, dwrite/IDWriteTextLayout::GetFontFamilyNameLength
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextLayout.GetFontFamilyNameLength"
+f1_keywords:
+- dwrite/IDWriteTextLayout.GetFontFamilyNameLength
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout.GetFontFamilyNameLength
+- IDWriteTextLayout.GetFontFamilyNameLength
 targetos: Windows
 req.typenames: 
 req.redist: 

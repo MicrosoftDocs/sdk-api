@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMClientConnections
 title: IWMClientConnections (wmsdkidl.h)
-
 description: The IWMClientConnections interface manages the collecting of information about clients connected to a writer network sink object.The writer network sink object exposes this interface.
 old-location: wmformat\iwmclientconnections.htm
 tech.root: wmformat
 ms.assetid: fea7cd85-22ab-4f3b-8a0a-301496f0c788
-
 ms.date: 12/05/2018
 ms.keywords: IWMClientConnections, IWMClientConnections interface [windows Media Format], IWMClientConnections interface [windows Media Format],described, IWMClientConnectionsInterface, wmformat.iwmclientconnections, wmsdkidl/IWMClientConnections
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMClientConnections"
+f1_keywords:
+- wmsdkidl/IWMClientConnections
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMClientConnections
+- IWMClientConnections
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateProtectedEnvironmentAccess
 title: MFCreateProtectedEnvironmentAccess function (mfidl.h)
-
 description: Creates an IMFProtectedEnvironmentAccess object that allows content protection systems to perform a handshake with the protected environment.
 old-location: mf\mfcreateprotectedenvironmentaccess.htm
 tech.root: medfound
 ms.assetid: B16BEFFD-26CF-4598-96A4-098C3E3AA51C
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateProtectedEnvironmentAccess, MFCreateProtectedEnvironmentAccess function [Media Foundation], mf.mfcreateprotectedenvironmentaccess, mfidl/MFCreateProtectedEnvironmentAccess
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateProtectedEnvironmentAccess"
+f1_keywords:
+- mfidl/MFCreateProtectedEnvironmentAccess
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreateProtectedEnvironmentAccess
+- MFCreateProtectedEnvironmentAccess
 targetos: Windows
 req.typenames: 
 req.redist: 

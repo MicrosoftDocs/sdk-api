@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource2.SetCredentialsEx
 title: IWMSInternalAdminNetSource2::SetCredentialsEx (wmsinternaladminnetsource.h)
-
 description: The SetCredentialsEx method adds a password to the cache.
 old-location: wmformat\iwmsinternaladminnetsource2_setcredentialsex.htm
 tech.root: wmformat
 ms.assetid: ca45626e-3f4d-415d-a4d1-90ce0177bd10
-
 ms.date: 12/05/2018
 ms.keywords: IWMSInternalAdminNetSource2 interface [windows Media Format],SetCredentialsEx method, IWMSInternalAdminNetSource2.SetCredentialsEx, IWMSInternalAdminNetSource2::SetCredentialsEx, IWMSInternalAdminNetSource2SetCredentialsEx, SetCredentialsEx, SetCredentialsEx method [windows Media Format], SetCredentialsEx method [windows Media Format],IWMSInternalAdminNetSource2 interface, wmformat.iwmsinternaladminnetsource2_setcredentialsex, wmsinternaladminnetsource/IWMSInternalAdminNetSource2::SetCredentialsEx
 ms.topic: method
-f1_keywords: 
- - "wmsinternaladminnetsource/IWMSInternalAdminNetSource2.SetCredentialsEx"
+f1_keywords:
+- wmsinternaladminnetsource/IWMSInternalAdminNetSource2.SetCredentialsEx
 dev_langs:
- - c++
+- c++
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMSInternalAdminNetSource2.SetCredentialsEx
+- IWMSInternalAdminNetSource2.SetCredentialsEx
 targetos: Windows
 req.typenames: 
 req.redist: 

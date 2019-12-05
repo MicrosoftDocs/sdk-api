@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkDrawingAttributes.get_Transparency
 title: IInkDrawingAttributes::get_Transparency (msinkaut.h)
-
 description: Gets or sets a value that indicates the transparency value of ink.
 old-location: tablet\inkdrawingattributes_transparency.htm
 tech.root: tablet
 ms.assetid: e1537635-3457-429e-bb72-33eb4a2ea3da
-
 ms.date: 12/05/2018
 ms.keywords: IInkDrawingAttributes interface [Tablet PC],Transparency property, IInkDrawingAttributes.Transparency, IInkDrawingAttributes.get_Transparency, IInkDrawingAttributes::Transparency, IInkDrawingAttributes::get_Transparency, IInkDrawingAttributes::put_Transparency, InkDrawingAttributes.get_Transparency, InkDrawingAttributes.put_Transparency, Transparency property [Tablet PC], Transparency property [Tablet PC],IInkDrawingAttributes interface, e1537635-3457-429e-bb72-33eb4a2ea3da, get_Transparency, msinkaut/IInkDrawingAttributes::Transparency, msinkaut/IInkDrawingAttributes::get_Transparency, msinkaut/IInkDrawingAttributes::put_Transparency, put_Transparency, tablet.inkdrawingattributes_transparency
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkDrawingAttributes.Transparency"
+f1_keywords:
+- msinkaut/IInkDrawingAttributes.Transparency
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkDrawingAttributes.Transparency
- - IInkDrawingAttributes.get_Transparency
- - IInkDrawingAttributes.put_Transparency
- - InkDrawingAttributes.get_Transparency
- - InkDrawingAttributes.put_Transparency
+- IInkDrawingAttributes.Transparency
+- IInkDrawingAttributes.get_Transparency
+- IInkDrawingAttributes.put_Transparency
+- InkDrawingAttributes.get_Transparency
+- InkDrawingAttributes.put_Transparency
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.GetDesignGlyphMetrics
 title: IDWriteFontFace::GetDesignGlyphMetrics (dwrite.h)
-
 description: Obtains ideal (resolution-independent) glyph metrics in font design units.
 old-location: directwrite\IDWriteFontFace_GetDesignGlyphMetrics.htm
 tech.root: DirectWrite
 ms.assetid: 4da03cbe-5287-4d9c-aaa2-cff3dbf259fc
-
 ms.date: 12/05/2018
 ms.keywords: GetDesignGlyphMetrics, GetDesignGlyphMetrics method [Direct Write], GetDesignGlyphMetrics method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetDesignGlyphMetrics method, IDWriteFontFace.GetDesignGlyphMetrics, IDWriteFontFace::GetDesignGlyphMetrics, directwrite.IDWriteFontFace_GetDesignGlyphMetrics, dwrite/IDWriteFontFace::GetDesignGlyphMetrics
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteFontFace.GetDesignGlyphMetrics"
+f1_keywords:
+- dwrite/IDWriteFontFace.GetDesignGlyphMetrics
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFace.GetDesignGlyphMetrics
+- IDWriteFontFace.GetDesignGlyphMetrics
 targetos: Windows
 req.typenames: 
 req.redist: 

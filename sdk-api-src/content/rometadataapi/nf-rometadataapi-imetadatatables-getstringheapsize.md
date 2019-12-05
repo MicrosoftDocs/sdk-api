@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetStringHeapSize
 title: IMetaDataTables::GetStringHeapSize (rometadataapi.h)
-
 description: Gets the size, in bytes, of the string heap.
 old-location: winrt\imetadatatables_getstringheapsize.htm
 tech.root: WinRT
 ms.assetid: 7c830b7c-2651-4efb-9d2d-989b5c25b72e
-
 ms.date: 12/05/2018
 ms.keywords: GetStringHeapSize, GetStringHeapSize method [Windows Runtime], GetStringHeapSize method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetStringHeapSize method, IMetaDataTables.GetStringHeapSize, IMetaDataTables::GetStringHeapSize, rometadataapi/IMetaDataTables::GetStringHeapSize, winrt.imetadatatables_getstringheapsize
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataTables.GetStringHeapSize"
+f1_keywords:
+- rometadataapi/IMetaDataTables.GetStringHeapSize
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataTables.GetStringHeapSize
+- IMetaDataTables.GetStringHeapSize
 targetos: Windows
 req.typenames: 
 req.redist: 

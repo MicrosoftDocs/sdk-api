@@ -1,19 +1,17 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationUpdateHandler
 title: IDirectManipulationUpdateHandler (directmanipulation.h)
-
 description: Defines methods for handling manipulation update events.
 old-location: directmanipulation\idirectmanipulationupdatehandler.htm
 tech.root: directmanipulation
 ms.assetid: a963abb5-63b8-44d1-910c-ea795398d3de
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationUpdateHandler, IDirectManipulationUpdateHandler interface [Direct Manipulation], IDirectManipulationUpdateHandler interface [Direct Manipulation],described, directmanipulation.idirectmanipulationupdatehandler, directmanipulation/IDirectManipulationUpdateHandler
 ms.topic: interface
-f1_keywords: 
- - "directmanipulation/IDirectManipulationUpdateHandler"
+f1_keywords:
+- directmanipulation/IDirectManipulationUpdateHandler
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationUpdateHandler
+- IDirectManipulationUpdateHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

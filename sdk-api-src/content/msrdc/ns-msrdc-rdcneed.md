@@ -1,19 +1,17 @@
 ---
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0004
 title: RdcNeed (msrdc.h)
-
 description: Contains information about a chunk that is required to synchronize two sets of data.
 old-location: rdc\rdcneed.htm
 tech.root: rdc
 ms.assetid: 086e82f1-b033-48e2-b648-895c04751cc9
-
 ms.date: 12/05/2018
 ms.keywords: RdcNeed, RdcNeed structure [Remote Differential Compression], fs.rdcneed, msrdc/RdcNeed, rdc.rdcneed
 ms.topic: struct
-f1_keywords: 
- - "msrdc/RdcNeed"
+f1_keywords:
+- msrdc/RdcNeed
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - MsRdc.h
+- MsRdc.h
 api_name:
- - RdcNeed
+- RdcNeed
 targetos: Windows
 req.typenames: RdcNeed
 req.redist: 

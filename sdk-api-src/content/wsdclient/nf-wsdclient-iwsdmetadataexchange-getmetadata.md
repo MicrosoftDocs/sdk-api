@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdclient.IWSDMetadataExchange.GetMetadata
 title: IWSDMetadataExchange::GetMetadata (wsdclient.h)
-
 description: Retrieves metadata for an object.
 old-location: ncd\iwsdmetadataexchange_getmetadata_method.htm
 tech.root: WsdApi
 ms.assetid: ab84ed56-37a5-48ff-a616-cb92dc07a8ee
-
 ms.date: 12/05/2018
 ms.keywords: GetMetadata, GetMetadata method, GetMetadata method,IWSDMetadataExchange interface, IWSDMetadataExchange interface,GetMetadata method, IWSDMetadataExchange.GetMetadata, IWSDMetadataExchange::GetMetadata, ncd.iwsdmetadataexchange_getmetadata_method, wsdclient/IWSDMetadataExchange::GetMetadata
 ms.topic: method
-f1_keywords: 
- - "wsdclient/IWSDMetadataExchange.GetMetadata"
+f1_keywords:
+- wsdclient/IWSDMetadataExchange.GetMetadata
 dev_langs:
- - c++
+- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDMetadataExchange.GetMetadata
+- IWSDMetadataExchange.GetMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 

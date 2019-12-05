@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderSimple.GetPatternProvider
 title: IRawElementProviderSimple::GetPatternProvider (uiautomationcore.h)
-
 description: Retrieves a pointer to an object that provides support for a control pattern on a Microsoft UI Automation element.
 old-location: winauto\uiauto_IRawElementProviderSimple_GetPatternProvider.htm
 tech.root: WinAuto
 ms.assetid: 8315c1d4-6347-462f-9c96-121f216faf88
-
 ms.date: 12/05/2018
 ms.keywords: GetPatternProvider, GetPatternProvider method [Windows Accessibility], GetPatternProvider method [Windows Accessibility],IRawElementProviderSimple interface, IRawElementProviderSimple interface [Windows Accessibility],GetPatternProvider method, IRawElementProviderSimple.GetPatternProvider, IRawElementProviderSimple::GetPatternProvider, uiauto.uiauto_IRawElementProviderSimple_GetPatternProvider, uiauto_IRawElementProviderSimple_GetPatternProvider, uiautomationcore/IRawElementProviderSimple::GetPatternProvider, winauto.uiauto_IRawElementProviderSimple_GetPatternProvider
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IRawElementProviderSimple.GetPatternProvider"
+f1_keywords:
+- uiautomationcore/IRawElementProviderSimple.GetPatternProvider
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IRawElementProviderSimple.GetPatternProvider
+- IRawElementProviderSimple.GetPatternProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

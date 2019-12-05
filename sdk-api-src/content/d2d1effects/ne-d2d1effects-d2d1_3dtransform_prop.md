@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1effects.D2D1_3DTRANSFORM_PROP
 title: D2D1_3DTRANSFORM_PROP (d2d1effects.h)
-
 description: Identifiers for properties of the 3D transform effect.
 old-location: direct2d\d2d1_3dtransform_prop.htm
 tech.root: Direct2D
 ms.assetid: 56004ED1-66E2-44ED-B274-E7FF8C641954
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_3DTRANSFORM_PROP, D2D1_3DTRANSFORM_PROP enumeration [Direct2D], D2D1_3DTRANSFORM_PROP_BORDER_MODE, D2D1_3DTRANSFORM_PROP_INTERPOLATION_MODE, D2D1_3DTRANSFORM_PROP_TRANSFORM_MATRIX, d2d1effects/D2D1_3DTRANSFORM_PROP, d2d1effects/D2D1_3DTRANSFORM_PROP_BORDER_MODE, d2d1effects/D2D1_3DTRANSFORM_PROP_INTERPOLATION_MODE, d2d1effects/D2D1_3DTRANSFORM_PROP_TRANSFORM_MATRIX, direct2d.d2d1_3dtransform_prop
 ms.topic: enum
-f1_keywords: 
- - "d2d1effects/D2D1_3DTRANSFORM_PROP"
+f1_keywords:
+- d2d1effects/D2D1_3DTRANSFORM_PROP
 dev_langs:
- - c++
+- c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1effects.h
+- d2d1effects.h
 api_name:
- - D2D1_3DTRANSFORM_PROP
+- D2D1_3DTRANSFORM_PROP
 targetos: Windows
 req.typenames: D2D1_3DTRANSFORM_PROP
 req.redist: 

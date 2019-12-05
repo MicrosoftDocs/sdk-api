@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoGetCurrentLogicalThreadId
 title: CoGetCurrentLogicalThreadId function (combaseapi.h)
-
 description: Returns the logical thread identifier of the current physical thread.
 old-location: com\cogetcurrentlogicalthreadid.htm
 tech.root: com
 ms.assetid: eced2f1e-9f2b-476c-bea8-945fb4804a89
-
 ms.date: 12/05/2018
 ms.keywords: CoGetCurrentLogicalThreadId, CoGetCurrentLogicalThreadId function [COM], _com_CoGetCurrentLogicalThreadId, com.cogetcurrentlogicalthreadid, combaseapi/CoGetCurrentLogicalThreadId
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoGetCurrentLogicalThreadId"
+f1_keywords:
+- combaseapi/CoGetCurrentLogicalThreadId
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoGetCurrentLogicalThreadId
+- CoGetCurrentLogicalThreadId
 targetos: Windows
 req.typenames: 
 req.redist: 

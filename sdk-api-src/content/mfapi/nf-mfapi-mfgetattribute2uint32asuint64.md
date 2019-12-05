@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFGetAttribute2UINT32asUINT64
 title: MFGetAttribute2UINT32asUINT64 function (mfapi.h)
-
 description: Gets an attribute whose value is two UINT32 values packed into a UINT64.
 old-location: mf\mfgetattribute2uint32asuint64.htm
 tech.root: medfound
 ms.assetid: 2b3050da-6914-4d7f-af6f-d8e504da0870
-
 ms.date: 12/05/2018
 ms.keywords: MFGetAttribute2UINT32asUINT64, MFGetAttribute2UINT32asUINT64 function [Media Foundation], mf.mfgetattribute2uint32asuint64, mfobjects/MFGetAttribute2UINT32asUINT64
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFGetAttribute2UINT32asUINT64"
+f1_keywords:
+- mfapi/MFGetAttribute2UINT32asUINT64
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: Mfapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - MFGetAttribute2UINT32asUINT64
+- MFGetAttribute2UINT32asUINT64
 targetos: Windows
 req.typenames: 
 req.redist: 

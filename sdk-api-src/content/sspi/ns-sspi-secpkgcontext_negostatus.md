@@ -1,19 +1,17 @@
 ---
 UID: NS:sspi._SecPkgContext_NegoStatus
 title: SecPkgContext_NegoStatus (sspi.h)
-
 description: Specifies the error status of the last attempt to create a client context.
 old-location: security\secpkgcontext_negostatus.htm
 tech.root: SecAuthN
 ms.assetid: 09201338-4743-44a2-b84f-35b26116976d
-
 ms.date: 12/05/2018
-ms.keywords: "*PSecPkgContext_NegoStatus, PSecPkgContext_NegoStatus, PSecPkgContext_NegoStatus structure pointer [Security], SecPkgContext_NegoStatus, SecPkgContext_NegoStatus structure [Security], security.secpkgcontext_negostatus, sspi/PSecPkgContext_NegoStatus, sspi/SecPkgContext_NegoStatus"
+ms.keywords: '*PSecPkgContext_NegoStatus, PSecPkgContext_NegoStatus, PSecPkgContext_NegoStatus structure pointer [Security], SecPkgContext_NegoStatus, SecPkgContext_NegoStatus structure [Security], security.secpkgcontext_negostatus, sspi/PSecPkgContext_NegoStatus, sspi/SecPkgContext_NegoStatus'
 ms.topic: struct
-f1_keywords: 
- - "sspi/SecPkgContext_NegoStatus"
+f1_keywords:
+- sspi/SecPkgContext_NegoStatus
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Sspi.h
+- Sspi.h
 api_name:
- - SecPkgContext_NegoStatus
+- SecPkgContext_NegoStatus
 targetos: Windows
 req.typenames: SecPkgContext_NegoStatus, *PSecPkgContext_NegoStatus
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock.gethostname
 title: gethostname function (winsock.h)
-
 description: The gethostname function retrieves the standard host name for the local computer.
 old-location: winsock\gethostname_2.htm
 tech.root: WinSock
 ms.assetid: 8fa40b60-0e93-493b-aee1-cea6cf595707
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_gethostname_2, gethostname, gethostname function [Winsock], winsock.gethostname_2, winsock/gethostname"
+ms.keywords: _win32_gethostname_2, gethostname, gethostname function [Winsock], winsock.gethostname_2, winsock/gethostname
 ms.topic: function
-f1_keywords: 
- - "winsock/gethostname"
+f1_keywords:
+- winsock/gethostname
 dev_langs:
- - c++
+- c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - gethostname
+- gethostname
 targetos: Windows
 req.typenames: 
 req.redist: 

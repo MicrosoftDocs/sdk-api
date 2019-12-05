@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.AVIStreamNearestSample
 title: AVIStreamNearestSample macro (vfw.h)
-
 description: The AVIStreamNearestSample macro locates the nearest nonempty sample at or preceding a specified position in a stream.
 old-location: multimedia\avistreamnearestsample.htm
 tech.root: Multimedia
 ms.assetid: 350255b7-35ae-4eed-8991-82b548a2fa65
-
 ms.date: 12/05/2018
 ms.keywords: AVIStreamNearestSample, AVIStreamNearestSample macro [Windows Multimedia], _win32_AVIStreamNearestSample, multimedia.avistreamnearestsample, vfw/AVIStreamNearestSample
 ms.topic: macro
-f1_keywords: 
- - "vfw/AVIStreamNearestSample"
+f1_keywords:
+- vfw/AVIStreamNearestSample
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - AVIStreamNearestSample
+- AVIStreamNearestSample
 targetos: Windows
 req.typenames: 
 req.redist: 

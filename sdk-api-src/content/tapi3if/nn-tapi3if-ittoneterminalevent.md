@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITToneTerminalEvent
 title: ITToneTerminalEvent (tapi3if.h)
-
 description: The ITToneTerminalEvent interface contains methods that retrieve the description of tone terminal events that have occurred.
 old-location: tapi3\ittoneterminalevent.htm
 tech.root: Tapi
 ms.assetid: 6a5d03e9-e6d1-452a-a189-ca693a72c610
-
 ms.date: 12/05/2018
 ms.keywords: ITToneTerminalEvent, ITToneTerminalEvent interface [TAPI 2.2], ITToneTerminalEvent interface [TAPI 2.2],described, _tapi3_ittoneterminalevent, tapi3.ittoneterminalevent, tapi3if/ITToneTerminalEvent
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITToneTerminalEvent"
+f1_keywords:
+- tapi3if/ITToneTerminalEvent
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITToneTerminalEvent
+- ITToneTerminalEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

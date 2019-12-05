@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmStorageModuleDefinition.get_Capabilities
 title: IFsrmStorageModuleDefinition::get_Capabilities (fsrmpipeline.h)
-
 description: Flags that specify capabilities of the storage module.
 old-location: fsrm\ifsrmstoragemoduledefinition_capabilities.htm
 tech.root: fsrm
 ms.assetid: 94e8a6fa-11f7-4ba4-a02b-c62c5f017b8a
-
 ms.date: 12/05/2018
 ms.keywords: Capabilities property [File Server Resource Manager], Capabilities property [File Server Resource Manager],IFsrmStorageModuleDefinition interface, IFsrmStorageModuleDefinition interface [File Server Resource Manager],Capabilities property, IFsrmStorageModuleDefinition.Capabilities, IFsrmStorageModuleDefinition.get_Capabilities, IFsrmStorageModuleDefinition::Capabilities, IFsrmStorageModuleDefinition::get_Capabilities, IFsrmStorageModuleDefinition::put_Capabilities, fs.ifsrmstoragemoduledefinition_capabilities, fsrm.ifsrmstoragemoduledefinition_capabilities, fsrmpipeline/IFsrmStorageModuleDefinition::Capabilities, fsrmpipeline/IFsrmStorageModuleDefinition::get_Capabilities, fsrmpipeline/IFsrmStorageModuleDefinition::put_Capabilities, get_Capabilities
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmStorageModuleDefinition.Capabilities"
+f1_keywords:
+- fsrmpipeline/IFsrmStorageModuleDefinition.Capabilities
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmStorageModuleDefinition.Capabilities
- - IFsrmStorageModuleDefinition.get_Capabilities
- - IFsrmStorageModuleDefinition.put_Capabilities
+- IFsrmStorageModuleDefinition.Capabilities
+- IFsrmStorageModuleDefinition.get_Capabilities
+- IFsrmStorageModuleDefinition.put_Capabilities
 targetos: Windows
 req.typenames: 
 req.redist: 

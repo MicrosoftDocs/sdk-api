@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.ExecuteUmsThread
 title: ExecuteUmsThread function (winbase.h)
-
 description: Runs the specified UMS worker thread.
 old-location: base\executeumsthread.htm
 tech.root: ProcThread
 ms.assetid: e4265351-e8e9-4878-bd42-93258b4cd1a0
-
 ms.date: 12/05/2018
 ms.keywords: ExecuteUmsThread, ExecuteUmsThread function, base.executeumsthread, winbase/ExecuteUmsThread
 ms.topic: function
-f1_keywords: 
- - "winbase/ExecuteUmsThread"
+f1_keywords:
+- winbase/ExecuteUmsThread
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-ums-l1-1-0.dll
+- kernel32.dll
+- API-MS-Win-Core-ums-l1-1-0.dll
 api_name:
- - ExecuteUmsThread
+- ExecuteUmsThread
 targetos: Windows
 req.typenames: 
 req.redist: 

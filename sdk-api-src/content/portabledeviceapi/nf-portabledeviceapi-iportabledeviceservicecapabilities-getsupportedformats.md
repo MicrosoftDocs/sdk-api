@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetSupportedFormats
 title: IPortableDeviceServiceCapabilities::GetSupportedFormats (portabledeviceapi.h)
-
 description: Retrieves the formats supported by the service.
 old-location: wpdsdk\iportabledeviceservicecapabilities_getsupportedformats.htm
 tech.root: wpd_sdk
 ms.assetid: 1df1ed1b-d231-4327-84eb-1bcf74dd881b
-
 ms.date: 12/05/2018
 ms.keywords: GetSupportedFormats, GetSupportedFormats method [Windows Portable Devices SDK], GetSupportedFormats method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetSupportedFormats method, IPortableDeviceServiceCapabilities.GetSupportedFormats, IPortableDeviceServiceCapabilities::GetSupportedFormats, portabledeviceapi/IPortableDeviceServiceCapabilities::GetSupportedFormats, wpdsdk.iportabledeviceservicecapabilities_getsupportedformats
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceServiceCapabilities.GetSupportedFormats"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceServiceCapabilities.GetSupportedFormats
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceAPI.h
+- PortableDeviceAPI.h
 api_name:
- - IPortableDeviceServiceCapabilities.GetSupportedFormats
+- IPortableDeviceServiceCapabilities.GetSupportedFormats
 targetos: Windows
 req.typenames: 
 req.redist: 

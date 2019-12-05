@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.SetCompositingMode
 title: Graphics::SetCompositingMode (gdiplusgraphics.h)
-
 description: The Graphics::SetCompositingMode method sets the compositing mode of this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_SetCompositingMode_compositingMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\setcompositingmode.htm
-
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],SetCompositingMode method, Graphics.SetCompositingMode, Graphics::SetCompositingMode, SetCompositingMode, SetCompositingMode method [GDI+], SetCompositingMode method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_SetCompositingMode_compositingMode_, gdiplus._gdiplus_CLASS_Graphics_SetCompositingMode_compositingMode_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.SetCompositingMode"
+f1_keywords:
+- gdiplusgraphics/Graphics.SetCompositingMode
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.SetCompositingMode
+- Graphics.SetCompositingMode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.PackTouchHitTestingProximityEvaluation
 title: PackTouchHitTestingProximityEvaluation function (winuser.h)
-
 description: Returns the proximity evaluation score and the adjusted touch-point coordinates as a packed value for the WM_TOUCHHITTESTING callback.
 old-location: input_touchhittest\packtouchhittestingproximityevaluation.htm
 tech.root: Input_TouchHitTest
 ms.assetid: c4061285-2d0f-4404-9b63-bda2ec61b764
-
 ms.date: 12/05/2018
 ms.keywords: PackTouchHitTestingProximityEvaluation, PackTouchHitTestingProximityEvaluation function, input_touchhittest.packtouchhittestingproximityevaluation, touch_hittest.packtouchhittestingproximityevaluation, winuser/PackTouchHitTestingProximityEvaluation
 ms.topic: function
-f1_keywords: 
- - "winuser/PackTouchHitTestingProximityEvaluation"
+f1_keywords:
+- winuser/PackTouchHitTestingProximityEvaluation
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Touch-HitTest-l1-1-0.dll
- - MinUser.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Touch-HitTest-l1-1-0.dll
+- MinUser.dll
 api_name:
- - PackTouchHitTestingProximityEvaluation
+- PackTouchHitTestingProximityEvaluation
 targetos: Windows
 req.typenames: 
 req.redist: 

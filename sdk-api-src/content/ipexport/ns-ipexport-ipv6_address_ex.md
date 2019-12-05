@@ -1,19 +1,17 @@
 ---
 UID: NS:ipexport._IPV6_ADDRESS_EX
 title: IPV6_ADDRESS_EX (ipexport.h)
-
 description: Stores an IPv6 address.
 old-location: iphlp\ipv6_address_ex.htm
 tech.root: IpHlp
 ms.assetid: 68c9e941-bbc4-4506-949d-efd16c15d5b9
-
 ms.date: 12/05/2018
-ms.keywords: "*PIPV6_ADDRESS_EX, IPV6_ADDRESS_EX, IPV6_ADDRESS_EX structure [IP Helper], PIPV6_ADDRESS_EX, PIPV6_ADDRESS_EX structure pointer [IP Helper], ipexport/IPV6_ADDRESS_EX, ipexport/PIPV6_ADDRESS_EX, iphlp.ipv6_address_ex"
+ms.keywords: '*PIPV6_ADDRESS_EX, IPV6_ADDRESS_EX, IPV6_ADDRESS_EX structure [IP Helper], PIPV6_ADDRESS_EX, PIPV6_ADDRESS_EX structure pointer [IP Helper], ipexport/IPV6_ADDRESS_EX, ipexport/PIPV6_ADDRESS_EX, iphlp.ipv6_address_ex'
 ms.topic: struct
-f1_keywords: 
- - "ipexport/IPV6_ADDRESS_EX"
+f1_keywords:
+- ipexport/IPV6_ADDRESS_EX
 dev_langs:
- - c++
+- c++
 req.header: ipexport.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipexport.h
+- Ipexport.h
 api_name:
- - IPV6_ADDRESS_EX
+- IPV6_ADDRESS_EX
 targetos: Windows
 req.typenames: IPV6_ADDRESS_EX, *PIPV6_ADDRESS_EX
 req.redist: 

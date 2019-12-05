@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngineOnEventCallback.OnEvent
 title: IMFCaptureEngineOnEventCallback::OnEvent (mfcaptureengine.h)
-
 description: Called by the capture engine to notify the application of a capture event.
 old-location: mf\imfcaptureengineoneventcallback_onevent.htm
 tech.root: medfound
 ms.assetid: 26C5B2E5-0543-49FC-915A-DCE097FF66BA
-
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureEngineOnEventCallback interface [Media Foundation],OnEvent method, IMFCaptureEngineOnEventCallback.OnEvent, IMFCaptureEngineOnEventCallback::OnEvent, OnEvent, OnEvent method [Media Foundation], OnEvent method [Media Foundation],IMFCaptureEngineOnEventCallback interface, mf.imfcaptureengineoneventcallback_onevent, mfcaptureengine/IMFCaptureEngineOnEventCallback::OnEvent
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureEngineOnEventCallback.OnEvent"
+f1_keywords:
+- mfcaptureengine/IMFCaptureEngineOnEventCallback.OnEvent
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureEngineOnEventCallback.OnEvent
+- IMFCaptureEngineOnEventCallback.OnEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

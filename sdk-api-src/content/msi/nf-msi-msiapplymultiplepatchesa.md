@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiApplyMultiplePatchesA
 title: MsiApplyMultiplePatchesA function (msi.h)
-
 description: Applies one or more patches to products eligible to receive the patches.
 old-location: setup\msiapplymultiplepatches.htm
 tech.root: Msi
 ms.assetid: dc0a93e3-9f3c-40b2-86ee-98306038742a
-
 ms.date: 12/05/2018
 ms.keywords: MsiApplyMultiplePatches, MsiApplyMultiplePatches function, MsiApplyMultiplePatchesA, MsiApplyMultiplePatchesW, msi/MsiApplyMultiplePatches, msi/MsiApplyMultiplePatchesA, msi/MsiApplyMultiplePatchesW, setup.msiapplymultiplepatches
 ms.topic: function
-f1_keywords: 
- - "msi/MsiApplyMultiplePatches"
+f1_keywords:
+- msi/MsiApplyMultiplePatches
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
- - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+- Msi.dll
+- Ext-MS-Win-MSi-Misc-L1-1-0.dll
 api_name:
- - MsiApplyMultiplePatches
- - MsiApplyMultiplePatchesA
- - MsiApplyMultiplePatchesW
+- MsiApplyMultiplePatches
+- MsiApplyMultiplePatchesA
+- MsiApplyMultiplePatchesW
 targetos: Windows
 req.typenames: 
 req.redist: 

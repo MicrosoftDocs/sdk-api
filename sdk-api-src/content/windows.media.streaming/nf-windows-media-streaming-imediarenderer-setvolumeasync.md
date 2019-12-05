@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.SetVolumeAsync
 title: IMediaRenderer::streaming (windows.media.streaming.h)
-
 description: Sets the audio volume level on the DMR asynchronously to the specified value.
 old-location: mediastreaming\imediarenderer_setvolumeasync.htm
 tech.root: mediastreaming
 ms.assetid: 422668F3-F5D6-440A-8BF1-A85B17E9A853
-
 ms.date: 12/05/2018
 ms.keywords: IMediaRenderer interface [Media Streaming API],SetVolumeAsync method, IMediaRenderer.SetVolumeAsync, IMediaRenderer.streaming, IMediaRenderer::SetVolumeAsync, IMediaRenderer::streaming, SetVolumeAsync, SetVolumeAsync method [Media Streaming API], SetVolumeAsync method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_setvolumeasync, windows/IMediaRenderer::SetVolumeAsync
 ms.topic: method
-f1_keywords: 
- - "windows.media.streaming/IMediaRenderer.SetVolumeAsync"
+f1_keywords:
+- windows.media.streaming/IMediaRenderer.SetVolumeAsync
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.media.streaming.h
+- windows.media.streaming.h
 api_name:
- - IMediaRenderer.SetVolumeAsync
+- IMediaRenderer.SetVolumeAsync
 targetos: Windows
 req.typenames: 
 req.redist: 

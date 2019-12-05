@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_OwnerSid
 title: IFsrmPropertyBag::get_OwnerSid (fsrmpipeline.h)
-
 description: The SID of the owner of the file.
 old-location: fsrm\ifsrmpropertybag_ownersid.htm
 tech.root: fsrm
 ms.assetid: bb2b0872-9553-40d3-a9b0-7602266c28da
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],OwnerSid property, IFsrmPropertyBag.OwnerSid, IFsrmPropertyBag.get_OwnerSid, IFsrmPropertyBag::OwnerSid, IFsrmPropertyBag::get_OwnerSid, OwnerSid property [File Server Resource Manager], OwnerSid property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_ownersid, fsrm.ifsrmpropertybag_ownersid, fsrmpipeline/IFsrmPropertyBag::OwnerSid, fsrmpipeline/IFsrmPropertyBag::get_OwnerSid, get_OwnerSid
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmPropertyBag.OwnerSid"
+f1_keywords:
+- fsrmpipeline/IFsrmPropertyBag.OwnerSid
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPropertyBag.OwnerSid
- - IFsrmPropertyBag.get_OwnerSid
+- IFsrmPropertyBag.OwnerSid
+- IFsrmPropertyBag.get_OwnerSid
 targetos: Windows
 req.typenames: 
 req.redist: 

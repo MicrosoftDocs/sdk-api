@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.GetNumStoredMessagesAllowedByRetrievalFilter
 title: ID3D10InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter (d3d10sdklayers.h)
-
 description: Get the number of messages that are able to pass through a retrieval filter.
 old-location: direct3d10\id3d10infoqueue_getnumstoredmessagesallowedbyretrievalfilter.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_getnumstoredmessagesallowedbyretrievalfilter.htm
-
 ms.date: 12/05/2018
 ms.keywords: 42e473fd-210b-8a78-d305-72db80e7fc30, GetNumStoredMessagesAllowedByRetrievalFilter, GetNumStoredMessagesAllowedByRetrievalFilter method [Direct3D 10], GetNumStoredMessagesAllowedByRetrievalFilter method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],GetNumStoredMessagesAllowedByRetrievalFilter method, ID3D10InfoQueue.GetNumStoredMessagesAllowedByRetrievalFilter, ID3D10InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter, d3d10sdklayers/ID3D10InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter, direct3d10.id3d10infoqueue_getnumstoredmessagesallowedbyretrievalfilter
 ms.topic: method
-f1_keywords: 
- - "d3d10sdklayers/ID3D10InfoQueue.GetNumStoredMessagesAllowedByRetrievalFilter"
+f1_keywords:
+- d3d10sdklayers/ID3D10InfoQueue.GetNumStoredMessagesAllowedByRetrievalFilter
 dev_langs:
- - c++
+- c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10SDKLayers.h
+- D3D10SDKLayers.h
 api_name:
- - ID3D10InfoQueue.GetNumStoredMessagesAllowedByRetrievalFilter
+- ID3D10InfoQueue.GetNumStoredMessagesAllowedByRetrievalFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

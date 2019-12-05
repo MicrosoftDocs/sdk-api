@@ -1,19 +1,17 @@
 ---
 UID: NF:wsman.WSManInitialize
 title: WSManInitialize function (wsman.h)
-
 description: Initializes the Windows Remote Management Client API.
 old-location: winrm\wsmaninitialize.htm
 tech.root: winrm
 ms.assetid: 5aa1f451-0d12-4079-9477-1971fc084df2
-
 ms.date: 12/05/2018
 ms.keywords: WSManInitialize, WSManInitialize function [Windows Remote Management], winrm.wsmaninitialize, wsman/WSManInitialize
 ms.topic: function
-f1_keywords: 
- - "wsman/WSManInitialize"
+f1_keywords:
+- wsman/WSManInitialize
 dev_langs:
- - c++
+- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WsmSvc.lib
 req.dll: WsmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WsmSvc.dll
+- WsmSvc.dll
 api_name:
- - WSManInitialize
+- WSManInitialize
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2

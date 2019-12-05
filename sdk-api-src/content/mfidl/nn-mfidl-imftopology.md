@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFTopology
 title: IMFTopology (mfidl.h)
-
 description: Represents a topology. A topology describes a collection of media sources, sinks, and transforms that are connected in a certain order.
 old-location: mf\imftopology.htm
 tech.root: medfound
 ms.assetid: f293e9ee-9bd2-4b3e-a4ff-53457ee910f6
-
 ms.date: 12/05/2018
 ms.keywords: IMFTopology, IMFTopology interface [Media Foundation], IMFTopology interface [Media Foundation],described, f293e9ee-9bd2-4b3e-a4ff-53457ee910f6, mf.imftopology, mfidl/IMFTopology
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFTopology"
+f1_keywords:
+- mfidl/IMFTopology
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTopology
+- IMFTopology
 targetos: Windows
 req.typenames: 
 req.redist: 

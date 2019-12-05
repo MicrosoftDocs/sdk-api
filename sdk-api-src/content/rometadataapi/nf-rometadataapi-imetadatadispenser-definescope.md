@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataDispenser.DefineScope
 title: IMetaDataDispenser::DefineScope (rometadataapi.h)
-
 description: Creates a new area in memory in which you can create new metadata.
 old-location: winrt\imetadatadispenser_definescope.htm
 tech.root: WinRT
 ms.assetid: 5b7a5e73-e7ef-427a-baa4-3f0defd566a3
-
 ms.date: 12/05/2018
 ms.keywords: DefineScope, DefineScope method [Windows Runtime], DefineScope method [Windows Runtime],IMetaDataDispenser interface, IMetaDataDispenser interface [Windows Runtime],DefineScope method, IMetaDataDispenser.DefineScope, IMetaDataDispenser::DefineScope, rometadataapi/IMetaDataDispenser::DefineScope, winrt.imetadatadispenser_definescope
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataDispenser.DefineScope"
+f1_keywords:
+- rometadataapi/IMetaDataDispenser.DefineScope
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataDispenser.DefineScope
+- IMetaDataDispenser.DefineScope
 targetos: Windows
 req.typenames: 
 req.redist: 

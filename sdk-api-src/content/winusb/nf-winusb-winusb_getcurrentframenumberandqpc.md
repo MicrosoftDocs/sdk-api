@@ -1,19 +1,17 @@
 ---
 UID: NF:winusb.WinUsb_GetCurrentFrameNumberAndQpc
 title: WinUsb_GetCurrentFrameNumberAndQpc function (winusb.h)
-
 description: The WinUsb_GetCurrentFrameNumberAndQpc function retrieves the system query performance counter (QPC) value synchronized with the frame and microframe.
 old-location: buses\winusb_getcurrentframenumberandqpc.htm
 tech.root: usbref
 ms.assetid: 9D94408F-C1EE-4940-8D33-8C32F5DE7DC4
-
 ms.date: 12/05/2018
 ms.keywords: WinUsb_GetCurrentFrameNumberAndQpc, WinUsb_GetCurrentFrameNumberAndQpc function [Buses], buses.winusb_getcurrentframenumberandqpc, winusb/WinUsb_GetCurrentFrameNumberAndQpc
 ms.topic: function
-f1_keywords: 
- - "winusb/WinUsb_GetCurrentFrameNumberAndQpc"
+f1_keywords:
+- winusb/WinUsb_GetCurrentFrameNumberAndQpc
 dev_langs:
- - c++
+- c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Winusb.lib
 req.dll: Winusb.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winusb.dll
+- Winusb.dll
 api_name:
- - WinUsb_GetCurrentFrameNumberAndQpc
+- WinUsb_GetCurrentFrameNumberAndQpc
 targetos: Windows
 req.typenames: 
 req.redist: 

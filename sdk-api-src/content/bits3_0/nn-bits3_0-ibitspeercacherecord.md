@@ -1,19 +1,17 @@
 ---
 UID: NN:bits3_0.IBitsPeerCacheRecord
 title: IBitsPeerCacheRecord (bits3_0.h)
-
 description: Use IBitsPeerCacheRecord to get information about a file in the cache.
 old-location: bits\ibitspeercacherecord.htm
 tech.root: Bits
 ms.assetid: 61db33de-a38c-4c52-9f1b-66d46f25c297
-
 ms.date: 12/05/2018
 ms.keywords: IBitsPeerCacheRecord, IBitsPeerCacheRecord interface [BITS], IBitsPeerCacheRecord interface [BITS],described, bits.ibitspeercacherecord, bits3_0/IBitsPeerCacheRecord
 ms.topic: interface
-f1_keywords: 
- - "bits3_0/IBitsPeerCacheRecord"
+f1_keywords:
+- bits3_0/IBitsPeerCacheRecord
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBitsPeerCacheRecord
+- IBitsPeerCacheRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

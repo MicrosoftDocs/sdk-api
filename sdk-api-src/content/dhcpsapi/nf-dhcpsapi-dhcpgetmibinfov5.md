@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpGetMibInfoV5
 title: DhcpGetMibInfoV5 function (dhcpsapi.h)
-
 description: Obtains a MIB data structure that contains current statistics about the specified DHCP server.
 old-location: dhcp\dhcpgetmibinfov5.htm
 tech.root: DHCP
 ms.assetid: 3439198d-5391-4f9b-a6fe-9a600e7dc77b
-
 ms.date: 12/05/2018
 ms.keywords: DhcpGetMibInfoV5, DhcpGetMibInfoV5 function [DHCP], dhcp.dhcpgetmibinfov5, dhcpsapi/DhcpGetMibInfoV5
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpGetMibInfoV5
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

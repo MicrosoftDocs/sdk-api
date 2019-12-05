@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.IOCSPCAConfigurationCollection.DeleteCAConfiguration
 title: IOCSPCAConfigurationCollection::DeleteCAConfiguration (certadm.h)
-
 description: Removes a named certification authority (CA) configuration from the configuration set.
 old-location: security\iocspcaconfigurationcollection_deletecaconfiguration_method.htm
 tech.root: SecCrypto
 ms.assetid: 3733d98c-d262-4083-bac9-109720059f0b
-
 ms.date: 12/05/2018
 ms.keywords: DeleteCAConfiguration, DeleteCAConfiguration method [Security], DeleteCAConfiguration method [Security],IOCSPCAConfigurationCollection interface, IOCSPCAConfigurationCollection interface [Security],DeleteCAConfiguration method, IOCSPCAConfigurationCollection.DeleteCAConfiguration, IOCSPCAConfigurationCollection::DeleteCAConfiguration, certadm/IOCSPCAConfigurationCollection::DeleteCAConfiguration, security.iocspcaconfigurationcollection_deletecaconfiguration_method
 ms.topic: method
-f1_keywords: 
- - "certadm/IOCSPCAConfigurationCollection.DeleteCAConfiguration"
+f1_keywords:
+- certadm/IOCSPCAConfigurationCollection.DeleteCAConfiguration
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IOCSPCAConfigurationCollection.DeleteCAConfiguration
+- IOCSPCAConfigurationCollection.DeleteCAConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 

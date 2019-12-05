@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.media.core.interop.IAudioFrameNativeFactory.CreateFromMFSample
 title: IAudioFrameNativeFactory::core (windows.media.core.interop.h)
-
 description: Creates an IAudioFrameNative from the provided IMFSample.
 old-location: winrt\iaudioframenativefactory_createfrommfsample.htm
 tech.root: WinRT
 ms.assetid: 331F6479-855E-459B-843F-B4FC4C88ED76
-
 ms.date: 12/05/2018
 ms.keywords: CreateFromMFSample, CreateFromMFSample method [Windows Runtime], CreateFromMFSample method [Windows Runtime],IAudioFrameNativeFactory interface, IAudioFrameNativeFactory interface [Windows Runtime],CreateFromMFSample method, IAudioFrameNativeFactory.CreateFromMFSample, IAudioFrameNativeFactory.core, IAudioFrameNativeFactory::CreateFromMFSample, IAudioFrameNativeFactory::core, windows/IAudioFrameNativeFactory::CreateFromMFSample, winrt.iaudioframenativefactory_createfrommfsample
 ms.topic: method
-f1_keywords: 
- - "windows.media.core.interop/IAudioFrameNativeFactory.CreateFromMFSample"
+f1_keywords:
+- windows.media.core.interop/IAudioFrameNativeFactory.CreateFromMFSample
 dev_langs:
- - c++
+- c++
 req.header: windows.media.core.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.media.core.interop.h
+- windows.media.core.interop.h
 api_name:
- - IAudioFrameNativeFactory.CreateFromMFSample
+- IAudioFrameNativeFactory.CreateFromMFSample
 targetos: Windows
 req.typenames: 
 req.redist: 

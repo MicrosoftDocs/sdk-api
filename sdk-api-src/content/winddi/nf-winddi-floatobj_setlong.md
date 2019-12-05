@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.FLOATOBJ_SetLong
 title: FLOATOBJ_SetLong function (winddi.h)
-
 description: The FLOATOBJ_SetLong function assigns the value of type LONG to the FLOATOBJ.
 old-location: display\floatobj_setlong.htm
 tech.root: display
 ms.assetid: 4fa1b8a6-8172-4047-9ee2-fe00f0924487
-
 ms.date: 12/05/2018
 ms.keywords: FLOATOBJ_SetLong, FLOATOBJ_SetLong function [Display Devices], display.floatobj_setlong, gdifncs_b0a076a3-766b-42fb-a04d-5da69177656b.xml, winddi/FLOATOBJ_SetLong
 ms.topic: function
 f1_keywords:
 - winddi/FLOATOBJ_SetLong
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

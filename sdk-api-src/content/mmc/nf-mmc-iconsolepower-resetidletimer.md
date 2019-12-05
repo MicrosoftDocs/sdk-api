@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IConsolePower.ResetIdleTimer
 title: IConsolePower::ResetIdleTimer (mmc.h)
-
 description: The ResetIdleTimer method resets the specified power management idle timers.
 old-location: mmc\iconsolepower_resetidletimer.htm
 tech.root: mmc
 ms.assetid: 83de4b7f-3214-4354-a4a0-721054e2e899
-
 ms.date: 12/05/2018
 ms.keywords: ES_DISPLAY_REQUIRED, ES_SYSTEM_REQUIRED, IConsolePower interface [MMC],ResetIdleTimer method, IConsolePower.ResetIdleTimer, IConsolePower::ResetIdleTimer, ResetIdleTimer, ResetIdleTimer method [MMC], ResetIdleTimer method [MMC],IConsolePower interface, _slate_iconsolepower_resetidletimer, mmc.iconsolepower_resetidletimer, mmc/IConsolePower::ResetIdleTimer
 ms.topic: method
-f1_keywords: 
- - "mmc/IConsolePower.ResetIdleTimer"
+f1_keywords:
+- mmc/IConsolePower.ResetIdleTimer
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mmc.lib
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IConsolePower.ResetIdleTimer
+- IConsolePower.ResetIdleTimer
 targetos: Windows
 req.typenames: 
 req.redist: 

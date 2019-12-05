@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx.SetSelectedForRestoreEx
 title: IVssBackupComponentsEx::SetSelectedForRestoreEx (vsbackup.h)
-
 description: The SetSelectedForRestoreEx method indicates whether the specified selectable component is selected for restoration to a specified writer instance.
 old-location: base\ivssbackupcomponentsex_setselectedforrestoreex.htm
 tech.root: VSS
 ms.assetid: 469e6d61-85c6-4385-92be-df6addefe37f
-
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponentsEx interface [VSS],SetSelectedForRestoreEx method, IVssBackupComponentsEx.SetSelectedForRestoreEx, IVssBackupComponentsEx::SetSelectedForRestoreEx, SetSelectedForRestoreEx, SetSelectedForRestoreEx method [VSS], SetSelectedForRestoreEx method [VSS],IVssBackupComponentsEx interface, base.ivssbackupcomponentsex_setselectedforrestoreex, vsbackup/IVssBackupComponentsEx::SetSelectedForRestoreEx
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponentsEx.SetSelectedForRestoreEx"
+f1_keywords:
+- vsbackup/IVssBackupComponentsEx.SetSelectedForRestoreEx
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponentsEx.SetSelectedForRestoreEx
+- IVssBackupComponentsEx.SetSelectedForRestoreEx
 targetos: Windows
 req.typenames: 
 req.redist: 

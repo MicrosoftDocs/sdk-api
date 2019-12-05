@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._STORAGE_PROTOCOL_DATA_DESCRIPTOR
 title: STORAGE_PROTOCOL_DATA_DESCRIPTOR
-
 description: This structure is used in conjunction with IOCTL_STORAGE_QUERY_PROPERTY to return protocol-specific data from a storage device or adapter.
 old-location: fs\storage_protocol_data_descriptor.htm
 tech.root: FileIO
 ms.assetid: BCA56343-9FB4-4079-9DB1-5DD55529B586
-
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, PSTORAGE_PROTOCOL_DATA_DESCRIPTOR structure pointer [Files], STORAGE_PROTOCOL_DATA_DESCRIPTOR, STORAGE_PROTOCOL_DATA_DESCRIPTOR structure [Files], fs.storage_protocol_data_descriptor, winioctl/PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, winioctl/STORAGE_PROTOCOL_DATA_DESCRIPTOR'
 ms.topic: struct
 f1_keywords:
 - winioctl/STORAGE_PROTOCOL_DATA_DESCRIPTOR
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

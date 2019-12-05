@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IVideoWindow.NotifyOwnerMessage
 title: IVideoWindow::NotifyOwnerMessage (control.h)
-
 description: The NotifyOwnerMessage method forwards a message to the video window.
 old-location: dshow\ivideowindow_notifyownermessage.htm
 tech.root: DirectShow
 ms.assetid: 37d28f32-5da5-4082-ac57-5b274e95ca68
-
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],NotifyOwnerMessage method, IVideoWindow.NotifyOwnerMessage, IVideoWindow::NotifyOwnerMessage, IVideoWindowNotifyOwnerMessage, NotifyOwnerMessage, NotifyOwnerMessage method [DirectShow], NotifyOwnerMessage method [DirectShow],IVideoWindow interface, control/IVideoWindow::NotifyOwnerMessage, dshow.ivideowindow_notifyownermessage
 ms.topic: method
-f1_keywords: 
- - "control/IVideoWindow.NotifyOwnerMessage"
+f1_keywords:
+- control/IVideoWindow.NotifyOwnerMessage
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVideoWindow.NotifyOwnerMessage
+- IVideoWindow.NotifyOwnerMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

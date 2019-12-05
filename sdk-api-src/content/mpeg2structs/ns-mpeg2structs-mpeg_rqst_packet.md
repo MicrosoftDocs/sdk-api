@@ -1,19 +1,17 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0014
 title: MPEG_RQST_PACKET (mpeg2structs.h)
-
 description: The MPEG_RQST_PACKET structure defines a buffer to receive MPEG-2 section data.
 old-location: mstv\mpeg_rqst_packet.htm
 tech.root: mstv
 ms.assetid: b7777633-66c3-44c2-9cdb-14c540555a43
-
 ms.date: 12/05/2018
-ms.keywords: "*PMPEG_RQST_PACKET, MPEG_RQST_PACKET, MPEG_RQST_PACKET structure [Microsoft TV Technologies], PMPEG_RQST_PACKET, PMPEG_RQST_PACKET structure pointer [Microsoft TV Technologies], mpeg2structs/MPEG_RQST_PACKET, mpeg2structs/PMPEG_RQST_PACKET, mstv.mpeg_rqst_packet"
+ms.keywords: '*PMPEG_RQST_PACKET, MPEG_RQST_PACKET, MPEG_RQST_PACKET structure [Microsoft TV Technologies], PMPEG_RQST_PACKET, PMPEG_RQST_PACKET structure pointer [Microsoft TV Technologies], mpeg2structs/MPEG_RQST_PACKET, mpeg2structs/PMPEG_RQST_PACKET, mstv.mpeg_rqst_packet'
 ms.topic: struct
-f1_keywords: 
- - "mpeg2structs/MPEG_RQST_PACKET"
+f1_keywords:
+- mpeg2structs/MPEG_RQST_PACKET
 dev_langs:
- - c++
+- c++
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mpeg2Structs.h
+- Mpeg2Structs.h
 api_name:
- - MPEG_RQST_PACKET
+- MPEG_RQST_PACKET
 targetos: Windows
 req.typenames: MPEG_RQST_PACKET, *PMPEG_RQST_PACKET
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vmr9.IVMRSurfaceAllocator9.TerminateDevice
 title: IVMRSurfaceAllocator9::TerminateDevice (vmr9.h)
-
 description: The TerminateDevice method releases the Direct3D device.
 old-location: dshow\ivmrsurfaceallocator9_terminatedevice.htm
 tech.root: DirectShow
 ms.assetid: 5006265d-6f2b-433b-b3ce-a7074d6eb159
-
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocator9 interface [DirectShow],TerminateDevice method, IVMRSurfaceAllocator9.TerminateDevice, IVMRSurfaceAllocator9::TerminateDevice, IVMRSurfaceAllocator9TerminateDevice, TerminateDevice, TerminateDevice method [DirectShow], TerminateDevice method [DirectShow],IVMRSurfaceAllocator9 interface, dshow.ivmrsurfaceallocator9_terminatedevice, vmr9/IVMRSurfaceAllocator9::TerminateDevice
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRSurfaceAllocator9.TerminateDevice"
+f1_keywords:
+- vmr9/IVMRSurfaceAllocator9.TerminateDevice
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRSurfaceAllocator9.TerminateDevice
+- IVMRSurfaceAllocator9.TerminateDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFContentInfo.GeneratePresentationDescriptor
 title: IMFASFContentInfo::GeneratePresentationDescriptor (wmcontainer.h)
-
 description: Creates a presentation descriptor for ASF content.
 old-location: mf\imfasfcontentinfo_generatepresentationdescriptor.htm
 tech.root: medfound
 ms.assetid: f22cb48d-1346-4182-8ca2-f57a7fdc76e4
-
 ms.date: 12/05/2018
 ms.keywords: GeneratePresentationDescriptor, GeneratePresentationDescriptor method [Media Foundation], GeneratePresentationDescriptor method [Media Foundation],IMFASFContentInfo interface, IMFASFContentInfo interface [Media Foundation],GeneratePresentationDescriptor method, IMFASFContentInfo.GeneratePresentationDescriptor, IMFASFContentInfo::GeneratePresentationDescriptor, f22cb48d-1346-4182-8ca2-f57a7fdc76e4, mf.imfasfcontentinfo_generatepresentationdescriptor, wmcontainer/IMFASFContentInfo::GeneratePresentationDescriptor
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFContentInfo.GeneratePresentationDescriptor"
+f1_keywords:
+- wmcontainer/IMFASFContentInfo.GeneratePresentationDescriptor
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFContentInfo.GeneratePresentationDescriptor
+- IMFASFContentInfo.GeneratePresentationDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

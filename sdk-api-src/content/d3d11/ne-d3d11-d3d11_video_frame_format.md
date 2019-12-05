@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11.D3D11_VIDEO_FRAME_FORMAT
 title: D3D11_VIDEO_FRAME_FORMAT (d3d11.h)
-
 description: Describes how a video stream is interlaced.
 old-location: mf\d3d11_video_frame_format.htm
 tech.root: medfound
 ms.assetid: D0C0C58C-8BBC-4C2C-BD0B-4244211E7E06
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_FRAME_FORMAT, D3D11_VIDEO_FRAME_FORMAT enumeration [Media Foundation], D3D11_VIDEO_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST, D3D11_VIDEO_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST, D3D11_VIDEO_FRAME_FORMAT_PROGRESSIVE, d3d11/D3D11_VIDEO_FRAME_FORMAT, d3d11/D3D11_VIDEO_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST, d3d11/D3D11_VIDEO_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST, d3d11/D3D11_VIDEO_FRAME_FORMAT_PROGRESSIVE, mf.d3d11_video_frame_format
 ms.topic: enum
-f1_keywords: 
- - "d3d11/D3D11_VIDEO_FRAME_FORMAT"
+f1_keywords:
+- d3d11/D3D11_VIDEO_FRAME_FORMAT
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_VIDEO_FRAME_FORMAT
+- D3D11_VIDEO_FRAME_FORMAT
 targetos: Windows
 req.typenames: D3D11_VIDEO_FRAME_FORMAT
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_COMPARISON_FUNC
 title: D3D12_COMPARISON_FUNC (d3d12.h)
-
 description: Specifies comparison options.
 old-location: direct3d12\d3d12_comparison_func.htm
 tech.root: direct3d12
 ms.assetid: 68223746-59B3-4FDD-B7EF-44557F1C46E3
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_COMPARISON_FUNC, D3D12_COMPARISON_FUNC enumeration, D3D12_COMPARISON_FUNC_ALWAYS, D3D12_COMPARISON_FUNC_EQUAL, D3D12_COMPARISON_FUNC_GREATER, D3D12_COMPARISON_FUNC_GREATER_EQUAL, D3D12_COMPARISON_FUNC_LESS, D3D12_COMPARISON_FUNC_LESS_EQUAL, D3D12_COMPARISON_FUNC_NEVER, D3D12_COMPARISON_FUNC_NOT_EQUAL, d3d12/D3D12_COMPARISON_FUNC, d3d12/D3D12_COMPARISON_FUNC_ALWAYS, d3d12/D3D12_COMPARISON_FUNC_EQUAL, d3d12/D3D12_COMPARISON_FUNC_GREATER, d3d12/D3D12_COMPARISON_FUNC_GREATER_EQUAL, d3d12/D3D12_COMPARISON_FUNC_LESS, d3d12/D3D12_COMPARISON_FUNC_LESS_EQUAL, d3d12/D3D12_COMPARISON_FUNC_NEVER, d3d12/D3D12_COMPARISON_FUNC_NOT_EQUAL, direct3d12.d3d12_comparison_func
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_COMPARISON_FUNC"
+f1_keywords:
+- d3d12/D3D12_COMPARISON_FUNC
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_COMPARISON_FUNC
+- D3D12_COMPARISON_FUNC
 targetos: Windows
 req.typenames: D3D12_COMPARISON_FUNC
 req.redist: 

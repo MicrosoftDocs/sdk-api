@@ -1,19 +1,17 @@
 ---
 UID: NF:inked.IInkEdit.put_MouseIcon
 title: IInkEdit::put_MouseIcon (inked.h)
-
 description: Gets or sets the custom mouse icon for the InkEdit control.
 old-location: tablet\inkedit_mouseicon.htm
 tech.root: tablet
 ms.assetid: 11e7cf2d-e671-471f-9a13-1f55b62b4dfa
-
 ms.date: 12/05/2018
 ms.keywords: IInkEdit interface [Tablet PC],MouseIcon property, IInkEdit.MouseIcon, IInkEdit.put_MouseIcon, IInkEdit::MouseIcon, IInkEdit::get_MouseIcon, IInkEdit::put_MouseIcon, InkEdit.get_MouseIcon, InkEdit.put_MouseIcon, InkEdit.putref_MouseIcon, MouseIcon property [Tablet PC], MouseIcon property [Tablet PC],IInkEdit interface, get_MouseIcon, inked/IInkEdit::MouseIcon, inked/IInkEdit::get_MouseIcon, inked/IInkEdit::put_MouseIcon, put_MouseIcon, putref_MouseIcon, tablet.inkedit_mouseicon
 ms.topic: method
-f1_keywords: 
- - "inked/IInkEdit.MouseIcon"
+f1_keywords:
+- inked/IInkEdit.MouseIcon
 dev_langs:
- - c++
+- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: InkEd.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkEd.dll
- - InkEd.dll.dll
+- InkEd.dll
+- InkEd.dll.dll
 api_name:
- - IInkEdit.MouseIcon
- - IInkEdit.get_MouseIcon
- - IInkEdit.put_MouseIcon
- - InkEdit.get_MouseIcon
- - InkEdit.put_MouseIcon
- - InkEdit.putref_MouseIcon
+- IInkEdit.MouseIcon
+- IInkEdit.get_MouseIcon
+- IInkEdit.put_MouseIcon
+- InkEdit.get_MouseIcon
+- InkEdit.put_MouseIcon
+- InkEdit.putref_MouseIcon
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxPackageEditor.CreateDeltaPackage
 title: IAppxPackageEditor::CreateDeltaPackage (appxpackaging.h)
-
 description: Creates a delta package from the differences in the updated package and the baseline package.
 old-location: appxpkg\iappxpackageeditor_createdeltapackage.htm
 tech.root: appxpkg
 ms.assetid: 40B41D47-674A-4842-8C6D-FBB661D12589
-
 ms.date: 12/05/2018
 ms.keywords: CreateDeltaPackage, CreateDeltaPackage method [App packaging and management], CreateDeltaPackage method [App packaging and management],IAppxPackageEditor interface, IAppxPackageEditor interface [App packaging and management],CreateDeltaPackage method, IAppxPackageEditor.CreateDeltaPackage, IAppxPackageEditor::CreateDeltaPackage, appxpackaging/IAppxPackageEditor::CreateDeltaPackage, appxpkg.iappxpackageeditor_createdeltapackage
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxPackageEditor.CreateDeltaPackage"
+f1_keywords:
+- appxpackaging/IAppxPackageEditor.CreateDeltaPackage
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxPackageEditor.CreateDeltaPackage
+- IAppxPackageEditor.CreateDeltaPackage
 targetos: Windows
 req.typenames: 
 req.redist: 

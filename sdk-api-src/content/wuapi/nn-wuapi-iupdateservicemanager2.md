@@ -1,19 +1,17 @@
 ---
 UID: NN:wuapi.IUpdateServiceManager2
 title: IUpdateServiceManager2 (wuapi.h)
-
 description: Adds or removes the registration of the update service with Windows Update Agent or Automatic Updates.
 old-location: wua\iupdateservicemanager2.htm
 tech.root: Wua_Sdk
 ms.assetid: 26b75edc-eb43-4ee0-8040-da8b3252cf21
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceManager2, IUpdateServiceManager2 interface [Windows Update Agent], IUpdateServiceManager2 interface [Windows Update Agent],described, wua.iupdateservicemanager2, wuapi/IUpdateServiceManager2
 ms.topic: interface
-f1_keywords: 
- - "wuapi/IUpdateServiceManager2"
+f1_keywords:
+- wuapi/IUpdateServiceManager2
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateServiceManager2
+- IUpdateServiceManager2
 targetos: Windows
 req.typenames: 
 req.redist: 

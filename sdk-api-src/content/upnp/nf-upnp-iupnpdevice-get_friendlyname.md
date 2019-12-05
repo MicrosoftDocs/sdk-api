@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_FriendlyName
 title: IUPnPDevice::get_FriendlyName (upnp.h)
-
 description: The FriendlyName property specifies the device display name for the device.
 old-location: upnp\iupnpdevice_friendlyname.htm
 tech.root: upnp
 ms.assetid: dd24384f-2657-4cb0-812e-1b51d53b73de
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_FriendlyName method, IUPnPDevice.get_FriendlyName, IUPnPDevice::get_FriendlyName, _upnp_iupnpdevice_friendlyname, get_FriendlyName, get_FriendlyName method [UPnP APIs], get_FriendlyName method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_friendlyname, upnp/IUPnPDevice::get_FriendlyName
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPDevice.get_FriendlyName"
+f1_keywords:
+- upnp/IUPnPDevice.get_FriendlyName
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPDevice.get_FriendlyName
+- IUPnPDevice.get_FriendlyName
 targetos: Windows
 req.typenames: 
 req.redist: 

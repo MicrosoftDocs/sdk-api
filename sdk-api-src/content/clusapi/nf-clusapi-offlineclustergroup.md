@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.OfflineClusterGroup
 title: OfflineClusterGroup function (clusapi.h)
-
 description: Takes a group offline.
 old-location: mscs\offlineclustergroup.htm
 tech.root: MsCS
 ms.assetid: 465e9eac-6286-4955-a11c-a515c64230da
-
 ms.date: 12/05/2018
 ms.keywords: OfflineClusterGroup, OfflineClusterGroup function [Failover Cluster], PCLUSAPI_OFFLINE_CLUSTER_GROUP, PCLUSAPI_OFFLINE_CLUSTER_GROUP function [Failover Cluster], _wolf_offlineclustergroup, clusapi/OfflineClusterGroup, clusapi/PCLUSAPI_OFFLINE_CLUSTER_GROUP, mscs.offlineclustergroup
 ms.topic: function
-f1_keywords: 
- - "clusapi/OfflineClusterGroup"
+f1_keywords:
+- clusapi/OfflineClusterGroup
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - OfflineClusterGroup
+- OfflineClusterGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

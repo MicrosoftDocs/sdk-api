@@ -1,19 +1,17 @@
 ---
 UID: NF:winefs.EncryptionDisable
 title: EncryptionDisable function (winefs.h)
-
 description: Disables or enables encryption of the specified directory and the files in it.
 old-location: fs\encryptiondisable.htm
 tech.root: FileIO
 ms.assetid: 6ff93a90-c1cf-4782-862c-d3d7e294c4b0
-
 ms.date: 12/05/2018
 ms.keywords: EncryptionDisable, EncryptionDisable function [Files], _win32_encryptiondisable, base.encryptiondisable, fs.encryptiondisable, winefs/EncryptionDisable
 ms.topic: function
-f1_keywords: 
- - "winefs/EncryptionDisable"
+f1_keywords:
+- winefs/EncryptionDisable
 dev_langs:
- - c++
+- c++
 req.header: winefs.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
+- Advapi32.dll
 api_name:
- - EncryptionDisable
+- EncryptionDisable
 targetos: Windows
 req.typenames: 
 req.redist: 

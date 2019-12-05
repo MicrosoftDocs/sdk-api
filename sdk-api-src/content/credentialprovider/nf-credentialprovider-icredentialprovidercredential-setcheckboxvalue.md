@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.SetCheckboxValue
 title: ICredentialProviderCredential::SetCheckboxValue (credentialprovider.h)
-
 description: Enables a Logon UI and Credential UI to indicate that a checkbox value has changed.
 old-location: shell\ICredentialProviderCredential_SetCheckboxValue.htm
 tech.root: shell
 ms.assetid: 7da8e80f-1cbe-4a10-96a0-7eb6e61b0f9b
-
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredential interface [Windows Shell],SetCheckboxValue method, ICredentialProviderCredential.SetCheckboxValue, ICredentialProviderCredential::SetCheckboxValue, SetCheckboxValue, SetCheckboxValue method [Windows Shell], SetCheckboxValue method [Windows Shell],ICredentialProviderCredential interface, _shell_ICredentialProviderCredential_SetCheckboxValue, credentialprovider/ICredentialProviderCredential::SetCheckboxValue, shell.ICredentialProviderCredential_SetCheckboxValue
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderCredential.SetCheckboxValue"
+f1_keywords:
+- credentialprovider/ICredentialProviderCredential.SetCheckboxValue
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - ICredentialProviderCredential.SetCheckboxValue
+- ICredentialProviderCredential.SetCheckboxValue
 targetos: Windows
 req.typenames: 
 req.redist: 

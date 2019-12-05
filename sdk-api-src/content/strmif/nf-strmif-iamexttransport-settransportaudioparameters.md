@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMExtTransport.SetTransportAudioParameters
 title: IAMExtTransport::SetTransportAudioParameters (strmif.h)
-
 description: The SetTransportAudioParameters assigns audio parameter settings for external transport.
 old-location: dshow\iamexttransport_settransportaudioparameters.htm
 tech.root: DirectShow
 ms.assetid: e013dd73-7276-48b3-bf5f-ffb4b3d49419
-
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],SetTransportAudioParameters method, IAMExtTransport.SetTransportAudioParameters, IAMExtTransport::SetTransportAudioParameters, IAMExtTransportSetTransportAudioParameters, SetTransportAudioParameters, SetTransportAudioParameters method [DirectShow], SetTransportAudioParameters method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_settransportaudioparameters, strmif/IAMExtTransport::SetTransportAudioParameters
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMExtTransport.SetTransportAudioParameters"
+f1_keywords:
+- strmif/IAMExtTransport.SetTransportAudioParameters
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMExtTransport.SetTransportAudioParameters
+- IAMExtTransport.SetTransportAudioParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

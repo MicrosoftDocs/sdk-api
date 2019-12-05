@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IMFDesiredSample.GetDesiredSampleTimeAndDuration
 title: IMFDesiredSample::GetDesiredSampleTimeAndDuration (evr.h)
-
 description: Called by the mixer to get the time and duration of the sample requested by the presenter.
 old-location: mf\imfdesiredsample_getdesiredsampletimeandduration.htm
 tech.root: medfound
 ms.assetid: 095202ed-0272-4bda-a268-6a407ef74a94
-
 ms.date: 12/05/2018
 ms.keywords: 095202ed-0272-4bda-a268-6a407ef74a94, GetDesiredSampleTimeAndDuration, GetDesiredSampleTimeAndDuration method [Media Foundation], GetDesiredSampleTimeAndDuration method [Media Foundation],IMFDesiredSample interface, IMFDesiredSample interface [Media Foundation],GetDesiredSampleTimeAndDuration method, IMFDesiredSample.GetDesiredSampleTimeAndDuration, IMFDesiredSample::GetDesiredSampleTimeAndDuration, evr/IMFDesiredSample::GetDesiredSampleTimeAndDuration, mf.imfdesiredsample_getdesiredsampletimeandduration
 ms.topic: method
-f1_keywords: 
- - "evr/IMFDesiredSample.GetDesiredSampleTimeAndDuration"
+f1_keywords:
+- evr/IMFDesiredSample.GetDesiredSampleTimeAndDuration
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFDesiredSample.GetDesiredSampleTimeAndDuration
+- IMFDesiredSample.GetDesiredSampleTimeAndDuration
 targetos: Windows
 req.typenames: 
 req.redist: 

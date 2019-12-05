@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.UiaHostProviderFromHwnd
 title: UiaHostProviderFromHwnd function (uiautomationcoreapi.h)
-
 description: Gets the host provider for a window.
 old-location: winauto\uiauto_UiaHostProviderFromHwndFunction.htm
 tech.root: WinAuto
 ms.assetid: 8cc8a8d8-a4e0-477e-bf3b-2fd5df2b9db1
-
 ms.date: 12/05/2018
 ms.keywords: UiaHostProviderFromHwnd, UiaHostProviderFromHwnd function [Windows Accessibility], uiauto.uiauto_UiaHostProviderFromHwndFunction, uiauto_UiaHostProviderFromHwndFunction, uiautomationcoreapi/UiaHostProviderFromHwnd, winauto.uiauto_UiaHostProviderFromHwndFunction
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/UiaHostProviderFromHwnd"
+f1_keywords:
+- uiautomationcoreapi/UiaHostProviderFromHwnd
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
- - Ext-MS-Win-uiacore-l1-1-0.dll
- - Ext-MS-Win-UIaCore-l1-1-1.dll
- - Ext-MS-Win-UIaCore-l1-1-2.dll
- - Ext-MS-Win-UiaCore-L1-1-3.dll
+- Uiautomationcore.dll
+- Ext-MS-Win-uiacore-l1-1-0.dll
+- Ext-MS-Win-UIaCore-l1-1-1.dll
+- Ext-MS-Win-UIaCore-l1-1-2.dll
+- Ext-MS-Win-UiaCore-L1-1-3.dll
 api_name:
- - UiaHostProviderFromHwnd
+- UiaHostProviderFromHwnd
 targetos: Windows
 req.typenames: 
 req.redist: 

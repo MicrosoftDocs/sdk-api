@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxServer.get_MinorVersion
 title: IFaxServer::get_MinorVersion (faxcomex.h)
-
 description: The IFaxServer::get_MinorVersion property is a value that specifies the minor part of the version number for the fax service.
 old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_minorversion_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2m5q.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxServer interface [Fax Service],MinorVersion property, IFaxServer.MinorVersion, IFaxServer.get_MinorVersion, IFaxServer::MinorVersion, IFaxServer::get_MinorVersion, MinorVersion property [Fax Service], MinorVersion property [Fax Service],IFaxServer interface, _mfax_faxserver.minorversion, fax._mfax_faxserver_cpp_mfax_faxserver_minorversion_cpp, fax._mfax_faxserver_minorversion, faxcomex/IFaxServer::MinorVersion, faxcomex/IFaxServer::get_MinorVersion, get_MinorVersion
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxServer.MinorVersion"
+f1_keywords:
+- faxcomex/IFaxServer.MinorVersion
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxServer.MinorVersion
- - IFaxServer.get_MinorVersion
- - IFaxServer.get_MinorVersion
+- IFaxServer.MinorVersion
+- IFaxServer.get_MinorVersion
+- IFaxServer.get_MinorVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

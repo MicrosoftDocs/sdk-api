@@ -1,19 +1,17 @@
 ---
 UID: NF:fileapi.FindNextFileW
 title: FindNextFileW function (fileapi.h)
-
 description: Continues a file search from a previous call to the FindFirstFile, FindFirstFileEx, or FindFirstFileTransacted functions.
 old-location: fs\findnextfile.htm
 tech.root: FileIO
 ms.assetid: db7acb83-2da6-40bf-9962-5cfe54e257a5
-
 ms.date: 12/05/2018
 ms.keywords: FindNextFile, FindNextFile function [Files], FindNextFileA, FindNextFileW, _win32_findnextfile, base.findnextfile, fileapi/FindNextFile, fileapi/FindNextFileA, fileapi/FindNextFileW, fs.findnextfile, winbase/FindNextFile, winbase/FindNextFileA, winbase/FindNextFileW
 ms.topic: function
 f1_keywords:
 - fileapi/FindNextFile
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

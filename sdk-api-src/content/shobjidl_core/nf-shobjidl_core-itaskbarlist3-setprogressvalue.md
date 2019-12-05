@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList3.SetProgressValue
 title: ITaskbarList3::SetProgressValue (shobjidl_core.h)
-
 description: Displays or updates a progress bar hosted in a taskbar button to show the specific percentage completed of the full operation.
 old-location: shell\ITaskbarList3_SetProgressValue.htm
 tech.root: shell
 ms.assetid: 98646a68-d505-4d9b-b0f9-efda3da77005
-
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],SetProgressValue method, ITaskbarList3.SetProgressValue, ITaskbarList3::SetProgressValue, SetProgressValue, SetProgressValue method [Windows Shell], SetProgressValue method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_SetProgressValue, shell.ITaskbarList3_SetProgressValue, shobjidl_core/ITaskbarList3::SetProgressValue
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ITaskbarList3.SetProgressValue"
+f1_keywords:
+- shobjidl_core/ITaskbarList3.SetProgressValue
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Explorerframe.lib
 req.dll: Explorerframe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Explorerframe.dll
+- Explorerframe.dll
 api_name:
- - ITaskbarList3.SetProgressValue
+- ITaskbarList3.SetProgressValue
 targetos: Windows
 req.typenames: 
 req.redist: 

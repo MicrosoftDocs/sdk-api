@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwMgr.IsIcmpTypeAllowed
 title: INetFwMgr::IsIcmpTypeAllowed (netfw.h)
-
 description: Determines whether the specified ICMP type is allowed.
 old-location: ics\inetfwmgr_isicmptypeallowed.htm
 tech.root: ics
 ms.assetid: 9ff5ef3b-581e-4ce5-9424-dafb08cfe067
-
 ms.date: 12/05/2018
 ms.keywords: INetFwMgr interface [ICS/ICF],IsIcmpTypeAllowed method, INetFwMgr.IsIcmpTypeAllowed, INetFwMgr::IsIcmpTypeAllowed, IsIcmpTypeAllowed, IsIcmpTypeAllowed method [ICS/ICF], IsIcmpTypeAllowed method [ICS/ICF],INetFwMgr interface, ics.inetfwmgr_isicmptypeallowed, netfw/INetFwMgr::IsIcmpTypeAllowed
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwMgr.IsIcmpTypeAllowed"
+f1_keywords:
+- netfw/INetFwMgr.IsIcmpTypeAllowed
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwMgr.IsIcmpTypeAllowed
+- INetFwMgr.IsIcmpTypeAllowed
 targetos: Windows
 req.typenames: 
 req.redist: 

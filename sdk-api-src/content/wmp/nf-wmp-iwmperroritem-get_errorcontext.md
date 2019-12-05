@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPErrorItem.get_errorContext
 title: IWMPErrorItem::get_errorContext (wmp.h)
-
 description: The get_errorContext method retrieves a value indicating the context of the error.
 old-location: wmp\iwmperroritem_get_errorcontext.htm
 tech.root: WMP
 ms.assetid: 575f14e7-7a5b-4000-9957-253c40b1ef62
-
 ms.date: 12/05/2018
 ms.keywords: IWMPErrorItem interface [Windows Media Player],get_errorContext method, IWMPErrorItem.get_errorContext, IWMPErrorItem::get_errorContext, IWMPErrorItemget_errorContext, get_errorContext, get_errorContext method [Windows Media Player], get_errorContext method [Windows Media Player],IWMPErrorItem interface, wmp.iwmperroritem_get_errorcontext, wmp/IWMPErrorItem::get_errorContext
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPErrorItem.get_errorContext"
+f1_keywords:
+- wmp/IWMPErrorItem.get_errorContext
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPErrorItem.get_errorContext
+- IWMPErrorItem.get_errorContext
 targetos: Windows
 req.typenames: 
 req.redist: 

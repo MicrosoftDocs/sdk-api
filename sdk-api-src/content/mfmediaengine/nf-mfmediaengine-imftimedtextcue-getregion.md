@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextCue.GetRegion
 title: IMFTimedTextCue::GetRegion (mfmediaengine.h)
-
 description: Gets info about the display region of the timed-text cue.
 old-location: mf\imftimedtextcue_getregion.htm
 tech.root: medfound
 ms.assetid: 8F5CE96E-9714-4F1A-8CB5-87FA24735B9D
-
 ms.date: 12/05/2018
 ms.keywords: GetRegion, GetRegion method [Media Foundation], GetRegion method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetRegion method, IMFTimedTextCue.GetRegion, IMFTimedTextCue::GetRegion, mf.imftimedtextcue_getregion, mfmediaengine/IMFTimedTextCue::GetRegion
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextCue.GetRegion"
+f1_keywords:
+- mfmediaengine/IMFTimedTextCue.GetRegion
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextCue.GetRegion
+- IMFTimedTextCue.GetRegion
 targetos: Windows
 req.typenames: 
 req.redist: 

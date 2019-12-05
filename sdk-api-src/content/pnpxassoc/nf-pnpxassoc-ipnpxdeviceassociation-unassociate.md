@@ -1,19 +1,17 @@
 ---
 UID: NF:pnpxassoc.IPNPXDeviceAssociation.Unassociate
 title: IPNPXDeviceAssociation::Unassociate (pnpxassoc.h)
-
 description: Marks an association database entry as unassociated and sends an appropriate notification.
 old-location: ncd\ipnpxdeviceassociation_unassociate.htm
 tech.root: FunDisc
 ms.assetid: fb420967-c79c-4edd-a432-b982219c0746
-
 ms.date: 12/05/2018
 ms.keywords: IPNPXDeviceAssociation interface,Unassociate method, IPNPXDeviceAssociation.Unassociate, IPNPXDeviceAssociation::Unassociate, Unassociate, Unassociate method, Unassociate method,IPNPXDeviceAssociation interface, ncd.ipnpxdeviceassociation_unassociate, pnpxassoc/IPNPXDeviceAssociation::Unassociate
 ms.topic: method
-f1_keywords: 
- - "pnpxassoc/IPNPXDeviceAssociation.Unassociate"
+f1_keywords:
+- pnpxassoc/IPNPXDeviceAssociation.Unassociate
 dev_langs:
- - c++
+- c++
 req.header: pnpxassoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - pnpxassoc.h
+- pnpxassoc.h
 api_name:
- - IPNPXDeviceAssociation.Unassociate
+- IPNPXDeviceAssociation.Unassociate
 targetos: Windows
 req.typenames: 
 req.redist: 

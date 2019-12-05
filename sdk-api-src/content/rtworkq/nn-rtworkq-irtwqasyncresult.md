@@ -1,19 +1,17 @@
 ---
 UID: NN:rtworkq.IRtwqAsyncResult
 title: IRtwqAsyncResult (rtworkq.h)
-
 description: Provides information about the result of an asynchronous operation.
 old-location: base\irtwqasyncresult.htm
 tech.root: ProcThread
 ms.assetid: AB23282D-D731-48EE-AF55-CC5A513EBA33
-
 ms.date: 12/05/2018
 ms.keywords: IRtwqAsyncResult, IRtwqAsyncResult interface, IRtwqAsyncResult interface,described, base.irtwqasyncresult, rtworkq/IRtwqAsyncResult
 ms.topic: interface
-f1_keywords: 
- - "rtworkq/IRtwqAsyncResult"
+f1_keywords:
+- rtworkq/IRtwqAsyncResult
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - IRtwqAsyncResult
+- IRtwqAsyncResult
 targetos: Windows
 req.typenames: 
 req.redist: 

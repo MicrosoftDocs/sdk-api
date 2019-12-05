@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.GetNestLevel
 title: ITextRow::GetNestLevel (tom.h)
-
 description: Gets the nest level of a table.
 old-location: controls\itextrow_getnestlevel.htm
 tech.root: Controls
 ms.assetid: 6b689344-6748-49d7-aa98-a87435b7cb0b
-
 ms.date: 12/05/2018
 ms.keywords: GetNestLevel, GetNestLevel method [Windows Controls], GetNestLevel method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetNestLevel method, ITextRow.GetNestLevel, ITextRow::GetNestLevel, controls.itextrow_getnestlevel, tom/ITextRow::GetNestLevel
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.GetNestLevel"
+f1_keywords:
+- tom/ITextRow.GetNestLevel
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.GetNestLevel
+- ITextRow.GetNestLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

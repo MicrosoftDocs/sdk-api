@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.put_Task
 title: IFsrmReportJob::put_Task (fsrmreports.h)
-
 description: Retrieves or sets the name of the report job.
 old-location: fsrm\ifsrmreportjob_task.htm
 tech.root: fsrm
 ms.assetid: 2c9ceaca-f696-4506-bc25-efd601522560
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmReportJob interface [File Server Resource Manager],Task property, IFsrmReportJob.Task, IFsrmReportJob.put_Task, IFsrmReportJob::Task, IFsrmReportJob::get_Task, IFsrmReportJob::put_Task, Task property [File Server Resource Manager], Task property [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_task, fsrm.ifsrmreportjob_task, fsrmreports/IFsrmReportJob::Task, fsrmreports/IFsrmReportJob::get_Task, fsrmreports/IFsrmReportJob::put_Task, put_Task
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmReportJob.Task"
+f1_keywords:
+- fsrmreports/IFsrmReportJob.Task
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmReportJob.Task
- - IFsrmReportJob.get_Task
- - IFsrmReportJob.put_Task
+- IFsrmReportJob.Task
+- IFsrmReportJob.get_Task
+- IFsrmReportJob.put_Task
 targetos: Windows
 req.typenames: 
 req.redist: 

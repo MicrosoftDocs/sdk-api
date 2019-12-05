@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_ID_List_ExW
 title: CM_Get_Device_ID_List_ExW function (cfgmgr32.h)
-
 description: The CM_Get_Device_ID_List_Ex function retrieves a list of device instance IDs for the device instances on a local or a remote machine.
 old-location: devinst\cm_get_device_id_list_ex.htm
 tech.root: devinst
 ms.assetid: 4f47e44c-a30b-4d50-9041-f84f7f209764
-
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Device_ID_List_Ex, CM_Get_Device_ID_List_Ex function [Device and Driver Installation], CM_Get_Device_ID_List_ExW, cfgmgr32/CM_Get_Device_ID_List_Ex, cfgmgr32/CM_Get_Device_ID_List_ExW, cfgmgrfn_85ea1296-d9ef-46fd-8893-b44cd188ed6f.xml, devinst.cm_get_device_id_list_ex
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Get_Device_ID_List_Ex"
+f1_keywords:
+- cfgmgr32/CM_Get_Device_ID_List_Ex
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -32,16 +30,16 @@ req.lib: Cfgmgr32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Cfgmgr32.lib
- - Cfgmgr32.dll
+- Cfgmgr32.lib
+- Cfgmgr32.dll
 api_name:
- - CM_Get_Device_ID_List_Ex
- - CM_Get_Device_ID_List_ExW
+- CM_Get_Device_ID_List_Ex
+- CM_Get_Device_ID_List_ExW
 targetos: Windows
 req.typenames: 
 req.redist: 

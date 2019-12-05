@@ -1,19 +1,17 @@
 ---
 UID: NF:t2embapi.TTRunValidationTestsEx
 title: TTRunValidationTestsEx function (t2embapi.h)
-
 description: Validates part or all glyph data of a UCS-4 character (32-bit) font, in the size range specified.
 old-location: gdi\ttrunvalidationtestsex.htm
 tech.root: gdi
 ms.assetid: 4b4fdd3f-c07c-407c-87eb-5bd8a1620d75
-
 ms.date: 12/05/2018
 ms.keywords: TTRunValidationTestsEx, TTRunValidationTestsEx function [Windows GDI], _win32_TTRunValidationTestsEx, gdi.ttrunvalidationtestsex, t2embapi/TTRunValidationTestsEx
 ms.topic: function
-f1_keywords: 
- - "t2embapi/TTRunValidationTestsEx"
+f1_keywords:
+- t2embapi/TTRunValidationTestsEx
 dev_langs:
- - c++
+- c++
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: T2embed.lib
 req.dll: T2embed.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - T2embed.dll
+- T2embed.dll
 api_name:
- - TTRunValidationTestsEx
+- TTRunValidationTestsEx
 targetos: Windows
 req.typenames: 
 req.redist: 

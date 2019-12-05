@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_parse_extended_resultW
 title: ldap_parse_extended_resultW function (winldap.h)
-
 description: The ldap_parse_extended_result parses the results of an LDAP extended operation.
 old-location: ldap\ldap_parse_extended_result.htm
 tech.root: ldap
 ms.assetid: b869c8e9-022c-437c-ba06-cb98a59c8c2d
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_parse_extended_result, ldap.ldap__parse__extended__result, ldap.ldap_parse_extended_result, ldap_parse_extended_result, ldap_parse_extended_result function [LDAP], ldap_parse_extended_resultA, ldap_parse_extended_resultW, winldap/ldap_parse_extended_result, winldap/ldap_parse_extended_resultA, winldap/ldap_parse_extended_resultW"
+ms.keywords: _ldap_ldap_parse_extended_result, ldap.ldap__parse__extended__result, ldap.ldap_parse_extended_result, ldap_parse_extended_result, ldap_parse_extended_result function [LDAP], ldap_parse_extended_resultA, ldap_parse_extended_resultW, winldap/ldap_parse_extended_result, winldap/ldap_parse_extended_resultA, winldap/ldap_parse_extended_resultW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_parse_extended_result"
+f1_keywords:
+- winldap/ldap_parse_extended_result
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_parse_extended_result
- - ldap_parse_extended_resultA
- - ldap_parse_extended_resultW
+- ldap_parse_extended_result
+- ldap_parse_extended_resultA
+- ldap_parse_extended_resultW
 targetos: Windows
 req.typenames: 
 req.redist: 

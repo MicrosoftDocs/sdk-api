@@ -1,19 +1,17 @@
 ---
 UID: NF:xaudio2.IXAudio2.CommitChanges
 title: IXAudio2::CommitChanges (xaudio2.h)
-
 description: Atomically applies a set of operations that are tagged with a given identifier.
 old-location: xaudio2\ixaudio2_interface_commitchanges.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.CommitChanges(UINT32)
-
 ms.date: 12/05/2018
 ms.keywords: CommitChanges, CommitChanges method [XAudio2 Audio Mixing APIs], CommitChanges method [XAudio2 Audio Mixing APIs],IXAudio2 interface, IXAudio2 interface [XAudio2 Audio Mixing APIs],CommitChanges method, IXAudio2.CommitChanges, IXAudio2::CommitChanges, xaudio2.ixaudio2_interface_commitchanges, xaudio2/IXAudio2::CommitChanges
 ms.topic: method
-f1_keywords: 
- - "xaudio2/IXAudio2.CommitChanges"
+f1_keywords:
+- xaudio2/IXAudio2.CommitChanges
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xaudio2.h
+- xaudio2.h
 api_name:
- - IXAudio2.CommitChanges
+- IXAudio2.CommitChanges
 targetos: Windows
 req.typenames: 
 req.redist: 

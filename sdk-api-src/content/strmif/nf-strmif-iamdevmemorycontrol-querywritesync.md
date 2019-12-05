@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMDevMemoryControl.QueryWriteSync
 title: IAMDevMemoryControl::QueryWriteSync (strmif.h)
-
 description: Note  The IAMDevMemoryControl interface is deprecated. Checks if the memory supported by the allocator requires the use of the IAMDevMemoryControl::WriteSync method.
 old-location: dshow\iamdevmemorycontrol_querywritesync.htm
 tech.root: DirectShow
 ms.assetid: ec6dd7e2-b1f2-48fa-bf79-2688e286425e
-
 ms.date: 12/05/2018
 ms.keywords: IAMDevMemoryControl interface [DirectShow],QueryWriteSync method, IAMDevMemoryControl.QueryWriteSync, IAMDevMemoryControl::QueryWriteSync, IAMDevMemoryControlQueryWriteSync, QueryWriteSync, QueryWriteSync method [DirectShow], QueryWriteSync method [DirectShow],IAMDevMemoryControl interface, dshow.iamdevmemorycontrol_querywritesync, strmif/IAMDevMemoryControl::QueryWriteSync
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMDevMemoryControl.QueryWriteSync"
+f1_keywords:
+- strmif/IAMDevMemoryControl.QueryWriteSync
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IAMDevMemoryControl.QueryWriteSync
+- IAMDevMemoryControl.QueryWriteSync
 targetos: Windows
 req.typenames: 
 req.redist: 

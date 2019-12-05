@@ -1,19 +1,17 @@
 ---
 UID: NS:mprapi._RAS_PORT_1
 title: RAS_PORT_1 (mprapi.h)
-
 description: The RAS_PORT_1 structure contains detailed information regarding a specific RAS port, such as line speed or errors. For more general information about a port, such as port condition or port name, see RAS_PORT_0.
 old-location: rras\ras_port_1.htm
 tech.root: RRAS
 ms.assetid: 4850f08e-13ee-485f-99a5-be4554d6311b
-
 ms.date: 12/05/2018
 ms.keywords: '*PRAS_PORT_1, PRAS_PORT_1, PRAS_PORT_1 structure pointer [RAS], RAS_PORT_1, RAS_PORT_1 structure [RAS], _mpr_ras_port_1, mprapi/PRAS_PORT_1, mprapi/RAS_PORT_1, rras.ras_port_1'
 ms.topic: struct
 f1_keywords:
 - mprapi/RAS_PORT_1
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

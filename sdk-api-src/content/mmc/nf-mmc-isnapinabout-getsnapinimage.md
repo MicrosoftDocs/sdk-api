@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.ISnapinAbout.GetSnapinImage
 title: ISnapinAbout::GetSnapinImage (mmc.h)
-
 description: Enables the console to obtain the snap-in's main icon to be used in the About box.
 old-location: mmc\isnapinabout_getsnapinimage.htm
 tech.root: mmc
 ms.assetid: 0a009125-fee0-4ea4-9778-e28797e47465
-
 ms.date: 12/05/2018
 ms.keywords: GetSnapinImage, GetSnapinImage method [MMC], GetSnapinImage method [MMC],ISnapinAbout interface, ISnapinAbout interface [MMC],GetSnapinImage method, ISnapinAbout.GetSnapinImage, ISnapinAbout::GetSnapinImage, _slate_isnapinabout_getsnapinimage, mmc.isnapinabout_getsnapinimage, mmc/ISnapinAbout::GetSnapinImage
 ms.topic: method
-f1_keywords: 
- - "mmc/ISnapinAbout.GetSnapinImage"
+f1_keywords:
+- mmc/ISnapinAbout.GetSnapinImage
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - ISnapinAbout.GetSnapinImage
+- ISnapinAbout.GetSnapinImage
 targetos: Windows
 req.typenames: 
 req.redist: 

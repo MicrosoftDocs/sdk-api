@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataManager.get_Rules
 title: IDataManager::get_Rules (pla.h)
-
 description: Retrieves or sets the rules to apply to the report.
 old-location: pla\idatamanager_rules.htm
 tech.root: PLA
 ms.assetid: 17403e57-2eea-4a2b-a75c-66f486622078
-
 ms.date: 12/05/2018
 ms.keywords: IDataManager interface [PLA],Rules property, IDataManager.Rules, IDataManager.get_Rules, IDataManager::Rules, IDataManager::get_Rules, IDataManager::put_Rules, Rules property [PLA], Rules property [PLA],IDataManager interface, base.idatamanager_rules, get_Rules, pla.idatamanager_rules, pla/IDataManager::Rules, pla/IDataManager::get_Rules, pla/IDataManager::put_Rules
 ms.topic: method
-f1_keywords: 
- - "pla/IDataManager.Rules"
+f1_keywords:
+- pla/IDataManager.Rules
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataManager.Rules
- - IDataManager.get_Rules
- - IDataManager.put_Rules
+- IDataManager.Rules
+- IDataManager.get_Rules
+- IDataManager.put_Rules
 targetos: Windows
 req.typenames: 
 req.redist: 

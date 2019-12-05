@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetConnectW
 title: InternetConnectW function (wininet.h)
-
 description: Opens an File Transfer Protocol (FTP) or HTTP session for a given site.
 old-location: wininet\internetconnect.htm
 tech.root: wininet
 ms.assetid: 42b5d733-dccd-4c9d-8820-e358e033077c
-
 ms.date: 12/05/2018
 ms.keywords: InternetConnect, InternetConnect function [WinINet], InternetConnectA, InternetConnectW, _win32_internetconnect, wininet.internetconnect, wininet/InternetConnect, wininet/InternetConnectA, wininet/InternetConnectW
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetConnect"
+f1_keywords:
+- wininet/InternetConnect
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetConnect
- - InternetConnectA
- - InternetConnectW
+- InternetConnect
+- InternetConnectA
+- InternetConnectW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Image.GetFlags
 title: Image::GetFlags (gdiplusheaders.h)
-
 description: The Image::GetFlags method gets a set of flags that indicate certain attributes of this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetFlags_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getflags.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [GDI+], GetFlags method [GDI+],Image class, Image class [GDI+],GetFlags method, Image.GetFlags, Image::GetFlags, _gdiplus_CLASS_Image_GetFlags_, gdiplus._gdiplus_CLASS_Image_GetFlags_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Image.GetFlags"
+f1_keywords:
+- gdiplusheaders/Image.GetFlags
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Image.GetFlags
+- Image.GetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

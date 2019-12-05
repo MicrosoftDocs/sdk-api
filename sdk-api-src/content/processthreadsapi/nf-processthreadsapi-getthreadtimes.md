@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.GetThreadTimes
 title: GetThreadTimes function (processthreadsapi.h)
-
 description: Retrieves timing information for the specified thread.
 old-location: base\getthreadtimes.htm
 tech.root: ProcThread
 ms.assetid: eb61aa05-15d8-4251-947a-54df8433b858
-
 ms.date: 12/05/2018
 ms.keywords: GetThreadTimes, GetThreadTimes function, _win32_getthreadtimes, base.getthreadtimes, processthreadsapi/GetThreadTimes, winbase/GetThreadTimes
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/GetThreadTimes"
+f1_keywords:
+- processthreadsapi/GetThreadTimes
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
- - api-ms-win-downlevel-kernel32-l1-1-0.dll
- - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+- Kernel32.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-1.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+- api-ms-win-downlevel-kernel32-l1-1-0.dll
+- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 api_name:
- - GetThreadTimes
+- GetThreadTimes
 targetos: Windows
 req.typenames: 
 req.redist: 

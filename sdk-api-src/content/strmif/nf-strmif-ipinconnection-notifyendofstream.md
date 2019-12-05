@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IPinConnection.NotifyEndOfStream
 title: IPinConnection::NotifyEndOfStream (strmif.h)
-
 description: The NotifyEndOfStream method requests notification from the pin when the next end-of-stream condition occurs.
 old-location: dshow\ipinconnection_notifyendofstream.htm
 tech.root: DirectShow
 ms.assetid: 3a911436-a679-4a86-93f9-e9c57ca762c5
-
 ms.date: 12/05/2018
 ms.keywords: IPinConnection interface [DirectShow],NotifyEndOfStream method, IPinConnection.NotifyEndOfStream, IPinConnection::NotifyEndOfStream, IPinConnectionNotifyEndOfStream, NotifyEndOfStream, NotifyEndOfStream method [DirectShow], NotifyEndOfStream method [DirectShow],IPinConnection interface, dshow.ipinconnection_notifyendofstream, strmif/IPinConnection::NotifyEndOfStream
 ms.topic: method
-f1_keywords: 
- - "strmif/IPinConnection.NotifyEndOfStream"
+f1_keywords:
+- strmif/IPinConnection.NotifyEndOfStream
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IPinConnection.NotifyEndOfStream
+- IPinConnection.NotifyEndOfStream
 targetos: Windows
 req.typenames: 
 req.redist: 

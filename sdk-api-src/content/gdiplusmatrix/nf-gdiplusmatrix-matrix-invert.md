@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Invert
 title: Matrix::Invert (gdiplusmatrix.h)
-
 description: If this matrix is invertible, the Matrix::Invert method replaces the elements of this matrix with the elements of its inverse.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Invert_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\invert.htm
-
 ms.date: 12/05/2018
 ms.keywords: Invert, Invert method [GDI+], Invert method [GDI+],Matrix class, Matrix class [GDI+],Invert method, Matrix.Invert, Matrix::Invert, _gdiplus_CLASS_Matrix_Invert_, gdiplus._gdiplus_CLASS_Matrix_Invert_
 ms.topic: method
-f1_keywords: 
- - "gdiplusmatrix/Matrix.Invert"
+f1_keywords:
+- gdiplusmatrix/Matrix.Invert
 dev_langs:
- - c++
+- c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Matrix.Invert
+- Matrix.Invert
 targetos: Windows
 req.typenames: 
 req.redist: 

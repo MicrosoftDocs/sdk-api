@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantCompareEx
 title: PropVariantCompareEx function (propvarutil.h)
-
 description: Extends PropVariantCompare by allowing the caller to compare two PROPVARIANT structures based on specified comparison units and flags.
 old-location: properties\PropVariantCompareEx.htm
 tech.root: properties
 ms.assetid: 0fc9eb7b-e981-430c-b50e-77eb51620a76
-
 ms.date: 12/05/2018
 ms.keywords: PVCF_DEFAULT, PVCF_TREATEMPTYASGREATERTHAN, PVCF_USESTRCMP, PVCF_USESTRCMPC, PVCF_USESTRCMPI, PVCF_USESTRCMPIC, PropVariantCompareEx, PropVariantCompareEx function [Windows Properties], _shell_PropVariantCompareEx, properties.PropVariantCompareEx, propvarutil/PropVariantCompareEx, shell.PropVariantCompareEx
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantCompareEx"
+f1_keywords:
+- propvarutil/PropVariantCompareEx
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantCompareEx
+- PropVariantCompareEx
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

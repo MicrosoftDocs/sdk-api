@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.GetStream
 title: IWMProfile::GetStream (wmsdkidl.h)
-
 description: The GetStream method retrieves a stream from the profile.
 old-location: wmformat\iwmprofile_getstream.htm
 tech.root: wmformat
 ms.assetid: 067c3f03-a79a-4693-b963-7081f79c72d3
-
 ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [windows Media Format], GetStream method [windows Media Format],IWMProfile interface, GetStream method [windows Media Format],IWMProfile2 interface, GetStream method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],GetStream method, IWMProfile.GetStream, IWMProfile2 interface [windows Media Format],GetStream method, IWMProfile2::GetStream, IWMProfile3 interface [windows Media Format],GetStream method, IWMProfile3::GetStream, IWMProfile::GetStream, IWMProfileGetStream, wmformat.iwmprofile_getstream, wmsdkidl/IWMProfile2::GetStream, wmsdkidl/IWMProfile3::GetStream, wmsdkidl/IWMProfile::GetStream
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMProfile.GetStream"
+f1_keywords:
+- wmsdkidl/IWMProfile.GetStream
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
- - qasf.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
+- qasf.dll
 api_name:
- - IWMProfile.GetStream
- - IWMProfile2.GetStream
- - IWMProfile3.GetStream
+- IWMProfile.GetStream
+- IWMProfile2.GetStream
+- IWMProfile3.GetStream
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:appmgmt.GetManagedApplicationCategories
 title: GetManagedApplicationCategories function (appmgmt.h)
-
 description: The GetManagedApplicationCategories function gets a list of application categories for a domain. The list is the same for all users in the domain.
 old-location: policy\getmanagedapplicationcategories.htm
 tech.root: Policy
 ms.assetid: 10824852-7810-483a-91b3-2d9cc3d21934
-
 ms.date: 12/05/2018
 ms.keywords: GetManagedApplicationCategories, GetManagedApplicationCategories function [Group Policy], appmgmt/GetManagedApplicationCategories, policy.getmanagedapplicationcategories
 ms.topic: function
-f1_keywords: 
- - "appmgmt/GetManagedApplicationCategories"
+f1_keywords:
+- appmgmt/GetManagedApplicationCategories
 dev_langs:
- - c++
+- c++
 req.header: appmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
+- Advapi32.dll
 api_name:
- - GetManagedApplicationCategories
+- GetManagedApplicationCategories
 targetos: Windows
 req.typenames: 
 req.redist: 

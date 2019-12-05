@@ -1,19 +1,17 @@
 ---
 UID: NF:indexsrv.IStemmer.GenerateWordForms
 title: IStemmer::GenerateWordForms (indexsrv.h)
-
 description: Generates alternative forms for a word and puts these forms in the IWordFormSink object.
 old-location: search\_search_IStemmer_GenerateWordForms.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\istemmer\generatewordforms.htm
-
 ms.date: 12/05/2018
 ms.keywords: GenerateWordForms, GenerateWordForms method [search], GenerateWordForms method [search],IStemmer interface, IStemmer interface [search],GenerateWordForms method, IStemmer.GenerateWordForms, IStemmer::GenerateWordForms, _search_IStemmer_GenerateWordForms, indexsrv/IStemmer::GenerateWordForms, search._search_IStemmer_GenerateWordForms
 ms.topic: method
-f1_keywords: 
- - "indexsrv/IStemmer.GenerateWordForms"
+f1_keywords:
+- indexsrv/IStemmer.GenerateWordForms
 dev_langs:
- - c++
+- c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Indexsrv.h
+- Indexsrv.h
 api_name:
- - IStemmer.GenerateWordForms
+- IStemmer.GenerateWordForms
 targetos: Windows
 req.typenames: 
 req.redist: Windows NT 4.0 Option Pack

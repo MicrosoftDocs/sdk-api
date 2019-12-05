@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupQueueDeleteW
 title: SetupQueueDeleteW function (setupapi.h)
-
 description: The SetupQueueDelete function places an individual file delete operation on a setup file queue.
 old-location: setup\setupqueuedelete.htm
 tech.root: SetupApi
 ms.assetid: 21cdaf05-c4fb-4130-baa5-31baf5391ece
-
 ms.date: 12/05/2018
 ms.keywords: SetupQueueDelete, SetupQueueDelete function [Setup API], SetupQueueDeleteA, SetupQueueDeleteW, _setupapi_setupqueuedelete, setup.setupqueuedelete, setupapi/SetupQueueDelete, setupapi/SetupQueueDeleteA, setupapi/SetupQueueDeleteW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupQueueDelete"
+f1_keywords:
+- setupapi/SetupQueueDelete
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupQueueDelete
- - SetupQueueDeleteA
- - SetupQueueDeleteW
+- SetupQueueDelete
+- SetupQueueDeleteA
+- SetupQueueDeleteW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo3.GetAttributeIndices
 title: IWMHeaderInfo3::GetAttributeIndices (wmsdkidl.h)
-
 description: The GetAttributeIndices method retrieves a list of valid attribute indices within specified parameters.
 old-location: wmformat\iwmheaderinfo3_getattributeindices.htm
 tech.root: wmformat
 ms.assetid: 15c8f0c2-f2d4-441a-b6a9-774da820d03c
-
 ms.date: 12/05/2018
 ms.keywords: GetAttributeIndices, GetAttributeIndices method [windows Media Format], GetAttributeIndices method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo3 interface [windows Media Format],GetAttributeIndices method, IWMHeaderInfo3.GetAttributeIndices, IWMHeaderInfo3::GetAttributeIndices, IWMHeaderInfo3GetAttributeIndices, wmformat.iwmheaderinfo3_getattributeindices, wmsdkidl/IWMHeaderInfo3::GetAttributeIndices
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMHeaderInfo3.GetAttributeIndices"
+f1_keywords:
+- wmsdkidl/IWMHeaderInfo3.GetAttributeIndices
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMHeaderInfo3.GetAttributeIndices
+- IWMHeaderInfo3.GetAttributeIndices
 targetos: Windows
 req.typenames: 
 req.redist: 

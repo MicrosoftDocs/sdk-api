@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.put_UseRestrictedCharacterSet
 title: IFileSystemImage::put_UseRestrictedCharacterSet (imapi2fs.h)
-
 description: Determines if file and directory names should be restricted to using only CP_ANSI characters.
 old-location: imapi\ifilesystemimage_put_userestrictedcharacterset.htm
 tech.root: imapi
 ms.assetid: de64ef3d-94b3-4d97-946e-8331c5a39f4b
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_UseRestrictedCharacterSet method, IFileSystemImage.put_UseRestrictedCharacterSet, IFileSystemImage::put_UseRestrictedCharacterSet, imapi.ifilesystemimage_put_userestrictedcharacterset, imapi2fs/IFileSystemImage::put_UseRestrictedCharacterSet, put_UseRestrictedCharacterSet, put_UseRestrictedCharacterSet method [IMAPI], put_UseRestrictedCharacterSet method [IMAPI],IFileSystemImage interface
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImage.put_UseRestrictedCharacterSet"
+f1_keywords:
+- imapi2fs/IFileSystemImage.put_UseRestrictedCharacterSet
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage.put_UseRestrictedCharacterSet
+- IFileSystemImage.put_UseRestrictedCharacterSet
 targetos: Windows
 req.typenames: 
 req.redist: 

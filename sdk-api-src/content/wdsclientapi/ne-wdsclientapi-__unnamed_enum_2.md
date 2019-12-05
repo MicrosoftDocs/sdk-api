@@ -1,19 +1,17 @@
 ---
 UID: NE:wdsclientapi.__unnamed_enum_2
 title: __unnamed_enum_2 (wdsclientapi.h)
-
 description: This enumeration is used by the WdsCliLog function.
 old-location: wds\wds_log_level.htm
 tech.root: wds
 ms.assetid: 18b577a1-a8fd-4a88-b80f-d01b612cf777
-
 ms.date: 12/05/2018
 ms.keywords: WDS_LOG_LEVEL, WDS_LOG_LEVEL_DISABLED, WDS_LOG_LEVEL_ERROR, WDS_LOG_LEVEL_INFO, WDS_LOG_LEVEL_WARNING, __unnamed_enum_2, enumeration [Windows Deployment Services], wds.wds_log_level, wdsclientapi/, wdsclientapi/WDS_LOG_LEVEL_DISABLED, wdsclientapi/WDS_LOG_LEVEL_ERROR, wdsclientapi/WDS_LOG_LEVEL_INFO, wdsclientapi/WDS_LOG_LEVEL_WARNING
 ms.topic: enum
-f1_keywords: 
- - "wdsclientapi/WDS_LOG_LEVEL"
+f1_keywords:
+- wdsclientapi/WDS_LOG_LEVEL
 dev_langs:
- - c++
+- c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wdsclientapi.h
+- Wdsclientapi.h
 api_name:
- - WDS_LOG_LEVEL
+- WDS_LOG_LEVEL
 targetos: Windows
 req.typenames: 
 req.redist: 

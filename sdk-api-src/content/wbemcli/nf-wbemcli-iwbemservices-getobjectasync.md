@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemServices.GetObjectAsync
 title: IWbemServices::GetObjectAsync (wbemcli.h)
-
 description: The IWbemServices::GetObjectAsync method retrieves an object, either a class definition or instance, based on its path.
 old-location: wmi\iwbemservices_getobjectasync.htm
 tech.root: WmiSdk
 ms.assetid: 6868a14d-3776-43a0-b241-b40d42a97afc
-
 ms.date: 12/05/2018
 ms.keywords: GetObjectAsync, GetObjectAsync method [Windows Management Instrumentation], GetObjectAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],GetObjectAsync method, IWbemServices.GetObjectAsync, IWbemServices::GetObjectAsync, WBEM_FLAG_DIRECT_READ, WBEM_FLAG_SEND_STATUS, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_getobjectasync, wbemcli/IWbemServices::GetObjectAsync, wmi.iwbemservices_getobjectasync
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemServices.GetObjectAsync"
+f1_keywords:
+- wbemcli/IWbemServices.GetObjectAsync
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,28 +30,28 @@ req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll; Esscli.dll; FrameDyn.dll; FrameDynOS.dll; Ntevt.dll; Stdprov.dll; Viewprov.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wbemsvc.dll; Wmipicmp.dll; Wmidcprv.dll; Wmipjobj.dll; Wmiprvsd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fastprox.dll
- - Esscli.dll
- - FrameDyn.dll
- - FrameDynOS.dll
- - Ntevt.dll
- - Stdprov.dll
- - Viewprov.dll
- - Wbemcomn.dll
- - Wbemcore.dll
- - Wbemess.dll
- - Wbemsvc.dll
- - Wmipicmp.dll
- - Wmidcprv.dll
- - Wmipjobj.dll
- - Wmiprvsd.dll
+- Fastprox.dll
+- Esscli.dll
+- FrameDyn.dll
+- FrameDynOS.dll
+- Ntevt.dll
+- Stdprov.dll
+- Viewprov.dll
+- Wbemcomn.dll
+- Wbemcore.dll
+- Wbemess.dll
+- Wbemsvc.dll
+- Wmipicmp.dll
+- Wmidcprv.dll
+- Wmipjobj.dll
+- Wmiprvsd.dll
 api_name:
- - IWbemServices.GetObjectAsync
+- IWbemServices.GetObjectAsync
 targetos: Windows
 req.typenames: 
 req.redist: 

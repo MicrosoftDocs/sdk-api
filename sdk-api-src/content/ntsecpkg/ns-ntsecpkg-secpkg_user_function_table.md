@@ -1,19 +1,17 @@
 ---
 UID: NS:ntsecpkg._SECPKG_USER_FUNCTION_TABLE
 title: SECPKG_USER_FUNCTION_TABLE (ntsecpkg.h)
-
 description: The SECPKG_USER_FUNCTION_TABLE structure contains pointers to the functions that a security package implements to support executing in process with client/server applications. This structure is provided by the SpUserModeInitialize function.
 old-location: security\secpkg_user_function_table.htm
 tech.root: SecAuthN
 ms.assetid: 2b3fc6d1-2f55-4053-9271-f5cb5c318555
-
 ms.date: 12/05/2018
-ms.keywords: "*PSECPKG_USER_FUNCTION_TABLE, PSECPKG_USER_FUNCTION_TABLE, PSECPKG_USER_FUNCTION_TABLE structure pointer [Security], SECPKG_USER_FUNCTION_TABLE, SECPKG_USER_FUNCTION_TABLE structure [Security], _ssp_secpkg_user_function_table, ntsecpkg/PSECPKG_USER_FUNCTION_TABLE, ntsecpkg/SECPKG_USER_FUNCTION_TABLE, security.secpkg_user_function_table"
+ms.keywords: '*PSECPKG_USER_FUNCTION_TABLE, PSECPKG_USER_FUNCTION_TABLE, PSECPKG_USER_FUNCTION_TABLE structure pointer [Security], SECPKG_USER_FUNCTION_TABLE, SECPKG_USER_FUNCTION_TABLE structure [Security], _ssp_secpkg_user_function_table, ntsecpkg/PSECPKG_USER_FUNCTION_TABLE, ntsecpkg/SECPKG_USER_FUNCTION_TABLE, security.secpkg_user_function_table'
 ms.topic: struct
-f1_keywords: 
- - "ntsecpkg/SECPKG_USER_FUNCTION_TABLE"
+f1_keywords:
+- ntsecpkg/SECPKG_USER_FUNCTION_TABLE
 dev_langs:
- - c++
+- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SECPKG_USER_FUNCTION_TABLE
+- SECPKG_USER_FUNCTION_TABLE
 targetos: Windows
 req.typenames: SECPKG_USER_FUNCTION_TABLE, *PSECPKG_USER_FUNCTION_TABLE
 req.redist: 

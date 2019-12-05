@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.SHCreateLibrary
 title: SHCreateLibrary function (shobjidl_core.h)
-
 description: Creates an IShellLibrary object.
 old-location: shell\SHCreateLibrary.htm
 tech.root: shell
 ms.assetid: 7e682a2e-5140-49ad-88de-ac681025aca4
-
 ms.date: 12/05/2018
 ms.keywords: SHCreateLibrary, SHCreateLibrary function [Windows Shell], _shell_SHCreateLibrary, shell.SHCreateLibrary, shobjidl_core/SHCreateLibrary
 ms.topic: function
-f1_keywords: 
- - "shobjidl_core/SHCreateLibrary"
+f1_keywords:
+- shobjidl_core/SHCreateLibrary
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - SHCreateLibrary
+- SHCreateLibrary
 targetos: Windows
 req.typenames: 
 req.redist: 

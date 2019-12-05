@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsprint.StartXpsPrintJob
 title: StartXpsPrintJob function (xpsprint.h)
-
 description: Starts printing an XPS document stream to a printer.
 old-location: gdi\startxpsprintjob.htm
 tech.root: printdocs
 ms.assetid: d982ae2e-c68f-4197-b419-22a63e61db8a
-
 ms.date: 12/05/2018
 ms.keywords: StartXpsPrintJob, StartXpsPrintJob function [Windows GDI], gdi.startxpsprintjob, xpsprint/StartXpsPrintJob
 ms.topic: function
-f1_keywords: 
- - "xpsprint/StartXpsPrintJob"
+f1_keywords:
+- xpsprint/StartXpsPrintJob
 dev_langs:
- - c++
+- c++
 req.header: xpsprint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: XpsPrint.lib
 req.dll: XpsPrint.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - XpsPrint.dll
+- XpsPrint.dll
 api_name:
- - StartXpsPrintJob
+- StartXpsPrintJob
 targetos: Windows
 req.typenames: 
 req.redist: 

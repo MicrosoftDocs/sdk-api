@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.AddClusterResourceDependency
 title: AddClusterResourceDependency function (clusapi.h)
-
 description: Creates a dependency relationship between two resources.
 old-location: mscs\addclusterresourcedependency.htm
 tech.root: MsCS
 ms.assetid: 37f173f3-514e-434b-8531-d308c6233a24
-
 ms.date: 12/05/2018
 ms.keywords: AddClusterResourceDependency, AddClusterResourceDependency function [Failover Cluster], PCLUSAPI_ADD_CLUSTER_RESOURCE_DEPENDENCY, PCLUSAPI_ADD_CLUSTER_RESOURCE_DEPENDENCY function [Failover Cluster], _wolf_addclusterresourcedependency, clusapi/AddClusterResourceDependency, clusapi/PCLUSAPI_ADD_CLUSTER_RESOURCE_DEPENDENCY, mscs.addclusterresourcedependency
 ms.topic: function
-f1_keywords: 
- - "clusapi/AddClusterResourceDependency"
+f1_keywords:
+- clusapi/AddClusterResourceDependency
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-L1-1-2.dll
- - ext-ms-win-cluster-clusapi-l1-1-3.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-L1-1-2.dll
+- ext-ms-win-cluster-clusapi-l1-1-3.dll
 api_name:
- - AddClusterResourceDependency
+- AddClusterResourceDependency
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ITypeLib2.GetAllCustData
 title: ITypeLib2::GetAllCustData (oaidl.h)
-
 description: Gets all custom data items for the library.
 old-location: automat\itypelib2_getallcustdata.htm
 tech.root: automat
 ms.assetid: f557bfe6-5254-43c6-a42b-bc2d13126705
-
 ms.date: 12/05/2018
 ms.keywords: GetAllCustData, GetAllCustData method [Automation], GetAllCustData method [Automation],ITypeLib2 interface, ITypeLib2 interface [Automation],GetAllCustData method, ITypeLib2.GetAllCustData, ITypeLib2::GetAllCustData, _oa96_ITypeLib2_GetAllCustData, automat.itypelib2_getallcustdata, oaidl/ITypeLib2::GetAllCustData
 ms.topic: method
-f1_keywords: 
- - "oaidl/ITypeLib2.GetAllCustData"
+f1_keywords:
+- oaidl/ITypeLib2.GetAllCustData
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeLib2.GetAllCustData
+- ITypeLib2.GetAllCustData
 targetos: Windows
 req.typenames: 
 req.redist: 

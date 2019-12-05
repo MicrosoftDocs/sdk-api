@@ -1,19 +1,17 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl.RegisterAudioSessionNotification
 title: IAudioSessionControl::RegisterAudioSessionNotification (audiopolicy.h)
-
 description: The RegisterAudioSessionNotification method registers the client to receive notifications of session events, including changes in the stream state.
 old-location: coreaudio\iaudiosessioncontrol_registeraudiosessionnotification.htm
 tech.root: CoreAudio
 ms.assetid: f0004eb6-1b3c-4f78-9ab4-17b30dec0d94
-
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionControl interface [Core Audio],RegisterAudioSessionNotification method, IAudioSessionControl.RegisterAudioSessionNotification, IAudioSessionControl::RegisterAudioSessionNotification, IAudioSessionControlRegisterAudioSessionNotification, RegisterAudioSessionNotification, RegisterAudioSessionNotification method [Core Audio], RegisterAudioSessionNotification method [Core Audio],IAudioSessionControl interface, audiopolicy/IAudioSessionControl::RegisterAudioSessionNotification, coreaudio.iaudiosessioncontrol_registeraudiosessionnotification
 ms.topic: method
-f1_keywords: 
- - "audiopolicy/IAudioSessionControl.RegisterAudioSessionNotification"
+f1_keywords:
+- audiopolicy/IAudioSessionControl.RegisterAudioSessionNotification
 dev_langs:
- - c++
+- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audiopolicy.h
+- Audiopolicy.h
 api_name:
- - IAudioSessionControl.RegisterAudioSessionNotification
+- IAudioSessionControl.RegisterAudioSessionNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

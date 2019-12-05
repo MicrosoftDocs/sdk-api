@@ -1,19 +1,17 @@
 ---
 UID: NN:functiondiscoveryapi.IFunctionDiscovery
 title: IFunctionDiscovery (functiondiscoveryapi.h)
-
 description: This interface is used by client programs to discover function instances, get the default function instance for a category, and create advanced Function Discovery query objects that enable registering Function Discovery defaults, among other things.
 old-location: ncd\ifunctiondiscovery.htm
 tech.root: FunDisc
 ms.assetid: 352a8d61-7d3a-423d-8b7e-1163d4fa1e00
-
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscovery, IFunctionDiscovery interface, IFunctionDiscovery interface,described, functiondiscoveryapi/IFunctionDiscovery, ncd.ifunctiondiscovery
 ms.topic: interface
-f1_keywords: 
- - "functiondiscoveryapi/IFunctionDiscovery"
+f1_keywords:
+- functiondiscoveryapi/IFunctionDiscovery
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FunDisc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunDisc.dll
+- FunDisc.dll
 api_name:
- - IFunctionDiscovery
+- IFunctionDiscovery
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:traffic.TcSetFlowW
 title: TcSetFlowW function (traffic.h)
-
 description: The TcSetFlow function sets individual parameters for a given flow.
 old-location: qos\tcsetflow.htm
 tech.root: QOS
 ms.assetid: 9989e26c-7e79-43b7-a5b8-f203c27b2a1e
-
 ms.date: 12/05/2018
 ms.keywords: TcSetFlow, TcSetFlow function [QOS], TcSetFlowA, TcSetFlowW, _gqos_tcsetflow, qos.tcsetflow, traffic/TcSetFlow, traffic/TcSetFlowA, traffic/TcSetFlowW
 ms.topic: function
-f1_keywords: 
- - "traffic/TcSetFlow"
+f1_keywords:
+- traffic/TcSetFlow
 dev_langs:
- - c++
+- c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Traffic.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Traffic.dll
+- Traffic.dll
 api_name:
- - TcSetFlow
- - TcSetFlowA
- - TcSetFlowW
+- TcSetFlow
+- TcSetFlowA
+- TcSetFlowW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.media.streaming.IMediaRendererFactory.CreateMediaRendererAsync
 title: IMediaRendererFactory::streaming (windows.media.streaming.h)
-
 description: Asynchronously creates a new instance of an object that implements the IMediaRenderer interface using the specified Unique Device Name (UDN).
 old-location: mediastreaming\imediarendererfactory_createmediarendererasync.htm
 tech.root: mediastreaming
 ms.assetid: FD1242F8-4C2E-4027-B1DE-5FD69557684C
-
 ms.date: 12/05/2018
 ms.keywords: CreateMediaRendererAsync, CreateMediaRendererAsync method [Media Streaming API], CreateMediaRendererAsync method [Media Streaming API],IMediaRendererFactory interface, IMediaRendererFactory interface [Media Streaming API],CreateMediaRendererAsync method, IMediaRendererFactory.CreateMediaRendererAsync, IMediaRendererFactory.streaming, IMediaRendererFactory::CreateMediaRendererAsync, IMediaRendererFactory::streaming, mediastreaming.imediarendererfactory_createmediarendererasync, windows/IMediaRendererFactory::CreateMediaRendererAsync
 ms.topic: method
-f1_keywords: 
- - "windows.media.streaming/IMediaRendererFactory.CreateMediaRendererAsync"
+f1_keywords:
+- windows.media.streaming/IMediaRendererFactory.CreateMediaRendererAsync
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.media.streaming.h
+- windows.media.streaming.h
 api_name:
- - IMediaRendererFactory.CreateMediaRendererAsync
+- IMediaRendererFactory.CreateMediaRendererAsync
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:iketypes.IKEEXT_CERTIFICATE_CREDENTIAL1_
 title: IKEEXT_CERTIFICATE_CREDENTIAL1 (iketypes.h)
-
 description: Is used to store credential information specific to certificate authentication.
 old-location: fwp\ikeext_certificate_credential1.htm
 tech.root: fwp
 ms.assetid: 78ae9cfe-2a4f-48cd-9a4f-fd5193df0ed0
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_CERTIFICATE_CREDENTIAL1, IKEEXT_CERTIFICATE_CREDENTIAL1 structure [Filtering], IKEEXT_CERT_CREDENTIAL_FLAG_NAP_CERT, fwp.ikeext_certificate_credential1, iketypes/IKEEXT_CERTIFICATE_CREDENTIAL1
 ms.topic: struct
-f1_keywords: 
- - "iketypes/IKEEXT_CERTIFICATE_CREDENTIAL1"
+f1_keywords:
+- iketypes/IKEEXT_CERTIFICATE_CREDENTIAL1
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iketypes.h
+- Iketypes.h
 api_name:
- - IKEEXT_CERTIFICATE_CREDENTIAL1
+- IKEEXT_CERTIFICATE_CREDENTIAL1
 targetos: Windows
 req.typenames: IKEEXT_CERTIFICATE_CREDENTIAL1
 req.redist: 

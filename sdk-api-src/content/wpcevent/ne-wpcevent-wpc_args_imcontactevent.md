@@ -1,19 +1,17 @@
 ---
 UID: NE:wpcevent.tagWPC_ARGS_IMCONTACTEVENT
 title: WPC_ARGS_IMCONTACTEVENT (wpcevent.h)
-
 description: Indicates information about contacting someone by using an instant messaging application.
 old-location: parcon\wpc_args_imcontactevent.htm
 tech.root: parcon
 ms.assetid: 21277de5-e644-4258-b960-b26526b42d26
-
 ms.date: 12/05/2018
 ms.keywords: WPC_ARGS_IMCONTACTEVENT, WPC_ARGS_IMCONTACTEVENT enumeration, WPC_ARGS_IMCONTACTEVENT_ACCOUNTNAME, WPC_ARGS_IMCONTACTEVENT_APPNAME, WPC_ARGS_IMCONTACTEVENT_APPVERSION, WPC_ARGS_IMCONTACTEVENT_CARGS, WPC_ARGS_IMCONTACTEVENT_NEWID, WPC_ARGS_IMCONTACTEVENT_NEWNAME, WPC_ARGS_IMCONTACTEVENT_OLDID, WPC_ARGS_IMCONTACTEVENT_OLDNAME, WPC_ARGS_IMCONTACTEVENT_REASON, parcon.wpc_args_imcontactevent, wpcevent/WPC_ARGS_IMCONTACTEVENT, wpcevent/WPC_ARGS_IMCONTACTEVENT_ACCOUNTNAME, wpcevent/WPC_ARGS_IMCONTACTEVENT_APPNAME, wpcevent/WPC_ARGS_IMCONTACTEVENT_APPVERSION, wpcevent/WPC_ARGS_IMCONTACTEVENT_CARGS, wpcevent/WPC_ARGS_IMCONTACTEVENT_NEWID, wpcevent/WPC_ARGS_IMCONTACTEVENT_NEWNAME, wpcevent/WPC_ARGS_IMCONTACTEVENT_OLDID, wpcevent/WPC_ARGS_IMCONTACTEVENT_OLDNAME, wpcevent/WPC_ARGS_IMCONTACTEVENT_REASON
 ms.topic: enum
-f1_keywords: 
- - "wpcevent/WPC_ARGS_IMCONTACTEVENT"
+f1_keywords:
+- wpcevent/WPC_ARGS_IMCONTACTEVENT
 dev_langs:
- - c++
+- c++
 req.header: wpcevent.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wpcevent.h
+- Wpcevent.h
 api_name:
- - WPC_ARGS_IMCONTACTEVENT
+- WPC_ARGS_IMCONTACTEVENT
 targetos: Windows
 req.typenames: WPC_ARGS_IMCONTACTEVENT
 req.redist: 

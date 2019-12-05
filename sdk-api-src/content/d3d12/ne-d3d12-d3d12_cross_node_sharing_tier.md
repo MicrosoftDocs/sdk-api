@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_CROSS_NODE_SHARING_TIER
 title: D3D12_CROSS_NODE_SHARING_TIER (d3d12.h)
-
 description: Specifies the level of sharing across nodes of an adapter, such as Tier 1 Emulated, Tier 1, or Tier 2.
 old-location: direct3d12\d3d12_cross_node_sharing_tier.htm
 tech.root: direct3d12
 ms.assetid: 49DAC69D-8134-4D1E-94B6-443978C24073
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_CROSS_NODE_SHARING_TIER, D3D12_CROSS_NODE_SHARING_TIER enumeration, D3D12_CROSS_NODE_SHARING_TIER_1, D3D12_CROSS_NODE_SHARING_TIER_1_EMULATED, D3D12_CROSS_NODE_SHARING_TIER_2, D3D12_CROSS_NODE_SHARING_TIER_NOT_SUPPORTED, d3d12/D3D12_CROSS_NODE_SHARING_TIER, d3d12/D3D12_CROSS_NODE_SHARING_TIER_1, d3d12/D3D12_CROSS_NODE_SHARING_TIER_1_EMULATED, d3d12/D3D12_CROSS_NODE_SHARING_TIER_2, d3d12/D3D12_CROSS_NODE_SHARING_TIER_NOT_SUPPORTED, direct3d12.d3d12_cross_node_sharing_tier
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_CROSS_NODE_SHARING_TIER"
+f1_keywords:
+- d3d12/D3D12_CROSS_NODE_SHARING_TIER
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_CROSS_NODE_SHARING_TIER
+- D3D12_CROSS_NODE_SHARING_TIER
 targetos: Windows
 req.typenames: D3D12_CROSS_NODE_SHARING_TIER
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGroupOpen
 title: PeerGroupOpen function (p2p.h)
-
 description: The PeerGroupOpen function opens a peer group that a peer has created or joined. After a peer group is opened, the peer can register for event notifications.
 old-location: p2p\peergroupopen.htm
 tech.root: P2PSdk
 ms.assetid: cfaf244f-8786-4801-926d-f6c79bfa4275
-
 ms.date: 12/05/2018
 ms.keywords: PeerGroupOpen, PeerGroupOpen function [Peer Networking], p2p.peergroupopen, p2p/PeerGroupOpen
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGroupOpen"
+f1_keywords:
+- p2p/PeerGroupOpen
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerGroupOpen
+- PeerGroupOpen
 targetos: Windows
 req.typenames: 
 req.redist: 

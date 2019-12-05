@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.IEnumNetSharingPublicConnection.Clone
 title: IEnumNetSharingPublicConnection::Clone (netcon.h)
-
 description: The Clone method creates a new enumeration interface from this enumeration.
 old-location: ics\ienumnetsharingpublicconnection_clone.htm
 tech.root: ics
 ms.assetid: 5343acd3-d148-442c-a1d7-226248556f17
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [ICS/ICF], Clone method [ICS/ICF],IEnumNetSharingPublicConnection interface, IEnumNetSharingPublicConnection interface [ICS/ICF],Clone method, IEnumNetSharingPublicConnection.Clone, IEnumNetSharingPublicConnection::Clone, _ics_ienumnetsharingpublicconnection_clone, ics.ienumnetsharingpublicconnection_clone, netcon/IEnumNetSharingPublicConnection::Clone
 ms.topic: method
-f1_keywords: 
- - "netcon/IEnumNetSharingPublicConnection.Clone"
+f1_keywords:
+- netcon/IEnumNetSharingPublicConnection.Clone
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - IEnumNetSharingPublicConnection.Clone
+- IEnumNetSharingPublicConnection.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

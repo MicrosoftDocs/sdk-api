@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetStockObject
 title: GetStockObject function (wingdi.h)
-
 description: The GetStockObject function retrieves a handle to one of the stock pens, brushes, fonts, or palettes.
 old-location: gdi\getstockobject.htm
 tech.root: gdi
 ms.assetid: b14ddc05-7e7b-4fc6-b7e3-efe892df7e21
-
 ms.date: 12/05/2018
 ms.keywords: ANSI_FIXED_FONT, ANSI_VAR_FONT, BLACK_BRUSH, BLACK_PEN, DC_BRUSH, DC_PEN, DEFAULT_GUI_FONT, DEFAULT_PALETTE, DEVICE_DEFAULT_FONT, DKGRAY_BRUSH, GRAY_BRUSH, GetStockObject, GetStockObject function [Windows GDI], HOLLOW_BRUSH, LTGRAY_BRUSH, NULL_BRUSH, NULL_PEN, OEM_FIXED_FONT, SYSTEM_FIXED_FONT, SYSTEM_FONT, WHITE_BRUSH, WHITE_PEN, _win32_GetStockObject, gdi.getstockobject, wingdi/GetStockObject
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetStockObject"
+f1_keywords:
+- wingdi/GetStockObject
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-DC-l1-2-0.dll
- - ext-ms-win-gdi-dc-l1-1-0.dll
- - ext-ms-win-gdi-dc-l1-2-1.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-DC-l1-2-0.dll
+- ext-ms-win-gdi-dc-l1-1-0.dll
+- ext-ms-win-gdi-dc-l1-2-1.dll
+- GDI32Full.dll
 api_name:
- - GetStockObject
+- GetStockObject
 targetos: Windows
 req.typenames: 
 req.redist: 

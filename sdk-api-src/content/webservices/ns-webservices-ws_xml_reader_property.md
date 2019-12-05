@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_XML_READER_PROPERTY
 title: WS_XML_READER_PROPERTY (webservices.h)
-
 description: Specifies a reader specific setting.
 old-location: wsw\ws_xml_reader_property.htm
 tech.root: wsw
 ms.assetid: 8864d679-c321-45bb-b774-f05696d6098e
-
 ms.date: 12/05/2018
 ms.keywords: WS_XML_READER_PROPERTY, WS_XML_READER_PROPERTY structure [Web Services for Windows], webservices/WS_XML_READER_PROPERTY, wsw.ws_xml_reader_property
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_XML_READER_PROPERTY"
+f1_keywords:
+- webservices/WS_XML_READER_PROPERTY
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_XML_READER_PROPERTY
+- WS_XML_READER_PROPERTY
 targetos: Windows
 req.typenames: WS_XML_READER_PROPERTY
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMUINT2.XMUINT2(const XMUINT2 &)
 title: XMUINT2::XMUINT2(const XMUINT2 &) (directxmath.h)
-
 description: A constructor for XMUINT2.
 old-location: 
 tech.root: dxmath
 ms.assetid: 
-
 ms.date: 05/13/2019
 ms.keywords: XMUINT2, XMUINT2 constructor [DirectX Math Support APIs], XMUINT2 constructor [DirectX Math Support APIs],XMUINT2 structure, XMUINT2 structure [DirectX Math Support APIs],XMUINT2 constructor, XMUINT2.XMUINT2, XMUINT2.XMUINT2(), XMUINT2.XMUINT2(const XMUINT2 &), XMUINT2::XMUINT2, XMUINT2::XMUINT2(const XMUINT2 &), dxmath.xmuint2_ctor_1
 ms.topic: method
-f1_keywords: 
- - "directxmath/XMUINT2.XMUINT2"
+f1_keywords:
+- directxmath/XMUINT2.XMUINT2
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMUINT2.XMUINT2
+- XMUINT2.XMUINT2
 targetos: Windows
 req.typenames: 
 req.redist: 

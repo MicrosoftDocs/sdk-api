@@ -1,19 +1,17 @@
 ---
 UID: NF:ndfapi.NdfCreateWinSockIncident
 title: NdfCreateWinSockIncident function (ndfapi.h)
-
 description: Provides access to the Winsock Helper Class provided by Microsoft.
 old-location: ndf\ndfcreatewinsockincident.htm
 tech.root: NDF
 ms.assetid: c4cb2713-b656-47a8-9de7-9d33e864a811
-
 ms.date: 12/05/2018
 ms.keywords: NdfCreateWinSockIncident, NdfCreateWinSockIncident function [NDF], ndf.ndfcreatewinsockincident, ndfapi/NdfCreateWinSockIncident
 ms.topic: function
-f1_keywords: 
- - "ndfapi/NdfCreateWinSockIncident"
+f1_keywords:
+- ndfapi/NdfCreateWinSockIncident
 dev_langs:
- - c++
+- c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ndfapi.lib
 req.dll: Ndfapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ndfapi.dll
+- Ndfapi.dll
 api_name:
- - NdfCreateWinSockIncident
+- NdfCreateWinSockIncident
 targetos: Windows
 req.typenames: 
 req.redist: 

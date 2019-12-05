@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbSeriesDescriptor.GetProgramPattern
 title: IIsdbSeriesDescriptor::GetProgramPattern (dvbsiparser.h)
-
 description: Gets a code that indicates how often a series is programmed from an Integrated Services Digital Broadcasting (ISDB) series descriptor.
 old-location: mstv\iisdbseriesdescriptor_getprogrampattern.htm
 tech.root: mstv
 ms.assetid: ba37c512-bbde-42ad-80fe-9d67f48299b6
-
 ms.date: 12/05/2018
 ms.keywords: GetProgramPattern, GetProgramPattern method [Microsoft TV Technologies], GetProgramPattern method [Microsoft TV Technologies],IIsdbSeriesDescriptor interface, IIsdbSeriesDescriptor interface [Microsoft TV Technologies],GetProgramPattern method, IIsdbSeriesDescriptor.GetProgramPattern, IIsdbSeriesDescriptor::GetProgramPattern, dvbsiparser/IIsdbSeriesDescriptor::GetProgramPattern, mstv.iisdbseriesdescriptor_getprogrampattern
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbSeriesDescriptor.GetProgramPattern"
+f1_keywords:
+- dvbsiparser/IIsdbSeriesDescriptor.GetProgramPattern
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbSeriesDescriptor.GetProgramPattern
+- IIsdbSeriesDescriptor.GetProgramPattern
 targetos: Windows
 req.typenames: 
 req.redist: 

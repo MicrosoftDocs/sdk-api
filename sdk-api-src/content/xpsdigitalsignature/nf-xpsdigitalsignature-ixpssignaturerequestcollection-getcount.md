@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequestCollection.GetCount
 title: IXpsSignatureRequestCollection::GetCount (xpsdigitalsignature.h)
-
 description: Gets the number of IXpsSignatureRequest interface pointers in the collection.
 old-location: xps\ixpssignaturerequestcollection_getcount.htm
 tech.root: printdocs
 ms.assetid: e85d776e-6e26-46fa-bcaa-d99737ec1211
-
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsSignatureRequestCollection interface, IXpsSignatureRequestCollection interface [XPS Documents and Packaging],GetCount method, IXpsSignatureRequestCollection.GetCount, IXpsSignatureRequestCollection::GetCount, xps.ixpssignaturerequestcollection_getcount, xpsdigitalsignature/IXpsSignatureRequestCollection::GetCount
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSignatureRequestCollection.GetCount"
+f1_keywords:
+- xpsdigitalsignature/IXpsSignatureRequestCollection.GetCount
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSignatureRequestCollection.GetCount
+- IXpsSignatureRequestCollection.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

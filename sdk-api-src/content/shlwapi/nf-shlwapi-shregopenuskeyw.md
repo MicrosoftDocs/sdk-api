@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHRegOpenUSKeyW
 title: SHRegOpenUSKeyW function (shlwapi.h)
-
 description: Opens a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegOpenUSKey.htm
 tech.root: shell
 ms.assetid: 756430a9-a495-412e-95c3-a93222bc467a
-
 ms.date: 12/05/2018
 ms.keywords: SHRegOpenUSKey, SHRegOpenUSKey function [Windows Shell], SHRegOpenUSKeyA, SHRegOpenUSKeyW, _win32_SHRegOpenUSKey, shell.SHRegOpenUSKey, shlwapi/SHRegOpenUSKey, shlwapi/SHRegOpenUSKeyA, shlwapi/SHRegOpenUSKeyW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHRegOpenUSKey"
+f1_keywords:
+- shlwapi/SHRegOpenUSKey
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-Registryuserspecific-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-Registryuserspecific-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - SHRegOpenUSKey
- - SHRegOpenUSKeyA
- - SHRegOpenUSKeyW
+- SHRegOpenUSKey
+- SHRegOpenUSKeyA
+- SHRegOpenUSKeyW
 targetos: Windows
 req.typenames: 
 req.redist: 

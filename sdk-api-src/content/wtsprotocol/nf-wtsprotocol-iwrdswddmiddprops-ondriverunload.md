@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWRdsWddmIddProps.OnDriverUnload
 title: IWRdsWddmIddProps::OnDriverUnload (wtsprotocol.h)
-
 description: Termsrv uses this method to tell the protocol stack that PnP unloaded the WDDM ID driver.
 old-location: termserv\iwrdswddmiddprops_ondriverunload.htm
 tech.root: TermServ
 ms.assetid: D61C38FD-0298-4363-8A09-D0C2844C23CA
-
 ms.date: 12/05/2018
 ms.keywords: IWRdsWddmIddProps interface [Remote Desktop Services],OnDriverUnload method, IWRdsWddmIddProps.OnDriverUnload, IWRdsWddmIddProps::OnDriverUnload, OnDriverUnload, OnDriverUnload method [Remote Desktop Services], OnDriverUnload method [Remote Desktop Services],IWRdsWddmIddProps interface, termserv.iwrdswddmiddprops_ondriverunload, wtsprotocol/IWRdsWddmIddProps::OnDriverUnload
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsWddmIddProps.OnDriverUnload"
+f1_keywords:
+- wtsprotocol/IWRdsWddmIddProps.OnDriverUnload
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wtsprotocol.h
+- Wtsprotocol.h
 api_name:
- - IWRdsWddmIddProps.OnDriverUnload
+- IWRdsWddmIddProps.OnDriverUnload
 targetos: Windows
 req.typenames: 
 req.redist: 

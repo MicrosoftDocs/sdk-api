@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IInstallationResult.get_HResult
 title: IInstallationResult::get_HResult (wuapi.h)
-
 description: Gets the HRESULT of the exception, if any, that is raised during the installation.
 old-location: wua\iinstallationresult_hresult.htm
 tech.root: Wua_Sdk
 ms.assetid: 75178661-3b21-4d21-971c-93362a2cc287
-
 ms.date: 12/05/2018
 ms.keywords: HResult property [Windows Update Agent], HResult property [Windows Update Agent],IInstallationResult interface, IInstallationResult interface [Windows Update Agent],HResult property, IInstallationResult.HResult, IInstallationResult.get_HResult, IInstallationResult::HResult, IInstallationResult::get_HResult, get_HResult, wua.iinstallationresult_hresult, wuapi/IInstallationResult::HResult, wuapi/IInstallationResult::get_HResult
 ms.topic: method
-f1_keywords: 
- - "wuapi/IInstallationResult.HResult"
+f1_keywords:
+- wuapi/IInstallationResult.HResult
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IInstallationResult.HResult
- - IInstallationResult.get_HResult
+- IInstallationResult.HResult
+- IInstallationResult.get_HResult
 targetos: Windows
 req.typenames: 
 req.redist: 

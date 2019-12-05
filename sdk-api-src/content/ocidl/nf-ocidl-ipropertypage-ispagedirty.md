@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IPropertyPage.IsPageDirty
 title: IPropertyPage::IsPageDirty (ocidl.h)
-
 description: Indicates whether the property page has changed since it was activated or since the most recent call to Apply.
 old-location: com\ipropertypage_ispagedirty.htm
 tech.root: com
 ms.assetid: 6a19a659-8fab-4218-bc5a-c53860f578f6
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyPage interface [COM],IsPageDirty method, IPropertyPage.IsPageDirty, IPropertyPage::IsPageDirty, IsPageDirty, IsPageDirty method [COM], IsPageDirty method [COM],IPropertyPage interface, _ctrl_ipropertypage_ispagedirty, com.ipropertypage_ispagedirty, ocidl/IPropertyPage::IsPageDirty
 ms.topic: method
-f1_keywords: 
- - "ocidl/IPropertyPage.IsPageDirty"
+f1_keywords:
+- ocidl/IPropertyPage.IsPageDirty
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPropertyPage.IsPageDirty
+- IPropertyPage.IsPageDirty
 targetos: Windows
 req.typenames: 
 req.redist: 

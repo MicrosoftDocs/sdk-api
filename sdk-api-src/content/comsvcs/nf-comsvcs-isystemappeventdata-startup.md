@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ISystemAppEventData.Startup
 title: ISystemAppEventData::Startup (comsvcs.h)
-
 description: Invoked when a COM+ application instance is created.
 old-location: cos\isystemappeventdata_startup.htm
 tech.root: cossdk
 ms.assetid: 89a5adc2-ee65-477d-9247-f075c63b43c7
-
 ms.date: 12/05/2018
 ms.keywords: ISystemAppEventData interface [COM+],Startup method, ISystemAppEventData.Startup, ISystemAppEventData::Startup, Startup, Startup method [COM+], Startup method [COM+],ISystemAppEventData interface, _dtc_ISystemAppEventData_Startup, comsvcs/ISystemAppEventData::Startup, cos.isystemappeventdata_startup
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ISystemAppEventData.Startup"
+f1_keywords:
+- comsvcs/ISystemAppEventData.Startup
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISystemAppEventData.Startup
+- ISystemAppEventData.Startup
 targetos: Windows
 req.typenames: 
 req.redist: 

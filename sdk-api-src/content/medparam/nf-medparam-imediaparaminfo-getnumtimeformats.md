@@ -1,19 +1,17 @@
 ---
 UID: NF:medparam.IMediaParamInfo.GetNumTimeFormats
 title: IMediaParamInfo::GetNumTimeFormats (medparam.h)
-
 description: The GetNumTimeFormats method retrieves the number of time formats that the object supports.
 old-location: dshow\imediaparaminfo_getnumtimeformats.htm
 tech.root: DirectShow
 ms.assetid: 5c398554-af2b-4e7d-8f5c-1c361535e7c6
-
 ms.date: 12/05/2018
 ms.keywords: GetNumTimeFormats, GetNumTimeFormats method [DirectShow], GetNumTimeFormats method [DirectShow],IMediaParamInfo interface, IMediaParamInfo interface [DirectShow],GetNumTimeFormats method, IMediaParamInfo.GetNumTimeFormats, IMediaParamInfo::GetNumTimeFormats, IMediaParamInfoGetNumTimeFormats, dshow.imediaparaminfo_getnumtimeformats, medparam/IMediaParamInfo::GetNumTimeFormats
 ms.topic: method
-f1_keywords: 
- - "medparam/IMediaParamInfo.GetNumTimeFormats"
+f1_keywords:
+- medparam/IMediaParamInfo.GetNumTimeFormats
 dev_langs:
- - c++
+- c++
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IMediaParamInfo.GetNumTimeFormats
+- IMediaParamInfo.GetNumTimeFormats
 targetos: Windows
 req.typenames: 
 req.redist: 

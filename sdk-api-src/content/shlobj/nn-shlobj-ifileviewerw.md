@@ -1,19 +1,17 @@
 ---
 UID: NN:shlobj.IFileViewerW
 title: IFileViewerW
-
 description: Exposes methods that designate an interface that allows a registered file viewer to be notified when it must show or print a file.
 old-location: 
 tech.root: shell
 ms.assetid: 659f6ff8-1797-4f66-b0cc-ca2b9ee15a3a
-
 ms.date: 01/30/19
 ms.keywords: IFileViewerW
 ms.topic: language-reference
-f1_keywords: 
- - "shlobj/IFileViewerW"
+f1_keywords:
+- shlobj/IFileViewerW
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface
@@ -29,13 +27,13 @@ req.target-min-winversvr:
 req.target-type: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - shlobj.h
+- shlobj.h
 api_name:
- - IFileViewerW
+- IFileViewerW
 ---
 
 ## -description

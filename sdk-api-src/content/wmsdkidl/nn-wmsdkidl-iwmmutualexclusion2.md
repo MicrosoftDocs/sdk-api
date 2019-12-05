@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMMutualExclusion2
 title: IWMMutualExclusion2 (wmsdkidl.h)
-
 description: The IWMMutualExclusion2 interface provides advanced configuration features for mutual exclusion objects.This interface supports both multiple languages and advanced mutual exclusion.An IWMMutualExclusion2 interface is created for each mutual exclusion object created. To retrieve a pointer to an IWMMutualExclusion2 interface, call the QueryInterface method of the IWMMutualExclusion interface returned by IWMProfile::CreateNewMutualExclusion.
 old-location: wmformat\iwmmutualexclusion2.htm
 tech.root: wmformat
 ms.assetid: 4a1f468c-2ba5-48a1-b56f-8b62aacf1ccf
-
 ms.date: 12/05/2018
 ms.keywords: IWMMutualExclusion2, IWMMutualExclusion2 interface [windows Media Format], IWMMutualExclusion2 interface [windows Media Format],described, IWMMutualExclusion2Interface, wmformat.iwmmutualexclusion2, wmsdkidl/IWMMutualExclusion2
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMMutualExclusion2"
+f1_keywords:
+- wmsdkidl/IWMMutualExclusion2
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMMutualExclusion2
+- IWMMutualExclusion2
 targetos: Windows
 req.typenames: 
 req.redist: 

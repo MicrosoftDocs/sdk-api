@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._DEVICE_WRITE_AGGREGATION_DESCRIPTOR
 title: DEVICE_WRITE_AGGREGATION_DESCRIPTOR
-
 description: Reserved for system use.
 old-location: fs\device_write_aggregation_descriptor.htm
 tech.root: FileIO
 ms.assetid: 124f05bc-6c3f-4778-9cc0-5a55891cb141
-
 ms.date: 12/05/2018
-ms.keywords: "*PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, DEVICE_WRITE_AGGREGATION_DESCRIPTOR, DEVICE_WRITE_AGGREGATION_DESCRIPTOR structure [Files], PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, PDEVICE_WRITE_AGGREGATION_DESCRIPTOR structure pointer [Files], fs.device_write_aggregation_descriptor, winioctl/DEVICE_WRITE_AGGREGATION_DESCRIPTOR, winioctl/PDEVICE_WRITE_AGGREGATION_DESCRIPTOR"
+ms.keywords: '*PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, DEVICE_WRITE_AGGREGATION_DESCRIPTOR, DEVICE_WRITE_AGGREGATION_DESCRIPTOR structure [Files], PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, PDEVICE_WRITE_AGGREGATION_DESCRIPTOR structure pointer [Files], fs.device_write_aggregation_descriptor, winioctl/DEVICE_WRITE_AGGREGATION_DESCRIPTOR, winioctl/PDEVICE_WRITE_AGGREGATION_DESCRIPTOR'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/DEVICE_WRITE_AGGREGATION_DESCRIPTOR"
+f1_keywords:
+- winioctl/DEVICE_WRITE_AGGREGATION_DESCRIPTOR
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - DEVICE_WRITE_AGGREGATION_DESCRIPTOR
+- DEVICE_WRITE_AGGREGATION_DESCRIPTOR
 targetos: Windows
 req.typenames: DEVICE_WRITE_AGGREGATION_DESCRIPTOR, *PDEVICE_WRITE_AGGREGATION_DESCRIPTOR
 req.redist: 

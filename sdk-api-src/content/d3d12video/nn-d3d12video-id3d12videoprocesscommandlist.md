@@ -1,39 +1,37 @@
 ---
 UID: NN:d3d12video.ID3D12VideoProcessCommandList
 title: ID3D12VideoProcessCommandList
-
-description: Encapsulates a list of graphics commands for video processing. 
+description: Encapsulates a list of graphics commands for video processing.
 tech.root: mf
 ms.assetid: 6dab346e-f838-4881-b758-80cad037511b
-
-ms.date: 05/28/2019 
+ms.date: 05/28/2019
 ms.topic: interface
 f1_keywords:
- - ID3D12VideoProcessCommandList
+- ID3D12VideoProcessCommandList
 dev_langs:
- - c++
+- c++
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
- - apiref
-api_type: 
- - COM
-api_location: 
- - d3d12video.h
-api_name: 
- - ID3D12VideoProcessCommandList
+topic_type:
+- apiref
+api_type:
+- COM
+api_location:
+- d3d12video.h
+api_name:
+- ID3D12VideoProcessCommandList
 targetos: Windows
 ---
 

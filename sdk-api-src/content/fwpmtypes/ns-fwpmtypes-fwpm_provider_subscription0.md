@@ -1,19 +1,17 @@
 ---
 UID: NS:fwpmtypes.FWPM_PROVIDER_SUBSCRIPTION0_
 title: FWPM_PROVIDER_SUBSCRIPTION0 (fwpmtypes.h)
-
 description: Used to subscribe for change notifications.
 old-location: fwp\fwpm_provider_subscription0_struct.htm
 tech.root: fwp
 ms.assetid: 651d9c40-50d4-407d-9d2a-4b7ad308150c
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_PROVIDER_SUBSCRIPTION0, FWPM_PROVIDER_SUBSCRIPTION0 structure [Filtering], FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_ADD, FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_DELETE, fwp.fwpm_provider_subscription0_struct, fwpmtypes/FWPM_PROVIDER_SUBSCRIPTION0
 ms.topic: struct
-f1_keywords: 
- - "fwpmtypes/FWPM_PROVIDER_SUBSCRIPTION0"
+f1_keywords:
+- fwpmtypes/FWPM_PROVIDER_SUBSCRIPTION0
 dev_langs:
- - c++
+- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwpmtypes.h
+- Fwpmtypes.h
 api_name:
- - FWPM_PROVIDER_SUBSCRIPTION0
+- FWPM_PROVIDER_SUBSCRIPTION0
 targetos: Windows
 req.typenames: FWPM_PROVIDER_SUBSCRIPTION0
 req.redist: 

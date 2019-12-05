@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidStreamBufferRecordingControl
 title: IMSVidStreamBufferRecordingControl (segment.h)
-
 description: The IMSVidStreamBufferRecordingControl interface enables an application to manage a stream buffer recording object through the Video Control.
 old-location: mstv\imsvidstreambufferrecordingcontrol.htm
 tech.root: mstv
 ms.assetid: a61414dc-a9a0-4c65-8f5a-eaabc79783e3
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferRecordingControl, IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies], IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies],described, IMSVidStreamBufferRecordingControlInterface, mstv.imsvidstreambufferrecordingcontrol, segment/IMSVidStreamBufferRecordingControl
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidStreamBufferRecordingControl"
+f1_keywords:
+- segment/IMSVidStreamBufferRecordingControl
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferRecordingControl
+- IMSVidStreamBufferRecordingControl
 targetos: Windows
 req.typenames: 
 req.redist: 

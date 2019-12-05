@@ -1,19 +1,17 @@
 ---
 UID: NF:filehc.SetDotStuffState
 title: SetDotStuffState function (filehc.h)
-
 description: Enables dot stuffing to be set in an FIO_CONTEXT structure.
 old-location: winprog\_setdotstuffstate.htm
 tech.root: DevNotes
 ms.assetid: 3acfaf74-ec36-4afb-b358-425bd5062153
-
 ms.date: 12/05/2018
 ms.keywords: SetDotStuffState, SetDotStuffState function [Windows API], filehc/SetDotStuffState, winprog._setdotstuffstate
 ms.topic: function
-f1_keywords: 
- - "filehc/SetDotStuffState"
+f1_keywords:
+- filehc/SetDotStuffState
 dev_langs:
- - c++
+- c++
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fcachdll.lib
 req.dll: Fcachdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fcachdll.dll
+- Fcachdll.dll
 api_name:
- - SetDotStuffState
+- SetDotStuffState
 targetos: Windows
 req.typenames: 
 req.redist: 

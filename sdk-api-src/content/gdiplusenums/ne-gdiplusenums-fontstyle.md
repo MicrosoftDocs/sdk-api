@@ -1,19 +1,17 @@
 ---
 UID: NE:gdiplusenums.FontStyle
 title: FontStyle (gdiplusenums.h)
-
 description: The FontStyle enumeration specifies the style of the typeface of a font. Styles can be combined.
 old-location: gdiplus\_gdiplus_ENUM_FontStyle.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\fontstyle.htm
-
 ms.date: 12/05/2018
 ms.keywords: FontStyle, FontStyle enumeration [GDI+], FontStyleBold, FontStyleBoldItalic, FontStyleItalic, FontStyleRegular, FontStyleStrikeout, FontStyleUnderline, _gdiplus_ENUM_FontStyle, gdiplus._gdiplus_ENUM_FontStyle, gdiplusenums/FontStyle, gdiplusenums/FontStyleBold, gdiplusenums/FontStyleBoldItalic, gdiplusenums/FontStyleItalic, gdiplusenums/FontStyleRegular, gdiplusenums/FontStyleStrikeout, gdiplusenums/FontStyleUnderline
 ms.topic: enum
-f1_keywords: 
- - "gdiplusenums/FontStyle"
+f1_keywords:
+- gdiplusenums/FontStyle
 dev_langs:
- - c++
+- c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdiplusenums.h
+- Gdiplusenums.h
 api_name:
- - FontStyle
+- FontStyle
 targetos: Windows
 req.typenames: 
 req.redist: 

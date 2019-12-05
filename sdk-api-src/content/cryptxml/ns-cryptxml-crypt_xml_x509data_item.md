@@ -1,19 +1,17 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_X509DATA_ITEM
 title: CRYPT_XML_X509DATA_ITEM (cryptxml.h)
-
 description: Represents X.509 data that is to be encoded in an X509Data named element.
 old-location: security\crypt_xml_x509data_item.htm
 tech.root: SecCrypto
 ms.assetid: 118371c7-9b75-4330-9897-bd352b072fa4
-
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_X509DATA_ITEM, CRYPT_XML_X509DATA_ITEM structure [Security], CRYPT_XML_X509DATA_TYPE_CERTIFICATE, CRYPT_XML_X509DATA_TYPE_CRL, CRYPT_XML_X509DATA_TYPE_CUSTOM, CRYPT_XML_X509DATA_TYPE_ISSUER_SERIAL, CRYPT_XML_X509DATA_TYPE_SKI, CRYPT_XML_X509DATA_TYPE_SUBJECT_NAME, cryptxml/CRYPT_XML_X509DATA_ITEM, security.crypt_xml_x509data_item
 ms.topic: struct
 f1_keywords:
 - cryptxml/CRYPT_XML_X509DATA_ITEM
 dev_langs:
- - c++
+- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

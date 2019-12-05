@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.IRtwqAsyncCallback.GetParameters
 title: IRtwqAsyncCallback::GetParameters (rtworkq.h)
-
 description: Provides configuration information to the dispatching thread for a callback.
 old-location: base\irtwqasynccallback_getparameters.htm
 tech.root: ProcThread
 ms.assetid: C6569BC4-E722-418E-B469-B20877F44648
-
 ms.date: 12/05/2018
 ms.keywords: GetParameters, GetParameters method, GetParameters method,IRtwqAsyncCallback interface, IRtwqAsyncCallback interface,GetParameters method, IRtwqAsyncCallback.GetParameters, IRtwqAsyncCallback::GetParameters, Zero, base.irtwqasynccallback_getparameters, rtworkq/IRtwqAsyncCallback::GetParameters
 ms.topic: method
-f1_keywords: 
- - "rtworkq/IRtwqAsyncCallback.GetParameters"
+f1_keywords:
+- rtworkq/IRtwqAsyncCallback.GetParameters
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - IRtwqAsyncCallback.GetParameters
+- IRtwqAsyncCallback.GetParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateGeometry
 title: IXpsOMObjectFactory::CreateGeometry (xpsobjectmodel.h)
-
 description: Creates an IXpsOMGeometry interface, which specifies the shape of a path or of a clipping region.
 old-location: xps\ixpsomobjectfactory_creategeometry.htm
 tech.root: printdocs
 ms.assetid: e6933542-eb88-4936-a1d7-8380afc61557
-
 ms.date: 12/05/2018
 ms.keywords: CreateGeometry, CreateGeometry method [XPS Documents and Packaging], CreateGeometry method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateGeometry method, IXpsOMObjectFactory.CreateGeometry, IXpsOMObjectFactory::CreateGeometry, xps.ixpsomobjectfactory_creategeometry, xpsobjectmodel/IXpsOMObjectFactory::CreateGeometry
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMObjectFactory.CreateGeometry"
+f1_keywords:
+- xpsobjectmodel/IXpsOMObjectFactory.CreateGeometry
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreateGeometry
+- IXpsOMObjectFactory.CreateGeometry
 targetos: Windows
 req.typenames: 
 req.redist: 

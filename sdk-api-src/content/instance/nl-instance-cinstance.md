@@ -1,19 +1,17 @@
 ---
 UID: NL:instance.CInstance
 title: CInstance (instance.h)
-
 description: The CInstance class is used to retrieve and update the values of properties defined for the instances supported by the WMI Provider Framework. The CInstance class also provides access to the provider framework's implementation of the CInstance interface.
 old-location: wmi\cinstance.htm
 tech.root: WmiSdk
 ms.assetid: aed29340-eb64-437d-b7e8-4f0e49c8288a
-
 ms.date: 12/05/2018
 ms.keywords: CInstance, CInstance class [Windows Management Instrumentation], CInstance class [Windows Management Instrumentation],described, _hmm_cinstance, instance/CInstance, wmi.cinstance
 ms.topic: class
-f1_keywords: 
- - "instance/CInstance"
+f1_keywords:
+- instance/CInstance
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance
+- CInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

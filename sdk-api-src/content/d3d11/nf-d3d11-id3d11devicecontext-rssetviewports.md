@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.RSSetViewports
 title: ID3D11DeviceContext::RSSetViewports (d3d11.h)
-
 description: Bind an array of viewports to the rasterizer stage of the pipeline.
 old-location: direct3d11\id3d11devicecontext_rssetviewports.htm
 tech.root: direct3d11
 ms.assetid: 7326e9a8-edfa-4e5a-a29e-fe7c54a055f5
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11DeviceContext interface [Direct3D 11],RSSetViewports method, ID3D11DeviceContext.RSSetViewports, ID3D11DeviceContext::RSSetViewports, RSSetViewports, RSSetViewports method [Direct3D 11], RSSetViewports method [Direct3D 11],ID3D11DeviceContext interface, cdf57cc3-a89c-db1a-5bd9-f1eec144bfe0, d3d11/ID3D11DeviceContext::RSSetViewports, direct3d11.id3d11devicecontext_rssetviewports
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.RSSetViewports"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.RSSetViewports
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.RSSetViewports
+- ID3D11DeviceContext.RSSetViewports
 targetos: Windows
 req.typenames: 
 req.redist: 

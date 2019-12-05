@@ -1,19 +1,17 @@
 ---
 UID: NF:amstream.IAMMediaTypeStream.SetFormat
 title: IAMMediaTypeStream::SetFormat (amstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. The SetFormat method sets the format of the stream.
 old-location: dshow\iammediatypestream_setformat.htm
 tech.root: DirectShow
 ms.assetid: 12ac4490-c12c-428a-939f-adf25a77b9e4
-
 ms.date: 12/05/2018
 ms.keywords: IAMMediaTypeStream interface [DirectShow],SetFormat method, IAMMediaTypeStream.SetFormat, IAMMediaTypeStream::SetFormat, IAMMediaTypeStreamSetFormat, SetFormat, SetFormat method [DirectShow], SetFormat method [DirectShow],IAMMediaTypeStream interface, amstream/IAMMediaTypeStream::SetFormat, dshow.iammediatypestream_setformat
 ms.topic: method
-f1_keywords: 
- - "amstream/IAMMediaTypeStream.SetFormat"
+f1_keywords:
+- amstream/IAMMediaTypeStream.SetFormat
 dev_langs:
- - c++
+- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - amstream.h
+- amstream.h
 api_name:
- - IAMMediaTypeStream.SetFormat
+- IAMMediaTypeStream.SetFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

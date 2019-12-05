@@ -1,19 +1,17 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.OpenDSGPO
 title: IGroupPolicyObject::OpenDSGPO (gpedit.h)
-
 description: The OpenDSGPO method opens the specified GPO and optionally loads the registry information.
 old-location: policy\igrouppolicyobject_opendsgpo.htm
 tech.root: Policy
 ms.assetid: 362b6229-d73f-424f-b906-05ed43e5e034
-
 ms.date: 12/05/2018
 ms.keywords: GPO_OPEN_LOAD_REGISTRY, GPO_OPEN_READ_ONLY, IGroupPolicyObject interface [Group Policy],OpenDSGPO method, IGroupPolicyObject.OpenDSGPO, IGroupPolicyObject::OpenDSGPO, OpenDSGPO, OpenDSGPO method [Group Policy], OpenDSGPO method [Group Policy],IGroupPolicyObject interface, _win32_igrouppolicyobject_opendsgpo, gpedit/IGroupPolicyObject::OpenDSGPO, policy.igrouppolicyobject_opendsgpo
 ms.topic: method
-f1_keywords: 
- - "gpedit/IGroupPolicyObject.OpenDSGPO"
+f1_keywords:
+- gpedit/IGroupPolicyObject.OpenDSGPO
 dev_langs:
- - c++
+- c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpedit.dll
+- Gpedit.dll
 api_name:
- - IGroupPolicyObject.OpenDSGPO
+- IGroupPolicyObject.OpenDSGPO
 targetos: Windows
 req.typenames: 
 req.redist: 

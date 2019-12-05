@@ -1,19 +1,17 @@
 ---
 UID: NE:vss._VSS_RESTORE_TYPE
 title: VSS_RESTORE_TYPE (vss.h)
-
 description: Used by a requester to indicate the type of restore operation it is about to perform.
 old-location: base\vss_restore_type.htm
 tech.root: VSS
 ms.assetid: 4649aee5-da45-4602-a768-eff228a8d726
-
 ms.date: 12/05/2018
-ms.keywords: "*PVSS_RESTORE_TYPE, PVSS_RESTORE_TYPE, PVSS_RESTORE_TYPE enumeration pointer [VSS], VSS_RESTORE_TYPE, VSS_RESTORE_TYPE enumeration [VSS], VSS_RTYPE_BY_COPY, VSS_RTYPE_IMPORT, VSS_RTYPE_OTHER, VSS_RTYPE_UNDEFINED, _win32_vss_restore_type, base.vss_restore_type, vss/PVSS_RESTORE_TYPE, vss/VSS_RESTORE_TYPE, vss/VSS_RTYPE_BY_COPY, vss/VSS_RTYPE_IMPORT, vss/VSS_RTYPE_OTHER, vss/VSS_RTYPE_UNDEFINED"
+ms.keywords: '*PVSS_RESTORE_TYPE, PVSS_RESTORE_TYPE, PVSS_RESTORE_TYPE enumeration pointer [VSS], VSS_RESTORE_TYPE, VSS_RESTORE_TYPE enumeration [VSS], VSS_RTYPE_BY_COPY, VSS_RTYPE_IMPORT, VSS_RTYPE_OTHER, VSS_RTYPE_UNDEFINED, _win32_vss_restore_type, base.vss_restore_type, vss/PVSS_RESTORE_TYPE, vss/VSS_RESTORE_TYPE, vss/VSS_RTYPE_BY_COPY, vss/VSS_RTYPE_IMPORT, vss/VSS_RTYPE_OTHER, vss/VSS_RTYPE_UNDEFINED'
 ms.topic: enum
-f1_keywords: 
- - "vss/VSS_RESTORE_TYPE"
+f1_keywords:
+- vss/VSS_RESTORE_TYPE
 dev_langs:
- - c++
+- c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vss.h
+- Vss.h
 api_name:
- - VSS_RESTORE_TYPE
+- VSS_RESTORE_TYPE
 targetos: Windows
 req.typenames: VSS_RESTORE_TYPE, *PVSS_RESTORE_TYPE
 req.redist: 

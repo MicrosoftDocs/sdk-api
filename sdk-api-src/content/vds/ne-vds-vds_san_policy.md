@@ -1,19 +1,17 @@
 ---
 UID: NE:vds._VDS_SAN_POLICY
 title: VDS_SAN_POLICY (vds.h)
-
 description: Defines the set of valid disk SAN policy flags.
 old-location: base\vds_san_policy.htm
 tech.root: VDS
 ms.assetid: 2da99388-8ee6-4e6b-98dc-52f12290c4dc
-
 ms.date: 12/05/2018
 ms.keywords: VDS_SAN_POLICY, VDS_SAN_POLICY enumeration, VDS_SP_OFFLINE, VDS_SP_OFFLINE_SHARED, VDS_SP_ONLINE, VDS_SP_UNKNOWN, base.vds_san_policy, vds/VDS_SAN_POLICY, vds/VDS_SP_OFFLINE, vds/VDS_SP_OFFLINE_SHARED, vds/VDS_SP_ONLINE, vds/VDS_SP_UNKNOWN
 ms.topic: enum
-f1_keywords: 
- - "vds/VDS_SAN_POLICY"
+f1_keywords:
+- vds/VDS_SAN_POLICY
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
+- Vds.h
 api_name:
- - VDS_SAN_POLICY
+- VDS_SAN_POLICY
 targetos: Windows
 req.typenames: VDS_SAN_POLICY
 req.redist: 

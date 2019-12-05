@@ -1,19 +1,17 @@
 ---
 UID: NF:sbe.IStreamBufferMediaSeeking2.SetRateEx
 title: IStreamBufferMediaSeeking2::SetRateEx (sbe.h)
-
-description: "."
+description: .
 old-location: mstv\istreambuffermediaseeking2_setrateex.htm
 tech.root: mstv
 ms.assetid: 37b80d0d-561d-4ef3-b0ad-70fb43530026
-
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferMediaSeeking2 interface [Microsoft TV Technologies],SetRateEx method, IStreamBufferMediaSeeking2.SetRateEx, IStreamBufferMediaSeeking2::SetRateEx, IStreamBufferMediaSeeking2SetRateEx, SetRateEx, SetRateEx method [Microsoft TV Technologies], SetRateEx method [Microsoft TV Technologies],IStreamBufferMediaSeeking2 interface, mstv.istreambuffermediaseeking2_setrateex, sbe/IStreamBufferMediaSeeking2::SetRateEx
 ms.topic: method
-f1_keywords: 
- - "sbe/IStreamBufferMediaSeeking2.SetRateEx"
+f1_keywords:
+- sbe/IStreamBufferMediaSeeking2.SetRateEx
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sbe.h
+- Sbe.h
 api_name:
- - IStreamBufferMediaSeeking2.SetRateEx
+- IStreamBufferMediaSeeking2.SetRateEx
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:bits3_0.IBitsPeer.IsAuthenticated
 title: IBitsPeer::IsAuthenticated (bits3_0.h)
-
 description: Determines whether the peer is authenticated.
 old-location: bits\ibitspeer_isauthenticated.htm
 tech.root: Bits
 ms.assetid: 64718331-32a9-40ba-90f2-9dd9d8fea3e4
-
 ms.date: 12/05/2018
 ms.keywords: IBitsPeer interface [BITS],IsAuthenticated method, IBitsPeer.IsAuthenticated, IBitsPeer::IsAuthenticated, IsAuthenticated, IsAuthenticated method [BITS], IsAuthenticated method [BITS],IBitsPeer interface, bits.ibitspeer_isauthenticated, bits3_0/IBitsPeer::IsAuthenticated
 ms.topic: method
-f1_keywords: 
- - "bits3_0/IBitsPeer.IsAuthenticated"
+f1_keywords:
+- bits3_0/IBitsPeer.IsAuthenticated
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBitsPeer.IsAuthenticated
+- IBitsPeer.IsAuthenticated
 targetos: Windows
 req.typenames: 
 req.redist: 

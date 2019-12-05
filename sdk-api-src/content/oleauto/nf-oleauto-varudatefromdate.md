@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarUdateFromDate
 title: VarUdateFromDate function (oleauto.h)
-
 description: Converts a time and date converted from variant format to MS-DOS format.
 old-location: automat\varudatefromdate.htm
 tech.root: automat
 ms.assetid: 59cd5573-db87-48ac-bc8e-7108b9a3b509
-
 ms.date: 12/05/2018
 ms.keywords: VarUdateFromDate, VarUdateFromDate function [Automation], _oa96_VarUdateFromDate, automat.varudatefromdate, oleauto/VarUdateFromDate
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarUdateFromDate"
+f1_keywords:
+- oleauto/VarUdateFromDate
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarUdateFromDate
+- VarUdateFromDate
 targetos: Windows
 req.typenames: 
 req.redist: 

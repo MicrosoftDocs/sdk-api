@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoder.GetEncoderInfo
 title: IWICBitmapEncoder::GetEncoderInfo (wincodec.h)
-
 description: Retrieves an IWICBitmapEncoderInfo for the encoder.
 old-location: wic\_wic_codec_iwicbitmapencoder_getencoderinfo.htm
 tech.root: wic
 ms.assetid: af723a68-89c8-4d0c-88ef-cda4abaad6f7
-
 ms.date: 12/05/2018
 ms.keywords: GetEncoderInfo, GetEncoderInfo method [Windows Imaging Component], GetEncoderInfo method [Windows Imaging Component],IWICBitmapEncoder interface, IWICBitmapEncoder interface [Windows Imaging Component],GetEncoderInfo method, IWICBitmapEncoder.GetEncoderInfo, IWICBitmapEncoder::GetEncoderInfo, _wic_codec_iwicbitmapencoder_getencoderinfo, wic._wic_codec_iwicbitmapencoder_getencoderinfo, wincodec/IWICBitmapEncoder::GetEncoderInfo
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapEncoder.GetEncoderInfo"
+f1_keywords:
+- wincodec/IWICBitmapEncoder.GetEncoderInfo
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapEncoder.GetEncoderInfo
+- IWICBitmapEncoder.GetEncoderInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

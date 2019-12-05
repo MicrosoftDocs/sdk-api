@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationManagerEventHandler2.OnManagerStatusChanged
 title: IUIAnimationManagerEventHandler2::OnManagerStatusChanged (uianimation.h)
-
 description: Handles status changes to an animation manager.
 old-location: uianimation\iuianimationmanagereventhandler2_onmanagerstatuschanged.htm
 tech.root: UIAnimation
 ms.assetid: 398A52B3-E7FA-466E-BCED-0A6E91633CF7
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManagerEventHandler2 interface [Windows Animation],OnManagerStatusChanged method, IUIAnimationManagerEventHandler2.OnManagerStatusChanged, IUIAnimationManagerEventHandler2::OnManagerStatusChanged, OnManagerStatusChanged, OnManagerStatusChanged method [Windows Animation], OnManagerStatusChanged method [Windows Animation],IUIAnimationManagerEventHandler2 interface, uianimation.iuianimationmanagereventhandler2_onmanagerstatuschanged, uianimation/IUIAnimationManagerEventHandler2::OnManagerStatusChanged
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationManagerEventHandler2.OnManagerStatusChanged"
+f1_keywords:
+- uianimation/IUIAnimationManagerEventHandler2.OnManagerStatusChanged
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationManagerEventHandler2.OnManagerStatusChanged
+- IUIAnimationManagerEventHandler2.OnManagerStatusChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

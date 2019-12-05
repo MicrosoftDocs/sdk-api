@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.GetAllocateForStream
 title: IWMReaderAdvanced::GetAllocateForStream (wmsdkidl.h)
-
 description: The GetAllocateForStream method ascertains whether the reader is configured to use IWMReaderCallbackAdvanced to allocate stream samples delivered by the IWMReaderCallbackAdvanced::OnStreamSample callback.
 old-location: wmformat\iwmreaderadvanced_getallocateforstream.htm
 tech.root: wmformat
 ms.assetid: 816f13b1-9856-482d-b5b1-4aaf5c61c230
-
 ms.date: 12/05/2018
 ms.keywords: GetAllocateForStream, GetAllocateForStream method [windows Media Format], GetAllocateForStream method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetAllocateForStream method, IWMReaderAdvanced.GetAllocateForStream, IWMReaderAdvanced::GetAllocateForStream, IWMReaderAdvancedGetAllocateForStream, wmformat.iwmreaderadvanced_getallocateforstream, wmsdkidl/IWMReaderAdvanced::GetAllocateForStream
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced.GetAllocateForStream"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced.GetAllocateForStream
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced.GetAllocateForStream
+- IWMReaderAdvanced.GetAllocateForStream
 targetos: Windows
 req.typenames: 
 req.redist: 

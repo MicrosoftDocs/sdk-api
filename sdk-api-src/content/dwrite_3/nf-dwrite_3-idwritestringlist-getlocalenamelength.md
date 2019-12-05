@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteStringList.GetLocaleNameLength
 title: IDWriteStringList::GetLocaleNameLength (dwrite_3.h)
-
 description: Gets the length in characters (not including the null terminator) of the locale name with the specified index.
 old-location: directwrite\idwritestringlist_getlocalenamelength.htm
 tech.root: DirectWrite
 ms.assetid: AB3CDFB6-8B3E-47B1-BB19-C22E0D8D2D5C
-
 ms.date: 12/05/2018
 ms.keywords: GetLocaleNameLength, GetLocaleNameLength method [Direct Write], GetLocaleNameLength method [Direct Write],IDWriteStringList interface, IDWriteStringList interface [Direct Write],GetLocaleNameLength method, IDWriteStringList.GetLocaleNameLength, IDWriteStringList::GetLocaleNameLength, directwrite.idwritestringlist_getlocalenamelength, dwrite_3/IDWriteStringList::GetLocaleNameLength
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteStringList.GetLocaleNameLength"
+f1_keywords:
+- dwrite_3/IDWriteStringList.GetLocaleNameLength
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteStringList.GetLocaleNameLength
+- IDWriteStringList.GetLocaleNameLength
 targetos: Windows
 req.typenames: 
 req.redist: 

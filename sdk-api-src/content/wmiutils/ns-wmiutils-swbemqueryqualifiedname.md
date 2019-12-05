@@ -1,19 +1,17 @@
 ---
 UID: NS:wmiutils.tag_SWbemQueryQualifiedName
 title: SWbemQueryQualifiedName (wmiutils.h)
-
 description: The SWbemQueryQualifiedName structure stores property names for the IWbemQuery::GetAnalysis method.
 old-location: wmi\swbemqueryqualifiedname.htm
 tech.root: WmiSdk
 ms.assetid: ce8031a1-b30f-4ff6-90d8-42e46e1b6d89
-
 ms.date: 12/05/2018
 ms.keywords: SWbemQueryQualifiedName, SWbemQueryQualifiedName structure [Windows Management Instrumentation], wmi.swbemqueryqualifiedname, wmiutils/SWbemQueryQualifiedName
 ms.topic: struct
-f1_keywords: 
- - "wmiutils/SWbemQueryQualifiedName"
+f1_keywords:
+- wmiutils/SWbemQueryQualifiedName
 dev_langs:
- - c++
+- c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmiutils.h
+- Wmiutils.h
 api_name:
- - SWbemQueryQualifiedName
+- SWbemQueryQualifiedName
 targetos: Windows
 req.typenames: SWbemQueryQualifiedName
 req.redist: 

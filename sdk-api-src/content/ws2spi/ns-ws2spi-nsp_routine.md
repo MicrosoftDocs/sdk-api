@@ -1,19 +1,17 @@
 ---
 UID: NS:ws2spi._NSP_ROUTINE
 title: NSP_ROUTINE (ws2spi.h)
-
 description: Contains information regarding the functions implemented by a namespace service provider version 1 (NSPv1) provider.
 old-location: winsock\nsp_routine.htm
 tech.root: WinSock
 ms.assetid: 8f7736d5-ea77-472a-a94f-e422398fae3f
-
 ms.date: 12/05/2018
 ms.keywords: '*LPNSP_ROUTINE, NSP_ROUTINE, NSP_ROUTINE structure [Winsock], NSP_ROUTINE,FAR * LPNSP_ROUTINE, NSP_ROUTINE,FAR * LPNSP_ROUTINE structure [Winsock], winsock.nsp_routine, ws2spi/NSP_ROUTINE'
 ms.topic: struct
 f1_keywords:
 - ws2spi/NSP_ROUTINE, FAR * LPNSP_ROUTINE
 dev_langs:
- - c++
+- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NS:p2p.peer_contact_tag
 title: PEER_CONTACT (p2p.h)
-
 description: The PEER_CONTACT structure contains information about a specific contact.
 old-location: p2p\peer_contact.htm
 tech.root: P2PSdk
 ms.assetid: b84a17fc-35d6-4098-9bb3-18e708541a80
-
 ms.date: 12/05/2018
-ms.keywords: "*PPEER_CONTACT, PCPEER_CONTACT, PCPEER_CONTACT structure pointer [Peer Networking], PEER_CONTACT, PEER_CONTACT structure [Peer Networking], PPEER_CONTACT, PPEER_CONTACT structure pointer [Peer Networking], p2p.peer_contact, p2p/PCPEER_CONTACT, p2p/PEER_CONTACT, p2p/PPEER_CONTACT"
+ms.keywords: '*PPEER_CONTACT, PCPEER_CONTACT, PCPEER_CONTACT structure pointer [Peer Networking], PEER_CONTACT, PEER_CONTACT structure [Peer Networking], PPEER_CONTACT, PPEER_CONTACT structure pointer [Peer Networking], p2p.peer_contact, p2p/PCPEER_CONTACT, p2p/PEER_CONTACT, p2p/PPEER_CONTACT'
 ms.topic: struct
-f1_keywords: 
- - "p2p/PEER_CONTACT"
+f1_keywords:
+- p2p/PEER_CONTACT
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - P2P.h
+- P2P.h
 api_name:
- - PEER_CONTACT
+- PEER_CONTACT
 targetos: Windows
 req.typenames: PEER_CONTACT, *PPEER_CONTACT
 req.redist: 

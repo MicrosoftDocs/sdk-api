@@ -1,19 +1,17 @@
 ---
 UID: NS:dxgi1_2.DXGI_SWAP_CHAIN_DESC1
 title: DXGI_SWAP_CHAIN_DESC1 (dxgi1_2.h)
-
 description: Describes a swap chain.
 old-location: direct3ddxgi\dxgi_swap_chain_desc1.htm
 tech.root: direct3ddxgi
 ms.assetid: 38B302DF-5617-4195-8E4A-619D75188AD5
-
 ms.date: 12/05/2018
 ms.keywords: DXGI_SWAP_CHAIN_DESC1, DXGI_SWAP_CHAIN_DESC1 structure [DXGI], direct3ddxgi.dxgi_swap_chain_desc1, dxgi1_2/DXGI_SWAP_CHAIN_DESC1
 ms.topic: struct
-f1_keywords: 
- - "dxgi1_2/DXGI_SWAP_CHAIN_DESC1"
+f1_keywords:
+- dxgi1_2/DXGI_SWAP_CHAIN_DESC1
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DXGI1_2.h
+- DXGI1_2.h
 api_name:
- - DXGI_SWAP_CHAIN_DESC1
+- DXGI_SWAP_CHAIN_DESC1
 targetos: Windows
 req.typenames: DXGI_SWAP_CHAIN_DESC1
 req.redist: 

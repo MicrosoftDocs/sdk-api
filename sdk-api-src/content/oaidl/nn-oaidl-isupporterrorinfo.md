@@ -1,19 +1,17 @@
 ---
 UID: NN:oaidl.ISupportErrorInfo
 title: ISupportErrorInfo (oaidl.h)
-
 description: Ensures that error information can be propagated up the call chain correctly. Automation objects that use the error handling interfaces must implement ISupportErrorInfo.
 old-location: automat\isupporterrorinfo.htm
 tech.root: automat
 ms.assetid: 42d33066-36b4-4a5b-aa5d-46682e560f32
-
 ms.date: 12/05/2018
 ms.keywords: ISupportErrorInfo, ISupportedErrorInfo, ISupportedErrorInfo interface [Automation], ISupportedErrorInfo interface [Automation],described, _oa96_ISupportErrorInfo_Interface, automat.isupporterrorinfo, oaidl/ISupportErrorInfo
 ms.topic: interface
-f1_keywords: 
- - "oaidl/ISupportedErrorInfo"
+f1_keywords:
+- oaidl/ISupportedErrorInfo
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ISupportedErrorInfo
+- ISupportedErrorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IPBDA_EIT.GetTableId
 title: IPBDA_EIT::GetTableId (dvbsiparser.h)
-
 description: Gets the table identifier from an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_eit_gettableid.htm
 tech.root: mstv
 ms.assetid: 4468a632-49e0-4e49-84a4-2ad32c67530b
-
 ms.date: 12/05/2018
 ms.keywords: GetTableId, GetTableId method [Microsoft TV Technologies], GetTableId method [Microsoft TV Technologies],IPBDA_EIT interface, IPBDA_EIT interface [Microsoft TV Technologies],GetTableId method, IPBDA_EIT.GetTableId, IPBDA_EIT::GetTableId, dvbsiparser/IPBDA_EIT::GetTableId, mstv.ipbda_eit_gettableid
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IPBDA_EIT.GetTableId"
+f1_keywords:
+- dvbsiparser/IPBDA_EIT.GetTableId
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IPBDA_EIT.GetTableId
+- IPBDA_EIT.GetTableId
 targetos: Windows
 req.typenames: 
 req.redist: 

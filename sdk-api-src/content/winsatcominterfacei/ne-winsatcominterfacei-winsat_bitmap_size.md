@@ -1,19 +1,17 @@
 ---
 UID: NE:winsatcominterfacei.__MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0004
 title: WINSAT_BITMAP_SIZE (winsatcominterfacei.h)
-
 description: Defines the size of the bitmap to use to represent the WinSAT score.
 old-location: winsat\winsat_bitmap_size.htm
 tech.root: WinSAT
 ms.assetid: 5cc91824-f3d4-4c33-85df-b98c8d6ac0a1
-
 ms.date: 12/05/2018
 ms.keywords: WINSAT_BITMAP_SIZE, WINSAT_BITMAP_SIZE enumeration [WinSAT], WINSAT_BITMAP_SIZE_NORMAL, WINSAT_BITMAP_SIZE_SMALL, winsat.winsat_bitmap_size, winsatcominterfacei/WINSAT_BITMAP_SIZE, winsatcominterfacei/WINSAT_BITMAP_SIZE_NORMAL, winsatcominterfacei/WINSAT_BITMAP_SIZE_SMALL
 ms.topic: enum
-f1_keywords: 
- - "winsatcominterfacei/WINSAT_BITMAP_SIZE"
+f1_keywords:
+- winsatcominterfacei/WINSAT_BITMAP_SIZE
 dev_langs:
- - c++
+- c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winsatcominterfacei.h
+- Winsatcominterfacei.h
 api_name:
- - WINSAT_BITMAP_SIZE
+- WINSAT_BITMAP_SIZE
 targetos: Windows
 req.typenames: WINSAT_BITMAP_SIZE
 req.redist: 

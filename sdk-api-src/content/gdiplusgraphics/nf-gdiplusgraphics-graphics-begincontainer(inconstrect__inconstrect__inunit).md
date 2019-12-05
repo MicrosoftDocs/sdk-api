@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.BeginContainer(IN const Rect &,IN const Rect &,IN Unit)
 title: Graphics::BeginContainer(IN const Rect &,IN const Rect &,IN Unit) (gdiplusgraphics.h)
-
 description: The Graphics::BeginContainer method begins a new graphics container.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_BeginContainer_Rect_dstrect_Rect_srcrect_Unit_unit_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsbegincontainermethods\begincontainer_69rectampdstrect_rectampsrcrect_unitunit.htm
-
 ms.date: 12/05/2018
 ms.keywords: BeginContainer, BeginContainer method [GDI+], BeginContainer method [GDI+],Graphics class, Graphics class [GDI+],BeginContainer method, Graphics.BeginContainer, Graphics.BeginContainer(IN const Rect &,IN const Rect &,IN Unit), Graphics.BeginContainer(const Rect&,const Rect&,Unit), Graphics::BeginContainer, Graphics::BeginContainer(IN const Rect &,IN const Rect &,IN Unit), _gdiplus_CLASS_Graphics_BeginContainer_Rect_dstrect_Rect_srcrect_Unit_unit_, gdiplus._gdiplus_CLASS_Graphics_BeginContainer_Rect_dstrect_Rect_srcrect_Unit_unit_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.BeginContainer"
+f1_keywords:
+- gdiplusgraphics/Graphics.BeginContainer
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.BeginContainer
+- Graphics.BeginContainer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardSetAttrib
 title: SCardSetAttrib function (winscard.h)
-
 description: Sets the given reader attribute for the given handle.
 old-location: security\scardsetattrib.htm
 tech.root: SecAuthN
 ms.assetid: 755b9295-5daf-4e85-9e09-cce3a0e39c0b
-
 ms.date: 12/05/2018
 ms.keywords: SCARD_ATTR_SUPRESS_T1_IFS_REQUEST, SCardSetAttrib, SCardSetAttrib function [Security], _smart_scardsetattrib, security.scardsetattrib, winscard/SCardSetAttrib
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardSetAttrib"
+f1_keywords:
+- winscard/SCardSetAttrib
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winscard.dll
+- Winscard.dll
 api_name:
- - SCardSetAttrib
+- SCardSetAttrib
 targetos: Windows
 req.typenames: 
 req.redist: 

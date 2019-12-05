@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptDecodeObject
 title: CryptDecodeObject function (wincrypt.h)
-
 description: The CryptDecodeObject function decodes a structure of the type indicated by the lpszStructType parameter. The use of CryptDecodeObjectEx is recommended as an API that performs the same function with significant performance improvements.
 old-location: security\cryptdecodeobject.htm
 tech.root: SecCrypto
 ms.assetid: 7d5ed4f4-9d76-4a16-9059-27b0edd83459
-
 ms.date: 12/05/2018
 ms.keywords: CRYPT_DECODE_NOCOPY_FLAG, CRYPT_DECODE_NO_SIGNATURE_BYTE_REVERSAL_FLAG, CRYPT_DECODE_SHARE_OID_STRING_FLAG, CRYPT_DECODE_TO_BE_SIGNED_FLAG, CRYPT_UNICODE_NAME_DECODE_DISABLE_IE4_UTF8_FLAG, CryptDecodeObject, CryptDecodeObject function [Security], _crypto2_cryptdecodeobject, security.cryptdecodeobject, wincrypt/CryptDecodeObject
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptDecodeObject"
+f1_keywords:
+- wincrypt/CryptDecodeObject
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptDecodeObject
+- CryptDecodeObject
 targetos: Windows
 req.typenames: 
 req.redist: 

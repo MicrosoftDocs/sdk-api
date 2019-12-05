@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFAudioStreamVolume
 title: IMFAudioStreamVolume (mfidl.h)
-
 description: Controls the volume levels of individual audio channels.
 old-location: mf\imfaudiostreamvolume.htm
 tech.root: medfound
 ms.assetid: f06ed262-a2ec-4688-b477-877d04cf1892
-
 ms.date: 12/05/2018
 ms.keywords: IMFAudioStreamVolume, IMFAudioStreamVolume interface [Media Foundation], IMFAudioStreamVolume interface [Media Foundation],described, f06ed262-a2ec-4688-b477-877d04cf1892, mf.imfaudiostreamvolume, mfidl/IMFAudioStreamVolume
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFAudioStreamVolume"
+f1_keywords:
+- mfidl/IMFAudioStreamVolume
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFAudioStreamVolume
+- IMFAudioStreamVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

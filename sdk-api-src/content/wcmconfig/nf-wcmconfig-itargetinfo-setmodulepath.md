@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.SetModulePath
 title: ITargetInfo::SetModulePath (wcmconfig.h)
-
 description: Sets the module path for the offline installation location.
 old-location: smi\itargetinfo_setmodulepath.htm
 tech.root: SMI
 ms.assetid: 4831fdf9-411b-4fdb-bd5c-3a309e6b6918
-
 ms.date: 12/05/2018
 ms.keywords: ITargetInfo interface [SMI],SetModulePath method, ITargetInfo.SetModulePath, ITargetInfo::SetModulePath, SetModulePath, SetModulePath method [SMI], SetModulePath method [SMI],ITargetInfo interface, smi.itargetinfo_setmodulepath, wcmconfig/ITargetInfo::SetModulePath
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ITargetInfo.SetModulePath"
+f1_keywords:
+- wcmconfig/ITargetInfo.SetModulePath
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ITargetInfo.SetModulePath
+- ITargetInfo.SetModulePath
 targetos: Windows
 req.typenames: 
 req.redist: 

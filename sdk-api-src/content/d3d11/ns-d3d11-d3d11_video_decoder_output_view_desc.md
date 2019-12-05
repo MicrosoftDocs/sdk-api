@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC
 title: D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC (d3d11.h)
-
 description: Describes a video decoder output view.
 old-location: mf\d3d11_video_decoder_output_view_desc.htm
 tech.root: medfound
 ms.assetid: 0A0C29C5-C3A3-43E7-86DA-1849AC276060
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC, D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC structure [Media Foundation], d3d11/D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC, mf.d3d11_video_decoder_output_view_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC"
+f1_keywords:
+- d3d11/D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC
+- D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC
 targetos: Windows
 req.typenames: D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC
 req.redist: 

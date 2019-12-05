@@ -1,19 +1,17 @@
 ---
 UID: NN:syncmgr.ISyncMgrConflictItems
 title: ISyncMgrConflictItems (syncmgr.h)
-
 description: Exposes methods that get conflict item data and item count.
 old-location: shell\ISyncMgrConflictItems.htm
 tech.root: shell
 ms.assetid: 1dea310d-137b-4180-99c9-e40cd4fa3a98
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrConflictItems, ISyncMgrConflictItems interface [Windows Shell], ISyncMgrConflictItems interface [Windows Shell],described, _shell_ISyncMgrConflictItems, shell.ISyncMgrConflictItems, syncmgr/ISyncMgrConflictItems
 ms.topic: interface
-f1_keywords: 
- - "syncmgr/ISyncMgrConflictItems"
+f1_keywords:
+- syncmgr/ISyncMgrConflictItems
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrConflictItems
+- ISyncMgrConflictItems
 targetos: Windows
 req.typenames: 
 req.redist: 

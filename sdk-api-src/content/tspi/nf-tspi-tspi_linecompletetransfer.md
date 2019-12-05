@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineCompleteTransfer
 title: TSPI_lineCompleteTransfer function (tspi.h)
-
 description: The TSPI_lineCompleteTransfer function completes the transfer of the specified call to the party connected in the consultation call.
 old-location: tspi\tspi_linecompletetransfer.htm
 tech.root: Tapi
 ms.assetid: 486a62df-dcdb-46f5-af02-1cf091215401
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineCompleteTransfer, TSPI_lineCompleteTransfer function [TAPI 2.2], _tspi_tspi_linecompletetransfer, tspi.tspi_linecompletetransfer, tspi/TSPI_lineCompleteTransfer
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineCompleteTransfer"
+f1_keywords:
+- tspi/TSPI_lineCompleteTransfer
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineCompleteTransfer
+- TSPI_lineCompleteTransfer
 targetos: Windows
 req.typenames: 
 req.redist: 

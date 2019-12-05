@@ -1,17 +1,15 @@
 ---
 UID: NF:d3d12.ID3D12Device5.CreateLifetimeTracker
 title: ID3D12Device5::CreateLifetimeTracker
-
 description: Creates a lifetime tracker associated with an application-defined callback; the callback receives notifications when the lifetime of a tracked object is changed.
 tech.root: direct3d12
-
 ms.date: 10/30/2019
 ms.keywords: ID3D12Device5::CreateLifetimeTracker
 ms.topic: language-reference
-f1_keywords: 
- - "d3d12/ID3D12Device5.CreateLifetimeTracker"
+f1_keywords:
+- d3d12/ID3D12Device5.CreateLifetimeTracker
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +28,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12Device5::CreateLifetimeTracker
+- ID3D12Device5::CreateLifetimeTracker
 targetos: Windows
 req.typenames: 
 req.redist: 

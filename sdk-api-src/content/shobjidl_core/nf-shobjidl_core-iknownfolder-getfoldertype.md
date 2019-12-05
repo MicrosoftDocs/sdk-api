@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IKnownFolder.GetFolderType
 title: IKnownFolder::GetFolderType (shobjidl_core.h)
-
 description: Retrieves the folder type.
 old-location: shell\IKnownFolder_GetFolderType.htm
 tech.root: shell
 ms.assetid: a2457d52-390d-43bd-8db0-9c18492cc40e
-
 ms.date: 12/05/2018
 ms.keywords: GetFolderType, GetFolderType method [Windows Shell], GetFolderType method [Windows Shell],IKnownFolder interface, IKnownFolder interface [Windows Shell],GetFolderType method, IKnownFolder.GetFolderType, IKnownFolder::GetFolderType, _shell_IKnownFolder_GetFolderType, shell.IKnownFolder_GetFolderType, shobjidl_core/IKnownFolder::GetFolderType
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IKnownFolder.GetFolderType"
+f1_keywords:
+- shobjidl_core/IKnownFolder.GetFolderType
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IKnownFolder.GetFolderType
+- IKnownFolder.GetFolderType
 targetos: Windows
 req.typenames: 
 req.redist: 

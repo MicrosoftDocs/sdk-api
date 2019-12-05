@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_OperationOptions_GetEnabledChannels
 title: MI_OperationOptions_GetEnabledChannels function (mi.h)
-
 description: Gets the list of previously enabled channels.
 old-location: wmi_v2\mi_operationoptions_getenabledchannels.htm
 tech.root: wmi_v2
 ms.assetid: 5604288f-cc51-40b2-b9a8-5d972e05b172
-
 ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_GetEnabledChannels, MI_OperationOptions_GetEnabledChannels function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetEnabledChannels, wmi_v2.mi_operationoptions_getenabledchannels
 ms.topic: function
 f1_keywords:
 - mi/MI_OperationOptions_GetEnabledChannels
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

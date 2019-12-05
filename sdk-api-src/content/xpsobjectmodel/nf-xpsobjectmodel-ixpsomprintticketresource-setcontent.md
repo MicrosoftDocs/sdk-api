@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPrintTicketResource.SetContent
 title: IXpsOMPrintTicketResource::SetContent (xpsobjectmodel.h)
-
 description: Sets the read-only stream to be associated with this resource.
 old-location: xps\ixpsomprintticketresource_setcontent.htm
 tech.root: printdocs
 ms.assetid: 77e4af00-b2ed-4c88-80f1-fb3106ad1e75
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPrintTicketResource interface [XPS Documents and Packaging],SetContent method, IXpsOMPrintTicketResource.SetContent, IXpsOMPrintTicketResource::SetContent, SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging],IXpsOMPrintTicketResource interface, xps.ixpsomprintticketresource_setcontent, xpsobjectmodel/IXpsOMPrintTicketResource::SetContent
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPrintTicketResource.SetContent"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPrintTicketResource.SetContent
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPrintTicketResource.SetContent
+- IXpsOMPrintTicketResource.SetContent
 targetos: Windows
 req.typenames: 
 req.redist: 

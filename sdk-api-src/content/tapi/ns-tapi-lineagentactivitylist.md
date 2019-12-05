@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.lineagentactivitylist_tag
 title: LINEAGENTACTIVITYLIST (tapi.h)
-
 description: The LINEAGENTACTIVITYLIST structure describes a list of ACD agent activities. This structure can contain an array of LINEAGENTACTIVITYENTRY structures. The lineGetAgentActivityList function returns the LINEAGENTACTIVITYLIST structure.
 old-location: tapi2\lineagentactivitylist_str.htm
 tech.root: Tapi
 ms.assetid: 61e46717-8a14-440f-bb61-991c3dadd778
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLINEAGENTACTIVITYLIST, LINEAGENTACTIVITYLIST, LINEAGENTACTIVITYLIST structure [TAPI 2.2], LPLINEAGENTACTIVITYLIST, LPLINEAGENTACTIVITYLIST structure pointer [TAPI 2.2], _tapi2_lineagentactivitylist_str, tapi/LINEAGENTACTIVITYLIST, tapi/LPLINEAGENTACTIVITYLIST, tapi2.lineagentactivitylist_str"
+ms.keywords: '*LPLINEAGENTACTIVITYLIST, LINEAGENTACTIVITYLIST, LINEAGENTACTIVITYLIST structure [TAPI 2.2], LPLINEAGENTACTIVITYLIST, LPLINEAGENTACTIVITYLIST structure pointer [TAPI 2.2], _tapi2_lineagentactivitylist_str, tapi/LINEAGENTACTIVITYLIST, tapi/LPLINEAGENTACTIVITYLIST, tapi2.lineagentactivitylist_str'
 ms.topic: struct
-f1_keywords: 
- - "tapi/LINEAGENTACTIVITYLIST"
+f1_keywords:
+- tapi/LINEAGENTACTIVITYLIST
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - LINEAGENTACTIVITYLIST
+- LINEAGENTACTIVITYLIST
 targetos: Windows
 req.typenames: LINEAGENTACTIVITYLIST, *LPLINEAGENTACTIVITYLIST
 req.redist: 

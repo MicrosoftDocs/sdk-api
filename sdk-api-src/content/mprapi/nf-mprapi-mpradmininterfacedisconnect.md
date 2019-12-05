@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceDisconnect
 title: MprAdminInterfaceDisconnect function (mprapi.h)
-
 description: The MprAdminInterfaceDisconnect function disconnects a connected WAN interface.
 old-location: rras\mpradmininterfacedisconnect.htm
 tech.root: RRAS
 ms.assetid: 32499e2f-9c67-4314-adbf-75482a9d511e
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceDisconnect, MprAdminInterfaceDisconnect function [RAS], _mpr_mpradmininterfacedisconnect, mprapi/MprAdminInterfaceDisconnect, rras.mpradmininterfacedisconnect
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminInterfaceDisconnect"
+f1_keywords:
+- mprapi/MprAdminInterfaceDisconnect
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminInterfaceDisconnect
+- MprAdminInterfaceDisconnect
 targetos: Windows
 req.typenames: 
 req.redist: 

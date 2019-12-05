@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._TOKEN_USER
 title: TOKEN_USER (winnt.h)
-
 description: Identifies the user associated with an access token.
 old-location: security\token_user.htm
 tech.root: SecAuthZ
 ms.assetid: 5dd8172d-7b1a-4cc0-b667-5fe91d278393
-
 ms.date: 12/05/2018
 ms.keywords: '*PTOKEN_USER, PTOKEN_USER, PTOKEN_USER structure pointer [Security], TOKEN_USER, TOKEN_USER structure [Security], _TOKEN_USER, _win32_token_user_str, security.token_user, winnt/PTOKEN_USER, winnt/TOKEN_USER'
 ms.topic: struct
 f1_keywords:
 - winnt/TOKEN_USER
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetGuid
 title: ICreateTypeInfo::SetGuid (oaidl.h)
-
 description: Sets the globally unique identifier (GUID) associated with the type description.
 old-location: automat\icreatetypeinfo_setguid.htm
 tech.root: automat
 ms.assetid: 031bc83d-8e0c-49da-aa15-cd44af469592
-
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetGuid method, ICreateTypeInfo.SetGuid, ICreateTypeInfo::SetGuid, SetGuid, SetGuid method [Automation], SetGuid method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetGuid, automat.icreatetypeinfo_setguid, oaidl/ICreateTypeInfo::SetGuid
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateTypeInfo.SetGuid"
+f1_keywords:
+- oaidl/ICreateTypeInfo.SetGuid
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateTypeInfo.SetGuid
+- ICreateTypeInfo.SetGuid
 targetos: Windows
 req.typenames: 
 req.redist: 

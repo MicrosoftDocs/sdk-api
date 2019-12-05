@@ -1,19 +1,17 @@
 ---
 UID: NF:appmodel.GetApplicationUserModelId
 title: GetApplicationUserModelId function (appmodel.h)
-
 description: Gets the application user model ID for the specified process.
 old-location: appxpkg\getapplicationusermodelid.htm
 tech.root: appxpkg
 ms.assetid: FE4E0818-F548-494B-B3BD-FB51DC748451
-
 ms.date: 12/05/2018
 ms.keywords: GetApplicationUserModelId, GetApplicationUserModelId function [App packaging and management], appmodel/GetApplicationUserModelId, appxpkg.getapplicationusermodelid
 ms.topic: function
-f1_keywords: 
- - "appmodel/GetApplicationUserModelId"
+f1_keywords:
+- appmodel/GetApplicationUserModelId
 dev_langs:
- - c++
+- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-AppModel-Runtime-l1-1-0.dll
- - kernel32legacy.dll
- - Kernel.AppCore.dll
- - API-MS-Win-AppModel-RunTime-l1-1-1.dll
- - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+- Kernel32.dll
+- API-MS-Win-AppModel-Runtime-l1-1-0.dll
+- kernel32legacy.dll
+- Kernel.AppCore.dll
+- API-MS-Win-AppModel-RunTime-l1-1-1.dll
+- API-MS-Win-AppModel-Runtime-L1-1-2.dll
 api_name:
- - GetApplicationUserModelId
+- GetApplicationUserModelId
 targetos: Windows
 req.typenames: 
 req.redist: 

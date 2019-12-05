@@ -1,19 +1,17 @@
 ---
 UID: NF:immdev.ImmDisableLegacyIME
 title: ImmDisableLegacyIME function (immdev.h)
-
 description: Indicates that this thread is a Windows Store app&#32;UI thread.
 old-location: intl\immdisablelegacyime.htm
 tech.root: Intl
 ms.assetid: 5B207438-B437-45B0-AE0C-DDB1B19488F2
-
 ms.date: 12/05/2018
 ms.keywords: IMMDisableLegacyIME, IMMDisableLegacyIME function [Internationalization for Windows Applications], ImmDisableLegacyIME, imm/IMMDisableLegacyIME, intl.immdisablelegacyime
 ms.topic: function
-f1_keywords: 
- - "immdev/IMMDisableLegacyIME"
+f1_keywords:
+- immdev/IMMDisableLegacyIME
 dev_langs:
- - c++
+- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - imm32.dll
+- imm32.dll
 api_name:
- - IMMDisableLegacyIME
+- IMMDisableLegacyIME
 targetos: Windows
 req.typenames: 
 req.redist: 

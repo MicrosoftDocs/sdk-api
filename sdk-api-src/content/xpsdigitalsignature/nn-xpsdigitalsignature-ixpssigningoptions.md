@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsdigitalsignature.IXpsSigningOptions
 title: IXpsSigningOptions (xpsdigitalsignature.h)
-
 description: Provides access to the individual signing options that are used by new signatures.
 old-location: xps\ixpssigningoptions.htm
 tech.root: printdocs
 ms.assetid: 71b9b348-1078-4f55-a071-e5e2f273f85c
-
 ms.date: 12/05/2018
 ms.keywords: IXpsSigningOptions, IXpsSigningOptions interface [XPS Documents and Packaging], IXpsSigningOptions interface [XPS Documents and Packaging],described, xps.ixpssigningoptions, xpsdigitalsignature/IXpsSigningOptions
 ms.topic: interface
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSigningOptions"
+f1_keywords:
+- xpsdigitalsignature/IXpsSigningOptions
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSigningOptions
+- IXpsSigningOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

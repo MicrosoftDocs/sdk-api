@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.Edit_NoSetFocus
 title: Edit_NoSetFocus macro (commctrl.h)
-
 description: Prevents a single-line edit control from receiving keyboard focus. You can use this macro or send the EM_NOSETFOCUS message explicitly.
 old-location: controls\Edit_NoSetFocus.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_nosetfocus.htm
-
 ms.date: 12/05/2018
 ms.keywords: Edit_NoSetFocus, Edit_NoSetFocus macro [Windows Controls], _win32_Edit_NoSetFocus, _win32_Edit_NoSetFocus_cpp, commctrl/Edit_NoSetFocus, controls.Edit_NoSetFocus, controls._win32_Edit_NoSetFocus
 ms.topic: macro
-f1_keywords: 
- - "commctrl/Edit_NoSetFocus"
+f1_keywords:
+- commctrl/Edit_NoSetFocus
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - Edit_NoSetFocus
+- Edit_NoSetFocus
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsAcl.CopyAcl
 title: IADsAcl::CopyAcl (iads.h)
-
 description: The IADsAcl::CopyAcl method makes a copy of the existing ACL.
 old-location: adsi\iadsacl_copyacl.htm
 tech.root: adsi
 ms.assetid: 9ed78d7d-3448-4a49-920f-97221584541c
-
 ms.date: 12/05/2018
 ms.keywords: CopyAcl, CopyAcl method [ADSI], CopyAcl method [ADSI],IADsAcl interface, IADsAcl interface [ADSI],CopyAcl method, IADsAcl.CopyAcl, IADsAcl::CopyAcl, _ds_iadsacl_copyacl, adsi.iadsacl__copyacl, adsi.iadsacl_copyacl, iads/IADsAcl::CopyAcl
 ms.topic: method
-f1_keywords: 
- - "iads/IADsAcl.CopyAcl"
+f1_keywords:
+- iads/IADsAcl.CopyAcl
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsAcl.CopyAcl
+- IADsAcl.CopyAcl
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:wlanapi.WFD_OPEN_SESSION_COMPLETE_CALLBACK
 title: WFD_OPEN_SESSION_COMPLETE_CALLBACK (wlanapi.h)
-
 description: Defines the callback function that is called by the WFDStartOpenSession function when the WFDStartOpenSession operation completes.
 old-location: nwifi\wfd_open_session_complete_callback.htm
 tech.root: NativeWiFi
 ms.assetid: 2CB91D70-920A-4D97-B96D-B264F59150AC
-
 ms.date: 12/05/2018
 ms.keywords: ERROR_INVALID_PARAMETER, ERROR_INVALID_STATE, ERROR_SERVICE_NOT_ACTIVE, RPC_STATUS, WFD_OPEN_SESSION_COMPLETE_CALLBACK, WFD_OPEN_SESSION_COMPLETE_CALLBACK callback, WFD_OPEN_SESSION_COMPLETE_CALLBACK callback function [NativeWIFI], nwifi.wfd_open_session_complete_callback, wlanapi/WFD_OPEN_SESSION_COMPLETE_CALLBACK
 ms.topic: callback
-f1_keywords: 
- - "wlanapi/WFD_OPEN_SESSION_COMPLETE_CALLBACK"
+f1_keywords:
+- wlanapi/WFD_OPEN_SESSION_COMPLETE_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - wlanapi.h
+- wlanapi.h
 api_name:
- - WFD_OPEN_SESSION_COMPLETE_CALLBACK
+- WFD_OPEN_SESSION_COMPLETE_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

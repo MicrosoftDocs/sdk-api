@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateCollection.get_ReadOnly
 title: IUpdateCollection::get_ReadOnly (wuapi.h)
-
 description: Gets a Boolean value that indicates whether the update collection is read-only.
 old-location: wua\iupdatecollection_readonly.htm
 tech.root: Wua_Sdk
 ms.assetid: 7443f842-8de5-4309-95bf-5ea427b25b4a
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateCollection interface [Windows Update Agent],ReadOnly property, IUpdateCollection.ReadOnly, IUpdateCollection.get_ReadOnly, IUpdateCollection::ReadOnly, IUpdateCollection::get_ReadOnly, ReadOnly property [Windows Update Agent], ReadOnly property [Windows Update Agent],IUpdateCollection interface, get_ReadOnly, wua.iupdatecollection_readonly, wuapi/IUpdateCollection::ReadOnly, wuapi/IUpdateCollection::get_ReadOnly
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateCollection.ReadOnly"
+f1_keywords:
+- wuapi/IUpdateCollection.ReadOnly
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateCollection.ReadOnly
- - IUpdateCollection.get_ReadOnly
+- IUpdateCollection.ReadOnly
+- IUpdateCollection.get_ReadOnly
 targetos: Windows
 req.typenames: 
 req.redist: 

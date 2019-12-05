@@ -1,19 +1,17 @@
 ---
 UID: NF:certenc.ICertEncodeStringArray.GetStringType
 title: ICertEncodeStringArray::GetStringType (certenc.h)
-
 description: Returns the type of string values that the string array contains.
 old-location: security\icertencodestringarray_getstringtype.htm
 tech.root: SecCrypto
 ms.assetid: 7020f364-4f92-46b8-a8e8-360d8e0fa051
-
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeStringArray object [Security],GetStringType method, GetStringType, GetStringType method [Security], GetStringType method [Security],CCertEncodeStringArray object, GetStringType method [Security],ICertEncodeStringArray interface, ICertEncodeStringArray interface [Security],GetStringType method, ICertEncodeStringArray.GetStringType, ICertEncodeStringArray::GetStringType, _certsrv_icertencodestringarray_getstringtype, certenc/ICertEncodeStringArray::GetStringType, security.icertencodestringarray_getstringtype
 ms.topic: method
-f1_keywords: 
- - "certenc/ICertEncodeStringArray.GetStringType"
+f1_keywords:
+- certenc/ICertEncodeStringArray.GetStringType
 dev_langs:
- - c++
+- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenc.dll
+- Certenc.dll
 api_name:
- - ICertEncodeStringArray.GetStringType
- - CCertEncodeStringArray.GetStringType
+- ICertEncodeStringArray.GetStringType
+- CCertEncodeStringArray.GetStringType
 targetos: Windows
 req.typenames: 
 req.redist: 

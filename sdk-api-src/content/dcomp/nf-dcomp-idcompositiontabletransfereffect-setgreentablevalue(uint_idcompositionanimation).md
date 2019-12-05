@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetGreenTableValue(UINT,IDCompositionAnimation)
 title: IDCompositionTableTransferEffect::SetGreenTableValue(UINT,IDCompositionAnimation) (dcomp.h)
-
 description: Sets a value in the green table.
 old-location: directcomp\idcompositiontabletransfereffect_setgreentablevalue_2.htm
 tech.root: directcomp
 ms.assetid: 841850FD-A94A-45F8-8D24-B91D4522EA2E
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetGreenTableValue method, IDCompositionTableTransferEffect.SetGreenTableValue, IDCompositionTableTransferEffect.SetGreenTableValue(UINT,IDCompositionAnimation), IDCompositionTableTransferEffect::SetGreenTableValue, IDCompositionTableTransferEffect::SetGreenTableValue(UINT,IDCompositionAnimation), SetGreenTableValue, SetGreenTableValue method [DirectComposition], SetGreenTableValue method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetGreenTableValue, directcomp.idcompositiontabletransfereffect_setgreentablevalue_2
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionTableTransferEffect.SetGreenTableValue"
+f1_keywords:
+- dcomp/IDCompositionTableTransferEffect.SetGreenTableValue
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionTableTransferEffect.SetGreenTableValue
+- IDCompositionTableTransferEffect.SetGreenTableValue
 targetos: Windows
 req.typenames: 
 req.redist: 

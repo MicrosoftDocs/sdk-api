@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbProvisioning.PatchVirtualMachines
 title: ITsSbProvisioning::PatchVirtualMachines (sbtsv.h)
-
 description: Patches a virtual machine asynchronously.
 old-location: termserv\itssbprovisioning_patchvirtualmachines.htm
 tech.root: TermServ
 ms.assetid: 99afcba2-5567-47fa-9752-80394f145176
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbProvisioning interface [Remote Desktop Services],PatchVirtualMachines method, ITsSbProvisioning.PatchVirtualMachines, ITsSbProvisioning::PatchVirtualMachines, PatchVirtualMachines, PatchVirtualMachines method [Remote Desktop Services], PatchVirtualMachines method [Remote Desktop Services],ITsSbProvisioning interface, sbtsv/ITsSbProvisioning::PatchVirtualMachines, termserv.itssbprovisioning_patchvirtualmachines
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbProvisioning.PatchVirtualMachines"
+f1_keywords:
+- sbtsv/ITsSbProvisioning.PatchVirtualMachines
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbProvisioning.PatchVirtualMachines
+- ITsSbProvisioning.PatchVirtualMachines
 targetos: Windows
 req.typenames: 
 req.redist: 

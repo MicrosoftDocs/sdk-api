@@ -1,19 +1,17 @@
 ---
 UID: NS:oledbguid.tagDBID
 title: DBID (oledbguid.h)
-
 description: The DBID structure encapsulates various ways of identifying a database object.
 old-location: indexsrv\dbid.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_4bhg.htm
-
 ms.date: 12/05/2018
 ms.keywords: DBID, DBID structure [Indexing Service], _idxs_DBID, indexsrv.dbid, oledbguid/DBID, tagDBID
 ms.topic: struct
-f1_keywords: 
- - "oledbguid/DBID"
+f1_keywords:
+- oledbguid/DBID
 dev_langs:
- - c++
+- c++
 req.header: oledbguid.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - oledbguid.h
+- oledbguid.h
 api_name:
- - DBID
+- DBID
 targetos: Windows
 req.typenames: DBID
 req.redist: 

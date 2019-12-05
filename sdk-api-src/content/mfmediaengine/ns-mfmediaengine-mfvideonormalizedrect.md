@@ -1,19 +1,17 @@
 ---
 UID: NS:mfmediaengine.MFVideoNormalizedRect
 title: MFVideoNormalizedRect (mfmediaengine.h)
-
 description: Defines a normalized rectangle, which is used to specify sub-rectangles in a video rectangle.
 old-location: mf\mfvideonormalizedrect.htm
 tech.root: medfound
 ms.assetid: c1dd42ca-64a0-4f30-82e1-eda3f4721526
-
 ms.date: 12/05/2018
 ms.keywords: MFVideoNormalizedRect, MFVideoNormalizedRect structure [Media Foundation], c1dd42ca-64a0-4f30-82e1-eda3f4721526, evr/MFVideoNormalizedRect, mf.mfvideonormalizedrect
 ms.topic: struct
-f1_keywords: 
- - "mfmediaengine/MFVideoNormalizedRect"
+f1_keywords:
+- mfmediaengine/MFVideoNormalizedRect
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: Mfcaptureengine.h, Mfmediaengine.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - evr.h
+- evr.h
 api_name:
- - MFVideoNormalizedRect
+- MFVideoNormalizedRect
 targetos: Windows
 req.typenames: MFVideoNormalizedRect
 req.redist: 

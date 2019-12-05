@@ -1,19 +1,17 @@
 ---
 UID: NF:virtdisk.EnumerateVirtualDiskMetadata
 title: EnumerateVirtualDiskMetadata function (virtdisk.h)
-
 description: Enumerates the metadata associated with a virtual disk.
 old-location: vstor\enumeratevirtualdiskmetadata.htm
 tech.root: VStor
 ms.assetid: 7817863a-38ca-4686-9d66-71700dba852f
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateVirtualDiskMetadata, EnumerateVirtualDiskMetadata function [Virtual Storage], virtdisk/EnumerateVirtualDiskMetadata, vstor.enumeratevirtualdiskmetadata
 ms.topic: function
-f1_keywords: 
- - "virtdisk/EnumerateVirtualDiskMetadata"
+f1_keywords:
+- virtdisk/EnumerateVirtualDiskMetadata
 dev_langs:
- - c++
+- c++
 req.header: virtdisk.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: VirtDisk.lib
 req.dll: VirtDisk.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - VirtDisk.dll
+- VirtDisk.dll
 api_name:
- - EnumerateVirtualDiskMetadata
+- EnumerateVirtualDiskMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 

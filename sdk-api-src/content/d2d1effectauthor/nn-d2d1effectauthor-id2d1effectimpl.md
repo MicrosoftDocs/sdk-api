@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1EffectImpl
 title: ID2D1EffectImpl (d2d1effectauthor.h)
-
 description: Allows a custom effect's interface and behavior to be specified by the effect author.
 old-location: direct2d\id2d1effectimpl.htm
 tech.root: Direct2D
 ms.assetid: 3D87A908-FC57-4AA9-A508-C402D8413363
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1EffectImpl, ID2D1EffectImpl interface [Direct2D], ID2D1EffectImpl interface [Direct2D],described, d2d1effectauthor/ID2D1EffectImpl, direct2d.id2d1effectimpl
 ms.topic: interface
-f1_keywords: 
- - "d2d1effectauthor/ID2D1EffectImpl"
+f1_keywords:
+- d2d1effectauthor/ID2D1EffectImpl
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.lib
- - d2d1.dll
+- d2d1.lib
+- d2d1.dll
 api_name:
- - ID2D1EffectImpl
+- ID2D1EffectImpl
 targetos: Windows
 req.typenames: 
 req.redist: 

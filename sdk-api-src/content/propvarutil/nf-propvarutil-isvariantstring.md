@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.IsVariantString
 title: IsVariantString function (propvarutil.h)
-
 description: Specifies whether a variant is a string.
 old-location: properties\IsVariantString.htm
 tech.root: properties
 ms.assetid: 6056856c-9b7a-4c6a-9e9a-0baa5e1addcf
-
 ms.date: 12/05/2018
 ms.keywords: IsVariantString, IsVariantString function [Windows Properties], _shell_IsVariantString, properties.IsVariantString, propvarutil/IsVariantString, shell.IsVariantString
 ms.topic: function
-f1_keywords: 
- - "propvarutil/IsVariantString"
+f1_keywords:
+- propvarutil/IsVariantString
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Propvarutil.h
+- Propvarutil.h
 api_name:
- - IsVariantString
+- IsVariantString
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

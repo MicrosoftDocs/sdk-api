@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IAlternativeName.InitializeFromString
 title: IAlternativeName::InitializeFromString (certenroll.h)
-
 description: Initializes the object from a string that contains an email address, a Domain Name System (DNS) name, a URL, a registered object identifier (OID), or a user principal name (UPN).
 old-location: security\ialternativename_initializefromstring_method.htm
 tech.root: seccertenroll
 ms.assetid: 7b5f7dd3-00dc-474b-8920-45a3acded209
-
 ms.date: 12/05/2018
 ms.keywords: IAlternativeName interface [Security],InitializeFromString method, IAlternativeName.InitializeFromString, IAlternativeName::InitializeFromString, InitializeFromString, InitializeFromString method [Security], InitializeFromString method [Security],IAlternativeName interface, XCN_CERT_ALT_NAME_DNS_NAME, XCN_CERT_ALT_NAME_REGISTERED_ID, XCN_CERT_ALT_NAME_RFC822_NAME, XCN_CERT_ALT_NAME_URL, XCN_CERT_ALT_NAME_USER_PRINCIPLE_NAME, certenroll/IAlternativeName::InitializeFromString, security.ialternativename_initializefromstring_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IAlternativeName.InitializeFromString"
+f1_keywords:
+- certenroll/IAlternativeName.InitializeFromString
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IAlternativeName.InitializeFromString
+- IAlternativeName.InitializeFromString
 targetos: Windows
 req.typenames: 
 req.redist: 

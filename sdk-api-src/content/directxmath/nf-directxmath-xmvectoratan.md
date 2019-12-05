@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorATan
 title: XMVectorATan function (directxmath.h)
-
 description: Computes the arctangent of each component of an XMVECTOR.
 old-location: dxmath\xmvectoratan.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorATan(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorATan, XMVectorATan, XMVectorATan method [DirectX Math Support APIs], dxmath.xmvectoratan
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorATan"
+f1_keywords:
+- directxmath/XMVectorATan
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorATan
+- XMVectorATan
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IEnumShellItems.Skip
 title: IEnumShellItems::Skip (shobjidl_core.h)
-
 description: Skips a given number of IShellItem interfaces in the enumeration. Used when retrieving interfaces.
 old-location: shell\IEnumShellItems_Skip.htm
 tech.root: shell
 ms.assetid: 5359c9d2-715a-4949-8f40-a35d04423dba
-
 ms.date: 12/05/2018
 ms.keywords: IEnumShellItems interface [Windows Shell],Skip method, IEnumShellItems.Skip, IEnumShellItems::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumShellItems interface, _shell_IEnumShellItems_Skip, shell.IEnumShellItems_Skip, shobjidl_core/IEnumShellItems::Skip
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IEnumShellItems.Skip"
+f1_keywords:
+- shobjidl_core/IEnumShellItems.Skip
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IEnumShellItems.Skip
+- IEnumShellItems.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

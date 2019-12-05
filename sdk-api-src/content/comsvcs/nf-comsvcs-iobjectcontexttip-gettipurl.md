@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IObjectContextTip.GetTipUrl
 title: IObjectContextTip::GetTipUrl (comsvcs.h)
-
 description: Retrieves the URL of the TIP context.
 old-location: cos\iobjectcontexttip_gettipurl.htm
 tech.root: cossdk
 ms.assetid: 9948a1b4-efbe-4a44-a67d-ea91a846708f
-
 ms.date: 12/05/2018
 ms.keywords: GetTipUrl, GetTipUrl method [COM+], GetTipUrl method [COM+],IObjectContextTip interface, IObjectContextTip interface [COM+],GetTipUrl method, IObjectContextTip.GetTipUrl, IObjectContextTip::GetTipUrl, _cos_IObjectContextTip_GetTipUrl, comsvcs/IObjectContextTip::GetTipUrl, cos.iobjectcontexttip_gettipurl
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IObjectContextTip.GetTipUrl"
+f1_keywords:
+- comsvcs/IObjectContextTip.GetTipUrl
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IObjectContextTip.GetTipUrl
+- IObjectContextTip.GetTipUrl
 targetos: Windows
 req.typenames: 
 req.redist: 

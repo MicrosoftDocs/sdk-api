@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.SetNoOp
 title: ImageAttributes::SetNoOp (gdiplusimageattributes.h)
-
 description: The ImageAttributes::SetNoOp method turns off color adjustment for a specified category. You can call ImageAttributes::ClearNoOp to reinstate the color-adjustment settings that were in place before the call to ImageAttributes::SetNoOp.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_SetNoOp_type_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\setnoop.htm
-
 ms.date: 12/05/2018
 ms.keywords: ImageAttributes class [GDI+],SetNoOp method, ImageAttributes.SetNoOp, ImageAttributes::SetNoOp, SetNoOp, SetNoOp method [GDI+], SetNoOp method [GDI+],ImageAttributes class, _gdiplus_CLASS_ImageAttributes_SetNoOp_type_, gdiplus._gdiplus_CLASS_ImageAttributes_SetNoOp_type_
 ms.topic: method
-f1_keywords: 
- - "gdiplusimageattributes/ImageAttributes.SetNoOp"
+f1_keywords:
+- gdiplusimageattributes/ImageAttributes.SetNoOp
 dev_langs:
- - c++
+- c++
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - ImageAttributes.SetNoOp
+- ImageAttributes.SetNoOp
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:ras.PFNRASFREEBUFFER
 title: PFNRASFREEBUFFER (ras.h)
-
 description: The custom-scripting DLL calls RasFreeBuffer to release a memory buffer that was allocated by a previous call to RasGetBuffer.
 old-location: rras\rasfreebuffer.htm
 tech.root: RRAS
 ms.assetid: aba43ef9-7f62-48ab-a790-c8592a57f2c2
-
 ms.date: 12/05/2018
 ms.keywords: PFNRASFREEBUFFER, PFNRASFREEBUFFER callback, RasFreeBuffer, RasFreeBuffer callback function [RAS], _ras_rasfreebuffer, ras/RasFreeBuffer, rras.rasfreebuffer
 ms.topic: callback
-f1_keywords: 
- - "ras/RasFreeBuffer"
+f1_keywords:
+- ras/RasFreeBuffer
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ras.h
+- Ras.h
 api_name:
- - RasFreeBuffer
+- RasFreeBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

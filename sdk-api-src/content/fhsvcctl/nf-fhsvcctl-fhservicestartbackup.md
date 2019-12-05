@@ -1,19 +1,17 @@
 ---
 UID: NF:fhsvcctl.FhServiceStartBackup
 title: FhServiceStartBackup function (fhsvcctl.h)
-
 description: This function starts an immediate backup for the current user.
 old-location: winprog\fhservicestartbackup.htm
 tech.root: DevNotes
 ms.assetid: 30800744-8605-4F8B-9B7A-50F57CC73483
-
 ms.date: 12/05/2018
 ms.keywords: FhServiceStartBackup, FhServiceStartBackup function [Windows API], fhsvcctl/FhServiceStartBackup, winprog.fhservicestartbackup
 ms.topic: function
-f1_keywords: 
- - "fhsvcctl/FhServiceStartBackup"
+f1_keywords:
+- fhsvcctl/FhServiceStartBackup
 dev_langs:
- - c++
+- c++
 req.header: fhsvcctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FhSvcCtl.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - FhSvcCtl.lib
- - FhSvcCtl.dll
+- FhSvcCtl.lib
+- FhSvcCtl.dll
 api_name:
- - FhServiceStartBackup
+- FhServiceStartBackup
 targetos: Windows
 req.typenames: 
 req.redist: 

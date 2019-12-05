@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgDocument.FindElementById
 title: ID2D1SvgDocument::FindElementById (d2d1svg.h)
-
 description: Gets the SVG element with the specified ID.
 old-location: direct2d\id2d1svgdocument_findelementbyid.htm
 tech.root: Direct2D
 ms.assetid: B4E4EE0E-0A2B-479A-B101-AC9DF8546A4F
-
 ms.date: 12/05/2018
 ms.keywords: FindElementById, FindElementById method [Direct2D], FindElementById method [Direct2D],ID2D1SvgDocument interface, ID2D1SvgDocument interface [Direct2D],FindElementById method, ID2D1SvgDocument.FindElementById, ID2D1SvgDocument::FindElementById, d2d1svg/ID2D1SvgDocument::FindElementById, direct2d.id2d1svgdocument_findelementbyid
 ms.topic: method
-f1_keywords: 
- - "d2d1svg/ID2D1SvgDocument.FindElementById"
+f1_keywords:
+- d2d1svg/ID2D1SvgDocument.FindElementById
 dev_langs:
- - c++
+- c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Direct2d.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - direct2d.dll
+- direct2d.dll
 api_name:
- - ID2D1SvgDocument.FindElementById
+- ID2D1SvgDocument.FindElementById
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:certenroll.EnrollmentDisplayStatus
 title: EnrollmentDisplayStatus (certenroll.h)
-
 description: Specifies whether to display enrollment status information in a user interface.
 old-location: security\enrollmentdisplaystatus_enum.htm
 tech.root: seccertenroll
 ms.assetid: bd5019de-1a72-42a6-9ade-74a9252a19eb
-
 ms.date: 12/05/2018
 ms.keywords: DisplayNo, DisplayYes, EnrollmentDisplayStatus, EnrollmentDisplayStatus enumeration [Security], certenroll/DisplayNo, certenroll/DisplayYes, certenroll/EnrollmentDisplayStatus, security.enrollmentdisplaystatus_enum
 ms.topic: enum
-f1_keywords: 
- - "certenroll/EnrollmentDisplayStatus"
+f1_keywords:
+- certenroll/EnrollmentDisplayStatus
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CertEnroll.h
+- CertEnroll.h
 api_name:
- - EnrollmentDisplayStatus
+- EnrollmentDisplayStatus
 targetos: Windows
 req.typenames: EnrollmentDisplayStatus
 req.redist: 

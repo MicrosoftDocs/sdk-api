@@ -1,19 +1,17 @@
 ---
 UID: NF:ntsecapi.LsaFreeReturnBuffer
 title: LsaFreeReturnBuffer function (ntsecapi.h)
-
 description: Frees the memory used by a buffer previously allocated by the LSA.
 old-location: security\lsafreereturnbuffer.htm
 tech.root: SecAuthN
 ms.assetid: e814ed68-07e7-4936-ba96-5411086f43f6
-
 ms.date: 12/05/2018
 ms.keywords: LsaFreeReturnBuffer, LsaFreeReturnBuffer function [Security], _lsa_lsafreereturnbuffer, ntsecapi/LsaFreeReturnBuffer, security.lsafreereturnbuffer
 ms.topic: function
-f1_keywords: 
- - "ntsecapi/LsaFreeReturnBuffer"
+f1_keywords:
+- ntsecapi/LsaFreeReturnBuffer
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Secur32.dll
+- Secur32.dll
 api_name:
- - LsaFreeReturnBuffer
+- LsaFreeReturnBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.DeferWindowPos
 title: DeferWindowPos function (winuser.h)
-
 description: Updates the specified multiple-window &#8211; position structure for the specified window.
 old-location: winmsg\deferwindowpos.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\deferwindowpos.htm
-
 ms.date: 12/05/2018
 ms.keywords: DeferWindowPos, DeferWindowPos function [Windows and Messages], HWND_BOTTOM, HWND_NOTOPMOST, HWND_TOP, HWND_TOPMOST, SWP_DRAWFRAME, SWP_FRAMECHANGED, SWP_HIDEWINDOW, SWP_NOACTIVATE, SWP_NOCOPYBITS, SWP_NOMOVE, SWP_NOOWNERZORDER, SWP_NOREDRAW, SWP_NOREPOSITION, SWP_NOSENDCHANGING, SWP_NOSIZE, SWP_NOZORDER, SWP_SHOWWINDOW, _win32_DeferWindowPos, _win32_deferwindowpos_cpp, winmsg.deferwindowpos, winui._win32_deferwindowpos, winuser/DeferWindowPos
 ms.topic: function
-f1_keywords: 
- - "winuser/DeferWindowPos"
+f1_keywords:
+- winuser/DeferWindowPos
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
- - ie_shims.dll
- - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+- User32.dll
+- API-MS-Win-NTUser-IE-Window-l1-1-0.dll
+- ie_shims.dll
+- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
 api_name:
- - DeferWindowPos
+- DeferWindowPos
 targetos: Windows
 req.typenames: 
 req.redist: 

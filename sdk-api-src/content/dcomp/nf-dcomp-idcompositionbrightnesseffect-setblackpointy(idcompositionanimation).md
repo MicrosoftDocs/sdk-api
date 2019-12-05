@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionBrightnessEffect.SetBlackPointY(IDCompositionAnimation)
 title: IDCompositionBrightnessEffect::SetBlackPointY(IDCompositionAnimation) (dcomp.h)
-
 description: Sets the y value of the black point.
 old-location: directcomp\idcompositionbrightnesseffect_setblackpointy_2.htm
 tech.root: directcomp
 ms.assetid: 3469E62F-4DAF-4FC7-9BBE-3B246260B1D5
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionBrightnessEffect interface [DirectComposition],SetBlackPointY method, IDCompositionBrightnessEffect.SetBlackPointY, IDCompositionBrightnessEffect.SetBlackPointY(IDCompositionAnimation), IDCompositionBrightnessEffect::SetBlackPointY, IDCompositionBrightnessEffect::SetBlackPointY(IDCompositionAnimation), SetBlackPointY, SetBlackPointY method [DirectComposition], SetBlackPointY method [DirectComposition],IDCompositionBrightnessEffect interface, dcomp/IDCompositionBrightnessEffect::SetBlackPointY, directcomp.idcompositionbrightnesseffect_setblackpointy_2
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionBrightnessEffect.SetBlackPointY"
+f1_keywords:
+- dcomp/IDCompositionBrightnessEffect.SetBlackPointY
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionBrightnessEffect.SetBlackPointY
+- IDCompositionBrightnessEffect.SetBlackPointY
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.IUrlAccessor.AddRequestParameter
 title: IUrlAccessor::AddRequestParameter (searchapi.h)
-
 description: Requests a property-value set.
 old-location: search\_search_IUrlAccessor_AddRequestParameter.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\addrequestparameter.htm
-
 ms.date: 12/05/2018
 ms.keywords: AddRequestParameter, AddRequestParameter method [search], AddRequestParameter method [search],IUrlAccessor interface, IUrlAccessor interface [search],AddRequestParameter method, IUrlAccessor.AddRequestParameter, IUrlAccessor::AddRequestParameter, _search_IUrlAccessor_AddRequestParameter, search._search_IUrlAccessor_AddRequestParameter, searchapi/IUrlAccessor::AddRequestParameter
 ms.topic: method
-f1_keywords: 
- - "searchapi/IUrlAccessor.AddRequestParameter"
+f1_keywords:
+- searchapi/IUrlAccessor.AddRequestParameter
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IUrlAccessor.AddRequestParameter
+- IUrlAccessor.AddRequestParameter
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

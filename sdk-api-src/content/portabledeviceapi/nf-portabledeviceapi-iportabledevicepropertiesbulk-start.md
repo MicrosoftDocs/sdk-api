@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevicePropertiesBulk.Start
 title: IPortableDevicePropertiesBulk::Start (portabledeviceapi.h)
-
 description: The Start method starts a queued operation.
 old-location: wpdsdk\iportabledevicepropertiesbulk_start.htm
 tech.root: wpd_sdk
 ms.assetid: a69afdc9-622d-45fc-b71e-6058d9d528b0
-
 ms.date: 12/05/2018
 ms.keywords: IPortableDevicePropertiesBulk interface [Windows Portable Devices SDK],Start method, IPortableDevicePropertiesBulk.Start, IPortableDevicePropertiesBulk::Start, IPortableDevicePropertiesBulkStart, Start, Start method [Windows Portable Devices SDK], Start method [Windows Portable Devices SDK],IPortableDevicePropertiesBulk interface, portabledeviceapi/IPortableDevicePropertiesBulk::Start, wpdsdk.iportabledevicepropertiesbulk_start
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDevicePropertiesBulk.Start"
+f1_keywords:
+- portabledeviceapi/IPortableDevicePropertiesBulk.Start
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDevicePropertiesBulk.Start
+- IPortableDevicePropertiesBulk.Start
 targetos: Windows
 req.typenames: 
 req.redist: 

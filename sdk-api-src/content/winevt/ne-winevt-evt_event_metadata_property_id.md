@@ -1,19 +1,17 @@
 ---
 UID: NE:winevt._EVT_EVENT_METADATA_PROPERTY_ID
 title: EVT_EVENT_METADATA_PROPERTY_ID (winevt.h)
-
 description: Defines the identifiers that identify the metadata properties of an event definition.
 old-location: wes\evt_event_metadata_property_id.htm
 tech.root: wes
 ms.assetid: d5a71e51-c080-4976-9f33-fe24b523ae81
-
 ms.date: 12/05/2018
 ms.keywords: EVT_EVENT_METADATA_PROPERTY_ID, EVT_EVENT_METADATA_PROPERTY_ID enumeration [EventLog], EventMetadataEventChannel, EventMetadataEventID, EventMetadataEventKeyword, EventMetadataEventLevel, EventMetadataEventMessageID, EventMetadataEventOpcode, EventMetadataEventTask, EventMetadataEventTemplate, EventMetadataEventVersion, EvtEventMetadataPropertyIdEND, wes.evt_event_metadata_property_id, winevt/EVT_EVENT_METADATA_PROPERTY_ID, winevt/EventMetadataEventChannel, winevt/EventMetadataEventID, winevt/EventMetadataEventKeyword, winevt/EventMetadataEventLevel, winevt/EventMetadataEventMessageID, winevt/EventMetadataEventOpcode, winevt/EventMetadataEventTask, winevt/EventMetadataEventTemplate, winevt/EventMetadataEventVersion, winevt/EvtEventMetadataPropertyIdEND
 ms.topic: enum
-f1_keywords: 
- - "winevt/EVT_EVENT_METADATA_PROPERTY_ID"
+f1_keywords:
+- winevt/EVT_EVENT_METADATA_PROPERTY_ID
 dev_langs:
- - c++
+- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinEvt.h
+- WinEvt.h
 api_name:
- - EVT_EVENT_METADATA_PROPERTY_ID
+- EVT_EVENT_METADATA_PROPERTY_ID
 targetos: Windows
 req.typenames: EVT_EVENT_METADATA_PROPERTY_ID
 req.redist: 

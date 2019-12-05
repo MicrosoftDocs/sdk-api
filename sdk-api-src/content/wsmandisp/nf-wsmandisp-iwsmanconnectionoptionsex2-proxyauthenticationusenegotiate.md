@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManConnectionOptionsEx2.ProxyAuthenticationUseNegotiate
 title: IWSManConnectionOptionsEx2::ProxyAuthenticationUseNegotiate (wsmandisp.h)
-
 description: Returns the value of the proxy authentication flag WSManFlagProxyAuthenticationUseNegotiate for use in the authenticationMechanism parameter of the IWSManConnectionOptionsEx2::SetProxy method.
 old-location: winrm\iwsmanconnectionoptionsex2_proxyauthenticationusenegotiate.htm
 tech.root: winrm
 ms.assetid: e7dfed5c-7897-4289-bd69-5f6fffaf66f7
-
 ms.date: 12/05/2018
 ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],ProxyAuthenticationUseNegotiate method, IWSManConnectionOptionsEx2.ProxyAuthenticationUseNegotiate, IWSManConnectionOptionsEx2::ProxyAuthenticationUseNegotiate, ProxyAuthenticationUseNegotiate, ProxyAuthenticationUseNegotiate method [Windows Remote Management], ProxyAuthenticationUseNegotiate method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_proxyauthenticationusenegotiate, wsmandisp/IWSManConnectionOptionsEx2::ProxyAuthenticationUseNegotiate
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManConnectionOptionsEx2.ProxyAuthenticationUseNegotiate"
+f1_keywords:
+- wsmandisp/IWSManConnectionOptionsEx2.ProxyAuthenticationUseNegotiate
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSManDisp.h
+- WSManDisp.h
 api_name:
- - IWSManConnectionOptionsEx2.ProxyAuthenticationUseNegotiate
+- IWSManConnectionOptionsEx2.ProxyAuthenticationUseNegotiate
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2

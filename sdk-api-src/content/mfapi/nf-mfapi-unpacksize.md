@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.UnpackSize
 title: UnpackSize function (mfapi.h)
-
 description: Gets the low-order and high-order UINT32 values from a UINT64 value that represnets a size.
 old-location: mf\unpacksize.htm
 tech.root: medfound
 ms.assetid: A98C2908-E566-4E2F-BED8-10C7D649F8B2
-
 ms.date: 12/05/2018
 ms.keywords: UnpackSize, UnpackSize function [Media Foundation], mf.unpacksize, mfapi/UnpackSize
 ms.topic: function
-f1_keywords: 
- - "mfapi/UnpackSize"
+f1_keywords:
+- mfapi/UnpackSize
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfapi.h
+- mfapi.h
 api_name:
- - UnpackSize
+- UnpackSize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITForwardInformation.Clear
 title: ITForwardInformation::Clear (tapi3if.h)
-
 description: The Clear method clears all forwarding information in this object.
 old-location: tapi3\itforwardinformation_clear.htm
 tech.root: Tapi
 ms.assetid: 721a4efc-e379-4553-a2a1-efb8831cda38
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [TAPI 2.2], Clear method [TAPI 2.2],ITForwardInformation interface, ITForwardInformation interface [TAPI 2.2],Clear method, ITForwardInformation.Clear, ITForwardInformation::Clear, _tapi3_itforwardinformation_clear, tapi3.itforwardinformation_clear, tapi3if/ITForwardInformation::Clear
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITForwardInformation.Clear"
+f1_keywords:
+- tapi3if/ITForwardInformation.Clear
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITForwardInformation.Clear
+- ITForwardInformation.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

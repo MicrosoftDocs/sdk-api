@@ -1,19 +1,17 @@
 ---
 UID: NF:imagehlp.TouchFileTimes
 title: TouchFileTimes function (imagehlp.h)
-
 description: Updates the date and time at which the specified file was last modified.
 old-location: base\touchfiletimes.htm
 tech.root: Debug
 ms.assetid: add84ca7-2497-4859-bc69-270ad493a08a
-
 ms.date: 12/05/2018
 ms.keywords: TouchFileTimes, TouchFileTimes function, _win32_touchfiletimes, base.touchfiletimes, imagehlp/TouchFileTimes
 ms.topic: function
-f1_keywords: 
- - "imagehlp/TouchFileTimes"
+f1_keywords:
+- imagehlp/TouchFileTimes
 dev_langs:
- - c++
+- c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Imagehlp.lib
 req.dll: Imagehlp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imagehlp.dll
+- Imagehlp.dll
 api_name:
- - TouchFileTimes
+- TouchFileTimes
 targetos: Windows
 req.typenames: 
 req.redist: 

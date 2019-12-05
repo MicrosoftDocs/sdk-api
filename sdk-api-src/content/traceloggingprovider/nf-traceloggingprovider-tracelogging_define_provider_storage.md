@@ -1,19 +1,17 @@
 ---
 UID: NF:traceloggingprovider.TRACELOGGING_DEFINE_PROVIDER_STORAGE
 title: TRACELOGGING_DEFINE_PROVIDER_STORAGE macro (traceloggingprovider.h)
-
 description: Allocates storage for a TraceLogging provider. This macro should only be used for advanced scenarios.
 old-location: tracelogging\TRACELOGGING_DEFINE_PROVIDER_STORAGE.htm
 tech.root: tracelogging
 ms.assetid: C7244C95-5F02-4336-ADFF-876514665C87
-
 ms.date: 12/05/2018
 ms.keywords: TRACELOGGING_DEFINE_PROVIDER_STORAGE, TRACELOGGING_DEFINE_PROVIDER_STORAGE macro, tracelogging.TRACELOGGING_DEFINE_PROVIDER_STORAGE, tracelogging.traceloggingproviderstorage, traceloggingprovider/TRACELOGGING_DEFINE_PROVIDER_STORAGE
 ms.topic: macro
-f1_keywords: 
- - "traceloggingprovider/TRACELOGGING_DEFINE_PROVIDER_STORAGE"
+f1_keywords:
+- traceloggingprovider/TRACELOGGING_DEFINE_PROVIDER_STORAGE
 dev_langs:
- - c++
+- c++
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - traceloggingprovider.h
+- traceloggingprovider.h
 api_name:
- - TRACELOGGING_DEFINE_PROVIDER_STORAGE
+- TRACELOGGING_DEFINE_PROVIDER_STORAGE
 targetos: Windows
 req.typenames: 
 req.redist: 

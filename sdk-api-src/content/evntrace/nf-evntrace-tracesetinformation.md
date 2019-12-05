@@ -1,19 +1,17 @@
 ---
 UID: NF:evntrace.TraceSetInformation
 title: TraceSetInformation function (evntrace.h)
-
 description: Enables or disables event tracing session settings for the specified information class.
 old-location: etw\tracesetinformation.htm
 tech.root: ETW
 ms.assetid: f4cdbe32-6885-4844-add5-560961c3dd1d
-
 ms.date: 12/05/2018
 ms.keywords: TraceSetInformation, TraceSetInformation function [ETW], etw.tracesetinformation, evntrace/TraceSetInformation
 ms.topic: function
-f1_keywords: 
- - "evntrace/TraceSetInformation"
+f1_keywords:
+- evntrace/TraceSetInformation
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib 
 req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7 and Windows Server 2008 R2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Sechost.dll
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
- - API-MS-Win-Eventing-Controller-l1-1-0.dll
- - KernelBase.dll
+- Sechost.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+- API-MS-Win-Eventing-Controller-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - TraceSetInformation
+- TraceSetInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

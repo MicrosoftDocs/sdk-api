@@ -1,19 +1,17 @@
 ---
 UID: NC:shlobj_core.LPFNDFMCALLBACK
 title: LPFNDFMCALLBACK (shlobj_core.h)
-
 description: LPFNDFMCALLBACK may be altered or unavailable.
 old-location: shell\LPFNDFMCALLBACK.htm
 tech.root: shell
 ms.assetid: a5635196-80de-4db9-9c3a-65f2b241b4a0
-
 ms.date: 12/05/2018
 ms.keywords: LPFNDFMCALLBACK, LPFNDFMCALLBACK callback, LPFNDFMCALLBACK callback function [Windows Shell], _win32_LPFNDFMCALLBACK, shell.LPFNDFMCALLBACK, shlobj_core/LPFNDFMCALLBACK
 ms.topic: callback
-f1_keywords: 
- - "shlobj_core/LPFNDFMCALLBACK"
+f1_keywords:
+- shlobj_core/LPFNDFMCALLBACK
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - LPFNDFMCALLBACK
+- LPFNDFMCALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

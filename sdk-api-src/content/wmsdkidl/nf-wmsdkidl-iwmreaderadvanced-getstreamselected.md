@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.GetStreamSelected
 title: IWMReaderAdvanced::GetStreamSelected (wmsdkidl.h)
-
 description: The GetStreamSelected method ascertains whether a particular stream is currently selected. This method can be used only when manual stream selection has been specified.
 old-location: wmformat\iwmreaderadvanced_getstreamselected.htm
 tech.root: wmformat
 ms.assetid: 083fc743-79be-43c6-ac4b-458c74f42fa0
-
 ms.date: 12/05/2018
 ms.keywords: GetStreamSelected, GetStreamSelected method [windows Media Format], GetStreamSelected method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetStreamSelected method, IWMReaderAdvanced.GetStreamSelected, IWMReaderAdvanced::GetStreamSelected, IWMReaderAdvancedGetStreamSelected, wmformat.iwmreaderadvanced_getstreamselected, wmsdkidl/IWMReaderAdvanced::GetStreamSelected
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced.GetStreamSelected"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced.GetStreamSelected
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced.GetStreamSelected
+- IWMReaderAdvanced.GetStreamSelected
 targetos: Windows
 req.typenames: 
 req.redist: 

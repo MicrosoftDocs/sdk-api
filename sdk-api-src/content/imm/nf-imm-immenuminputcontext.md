@@ -1,19 +1,17 @@
 ---
 UID: NF:imm.ImmEnumInputContext
 title: ImmEnumInputContext function (imm.h)
-
 description: Retrieves the input context for the specified thread.
 old-location: intl\immenuminputcontext.htm
 tech.root: Intl
 ms.assetid: b066af9a-5bcc-468b-bc1b-79b549a9e55c
-
 ms.date: 12/05/2018
 ms.keywords: 0, 1, ImmEnumInputContext, ImmEnumInputContext function [Internationalization for Windows Applications], Thread ID, _win32_ImmEnumInputContext, imm/ImmEnumInputContext, intl.immenuminputcontext
 ms.topic: function
-f1_keywords: 
- - "imm/ImmEnumInputContext"
+f1_keywords:
+- imm/ImmEnumInputContext
 dev_langs:
- - c++
+- c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imm32.dll
+- Imm32.dll
 api_name:
- - ImmEnumInputContext
+- ImmEnumInputContext
 targetos: Windows
 req.typenames: 
 req.redist: 

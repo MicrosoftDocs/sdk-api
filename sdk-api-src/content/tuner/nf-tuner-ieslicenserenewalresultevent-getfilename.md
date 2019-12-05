@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.GetFileName
 title: IESLicenseRenewalResultEvent::GetFileName (tuner.h)
-
 description: Gets the file name for the license to renew from a LicenseRenewalResult event.
 old-location: mstv\ieslicenserenewalresultevent_getfilename.htm
 tech.root: mstv
 ms.assetid: 6ef49a38-c005-4731-a1cb-d5a63ea94e71
-
 ms.date: 12/05/2018
 ms.keywords: GetFileName, GetFileName method [DirectShow], GetFileName method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetFileName method, IESLicenseRenewalResultEvent.GetFileName, IESLicenseRenewalResultEvent::GetFileName, mstv.ieslicenserenewalresultevent_getfilename, tuner/IESLicenseRenewalResultEvent::GetFileName
 ms.topic: method
-f1_keywords: 
- - "tuner/IESLicenseRenewalResultEvent.GetFileName"
+f1_keywords:
+- tuner/IESLicenseRenewalResultEvent.GetFileName
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IESLicenseRenewalResultEvent.GetFileName
+- IESLicenseRenewalResultEvent.GetFileName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CreateFontIndirectExW
 title: CreateFontIndirectExW function (wingdi.h)
-
 description: The CreateFontIndirectEx function specifies a logical font that has the characteristics in the specified structure. The font can subsequently be selected as the current font for any device context.
 old-location: gdi\createfontindirectex.htm
 tech.root: gdi
 ms.assetid: 1161b79e-f9c8-4073-97c4-1ccc1a78279b
-
 ms.date: 12/05/2018
 ms.keywords: CreateFontIndirectEx, CreateFontIndirectEx function [Windows GDI], CreateFontIndirectExA, CreateFontIndirectExW, _win32_CreateFontIndirectEx, gdi.createfontindirectex, wingdi/CreateFontIndirectEx, wingdi/CreateFontIndirectExA, wingdi/CreateFontIndirectExW
 ms.topic: function
-f1_keywords: 
- - "wingdi/CreateFontIndirectEx"
+f1_keywords:
+- wingdi/CreateFontIndirectEx
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - CreateFontIndirectEx
- - CreateFontIndirectExA
- - CreateFontIndirectExW
+- CreateFontIndirectEx
+- CreateFontIndirectExA
+- CreateFontIndirectExW
 targetos: Windows
 req.typenames: 
 req.redist: 

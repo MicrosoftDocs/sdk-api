@@ -1,19 +1,17 @@
 ---
 UID: NF:ntsecapi.LsaCreateTrustedDomainEx
 title: LsaCreateTrustedDomainEx function (ntsecapi.h)
-
 description: The LsaCreateTrustedDomainEx function establishes a new trusted domain by creating a new TrustedDomain object.
 old-location: security\lsacreatetrusteddomainex.htm
 tech.root: SecMgmt
 ms.assetid: 2f458098-9498-4f08-bd13-ac572678d734
-
 ms.date: 12/05/2018
 ms.keywords: LsaCreateTrustedDomainEx, LsaCreateTrustedDomainEx function [Security], _lsa_lsacreatetrusteddomainex, ntsecapi/LsaCreateTrustedDomainEx, security.lsacreatetrusteddomainex
 ms.topic: function
 f1_keywords:
 - ntsecapi/LsaCreateTrustedDomainEx
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

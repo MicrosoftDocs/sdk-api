@@ -5,10 +5,10 @@ description: Defines constants that specify protected session status.
 ms.date: 08/13/2019
 ms.keywords: D3D12_PROTECTED_SESSION_STATUS
 ms.topic: language-reference
-f1_keywords: 
- - "d3d12/D3D12_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAGS"
+f1_keywords:
+- d3d12/D3D12_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAGS
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -22,13 +22,13 @@ req.target-type:
 req.typenames: 
 req.umdf-ver: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_PROTECTED_SESSION_STATUS
+- D3D12_PROTECTED_SESSION_STATUS
 ---
 
 ## -description

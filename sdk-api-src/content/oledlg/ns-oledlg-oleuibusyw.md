@@ -1,19 +1,17 @@
 ---
 UID: NS:oledlg.tagOLEUIBUSYW
 title: OLEUIBUSYW (oledlg.h)
-
 description: Contains information that the OLE User Interface Library uses to initialize the Busy dialog box, and space for the library to return information when the dialog box is dismissed.
 old-location: com\oleuibusy_struct.htm
 tech.root: com
 ms.assetid: 53c30da9-36f3-40f0-8176-15df1a34bdb8
-
 ms.date: 12/05/2018
-ms.keywords: "*LPOLEUIBUSYW, *POLEUIBUSYW, BZ_DISABLECANCELBUTTON, BZ_DISABLERETRYBUTTON, BZ_DISABLESWITCHTOBUTTON, BZ_NOTRESPONDINGDIALOG, LPOLEUIBUSY, LPOLEUIBUSY structure pointer [COM], OLEUIBUSY, OLEUIBUSY structure [COM], OLEUIBUSYA, OLEUIBUSYW, POLEUIBUSY, POLEUIBUSY structure pointer [COM], _ole_OLEUIBUSY_str, com.oleuibusy_struct, oledlg/LPOLEUIBUSY, oledlg/OLEUIBUSY, oledlg/OLEUIBUSYA, oledlg/OLEUIBUSYW, oledlg/POLEUIBUSY"
+ms.keywords: '*LPOLEUIBUSYW, *POLEUIBUSYW, BZ_DISABLECANCELBUTTON, BZ_DISABLERETRYBUTTON, BZ_DISABLESWITCHTOBUTTON, BZ_NOTRESPONDINGDIALOG, LPOLEUIBUSY, LPOLEUIBUSY structure pointer [COM], OLEUIBUSY, OLEUIBUSY structure [COM], OLEUIBUSYA, OLEUIBUSYW, POLEUIBUSY, POLEUIBUSY structure pointer [COM], _ole_OLEUIBUSY_str, com.oleuibusy_struct, oledlg/LPOLEUIBUSY, oledlg/OLEUIBUSY, oledlg/OLEUIBUSYA, oledlg/OLEUIBUSYW, oledlg/POLEUIBUSY'
 ms.topic: struct
-f1_keywords: 
- - "oledlg/OLEUIBUSY"
+f1_keywords:
+- oledlg/OLEUIBUSY
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OleDlg.h
+- OleDlg.h
 api_name:
- - OLEUIBUSY
- - OLEUIBUSYA
- - OLEUIBUSYW
+- OLEUIBUSY
+- OLEUIBUSYA
+- OLEUIBUSYW
 targetos: Windows
 req.typenames: OLEUIBUSYW, *POLEUIBUSYW, *LPOLEUIBUSYW
 req.redist: 

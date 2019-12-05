@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdattachment.IWSDInboundAttachment.Read
 title: IWSDInboundAttachment::Read (wsdattachment.h)
-
 description: Retrieves attachment data from a message sent by a remote host.
 old-location: ncd\iwsdinboundattachment_read_method.htm
 tech.root: WsdApi
 ms.assetid: 66b8ce84-23b3-43f2-826d-c866b8bedab1
-
 ms.date: 12/05/2018
 ms.keywords: IWSDInboundAttachment interface,Read method, IWSDInboundAttachment.Read, IWSDInboundAttachment::Read, Read, Read method, Read method,IWSDInboundAttachment interface, ncd.iwsdinboundattachment_read_method, wsdattachment/IWSDInboundAttachment::Read
 ms.topic: method
-f1_keywords: 
- - "wsdattachment/IWSDInboundAttachment.Read"
+f1_keywords:
+- wsdattachment/IWSDInboundAttachment.Read
 dev_langs:
- - c++
+- c++
 req.header: wsdattachment.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDInboundAttachment.Read
+- IWSDInboundAttachment.Read
 targetos: Windows
 req.typenames: 
 req.redist: 

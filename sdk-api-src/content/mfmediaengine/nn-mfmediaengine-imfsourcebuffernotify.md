@@ -1,19 +1,17 @@
 ---
 UID: NN:mfmediaengine.IMFSourceBufferNotify
 title: IMFSourceBufferNotify (mfmediaengine.h)
-
 description: Provides functionality for raising events associated with IMFSourceBuffer.
 old-location: mf\imfsourcebuffernotify.htm
 tech.root: medfound
 ms.assetid: 4a823d37-f55a-4810-aaed-4e04f5371d3b
-
 ms.date: 12/05/2018
 ms.keywords: IMFSourceBufferNotify, IMFSourceBufferNotify interface [Media Foundation], IMFSourceBufferNotify interface [Media Foundation],described, mf.imfsourcebuffernotify, mfmediaengine/IMFSourceBufferNotify
 ms.topic: interface
-f1_keywords: 
- - "mfmediaengine/IMFSourceBufferNotify"
+f1_keywords:
+- mfmediaengine/IMFSourceBufferNotify
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFSourceBufferNotify
+- IMFSourceBufferNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

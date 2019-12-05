@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkOverlay.GetWindowInputRectangle
 title: IInkOverlay::GetWindowInputRectangle (msinkaut.h)
-
 description: Gets the window rectangle, in pixels, within which ink is drawn.
 old-location: tablet\inkoverlay_getwindowinputrectangle.htm
 tech.root: tablet
 ms.assetid: e0e4cabe-f8f1-48b5-a12a-789b7c9c5973
-
 ms.date: 12/05/2018
 ms.keywords: 0f47b4c7-7ba1-44a6-8f62-9e97c318bd2c, GetWindowInputRectangle, GetWindowInputRectangle method [Tablet PC], GetWindowInputRectangle method [Tablet PC],IInkOverlay interface, IInkOverlay, IInkOverlay interface [Tablet PC],GetWindowInputRectangle method, IInkOverlay.GetWindowInputRectangle, IInkOverlay::GetWindowInputRectangle, msinkaut/IInkOverlay::GetWindowInputRectangle, tablet.inkoverlay_getwindowinputrectangle
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkOverlay.GetWindowInputRectangle"
+f1_keywords:
+- msinkaut/IInkOverlay.GetWindowInputRectangle
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkOverlay.GetWindowInputRectangle
+- IInkOverlay.GetWindowInputRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 

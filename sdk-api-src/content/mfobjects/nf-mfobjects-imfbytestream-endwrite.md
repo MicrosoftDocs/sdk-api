@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFByteStream.EndWrite
 title: IMFByteStream::EndWrite (mfobjects.h)
-
 description: Completes an asynchronous write operation.
 old-location: mf\imfbytestream_endwrite.htm
 tech.root: medfound
 ms.assetid: d3e10e89-ef5d-41c5-b549-4bd632d9370d
-
 ms.date: 12/05/2018
 ms.keywords: EndWrite, EndWrite method [Media Foundation], EndWrite method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],EndWrite method, IMFByteStream.EndWrite, IMFByteStream::EndWrite, d3e10e89-ef5d-41c5-b549-4bd632d9370d, mf.imfbytestream_endwrite, mfobjects/IMFByteStream::EndWrite
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFByteStream.EndWrite"
+f1_keywords:
+- mfobjects/IMFByteStream.EndWrite
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFByteStream.EndWrite
+- IMFByteStream.EndWrite
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:lmaccess._NETLOGON_INFO_4
 title: NETLOGON_INFO_4 (lmaccess.h)
-
 description: Defines a level-4 control query response from a domain controller.
 old-location: winprog\netlogon_info_4.htm
 tech.root: DevNotes
 ms.assetid: 6a0ffd68-149f-4d5d-8a8a-69f429ca135a
-
 ms.date: 12/05/2018
-ms.keywords: "*PNETLOGON_INFO_4, NETLOGON_INFO_4, NETLOGON_INFO_4 structure [Windows API], PNETLOGON_INFO_4, PNETLOGON_INFO_4 structure pointer [Windows API], lmaccess/NETLOGON_INFO_4, lmaccess/PNETLOGON_INFO_4, winprog.netlogon_info_4"
+ms.keywords: '*PNETLOGON_INFO_4, NETLOGON_INFO_4, NETLOGON_INFO_4 structure [Windows API], PNETLOGON_INFO_4, PNETLOGON_INFO_4 structure pointer [Windows API], lmaccess/NETLOGON_INFO_4, lmaccess/PNETLOGON_INFO_4, winprog.netlogon_info_4'
 ms.topic: struct
-f1_keywords: 
- - "lmaccess/NETLOGON_INFO_4"
+f1_keywords:
+- lmaccess/NETLOGON_INFO_4
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmaccess.h
+- Lmaccess.h
 api_name:
- - NETLOGON_INFO_4
+- NETLOGON_INFO_4
 targetos: Windows
 req.typenames: NETLOGON_INFO_4, *PNETLOGON_INFO_4
 req.redist: 

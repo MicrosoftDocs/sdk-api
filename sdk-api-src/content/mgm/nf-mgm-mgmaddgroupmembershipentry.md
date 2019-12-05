@@ -1,19 +1,17 @@
 ---
 UID: NF:mgm.MgmAddGroupMembershipEntry
 title: MgmAddGroupMembershipEntry function (mgm.h)
-
 description: The MgmAddGroupMembershipEntry function notifies the multicast group manager that there are new receivers for the specified groups on the specified interface.
 old-location: rras\mgmaddgroupmembershipentry.htm
 tech.root: RRAS
 ms.assetid: b767961e-0935-4662-9f54-d82dfa0e7bd0
-
 ms.date: 12/05/2018
 ms.keywords: MGM_FORWARD_STATE, MGM_JOIN_STATE_FLAG, MgmAddGroupMembershipEntry, MgmAddGroupMembershipEntry function [RAS], _mpr_mgmaddgroupmembershipentry, mgm/MgmAddGroupMembershipEntry, rras.mgmaddgroupmembershipentry
 ms.topic: function
-f1_keywords: 
- - "mgm/MgmAddGroupMembershipEntry"
+f1_keywords:
+- mgm/MgmAddGroupMembershipEntry
 dev_langs:
- - c++
+- c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rtm.dll
+- Rtm.dll
 api_name:
- - MgmAddGroupMembershipEntry
+- MgmAddGroupMembershipEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

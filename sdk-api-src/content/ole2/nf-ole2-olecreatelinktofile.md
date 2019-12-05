@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleCreateLinkToFile
 title: OleCreateLinkToFile function (ole2.h)
-
 description: Creates an object that is linked to a file.
 old-location: com\olecreatelinktofile.htm
 tech.root: com
 ms.assetid: 06b013db-0554-4dbc-b19d-28314fb4fee0
-
 ms.date: 12/05/2018
 ms.keywords: OleCreateLinkToFile, OleCreateLinkToFile function [COM], _ole_OleCreateLinkToFile, com.olecreatelinktofile, ole2/OleCreateLinkToFile
 ms.topic: function
-f1_keywords: 
- - "ole2/OleCreateLinkToFile"
+f1_keywords:
+- ole2/OleCreateLinkToFile
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - OleCreateLinkToFile
+- OleCreateLinkToFile
 targetos: Windows
 req.typenames: 
 req.redist: 

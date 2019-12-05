@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxDevice.put_RingsBeforeAnswer
 title: IFaxDevice::put_RingsBeforeAnswer (faxcomex.h)
-
 description: The IFaxDevice::get_RingsBeforeAnswer property is a number that specifies the number of rings that occur before the fax device answers an incoming fax call.
 old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_ringsbeforeanswer_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_01iq.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxDevice interface [Fax Service],RingsBeforeAnswer property, IFaxDevice.RingsBeforeAnswer, IFaxDevice.get_RingsBeforeAnswer, IFaxDevice.put_RingsBeforeAnswer, IFaxDevice::RingsBeforeAnswer, IFaxDevice::get_RingsBeforeAnswer, IFaxDevice::put_RingsBeforeAnswer, RingsBeforeAnswer property [Fax Service], RingsBeforeAnswer property [Fax Service],IFaxDevice interface, _mfax_faxdevice.ringsbeforeanswer, fax._mfax_faxdevice_cpp_mfax_faxdevice_ringsbeforeanswer_cpp, fax._mfax_faxdevice_ringsbeforeanswer, faxcomex/IFaxDevice::RingsBeforeAnswer, faxcomex/IFaxDevice::get_RingsBeforeAnswer, faxcomex/IFaxDevice::put_RingsBeforeAnswer, put_RingsBeforeAnswer
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxDevice.RingsBeforeAnswer"
+f1_keywords:
+- faxcomex/IFaxDevice.RingsBeforeAnswer
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxDevice.RingsBeforeAnswer
- - IFaxDevice.get_RingsBeforeAnswer
- - IFaxDevice.put_RingsBeforeAnswer
- - IFaxDevice.get_RingsBeforeAnswer
- - IFaxDevice.put_RingsBeforeAnswer
+- IFaxDevice.RingsBeforeAnswer
+- IFaxDevice.get_RingsBeforeAnswer
+- IFaxDevice.put_RingsBeforeAnswer
+- IFaxDevice.get_RingsBeforeAnswer
+- IFaxDevice.put_RingsBeforeAnswer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt.JOBOBJECT_NET_RATE_CONTROL_INFORMATION
 title: JOBOBJECT_NET_RATE_CONTROL_INFORMATION (winnt.h)
-
 description: Contains information used to control the network traffic for a job. This structure is used by the SetInformationJobObject and QueryInformationJobObject functions with the JobObjectNetRateControlInformation information class.
 old-location: base\jobobject_net_rate_control_information.htm
 tech.root: ProcThread
 ms.assetid: CE55BC2A-B27C-490A-9D5A-C18FEC09638C
-
 ms.date: 12/05/2018
 ms.keywords: JOBOBJECT_NET_RATE_CONTROL_INFORMATION, JOBOBJECT_NET_RATE_CONTROL_INFORMATION structure, base.jobobject_net_rate_control_information, winnt/JOBOBJECT_NET_RATE_CONTROL_INFORMATION
 ms.topic: struct
-f1_keywords: 
- - "winnt/JOBOBJECT_NET_RATE_CONTROL_INFORMATION"
+f1_keywords:
+- winnt/JOBOBJECT_NET_RATE_CONTROL_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - JOBOBJECT_NET_RATE_CONTROL_INFORMATION
+- JOBOBJECT_NET_RATE_CONTROL_INFORMATION
 targetos: Windows
 req.typenames: JOBOBJECT_NET_RATE_CONTROL_INFORMATION
 req.redist: 

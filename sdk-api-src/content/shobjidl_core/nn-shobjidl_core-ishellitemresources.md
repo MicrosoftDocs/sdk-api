@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IShellItemResources
 title: IShellItemResources (shobjidl_core.h)
-
 description: Exposes methods to manipulate and query Shell item resources.
 old-location: shell\IShellItemResources.htm
 tech.root: shell
 ms.assetid: 4ca4a01e-e3c2-46aa-a700-b4b2a1e0112e
-
 ms.date: 12/05/2018
 ms.keywords: IShellItemResources, IShellItemResources interface [Windows Shell], IShellItemResources interface [Windows Shell],described, _shell_IShellItemResources, shell.IShellItemResources, shobjidl_core/IShellItemResources
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IShellItemResources"
+f1_keywords:
+- shobjidl_core/IShellItemResources
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IShellItemResources
+- IShellItemResources
 targetos: Windows
 req.typenames: 
 req.redist: 

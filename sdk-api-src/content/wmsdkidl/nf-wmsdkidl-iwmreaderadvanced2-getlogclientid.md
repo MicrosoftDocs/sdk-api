@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.GetLogClientID
 title: IWMReaderAdvanced2::GetLogClientID (wmsdkidl.h)
-
 description: The GetLogClientID method queries whether the reader logs the client's unique ID or an anonymous session ID.
 old-location: wmformat\iwmreaderadvanced2_getlogclientid.htm
 tech.root: wmformat
 ms.assetid: 034ad344-2266-4662-9797-70031f58f0cd
-
 ms.date: 12/05/2018
 ms.keywords: GetLogClientID, GetLogClientID method [windows Media Format], GetLogClientID method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced2 interface [windows Media Format],GetLogClientID method, IWMReaderAdvanced2.GetLogClientID, IWMReaderAdvanced2::GetLogClientID, IWMReaderAdvanced2GetLogClientID, wmformat.iwmreaderadvanced2_getlogclientid, wmsdkidl/IWMReaderAdvanced2::GetLogClientID
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced2.GetLogClientID"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced2.GetLogClientID
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced2.GetLogClientID
+- IWMReaderAdvanced2.GetLogClientID
 targetos: Windows
 req.typenames: 
 req.redist: 

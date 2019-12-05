@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi._DISPLAY_DEVICEW
 title: DISPLAY_DEVICEW (wingdi.h)
-
 description: The DISPLAY_DEVICE structure receives information about the display device specified by the iDevNum parameter of the EnumDisplayDevices function.
 old-location: gdi\display_device.htm
 tech.root: gdi
 ms.assetid: 9a7813fe-358a-44eb-99da-c63f98d055c3
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDISPLAY_DEVICEW, *PDISPLAY_DEVICEW, DISPLAY_DEVICE, DISPLAY_DEVICE structure [Windows GDI], DISPLAY_DEVICEA, DISPLAY_DEVICEW, PDISPLAY_DEVICE, PDISPLAY_DEVICE structure pointer [Windows GDI], _DISPLAY_DEVICEA, _DISPLAY_DEVICEW, _win32_DISPLAY_DEVICE_str, gdi.display_device, wingdi/DISPLAY_DEVICE, wingdi/DISPLAY_DEVICEA, wingdi/DISPLAY_DEVICEW, wingdi/PDISPLAY_DEVICE"
+ms.keywords: '*LPDISPLAY_DEVICEW, *PDISPLAY_DEVICEW, DISPLAY_DEVICE, DISPLAY_DEVICE structure [Windows GDI], DISPLAY_DEVICEA, DISPLAY_DEVICEW, PDISPLAY_DEVICE, PDISPLAY_DEVICE structure pointer [Windows GDI], _DISPLAY_DEVICEA, _DISPLAY_DEVICEW, _win32_DISPLAY_DEVICE_str, gdi.display_device, wingdi/DISPLAY_DEVICE, wingdi/DISPLAY_DEVICEA, wingdi/DISPLAY_DEVICEW, wingdi/PDISPLAY_DEVICE'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/DISPLAY_DEVICE"
+f1_keywords:
+- wingdi/DISPLAY_DEVICE
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - DISPLAY_DEVICE
- - DISPLAY_DEVICEA
- - DISPLAY_DEVICEW
+- DISPLAY_DEVICE
+- DISPLAY_DEVICEA
+- DISPLAY_DEVICEW
 targetos: Windows
 req.typenames: DISPLAY_DEVICEW, *PDISPLAY_DEVICEW, *LPDISPLAY_DEVICEW
 req.redist: 

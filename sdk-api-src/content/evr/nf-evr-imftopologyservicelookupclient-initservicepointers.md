@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IMFTopologyServiceLookupClient.InitServicePointers
 title: IMFTopologyServiceLookupClient::InitServicePointers (evr.h)
-
 description: Signals the mixer or presenter to query the enhanced video renderer (EVR) for interface pointers.
 old-location: mf\imftopologyservicelookupclient_initservicepointers.htm
 tech.root: medfound
 ms.assetid: b89f5a47-154c-455a-b5a2-db55e4972b21
-
 ms.date: 12/05/2018
 ms.keywords: IMFTopologyServiceLookupClient interface [Media Foundation],InitServicePointers method, IMFTopologyServiceLookupClient.InitServicePointers, IMFTopologyServiceLookupClient::InitServicePointers, InitServicePointers, InitServicePointers method [Media Foundation], InitServicePointers method [Media Foundation],IMFTopologyServiceLookupClient interface, b89f5a47-154c-455a-b5a2-db55e4972b21, evr/IMFTopologyServiceLookupClient::InitServicePointers, mf.imftopologyservicelookupclient_initservicepointers
 ms.topic: method
-f1_keywords: 
- - "evr/IMFTopologyServiceLookupClient.InitServicePointers"
+f1_keywords:
+- evr/IMFTopologyServiceLookupClient.InitServicePointers
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFTopologyServiceLookupClient.InitServicePointers
+- IMFTopologyServiceLookupClient.InitServicePointers
 targetos: Windows
 req.typenames: 
 req.redist: 

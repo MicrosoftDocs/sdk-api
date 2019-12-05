@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMAddressAccess2.AddAccessEntryEx
 title: IWMAddressAccess2::AddAccessEntryEx (wmsdkidl.h)
-
 description: The AddAccessEntryEx method adds an entry to the IP address access list.
 old-location: wmformat\iwmaddressaccess2_addaccessentryex.htm
 tech.root: wmformat
 ms.assetid: 8125f716-0523-4042-a1f1-019445fb7de9
-
 ms.date: 12/05/2018
 ms.keywords: AddAccessEntryEx, AddAccessEntryEx method [windows Media Format], AddAccessEntryEx method [windows Media Format],IWMAddressAccess2 interface, IWMAddressAccess2 interface [windows Media Format],AddAccessEntryEx method, IWMAddressAccess2.AddAccessEntryEx, IWMAddressAccess2::AddAccessEntryEx, IWMAddressAccess2AddAccessEntryEx, wmformat.iwmaddressaccess2_addaccessentryex, wmsdkidl/IWMAddressAccess2::AddAccessEntryEx
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMAddressAccess2.AddAccessEntryEx"
+f1_keywords:
+- wmsdkidl/IWMAddressAccess2.AddAccessEntryEx
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMAddressAccess2.AddAccessEntryEx
+- IWMAddressAccess2.AddAccessEntryEx
 targetos: Windows
 req.typenames: 
 req.redist: 

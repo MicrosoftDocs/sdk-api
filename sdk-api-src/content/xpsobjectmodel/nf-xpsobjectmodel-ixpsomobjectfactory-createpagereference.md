@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePageReference
 title: IXpsOMObjectFactory::CreatePageReference (xpsobjectmodel.h)
-
 description: Creates an IXpsOMPageReference interface that enables the virtualization of pages.
 old-location: xps\ixpsomobjectfactory_createpagereference.htm
 tech.root: printdocs
 ms.assetid: 037a7926-def4-4be3-b7c5-3c4c588e75ae
-
 ms.date: 12/05/2018
 ms.keywords: CreatePageReference, CreatePageReference method [XPS Documents and Packaging], CreatePageReference method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePageReference method, IXpsOMObjectFactory.CreatePageReference, IXpsOMObjectFactory::CreatePageReference, xps.ixpsomobjectfactory_createpagereference, xpsobjectmodel/IXpsOMObjectFactory::CreatePageReference
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMObjectFactory.CreatePageReference"
+f1_keywords:
+- xpsobjectmodel/IXpsOMObjectFactory.CreatePageReference
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreatePageReference
+- IXpsOMObjectFactory.CreatePageReference
 targetos: Windows
 req.typenames: 
 req.redist: 

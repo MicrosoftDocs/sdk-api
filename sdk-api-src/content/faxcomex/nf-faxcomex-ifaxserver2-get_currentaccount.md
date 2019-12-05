@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxServer2.get_CurrentAccount
 title: IFaxServer2::get_CurrentAccount (faxcomex.h)
-
 description: The IFaxServer2::CurrentAccount property returns the fax account for the user account that has connected to the fax server.
 old-location: fax\_mfax_faxserver2_cpp_mfax_faxserver2_currentaccount_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxserver2\currentaccount.htm
-
 ms.date: 12/05/2018
 ms.keywords: CurrentAccount property [Fax Service], CurrentAccount property [Fax Service],IFaxServer2 interface, IFaxServer2 interface [Fax Service],CurrentAccount property, IFaxServer2.CurrentAccount, IFaxServer2.get_CurrentAccount, IFaxServer2::CurrentAccount, IFaxServer2::get_CurrentAccount, _mfax_faxserver2.currentaccount, fax._mfax_faxserver2_cpp_mfax_faxserver2_currentaccount_cpp, fax._mfax_faxserver2_currentaccount, faxcomex/IFaxServer2::CurrentAccount, faxcomex/IFaxServer2::get_CurrentAccount, get_CurrentAccount
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxServer2.CurrentAccount"
+f1_keywords:
+- faxcomex/IFaxServer2.CurrentAccount
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxServer2.CurrentAccount
- - IFaxServer2.get_CurrentAccount
- - IFaxServer2.get_CurrentAccount
+- IFaxServer2.CurrentAccount
+- IFaxServer2.get_CurrentAccount
+- IFaxServer2.get_CurrentAccount
 targetos: Windows
 req.typenames: 
 req.redist: 

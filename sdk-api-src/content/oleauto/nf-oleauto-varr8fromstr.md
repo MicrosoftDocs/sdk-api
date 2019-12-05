@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarR8FromStr
 title: VarR8FromStr function (oleauto.h)
-
 description: Converts an OLECHAR string to a double value.
 old-location: automat\varr8fromstr.htm
 tech.root: automat
 ms.assetid: 8c22ce8a-0161-4d58-9902-724333292911
-
 ms.date: 12/05/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarR8FromStr, VarR8FromStr function [Automation], _oa96_VarR8FromStr, automat.varr8fromstr, oleauto/VarR8FromStr
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarR8FromStr"
+f1_keywords:
+- oleauto/VarR8FromStr
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarR8FromStr
+- VarR8FromStr
 targetos: Windows
 req.typenames: 
 req.redist: 

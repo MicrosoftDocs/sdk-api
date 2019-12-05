@@ -1,19 +1,17 @@
 ---
 UID: NF:http.HttpAddFragmentToCache
 title: HttpAddFragmentToCache function (http.h)
-
 description: The HttpAddFragmentToCache function caches a data fragment with a specified name by which it can be retrieved, or updates data cached under a specified name.
 old-location: http\httpaddfragmenttocache.htm
 tech.root: http
 ms.assetid: caef2e93-39cd-4282-97d9-870f8236d8c4
-
 ms.date: 12/05/2018
 ms.keywords: HttpAddFragmentToCache, HttpAddFragmentToCache function [HTTP], _http_httpaddfragmenttocache, http.httpaddfragmenttocache, http/HttpAddFragmentToCache
 ms.topic: function
 f1_keywords:
 - http/HttpAddFragmentToCache
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

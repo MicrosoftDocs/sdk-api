@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiReinstallFeatureA
 title: MsiReinstallFeatureA function (msi.h)
-
 description: Reinstalls features.
 old-location: setup\msireinstallfeature.htm
 tech.root: Msi
 ms.assetid: 0750838d-56c8-449c-b1fd-99c9426beb52
-
 ms.date: 12/05/2018
 ms.keywords: MsiReinstallFeature, MsiReinstallFeature function, MsiReinstallFeatureA, MsiReinstallFeatureW, REINSTALLMODE_FILEEQUALVERSION, REINSTALLMODE_FILEEXACT, REINSTALLMODE_FILEMISSING, REINSTALLMODE_FILEOLDERVERSION, REINSTALLMODE_FILEREPLACE, REINSTALLMODE_FILEVERIFY, REINSTALLMODE_MACHINEDATA, REINSTALLMODE_PACKAGE, REINSTALLMODE_SHORTCUT, REINSTALLMODE_USERDATA, _msi_msireinstallfeature, msi/MsiReinstallFeature, msi/MsiReinstallFeatureA, msi/MsiReinstallFeatureW, setup.msireinstallfeature
 ms.topic: function
-f1_keywords: 
- - "msi/MsiReinstallFeature"
+f1_keywords:
+- msi/MsiReinstallFeature
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiReinstallFeature
- - MsiReinstallFeatureA
- - MsiReinstallFeatureW
+- MsiReinstallFeature
+- MsiReinstallFeatureA
+- MsiReinstallFeatureW
 targetos: Windows
 req.typenames: 
 req.redist: 

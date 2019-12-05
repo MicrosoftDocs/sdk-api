@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorGreaterOrEqual
 title: XMVectorGreaterOrEqual function (directxmath.h)
-
 description: Performs a per-component test for greater-than-or-equal between two vectors.
 old-location: dxmath\xmvectorgreaterorequal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVectorGreaterOrEqual(XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorGreaterOrEqual, XMVectorGreaterOrEqual, XMVectorGreaterOrEqual method [DirectX Math Support APIs], dxmath.xmvectorgreaterorequal
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorGreaterOrEqual"
+f1_keywords:
+- directxmath/XMVectorGreaterOrEqual
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorGreaterOrEqual
+- XMVectorGreaterOrEqual
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource.SetCredentialFlags
 title: IWMSInternalAdminNetSource::SetCredentialFlags (wmsinternaladminnetsource.h)
-
 description: The SetCredentialFlags method is used to set the user preference for automatic password caching.
 old-location: wmformat\iwmsinternaladminnetsource_setcredentialflags.htm
 tech.root: wmformat
 ms.assetid: af6208b3-84f6-44d1-9587-140044f2b2f0
-
 ms.date: 12/05/2018
 ms.keywords: IWMSInternalAdminNetSource interface [windows Media Format],SetCredentialFlags method, IWMSInternalAdminNetSource.SetCredentialFlags, IWMSInternalAdminNetSource::SetCredentialFlags, IWMSInternalAdminNetSourceSetCredentialFlags, SetCredentialFlags, SetCredentialFlags method [windows Media Format], SetCredentialFlags method [windows Media Format],IWMSInternalAdminNetSource interface, wmformat.iwmsinternaladminnetsource_setcredentialflags, wmsinternaladminnetsource/IWMSInternalAdminNetSource::SetCredentialFlags
 ms.topic: method
-f1_keywords: 
- - "wmsinternaladminnetsource/IWMSInternalAdminNetSource.SetCredentialFlags"
+f1_keywords:
+- wmsinternaladminnetsource/IWMSInternalAdminNetSource.SetCredentialFlags
 dev_langs:
- - c++
+- c++
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMSInternalAdminNetSource.SetCredentialFlags
+- IWMSInternalAdminNetSource.SetCredentialFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfContext.GetEnd
 title: ITfContext::GetEnd (msctf.h)
-
 description: ITfContext::GetEnd method
 old-location: tsf\itfcontext_getend.htm
 tech.root: TSF
 ms.assetid: 4fdae76d-ad02-43a4-8a39-418cae847ae8
-
 ms.date: 12/05/2018
 ms.keywords: GetEnd, GetEnd method [Text Services Framework], GetEnd method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetEnd method, ITfContext.GetEnd, ITfContext::GetEnd, _tsf_itfcontext_getend_ref, msctf/ITfContext::GetEnd, tsf.itfcontext_getend
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfContext.GetEnd"
+f1_keywords:
+- msctf/ITfContext.GetEnd
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfContext.GetEnd
+- ITfContext.GetEnd
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

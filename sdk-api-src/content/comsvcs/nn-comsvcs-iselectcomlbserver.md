@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.ISelectCOMLBServer
 title: ISelectCOMLBServer (comsvcs.h)
-
 description: Activates the COM+ component load balancing service.
 old-location: cos\iselectcomlbserver.htm
 tech.root: cossdk
 ms.assetid: ce2edece-6375-4101-b288-c250fb21cfb7
-
 ms.date: 12/05/2018
 ms.keywords: ISelectCOMLBServer, ISelectCOMLBServer interface [COM+], ISelectCOMLBServer interface [COM+],described, _cos_ISelectCOMLBServer, comsvcs/ISelectCOMLBServer, cos.iselectcomlbserver
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/ISelectCOMLBServer"
+f1_keywords:
+- comsvcs/ISelectCOMLBServer
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISelectCOMLBServer
+- ISelectCOMLBServer
 targetos: Windows
 req.typenames: 
 req.redist: 

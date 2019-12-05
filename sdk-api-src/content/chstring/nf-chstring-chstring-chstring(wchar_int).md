@@ -1,19 +1,17 @@
 ---
 UID: NF:chstring.CHString.CHString(WCHAR,int)
 title: CHString::CHString(WCHAR,int) (chstring.h)
-
 description: Initializes a new CHString object with the specified data.
 old-location: wmi\chstring_chstring_wchar_int_.htm
 tech.root: WmiSdk
 ms.assetid: 2b0afbc0-3ce0-4bcc-8ad1-e3b546d3b0dd
-
 ms.date: 12/05/2018
-ms.keywords: "??0CHString@@QAE@GH@Z, CHString, CHString constructor [Windows Management Instrumentation], CHString constructor [Windows Management Instrumentation],CHString interface, CHString interface [Windows Management Instrumentation],CHString constructor, CHString.CHString, CHString.CHString(WCHAR,int), CHString::CHString, CHString::CHString(WCHAR,int), chstring/CHString::CHString, wmi.chstring_chstring_wchar_int_"
+ms.keywords: ??0CHString@@QAE@GH@Z, CHString, CHString constructor [Windows Management Instrumentation], CHString constructor [Windows Management Instrumentation],CHString interface, CHString interface [Windows Management Instrumentation],CHString constructor, CHString.CHString, CHString.CHString(WCHAR,int), CHString::CHString, CHString::CHString(WCHAR,int), chstring/CHString::CHString, wmi.chstring_chstring_wchar_int_
 ms.topic: method
-f1_keywords: 
- - "chstring/CHString.CHString"
+f1_keywords:
+- chstring/CHString.CHString
 dev_langs:
- - c++
+- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHString.CHString
- - ??0CHString@@QAE@GH@Z
+- CHString.CHString
+- ??0CHString@@QAE@GH@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

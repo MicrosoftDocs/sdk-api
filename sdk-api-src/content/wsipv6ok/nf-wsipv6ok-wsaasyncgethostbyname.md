@@ -1,19 +1,17 @@
 ---
 UID: NF:wsipv6ok.WSAAsyncGetHostByName
 title: WSAAsyncGetHostByName macro (wsipv6ok.h)
-
 description: The WSAAsyncGetHostByName function asynchronously retrieves host information that corresponds to a host name.Note  The WSAAsyncGetHostByName function is not designed to provide parallel resolution of several names.
 old-location: winsock\wsaasyncgethostbyname_2.htm
 tech.root: WinSock
 ms.assetid: 1a2b9c76-6e84-4ac2-b5c1-a2268edd0c49
-
 ms.date: 12/05/2018
 ms.keywords: WSAAsyncGetHostByName, WSAAsyncGetHostByName function [Winsock], _win32_wsaasyncgethostbyname_2, winsock.wsaasyncgethostbyname_2, wsipv6ok/WSAAsyncGetHostByName
 ms.topic: macro
-f1_keywords: 
- - "wsipv6ok/WSAAsyncGetHostByName"
+f1_keywords:
+- wsipv6ok/WSAAsyncGetHostByName
 dev_langs:
- - c++
+- c++
 req.header: wsipv6ok.h
 req.include-header: Winsock2.h, Winsock.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSAAsyncGetHostByName
+- WSAAsyncGetHostByName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.AbandonAllStoryboards
 title: IUIAnimationManager2::AbandonAllStoryboards (uianimation.h)
-
 description: Abandons all active storyboards.
 old-location: uianimation\iuianimationmanager2_abandonallstoryboards.htm
 tech.root: UIAnimation
 ms.assetid: E8DC71C0-CA68-4FD8-81CE-68450BF4EBA7
-
 ms.date: 12/05/2018
 ms.keywords: AbandonAllStoryboards, AbandonAllStoryboards method [Windows Animation], AbandonAllStoryboards method [Windows Animation],IUIAnimationManager2 interface, IUIAnimationManager2 interface [Windows Animation],AbandonAllStoryboards method, IUIAnimationManager2.AbandonAllStoryboards, IUIAnimationManager2::AbandonAllStoryboards, uianimation.iuianimationmanager2_abandonallstoryboards, uianimation/IUIAnimationManager2::AbandonAllStoryboards
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationManager2.AbandonAllStoryboards"
+f1_keywords:
+- uianimation/IUIAnimationManager2.AbandonAllStoryboards
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationManager2.AbandonAllStoryboards
+- IUIAnimationManager2.AbandonAllStoryboards
 targetos: Windows
 req.typenames: 
 req.redist: 

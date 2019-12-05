@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.EnumExportedTypes
 title: IMetaDataAssemblyImport::EnumExportedTypes (rometadataapi.h)
-
 description: Enumerates the exported types referenced in the assembly manifest in the current metadata scope.
 old-location: winrt\imetadataassemblyimport_enumexportedtypes.htm
 tech.root: WinRT
 ms.assetid: 8274d8e3-bcfb-4560-b925-2fede03be4cd
-
 ms.date: 12/05/2018
 ms.keywords: EnumExportedTypes, EnumExportedTypes method [Windows Runtime], EnumExportedTypes method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],EnumExportedTypes method, IMetaDataAssemblyImport.EnumExportedTypes, IMetaDataAssemblyImport::EnumExportedTypes, rometadataapi/IMetaDataAssemblyImport::EnumExportedTypes, winrt.imetadataassemblyimport_enumexportedtypes
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataAssemblyImport.EnumExportedTypes"
+f1_keywords:
+- rometadataapi/IMetaDataAssemblyImport.EnumExportedTypes
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataAssemblyImport.EnumExportedTypes
+- IMetaDataAssemblyImport.EnumExportedTypes
 targetos: Windows
 req.typenames: 
 req.redist: 

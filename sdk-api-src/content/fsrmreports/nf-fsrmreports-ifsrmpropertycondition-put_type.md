@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmPropertyCondition.put_Type
 title: IFsrmPropertyCondition::put_Type (fsrmreports.h)
-
 description: The comparison operator used to determine whether the property condition is met.
 old-location: fsrm\ifsrmpropertycondition_type.htm
 tech.root: fsrm
 ms.assetid: 2cec0753-20ec-4df4-9a74-c65bfed28070
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyCondition interface [File Server Resource Manager],Type property, IFsrmPropertyCondition.Type, IFsrmPropertyCondition.put_Type, IFsrmPropertyCondition::Type, IFsrmPropertyCondition::get_Type, IFsrmPropertyCondition::put_Type, Type property [File Server Resource Manager], Type property [File Server Resource Manager],IFsrmPropertyCondition interface, fs.ifsrmpropertycondition_type, fsrm.ifsrmpropertycondition_type, fsrmreports/IFsrmPropertyCondition::Type, fsrmreports/IFsrmPropertyCondition::get_Type, fsrmreports/IFsrmPropertyCondition::put_Type, put_Type
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmPropertyCondition.Type"
+f1_keywords:
+- fsrmreports/IFsrmPropertyCondition.Type
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPropertyCondition.Type
- - IFsrmPropertyCondition.get_Type
- - IFsrmPropertyCondition.put_Type
+- IFsrmPropertyCondition.Type
+- IFsrmPropertyCondition.get_Type
+- IFsrmPropertyCondition.put_Type
 targetos: Windows
 req.typenames: 
 req.redist: 

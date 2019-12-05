@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReader.Open
 title: IWMReader::Open (wmsdkidl.h)
-
 description: The Open method opens an ASF file for reading.
 old-location: wmformat\iwmreader_open.htm
 tech.root: wmformat
 ms.assetid: ab5b7f9e-b647-4121-abb3-2c9deb1f50cc
-
 ms.date: 12/05/2018
 ms.keywords: IWMReader interface [windows Media Format],Open method, IWMReader.Open, IWMReader::Open, IWMReaderOpen, Open, Open method [windows Media Format], Open method [windows Media Format],IWMReader interface, wmformat.iwmreader_open, wmsdkidl/IWMReader::Open
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReader.Open"
+f1_keywords:
+- wmsdkidl/IWMReader.Open
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReader.Open
+- IWMReader.Open
 targetos: Windows
 req.typenames: 
 req.redist: 

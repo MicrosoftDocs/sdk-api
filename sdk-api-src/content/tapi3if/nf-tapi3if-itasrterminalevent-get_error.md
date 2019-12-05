@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITASRTerminalEvent.get_Error
 title: ITASRTerminalEvent::get_Error (tapi3if.h)
-
 description: The get_Error method returns an HRESULT cast of the error associated with the terminal event.
 old-location: tapi3\itasrterminalevent_get_error.htm
 tech.root: Tapi
 ms.assetid: 7bccf537-a54b-4c40-866b-0f7a42149841
-
 ms.date: 12/05/2018
 ms.keywords: ITASRTerminalEvent interface [TAPI 2.2],get_Error method, ITASRTerminalEvent.get_Error, ITASRTerminalEvent::get_Error, _tapi3_itasrterminalevent_get_error, get_Error, get_Error method [TAPI 2.2], get_Error method [TAPI 2.2],ITASRTerminalEvent interface, tapi3.itasrterminalevent_get_error, tapi3if/ITASRTerminalEvent::get_Error
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITASRTerminalEvent.get_Error"
+f1_keywords:
+- tapi3if/ITASRTerminalEvent.get_Error
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITASRTerminalEvent.get_Error
+- ITASRTerminalEvent.get_Error
 targetos: Windows
 req.typenames: 
 req.redist: 

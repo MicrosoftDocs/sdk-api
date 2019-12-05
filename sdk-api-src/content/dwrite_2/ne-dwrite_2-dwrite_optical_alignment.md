@@ -1,19 +1,17 @@
 ---
 UID: NE:dwrite_2.DWRITE_OPTICAL_ALIGNMENT
 title: DWRITE_OPTICAL_ALIGNMENT (dwrite_2.h)
-
 description: The optical margin alignment mode.
 old-location: directwrite\dwrite_optical_alignment.htm
 tech.root: DirectWrite
 ms.assetid: 2EB04686-970A-4D79-BFF7-9AE8396A07BB
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_OPTICAL_ALIGNMENT, DWRITE_OPTICAL_ALIGNMENT enumeration [Direct Write], DWRITE_OPTICAL_ALIGNMENT_NONE, DWRITE_OPTICAL_ALIGNMENT_NO_SIDE_BEARINGS, directwrite.dwrite_optical_alignment, dwrite_2/DWRITE_OPTICAL_ALIGNMENT, dwrite_2/DWRITE_OPTICAL_ALIGNMENT_NONE, dwrite_2/DWRITE_OPTICAL_ALIGNMENT_NO_SIDE_BEARINGS
 ms.topic: enum
-f1_keywords: 
- - "dwrite_2/DWRITE_OPTICAL_ALIGNMENT"
+f1_keywords:
+- dwrite_2/DWRITE_OPTICAL_ALIGNMENT
 dev_langs:
- - c++
+- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite_2.h
+- dwrite_2.h
 api_name:
- - DWRITE_OPTICAL_ALIGNMENT
+- DWRITE_OPTICAL_ALIGNMENT
 targetos: Windows
 req.typenames: 
 req.redist: 

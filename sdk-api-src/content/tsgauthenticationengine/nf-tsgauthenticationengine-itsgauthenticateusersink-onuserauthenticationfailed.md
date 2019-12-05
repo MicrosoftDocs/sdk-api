@@ -1,19 +1,17 @@
 ---
 UID: NF:tsgauthenticationengine.ITSGAuthenticateUserSink.OnUserAuthenticationFailed
 title: ITSGAuthenticateUserSink::OnUserAuthenticationFailed (tsgauthenticationengine.h)
-
 description: Notifies Remote Desktop Gateway (RD Gateway) that the authentication plug-in failed to authenticate the user.
 old-location: termserv\itsgauthenticateusersink_onuserauthenticationfailed.htm
 tech.root: TermServ
 ms.assetid: d3d1e582-db1d-413d-8ec8-7fdb7c6e3609
-
 ms.date: 12/05/2018
 ms.keywords: ITSGAuthenticateUserSink interface [Remote Desktop Services],OnUserAuthenticationFailed method, ITSGAuthenticateUserSink.OnUserAuthenticationFailed, ITSGAuthenticateUserSink::OnUserAuthenticationFailed, OnUserAuthenticationFailed, OnUserAuthenticationFailed method [Remote Desktop Services], OnUserAuthenticationFailed method [Remote Desktop Services],ITSGAuthenticateUserSink interface, termserv.itsgauthenticateusersink_onuserauthenticationfailed, tsgauthenticationengine/ITSGAuthenticateUserSink::OnUserAuthenticationFailed
 ms.topic: method
-f1_keywords: 
- - "tsgauthenticationengine/ITSGAuthenticateUserSink.OnUserAuthenticationFailed"
+f1_keywords:
+- tsgauthenticationengine/ITSGAuthenticateUserSink.OnUserAuthenticationFailed
 dev_langs:
- - c++
+- c++
 req.header: tsgauthenticationengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - TSGAuthenticationEngine.h
+- TSGAuthenticationEngine.h
 api_name:
- - ITSGAuthenticateUserSink.OnUserAuthenticationFailed
+- ITSGAuthenticateUserSink.OnUserAuthenticationFailed
 targetos: Windows
 req.typenames: 
 req.redist: 

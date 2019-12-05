@@ -1,19 +1,17 @@
 ---
 UID: NF:fxsutility.CanSendToFaxRecipient
 title: CanSendToFaxRecipient function (fxsutility.h)
-
 description: Called by an application to determine whether to make a menu item or other UI available that calls the Windows Vista function SendToFaxRecipient.
 old-location: fax\_mfax_cansendtofaxrecipient.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\shellextension\f\faxshell_cansendtofaxrecipient.htm
-
 ms.date: 12/05/2018
 ms.keywords: CanSendToFaxRecipient, CanSendToFaxRecipient function [Fax Service], _mfax_cansendtofaxrecipient, fax._mfax_cansendtofaxrecipient, fxsutility/CanSendToFaxRecipient
 ms.topic: function
-f1_keywords: 
- - "fxsutility/CanSendToFaxRecipient"
+f1_keywords:
+- fxsutility/CanSendToFaxRecipient
 dev_langs:
- - c++
+- c++
 req.header: fxsutility.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxsutility.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fxsutility.dll
+- Fxsutility.dll
 api_name:
- - CanSendToFaxRecipient
+- CanSendToFaxRecipient
 targetos: Windows
 req.typenames: 
 req.redist: 

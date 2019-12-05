@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IOverlayNotify.OnPositionChange
 title: IOverlayNotify::OnPositionChange (strmif.h)
-
 description: The OnPositionChange method provides notification that the position has changed.
 old-location: dshow\ioverlaynotify_onpositionchange.htm
 tech.root: DirectShow
 ms.assetid: a5d110a6-5056-4fc1-9589-c2cc66566322
-
 ms.date: 12/05/2018
 ms.keywords: IOverlayNotify interface [DirectShow],OnPositionChange method, IOverlayNotify.OnPositionChange, IOverlayNotify::OnPositionChange, IOverlayNotifyOnPositionChange, OnPositionChange, OnPositionChange method [DirectShow], OnPositionChange method [DirectShow],IOverlayNotify interface, dshow.ioverlaynotify_onpositionchange, strmif/IOverlayNotify::OnPositionChange
 ms.topic: method
-f1_keywords: 
- - "strmif/IOverlayNotify.OnPositionChange"
+f1_keywords:
+- strmif/IOverlayNotify.OnPositionChange
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IOverlayNotify.OnPositionChange
+- IOverlayNotify.OnPositionChange
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:http.HttpSetServerSessionProperty
 title: HttpSetServerSessionProperty function (http.h)
-
 description: Sets a new server session property or modifies an existing property on the specified server session.
 old-location: http\httpsetserversessionproperty.htm
 tech.root: http
 ms.assetid: d655832c-68a1-42d1-ac91-964884bf2dac
-
 ms.date: 12/05/2018
 ms.keywords: HttpServerAuthenticationProperty, HttpServerChannelBindProperty, HttpServerExtendedAuthenticationProperty, HttpServerLoggingProperty, HttpServerQosProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, HttpSetServerSessionProperty, HttpSetServerSessionProperty function [HTTP], http.httpsetserversessionproperty, http/HttpSetServerSessionProperty
 ms.topic: function
 f1_keywords:
 - http/HttpSetServerSessionProperty
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

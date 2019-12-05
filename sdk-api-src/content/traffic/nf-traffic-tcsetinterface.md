@@ -1,19 +1,17 @@
 ---
 UID: NF:traffic.TcSetInterface
 title: TcSetInterface function (traffic.h)
-
 description: The TcSetInterface function sets individual parameters for a given interface.
 old-location: qos\tcsetinterface.htm
 tech.root: QOS
 ms.assetid: 7ca28fac-999c-4386-81e7-65003e89d9c5
-
 ms.date: 12/05/2018
 ms.keywords: TcSetInterface, TcSetInterface function [QOS], _gqos_tcsetinterface, qos.tcsetinterface, traffic/TcSetInterface
 ms.topic: function
-f1_keywords: 
- - "traffic/TcSetInterface"
+f1_keywords:
+- traffic/TcSetInterface
 dev_langs:
- - c++
+- c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Traffic.lib
 req.dll: Traffic.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Traffic.dll
+- Traffic.dll
 api_name:
- - TcSetInterface
+- TcSetInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

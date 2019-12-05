@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSrcElementsEx.GetKeySystem
 title: IMFMediaEngineSrcElementsEx::GetKeySystem (mfmediaengine.h)
-
 description: Gets the key system for the given source element index.
 old-location: mf\imfmediaenginesrcelementsex_getkeysystem.htm
 tech.root: medfound
 ms.assetid: 5d8db178-a17d-4920-9eed-b2dfba9f05fc
-
 ms.date: 12/05/2018
 ms.keywords: GetKeySystem, GetKeySystem method [Media Foundation], GetKeySystem method [Media Foundation],IMFMediaEngineSrcElementsEx interface, IMFMediaEngineSrcElementsEx interface [Media Foundation],GetKeySystem method, IMFMediaEngineSrcElementsEx.GetKeySystem, IMFMediaEngineSrcElementsEx::GetKeySystem, mf.imfmediaenginesrcelementsex_getkeysystem, mfmediaengine/IMFMediaEngineSrcElementsEx::GetKeySystem
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineSrcElementsEx.GetKeySystem"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineSrcElementsEx.GetKeySystem
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineSrcElementsEx.GetKeySystem
+- IMFMediaEngineSrcElementsEx.GetKeySystem
 targetos: Windows
 req.typenames: 
 req.redist: 

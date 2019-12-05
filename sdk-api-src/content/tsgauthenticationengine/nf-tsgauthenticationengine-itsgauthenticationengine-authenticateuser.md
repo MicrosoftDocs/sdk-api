@@ -1,19 +1,17 @@
 ---
 UID: NF:tsgauthenticationengine.ITSGAuthenticationEngine.AuthenticateUser
 title: ITSGAuthenticationEngine::AuthenticateUser (tsgauthenticationengine.h)
-
 description: Authenticates a user.
 old-location: termserv\itsgauthenticationengine_authenticateuser.htm
 tech.root: TermServ
 ms.assetid: a378c28f-ecd1-43db-b998-487176f656f5
-
 ms.date: 12/05/2018
 ms.keywords: AuthenticateUser, AuthenticateUser method [Remote Desktop Services], AuthenticateUser method [Remote Desktop Services],ITSGAuthenticationEngine interface, ITSGAuthenticationEngine interface [Remote Desktop Services],AuthenticateUser method, ITSGAuthenticationEngine.AuthenticateUser, ITSGAuthenticationEngine::AuthenticateUser, termserv.itsgauthenticationengine_authenticateuser, tsgauthenticationengine/ITSGAuthenticationEngine::AuthenticateUser
 ms.topic: method
-f1_keywords: 
- - "tsgauthenticationengine/ITSGAuthenticationEngine.AuthenticateUser"
+f1_keywords:
+- tsgauthenticationengine/ITSGAuthenticationEngine.AuthenticateUser
 dev_langs:
- - c++
+- c++
 req.header: tsgauthenticationengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - TSGAuthenticationEngine.h
+- TSGAuthenticationEngine.h
 api_name:
- - ITSGAuthenticationEngine.AuthenticateUser
+- ITSGAuthenticationEngine.AuthenticateUser
 targetos: Windows
 req.typenames: 
 req.redist: 

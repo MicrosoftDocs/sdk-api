@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventProperty.get_Name
 title: IEventProperty::get_Name (eventsys.h)
-
 description: The name of the event property.
 old-location: com\ieventproperty_name.htm
 tech.root: com
 ms.assetid: 9bc083fe-3a11-400b-83c2-d0ac4bb8d0c5
-
 ms.date: 12/05/2018
 ms.keywords: IEventProperty interface [COM],Name property, IEventProperty.Name, IEventProperty.get_Name, IEventProperty::Name, IEventProperty::get_Name, IEventProperty::put_Name, Name property [COM], Name property [COM],IEventProperty interface, _com_ieventproperty_name, com.ieventproperty_name, eventsys/IEventProperty::Name, eventsys/IEventProperty::get_Name, eventsys/IEventProperty::put_Name, get_Name
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventProperty.Name"
+f1_keywords:
+- eventsys/IEventProperty.Name
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IEventProperty.Name
- - IEventProperty.get_Name
- - IEventProperty.put_Name
+- IEventProperty.Name
+- IEventProperty.get_Name
+- IEventProperty.put_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

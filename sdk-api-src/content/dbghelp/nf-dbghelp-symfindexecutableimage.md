@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymFindExecutableImage
 title: SymFindExecutableImage function (dbghelp.h)
-
 description: Locates an executable file in the process search path.
 old-location: base\symfindexecutableimage.htm
 tech.root: Debug
 ms.assetid: e81ff4bd-b9a0-4c90-86cb-67e721e2fd1b
-
 ms.date: 12/05/2018
 ms.keywords: SymFindExecutableImage, SymFindExecutableImage function, SymFindExecutableImageW, base.symfindexecutableimage, dbghelp/SymFindExecutableImage, dbghelp/SymFindExecutableImageW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymFindExecutableImage"
+f1_keywords:
+- dbghelp/SymFindExecutableImage
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymFindExecutableImage
- - SymFindExecutableImage
- - SymFindExecutableImageW
+- SymFindExecutableImage
+- SymFindExecutableImage
+- SymFindExecutableImageW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.6 or later

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMVfwCaptureDialogs.SendDriverMessage
 title: IAMVfwCaptureDialogs::SendDriverMessage (strmif.h)
-
 description: The SendDriverMessage method sends a driver-specific message.
 old-location: dshow\iamvfwcapturedialogs_senddrivermessage.htm
 tech.root: DirectShow
 ms.assetid: 0a8ba932-0f31-4768-b5e3-15ec8533a574
-
 ms.date: 12/05/2018
 ms.keywords: IAMVfwCaptureDialogs interface [DirectShow],SendDriverMessage method, IAMVfwCaptureDialogs.SendDriverMessage, IAMVfwCaptureDialogs::SendDriverMessage, IAMVfwCaptureDialogsSendDriverMessage, SendDriverMessage, SendDriverMessage method [DirectShow], SendDriverMessage method [DirectShow],IAMVfwCaptureDialogs interface, dshow.iamvfwcapturedialogs_senddrivermessage, strmif/IAMVfwCaptureDialogs::SendDriverMessage
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMVfwCaptureDialogs.SendDriverMessage"
+f1_keywords:
+- strmif/IAMVfwCaptureDialogs.SendDriverMessage
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVfwCaptureDialogs.SendDriverMessage
+- IAMVfwCaptureDialogs.SendDriverMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

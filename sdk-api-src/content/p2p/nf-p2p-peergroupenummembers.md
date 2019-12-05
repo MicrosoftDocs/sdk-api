@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGroupEnumMembers
 title: PeerGroupEnumMembers function (p2p.h)
-
 description: The PeerGroupEnumMembers function creates an enumeration of available peer group members and the associated membership information.
 old-location: p2p\peergroupenummembers.htm
 tech.root: P2PSdk
 ms.assetid: 1201ce0b-961a-4848-9b9c-ad6491e3ff4a
-
 ms.date: 12/05/2018
 ms.keywords: PEER_MEMBER_PRESENT, PeerGroupEnumMembers, PeerGroupEnumMembers function [Peer Networking], p2p.peergroupenummembers, p2p/PeerGroupEnumMembers
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGroupEnumMembers"
+f1_keywords:
+- p2p/PeerGroupEnumMembers
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerGroupEnumMembers
+- PeerGroupEnumMembers
 targetos: Windows
 req.typenames: 
 req.redist: 

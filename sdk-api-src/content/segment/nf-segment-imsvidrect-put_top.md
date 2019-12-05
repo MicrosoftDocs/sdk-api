@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidRect.put_Top
 title: IMSVidRect::put_Top (segment.h)
-
 description: The put_Top method specifies the top y-coordinate of the rectangle. This coordinate is relative to the rectangle's associated window.
 old-location: mstv\imsvidrect_put_top.htm
 tech.root: mstv
 ms.assetid: ee3dbbd2-a8b4-496b-84e6-b0d7615f6a1e
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],put_Top method, IMSVidRect.put_Top, IMSVidRect::put_Top, IMSVidRectput_Top, mstv.imsvidrect_put_top, put_Top, put_Top method [Microsoft TV Technologies], put_Top method [Microsoft TV Technologies],IMSVidRect interface, segment/IMSVidRect::put_Top
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidRect.put_Top"
+f1_keywords:
+- segment/IMSVidRect.put_Top
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidRect.put_Top
+- IMSVidRect.put_Top
 targetos: Windows
 req.typenames: 
 req.redist: 

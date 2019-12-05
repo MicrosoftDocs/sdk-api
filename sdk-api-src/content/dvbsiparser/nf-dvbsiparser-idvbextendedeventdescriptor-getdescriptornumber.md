@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbExtendedEventDescriptor.GetDescriptorNumber
 title: IDvbExtendedEventDescriptor::GetDescriptorNumber (dvbsiparser.h)
-
 description: Gets the descriptor number from a Digital Video Broadcast (DVB) extended event descriptor.
 old-location: mstv\idvbextendedeventdescriptor_getdescriptornumber.htm
 tech.root: mstv
 ms.assetid: 5cf156fe-bfdd-444d-be4e-422c11ab08dc
-
 ms.date: 12/05/2018
 ms.keywords: GetDescriptorNumber, GetDescriptorNumber method [Microsoft TV Technologies], GetDescriptorNumber method [Microsoft TV Technologies],IDvbExtendedEventDescriptor interface, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],GetDescriptorNumber method, IDvbExtendedEventDescriptor.GetDescriptorNumber, IDvbExtendedEventDescriptor::GetDescriptorNumber, dvbsiparser/IDvbExtendedEventDescriptor::GetDescriptorNumber, mstv.idvbextendedeventdescriptor_getdescriptornumber
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbExtendedEventDescriptor.GetDescriptorNumber"
+f1_keywords:
+- dvbsiparser/IDvbExtendedEventDescriptor.GetDescriptorNumber
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbExtendedEventDescriptor.GetDescriptorNumber
+- IDvbExtendedEventDescriptor.GetDescriptorNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

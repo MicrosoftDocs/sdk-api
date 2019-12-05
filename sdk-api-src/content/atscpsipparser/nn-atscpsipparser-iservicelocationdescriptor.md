@@ -1,19 +1,17 @@
 ---
 UID: NN:atscpsipparser.IServiceLocationDescriptor
 title: IServiceLocationDescriptor (atscpsipparser.h)
-
 description: Gets information from the Service Location Descriptor in an Advanced Television Systems Committee (ATSC) Virtual Channel Table (VCT).
 old-location: mstv\iservicelocationdescriptor.htm
 tech.root: mstv
 ms.assetid: 43dd800b-c51d-4a2f-ad59-943cb4975066
-
 ms.date: 12/05/2018
 ms.keywords: IServiceLocationDescriptor, IServiceLocationDescriptor interface [Microsoft TV Technologies], IServiceLocationDescriptor interface [Microsoft TV Technologies],described, atscpsipparser/IServiceLocationDescriptor, mstv.iservicelocationdescriptor
 ms.topic: interface
-f1_keywords: 
- - "atscpsipparser/IServiceLocationDescriptor"
+f1_keywords:
+- atscpsipparser/IServiceLocationDescriptor
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: Atscpsipparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IServiceLocationDescriptor
+- IServiceLocationDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

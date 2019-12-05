@@ -1,19 +1,17 @@
 ---
 UID: NE:wmsdkidl.WMT_ATTR_IMAGETYPE
 title: WMT_ATTR_IMAGETYPE (wmsdkidl.h)
-
 description: The WMT_ATTR_IMAGETYPE enumeration type lists image types that can be stored in the header of an ASF file.
 old-location: wmformat\wmt_attr_imagetype.htm
 tech.root: wmformat
 ms.assetid: 0e032796-4bbf-4307-982f-560a56506db2
-
 ms.date: 12/05/2018
 ms.keywords: WMT_ATTR_IMAGETYPE, WMT_ATTR_IMAGETYPE enumeration [windows Media Format], WMT_IMAGETYPE_BITMAP, WMT_IMAGETYPE_GIF, WMT_IMAGETYPE_JPEG, wmformat.wmt_attr_imagetype, wmsdkidl/WMT_ATTR_IMAGETYPE, wmsdkidl/WMT_IMAGETYPE_BITMAP, wmsdkidl/WMT_IMAGETYPE_GIF, wmsdkidl/WMT_IMAGETYPE_JPEG
 ms.topic: enum
-f1_keywords: 
- - "wmsdkidl/WMT_ATTR_IMAGETYPE"
+f1_keywords:
+- wmsdkidl/WMT_ATTR_IMAGETYPE
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WMT_ATTR_IMAGETYPE
+- WMT_ATTR_IMAGETYPE
 targetos: Windows
 req.typenames: WMT_ATTR_IMAGETYPE
 req.redist: 

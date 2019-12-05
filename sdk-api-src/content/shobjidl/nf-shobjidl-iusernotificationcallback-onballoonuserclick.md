@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IUserNotificationCallback.OnBalloonUserClick
 title: IUserNotificationCallback::OnBalloonUserClick (shobjidl.h)
-
 description: Called when the user clicks the balloon. The application may respond with an action that is suitable for the balloon being clicked.
 old-location: shell\IUserNotificationCallback_OnBalloonUserClick.htm
 tech.root: shell
 ms.assetid: b7360a2b-30ed-459e-ab6d-56a2127c2668
-
 ms.date: 12/05/2018
 ms.keywords: IUserNotificationCallback interface [Windows Shell],OnBalloonUserClick method, IUserNotificationCallback.OnBalloonUserClick, IUserNotificationCallback::OnBalloonUserClick, OnBalloonUserClick, OnBalloonUserClick method [Windows Shell], OnBalloonUserClick method [Windows Shell],IUserNotificationCallback interface, _shell_IUserNotificationCallback_OnBalloonUserClick, shell.IUserNotificationCallback_OnBalloonUserClick, shobjidl/IUserNotificationCallback::OnBalloonUserClick
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IUserNotificationCallback.OnBalloonUserClick"
+f1_keywords:
+- shobjidl/IUserNotificationCallback.OnBalloonUserClick
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IUserNotificationCallback.OnBalloonUserClick
+- IUserNotificationCallback.OnBalloonUserClick
 targetos: Windows
 req.typenames: 
 req.redist: 

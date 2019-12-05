@@ -1,19 +1,17 @@
 ---
 UID: NF:certenc.ICertEncodeLongArray.Reset
 title: ICertEncodeLongArray::Reset (certenc.h)
-
 description: Specifies the size of the array in this object.
 old-location: security\icertencodelongarray_reset.htm
 tech.root: SecCrypto
 ms.assetid: 4b5821e0-c81a-47b7-98b0-2a293967d8f6
-
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeLongArray object [Security],Reset method, ICertEncodeLongArray interface [Security],Reset method, ICertEncodeLongArray.Reset, ICertEncodeLongArray::Reset, Reset, Reset method [Security], Reset method [Security],CCertEncodeLongArray object, Reset method [Security],ICertEncodeLongArray interface, _certsrv_icertencodelongarray_reset, certenc/ICertEncodeLongArray::Reset, security.icertencodelongarray_reset
 ms.topic: method
-f1_keywords: 
- - "certenc/ICertEncodeLongArray.Reset"
+f1_keywords:
+- certenc/ICertEncodeLongArray.Reset
 dev_langs:
- - c++
+- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenc.dll
+- Certenc.dll
 api_name:
- - ICertEncodeLongArray.Reset
- - CCertEncodeLongArray.Reset
+- ICertEncodeLongArray.Reset
+- CCertEncodeLongArray.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingMethod.get_Priority
 title: IFaxInboundRoutingMethod::get_Priority (faxcomex.h)
-
 description: The Priority property is a value associated with the order in which the fax service calls the routing method when the service receives a fax job.
 old-location: fax\_mfax_faxinboundroutingmethod_priority_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4kqh_cpp.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxInboundRoutingMethod interface [Fax Service],Priority property, IFaxInboundRoutingMethod.Priority, IFaxInboundRoutingMethod.get_Priority, IFaxInboundRoutingMethod::Priority, IFaxInboundRoutingMethod::get_Priority, IFaxInboundRoutingMethod::put_Priority, Priority property [Fax Service], Priority property [Fax Service],IFaxInboundRoutingMethod interface, _mfax_faxinboundroutingmethod.priority_cpp, fax._mfax_faxinboundroutingmethod_priority_cpp, faxcomex/IFaxInboundRoutingMethod::Priority, faxcomex/IFaxInboundRoutingMethod::get_Priority, faxcomex/IFaxInboundRoutingMethod::put_Priority, get_Priority
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxInboundRoutingMethod.Priority"
+f1_keywords:
+- faxcomex/IFaxInboundRoutingMethod.Priority
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxInboundRoutingMethod.Priority
- - IFaxInboundRoutingMethod.get_Priority
- - IFaxInboundRoutingMethod.put_Priority
+- IFaxInboundRoutingMethod.Priority
+- IFaxInboundRoutingMethod.get_Priority
+- IFaxInboundRoutingMethod.put_Priority
 targetos: Windows
 req.typenames: 
 req.redist: 

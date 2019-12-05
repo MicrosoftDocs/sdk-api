@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiRecordSetStringA
 title: MsiRecordSetStringA function (msiquery.h)
-
 description: The MsiRecordSetString function copies a string into the designated field.
 old-location: setup\msirecordsetstring.htm
 tech.root: Msi
 ms.assetid: 225454be-b653-4679-ae77-2280bd3c8d69
-
 ms.date: 12/05/2018
 ms.keywords: MsiRecordSetString, MsiRecordSetString function, MsiRecordSetStringA, MsiRecordSetStringW, _msi_msirecordsetstring, msiquery/MsiRecordSetString, msiquery/MsiRecordSetStringA, msiquery/MsiRecordSetStringW, setup.msirecordsetstring
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiRecordSetString"
+f1_keywords:
+- msiquery/MsiRecordSetString
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
- - Ext-MS-Win-MSI-Misc-l1-1-0.dll
+- Msi.dll
+- Ext-MS-Win-MSI-Misc-l1-1-0.dll
 api_name:
- - MsiRecordSetString
- - MsiRecordSetStringA
- - MsiRecordSetStringW
+- MsiRecordSetString
+- MsiRecordSetStringA
+- MsiRecordSetStringW
 targetos: Windows
 req.typenames: 
 req.redist: 

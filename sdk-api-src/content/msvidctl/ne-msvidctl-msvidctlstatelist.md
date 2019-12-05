@@ -1,19 +1,17 @@
 ---
 UID: NE:msvidctl.MSVidCtlStateList
 title: MSVidCtlStateList (msvidctl.h)
-
 description: This topic applies to Windows XP or later.
 old-location: mstv\msvidctlstatelist.htm
 tech.root: mstv
 ms.assetid: b4da9c6e-3235-4c78-b9e1-57c9d06fccbc
-
 ms.date: 12/05/2018
 ms.keywords: MSVidCtlStateList, MSVidCtlStateList enumeration [Microsoft TV Technologies], MSVidCtlStateListEnumeration, STATE_PAUSE, STATE_PLAY, STATE_STOP, STATE_UNBUILT, enumeration [Microsoft TV Technologies], mstv.msvidctlstatelist, msvidctl/MSVidCtlStateList, msvidctl/STATE_PAUSE, msvidctl/STATE_PLAY, msvidctl/STATE_STOP, msvidctl/STATE_UNBUILT
 ms.topic: enum
-f1_keywords: 
- - "msvidctl/MSVidCtlStateList"
+f1_keywords:
+- msvidctl/MSVidCtlStateList
 dev_langs:
- - c++
+- c++
 req.header: msvidctl.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msvidctl.h
+- msvidctl.h
 api_name:
- - MSVidCtlStateList
+- MSVidCtlStateList
 targetos: Windows
 req.typenames: MSVidCtlStateList
 req.redist: 

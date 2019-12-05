@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.get_PercentCompletion
 title: IWdsTransportClient::get_PercentCompletion (wdstptmgmt.h)
-
 description: Receives the percentage of the current object that has been downloaded.
 old-location: wds\iwdstransportclient_percentcompletion.htm
 tech.root: wds
 ms.assetid: 7d093d69-822c-4b89-893c-d9b070bd8133
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportClient interface [Windows Deployment Services],PercentCompletion property, IWdsTransportClient.PercentCompletion, IWdsTransportClient.get_PercentCompletion, IWdsTransportClient::PercentCompletion, IWdsTransportClient::get_PercentCompletion, PercentCompletion property [Windows Deployment Services], PercentCompletion property [Windows Deployment Services],IWdsTransportClient interface, get_PercentCompletion, wds.iwdstransportclient_percentcompletion, wdstptmgmt/IWdsTransportClient::PercentCompletion, wdstptmgmt/IWdsTransportClient::get_PercentCompletion
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportClient.PercentCompletion"
+f1_keywords:
+- wdstptmgmt/IWdsTransportClient.PercentCompletion
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportClient.PercentCompletion
- - IWdsTransportClient.get_PercentCompletion
+- IWdsTransportClient.PercentCompletion
+- IWdsTransportClient.get_PercentCompletion
 targetos: Windows
 req.typenames: 
 req.redist: 

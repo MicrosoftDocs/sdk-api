@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.IRdcGeneratorParameters.GetGeneratorParametersType
 title: IRdcGeneratorParameters::GetGeneratorParametersType (msrdc.h)
-
 description: Returns the specific type of the parameters.
 old-location: rdc\irdcgeneratorparameters_getgeneratorparameterstype.htm
 tech.root: rdc
 ms.assetid: d9fd60d5-a542-4a00-becd-85c7dafbe105
-
 ms.date: 12/05/2018
 ms.keywords: GetGeneratorParametersType, GetGeneratorParametersType method [Remote Differential Compression], GetGeneratorParametersType method [Remote Differential Compression],IRdcGeneratorParameters interface, IRdcGeneratorParameters interface [Remote Differential Compression],GetGeneratorParametersType method, IRdcGeneratorParameters.GetGeneratorParametersType, IRdcGeneratorParameters::GetGeneratorParametersType, fs.irdcgeneratorparameters_getgeneratorparameterstype, msrdc/IRdcGeneratorParameters::GetGeneratorParametersType, rdc.irdcgeneratorparameters_getgeneratorparameterstype
 ms.topic: method
-f1_keywords: 
- - "msrdc/IRdcGeneratorParameters.GetGeneratorParametersType"
+f1_keywords:
+- msrdc/IRdcGeneratorParameters.GetGeneratorParametersType
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - IRdcGeneratorParameters.GetGeneratorParametersType
+- IRdcGeneratorParameters.GetGeneratorParametersType
 targetos: Windows
 req.typenames: 
 req.redist: 

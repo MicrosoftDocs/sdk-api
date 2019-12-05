@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Image.SaveAdd(IN Image,IN const EncoderParameters)
 title: Image::SaveAdd(IN Image,IN const EncoderParameters) (gdiplusheaders.h)
-
 description: The Image::SaveAdd method adds a frame to a file or stream specified in a previous call to the Save method.
 old-location: gdiplus\_gdiplus_CLASS_Image_SaveAdd_newImage_encoderParams_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\imagesaveaddmethods\saveadd_17newimage_encoderparams.htm
-
 ms.date: 12/05/2018
 ms.keywords: Image class [GDI+],SaveAdd method, Image.SaveAdd, Image.SaveAdd(IN Image,IN const EncoderParameters), Image.SaveAdd(Image*,const EncoderParameters*), Image::SaveAdd, Image::SaveAdd(IN Image,IN const EncoderParameters), SaveAdd, SaveAdd method [GDI+], SaveAdd method [GDI+],Image class, _gdiplus_CLASS_Image_SaveAdd_newImage_encoderParams_, gdiplus._gdiplus_CLASS_Image_SaveAdd_newImage_encoderParams_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Image.SaveAdd"
+f1_keywords:
+- gdiplusheaders/Image.SaveAdd
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Image.SaveAdd
+- Image.SaveAdd
 targetos: Windows
 req.typenames: 
 req.redist: 

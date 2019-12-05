@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_DocumentName
 title: IFaxStatus::get_DocumentName (faxcom.h)
-
 description: Retrieves the DocumentName property for the FaxStatus object of a parent FaxPort object. The DocumentName property is a null-terminated string that contains the user-friendly name associated with an active fax document.
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_documentname_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6jvp.htm
-
 ms.date: 12/05/2018
 ms.keywords: DocumentName property [Fax Service], DocumentName property [Fax Service],IFaxStatus interface, IFaxStatus interface [Fax Service],DocumentName property, IFaxStatus.DocumentName, IFaxStatus.get_DocumentName, IFaxStatus::DocumentName, IFaxStatus::get_DocumentName, _mfax_ifaxstatus_get_documentname, fax._mfax_ifaxstatus_get_documentname, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_documentname_cpp, faxcom/IFaxStatus::DocumentName, faxcom/IFaxStatus::get_DocumentName, get_DocumentName
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxStatus.DocumentName"
+f1_keywords:
+- faxcom/IFaxStatus.DocumentName
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxStatus.DocumentName
- - IFaxStatus.get_DocumentName
+- IFaxStatus.DocumentName
+- IFaxStatus.get_DocumentName
 targetos: Windows
 req.typenames: 
 req.redist: 

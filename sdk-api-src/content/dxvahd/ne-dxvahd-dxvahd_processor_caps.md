@@ -1,19 +1,17 @@
 ---
 UID: NE:dxvahd._DXVAHD_PROCESSOR_CAPS
 title: DXVAHD_PROCESSOR_CAPS (dxvahd.h)
-
 description: Specifies the processing capabilities of a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
 old-location: mf\dxvahd_processor_caps.htm
 tech.root: medfound
 ms.assetid: 6fe6b1fe-4eef-427a-b28f-a359b066e552
-
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_PROCESSOR_CAPS, DXVAHD_PROCESSOR_CAPS enumeration [Media Foundation], DXVAHD_PROCESSOR_CAPS_DEINTERLACE_ADAPTIVE, DXVAHD_PROCESSOR_CAPS_DEINTERLACE_BLEND, DXVAHD_PROCESSOR_CAPS_DEINTERLACE_BOB, DXVAHD_PROCESSOR_CAPS_DEINTERLACE_MOTION_COMPENSATION, DXVAHD_PROCESSOR_CAPS_FRAME_RATE_CONVERSION, DXVAHD_PROCESSOR_CAPS_INVERSE_TELECINE, dxvahd/DXVAHD_PROCESSOR_CAPS, dxvahd/DXVAHD_PROCESSOR_CAPS_DEINTERLACE_ADAPTIVE, dxvahd/DXVAHD_PROCESSOR_CAPS_DEINTERLACE_BLEND, dxvahd/DXVAHD_PROCESSOR_CAPS_DEINTERLACE_BOB, dxvahd/DXVAHD_PROCESSOR_CAPS_DEINTERLACE_MOTION_COMPENSATION, dxvahd/DXVAHD_PROCESSOR_CAPS_FRAME_RATE_CONVERSION, dxvahd/DXVAHD_PROCESSOR_CAPS_INVERSE_TELECINE, mf.dxvahd_processor_caps
 ms.topic: enum
 f1_keywords:
 - dxvahd/DXVAHD_PROCESSOR_CAPS
 dev_langs:
- - c++
+- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

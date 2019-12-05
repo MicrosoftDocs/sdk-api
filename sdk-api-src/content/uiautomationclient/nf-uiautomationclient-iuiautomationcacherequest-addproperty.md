@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationCacheRequest.AddProperty
 title: IUIAutomationCacheRequest::AddProperty (uiautomationclient.h)
-
 description: Adds a property to the cache request.
 old-location: winauto\uiauto_IUIAutomationCacheRequest_AddProperty.htm
 tech.root: WinAuto
 ms.assetid: 61e56133-fb9e-4556-a9be-f7270b1d2bfb
-
 ms.date: 12/05/2018
 ms.keywords: AddProperty, AddProperty method [Windows Accessibility], AddProperty method [Windows Accessibility],IUIAutomationCacheRequest interface, IUIAutomationCacheRequest interface [Windows Accessibility],AddProperty method, IUIAutomationCacheRequest.AddProperty, IUIAutomationCacheRequest::AddProperty, uiauto.uiauto_IUIAutomationCacheRequest_AddProperty, uiauto_IUIAutomationCacheRequest_AddProperty, uiautomationclient/IUIAutomationCacheRequest::AddProperty, winauto.uiauto_IUIAutomationCacheRequest_AddProperty
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationCacheRequest.AddProperty"
+f1_keywords:
+- uiautomationclient/IUIAutomationCacheRequest.AddProperty
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationCacheRequest.AddProperty
+- IUIAutomationCacheRequest.AddProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

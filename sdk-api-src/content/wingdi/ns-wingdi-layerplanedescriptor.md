@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagLAYERPLANEDESCRIPTOR
 title: LAYERPLANEDESCRIPTOR (wingdi.h)
-
 description: The LAYERPLANEDESCRIPTOR structure describes the pixel format of a drawing surface.
 old-location: opengl\layerplanedescriptor.htm
 tech.root: OpenGL
 ms.assetid: fdb0322d-503f-4c17-b438-f764d60da7f6
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLAYERPLANEDESCRIPTOR, *PLAYERPLANEDESCRIPTOR, LAYERPLANEDESCRIPTOR, LAYERPLANEDESCRIPTOR structure [OpenGL], PLAYERPLANEDESCRIPTOR, PLAYERPLANEDESCRIPTOR structure pointer [OpenGL], _ogl_LAYERPLANEDESCRIPTOR, opengl.layerplanedescriptor, wingdi/LAYERPLANEDESCRIPTOR, wingdi/PLAYERPLANEDESCRIPTOR"
+ms.keywords: '*LPLAYERPLANEDESCRIPTOR, *PLAYERPLANEDESCRIPTOR, LAYERPLANEDESCRIPTOR, LAYERPLANEDESCRIPTOR structure [OpenGL], PLAYERPLANEDESCRIPTOR, PLAYERPLANEDESCRIPTOR structure pointer [OpenGL], _ogl_LAYERPLANEDESCRIPTOR, opengl.layerplanedescriptor, wingdi/LAYERPLANEDESCRIPTOR, wingdi/PLAYERPLANEDESCRIPTOR'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/LAYERPLANEDESCRIPTOR"
+f1_keywords:
+- wingdi/LAYERPLANEDESCRIPTOR
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - LAYERPLANEDESCRIPTOR
+- LAYERPLANEDESCRIPTOR
 targetos: Windows
 req.typenames: LAYERPLANEDESCRIPTOR, *PLAYERPLANEDESCRIPTOR, *LPLAYERPLANEDESCRIPTOR
 req.redist: 

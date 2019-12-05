@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IDirectWriterLock.HaveWriteAccess
 title: IDirectWriterLock::HaveWriteAccess (objidl.h)
-
 description: The HaveWriteAccess method indicates whether the write lock has been taken.
 old-location: stg\idirectwriterlock_havewriteaccess.htm
 tech.root: Stg
 ms.assetid: 8366b6b5-73c3-4b05-be68-c24ecd2eab96
-
 ms.date: 12/05/2018
 ms.keywords: HaveWriteAccess, HaveWriteAccess method [Structured Storage], HaveWriteAccess method [Structured Storage],IDirectWriterLock interface, IDirectWriterLock interface [Structured Storage],HaveWriteAccess method, IDirectWriterLock.HaveWriteAccess, IDirectWriterLock::HaveWriteAccess, _stg_idirectwriterlock_havewriteaccess, objidl/IDirectWriterLock::HaveWriteAccess, stg.idirectwriterlock_havewriteaccess
 ms.topic: method
-f1_keywords: 
- - "objidl/IDirectWriterLock.HaveWriteAccess"
+f1_keywords:
+- objidl/IDirectWriterLock.HaveWriteAccess
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IDirectWriterLock.HaveWriteAccess
+- IDirectWriterLock.HaveWriteAccess
 targetos: Windows
 req.typenames: 
 req.redist: 

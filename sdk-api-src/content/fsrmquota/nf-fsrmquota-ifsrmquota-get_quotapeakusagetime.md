@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmquota.IFsrmQuota.get_QuotaPeakUsageTime
 title: IFsrmQuota::get_QuotaPeakUsageTime (fsrmquota.h)
-
 description: Retrieves the date and time that the IFsrmQuota::QuotaPeakUsage property was set.
 old-location: fsrm\ifsrmquota_quotapeakusagetime.htm
 tech.root: fsrm
 ms.assetid: 08b7c438-6bcf-4323-ac27-7e3c79c062da
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuota interface [File Server Resource Manager],QuotaPeakUsageTime property, IFsrmQuota.QuotaPeakUsageTime, IFsrmQuota.get_QuotaPeakUsageTime, IFsrmQuota::QuotaPeakUsageTime, IFsrmQuota::get_QuotaPeakUsageTime, QuotaPeakUsageTime property [File Server Resource Manager], QuotaPeakUsageTime property [File Server Resource Manager],IFsrmQuota interface, fs.ifsrmquota_quotapeakusagetime, fsrm.ifsrmquota_quotapeakusagetime, fsrmquota/IFsrmQuota::QuotaPeakUsageTime, fsrmquota/IFsrmQuota::get_QuotaPeakUsageTime, get_QuotaPeakUsageTime
 ms.topic: method
-f1_keywords: 
- - "fsrmquota/IFsrmQuota.QuotaPeakUsageTime"
+f1_keywords:
+- fsrmquota/IFsrmQuota.QuotaPeakUsageTime
 dev_langs:
- - c++
+- c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmQuota.QuotaPeakUsageTime
- - IFsrmQuota.get_QuotaPeakUsageTime
+- IFsrmQuota.QuotaPeakUsageTime
+- IFsrmQuota.get_QuotaPeakUsageTime
 targetos: Windows
 req.typenames: 
 req.redist: 

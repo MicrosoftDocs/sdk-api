@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionVisual2.SetBackFaceVisibility
 title: IDCompositionVisual2::SetBackFaceVisibility (dcomp.h)
-
 description: Specifies whether or not surfaces that have 3D transformations applied to them should be displayed when facing away from the observer.
 old-location: directcomp\idcompositionvisual2_setbackfacevisibility.htm
 tech.root: directcomp
 ms.assetid: A488A0B9-3CBE-477A-9688-84A7DA43D7F6
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual2 interface [DirectComposition],SetBackFaceVisibility method, IDCompositionVisual2.SetBackFaceVisibility, IDCompositionVisual2::SetBackFaceVisibility, SetBackFaceVisibility, SetBackFaceVisibility method [DirectComposition], SetBackFaceVisibility method [DirectComposition],IDCompositionVisual2 interface, dcomp/IDCompositionVisual2::SetBackFaceVisibility, directcomp.idcompositionvisual2_setbackfacevisibility
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionVisual2.SetBackFaceVisibility"
+f1_keywords:
+- dcomp/IDCompositionVisual2.SetBackFaceVisibility
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionVisual2.SetBackFaceVisibility
+- IDCompositionVisual2.SetBackFaceVisibility
 targetos: Windows
 req.typenames: 
 req.redist: 

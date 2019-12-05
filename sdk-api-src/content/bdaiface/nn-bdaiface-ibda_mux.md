@@ -1,19 +1,17 @@
 ---
 UID: NN:bdaiface.IBDA_MUX
 title: IBDA_MUX (bdaiface.h)
-
 description: Provides access to a device's Mux Service. The Mux Service is used to specify which packet identifiers (PIDs) in the MPEG transport stream are delivered to a media sink device (MSD).
 old-location: mstv\ibda_mux.htm
 tech.root: mstv
 ms.assetid: 5dde7b14-d5a4-4db5-b91f-d6bfd4be269d
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_MUX, IBDA_MUX interface [Microsoft TV Technologies], IBDA_MUX interface [Microsoft TV Technologies],described, bdaiface/IBDA_MUX, mstv.ibda_mux
 ms.topic: interface
-f1_keywords: 
- - "bdaiface/IBDA_MUX"
+f1_keywords:
+- bdaiface/IBDA_MUX
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_MUX
+- IBDA_MUX
 targetos: Windows
 req.typenames: 
 req.redist: 

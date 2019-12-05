@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CMSG_CTRL_DECRYPT_PARA
 title: CMSG_CTRL_DECRYPT_PARA (wincrypt.h)
-
 description: Contains information used to decrypt an enveloped message for a key transport recipient. This structure is passed to CryptMsgControl if the dwCtrlType parameter is CMSG_CTRL_DECRYPT.
 old-location: security\cmsg_ctrl_decrypt_para.htm
 tech.root: SecCrypto
 ms.assetid: eb9b1daa-b04f-419a-88e3-7c772f9e62eb
-
 ms.date: 12/05/2018
-ms.keywords: "*PCMSG_CTRL_DECRYPT_PARA, AT_KEYEXCHANGE, AT_SIGNATURE, CMSG_CTRL_DECRYPT_PARA, CMSG_CTRL_DECRYPT_PARA structure [Security], PCMSG_CTRL_DECRYPT_PARA, PCMSG_CTRL_DECRYPT_PARA structure pointer [Security], _crypto2_cmsg_ctrl_decrypt_para, security.cmsg_ctrl_decrypt_para, wincrypt/CMSG_CTRL_DECRYPT_PARA, wincrypt/PCMSG_CTRL_DECRYPT_PARA"
+ms.keywords: '*PCMSG_CTRL_DECRYPT_PARA, AT_KEYEXCHANGE, AT_SIGNATURE, CMSG_CTRL_DECRYPT_PARA, CMSG_CTRL_DECRYPT_PARA structure [Security], PCMSG_CTRL_DECRYPT_PARA, PCMSG_CTRL_DECRYPT_PARA structure pointer [Security], _crypto2_cmsg_ctrl_decrypt_para, security.cmsg_ctrl_decrypt_para, wincrypt/CMSG_CTRL_DECRYPT_PARA, wincrypt/PCMSG_CTRL_DECRYPT_PARA'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CMSG_CTRL_DECRYPT_PARA"
+f1_keywords:
+- wincrypt/CMSG_CTRL_DECRYPT_PARA
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CMSG_CTRL_DECRYPT_PARA
+- CMSG_CTRL_DECRYPT_PARA
 targetos: Windows
 req.typenames: CMSG_CTRL_DECRYPT_PARA, *PCMSG_CTRL_DECRYPT_PARA
 req.redist: 

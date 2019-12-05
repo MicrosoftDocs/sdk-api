@@ -1,19 +1,17 @@
 ---
 UID: NF:pdh.PdhSetDefaultRealTimeDataSource
 title: PdhSetDefaultRealTimeDataSource function (pdh.h)
-
 description: Specifies the source of the real-time data.
 old-location: perf\pdhsetdefaultrealtimedatasource.htm
 tech.root: perfctrs
 ms.assetid: 5a46ac26-c1a1-40c1-a328-688e0b394e18
-
 ms.date: 12/05/2018
 ms.keywords: DATA_SOURCE_REGISTRY, DATA_SOURCE_WBEM, PdhSetDefaultRealTimeDataSource, PdhSetDefaultRealTimeDataSource function [Perf], _win32_pdhsetdefaultrealtimedatasource, base.pdhsetdefaultrealtimedatasource, pdh/PdhSetDefaultRealTimeDataSource, perf.pdhsetdefaultrealtimedatasource
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhSetDefaultRealTimeDataSource"
+f1_keywords:
+- pdh/PdhSetDefaultRealTimeDataSource
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhSetDefaultRealTimeDataSource
+- PdhSetDefaultRealTimeDataSource
 targetos: Windows
 req.typenames: 
 req.redist: 

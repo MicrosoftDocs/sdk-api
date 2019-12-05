@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationContent.GetContentRect
 title: IDirectManipulationContent::GetContentRect (directmanipulation.h)
-
 description: Retrieves the bounding rectangle of the content, relative to the bounding rectangle of the viewport (if defined).
 old-location: directmanipulation\idirectmanipulationcontent_getcontentrect.htm
 tech.root: directmanipulation
 ms.assetid: 26a5736e-633e-4451-a339-c5f88913bcf6
-
 ms.date: 12/05/2018
 ms.keywords: GetContentRect, GetContentRect method [Direct Manipulation], GetContentRect method [Direct Manipulation],IDirectManipulationContent interface, IDirectManipulationContent interface [Direct Manipulation],GetContentRect method, IDirectManipulationContent.GetContentRect, IDirectManipulationContent::GetContentRect, directmanipulation.idirectmanipulationcontent_getcontentrect, directmanipulation/IDirectManipulationContent::GetContentRect
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationContent.GetContentRect"
+f1_keywords:
+- directmanipulation/IDirectManipulationContent.GetContentRect
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationContent.GetContentRect
+- IDirectManipulationContent.GetContentRect
 targetos: Windows
 req.typenames: 
 req.redist: 

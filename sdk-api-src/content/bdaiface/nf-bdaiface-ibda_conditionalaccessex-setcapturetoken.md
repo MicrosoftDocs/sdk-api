@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccessEx.SetCaptureToken
 title: IBDA_ConditionalAccessEx::SetCaptureToken (bdaiface.h)
-
 description: Requests special events that are identified by a capture token.
 old-location: mstv\ibda_conditionalaccessex_setcapturetoken.htm
 tech.root: mstv
 ms.assetid: b9e3d319-c76c-45df-aca3-d5447605b7c0
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_ConditionalAccessEx interface [Microsoft TV Technologies],SetCaptureToken method, IBDA_ConditionalAccessEx.SetCaptureToken, IBDA_ConditionalAccessEx::SetCaptureToken, SetCaptureToken, SetCaptureToken method [Microsoft TV Technologies], SetCaptureToken method [Microsoft TV Technologies],IBDA_ConditionalAccessEx interface, bdaiface/IBDA_ConditionalAccessEx::SetCaptureToken, mstv.ibda_conditionalaccessex_setcapturetoken
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_ConditionalAccessEx.SetCaptureToken"
+f1_keywords:
+- bdaiface/IBDA_ConditionalAccessEx.SetCaptureToken
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_ConditionalAccessEx.SetCaptureToken
+- IBDA_ConditionalAccessEx.SetCaptureToken
 targetos: Windows
 req.typenames: 
 req.redist: 

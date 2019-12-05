@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterRegDeleteValue
 title: ClusterRegDeleteValue function (clusapi.h)
-
 description: Removes a named value from a cluster database key.
 old-location: mscs\clusterregdeletevalue.htm
 tech.root: MsCS
 ms.assetid: 81d2936e-6f2c-48d9-b898-c1d8b2c946e6
-
 ms.date: 12/05/2018
 ms.keywords: ClusterRegDeleteValue, ClusterRegDeleteValue function [Failover Cluster], _wolf_clusterregdeletevalue, clusapi/ClusterRegDeleteValue, mscs.clusterregdeletevalue
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterRegDeleteValue"
+f1_keywords:
+- clusapi/ClusterRegDeleteValue
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
- - ext-ms-win-cluster-clusapi-l1-1-3.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ext-ms-win-cluster-clusapi-l1-1-3.dll
 api_name:
- - ClusterRegDeleteValue
+- ClusterRegDeleteValue
 targetos: Windows
 req.typenames: 
 req.redist: 

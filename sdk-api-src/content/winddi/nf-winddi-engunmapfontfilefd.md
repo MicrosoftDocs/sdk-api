@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngUnmapFontFileFD
 title: EngUnmapFontFileFD function (winddi.h)
-
 description: The EngUnmapFontFileFD function unmaps the specified font file from system memory.
 old-location: display\engunmapfontfilefd.htm
 tech.root: display
 ms.assetid: 61c1acb6-c158-4ba4-ad5b-2f7b1a9bf106
-
 ms.date: 12/05/2018
 ms.keywords: EngUnmapFontFileFD, EngUnmapFontFileFD function [Display Devices], display.engunmapfontfilefd, gdifncs_40ba83d0-7822-402b-9463-f593ddaecaed.xml, winddi/EngUnmapFontFileFD
 ms.topic: function
-f1_keywords: 
- - "winddi/EngUnmapFontFileFD"
+f1_keywords:
+- winddi/EngUnmapFontFileFD
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngUnmapFontFileFD
+- EngUnmapFontFileFD
 targetos: Windows
 req.typenames: 
 req.redist: 

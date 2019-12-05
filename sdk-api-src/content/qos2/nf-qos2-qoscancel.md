@@ -1,19 +1,17 @@
 ---
 UID: NF:qos2.QOSCancel
 title: QOSCancel function (qos2.h)
-
 description: Cancels a pending overlapped operation, like QOSSetFlow.
 old-location: qos\qoscancel.htm
 tech.root: QOS
 ms.assetid: d1f6f32f-d105-40cb-8113-319aa1f63c77
-
 ms.date: 12/05/2018
 ms.keywords: QOSCancel, QOSCancel function [QOS], qos.qoscancel, qos2/QOSCancel
 ms.topic: function
-f1_keywords: 
- - "qos2/QOSCancel"
+f1_keywords:
+- qos2/QOSCancel
 dev_langs:
- - c++
+- c++
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Qwave.lib
 req.dll: Qwave.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - qwave.dll
+- qwave.dll
 api_name:
- - QOSCancel
+- QOSCancel
 targetos: Windows
 req.typenames: 
 req.redist: 

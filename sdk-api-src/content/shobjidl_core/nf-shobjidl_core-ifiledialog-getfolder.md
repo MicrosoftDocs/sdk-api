@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.GetFolder
 title: IFileDialog::GetFolder (shobjidl_core.h)
-
 description: Gets either the folder currently selected in the dialog, or, if the dialog is not currently displayed, the folder that is to be selected when the dialog is opened.
 old-location: shell\IFileDialog_GetFolder.htm
 tech.root: shell
 ms.assetid: 424d1507-e42a-43d7-8904-347bfb311dd4
-
 ms.date: 12/05/2018
 ms.keywords: GetFolder, GetFolder method [Windows Shell], GetFolder method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],GetFolder method, IFileDialog.GetFolder, IFileDialog::GetFolder, shell.IFileDialog_GetFolder, shell_IFileDialog_GetFolder, shobjidl_core/IFileDialog::GetFolder
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialog.GetFolder"
+f1_keywords:
+- shobjidl_core/IFileDialog.GetFolder
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialog.GetFolder
+- IFileDialog.GetFolder
 targetos: Windows
 req.typenames: 
 req.redist: 

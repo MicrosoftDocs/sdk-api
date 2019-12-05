@@ -1,19 +1,17 @@
 ---
 UID: NF:dsclient.DsGetFriendlyClassName
 title: DsGetFriendlyClassName function (dsclient.h)
-
 description: Retrieves the localized name for an object class.
 old-location: ad\dsgetfriendlyclassname.htm
 tech.root: ad
 ms.assetid: 944b7227-2f22-418e-a9da-6fddec66876b
-
 ms.date: 12/05/2018
 ms.keywords: DsGetFriendlyClassName, DsGetFriendlyClassName function [Active Directory], ad.dsgetfriendlyclassname, dsclient/DsGetFriendlyClassName
 ms.topic: function
-f1_keywords: 
- - "dsclient/DsGetFriendlyClassName"
+f1_keywords:
+- dsclient/DsGetFriendlyClassName
 dev_langs:
- - c++
+- c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dsuiext.lib
 req.dll: Dsuiext.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dsuiext.dll
+- Dsuiext.dll
 api_name:
- - DsGetFriendlyClassName
+- DsGetFriendlyClassName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectInputConnector.ConnectTo
 title: IMILBitmapEffectInputConnector::ConnectTo (mileffects.h)
-
 description: Connects the input connector to the given output connector.
 old-location: wibe\_wibe_imilbitmapeffectinputconnector_connectto.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectinputconnector\connectto.htm
-
 ms.date: 12/05/2018
 ms.keywords: ConnectTo, ConnectTo method [WPF Bitmap Effects], ConnectTo method [WPF Bitmap Effects],IMILBitmapEffectInputConnector interface, IMILBitmapEffectInputConnector interface [WPF Bitmap Effects],ConnectTo method, IMILBitmapEffectInputConnector.ConnectTo, IMILBitmapEffectInputConnector::ConnectTo, _wibe_imilbitmapeffectinputconnector_connectto, mileffects/IMILBitmapEffectInputConnector::ConnectTo, wibe._wibe_imilbitmapeffectinputconnector_connectto
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectInputConnector.ConnectTo"
+f1_keywords:
+- mileffects/IMILBitmapEffectInputConnector.ConnectTo
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mileffects.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.dll
+- Mileffects.dll
 api_name:
- - IMILBitmapEffectInputConnector.ConnectTo
+- IMILBitmapEffectInputConnector.ConnectTo
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

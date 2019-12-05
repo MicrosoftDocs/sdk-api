@@ -1,19 +1,17 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeers.Skip
 title: IEnumBitsPeers::Skip (bits3_0.h)
-
 description: Skips the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence.
 old-location: bits\ienumbitspeers_skip.htm
 tech.root: Bits
 ms.assetid: 23a9b424-11a3-4cbf-a867-93026f0725cc
-
 ms.date: 12/05/2018
 ms.keywords: IEnumBitsPeers interface [BITS],Skip method, IEnumBitsPeers.Skip, IEnumBitsPeers::Skip, Skip, Skip method [BITS], Skip method [BITS],IEnumBitsPeers interface, bits.ienumbitspeers_skip, bits3_0/IEnumBitsPeers::Skip
 ms.topic: method
-f1_keywords: 
- - "bits3_0/IEnumBitsPeers.Skip"
+f1_keywords:
+- bits3_0/IEnumBitsPeers.Skip
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IEnumBitsPeers.Skip
+- IEnumBitsPeers.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

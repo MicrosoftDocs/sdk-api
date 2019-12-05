@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmConnectionSetSecurityInfo0
 title: FwpmConnectionSetSecurityInfo0 function (fwpmu.h)
-
 description: Sets specified security information in the security descriptor for a connection object change event.
 old-location: fwp\fwpmconnectionsetsecurityinfo0.htm
 tech.root: fwp
 ms.assetid: 74c976b0-68a5-4e09-8c6f-6ccb2766e0ad
-
 ms.date: 12/05/2018
 ms.keywords: FwpmConnectionSetSecurityInfo0, FwpmConnectionSetSecurityInfo0 function [Filtering], fwp.fwpmconnectionsetsecurityinfo0, fwpmu/FwpmConnectionSetSecurityInfo0
 ms.topic: function
 f1_keywords:
 - fwpmu/FwpmConnectionSetSecurityInfo0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

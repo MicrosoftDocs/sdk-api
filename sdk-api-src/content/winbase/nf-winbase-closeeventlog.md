@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.CloseEventLog
 title: CloseEventLog function (winbase.h)
-
 description: Closes the specified event log.
 old-location: base\closeeventlog.htm
 tech.root: EventLog
 ms.assetid: cb98a0cf-8ee9-4d78-8508-efae1d43a91d
-
 ms.date: 12/05/2018
 ms.keywords: CloseEventLog, CloseEventLog function, _win32_closeeventlog, base.closeeventlog, winbase/CloseEventLog
 ms.topic: function
-f1_keywords: 
- - "winbase/CloseEventLog"
+f1_keywords:
+- winbase/CloseEventLog
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - Ext-MS-Win-AdvAPI32-EventLog-l1-1-0.dll
- - Ext-Ms-Win-AdvAPI32-EventLog-L1-1-1.dll
+- Advapi32.dll
+- Ext-MS-Win-AdvAPI32-EventLog-l1-1-0.dll
+- Ext-Ms-Win-AdvAPI32-EventLog-L1-1-1.dll
 api_name:
- - CloseEventLog
+- CloseEventLog
 targetos: Windows
 req.typenames: 
 req.redist: 

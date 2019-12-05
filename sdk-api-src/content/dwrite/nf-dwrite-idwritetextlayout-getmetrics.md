@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetMetrics
 title: IDWriteTextLayout::GetMetrics (dwrite.h)
-
 description: Retrieves overall metrics for the formatted string.
 old-location: directwrite\IDWriteTextLayout_GetMetrics.htm
 tech.root: DirectWrite
 ms.assetid: cbfafccc-f66c-4b75-9540-e393ee203859
-
 ms.date: 12/05/2018
 ms.keywords: GetMetrics, GetMetrics method [Direct Write], GetMetrics method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetMetrics method, IDWriteTextLayout.GetMetrics, IDWriteTextLayout::GetMetrics, directwrite.IDWriteTextLayout_GetMetrics, dwrite/IDWriteTextLayout::GetMetrics
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextLayout.GetMetrics"
+f1_keywords:
+- dwrite/IDWriteTextLayout.GetMetrics
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout.GetMetrics
+- IDWriteTextLayout.GetMetrics
 targetos: Windows
 req.typenames: 
 req.redist: 

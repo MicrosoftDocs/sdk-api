@@ -1,19 +1,17 @@
 ---
 UID: NF:winnetwk.WNetGetUniversalNameA
 title: WNetGetUniversalNameA function (winnetwk.h)
-
 description: The WNetGetUniversalName function takes a drive-based path for a network resource and returns an information structure that contains a more universal form of the name.
 old-location: wnet\wnetgetuniversalname.htm
 tech.root: WNet
 ms.assetid: 12c02092-f2d5-4477-92a7-ae075b8a243a
-
 ms.date: 12/05/2018
 ms.keywords: REMOTE_NAME_INFO_LEVEL, UNIVERSAL_NAME_INFO_LEVEL, WNetGetUniversalName, WNetGetUniversalName function [Windows Networking (WNet)], WNetGetUniversalNameA, WNetGetUniversalNameW, _win32_wnetgetuniversalname, winnetwk/WNetGetUniversalName, winnetwk/WNetGetUniversalNameA, winnetwk/WNetGetUniversalNameW, wnet.wnetgetuniversalname
 ms.topic: function
-f1_keywords: 
- - "winnetwk/WNetGetUniversalName"
+f1_keywords:
+- winnetwk/WNetGetUniversalName
 dev_langs:
- - c++
+- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mpr.dll
+- Mpr.dll
 api_name:
- - WNetGetUniversalName
- - WNetGetUniversalNameA
- - WNetGetUniversalNameW
+- WNetGetUniversalName
+- WNetGetUniversalNameA
+- WNetGetUniversalNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.FtpDeleteFileA
 title: FtpDeleteFileA function (wininet.h)
-
 description: Deletes a file stored on the FTP server.
 old-location: wininet\ftpdeletefile.htm
 tech.root: wininet
 ms.assetid: 16723c97-fd6f-40c2-844d-fc6d2dcc1a32
-
 ms.date: 12/05/2018
 ms.keywords: FtpDeleteFile, FtpDeleteFile function [WinINet], FtpDeleteFileA, FtpDeleteFileW, _inet_ftpdeletefile_function, wininet.ftpdeletefile, wininet/FtpDeleteFile, wininet/FtpDeleteFileA, wininet/FtpDeleteFileW
 ms.topic: function
-f1_keywords: 
- - "wininet/FtpDeleteFile"
+f1_keywords:
+- wininet/FtpDeleteFile
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - FtpDeleteFile
- - FtpDeleteFileA
- - FtpDeleteFileW
+- FtpDeleteFile
+- FtpDeleteFileA
+- FtpDeleteFileW
 targetos: Windows
 req.typenames: 
 req.redist: 

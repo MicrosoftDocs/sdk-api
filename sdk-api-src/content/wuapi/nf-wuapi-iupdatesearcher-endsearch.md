@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.EndSearch
 title: IUpdateSearcher::EndSearch (wuapi.h)
-
 description: Completes an asynchronous search for updates.
 old-location: wua\iupdatesearcherendsearch.htm
 tech.root: Wua_Sdk
 ms.assetid: 4a0532ec-3613-4aa1-96d7-7291b9ca7a94
-
 ms.date: 12/05/2018
 ms.keywords: EndSearch, EndSearch method [Windows Update Agent], EndSearch method [Windows Update Agent],IUpdateSearcher interface, IUpdateSearcher interface [Windows Update Agent],EndSearch method, IUpdateSearcher.EndSearch, IUpdateSearcher::EndSearch, wua.iupdatesearcherendsearch, wuapi/IUpdateSearcher::EndSearch
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateSearcher.EndSearch"
+f1_keywords:
+- wuapi/IUpdateSearcher.EndSearch
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateSearcher.EndSearch
+- IUpdateSearcher.EndSearch
 targetos: Windows
 req.typenames: 
 req.redist: 

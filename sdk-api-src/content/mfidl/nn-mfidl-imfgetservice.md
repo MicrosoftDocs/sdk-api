@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFGetService
 title: IMFGetService (mfidl.h)
-
 description: Queries an object for a specified service interface.
 old-location: mf\imfgetservice.htm
 tech.root: medfound
 ms.assetid: 102a1dff-8419-4f86-a145-53ce3d0123f5
-
 ms.date: 12/05/2018
 ms.keywords: 102a1dff-8419-4f86-a145-53ce3d0123f5, IMFGetService, IMFGetService interface [Media Foundation], IMFGetService interface [Media Foundation],described, mf.imfgetservice, mfidl/IMFGetService
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFGetService"
+f1_keywords:
+- mfidl/IMFGetService
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFGetService
+- IMFGetService
 targetos: Windows
 req.typenames: 
 req.redist: 

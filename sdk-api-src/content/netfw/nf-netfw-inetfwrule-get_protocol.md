@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwRule.get_Protocol
 title: INetFwRule::get_Protocol (netfw.h)
-
 description: Specifies the IP protocol of this rule.
 old-location: ics\inetfwrule_protocol.htm
 tech.root: ics
 ms.assetid: 16f61a1d-770a-4be9-a43d-10ff9fe276fb
-
 ms.date: 12/05/2018
 ms.keywords: INetFwRule interface [ICS/ICF],Protocol property, INetFwRule.Protocol, INetFwRule.get_Protocol, INetFwRule::Protocol, INetFwRule::get_Protocol, INetFwRule::put_Protocol, Protocol property [ICS/ICF], Protocol property [ICS/ICF],INetFwRule interface, get_Protocol, ics.inetfwrule_protocol, netfw/INetFwRule::Protocol, netfw/INetFwRule::get_Protocol, netfw/INetFwRule::put_Protocol
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwRule.Protocol"
+f1_keywords:
+- netfw/INetFwRule.Protocol
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwRule.Protocol
- - INetFwRule.get_Protocol
- - INetFwRule.put_Protocol
+- INetFwRule.Protocol
+- INetFwRule.get_Protocol
+- INetFwRule.put_Protocol
 targetos: Windows
 req.typenames: 
 req.redist: 

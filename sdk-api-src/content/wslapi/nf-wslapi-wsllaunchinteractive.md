@@ -1,19 +1,17 @@
 ---
 UID: NF:wslapi.WslLaunchInteractive
 title: WslLaunchInteractive function (wslapi.h)
-
 description: Launches an interactive Windows Subsystem for Linux (WSL) process in the context of a particular distribution.
 old-location: wsl\wsllaunchinteractive.htm
 tech.root: wsl
 ms.assetid: F9DF5B7A-D315-44B7-BB01-6440CCB4C64C
-
 ms.date: 12/05/2018
 ms.keywords: WslLaunchInteractive, WslLaunchInteractive function, wsl.wsllaunchinteractive, wslapi/WslLaunchInteractive
 ms.topic: function
-f1_keywords: 
- - "wslapi/WslLaunchInteractive"
+f1_keywords:
+- wslapi/WslLaunchInteractive
 dev_langs:
- - c++
+- c++
 req.header: wslapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wslapi.lib
 req.dll: Api-ms-win-wsl-api-l1-1-0.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-wsl-api-l1-1-0.dll
+- api-ms-win-wsl-api-l1-1-0.dll
 api_name:
- - WslLaunchInteractive
+- WslLaunchInteractive
 targetos: Windows
 req.typenames: 
 req.redist: 

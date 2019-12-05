@@ -1,19 +1,17 @@
 ---
 UID: NS:textserv.CHANGENOTIFY
 title: CHANGENOTIFY (textserv.h)
-
 description: Contains information that is associated with an EN_CHANGE notification code. A windowless rich edit control sends this notification to its host window when the content of the control changes.
 old-location: controls\changenotify.htm
 tech.root: Controls
 ms.assetid: F4756754-EF22-430F-B9EE-F4270EBBEF33
-
 ms.date: 12/05/2018
 ms.keywords: CHANGENOTIFY, CHANGENOTIFY structure [Windows Controls], CN_GENERIC, CN_NEWREDO, CN_NEWUNDO, CN_TEXTCHANGED, controls.changenotify, textserv/CHANGENOTIFY
 ms.topic: struct
-f1_keywords: 
- - "textserv/CHANGENOTIFY"
+f1_keywords:
+- textserv/CHANGENOTIFY
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Textserv.h
+- Textserv.h
 api_name:
- - CHANGENOTIFY
+- CHANGENOTIFY
 targetos: Windows
 req.typenames: 
 req.redist: 

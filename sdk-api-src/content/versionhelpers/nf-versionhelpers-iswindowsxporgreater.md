@@ -1,19 +1,17 @@
 ---
 UID: NF:versionhelpers.IsWindowsXPOrGreater
 title: IsWindowsXPOrGreater function (versionhelpers.h)
-
 description: Indicates if the current OS version matches, or is greater than, the Windows XP version.
 old-location: base\iswindowsxporgreater.htm
 tech.root: SysInfo
 ms.assetid: 48B7FAD6-569F-4CF5-A413-857679363736
-
 ms.date: 12/05/2018
 ms.keywords: IsWindowsXPOrGreater, IsWindowsXPOrGreater function, base.iswindowsxporgreater, versionhelpers/IsWindowsXPOrGreater
 ms.topic: function
-f1_keywords: 
- - "versionhelpers/IsWindowsXPOrGreater"
+f1_keywords:
+- versionhelpers/IsWindowsXPOrGreater
 dev_langs:
- - c++
+- c++
 req.header: versionhelpers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Kernel32.lib; Ntdll.lib
 req.dll: Kernel32.dll; Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - ntdll.dll
+- Kernel32.dll
+- ntdll.dll
 api_name:
- - IsWindowsXPOrGreater
+- IsWindowsXPOrGreater
 targetos: Windows
 req.typenames: 
 req.redist: 

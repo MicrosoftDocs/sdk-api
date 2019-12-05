@@ -1,19 +1,17 @@
 ---
 UID: NF:ncryptprotect.NCryptCreateProtectionDescriptor
 title: NCryptCreateProtectionDescriptor function (ncryptprotect.h)
-
 description: Retrieves a handle to a protection descriptor object.
 old-location: security\ncryptcreateprotectiondescriptor.htm
 tech.root: SecCNG
 ms.assetid: BA6B15AC-2CD8-4D9A-817F-65CF9C09D22C
-
 ms.date: 12/05/2018
 ms.keywords: NCryptCreateProtectionDescriptor, NCryptCreateProtectionDescriptor function [Security], ncryptprotect/NCryptCreateProtectionDescriptor, security.ncryptcreateprotectiondescriptor
 ms.topic: function
-f1_keywords: 
- - "ncryptprotect/NCryptCreateProtectionDescriptor"
+f1_keywords:
+- ncryptprotect/NCryptCreateProtectionDescriptor
 dev_langs:
- - c++
+- c++
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: NCrypt.lib
 req.dll: NCrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - NCrypt.dll
+- NCrypt.dll
 api_name:
- - NCryptCreateProtectionDescriptor
+- NCryptCreateProtectionDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

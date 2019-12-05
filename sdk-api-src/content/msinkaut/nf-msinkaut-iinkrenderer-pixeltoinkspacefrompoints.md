@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRenderer.PixelToInkSpaceFromPoints
 title: IInkRenderer::PixelToInkSpaceFromPoints (msinkaut.h)
-
 description: Converts an array of locations in pixel space coordinates to an array of locations in ink space coordinates.
 old-location: tablet\inkrenderer_pixeltoinkspacefrompoints.htm
 tech.root: tablet
 ms.assetid: 1427ab50-1b04-43a8-a987-838f2d6893cc
-
 ms.date: 12/05/2018
 ms.keywords: 1427ab50-1b04-43a8-a987-838f2d6893cc, IInkRenderer, IInkRenderer interface [Tablet PC],PixelToInkSpaceFromPoints method, IInkRenderer.PixelToInkSpaceFromPoints, IInkRenderer::PixelToInkSpaceFromPoints, PixelToInkSpaceFromPoints, PixelToInkSpaceFromPoints method [Tablet PC], PixelToInkSpaceFromPoints method [Tablet PC],IInkRenderer interface, msinkaut/IInkRenderer::PixelToInkSpaceFromPoints, tablet.inkrenderer_pixeltoinkspacefrompoints
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRenderer.PixelToInkSpaceFromPoints"
+f1_keywords:
+- msinkaut/IInkRenderer.PixelToInkSpaceFromPoints
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRenderer.PixelToInkSpaceFromPoints
+- IInkRenderer.PixelToInkSpaceFromPoints
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:immdev.ImmGetProperty
 title: ImmGetProperty function (immdev.h)
-
 description: Retrieves the property and capabilities of the IME associated with the specified input locale.
 old-location: intl\immgetproperty.htm
 tech.root: Intl
 ms.assetid: b8552c4e-1841-4202-a71e-4b4eae99c528
-
 ms.date: 12/05/2018
 ms.keywords: IGP_CONVERSION, IGP_GETIMEVERSION, IGP_PROPERTY, IGP_SELECT, IGP_SENTENCE, IGP_SETCOMPSTR, IGP_UI, ImmGetProperty, ImmGetProperty function [Internationalization for Windows Applications], _win32_ImmGetProperty, imm/ImmGetProperty, intl.immgetproperty
 ms.topic: function
-f1_keywords: 
- - "immdev/ImmGetProperty"
+f1_keywords:
+- immdev/ImmGetProperty
 dev_langs:
- - c++
+- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imm32.dll
- - Ext-MS-Win-imm-l1-1-0.dll
- - ext-ms-win-imm-l1-1-1.dll
+- Imm32.dll
+- Ext-MS-Win-imm-l1-1-0.dll
+- ext-ms-win-imm-l1-1-1.dll
 api_name:
- - ImmGetProperty
+- ImmGetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

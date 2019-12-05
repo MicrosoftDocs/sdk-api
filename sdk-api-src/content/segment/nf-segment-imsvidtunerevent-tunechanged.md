@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidTunerEvent.TuneChanged
 title: IMSVidTunerEvent::TuneChanged (segment.h)
-
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsvidtunerevent_tunechanged.htm
 tech.root: mstv
 ms.assetid: 5fc30a5a-b934-4c75-9cc8-5a039843ebe8
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidTunerEvent interface [Microsoft TV Technologies],TuneChanged method, IMSVidTunerEvent.TuneChanged, IMSVidTunerEvent::TuneChanged, IMSVidTunerEventTuneChanged, TuneChanged, TuneChanged method [Microsoft TV Technologies], TuneChanged method [Microsoft TV Technologies],IMSVidTunerEvent interface, mstv.imsvidtunerevent_tunechanged, segment/IMSVidTunerEvent::TuneChanged
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidTunerEvent.TuneChanged"
+f1_keywords:
+- segment/IMSVidTunerEvent.TuneChanged
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidTunerEvent.TuneChanged
+- IMSVidTunerEvent.TuneChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

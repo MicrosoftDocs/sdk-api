@@ -1,19 +1,17 @@
 ---
 UID: NF:indexsrv.IColumnMapper.IsMapUpToDate
 title: IColumnMapper::IsMapUpToDate (indexsrv.h)
-
 description: Determines if the map is up to date.
 old-location: search\icolumnmapper_ismapuptodate.htm
 tech.root: search
 ms.assetid: B6B47014-CAAD-40B3-8A39-A81AD40AE1D2
-
 ms.date: 12/05/2018
 ms.keywords: IColumnMapper interface [search],IsMapUpToDate method, IColumnMapper.IsMapUpToDate, IColumnMapper::IsMapUpToDate, IsMapUpToDate, IsMapUpToDate method [search], IsMapUpToDate method [search],IColumnMapper interface, indexsrv/IColumnMapper::IsMapUpToDate, search.icolumnmapper_ismapuptodate
 ms.topic: method
-f1_keywords: 
- - "indexsrv/IColumnMapper.IsMapUpToDate"
+f1_keywords:
+- indexsrv/IColumnMapper.IsMapUpToDate
 dev_langs:
- - c++
+- c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - indexsrv.h
+- indexsrv.h
 api_name:
- - IColumnMapper.IsMapUpToDate
+- IColumnMapper.IsMapUpToDate
 targetos: Windows
 req.typenames: 
 req.redist: Windows NT 4.0 Option Pack

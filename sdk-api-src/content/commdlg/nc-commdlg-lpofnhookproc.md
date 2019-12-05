@@ -1,19 +1,17 @@
 ---
 UID: NC:commdlg.LPOFNHOOKPROC
 title: LPOFNHOOKPROC (commdlg.h)
-
 description: Receives notification messages sent from the dialog box.
 old-location: dlgbox\ofnhookproc.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\ofnhookproc.htm
-
 ms.date: 12/05/2018
 ms.keywords: LPOFNHOOKPROC, LPOFNHOOKPROC callback, LPOFNHOOKPROC callback function [Dialog Boxes], _win32_OFNHookProc, _win32_ofnhookproc_cpp, commdlg/LPOFNHOOKPROC, dlgbox.ofnhookproc, winui._win32_ofnhookproc
 ms.topic: callback
-f1_keywords: 
- - "commdlg/LPOFNHOOKPROC"
+f1_keywords:
+- commdlg/LPOFNHOOKPROC
 dev_langs:
- - c++
+- c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Commdlg.h
+- Commdlg.h
 api_name:
- - LPOFNHOOKPROC
+- LPOFNHOOKPROC
 targetos: Windows
 req.typenames: 
 req.redist: 

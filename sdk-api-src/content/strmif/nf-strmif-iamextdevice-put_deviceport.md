@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMExtDevice.put_DevicePort
 title: IAMExtDevice::put_DevicePort (strmif.h)
-
 description: The put_DevicePort method assigns the communication port to which the external device is connected.
 old-location: dshow\iamextdevice_put_deviceport.htm
 tech.root: DirectShow
 ms.assetid: bb83ae40-875b-47c4-8e8e-944392ad0782
-
 ms.date: 12/05/2018
 ms.keywords: IAMExtDevice interface [DirectShow],put_DevicePort method, IAMExtDevice.put_DevicePort, IAMExtDevice::put_DevicePort, IAMExtDeviceput_DevicePort, dshow.iamextdevice_put_deviceport, put_DevicePort, put_DevicePort method [DirectShow], put_DevicePort method [DirectShow],IAMExtDevice interface, strmif/IAMExtDevice::put_DevicePort
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMExtDevice.put_DevicePort"
+f1_keywords:
+- strmif/IAMExtDevice.put_DevicePort
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMExtDevice.put_DevicePort
+- IAMExtDevice.put_DevicePort
 targetos: Windows
 req.typenames: 
 req.redist: 

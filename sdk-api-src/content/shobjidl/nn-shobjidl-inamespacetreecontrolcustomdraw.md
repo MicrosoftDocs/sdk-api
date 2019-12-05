@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.INameSpaceTreeControlCustomDraw
 title: INameSpaceTreeControlCustomDraw (shobjidl.h)
-
 description: Exposes methods that enable the user to draw a custom namespace tree control and its items.
 old-location: shell\INameSpaceTreeControlCustomDraw.htm
 tech.root: shell
 ms.assetid: eac7c7c2-87f0-4af1-bf2f-f4fef5ddd92e
-
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlCustomDraw, INameSpaceTreeControlCustomDraw interface [Windows Shell], INameSpaceTreeControlCustomDraw interface [Windows Shell],described, _shell_INameSpaceTreeControlCustomDraw, shell.INameSpaceTreeControlCustomDraw, shobjidl/INameSpaceTreeControlCustomDraw
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/INameSpaceTreeControlCustomDraw"
+f1_keywords:
+- shobjidl/INameSpaceTreeControlCustomDraw
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - INameSpaceTreeControlCustomDraw
+- INameSpaceTreeControlCustomDraw
 targetos: Windows
 req.typenames: 
 req.redist: 

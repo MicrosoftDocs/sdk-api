@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_RENDER_TARGET_BLEND_DESC
 title: D3D11_RENDER_TARGET_BLEND_DESC (d3d11.h)
-
 description: Describes the blend state for a render target.
 old-location: direct3d11\d3d11_render_target_blend_desc.htm
 tech.root: direct3d11
 ms.assetid: 380435e9-e723-4b8b-a0bb-9ff7b4658cdc
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_RENDER_TARGET_BLEND_DESC, D3D11_RENDER_TARGET_BLEND_DESC structure [Direct3D 11], b9385251-2030-9e95-a5f0-6bdef2d1d699, d3d11/D3D11_RENDER_TARGET_BLEND_DESC, direct3d11.d3d11_render_target_blend_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_RENDER_TARGET_BLEND_DESC"
+f1_keywords:
+- d3d11/D3D11_RENDER_TARGET_BLEND_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_RENDER_TARGET_BLEND_DESC
+- D3D11_RENDER_TARGET_BLEND_DESC
 targetos: Windows
 req.typenames: D3D11_RENDER_TARGET_BLEND_DESC
 req.redist: 

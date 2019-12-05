@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMAddLicense
 title: DRMAddLicense function (msdrm.h)
-
 description: Adds an end-user license to the temporary or permanent license store.
 old-location: rm\drmaddlicense.htm
 tech.root: AdRms_Sdk
 ms.assetid: d91a017c-7dc2-42d7-a8d3-9e0c83d05ea2
-
 ms.date: 12/05/2018
 ms.keywords: DRMAddLicense, DRMAddLicense function [Active Directory Rights Management Services SDK 1.0], DRM_ADD_LICENSE_NOPERSIST, DRM_ADD_LICENSE_PERSIST, msdrm/DRMAddLicense, rm.drmaddlicense
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMAddLicense"
+f1_keywords:
+- msdrm/DRMAddLicense
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMAddLicense
+- DRMAddLicense
 targetos: Windows
 req.typenames: 
 req.redist: 

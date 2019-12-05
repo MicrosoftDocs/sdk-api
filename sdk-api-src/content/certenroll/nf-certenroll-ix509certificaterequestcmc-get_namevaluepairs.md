@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_NameValuePairs
 title: IX509CertificateRequestCmc::get_NameValuePairs (certenroll.h)
-
 description: Retrieves an IX509NameValuePairs collection associated with a certificate request.
 old-location: security\ix509certificaterequestcmc_namevaluepairs_property.htm
 tech.root: seccertenroll
 ms.assetid: 3b98629e-a501-4ba0-8825-0cab7187d6f5
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCmc interface [Security],NameValuePairs property, IX509CertificateRequestCmc.NameValuePairs, IX509CertificateRequestCmc.get_NameValuePairs, IX509CertificateRequestCmc::NameValuePairs, IX509CertificateRequestCmc::get_NameValuePairs, NameValuePairs property [Security], NameValuePairs property [Security],IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::NameValuePairs, certenroll/IX509CertificateRequestCmc::get_NameValuePairs, get_NameValuePairs, security.ix509certificaterequestcmc_namevaluepairs_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequestCmc.NameValuePairs"
+f1_keywords:
+- certenroll/IX509CertificateRequestCmc.NameValuePairs
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequestCmc.NameValuePairs
- - IX509CertificateRequestCmc.get_NameValuePairs
+- IX509CertificateRequestCmc.NameValuePairs
+- IX509CertificateRequestCmc.get_NameValuePairs
 targetos: Windows
 req.typenames: 
 req.redist: 

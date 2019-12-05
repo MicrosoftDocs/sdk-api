@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.DefMDIChildProcW
 title: DefMDIChildProcW function (winuser.h)
-
 description: Provides default processing for any window message that the window procedure of a multiple-document interface (MDI) child window does not process.
 old-location: winmsg\defmdichildproc.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\multipledocumentinterface\multipledocumentinterfacereference\multipledocumentinterfacefunctions\defmdichildproc.htm
-
 ms.date: 12/05/2018
 ms.keywords: DefMDIChildProc, DefMDIChildProc function [Windows and Messages], DefMDIChildProcA, DefMDIChildProcW, _win32_DefMDIChildProc, _win32_defmdichildproc_cpp, winmsg.defmdichildproc, winui._win32_defmdichildproc, winuser/DefMDIChildProc, winuser/DefMDIChildProcA, winuser/DefMDIChildProcW
 ms.topic: function
-f1_keywords: 
- - "winuser/DefMDIChildProc"
+f1_keywords:
+- winuser/DefMDIChildProc
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - DefMDIChildProc
- - DefMDIChildProcA
- - DefMDIChildProcW
+- DefMDIChildProc
+- DefMDIChildProcA
+- DefMDIChildProcW
 targetos: Windows
 req.typenames: 
 req.redist: 

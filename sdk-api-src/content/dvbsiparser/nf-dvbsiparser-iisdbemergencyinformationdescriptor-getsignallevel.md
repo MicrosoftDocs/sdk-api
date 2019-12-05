@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbEmergencyInformationDescriptor.GetSignalLevel
 title: IIsdbEmergencyInformationDescriptor::GetSignalLevel (dvbsiparser.h)
-
 description: Gets a flag that indicates the emergency alarm signal type from an emergency information descriptor.
 old-location: mstv\iisdbemergencyinformationdescriptor_getsignallevel.htm
 tech.root: mstv
 ms.assetid: cf0c8d51-4ec8-4dad-8ef3-f18339ed0c0c
-
 ms.date: 12/05/2018
 ms.keywords: GetSignalLevel, GetSignalLevel method [Microsoft TV Technologies], GetSignalLevel method [Microsoft TV Technologies],IIsdbEmergencyInformationDescriptor interface, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],GetSignalLevel method, IIsdbEmergencyInformationDescriptor.GetSignalLevel, IIsdbEmergencyInformationDescriptor::GetSignalLevel, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetSignalLevel, mstv.iisdbemergencyinformationdescriptor_getsignallevel
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbEmergencyInformationDescriptor.GetSignalLevel"
+f1_keywords:
+- dvbsiparser/IIsdbEmergencyInformationDescriptor.GetSignalLevel
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbEmergencyInformationDescriptor.GetSignalLevel
+- IIsdbEmergencyInformationDescriptor.GetSignalLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

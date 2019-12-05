@@ -1,19 +1,17 @@
 ---
 UID: NS:htmlhelp.tagHH_WINTYPE
 title: HH_WINTYPE (htmlhelp.h)
-
 description: Use this structure to specify or modify the attributes of a window type.
 old-location: htmlhelp\hh_wintype_structure.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\vsconstrhhwintype.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PHH_WINTYPE, HH_WINTYPE, HH_WINTYPE structure [HTML Help Workshop], htmlhelp.hh_wintype_structure, htmlhelp/HH_WINTYPE, vsconStrhhwintype"
+ms.keywords: '*PHH_WINTYPE, HH_WINTYPE, HH_WINTYPE structure [HTML Help Workshop], htmlhelp.hh_wintype_structure, htmlhelp/HH_WINTYPE, vsconStrhhwintype'
 ms.topic: struct
-f1_keywords: 
- - "htmlhelp/HH_WINTYPE"
+f1_keywords:
+- htmlhelp/HH_WINTYPE
 dev_langs:
- - c++
+- c++
 req.header: htmlhelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - HtmlHelp.h
+- HtmlHelp.h
 api_name:
- - HH_WINTYPE
+- HH_WINTYPE
 targetos: Windows
 req.typenames: HH_WINTYPE, *PHH_WINTYPE
 req.redist: 

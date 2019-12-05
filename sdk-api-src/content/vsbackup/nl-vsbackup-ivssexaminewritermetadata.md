@@ -1,19 +1,17 @@
 ---
 UID: NL:vsbackup.IVssExamineWriterMetadata
 title: IVssExamineWriterMetadata (vsbackup.h)
-
 description: The IVssExamineWriterMetadata interface is a C++ (not COM) interface that allows a requester to examine the metadata of a specific writer instance.
 old-location: base\ivssexaminewritermetadata.htm
 tech.root: VSS
 ms.assetid: b3aa04d9-7299-4e3a-b092-d07f2de6eefe
-
 ms.date: 12/05/2018
 ms.keywords: IVssExamineWriterMetadata, IVssExamineWriterMetadata interface [VSS], IVssExamineWriterMetadata interface [VSS],described, _win32_ivssexaminewritermetadata, base.ivssexaminewritermetadata, vsbackup/IVssExamineWriterMetadata
 ms.topic: class
-f1_keywords: 
- - "vsbackup/IVssExamineWriterMetadata"
+f1_keywords:
+- vsbackup/IVssExamineWriterMetadata
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssExamineWriterMetadata
+- IVssExamineWriterMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 

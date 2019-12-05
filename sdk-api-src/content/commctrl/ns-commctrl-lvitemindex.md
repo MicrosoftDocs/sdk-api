@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagLVITEMINDEX
 title: LVITEMINDEX (commctrl.h)
-
 description: Contains index information about a list-view item.
 old-location: controls\LVITEMINDEX.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvitemindex.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PLVITEMINDEX, LVITEMINDEX, LVITEMINDEX structure [Windows Controls], PLVITEMINDEX, PLVITEMINDEX structure pointer [Windows Controls], _shell_LVITEMINDEX, _shell_LVITEMINDEX_cpp, commctrl/LVITEMINDEX, commctrl/PLVITEMINDEX, controls.LVITEMINDEX, controls._shell_LVITEMINDEX"
+ms.keywords: '*PLVITEMINDEX, LVITEMINDEX, LVITEMINDEX structure [Windows Controls], PLVITEMINDEX, PLVITEMINDEX structure pointer [Windows Controls], _shell_LVITEMINDEX, _shell_LVITEMINDEX_cpp, commctrl/LVITEMINDEX, commctrl/PLVITEMINDEX, controls.LVITEMINDEX, controls._shell_LVITEMINDEX'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/LVITEMINDEX"
+f1_keywords:
+- commctrl/LVITEMINDEX
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - LVITEMINDEX
+- LVITEMINDEX
 targetos: Windows
 req.typenames: LVITEMINDEX, *PLVITEMINDEX
 req.redist: 

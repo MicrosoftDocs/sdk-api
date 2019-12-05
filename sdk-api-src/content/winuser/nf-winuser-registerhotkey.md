@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.RegisterHotKey
 title: RegisterHotKey function (winuser.h)
-
 description: Defines a system-wide hot key.
 old-location: inputdev\registerhotkey.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\registerhotkey.htm
-
 ms.date: 12/05/2018
 ms.keywords: MOD_ALT, MOD_CONTROL, MOD_NOREPEAT, MOD_SHIFT, MOD_WIN, RegisterHotKey, RegisterHotKey function [Keyboard and Mouse Input], _win32_RegisterHotKey, _win32_registerhotkey_cpp, inputdev.registerhotkey, winui._win32_registerhotkey, winuser/RegisterHotKey
 ms.topic: function
-f1_keywords: 
- - "winuser/RegisterHotKey"
+f1_keywords:
+- winuser/RegisterHotKey
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
- - Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
- - Ext-MS-Win-RTCore-NTUser-iam-l1-1-0.dll
- - ext-ms-win-ntuser-keyboard-l1-1-2.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
- - Ext-MS-Win-RTCore-NTUser-Iam-L1-1-1.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
+- Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
+- Ext-MS-Win-RTCore-NTUser-iam-l1-1-0.dll
+- ext-ms-win-ntuser-keyboard-l1-1-2.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
+- Ext-MS-Win-RTCore-NTUser-Iam-L1-1-1.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
 api_name:
- - RegisterHotKey
+- RegisterHotKey
 targetos: Windows
 req.typenames: 
 req.redist: 

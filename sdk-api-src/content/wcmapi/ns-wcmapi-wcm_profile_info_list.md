@@ -1,19 +1,17 @@
 ---
 UID: NS:wcmapi._WCM_PROFILE_INFO_LIST
 title: WCM_PROFILE_INFO_LIST (wcmapi.h)
-
 description: Contains a list of profiles in preferred order.
 old-location: wcm\wcm_profile_info_list.htm
 tech.root: wcm
 ms.assetid: 73ddb610-233a-470b-900d-ae62a1e7121a
-
 ms.date: 12/05/2018
 ms.keywords: '*PWCM_PROFILE_INFO_LIST, PWCM_PROFILE_INFO_LIST, PWCM_PROFILE_INFO_LIST structure pointer [Windows Connection Manager], WCM_PROFILE_INFO_LIST, WCM_PROFILE_INFO_LIST structure [Windows Connection Manager], wcm.wcm_profile_info_list, wcmapi/PWCM_PROFILE_INFO_LIST, wcmapi/WCM_PROFILE_INFO_LIST'
 ms.topic: struct
 f1_keywords:
 - wcmapi/WCM_PROFILE_INFO_LIST
 dev_langs:
- - c++
+- c++
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NN:audioclient.IAudioCaptureClient
 title: IAudioCaptureClient (audioclient.h)
-
 description: The IAudioCaptureClient interface enables a client to read input data from a capture endpoint buffer.
 old-location: coreaudio\iaudiocaptureclient.htm
 tech.root: CoreAudio
 ms.assetid: c0fa6841-56bf-421e-9949-c6a037cf9fd4
-
 ms.date: 12/05/2018
 ms.keywords: IAudioCaptureClient, IAudioCaptureClient interface [Core Audio], IAudioCaptureClient interface [Core Audio],described, audioclient/IAudioCaptureClient, coreaudio.iaudiocaptureclient
 ms.topic: interface
-f1_keywords: 
- - "audioclient/IAudioCaptureClient"
+f1_keywords:
+- audioclient/IAudioCaptureClient
 dev_langs:
- - c++
+- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioclient.h
+- Audioclient.h
 api_name:
- - IAudioCaptureClient
+- IAudioCaptureClient
 targetos: Windows
 req.typenames: 
 req.redist: 

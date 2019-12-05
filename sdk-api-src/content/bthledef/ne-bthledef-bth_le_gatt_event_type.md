@@ -1,19 +1,17 @@
 ---
 UID: NE:bthledef._BTH_LE_GATT_EVENT_TYPE
 title: BTH_LE_GATT_EVENT_TYPE (bthledef.h)
-
 description: The BTH_LE_GATT_EVENT_TYPE enumeration describes the different types of Bluetooth Low Energy (LE) generic attribute (GATT) profile events.
 old-location: bltooth\bth_le_gatt_event_type.htm
 tech.root: bltooth
 ms.assetid: 6AF30DEA-2018-4AA2-B13A-BD31BD641F9F
-
 ms.date: 12/05/2018
 ms.keywords: BTH_LE_GATT_EVENT_TYPE, BTH_LE_GATT_EVENT_TYPE enumeration [Bluetooth Devices], CharacteristicValueChangedEvent, bltooth.bth_le_gatt_event_type, bthledef/BTH_LE_GATT_EVENT_TYPE, bthledef/CharacteristicValueChangedEvent
 ms.topic: enum
-f1_keywords: 
- - "bthledef/BTH_LE_GATT_EVENT_TYPE"
+f1_keywords:
+- bthledef/BTH_LE_GATT_EVENT_TYPE
 dev_langs:
- - c++
+- c++
 req.header: bthledef.h
 req.include-header: BthLEDef.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - BthLEDef.h
+- BthLEDef.h
 api_name:
- - BTH_LE_GATT_EVENT_TYPE
+- BTH_LE_GATT_EVENT_TYPE
 targetos: Windows
 req.typenames: BTH_LE_GATT_EVENT_TYPE
 req.redist: 

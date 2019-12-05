@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplication.OpenRole
 title: IAzApplication::OpenRole (azroles.h)
-
 description: Opens an IAzRole object with the specified name.
 old-location: security\iazapplication_openrole.htm
 tech.root: SecAuthZ
 ms.assetid: 483c5b08-2f40-4ba6-afa0-ede596df8495
-
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],OpenRole method, IAzApplication interface [Security],OpenRole method, IAzApplication.OpenRole, IAzApplication::OpenRole, OpenRole, OpenRole method [Security], OpenRole method [Security],AzApplication object, OpenRole method [Security],IAzApplication interface, azroles/IAzApplication::OpenRole, security.iazapplication_openrole
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplication.OpenRole"
+f1_keywords:
+- azroles/IAzApplication.OpenRole
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplication.OpenRole
- - AzApplication.OpenRole
+- IAzApplication.OpenRole
+- AzApplication.OpenRole
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

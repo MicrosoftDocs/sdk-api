@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_INPUT_CLASSIFICATION
 title: D3D12_INPUT_CLASSIFICATION (d3d12.h)
-
 description: Identifies the type of data contained in an input slot.
 old-location: direct3d12\d3d12_input_classification.htm
 tech.root: direct3d12
 ms.assetid: 09A14704-2E0B-4994-BED4-94F933A47317
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_INPUT_CLASSIFICATION, D3D12_INPUT_CLASSIFICATION enumeration, D3D12_INPUT_CLASSIFICATION_PER_INSTANCE_DATA, D3D12_INPUT_CLASSIFICATION_PER_VERTEX_DATA, d3d12/D3D12_INPUT_CLASSIFICATION, d3d12/D3D12_INPUT_CLASSIFICATION_PER_INSTANCE_DATA, d3d12/D3D12_INPUT_CLASSIFICATION_PER_VERTEX_DATA, direct3d12.d3d12_input_classification
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_INPUT_CLASSIFICATION"
+f1_keywords:
+- d3d12/D3D12_INPUT_CLASSIFICATION
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_INPUT_CLASSIFICATION
+- D3D12_INPUT_CLASSIFICATION
 targetos: Windows
 req.typenames: D3D12_INPUT_CLASSIFICATION
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataReaderInfo.GetPatterns
 title: IWICMetadataReaderInfo::GetPatterns (wincodecsdk.h)
-
 description: Gets the metadata patterns associated with the metadata reader.
 old-location: wic\_wic_codec_iwicmetadatareaderinfo_getpatterns.htm
 tech.root: wic
 ms.assetid: bc0033f7-801d-4ae0-a2cb-bdda25303476
-
 ms.date: 12/05/2018
 ms.keywords: GetPatterns, GetPatterns method [Windows Imaging Component], GetPatterns method [Windows Imaging Component],IWICMetadataReaderInfo interface, IWICMetadataReaderInfo interface [Windows Imaging Component],GetPatterns method, IWICMetadataReaderInfo.GetPatterns, IWICMetadataReaderInfo::GetPatterns, _wic_codec_iwicmetadatareaderinfo_getpatterns, wic._wic_codec_iwicmetadatareaderinfo_getpatterns, wincodecsdk/IWICMetadataReaderInfo::GetPatterns
 ms.topic: method
-f1_keywords: 
- - "wincodecsdk/IWICMetadataReaderInfo.GetPatterns"
+f1_keywords:
+- wincodecsdk/IWICMetadataReaderInfo.GetPatterns
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICMetadataReaderInfo.GetPatterns
+- IWICMetadataReaderInfo.GetPatterns
 targetos: Windows
 req.typenames: 
 req.redist: 

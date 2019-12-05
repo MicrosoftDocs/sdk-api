@@ -1,19 +1,17 @@
 ---
 UID: NF:winerror.HRESULT_FROM_WIN32
 title: HRESULT_FROM_WIN32 macro (winerror.h)
-
 description: Maps a system error code to an HRESULT value.
 old-location: com\hresult_from_win32_macro.htm
 tech.root: com
 ms.assetid: 40e6f80d-a778-4d5f-bb1b-db294815f8b5
-
 ms.date: 12/05/2018
 ms.keywords: HRESULT_FROM_WIN32, HRESULT_FROM_WIN32 macro [COM], _com_HRESULT_FROM_WIN32, com.hresult_from_win32, com.hresult_from_win32_macro, winerror/HRESULT_FROM_WIN32
 ms.topic: macro
-f1_keywords: 
- - "winerror/HRESULT_FROM_WIN32"
+f1_keywords:
+- winerror/HRESULT_FROM_WIN32
 dev_langs:
- - c++
+- c++
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winerror.h
+- Winerror.h
 api_name:
- - HRESULT_FROM_WIN32
+- HRESULT_FROM_WIN32
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbTerrestrialDeliverySystemDescriptor.GetBandwidth
 title: IDvbTerrestrialDeliverySystemDescriptor::GetBandwidth (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbterrestrialdeliverysystemdescriptor_getbandwidth.htm
 tech.root: mstv
 ms.assetid: 60efabb7-82bd-4b1f-991e-854c1a8b75ce
-
 ms.date: 12/05/2018
 ms.keywords: GetBandwidth, GetBandwidth method [Microsoft TV Technologies], GetBandwidth method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetBandwidth method, IDvbTerrestrialDeliverySystemDescriptor.GetBandwidth, IDvbTerrestrialDeliverySystemDescriptor::GetBandwidth, IDvbTerrestrialDeliverySystemDescriptorGetBandwidth, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetBandwidth, mstv.idvbterrestrialdeliverysystemdescriptor_getbandwidth
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor.GetBandwidth"
+f1_keywords:
+- dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor.GetBandwidth
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbTerrestrialDeliverySystemDescriptor.GetBandwidth
+- IDvbTerrestrialDeliverySystemDescriptor.GetBandwidth
 targetos: Windows
 req.typenames: 
 req.redist: 

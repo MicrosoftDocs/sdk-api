@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventPublisher.GetDefaultProperty
 title: IEventPublisher::GetDefaultProperty (eventsys.h)
-
 description: Retrieves a named property and its value from the property bag associated with the event publisher.
 old-location: com\ieventpublisher_getdefaultproperty.htm
 tech.root: com
 ms.assetid: 5d9adc4f-30c9-42bd-89c9-e35384885b8c
-
 ms.date: 12/05/2018
 ms.keywords: GetDefaultProperty, GetDefaultProperty method [COM], GetDefaultProperty method [COM],IEventPublisher interface, IEventPublisher interface [COM],GetDefaultProperty method, IEventPublisher.GetDefaultProperty, IEventPublisher::GetDefaultProperty, _com_ieventpublisher_getdefaultproperty, com.ieventpublisher_getdefaultproperty, eventsys/IEventPublisher::GetDefaultProperty
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventPublisher.GetDefaultProperty"
+f1_keywords:
+- eventsys/IEventPublisher.GetDefaultProperty
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IEventPublisher.GetDefaultProperty
+- IEventPublisher.GetDefaultProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

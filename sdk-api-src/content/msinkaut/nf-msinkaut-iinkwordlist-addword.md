@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkWordList.AddWord
 title: IInkWordList::AddWord (msinkaut.h)
-
 description: Adds a single word to the InkWordList object.
 old-location: tablet\inkwordlist_addword.htm
 tech.root: tablet
 ms.assetid: bc1a5901-9a31-4f1b-bdbb-47316d0ab9e4
-
 ms.date: 12/05/2018
 ms.keywords: AddWord, AddWord method [Tablet PC], AddWord method [Tablet PC],IInkWordList interface, AddWord method [Tablet PC],InkWordList class, IInkWordList, IInkWordList interface [Tablet PC],AddWord method, IInkWordList.AddWord, IInkWordList::AddWord, InkWordList class [Tablet PC],AddWord method, bc1a5901-9a31-4f1b-bdbb-47316d0ab9e4, msinkaut/IInkWordList::AddWord, tablet.inkwordlist_addword
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkWordList.AddWord"
+f1_keywords:
+- msinkaut/IInkWordList.AddWord
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkWordList.AddWord
- - InkWordList.AddWord
+- IInkWordList.AddWord
+- InkWordList.AddWord
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfPropertyStore.GetType
 title: ITfPropertyStore::GetType (msctf.h)
-
 description: ITfPropertyStore::GetType method
 old-location: tsf\itfpropertystore_gettype.htm
 tech.root: TSF
 ms.assetid: e0b6b1b7-1994-4876-9f15-7e1c6a4f0e4b
-
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Text Services Framework], GetType method [Text Services Framework],ITfPropertyStore interface, ITfPropertyStore interface [Text Services Framework],GetType method, ITfPropertyStore.GetType, ITfPropertyStore::GetType, _tsf_itfpropertystore_gettype_ref, msctf/ITfPropertyStore::GetType, tsf.itfpropertystore_gettype
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfPropertyStore.GetType"
+f1_keywords:
+- msctf/ITfPropertyStore.GetType
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfPropertyStore.GetType
+- ITfPropertyStore.GetType
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

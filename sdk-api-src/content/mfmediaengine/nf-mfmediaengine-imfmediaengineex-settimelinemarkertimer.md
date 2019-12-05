@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.SetTimelineMarkerTimer
 title: IMFMediaEngineEx::SetTimelineMarkerTimer (mfmediaengine.h)
-
 description: Specifies a presentation time when the Media Engine will send a marker event.
 old-location: mf\imfmediaengineex_settimelinemarkertimer.htm
 tech.root: medfound
 ms.assetid: 2FD65E4A-C70A-4CB4-9038-3A8B791E251C
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetTimelineMarkerTimer method, IMFMediaEngineEx.SetTimelineMarkerTimer, IMFMediaEngineEx::SetTimelineMarkerTimer, SetTimelineMarkerTimer, SetTimelineMarkerTimer method [Media Foundation], SetTimelineMarkerTimer method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_settimelinemarkertimer, mfmediaengine/IMFMediaEngineEx::SetTimelineMarkerTimer
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineEx.SetTimelineMarkerTimer"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineEx.SetTimelineMarkerTimer
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineEx.SetTimelineMarkerTimer
+- IMFMediaEngineEx.SetTimelineMarkerTimer
 targetos: Windows
 req.typenames: 
 req.redist: 

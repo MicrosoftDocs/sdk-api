@@ -1,19 +1,17 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingLibraryName
 title: IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingLibraryName (wmlss.h)
-
 description: The put_userHomeMediaSharingLibraryName method sets the name of the current user's shared media library.
 old-location: wmlss\IWMLSSput_userHomeMediaSharingLibraryName.htm
 tech.root: WMLSS
 ms.assetid: e3f2863f-4a0d-4896-967f-4daa164bae3b
-
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],put_userHomeMediaSharingLibraryName method, IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingLibraryName, IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingLibraryName, put_userHomeMediaSharingLibraryName, put_userHomeMediaSharingLibraryName method [Windows Media Library Sharing Services], put_userHomeMediaSharingLibraryName method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSput_userHomeMediaSharingLibraryName, wmlss/IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingLibraryName
 ms.topic: method
-f1_keywords: 
- - "wmlss/IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingLibraryName"
+f1_keywords:
+- wmlss/IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingLibraryName
 dev_langs:
- - c++
+- c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: WMPMediaSharing.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMPMediaSharing.dll
+- WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingLibraryName
+- IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingLibraryName
 targetos: Windows
 req.typenames: 
 req.redist: 

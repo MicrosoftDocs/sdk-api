@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMSHORT4.XMSHORT4(uint64_t)
 title: XMSHORT4::XMSHORT4(uint64_t) (directxpackedvector.h)
-
 description: A constructor for XMSHORT4.
 old-location: 
 tech.root: dxmath
 ms.assetid: 
-
 ms.date: 05/06/2019
 ms.keywords: XMSHORT4, XMSHORT4 constructor [DirectX Math Support APIs], XMSHORT4 constructor [DirectX Math Support APIs],XMSHORT4 structure, XMSHORT4 structure [DirectX Math Support APIs],XMSHORT4 constructor, XMSHORT4.XMSHORT4, XMSHORT4.XMSHORT4(), XMSHORT4.XMSHORT4(uint64_t), XMSHORT4::XMSHORT4, XMSHORT4::XMSHORT4(uint64_t), dxmath.xmshort4_ctor_1
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMSHORT4.XMSHORT4"
+f1_keywords:
+- directxpackedvector/XMSHORT4.XMSHORT4
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMSHORT4.XMSHORT4
+- XMSHORT4.XMSHORT4
 targetos: Windows
 req.typenames: 
 req.redist: 

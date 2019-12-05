@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddEllipse(IN const Rect &)
 title: GraphicsPath::AddEllipse(IN const Rect &) (gdipluspath.h)
-
 description: The GraphicsPath::AddEllipse method adds an ellipse to this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddEllipse_Rect_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddellipsemethods\addellipse.htm
-
 ms.date: 12/05/2018
 ms.keywords: AddEllipse, AddEllipse method [GDI+], AddEllipse method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddEllipse method, GraphicsPath.AddEllipse, GraphicsPath.AddEllipse(IN const Rect &), GraphicsPath.AddEllipse(const Rect&), GraphicsPath::AddEllipse, GraphicsPath::AddEllipse(IN const Rect &), _gdiplus_CLASS_GraphicsPath_AddEllipse_Rect_rect_, gdiplus._gdiplus_CLASS_GraphicsPath_AddEllipse_Rect_rect_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPath.AddEllipse"
+f1_keywords:
+- gdipluspath/GraphicsPath.AddEllipse
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPath.AddEllipse
+- GraphicsPath.AddEllipse
 targetos: Windows
 req.typenames: 
 req.redist: 

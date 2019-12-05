@@ -1,19 +1,17 @@
 ---
 UID: NS:mstask._MONTHLYDATE
 title: MONTHLYDATE (mstask.h)
-
 description: Defines the day of the month the task will run.
 old-location: taskschd\monthlydate.htm
 tech.root: taskschd
 ms.assetid: 51d010c9-4e16-49b7-8034-dfb27761c6a6
-
 ms.date: 12/05/2018
 ms.keywords: MONTHLYDATE, MONTHLYDATE structure [Task Scheduler], TASK_APRIL, TASK_AUGUST, TASK_DECEMBER, TASK_FEBRUARY, TASK_JANUARY, TASK_JULY, TASK_JUNE, TASK_MARCH, TASK_MAY, TASK_NOVEMBER, TASK_OCTOBER, TASK_SEPTEMBER, _msb_monthlydate, mstask/MONTHLYDATE, taskschd.monthlydate, triggers [Task Scheduler],structures,MONTHLYDATE
 ms.topic: struct
 f1_keywords:
 - mstask/MONTHLYDATE
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

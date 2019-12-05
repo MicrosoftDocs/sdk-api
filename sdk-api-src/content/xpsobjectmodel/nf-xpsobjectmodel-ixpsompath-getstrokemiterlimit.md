@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeMiterLimit
 title: IXpsOMPath::GetStrokeMiterLimit (xpsobjectmodel.h)
-
 description: Gets the miter limit value that is set for the stroke.
 old-location: xps\ixpsompath_getstrokemiterlimit.htm
 tech.root: printdocs
 ms.assetid: 4271c7ff-636c-4ab0-b83f-90c769baf74c
-
 ms.date: 12/05/2018
 ms.keywords: GetStrokeMiterLimit, GetStrokeMiterLimit method [XPS Documents and Packaging], GetStrokeMiterLimit method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeMiterLimit method, IXpsOMPath.GetStrokeMiterLimit, IXpsOMPath::GetStrokeMiterLimit, xps.ixpsompath_getstrokemiterlimit, xpsobjectmodel/IXpsOMPath::GetStrokeMiterLimit
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPath.GetStrokeMiterLimit"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPath.GetStrokeMiterLimit
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPath.GetStrokeMiterLimit
+- IXpsOMPath.GetStrokeMiterLimit
 targetos: Windows
 req.typenames: 
 req.redist: 

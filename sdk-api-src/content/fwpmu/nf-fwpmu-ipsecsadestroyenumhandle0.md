@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.IPsecSaDestroyEnumHandle0
 title: IPsecSaDestroyEnumHandle0 function (fwpmu.h)
-
 description: Frees a handle returned by IPsecSaCreateEnumHandle0.
 old-location: fwp\ipsecsadestroyenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: acd02e35-0bcb-4882-9b85-b29a558d34b7
-
 ms.date: 12/05/2018
 ms.keywords: IPsecSaDestroyEnumHandle0, IPsecSaDestroyEnumHandle0 function [Filtering], fwp.ipsecsadestroyenumhandle0_func, fwpmu/IPsecSaDestroyEnumHandle0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/IPsecSaDestroyEnumHandle0"
+f1_keywords:
+- fwpmu/IPsecSaDestroyEnumHandle0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - IPsecSaDestroyEnumHandle0
+- IPsecSaDestroyEnumHandle0
 targetos: Windows
 req.typenames: 
 req.redist: 

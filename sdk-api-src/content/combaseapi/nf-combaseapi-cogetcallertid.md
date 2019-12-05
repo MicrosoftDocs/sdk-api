@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoGetCallerTID
 title: CoGetCallerTID function (combaseapi.h)
-
 description: Returns a pointer to a DWORD that contains the apartment ID of the caller's thread.
 old-location: com\cogetcallertid.htm
 tech.root: com
 ms.assetid: 3a34001b-6286-4103-ae9f-700ea101dc17
-
 ms.date: 12/05/2018
 ms.keywords: CoGetCallerTID, CoGetCallerTID function [COM], _com_CoGetCallerTID, com.cogetcallertid, combaseapi/CoGetCallerTID
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoGetCallerTID"
+f1_keywords:
+- combaseapi/CoGetCallerTID
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoGetCallerTID
+- CoGetCallerTID
 targetos: Windows
 req.typenames: 
 req.redist: 

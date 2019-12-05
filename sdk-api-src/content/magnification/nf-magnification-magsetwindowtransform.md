@@ -1,19 +1,17 @@
 ---
 UID: NF:magnification.MagSetWindowTransform
 title: MagSetWindowTransform function (magnification.h)
-
 description: Sets the transformation matrix for a magnifier control.
 old-location: magapi\magapi_MagSetWindowTransform.htm
 tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\magsetwindowtransform.htm
-
 ms.date: 12/05/2018
 ms.keywords: MagSetWindowTransform, MagSetWindowTransform function [Magnification API], magapi.magapi_MagSetWindowTransform, magapi_MagSetWindowTransform, magnification/MagSetWindowTransform
 ms.topic: function
-f1_keywords: 
- - "magnification/MagSetWindowTransform"
+f1_keywords:
+- magnification/MagSetWindowTransform
 dev_langs:
- - c++
+- c++
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Magnification.lib
 req.dll: Magnification.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Magnification.dll
+- Magnification.dll
 api_name:
- - MagSetWindowTransform
+- MagSetWindowTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

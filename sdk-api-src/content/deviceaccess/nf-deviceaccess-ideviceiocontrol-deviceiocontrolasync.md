@@ -1,19 +1,17 @@
 ---
 UID: NF:deviceaccess.IDeviceIoControl.DeviceIoControlAsync
 title: IDeviceIoControl::DeviceIoControlAsync (deviceaccess.h)
-
 description: The DeviceIoControlAsync method sends an asynchronous device input/output (I/O) control request to the device interface that the call to the CreateDeviceAccessInstance function specified.
 old-location: deviceaccess\ideviceiocontrol_deviceiocontrolasync.htm
 tech.root: deviceaccess
 ms.assetid: 550eadd0-c03b-40b3-9f08-639085365f4b
-
 ms.date: 12/05/2018
 ms.keywords: DeviceIoControlAsync, DeviceIoControlAsync method [Device Access Broker API], DeviceIoControlAsync method [Device Access Broker API],IDeviceIoControl interface, IDeviceIoControl interface [Device Access Broker API],DeviceIoControlAsync method, IDeviceIoControl.DeviceIoControlAsync, IDeviceIoControl::DeviceIoControlAsync, deviceaccess.ideviceiocontrol_deviceiocontrolasync, deviceaccess/IDeviceIoControl::DeviceIoControlAsync
 ms.topic: method
-f1_keywords: 
- - "deviceaccess/IDeviceIoControl.DeviceIoControlAsync"
+f1_keywords:
+- deviceaccess/IDeviceIoControl.DeviceIoControlAsync
 dev_langs:
- - c++
+- c++
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Deviceaccess.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Deviceaccess.lib
- - Deviceaccess.dll
+- Deviceaccess.lib
+- Deviceaccess.dll
 api_name:
- - IDeviceIoControl.DeviceIoControlAsync
+- IDeviceIoControl.DeviceIoControlAsync
 targetos: Windows
 req.typenames: 
 req.redist: 

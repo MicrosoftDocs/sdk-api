@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.IAtscContentAdvisoryDescriptor.GetRecordRatingDescriptionText
 title: IAtscContentAdvisoryDescriptor::GetRecordRatingDescriptionText (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsccontentadvisorydescriptor_getrecordratingdescriptiontext.htm
 tech.root: mstv
 ms.assetid: 8a94a7ee-1909-4853-a72b-1174ee3c7803
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordRatingDescriptionText, GetRecordRatingDescriptionText method [Microsoft TV Technologies], GetRecordRatingDescriptionText method [Microsoft TV Technologies],IAtscContentAdvisoryDescriptor interface, IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies],GetRecordRatingDescriptionText method, IAtscContentAdvisoryDescriptor.GetRecordRatingDescriptionText, IAtscContentAdvisoryDescriptor::GetRecordRatingDescriptionText, IAtscContentAdvisoryDescriptorGetRecordRatingDescriptionText, atscpsipparser/IAtscContentAdvisoryDescriptor::GetRecordRatingDescriptionText, mstv.iatsccontentadvisorydescriptor_getrecordratingdescriptiontext
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/IAtscContentAdvisoryDescriptor.GetRecordRatingDescriptionText"
+f1_keywords:
+- atscpsipparser/IAtscContentAdvisoryDescriptor.GetRecordRatingDescriptionText
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IAtscContentAdvisoryDescriptor.GetRecordRatingDescriptionText
+- IAtscContentAdvisoryDescriptor.GetRecordRatingDescriptionText
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:projectedfslib.PRJ_COMPLETE_COMMAND_TYPE
 title: PRJ_COMPLETE_COMMAND_TYPE (projectedfslib.h)
-
 description: Specifies command types.
 old-location: projfs\prj_complete_command_type.htm
 tech.root: ProjFS
 ms.assetid: AE9CD44C-0E68-4E35-8A7E-89B33E796AF0
-
 ms.date: 12/05/2018
 ms.keywords: PRJ_COMPLETE_COMMAND_TYPE, PRJ_COMPLETE_COMMAND_TYPE enumeration, PRJ_COMPLETE_COMMAND_TYPE_ENUMERATION, PRJ_COMPLETE_COMMAND_TYPE_NOTIFICATION, ProjFS.prj_complete_command_type, projectedfslib/PRJ_COMPLETE_COMMAND_TYPE, projectedfslib/PRJ_COMPLETE_COMMAND_TYPE_ENUMERATION, projectedfslib/PRJ_COMPLETE_COMMAND_TYPE_NOTIFICATION
 ms.topic: enum
-f1_keywords: 
- - "projectedfslib/PRJ_COMPLETE_COMMAND_TYPE"
+f1_keywords:
+- projectedfslib/PRJ_COMPLETE_COMMAND_TYPE
 dev_langs:
- - c++
+- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - projectedfslib.h
+- projectedfslib.h
 api_name:
- - PRJ_COMPLETE_COMMAND_TYPE
+- PRJ_COMPLETE_COMMAND_TYPE
 targetos: Windows
 req.typenames: PRJ_COMPLETE_COMMAND_TYPE
 req.redist: 

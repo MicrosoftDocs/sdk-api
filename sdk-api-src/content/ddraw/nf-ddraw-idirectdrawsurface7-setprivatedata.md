@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.SetPrivateData
 title: IDirectDrawSurface7::SetPrivateData (ddraw.h)
-
 description: Associates data with the surface that is intended for use by the application, not by DirectDraw. Data is passed by value, and multiple sets of data can be associated with a single surface.
 old-location: directdraw\idirectdrawsurface7_setprivatedata.htm
 tech.root: directdraw
 ms.assetid: 822e4533-9073-4590-844e-8830110e4e33
-
 ms.date: 12/05/2018
-ms.keywords: "(none), DDSPD_IUNKNOWNPOINTER, DDSPD_VOLATILE, IDirectDrawSurface7 interface [DirectDraw],SetPrivateData method, IDirectDrawSurface7.SetPrivateData, IDirectDrawSurface7::SetPrivateData, SetPrivateData, SetPrivateData method [DirectDraw], SetPrivateData method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::SetPrivateData, directdraw.idirectdrawsurface7_setprivatedata"
+ms.keywords: (none), DDSPD_IUNKNOWNPOINTER, DDSPD_VOLATILE, IDirectDrawSurface7 interface [DirectDraw],SetPrivateData method, IDirectDrawSurface7.SetPrivateData, IDirectDrawSurface7::SetPrivateData, SetPrivateData, SetPrivateData method [DirectDraw], SetPrivateData method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::SetPrivateData, directdraw.idirectdrawsurface7_setprivatedata
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDrawSurface7.SetPrivateData"
+f1_keywords:
+- ddraw/IDirectDrawSurface7.SetPrivateData
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawSurface7.SetPrivateData
+- IDirectDrawSurface7.SetPrivateData
 targetos: Windows
 req.typenames: 
 req.redist: 

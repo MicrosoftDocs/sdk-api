@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleItemContainer.GetObjectStorage
 title: IOleItemContainer::GetObjectStorage (oleidl.h)
-
 description: Retrieves a pointer to the storage for the specified object.
 old-location: com\ioleitemcontainer_getobjectstorage.htm
 tech.root: com
 ms.assetid: 13a094bc-bacc-40d5-9682-ecc6072966fa
-
 ms.date: 12/05/2018
 ms.keywords: GetObjectStorage, GetObjectStorage method [COM], GetObjectStorage method [COM],IOleItemContainer interface, IOleItemContainer interface [COM],GetObjectStorage method, IOleItemContainer.GetObjectStorage, IOleItemContainer::GetObjectStorage, _com_ioleitemcontainer_getobjectstorage, com.ioleitemcontainer_getobjectstorage, oleidl/IOleItemContainer::GetObjectStorage
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleItemContainer.GetObjectStorage"
+f1_keywords:
+- oleidl/IOleItemContainer.GetObjectStorage
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleItemContainer.GetObjectStorage
+- IOleItemContainer.GetObjectStorage
 targetos: Windows
 req.typenames: 
 req.redist: 
